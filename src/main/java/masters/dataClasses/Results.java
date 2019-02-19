@@ -10,12 +10,12 @@ import org.apache.log4j.Logger;
 // Container class that gathers information from SQL and controls access to the various data classes
 public class Results {
     private HashMap<String, Project> projects = new HashMap<>();
-    private int found = 0;
-    private int notFound = 0;
-    private Logger log;
+    private int FOUND = 0;
+    private int NOTFOUND = 0;
+    private Logger LOG;
 
     public Results(Logger log) {
-        this.log = log;
+        this.LOG = log;
     }
 
     public void consumeResults(ResultSet rs) throws SQLException {
@@ -23,7 +23,7 @@ public class Results {
         while (rs.next()) {
             count++;
             if (count % 100000 == 0)
-                log.info("Read in line: " + count);
+                LOG.info("Read in line: " + count);
 
             String name = rs.getString("ProjectName");
 
@@ -52,15 +52,15 @@ public class Results {
             if (rs.next()) {
                 String time = rs.getString("CreatedTimestamp");
                 if (time == null) {
-                    log.debug(String.format("%s version %s doesn't have a timestamp - rs.next okay%n", projectName, versionString));
+                    LOG.debug(String.format("%s version %s doesn't have a timestamp - rs.next okay%n", projectName, versionString));
                     throw new SQLException();
                 }
                 return time;
             } else {
-                log.debug(String.format("%s version %s doesn't have a timestamp%n", projectName, versionString));
+                LOG.debug(String.format("%s version %s doesn't have a timestamp%n", projectName, versionString));
             }
         } catch (SQLException e) {
-            log.debug(projectName + " " + versionString);
+            LOG.debug(projectName + " " + versionString);
             e.printStackTrace();
         }
         return "1970-01-01 01:01:01 UTC";
@@ -85,7 +85,7 @@ public class Results {
     }
 
     public void printProjectResults() {
-        log.info("There were " + getProjects().size() + " projects overall");
+        LOG.info("There were " + getProjects().size() + " projects overall");
         File dir = new File("../data/version-comps");
         if (!dir.exists())
             dir.mkdir();
@@ -106,28 +106,32 @@ public class Results {
                 version.getDependencies().forEach(dep -> {
                     Project p = this.getProjects().get(dep.getDep());
                     if (p == null) {
-                        log.trace(String.format("No project named %s%n", dep.getDep()));
+                        LOG.trace(String.format("No project named %s%n", dep.getDep()));
                         dependencyFound(false);
                         return;
                     }
                     ProjectVersionInfo vers = p.getVersions().get(dep.getVersion());
                     if (vers == null) {
-                        log.trace(String.format("No version %s in project named %s%n", dep.getVersion(), dep.getDep()));
+                        LOG.trace(String.format("No version %s in project named %s%n", dep.getVersion(), dep.getDep()));
                         dependencyFound(false);
                         return;
                     }
-                    log.trace(String.format("Project %s, Version %s present: TRUE %n", dep.getDep(), dep.getVersion()));
+                    LOG.trace(String.format("Project %s, Version %s present: TRUE %n", dep.getDep(), dep.getVersion()));
                     dependencyFound(true);
                 });
             });
         });
-        log.info(String.format("Dependencies found: %d, Not found: %d%n", this.found, this.notFound));
+        LOG.info(String.format("Dependencies FOUND: %d, Not FOUND: %d%n", this.FOUND, this.NOTFOUND));
     }
 
     private void dependencyFound(boolean found) {
-        if (found) this.found++;
-        else this.notFound++;
+        if (found) this.FOUND++;
+        else this.NOTFOUND++;
     }
+
+
+
+
 
     public HashMap<String, Project> getProjects() {
         return projects;

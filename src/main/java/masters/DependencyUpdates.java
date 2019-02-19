@@ -3,7 +3,6 @@ package masters;
 import utils.Database;
 import masters.dataClasses.*;
 
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -13,7 +12,7 @@ import org.apache.log4j.Logger;
 
 public class DependencyUpdates {
 
-    public static void main(String[] args) throws SQLException, IOException {
+    public static void main(String[] args) throws SQLException {
         Connection c = Database.getConnection();
         Logger log = Logging.getLogger("DependencyUpdates");
 
