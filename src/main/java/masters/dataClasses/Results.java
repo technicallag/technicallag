@@ -4,12 +4,14 @@ import java.io.File;
 import java.io.IOException;
 import java.sql.*;
 import java.util.HashMap;
+import java.util.HashSet;
 
 import org.apache.log4j.Logger;
 
 // Container class that gathers information from SQL and controls access to the various data classes
 public class Results {
     private HashMap<String, Project> projects = new HashMap<>();
+    private HashSet<String> projectPairs = new HashSet<>();
     private int FOUND = 0;
     private int NOTFOUND = 0;
     private Logger LOG;
@@ -72,6 +74,7 @@ public class Results {
                 // Get timestamps for each version that doesn't yet have them
                 if(versionObject.getTime() == null) {
                     versionObject.setTime(timestampFromDB(c, projectName, versionString));
+                    // Set timestamps of the dependencies as well
                     versionObject.getDependencies().forEach(dep -> {
                         dep.setTimestamp(timestampFromDB(c, dep.getDep(), dep.getVersion()));
                     });
@@ -117,6 +120,7 @@ public class Results {
                         return;
                     }
                     LOG.trace(String.format("Project %s, Version %s present: TRUE %n", dep.getDep(), dep.getVersion()));
+                    projectPairs.add(project.getName() + "::" + p.getName());
                     dependencyFound(true);
                 });
             });
@@ -129,10 +133,58 @@ public class Results {
         else this.NOTFOUND++;
     }
 
-
-
-
-
+    public void constructTimeline() {
+        // Where project a depends on project b
+        this.projectPairs.forEach(pair -> {
+            Project a = this.getProjects().get(pair.split("::")[0]);
+            Project b = this.getProjects().get(pair.split("::")[1]);
+            
+            ProjectVersionInfo aVersion = a.getFirstVersion();
+            ProjectVersionInfo bVersion = b.getFirstVersion();
+            
+            class Data implements Comparable<Data> {
+                Version v, dep;
+                Timestamp t, depTime;
+                Data (Version v, Timestamp t) {
+                    this.v = v;
+                    this.t = t;
+                }
+                Data(Version v, Timestamp t, Version dep, Timestamp depTime) {
+                    this.dep = dep;
+                    this.depTime = depTime;
+                    this(v, t);
+                }
+                public int compareTo(Data other) {
+                    return v.compareTo(other);
+                }
+            }
+            
+            // Go through linked list of project versions. Check for dependencies to project b
+            // Record version a and its timestamp. Record version b and its timestamp.
+            List<Data> firstTimeline = new ArrayList<>();
+            while (aVersion != null) {
+                Data data = null;
+                for (Dependency dep: aVersion.getDependencies()) {
+                    if (dep.getDep() == b.getName()) {
+                        data = new Data(aVersion.getVersion(), aVersion.getTime(), dep.getVersion(), dep.getTimestamp());
+                    }
+                }
+                firstTimeline.add(data != null ? data : new Data(aVersion.getVersion(), aVersion.getTime()));
+                aVersion = aVersion.getNext();
+            }       
+            
+            /*
+            What do I need here?
+            1. How often are the versions updated
+            2. How often is the dependency updated
+            3. How much lag is there between an updated version B and its dependency being updated in version A
+            4. Is the dependency updating to the newest version of B
+            5. How often do versions in A update so they can update B (rephrase)
+            */
+            
+        });
+    }
+    
     public HashMap<String, Project> getProjects() {
         return projects;
     }
