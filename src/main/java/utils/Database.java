@@ -2,8 +2,7 @@ package utils;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
+import java.sql.*;
 import java.util.Properties;
 
 public class Database {
@@ -33,6 +32,25 @@ public class Database {
             System.exit(1);
         }
         return properties;
+    }
+
+    public static String timestampFromDB(Connection c, String projectName, String versionString) {
+        try {
+            PreparedStatement stmt = c.prepareStatement("select * from versions where ProjectName = ? and Number = ?");
+            stmt.setString(1, projectName);
+            stmt.setString(2, versionString);
+            ResultSet rs = stmt.executeQuery();
+            if (rs.next()) {
+                String time = rs.getString("CreatedTimestamp");
+                if (time == null) {
+                    throw new SQLException();
+                }
+                return time;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return "1970-01-01 01:01:01 UTC";
     }
 
 }

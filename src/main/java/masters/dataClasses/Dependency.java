@@ -1,6 +1,8 @@
 package masters.dataClasses;
 
+import java.sql.Connection;
 import java.sql.Timestamp;
+import utils.Database;
 
 public class Dependency {
     private String dep;
@@ -53,8 +55,11 @@ public class Dependency {
         this.version = version;
     }
 
-    public Timestamp getTimestamp() {
-        return timestamp;
+    public String getTimestamp(Connection c) {
+        if (timestamp == null) {
+            setTimestamp(Database.timestampFromDB(c, dep, version));
+        }
+        return timestamp.toString();
     }
 
     public void setTimestamp(String timestamp) {

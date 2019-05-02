@@ -20,19 +20,22 @@ public class DependencyUpdates {
         c.setAutoCommit(false);
         Statement stmt = c.createStatement();
         stmt.setFetchSize(1000);
-        ResultSet rs = stmt.executeQuery("select * from dependencies where platform = 'Maven' fetch first 100 rows only");
+        ResultSet rs = stmt.executeQuery("select * from dependencies where platform = 'Maven'");
         log.info("DB loaded");
 
         Results results = new Results(log);
         results.consumeResults(rs);
+        c.close();
         log.info("Results consumed");
+
         results.compareProjects();
         log.info("Projects compared");
-        results.getTimestamps(c);
-        log.info("Timestamps attained");
+//        results.getTimestamps(c);
+//        log.info("Timestamps attained");
         results.checkDependenciesAreProjects();
-        log.info("Complete");
-
+        log.info("Got project pairs");
+        results.constructTimeline();
+        log.info("Timelines created");
     }
 
 }

@@ -1,20 +1,23 @@
 package masters.dataClasses;
 
+import utils.Database;
+
+import java.sql.Connection;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
 public class ProjectVersionInfo implements Comparable {
-    private Version versObject;
+    private Version version;
     private String versionString;
-    private Timestamp time = null;
+    private Timestamp timestamp = null;
     private HashSet<Dependency> dependencies = new HashSet<>();
     private List<DependencyVersionChange> changes = new ArrayList<>();
     private ProjectVersionInfo next = null;
 
     public ProjectVersionInfo(String versionString) {
-        this.versObject = Version.create(versionString);
+        this.version = Version.create(versionString);
         this.versionString = versionString;
     }
 
@@ -25,24 +28,24 @@ public class ProjectVersionInfo implements Comparable {
 
         ProjectVersionInfo version = (ProjectVersionInfo) o;
 
-        return versObject != null ? versObject.equals(version.versObject) : version.versObject == null;
+        return this.version != null ? this.version.equals(version.version) : version.version == null;
     }
 
     @Override
     public int hashCode() {
-        return versObject != null ? versObject.hashCode() : 0;
+        return version != null ? version.hashCode() : 0;
     }
 
     public int compareTo(Object other) {
-        return this.versObject.compareTo(((ProjectVersionInfo)other).versObject);
+        return this.version.compareTo(((ProjectVersionInfo)other).version);
     }
 
-    public Version getVersObject() {
-        return versObject;
+    public Version getVersion() {
+        return version;
     }
 
-    public void setVersObject(Version versObject) {
-        this.versObject = versObject;
+    public void setVersion(Version version) {
+        this.version = version;
     }
 
     public String getVersionString() {
@@ -69,12 +72,15 @@ public class ProjectVersionInfo implements Comparable {
         this.changes = changes;
     }
 
-    public Timestamp getTime() {
-        return time;
+    public String getTimestamp(Connection c, String project) {
+        if (timestamp == null) {
+            setTimestamp(Database.timestampFromDB(c, project, versionString));
+        }
+        return timestamp.toString();
     }
 
-    public void setTime(String timestamp) {
-        this.time = Timestamp.valueOf(timestamp.substring(0, timestamp.length()-4));
+    public void setTimestamp(String timestamp) {
+        this.timestamp = Timestamp.valueOf(timestamp.substring(0, timestamp.length()-4));
     }
 
     public ProjectVersionInfo getNext() {

@@ -9,6 +9,13 @@ import org.apache.log4j.Logger;
 
 /**
  * Created by Jacob Stringer on 28/01/2019.
+ *
+ * This class focuses on finding dependency changes within a project
+ * For each project change, it will track updating versions that happen
+ * It then prints the results for each project it finds
+ *
+ * Uses LibrariesIO dataset
+ *
  */
 public class FindProjectVersions {
 
