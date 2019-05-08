@@ -23,9 +23,9 @@ public class Results {
     private Logger LOG;
 
     // Variables for parallel timeline building
-    private static volatile AtomicInteger SEMVER_PAIRS = new AtomicInteger(0);
-    private static volatile AtomicInteger NOT_SEMVER_PAIRS = new AtomicInteger(0);
-    private static volatile ConcurrentHashMap<String, LongAdder> DATES = new ConcurrentHashMap<>();
+    private static AtomicInteger SEMVER_PAIRS = new AtomicInteger(0);
+    private static AtomicInteger NOT_SEMVER_PAIRS = new AtomicInteger(0);
+    private static ConcurrentHashMap<String, LongAdder> DATES = new ConcurrentHashMap<>();
 
     public Results(Logger log) {
         this.LOG = log;
@@ -169,7 +169,7 @@ public class Results {
                             if (aVersion != null) {
                                 String atime = aVersion.getTimestamp(c, a.getName());
                                 DATES.computeIfAbsent(atime, k -> new LongAdder()).increment();
-//                                LOG.trace(atime + " " + DATES.get(atime).toString());
+                                if (atime.equals("2015-02-07")) LOG.trace(atime + " " + DATES.get(atime).toString());
                             }
 
                             strings.add(aVersion == null ? "" : aVersion.getVersionString());
