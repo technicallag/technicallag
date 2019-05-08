@@ -22,7 +22,7 @@ public class Logging {
 
     public static Logger getLogger(String name) {
         Logger log = Logger.getLogger(name);
-        log.setLevel(Level.INFO);
+        log.setLevel(Level.TRACE);
 
         // Create file for logger
         String path = "logs/" + name + " " + new Date().toString().replaceAll(":", " ") + ".log";

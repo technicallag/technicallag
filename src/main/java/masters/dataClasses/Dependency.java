@@ -59,7 +59,7 @@ public class Dependency {
         if (timestamp == null) {
             setTimestamp(Database.timestampFromDB(c, dep, version));
         }
-        return timestamp.toString();
+        return timestamp.toString().substring(0,10);
     }
 
     public void setTimestamp(String timestamp) {

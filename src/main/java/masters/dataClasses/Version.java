@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 
 public class Version implements Comparable<Version> {
 
-    public static Logger LOGGER = Logging.getLogger("version");
+//    public static Logger LOGGER = Logging.getLogger("version");
 
     public List<BigInteger> versionTokens = new ArrayList<>(3);
     public String additionalInfo = null;
@@ -104,7 +104,7 @@ public class Version implements Comparable<Version> {
             Version version2 = CACHE.get(versionDef2, () -> Version.create(versionDef2));
             return version1.compareTo(version2) < 0;
         } catch (Exception x) {
-            LOGGER.error("Error caching versions",x);
+//            LOGGER.error("Error caching versions",x);
             throw new IllegalStateException(x);
         }
     }

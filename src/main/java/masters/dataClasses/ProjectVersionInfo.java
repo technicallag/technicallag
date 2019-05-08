@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-public class ProjectVersionInfo implements Comparable {
+public class ProjectVersionInfo implements Comparable<ProjectVersionInfo> {
     private Version version;
     private String versionString;
     private Timestamp timestamp = null;
@@ -36,8 +36,8 @@ public class ProjectVersionInfo implements Comparable {
         return version != null ? version.hashCode() : 0;
     }
 
-    public int compareTo(Object other) {
-        return this.version.compareTo(((ProjectVersionInfo)other).version);
+    public int compareTo(ProjectVersionInfo other) {
+        return this.version.compareTo(other.version);
     }
 
     public Version getVersion() {
@@ -76,7 +76,7 @@ public class ProjectVersionInfo implements Comparable {
         if (timestamp == null) {
             setTimestamp(Database.timestampFromDB(c, project, versionString));
         }
-        return timestamp.toString();
+        return timestamp.toString().substring(0,10);
     }
 
     public void setTimestamp(String timestamp) {

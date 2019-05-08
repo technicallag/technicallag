@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.*;
 
 import org.apache.log4j.Logger;
 import org.apache.commons.io.FileUtils;
@@ -20,6 +21,11 @@ public class Results {
     private int NOTFOUND = 0;
     private int MIN_PROJECT_SIZE = 60;
     private Logger LOG;
+
+    // Variables for parallel timeline building
+    private static volatile AtomicInteger SEMVER_PAIRS = new AtomicInteger(0);
+    private static volatile AtomicInteger NOT_SEMVER_PAIRS = new AtomicInteger(0);
+    private static volatile ConcurrentHashMap<String, LongAdder> DATES = new ConcurrentHashMap<>();
 
     public Results(Logger log) {
         this.LOG = log;
@@ -81,17 +87,14 @@ public class Results {
                 version.getDependencies().forEach(dep -> {
                     Project p = this.getProjects().get(dep.getDep());
                     if (p == null) {
-                        LOG.trace(String.format("No project named %s%n", dep.getDep()));
                         dependencyFound(false);
                         return;
                     }
                     ProjectVersionInfo vers = p.getVersions().get(dep.getVersion());
                     if (vers == null) {
-                        LOG.trace(String.format("No version %s in project named %s%n", dep.getVersion(), dep.getDep()));
                         dependencyFound(false);
                         return;
                     }
-                    LOG.trace(String.format("Project %s, Version %s present: TRUE %n", dep.getDep(), dep.getVersion()));
                     projectPairs.add(project.getName() + "::" + p.getName());
                     dependencyFound(true);
                 });
@@ -110,45 +113,65 @@ public class Results {
         String pair;
         ArrayBlockingQueue<Connection> connections;
 
-
         TimelineCreator(String pair, ArrayBlockingQueue<Connection> connections) {
             this.pair = pair;
             this.connections = connections;
         }
+        /* What do I need here?
+        1. How often are the versions updated
+        2. How often is the dependency updated
+        3. How much lag is there between an updated version B and its dependency being updated in version A
+        4. Is the dependency updating to the newest version of B
+        5. How often do versions in A update so they can update B (rephrase)
 
-                 /* What do I need here?
-            1. How often are the versions updated
-            2. How often is the dependency updated
-            3. How much lag is there between an updated version B and its dependency being updated in version A
-            4. Is the dependency updating to the newest version of B
-            5. How often do versions in A update so they can update B (rephrase)
+        Data validation:
+        A. Are all the versions in this timeline in libraries.io (or how much is included)
+        B. Are the timestamps in here
+        */
 
-			Data validation:
-			A. Are all the versions in this timeline in libraries.io (or how much is included)
-			B. Are the timestamps in here
-            */
+        private boolean isSemVer(ProjectVersionInfo cur) {
+            while (true) {
+                if (cur == null) return true;
+                if (cur.getVersion().versionTokens.size() == 0) return false;
+                cur = cur.getNext();
+            }
+        }
 
         public void run() {
             try {
-                Connection c = connections.take();
                 Project a = projects.get(pair.split("::")[0]);
                 Project b = projects.get(pair.split("::")[1]);
                 
                 if (a == null || b == null) {
                     LOG.warn((a == null ? pair.split("::")[0] : pair.split("::")[1]) + " is null");
-                    connections.add(c);
                     return;
                 }
 
                 ProjectVersionInfo aVersion = a.getFirstVersion();
                 ProjectVersionInfo bVersion = b.getFirstVersion();
 
+                if (isSemVer(aVersion) && isSemVer((bVersion))) {
+                    SEMVER_PAIRS.getAndIncrement();
+                } else {
+                    NOT_SEMVER_PAIRS.getAndIncrement();
+                    return;
+                }
+
                 // Only check versions with decent version histories to focus on projects that may be interesting
                 if (a.getVersions().size() > MIN_PROJECT_SIZE && b.getVersions().size() > MIN_PROJECT_SIZE) {
+                    Connection c = connections.take();
+
+                    // Write results to file
                     try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/timelines2/" + pair.replace(":", "$") + ".csv")))) {
                         while (aVersion != null || bVersion != null) {
                             // Write in
                             List<String> strings = new ArrayList<>();
+                            if (aVersion != null) {
+                                String atime = aVersion.getTimestamp(c, a.getName());
+                                DATES.computeIfAbsent(atime, k -> new LongAdder()).increment();
+//                                LOG.trace(atime + " " + DATES.get(atime).toString());
+                            }
+
                             strings.add(aVersion == null ? "" : aVersion.getVersionString());
                             strings.add(aVersion == null ? "" : aVersion.getTimestamp(c, a.getName()));
 
@@ -165,8 +188,11 @@ public class Results {
                             }
                             strings.add(depVersion == null ? "" : depVersion);
                             strings.add(depTime == null ? "" : depTime);
-                            if (depVersion != null) LOG.trace(pair + " has a dependency");
 
+                            if (bVersion != null) {
+                                String btime = bVersion.getTimestamp(c, b.getName());
+                                DATES.computeIfAbsent(btime, k -> new LongAdder()).increment();
+                            }
                             strings.add(bVersion == null ? "" : bVersion.getVersionString());
                             strings.add(bVersion == null ? "" : bVersion.getTimestamp(c, b.getName()));
                             strings.add("\n");
@@ -180,10 +206,10 @@ public class Results {
                     } catch (IOException e) {
                         System.err.println(new File("data/timelines/" + pair.replace(":", "$") + ".csv").getAbsolutePath());
                         e.printStackTrace();
+                    } finally {
+                        connections.add(c);
                     }
                 }
-
-                connections.add(c);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -211,12 +237,21 @@ public class Results {
 
         // Where project a depends on project b
         this.projectPairs.forEach(pair -> executor.execute(new TimelineCreator(pair, connections)));
+        executor.shutdown();
 
         // Close DB connections
         while(connections.size() > 0)
             connections.poll().close();
 
-        executor.shutdown();
+        LOG.info("There were " + SEMVER_PAIRS + " pairs where both use semantic versioning");
+        LOG.info("There were " + NOT_SEMVER_PAIRS + " pairs that were discarded as they don't use semantic versioning");
+
+        // Print out the dates
+        while(DATES.elements().hasMoreElements()) {
+            LOG.trace(DATES.elements().nextElement());
+        }
+        LOG.info("Dates size: " + DATES.size());
+        DATES.forEach((k,v) -> LOG.trace(String.format("Date: %s \t Number: %d", k, v.longValue())));
     }
 
     public HashMap<String, Project> getProjects() {
