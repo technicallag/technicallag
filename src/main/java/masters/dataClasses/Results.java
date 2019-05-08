@@ -169,7 +169,6 @@ public class Results {
                             if (aVersion != null) {
                                 String atime = aVersion.getTimestamp(c, a.getName());
                                 DATES.computeIfAbsent(atime, k -> new LongAdder()).increment();
-                                if (atime.equals("2015-02-07")) LOG.trace(atime + " " + DATES.get(atime).toString());
                             }
 
                             strings.add(aVersion == null ? "" : aVersion.getVersionString());
@@ -237,7 +236,14 @@ public class Results {
 
         // Where project a depends on project b
         this.projectPairs.forEach(pair -> executor.execute(new TimelineCreator(pair, connections)));
+
+        // Wait for threads to finish working
         executor.shutdown();
+        try {
+            executor.awaitTermination(60, TimeUnit.MINUTES);
+        } catch(InterruptedException e) {
+            executor.shutdownNow();
+        }
 
         // Close DB connections
         while(connections.size() > 0)
@@ -245,13 +251,8 @@ public class Results {
 
         LOG.info("There were " + SEMVER_PAIRS + " pairs where both use semantic versioning");
         LOG.info("There were " + NOT_SEMVER_PAIRS + " pairs that were discarded as they don't use semantic versioning");
-
-        // Print out the dates
-        while(DATES.elements().hasMoreElements()) {
-            LOG.trace(DATES.elements().nextElement());
-        }
         LOG.info("Dates size: " + DATES.size());
-        DATES.forEach((k,v) -> LOG.trace(String.format("Date: %s \t Number: %d", k, v.longValue())));
+        DATES.keySet().stream().sorted().forEach(k -> LOG.trace(String.format("Date: %s \t Number: %d", k, DATES.get(k).longValue())));
     }
 
     public HashMap<String, Project> getProjects() {

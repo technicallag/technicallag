@@ -41,7 +41,7 @@ public class Database {
             stmt.setString(2, versionString);
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
-                String time = rs.getString("CreatedTimestamp");
+                String time = rs.getString("PublishedTimestamp");
                 if (time == null) {
                     throw new SQLException();
                 }
