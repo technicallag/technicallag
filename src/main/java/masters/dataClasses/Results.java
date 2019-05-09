@@ -129,11 +129,77 @@ public class Results {
         B. Are the timestamps in here
         */
 
-        private boolean isSemVer(ProjectVersionInfo cur) {
+        private boolean isSemVer(Project a) {
+            ProjectVersionInfo cur = a.getFirstVersion();
             while (true) {
                 if (cur == null) return true;
                 if (cur.getVersion().versionTokens.size() == 0) return false;
                 cur = cur.getNext();
+            }
+        }
+
+        private void writeToFile(Project a, Project b) throws InterruptedException {
+            ProjectVersionInfo aVersion = a.getFirstVersion();
+            ProjectVersionInfo bVersion = b.getFirstVersion();
+
+            Connection c = connections.take();
+
+            // Write results to file
+            try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/timelines2/" + pair.replace(":", "$") + ".csv")))) {
+                while (aVersion != null || bVersion != null) {
+                    // Write in
+                    // Cols A and B (Project A's version and release time
+                    List<String> strings = new ArrayList<>();
+                    if (aVersion != null) {
+                        String atime = aVersion.getTimestamp(c, a.getName());
+                        DATES.computeIfAbsent(atime, k -> new LongAdder()).increment();
+                    }
+
+                    strings.add(aVersion == null ? "" : aVersion.getVersionString());
+                    strings.add(aVersion == null ? "" : aVersion.getTimestamp(c, a.getName()));
+
+                    // Cols C and D (Project A's dependency on Project B, its timestamp)
+                    String depVersion = null;
+                    String depTime = null;
+                    if (aVersion != null) {
+                        for (Dependency dep : aVersion.getDependencies()) {
+                            if (dep.getDep().equals(b.getName())) {
+                                depVersion = dep.getVersion();
+                                depTime = dep.getTimestamp(c);
+                                break;
+                            }
+                        }
+                    }
+                    strings.add(depVersion == null ? "" : depVersion);
+                    strings.add(depTime == null ? "" : depTime);
+
+                    // Col E - Difference in time between B and D (Project A version release - Project B dependency release
+                    // Col F - What is the newest available release
+                    // Col G - How many versions are there between this dependency and the newest one
+                    // Col H - Is this the same major version as the newest?
+                    // Col I - Is this the same minor version as the newest?
+
+
+                    //
+                    if (bVersion != null) {
+                        String btime = bVersion.getTimestamp(c, b.getName());
+                        DATES.computeIfAbsent(btime, k -> new LongAdder()).increment();
+                    }
+                    strings.add(bVersion == null ? "" : bVersion.getVersionString());
+                    strings.add(bVersion == null ? "" : bVersion.getTimestamp(c, b.getName()));
+                    strings.add("\n");
+
+                    out.write(String.join(",", strings));
+
+                    // Iterate
+                    aVersion = aVersion == null ? null : aVersion.getNext();
+                    bVersion = bVersion == null ? null : bVersion.getNext();
+                }
+            } catch (IOException e) {
+                System.err.println(new File("data/timelines/" + pair.replace(":", "$") + ".csv").getAbsolutePath());
+                e.printStackTrace();
+            } finally {
+                connections.add(c);
             }
         }
 
@@ -147,10 +213,7 @@ public class Results {
                     return;
                 }
 
-                ProjectVersionInfo aVersion = a.getFirstVersion();
-                ProjectVersionInfo bVersion = b.getFirstVersion();
-
-                if (isSemVer(aVersion) && isSemVer((bVersion))) {
+                if (isSemVer(a) && isSemVer((b))) {
                     SEMVER_PAIRS.getAndIncrement();
                 } else {
                     NOT_SEMVER_PAIRS.getAndIncrement();
@@ -159,55 +222,7 @@ public class Results {
 
                 // Only check versions with decent version histories to focus on projects that may be interesting
                 if (a.getVersions().size() > MIN_PROJECT_SIZE && b.getVersions().size() > MIN_PROJECT_SIZE) {
-                    Connection c = connections.take();
-
-                    // Write results to file
-                    try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/timelines2/" + pair.replace(":", "$") + ".csv")))) {
-                        while (aVersion != null || bVersion != null) {
-                            // Write in
-                            List<String> strings = new ArrayList<>();
-                            if (aVersion != null) {
-                                String atime = aVersion.getTimestamp(c, a.getName());
-                                DATES.computeIfAbsent(atime, k -> new LongAdder()).increment();
-                            }
-
-                            strings.add(aVersion == null ? "" : aVersion.getVersionString());
-                            strings.add(aVersion == null ? "" : aVersion.getTimestamp(c, a.getName()));
-
-                            String depVersion = null;
-                            String depTime = null;
-                            if (aVersion != null) {
-                                for (Dependency dep : aVersion.getDependencies()) {
-                                    if (dep.getDep().equals(b.getName())) {
-                                        depVersion = dep.getVersion();
-                                        depTime = dep.getTimestamp(c);
-                                        break;
-                                    }
-                                }
-                            }
-                            strings.add(depVersion == null ? "" : depVersion);
-                            strings.add(depTime == null ? "" : depTime);
-
-                            if (bVersion != null) {
-                                String btime = bVersion.getTimestamp(c, b.getName());
-                                DATES.computeIfAbsent(btime, k -> new LongAdder()).increment();
-                            }
-                            strings.add(bVersion == null ? "" : bVersion.getVersionString());
-                            strings.add(bVersion == null ? "" : bVersion.getTimestamp(c, b.getName()));
-                            strings.add("\n");
-
-                            out.write(String.join(",", strings));
-
-                            // Iterate
-                            aVersion = aVersion == null ? null : aVersion.getNext();
-                            bVersion = bVersion == null ? null : bVersion.getNext();
-                        }
-                    } catch (IOException e) {
-                        System.err.println(new File("data/timelines/" + pair.replace(":", "$") + ".csv").getAbsolutePath());
-                        e.printStackTrace();
-                    } finally {
-                        connections.add(c);
-                    }
+                    writeToFile(a, b);
                 }
             } catch (InterruptedException e) {
                 e.printStackTrace();

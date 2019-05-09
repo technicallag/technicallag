@@ -15,6 +15,7 @@ import java.util.regex.Pattern;
  * Class represention versions.
  * The key property is that this is comparable.
  * @author jens dietrich
+ * @author jacob stringer - implemented additional methods to compare types of versions
  */
 
 
@@ -107,6 +108,23 @@ public class Version implements Comparable<Version> {
 //            LOGGER.error("Error caching versions",x);
             throw new IllegalStateException(x);
         }
+    }
+
+    public boolean sameMajor(Version other) {
+        if (this.versionTokens.size() == 0 || other.versionTokens.size() == 0) return false;
+        return this.versionTokens.get(0).equals(other.versionTokens.get(0));
+    }
+
+    public boolean sameMinor(Version other) {
+        List<BigInteger> first = new ArrayList<>(2);
+        List<BigInteger> second = new ArrayList<>(2);
+
+        first.add(this.versionTokens.size() == 0 ? BigInteger.ZERO : this.versionTokens.get(0));
+        first.add(this.versionTokens.size() < 2 ? BigInteger.ZERO : this.versionTokens.get(1));
+        second.add(other.versionTokens.size() == 0 ? BigInteger.ZERO : other.versionTokens.get(0));
+        second.add(other.versionTokens.size() < 2 ? BigInteger.ZERO : other.versionTokens.get(1));
+
+        return first.get(0).equals(second.get(0)) && first.get(1).equals(second.get(1));
     }
 
     @Override
