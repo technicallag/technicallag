@@ -161,11 +161,13 @@ public class Results {
                     // Cols C and D (Project A's dependency on Project B, its timestamp)
                     String depVersion = null;
                     String depTime = null;
+                    Timestamp depTimestamp = null;
                     if (aVersion != null) {
                         for (Dependency dep : aVersion.getDependencies()) {
                             if (dep.getDep().equals(b.getName())) {
                                 depVersion = dep.getVersion();
                                 depTime = dep.getTimestamp(c);
+                                depTimestamp = dep.getTimestamp2(c);
                                 break;
                             }
                         }
@@ -173,12 +175,33 @@ public class Results {
                     strings.add(depVersion == null ? "" : depVersion);
                     strings.add(depTime == null ? "" : depTime);
 
-                    // Col E - Difference in time between B and D (Project A version release - Project B dependency release
-                    // Col F - What is the newest available release
-                    // Col G - How many versions are there between this dependency and the newest one
-                    // Col H - Is this the same major version as the newest?
-                    // Col I - Is this the same minor version as the newest?
+                    if (depVersion == null || depTime == null || depTimestamp == null) {
+                        strings.add("");
+                        strings.add("");
+                        strings.add("");
+                        strings.add("");
+                        strings.add("");
+                    } else {
+                        // Col E - Difference in time between B and D (Project A version release - Project B dependency release)
+                        // i.e. how long has the version been out
+                        // Also, how long is the lag between adopting new versions
+                        strings.add(Long.toString(aVersion.getTimestamp2(c, a.getName()).getTime() - depTimestamp.getTime()));
 
+                        // Col F - What is the newest available release (stable release)
+                        strings.add();
+
+                        // Col G - How many versions are there between this dependency and the newest one (major or minor)
+                        strings.add();
+
+                        // Col H - Is this the same major version as the newest?
+                        strings.add();
+
+                        // Col I - Is this the same minor version as the newest?
+                        strings.add();
+
+                        // Does it update
+
+                    }
 
                     //
                     if (bVersion != null) {

@@ -79,6 +79,13 @@ public class ProjectVersionInfo implements Comparable<ProjectVersionInfo> {
         return timestamp.toString().substring(0,10);
     }
 
+    public Timestamp getTimestamp2(Connection c, String project) {
+        if (timestamp == null) {
+            setTimestamp(Database.timestampFromDB(c, project, versionString));
+        }
+        return timestamp;
+    }
+
     public void setTimestamp(String timestamp) {
         this.timestamp = Timestamp.valueOf(timestamp.substring(0, timestamp.length()-4));
     }

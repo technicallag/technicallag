@@ -62,6 +62,13 @@ public class Dependency {
         return timestamp.toString().substring(0,10);
     }
 
+    public Timestamp getTimestamp2(Connection c) {
+        if (timestamp == null) {
+            setTimestamp(Database.timestampFromDB(c, dep, version));
+        }
+        return timestamp;
+    }
+
     public void setTimestamp(String timestamp) {
         this.timestamp = Timestamp.valueOf(timestamp.substring(0, timestamp.length()-4));
     }
