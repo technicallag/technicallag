@@ -3,8 +3,6 @@ package masters.dataClasses;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
-import masters.Logging;
-import org.apache.log4j.Logger;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -25,6 +23,7 @@ public class Version implements Comparable<Version> {
 
     public List<BigInteger> versionTokens = new ArrayList<>(3);
     public String additionalInfo = null;
+    private String string;
 
     public static final Pattern VDX = Pattern.compile("(v|V)\\d+((\\.|-)(.)*)?");
 
@@ -39,6 +38,12 @@ public class Version implements Comparable<Version> {
                     }
                 }
         );
+
+
+    @Override
+    public String toString() {
+        return this.string;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -57,6 +62,7 @@ public class Version implements Comparable<Version> {
 
     public static Version create(String versionDef) {
         Version version = new Version();
+        version.string = versionDef;
 
         String versionDef2 = versionDef;
 
@@ -125,6 +131,29 @@ public class Version implements Comparable<Version> {
         second.add(other.versionTokens.size() < 2 ? BigInteger.ZERO : other.versionTokens.get(1));
 
         return first.get(0).equals(second.get(0)) && first.get(1).equals(second.get(1));
+    }
+
+    public VersionRelationship getRelationship(Version other) {
+        List<BigInteger> first = new ArrayList<>(3);
+        List<BigInteger> second = new ArrayList<>(3);
+
+        first.add(this.versionTokens.size() == 0 ? BigInteger.ZERO : this.versionTokens.get(0));
+        first.add(this.versionTokens.size() < 2 ? BigInteger.ZERO : this.versionTokens.get(1));
+        first.add(this.versionTokens.size() < 3 ? BigInteger.ZERO : this.versionTokens.get(2));
+
+        second.add(other.versionTokens.size() == 0 ? BigInteger.ZERO : other.versionTokens.get(0));
+        second.add(other.versionTokens.size() < 2 ? BigInteger.ZERO : other.versionTokens.get(1));
+        second.add(other.versionTokens.size() < 3 ? BigInteger.ZERO : other.versionTokens.get(2));
+
+        if (!(first.get(0).equals(second.get(0)))) {
+            return VersionRelationship.DIFFERENT;
+        } else if (!(first.get(1).equals(second.get(1)))) {
+            return VersionRelationship.SAME_MAJOR;
+        } else if (!(first.get(2).equals(second.get(2)))) {
+            return VersionRelationship.SAME_MINOR;
+        } else {
+            return VersionRelationship.SAME_MICRO;
+        }
     }
 
     @Override

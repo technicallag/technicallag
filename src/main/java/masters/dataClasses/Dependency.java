@@ -5,14 +5,14 @@ import java.sql.Timestamp;
 import utils.Database;
 
 public class Dependency {
-    private String dep;
+    private String projectName;
     private String version;
     private Timestamp timestamp = null;
     private Dependency next = null;
     private ProjectVersionInfo parent = null;
 
     public Dependency(String project, String version) {
-        this.setDep(project);
+        this.setProjectName(project);
         this.setVersion(version);
     }
 
@@ -23,28 +23,28 @@ public class Dependency {
 
         Dependency that = (Dependency) o;
 
-        if (!getDep().equals(that.getDep())) return false;
+        if (!getProjectName().equals(that.getProjectName())) return false;
         return getVersion().equals(that.getVersion());
     }
 
     @Override
     public int hashCode() {
-        int result = getDep().hashCode();
+        int result = getProjectName().hashCode();
         result = 31 * result + getVersion().hashCode();
         return result;
     }
 
     @Override
     public String toString() {
-        return getDep() + "\t" + getVersion();
+        return getProjectName() + "\t" + getVersion();
     }
 
-    public String getDep() {
-        return dep;
+    public String getProjectName() {
+        return projectName;
     }
 
-    public void setDep(String dep) {
-        this.dep = dep;
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
     }
 
     public String getVersion() {
@@ -57,14 +57,14 @@ public class Dependency {
 
     public String getTimestamp(Connection c) {
         if (timestamp == null) {
-            setTimestamp(Database.timestampFromDB(c, dep, version));
+            setTimestamp(Database.timestampFromDB(c, projectName, version));
         }
         return timestamp.toString().substring(0,10);
     }
 
     public Timestamp getTimestamp2(Connection c) {
         if (timestamp == null) {
-            setTimestamp(Database.timestampFromDB(c, dep, version));
+            setTimestamp(Database.timestampFromDB(c, projectName, version));
         }
         return timestamp;
     }

@@ -2,6 +2,7 @@ package masters.dataClasses;
 
 import utils.Database;
 
+import javax.annotation.Nullable;
 import java.sql.Connection;
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -79,11 +80,20 @@ public class ProjectVersionInfo implements Comparable<ProjectVersionInfo> {
         return timestamp.toString().substring(0,10);
     }
 
-    public Timestamp getTimestamp2(Connection c, String project) {
+    public Timestamp getTimestampNullable(Connection c, String project) {
         if (timestamp == null) {
             setTimestamp(Database.timestampFromDB(c, project, versionString));
         }
         return timestamp;
+    }
+
+    @Nullable
+    public Timestamp getTimestampNullable() {
+        return timestamp;
+    }
+
+    public String getTimeStringNullable() {
+        return timestamp.toString().substring(0,10);
     }
 
     public void setTimestamp(String timestamp) {

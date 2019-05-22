@@ -48,9 +48,9 @@ public class Project {
             List<DependencyVersionChange> changes = old.getChanges();
             for (Dependency oldD: inOld) {
                 for (Dependency newD: inNew) {
-                    if (oldD.getDep().equals(newD.getDep())) {
+                    if (oldD.getProjectName().equals(newD.getProjectName())) {
                         oldD.setNext(newD); // Track linked list of dependency
-                        changes.add(new DependencyVersionChange(oldD.getDep(), oldD.getVersion(), newD.getVersion()));
+                        changes.add(new DependencyVersionChange(oldD.getProjectName(), oldD.getVersion(), newD.getVersion()));
                         break;
                     }
                 }
@@ -104,6 +104,7 @@ public class Project {
 
         return getName() != null ? getName().equals(project.getName()) : project.getName() == null;
     }
+
 
     @Override
     public int hashCode() {
