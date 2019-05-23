@@ -17,6 +17,8 @@ import java.util.stream.Collectors;
 class TimelineStats {
     static AtomicInteger SEMVER_PAIRS = new AtomicInteger(0);
     static AtomicInteger NOT_SEMVER_PAIRS = new AtomicInteger(0);
+    static AtomicInteger LARGE_ENOUGH = new AtomicInteger(0);
+    static AtomicInteger NOT_LARGE_ENOUGH = new AtomicInteger(0);
 }
 
 /*
@@ -30,12 +32,15 @@ public class ProjectTimelinePair implements Runnable {
      */
     String pair;
     Project a, b;
+    int pos;
 
     List<ProjectVersionInfo> orderedVersionsA;
     List<ProjectVersionInfo> orderedVersionsB;
 
+    // Stores two pointers to which versions of B are used and the latest at the time when a version of A is published
     List<LinkAB> linksAtoB;
 
+    // Creates and stores a tree of the major, minor and micro changes within a project
 //    ProjectMilestones milestonesA;
     ProjectMilestones milestonesB;
 
@@ -65,17 +70,19 @@ public class ProjectTimelinePair implements Runnable {
             for (int i = 0; i < orderedVersionsA.size(); i++) {
                 ProjectVersionInfo thisA = orderedVersionsA.get(i);
                 LinkAB link = linksAtoB.get(i);
-                ProjectVersionInfo thisDep = orderedVersionsB.get(link.currentDependency);
-                ProjectVersionInfo latestDep = orderedVersionsB.get(link.latestDependency);
+
+                // It is possible that for a given version of A, B does not exist yet
+                ProjectVersionInfo thisDep = link.currentDependency == -1 ? null : orderedVersionsB.get(link.currentDependency);
+                ProjectVersionInfo latestDep = link.latestDependency == -1 ? null : orderedVersionsB.get(link.latestDependency);
                 VersionsBetween versionsBetween = milestonesB.getDifference(link.currentDependency, link.latestDependency);
 
                 writeLine(out,
                         thisA.getVersion().toString(),
                         thisA.getTimeStringNullable(),
-                        thisDep.getVersionString(),
-                        thisDep.getTimeStringNullable(),
-                        latestDep.getVersionString(),
-                        latestDep.getTimeStringNullable(),
+                        thisDep == null ? "" : thisDep.getVersionString(),
+                        thisDep == null ? "" : thisDep.getTimeStringNullable(),
+                        latestDep == null ? "" : latestDep.getVersionString(),
+                        latestDep == null ? "" : latestDep.getTimeStringNullable(),
                         versionsBetween.toString()
                         );
             }
@@ -144,13 +151,25 @@ public class ProjectTimelinePair implements Runnable {
                 if (level < 3) {
                     children.add(new Node(left, level+1));
                 }
+                if (pos % 1000 == 1 && level == 0) {
+                    LOG.trace(pair);
+                }
+
             }
 
             void addNext(int cur, int levelChange) {
+                if (pos % 1000 == 1) {
+                    LOG.trace("addNext. Cur: " + cur + "\tLevelChange: " + levelChange);
+                }
                 this.right = cur;
-                if (levelChange == level && level < 3) {
+
+                if (level == 3)
+                    return;
+
+                if (levelChange == level) {
                     children.add(new Node(cur, level+1));
                 }
+                children.get(children.size() - 1).addNext(cur, levelChange);
             }
 
             boolean contains(int i) {
@@ -158,18 +177,31 @@ public class ProjectTimelinePair implements Runnable {
             }
 
             VersionsBetween getDifference(int cur, int latest) {
-                if (level == 3) {
-                    return new VersionsBetween();
+                // If cur == -1, then there is no dependency here yet so this is meaningless. Return a dummy value.
+                // Level == 3 is the base case
+                if (cur == -1 || level == 3) return new VersionsBetween();
+
+                if (pos % 1000 == 1) {
+                    LOG.trace("getDifference1. Cur: " + cur + "\tLatest: " + latest + "\tLevel: " + level);
+                    LOG.trace("getDifference2. Children size: " + children.size());
                 }
 
                 int first = 0, second = 0;
                 for (int i = 0; i < children.size(); i++) {
+                    if (pos % 1000 == 1) {
+                        LOG.trace("getDifference2a. Child i: " + i + "\tLeft: " + children.get(i).left + "\tRight: " + children.get(i).right);
+                    }
                     if (children.get(i).contains(cur)) first = i;
                     if (children.get(i).contains(latest)) second = i;
                 }
 
                 VersionsBetween between = children.get(second).getDifference(cur, latest);
                 between.types.set(level, second-first);
+
+                if (pos % 1000 == 1) {
+                    LOG.trace("getDifference3. First: " + first + "\tSecond: " + second + "\tLevel: " + level);
+                }
+
                 return between;
             }
         }
@@ -180,6 +212,10 @@ public class ProjectTimelinePair implements Runnable {
             for (int i = 1; i < versions.size(); i++) {
                 Version version1 = versions.get(i - 1).getVersion();
                 Version version2 = versions.get(i).getVersion();
+
+                if (pos % 1000 == 1) {
+                    LOG.trace("Versions: " + version1.toString() + "\t" + version2.toString());
+                }
 
                 VersionRelationship versionRelationship = version1.getRelationship(version2);
                 switch(versionRelationship) {
@@ -201,11 +237,12 @@ public class ProjectTimelinePair implements Runnable {
     /*
     Data Gathering Logic
      */
-    public ProjectTimelinePair(String pair, Project a, Project b, ArrayBlockingQueue<Connection> connections) {
+    public ProjectTimelinePair(String pair, Project a, Project b, ArrayBlockingQueue<Connection> connections, int pos) {
         this.pair = pair;
         this.connections = connections;
         this.a = a;
         this.b = b;
+        this.pos = pos;
     }
 
     private boolean isSemVer(Project a) {
@@ -231,6 +268,14 @@ public class ProjectTimelinePair implements Runnable {
         } else {
             TimelineStats.NOT_SEMVER_PAIRS.getAndIncrement();
             return;
+        }
+
+        // Focus on projects with a lot of version history to start with
+        if (a.getVersions().size() < 50 || b.getVersions().size() < 50) {
+            TimelineStats.NOT_LARGE_ENOUGH.getAndIncrement();
+            return;
+        } else {
+            TimelineStats.LARGE_ENOUGH.getAndIncrement();
         }
 
         // Go ahead and get data for this pair
@@ -284,8 +329,10 @@ public class ProjectTimelinePair implements Runnable {
                         j++;
                     }
 
-                    // If the final version of B is the latest version, this will handle that edge case
-                    if (link.latestDependency == -1) link.latestDependency = orderedVersionsB.size()-1;
+                    // If project A has more recent published history than project B, this will fire
+                    if (version.getTimestampNullable().after(orderedVersionsB.get(orderedVersionsB.size()-1).getTimestampNullable())) {
+                        link.latestDependency = orderedVersionsB.size()-1;
+                    }
 
                     break;
                 }
