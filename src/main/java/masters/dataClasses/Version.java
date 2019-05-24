@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  * Class represention versions.
  * The key property is that this is comparable.
  * @author jens dietrich
- * @author jacob stringer - implemented additional methods to compare types of versions
+ * @author jacob stringer - implemented additional methods to compare numberBehind of versions
  */
 
 

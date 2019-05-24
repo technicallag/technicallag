@@ -37,12 +37,10 @@ public class ProjectTimelinePair implements Runnable {
     List<ProjectVersionInfo> orderedVersionsA;
     List<ProjectVersionInfo> orderedVersionsB;
 
-    // Stores two pointers to which versions of B are used and the latest at the time when a version of A is published
-    List<LinkAB> linksAtoB;
+    List<Integer> linksAtoB;
 
     // Creates and stores a tree of the major, minor and micro changes within a project
-//    ProjectMilestones milestonesA;
-    ProjectMilestones milestonesB;
+    ProcessPair processPair;
 
     Connection c;
     ArrayBlockingQueue<Connection> connections;
@@ -53,11 +51,18 @@ public class ProjectTimelinePair implements Runnable {
             "Proj_A_version_date",
             "Proj_A_dep_declaration_to_Proj_B",
             "Proj_B_dep_publish_date",
-            "Proj_B_latest_current_version",
-            "Proj_B_latest_version_pub_date",
             "Major_vers_behind",
+            "Newest_major",
             "Minor_vers_behind",
-            "Micro_vers_behind"
+            "Newest_minor",
+            "Micro_vers_behind",
+            "Newest_micro",
+            "NOTAG_Major_vers_behind",
+            "NOTAG_Newest_major",
+            "NOTAG_Minor_vers_behind",
+            "NOTAG_Newest_minor",
+            "NOTAG_Micro_vers_behind",
+            "NOTAG_Newest_micro"
     };
 
     /*
@@ -69,21 +74,19 @@ public class ProjectTimelinePair implements Runnable {
 
             for (int i = 0; i < orderedVersionsA.size(); i++) {
                 ProjectVersionInfo thisA = orderedVersionsA.get(i);
-                LinkAB link = linksAtoB.get(i);
 
                 // It is possible that for a given version of A, B does not exist yet
-                ProjectVersionInfo thisDep = link.currentDependency == -1 ? null : orderedVersionsB.get(link.currentDependency);
-                ProjectVersionInfo latestDep = link.latestDependency == -1 ? null : orderedVersionsB.get(link.latestDependency);
-                VersionsBetween versionsBetween = milestonesB.getDifference(link.currentDependency, link.latestDependency);
+                ProjectVersionInfo thisDep = linksAtoB.get(i) == -1 ? null : orderedVersionsB.get(linksAtoB.get(i));
+                VersionsBehind versionsBehindTags = processPair.howFarBehindIsA[i];
+                VersionsBehind versionsBehindNoTags = processPair.howFarBehindIsANoTags[i];
 
                 writeLine(out,
                         thisA.getVersion().toString(),
                         thisA.getTimeStringNullable(),
                         thisDep == null ? "" : thisDep.getVersionString(),
                         thisDep == null ? "" : thisDep.getTimeStringNullable(),
-                        latestDep == null ? "" : latestDep.getVersionString(),
-                        latestDep == null ? "" : latestDep.getTimeStringNullable(),
-                        versionsBetween.toString()
+                        versionsBehindTags.toString(","),
+                        versionsBehindNoTags.toString(",")
                         );
             }
 
@@ -106,132 +109,6 @@ public class ProjectTimelinePair implements Runnable {
     private void writeHeader(BufferedWriter out) throws IOException {
         out.write(String.join(",", headers));
         out.write("\n");
-    }
-
-    /*
-    Data classes
-     */
-    // Links Version X of Project A to Version Y of Project B (and tracks the newest version Z of Project B) in orderedVersionsB
-    class LinkAB {
-        int currentDependency = -1;
-        int latestDependency = -1;
-    }
-
-    class VersionsBetween {
-        List<Integer> types = new ArrayList<>(3); // Major, minor, micro
-
-        VersionsBetween() {
-            for (int i = 0; i < 3; i++)
-                types.add(0);
-        }
-
-        @Override
-        public String toString() {
-            return String.join(",", types.get(0).toString(), types.get(1).toString(), types.get(2).toString());
-        }
-    }
-
-    class ProjectMilestones {
-//        List<VersionRelationship> changeTypes = new ArrayList<>();
-        Node versionTree = new Node(0, 0);
-
-        /*
-        Tree splits by major, then minor then micro.
-        Level 0 is the root, Level 1 is major etc. Level 3 is max depth (micro).
-        Allows us to tally up major, then minor, then micro differences
-         */
-        class Node {
-            int left, right, level;
-            List<Node> children = new ArrayList<>();
-
-            Node(int left, int level) {
-                this.left = left;
-                this.right = left;
-                this.level = level;
-                if (level < 3) {
-                    children.add(new Node(left, level+1));
-                }
-                if (pos % 1000 == 1 && level == 0) {
-                    LOG.trace(pair);
-                }
-
-            }
-
-            void addNext(int cur, int levelChange) {
-                if (pos % 1000 == 1) {
-                    LOG.trace("addNext. Cur: " + cur + "\tLevelChange: " + levelChange);
-                }
-                this.right = cur;
-
-                if (level == 3)
-                    return;
-
-                if (levelChange == level) {
-                    children.add(new Node(cur, level+1));
-                }
-                children.get(children.size() - 1).addNext(cur, levelChange);
-            }
-
-            boolean contains(int i) {
-                return i >= left && i <= right;
-            }
-
-            VersionsBetween getDifference(int cur, int latest) {
-                // If cur == -1, then there is no dependency here yet so this is meaningless. Return a dummy value.
-                // Level == 3 is the base case
-                if (cur == -1 || level == 3) return new VersionsBetween();
-
-                if (pos % 1000 == 1) {
-                    LOG.trace("getDifference1. Cur: " + cur + "\tLatest: " + latest + "\tLevel: " + level);
-                    LOG.trace("getDifference2. Children size: " + children.size());
-                }
-
-                int first = 0, second = 0;
-                for (int i = 0; i < children.size(); i++) {
-                    if (pos % 1000 == 1) {
-                        LOG.trace("getDifference2a. Child i: " + i + "\tLeft: " + children.get(i).left + "\tRight: " + children.get(i).right);
-                    }
-                    if (children.get(i).contains(cur)) first = i;
-                    if (children.get(i).contains(latest)) second = i;
-                }
-
-                VersionsBetween between = children.get(second).getDifference(cur, latest);
-                between.types.set(level, second-first);
-
-                if (pos % 1000 == 1) {
-                    LOG.trace("getDifference3. First: " + first + "\tSecond: " + second + "\tLevel: " + level);
-                }
-
-                return between;
-            }
-        }
-
-        ProjectMilestones (List<ProjectVersionInfo> versions) {
-            versionTree.addNext(0, 3); // Dummy value so there are n entries
-
-            for (int i = 1; i < versions.size(); i++) {
-                Version version1 = versions.get(i - 1).getVersion();
-                Version version2 = versions.get(i).getVersion();
-
-                if (pos % 1000 == 1) {
-                    LOG.trace("Versions: " + version1.toString() + "\t" + version2.toString());
-                }
-
-                VersionRelationship versionRelationship = version1.getRelationship(version2);
-                switch(versionRelationship) {
-                    case DIFFERENT: versionTree.addNext(i, 0); break;
-                    case SAME_MAJOR: versionTree.addNext(i, 1); break;
-                    case SAME_MINOR: versionTree.addNext(i, 2); break;
-                    case SAME_MICRO: versionTree.addNext(i, 3); break;
-                }
-
-//                changeTypes.add(version1.getRelationship(version2));
-            }
-        }
-
-        VersionsBetween getDifference(int cur, int latest) {
-            return versionTree.getDifference(cur, latest);
-        }
     }
 
     /*
@@ -308,41 +185,29 @@ public class ProjectTimelinePair implements Runnable {
         // Link dependencies in project A to project B
         linksAtoB = new ArrayList<>();
         for (ProjectVersionInfo version: orderedVersionsA) {
-            LinkAB link = new LinkAB();
-
             // Filter dependencies to only trigger on project B
             for (Dependency dep: version.getDependencies()) {
                 if (dep.getProjectName().equals(b.getName())){
-
                     // Find the linked version, and the newest version
                     String declaredDependency = dep.getVersion();
-
                     int j = 0;
+                    int result = -1;
+
                     for (ProjectVersionInfo bVersion: orderedVersionsB) {
                         if (declaredDependency.equals(bVersion.getVersionString())){
-                            link.currentDependency = j;
-                        }
-                        if (version.getTimestampNullable().before(bVersion.getTimestampNullable())) {
-                            link.latestDependency = j - 1;
+                            result = j;
                             break;
                         }
                         j++;
                     }
 
-                    // If project A has more recent published history than project B, this will fire
-                    if (version.getTimestampNullable().after(orderedVersionsB.get(orderedVersionsB.size()-1).getTimestampNullable())) {
-                        link.latestDependency = orderedVersionsB.size()-1;
-                    }
-
+                    linksAtoB.add(result);
                     break;
                 }
             }
-
-            linksAtoB.add(link);
         }
 
         // Describe the changes between versions in timeline A and timeline B
-//        milestonesA = new ProjectMilestones(orderedVersionsA);
-        milestonesB = new ProjectMilestones(orderedVersionsB);
+        processPair = new ProcessPair(orderedVersionsA, orderedVersionsB, linksAtoB);
     }
 }
