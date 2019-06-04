@@ -8,6 +8,7 @@ import org.apache.log4j.FileAppender;
 import org.apache.log4j.SimpleLayout;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -28,7 +29,8 @@ public class Logging {
             log.setLevel(Level.TRACE);
 
             // Create file for logger
-            String path = "logs/" + name + " " + new Date().toString().replaceAll(":", " ") + ".log";
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy MM dd HH mm ss");
+            String path = "logs/" + simpleDateFormat.format(new Date()) + " " + name + ".log";
             try {
                 log.addAppender(new FileAppender(new SimpleLayout(), path));
             } catch (IOException e) {

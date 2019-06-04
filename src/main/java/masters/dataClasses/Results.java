@@ -123,11 +123,12 @@ public class Results {
 
         // Where project a depends on project b
         int i = 0;
+        Vector<String> cumulativeInfo = new Vector<>();
         for (String pair: projectPairs) {
             String[] projs = pair.split("::");
             Project a = projects.get(projs[0]);
             Project b = projects.get(projs[1]);
-            executor.execute(new ProjectTimelinePair(pair, a, b, connections, i));
+            executor.execute(new ProjectTimelinePair(pair, a, b, connections, i, cumulativeInfo));
             i++;
         }
 
@@ -143,10 +144,16 @@ public class Results {
         while(connections.size() > 0)
             connections.poll().close();
 
-        LOG.info("There were " + TimelineStats.SEMVER_PAIRS.toString() + " pairs where both use semantic versioning");
-        LOG.info("There were " + TimelineStats.NOT_SEMVER_PAIRS.toString() + " pairs that were discarded as they don't use semantic versioning");
-        LOG.info("There were " + TimelineStats.LARGE_ENOUGH.toString() + " pairs with sufficient history to write to file");
-        LOG.info("There were " + TimelineStats.NOT_LARGE_ENOUGH.toString() + " pairs discarded due to small size of history");
+        TimelineStats.log();
+        try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/cumulativeStats.csv")))) {
+            out.write(String.join(",", "ProjectPair", "numVersA", "numVersB", "numDistinctDepDecs", "avgMajorVersBehind", "avgMinorVersBehind", "avgMicroVersBehind", "numMajorDecChanges", "numMinorDecChanges", "numMicroDecChanges", "numBackwardsDecChanges") + "\n");
+            for (String s: cumulativeInfo) {
+                out.write(s + "\n");
+            }
+        } catch (IOException e) {
+            LOG.error(e);
+        }
+
     }
 
     public HashMap<String, Project> getProjects() {

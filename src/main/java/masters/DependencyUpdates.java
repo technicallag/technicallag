@@ -15,7 +15,7 @@ public class DependencyUpdates {
 
     public static void main(String[] args) throws SQLException {
         Connection c = Database.getConnection();
-        Logger log = Logging.getLogger("DependencyUpdates");
+        Logger log = Logging.getLogger("CumulativeStats printing to file");
 
         log.info("Connection ready");
         c.setAutoCommit(false);
@@ -26,13 +26,11 @@ public class DependencyUpdates {
 
         Results results = new Results(log);
         results.consumeResults(rs);
-        c.close();
         log.info("Results consumed");
+        c.close();
 
         results.compareProjects();
         log.info("Projects compared");
-//        results.getTimestamps(c);
-//        log.info("Timestamps attained");
         results.checkDependenciesAreProjects();
         log.info("Got project pairs");
         results.constructTimeline();
