@@ -146,7 +146,10 @@ public class Results {
 
         TimelineStats.log();
         try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/cumulativeStats.csv")))) {
-            out.write(String.join(",", "ProjectPair", "numVersA", "numVersB", "numDistinctDepDecs", "avgMajorVersBehind", "avgMinorVersBehind", "avgMicroVersBehind", "numMajorDecChanges", "numMinorDecChanges", "numMicroDecChanges", "numBackwardsDecChanges") + "\n");
+            out.write(String.join(",", "ProjectPair", "numVersA", "numVersB", "numDistinctDepDecs",
+                    "avgMajorVersBehind", "avgMinorVersBehind", "avgMicroVersBehind",
+                    "avgMajorVersBehindNoTags", "avgMinorVersBehindNoTags", "avgMicroVersBehindNoTags",
+                    "numMajorDecChanges", "numMinorDecChanges", "numMicroDecChanges", "numBackwardsDecChanges") + "\n");
             for (String s: cumulativeInfo) {
                 out.write(s + "\n");
             }

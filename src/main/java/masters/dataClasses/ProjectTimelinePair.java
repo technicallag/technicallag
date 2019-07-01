@@ -102,7 +102,7 @@ public class ProjectTimelinePair implements Runnable {
      */
     private void printTimelines(){
         try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/timelines2/" + pair.replace(":", "$") + ".csv")))) {
-            writeHeader(out);
+            writeLine(out, headers);
 
             for (int i = 0; i < orderedVersionsA.size(); i++) {
                 ProjectVersionInfo thisA = orderedVersionsA.get(i);
@@ -138,10 +138,10 @@ public class ProjectTimelinePair implements Runnable {
         out.write("\n");
     }
 
-    private void writeHeader(BufferedWriter out) throws IOException {
-        out.write(String.join(",", headers));
-        out.write("\n");
-    }
+//    private void writeHeader(BufferedWriter out) throws IOException {
+//        out.write(String.join(",", headers));
+//        out.write("\n");
+//    }
 
     /*
     Data Gathering Logic
@@ -388,6 +388,10 @@ class ProcessPair {
     double avgMinorVersBehind = 0.0;
     double avgMicroVersBehind = 0.0;
 
+    double avgMajorVersBehindNoTags = 0.0;
+    double avgMinorVersBehindNoTags = 0.0;
+    double avgMicroVersBehindNoTags = 0.0;
+
     int numMajorDecChanges = 0;
     int numMinorDecChanges = 0;
     int numMicroDecChanges = 0;
@@ -405,7 +409,7 @@ class ProcessPair {
 
     private boolean allowTag(String s) {
         for (String allowed: allowedTags) {
-            if (s.equals(allowed)) {
+            if (s.toLowerCase().equals(allowed.toLowerCase())) {
                 return true;
             }
         }
@@ -413,7 +417,11 @@ class ProcessPair {
     }
 
     public String getCumulativeStats() {
-        return String.format("%d,%d,%d,%f,%f,%f,%d,%d,%d,%d", numVersA, numVersB, numDistinctDepDecs, avgMajorVersBehind, avgMinorVersBehind, avgMicroVersBehind, numMajorDecChanges, numMinorDecChanges, numMicroDecChanges, numBackwardsDecChanges);
+        return String.format("%d,%d,%d,%f,%f,%f,%f,%f,%f,%d,%d,%d,%d",
+                numVersA, numVersB, numDistinctDepDecs,
+                avgMajorVersBehind, avgMinorVersBehind, avgMicroVersBehind,
+                avgMajorVersBehindNoTags, avgMinorVersBehindNoTags, avgMicroVersBehindNoTags,
+                numMajorDecChanges, numMinorDecChanges, numMicroDecChanges, numBackwardsDecChanges);
     }
 
     private void cumulativeStats() {
@@ -432,6 +440,11 @@ class ProcessPair {
             avgMajorVersBehind += (double)vb.numberBehind[0] / versionsWithDeps;
             avgMinorVersBehind += (double)vb.numberBehind[1] / versionsWithDeps;
             avgMicroVersBehind += (double)vb.numberBehind[2] / versionsWithDeps;
+
+            VersionsBehind vbnt = howFarBehindIsANoTags[i];
+            avgMajorVersBehindNoTags += (double)vbnt.numberBehind[0] / versionsWithDeps;
+            avgMinorVersBehindNoTags += (double)vbnt.numberBehind[1] / versionsWithDeps;
+            avgMicroVersBehindNoTags += (double)vbnt.numberBehind[2] / versionsWithDeps;
         }
 
         // Get version differences (use the version ordering rather than the time ordering in case of parallel development)
