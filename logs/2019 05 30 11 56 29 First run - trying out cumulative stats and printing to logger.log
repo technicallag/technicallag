@@ -75,7 +75,7 @@ TRACE - com.sun.jersey.samples:jersey-ejb::org.glassfish:javax.ejb cumulative da
 TRACE - io.fabric8.jube.images.fabric8:api-registry::org.eclipse.jetty:jetty-servlet cumulative data: 68,235,2,0.000000,1.720588,0.602941,0,29,0,14
 TRACE - com.datastax.cassandra:cassandra-driver-parent::org.apache.cassandra:cassandra-all cumulative data: 71,186,7,0.684211,0.000000,1.315789,0,0,12,4
 TRACE - org.apereo.cas:cas-server-core-util::org.mockito:mockito-core cumulative data: 55,258,9,0.382979,1.574468,0.021277,22,14,0,17
-TRACE - net.serenity-bdd:serenity-test-utils::com.sun.xml.bind:jaxb-impl cumulative data: 246,51,1,0.000000,0.000000,0.000000,0,0,0,0
+TRACE - net.serenity-bdd:serenity-test-masters.utils::com.sun.xml.bind:jaxb-impl cumulative data: 246,51,1,0.000000,0.000000,0.000000,0,0,0,0
 TRACE - org.apereo.cas:cas-server-core-api-webflow::org.springframework.data:spring-data-commons cumulative data: 54,69,7,0.520000,0.200000,3.880000,0,20,20,20
 TRACE - org.springframework:spring-messaging::org.eclipse.jetty.websocket:websocket-client cumulative data: 57,134,32,0.000000,0.684211,1.947368,0,37,16,25
 TRACE - org.neo4j:neo4j-cypher::org.eclipse.jetty:jetty-server cumulative data: 231,231,1,0.000000,1.571429,13.285714,0,0,0,0
@@ -557,7 +557,7 @@ TRACE - com.netflix.priam:priam::com.sun.jersey:jersey-json cumulative data: 121
 TRACE - com.android.tools.build:gradle::com.android.tools:sdk-common cumulative data: 53,68,2,0.000000,0.000000,0.000000,0,0,1,0
 TRACE - com.netflix.hystrix:hystrix-javanica::org.springframework:spring-aop cumulative data: 64,81,1,0.000000,0.307692,5.076923,0,0,0,0
 TRACE - org.apereo.cas:cas-server-core-api-ticket::org.springframework:spring-jms cumulative data: 58,85,15,0.657143,0.000000,0.628571,2,1,25,13
-TRACE - io.fabric8:rest-utils::org.eclipse.jetty:jetty-util cumulative data: 201,206,1,0.000000,2.398010,0.452736,0,0,0,0
+TRACE - io.fabric8:rest-masters.utils::org.eclipse.jetty:jetty-util cumulative data: 201,206,1,0.000000,2.398010,0.452736,0,0,0,0
 TRACE - org.grails:grails-plugin-i18n::org.codehaus.groovy:groovy-all cumulative data: 107,150,13,0.000000,0.678571,0.214286,0,11,7,9
 TRACE - org.apereo.cas:cas-server-support-saml::org.springframework.data:spring-data-commons cumulative data: 58,69,4,0.696970,0.000000,4.272727,0,0,16,8
 TRACE - com.bertramlabs.plugins:asset-pipeline-core::org.codehaus.groovy:groovy cumulative data: 97,163,1,0.000000,4.000000,1.000000,0,0,0,0
@@ -756,7 +756,7 @@ TRACE - org.kuali.rice:rice-it-ken::org.eclipse.jetty:jetty-server cumulative da
 TRACE - com.fasterxml.jackson.jaxrs:jackson-jaxrs-providers::org.eclipse.jetty:jetty-servlet cumulative data: 80,235,2,0.675000,0.675000,6.837500,34,0,0,17
 TRACE - org.http4s:http4s-client_2.10::org.scalaz:scalaz-scalacheck-binding_2.10 cumulative data: 131,106,24,0.000000,1.238462,0.715385,0,56,37,46
 TRACE - com.epam.jdi:jdi-uitest-mobile::com.epam.jdi:jdi-matchers cumulative data: 53,112,2,0.000000,0.000000,2.000000,0,0,2,1
-TRACE - io.fabric8:rest-utils::org.eclipse.jetty:jetty-io cumulative data: 201,235,1,0.000000,2.398010,0.452736,0,0,0,0
+TRACE - io.fabric8:rest-masters.utils::org.eclipse.jetty:jetty-io cumulative data: 201,235,1,0.000000,2.398010,0.452736,0,0,0,0
 TRACE - org.apereo.cas:cas-server-support-throttle::org.springframework:spring-context-support cumulative data: 57,84,21,0.500000,0.018519,1.129630,2,2,44,22
 TRACE - org.apereo.cas:cas-server-support-saml-idp-core::org.springframework:spring-webmvc cumulative data: 56,75,11,0.696970,0.000000,0.666667,0,0,23,11
 TRACE - org.apereo.cas:cas-server-core-api-protocol::com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider cumulative data: 58,93,3,0.000000,0.000000,0.800000,0,0,4,2
@@ -1047,7 +1047,7 @@ TRACE - org.reactivemongo:play2-reactivemongo_2.11::org.specs2:specs2_2.11 cumul
 TRACE - org.apereo.cas:cas-server-core-api-util::org.springframework:spring-core cumulative data: 58,83,8,0.000000,0.000000,1.260870,0,0,11,6
 TRACE - org.apereo.cas:cas-server-core-api-logout::com.fasterxml.jackson.module:jackson-module-kotlin cumulative data: 58,82,3,0.000000,0.000000,0.666667,0,0,2,2
 TRACE - com.alibaba:druid::org.springframework:spring-core cumulative data: 75,83,2,0.340426,0.531915,4.617021,4,0,0,2
-TRACE - io.fabric8:rest-utils::org.eclipse.jetty:jetty-security cumulative data: 201,231,1,0.000000,2.398010,0.452736,0,0,0,0
+TRACE - io.fabric8:rest-masters.utils::org.eclipse.jetty:jetty-security cumulative data: 201,231,1,0.000000,2.398010,0.452736,0,0,0,0
 TRACE - com.netflix.rxjava:rxjava-jruby::org.mockito:mockito-core cumulative data: 52,258,1,0.000000,1.142857,0.000000,0,0,0,0
 TRACE - com.google.api:gax::org.mockito:mockito-core cumulative data: 97,258,2,0.951807,0.060241,0.000000,8,0,0,4
 TRACE - org.codelibs:elasticsearch-cluster-runner::org.elasticsearch:elasticsearch cumulative data: 79,225,66,0.316456,0.113924,0.025316,56,10,5,31
@@ -1321,7 +1321,7 @@ TRACE - org.grails:grails-validation::org.codehaus.groovy:groovy-test cumulative
 TRACE - org.apereo.cas:cas-server-core-api-webflow::com.fasterxml.jackson.dataformat:jackson-dataformat-yaml cumulative data: 54,88,10,0.000000,0.342105,1.657895,0,15,9,13
 TRACE - org.specs2:specs2-shapeless_2.12::org.scala-lang:scala-compiler cumulative data: 64,76,1,0.000000,1.000000,0.000000,0,0,0,0
 TRACE - org.elasticsearch:elasticsearch-lang-python::org.testng:testng cumulative data: 50,69,1,0.000000,1.666667,0.000000,0,0,0,0
-TRACE - com.qaprosoft:carina-utils::com.fasterxml.jackson.core:jackson-databind cumulative data: 84,110,1,0.000000,1.000000,1.976190,0,0,0,0
+TRACE - com.qaprosoft:carina-masters.utils::com.fasterxml.jackson.core:jackson-databind cumulative data: 84,110,1,0.000000,1.000000,1.976190,0,0,0,0
 TRACE - org.apereo.cas:cas-server-core-api-monitor::com.fasterxml.jackson.datatype:jackson-datatype-guava cumulative data: 58,89,10,0.000000,0.361111,1.638889,0,15,9,13
 TRACE - org.onosproject:onos-core-dist::com.fasterxml.jackson.core:jackson-databind cumulative data: 96,110,5,0.000000,0.782609,2.304348,0,41,15,28
 TRACE - org.realityforge.arez:arez-processor::org.eclipse.jetty:jetty-plus cumulative data: 67,231,1,0.000000,2.000000,9.260000,0,0,0,0
@@ -1557,7 +1557,7 @@ TRACE - org.grails:grails-plugin-databinding::org.codehaus.groovy:groovy-test cu
 TRACE - com.xiaoleilu:hutool::com.ibeetl:beetl cumulative data: 79,57,1,0.000000,0.000000,2.333333,0,0,0,0
 TRACE - net.serenity-bdd:serenity-sample-alternative-resources::org.mockito:mockito-core cumulative data: 246,258,3,0.990000,0.100000,0.000000,2,19,0,11
 TRACE - com.themodernway:themodernway-server-core::com.themodernway:themodernway-common cumulative data: 78,67,1,0.000000,0.000000,0.000000,0,0,0,0
-TRACE - io.fabric8:rest-utils::org.eclipse.jetty:jetty-http cumulative data: 201,231,1,0.000000,2.398010,0.452736,0,0,0,0
+TRACE - io.fabric8:rest-masters.utils::org.eclipse.jetty:jetty-http cumulative data: 201,231,1,0.000000,2.398010,0.452736,0,0,0,0
 TRACE - org.apereo.cas:cas-server-core-api-services::org.springframework:spring-web cumulative data: 58,66,12,0.000000,0.029412,1.352941,0,2,18,11
 TRACE - org.realityforge.react4j:react4j-arez::org.eclipse.jetty:jetty-annotations cumulative data: 77,235,1,0.000000,2.000000,9.022222,0,0,0,0
 TRACE - org.apereo.cas:cas-server-core-api-events::org.springframework:spring-context-support cumulative data: 55,84,18,0.480769,0.000000,1.269231,2,1,43,21
@@ -1864,7 +1864,7 @@ TRACE - org.realityforge.react4j:react4j-arez::org.eclipse.jetty:jetty-jndi cumu
 TRACE - org.scalaz:scalaz-scalacheck-binding_2.11::org.scalaz:scalaz-concurrent_2.11 cumulative data: 56,81,5,0.000000,1.000000,0.000000,0,0,4,2
 TRACE - com.nimbusds:common::com.sun.jersey:jersey-server cumulative data: 86,58,4,0.000000,0.000000,0.000000,0,4,7,6
 TRACE - org.springframework.integration:spring-integration-security::org.springframework:spring-tx cumulative data: 81,84,10,0.500000,0.333333,0.444444,14,0,3,8
-TRACE - io.fabric8:rest-utils::org.eclipse.jetty:jetty-jndi cumulative data: 201,235,1,0.000000,2.398010,0.452736,0,0,0,0
+TRACE - io.fabric8:rest-masters.utils::org.eclipse.jetty:jetty-jndi cumulative data: 201,235,1,0.000000,2.398010,0.452736,0,0,0,0
 TRACE - org.grails:grails-plugin-gsp::org.codehaus.groovy:groovy cumulative data: 106,163,8,0.000000,0.060000,0.260000,0,0,27,11
 TRACE - org.onosproject:onlab-rest::io.netty:netty cumulative data: 97,70,1,1.000000,0.000000,1.000000,0,0,0,0
 TRACE - org.apereo.cas:cas-server-core-api-ticket::com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider cumulative data: 58,93,3,0.000000,0.000000,0.800000,0,0,4,2
@@ -1898,7 +1898,7 @@ TRACE - org.grails:grails-web-sitemesh::org.codehaus.groovy:groovy-all cumulativ
 TRACE - org.realityforge.react4j:react4j-arez::org.eclipse.jetty:jetty-webapp cumulative data: 77,231,1,0.000000,2.000000,9.022222,0,0,0,0
 TRACE - org.apereo.cas:cas-server-core::org.springframework:spring-webmvc cumulative data: 53,75,17,0.460000,0.020000,1.280000,0,2,39,21
 TRACE - com.themodernway:themodernway-server-core::org.springframework:spring-oxm cumulative data: 78,76,9,0.557692,0.000000,0.000000,0,0,39,20
-TRACE - net.serenity-bdd:serenity-test-utils::org.mockito:mockito-core cumulative data: 246,258,3,0.990000,0.100000,0.000000,2,19,0,11
+TRACE - net.serenity-bdd:serenity-test-masters.utils::org.mockito:mockito-core cumulative data: 246,258,3,0.990000,0.100000,0.000000,2,19,0,11
 TRACE - org.apereo.cas:cas-server-core-api-validation::com.fasterxml.jackson.datatype:jackson-datatype-guava cumulative data: 58,89,10,0.000000,0.351351,1.540541,0,15,9,13
 TRACE - org.skinny-framework:skinny-framework_2.10::org.mockito:mockito-core cumulative data: 139,258,10,0.763636,0.054545,0.272727,10,6,1,8
 TRACE - org.apereo.cas:cas-server-core-api-validation::org.springframework:spring-webmvc cumulative data: 58,75,11,0.687500,0.000000,0.625000,0,0,23,11
@@ -2187,7 +2187,7 @@ TRACE - org.skinny-framework:skinny-framework_2.11::org.mockito:mockito-core cum
 WARN - :org.jetbrains.kotlin:kotlin-stdlib is null
 TRACE - com.spotify:helios-services::com.sun.jersey:jersey-core cumulative data: 226,97,1,0.000000,1.000000,3.852679,0,0,0,0
 TRACE - org.apereo.cas:cas-server-core-api-protocol::org.codehaus.groovy:groovy-groovysh cumulative data: 58,58,1,0.000000,0.000000,0.000000,0,0,0,0
-TRACE - io.fabric8:rest-utils::org.eclipse.jetty:jetty-servlet cumulative data: 201,235,1,0.000000,2.398010,0.452736,0,0,0,0
+TRACE - io.fabric8:rest-masters.utils::org.eclipse.jetty:jetty-servlet cumulative data: 201,235,1,0.000000,2.398010,0.452736,0,0,0,0
 TRACE - com.bertramlabs.plugins:ratpack-asset-pipeline::io.ratpack:ratpack-core cumulative data: 70,52,1,0.000000,0.000000,0.000000,0,0,0,0
 TRACE - org.jresearch.commons.gwt:org.jresearch.commons.gwt.flexess.srv::org.jresearch.commons.base.manager:org.jresearch.commons.base.manager.api cumulative data: 71,54,8,0.000000,0.000000,0.000000,0,0,8,5
 TRACE - com.google.cloud:google-cloud-spanner::com.google.api:gax cumulative data: 63,97,1,0.000000,1.000000,4.000000,0,0,0,0
@@ -2491,7 +2491,7 @@ TRACE - org.efaps:efaps-kernel::org.eclipse.jetty:jetty-jndi cumulative data: 57
 TRACE - org.apereo.cas:cas-server-core-api-webflow::org.springframework:spring-tx cumulative data: 54,84,19,0.509434,0.000000,1.245283,2,1,44,22
 TRACE - com.netflix.rxjava:rxjava-jruby::org.jruby:jruby cumulative data: 52,80,1,0.000000,0.000000,11.000000,0,0,0,0
 TRACE - org.apereo.cas:cas-server-support-jdbc-drivers::org.springframework:spring-test cumulative data: 56,61,9,0.000000,0.000000,1.480000,0,0,17,9
-TRACE - io.fabric8:rest-utils::org.eclipse.jetty:jetty-server cumulative data: 201,231,1,0.000000,2.398010,0.452736,0,0,0,0
+TRACE - io.fabric8:rest-masters.utils::org.eclipse.jetty:jetty-server cumulative data: 201,231,1,0.000000,2.398010,0.452736,0,0,0,0
 TRACE - pl.allegro.tech.hermes:hermes-test-helper::org.testng:testng cumulative data: 67,69,1,0.103448,2.293103,5.000000,0,0,0,0
 TRACE - org.apereo.cas:cas-server-support-themes::com.github.axet:wget cumulative data: 57,58,1,0.000000,0.000000,0.000000,0,0,0,0
 TRACE - org.apache.servicemix.bundles:org.apache.servicemix.bundles.hbase::com.sun.jersey:jersey-json cumulative data: 70,58,2,0.000000,10.166667,0.450000,0,13,0,7
@@ -2528,7 +2528,7 @@ TRACE - org.apereo.cas:cas-server-core-tickets::com.fasterxml.jackson.datatype:j
 TRACE - com.alibaba:fastjson::com.fasterxml.jackson.core:jackson-databind cumulative data: 108,110,6,0.000000,1.600000,2.527273,0,24,1,13
 TRACE - com.sun.jersey.contribs:jersey-spring::com.sun.xml.bind:jaxb-impl cumulative data: 96,51,3,0.000000,0.909091,1.151515,0,6,3,5
 TRACE - org.apereo.cas:cas-server-core-tickets::org.springframework:spring-core cumulative data: 58,83,2,0.000000,0.000000,0.000000,0,0,1,0
-TRACE - com.netflix.eureka:eureka-test-utils::org.mockito:mockito-core cumulative data: 92,258,1,1.000000,0.000000,0.000000,0,0,0,0
+TRACE - com.netflix.eureka:eureka-test-masters.utils::org.mockito:mockito-core cumulative data: 92,258,1,1.000000,0.000000,0.000000,0,0,0,0
 TRACE - org.apache.cxf:cxf-bundle::org.eclipse.jetty:jetty-http cumulative data: 106,231,12,1.297297,0.756757,0.364865,16,12,10,18
 TRACE - org.mobicents.servlet.sip.containers:jboss-as7-mobicents::org.jboss:jboss-vfs cumulative data: 91,67,1,0.000000,0.988889,0.000000,0,0,0,0
 TRACE - org.grails:grails-plugin-events::org.codehaus.groovy:groovy-test cumulative data: 51,93,8,0.019608,0.098039,0.294118,0,0,34,16
@@ -2902,7 +2902,7 @@ TRACE - com.hazelcast:hazelcast-hibernate3::org.hibernate:hibernate-core cumulat
 TRACE - org.craftercms:crafter-social-admin::org.craftercms:crafter-profile-client cumulative data: 50,68,1,0.000000,1.000000,2.500000,0,0,0,0
 TRACE - org.apache.cxf:cxf-bundle-minimal::org.springframework:spring-core cumulative data: 99,83,3,0.000000,0.518519,0.222222,0,3,1,3
 TRACE - au.com.dius:pact-jvm-consumer-specs2_2.11::org.codehaus.groovy:groovy-all cumulative data: 133,150,4,0.233333,1.433333,1.933333,0,0,17,8
-TRACE - net.thucydides:thucydides-jbehave-plugin::net.thucydides:thucydides-test-utils cumulative data: 65,109,1,0.000000,0.000000,0.500000,0,0,0,0
+TRACE - net.thucydides:thucydides-jbehave-plugin::net.thucydides:thucydides-test-masters.utils cumulative data: 65,109,1,0.000000,0.000000,0.500000,0,0,0,0
 TRACE - io.fabric8:kubernetes-client::com.ning:async-http-client cumulative data: 185,126,1,0.000000,0.000000,1.000000,0,0,0,0
 TRACE - org.datanucleus:datanucleus-accessplatform-jdo-cassandra::org.datanucleus:datanucleus-core cumulative data: 57,157,18,0.500000,0.111111,0.000000,0,4,13,10
 TRACE - org.kuali.rice:rice-it-kim::org.eclipse.jetty:jetty-security cumulative data: 76,231,1,0.000000,2.000000,10.500000,0,0,0,0
@@ -3292,7 +3292,7 @@ TRACE - org.apereo.cas:cas-server-support-jpa-util::org.javers:javers-core cumul
 TRACE - org.specrunner:specrunner-jetty::org.eclipse.jetty:jetty-webapp cumulative data: 130,231,1,0.000000,1.666667,2.500000,0,0,0,0
 TRACE - net.serenity-bdd:serenity-browsermob-plugin::io.netty:netty-all cumulative data: 126,113,1,1.000000,1.000000,8.215385,0,0,0,0
 TRACE - org.springframework.security:spring-security-acl::org.springframework:spring-jdbc cumulative data: 50,89,11,0.578947,0.000000,0.578947,12,0,4,8
-TRACE - net.serenity-bdd:serenity-test-utils::net.bytebuddy:byte-buddy cumulative data: 246,150,6,0.000000,0.319672,4.139344,0,39,10,22
+TRACE - net.serenity-bdd:serenity-test-masters.utils::net.bytebuddy:byte-buddy cumulative data: 246,150,6,0.000000,0.319672,4.139344,0,39,10,22
 TRACE - org.apereo.cas:cas-server-core-webflow::org.springframework:spring-core cumulative data: 58,83,9,0.000000,0.038462,1.269231,0,2,12,7
 TRACE - org.http4s:http4s-argonaut_2.11::org.scalaz:scalaz-scalacheck-binding_2.11 cumulative data: 165,56,20,0.000000,1.292035,0.716814,0,36,36,36
 TRACE - org.http4s:http4s-json4s-jackson_2.11::org.scalaz:scalaz-scalacheck-binding_2.11 cumulative data: 159,56,20,0.000000,1.292035,0.716814,0,36,36,36

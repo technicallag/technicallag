@@ -1,7 +1,7 @@
 package masters.dataClasses;
 
 import org.apache.log4j.Logger;
-import utils.Logging;
+import masters.utils.Logging;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -65,10 +65,13 @@ public class ProjectTimelinePair implements Runnable {
     Project a, b;
     int pos;
 
-    List<ProjectVersionInfo> orderedVersionsA;
-    List<ProjectVersionInfo> orderedVersionsB;
+    List<ProjectVersionInfo> orderedByVersionA;
+    List<ProjectVersionInfo> orderedByTimeA;
+    List<ProjectVersionInfo> orderedByTimeB;
 
-    List<Integer> linksAtoB;
+//    List<Integer> mapOrderedToUnordered;
+    List<Integer> linksTimeOrderedAtoB;
+    List<Integer> linksVersionOrderedAtoTimeB;
 
     // Creates and stores a tree of the major, minor and micro changes within a project
     ProcessPair processPair;
@@ -101,14 +104,38 @@ public class ProjectTimelinePair implements Runnable {
     Printing Logic
      */
     private void printTimelines(){
+        List<Integer> mapTimeToVersion = mapVersionOrderToTimeOrder(orderedByVersionA, orderedByTimeA);
         try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/timelines2/" + pair.replace(":", "$") + ".csv")))) {
             writeLine(out, headers);
 
-            for (int i = 0; i < orderedVersionsA.size(); i++) {
-                ProjectVersionInfo thisA = orderedVersionsA.get(i);
+            // Write data out ordered by Version
+            for (int i = 0; i < orderedByVersionA.size(); i++) {
+                ProjectVersionInfo thisA = orderedByVersionA.get(i);
 
                 // It is possible that for a given version of A, B does not exist yet
-                ProjectVersionInfo thisDep = linksAtoB.get(i) == -1 ? null : orderedVersionsB.get(linksAtoB.get(i));
+                ProjectVersionInfo thisDep = linksVersionOrderedAtoTimeB.get(i) == -1 ? null : orderedByTimeB.get(linksVersionOrderedAtoTimeB.get(i));
+                VersionsBehind versionsBehindTags = processPair.howFarBehindIsA[mapTimeToVersion.get(i)];
+                VersionsBehind versionsBehindNoTags = processPair.howFarBehindIsANoTags[mapTimeToVersion.get(i)];
+
+                writeLine(out,
+                        thisA.getVersion().toString(),
+                        thisA.getTimeStringNullable(),
+                        thisDep == null ? "" : thisDep.getVersionString(),
+                        thisDep == null ? "" : thisDep.getTimeStringNullable(),
+                        versionsBehindTags == null ? VersionsBehind.emptyToString(",") : versionsBehindTags.toString(","),
+                        versionsBehindNoTags == null ? VersionsBehind.emptyToString(",") : versionsBehindNoTags.toString(",")
+                );
+            }
+
+            writeLine(out, "\n\n");
+            writeLine(out, "Data ordered by Publish Date");
+
+            // Write data out ordered by Publish Date
+            for (int i = 0; i < orderedByVersionA.size(); i++) {
+                ProjectVersionInfo thisA = orderedByVersionA.get(i);
+
+                // It is possible that for a given version of A, B does not exist yet
+                ProjectVersionInfo thisDep = linksTimeOrderedAtoB.get(i) == -1 ? null : orderedByTimeB.get(linksTimeOrderedAtoB.get(i));
                 VersionsBehind versionsBehindTags = processPair.howFarBehindIsA[i];
                 VersionsBehind versionsBehindNoTags = processPair.howFarBehindIsANoTags[i];
 
@@ -123,8 +150,10 @@ public class ProjectTimelinePair implements Runnable {
             }
 
             writeLine(out, "\n\n");
+
+            // Project B's time ordered data for reference
             writeLine(out, "ProjBVersion", "ProjBDate");
-            for (ProjectVersionInfo b: orderedVersionsB) {
+            for (ProjectVersionInfo b: orderedByTimeB) {
                 writeLine(out, b.getVersionString(), b.getTimeStringNullable());
             }
         } catch (IOException e) {
@@ -209,18 +238,36 @@ public class ProjectTimelinePair implements Runnable {
         }
 
         // Use timestamps to order versions
-        orderedVersionsA = a.getVersions().values().stream()
+        orderedByVersionA = a.getVersions().values().stream().sorted().collect(Collectors.toList());
+        orderedByTimeA = a.getVersions().values().stream()
                 .sorted((e1, e2) -> e1.getTimestampNullable().compareTo(e2.getTimestampNullable()))
                 .collect(Collectors.toList());
-        orderedVersionsB = b.getVersions().values().stream()
+        orderedByTimeB = b.getVersions().values().stream()
                 .sorted((e1, e2) -> e1.getTimestampNullable().compareTo(e2.getTimestampNullable()))
                 .collect(Collectors.toList());
 
         // Link dependencies in project A to project B
-        linksAtoB = getLinks(orderedVersionsA, orderedVersionsB);
+        linksTimeOrderedAtoB = getLinks(orderedByTimeA, orderedByTimeB);
+        linksVersionOrderedAtoTimeB = getLinks(orderedByVersionA, orderedByTimeB);
 
         // Describe the changes between versions in timeline A and timeline B
-        processPair = new ProcessPair(orderedVersionsA, orderedVersionsB, linksAtoB, getLinks(a.getVersions().values().stream().collect(Collectors.toList()), orderedVersionsB));
+        processPair = new ProcessPair(orderedByTimeA, orderedByTimeB, linksTimeOrderedAtoB, linksVersionOrderedAtoTimeB);
+    }
+
+    // Give it the ordering of the versionOrdered, and it will give you where the timeOrdered one is
+    List<Integer> mapVersionOrderToTimeOrder(List<ProjectVersionInfo> versionOrdered, List<ProjectVersionInfo> timeOrdered) {
+        List<Integer> list = new ArrayList<>();
+
+        for (int i = 0; i < versionOrdered.size(); i++) {
+            for (int j = 0; j < timeOrdered.size(); j++) {
+                if (versionOrdered.get(i) == timeOrdered.get(j)) {
+                    list.add(j);
+                    break;
+                }
+            }
+        }
+
+        return list;
     }
 
     List<Integer> getLinks(List<ProjectVersionInfo> versionsA, List<ProjectVersionInfo> versionsB) {
@@ -383,14 +430,23 @@ class ProcessPair {
     int numVersB;
 
     int numDistinctDepDecs;
+    int versionsWithDeps;
 
     double avgMajorVersBehind = 0.0;
     double avgMinorVersBehind = 0.0;
     double avgMicroVersBehind = 0.0;
 
+    int numVersionsNotCurrentMajor = 0;
+    int numVersionsNotCurrentMinor = 0;
+    int numVersionsNotCurrentMicro = 0;
+
     double avgMajorVersBehindNoTags = 0.0;
     double avgMinorVersBehindNoTags = 0.0;
     double avgMicroVersBehindNoTags = 0.0;
+
+    int numVersionsNotCurrentMajorNoTags = 0;
+    int numVersionsNotCurrentMinorNoTags = 0;
+    int numVersionsNotCurrentMicroNoTags = 0;
 
     int numMajorDecChanges = 0;
     int numMinorDecChanges = 0;
@@ -417,10 +473,12 @@ class ProcessPair {
     }
 
     public String getCumulativeStats() {
-        return String.format("%d,%d,%d,%f,%f,%f,%f,%f,%f,%d,%d,%d,%d",
-                numVersA, numVersB, numDistinctDepDecs,
+        return String.format("%d,%d,%d,%d,%f,%f,%f,%d,%d,%d,%f,%f,%f,%d,%d,%d,%d,%d,%d,%d",
+                numVersA, numVersB, numDistinctDepDecs, versionsWithDeps,
                 avgMajorVersBehind, avgMinorVersBehind, avgMicroVersBehind,
+                numVersionsNotCurrentMajor, numVersionsNotCurrentMinor, numVersionsNotCurrentMicro,
                 avgMajorVersBehindNoTags, avgMinorVersBehindNoTags, avgMicroVersBehindNoTags,
+                numVersionsNotCurrentMajorNoTags, numVersionsNotCurrentMinorNoTags, numVersionsNotCurrentMicroNoTags,
                 numMajorDecChanges, numMinorDecChanges, numMicroDecChanges, numBackwardsDecChanges);
     }
 
@@ -429,7 +487,7 @@ class ProcessPair {
         numVersB = orderedVersionsB.size();
 
         numDistinctDepDecs = versionTree.dependencies.size();
-        int versionsWithDeps = versionTree.dependenciesOrdered.size();
+        versionsWithDeps = versionTree.dependenciesOrdered.size();
 
         // Get average number of dependencies behind
         for (int i = 0; i < linkedDeps.size(); i++) {
@@ -441,10 +499,18 @@ class ProcessPair {
             avgMinorVersBehind += (double)vb.numberBehind[1] / versionsWithDeps;
             avgMicroVersBehind += (double)vb.numberBehind[2] / versionsWithDeps;
 
+            numVersionsNotCurrentMajor += vb.numberBehind[0] > 0 ? 1 : 0;
+            numVersionsNotCurrentMinor += vb.numberBehind[1] > 0 ? 1 : 0;
+            numVersionsNotCurrentMicro += vb.numberBehind[2] > 0 ? 1 : 0;
+
             VersionsBehind vbnt = howFarBehindIsANoTags[i];
             avgMajorVersBehindNoTags += (double)vbnt.numberBehind[0] / versionsWithDeps;
             avgMinorVersBehindNoTags += (double)vbnt.numberBehind[1] / versionsWithDeps;
             avgMicroVersBehindNoTags += (double)vbnt.numberBehind[2] / versionsWithDeps;
+
+            numVersionsNotCurrentMajorNoTags += vbnt.numberBehind[0] > 0 ? 1 : 0;
+            numVersionsNotCurrentMinorNoTags += vbnt.numberBehind[1] > 0 ? 1 : 0;
+            numVersionsNotCurrentMicroNoTags += vbnt.numberBehind[2] > 0 ? 1 : 0;
         }
 
         // Get version differences (use the version ordering rather than the time ordering in case of parallel development)
@@ -453,9 +519,9 @@ class ProcessPair {
         for (int i = 1; i < linkedByStringOrdering.size(); i++) {
             Version cur = orderedVersionsB.get(linkedByStringOrdering.get(i)).getVersion();
             if (!prev.equals(cur)) {
-                if (cur.compareTo(prev) < 0) { // Backwards
-                    numBackwardsDecChanges++;
-                }
+//                if (cur.compareTo(prev) < 0) { // Backwards
+//                    numBackwardsDecChanges++;
+//                }
 
                 if (!cur.sameMajor(prev)) numMajorDecChanges++;
                 else if (!cur.sameMinor(prev)) numMinorDecChanges++;
@@ -463,16 +529,41 @@ class ProcessPair {
             }
             prev = cur;
         }
+
+        // Use time ordering to figure out
     }
 
     private void buildTries() {
         howFarBehindIsA = new VersionsBehind[orderedVersionsA.size()];
         howFarBehindIsANoTags = new VersionsBehind[orderedVersionsA.size()];
 
+        Map<Version, Version> dependenciesSoFar = new HashMap<>();
+        Version previous = null;
+
         int bIndex = 0;
         for (int i = 0; i < orderedVersionsA.size(); i++) {
             // If there's not a declared dependency at version Ai, continue
             if (linkedDeps.get(i) == -1) continue;
+
+            /* This section for the next 14 lines is here to try to get a better backwards declaration change statistic
+             * The issue is that simultaneous development renders time ordered and version ordered approaches ineffective.
+              * This is not fool proof (if an earlier line of simultaneous development has a newer version, it will think it's a backwards change)
+              * To fully solve this, I posit that a simultaneous development tracker would be required, with quite a bit of complexity. */
+            Version aVers = orderedVersionsA.get(i).getVersion();
+            Version dep = orderedVersionsB.get(linkedDeps.get(i)).getVersion();
+
+            // Only count it the first time going backwards. Will still pick up if a later version is still below a previous version
+            if (previous != null && dep.compareTo(previous) < 0) {
+                for (Map.Entry<Version, Version> entry: dependenciesSoFar.entrySet()) {
+                    // If the previous dep is a higher version and the previous A version is an earlier version
+                    if (entry.getKey().compareTo(dep) > 0 && entry.getValue().compareTo(aVers) < 0) {
+                        numBackwardsDecChanges++;
+                        break;
+                    }
+                }
+            }
+            previous = dep;
+            dependenciesSoFar.compute(dep, (k,v) -> (v == null) ? aVers : (aVers.compareTo(v) < 0) ? aVers : v);
 
             // Add in all versions of B that are before A
             ProjectVersionInfo aVersion = orderedVersionsA.get(i);
@@ -505,8 +596,7 @@ class ProcessPair {
             // Compare this version with the other
             Version declaredVersion = orderedVersionsB.get(linkedDeps.get(i)).getVersion();
             howFarBehindIsA[i] = versionTree.getVersionsBehind(declaredVersion);
-            if (allowTag(declaredVersion.additionalInfo))
-                howFarBehindIsANoTags[i] = versionTreeNoTags.getVersionsBehind(declaredVersion);
+            howFarBehindIsANoTags[i] = allowTag(declaredVersion.additionalInfo) ? versionTreeNoTags.getVersionsBehind(declaredVersion) : howFarBehindIsA[i];
         }
     }
 

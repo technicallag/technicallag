@@ -1,4 +1,4 @@
-package utils;
+package masters.utils;
 
 import java.io.FileReader;
 import java.io.IOException;

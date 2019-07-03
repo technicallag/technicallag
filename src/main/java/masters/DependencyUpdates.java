@@ -1,6 +1,6 @@
 package masters;
 
-import utils.Database;
+import masters.utils.Database;
 import masters.dataClasses.*;
 
 import java.sql.Connection;
@@ -9,13 +9,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import org.apache.log4j.Logger;
-import utils.Logging;
+import masters.utils.Logging;
 
 public class DependencyUpdates {
 
     public static void main(String[] args) throws SQLException {
         Connection c = Database.getConnection();
-        Logger log = Logging.getLogger("CumulativeStats printing to file");
+        Logger log = Logging.getLogger("CumulativeStats debugging BackwardsChanges simultaneous development issues");
 
         log.info("Connection ready");
         c.setAutoCommit(false);

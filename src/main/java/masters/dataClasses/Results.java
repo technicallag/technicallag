@@ -7,10 +7,9 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.*;
 import java.util.concurrent.*;
-import java.util.concurrent.atomic.*;
 
 import org.apache.log4j.Logger;
-import utils.Database;
+import masters.utils.Database;
 
 // Container class that gathers information from SQL and controls access to the various data classes
 public class Results {
@@ -146,9 +145,11 @@ public class Results {
 
         TimelineStats.log();
         try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/cumulativeStats.csv")))) {
-            out.write(String.join(",", "ProjectPair", "numVersA", "numVersB", "numDistinctDepDecs",
+            out.write(String.join(",", "ProjectPair", "numVersA", "numVersB", "numDistinctDepDecs", "versionsWithDeps",
                     "avgMajorVersBehind", "avgMinorVersBehind", "avgMicroVersBehind",
+                    "numVersionsBehindCurMajor", "numVersionsBehindCurMinor", "numVersionsBehindCurMicro",
                     "avgMajorVersBehindNoTags", "avgMinorVersBehindNoTags", "avgMicroVersBehindNoTags",
+                    "numVersionsBehindCurMajorNoTags", "numVersionsBehindCurMinorNoTags", "numVersionsBehindCurMicroNoTags",
                     "numMajorDecChanges", "numMinorDecChanges", "numMicroDecChanges", "numBackwardsDecChanges") + "\n");
             for (String s: cumulativeInfo) {
                 out.write(s + "\n");

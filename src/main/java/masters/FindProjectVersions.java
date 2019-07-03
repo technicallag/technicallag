@@ -3,10 +3,10 @@ package masters;
 import java.sql.*;
 
 import masters.dataClasses.*;
-import utils.Database;
+import masters.utils.Database;
 
 import org.apache.log4j.Logger;
-import utils.Logging;
+import masters.utils.Logging;
 
 /**
  * Created by Jacob Stringer on 28/01/2019.

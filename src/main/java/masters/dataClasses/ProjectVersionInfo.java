@@ -1,6 +1,6 @@
 package masters.dataClasses;
 
-import utils.Database;
+import masters.utils.Database;
 
 import javax.annotation.Nullable;
 import java.sql.Connection;

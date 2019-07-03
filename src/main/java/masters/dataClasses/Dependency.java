@@ -2,7 +2,7 @@ package masters.dataClasses;
 
 import java.sql.Connection;
 import java.sql.Timestamp;
-import utils.Database;
+import masters.utils.Database;
 
 public class Dependency {
     private String projectName;

@@ -1,4 +1,4 @@
-package utils;
+package masters.utils;
 
 
 import org.apache.log4j.BasicConfigurator;
