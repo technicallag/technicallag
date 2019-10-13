@@ -12,8 +12,6 @@ public class Database {
             Properties dbProperties = loadDBSettings();
             Class.forName(dbProperties.getProperty("driver"));
             String url = dbProperties.getProperty("url");
-            // String user = dbProperties.getProperty("user");
-            // String pwd = dbProperties.getProperty("pwd");
             return DriverManager.getConnection(url, dbProperties);
         } catch (Exception e) {
             e.printStackTrace();

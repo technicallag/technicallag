@@ -104,18 +104,6 @@ public class Version implements Comparable<Version> {
         return b==null?null:b.toString();
     }
 
-
-    public static boolean lessThan(String versionDef1,String versionDef2)  {
-        try {
-            Version version1 = CACHE.get(versionDef1, () -> Version.create(versionDef1));
-            Version version2 = CACHE.get(versionDef2, () -> Version.create(versionDef2));
-            return version1.compareTo(version2) < 0;
-        } catch (Exception x) {
-//            LOGGER.error("Error caching versions",x);
-            throw new IllegalStateException(x);
-        }
-    }
-
     public boolean sameMajor(Version other) {
         if (this.versionTokens.size() == 0 || other.versionTokens.size() == 0) return false;
         return this.versionTokens.get(0).equals(other.versionTokens.get(0));

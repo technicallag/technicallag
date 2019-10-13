@@ -27,4 +27,4 @@ CREATE INDEX timestamp ON versions (ProjectName, Number);
 
 # Run
 mvn compile
-mvn exec:java "-Dexec.mainClass=masters.DependencyUpdates" "-Dexec.args=-Xmx2g"
+mvn exec:java "-Dexec.mainClass=masters.Main" "-Dexec.args=-Xmx2g"

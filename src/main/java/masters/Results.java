@@ -1,4 +1,4 @@
-package masters.dataClasses;
+package masters;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -8,6 +8,10 @@ import java.sql.*;
 import java.util.*;
 import java.util.concurrent.*;
 
+import masters.dataClasses.Dependency;
+import masters.dataClasses.Project;
+import masters.dataClasses.ProjectVersionInfo;
+import masters.utils.Logging;
 import org.apache.log4j.Logger;
 import masters.utils.Database;
 
@@ -17,11 +21,7 @@ public class Results {
     private HashSet<String> projectPairs = new HashSet<>();
     private int FOUND = 0;
     private int NOTFOUND = 0;
-    private Logger LOG;
-
-    public Results(Logger log) {
-        this.LOG = log;
-    }
+    private Logger LOG = Logging.getLogger("");
 
     public void consumeResults(ResultSet rs) throws SQLException {
         int count = 0;
@@ -46,10 +46,13 @@ public class Results {
             Dependency dep = new Dependency(rs.getString("DependencyName"), rs.getString("DependencyRequirements"));
             getProjects().get(name).addProjectInfo(version, dep);
         }
+
+        LOG.info("DB Results consumed");
     }
 
     public void compareProjects() {
         this.getProjects().forEach((k, v) -> v.compareVersions());
+        LOG.info("Projects compared");
     }
 
     public void printProjectResults() {
@@ -66,6 +69,8 @@ public class Results {
                 e.printStackTrace();
             }
         });
+
+        LOG.info("Project results printed");
     }
 
     /*
@@ -92,7 +97,9 @@ public class Results {
                 });
             });
         });
+
         LOG.info(String.format("Dependencies FOUND: %d, Not FOUND: %d%n", this.FOUND, this.NOTFOUND));
+        LOG.info("Filtering of projects to only include dependency pairs complete");
     }
 
     private void dependencyFound(boolean found) {
@@ -105,14 +112,6 @@ public class Results {
     public void constructTimeline() throws SQLException {
         File dir = new File("data/timelines2");
         if (!dir.exists()) dir.mkdirs();
-//        else {
-//            try {
-//                FileUtils.cleanDirectory(dir);
-//                LOG.info("Old timeline data cleared");
-//            } catch (IOException e) {
-//                LOG.error(e);
-//            }
-//        }
 
         // Run concurrently to speed up
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(8);
@@ -158,6 +157,7 @@ public class Results {
             LOG.error(e);
         }
 
+        LOG.info("Timelines constructed and printed");
     }
 
     public HashMap<String, Project> getProjects() {
@@ -168,55 +168,3 @@ public class Results {
         this.projects = projects;
     }
 }
-
-
-// class Data implements Comparable<Data> {
-// Version v, dep;
-// Timestamp t, depTime;
-
-// Data(Version v, Timestamp t) {
-// this.v = v;
-// this.t = t;
-// }
-
-// Data(Version v, Timestamp t, Version dep, Timestamp depTime) {
-// this(v, t);
-// this.dep = dep;
-// this.depTime = depTime;
-// }
-
-// public int compareTo(Data other) {
-// return v.compareTo(other.v);
-// }
-// }
-
-
-//            // Go through linked list of project versions. Check for dependencies to project b
-//            // Record version a and its timestamp. Record version b and its timestamp.
-//            List<Data> firstTimeline = new ArrayList<>();
-//            while (aVersion != null && bVersion != null) {
-//                Data data = null;
-//                for (Dependency dep : aVersion.getDependencies()) {
-//                    if (dep.getProjectName() == b.getName()) {
-//                        data = new Data(aVersion.getVersion(), aVersion.getTime(), dep.getVersion(), dep.getTimestamp());
-//                    }
-//                }
-//                firstTimeline.add(data != null ? data : new Data(aVersion.getVersion(), aVersion.getTime()));
-//                aVersion = aVersion.getNext();
-//            }
-
-
-//    public void getTimestamps(Connection c) throws SQLException {
-//        this.getProjects().forEach((projectName, project) -> {
-//            project.getVersions().forEach((versionString, versionObject) -> {
-//                // Get timestamps for each version that doesn't yet have them
-//                if (versionObject.getTime() == null) {
-//                    versionObject.setTimestamp(timestampFromDB(c, projectName, versionString));
-//                    // Set timestamps of the dependencies as well
-//                    versionObject.getDependencies().forEach(dep -> {
-//                        dep.setTimestamp(timestampFromDB(c, dep.getProjectName(), dep.getVersion()));
-//                    });
-//                }
-//            });
-//        });
-//    }
