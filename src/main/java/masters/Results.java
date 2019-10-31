@@ -51,7 +51,7 @@ public class Results {
     }
 
     public void compareProjects() {
-        this.getProjects().forEach((k, v) -> v.compareVersions());
+        this.getProjects().forEach((projectStringName, project) -> project.compareVersions());
         LOG.info("Projects compared");
     }
 
@@ -142,7 +142,7 @@ public class Results {
         while(connections.size() > 0)
             connections.poll().close();
 
-        TimelineStats.log();
+        TimelineStats.dumpDataToLogger();
         try (BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/cumulativeStats.csv")))) {
             out.write(String.join(",", "ProjectPair", "numVersA", "numVersB", "numDistinctDepDecs", "versionsWithDeps",
                     "avgMajorVersBehind", "avgMinorVersBehind", "avgMicroVersBehind",

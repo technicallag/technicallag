@@ -23,7 +23,7 @@ class TimelineStats {
     static AtomicInteger LAG_BEHIND = new AtomicInteger(0);
     static AtomicInteger WENT_BACKWARDS = new AtomicInteger(0);
 
-    static void log() {
+    static void dumpDataToLogger() {
         Logger LOG = Logging.getLogger("");
 
         LOG.info("There were " + SEMVER_PAIRS.toString() + " pairs where both use semantic versioning");

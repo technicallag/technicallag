@@ -1,0 +1,109 @@
+# comments start with #
+# reference the spec / grammar whenever possible
+#
+# spec: https://docs.microsoft.com/en-us/nuget/reference/package-versioning [accessed 7 August 18]
+# note: the dependencies in our db do not seem to adhere to these specifications
+#       I created rules based on the specs, and appended additional rules to match what is in the db.
+#
+# EXPLICIT_STATEMENT ?
+# DEFAULT_TOOLING ?
+# OTHER_TOOLING ?
+
+#any
+#test: *
+#match:\*
+#classify:any
+
+# exact version requirement
+#test: [1.0]
+#test: [1.0.1]
+#test: [6.11.1231]
+#test: [4.3.1-rc]
+#test: [2.2.44-beta1]
+#match:\[(\w+|\.|-)+\]
+#classify:fixed
+
+# at most
+#test: (,1.0]
+#test: (,1.0)
+#match:\(,(\w+|\.|-)+(\)|\])
+#classify:at-most
+
+# at least
+#test: (1.0,)
+#test: 1.0
+#match:(\()?(\w+|\.|-)+(,\))?
+#classify:at-least
+
+# version range
+#test: [1.0,2.0]
+#test: [1.0,2.0)
+#test: (1.0,2.0)
+#match: (\(|\[)(\w+|\.|-)+,(\w+|\.|-)+(\)|\])
+#classify:range
+
+# Wildcard Version Range (micro)
+#test: [1.1.*]
+#test: [0.10.*]
+#match: \[(\w+|\.){4}\*\]
+#classify:var-micro
+
+# Wildcard Version Range (minor)
+#test: [1.*]
+#test: [10.*]
+#match: \[(\w+|\.){2}\*\]
+#classify:var-minor
+
+# unresolved variables in NuGet
+#test: ${project.version}
+#match:\$\{(.)+\}
+#classify:unresolved
+
+#####
+#RULES BELOW BASED ON DB VALUES NOT SPECS
+#####
+
+#any
+test: =
+match:\=
+classify:any
+
+# exact version requirement
+test: =1.0
+test: = 1.0.1
+match:\=+\s*(\w+|\.|-)+
+classify:fixed
+
+# at least
+test: >= 2.5.2
+match: \>\=?\s*(\w+|\.|-)+
+classify:at-least
+
+# at most
+test: <= 2.5.2
+match: \<\=?\s*(\w+|\.|-)+
+classify:at-most
+
+# range
+test: >= 3.2.0.11 < 3.3.0
+test: >= 4.48.4489.28432 <= 4.97.4951.28483
+match:\>\=?\s*(\w+|\.|-)+\s*\<\=?\s*(\w+|\.|-)+
+classify:range
+
+#range
+test: ^1.5.0
+test: ^2.9.1-rc1
+match:\s*\^\s*(\w+|\.|-)+
+classify:range
+
+# at least
+test: > .0.0-~
+test: >= 1.0.0-alpha*
+test: >= 4.0.0.*
+match: \>\=?\s*(\w+|\.|-|\*|\~)+
+classify:at-least
+
+# exact version requirement
+test: 0.1.0
+match:\s*(\w+|\.|-)+
+classify:fixed

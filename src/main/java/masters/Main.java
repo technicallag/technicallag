@@ -2,10 +2,15 @@ package masters;
 
 import masters.utils.Database;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
+import java.util.Collection;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 import masters.utils.Logging;
@@ -24,9 +29,49 @@ public class Main {
 
     public static void main(String[] args) throws SQLException {
         Connection c = Database.getConnection();
-        Logger log = Logging.getLogger("CumulativeStats debugging BackwardsChanges simultaneous development issues");
+        Logger log = Logging.getLogger("Trialling new memory management model - Downloading all package manager pair information simultaneously");
         Main main = new Main(c, log);
-        main.createTimelineInformation();
+        main.findProjectPairs();
+        Database.closeConnections();
+//        main.createTimelineInformation();
+    }
+
+    private void findProjectPairs() {
+        long start = System.currentTimeMillis();
+        log.info("Beginning collection of pairs");
+        PairCollector finder = new PairCollector(null);
+
+        Map<PairCollector.PackageManager, Collection<PairIDs>> pairsByPM = finder.getAvailablePairs();
+        Map<PairCollector.PackageManager, Map<PairCollector.Status, Integer>> statsByPM = finder.getCounts();
+
+        printPairInfoToCSV(statsByPM);
+        log.debug("It took: " + (System.currentTimeMillis() - start) + " ms to get the filtered pairs");
+
+        start = System.currentTimeMillis();
+        for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
+            pairsByPM.get(pm).forEach(PairWithData::new);
+        }
+        log.debug("It took " + (System.currentTimeMillis() - start) + " ms to collect the pair data");
+    }
+
+    private void printPairInfoToCSV(Map<PairCollector.PackageManager, Map<PairCollector.Status, Integer>> statsByPM) {
+        try(BufferedWriter out = new BufferedWriter(new FileWriter(new File("data/pair_info.csv")))) {
+            // Headers
+            out.write(",");
+            for (PairCollector.Status status: PairCollector.Status.values()) { out.write(status + ","); }
+            out.write("\n");
+
+            // Data, one package manager at a time
+            for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
+                out.write(pm + ",");
+                for (PairCollector.Status status: PairCollector.Status.values()) {
+                    out.write(statsByPM.get(pm).get(status) + ",");
+                }
+                out.write("\n");
+            }
+        } catch(IOException e) {
+            log.error(e);
+        }
     }
 
     private void createTimelineInformation() throws SQLException {
@@ -35,22 +80,16 @@ public class Main {
         results.constructTimeline();
     }
 
-    private void getDataStructuresReady() throws SQLException {
-        log.info("Connection ready");
-        c.setAutoCommit(false);
-        Statement stmt = c.createStatement();
-        stmt.setFetchSize(1000);
-        ResultSet rs = stmt.executeQuery("select * from dependencies where platform = 'Maven'");
-        log.info("DB loaded");
-
-        results.consumeResults(rs);
-        c.close();
-        results.compareProjects();
-    }
-
     private void proofOfConceptFindProjectVersions() throws SQLException {
         getDataStructuresReady();
         results.printProjectResults();
+    }
+
+    private void getDataStructuresReady() throws SQLException {
+        ResultSet rs = Database.runQuery("select * from dependencies where platform = 'Maven'");
+        results.consumeResults(rs);
+        c.close();
+        results.compareProjects();
     }
 
 }

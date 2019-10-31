@@ -1,0 +1,16 @@
+INFO - Querying DB for the following SQL:
+SELECT projectname, dependencyname, dependencyrequirements
+FROM dependencies
+WHERE platform = 'Maven';
+INFO - Query complete for: SELECT projectname, dependencyname, dependencyrequirements
+FROM dependencies
+WHERE platform = 'Maven';
+INFO - Querying DB for the following SQL:
+SELECT name
+FROM projects
+WHERE name = 'org.jbehave.web:jbehave-web-waffle'
+FETCH FIRST 1 ROWS ONLY;
+INFO - Query complete for: SELECT name
+FROM projects
+WHERE name = 'org.jbehave.web:jbehave-web-waffle'
+FETCH FIRST 1 ROWS ONLY;

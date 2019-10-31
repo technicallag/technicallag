@@ -1,0 +1,8 @@
+INFO - Querying DB for the following SQL: SELECT projectname, dependencyname, dependencyrequirements
+FROM dependencies
+WHERE platform = 'maven';
+INFO - Query complete for: SELECT projectname, dependencyname, dependencyrequirements
+FROM dependencies
+WHERE platform = 'maven';
+INFO - There were 0projects pairs filtered in out of 0 total pairs found
+INFO - This operation took: 60212 ms

@@ -1,0 +1,64 @@
+# rules for CPAN
+# @author Kelly Blincoe
+#
+# spec: https://metacpan.org/pod/cpanfile
+# see also: https://mojolicious.org/perldoc/CPAN/Meta/Spec#Version-Formats
+# see also: https://metacpan.org/pod/release/RJBS/perl-5.18.0/pod/perlmodstyle.pod#Version_numbering
+#
+# Semantic versioing described as "best practice" in perlmoststyle doc above.
+#
+# "Version numbers should indicate at least major and minor releases,
+# and possibly sub-minor releases. A major release is one in which
+# most of the functionality has changed, or in which major new
+# functionality is added. A minor release is one in which a small
+# amount of functionality has been added or changed. Sub-minor version
+# numbers are usually used for changes which do not affect
+# functionality, such as documentation patches."
+#
+# EXPLICIT_STATEMENT Weak
+# DEFAULT_TOOLING ?
+# OTHER_TOOLING ?
+
+#any
+test: 0
+match:0
+classify:any
+
+#at least
+test: 1.0
+test: 1.0.1
+match:\s*(\w+|\.)+\s*
+classify:at-least
+
+#fixed
+test: == 2.1
+match:\s*\=\=\s*(\w+|\.)+\s*
+classify:fixed
+
+#at most
+test: <= 1.0
+test: < 1.0
+match:\s*\<\=?\s*(\w+|\.)+\s*
+classify:at-most
+
+#not
+test: != 1.0
+test: !=1.0,!=2.0
+match:(,?\s*\!\=\s*(\w+|\.)+\s*)+
+classify:not
+
+#at least
+test: >= 1.0
+test: >	 1.0
+match:\s*\>\=?\s*(\w+|\.)+\s*
+classify:at-least
+
+#range
+test: >2.0, <3.0
+match:\s*\>\=?\s*(\w+|\.)+\s*,\s*\<\=?\s*(\w+|\.)+\s*
+classify:range
+
+#other - ANDed combinations of rules
+test: >= v5.10.1, != 5.17, != v5.19.3
+match:\s*(\!\=|\<\=?|\>\=?|\=\=)?\s*(\w+|\.)+\s*(\s*,\s*(\!\=|\<\=?|\>\=?|\=\=)?\s*(\w+|\.)+\s*)+
+classify:other

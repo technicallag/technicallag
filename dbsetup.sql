@@ -22,4 +22,8 @@ DELETE FROM projects WHERE platform='Platform';
 
 DELETE FROM versions WHERE platform='Platform';
 
-CREATE INDEX timestamp ON versions (ProjectName, Number);
+--CREATE INDEX timestamp ON versions (ProjectName, Number);
+--CREATE INDEX projectName ON projects(Name);
+CREATE INDEX projectID ON projects(id);
+CREATE INDEX versionprojectID ON versions(projectid);
+CREATE INDEX depreq ON dependencies(projectid, dependencyprojectid, versionid);

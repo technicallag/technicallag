@@ -1,11 +1,31 @@
 package masters.utils;
 
+import org.apache.log4j.Logger;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
 import java.util.Properties;
+import java.util.concurrent.ArrayBlockingQueue;
 
 public class Database {
+
+    private static final int NUM_CONNECTIONS = 1;
+    private static ArrayBlockingQueue<Connection> CONNECTIONS = new ArrayBlockingQueue<>(NUM_CONNECTIONS);
+
+    static {
+        for (int i = 0; i < NUM_CONNECTIONS; i++) CONNECTIONS.add(getConnection());
+    }
+
+    public static void closeConnections() {
+        for (Connection c: CONNECTIONS) {
+            try {
+                c.close();
+            } catch (SQLException e) {
+                Logging.getLogger("").error(e);
+            }
+        }
+    }
 
     public static Connection getConnection() {
         try {
@@ -30,6 +50,35 @@ public class Database {
             System.exit(1);
         }
         return properties;
+    }
+
+    public static ResultSet runQueryNoLogs(String sql) {
+        try {
+            Connection c = CONNECTIONS.take();
+            c.setAutoCommit(false);
+
+            Statement stmt = c.createStatement();
+            stmt.setFetchSize(1000);
+            ResultSet rs = stmt.executeQuery(sql);
+
+            CONNECTIONS.add(c);
+            return rs;
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+            return null;
+        }
+    }
+
+    public static ResultSet runQuery(String sql) {
+        Logger log = Logging.getLogger("");
+
+        log.info("Querying DB for the following SQL:\n" + sql);
+        ResultSet rs = runQueryNoLogs(sql);
+        log.info("Query complete for: \n" + sql);
+
+        return rs;
     }
 
     public static String timestampFromDB(Connection c, String projectName, String versionString) {
