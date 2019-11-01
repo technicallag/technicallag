@@ -3,10 +3,12 @@ package masters.dataClasses;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
+import masters.utils.Logging;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 import java.util.regex.Pattern;
 
 /**
@@ -25,7 +27,7 @@ public class Version implements Comparable<Version> {
     public String additionalInfo = null;
     private String string;
 
-    public static final Pattern VDX = Pattern.compile("(v|V)\\d+((\\.|-)(.)*)?");
+    public static final Pattern VDX = Pattern.compile("[vV=]\\s*\\d+((\\.|-)(.)*)?");
 
     public static Cache<String, Version> CACHE = CacheBuilder.newBuilder()
         .maximumSize(5_000_000)
@@ -60,16 +62,11 @@ public class Version implements Comparable<Version> {
         return versionTokens != null ? versionTokens.hashCode() : 0;
     }
 
-    public static Version create(String versionDef) {
+    private static Version createHelper(String versionDef) {
         Version version = new Version();
         version.string = versionDef;
 
         String versionDef2 = versionDef;
-
-        // trail leading v s
-        if (VDX.matcher(versionDef).matches()) {
-            versionDef2 = versionDef2.substring(1);
-        }
 
         String leadingDigits = null;
         while ((leadingDigits=extractLeadingDigits(versionDef2))!=null) {
@@ -84,7 +81,30 @@ public class Version implements Comparable<Version> {
         }
         version.additionalInfo = versionDef2;
 
+        CACHE.put(versionDef, version);
         return version;
+    }
+
+    public static Version create(String versionDef) {
+        if (versionDef.equals("")) {
+            System.out.println("You do need the null check in Version.create() after all!");
+            return null;
+        }
+
+        // trail leading [vV=]
+        versionDef = versionDef.trim();
+        if (VDX.matcher(versionDef).matches()) {
+            versionDef = versionDef.substring(1).trim();
+        }
+        String vers = versionDef;
+
+        // Collect cached version if possible, otherwise create
+        try {
+            return CACHE.get(vers, () -> createHelper(vers));
+        } catch (ExecutionException e) {
+            Logging.getLogger("").error(e);
+        }
+        return null;
     }
 
     private static String extractLeadingDigits(String versionDef) {

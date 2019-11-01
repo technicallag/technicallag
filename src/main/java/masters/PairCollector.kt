@@ -1,5 +1,6 @@
 package masters;
 
+import masters.dataClasses.Version
 import masters.utils.Database;
 import masters.utils.Logging;
 import masters.libiostudy.VersionCategoryWrapper;
@@ -11,6 +12,10 @@ import kotlin.collections.HashMap
 
 /**
  * Created by Jacob Stringer on 24/10/2019.
+ *
+ * Finds pairs of projects A and B where A depends on B
+ * All the filtering processes are done in this class
+ *
  */
 
 public data class PairIDs (val projectID: Int, val dependencyID: Int)
@@ -22,7 +27,7 @@ public class PairCollector (pm: PackageManager?) {
     val log = Logging.getLogger("")
 
     public enum class PackageManager(val nameInDB: String) {
-        /* Removed from analysis due to negligible numbers of fixed pairwise projects (ProjectPAirsIncludedByPM.xlsx)
+        /* Removed from analysis due to negligible numbers of fixed pairwise projects (ProjectPairsIncludedByPM.xlsx)
         CPAN("CPAN"),
         CRAN("CRAN"),
         DUB("Dub"),
@@ -49,6 +54,7 @@ public class PairCollector (pm: PackageManager?) {
     public enum class Status {
         INCLUDED,
         SUBCOMPONENT,
+        VERSIONS_NON_SEMVER,
         FLEXIBLE,
         NOT_IN_DATASET
     }
@@ -61,11 +67,9 @@ public class PairCollector (pm: PackageManager?) {
     private fun loadPM(it: PackageManager) {
         log.info("Beginning pair data loading for $it")
 
-        val rs = Database.runQueryNoLogs( """
-            SELECT projectid, versionnumber, dependencyprojectid, dependencyrequirements
-            FROM dependencies
-            WHERE platform = '${it.nameInDB}';
-            """.trimIndent())
+        val rs = Database.runQueryNoLogs(
+                "SELECT projectid, versionnumber, dependencyprojectid, dependencyrequirements FROM dependencies WHERE platform = ?;",
+                it.nameInDB)
 
         val pairs = HashMap<PairIDs, Status>()
         try {
@@ -79,6 +83,10 @@ public class PairCollector (pm: PackageManager?) {
                 var status = pairs.getOrDefault(pair, Status.INCLUDED) //{ flagDependenciesNotInRepository(pair) }
                 if (status < Status.FLEXIBLE) {
                     if (flagVersionRanges(it, vers) == Status.FLEXIBLE) status = Status.FLEXIBLE
+                    else if (violatesSemver(projVers) || violatesSemver(vers))  {
+                        status = Status.VERSIONS_NON_SEMVER
+                        log.debug(projVers + " violatesSemver: " + violatesSemver(projVers) + "\t" + vers + " violatesSemver: " + violatesSemver(vers))
+                    }
                     else if (projVers == vers) status = Status.SUBCOMPONENT
                 }
 
@@ -92,7 +100,11 @@ public class PairCollector (pm: PackageManager?) {
         }
 
         val stats = mutableMapOf<Status, Int>()
-        Status.values().forEach { status -> stats[status] = pairs.count { (k, v) -> v == status } }
+        Status.values().forEach {
+            status -> stats[status] = pairs.count {
+                (_, pairstatus) -> pairstatus == status
+            }
+        }
         counts[it] = stats
 
         availablePairs[it] = pairs.filter {
@@ -110,13 +122,13 @@ public class PairCollector (pm: PackageManager?) {
     }
 
     private fun flagDependenciesNotInRepository(pairIDs: PairIDs) : Status {
-        val rs = Database.runQueryNoLogs("""
-            SELECT id
-            FROM projects
-            WHERE id = '${pairIDs.dependencyID}';
-            """.trimIndent())
-
+        val rs = Database.runQueryNoLogs("SELECT id FROM projects WHERE id = ?;", pairIDs.dependencyID)
         return if (rs.next()) Status.INCLUDED  else Status.NOT_IN_DATASET
+    }
+
+    private fun violatesSemver(version: String?) : Boolean {
+        if (version.isNullOrBlank()) return true
+        return Version.create(version).versionTokens.size < 1
     }
 
 }

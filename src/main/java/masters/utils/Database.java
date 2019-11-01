@@ -52,14 +52,18 @@ public class Database {
         return properties;
     }
 
-    public static ResultSet runQueryNoLogs(String sql) {
+    public static ResultSet runQueryNoLogs(String sql, Object... params) {
         try {
             Connection c = CONNECTIONS.take();
             c.setAutoCommit(false);
 
-            Statement stmt = c.createStatement();
+            PreparedStatement stmt = c.prepareStatement(sql);
+            for (int i = 0; i < params.length; i++) {
+                stmt.setString(i+1, params[i].toString());
+            }
+
             stmt.setFetchSize(1000);
-            ResultSet rs = stmt.executeQuery(sql);
+            ResultSet rs = stmt.executeQuery();
 
             CONNECTIONS.add(c);
             return rs;
@@ -71,11 +75,11 @@ public class Database {
         }
     }
 
-    public static ResultSet runQuery(String sql) {
+    public static ResultSet runQuery(String sql, Object... params) {
         Logger log = Logging.getLogger("");
 
         log.info("Querying DB for the following SQL:\n" + sql);
-        ResultSet rs = runQueryNoLogs(sql);
+        ResultSet rs = runQueryNoLogs(sql, params);
         log.info("Query complete for: \n" + sql);
 
         return rs;
