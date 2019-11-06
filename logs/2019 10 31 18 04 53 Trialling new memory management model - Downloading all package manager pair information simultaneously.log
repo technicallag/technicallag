@@ -1,0 +1,7 @@
+INFO - Beginning collection of pairs
+INFO - Beginning pair data loading for Rubygems
+ERROR - org.postgresql.util.PSQLException: Can't use query methods that take a query string on a PreparedStatement.
+ERROR - java.lang.NullPointerException
+INFO - Finished pair data loading for Rubygems
+DEBUG - It took: 35 ms to get the filtered pairs
+DEBUG - It took 100 ms to collect the pair data

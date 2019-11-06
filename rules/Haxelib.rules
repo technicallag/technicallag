@@ -1,0 +1,25 @@
+# comments start with #
+# reference the spec / grammar whenever possible
+#
+# spec: https://lib.haxe.org/documentation/creating-a-haxelib-package/
+# see also: 
+# see also: 
+#
+# "Haxelib uses a simplified version of SemVer."
+#
+# EXPLICIT_STATEMENT ?
+# DEFAULT_TOOLING ?
+# OTHER_TOOLING ?
+
+# soft requirement
+test: 1.0
+test: 0.7.3
+test: 2.1.3
+test: 2.1.3-SNAPSHOT
+match:\w(\w|\.|-)*
+classify:fixed
+
+# any
+test: *
+match:\*
+classify:any

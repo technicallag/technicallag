@@ -1,0 +1,111 @@
+# comments start with #
+# reference the spec / grammar whenever possible
+
+#https://flight-manual.atom.io/using-atom/sections/version-control-in-atom/
+# Atom uses NPM as it is dependencies manager: http://npm.github.io/how-npm-works-docs/npm3/how-npm3-works.html
+# see here: https://www.npmjs.com/package/atom-package-dependencies
+#
+# EXPLICIT_STATEMENT ?
+# DEFAULT_TOOLING ?
+# OTHER_TOOLING ?
+
+# minor range - done
+# When minor numbers are missing, it's implicitly a minor range in NPM
+test: ^1
+test: ^1.5
+test: ^1.5.9
+test: 12.x
+test: ~1
+test: ~1.x
+test: =1
+test: v1
+test: ^1.2.3-beta.2
+match:^(\s*\^[v\s]*[1-9]\d*(\.[xX\*\d]+){0,2}|[=v\s]*\d+.[xX\*]+(\.[xX\*\d]+)?|[=v\s\~]*\d+([xX\*\.]+)?)(-.*)?$
+classify:var-minor
+
+
+# micro range - done
+# Note that in NPM, 0 in the major version are for projects considered unreleased, and the minor version is treated as major
+# When a micro number is missing, it's implicitly a micro range in NPM
+test: 1.0
+test: v1.0
+test: ~1.2.3
+test: 12.3.x
+test: ~1.44.x
+test: ^0.1
+test: ~3.0.0-beta.18
+match:^(\s*~[v\s]*\d+\.\d+(\.[xX\*\d]+)?|[=v~\s]*\d+\.\d+(\.[xX\*])?|\^[v\s]*0(\.[xX\*\d]+){0,2})(-.*)?$
+classify:var-micro
+
+
+# fixed (NPM uses package scoping, so when fixed, it will always resolve to that version)
+test: 1.2.3-SNAPSHOT
+test: 0.3.4-rc2
+test: 1.0.0-beta.22-1
+match:^[=v\s]*\d+\.\d+\.\d+(-.*)?$
+classify:fixed
+
+
+# major range
+test: *
+test: vx.0.0
+match:^[=v\s]*[\*xX](\.[\dxX\*]+){0,2}(-.*)?$
+classify:any
+
+
+# Advanced ranges (classified as other as these would have to be further analysed for semantics)
+test: >= 1.5.2 <= 1.8.0 || 1.9.*
+match:.+\|\|.+
+classify:other
+
+
+# At least
+test: > 1.0.0
+test: >= v9.8
+match:^\s*>=?[v\s]*[\dxX\*]+(\.[\dxX\*]+){0,2}(-.*)?$
+classify:at-least
+
+
+# At most
+test: <1.0.0
+test: <= 2.5
+match:^\s*<=?[v\s]*[\dxX\*]+(\.[\dxX\*]+){0,2}(-.*)?$
+classify:at-most
+
+
+# Range 1 (between versions)
+test: >=1.2.3 <2.0.0
+match:^\s*>[=v\s]*[^<]*<.*$
+classify:range
+
+
+# Range 2 (between versions, different syntax)
+test: 1.2.3 - 1.2.8
+test: 1.2.3-rc2 - 2.x
+match:^[=v\s]*[xX\*\d]+(\.[xX\*\d]+){0,2}(-[\.\w]+)?\s+-\s+[=v\s]*[xX\*\d]+(\.[xX\*\d]+){0,2}(-.*)?$
+classify:range
+
+
+# Range 3 (ranges exclusive of some versions)
+test: <=1.2.3 >=1.3.0
+match:^\s*<[^>]+>.*$
+classify:not
+
+
+# Latest
+test: latest
+test: LATEST
+match:^\s*(?i:latest)\s*$
+classify:latest
+
+
+# Other
+# ^[\w/]+$
+test: git://
+test: https://
+test: file:
+test: github:gulpjs/gulp#4.0
+test: git+https://github.com/mcavage/node-asn1.git
+test: git+ssh://git@github.com/yannickcr/eslint-plugin-react.git#master
+match:^\s*(git(hub|\+(https?|ssh))?:(//)?|https?://|file:).*$
+classify:other

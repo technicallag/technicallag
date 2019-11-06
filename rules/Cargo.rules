@@ -1,0 +1,207 @@
+# comments start with #
+# reference the spec / grammar whenever possible
+#
+# spec: https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html 
+# see also: https://doc.rust-lang.org/cargo/reference/manifest.html
+# see also: https://users.rust-lang.org/t/cargo-dependency-hell/13124/8
+#
+# Cargo "bakes in the concept of Semantic Versioning", and has some
+# unusual rules to go with this.  For example, prior to 1.0.0 "anything
+# goes".
+#
+# EXPLICIT_STATEMENT Strong
+# DEFAULT_TOOLING shallow
+# OTHER_TOOLING deep
+
+# ==============================
+# NORMAL
+# ==============================
+
+test: 0.0.1
+test: 0.0.1-SNAPSHOT
+test: 0.0.13
+test: 0.0.13-SNAPSHOT
+match:0.0.\d+(-(\w|.)*)?
+classify:fixed
+
+test: 0.1
+test: 0.1-SNAPSHOT
+test: 0.1-SNAPSHOT.1
+test: 0.7.3
+test: 0.7.3-SNAPSHOT
+test: 0.7.3-SNAPSHOT.1
+match:0.[1-9]\d*(.\d+)?(-(\w|.)*)?
+classify:var-micro
+
+test: 0.0
+match:0.0
+classify:var-micro
+
+test: 1
+test: 1.0
+test: 1.0-SNAPSHOT
+test: 1.0-SNAPSHOT.1
+test: 2.1.3
+test: 2.1.3-SNAPSHOT
+test: 2.1.3-SNAPSHOT.1
+match:[1-9]\d*(.\d+)*(-(\w|.)*)?
+classify:var-minor
+
+test: 0
+match:0
+classify:var-minor
+
+# ==============================
+# Caret
+# ==============================
+
+test: ^0.0.1
+test: ^0.0.1-SNAPSHOT
+test: ^0.0.13
+test: ^0.0.13-SNAPSHOT
+match:\^0.0.\d+(-(\w|.)*)?
+classify:fixed
+
+test: ^0.2
+test: ^0.1
+test: ^0.1-SNAPSHOT
+test: ^0.1-SNAPSHOT.1
+test: ^0.7.3
+test: ^0.1.3-SNAPSHOT
+test: ^0.1.3-SNAPSHOT.1
+match:\^0.[1-9]\d*(.\d+)?(-(\w|.)*)?
+classify:var-micro
+
+test: ^0.0
+match:\^0.0
+classify:var-micro
+
+test: ^1.2
+test: ^1
+test: ^10
+test: ^1.2-SNAPSHOT
+test: ^1.2-SNAPSHOT.1
+test: ^1.2.3
+test: ^2.1.3
+test: ^2.1.3-SNAPSHOT
+test: ^2.1.3-SNAPSHOT.1
+match:\^[1-9]\d*(.\d+)*(-(\w|.)*)?
+classify:var-minor
+
+test: ^0
+match:\^0
+classify:var-minor
+
+# ==============================
+# Tilde
+# ==============================
+
+test: ~1.2
+test: ~1.2.3
+test: ~1.2.3-SNAPSHOT
+test: ~1.2.3-SNAPSHOT.1
+match:~\d+.\d+(.\d+)?(-(\w|.)*)?
+classify:var-micro
+
+test: ~1
+match:~\d+(-(\w|.)*)?
+classify:var-minor
+
+# ==============================
+# Fixed
+# ==============================
+
+# hard requirement
+test: =1.0
+test: =0.7.3
+test: =2.1.3
+test: = 2.1.3
+test: =2.1.3-SNAPSHOT
+test: =2.1.3-SNAPSHOT.1
+match:=(\s)*(\w|\.|-)+
+classify:fixed
+
+# ==============================
+# Ranges
+# ==============================
+
+# at most
+test: <=1.0
+test: <=1.0-snapshot
+test: <=1.0-snapshot.1
+test: <=4.12
+test: <1.0
+test: <4.12
+test: <= 1.0
+test: <= 4.12
+test: < 1.0
+test: < 4.12
+match:(<=|<)(\s)*(\w|\.|-)+
+classify:at-most
+
+# at least
+test: >=1.0
+test: >=1.0-snapshot
+test: >=1.0-snapshot.1
+test: >=4.12
+test: >1.0
+test: >4.12
+test: >= 1.0
+test: >= 4.12
+test: > 1.0
+test: > 4.12
+match:(>=|>)(\s)*(\w|\.|-)+
+classify:at-least
+
+# range
+test: >=1.0,<4.3.0
+test: >=1.0-snapshot,<4.3.0
+test: >=1.0-snapshot.1,<4.3.0
+test: >=1.0,<4.3.0-snapshot
+test: >=4.12,<=4.5.0
+test: >1.0, <=2.0.1
+test: >4.12,<5.1.2
+test: >=1.0, < 4.3.0
+test: >=4.12, <=4.5.0
+test: > 1.0, <=2.0.1
+test: > 4.12, < 5.1.2
+test: > 4.12 , < 5.1.2
+match:(>=|>)(\s)*(\w|\.|-)+(\s)*(,)(\s)*(<=|<)(\s)*(\w|\.|-)+
+classify:range
+
+test: < 0.6.0, >= 0.4.2
+match:(<|<=)(\s)*(\w|\.|-)+(\s)*(,)(\s)*(>=|>)(\s)*(\w|\.|-)+
+classify:range
+
+test: ^0.2, < 0.2.34
+test: ^0.1.56, <= 0.1.65
+match: \^(\w|\.|-)+, (<=|<|>|>=)(\s)*(\w|\.|-)+
+classify:range
+
+#minor wildcard
+test: 1.*
+test: 1.*.*
+test: 1.*.0
+test: 1.*.0-snapshot
+test: 1.*.0-snapshot.1
+test: 2.*
+match:\d+\.\*(\w|\.|-|\*)*
+classify:var-minor
+
+#micro wildcard
+test: 1.2.*
+test: 2.0.*
+test: 2.0.*-snapshot
+test: 2.0.*-snapshot.1
+match:\d+\.\d+\.\*(\w|\.|-)*
+classify:var-micro
+
+test: >= 0.9.0, ~1
+test: >= 0.11.0, 0.11.*
+match: (\w|\s|\.|\^|>|>=|\*)+,\s*(\w|\s|\^|\.|,|>|>=|\*|~)+
+classify:other
+
+# any
+test: *
+match:\*
+classify:any

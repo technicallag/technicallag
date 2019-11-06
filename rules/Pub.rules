@@ -1,0 +1,156 @@
+# comments start with #
+# reference the spec / grammar whenever possible
+#
+# spec: https://www.dartlang.org/tools/pub/versioning [accessed 7 August 18]
+# Dart community endorse semantic versioning: https://www.dartlang.org/tools/pub/versioning#semantic-versions
+#
+# EXPLICIT_STATEMENT ?
+# DEFAULT_TOOLING ?
+# OTHER_TOOLING ?
+
+# range
+test: >=2.3.5 <2.4.0
+test: >=0.8.8 < 0.10.0
+test: >=0.10.0 < 0.11.0
+test: >= 0.1.1 <0.2.0
+test: >=0.9.0 < 0.10.0
+test: >=0.11.0 < 0.12.0
+test: >= 0.0.2 < 0.1.0
+test: >=2.3.5 <2.4.0
+test: >2.3 <=2.5.2
+test: > 1.3 < 2.0
+match: (\>\=|\>)\s*(\w.+)\s*(\<|\<\=)\s*(\w.+)
+classify:range
+
+# range  (until next major version e.g., 2.3.5 - 3.0.0)
+test: ^1.0
+test: ^0.4
+test: ^ 2.3
+match: (\^\s*\d.\d)
+classify:range
+
+# range  (full git url)
+test: {"git"=>"git://github.com/abarabas/dart-xmlrpc.git", "version"=>">=2.0.0 <3.0.0"}
+test: {"git"=>"https://github.com/bwhite000/event-listener.git", "version"=>">=0.0.0 <0.1.0"}
+test: {"git"=>"https://github.com/bwhite000/server-logger.git", "version"=>">=0.1.0 <2.0.0"}
+match: (((\{"git")\D+\d+\D+)|(\{"git")\D+)\,\s("version")\D+\d.+\<\d.+
+#classify: range
+classify:other
+
+# range (until next major version e.g., 2.3.5 - 3.0.0)
+test: ^1.0.0
+test: ^0.4.1
+test: ^ 2.3.1
+test: ^ 2.3.5
+test: ^0.12.4+6
+test: ^0.12.0-rc.1
+test: ^0.31.2-alpha.0
+
+match: \^\s*\d.(\d.+|(\d\d.+))
+classify:range
+
+# range (until next major version e.g., 2.3.5 - 3.0.0; with full URL)
+test: {"version"=>"^1.1.1", "hosted"=>{"name"=>"semver_audit", "url"=>"https://pub.workiva.org"}}
+test: {"version"=>"^0.1.3", "hosted"=>{"name"=>"tw_portal", "url"=>"http://crp-bld-01.trustwave.com:8085"}}
+test: {"version"=>"^1.1.1", "hosted"=>{"name"=>"semver_audit", "url"=>"https://pub.workiva.org"}}
+match: \{\"(version)\"\=\>\"\^(((\d.\d.\d(\D+\}\}))|(\d.(\d.|(\d\d.))\d(\D+\d.+))))
+#classify:range
+classify:other
+
+
+# at least
+test: >=0.7.1
+test: >= 0.0.1
+test: >= 0.9
+test: >0.1.2
+test: > 1.2.2
+match: (>|>=)\s*\d.+
+classify:at-least
+
+#at least  (with git repo link)
+test: {"git"=>"https://github.com/samber/memcached-client.git", "version"=>">=0.5.5"}
+test: {"git"=>"https://github.com/samber/memcached-client.git", "version"=>">=1.2.2"}
+match: (\{"git")\D+\,\s("version")\D+(>=)\d.\d.\d\"\}
+#classify:at-least
+classify:other
+
+
+#at-least (with git repo link)
+test: {"git"=>"https://github.com/samber/memcached-client.git", "version"=>">=0.5"}
+test: {"git"=>"https://github.com/samber/memcached-client.git", "version"=>">=1.2"}
+match: (\{"git")\D+\,\s("version")\D+\d.\d\"\}
+#classify:at-least
+classify:other
+
+#at most
+test: <0.12.0
+test: <=4.0.0
+test: <= 4.0.0
+match: (<|<=)((\s\w.+)|(\w.+))
+classify:at-most
+
+#hard requirement
+test: 2.3.5
+test: widgets 2.0.5
+test: collection 3.1
+test: 0.1.0-alpha.1
+match: (\d.+)|(\w+\s\d.+)
+classify: fixed
+
+
+#fixed version (with full URL and version details)
+test: {"version"=>"0.2-unofficial.2017031301", "hosted"=>{"name"=>"dev_compiler", "url"=>"https://pub.dart-polymer.com"}}
+test: {"version"=>"0.1-unofficial.0", "hosted"=>{"name"=>"dev_compiler", "url"=>"http://pub.drafintech.it:5001"}}
+test: {"version"=>"0.2.0-unofficial.2017031301", "hosted"=>{"name"=>"dev_compiler", "url"=>"https://pub.dart-polymer.com"}}
+test: {"version"=>"0.2.1-unofficial.2016111201", "hosted"=>{"name"=>"dev_compiler", "url"=>"http://pub.drafintech.it:5001"}}
+test: {"version"=>"0.13.1+reflectable.4", "hosted"=>{"name"=>"observe", "url"=>"http://pub.dart-polymer.com"}}
+test: {"version"=>"0.13.1+reflectable.4", "hosted"=>{"name"=>"observe", "url"=>"http://pub.dart-polymer.com"}}
+
+match: \{\"(version)\"\=\>\"\d.+\}\}
+#classify: fixed
+classify:other
+
+# any (git repo with ref to specific part of the repo)
+test: {"git"=>{"ref"=>"cors", "url"=>"https://github.com/Workiva/sockjs-dart-client.git"}}
+
+match:\{\"(git)\W+(ref)(.)+(cors)(.)+\"\}\}
+classify: other
+
+
+# fixed version (git repo)
+test: {"git"=>{"ref"=>"ea9f65b4d17ebf1cf1c817340ee9b8ef31f26d3c", "url"=>"git@bitbucket.org:andersmholmgren/config.git"}}
+test: {"git"=>{"ref"=>"support-package-url", "url"=>"https://github.com/luisvt/dart-sass"}}
+test: {"git"=>{"ref"=>"2e196d5", "url"=>"https://github.com/peter-ahe-google/testing.git"}}
+test: {"git"=>{"ref"=>"ba577f4395eddd8e0dd9d0f87ed068f439d8ac80", "url"=>"https://github.com/Jaguar-dart/source_gen_help.git"}}
+match:\{\"(git)\W+(ref)(.)+\"\}\}
+#classify: fixed
+classify:other
+
+
+# any (git repo)
+test: {"git"=>"https://github.com/jorishermans/dart-forcemvc"}
+test: {"git"=>"https://github.com/IOT-DSA/cipher.git"}
+test: {"git"=>"git://github.com/tekartik/chrome_travis.dart"}
+test: {"git"=>"https://github.com/Jaguar-dart/source_gen_help.git"}
+test: {"git"=>"https://github.com/farisnasution/bow"}
+test: {"git"=>"https://github.com/Rodsevich/den_api"}
+
+match:\{\"(git)(.)+\}
+classify:other
+
+
+
+
+#any version
+test: any
+match: (any)
+classify: any
+
+
+
+# unresolved variables in Pub
+test: {"sdk"=>"flutter"}
+test: {"path"=>"./build_test"}
+match:\{\"((sdk)|(path))(.)+\}
+#classify:unresolved
+classify:other

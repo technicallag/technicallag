@@ -1,0 +1,5 @@
+INFO - Beginning run for package manager: Haxelib
+INFO - Querying DB for the following SQL:
+SELECT projectname, projectid, versionnumber, dependencyname, dependencyprojectid, dependencyrequirements
+FROM dependencies
+WHERE platform = 'Haxelib';
