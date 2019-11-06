@@ -1,6 +1,10 @@
 package masters.utils;
 
-import org.apache.log4j.Logger;
+import masters.PairCollector;
+import masters.PairWithData;
+import masters.DependencyVersion;
+import masters.ProjectVersion;
+import masters.dataClasses.Version;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -14,7 +18,15 @@ public class Database {
     private static ArrayBlockingQueue<Connection> CONNECTIONS = new ArrayBlockingQueue<>(NUM_CONNECTIONS);
 
     static {
-        for (int i = 0; i < NUM_CONNECTIONS; i++) CONNECTIONS.add(getConnection());
+        for (int i = 0; i < NUM_CONNECTIONS; i++) {
+            Connection c = getConnection();
+            try {
+                c.setAutoCommit(false);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            CONNECTIONS.add(c);
+        }
     }
 
     public static void closeConnections() {
@@ -75,14 +87,123 @@ public class Database {
         }
     }
 
-    public static ResultSet runQuery(String sql, Object... params) {
-        Logger log = Logging.getLogger("");
+    public static String getProjectName(int id) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT name FROM projects WHERE id=?");
+            stmt.setString(1, Integer.toString(id));
+            ResultSet rs = stmt.executeQuery();
+            String result = "";
+            if (rs.next()) result = rs.getString("name");
 
-        log.info("Querying DB for the following SQL:\n" + sql);
-        ResultSet rs = runQueryNoLogs(sql, params);
-        log.info("Query complete for: \n" + sql);
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
 
-        return rs;
+            return result;
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+            return "";
+        }
+    }
+
+    public static PairCollector.Status isProjectInDB(int id) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT name FROM projects WHERE id=?");
+            stmt.setString(1, Integer.toString(id));
+            ResultSet rs = stmt.executeQuery();
+
+            PairCollector.Status result = PairCollector.Status.INCLUDED;
+            if (!rs.next()) result = PairCollector.Status.NOT_IN_DATASET;
+
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
+
+            return result;
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+            return PairCollector.Status.NOT_IN_DATASET;
+        }
+    }
+
+    public static void getDepHistory(PairWithData pair) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT number, publishedtimestamp FROM versions WHERE projectid = ?;");
+            stmt.setString(1, Integer.toString(pair.getPairIDs().getDependencyID()));
+
+            ResultSet rs = stmt.executeQuery();
+            while (rs.next()) {
+                pair.getBVersions().add(new DependencyVersion(Version.create(rs.getString("number")), rs.getString("publishedtimestamp")));
+            }
+
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+        }
+    }
+
+    public static void getProjectHistory(PairWithData pair) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT id, number, publishedtimestamp FROM versions WHERE projectid = ?;");
+            stmt.setString(1, Integer.toString(pair.getPairIDs().getProjectID()));
+
+            ResultSet rs = stmt.executeQuery();
+            while (rs.next()) {
+                int versionId = rs.getInt("id");
+                PreparedStatement stmt2 = c.prepareStatement("SELECT dependencyrequirements FROM dependencies WHERE projectid = ? AND dependencyprojectid = ? AND versionid = ?;");
+                stmt2.setString(1, Integer.toString(pair.getPairIDs().getProjectID()));
+                stmt2.setString(2, Integer.toString(pair.getPairIDs().getDependencyID()));
+                stmt2.setString(3, Integer.toString(versionId));
+
+                ResultSet rs2 = stmt2.executeQuery();
+
+                pair.getAVersions().add(new ProjectVersion(
+                        Version.create(rs.getString("number")),
+                        rs2.next() ? Version.create(rs2.getString("dependencyrequirements")) : null,
+                        rs.getString("publishedtimestamp"))
+                );
+
+                rs2.close();
+                stmt2.close();
+            }
+
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+        }
+    }
+
+    public static void insert(String sql, Object... params) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement(sql);
+            for (int i = 0; i < params.length; i++) {
+                stmt.setString(i+1, params[i].toString());
+            }
+            stmt.executeUpdate();
+            stmt.close();
+            CONNECTIONS.add(c);
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+        }
     }
 
     public static String timestampFromDB(Connection c, String projectName, String versionString) {

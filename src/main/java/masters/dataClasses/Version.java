@@ -9,13 +9,14 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
  * Class represention versions.
  * The key property is that this is comparable.
  * @author jens dietrich
- * @author jacob stringer - implemented additional methods to compare numberBehind of versions
+ * @author jacob stringer - implemented most of the additional API methods
  */
 
 
@@ -27,7 +28,12 @@ public class Version implements Comparable<Version> {
     public String additionalInfo = null;
     private String string;
 
-    public static final Pattern VDX = Pattern.compile("[vV=]\\s*\\d+((\\.|-)(.)*)?");
+    public int getMicro() { return (versionTokens.size() > 2) ? versionTokens.get(2).intValue() : 0; }
+    public int getMinor() { return (versionTokens.size() > 1) ? versionTokens.get(1).intValue() : 0; }
+    public int getMajor() { return (versionTokens.size() > 0) ? versionTokens.get(0).intValue() : 0; }
+
+    private static final Pattern VDX = Pattern.compile("[vV=]\\s*\\d+((\\.|-)(.)*)?");
+    private static final Pattern TAGNUMBER = Pattern.compile("\\d+$");
 
     public static Cache<String, Version> CACHE = CacheBuilder.newBuilder()
         .maximumSize(5_000_000)
@@ -142,6 +148,8 @@ public class Version implements Comparable<Version> {
     }
 
     public VersionRelationship getRelationship(Version other) {
+        if (other == null) return null;
+
         List<BigInteger> first = new ArrayList<>(3);
         List<BigInteger> second = new ArrayList<>(3);
 
@@ -183,9 +191,13 @@ public class Version implements Comparable<Version> {
             return -1;
         }
         else {
-//            if (otherVersion.additionalInfo.isEmpty()) {  // additional info is always smaller (-alpha, -beta, -rc)
-//                return -1;
-//            }
+            // Some release are along the lines of -rc9 and -rc10. This will take the number off the end and compare by that first.
+            Matcher m1 = TAGNUMBER.matcher(additionalInfo), m2 = TAGNUMBER.matcher(otherVersion.additionalInfo);
+            if (m1.find() && m2.find()) {
+                return Integer.parseInt(m1.group()) - Integer.parseInt(m2.group());
+            }
+
+            // Do an alphabetical ordering failing the above
             return this.additionalInfo.compareTo(otherVersion.additionalInfo);
         }
     }

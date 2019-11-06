@@ -27,3 +27,7 @@ DELETE FROM versions WHERE platform='Platform';
 CREATE INDEX projectID ON projects(id);
 CREATE INDEX versionprojectID ON versions(projectid);
 CREATE INDEX depreq ON dependencies(projectid, dependencyprojectid, versionid);
+
+CREATE TABLE pairs(projectID int, dependencyID int, package varchar, status varchar);
+CREATE TABLE printed(projectID int, dependencyID int);
+CREATE INDEX printindex ON printed(projectID, dependencyID);
