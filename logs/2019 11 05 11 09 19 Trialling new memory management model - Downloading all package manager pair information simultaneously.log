@@ -1,0 +1,6 @@
+INFO - Beginning collection of pairs
+WARN - File data/preprocessedPairData/pair_counts.bin was not found
+INFO - Beginning pair data processing for Rubygems
+ERROR - org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying = integer
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 35

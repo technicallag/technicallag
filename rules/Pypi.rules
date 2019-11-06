@@ -1,0 +1,100 @@
+# comments start with #
+# reference the spec / grammar whenever possible
+#
+# spec: https://www.python.org/dev/peps/pep-0440/ [accessed 23 August 18]
+# Python community endorse semantic versioning: https://www.python.org/dev/peps/pep-0440/#semantic-versioning
+#
+# "Semantic versioning [10] is a popular version identification scheme
+# that is more prescriptive than this PEP regarding the significance
+# of different elements of a release number. Even if a project chooses
+# not to abide by the details of semantic versioning, the scheme is
+# worth understanding as it covers many of the issues that can arise
+# when depending on other distributions, and when publishing a
+# distribution that others rely on."
+#
+# EXPLICIT_STATEMENT Soft
+# DEFAULT_TOOLING None
+# OTHER_TOOLING ?
+
+# range
+test: <0.13.0,>=0.12.0
+test: <0.13.0,>= 0.12.0
+test: <2.0.0,>=1.8.0
+test: < 0.100.0,>=0.99.0
+test: <0.102.0,>=0.101.0
+test: <2,>=1
+test: <1.3.0,>=1.0.0
+test: <16,>=2.2
+test: <=3.5.0,>=3.1.2
+match: (\<|\<\=)\s*(\d.+|\d)\,(\>\=|\>)\s*(\d.+|\d)
+classify:range
+
+#hard requirement
+test: ==0.6.2
+test: ==2.6.1
+test: == 2.0.1
+test: ==2
+match: (==)\s*((\d.+)|(\d))
+classify:fixed
+
+#hard requirement
+test: 0.6.2
+test: 2
+test: 2.0
+test:  3
+match: \s*((\d.+)|\d)
+classify:fixed
+
+# at least (inclusive ordered)
+test:>=1
+test:>= 1
+test:>= 1.1.3
+test:>=2.3
+match: (>=)\s*((\d.+)|(\d))
+classify:at-least
+
+# at least (exclusive ordered)
+test:>1
+test:> 1
+test:> 1.1.3
+test:>2.3
+match: (>)\s*((\d.+)|(\d))
+classify:at-least
+
+#at most (inclusive ordered)
+test:<=1
+test:<= 1
+test:<= 1.1.3
+test:<=2.3
+match: (<=)\s*((\d.+)|(\d))
+classify:at-most
+
+#at most (exclusive ordered)
+test:<1
+test:< 1
+test:< 1.1.3
+test:<2.3
+match: (<)\s*((\d.+)|(\d))
+classify:at-most
+
+
+#  micro version
+test:~=2.1.2
+test:~= 1.1.3
+test:~=2.3.1
+match: (~=)\s*((\d.\d.\d))
+classify:var-micro
+
+# minor version
+test:~=1.1
+test:~= 2.1
+test:~=2.3
+match: (~=)\s*((\d.\d)|(\d))
+classify:var-minor
+
+
+
+#any version
+test: *
+match: (\*)
+classify: any

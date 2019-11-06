@@ -1,0 +1,18 @@
+INFO - Querying DB for the following SQL:
+SELECT projectname, dependencyname, dependencyrequirements
+FROM dependencies
+WHERE platform = 'Maven';
+INFO - Query complete for: SELECT projectname, dependencyname, dependencyrequirements
+FROM dependencies
+WHERE platform = 'Maven';
+INFO - Querying DB for the following SQL:
+SELECT name
+FROM projects
+WHERE name = 'org.apache.tuscany.sca:tuscany-interface'
+FETCH FIRST 1 ROWS ONLY;
+INFO - Query complete for: SELECT name
+FROM projects
+WHERE name = 'org.apache.tuscany.sca:tuscany-interface'
+FETCH FIRST 1 ROWS ONLY;
+DEBUG - Rule folder exists? false
+DEBUG - Absolute path: C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules

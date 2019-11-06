@@ -1,0 +1,6 @@
+INFO - Querying DB for the following SQL: SELECT projectname, dependencyname, dependencyrequirement
+FROM dependencies
+WHERE platform = 'maven';
+ERROR - org.postgresql.util.PSQLException: ERROR: column "dependencyrequirement" does not exist
+  Hint: Perhaps you meant to reference the column "dependencies.dependencyrequirements".
+  Position: 37

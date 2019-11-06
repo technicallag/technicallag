@@ -1,0 +1,121 @@
+# rules for Maven
+# @author jens dietrich
+#
+# spec: https://maven.apache.org/pom.html#Dependencies [accessed 29 July 18]
+# see also: https://docs.oracle.com/middleware/1212/core/MAVEN/maven_version.htm#MAVEN8855
+# see also: https://avandeursen.com/2014/10/09/semantic-versioning-in-maven-central-breaking-changes/
+#
+# note that several build tools other than Maven can poublish to Maven repositories,
+# in particular Gradle they may use a different syntax
+#
+# Maven allows arbitrary version strings to be used.
+# 
+# EXPLICIT_STATEMENT None
+# DEFAULT_TOOLING None
+# OTHER_TOOLING ?
+
+# soft requirement
+test: 1.0
+test: 1.2.3-SNAPSHOT
+match:(\w|\.|-)+
+classify:soft
+
+# hard requirement
+test: [1.0]
+test: [1.2.3-SNAPSHOT]
+match:\[(\w|\.|-)+\]
+classify:fixed
+
+# latest 
+# see https://docs.gradle.org/current/userguide/declaring_dependencies.html 
+test: +
+match: \+
+classify:latest
+
+
+# at most
+test: (,1.0]
+test: [,4.12)
+test: [ , 4.12)
+match: (\(|\[)\s*,(\w|\.|-|\s)+(\)|\])
+classify:at-most
+
+# at least
+test: [1.2.3,)
+test: [1.52,]
+test: [1.52 , ]
+test: (1.2.0,)
+match:(\(|\[)(\w|\.|-|\s)+,\s*(\)|\])
+classify:at-least
+
+# gradle stype rules:
+# the spec requires the last dot, but there are several dependencies that dont use this
+# we will provide separate rules to capture this
+
+# minor version wildcard gradle-style
+# see https://docs.gradle.org/current/userguide/declaring_dependencies.html 
+test: 2.+
+test: 42.+
+match: \d+\.\+
+classify: var-minor
+
+# minor version wildcard gradle-style version 2 (see comment above)
+# see also https://www.safaribooksonline.com/library/view/gradle-beyond-the/9781449373801/ch04.html (sect. on Dynamic Versions)
+test: 42+
+test: 2+
+match: \d+\+
+classify: var-minor
+
+# micro version wildcard gradle-style
+# see https://docs.gradle.org/current/userguide/declaring_dependencies.html 
+test: 1.2.+
+test: 42.43.+
+match: \d+\.\d+\.\+
+classify: var-micro
+
+# micro version wildcard gradle-style version 2 (see comment above)
+test: 1.2+
+test: 42.43+
+match: \d+\.\d+\+
+classify: var-micro
+
+# intervals (either side can be open or closed)
+test: [1.2,1.3]
+test: [1.2.0,2.0.0)
+test: (1.2.0,2.0.0]
+test: (1.2.0,2.0.0)
+test: [ 3.0 , 4.0 )
+match:(\[|\()(\w|\.|-|\s)+,(\w|\.|-|\s)+(\]|\))
+classify:range
+
+# ivy-stype ranges
+# see: http://ant.apache.org/ivy/history/2.1.0/settings/version-matchers.html
+test: [1.0,2.0]
+test: [1.0,2.0[
+test: ]1.0,2.0]
+test: ]1.0,2.0[
+test: [0.0.0, 1.0.0[
+test: [1.1.9,1.1.10[
+match:(\[|\])\s*\d+\.\d+(\.\d+)?\s*,\s*\d+\.\d+(\.\d+)?\s*(\[|\])
+classify:range
+
+# unresolved variables in Maven 
+test: ${project.version}
+test: [${project.version}]
+match:(.)*\$\{(.)+\}(.)*
+classify:unresolved
+
+# patterns that look like "var-submicro" - classify as others
+test: 0.1.1+25-37e4e88d	
+test: 1.2.14+
+test: 1.2.3+
+match: \d+(\.\d+(\.\d+))?\+(\w|-)*
+classify: other
+
+# multi-range like patterns, also classifies as others
+test: [4.1,4.2),[4.10,4.20),[4.100,4.200),[4.1000,4.2000),[4.10000,4.20000)
+test: [1,2),[2,3)
+test: [0,1),[1,2),[2,3),[3,4)
+match: ((\[|\()\d+(\.\d+(\.\d+)?)?\s*,\s*\d+(\.\d+(\.\d+)?)?(\]|\))\s*)(,\s*(\[|\()\d+(\.\d+(\.\d+)?)?\s*,\s*\d+(\.\d+(\.\d+)?)?(\]|\))\s*)*
+classify: other
+

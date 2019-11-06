@@ -1,0 +1,99 @@
+# comments start with #
+# reference the spec / grammar whenever possible
+#
+# spec: https://puppet.com/docs/puppet/4.10/modules_metadata.html#version-specifiers-in-module-metadata
+# see also: https://puppet.com/docs/puppet/4.10/modules_fundamentals.html
+# see also: https://puppet.com/docs/puppet/5.4/style_guide.html#versioning
+#
+# (from spec above) "We strongly recommend following the Semantic
+#  Versioning specification for versioning your module. This helps
+#  others rely on your modules without being surprised by changes you
+#  make."
+#
+# (from spec above) "Hard dependencies must be declared explicitly in your module’s metadata.json file.
+# Soft dependencies should be called out in the README.md, and must not be enforced as a hard requirement in your 
+# metadata.json. A soft dependency is a dependency that is only required in a specific set of use cases."
+# we ignore those soft dependencies
+#
+# EXPLICIT_STATEMENT ?
+# DEFAULT_TOOLING ?
+# OTHER_TOOLING ?
+
+# fixed requirement
+test: 1.0
+test: 0.7.3
+test: 2.1.3
+test: 2.1.3
+test: 2.1.3
+test: 2.1.3-SNAPSHOT
+test: 2.1.3-SNAPSHOT.1
+match:(\d|\.)+(-(\w|.)*)?
+classify:fixed
+
+# latest 
+# see https://www.puppetcookbook.com/posts/latest-package.html
+test: latest
+match: latest
+classify:latest
+
+# at most
+test: <=1.0
+test: <=1.0-snapshot
+test: <=1.0-snapshot.1
+test: <=4.12
+test: <1.0
+test: <4.12
+test: <= 1.0
+test: <= 4.12
+test: < 1.0
+test: < 4.12
+match:(<=|<)(\s)*(\w|\.|-)+
+classify:at-most
+
+# at least
+test: >=1.0
+test: >=1.0-snapshot
+test: >=1.0-snapshot.1
+test: >=4.12
+test: >1.0
+test: >4.12
+test: >= 1.0
+test: >= 4.12
+test: > 1.0
+test: > 4.12
+match:(>=|>)(\s)*(\w|\.|-)+
+classify:at-least
+
+# range
+test: >=1.0 <4.3.0
+test: >=4.12 <=4.5.0
+test: >1.0  <=2.0.1
+test: >4.12 <5.1.2
+test: >=1.0  < 4.3.0
+test: >=4.12  <=4.5.0
+test: > 1.0  <=2.0.1
+test: > 4.12  < 5.1.2
+test: > 4.12   < 5.1.2
+match:(>=|>)(\s)*(\w|\.|-)+(\s)*(<=|<)(\s)*(\w|\.|-)+
+classify:range
+
+#minor wildcard
+test: 1.x
+test: 1.x.0
+test: 1.x-snapshot
+test: 2.x
+match:\d+\.x(\w|\.|-)*
+classify:var-minor
+
+#micro wildcard
+test: 1.2.x
+test: 2.0.x
+test: 2.0.x-snapshot
+test: 2.0.x-snapshot.1
+match:\d+\.\d+\.x(\w|\.|-)*
+classify:var-micro
+
+# any
+test: *
+match:\*
+classify:any
