@@ -3,8 +3,6 @@ package masters;
 import masters.utils.Database;
 
 import java.io.*;
-import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
@@ -13,40 +11,47 @@ import masters.utils.Logging;
 
 public class Main {
 
-    Connection c;
     Logger log;
-    Results results;
     HashSet<PairIDs> alreadyPrinted;
 
-    public Main(Connection c, Logger log) {
-        this.c = c;
+    public Main(Logger log) {
         this.log = log;
-        this.results = new Results();
         this.alreadyPrinted = getPrintedHistory();
     }
 
     public static void main(String[] args) throws SQLException {
-        Connection c = Database.getConnection();
         Logger log = Logging.getLogger("New memory model working - saving new files each time");
-        Main main = new Main(c, log);
-        main.findProjectPairs();
+        Main main = new Main(log);
+        //main.printSomeProjectPairs();
+        main.aggregateData();
         main.savePrintedHistory();
         Database.closeConnections();
-//        main.createTimelineInformation();
     }
 
-    private void findProjectPairs() {
-        long start = System.currentTimeMillis();
-        log.info("Beginning collection of pairs");
-        PairCollector finder = new PairCollector();
+    private void aggregateData() {
+        Map<PairCollector.PackageManager, List<PairIDs>> pairsByPM = new PairCollector().getAvailablePairs();
 
-        Map<PairCollector.PackageManager, List<PairIDs>> pairsByPM = finder.getAvailablePairs();
-        log.debug("It took: " + (System.currentTimeMillis() - start) + " ms to get the filtered pairs");
+        for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
+            if (pm == PairCollector.PackageManager.MAVEN || pm == PairCollector.PackageManager.NPM) continue;
 
-        start = System.currentTimeMillis();
+            log.info("Aggregating data for " + pm.toString());
+
+            Aggregator aggregator = new Aggregator(pm.toString());
+            for (PairIDs pairID: pairsByPM.get(pm)) {
+                PairWithData data = CollectDataForPair.collectData(pairID);
+                if (data.getAVersions().size() == 0) continue;
+
+                PairStatistics ps = ProcessPairNew.classifyPair(data, pm);
+                aggregator.addStatistics(ps);
+            }
+            aggregator.printAggregator();
+        }
+    }
+
+    private void printSomeProjectPairs() {
+        Map<PairCollector.PackageManager, List<PairIDs>> pairsByPM = new PairCollector().getAvailablePairs();
 
         Random rand = new Random();
-
         for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
             for (PairIDs pairID: pairsByPM.get(pm)) {
                 // Print with 0.00001 probability for Mvn/NPM, else 0.001 probability
@@ -57,7 +62,6 @@ public class Main {
                 }
             }
         }
-        log.debug("It took " + (System.currentTimeMillis() - start) + " ms to collect the pair data and process it");
     }
 
     private HashSet<PairIDs> getPrintedHistory() {
@@ -90,23 +94,4 @@ public class Main {
         ps.printToFile(String.format("data/pairwiseResults/%s_%d_%d.csv", ps.getPm().toString(), pair.component1(), pair.component2()));
         alreadyPrinted.add(pair);
     }
-
-    private void createTimelineInformation() throws SQLException {
-        getDataStructuresReady();
-        results.checkDependenciesAreProjects();
-        results.constructTimeline();
-    }
-
-    private void proofOfConceptFindProjectVersions() throws SQLException {
-        getDataStructuresReady();
-        results.printProjectResults();
-    }
-
-    private void getDataStructuresReady() throws SQLException {
-        ResultSet rs = Database.runQueryNoLogs("select * from dependencies where platform = 'Maven'");
-        results.consumeResults(rs);
-        c.close();
-        results.compareProjects();
-    }
-
 }

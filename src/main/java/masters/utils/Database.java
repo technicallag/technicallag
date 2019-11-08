@@ -4,7 +4,7 @@ import masters.PairCollector;
 import masters.PairWithData;
 import masters.DependencyVersion;
 import masters.ProjectVersion;
-import masters.dataClasses.Version;
+import masters.libiostudy.Version;
 
 import java.io.FileReader;
 import java.io.IOException;

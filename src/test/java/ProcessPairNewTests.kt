@@ -4,6 +4,7 @@ package masters
  * Created by Jacob Stringer on 4/11/2019.
  */
 
+import masters.old.dataClasses.VersionRelationship
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
@@ -11,8 +12,15 @@ class ProcessPairNewTests {
 
     private fun getResults(aID: Int, bID: Int, pm: PairCollector.PackageManager) : PairStatistics {
         val results = ProcessPairNew.classifyPair(CollectDataForPair.collectData(PairIDs(aID,bID)), pm)
-        results.printToFile("data/pairwiseResults/errorToTest/${pm}_${aID}_${bID}_latest.csv")
+        results.printToFile("data/pairwiseResults/errors/${pm}_${aID}_${bID}_latest.csv")
         return results
+    }
+
+    private fun getRawData(aID: Int, bID: Int, pm: PairCollector.PackageManager) : PairWithData {
+        val rawData = CollectDataForPair.collectData(PairIDs(aID,bID))
+        val results = ProcessPairNew.classifyPair(rawData, pm)
+        results.printToFile("data/pairwiseResults/errors/${pm}_${aID}_${bID}_latest.csv")
+        return rawData
     }
 
     @Test
@@ -42,6 +50,31 @@ class ProcessPairNewTests {
         val results = getResults(2427516, 245694, PairCollector.PackageManager.RUBYGEMS)
         for ((first, second) in results.quantityOfLag.zipWithNext())
             assertTrue(first <= second)
+    }
+
+    @Test
+    fun orderingTags_369494_651538() {
+        // PROBLEM: Multiple types of tags have been used within the same micro version - check that it is the same style of tag before using the number to compare
+        // FIXED: Updated Version.compareTo() - Checks the letter prefix of the the tags and sorts alphabetically first before considering numbers
+        val results = getRawData(369494, 651538, PairCollector.PackageManager.MAVEN)
+        for ((first, second) in results.aVersions.zipWithNext()) {
+            val alphabeticalTag = first.version.additionalInfo < second.version.additionalInfo
+            val sameMicro = first.version.getRelationship(second.version) == VersionRelationship.SAME_MICRO
+            assertTrue(!sameMicro || alphabeticalTag)
+        }
+    }
+
+    @Test
+    fun lagMissingVersions_372752_340080() {
+        // PROBLEM: version is 20041127.091804 - this will break aggregated data as it thinks it is 20041126 major versions behind
+        // SIDENOTE: This will think that it is 1 major version behind even though it isn't. This cannot be easily solved automatically but it is hoped that almost all instances that would break this will get filtered out in the PairCollector.
+        // FIX:
+        // 1. Versions with tokens over 10000 will now be considered not to be a semantic version and will be filtered out
+        // 2. For those that aren't filtered out, the programme will now look at distinct major/minor/micro versions, ignoring any gaps in version numbers
+        val results = getResults(372752, 340080, PairCollector.PackageManager.MAVEN)
+        for (lag in results.quantityOfLag) {
+            assertTrue(lag.major == 1)
+        }
     }
 
 

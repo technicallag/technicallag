@@ -1,13 +1,13 @@
 package masters;
 
-import masters.dataClasses.Version
+import masters.libiostudy.Version
 import masters.utils.Database;
 import masters.utils.Logging;
 import masters.libiostudy.VersionCategoryWrapper;
 import java.io.*
+import java.math.BigInteger
 
 import java.sql.SQLException;
-import java.util.concurrent.ConcurrentHashMap
 import kotlin.collections.HashMap
 
 /**
@@ -68,17 +68,17 @@ public class PairCollector {
     init {
         // Load in any counts data from file
         try {
-            val streamin = ObjectInputStream(FileInputStream("data/preprocessedPairData/pair_counts.bin"))
+            val streamin = ObjectInputStream(FileInputStream("data/pairs/pair_counts.bin"))
             counts = streamin.readObject() as HashMap<PackageManager, Map<Status, Int>>
             streamin.close()
         } catch (e: FileNotFoundException) {
-            log.warn("File data/preprocessedPairData/pair_counts.bin was not found")
+            log.warn("File data/pairs/pair_counts.bin was not found")
         }
 
         // Preprocess pair data from DB into Files as needed
         PackageManager.values().forEach {
             availablePairs[it] = mutableListOf()
-            val pairData = File("data/preprocessedPairData/$it.csv")
+            val pairData = File("data/pairs/$it.csv")
             if (!pairData.exists()) loadPMFromDB(it)
         }
 
@@ -91,13 +91,13 @@ public class PairCollector {
         printPairInfoToCSV()
 
         // Save counts data back to file
-        val streamout = ObjectOutputStream(FileOutputStream("data/preprocessedPairData/pair_counts.bin"))
+        val streamout = ObjectOutputStream(FileOutputStream("data/pairs/pair_counts.bin"))
         streamout.writeObject(counts)
         streamout.close()
     }
 
     private fun loadPMFromFile(pm: PackageManager) {
-        BufferedReader(FileReader("data/preprocessedPairData/$pm.csv")).use {
+        BufferedReader(FileReader("data/pairs/$pm.csv")).use {
             for (lineraw in it.readLines()) {
                 if (lineraw == "Project, Dependency") continue
                 val line = lineraw.split(",").map { it.toInt() }
@@ -151,9 +151,9 @@ public class PairCollector {
         printSemverViolations(semverCheck, pm)
 
         // Store the project pairs, both filtered and unfiltered
-        BufferedWriter(FileWriter("data/preprocessedPairData/$pm.csv")).use { included ->
+        BufferedWriter(FileWriter("data/pairs/$pm.csv")).use { included ->
             included.write("Project, Dependency\n")
-            BufferedWriter(FileWriter("data/preprocessedPairData/${pm}_ALL.csv")).use {all ->
+            BufferedWriter(FileWriter("data/pairs/${pm}_ALL.csv")).use {all ->
                 all.write("Project, Dependency, Status\n")
                 pairs.forEach { entry ->
                     if (entry.value == Status.INCLUDED) included.write("${entry.key.projectID},${entry.key.dependencyID}\n")
@@ -191,7 +191,7 @@ public class PairCollector {
 
     private fun printSemverViolations(semverCheck: MutableList<SemverViolations>, pm: PackageManager) {
         try {
-            BufferedWriter(FileWriter("data/preprocessedPairData/${pm}_semver_violations.csv")).use {
+            BufferedWriter(FileWriter("data/pairs/${pm}_semver_violations.csv")).use {
                 semverCheck.forEach { sem -> it.write(sem.toString()) }
             }
         } catch (e: IOException) {
@@ -209,6 +209,9 @@ public class PairCollector {
 
     private fun violatesSemver(version: String?) : Boolean {
         if (version.isNullOrBlank()) return true
+        val v = Version.create(version)
+        for (token in v.versionTokens)
+            if (token > BigInteger.valueOf(10000)) return true
         return Version.create(version).versionTokens.size < 1
     }
 
