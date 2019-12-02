@@ -7,5 +7,5 @@ import masters.utils.Database
  */
 
 fun main(args: Array<String>) {
-    println(mutableMapOf(1 to 2, 2 to 3))
+    println(Update.values().joinToString(","))
 }

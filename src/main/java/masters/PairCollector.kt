@@ -76,6 +76,7 @@ public class PairCollector {
         }
 
         // Preprocess pair data from DB into Files as needed
+        // Delete pair files if reload from database is desired
         PackageManager.values().forEach {
             availablePairs[it] = mutableListOf()
             val pairData = File("data/pairs/$it.csv")

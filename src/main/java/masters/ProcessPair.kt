@@ -2,9 +2,11 @@ package masters
 
 import masters.old.dataClasses.VersionRelationship
 import masters.utils.Database
+import masters.utils.Logging
 import java.io.BufferedWriter
 import java.io.FileWriter
 import java.lang.IllegalArgumentException
+import java.text.SimpleDateFormat
 
 /**
  * Created by Jacob Stringer on 1/11/2019.
@@ -42,25 +44,52 @@ enum class Update {
 data class Change (val projUpdateType: Update, val depUpdateType: Update)
 
 // Counts the number of versions behind - it assumes semantic versioning so 2.3 and 2.9 are 6 minor versions apart, even if 2.4 were skipped
-data class Lag (val major: Int, val minor: Int, val micro: Int) : Comparable<Lag> {
+data class Lag (var major: Long, var minor: Long, var micro: Long, var majorTime: Long, var minorTime: Long, var microTime: Long) : Comparable<Lag> {
     override fun toString(): String {
-        return "$major,$minor,$micro"
+        return "$major,$majorTime,$minor,$minorTime,$micro,$microTime"
+    }
+
+    fun averaged(divisor: Long): String {
+        return "%.4f,%.4f,%.4f,%.4f,%.4f,%.4f".format(
+                major.toDouble()/divisor, majorTime.toDouble()/divisor,
+                minor.toDouble()/divisor, minorTime.toDouble()/divisor,
+                micro.toDouble()/divisor, microTime.toDouble()/divisor)
+    }
+
+    fun header(): String {
+        return "major,majorTime,minor,minorTime,micro,microTime"
+    }
+
+    fun headerAvg(): String {
+        return "majorAvg,majorTimeAvg,minorAvg,minorTimeAvg,microAvg,microTimeAvg"
     }
 
     override fun compareTo(other: Lag): Int {
-        if (this.major != other.major) return this.major - other.major
-        if (this.minor != other.minor) return this.minor - other.minor
-        return this.micro - other.micro
+        if (this.major != other.major) return (this.major - other.major).toInt()
+        if (this.minor != other.minor) return (this.minor - other.minor).toInt()
+        return (this.micro - other.micro).toInt()
     }
 
-    fun getLagType() : LagType {
-        if (this.major > 0) return LagType.MAJOR
-        else if (this.minor > 0) return LagType.MINOR
-        else if (this.micro > 0) return LagType.MICRO
-        else return LagType.NO_LAG
+    fun getLagType() : Type {
+        if (this.major > 0) return Type.MAJOR
+        else if (this.minor > 0) return Type.MINOR
+        else if (this.micro > 0) return Type.MICRO
+        else return Type.NO_LAG
     }
 
-    enum class LagType {
+    fun addLag(other: Lag) {
+        this.major += other.major
+        this.minor += other.minor
+        this.micro += other.micro
+        this.majorTime += other.majorTime
+        this.minorTime += other.minorTime
+        this.microTime += other.microTime
+
+        if (this.majorTime > 1e60 || this.minorTime > 1e60 || this.microTime > 1e60)
+            Logging.getLogger("").warn("Lag is getting really large: $this")
+    }
+
+    enum class Type {
         MAJOR,
         MINOR,
         MICRO,
@@ -74,21 +103,11 @@ data class UpdateMatrix (val index: Int) {
     }
 
     val counts = Array(Update.size) { Array(Update.size) { 0.0 } }
-    var total = 0.0
-    var totalComputed = false
+    var total = 0
 
     fun includeChange(change: Change) {
         counts[change.projUpdateType.ordinal][change.depUpdateType.ordinal]++
-    }
-
-    fun combine(other: UpdateMatrix) : UpdateMatrix {
-        val newMatrix = UpdateMatrix(index)
-        repeat(Update.size) {i ->
-            repeat(Update.size) { j ->
-                newMatrix.counts[i][j] = this.counts[i][j] + other.counts[i][j]
-            }
-        }
-        return newMatrix
+        total++
     }
 
     fun addMatrix(other: UpdateMatrix) {
@@ -97,21 +116,19 @@ data class UpdateMatrix (val index: Int) {
                 this.counts[i][j] += other.counts[i][j]
             }
         }
+        this.total += other.total
     }
 
-    fun normalizeMatrix() {
-        totalComputed = true
-        for (i in counts.indices) {
-            for (j in counts[i].indices) {
-                total += counts[i][j]
-            }
-        }
+    fun normalizeMatrix() : UpdateMatrix {
+        val newMat = UpdateMatrix(index)
+        newMat.total = this.total
 
         for (i in counts.indices) {
             for (j in counts[i].indices) {
-                counts[i][j] = counts[i][j] / total
+                newMat.counts[i][j] = this.counts[i][j] / this.total
             }
         }
+        return newMat
     }
 
     override fun toString() : String {
@@ -128,9 +145,10 @@ data class UpdateMatrix (val index: Int) {
                 sb.append(",%.4f".format(counts[i][j]))
             }
         }
-        if (totalComputed) sb.append("\nTotal values: $total")
 
+        sb.append("\nTotal values: $total")
         sb.append("\n\n")
+
         return sb.toString()
     }
 }
@@ -143,9 +161,15 @@ data class PairStatistics(val pair: PairWithData, val pm: PairCollector.PackageM
     var missingDepsTotal = 0
     val hasThisUpdate = mutableSetOf<Update>()
 
+    val totalLag = Lag(0,0,0,0,0,0)
+
     fun addUpdate(proj: Update, dep: Update) {
         classifyUpdates.add(Change(proj, dep))
         hasThisUpdate.add(dep)
+    }
+
+    fun hasBackwardsChanges() : Boolean {
+        return this.numBackwardsUpdates() > 0
     }
 
     fun processMatricesAndMissingDeps() {
@@ -163,13 +187,15 @@ data class PairStatistics(val pair: PairWithData, val pm: PairCollector.PackageM
 
                 try {
                     val lag = quantityOfLag[++curLag]
+                    totalLag.addLag(lag)
+
                     if (dep.dependency != null) {
                         val update = classifyUpdates[++curUpdate]
                         when (lag.getLagType()) {
-                            Lag.LagType.MAJOR -> matrices[0].includeChange(update)
-                            Lag.LagType.MINOR -> matrices[1].includeChange(update)
-                            Lag.LagType.MICRO -> matrices[2].includeChange(update)
-                            Lag.LagType.NO_LAG -> matrices[3].includeChange(update)
+                            Lag.Type.MAJOR -> matrices[0].includeChange(update)
+                            Lag.Type.MINOR -> matrices[1].includeChange(update)
+                            Lag.Type.MICRO -> matrices[2].includeChange(update)
+                            Lag.Type.NO_LAG -> matrices[3].includeChange(update)
                         }
                     }
                 } catch (e: IndexOutOfBoundsException) {
@@ -196,7 +222,7 @@ data class PairStatistics(val pair: PairWithData, val pm: PairCollector.PackageM
                 it.write(matrix.toString())
             }
 
-            it.write("\n\nLag (Vers Behind), Major, Minor, Micro\n")
+            it.write("\n\nLag (Vers Behind), Major, Days of Lag, Minor, Days of Lag, Micro, Days of Lag\n")
             quantityOfLag.forEach { lag -> it.write(",$lag\n") }
 
             it.write("\nMissing Dependency Information")
@@ -223,9 +249,28 @@ data class PairStatistics(val pair: PairWithData, val pm: PairCollector.PackageM
             }
         }
     }
+
+    private fun numForwardsUpdates(): Int {
+        return classifyUpdates.filter { it.depUpdateType == Update.FORWARDS_MICRO || it.depUpdateType == Update.FORWARDS_MINOR || it.depUpdateType == Update.FORWARDS_MAJOR }.size
+    }
+
+    private fun numBackwardsUpdates(): Int {
+        return classifyUpdates.filter { it.depUpdateType == Update.BACKWARD_MAJOR || it.depUpdateType == Update.BACKWARD_MINOR || it.depUpdateType == Update.BACKWARD_MICRO }.size
+    }
+
+    fun header(): String {
+        return "Project,Dependency,NumVersMajorLag,NumVersMinorLag,NumVersMicroLag,NumVersNoLag,${totalLag.headerAvg()},${Update.values().joinToString(",")},missingDepsEnd,missingDepsTotal"
+    }
+
+    override fun toString(): String {
+        val updateCounts = mutableListOf<Int>()
+        Update.values().forEach { update -> updateCounts.add(classifyUpdates.filter { it.depUpdateType == update }.size) }
+
+        return "${pair.pairIDs.projectID},${pair.pairIDs.dependencyID},${matrices[0].total},${matrices[1].total},${matrices[2].total},${matrices[3].total},${totalLag.averaged(quantityOfLag.size.toLong())},${updateCounts.joinToString(",")},$missingDepsAtEnd,$missingDepsTotal"
+    }
 }
 
-class ProcessPairNew {
+class ProcessPair {
 
     companion object {
         @JvmStatic
@@ -235,7 +280,8 @@ class ProcessPairNew {
             try {
                 pair.aVersions.sortBy { it.version }
             } catch(e: IllegalArgumentException) {
-                println(pair.pairIDs)
+                e.printStackTrace()
+                println(pair.pairIDs.toString() + " has an issue with the comparator not being transitive")
                 pair.aVersions.forEach { println(it) }
                 return stats
             }
@@ -261,6 +307,19 @@ class ProcessPairNew {
             }
         }
 
+        private fun getDaysLag(currentVersion: ContainsTime, firstNewerDepVersion: ContainsTime?) : Long {
+            firstNewerDepVersion ?: return 0
+
+            try {
+                val dateFormat = SimpleDateFormat("yyyy-MM-dd hh:mm:ss zzz")
+                return (dateFormat.parse(currentVersion.time).time - dateFormat.parse(firstNewerDepVersion.time).time) / 3_600_000 / 24
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+
+            return -1
+        }
+
         private fun quantifyLag(stats: PairStatistics) {
             for (version in stats.pair.aVersions) {
                 if (version.dependency == null) continue
@@ -270,12 +329,37 @@ class ProcessPairNew {
                         .filter { it.time < version.time }
                         .filter { it.version > version.dependency }
 
+                //newerVersionsWithType.maxBy { it.time }?.time - version.time
+
+
                 // Filters the available versions by major/minor/micro version and keeps one of each (accounts for gaps in versions)
-                stats.quantityOfLag.add(Lag(
-                        newerVersionsWithType.map { it.version.major }.filter { it > version.dependency.major }.toSet().size,
-                        newerVersionsWithType.filter { it.version.sameMajor(version.dependency) }.map { it.version.minor }.filter { it > version.dependency.minor }.toSet().size,
-                        newerVersionsWithType.filter { it.version.sameMinor(version.dependency) }.map { it.version.micro }.filter { it > version.dependency.micro }.toSet().size
-                ))
+                stats.quantityOfLag.add(
+                    Lag(
+                        newerVersionsWithType
+                                .map { it.version.major }
+                                .filter { it > version.dependency.major }
+                                .toSet().size.toLong(),
+                        newerVersionsWithType
+                                .filter { it.version.sameMajor(version.dependency) }
+                                .map { it.version.minor }
+                                .filter { it > version.dependency.minor }
+                                .toSet().size.toLong(),
+                        newerVersionsWithType
+                                .filter { it.version.sameMinor(version.dependency) }
+                                .map { it.version.micro }
+                                .filter { it > version.dependency.micro }
+                                .toSet().size.toLong(),
+                        getDaysLag(version, newerVersionsWithType
+                                .filter { it.version.major > version.dependency.major }
+                                .minBy { it.version }),
+                        getDaysLag(version, newerVersionsWithType
+                                .filter { it.version.sameMajor(version.dependency) && it.version.minor > version.dependency.minor }
+                                .minBy { it.version }),
+                        getDaysLag(version, newerVersionsWithType
+                                .filter { it.version.sameMinor(version.dependency) && it.version.micro > version.dependency.micro }
+                                .minBy { it.version })
+                    )
+                )
             }
         }
     }

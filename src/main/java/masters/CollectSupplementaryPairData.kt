@@ -10,9 +10,13 @@ import java.sql.SQLException
  * Created by Jacob Stringer on 29/10/2019.
  */
 
-data class ProjectVersion(val version: Version, val dependency: Version?, val time: String)
+interface ContainsTime {
+    val time: String
+}
 
-data class DependencyVersion(val version: Version, val time: String)
+data class ProjectVersion(val version: Version, val dependency: Version?, override val time: String) : ContainsTime
+
+data class DependencyVersion(val version: Version, override val time: String) : ContainsTime
 
 data class PairWithData(val pairIDs: PairIDs, val aVersions: MutableList<ProjectVersion>, var bVersions: MutableList<DependencyVersion>)
 

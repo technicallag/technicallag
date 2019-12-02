@@ -33,7 +33,7 @@ public class Version implements Comparable<Version> {
     public int getMinor() { return (versionTokens.size() > 1) ? versionTokens.get(1).intValue() : 0; }
     public int getMajor() { return (versionTokens.size() > 0) ? versionTokens.get(0).intValue() : 0; }
 
-    private static final Pattern VDX = Pattern.compile("[vV=]\\s*\\d+((\\.|-)(.)*)?");
+    private static final Pattern VDX = Pattern.compile("[vV=^]{1,2}\\s*\\d+((\\.|-)(.)*)?");
     private static final Pattern TAGNUMBER = Pattern.compile("\\d+$");
 
     public static Cache<String, Version> CACHE = CacheBuilder.newBuilder()
@@ -79,7 +79,7 @@ public class Version implements Comparable<Version> {
         while ((leadingDigits=extractLeadingDigits(versionDef2))!=null) {
             BigInteger tok = new BigInteger(leadingDigits);
             if (leadingDigits.length()<versionDef2.length()) {
-                versionDef2 = versionDef2.substring(leadingDigits.length()+1);
+                versionDef2 = versionDef2.substring(leadingDigits.length() + 1);
             }
             else {
                 versionDef2 = "";
@@ -93,16 +93,19 @@ public class Version implements Comparable<Version> {
     }
 
     public static Version create(String versionDef) {
-        if (versionDef.equals("")) {
-            System.out.println("You do need the null check in Version.create() after all!");
-            return null;
-        }
-
-        // trail leading [vV=]
+        // trail leading [vV=^] - ^ is because ^0.0.x is considered fixed in cargo (and some other PMs)
         versionDef = versionDef.trim();
         if (VDX.matcher(versionDef).matches()) {
             versionDef = versionDef.substring(1).trim();
+
+            // Solves pypi version declarations with double equals, e.g. "==1.0.0"
+            if (versionDef.startsWith("=")) versionDef = versionDef.substring(1).trim();
         }
+
+        // Maven has [1.3.0] which is a 'forced' fixed version
+        if (versionDef.startsWith("[") && versionDef.endsWith("]"))
+            versionDef = versionDef.substring(1,versionDef.length() - 1).trim();
+
         String vers = versionDef;
 
         // Collect cached version if possible, otherwise create

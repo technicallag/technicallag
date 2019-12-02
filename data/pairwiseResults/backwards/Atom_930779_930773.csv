@@ -1,0 +1,114 @@
+Major Lag
+dA\dB,FORWARDS_MAJOR,FORWARDS_MINOR,FORWARDS_MICRO,NO_CHANGE,BACKWARD_MAJOR,BACKWARD_MINOR,BACKWARD_MICRO
+FORWARDS_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+FORWARDS_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+FORWARDS_MICRO,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+NO_CHANGE,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MICRO,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+Total values: 0
+
+Minor Lag
+dA\dB,FORWARDS_MAJOR,FORWARDS_MINOR,FORWARDS_MICRO,NO_CHANGE,BACKWARD_MAJOR,BACKWARD_MINOR,BACKWARD_MICRO
+FORWARDS_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+FORWARDS_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+FORWARDS_MICRO,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+NO_CHANGE,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MICRO,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+Total values: 0
+
+Micro Lag
+dA\dB,FORWARDS_MAJOR,FORWARDS_MINOR,FORWARDS_MICRO,NO_CHANGE,BACKWARD_MAJOR,BACKWARD_MINOR,BACKWARD_MICRO
+FORWARDS_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+FORWARDS_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+FORWARDS_MICRO,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+NO_CHANGE,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MICRO,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+Total values: 0
+
+No Lag
+dA\dB,FORWARDS_MAJOR,FORWARDS_MINOR,FORWARDS_MICRO,NO_CHANGE,BACKWARD_MAJOR,BACKWARD_MINOR,BACKWARD_MICRO
+FORWARDS_MAJOR,1.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+FORWARDS_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,1.0000
+FORWARDS_MICRO,0.0000,0.0000,4.0000,1.0000,0.0000,0.0000,0.0000
+NO_CHANGE,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+BACKWARD_MICRO,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
+Total values: 7
+
+
+
+Lag (Vers Behind), Major, Days of Lag, Minor, Days of Lag, Micro, Days of Lag
+,0,0,0,0,0,0
+,0,0,0,0,0,0
+,0,0,0,0,0,0
+,0,0,0,0,0,0
+,0,0,0,0,0,0
+,0,0,0,0,0,0
+,0,0,0,0,0,0
+,0,0,0,0,0,0
+
+Missing Dependency Information
+Total missing deps: 0
+Missing deps at end: 0
+Project information
+replicated-preview (930779)	replicated-config-render (930773)	Package Manager: Atom
+
+Project A:
+ProjectVersion(version=1.0.1, dependency=1.0.0, time=2015-08-14 23:28:30 UTC),	Latest, null
+ProjectVersion(version=1.0.2, dependency=1.0.0, time=2015-08-14 23:38:37 UTC),	Latest, null
+ProjectVersion(version=1.0.3, dependency=1.0.1, time=2015-08-15 00:28:29 UTC),	Latest, null
+ProjectVersion(version=1.0.4, dependency=1.0.3, time=2015-08-18 15:58:52 UTC),	Latest, null
+ProjectVersion(version=1.1.0, dependency=1.0.1, time=2015-08-15 01:48:39 UTC),	Latest, null
+ProjectVersion(version=1.1.1, dependency=1.0.3, time=2015-08-18 15:58:52 UTC),	Latest, null
+ProjectVersion(version=1.1.2, dependency=1.0.7, time=2015-08-24 23:58:47 UTC),	Latest, null
+ProjectVersion(version=2.0.0, dependency=4.0.14, time=2016-05-09 23:36:01 UTC),	Latest, null
+
+Project B:
+DependencyVersion(version=1.0.0, time=2015-08-14 23:11:43 UTC)
+DependencyVersion(version=1.0.1, time=2015-08-15 00:14:21 UTC)
+DependencyVersion(version=1.0.2, time=2015-08-17 21:41:16 UTC)
+DependencyVersion(version=1.0.3, time=2015-08-18 15:55:12 UTC)
+DependencyVersion(version=1.0.5, time=2015-08-20 19:01:01 UTC)
+DependencyVersion(version=1.0.6, time=2015-08-20 21:34:36 UTC)
+DependencyVersion(version=1.0.7, time=2015-08-24 23:35:06 UTC)
+DependencyVersion(version=2.0.0, time=2015-10-30 19:43:20 UTC)
+DependencyVersion(version=2.0.0-alpha1, time=2015-10-30 19:20:56 UTC)
+DependencyVersion(version=2.0.1, time=2015-10-30 23:23:15 UTC)
+DependencyVersion(version=2.0.2, time=2015-10-30 23:33:08 UTC)
+DependencyVersion(version=3.0.0, time=2015-11-21 00:32:19 UTC)
+DependencyVersion(version=4.0.0, time=2015-11-21 19:37:49 UTC)
+DependencyVersion(version=4.0.1, time=2015-11-23 17:37:06 UTC)
+DependencyVersion(version=4.0.10, time=2016-01-13 04:53:37 UTC)
+DependencyVersion(version=4.0.11, time=2016-01-13 05:20:49 UTC)
+DependencyVersion(version=4.0.12, time=2016-01-13 07:14:17 UTC)
+DependencyVersion(version=4.0.13, time=2016-02-18 19:18:55 UTC)
+DependencyVersion(version=4.0.14, time=2016-05-09 21:51:33 UTC)
+DependencyVersion(version=4.0.15, time=2016-08-23 00:03:16 UTC)
+DependencyVersion(version=4.0.2, time=2015-11-23 21:37:29 UTC)
+DependencyVersion(version=4.0.4, time=2015-11-23 21:40:11 UTC)
+DependencyVersion(version=4.0.5, time=2015-11-30 20:06:36 UTC)
+DependencyVersion(version=4.0.6, time=2015-12-02 20:09:57 UTC)
+DependencyVersion(version=4.0.7, time=2016-01-12 18:25:45 UTC)
+DependencyVersion(version=4.0.8, time=2016-01-13 04:10:16 UTC)
+DependencyVersion(version=4.0.9, time=2016-01-13 04:39:01 UTC)
+DependencyVersion(version=5.0.0, time=2016-09-15 19:27:25 UTC)
+DependencyVersion(version=5.1.0, time=2017-05-08 16:57:22 UTC)
+DependencyVersion(version=5.2.0, time=2017-05-09 01:01:56 UTC)
+DependencyVersion(version=5.2.1, time=2017-05-15 20:05:52 UTC)
+DependencyVersion(version=5.2.2, time=2017-08-29 14:51:41 UTC)
+DependencyVersion(version=5.3.0, time=2017-10-03 21:09:55 UTC)
+DependencyVersion(version=5.4.0, time=2017-10-23 21:47:00 UTC)
+DependencyVersion(version=5.6.0, time=2018-03-06 01:50:10 UTC)
+DependencyVersion(version=5.6.1, time=2018-08-06 22:22:06 UTC)
+DependencyVersion(version=5.6.2, time=2018-10-25 22:22:24 UTC)
+DependencyVersion(version=5.6.3, time=2018-10-26 22:42:43 UTC)
+DependencyVersion(version=5.7.0, time=2018-11-01 22:30:45 UTC)
+DependencyVersion(version=5.8.0, time=2018-11-27 18:29:17 UTC)
+DependencyVersion(version=5.9.0, time=2018-12-08 00:44:06 UTC)
