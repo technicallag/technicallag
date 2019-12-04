@@ -140,7 +140,8 @@ public class Database {
 
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                pair.getBVersions().add(new DependencyVersion(Version.create(rs.getString("number")), rs.getString("publishedtimestamp")));
+                String time = rs.getString("publishedtimestamp");
+                pair.getBVersions().add(new DependencyVersion(Version.create(rs.getString("number"), time), time));
             }
 
             rs.close();
@@ -169,10 +170,11 @@ public class Database {
 
                 ResultSet rs2 = stmt2.executeQuery();
 
+                String time = rs.getString("publishedtimestamp");
                 pair.getAVersions().add(new ProjectVersion(
-                        Version.create(rs.getString("number")),
+                        Version.create(rs.getString("number"), time),
                         rs2.next() ? Version.create(rs2.getString("dependencyrequirements")) : null,
-                        rs.getString("publishedtimestamp"))
+                        time)
                 );
 
                 rs2.close();

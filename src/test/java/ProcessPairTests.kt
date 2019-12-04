@@ -17,11 +17,41 @@ class ProcessPairTests {
         return results
     }
 
+    private fun getResultsBackwardsChanges(aID: Int, bID: Int, pm: PairCollector.PackageManager) : PairStatistics {
+        val results = ProcessPair.classifyPair(CollectDataForPair.collectData(PairIDs(aID,bID)), pm)
+        results.printToFile("data/pairwiseResults/backwards/errors/${pm}_${aID}_${bID}_latest.csv")
+        return results
+    }
+
     private fun getRawData(aID: Int, bID: Int, pm: PairCollector.PackageManager) : PairWithData {
         val rawData = CollectDataForPair.collectData(PairIDs(aID,bID))
         val results = ProcessPair.classifyPair(rawData, pm)
         results.printToFile("data/pairwiseResults/errors/${pm}_${aID}_${bID}_latest.csv")
         return rawData
+    }
+
+    @Test
+    fun backwardsTestPubTimeTooClose_1157630_921() {
+        // PROBLEM: 4 versions published within minutes mean version ordering doesn't make sense - libraries.io timestamps can be inaccurate up to a day.
+        // FIXED: Only order tags by time if they are published more than 24 hours apart
+        val results = getResultsBackwardsChanges(1157630, 921, PairCollector.PackageManager.HEX)
+        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MINOR));
+    }
+
+    @Test
+    fun backwardsTestSimultaneousDevelopmentProblem_930779_930773() {
+        // PROBLEM: 1.0.4 has a newer dependency than 1.1.0, but it was produced afterwards.
+        // FIXED: When a backwards change is detected, versions are checked for time, and the previous version timewise is compared
+        val results = getResultsBackwardsChanges(930779, 930773, PairCollector.PackageManager.ATOM)
+        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MICRO));
+    }
+
+    @Test
+    fun backwardsTestTagOrderingProblem_1777583_1643839() {
+        // PROBLEM: Ordering of tags is incorrect which caused an update to seem to be backwards when it wasn't
+        // FIXED: Versions now order their tags by time as a first step (major > minor > micro > published time > other tag info)
+        val results = getResultsBackwardsChanges(1777583, 1643839, PairCollector.PackageManager.ATOM)
+        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MICRO));
     }
 
     @Test
@@ -57,11 +87,12 @@ class ProcessPairTests {
     fun orderingTags_369494_651538() {
         // PROBLEM: Multiple types of tags have been used within the same micro version - check that it is the same style of tag before using the number to compare
         // FIXED: Updated Version.compareTo() - Checks the letter prefix of the the tags and sorts alphabetically first before considering numbers
+        // FIX2: Tags now are sorted on published time
         val results = getRawData(369494, 651538, PairCollector.PackageManager.MAVEN)
         for ((first, second) in results.aVersions.zipWithNext()) {
-            val alphabeticalTag = first.version.additionalInfo < second.version.additionalInfo
+            val timeordered = first.version.time < second.version.time
             val sameMicro = first.version.getRelationship(second.version) == VersionRelationship.SAME_MICRO
-            assertTrue(!sameMicro || alphabeticalTag)
+            assertTrue(!sameMicro || timeordered)
         }
     }
 

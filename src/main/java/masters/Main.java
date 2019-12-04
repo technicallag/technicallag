@@ -29,9 +29,10 @@ public class Main {
     private void aggregateData() {
         Map<PairCollector.PackageManager, List<PairIDs>> pairsByPM = new PairCollector().getAvailablePairs();
         Aggregator allData = new Aggregator("ALL");
+        Aggregator allLargePairs = new Aggregator("ALL_LARGE_PAIRS");
 
         for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
-            if (pm == PairCollector.PackageManager.MAVEN || pm == PairCollector.PackageManager.NPM) continue;
+            //if (pm == PairCollector.PackageManager.MAVEN || pm == PairCollector.PackageManager.NPM) continue;
 
             log.info("Aggregating data for " + pm.toString());
             Aggregator aggregator = new Aggregator(pm.toString());
@@ -52,10 +53,12 @@ public class Main {
             largeVersionHistoryAggregator.printAggregator();
 
             allData.addAggreator(aggregator);
+            allLargePairs.addAggreator(largeVersionHistoryAggregator);
         }
         allData.printAggregator();
     }
 
+    // print(ps, path) will only print it if it hasn't been printed before - so need to randomise or change to print more on subsequent runs
     // Memory for maybePrint
     int backwardsPrinted = 0;
     PairCollector.PackageManager curPM = null;
@@ -65,7 +68,22 @@ public class Main {
             backwardsPrinted = 0;
         }
 
-        if (ps.hasBackwardsChanges() && backwardsPrinted++ < 10) print(ps, "data/pairwiseResults/backwards");
+        if (ps.hasBackwardsChanges() && backwardsPrinted++ < 17) print(ps, "data/pairwiseResults/backwards");
+
+        // Deps missing at end
+        Random rand = new Random();
+        boolean MVN_NPM = pm == PairCollector.PackageManager.NPM || pm == PairCollector.PackageManager.MAVEN;
+        if (ps.getMissingDepsAtEnd() > 0) {
+            if(rand.nextInt(20) == 1 && (ps.getMissingDepsAtEnd() < 2 || rand.nextInt(10) == 1) && (!MVN_NPM || rand.nextInt(20) == 1)) {
+                String folder;
+                switch(ps.getMissingDepsAtEnd()) {
+                    case 1: folder = "1"; break;
+                    case 2: folder = "2"; break;
+                    default: folder = "3+"; break;
+                }
+                print(ps, String.format("data/deps_missing_at_end/%s", folder));
+            }
+        }
 
         // Turn on for general printing
 //        Random rand = new Random();

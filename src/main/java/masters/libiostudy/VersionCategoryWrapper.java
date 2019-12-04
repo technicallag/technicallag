@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
 
 /**
  * Created by Jacob Stringer on 24/10/2019.
- * From selected source code in the libio study coauthored and predominantly written by Jens Dietrich
+ * From selected source code in the libio study predominantly written by Jens Dietrich
  *
  * This class classifies dependency declarations so that non-fixed versions may be filtered out
  */

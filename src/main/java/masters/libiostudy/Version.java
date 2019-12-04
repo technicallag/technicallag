@@ -13,6 +13,8 @@ import java.util.concurrent.ExecutionException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static masters.utils.DatesKt.isUnderOneDayDiff;
+
 /**
  * Class represention versions.
  * The key property is that this is comparable.
@@ -28,6 +30,7 @@ public class Version implements Comparable<Version> {
     public List<BigInteger> versionTokens = new ArrayList<>(3);
     public String additionalInfo = null;
     private String string;
+    public String time;
 
     public int getMicro() { return (versionTokens.size() > 2) ? versionTokens.get(2).intValue() : 0; }
     public int getMinor() { return (versionTokens.size() > 1) ? versionTokens.get(1).intValue() : 0; }
@@ -35,19 +38,6 @@ public class Version implements Comparable<Version> {
 
     private static final Pattern VDX = Pattern.compile("[vV=^]{1,2}\\s*\\d+((\\.|-)(.)*)?");
     private static final Pattern TAGNUMBER = Pattern.compile("\\d+$");
-
-    public static Cache<String, Version> CACHE = CacheBuilder.newBuilder()
-        .maximumSize(5_000_000)
-        .softValues()
-        .build(
-                new CacheLoader<String, Version>() {
-                    @Override
-                    public Version load(String s) throws Exception {
-                        return create(s);
-                    }
-                }
-        );
-
 
     @Override
     public String toString() {
@@ -69,9 +59,25 @@ public class Version implements Comparable<Version> {
         return versionTokens != null ? versionTokens.hashCode() : 0;
     }
 
-    private static Version createHelper(String versionDef) {
+    private static Version createHelper(String versionDef, String time) {
+        // CLEANING
+        // trail leading [vV=^] - ^ is because ^0.0.x is considered fixed in cargo (and some other PMs)
+        versionDef = versionDef.trim();
+        if (VDX.matcher(versionDef).matches()) {
+            versionDef = versionDef.substring(1).trim();
+
+            // Solves pypi version declarations with double equals, e.g. "==1.0.0"
+            if (versionDef.startsWith("=")) versionDef = versionDef.substring(1).trim();
+        }
+
+        // Maven has [1.3.0] which is a 'forced' fixed version
+        if (versionDef.startsWith("[") && versionDef.endsWith("]"))
+            versionDef = versionDef.substring(1,versionDef.length() - 1).trim();
+
+        // CREATING
         Version version = new Version();
         version.string = versionDef;
+        version.time = time;
 
         String versionDef2 = versionDef;
 
@@ -87,34 +93,15 @@ public class Version implements Comparable<Version> {
             version.versionTokens.add(tok);
         }
         version.additionalInfo = versionDef2;
-
-        CACHE.put(versionDef, version);
         return version;
     }
 
     public static Version create(String versionDef) {
-        // trail leading [vV=^] - ^ is because ^0.0.x is considered fixed in cargo (and some other PMs)
-        versionDef = versionDef.trim();
-        if (VDX.matcher(versionDef).matches()) {
-            versionDef = versionDef.substring(1).trim();
+        return createHelper(versionDef, null);
+    }
 
-            // Solves pypi version declarations with double equals, e.g. "==1.0.0"
-            if (versionDef.startsWith("=")) versionDef = versionDef.substring(1).trim();
-        }
-
-        // Maven has [1.3.0] which is a 'forced' fixed version
-        if (versionDef.startsWith("[") && versionDef.endsWith("]"))
-            versionDef = versionDef.substring(1,versionDef.length() - 1).trim();
-
-        String vers = versionDef;
-
-        // Collect cached version if possible, otherwise create
-        try {
-            return CACHE.get(vers, () -> createHelper(vers));
-        } catch (ExecutionException e) {
-            Logging.getLogger("").error(e);
-        }
-        return null;
+    public static Version create(String versionDef, String time) {
+        return createHelper(versionDef, time);
     }
 
     private static String extractLeadingDigits(String versionDef) {
@@ -189,6 +176,12 @@ public class Version implements Comparable<Version> {
             if (diff!=0) {
                 return diff;
             }
+        }
+
+        // Order on timestamp (granularity of one day, as published timestamps are not fully accurate below that
+        if (this.time != null && otherVersion.time != null && !isUnderOneDayDiff(this.time, otherVersion.time)) {
+            int timecomp = this.time.substring(0,10).compareTo(otherVersion.time.substring(0,10));
+            if (timecomp != 0) return timecomp;
         }
 
         // next two rules: 1.2.3 > 1.2-beta

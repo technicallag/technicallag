@@ -1,7 +1,10 @@
 package masters
 
 import masters.utils.Logging
+import masters.utils.descriptiveStats
+import masters.utils.descriptiveStatsHeader
 import java.io.BufferedWriter
+import java.io.File
 import java.io.FileWriter
 
 /**
@@ -11,7 +14,7 @@ import java.io.FileWriter
 
 class Aggregator(val name: String) {
 
-    val matrices = Array(5) { UpdateMatrix(it) }
+    val matrices = Array(9) { UpdateMatrix(it) }
     val depsMissingAtEnd = mutableMapOf<Int, Int>()
     val depsMissingInMiddle = mutableMapOf<Int, Int>()
     val ge1Update = mutableMapOf<Update, Int>()
@@ -20,6 +23,12 @@ class Aggregator(val name: String) {
     var lagCounter = 0L
 
     val totalLag = Lag(0,0,0,0,0,0)
+    val lagValues = mapOf("major" to mutableListOf<Long>(),
+            "majorTime" to mutableListOf<Long>(),
+            "minor" to mutableListOf<Long>(),
+            "minorTime" to mutableListOf<Long>(),
+            "micro" to mutableListOf<Long>(),
+            "microTime" to mutableListOf<Long>())
 
     val pairStats = mutableListOf<String>()
 
@@ -29,6 +38,8 @@ class Aggregator(val name: String) {
 
         totalLag.addLag(stats.totalLag)
         stats.hasThisUpdate.forEach { ge1Update[it] = ge1Update.getOrDefault(it, 0) + 1 }
+
+        lagValues.forEach { (k, v) -> stats.lagValues[k]?.let { v.addAll(it) } }
 
         for (index in 0 until matrices.size - 1) {
             matrices[index].addMatrix(stats.matrices[index])
@@ -51,6 +62,8 @@ class Aggregator(val name: String) {
         lagCounter += other.lagCounter
         totalLag.addLag(other.totalLag)
 
+        lagValues.forEach { (k, v) -> other.lagValues[k]?.let { v.addAll(it) } }
+
         other.ge1Update.forEach { (update, int) ->
             ge1Update[update] = ge1Update.getOrDefault(update, 0) + int
         }
@@ -63,34 +76,64 @@ class Aggregator(val name: String) {
             depsMissingAtEnd[numberDeps] = depsMissingAtEnd.getOrDefault(numberDeps, 0) + counter
         }
 
-        matrices.forEachIndexed { index, updateMatrix ->
+        // Totals only get processed when printed
+        matrices.forEachIndexed { index, updateMatrix -> if (index == matrices.size - 1) return@forEachIndexed
             updateMatrix.addMatrix(other.matrices[index])
         }
     }
 
     fun printAggregator() {
-        BufferedWriter(FileWriter("data/aggregations/${name}.csv")).use {out ->
+        // Preprocessing has not been done yet
+        if (matrices.last().total == 0) {
+            lagValues.forEach { it.value.sort() }
             for (i in 0 until matrices.size - 1) matrices[matrices.size-1].addMatrix(matrices[i])
+        }
 
-            matrices.forEach {
-                out.write(it.toString())
-                out.write("Normalised:\n")
-                out.write(it.normalizeMatrix().toString())
-            }
+        File("data/aggregations/${name}/").mkdirs()
 
-            out.write("Average lag:\n")
-            out.write("${totalLag.header()}\n")
-            out.write("${totalLag.averaged(lagCounter)}\n\n")
+        BufferedWriter(FileWriter("data/aggregations/${name}/matrix_raw_summary.csv")).use {out ->
+            out.write("Raw Values," + Update.values().joinToString(",") + ",Total\n")
+            UpdateMatrix.matrixLabels.forEachIndexed { index, it -> out.write(it + "," + matrices[index].collapseColsToString() + "\n") }
+        }
 
-            out.write("\nDependencies missing at end: \n${depsMissingAtEnd.toSortedMap()}\n")
+        BufferedWriter(FileWriter("data/aggregations/${name}/matrix_normal_summary.csv")).use {out ->
+            out.write("Normalised (Each row sums to 1)," + Update.values().joinToString(",") + ",Total\n")
+            UpdateMatrix.matrixLabels.forEachIndexed { index, it -> out.write(it + "," + matrices[index].collapseColsToStringNormalised() + "\n") }
+        }
+
+        BufferedWriter(FileWriter("data/aggregations/${name}/descriptive_stats.csv")).use {out ->
+            out.write("," + descriptiveStatsHeader() + ",Avg\n" +
+                    "MAJOR,${descriptiveStats(lagValues["major"])},%.4f\n".format(totalLag.major.toDouble() / lagCounter) +
+                    "MAJOR TIME,${descriptiveStats(lagValues["majorTime"])},%.4f\n".format(totalLag.majorTime.toDouble() / lagCounter) +
+                    "MINOR,${descriptiveStats(lagValues["minor"])},%.4f\n".format(totalLag.minor.toDouble() / lagCounter) +
+                    "MINOR TIME,${descriptiveStats(lagValues["minorTime"])},%.4f\n".format(totalLag.minorTime.toDouble() / lagCounter) +
+                    "MICRO,${descriptiveStats(lagValues["micro"])},%.4f\n".format(totalLag.micro.toDouble() / lagCounter) +
+                    "MICRO TIME,${descriptiveStats(lagValues["microTime"])},%.4f\n".format(totalLag.microTime.toDouble() / lagCounter)
+            )
+        }
+
+        BufferedWriter(FileWriter("data/aggregations/${name}/miscellaneous.csv")).use {out ->
+            out.write("Dependencies missing at end: \n${depsMissingAtEnd.toSortedMap()}\n")
             out.write("\nDependencies missing in the middle: \n${depsMissingInMiddle.toSortedMap()}\n")
             out.write("\nTypes of changes found at least once in the pair history: \n${ge1Update.toSortedMap()}\n")
             out.write("\nPairs without any change objects at all (i.e. they did not have two contiguous versions with a dependency to B): $projectsWithoutChangeObjects\n")
             out.write("\nTotal pairs considered: $projectCounter")
         }
 
+        BufferedWriter(FileWriter("data/aggregations/${name}/matrices_detailed.csv")).use {out ->
+            // Matrix details
+            matrices.forEach {
+                out.write(it.toString())
+            }
+
+            matrices.forEach {
+                out.write("Normalised:\n")
+                out.write(it.normalizeMatrix().toString())
+            }
+        }
+
         if (pairStats.size > 0)
-            BufferedWriter(FileWriter("data/aggregations/${name}_individualProjectStats.csv")).use {out ->
+            BufferedWriter(FileWriter("data/aggregations/${name}/ProjectStats.csv")).use {out ->
                 pairStats.forEach { out.write(it); out.write("\n") }
             }
 
