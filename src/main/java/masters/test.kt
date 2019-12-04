@@ -8,7 +8,8 @@ import java.io.*
  */
 
 fun main(args: Array<String>) {
-    getSubcomponentInfo()
+    //getSubcomponentInfo()
+    mutableListOf<Int>().last()
 }
 
 fun getSubcomponentInfo() {

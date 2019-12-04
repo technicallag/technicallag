@@ -1,12 +1,12 @@
 Dependencies missing at end: 
-{0=40, 1=4, 6=2, 8=2, 10=1, 13=1, 20=1, 25=1, 45=1, 47=1, 50=1, 61=1, 63=1}
+{0=48, 1=4, 6=2, 8=2, 10=1, 11=1, 13=1, 20=1, 24=1, 25=1, 45=1, 47=1, 50=1, 61=1, 63=1}
 
 Dependencies missing in the middle: 
-{0=48, 1=4, 2=3, 3=1, 6=1}
+{0=57, 1=4, 2=3, 3=1, 6=1, 11=1}
 
 Types of changes found at least once in the pair history: 
-{FORWARDS_MAJOR=10, FORWARDS_MINOR=19, FORWARDS_MICRO=22, NO_CHANGE=53}
+{FORWARDS_MAJOR=10, FORWARDS_MINOR=19, FORWARDS_MICRO=31, NO_CHANGE=62}
 
 Pairs without any change objects at all (i.e. they did not have two contiguous versions with a dependency to B): 3
 
-Total pairs considered: 57
+Total pairs considered: 67

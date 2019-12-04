@@ -265,10 +265,32 @@ data class PairStatistics(val pair: PairWithData, val pm: PairCollector.PackageM
             }
         }
 
-        // Investigate numbers for lags over 30 years old!
-        if (lagValues["majorTime"]!!.last() > 10000 || lagValues["minorTime"]!!.last() > 10000 || lagValues["microTime"]!!.last() > 10000) {
-            this.printToFile("data/long_time_lags/${pm}_${pair.pairIDs.projectID}_${pair.pairIDs.dependencyID}.csv")
+        // There should always be some lag - this should be what is causing the next section to trip up
+        if (quantityOfLag.size == 0) {
+            Logging.getLogger("").warn(pair.toString() + " has no recorded lag information")
+            this.printToFile("data/pairwiseResults/no_lag_pairs/${pm}_${pair.pairIDs.projectID}_${pair.pairIDs.dependencyID}.csv")
+            return
         }
+
+        // Investigate numbers for lags over 30 years old! Ugly hacking code :(
+        try {
+            if (lagValues["majorTime"]?.last() ?: 0 > 10000) {
+                this.printToFile("data/long_time_lags/${pm}_${pair.pairIDs.projectID}_${pair.pairIDs.dependencyID}.csv")
+                return
+            }
+        } catch (e: NoSuchElementException) { e.printStackTrace() }
+        try {
+            if (lagValues["minorTime"]?.last() ?: 0 > 10000) {
+                this.printToFile("data/long_time_lags/${pm}_${pair.pairIDs.projectID}_${pair.pairIDs.dependencyID}.csv")
+                return
+            }
+        } catch (e: NoSuchElementException) { e.printStackTrace() }
+        try {
+            if (lagValues["microTime"]?.last() ?: 0 > 10000) {
+                this.printToFile("data/long_time_lags/${pm}_${pair.pairIDs.projectID}_${pair.pairIDs.dependencyID}.csv")
+                return
+            }
+        } catch (e: NoSuchElementException) { e.printStackTrace() }
     }
 
     fun printToFile(filepath: String) {
@@ -353,9 +375,7 @@ class ProcessPair {
             try {
                 pair.aVersions.sortBy { it.version }
             } catch(e: IllegalArgumentException) {
-                e.printStackTrace()
-                println(pair.pairIDs.toString() + " has an issue with the comparator not being transitive")
-                pair.aVersions.forEach { println(it) }
+                Logging.getLogger("").error(pair.pairIDs.toString() + " has an issue with the comparator not being transitive - ProcessPair.classifyPair")
                 return stats
             }
 

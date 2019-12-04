@@ -229,10 +229,15 @@ public class PairCollector {
         if (!Database.isProjectInDB(pair.dependencyID))
             return Status.NOT_IN_DATASET
 
+        // Check the first half of the project and dependency names to see if they match. 4 chars min, or else they have to be exact matches
+        // (yes there are exact matches in ids as well as names)
         val firsthalf = min(proj.length / 2, dep.length / 2)
-        if (proj.substring(firsthalf) == dep.substring(firsthalf))
+        if (firsthalf > 3 && proj.substring(0, firsthalf) == dep.substring(0, firsthalf)
+                || proj == dep
+                || pair.dependencyID == pair.projectID)
             return Status.SUBCOMPONENT
 
+        // Default is that we include the pair
         return Status.INCLUDED
     }
 
