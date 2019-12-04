@@ -30,7 +30,8 @@ class Aggregator(val name: String) {
             "micro" to mutableListOf<Long>(),
             "microTime" to mutableListOf<Long>())
 
-    val pairStats = mutableListOf<String>()
+    val aggregatorTotals = mutableMapOf<String, String>()
+    //val pairStats = mutableListOf<String>()
 
     fun addStatistics(stats: PairStatistics) {
         projectCounter++
@@ -50,8 +51,8 @@ class Aggregator(val name: String) {
         depsMissingInMiddle[missingDeps] = depsMissingInMiddle.getOrDefault(missingDeps, 0) + 1
         projectsWithoutChangeObjects += if (stats.classifyUpdates.size == 0) 1 else 0
 
-        if (pairStats.size == 0) pairStats.add(stats.header())
-        pairStats.add(stats.toString())
+        //if (pairStats.size == 0) pairStats.add(stats.header())
+        //pairStats.add(stats.toString())
     }
 
     // Note pairStats are not added when combining aggregators currently (performance concerns)
@@ -80,6 +81,8 @@ class Aggregator(val name: String) {
         matrices.forEachIndexed { index, updateMatrix -> if (index == matrices.size - 1) return@forEachIndexed
             updateMatrix.addMatrix(other.matrices[index])
         }
+
+        aggregatorTotals[other.name] = other.matrices.last().collapseColsToStringNormalised()
     }
 
     fun printAggregator() {
@@ -132,10 +135,18 @@ class Aggregator(val name: String) {
             }
         }
 
-        if (pairStats.size > 0)
-            BufferedWriter(FileWriter("data/aggregations/${name}/ProjectStats.csv")).use {out ->
-                pairStats.forEach { out.write(it); out.write("\n") }
+        // For the summary aggregator, it prints the average values by
+        if (aggregatorTotals.size > 0) {
+            BufferedWriter(FileWriter("data/aggregations/${name}/matrices_aggregation_summary.csv")).use {out ->
+                out.write("PM," + Update.values().joinToString { "," } + ",Totals\n")
+                aggregatorTotals.forEach { out.write("${it.key},${it.value}\n") }
             }
+        }
+
+//        if (pairStats.size > 0)
+//            BufferedWriter(FileWriter("data/aggregations/${name}/ProjectStats.csv")).use {out ->
+//                pairStats.forEach { out.write(it); out.write("\n") }
+//            }
 
         Logging.getLogger("").info("$name aggregator has been printed")
     }

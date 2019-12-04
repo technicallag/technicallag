@@ -109,15 +109,15 @@ public class Database {
         }
     }
 
-    public static PairCollector.Status isProjectInDB(int id) {
+    public static boolean isProjectInDB(int id) {
         try {
             Connection c = CONNECTIONS.take();
             PreparedStatement stmt = c.prepareStatement("SELECT name FROM projects WHERE id=?");
             stmt.setString(1, Integer.toString(id));
             ResultSet rs = stmt.executeQuery();
 
-            PairCollector.Status result = PairCollector.Status.INCLUDED;
-            if (!rs.next()) result = PairCollector.Status.NOT_IN_DATASET;
+            boolean result = true;
+            if (!rs.next()) result = false;
 
             rs.close();
             stmt.close();
@@ -128,7 +128,7 @@ public class Database {
 
         catch(SQLException | InterruptedException e) {
             Logging.getLogger("").error(e);
-            return PairCollector.Status.NOT_IN_DATASET;
+            return false;
         }
     }
 

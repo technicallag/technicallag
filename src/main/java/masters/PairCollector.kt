@@ -5,6 +5,7 @@ import masters.utils.Database;
 import masters.utils.Logging;
 import masters.libiostudy.VersionCategoryWrapper;
 import java.io.*
+import java.lang.Integer.min
 import java.math.BigInteger
 
 import java.sql.SQLException;
@@ -59,9 +60,9 @@ public class PairCollector {
 
     public enum class Status : Serializable {
         INCLUDED,
-        SUBCOMPONENT,
         VERSIONS_NON_SEMVER,
         FLEXIBLE,
+        SUBCOMPONENT,
         NOT_IN_DATASET
     }
 
@@ -113,23 +114,25 @@ public class PairCollector {
         val pairs = HashMap<PairIDs, Status>()
         val semverCheck = mutableListOf<SemverViolations>()
 
-        Database.runQueryNoLogs("SELECT projectid, versionnumber, dependencyprojectid, dependencyrequirements FROM dependencies WHERE platform = ?;", pm.nameInDB).use {rs ->
+        Database.runQueryNoLogs("SELECT projectid, versionnumber, dependencyprojectid, dependencyrequirements, projectname, dependencyname FROM dependencies WHERE platform = ?;", pm.nameInDB).use {rs ->
             try {
                 while(rs.next()) {
                     val projVers = rs.getString("versionnumber")
                     val vers = rs.getString("dependencyrequirements")
                     val projID = rs.getInt("projectid")
                     val depID = rs.getInt("dependencyprojectid")
+                    val projectname = rs.getString("projectname")
+                    val dependencyname = rs.getString("dependencyname")
 
                     val pair = PairIDs(projID, depID)
-                    var status = pairs.getOrDefault(pair, Database.isProjectInDB(pair.dependencyID))
+                    var status = pairs.getOrDefault(pair, initialPairTest(pair, projectname, dependencyname))
                     if (status < Status.FLEXIBLE) {
                         if (flagVersionRanges(pm, vers) == Status.FLEXIBLE) status = Status.FLEXIBLE
-                        else if (violatesSemver(projVers) || violatesSemver(vers))  {
+
+                        else if (status == Status.INCLUDED && (violatesSemver(projVers) || violatesSemver(vers)))  {
                             status = Status.VERSIONS_NON_SEMVER
                             semverCheck.add(SemverViolations(projVers, violatesSemver(projVers), vers, violatesSemver(vers)))
                         }
-                        else if (projVers == vers) status = Status.SUBCOMPONENT
                     }
 
                     pairs[pair] = status
@@ -154,12 +157,18 @@ public class PairCollector {
         // Store the project pairs, both filtered and unfiltered
         BufferedWriter(FileWriter("data/pairs/$pm.csv")).use { included ->
             included.write("Project, Dependency\n")
-            BufferedWriter(FileWriter("data/pairs/${pm}_ALL.csv")).use {all ->
-                all.write("Project, Dependency, Status\n")
-                pairs.forEach { entry ->
-                    if (entry.value == Status.INCLUDED) included.write("${entry.key.projectID},${entry.key.dependencyID}\n")
-                    all.write("${entry.key.projectID},${entry.key.dependencyID},${entry.value}\n")
-                }
+            pairs.forEach { entry ->
+                if (entry.value == Status.INCLUDED)
+                    included.write("${entry.key.projectID},${entry.key.dependencyID}\n")
+            }
+        }
+
+        // Store subcomponent information (discard remainder)
+        BufferedWriter(FileWriter("data/pairs/${pm}_subcomponents.csv")).use { out ->
+            out.write("Project, Dependency, ProjName, DepName\n")
+            pairs.forEach { entry ->
+                if (entry.value == Status.SUBCOMPONENT)
+                    out.write("${entry.key.projectID},${entry.key.dependencyID},${Database.getProjectName(entry.key.projectID)},${Database.getProjectName(entry.key.dependencyID)}\n")
             }
         }
 
@@ -214,6 +223,17 @@ public class PairCollector {
         for (token in v.versionTokens)
             if (token > BigInteger.valueOf(10000)) return true
         return Version.create(version).versionTokens.size < 1
+    }
+
+    private fun initialPairTest(pair: PairIDs, proj: String, dep: String) : Status {
+        if (!Database.isProjectInDB(pair.dependencyID))
+            return Status.NOT_IN_DATASET
+
+        val firsthalf = min(proj.length / 2, dep.length / 2)
+        if (proj.substring(firsthalf) == dep.substring(firsthalf))
+            return Status.SUBCOMPONENT
+
+        return Status.INCLUDED
     }
 
 }

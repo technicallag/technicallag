@@ -70,20 +70,20 @@ public class Main {
 
         if (ps.hasBackwardsChanges() && backwardsPrinted++ < 17) print(ps, "data/pairwiseResults/backwards");
 
-        // Deps missing at end
-        Random rand = new Random();
-        boolean MVN_NPM = pm == PairCollector.PackageManager.NPM || pm == PairCollector.PackageManager.MAVEN;
-        if (ps.getMissingDepsAtEnd() > 0) {
-            if(rand.nextInt(20) == 1 && (ps.getMissingDepsAtEnd() < 2 || rand.nextInt(10) == 1) && (!MVN_NPM || rand.nextInt(20) == 1)) {
-                String folder;
-                switch(ps.getMissingDepsAtEnd()) {
-                    case 1: folder = "1"; break;
-                    case 2: folder = "2"; break;
-                    default: folder = "3+"; break;
-                }
-                print(ps, String.format("data/deps_missing_at_end/%s", folder));
-            }
-        }
+//        // Deps missing at end
+//        Random rand = new Random();
+//        boolean MVN_NPM = pm == PairCollector.PackageManager.NPM || pm == PairCollector.PackageManager.MAVEN;
+//        if (ps.getMissingDepsAtEnd() > 0) {
+//            if(rand.nextInt(20) == 1 && (ps.getMissingDepsAtEnd() < 2 || rand.nextInt(10) == 1) && (!MVN_NPM || rand.nextInt(20) == 1)) {
+//                String folder;
+//                switch(ps.getMissingDepsAtEnd()) {
+//                    case 1: folder = "1"; break;
+//                    case 2: folder = "2"; break;
+//                    default: folder = "3+"; break;
+//                }
+//                print(ps, String.format("data/deps_missing_at_end/%s", folder));
+//            }
+//        }
 
         // Turn on for general printing
 //        Random rand = new Random();
