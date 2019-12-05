@@ -1,13 +1,14 @@
 package masters.utils
 
 import kotlin.math.ceil
+import kotlin.math.sqrt
 
 /**
  * Created by Jacob Stringer on 3/12/2019.
  */
 
 fun descriptiveStatsHeader() : String {
-    return "0%,10%,25%,50%,75%,90%,95%,99%,100%"
+    return "AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%"
 }
 
 // Expects sorted list
@@ -22,7 +23,20 @@ fun descriptiveStats(numbers: MutableList<Long>?) : String {
     val ninetyfifth = getIndex(numbers.size, 95)
     val ninetyninth = getIndex(numbers.size, 99)
 
-    return "${numbers[0]},${numbers[tenth]},${numbers[twentyfifth]},${numbers[median]},${numbers[seventyfifth]},${numbers[ninetieth]},${numbers[ninetyfifth]},${numbers[ninetyninth]},${numbers.last()}"
+    return "%.4f,%.4f,".format(numbers.average(), stddev(numbers)) +
+            "${numbers[0]},${numbers[tenth]},${numbers[twentyfifth]},${numbers[median]},${numbers[seventyfifth]},${numbers[ninetieth]},${numbers[ninetyfifth]},${numbers[ninetyninth]},${numbers.last()}"
+}
+
+fun stddev(numbers: MutableList<Long>) : Double {
+    var sumsquare = 0.0
+
+    val mean = numbers.average()
+
+    numbers.forEach {
+        sumsquare += (it - mean) * (it - mean)
+    }
+
+    return sqrt(sumsquare / numbers.size)
 }
 
 // percentile in range [1,100]

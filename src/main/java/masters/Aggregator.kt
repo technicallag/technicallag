@@ -105,13 +105,13 @@ class Aggregator(val name: String) {
         }
 
         BufferedWriter(FileWriter("data/aggregations/${name}/descriptive_stats.csv")).use {out ->
-            out.write("," + descriptiveStatsHeader() + ",Avg\n" +
-                    "MAJOR,${descriptiveStats(lagValues["major"])},%.4f\n".format(totalLag.major.toDouble() / lagCounter) +
-                    "MAJOR TIME,${descriptiveStats(lagValues["majorTime"])},%.4f\n".format(totalLag.majorTime.toDouble() / lagCounter) +
-                    "MINOR,${descriptiveStats(lagValues["minor"])},%.4f\n".format(totalLag.minor.toDouble() / lagCounter) +
-                    "MINOR TIME,${descriptiveStats(lagValues["minorTime"])},%.4f\n".format(totalLag.minorTime.toDouble() / lagCounter) +
-                    "MICRO,${descriptiveStats(lagValues["micro"])},%.4f\n".format(totalLag.micro.toDouble() / lagCounter) +
-                    "MICRO TIME,${descriptiveStats(lagValues["microTime"])},%.4f\n".format(totalLag.microTime.toDouble() / lagCounter)
+            out.write("," + descriptiveStatsHeader() + "\n" +
+                    "MAJOR,${descriptiveStats(lagValues["major"])}\n" +
+                    "MAJOR TIME,${descriptiveStats(lagValues["majorTime"])}\n" +
+                    "MINOR,${descriptiveStats(lagValues["minor"])}\n" +
+                    "MINOR TIME,${descriptiveStats(lagValues["minorTime"])}\n" +
+                    "MICRO,${descriptiveStats(lagValues["micro"])}\n" +
+                    "MICRO TIME,${descriptiveStats(lagValues["microTime"])}\n"
             )
         }
 
