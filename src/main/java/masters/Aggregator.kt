@@ -138,7 +138,7 @@ class Aggregator(val name: String) {
         // For the summary aggregator, it prints the average values by
         if (aggregatorTotals.size > 0) {
             BufferedWriter(FileWriter("data/aggregations/${name}/matrices_aggregation_summary.csv")).use {out ->
-                out.write("PM," + Update.values().joinToString { "," } + ",Totals\n")
+                out.write("PM," + Update.values().joinToString (",") + ",Totals\n")
                 aggregatorTotals.forEach { out.write("${it.key},${it.value}\n") }
             }
         }
