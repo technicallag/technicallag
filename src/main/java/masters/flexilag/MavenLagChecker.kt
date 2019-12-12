@@ -12,7 +12,7 @@ class MavenLagChecker: LagChecker {
         val versionNumber = Pattern.compile("\\d+(\\.\\d+){0,2}")
     }
 
-    override fun matches(version: String?, classification: String?, declaration: String?): MatcherResult {
+    override fun matches(version: Version?, classification: String?, declaration: String?): MatcherResult {
         version ?: return MatcherResult.NOT_SUPPORTED
         classification ?: return MatcherResult.NOT_SUPPORTED
         declaration ?: return MatcherResult.NOT_SUPPORTED
@@ -22,16 +22,14 @@ class MavenLagChecker: LagChecker {
             "latest" -> MatcherResult.MATCH
             "at-most" -> atMost(version, declaration)
             "at-least" -> atLeast(version, declaration)
-            "var-major" -> major(version, declaration)
             "var-minor" -> minor(version, declaration)
             "var-micro" -> micro(version, declaration)
             else -> MatcherResult.NOT_SUPPORTED
         }
     }
 
-    fun fixed(version: String, declaration: String): MatcherResult {
+    fun fixed(curVersion: Version, declaration: String): MatcherResult {
         val decVersion = Version.create(declaration)
-        val curVersion = Version.create(version)
 
         return when {
             decVersion.equals(curVersion) -> MatcherResult.MATCH
@@ -39,11 +37,11 @@ class MavenLagChecker: LagChecker {
         }
     }
 
-    fun atMost(version: String, declaration: String): MatcherResult {
+    // (,version] style
+    fun atMost(curVersion: Version, declaration: String): MatcherResult {
         val matcher = versionNumber.matcher(declaration)
         if (matcher.find()) {
             val maxVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-            val curVersion = Version.create(version)
 
             val compared = curVersion.compareTo(maxVersion)
             return when {
@@ -57,11 +55,13 @@ class MavenLagChecker: LagChecker {
         return MatcherResult.NOT_SUPPORTED
     }
 
-    fun atLeast(version: String, declaration: String): MatcherResult {
+    // Main logic for [version,] style. 1+ style goes to major()
+    fun atLeast(curVersion: Version, declaration: String): MatcherResult {
+        if (declaration.contains("+")) return major(curVersion, declaration)
+
         val matcher = versionNumber.matcher(declaration)
         if (matcher.find()) {
             val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-            val curVersion = Version.create(version)
 
             val compared = curVersion.compareTo(minVersion)
             return when {
@@ -75,11 +75,11 @@ class MavenLagChecker: LagChecker {
         return MatcherResult.NOT_SUPPORTED
     }
 
-    fun major(version: String, declaration: String): MatcherResult {
+    // 1+ style
+    fun major(curVersion: Version, declaration: String): MatcherResult {
         val matcher = versionNumber.matcher(declaration)
         if (matcher.find()) {
             val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-            val curVersion = Version.create(version)
 
             val compared = curVersion.compareTo(minVersion)
             return when {
@@ -91,11 +91,11 @@ class MavenLagChecker: LagChecker {
         return MatcherResult.NOT_SUPPORTED
     }
 
-    fun minor(version: String, declaration: String): MatcherResult {
+    // 1.+ or 1.2+ style
+    fun minor(curVersion: Version, declaration: String): MatcherResult {
         val matcher = versionNumber.matcher(declaration)
         if (matcher.find()) {
             val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-            val curVersion = Version.create(version)
 
             val compared = curVersion.compareTo(minVersion)
             val sameMajor = curVersion.sameMajor(minVersion)
@@ -108,11 +108,11 @@ class MavenLagChecker: LagChecker {
         return MatcherResult.NOT_SUPPORTED
     }
 
-    fun micro(version: String, declaration: String): MatcherResult {
+    // 1.1.+ or 1.2.1+ style
+    fun micro(curVersion: Version, declaration: String): MatcherResult {
         val matcher = versionNumber.matcher(declaration)
         if (matcher.find()) {
             val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-            val curVersion = Version.create(version)
 
             val compared = curVersion.compareTo(minVersion)
             val sameMinor = curVersion.sameMinor(minVersion)

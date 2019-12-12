@@ -21,25 +21,39 @@ public class Main {
     public static void main(String[] args) {
         Logger log = Logging.getLogger("New memory model working - saving new files each time");
         Main main = new Main(log);
+        //main.getAllLag();
         main.aggregateData();
         main.savePrintedHistory();
         Database.closeConnections();
     }
 
+    private void getAllLag() {
+        PairCollector pairCollector = new PairCollector();
+
+        for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
+            List<PairIDs> fixed = pairCollector.getPairs(pm, PairCollector.Status.INCLUDED);
+            List<PairIDs> flexible = pairCollector.getPairs(pm, PairCollector.Status.FLEXIBLE);
+
+
+        }
+
+    }
+
     private void aggregateData() {
-        Map<PairCollector.PackageManager, List<PairIDs>> pairsByPM = new PairCollector().getAvailablePairs();
+        PairCollector pairCollector = new PairCollector();
         Aggregator allData = new Aggregator("ALL");
         Aggregator allLargePairs = new Aggregator("ALL_LARGE_PAIRS");
 
         for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
+            List<PairIDs> pairsByPM = pairCollector.getPairs(pm, PairCollector.Status.INCLUDED);
             //if (pm == PairCollector.PackageManager.MAVEN || pm == PairCollector.PackageManager.NPM) continue;
 
             log.info("Aggregating data for " + pm.toString());
             Aggregator aggregator = new Aggregator(pm.toString());
             Aggregator largeVersionHistoryAggregator = new Aggregator(pm.toString() + "_A10PLUS_B10PLUS");
 
-            for (PairIDs pairID: pairsByPM.get(pm)) {
-                PairWithData data = CollectDataForPair.collectData(pairID);
+            for (PairIDs pairID: pairsByPM) {
+                PairFullDataFixed data = CollectDataForPair.collectDataForFixedAnalysis(pairID);
                 if (data.getAVersions().size() == 0) continue;
 
                 PairStatistics ps = ProcessPair.classifyPair(data, pm);

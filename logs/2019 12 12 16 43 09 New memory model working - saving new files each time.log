@@ -1,0 +1,113 @@
+INFO - Beginning pair data processing for CPAN
+INFO - Parsing rules for: Atom
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\Atom.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "^(\s*\^[v\s]*[1-9]\d*(\.[xX\*\d]+){0,2}|[=v\s]*\d+.[xX\*]+(\.[xX\*\d]+)?|[=v\s\~]*\d+([xX\*\.]+)?)(-.*)?$" then classify "var-minor" // def. in line 24
+DEBUG - 	adding: Rule: if matches "^(\s*~[v\s]*\d+\.\d+(\.[xX\*\d]+)?|[=v~\s]*\d+\.\d+(\.[xX\*])?|\^[v\s]*0(\.[xX\*\d]+){0,2})(-.*)?$" then classify "var-micro" // def. in line 38
+DEBUG - 	adding: Rule: if matches "^[=v\s]*\d+\.\d+\.\d+(-.*)?$" then classify "fixed" // def. in line 46
+DEBUG - 	adding: Rule: if matches "^[=v\s]*[\*xX](\.[\dxX\*]+){0,2}(-.*)?$" then classify "any" // def. in line 53
+DEBUG - 	adding: Rule: if matches ".+\|\|.+" then classify "other" // def. in line 59
+DEBUG - 	adding: Rule: if matches "^\s*>=?[v\s]*[\dxX\*]+(\.[\dxX\*]+){0,2}(-.*)?$" then classify "at-least" // def. in line 66
+DEBUG - 	adding: Rule: if matches "^\s*<=?[v\s]*[\dxX\*]+(\.[\dxX\*]+){0,2}(-.*)?$" then classify "at-most" // def. in line 73
+DEBUG - 	adding: Rule: if matches "^\s*>[=v\s]*[^<]*<.*$" then classify "range" // def. in line 79
+DEBUG - 	adding: Rule: if matches "^[=v\s]*[xX\*\d]+(\.[xX\*\d]+){0,2}(-[\.\w]+)?\s+-\s+[=v\s]*[xX\*\d]+(\.[xX\*\d]+){0,2}(-.*)?$" then classify "range" // def. in line 86
+DEBUG - 	adding: Rule: if matches "^\s*<[^>]+>.*$" then classify "not" // def. in line 92
+DEBUG - 	adding: Rule: if matches "^\s*(?i:latest)\s*$" then classify "latest" // def. in line 99
+DEBUG - 	adding: Rule: if matches "^\s*(git(hub|\+(https?|ssh))?:(//)?|https?://|file:).*$" then classify "other" // def. in line 111
+INFO - Parsing rules for: CPAN
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\CPAN.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "0" then classify "any" // def. in line 25
+DEBUG - 	adding: Rule: if matches "\s*(\w+|\.)+\s*" then classify "at-least" // def. in line 31
+DEBUG - 	adding: Rule: if matches "\s*\=\=\s*(\w+|\.)+\s*" then classify "fixed" // def. in line 36
+DEBUG - 	adding: Rule: if matches "\s*\<\=?\s*(\w+|\.)+\s*" then classify "at-most" // def. in line 42
+DEBUG - 	adding: Rule: if matches "(,?\s*\!\=\s*(\w+|\.)+\s*)+" then classify "not" // def. in line 48
+DEBUG - 	adding: Rule: if matches "\s*\>\=?\s*(\w+|\.)+\s*" then classify "at-least" // def. in line 54
+DEBUG - 	adding: Rule: if matches "\s*\>\=?\s*(\w+|\.)+\s*,\s*\<\=?\s*(\w+|\.)+\s*" then classify "range" // def. in line 59
+DEBUG - 	adding: Rule: if matches "\s*(\!\=|\<\=?|\>\=?|\=\=)?\s*(\w+|\.)+\s*(\s*,\s*(\!\=|\<\=?|\>\=?|\=\=)?\s*(\w+|\.)+\s*)+" then classify "other" // def. in line 64
+INFO - Parsing rules for: CRAN
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\CRAN.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches ">=\s*\d+(\.\d+)*" then classify "at-least" // def. in line 43
+DEBUG - 	adding: Rule: if matches ">\s*\d+(\.\d+)*" then classify "at-least" // def. in line 49
+DEBUG - 	adding: Rule: if matches "<=\s*\d+(\.\d+)*" then classify "at-most" // def. in line 56
+DEBUG - 	adding: Rule: if matches "<\s*\d+(\.\d+)*" then classify "at-most" // def. in line 62
+DEBUG - 	adding: Rule: if matches "==\s*\d+(\.\d+)*" then classify "fixed" // def. in line 69
+DEBUG - 	adding: Rule: if matches "\*" then classify "any" // def. in line 74
+INFO - Parsing rules for: Cargo
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\Cargo.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "0.0.\d+(-(\w|.)*)?" then classify "fixed" // def. in line 25
+DEBUG - 	adding: Rule: if matches "0.[1-9]\d*(.\d+)?(-(\w|.)*)?" then classify "var-micro" // def. in line 34
+DEBUG - 	adding: Rule: if matches "0.0" then classify "var-micro" // def. in line 38
+DEBUG - 	adding: Rule: if matches "[1-9]\d*(.\d+)*(-(\w|.)*)?" then classify "var-minor" // def. in line 48
+DEBUG - 	adding: Rule: if matches "0" then classify "var-minor" // def. in line 52
+DEBUG - 	adding: Rule: if matches "\^0.0.\d+(-(\w|.)*)?" then classify "fixed" // def. in line 63
+DEBUG - 	adding: Rule: if matches "\^0.[1-9]\d*(.\d+)?(-(\w|.)*)?" then classify "var-micro" // def. in line 73
+DEBUG - 	adding: Rule: if matches "\^0.0" then classify "var-micro" // def. in line 77
+DEBUG - 	adding: Rule: if matches "\^[1-9]\d*(.\d+)*(-(\w|.)*)?" then classify "var-minor" // def. in line 89
+DEBUG - 	adding: Rule: if matches "\^0" then classify "var-minor" // def. in line 93
+DEBUG - 	adding: Rule: if matches "~\d+.\d+(.\d+)?(-(\w|.)*)?" then classify "var-micro" // def. in line 104
+DEBUG - 	adding: Rule: if matches "~\d+(-(\w|.)*)?" then classify "var-minor" // def. in line 108
+DEBUG - 	adding: Rule: if matches "=(\s)*(\w|\.|-)+" then classify "fixed" // def. in line 122
+DEBUG - 	adding: Rule: if matches "(<=|<)(\s)*(\w|\.|-)+" then classify "at-most" // def. in line 140
+DEBUG - 	adding: Rule: if matches "(>=|>)(\s)*(\w|\.|-)+" then classify "at-least" // def. in line 154
+DEBUG - 	adding: Rule: if matches "(>=|>)(\s)*(\w|\.|-)+(\s)*(,)(\s)*(<=|<)(\s)*(\w|\.|-)+" then classify "range" // def. in line 170
+DEBUG - 	adding: Rule: if matches "(<|<=)(\s)*(\w|\.|-)+(\s)*(,)(\s)*(>=|>)(\s)*(\w|\.|-)+" then classify "range" // def. in line 174
+DEBUG - 	adding: Rule: if matches "\^(\w|\.|-)+, (<=|<|>|>=)(\s)*(\w|\.|-)+" then classify "range" // def. in line 179
+DEBUG - 	adding: Rule: if matches "\d+\.\*(\w|\.|-|\*)*" then classify "var-minor" // def. in line 189
+DEBUG - 	adding: Rule: if matches "\d+\.\d+\.\*(\w|\.|-)*" then classify "var-micro" // def. in line 197
+DEBUG - 	adding: Rule: if matches "(\w|\s|\.|\^|>|>=|\*)+,\s*(\w|\s|\^|\.|,|>|>=|\*|~)+" then classify "other" // def. in line 202
+DEBUG - 	adding: Rule: if matches "\*" then classify "any" // def. in line 207
+INFO - Parsing rules for: Dub
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\Dub.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "((\>\=)|(\>))((\d.+|\d))\s((\<\=)|(\<))((\d.+|\d))" then classify "range" // def. in line 16
+DEBUG - 	adding: Rule: if matches "((==)\s*((\d.+)|\d))|(((\d.+)|\d))" then classify "fixed" // def. in line 29
+DEBUG - 	adding: Rule: if matches "(~>)\s*((\d.\d\d)|(\d.\d)|(\d.\d\D+)|(\d))" then classify "var-minor" // def. in line 37
+DEBUG - 	adding: Rule: if matches "(~>)((\s\d.+\d.+\d+)|(\d.+\d+.\d+)(\w|\.|-|\+)*)" then classify "var-micro" // def. in line 45
+DEBUG - 	adding: Rule: if matches "((>)|(>=))\s*(\d.+|\d)" then classify "at-least" // def. in line 57
+DEBUG - 	adding: Rule: if matches "((<=)|<)\s*((\d.+)|(\d))" then classify "at-most" // def. in line 69
+DEBUG - 	adding: Rule: if matches "\*" then classify "any" // def. in line 75
+DEBUG - 	adding: Rule: if matches "\~(\w.+|\d.)*" then classify "other" // def. in line 84
+INFO - Parsing rules for: Elm
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\Elm.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "(\w|\.)+(\s)*(<|<=)(\s)*v(\s)*(<|<=)(\s)*(\w|\.)+" then classify "range" // def. in line 24
+INFO - Parsing rules for: Haxelib
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\Haxelib.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "\w(\w|\.|-)*" then classify "fixed" // def. in line 20
+DEBUG - 	adding: Rule: if matches "\*" then classify "any" // def. in line 25
+INFO - Parsing rules for: Hex
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\Hex.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "\d+.\d+(\w|\.|-|\+)*" then classify "fixed" // def. in line 24
+DEBUG - 	adding: Rule: if matches "==\s*(\w|\.|-|\+)+" then classify "fixed" // def. in line 32
+DEBUG - 	adding: Rule: if matches ">\s*(\w|\.|-|\+)+" then classify "at-least" // def. in line 40
+DEBUG - 	adding: Rule: if matches ">=\s*(\w|\.|-|\+)+" then classify "at-least" // def. in line 48
+DEBUG - 	adding: Rule: if matches "<\s*(\w|\.|-|\+)+" then classify "at-most" // def. in line 56
+DEBUG - 	adding: Rule: if matches "<=\s*(\w|\.|-|\+)+" then classify "at-most" // def. in line 64
+DEBUG - 	adding: Rule: if matches ">=?\s*(\w|\.|-|\+)+\s+and\s+<=?\s*(\w|\.|-|\+)+" then classify "range" // def. in line 72
+DEBUG - 	adding: Rule: if matches "\s?~>\s*\d+.\d+(-(\w|\.|-|\+)+)?" then classify "var-minor" // def. in line 81
+DEBUG - 	adding: Rule: if matches "\s?~>\s*\d+.\d+.\d+(-(\w|\.|-|\+)+)?" then classify "var-micro" // def. in line 92
+DEBUG - 	adding: Rule: if matches "~>\s*(\w|\.|-|\+)*(\s+or\s+~>\s+(\w|\.|-|\+)*)+" then classify "other" // def. in line 103
+DEBUG - 	adding: Rule: if matches "((>=?)|(<=?))\s+\d+.\d+.\d+(-(\w|.)+)?\s+and\s+~>\s+\d+.\d+.\d+(-(\w|.)+)?" then classify "var-micro" // def. in line 109
+DEBUG - 	adding: Rule: if matches "~>\s+\d+.\d+.\d+(-(\w|.)+)?\s+and\s+((>=?)|(<=?))\s+\d+.\d+.\d+(-(\w|.)+)?" then classify "var-micro" // def. in line 115
+DEBUG - 	adding: Rule: if matches "((>=?)|(<=?))\s+\d+.\d+(-(\w|.)+)?\s+and\s+~>\s+\d+.\d+(-(\w|.)+)?" then classify "var-minor" // def. in line 121
+DEBUG - 	adding: Rule: if matches "~>\s+\d+.\d+(-(\w|.)+)?\s+and\s+((<=?)|(>=?))\s+\d+.\d+(-(\w|.)+)?" then classify "var-minor" // def. in line 127
+DEBUG - 	adding: Rule: if matches "((~>)|(<=?)|(>=?)|(==))?\s*\d+\.\d+(\w|\.|-|\+)*(\s+((and)|(or))\s+((~>)|(<=?)|(>=?)|(==))?\s*\d+\.\d+(\w|\.|-|\+)*)*" then classify "other" // def. in line 135
+INFO - Parsing rules for: Homebrew
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\Homebrew.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "\*" then classify "any" // def. in line 13
+INFO - Parsing rules for: Maven
+INFO - parsing rules from C:\Users\Jacob\Desktop\MasseyReadings\Masters\masters\rules\Maven.rules
+INFO - 	running in strict mode
+DEBUG - 	adding: Rule: if matches "(\w|\.|-)+" then classify "soft" // def. in line 21
+DEBUG - 	adding: Rule: if matches "\[(\w|\.|-)+\]" then classify "fixed" // def. in line 27
+DEBUG - 	adding: Rule: if matches "\+" then classify "latest" // def. in line 33
+DEBUG - 	adding: Rule: if matches "(\(|\[)\s*,(\w|\.|-|\s)+(\)|\])" then classify "at-most" // def. in line 41
+DEBUG - 	adding: Rule: if matches "(\(|\[)(\w|\.|-|\s)+,\s*(\)|\])" then classify "at-least" // def. in line 49
+DEBUG - 	adding: Rule: if matches "\d+\.\+" then classify "var-minor" // def. in line 62
+ERROR - 	line 69: undefined target classification: "var-major"

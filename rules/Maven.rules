@@ -66,7 +66,7 @@ classify: var-minor
 test: 42+
 test: 2+
 match: \d+\+
-classify: var-major
+classify: at-least
 
 # micro version wildcard gradle-style
 # see https://docs.gradle.org/current/userguide/declaring_dependencies.html

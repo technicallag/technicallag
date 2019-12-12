@@ -19,13 +19,13 @@ import kotlin.collections.HashMap
  *
  */
 
-public data class PairIDs (val projectID: Int, val dependencyID: Int) : Serializable
+data class PairIDs (val projectID: Int, val dependencyID: Int) : Serializable
 
-public class PairCollector {
-
-    val availablePairs = HashMap<PackageManager, MutableList<PairIDs>>()
+class PairCollector {
     var counts = HashMap<PackageManager, Map<Status, Int>>()
     private val log = Logging.getLogger("")
+
+    val PAIR_FOLDER = "../cached_pair_ids"
 
     private data class SemverViolations(val f: String, val fviolates: Boolean, val s: String, val sviolates: Boolean) {
         override fun toString(): String {
@@ -33,7 +33,7 @@ public class PairCollector {
         }
     }
 
-    public enum class PackageManager(val nameInDB: String) : Serializable {
+    enum class PackageManager(val nameInDB: String) : Serializable {
         CPAN("CPAN"),
         CRAN("CRAN"),
         DUB("Dub"),
@@ -56,7 +56,7 @@ public class PairCollector {
         public override fun toString() : String = nameInDB
     }
 
-    public enum class Status : Serializable {
+    enum class Status : Serializable {
         INCLUDED,
         VERSIONS_NON_SEMVER,
         FLEXIBLE,
@@ -64,10 +64,11 @@ public class PairCollector {
         NOT_IN_DATASET
     }
 
+    // The initialisation phase collects any information that has not yet been cached and produces pair statistics
     init {
         // Load in any counts data from file
         try {
-            val streamin = ObjectInputStream(FileInputStream("data/pairs/pair_counts.bin"))
+            val streamin = ObjectInputStream(FileInputStream("$PAIR_FOLDER/pair_counts.bin"))
             counts = streamin.readObject() as HashMap<PackageManager, Map<Status, Int>>
             streamin.close()
         } catch (e: FileNotFoundException) {
@@ -77,33 +78,37 @@ public class PairCollector {
         // Preprocess pair data from DB into Files as needed
         // Delete pair files if reload from database is desired
         PackageManager.values().forEach {
-            availablePairs[it] = mutableListOf()
-            val pairData = File("data/pairs/$it.csv")
-            if (!pairData.exists()) loadPMFromDB(it)
-        }
-
-        // Load the pair data in last to minimise memory footprint
-        PackageManager.values().forEach {
-            loadPMFromFile(it)
+            val pairData = File("$PAIR_FOLDER/$it.csv")
+            val flexiData = File("$PAIR_FOLDER/${it}_flexible.csv")
+            if (!pairData.exists() || !flexiData.exists()) loadPMFromDB(it)
         }
 
         // Pretty print aggregated count data
         printPairInfoToCSV()
 
         // Save counts data back to file
-        val streamout = ObjectOutputStream(FileOutputStream("data/pairs/pair_counts.bin"))
+        val streamout = ObjectOutputStream(FileOutputStream("$PAIR_FOLDER/pair_counts.bin"))
         streamout.writeObject(counts)
         streamout.close()
     }
 
-    private fun loadPMFromFile(pm: PackageManager) {
-        BufferedReader(FileReader("data/pairs/$pm.csv")).use {
+    // Call to collect pairs for a given PM
+    fun getPairs(pm: PackageManager, status: Status) : List<PairIDs> {
+        val availablePairs = mutableListOf<PairIDs>()
+        val location = when (status) {
+            Status.INCLUDED -> "$PAIR_FOLDER/$pm.csv"
+            Status.FLEXIBLE -> "$PAIR_FOLDER/${pm}_flexible.csv"
+            else -> return availablePairs
+        }
+
+        BufferedReader(FileReader(location)).use {
             for (lineraw in it.readLines()) {
                 if (lineraw == "Project, Dependency") continue
                 val line = lineraw.split(",").map { it.toInt() }
-                availablePairs[pm]?.add(PairIDs(line[0], line[1]))
+                availablePairs.add(PairIDs(line[0], line[1]))
             }
         }
+        return availablePairs
     }
 
     private fun loadPMFromDB(pm: PackageManager) {
@@ -152,17 +157,22 @@ public class PairCollector {
         // Print the semver violations for later checking
         printSemverViolations(semverCheck, pm)
 
-        // Store the project pairs, both filtered and unfiltered
-        BufferedWriter(FileWriter("data/pairs/$pm.csv")).use { included ->
+        // Store fixed only project pairs
+        BufferedWriter(FileWriter("$PAIR_FOLDER/$pm.csv")).use { included ->
             included.write("Project, Dependency\n")
-            pairs.forEach { entry ->
-                if (entry.value == Status.INCLUDED)
-                    included.write("${entry.key.projectID},${entry.key.dependencyID}\n")
-            }
+            pairs.filter { it.value == Status.INCLUDED }
+                    .forEach { entry -> included.write("${entry.key.projectID},${entry.key.dependencyID}\n") }
+        }
+
+        // Store the flexible project pairs
+        BufferedWriter(FileWriter("$PAIR_FOLDER/${pm}_flexible.csv")).use { included ->
+            included.write("Project, Dependency\n")
+            pairs.filter { it.value == Status.FLEXIBLE }
+                    .forEach { entry -> included.write("${entry.key.projectID},${entry.key.dependencyID}\n") }
         }
 
         // Store subcomponent information (discard remainder)
-        BufferedWriter(FileWriter("data/pairs/${pm}_subcomponents.csv")).use { out ->
+        BufferedWriter(FileWriter("$PAIR_FOLDER/${pm}_subcomponents.csv")).use { out ->
             out.write("Project, Dependency, ProjName, DepName\n")
             pairs.forEach { entry ->
                 if (entry.value == Status.SUBCOMPONENT)
@@ -175,7 +185,7 @@ public class PairCollector {
 
     private fun printPairInfoToCSV() {
         try {
-            BufferedWriter(FileWriter(File("data/pair_info.csv"))).use { out ->
+            BufferedWriter(FileWriter(File("$PAIR_FOLDER/pair_info.csv"))).use { out ->
                 // Headers
                 out.write(",")
                 for (status in Status.values()) {
@@ -199,7 +209,7 @@ public class PairCollector {
 
     private fun printSemverViolations(semverCheck: MutableList<SemverViolations>, pm: PackageManager) {
         try {
-            BufferedWriter(FileWriter("data/pairs/${pm}_semver_violations.csv")).use {
+            BufferedWriter(FileWriter("$PAIR_FOLDER/${pm}_semver_violations.csv")).use {
                 semverCheck.forEach { sem -> it.write(sem.toString()) }
             }
         } catch (e: IOException) {

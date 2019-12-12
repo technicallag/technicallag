@@ -12,19 +12,19 @@ import org.junit.jupiter.api.Test;
 class ProcessPairTests {
 
     private fun getResults(aID: Int, bID: Int, pm: PairCollector.PackageManager) : PairStatistics {
-        val results = ProcessPair.classifyPair(CollectDataForPair.collectData(PairIDs(aID,bID)), pm)
+        val results = ProcessPair.classifyPair(CollectDataForPair.collectDataForFixedAnalysis(PairIDs(aID,bID)), pm)
         results.printToFile("data/pairwiseResults/errors/${pm}_${aID}_${bID}_latest.csv")
         return results
     }
 
     private fun getResultsBackwardsChanges(aID: Int, bID: Int, pm: PairCollector.PackageManager) : PairStatistics {
-        val results = ProcessPair.classifyPair(CollectDataForPair.collectData(PairIDs(aID,bID)), pm)
+        val results = ProcessPair.classifyPair(CollectDataForPair.collectDataForFixedAnalysis(PairIDs(aID,bID)), pm)
         results.printToFile("data/pairwiseResults/backwards/errors/${pm}_${aID}_${bID}_latest.csv")
         return results
     }
 
-    private fun getRawData(aID: Int, bID: Int, pm: PairCollector.PackageManager) : PairWithData {
-        val rawData = CollectDataForPair.collectData(PairIDs(aID,bID))
+    private fun getRawData(aID: Int, bID: Int, pm: PairCollector.PackageManager) : PairFullDataFixed {
+        val rawData = CollectDataForPair.collectDataForFixedAnalysis(PairIDs(aID,bID))
         val results = ProcessPair.classifyPair(rawData, pm)
         results.printToFile("data/pairwiseResults/errors/${pm}_${aID}_${bID}_latest.csv")
         return rawData

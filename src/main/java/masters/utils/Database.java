@@ -1,14 +1,13 @@
 package masters.utils;
 
-import masters.PairCollector;
-import masters.PairWithData;
-import masters.DependencyVersion;
-import masters.ProjectVersion;
+import masters.*;
 import masters.libiostudy.Version;
 
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.ArrayBlockingQueue;
 
@@ -196,16 +195,18 @@ public class Database {
         }
     }
 
-    public static void getDepHistory(PairWithData pair) {
+    public static List<DependencyVersion> getDepHistory(PairIDs pair) {
+        List<DependencyVersion> results = new ArrayList<>();
+
         try {
             Connection c = CONNECTIONS.take();
             PreparedStatement stmt = c.prepareStatement("SELECT number, publishedtimestamp FROM versions WHERE projectid = ?;");
-            stmt.setString(1, Integer.toString(pair.getPairIDs().getDependencyID()));
+            stmt.setString(1, Integer.toString(pair.getDependencyID()));
 
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
                 String time = rs.getString("publishedtimestamp");
-                pair.getBVersions().add(new DependencyVersion(Version.create(rs.getString("number"), time), time));
+                results.add(new DependencyVersion(Version.create(rs.getString("number"), time), time));
             }
 
             rs.close();
@@ -216,26 +217,30 @@ public class Database {
         catch(SQLException | InterruptedException e) {
             Logging.getLogger("").error(e);
         }
+
+        return results;
     }
 
-    public static void getProjectHistory(PairWithData pair) {
+    public static List<ProjectVersionFixed> getProjectHistoryFixed(PairIDs pair) {
+        List<ProjectVersionFixed> results = new ArrayList<>();
+
         try {
             Connection c = CONNECTIONS.take();
             PreparedStatement stmt = c.prepareStatement("SELECT id, number, publishedtimestamp FROM versions WHERE projectid = ?;");
-            stmt.setString(1, Integer.toString(pair.getPairIDs().getProjectID()));
+            stmt.setString(1, Integer.toString(pair.getProjectID()));
 
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
                 int versionId = rs.getInt("id");
                 PreparedStatement stmt2 = c.prepareStatement("SELECT dependencyrequirements FROM dependencies WHERE projectid = ? AND dependencyprojectid = ? AND versionid = ?;");
-                stmt2.setString(1, Integer.toString(pair.getPairIDs().getProjectID()));
-                stmt2.setString(2, Integer.toString(pair.getPairIDs().getDependencyID()));
+                stmt2.setString(1, Integer.toString(pair.getProjectID()));
+                stmt2.setString(2, Integer.toString(pair.getDependencyID()));
                 stmt2.setString(3, Integer.toString(versionId));
 
                 ResultSet rs2 = stmt2.executeQuery();
 
                 String time = rs.getString("publishedtimestamp");
-                pair.getAVersions().add(new ProjectVersion(
+                results.add(new ProjectVersionFixed(
                         Version.create(rs.getString("number"), time),
                         rs2.next() ? Version.create(rs2.getString("dependencyrequirements")) : null,
                         time)
@@ -253,6 +258,49 @@ public class Database {
         catch(SQLException | InterruptedException e) {
             Logging.getLogger("").error(e);
         }
+
+        return results;
+    }
+
+    public static List<ProjectVersionFlexible> getProjectHistoryFlexible(PairIDs pair) {
+        List<ProjectVersionFlexible> results = new ArrayList<>();
+
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT id, number, publishedtimestamp FROM versions WHERE projectid = ?;");
+            stmt.setString(1, Integer.toString(pair.getProjectID()));
+
+            ResultSet rs = stmt.executeQuery();
+            while (rs.next()) {
+                int versionId = rs.getInt("id");
+                PreparedStatement stmt2 = c.prepareStatement("SELECT dependencyrequirements FROM dependencies WHERE projectid = ? AND dependencyprojectid = ? AND versionid = ?;");
+                stmt2.setString(1, Integer.toString(pair.getProjectID()));
+                stmt2.setString(2, Integer.toString(pair.getDependencyID()));
+                stmt2.setString(3, Integer.toString(versionId));
+
+                ResultSet rs2 = stmt2.executeQuery();
+
+                String time = rs.getString("publishedtimestamp");
+                results.add(new ProjectVersionFlexible(
+                        Version.create(rs.getString("number"), time),
+                        rs2.next() ? rs2.getString("dependencyrequirements") : null,
+                        time)
+                );
+
+                rs2.close();
+                stmt2.close();
+            }
+
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+        }
+
+        return results;
     }
 
     public static void insert(String sql, Object... params) {

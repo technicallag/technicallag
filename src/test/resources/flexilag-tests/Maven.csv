@@ -41,6 +41,6 @@ var-minor,1.2+,2.0.0,no_match
 var-minor,42.43+,42.43.4,match
 var-minor,42.43+,43.0.0,no_match
 var-minor,42.43+,42.44.0,match
-var-major,2+,1,no_match
-var-major,2+,2.0.0,match
-var-major,42+,42.1.1,match
+at-least,2+,1,no_match
+at-least,2+,2.0.0,match
+at-least,42+,42.1.1,match

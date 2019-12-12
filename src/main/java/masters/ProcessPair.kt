@@ -1,12 +1,12 @@
 package masters
 
+import masters.libiostudy.Version
 import masters.libiostudy.Version.VersionRelationship
 import masters.utils.*
 import java.io.BufferedWriter
 import java.io.File
 import java.io.FileWriter
 import java.lang.IllegalArgumentException
-import java.text.SimpleDateFormat
 
 /**
  * Created by Jacob Stringer on 1/11/2019.
@@ -175,7 +175,7 @@ data class UpdateMatrix (val index: Int) {
     }
 }
 
-data class PairStatistics(val pair: PairWithData, val pm: PairCollector.PackageManager) {
+data class PairStatistics(val pair: PairFullDataFixed, val pm: PairCollector.PackageManager) {
     val classifyUpdates = mutableListOf<Change>()
     val quantityOfLag = mutableListOf<Lag>()
     val matrices = Array(8) { UpdateMatrix(it) }
@@ -388,11 +388,11 @@ class ProcessPair {
 
     companion object {
         @JvmStatic
-        fun classifyPair(pair: PairWithData, pm: PairCollector.PackageManager) : PairStatistics {
+        fun classifyPair(pair: PairFullDataFixed, pm: PairCollector.PackageManager) : PairStatistics {
             val stats = PairStatistics(pair, pm)
 
             try {
-                pair.aVersions.sortBy { it.version }
+                pair.aVersions = pair.aVersions.sortedBy { it.version }
             } catch(e: IllegalArgumentException) {
                 Logging.getLogger("").error(pair.pairIDs.toString() + " has an issue with the comparator not being transitive - ProcessPair.classifyPair")
                 return stats
@@ -405,7 +405,7 @@ class ProcessPair {
             return stats
         }
 
-        private fun getPreviousVersion(stats: PairStatistics, second: ProjectVersion) : Update {
+        private fun getPreviousVersion(stats: PairStatistics, second: ProjectVersionFixed) : Update {
             val prevVersionChronologically = stats.pair.aVersions
                     .filter { it.time < second.version.time }
                     .maxBy { it.time }
