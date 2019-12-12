@@ -39,7 +39,7 @@ class MavenFlexibleMatcher: FlexibleMatcher {
                 return when {
                     compared < 0 -> MatcherResult.MATCH
                     compared > 0 -> MatcherResult.NO_MATCH
-                    declaration[matcher.end()] == ']' -> MatcherResult.MATCH
+                    declaration.trim().endsWith(']') -> MatcherResult.MATCH
                     else -> MatcherResult.NO_MATCH
                 }
             }
@@ -51,9 +51,24 @@ class MavenFlexibleMatcher: FlexibleMatcher {
     }
 
     fun atLeast(version: String, declaration: String): MatcherResult {
+        try {
+            val matcher = versionNumber.matcher(declaration)
+            if (matcher.find()) {
+                val min_version = Version.create(declaration.substring(matcher.start(), matcher.end()))
+                val cur_version = Version.create(version)
 
+                val compared = cur_version.compareTo(min_version)
+                return when {
+                    compared > 0 -> MatcherResult.MATCH
+                    compared < 0 -> MatcherResult.NO_MATCH
+                    declaration.trim().startsWith('[') -> MatcherResult.MATCH
+                    else -> MatcherResult.NO_MATCH
+                }
+            }
+        } catch (e: IllegalStateException) {
+            e.printStackTrace()
+        }
 
-        // TODO finish method
         return MatcherResult.NOT_SUPPORTED
     }
 
