@@ -21,6 +21,7 @@ class MavenFlexibleMatcher: FlexibleMatcher {
             "latest" -> MatcherResult.MATCH
             "at-most" -> atMost(version, declaration)
             "at-least" -> atLeast(version, declaration)
+            "var-major" -> major(version, declaration)
             "var-minor" -> minor(version, declaration)
             "var-micro" -> micro(version, declaration)
             else -> MatcherResult.NOT_SUPPORTED
@@ -29,66 +30,89 @@ class MavenFlexibleMatcher: FlexibleMatcher {
     }
 
     fun atMost(version: String, declaration: String): MatcherResult {
-        try {
-            val matcher = versionNumber.matcher(declaration)
-            if (matcher.find()) {
-                val max_version = Version.create(declaration.substring(matcher.start(), matcher.end()))
-                val cur_version = Version.create(version)
+        val matcher = versionNumber.matcher(declaration)
+        if (matcher.find()) {
+            val maxVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
+            val curVersion = Version.create(version)
 
-                val compared = cur_version.compareTo(max_version)
-                return when {
-                    compared < 0 -> MatcherResult.MATCH
-                    compared > 0 -> MatcherResult.NO_MATCH
-                    declaration.trim().endsWith(']') -> MatcherResult.MATCH
-                    else -> MatcherResult.NO_MATCH
-                }
+            val compared = curVersion.compareTo(maxVersion)
+            return when {
+                compared < 0 -> MatcherResult.MATCH
+                compared > 0 -> MatcherResult.NO_MATCH
+                declaration.trim().endsWith(']') -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
             }
-        } catch (e: IllegalStateException) {
-            e.printStackTrace()
         }
 
         return MatcherResult.NOT_SUPPORTED
     }
 
     fun atLeast(version: String, declaration: String): MatcherResult {
-        try {
-            val matcher = versionNumber.matcher(declaration)
-            if (matcher.find()) {
-                val min_version = Version.create(declaration.substring(matcher.start(), matcher.end()))
-                val cur_version = Version.create(version)
+        val matcher = versionNumber.matcher(declaration)
+        if (matcher.find()) {
+            val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
+            val curVersion = Version.create(version)
 
-                val compared = cur_version.compareTo(min_version)
-                return when {
-                    compared > 0 -> MatcherResult.MATCH
-                    compared < 0 -> MatcherResult.NO_MATCH
-                    declaration.trim().startsWith('[') -> MatcherResult.MATCH
-                    else -> MatcherResult.NO_MATCH
-                }
+            val compared = curVersion.compareTo(minVersion)
+            return when {
+                compared > 0 -> MatcherResult.MATCH
+                compared < 0 -> MatcherResult.NO_MATCH
+                declaration.trim().startsWith('[') -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
             }
-        } catch (e: IllegalStateException) {
-            e.printStackTrace()
+        }
+
+        return MatcherResult.NOT_SUPPORTED
+    }
+
+    fun major(version: String, declaration: String): MatcherResult {
+        val matcher = versionNumber.matcher(declaration)
+        if (matcher.find()) {
+            val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
+            val curVersion = Version.create(version)
+
+            val compared = curVersion.compareTo(minVersion)
+            return when {
+                compared >= 0 -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
+            }
         }
 
         return MatcherResult.NOT_SUPPORTED
     }
 
     fun minor(version: String, declaration: String): MatcherResult {
+        val matcher = versionNumber.matcher(declaration)
+        if (matcher.find()) {
+            val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
+            val curVersion = Version.create(version)
 
+            val compared = curVersion.compareTo(minVersion)
+            val sameMajor = curVersion.sameMajor(minVersion)
+            return when {
+                compared >= 0 && sameMajor -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
+            }
+        }
 
-        // TODO finish method
         return MatcherResult.NOT_SUPPORTED
     }
 
     fun micro(version: String, declaration: String): MatcherResult {
+        val matcher = versionNumber.matcher(declaration)
+        if (matcher.find()) {
+            val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
+            val curVersion = Version.create(version)
 
+            val compared = curVersion.compareTo(minVersion)
+            val sameMinor = curVersion.sameMinor(minVersion)
+            return when {
+                compared >= 0 && sameMinor -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
+            }
+        }
 
-        // TODO finish method
         return MatcherResult.NOT_SUPPORTED
     }
-
-//    fun getAtLeast(version: String) : Version {
-//        versionNumber.matcher(version).group(0)
-//    }
-
 
 }

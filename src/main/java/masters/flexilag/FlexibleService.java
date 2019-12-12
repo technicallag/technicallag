@@ -1,6 +1,7 @@
 package masters.flexilag;
 
 import masters.PairCollector;
+import masters.utils.Logging;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,10 +19,13 @@ public class FlexibleService {
     }
 
     public static MatcherResult matcher(PairCollector.PackageManager pm, String version, String classification, String declaration) {
-        if (mapper.containsKey(pm)) {
-            return mapper.get(pm).matches(version, classification, declaration);
-        } else {
-            return MatcherResult.NOT_SUPPORTED;
+        try {
+            if (mapper.containsKey(pm)) {
+                return mapper.get(pm).matches(version, classification, declaration);
+            }
+        } catch (Exception e) {
+            Logging.getLogger("").error(String.format("Exception in flexible matcher with info pm:%s version:%s classification:%s declaration:%s", pm, version, classification, declaration), e);
         }
+        return MatcherResult.NOT_SUPPORTED;
     }
 }

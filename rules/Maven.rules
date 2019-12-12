@@ -52,6 +52,8 @@ classify:at-least
 # the spec requires the last dot, but there are several dependencies that dont use this
 # we will provide separate rules to capture this
 
+# JS: The following rules have been updated for the 2020 study. 2+ is a major range, not a minor range etc.
+
 # minor version wildcard gradle-style
 # see https://docs.gradle.org/current/userguide/declaring_dependencies.html 
 test: 2.+
@@ -64,20 +66,22 @@ classify: var-minor
 test: 42+
 test: 2+
 match: \d+\+
-classify: var-minor
+classify: var-major
 
 # micro version wildcard gradle-style
-# see https://docs.gradle.org/current/userguide/declaring_dependencies.html 
+# see https://docs.gradle.org/current/userguide/declaring_dependencies.html
 test: 1.2.+
 test: 42.43.+
-match: \d+\.\d+\.\+
+test: 1.2.3+
+test: 42.43.312+
+match: \d+\.\d+\.\d*\+
 classify: var-micro
 
 # micro version wildcard gradle-style version 2 (see comment above)
 test: 1.2+
 test: 42.43+
 match: \d+\.\d+\+
-classify: var-micro
+classify: var-minor
 
 # intervals (either side can be open or closed)
 test: [1.2,1.3]
