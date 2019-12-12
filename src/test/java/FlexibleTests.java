@@ -29,7 +29,7 @@ class FlexibleTests {
             "/flexilag-tests/Puppet.csv",
             "/flexilag-tests/Pypi.csv",
             "/flexilag-tests/Rubygems.csv",
-    }, numLinesToSkip = 1)
+        }, numLinesToSkip = 1)
     public void testFlexibleLag(String classification, String declaration, String test, String expected) {
         assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new MavenLagChecker().matches(test, classification, declaration));
     }

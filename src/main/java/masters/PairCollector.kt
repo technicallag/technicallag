@@ -34,7 +34,6 @@ public class PairCollector {
     }
 
     public enum class PackageManager(val nameInDB: String) : Serializable {
-        /* Removed from analysis due to negligible numbers of fixed pairwise projects (ProjectPairsIncludedByPM.xlsx)
         CPAN("CPAN"),
         CRAN("CRAN"),
         DUB("Dub"),
@@ -43,7 +42,6 @@ public class PairCollector {
         HOMEBREW("Homebrew"),
         PUB("Pub"),
         PUPPET("Puppet"),
-        */
 
         ATOM("Atom"),
         CARGO("Cargo"),

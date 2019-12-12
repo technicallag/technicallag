@@ -50,7 +50,7 @@ public class Version implements Comparable<Version> {
 
         Version version = (Version) o;
 
-        return versionTokens != null ? versionTokens.equals(version.versionTokens) : version.versionTokens == null;
+        return this.compareTo(version) == 0;
     }
 
     @Override
@@ -188,6 +188,8 @@ public class Version implements Comparable<Version> {
                 return diff;
             }
         }
+
+        if (this.additionalInfo.isEmpty() && otherVersion.additionalInfo.isEmpty()) return 0;
 
         // Order on timestamp (granularity of one day, as published timestamps are not fully accurate below that
         if (this.time != null && otherVersion.time != null && !isUnderOneDayDiff(this.time, otherVersion.time)) {

@@ -15,7 +15,16 @@ public class LagCheckingService {
 
     static {
         mapper = new HashMap<>();
+        mapper.put(PairCollector.PackageManager.ATOM, new NPMLagChecker());
+        mapper.put(PairCollector.PackageManager.CARGO, new CargoLagChecker());
+        mapper.put(PairCollector.PackageManager.CPAN, new CPANLagChecker());
         mapper.put(PairCollector.PackageManager.MAVEN, new MavenLagChecker());
+        mapper.put(PairCollector.PackageManager.MAVEN, new MavenLagChecker());
+        mapper.put(PairCollector.PackageManager.MAVEN, new MavenLagChecker());
+        mapper.put(PairCollector.PackageManager.MAVEN, new MavenLagChecker());
+        mapper.put(PairCollector.PackageManager.MAVEN, new MavenLagChecker());
+        mapper.put(PairCollector.PackageManager.MAVEN, new MavenLagChecker());
+
     }
 
     public static MatcherResult matcher(PairCollector.PackageManager pm, String version, String classification, String declaration) {

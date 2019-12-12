@@ -18,6 +18,7 @@ class MavenLagChecker: LagChecker {
         declaration ?: return MatcherResult.NOT_SUPPORTED
 
         return when (classification) {
+            "fixed", "soft" -> fixed(version, declaration)
             "latest" -> MatcherResult.MATCH
             "at-most" -> atMost(version, declaration)
             "at-least" -> atLeast(version, declaration)
@@ -26,7 +27,16 @@ class MavenLagChecker: LagChecker {
             "var-micro" -> micro(version, declaration)
             else -> MatcherResult.NOT_SUPPORTED
         }
+    }
 
+    fun fixed(version: String, declaration: String): MatcherResult {
+        val decVersion = Version.create(declaration)
+        val curVersion = Version.create(version)
+
+        return when {
+            decVersion.equals(curVersion) -> MatcherResult.MATCH
+            else -> MatcherResult.NO_MATCH
+        }
     }
 
     fun atMost(version: String, declaration: String): MatcherResult {
