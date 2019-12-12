@@ -2,6 +2,7 @@ package masters
 
 import masters.utils.Database
 import java.io.*
+import java.util.regex.Pattern
 
 /**
  * Created by Jacob Stringer on 1/11/2019.
@@ -9,7 +10,10 @@ import java.io.*
 
 fun main(args: Array<String>) {
     //getSubcomponentInfo()
-    mutableListOf<Int>().last()
+    val versionNumber = Pattern.compile("\\d+(\\.\\d+){0,2}")
+    if (versionNumber.matcher("(,1.0]").find()) {
+        println("hi")
+    }
 }
 
 fun getSubcomponentInfo() {

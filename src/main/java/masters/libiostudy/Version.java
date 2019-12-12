@@ -175,9 +175,14 @@ public class Version implements Comparable<Version> {
 
     @Override
     public int compareTo(Version otherVersion) {
-        int size1 = versionTokens.size();
-        int size2 = otherVersion.versionTokens.size();
-        for (int i=0;i<Math.min(size1,size2);i++) {
+        while (versionTokens.size() > otherVersion.versionTokens.size()) {
+            otherVersion.versionTokens.add(BigInteger.ZERO);
+        }
+        while (versionTokens.size() < otherVersion.versionTokens.size()) {
+            this.versionTokens.add(BigInteger.ZERO);
+        }
+
+        for (int i=0; i < this.versionTokens.size(); i++) {
             int diff = this.versionTokens.get(i).compareTo(otherVersion.versionTokens.get(i));
             if (diff!=0) {
                 return diff;
@@ -190,36 +195,27 @@ public class Version implements Comparable<Version> {
             if (timecomp != 0) return timecomp;
         }
 
-        // next two rules: 1.2.3 > 1.2-beta
-        if (size1>size2) {
-            return 1;
-        }
-        else if (size2>size1) {
-            return -1;
-        }
-        else {
-            // Check that the tag type is the same - else do an alphabetical ordering.
-            // Assumption: tags are constructed as '-<letters><digits>'
-            for (int i = 0; i < Math.min(additionalInfo.length(), otherVersion.additionalInfo.length()); i++) {
-                char first = additionalInfo.charAt(i), second = otherVersion.additionalInfo.charAt(i);
+        // Check that the tag type is the same - else do an alphabetical ordering.
+        // Assumption: tags are constructed as '-<letters><digits>'
+        for (int i = 0; i < Math.min(additionalInfo.length(), otherVersion.additionalInfo.length()); i++) {
+            char first = additionalInfo.charAt(i), second = otherVersion.additionalInfo.charAt(i);
 
-                // If they are both digits, they have matching letter parts of the tag, so can go to the next stage
-                if (isDigit(first) && isDigit(second)) break;
+            // If they are both digits, they have matching letter parts of the tag, so can go to the next stage
+            if (isDigit(first) && isDigit(second)) break;
 
-                // If the letters differ, then they are different types of tags - alphabetical ordering
-                else if (first != second) {
-                    return first - second;
-                }
+            // If the letters differ, then they are different types of tags - alphabetical ordering
+            else if (first != second) {
+                return first - second;
             }
-
-            // Some release are along the lines of -rc9 and -rc10. This will take the number off the end and compare by that first.
-            Matcher m1 = TAGNUMBER.matcher(additionalInfo), m2 = TAGNUMBER.matcher(otherVersion.additionalInfo);
-            if (m1.find() && m2.find()) {
-                return new BigInteger(m1.group()).subtract(new BigInteger(m2.group())).signum();
-            }
-
-            // Do an alphabetical ordering failing the above
-            return this.additionalInfo.compareTo(otherVersion.additionalInfo);
         }
+
+        // Some release are along the lines of -rc9 and -rc10. This will take the number off the end and compare by that first.
+        Matcher m1 = TAGNUMBER.matcher(additionalInfo), m2 = TAGNUMBER.matcher(otherVersion.additionalInfo);
+        if (m1.find() && m2.find()) {
+            return new BigInteger(m1.group()).subtract(new BigInteger(m2.group())).signum();
+        }
+
+        // Do an alphabetical ordering failing the above
+        return this.additionalInfo.compareTo(otherVersion.additionalInfo);
     }
 }
