@@ -9,13 +9,13 @@ import java.util.Map;
 /**
  * Created by Jacob Stringer on 12/12/2019.
  */
-public class FlexibleService {
+public class LagCheckingService {
 
-    private static Map<PairCollector.PackageManager, FlexibleMatcher> mapper;
+    private static Map<PairCollector.PackageManager, LagChecker> mapper;
 
     static {
         mapper = new HashMap<>();
-        mapper.put(PairCollector.PackageManager.MAVEN, new MavenFlexibleMatcher());
+        mapper.put(PairCollector.PackageManager.MAVEN, new MavenLagChecker());
     }
 
     public static MatcherResult matcher(PairCollector.PackageManager pm, String version, String classification, String declaration) {

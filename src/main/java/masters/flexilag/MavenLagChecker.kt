@@ -6,7 +6,7 @@ import java.util.regex.Pattern
 /**
  * Created by Jacob Stringer on 12/12/2019.
  */
-class MavenFlexibleMatcher: FlexibleMatcher {
+class MavenLagChecker: LagChecker {
 
     companion object {
         val versionNumber = Pattern.compile("\\d+(\\.\\d+){0,2}")
