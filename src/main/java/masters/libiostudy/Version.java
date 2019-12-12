@@ -3,7 +3,6 @@ package masters.libiostudy;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
-import masters.old.dataClasses.VersionRelationship;
 import masters.utils.Logging;
 
 import java.math.BigInteger;
@@ -60,6 +59,10 @@ public class Version implements Comparable<Version> {
     }
 
     private static Version createHelper(String versionDef, String time) {
+        Version version = new Version();
+        version.time = time;
+        version.string = versionDef;
+
         // CLEANING
         // trail leading [vV=^] - ^ is because ^0.0.x is considered fixed in cargo (and some other PMs)
         versionDef = versionDef.trim();
@@ -75,10 +78,6 @@ public class Version implements Comparable<Version> {
             versionDef = versionDef.substring(1,versionDef.length() - 1).trim();
 
         // CREATING
-        Version version = new Version();
-        version.string = versionDef;
-        version.time = time;
-
         String versionDef2 = versionDef;
 
         String leadingDigits = null;
@@ -136,6 +135,13 @@ public class Version implements Comparable<Version> {
         second.add(other.versionTokens.size() < 2 ? BigInteger.ZERO : other.versionTokens.get(1));
 
         return first.get(0).equals(second.get(0)) && first.get(1).equals(second.get(1));
+    }
+
+    public enum VersionRelationship {
+        SAME_MAJOR,
+        SAME_MINOR,
+        SAME_MICRO,
+        DIFFERENT
     }
 
     public VersionRelationship getRelationship(Version other) {

@@ -8,13 +8,21 @@ CREATE TABLE versions (ID varchar,Platform varchar,ProjectName varchar,ProjectID
 
 CREATE TABLE dependencies (ID varchar, Platform varchar, ProjectName varchar, ProjectID varchar, VersionNumber varchar, VersionID varchar, DependencyName varchar, DependencyPlatform varchar, DependencyKind varchar, OptionalDependency varchar, DependencyRequirements varchar, DependencyProjectID varchar);
 
+CREATE TABLE tags (ID varchar, HostType varchar, RepositoryNameWithOwner varchar, RepositoryID varchar, TagName varchar, TagGitSha varchar, TagPublishedTimestamp varchar, TagCreatedTimestamp varchar, TagUpdatedTimestamp varchar);
+
 SET CLIENT_ENCODING TO 'utf8';
 
-COPY projects FROM D:\Libaries.io_dataset\libraries-1.4.0-2018-12-22\projects-1.4.0-2018-12-22.csv WITH (FORMAT csv);
+COPY projects FROM -- projects csv file location and name
+WITH (FORMAT csv);
 
-COPY versions FROM D:\Libaries.io_dataset\libraries-1.4.0-2018-12-22\versions-1.4.0-2018-12-22.csv WITH (FORMAT csv);
+COPY versions FROM -- versions csv file location and name
+WITH (FORMAT csv);
 
-COPY dependencies FROM D:\Libaries.io_dataset\libraries-1.4.0-2018-12-22\dependencies-1.4.0-2018-12-22.csv WITH (FORMAT csv);
+COPY dependencies FROM -- dependencies csv file location and name
+WITH (FORMAT csv);
+
+COPY tags FROM -- tag csv file location and name
+WITH (FORMAT csv);
 
 DELETE FROM dependencies WHERE platform='Platform';
 
@@ -25,6 +33,8 @@ DELETE FROM versions WHERE platform='Platform';
 --CREATE INDEX timestamp ON versions (ProjectName, Number);
 --CREATE INDEX projectName ON projects(Name);
 CREATE INDEX projectID ON projects(id);
+CREATE INDEX repositoryID1 ON tags(repositoryid);
+CREATE INDEX repositoryID2 ON tags(repositoryid, tagname);
 CREATE INDEX versionprojectID ON versions(projectid);
 CREATE INDEX depreq ON dependencies(projectid, dependencyprojectid, versionid);
 

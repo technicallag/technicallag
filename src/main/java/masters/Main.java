@@ -68,7 +68,7 @@ public class Main {
             backwardsPrinted = 0;
         }
 
-        if (ps.hasBackwardsChanges() && backwardsPrinted++ < 17) print(ps, "data/pairwiseResults/backwards");
+        if (ps.hasBackwardsChanges()) ps.printBackwardsInformation("data/backwards/"+pm.toString());
 
 //        // Deps missing at end
 //        Random rand = new Random();

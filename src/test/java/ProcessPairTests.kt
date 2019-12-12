@@ -4,7 +4,7 @@ package masters
  * Created by Jacob Stringer on 4/11/2019.
  */
 
-import masters.old.dataClasses.VersionRelationship
+import masters.libiostudy.Version.VersionRelationship
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 

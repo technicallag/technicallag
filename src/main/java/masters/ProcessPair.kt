@@ -1,8 +1,9 @@
 package masters
 
-import masters.old.dataClasses.VersionRelationship
+import masters.libiostudy.Version.VersionRelationship
 import masters.utils.*
 import java.io.BufferedWriter
+import java.io.File
 import java.io.FileWriter
 import java.lang.IllegalArgumentException
 import java.text.SimpleDateFormat
@@ -48,19 +49,8 @@ data class Lag (var major: Long, var minor: Long, var micro: Long, var majorTime
         return "$major,$majorTime,$minor,$minorTime,$micro,$microTime"
     }
 
-    fun averaged(divisor: Long): String {
-        return "%.4f,%.4f,%.4f,%.4f,%.4f,%.4f".format(
-                major.toDouble()/divisor, majorTime.toDouble()/divisor,
-                minor.toDouble()/divisor, minorTime.toDouble()/divisor,
-                micro.toDouble()/divisor, microTime.toDouble()/divisor)
-    }
-
     fun header(): String {
         return "major,majorTime,minor,minorTime,micro,microTime"
-    }
-
-    fun headerAvg(): String {
-        return "majorAvg,majorTimeAvg,minorAvg,minorTimeAvg,microAvg,microTimeAvg"
     }
 
     override fun compareTo(other: Lag): Int {
@@ -291,6 +281,35 @@ data class PairStatistics(val pair: PairWithData, val pm: PairCollector.PackageM
                 return
             }
         } catch (e: NoSuchElementException) { e.printStackTrace() }
+    }
+
+    fun printBackwardsInformation(filepath: String) {
+        File(filepath).mkdirs()
+
+        val aName = Database.getProjectName(pair.pairIDs.projectID)
+        val bName = Database.getProjectName(pair.pairIDs.dependencyID)
+
+        BufferedWriter(FileWriter("$filepath/${pm}_${pair.pairIDs.projectID}_${pair.pairIDs.dependencyID}")).use {
+            it.write("\nProject information")
+            it.write("\n$aName (${pair.pairIDs.projectID})\t$bName (${pair.pairIDs.dependencyID})\tPackage Manager: $pm")
+
+            it.write("\n\nProject A:")
+            pair.aVersions.forEach {version ->
+                it.write("\n$version")
+                if (version.dependency != null)
+                    it.write(",\tLatest, ${pair.bVersions
+                            .filter { it.time < version.time }
+                            .filter { it.version > version.dependency }
+                            .maxBy { it.version }
+                    }")
+                it.write(Database.getCommitInformation(pair.pairIDs.projectID, version.toString()).toString() + "\n")
+            }
+
+            it.write("\n\nProject B:")
+            pair.bVersions.forEach {version ->
+                it.write("\n$version")
+            }
+        }
     }
 
     fun printToFile(filepath: String) {

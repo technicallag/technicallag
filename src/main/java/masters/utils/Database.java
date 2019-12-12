@@ -132,6 +132,70 @@ public class Database {
         }
     }
 
+    public static class CommitInfo {
+        String repo, hash;
+
+        @Override
+        public String toString() {
+            return "CommitInfo{" +
+                    "repo='" + repo + '\'' +
+                    ", hash='" + hash + '\'' +
+                    '}';
+        }
+    }
+
+    private static String getRepoId(int projectid) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT repositoryid FROM projects WHERE id = ?;");
+            stmt.setString(1, Integer.toString(projectid));
+
+            ResultSet rs = stmt.executeQuery();
+            String res = "";
+            if (rs.next()) {
+                res = rs.getString("repositoryid");
+            }
+
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
+
+            return res;
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+            return "";
+        }
+    }
+
+    public static CommitInfo getCommitInformation(int projectid, String version) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT HostType, TagGitSha FROM tags WHERE RepositoryId = ? AND TagName = ?;");
+            stmt.setString(1, getRepoId(projectid));
+            stmt.setString(2, version);
+
+            ResultSet rs = stmt.executeQuery();
+            CommitInfo info = new CommitInfo();
+            if (rs.next()) {
+                info.repo = rs.getString("HostType");
+                info.hash = rs.getString("TagGitSha");
+            }
+
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
+
+            return info;
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+            return new CommitInfo();
+        }
+    }
+
     public static void getDepHistory(PairWithData pair) {
         try {
             Connection c = CONNECTIONS.take();
