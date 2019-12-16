@@ -118,24 +118,24 @@ Project information
 boost_container (1009013)	boost (612753)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.56.0-b1, dependency=1.56.0-b1, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.56.0-rc1, dependency=1.56.0-rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.56.0-rc2, dependency=1.56.0-rc2, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.56.0-rc3, dependency=1.56.0-rc3, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.56.0, dependency=1.56.0, time=2014-08-08 18:43:07 UTC),	Latest, DependencyVersion(version=1.59.0-b1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.57.0-b1rc1, dependency=1.57.0-b1rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.57.0-b10, dependency=1.57.0-b10, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.57.0-b1y, dependency=1.57.0-b1y, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.57.0-b1z, dependency=1.57.0-b1z, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.57.0-rc1, dependency=1.57.0-rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.57.0, dependency=1.57.0, time=2014-11-07 22:06:04 UTC),	Latest, DependencyVersion(version=1.59.0-b1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.58.0-b1rc1, dependency=1.58.0-b1rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.58.0-b1rc2, dependency=1.58.0-b1rc2, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.58.0-rc2, dependency=1.58.0-rc2, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.58.0, dependency=1.58.0, time=2015-04-19 10:46:00 UTC),	Latest, DependencyVersion(version=1.59.0-b1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.59.0-b1, dependency=1.59.0-b1, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.59.0, dependency=1.59.0, time=2015-08-15 05:47:12 UTC),	Latest, DependencyVersion(version=1.59.0-b1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.60.0, dependency=1.60.0, time=2015-12-19 20:43:15 UTC),	Latest, null
+ProjectVersionFixed(version=1.56.0-b1, dependency== 1.56.0-b1, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.56.0-rc1, dependency== 1.56.0-rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.56.0-rc2, dependency== 1.56.0-rc2, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.56.0-rc3, dependency== 1.56.0-rc3, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.56.0, dependency== 1.56.0, time=2014-08-08 18:43:07 UTC),	Latest, DependencyVersion(version=1.59.0-b1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.57.0-b1rc1, dependency== 1.57.0-b1rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.57.0-b10, dependency== 1.57.0-b10, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.57.0-b1y, dependency== 1.57.0-b1y, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.57.0-b1z, dependency== 1.57.0-b1z, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.57.0-rc1, dependency== 1.57.0-rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.57.0, dependency== 1.57.0, time=2014-11-07 22:06:04 UTC),	Latest, DependencyVersion(version=1.59.0-b1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.58.0-b1rc1, dependency== 1.58.0-b1rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.58.0-b1rc2, dependency== 1.58.0-b1rc2, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.58.0-rc2, dependency== 1.58.0-rc2, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.58.0, dependency== 1.58.0, time=2015-04-19 10:46:00 UTC),	Latest, DependencyVersion(version=1.59.0-b1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.59.0-b1, dependency== 1.59.0-b1, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.59.0, dependency== 1.59.0, time=2015-08-15 05:47:12 UTC),	Latest, DependencyVersion(version=1.59.0-b1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.60.0, dependency== 1.60.0, time=2015-12-19 20:43:15 UTC),	Latest, null
 
 Project B:
 DependencyVersion(version=1.54.0, time=2013-09-12 08:47:04 UTC)

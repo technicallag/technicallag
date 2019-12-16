@@ -1,0 +1,26 @@
+
+Project information
+geojson.io (151429)	filesaver.js (147584)	Package Manager: NPM
+RepoID: 102238
+Tag information:
+CommitInfo{repo='GitHub', hash='d5856c40f7dbd04a0b7054e989d125faea408ecd', version='v0.0.1'}
+CommitInfo{repo='GitHub', hash='8ac533799dc4fcb5beb03e3c4f7b8db8c831267a', version='v0.0.3'}
+CommitInfo{repo='GitHub', hash='026017a86f2da6130e21810f11841f745fb1d89a', version='v0.0.4'}
+CommitInfo{repo='GitHub', hash='3ae772e4cd990cff8e337cf3c39b04d755dd561a', version='v0.1.0'}
+CommitInfo{repo='GitHub', hash='0f70ff7262377aff2d5affadc7a2f2e0a978a374', version='v0.1.1'}
+CommitInfo{repo='GitHub', hash='5c525b0a9628f276286ec19ae06f55ca73442100', version='v0.2.0'}
+
+Project A:
+ProjectVersionFixed(version=0.0.0, dependency=null, time=2013-08-23 20:19:32 UTC)
+ProjectVersionFixed(version=0.0.1, dependency=2013.1.23, time=2013-11-09 15:21:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.2, dependency=2013.1.23, time=2013-11-25 20:59:33 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.4, dependency=0.1.0, time=2014-08-01 16:40:32 UTC),	Latest, "DependencyVersion(version=2013.1.23, time=2013-09-25 20:31:24 UTC)"
+
+
+Project B:
+DependencyVersion(version=0.1.0, time=2014-05-28 14:11:48 UTC)
+DependencyVersion(version=0.1.1, time=2014-12-23 14:43:10 UTC)
+DependencyVersion(version=0.2.0, time=2015-08-02 01:01:25 UTC)
+DependencyVersion(version=2013.1.23, time=2013-09-25 20:31:24 UTC)

@@ -33,7 +33,7 @@ class Aggregator(val name: String) {
     val aggregatorTotals = mutableMapOf<String, String>()
     //val pairStats = mutableListOf<String>()
 
-    fun addStatistics(stats: PairStatistics) {
+    @Synchronized fun addStatistics(stats: PairStatistics) {
         projectCounter++
         lagCounter += stats.quantityOfLag.size
 
@@ -56,7 +56,7 @@ class Aggregator(val name: String) {
     }
 
     // Note pairStats are not added when combining aggregators currently (performance concerns)
-    fun addAggreator(other: Aggregator) {
+    @Synchronized fun addAggreator(other: Aggregator) {
         projectCounter += other.projectCounter
         projectsWithoutChangeObjects += other.projectsWithoutChangeObjects
 

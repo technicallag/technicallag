@@ -104,10 +104,10 @@ Project information
 Microsoft.NETCore.Runtime.CoreCLR-x86 (1033018)	System.Diagnostics.StackTrace (1008090)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0-beta-23019, dependency=4.0.0-beta-23019, time=2015-06-30 16:51:57 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-beta-23109, dependency=4.0.0-beta-23109, time=2015-07-27 16:32:47 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0, dependency=4.0.0, time=2015-07-29 09:09:51 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1-beta-23225, dependency=4.0.1-beta-23225, time=2015-09-01 23:32:08 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-beta-23019, dependency== 4.0.0-beta-23019, time=2015-06-30 16:51:57 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-beta-23109, dependency== 4.0.0-beta-23109, time=2015-07-27 16:32:47 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 4.0.0, time=2015-07-29 09:09:51 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1-beta-23225, dependency== 4.0.1-beta-23225, time=2015-09-01 23:32:08 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=4.0.0, time=2015-07-29 09:10:33 UTC)

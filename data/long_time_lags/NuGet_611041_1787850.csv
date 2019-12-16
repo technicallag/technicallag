@@ -102,8 +102,8 @@ Project information
 Rolstad.Data (611041)	AWSSDK (1787850)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.1, dependency=1.3.13.1, time=2011-11-03 18:06:55 UTC),	Latest, DependencyVersion(version=1.5.5, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.1.0, dependency=1.3.13.1, time=2012-04-13 04:13:00 UTC),	Latest, DependencyVersion(version=1.5.5, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1, dependency== 1.3.13.1, time=2011-11-03 18:06:55 UTC),	Latest, DependencyVersion(version=1.5.5, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.1.0, dependency== 1.3.13.1, time=2012-04-13 04:13:00 UTC),	Latest, DependencyVersion(version=1.5.5, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.3.10, time=2011-08-04 00:31:38 UTC)

@@ -1,5 +1,6 @@
 package masters;
 
+import masters.flexilag.MatcherResult;
 import masters.utils.Database;
 
 import java.io.*;
@@ -22,21 +23,11 @@ public class Main {
         Logger log = Logging.getLogger("New memory model working - saving new files each time");
         Main main = new Main(log);
         //main.getAllLag();
-        main.aggregateData();
+        //main.aggregateData();
+        FlexibleAnalysisKt.analyseAll();
+//        FixedAnalysisKt.analysePairs();
         main.savePrintedHistory();
         Database.closeConnections();
-    }
-
-    private void getAllLag() {
-        PairCollector pairCollector = new PairCollector();
-
-        for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
-            List<PairIDs> fixed = pairCollector.getPairs(pm, PairCollector.Status.INCLUDED);
-            List<PairIDs> flexible = pairCollector.getPairs(pm, PairCollector.Status.FLEXIBLE);
-
-
-        }
-
     }
 
     private void aggregateData() {
@@ -56,7 +47,7 @@ public class Main {
                 PairFullDataFixed data = CollectDataForPair.collectDataForFixedAnalysis(pairID);
                 if (data.getAVersions().size() == 0) continue;
 
-                PairStatistics ps = ProcessPair.classifyPair(data, pm);
+                PairStatistics ps = FixedPairAnalysis.classifyPair(data, pm);
                 maybePrint(ps, pm);
                 aggregator.addStatistics(ps);
                 if (data.getAVersions().size() > 10 && data.getBVersions().size() > 10)

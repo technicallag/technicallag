@@ -1,0 +1,458 @@
+
+Project information
+org.grails:grails-plugin-datasource (360126)	org.codehaus.groovy:groovy-test (400470)	Package Manager: Maven
+RepoID: 170179
+Tag information:
+CommitInfo{repo='GitHub', hash='a4ff620b96381c90d4bc17dd9c681997646cfea2', version='v0.1'}
+CommitInfo{repo='GitHub', hash='017ef395d76ef60440c5740f435d37d0e1aedafb', version='v0.2'}
+CommitInfo{repo='GitHub', hash='99f73565da375d6c5b1464c3306f1d202af054ad', version='v0.3'}
+CommitInfo{repo='GitHub', hash='8b5f5fb44116df3ca1f04fa3aac19a722255cf9e', version='v0.4'}
+CommitInfo{repo='GitHub', hash='ca89a1195179e8b285c1af148a382fb989fd1236', version='v0.4.1'}
+CommitInfo{repo='GitHub', hash='8844651aece32af89ab0a0a32eb5872838be0297', version='v0.4.2'}
+CommitInfo{repo='GitHub', hash='7092eefa0951eca9fa49b36cb37527f347c64f94', version='v0.5'}
+CommitInfo{repo='GitHub', hash='6fbf01d742488a3b770dfb432c31db4dbf6c4d6b', version='v0.5.5'}
+CommitInfo{repo='GitHub', hash='23291c78fabade97657858724e8829833478848c', version='v0.5.5.RC1'}
+CommitInfo{repo='GitHub', hash='494f3498aa9b8e98d867483b108805de338fab6b', version='v0.5.6'}
+CommitInfo{repo='GitHub', hash='723f725249ca0ae7657204839f8bf14b28a362c1', version='v0.5.RC1'}
+CommitInfo{repo='GitHub', hash='14746305fd172d649b3bad3f57ff88c2d0953497', version='v0.5.RC2'}
+CommitInfo{repo='GitHub', hash='1b80d21704dd52142ee1366cc70e1efa464cc957', version='v0.6'}
+CommitInfo{repo='GitHub', hash='6ec8b025ba63fb1ef109e40e53f3d7a554d0146f', version='v0.6.RC1'}
+CommitInfo{repo='GitHub', hash='41c46b8330849dffaa251586e3494f5ef00a1beb', version='v1.0'}
+CommitInfo{repo='GitHub', hash='b95b3b32c83346867136c337830cbbd96d538e41', version='v1.0.1'}
+CommitInfo{repo='GitHub', hash='6cb16bd3a566788ac286aae1430e283a5c4970a6', version='v1.0.2'}
+CommitInfo{repo='GitHub', hash='0d8bd04ae9f53c614410d8436fe5e2778b0d1258', version='v1.0.3'}
+CommitInfo{repo='GitHub', hash='521f1ec8b99f93bc0e8f1aedb66a6e3e3aa4a3bb', version='v1.0.4'}
+CommitInfo{repo='GitHub', hash='977ae0f35f45aba8887b0de29393d192ab163efd', version='v1.0.RC1'}
+CommitInfo{repo='GitHub', hash='8c3f1d7694213447848f85ae5ac0440599541c80', version='v1.0.RC2'}
+CommitInfo{repo='GitHub', hash='7cd2d0404cc4f98dbd514cceb06c1f2e9e633a11', version='v1.0.RC3'}
+CommitInfo{repo='GitHub', hash='5a8df821bd7eee6407b2118e7022a3163d87f0d2', version='v1.0.RC4'}
+CommitInfo{repo='GitHub', hash='cb7388360b10516671b17220683df4d71c0991e8', version='v1.1.1'}
+CommitInfo{repo='GitHub', hash='a84d13007e00f929790bf98df9a041b7fee35216', version='v1.1.2'}
+CommitInfo{repo='GitHub', hash='658ddf8834eed3ee87c9e740ad11e76dfdff21e1', version='v1.2'}
+CommitInfo{repo='GitHub', hash='41161b2488a03ee77b58c2a044588d07c0ffaa3b', version='v1.2.1'}
+CommitInfo{repo='GitHub', hash='99d491d4c900e910a8ad93cef8feaaa27e589b4b', version='v1.2.2'}
+CommitInfo{repo='GitHub', hash='2f444df9f41ac1c608051f5add1ed4da8cb9bd4e', version='v1.2.3'}
+CommitInfo{repo='GitHub', hash='2172cca249daf46f44202f92c4baee2c8cf050a3', version='v1.2.4'}
+CommitInfo{repo='GitHub', hash='e7791257c9c58259687f13a28417781f10fd1fc0', version='v1.2.5'}
+CommitInfo{repo='GitHub', hash='98aea9915cc7ad58403ee413f580f4be91922c5d', version='v1.3'}
+CommitInfo{repo='GitHub', hash='8e0ae82217f733471fd61d5552273a58c5bf420a', version='v1.3.1'}
+CommitInfo{repo='GitHub', hash='26d2da457056c1baa0dceff864e14a381e09596f', version='v1.3.2'}
+CommitInfo{repo='GitHub', hash='099c399b8be814327917112b72a203967aef17ea', version='v1.3.3'}
+CommitInfo{repo='GitHub', hash='584dc9b6e7aa6daaa66fb96bed368ea905ac03aa', version='v1.3.4'}
+CommitInfo{repo='GitHub', hash='6ebf5c0390e7a10057108dff99a9d507ae5304c9', version='v1.3.5'}
+CommitInfo{repo='GitHub', hash='549164e08251e4b73d7a2664d82a89dd4acc8736', version='v1.3.6'}
+CommitInfo{repo='GitHub', hash='43ab51e011687fe1eb71ef53c4f96a90203805da', version='v1.3.7'}
+CommitInfo{repo='GitHub', hash='e34faf191299840ac472621eeca4e019605f731d', version='v1.3.8'}
+CommitInfo{repo='GitHub', hash='93c9863c9206d83dbe0f96b872d17a27a460e45b', version='v1.3.9'}
+CommitInfo{repo='GitHub', hash='e80d03c22dd4b20207f51679d5f002385c66c1ec', version='v1.3M1'}
+CommitInfo{repo='GitHub', hash='cda3dce3cede581d1b8e0ce5e2f025be14a39d63', version='v1.3RC1'}
+CommitInfo{repo='GitHub', hash='2d198dc809e2736a58a0a41708d92884434404b7', version='v1.3RC2'}
+CommitInfo{repo='GitHub', hash='af071adb10b92340e9e7d9215360cdea5fbcd2e3', version='v1.4.0.M1'}
+CommitInfo{repo='GitHub', hash='a837dabfa5c7f51739cbc4f5aca579aafa6fbe7b', version='v2.0.0'}
+CommitInfo{repo='GitHub', hash='aa6866f66d9ff8dedd9d39e53249144057b65572', version='v2.0.0.M1'}
+CommitInfo{repo='GitHub', hash='773222f4db318037c19f1b8fd7d6ceb6e6d330ca', version='v2.0.0.M2'}
+CommitInfo{repo='GitHub', hash='3ac8994bb6ab285113793801a266951660241114', version='v2.0.0.RC1'}
+CommitInfo{repo='GitHub', hash='bfa5d20a6ad329620cd0fbd8dc7eabf6e961e7ec', version='v2.0.0.RC2'}
+CommitInfo{repo='GitHub', hash='c57b62e007c18330271d76ba5fca730f52e09a25', version='v2.0.0.RC3'}
+CommitInfo{repo='GitHub', hash='81eec631633aaee8102db0350f7f3759d1b47704', version='v2.0.1'}
+CommitInfo{repo='GitHub', hash='1515e9524d1af499381dc5cd17af3809c29cd9a7', version='v2.0.2'}
+CommitInfo{repo='GitHub', hash='421b5dfa3a2879c03e3fe3d42d48a7c47d259e8b', version='v2.0.3'}
+CommitInfo{repo='GitHub', hash='96becc8e538fd3196998df049ace9006679e5690', version='v2.0.4'}
+CommitInfo{repo='GitHub', hash='74137545fb0bb092f79498878ce4bb3a137fdde9', version='v2.1.0'}
+CommitInfo{repo='GitHub', hash='d90a8a0fc3162c3f40322bc234dedfc269841c05', version='v2.1.0.RC1'}
+CommitInfo{repo='GitHub', hash='814e3f18fc8fb28fe0601c924ba10a264e4123c3', version='v2.1.0.RC2'}
+CommitInfo{repo='GitHub', hash='8366e864b375d6ecebc516af0011d21b7ba3372a', version='v2.1.0.RC3'}
+CommitInfo{repo='GitHub', hash='53fc75922c3305f20eb21e97ba13c5440e00a251', version='v2.1.1'}
+CommitInfo{repo='GitHub', hash='d0a68288b87f662e1ba880604531e2bb362869da', version='v2.1.2'}
+CommitInfo{repo='GitHub', hash='115cedef77129cd248114ce2b48bba56f882edce', version='v2.1.3'}
+CommitInfo{repo='GitHub', hash='27a936fe5dfb5fd2107ed68d3884a278c0da07cb', version='v2.1.4'}
+CommitInfo{repo='GitHub', hash='ec9d58f573a144f693e3ac0a5f6e423f383a70ac', version='v2.1.5'}
+CommitInfo{repo='GitHub', hash='773516041db6c1a90cf2bd0f2e1ff4291dd71264', version='v2.2.0'}
+CommitInfo{repo='GitHub', hash='413fdfc3ccb607c0d170c9f8408c27fc50392f85', version='v2.2.0.RC1'}
+CommitInfo{repo='GitHub', hash='dc4b463400e98a03925be69fab0b7566d920c584', version='v2.2.0.RC2'}
+CommitInfo{repo='GitHub', hash='fcdafd509a967974a88f6443492f92f017857a33', version='v2.2.0.RC3'}
+CommitInfo{repo='GitHub', hash='7108e2831d4546ce91c3e95d6eff369e5c32f3a4', version='v2.2.0.RC4'}
+CommitInfo{repo='GitHub', hash='b7b531889b4c85c2b9b7f0503f72943be0c1796d', version='v2.2.1'}
+CommitInfo{repo='GitHub', hash='2185428f9acdfbafb268534a166aa4ab7ff510d4', version='v2.2.2'}
+CommitInfo{repo='GitHub', hash='f3372f3b89cc988e20d1eab693e1f5e233440842', version='v2.2.3'}
+CommitInfo{repo='GitHub', hash='c57c54c0269c7be1065bafb6cd970c77097b4696', version='v2.2.4'}
+CommitInfo{repo='GitHub', hash='c189fa52c80110dd1e8a41ff282692760c7b01a8', version='v2.2.5'}
+CommitInfo{repo='GitHub', hash='9f0cb637ac0356210c367509224e5722a148125c', version='v2.3.0'}
+CommitInfo{repo='GitHub', hash='664b5f460f5d39bf23d6496bc53c811faf024496', version='v2.3.0.M1'}
+CommitInfo{repo='GitHub', hash='9c3c6962b4e7e6bf5b8db72fed830385f00a26e3', version='v2.3.0.M2'}
+CommitInfo{repo='GitHub', hash='11d7a0b697dd2f44d9e8a0fa7707a54706328ed8', version='v2.3.0.RC1'}
+CommitInfo{repo='GitHub', hash='8184198d402f13957e706676f0e73b2354d0a370', version='v2.3.0.RC2'}
+CommitInfo{repo='GitHub', hash='7c105ab76efb54e915bc1487785c0e2b3208b0c5', version='v2.3.1'}
+CommitInfo{repo='GitHub', hash='9c2baa54dfac23f0d58ba3c3c11d6f0fe780b89b', version='v2.3.10'}
+CommitInfo{repo='GitHub', hash='400cef75c79bd15d255a73615a82a15597092876', version='v2.3.11'}
+CommitInfo{repo='GitHub', hash='eb3106bf960c73c49a7976d3186ca562e6833084', version='v2.3.2'}
+CommitInfo{repo='GitHub', hash='2900f8efae29382c430af04faf1d4520fcc89bcf', version='v2.3.3'}
+CommitInfo{repo='GitHub', hash='131db938ef8ba4a88c611995f8ae2565c3a3faa0', version='v2.3.4'}
+CommitInfo{repo='GitHub', hash='c241ce10fb64a135860a7272ab4416f005294c2b', version='v2.3.5'}
+CommitInfo{repo='GitHub', hash='6380cea0cca6cbf1851a79d1f26e0210321c53e0', version='v2.3.6'}
+CommitInfo{repo='GitHub', hash='de34fa0535f16b68cf07947b05255c2f8700e709', version='v2.3.7'}
+CommitInfo{repo='GitHub', hash='f102cea3f62e77cd75701dd6db06b17dd472f0d1', version='v2.3.8'}
+CommitInfo{repo='GitHub', hash='a330fb20b4ba3065a329db693b7a4334dce32e2b', version='v2.3.9'}
+CommitInfo{repo='GitHub', hash='eee777e73fe82677dd68fe3361f5e6dc15e8c416', version='v2.4.0'}
+CommitInfo{repo='GitHub', hash='b7a341f4b3af27ffb5f53f09e722ec6b055974e1', version='v2.4.0.M1'}
+CommitInfo{repo='GitHub', hash='6bd173f55a73a69d5a090a287ad26a1f5e1b7125', version='v2.4.0.M2'}
+CommitInfo{repo='GitHub', hash='306a3d0c4617b27ec3709e6717a6c675f265226e', version='v2.4.0.RC1'}
+CommitInfo{repo='GitHub', hash='01b129a6e4c4cd63eef49b4ace322e19b7069880', version='v2.4.0.RC2'}
+CommitInfo{repo='GitHub', hash='cd60a41e8c58bf3049394c923dac491c013df616', version='v2.4.1'}
+CommitInfo{repo='GitHub', hash='87e62920aa931fcc5f590d29d15e4ddc44afa5cb', version='v2.4.2'}
+CommitInfo{repo='GitHub', hash='f20d5f5628d729afdc0c6780776f5b360adca8a8', version='v2.4.3'}
+CommitInfo{repo='GitHub', hash='13339a2072a796c6ac3bcd78d93b509b8d45475f', version='v2.4.4'}
+CommitInfo{repo='GitHub', hash='73cdf9b096044fcf3261a92d42f59a864f30eea6', version='v2.4.5'}
+CommitInfo{repo='GitHub', hash='429d416bb574170d2ccb6a12775b38fc3a0b46bb', version='v2.5.0'}
+CommitInfo{repo='GitHub', hash='3a0ac975ecc9a773c9227c0217f1deddde284715', version='v2.5.1'}
+CommitInfo{repo='GitHub', hash='40aa6e9cc3e9ddf698f549ce110e92bd846a6d85', version='v2.5.2'}
+CommitInfo{repo='GitHub', hash='d7f4656a432726175ea4db21a0941aab2703dad2', version='v2.5.3'}
+CommitInfo{repo='GitHub', hash='d45c00be6d8fdcce3edd21e16b50e30df9151b58', version='v2.5.4'}
+CommitInfo{repo='GitHub', hash='0ec157df1ec607ef7da58a751979f28d9a090cf4', version='v2.5.5'}
+CommitInfo{repo='GitHub', hash='bd7cc10e17d34f20cedce979724f0e3bacd4cdb4', version='v2.5.6'}
+CommitInfo{repo='GitHub', hash='33fdc6fc6c799b9801be1fd93aebe354f93725d7', version='v3.0.0'}
+CommitInfo{repo='GitHub', hash='24c6c082cce03474b72ac87a087bd13b7febea3f', version='v3.0.0.M1'}
+CommitInfo{repo='GitHub', hash='967dfc26a93b175283e287f2be6e6b3be8247b58', version='v3.0.0.M2'}
+CommitInfo{repo='GitHub', hash='bf32882e8f2178d05979faf4ecfc7d3aa87d15b7', version='v3.0.0.RC1'}
+CommitInfo{repo='GitHub', hash='4f8f4fcc209b5a3719b9177ae11caafb7cdc6abc', version='v3.0.0.RC2'}
+CommitInfo{repo='GitHub', hash='528f5e98d9a7571e3f30740d097e7c61b8c7df74', version='v3.0.0.RC3'}
+CommitInfo{repo='GitHub', hash='2762f11b7ce6defdfafa010ca5e19be8c2a91f0a', version='v3.0.1'}
+CommitInfo{repo='GitHub', hash='b7e8a6b0e3ce44efaeb6e88205153e5171b96235', version='v3.0.10'}
+CommitInfo{repo='GitHub', hash='b52560c22e4ecd91b358f56720cfe15abcc2e662', version='v3.0.11'}
+CommitInfo{repo='GitHub', hash='1bc01adcef7a6bcb86fe5294c80d792be3d5161a', version='v3.0.12'}
+CommitInfo{repo='GitHub', hash='a0753f0e475cf22d3164f111daf1d166876ae0c9', version='v3.0.13'}
+CommitInfo{repo='GitHub', hash='faca409a74b3706c46b97725a8cb66a0a5c8e987', version='v3.0.14'}
+CommitInfo{repo='GitHub', hash='232e2b28d2e8442877187c614b0fda3383419858', version='v3.0.15'}
+CommitInfo{repo='GitHub', hash='3dc68cc9d539f47488232eb9d26845a8c4a86130', version='v3.0.16'}
+CommitInfo{repo='GitHub', hash='ac8825316ed7df9f5ff0332d9910bea2e589d576', version='v3.0.17'}
+CommitInfo{repo='GitHub', hash='cdb1567b97c0a83417538c2be4c6d7b5626b8b50', version='v3.0.2'}
+CommitInfo{repo='GitHub', hash='2b2a1d8a06ca1a8c63df1e4c62c88c000353e5b6', version='v3.0.3'}
+CommitInfo{repo='GitHub', hash='4be6d666773353bd4c9a8fcb0a608f184012338d', version='v3.0.4'}
+CommitInfo{repo='GitHub', hash='fe79c155f88f424a44469d66d8275b4cb35c75d5', version='v3.0.5'}
+CommitInfo{repo='GitHub', hash='ca64e7caa1172a7bc95f0ab52203da5ba2693701', version='v3.0.6'}
+CommitInfo{repo='GitHub', hash='e95b757f0004128a83f51d9648fda3bf0a66a9a6', version='v3.0.7'}
+CommitInfo{repo='GitHub', hash='b2e5d3132e63a2cbd579fb478e70ad1a236b9dca', version='v3.0.8'}
+CommitInfo{repo='GitHub', hash='564dcdf6204c74cf64c29ef4de206fdca5635a87', version='v3.0.9'}
+CommitInfo{repo='GitHub', hash='b77d83f656eff8186da6fd2802667793e2c15ffa', version='v3.1.0'}
+CommitInfo{repo='GitHub', hash='4d3388313128104f4a82b50586b8aa9c2f19daa2', version='v3.1.0.M1'}
+CommitInfo{repo='GitHub', hash='c309bfe2f4613942cccbd2428f35ca6f0d018419', version='v3.1.0.M2'}
+CommitInfo{repo='GitHub', hash='4d1708a5519a9a6e58d4e5ef83bf6a90bc6248a1', version='v3.1.0.M3'}
+CommitInfo{repo='GitHub', hash='75cb748986c171feec2f5a073849bfe34d4ae0a5', version='v3.1.0.RC1'}
+CommitInfo{repo='GitHub', hash='ab263a126a0c19e610633114a8397c3bcb8be99a', version='v3.1.0.RC2'}
+CommitInfo{repo='GitHub', hash='e59aaf1df1a1beecf59fd026dd74d3fb191eb2d6', version='v3.1.1'}
+CommitInfo{repo='GitHub', hash='69ed7c4d00589a2b022e2fc3a146ec03354e48a1', version='v3.1.10'}
+CommitInfo{repo='GitHub', hash='452d3412894099eb64072eb448d4dad70926924a', version='v3.1.11'}
+CommitInfo{repo='GitHub', hash='991ef0074b2eecfabaf4c770084ebb9bb1bfcd64', version='v3.1.12'}
+CommitInfo{repo='GitHub', hash='3e45c408a6fb885389b3062230cc5d8ae5728f98', version='v3.1.13'}
+CommitInfo{repo='GitHub', hash='567a673e70c31df5e5a5bad490b188c385963f89', version='v3.1.14'}
+CommitInfo{repo='GitHub', hash='53555cdf79e4a37a234f9b320e2fe52f25db4a42', version='v3.1.15'}
+CommitInfo{repo='GitHub', hash='3831f52582e0725fb6bd669cecf182ca62f2569c', version='v3.1.16'}
+CommitInfo{repo='GitHub', hash='2a2405137e5e3901c4501c47b287314751fdf69a', version='v3.1.2'}
+CommitInfo{repo='GitHub', hash='6789d6233745e0fdf53541c107a6220aa570d9c3', version='v3.1.3'}
+CommitInfo{repo='GitHub', hash='e402f3fa32f84c1b816e97db893158606517f89e', version='v3.1.4'}
+CommitInfo{repo='GitHub', hash='38c3c5a231c20cd921b3d91cf0148e642b01ea95', version='v3.1.5'}
+CommitInfo{repo='GitHub', hash='6fef8a48279762ea97ec5fe815d3cf9206f22625', version='v3.1.6'}
+CommitInfo{repo='GitHub', hash='9146ad2c44978e92748dd4bfa0ee5157545d8f4f', version='v3.1.7'}
+CommitInfo{repo='GitHub', hash='287298f7cebf9e5bcafa68bc5dd9ed8623a0f5cb', version='v3.1.8'}
+CommitInfo{repo='GitHub', hash='06221a86d3f49ae51b00e3c96ae3846f337cf784', version='v3.1.9'}
+CommitInfo{repo='GitHub', hash='bb171ce356092ab46a68a8cb45da3ed0966f0637', version='v3.2.0'}
+CommitInfo{repo='GitHub', hash='e468e838b2c8aaa290e1d9c3cfbefee661dc521c', version='v3.2.0.M1'}
+CommitInfo{repo='GitHub', hash='0149ec76685d1a868c6b7cc6f16435ee10ea97e1', version='v3.2.0.M2'}
+CommitInfo{repo='GitHub', hash='2b2e78dc1a04e9935d21183997c7bf2ab533fa3d', version='v3.2.0.RC1'}
+CommitInfo{repo='GitHub', hash='7ee0670a97031a8f5f98ba61bc9c02e8759bf19c', version='v3.2.0.RC2'}
+CommitInfo{repo='GitHub', hash='9c703160359b72ecb11dd9e02cc13bc991c24280', version='v3.2.1'}
+CommitInfo{repo='GitHub', hash='653fc59cad6fc73131b46b907ce6e2f78957740c', version='v3.2.10'}
+CommitInfo{repo='GitHub', hash='1cf41df1ebfa5a19c4667f3945a63c1dffc5b14b', version='v3.2.11'}
+CommitInfo{repo='GitHub', hash='8f35326c9dfd364dd6b7a160368672771cf9610e', version='v3.2.12'}
+CommitInfo{repo='GitHub', hash='c42155a45334c96c39d735b156fa93abb0a89a35', version='v3.2.13'}
+CommitInfo{repo='GitHub', hash='c91534968707e93945038502644fad36fc4bccff', version='v3.2.2'}
+CommitInfo{repo='GitHub', hash='3f431c8108f553b147183f80fd4ba84cecee0323', version='v3.2.3'}
+CommitInfo{repo='GitHub', hash='7ea725831675c6feb7e96c94f503d59dccbaf13d', version='v3.2.4'}
+CommitInfo{repo='GitHub', hash='f0d11876bed8abb4802d27adf2a1a5e3f2352f9b', version='v3.2.5'}
+CommitInfo{repo='GitHub', hash='2be3e3b781c8d1e872763032e1a1e8d9c8e97f6c', version='v3.2.6'}
+CommitInfo{repo='GitHub', hash='b96a2bcc20abc49ce56237a95d82aa43b9819484', version='v3.2.7'}
+CommitInfo{repo='GitHub', hash='7bc3b8adb23af80c4ca9b875469d20852666184f', version='v3.2.8'}
+CommitInfo{repo='GitHub', hash='9b16da74f92435b4a1fb3c4286128916c50dd8d3', version='v3.2.9'}
+CommitInfo{repo='GitHub', hash='a1007c5ea3bda6fefac88bde14fa9afce5bc9549', version='v3.3.0'}
+CommitInfo{repo='GitHub', hash='22db3599e13d324e102dde069b35dd25bbaa4dfc', version='v3.3.0.M1'}
+CommitInfo{repo='GitHub', hash='0cdb7cd1938b87c989bcca649ae91a5b55e2a09d', version='v3.3.0.M2'}
+CommitInfo{repo='GitHub', hash='8fd030c27dde359a77791b9e93e3e0209683a6c9', version='v3.3.0.RC1'}
+CommitInfo{repo='GitHub', hash='96c530ab4400f28a4cc0001b2bacbbce1e360cc1', version='v3.3.1'}
+CommitInfo{repo='GitHub', hash='8e63b29371033d59228538fa86227332d4c73721', version='v3.3.2'}
+CommitInfo{repo='GitHub', hash='f3c4b86c060458fbd4f0a2cc28018b8ac50db86a', version='v3.3.3'}
+CommitInfo{repo='GitHub', hash='9e1e5906edf4dd2c088694a2e6b6d07632563718', version='v3.3.4'}
+CommitInfo{repo='GitHub', hash='ac4d775c39c88d819b05e56689d9c35f7a861582', version='v3.3.5'}
+CommitInfo{repo='GitHub', hash='fe933d400b3a0f5fe2184fdb1c83ac30d19562bb', version='v3.3.6'}
+
+Project A:
+ProjectVersionFixed(version=2.0.1, dependency=null, time=2012-03-19 13:21:54 UTC)
+ProjectVersionFixed(version=2.0.2, dependency=null, time=2012-03-29 15:02:50 UTC)
+ProjectVersionFixed(version=2.0.3, dependency=null, time=2012-04-10 09:21:16 UTC)
+ProjectVersionFixed(version=2.0.4, dependency=null, time=2012-05-23 13:13:09 UTC)
+ProjectVersionFixed(version=2.1.0.RC1, dependency=null, time=2012-05-15 11:56:43 UTC)
+ProjectVersionFixed(version=2.1.0.RC2, dependency=null, time=2012-05-22 16:36:52 UTC)
+ProjectVersionFixed(version=2.1.0.RC3, dependency=null, time=2012-06-20 13:06:37 UTC)
+ProjectVersionFixed(version=2.1.0, dependency=null, time=2012-07-05 10:23:59 UTC)
+ProjectVersionFixed(version=2.1.1, dependency=null, time=2012-09-12 08:06:48 UTC)
+ProjectVersionFixed(version=2.1.2, dependency=null, time=2012-12-05 14:13:38 UTC)
+ProjectVersionFixed(version=2.1.3, dependency=null, time=2012-12-19 14:28:53 UTC)
+ProjectVersionFixed(version=2.1.4, dependency=null, time=2013-02-25 09:16:18 UTC)
+ProjectVersionFixed(version=2.1.5, dependency=null, time=2013-04-29 09:15:54 UTC)
+ProjectVersionFixed(version=2.2.0.RC1, dependency=null, time=2012-09-19 09:45:30 UTC)
+ProjectVersionFixed(version=2.2.0.RC2, dependency=null, time=2012-10-31 14:08:51 UTC)
+ProjectVersionFixed(version=2.2.0.RC3, dependency=null, time=2012-12-07 17:45:08 UTC)
+ProjectVersionFixed(version=2.2.0.RC4, dependency=null, time=2012-12-13 14:43:08 UTC)
+ProjectVersionFixed(version=2.2.0, dependency=null, time=2012-12-20 08:34:49 UTC)
+ProjectVersionFixed(version=2.2.1, dependency=null, time=2013-02-25 10:26:24 UTC)
+ProjectVersionFixed(version=2.2.2, dependency=null, time=2013-04-29 09:25:08 UTC)
+ProjectVersionFixed(version=2.2.3, dependency=null, time=2013-06-21 13:33:53 UTC)
+ProjectVersionFixed(version=2.2.4, dependency=null, time=2013-08-02 13:47:39 UTC)
+ProjectVersionFixed(version=2.2.5, dependency=null, time=2014-03-04 10:31:32 UTC)
+ProjectVersionFixed(version=2.3.0.M1, dependency=null, time=2013-05-09 09:18:55 UTC)
+ProjectVersionFixed(version=2.3.0.M2, dependency=null, time=2013-06-27 14:44:50 UTC)
+ProjectVersionFixed(version=2.3.0.RC1, dependency=null, time=2013-07-30 08:39:26 UTC)
+ProjectVersionFixed(version=2.3.0.RC2, dependency=null, time=2013-08-29 09:02:55 UTC)
+ProjectVersionFixed(version=2.3.0, dependency=null, time=2013-09-06 10:01:57 UTC)
+ProjectVersionFixed(version=2.3.1, dependency=null, time=2013-10-17 09:40:25 UTC)
+ProjectVersionFixed(version=2.3.2, dependency=null, time=2013-11-07 18:56:43 UTC)
+ProjectVersionFixed(version=2.3.3, dependency=null, time=2013-11-21 10:24:53 UTC)
+ProjectVersionFixed(version=2.3.4, dependency=null, time=2013-12-05 10:09:30 UTC)
+ProjectVersionFixed(version=2.3.5, dependency=null, time=2014-01-16 12:43:19 UTC)
+ProjectVersionFixed(version=2.3.6, dependency=null, time=2014-02-18 09:36:26 UTC)
+ProjectVersionFixed(version=2.3.7, dependency=null, time=2014-03-06 11:07:00 UTC)
+ProjectVersionFixed(version=2.3.8, dependency=null, time=2014-04-24 09:06:17 UTC)
+ProjectVersionFixed(version=2.3.9, dependency=null, time=2014-05-22 06:45:50 UTC)
+ProjectVersionFixed(version=2.3.10, dependency=null, time=2014-06-17 09:11:30 UTC)
+ProjectVersionFixed(version=2.3.11, dependency=null, time=2014-06-26 07:17:08 UTC)
+ProjectVersionFixed(version=2.4.0.M1, dependency=null, time=2014-03-04 10:01:47 UTC)
+ProjectVersionFixed(version=2.4.0.M2, dependency=null, time=2014-04-24 09:43:38 UTC)
+ProjectVersionFixed(version=2.4.0.RC1, dependency=null, time=2014-05-08 10:19:10 UTC)
+ProjectVersionFixed(version=2.4.0.RC2, dependency=null, time=2014-05-15 12:18:32 UTC)
+ProjectVersionFixed(version=2.4.0, dependency=null, time=2014-05-21 08:39:03 UTC)
+ProjectVersionFixed(version=2.4.1, dependency=null, time=2014-06-17 07:53:07 UTC)
+ProjectVersionFixed(version=2.4.2, dependency=null, time=2014-06-26 07:40:36 UTC)
+ProjectVersionFixed(version=2.4.3, dependency=null, time=2014-07-30 10:18:21 UTC)
+ProjectVersionFixed(version=2.4.4, dependency=null, time=2014-10-28 11:47:15 UTC)
+ProjectVersionFixed(version=2.4.5, dependency=null, time=2015-03-24 18:08:53 UTC)
+ProjectVersionFixed(version=2.5.0, dependency=null, time=2015-03-25 01:07:22 UTC)
+ProjectVersionFixed(version=2.5.1, dependency=null, time=2015-07-29 06:35:08 UTC)
+ProjectVersionFixed(version=2.5.2, dependency=null, time=2015-10-14 06:39:08 UTC)
+ProjectVersionFixed(version=2.5.3, dependency=null, time=2015-11-25 11:20:10 UTC)
+ProjectVersionFixed(version=2.5.4, dependency=null, time=2016-03-03 08:12:41 UTC)
+ProjectVersionFixed(version=2.5.5, dependency=null, time=2016-06-24 13:16:49 UTC)
+ProjectVersionFixed(version=2.5.6, dependency=null, time=2017-03-23 08:07:38 UTC)
+ProjectVersionFixed(version=3.0.0.M1, dependency=null, time=2015-01-28 18:07:00 UTC)
+ProjectVersionFixed(version=3.0.0.RC2, dependency=2.4.1, time=2015-03-18 09:10:29 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.0.RC3, dependency=2.4.3, time=2015-03-26 13:49:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.0, dependency=2.4.3, time=2015-03-31 10:07:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.1, dependency=2.4.3, time=2015-04-02 08:51:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.2, dependency=null, time=2015-06-16 10:45:00 UTC)
+ProjectVersionFixed(version=3.0.3, dependency=2.4.3, time=2015-07-09 09:24:48 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.4, dependency=2.4.4, time=2015-07-29 09:15:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.5, dependency=2.4.4, time=2015-09-04 14:41:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.6, dependency=2.4.4, time=2015-09-09 12:22:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.7, dependency=null, time=2015-09-14 14:17:47 UTC)
+ProjectVersionFixed(version=3.0.9, dependency=2.4.5, time=2015-10-14 12:25:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.10, dependency=2.4.5, time=2015-12-03 13:04:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.11, dependency=2.4.5, time=2015-12-22 10:19:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.12, dependency=2.4.5, time=2016-01-21 16:10:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.13, dependency=2.4.5, time=2016-01-28 13:24:38 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.14, dependency=2.4.5, time=2016-02-04 10:24:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.15, dependency=2.4.5, time=2016-03-01 15:54:18 UTC),	Latest, "DependencyVersion(version=2.4.6, time=2016-02-22 08:41:19 UTC)"
+
+ProjectVersionFixed(version=3.0.16, dependency=2.4.5, time=2016-04-14 13:27:14 UTC),	Latest, "DependencyVersion(version=2.4.6, time=2016-02-22 08:41:19 UTC)"
+
+ProjectVersionFixed(version=3.0.17, dependency=2.4.5, time=2016-04-28 13:06:14 UTC),	Latest, "DependencyVersion(version=2.4.6, time=2016-02-22 08:41:19 UTC)"
+
+ProjectVersionFixed(version=3.1.0.M1, dependency=null, time=2015-09-14 13:29:11 UTC)
+ProjectVersionFixed(version=3.1.0.M2, dependency=2.4.5, time=2015-10-14 11:36:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.0.M3, dependency=2.4.5, time=2015-12-03 10:27:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.0.RC1, dependency=2.4.5, time=2015-12-22 09:49:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.0.RC2, dependency=2.4.5, time=2016-01-21 13:41:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.0, dependency=2.4.5, time=2016-01-28 14:30:03 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.1, dependency=2.4.5, time=2016-02-04 12:39:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.2, dependency=2.4.6, time=2016-03-01 16:31:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.3, dependency=2.4.6, time=2016-03-03 08:50:29 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.4, dependency=2.4.6, time=2016-03-16 16:55:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.5, dependency=2.4.6, time=2016-04-14 14:02:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.6, dependency=2.4.6, time=2016-04-28 13:39:14 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.7, dependency=2.4.6, time=2016-05-19 10:05:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.8, dependency=null, time=2016-05-31 14:07:56 UTC)
+ProjectVersionFixed(version=3.1.9, dependency=2.4.7, time=2016-06-29 06:30:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.10, dependency=2.4.7, time=2016-07-28 16:52:39 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.11, dependency=2.4.7, time=2016-09-02 09:02:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.12, dependency=2.4.7, time=2016-09-22 13:01:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.13, dependency=2.4.7, time=2016-10-27 14:59:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.14, dependency=null, time=2016-11-10 10:08:03 UTC)
+ProjectVersionFixed(version=3.1.15, dependency=2.4.7, time=2017-01-19 16:17:49 UTC),	Latest, "DependencyVersion(version=2.4.8, time=2017-01-13 15:21:30 UTC)"
+
+ProjectVersionFixed(version=3.1.16, dependency=2.4.7, time=2017-03-23 09:00:02 UTC),	Latest, "DependencyVersion(version=2.4.10, time=2017-03-18 01:40:38 UTC)"
+
+ProjectVersionFixed(version=3.2.0.M1, dependency=2.4.6, time=2016-05-31 13:30:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.2.0.M2, dependency=2.4.7, time=2016-07-22 07:51:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.2.0.RC1, dependency=2.4.7, time=2016-09-01 14:04:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.2.0.RC2, dependency=2.4.7, time=2016-09-15 13:46:38 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.2.0, dependency=2.4.7, time=2016-09-28 14:36:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.2.1, dependency=2.4.7, time=2016-10-18 13:38:48 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.2.3, dependency=null, time=2016-11-10 14:10:16 UTC)
+ProjectVersionFixed(version=3.2.4, dependency=2.4.7, time=2016-12-21 13:05:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.2.5, dependency=2.4.7, time=2017-02-01 14:10:02 UTC),	Latest, "DependencyVersion(version=2.4.8, time=2017-01-13 15:21:30 UTC)"
+
+ProjectVersionFixed(version=3.2.6, dependency=2.4.7, time=2017-02-09 16:59:28 UTC),	Latest, "DependencyVersion(version=2.4.8, time=2017-01-13 15:21:30 UTC)"
+
+ProjectVersionFixed(version=3.2.7, dependency=2.4.7, time=2017-03-06 15:22:21 UTC),	Latest, "DependencyVersion(version=2.4.9, time=2017-02-27 12:35:01 UTC)"
+
+ProjectVersionFixed(version=3.2.8, dependency=2.4.10, time=2017-03-23 10:01:17 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.2.9, dependency=2.4.10, time=2017-04-26 13:25:10 UTC),	Latest, "DependencyVersion(version=2.5.0-alpha-1, time=2017-04-02 07:28:28 UTC)"
+
+ProjectVersionFixed(version=3.2.10, dependency=2.4.10, time=2017-05-30 10:57:38 UTC),	Latest, "DependencyVersion(version=2.5.0-alpha-1, time=2017-04-02 07:28:28 UTC)"
+
+ProjectVersionFixed(version=3.2.11, dependency=2.4.11, time=2017-06-26 14:58:54 UTC),	Latest, "DependencyVersion(version=2.5.0-beta-1, time=2017-06-06 11:12:45 UTC)"
+
+ProjectVersionFixed(version=3.2.12, dependency=null, time=2018-02-01 20:54:19 UTC)
+ProjectVersionFixed(version=3.3.0.M1, dependency=2.4.10, time=2017-05-09 14:02:31 UTC),	Latest, "DependencyVersion(version=2.5.0-alpha-1, time=2017-04-02 07:28:28 UTC)"
+
+ProjectVersionFixed(version=3.3.0.M2, dependency=2.4.11, time=2017-05-30 12:35:06 UTC),	Latest, "DependencyVersion(version=2.5.0-alpha-1, time=2017-04-02 07:28:28 UTC)"
+
+ProjectVersionFixed(version=3.3.0.RC1, dependency=2.4.12, time=2017-06-26 13:48:21 UTC),	Latest, "DependencyVersion(version=2.5.0-beta-1, time=2017-06-06 11:12:45 UTC)"
+
+ProjectVersionFixed(version=3.3.0, dependency=2.4.11, time=2017-07-26 14:56:28 UTC),	Latest, "DependencyVersion(version=2.5.0-beta-1, time=2017-06-06 11:12:45 UTC)"
+
+ProjectVersionFixed(version=3.3.1, dependency=2.4.11, time=2017-09-22 13:10:54 UTC),	Latest, "DependencyVersion(version=2.6.0-alpha-1, time=2017-09-06 08:12:34 UTC)"
+
+ProjectVersionFixed(version=3.3.2, dependency=null, time=2017-11-24 16:11:48 UTC)
+ProjectVersionFixed(version=3.3.3, dependency=null, time=2018-03-07 19:25:36 UTC)
+
+Project B:
+DependencyVersion(version=2.0.0, time=2012-06-28 07:32:36 UTC)
+DependencyVersion(version=2.0.0-rc-1, time=2012-05-31 12:23:15 UTC)
+DependencyVersion(version=2.0.0-rc-2, time=2012-06-01 22:25:48 UTC)
+DependencyVersion(version=2.0.0-rc-3, time=2012-06-14 10:57:11 UTC)
+DependencyVersion(version=2.0.0-rc-4, time=2012-06-21 08:06:38 UTC)
+DependencyVersion(version=2.0.1, time=2012-07-25 12:22:23 UTC)
+DependencyVersion(version=2.0.2, time=2012-09-10 11:23:51 UTC)
+DependencyVersion(version=2.0.3, time=2012-09-21 11:19:46 UTC)
+DependencyVersion(version=2.0.4, time=2012-09-21 15:35:49 UTC)
+DependencyVersion(version=2.0.5, time=2012-10-04 13:04:34 UTC)
+DependencyVersion(version=2.0.6, time=2012-12-21 10:24:02 UTC)
+DependencyVersion(version=2.0.7, time=2013-02-15 09:50:48 UTC)
+DependencyVersion(version=2.0.8, time=2013-04-12 11:01:39 UTC)
+DependencyVersion(version=2.1.0, time=2013-01-24 20:43:28 UTC)
+DependencyVersion(version=2.1.0-beta-1, time=2012-12-21 11:41:07 UTC)
+DependencyVersion(version=2.1.0-rc-1, time=2013-01-10 11:16:32 UTC)
+DependencyVersion(version=2.1.0-rc-2, time=2013-01-18 15:54:48 UTC)
+DependencyVersion(version=2.1.0-rc-3, time=2013-01-21 15:53:46 UTC)
+DependencyVersion(version=2.1.1, time=2013-02-15 10:56:24 UTC)
+DependencyVersion(version=2.1.2, time=2013-03-19 09:43:07 UTC)
+DependencyVersion(version=2.1.3, time=2013-04-12 14:26:23 UTC)
+DependencyVersion(version=2.1.4, time=2013-05-31 09:52:52 UTC)
+DependencyVersion(version=2.1.5, time=2013-06-14 09:09:37 UTC)
+DependencyVersion(version=2.1.6, time=2013-07-09 16:10:26 UTC)
+DependencyVersion(version=2.1.7, time=2013-09-05 22:50:42 UTC)
+DependencyVersion(version=2.1.8, time=2013-10-14 15:20:05 UTC)
+DependencyVersion(version=2.1.9, time=2013-10-29 13:01:12 UTC)
+DependencyVersion(version=2.2.0, time=2013-11-18 15:17:43 UTC)
+DependencyVersion(version=2.2.0-beta-1, time=2013-07-09 14:25:21 UTC)
+DependencyVersion(version=2.2.0-beta-2, time=2013-09-05 19:42:02 UTC)
+DependencyVersion(version=2.2.0-rc-1, time=2013-10-14 12:42:43 UTC)
+DependencyVersion(version=2.2.0-rc-2, time=2013-10-29 09:21:00 UTC)
+DependencyVersion(version=2.2.0-rc-3, time=2013-11-06 16:10:38 UTC)
+DependencyVersion(version=2.2.1, time=2013-11-26 15:30:59 UTC)
+DependencyVersion(version=2.2.2, time=2014-02-26 17:26:24 UTC)
+DependencyVersion(version=2.3.0, time=2014-05-05 10:16:22 UTC)
+DependencyVersion(version=2.3.0-beta-1, time=2014-04-04 17:48:04 UTC)
+DependencyVersion(version=2.3.0-beta-2, time=2014-04-10 20:21:25 UTC)
+DependencyVersion(version=2.3.0-rc-1, time=2014-04-24 15:45:32 UTC)
+DependencyVersion(version=2.3.0-rc-2, time=2014-04-28 12:31:24 UTC)
+DependencyVersion(version=2.3.0-rc-4, time=2014-05-01 16:18:22 UTC)
+DependencyVersion(version=2.3.1, time=2014-05-19 13:25:25 UTC)
+DependencyVersion(version=2.3.10, time=2015-02-18 11:14:07 UTC)
+DependencyVersion(version=2.3.11, time=2015-03-19 09:32:43 UTC)
+DependencyVersion(version=2.3.2, time=2014-05-28 07:41:29 UTC)
+DependencyVersion(version=2.3.3, time=2014-06-11 14:43:16 UTC)
+DependencyVersion(version=2.3.4, time=2014-07-08 17:57:36 UTC)
+DependencyVersion(version=2.3.5, time=2014-07-25 17:16:08 UTC)
+DependencyVersion(version=2.3.6, time=2014-07-28 13:52:24 UTC)
+DependencyVersion(version=2.3.7, time=2014-09-25 13:48:25 UTC)
+DependencyVersion(version=2.3.8, time=2014-11-28 09:44:00 UTC)
+DependencyVersion(version=2.3.9, time=2014-12-19 14:28:09 UTC)
+DependencyVersion(version=2.4.0, time=2015-01-21 15:56:34 UTC)
+DependencyVersion(version=2.4.0-beta-1, time=2014-06-11 15:39:10 UTC)
+DependencyVersion(version=2.4.0-beta-2, time=2014-07-28 16:35:31 UTC)
+DependencyVersion(version=2.4.0-beta-3, time=2014-09-02 14:00:27 UTC)
+DependencyVersion(version=2.4.0-beta-4, time=2014-11-26 15:53:53 UTC)
+DependencyVersion(version=2.4.0-rc-1, time=2014-12-23 20:59:36 UTC)
+DependencyVersion(version=2.4.0-rc-2, time=2015-01-07 12:12:29 UTC)
+DependencyVersion(version=2.4.1, time=2015-02-18 10:36:09 UTC)
+DependencyVersion(version=2.4.10, time=2017-03-18 01:40:38 UTC)
+DependencyVersion(version=2.4.11, time=2017-04-28 00:35:51 UTC)
+DependencyVersion(version=2.4.12, time=2017-06-24 11:55:58 UTC)
+DependencyVersion(version=2.4.13, time=2017-11-22 23:24:30 UTC)
+DependencyVersion(version=2.4.14, time=2018-03-01 23:38:34 UTC)
+DependencyVersion(version=2.4.15, time=2018-03-27 08:44:46 UTC)
+DependencyVersion(version=2.4.2, time=2015-03-19 10:14:06 UTC)
+DependencyVersion(version=2.4.3, time=2015-03-23 18:11:41 UTC)
+DependencyVersion(version=2.4.4, time=2015-07-16 08:58:47 UTC)
+DependencyVersion(version=2.4.5, time=2015-09-24 14:05:05 UTC)
+DependencyVersion(version=2.4.6, time=2016-02-22 08:41:19 UTC)
+DependencyVersion(version=2.4.7, time=2016-06-07 08:38:54 UTC)
+DependencyVersion(version=2.4.8, time=2017-01-13 15:21:30 UTC)
+DependencyVersion(version=2.4.9, time=2017-02-27 12:35:01 UTC)
+DependencyVersion(version=2.5.0, time=2018-05-30 03:57:24 UTC)
+DependencyVersion(version=2.5.0-alpha-1, time=2017-04-02 07:28:28 UTC)
+DependencyVersion(version=2.5.0-beta-1, time=2017-06-06 11:12:45 UTC)
+DependencyVersion(version=2.5.0-beta-2, time=2017-10-05 10:00:10 UTC)
+DependencyVersion(version=2.5.0-beta-3, time=2018-02-23 07:12:04 UTC)
+DependencyVersion(version=2.5.0-rc-1, time=2018-04-09 01:44:30 UTC)
+DependencyVersion(version=2.5.0-rc-2, time=2018-05-06 03:11:30 UTC)
+DependencyVersion(version=2.5.0-rc-3, time=2018-05-22 15:55:44 UTC)
+DependencyVersion(version=2.5.1, time=2018-07-13 13:33:36 UTC)
+DependencyVersion(version=2.5.2, time=2018-08-14 00:21:11 UTC)
+DependencyVersion(version=2.5.3, time=2018-10-14 05:22:58 UTC)
+DependencyVersion(version=2.5.4, time=2018-11-11 22:19:07 UTC)
+DependencyVersion(version=2.6.0-alpha-1, time=2017-09-06 08:12:34 UTC)
+DependencyVersion(version=2.6.0-alpha-2, time=2017-11-15 04:39:24 UTC)
+DependencyVersion(version=2.6.0-alpha-3, time=2018-03-06 00:30:23 UTC)
+DependencyVersion(version=2.6.0-alpha-4, time=2018-06-26 08:23:31 UTC)
+DependencyVersion(version=3.0.0-alpha-1, time=2017-11-29 08:23:18 UTC)
+DependencyVersion(version=3.0.0-alpha-2, time=2018-04-17 03:02:51 UTC)
+DependencyVersion(version=3.0.0-alpha-3, time=2018-06-26 10:14:56 UTC)

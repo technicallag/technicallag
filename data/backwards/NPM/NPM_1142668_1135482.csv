@@ -1,0 +1,62 @@
+
+Project information
+easylog (1142668)	log-pattern (1135482)	Package Manager: NPM
+RepoID: 4247924
+Tag information:
+CommitInfo{repo='GitHub', hash='bbf10b5356194e57466b6a71aab965c09a67613b', version='v0.0.10'}
+CommitInfo{repo='GitHub', hash='3bf8516271881a1408b260679e2b8232d7f9e1a8', version='v0.0.11'}
+CommitInfo{repo='GitHub', hash='8c7a62a1df9a591180e54a67bad3f5207bf4374f', version='v0.0.12'}
+CommitInfo{repo='GitHub', hash='cb7bcacef0ba2e0bb9305a28cafcb793b1f69ea2', version='v0.0.2'}
+CommitInfo{repo='GitHub', hash='daad5ed536da4ec2afec998c4bb06fa5fb5eae53', version='v0.0.3'}
+CommitInfo{repo='GitHub', hash='df02adc23a692e811dc9ca3b83295a743a643783', version='v0.0.4'}
+CommitInfo{repo='GitHub', hash='859c8368f8e1794b694ac59b269bd39987a73749', version='v0.0.5'}
+CommitInfo{repo='GitHub', hash='096ad9c9115e10d24209fae94a557b78d172a144', version='v0.0.7'}
+CommitInfo{repo='GitHub', hash='c3fab31a2dbb7ceccdfea94da7471532d19df088', version='v0.0.8'}
+CommitInfo{repo='GitHub', hash='fc2d9fc0c106f00a8743f1fbe517cf35a24c5565', version='v0.0.9'}
+CommitInfo{repo='GitHub', hash='1e6ea0ac2fc61a26d9ee40819a79ab7594bfb106', version='v0.1.0'}
+CommitInfo{repo='GitHub', hash='c8c14d068d03a1031350b86dd353d0803a497113', version='v0.1.1'}
+
+Project A:
+ProjectVersionFixed(version=0.0.1, dependency=0.0.3, time=2016-01-07 03:43:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.2, dependency=0.0.3, time=2016-01-07 03:45:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.3, dependency=0.0.3, time=2016-01-07 03:47:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.4, dependency=0.0.3, time=2016-01-07 03:48:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.5, dependency=0.0.4, time=2016-01-07 03:49:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.6, dependency=0.0.4, time=2016-01-18 08:33:56 UTC),	Latest, "DependencyVersion(version=0.0.5, time=2016-01-15 10:37:11 UTC)"
+
+ProjectVersionFixed(version=0.0.7, dependency=0.0.4, time=2016-01-27 11:12:02 UTC),	Latest, "DependencyVersion(version=0.0.6, time=2016-01-18 08:35:00 UTC)"
+
+ProjectVersionFixed(version=0.0.8, dependency=0.0.7, time=2016-01-27 11:16:50 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.9, dependency=0.0.8, time=2016-01-27 11:32:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.10, dependency=0.0.8, time=2016-01-28 21:28:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.11, dependency=0.0.9, time=2016-05-04 23:54:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.0.12, dependency=0.0.11, time=2016-07-18 15:35:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.1.0, dependency=0.0.9, time=2016-11-03 21:01:14 UTC),	Latest, "DependencyVersion(version=0.0.12, time=2016-07-21 08:10:03 UTC)"
+
+ProjectVersionFixed(version=0.1.1, dependency=0.0.9, time=2016-11-03 21:02:38 UTC),	Latest, "DependencyVersion(version=0.0.12, time=2016-07-21 08:10:03 UTC)"
+
+
+Project B:
+DependencyVersion(version=0.0.1, time=2015-12-29 18:27:12 UTC)
+DependencyVersion(version=0.0.10, time=2016-05-05 23:57:53 UTC)
+DependencyVersion(version=0.0.11, time=2016-07-18 15:19:38 UTC)
+DependencyVersion(version=0.0.12, time=2016-07-21 08:10:03 UTC)
+DependencyVersion(version=0.0.13, time=2017-08-10 16:53:52 UTC)
+DependencyVersion(version=0.0.2, time=2015-12-30 02:58:30 UTC)
+DependencyVersion(version=0.0.3, time=2015-12-30 03:00:54 UTC)
+DependencyVersion(version=0.0.4, time=2016-01-07 03:48:53 UTC)
+DependencyVersion(version=0.0.5, time=2016-01-15 10:37:11 UTC)
+DependencyVersion(version=0.0.6, time=2016-01-18 08:35:00 UTC)
+DependencyVersion(version=0.0.7, time=2016-01-27 11:16:05 UTC)
+DependencyVersion(version=0.0.8, time=2016-01-27 11:32:02 UTC)
+DependencyVersion(version=0.0.9, time=2016-05-04 22:32:17 UTC)

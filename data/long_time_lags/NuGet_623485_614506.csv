@@ -101,8 +101,8 @@ Project information
 ScaffR.Data (623485)	EntityFramework.SqlServerCompact (614506)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.1.1, dependency=null, time=2012-09-01 06:49:26 UTC)
-ProjectVersion(version=1.1.3, dependency=4.3.3, time=2012-10-02 11:35:27 UTC),	Latest, DependencyVersion(version=6.2.0-beta1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.1.1, dependency=null, time=2012-09-01 06:49:26 UTC)
+ProjectVersionFixed(version=1.1.3, dependency== 4.3.3, time=2012-10-02 11:35:27 UTC),	Latest, DependencyVersion(version=6.2.0-beta1, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=4.1.8482.1, time=2011-03-17 17:47:17 UTC)

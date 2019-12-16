@@ -101,7 +101,7 @@ Project information
 Machine.Specifications.Runner.Resharper9.2 (1015583)	Wave (1008608)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.2.0-Unstable0010, dependency=3.0.0, time=2015-08-27 07:54:58 UTC),	Latest, DependencyVersion(version=183.0.0-eap08, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.2.0-Unstable0010, dependency== 3.0.0, time=2015-08-27 07:54:58 UTC),	Latest, DependencyVersion(version=183.0.0-eap08, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.0.0, time=1900-01-01 00:00:00 UTC)

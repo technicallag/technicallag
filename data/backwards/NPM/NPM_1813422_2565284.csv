@@ -1,0 +1,558 @@
+
+Project information
+gooddata (1813422)	@gooddata/typings (2565284)	Package Manager: NPM
+RepoID: 716595
+Tag information:
+CommitInfo{repo='GitHub', hash='0a7246aab8a979adc3ee1a60f89ff0756df9b7ef', version='v0.0.12'}
+CommitInfo{repo='GitHub', hash='c92d4d1d71a544f38401543c47667b8db5abd6b6', version='v0.0.13'}
+CommitInfo{repo='GitHub', hash='89d644cabb3d3a0fb1b6f740c2daca66d8832ce0', version='v0.1.0'}
+CommitInfo{repo='GitHub', hash='e5d2f638210d8de1285b948c71276554289bcf5f', version='v0.1.1'}
+CommitInfo{repo='GitHub', hash='43ee67a9bb6cbcdaa6f755dbcd9b575f9a25795a', version='v0.1.10'}
+CommitInfo{repo='GitHub', hash='1bfc1f40113eaf77cd8be57c9517a081a2cc6c0e', version='v0.1.11'}
+CommitInfo{repo='GitHub', hash='74d0b959907b74ba6dd6f0609377b91a2452e1da', version='v0.1.12'}
+CommitInfo{repo='GitHub', hash='a3926d8eeec55642a72a0476b4ba1d9c3934c06c', version='v0.1.13'}
+CommitInfo{repo='GitHub', hash='f9264d04480e104b69465d918711d17ce7cac87b', version='v0.1.14'}
+CommitInfo{repo='GitHub', hash='d92498591b8920dfd5641a2f99a161b1c76d8d05', version='v0.1.15'}
+CommitInfo{repo='GitHub', hash='6dd30ad9393afea7b380240a40909f2873fdc907', version='v0.1.16'}
+CommitInfo{repo='GitHub', hash='27fb88f0543267c401770e2d4728c2285735e813', version='v0.1.17'}
+CommitInfo{repo='GitHub', hash='84635c1f57d41c70c6acf48e17a171f6d4962d7e', version='v0.1.18'}
+CommitInfo{repo='GitHub', hash='2c16fee8f682e04a37d7bbbf6c92fc18516c14d7', version='v0.1.19'}
+CommitInfo{repo='GitHub', hash='18441d8bc4d59eb86fb827401a22ec1d7d1bcbcb', version='v0.1.2'}
+CommitInfo{repo='GitHub', hash='3f305056e7e934e5d011a37090c9a42856517e6a', version='v0.1.20'}
+CommitInfo{repo='GitHub', hash='668ac6ee89180fd39ffeeb5db734e943984d84e4', version='v0.1.21'}
+CommitInfo{repo='GitHub', hash='23d5c37dde89af2098eb0cd27627ee66c4eaa032', version='v0.1.22'}
+CommitInfo{repo='GitHub', hash='2088ad92e9ae8676c87509d46083dc18bf348336', version='v0.1.23'}
+CommitInfo{repo='GitHub', hash='da769c2c4854b8122bb0416f4f0214ef0e12fab0', version='v0.1.24'}
+CommitInfo{repo='GitHub', hash='87efe3d3eb5c09a2ea584622dad3230cbdbf8707', version='v0.1.25'}
+CommitInfo{repo='GitHub', hash='b06ab99fb87bd71f0268ed44e2a800d1134b7b61', version='v0.1.26'}
+CommitInfo{repo='GitHub', hash='a730c981948fd89ecad7a54bbebadc39615ecf73', version='v0.1.27'}
+CommitInfo{repo='GitHub', hash='2911688c077d8f6bbfb840b1aa3151a0f7b395c6', version='v0.1.28'}
+CommitInfo{repo='GitHub', hash='c647a17b865317ac12b28840efa07fdd8e7be1c1', version='v0.1.29'}
+CommitInfo{repo='GitHub', hash='2a2c3d05416ae16795e48e60cfab9c606957e757', version='v0.1.3'}
+CommitInfo{repo='GitHub', hash='ef302f10faac09333349a426a69190c0db782a49', version='v0.1.30'}
+CommitInfo{repo='GitHub', hash='9ed320bfd7b452dee171d8dbf9dcdeadfca1c557', version='v0.1.31'}
+CommitInfo{repo='GitHub', hash='5e12d7ca68e4136c010abdfd6f8c2b1241a8188d', version='v0.1.32'}
+CommitInfo{repo='GitHub', hash='6949d15f72a60d24502ebab10302f37a6445571f', version='v0.1.33'}
+CommitInfo{repo='GitHub', hash='4ea3a617db48b80aa1a46837d92680c2106ff3f4', version='v0.1.34'}
+CommitInfo{repo='GitHub', hash='0b201ec849acd8453fa3d587c14c857c6f228280', version='v0.1.35'}
+CommitInfo{repo='GitHub', hash='6d49357dbb5d6637f2bd7e5709efa1dbf8b6250e', version='v0.1.36'}
+CommitInfo{repo='GitHub', hash='7c1b124cc62fb047d881fd13226aebe262555939', version='v0.1.37'}
+CommitInfo{repo='GitHub', hash='37bb969ea28b7092c64b5854e3f6e9a5a800a091', version='v0.1.38'}
+CommitInfo{repo='GitHub', hash='96e006e818ce6d912c424ccd8b4baac4ca92c67b', version='v0.1.39'}
+CommitInfo{repo='GitHub', hash='31fab34616df25f03a9686a9b84535644fda1c2a', version='v0.1.4'}
+CommitInfo{repo='GitHub', hash='7d077c291feb086deb129547aec87704b757c4f3', version='v0.1.40'}
+CommitInfo{repo='GitHub', hash='0b8e3900f955231f46c420b7e6501efefb0316d1', version='v0.1.41'}
+CommitInfo{repo='GitHub', hash='39c2867e8ede497a2ff93d5ba085502a970adcf5', version='v0.1.42'}
+CommitInfo{repo='GitHub', hash='2b5941c928bbacc4a69356bf87dab2a9920086a2', version='v0.1.43'}
+CommitInfo{repo='GitHub', hash='c3d86f50f1efda6bdd9c6eba1be085047b8d4293', version='v0.1.44'}
+CommitInfo{repo='GitHub', hash='3a7074db279f8aba6b89ab5358b222e4404694ed', version='v0.1.45'}
+CommitInfo{repo='GitHub', hash='5054a1406c24a01ae65dd2babae94d0f697da20c', version='v0.1.46'}
+CommitInfo{repo='GitHub', hash='49a978004015ebb5cf7acbfcf0f650b0c9a8f07b', version='v0.1.47'}
+CommitInfo{repo='GitHub', hash='c5b3cbef45103e6f4a7caa2f5c8ac4ad59c857e6', version='v0.1.48'}
+CommitInfo{repo='GitHub', hash='60559694ee5ca9da530edc271ef4cb293ee43b16', version='v0.1.49'}
+CommitInfo{repo='GitHub', hash='cc5a838d1124005a5e0d58eb60d82e3c910f261d', version='v0.1.5'}
+CommitInfo{repo='GitHub', hash='6f3690530d20da20b4bf36655580fd2d85826de1', version='v0.1.50'}
+CommitInfo{repo='GitHub', hash='d92105f8b4c32a47b8635e76ccefadcd3e3f29db', version='v0.1.51'}
+CommitInfo{repo='GitHub', hash='b26f86ed805cb1ae7da04443c1a2890799468853', version='v0.1.52'}
+CommitInfo{repo='GitHub', hash='7b1d82c9b99a050e21f1d6f8c6766c9e7671d558', version='v0.1.53'}
+CommitInfo{repo='GitHub', hash='3a52a3a5b0b13f2c37f62eab169649a7587a5f96', version='v0.1.54'}
+CommitInfo{repo='GitHub', hash='0bc8332f85d571eb29b70ccc26c95ccf1a5f7ba8', version='v0.1.55'}
+CommitInfo{repo='GitHub', hash='d9b23cd8d0bbe9f3814d1b2db26eeb9c9b004f3a', version='v0.1.56'}
+CommitInfo{repo='GitHub', hash='8a82644ec4de8171189ea06af37309fbb677ce9d', version='v0.1.57'}
+CommitInfo{repo='GitHub', hash='8eec352c5f1d70e6102646578fb36dd62979c5a7', version='v0.1.58'}
+CommitInfo{repo='GitHub', hash='d2503f7c1de66d4aba76dc956c483ed08c48b0fa', version='v0.1.59'}
+CommitInfo{repo='GitHub', hash='a435b03dab152cb352d3fea68f920a3923374499', version='v0.1.6'}
+CommitInfo{repo='GitHub', hash='f25488da821a3282ce2907dec00af0f5d70f36fe', version='v0.1.60'}
+CommitInfo{repo='GitHub', hash='f54bf9836c6b34e6fcadf69ecc665bec5ec7117d', version='v0.1.61'}
+CommitInfo{repo='GitHub', hash='e62c949f5f7230978e32e27d11208ca424a20888', version='v0.1.62'}
+CommitInfo{repo='GitHub', hash='201d695c613b947e4e75aefd5f6342587205a7b7', version='v0.1.63'}
+CommitInfo{repo='GitHub', hash='47ffa91668d1042ab8fd756c88606fb56bf9601b', version='v0.1.7'}
+CommitInfo{repo='GitHub', hash='cca2e7a7de3d158fe579ee247eb8dde05694fa23', version='v0.1.8'}
+CommitInfo{repo='GitHub', hash='1dd52b039aa195b5084d120f9c1d2382b6e61e6a', version='v0.1.9'}
+CommitInfo{repo='GitHub', hash='ea58fe2c920d4f496ff3e543303f0f33ec28a952', version='v1.0.0'}
+CommitInfo{repo='GitHub', hash='8d2cf12130ae3ba5608eb4688f3b939d59f9e063', version='v1.0.1'}
+CommitInfo{repo='GitHub', hash='438bef0ca8b048b4c675dfe92a334c9c96841eba', version='v1.0.2'}
+CommitInfo{repo='GitHub', hash='59fb269f90b5d3701c9d95d424aa37faba0f7e59', version='v1.0.3'}
+CommitInfo{repo='GitHub', hash='40bb4a9373bfef0dea2686ef7c7ee09aa88a254a', version='v1.0.4'}
+CommitInfo{repo='GitHub', hash='fc2ca9633e914aa3824b264ec4a297002f72913b', version='v1.0.5'}
+CommitInfo{repo='GitHub', hash='b7971fa58857c0c2b3faf3eb3382fac00b4c48bc', version='v1.0.6'}
+CommitInfo{repo='GitHub', hash='e021a6d196a840c764606ec73294317d25ca83d0', version='v1.0.7'}
+CommitInfo{repo='GitHub', hash='9f4cfea3f3c2c7d9b072a7607d188a4628d83abc', version='v1.0.8'}
+CommitInfo{repo='GitHub', hash='18921ccabf6cff995ec369e9c4d2ecaa62d4862d', version='v1.1.0'}
+CommitInfo{repo='GitHub', hash='7f30a8a647136d212c70a0beeeb3442629b12ebd', version='v1.2.0'}
+CommitInfo{repo='GitHub', hash='1a3c2a87f7106bec4ad4cfb22fe692e90e9ea799', version='v1.3.0'}
+CommitInfo{repo='GitHub', hash='4c7b02d22e46fe94f1ca1840e3ab2ebf0ee635b8', version='v1.4.0'}
+CommitInfo{repo='GitHub', hash='330c7c8dfc46622e0e732b02e6dca69e34178f2b', version='v1.5.0'}
+CommitInfo{repo='GitHub', hash='5a4f4bc3b986598323e00a7d0b48c547c2828864', version='v1.5.1'}
+CommitInfo{repo='GitHub', hash='74fb02918e31094b781fe98e9c4308328975f320', version='v1.6.0'}
+CommitInfo{repo='GitHub', hash='106dfa4fb3d59c3ff17aa12c9f15c74c45564403', version='v1.7.0'}
+CommitInfo{repo='GitHub', hash='be3c48bf75bc84e268a23cf940b0da0658b9ed1b', version='v1.7.1'}
+CommitInfo{repo='GitHub', hash='b60bb3ab5d2bddfe3e87cce2163b0a8382bb926c', version='v2.0.0'}
+CommitInfo{repo='GitHub', hash='80dc11a4e1e9add5d416d17b5b70af7959675166', version='v2.1.0'}
+CommitInfo{repo='GitHub', hash='fbe441096d07c47e0fe2755df14a55d672094ccf', version='v2.1.1'}
+CommitInfo{repo='GitHub', hash='0e27f07f2c12a418a6def9c9e64412fe08a69d23', version='v2.2.0'}
+CommitInfo{repo='GitHub', hash='e2f8ce72dc700b839e34a2286c1876a1564b02d1', version='v2.3.0'}
+CommitInfo{repo='GitHub', hash='999b1350cb8b1cf34a2490051705a1460b69e91e', version='v2.4.0'}
+CommitInfo{repo='GitHub', hash='5fd0fa34d08874548ab576708cdc55da276bf7eb', version='v3.0.0'}
+CommitInfo{repo='GitHub', hash='56f4f00a48ed401f5b3844df59eca1f0c2fb7302', version='v3.0.1'}
+CommitInfo{repo='GitHub', hash='491a94bdf9ec7d016938855565aac0ddea9a589a', version='v4.0.0'}
+CommitInfo{repo='GitHub', hash='324011e3423d33883a2eb2bdbc8c48c2333d31da', version='v4.1.0'}
+CommitInfo{repo='GitHub', hash='f1e36a422f31ef56f947a618bc2bb46cf375823d', version='v4.2.0'}
+CommitInfo{repo='GitHub', hash='26140767c7aafa6418030ed03fa37e84644b7d8c', version='v4.3.0'}
+CommitInfo{repo='GitHub', hash='a05cbf55de871a236ca775f747025ae13283f854', version='v4.3.1'}
+CommitInfo{repo='GitHub', hash='9700a5fddd951d112e628c303de03827fe6128b1', version='v4.4.0'}
+CommitInfo{repo='GitHub', hash='1c9b152f1cbefbf28adf0c20a231874060492b4a', version='v4.4.1'}
+CommitInfo{repo='GitHub', hash='bc3279ae333503e60d064800daf58dfcf646cdaf', version='v4.5.0'}
+CommitInfo{repo='GitHub', hash='b9db9b362c1edf48048af2fb694147d0379541bf', version='v4.5.1'}
+CommitInfo{repo='GitHub', hash='8c252e48888d64a635cd52d0a08967b5f85e9624', version='v5.0.0'}
+CommitInfo{repo='GitHub', hash='4eaa09264569c6eebe3a03dfa1d33b233fe2e9ae', version='v5.0.0-alpha1'}
+CommitInfo{repo='GitHub', hash='b6a79377d3619689118fc7a71dce5c9ffebed239', version='v5.0.0-alpha2'}
+CommitInfo{repo='GitHub', hash='61ceac71445d149b127681a5464598969d65c6b1', version='v5.0.0-alpha3'}
+CommitInfo{repo='GitHub', hash='783034fd72ba0f6fa3a078688d26a6474cb9e765', version='v5.0.0-alpha4'}
+CommitInfo{repo='GitHub', hash='9afdad2a6c69fb32a37d1ed804b73eca89640120', version='v5.0.1'}
+CommitInfo{repo='GitHub', hash='deba81e86a3ee47fa7a0d2a7b75f5f3a9442bbed', version='v6.0.0-alpha0'}
+CommitInfo{repo='GitHub', hash='f3e8f0391ab02a06ac7a357ac712e633a81aa108', version='v6.0.0-alpha1'}
+CommitInfo{repo='GitHub', hash='41cf03f8c2c7fe5eeb16e22cf6d69344f90f2b68', version='v6.0.0-alpha4'}
+CommitInfo{repo='GitHub', hash='1b2afa78e45e9d792cb2fb416ed648367a6f056d', version='v6.0.0-alpha5'}
+CommitInfo{repo='GitHub', hash='902a6ab4e607ef4234644cb0f3b14b8ad7416478', version='v6.0.0-alpha6'}
+CommitInfo{repo='GitHub', hash='219d06b23d22c9227e912e47155c739eeb348940', version='v6.0.0-alpha7'}
+CommitInfo{repo='GitHub', hash='47daccf37854f8924e24c92f44fc7871663c34c8', version='v6.0.0-alpha8'}
+
+Project A:
+ProjectVersionFixed(version=0.1.61, dependency=null, time=2016-11-05 09:07:54 UTC)
+ProjectVersionFixed(version=0.1.62-0, dependency=null, time=2016-11-05 09:33:58 UTC)
+ProjectVersionFixed(version=0.1.63-0, dependency=null, time=2016-11-05 09:46:37 UTC)
+ProjectVersionFixed(version=1.0.1, dependency=null, time=2016-11-18 12:43:54 UTC)
+ProjectVersionFixed(version=1.0.2, dependency=null, time=2016-12-14 15:22:02 UTC)
+ProjectVersionFixed(version=1.0.3, dependency=null, time=2017-01-02 08:14:59 UTC)
+ProjectVersionFixed(version=1.0.3-alpha, dependency=null, time=2017-01-03 12:53:04 UTC)
+ProjectVersionFixed(version=1.0.4, dependency=null, time=2017-01-05 09:12:21 UTC)
+ProjectVersionFixed(version=1.0.5, dependency=null, time=2017-01-26 15:30:25 UTC)
+ProjectVersionFixed(version=1.0.6, dependency=null, time=2017-01-27 10:54:08 UTC)
+ProjectVersionFixed(version=1.0.7, dependency=null, time=2017-02-01 12:49:45 UTC)
+ProjectVersionFixed(version=1.0.8, dependency=null, time=2017-02-10 09:38:55 UTC)
+ProjectVersionFixed(version=1.1.0, dependency=null, time=2017-02-22 13:58:12 UTC)
+ProjectVersionFixed(version=1.2.0, dependency=null, time=2017-03-07 15:14:09 UTC)
+ProjectVersionFixed(version=1.3.0, dependency=null, time=2017-03-08 15:38:52 UTC)
+ProjectVersionFixed(version=1.3.0-pbenes-show-objects-2017-03-28T11-19-39-417Z, dependency=null, time=2017-03-28 11:19:55 UTC)
+ProjectVersionFixed(version=1.3.0-pbenes-show-objects-2017-03-28T11-20-59-948Z, dependency=null, time=2017-03-28 11:21:15 UTC)
+ProjectVersionFixed(version=1.3.0-pbenes-show-objects-2017-03-28T11-33-39-271Z, dependency=null, time=2017-03-28 11:33:55 UTC)
+ProjectVersionFixed(version=1.3.0-pbenes-show-objects-2017-03-28T12-01-53-142Z, dependency=null, time=2017-03-28 12:02:10 UTC)
+ProjectVersionFixed(version=1.3.0-pbenes-show-objects-2017-03-30T12-45-40-073Z, dependency=null, time=2017-03-30 12:45:57 UTC)
+ProjectVersionFixed(version=1.4.0, dependency=null, time=2017-03-29 12:50:33 UTC)
+ProjectVersionFixed(version=1.4.0-pbenes-show-objects-2017-04-03T07-02-43-605Z, dependency=null, time=2017-04-03 07:02:58 UTC)
+ProjectVersionFixed(version=1.5.0, dependency=null, time=2017-04-07 13:37:27 UTC)
+ProjectVersionFixed(version=1.5.0-pbenes-pb-propagate-beforesend-2017-05-10T06-48-36-531Z, dependency=null, time=2017-05-10 06:48:51 UTC)
+ProjectVersionFixed(version=1.5.0-ocetnik-doc-execution-headers-2017-05-23T13-07-27-329Z, dependency=null, time=2017-05-23 13:07:43 UTC)
+ProjectVersionFixed(version=1.5.1, dependency=null, time=2017-05-25 08:42:14 UTC)
+ProjectVersionFixed(version=1.5.1-pbenes-pb-propagate-beforesend-2017-05-26T07-59-14-388Z, dependency=null, time=2017-05-26 07:59:28 UTC)
+ProjectVersionFixed(version=1.5.1-pbenes-pb-propagate-beforesend-2017-05-26T08-00-19-219Z, dependency=null, time=2017-05-26 08:00:32 UTC)
+ProjectVersionFixed(version=1.5.1-pbenes-pb-propagate-beforesend-2017-05-26T08-02-27-931Z, dependency=null, time=2017-05-26 08:02:42 UTC)
+ProjectVersionFixed(version=1.5.1-vojty-identifier2uri-2017-05-29T12-30-11-438Z, dependency=null, time=2017-05-29 12:30:33 UTC)
+ProjectVersionFixed(version=1.6.0, dependency=null, time=2017-05-30 09:11:32 UTC)
+ProjectVersionFixed(version=1.7.0, dependency=null, time=2017-05-31 12:09:27 UTC)
+ProjectVersionFixed(version=1.7.0-strouhaljan-BB-56-2017-06-23T08-16-56-226Z, dependency=null, time=2017-06-23 08:17:20 UTC)
+ProjectVersionFixed(version=1.7.1, dependency=null, time=2017-06-28 12:50:54 UTC)
+ProjectVersionFixed(version=1.7.1-vaclavbohac-extended-res-only-2017-06-28T15-36-12-817Z, dependency=null, time=2017-06-28 15:36:55 UTC)
+ProjectVersionFixed(version=2.0.0, dependency=null, time=2017-06-29 15:28:33 UTC)
+ProjectVersionFixed(version=2.0.0-pbenes-pb-datefilter-2017-07-18T07-20-05-424Z, dependency=null, time=2017-07-18 07:20:19 UTC)
+ProjectVersionFixed(version=2.1.0, dependency=null, time=2017-07-18 14:29:19 UTC)
+ProjectVersionFixed(version=2.1.1, dependency=null, time=2017-07-20 13:22:59 UTC)
+ProjectVersionFixed(version=2.1.1-strouhaljan-pja-bb-96-pccom-2017-08-01T13-59-24-032Z, dependency=null, time=2017-08-01 13:59:58 UTC)
+ProjectVersionFixed(version=2.2.0, dependency=null, time=2017-08-02 13:54:21 UTC)
+ProjectVersionFixed(version=2.3.0, dependency=null, time=2017-08-17 14:31:13 UTC)
+ProjectVersionFixed(version=2.3.0-ocetnik-doc-delete-project-2017-08-18T07-49-21-182Z, dependency=null, time=2017-08-18 07:49:40 UTC)
+ProjectVersionFixed(version=2.3.0-ocetnik-doc-delete-project-2017-08-18T10-34-09-388Z, dependency=null, time=2017-08-18 10:34:28 UTC)
+ProjectVersionFixed(version=2.3.0-vaclavbohac-get-object-uri-2017-08-17T14-39-11-295Z, dependency=null, time=2017-08-17 14:39:36 UTC)
+ProjectVersionFixed(version=2.4.0, dependency=null, time=2017-08-18 11:16:28 UTC)
+ProjectVersionFixed(version=2.4.0-lhorak-master-2017-08-23T11-42-14-635Z, dependency=null, time=2017-08-23 11:42:38 UTC)
+ProjectVersionFixed(version=2.4.0-ocetnik-master-2017-08-22T14-02-05-417Z, dependency=null, time=2017-08-22 14:02:38 UTC)
+ProjectVersionFixed(version=2.4.0-ocetnik-master-2017-08-23T10-57-40-585Z, dependency=null, time=2017-08-23 10:58:09 UTC)
+ProjectVersionFixed(version=2.4.0-vaclavbohac-shotgun-2017-08-22T13-18-34-646Z, dependency=null, time=2017-08-22 13:19:13 UTC)
+ProjectVersionFixed(version=3.0.0, dependency=null, time=2017-08-23 14:26:34 UTC)
+ProjectVersionFixed(version=4.0.0, dependency=null, time=2017-09-14 14:26:34 UTC)
+ProjectVersionFixed(version=4.0.0-vaclavbohac-master-2017-09-27T13-31-14-155Z, dependency=null, time=2017-09-27 13:31:38 UTC)
+ProjectVersionFixed(version=4.0.0-vaclavbohac-master-2017-09-27T13-44-54-349Z, dependency=null, time=2017-09-27 13:45:17 UTC)
+ProjectVersionFixed(version=4.0.0-vaclavbohac-master-2017-09-27T14-10-11-714Z, dependency=null, time=2017-09-27 14:10:38 UTC)
+ProjectVersionFixed(version=4.0.0-vaclavbohac-typings-2017-10-02T13-59-36-737Z, dependency=null, time=2017-10-02 14:00:00 UTC)
+ProjectVersionFixed(version=4.0.0-vaclavbohac-typings-2017-10-02T14-01-26-203Z, dependency=null, time=2017-10-02 14:01:50 UTC)
+ProjectVersionFixed(version=4.0.0-vojty-typings-2017-10-02T11-10-58-242Z, dependency=null, time=2017-10-02 11:11:36 UTC)
+ProjectVersionFixed(version=4.1.0, dependency=null, time=2017-10-02 15:21:05 UTC)
+ProjectVersionFixed(version=4.2.0, dependency=null, time=2017-10-09 14:28:57 UTC)
+ProjectVersionFixed(version=4.3.0, dependency=null, time=2017-10-13 11:01:20 UTC)
+ProjectVersionFixed(version=4.3.0-vaclavbohac-remove-string-enums-2017-10-23T06-10-07-126Z, dependency=null, time=2017-10-23 06:10:51 UTC)
+ProjectVersionFixed(version=4.3.1, dependency=null, time=2017-10-23 13:09:25 UTC)
+ProjectVersionFixed(version=4.3.1-pavelzgdc-pzb-execute-afm-2017-11-07T10-23-44-356Z, dependency=null, time=2017-11-07 10:24:08 UTC)
+ProjectVersionFixed(version=4.3.1-pavelzgdc-pzb-execute-afm-2017-11-07T11-11-05-276Z, dependency=null, time=2017-11-07 11:11:23 UTC)
+ProjectVersionFixed(version=4.3.1-pavelzgdc-pzb-execute-afm-2017-11-08T11-47-03-425Z, dependency=null, time=2017-11-08 11:47:21 UTC)
+ProjectVersionFixed(version=4.3.1-pavelzgdc-pzb-execute-afm-2017-11-09T10-21-47-002Z, dependency=null, time=2017-11-09 10:22:06 UTC)
+ProjectVersionFixed(version=4.3.1-pavelzgdc-pzb-execute-afm-2017-11-09T15-02-20-735Z, dependency=null, time=2017-11-09 15:02:40 UTC)
+ProjectVersionFixed(version=4.3.1-pavelzgdc-pzb-execute-afm-2017-11-13T12-38-52-853Z, dependency=null, time=2017-11-13 12:39:12 UTC)
+ProjectVersionFixed(version=4.3.1-pavelzgdc-pzb-execute-afm-2017-11-20T10-36-56-807Z, dependency=null, time=2017-11-20 10:37:23 UTC)
+ProjectVersionFixed(version=4.4.0, dependency=0.0.3, time=2017-11-24 15:08:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.4.1, dependency=0.0.4, time=2017-12-12 14:52:24 UTC),	Latest, "DependencyVersion(version=0.0.4-martin.mosko-visualization-object-2017-12-11T15-59-05-420Z, time=2017-12-11 15:59:12 UTC)"
+
+ProjectVersionFixed(version=4.4.1-pbenes-pb-ONE-2870-2017-12-14T12-24-17-934Z, dependency=0.0.4, time=2017-12-14 12:24:36 UTC),	Latest, "DependencyVersion(version=0.0.4-vaclavbohac-add-filter-type-guards-2017-12-13T13-32-25-648Z, time=2017-12-13 13:32:29 UTC)"
+
+ProjectVersionFixed(version=4.5.0, dependency=0.0.4, time=2017-12-18 12:35:28 UTC),	Latest, "DependencyVersion(version=0.0.4-vaclavbohac-add-filter-type-guards-2017-12-13T13-32-25-648Z, time=2017-12-13 13:32:29 UTC)"
+
+ProjectVersionFixed(version=4.5.0-tomasreichmann-TRE-RAIL-351-Attribute-Elements-2017-12-18T14-16-15-808Z, dependency=0.0.4, time=2017-12-18 14:16:40 UTC),	Latest, "DependencyVersion(version=0.0.4-vaclavbohac-add-filter-type-guards-2017-12-13T13-32-25-648Z, time=2017-12-13 13:32:29 UTC)"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-10T12-48-18-764Z, dependency=0.0.5-pbenes-visualization-object-2018-01-10T12-47-40-656Z, time=2018-01-10 12:48:38 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-10T12-55-44-593Z, dependency=0.0.5-pbenes-visualization-object-2018-01-10T12-55-04-554Z, time=2018-01-10 12:56:03 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-10T13-00-30-621Z, dependency=0.0.5-pbenes-visualization-object-2018-01-10T12-59-52-681Z, time=2018-01-10 13:00:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-10T13-06-24-501Z, dependency=0.0.5-pbenes-visualization-object-2018-01-10T13-05-43-626Z, time=2018-01-10 13:06:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-11T09-01-34-985Z, dependency=0.0.5-pbenes-visualization-object-2018-01-11T09-00-54-250Z, time=2018-01-11 09:01:53 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-11T09-05-57-996Z, dependency=0.0.5-pbenes-visualization-object-2018-01-11T09-05-14-044Z, time=2018-01-11 09:06:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-11T09-10-56-490Z, dependency=0.0.5-pbenes-visualization-object-2018-01-11T09-10-16-813Z, time=2018-01-11 09:11:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-11T09-19-47-480Z, dependency=0.0.5-pbenes-visualization-object-2018-01-11T09-18-58-888Z, time=2018-01-11 09:20:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-11T13-49-22-874Z, dependency=0.0.5-pbenes-visualization-object-2018-01-11T13-48-32-624Z, time=2018-01-11 13:49:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-12T15-06-33-040Z, dependency=0.0.5-pbenes-visualization-object-2018-01-12T15-05-43-934Z, time=2018-01-12 15:06:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-15T14-55-46-510Z, dependency=0.0.5-pbenes-visualization-object-2018-01-15T14-54-58-220Z, time=2018-01-15 14:56:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-15T15-05-37-493Z, dependency=0.0.5-pbenes-visualization-object-2018-01-15T15-04-44-056Z, time=2018-01-15 15:05:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-vaclavbohac-add-xhr-typings-2018-01-15T12-55-39-575Z, dependency=0.0.4, time=2018-01-15 12:56:13 UTC),	Latest, "DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-12T15-05-43-934Z, time=2018-01-12 15:05:47 UTC)"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-16T13-29-52-128Z, dependency=0.0.5-pbenes-visualization-object-2018-01-16T13-29-00-485Z, time=2018-01-16 13:30:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-17T14-10-43-898Z, dependency=0.0.5-pbenes-visualization-object-2018-01-17T14-09-50-506Z, time=2018-01-17 14:11:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-18T09-17-37-026Z, dependency=0.0.5-pbenes-visualization-object-2018-01-18T09-16-43-981Z, time=2018-01-18 09:17:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-18T09-26-23-962Z, dependency=0.0.5-pbenes-visualization-object-2018-01-18T09-25-27-104Z, time=2018-01-18 09:26:42 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-18T15-13-21-533Z, dependency=0.0.5-pbenes-visualization-object-2018-01-18T15-12-13-622Z, time=2018-01-18 15:13:42 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-19T13-26-55-415Z, dependency=0.0.5-pbenes-visualization-object-2018-01-19T13-25-53-793Z, time=2018-01-19 13:27:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-22T11-53-43-402Z, dependency=0.0.5-pbenes-visualization-object-2018-01-22T11-52-41-927Z, time=2018-01-22 11:54:03 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-23T08-37-00-478Z, dependency=0.0.5-pbenes-visualization-object-2018-01-23T08-36-00-873Z, time=2018-01-23 08:37:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-23T14-46-41-984Z, dependency=0.0.5-pbenes-visualization-object-2018-01-23T14-45-41-346Z, time=2018-01-23 14:47:01 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-24T09-51-04-927Z, dependency=0.0.5-pbenes-visualization-object-2018-01-24T09-49-58-210Z, time=2018-01-24 09:51:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-24T12-54-33-782Z, dependency=0.0.5-pbenes-visualization-object-2018-01-24T12-53-29-824Z, time=2018-01-24 12:54:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-25T12-09-54-237Z, dependency=0.0.5-pbenes-visualization-object-2018-01-25T12-08-47-287Z, time=2018-01-25 12:10:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-29T10-28-17-642Z, dependency=0.0.5-pbenes-visualization-object-2018-01-29T10-27-18-137Z, time=2018-01-29 10:28:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-29T10-38-29-116Z, dependency=0.0.5-pbenes-visualization-object-2018-01-29T10-36-59-723Z, time=2018-01-29 10:38:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-29T14-26-46-823Z, dependency=0.0.5-pbenes-visualization-object-2018-01-29T14-25-13-849Z, time=2018-01-29 14:27:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-30T11-40-41-489Z, dependency=0.0.5-pbenes-visualization-object-2018-01-29T14-25-13-849Z, time=2018-01-30 11:40:58 UTC),	Latest, "DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-30T11-39-12-999Z, time=2018-01-30 11:39:18 UTC)"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-30T11-55-13-212Z, dependency=0.0.5-pbenes-visualization-object-2018-01-30T11-53-35-436Z, time=2018-01-30 11:55:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-30T14-05-50-897Z, dependency=0.0.5-pbenes-visualization-object-2018-01-30T14-04-08-538Z, time=2018-01-30 14:06:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-01-31T12-42-24-580Z, dependency=0.0.5-pbenes-visualization-object-2018-01-31T12-40-47-335Z, time=2018-01-31 12:42:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-05T08-10-05-788Z, dependency=0.0.5-pbenes-visualization-object-2018-02-05T08-08-31-565Z, time=2018-02-05 08:10:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-05T08-28-52-559Z, dependency=0.0.5-pbenes-visualization-object-2018-02-05T08-27-19-634Z, time=2018-02-05 08:29:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-06T15-05-58-371Z, dependency=0.0.6-pbenes-visualization-object-2018-02-06T15-04-22-972Z, time=2018-02-06 15:06:18 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-06T15-14-14-208Z, dependency=0.0.6-pbenes-visualization-object-2018-02-06T15-12-41-159Z, time=2018-02-06 15:14:39 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-06T15-29-27-097Z, dependency=0.0.6-pbenes-visualization-object-2018-02-06T15-27-53-161Z, time=2018-02-06 15:29:46 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-08T08-00-24-395Z, dependency=0.0.6-pbenes-visualization-object-2018-02-08T07-58-44-632Z, time=2018-02-08 08:00:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-08T08-10-10-955Z, dependency=0.0.6-pbenes-visualization-object-2018-02-08T08-08-22-588Z, time=2018-02-08 08:10:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-08T14-00-12-408Z, dependency=0.0.6-pbenes-visualization-object-2018-02-08T13-58-34-640Z, time=2018-02-08 14:00:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-08T14-23-25-188Z, dependency=0.0.6-pbenes-visualization-object-2018-02-08T14-21-51-581Z, time=2018-02-08 14:23:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-08T15-19-59-458Z, dependency=0.0.6-pbenes-visualization-object-2018-02-08T15-18-23-370Z, time=2018-02-08 15:20:18 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-08T15-37-12-633Z, dependency=0.0.6-pbenes-visualization-object-2018-02-08T15-34-57-422Z, time=2018-02-08 15:37:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-09T08-14-06-162Z, dependency=0.0.6-pbenes-visualization-object-2018-02-09T08-11-51-489Z, time=2018-02-09 08:14:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-09T14-06-11-864Z, dependency=0.0.6-pbenes-visualization-object-2018-02-09T14-03-56-154Z, time=2018-02-09 14:06:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-12T12-33-44-859Z, dependency=0.0.6-pbenes-visualization-object-2018-02-12T12-31-33-651Z, time=2018-02-12 12:34:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-13T08-43-40-979Z, dependency=0.0.6-pbenes-visualization-object-2018-02-13T08-41-30-310Z, time=2018-02-13 08:43:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-13T09-20-14-375Z, dependency=0.0.6-pbenes-visualization-object-2018-02-13T09-18-00-042Z, time=2018-02-13 09:20:29 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-vojty-factory2-2018-02-13T12-25-30-160Z, dependency=0.0.6-pbenes-visualization-object-2018-02-09T08-11-51-489Z, time=2018-02-13 12:26:10 UTC),	Latest, "DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-13T09-18-00-042Z, time=2018-02-13 09:18:04 UTC)"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-14T08-16-10-962Z, dependency=0.0.6-pbenes-visualization-object-2018-02-14T08-13-59-519Z, time=2018-02-14 08:16:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-14T19-25-37-243Z, dependency=0.0.6-pbenes-visualization-object-2018-02-14T19-23-20-215Z, time=2018-02-14 19:25:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-14T19-54-30-694Z, dependency=0.0.6-pbenes-visualization-object-2018-02-14T19-52-18-391Z, time=2018-02-14 19:54:52 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-14T20-10-28-941Z, dependency=0.0.6-pbenes-visualization-object-2018-02-14T20-08-18-178Z, time=2018-02-14 20:10:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.0-pbenes-visualization-object-2018-02-14T20-37-21-570Z, dependency=0.0.6-pbenes-visualization-object-2018-02-14T20-35-07-048Z, time=2018-02-14 20:37:38 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=4.5.1, dependency=0.0.4, time=2017-12-18 15:28:43 UTC),	Latest, "DependencyVersion(version=0.0.4-vaclavbohac-add-filter-type-guards-2017-12-13T13-32-25-648Z, time=2017-12-13 13:32:29 UTC)"
+
+ProjectVersionFixed(version=5.0.0-alpha1, dependency=1.0.0, time=2018-02-16 08:25:29 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=5.0.0-vojty-factory-method-2018-02-16T12-36-00-182Z, dependency=1.0.0, time=2018-02-16 12:36:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=5.0.0-ocetnik-doc-upgrade-dependencies-2018-02-23T14-03-06-427Z, dependency=1.0.0, time=2018-02-23 14:03:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-vojty-factory-method-2018-02-23T12-12-05-193Z, dependency=1.0.0, time=2018-02-23 12:12:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-tele-2018-02-26T11-18-43-072Z, dependency=1.0.0, time=2018-02-26 11:20:01 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pbenes-ONE-2906-2018-02-26T14-29-54-410Z, dependency=1.0.0, time=2018-02-26 14:30:09 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-alpha2, dependency=1.0.0, time=2018-02-27 15:06:56 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-alpha3, dependency=1.0.0, time=2018-03-01 14:27:55 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-01T14-56-43-856Z, dependency=1.0.0, time=2018-03-01 14:57:08 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-01T15-00-53-112Z, dependency=1.0.0, time=2018-03-01 15:01:15 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-01T19-58-48-123Z, dependency=1.0.0, time=2018-03-01 19:59:14 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-01T20-39-09-074Z, dependency=1.0.0, time=2018-03-01 20:39:31 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-vojty-factory-method-2018-03-01T09-38-56-648Z, dependency=1.0.0, time=2018-03-01 09:39:19 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-02T10-05-36-276Z, dependency=1.0.0, time=2018-03-02 10:05:55 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-vojty-utils-2018-03-05T13-22-09-468Z, dependency=1.0.0, time=2018-03-05 13:22:33 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-alpha4, dependency=1.0.0, time=2018-03-06 15:32:25 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-06T15-10-22-548Z, dependency=1.0.0, time=2018-03-06 15:10:43 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-06T15-53-58-494Z, dependency=1.0.0, time=2018-03-06 15:54:23 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-06T18-14-44-333Z, dependency=1.0.0, time=2018-03-06 18:15:09 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-06T18-44-59-315Z, dependency=1.0.0, time=2018-03-06 18:45:21 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-06T20-29-40-598Z, dependency=1.0.0, time=2018-03-06 20:30:12 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-07T12-05-34-639Z, dependency=1.0.0, time=2018-03-07 12:06:03 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-vaclavbohac-revert-modules-2018-03-06T14-42-46-914Z, dependency=1.0.0, time=2018-03-06 14:43:03 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=5.0.0-peterlacko-master-2018-03-08T12-04-12-085Z, dependency=1.0.0-peterlacko-master-2018-03-08T11-59-11-010Z, time=2018-03-08 12:04:35 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0-peterlacko-master-2018-03-08T12-35-35-845Z, dependency=1.0.0-peterlacko-master-2018-03-08T12-29-47-392Z, time=2018-03-08 12:36:01 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0-tomasreichmann-pzb-647-telemetrie-2018-03-08T15-06-37-752Z, dependency=1.0.0, time=2018-03-08 15:06:57 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0-tomasreichmann-pzb-647-telemetrie-2018-03-08T15-26-42-997Z, dependency=1.0.0, time=2018-03-08 15:27:01 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0-tomasreichmann-pzb-647-telemetrie-2018-03-08T15-31-32-799Z, dependency=1.0.0, time=2018-03-08 15:31:49 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0, dependency=1.0.1, time=2018-03-10 12:23:42 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0-bugsbunny338-jza-bb-764-getvalidelements-restrictivedefinitioncontent-support-2018-03-21T17-25-03-401Z, dependency=1.0.1, time=2018-03-21 17:25:27 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0-bugsbunny338-jza-bb-764-getvalidelements-restrictivedefinitioncontent-support-2018-03-22T13-39-08-524Z, dependency=1.0.1, time=2018-03-22 13:39:40 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0-bugsbunny338-jza-fix-duplicit-executionr-keys-2018-04-23T18-04-56-613Z, dependency=1.0.1, time=2018-04-23 18:05:11 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.0-bugsbunny338-master-2018-04-23T17-03-07-647Z, dependency=1.0.1, time=2018-04-23 17:03:22 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.1, dependency=1.0.1, time=2018-03-23 12:21:52 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=5.0.2, dependency=1.0.1, time=2018-04-16 13:54:05 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=6.0.0-alpha0, dependency=1.0.0, time=2018-03-06 16:21:10 UTC),	Latest, "DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)"
+
+ProjectVersionFixed(version=6.0.0-alpha1, dependency=2.0.0-alpha0, time=2018-03-09 15:27:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-ocetnik-utils-2018-03-09T09-50-51-168Z, dependency=1.0.0, time=2018-03-09 09:51:12 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=6.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-09T08-56-25-113Z, dependency=1.0.0, time=2018-03-09 08:56:50 UTC),	Latest, "DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)"
+
+ProjectVersionFixed(version=6.0.0-alpha2, dependency=2.0.0-alpha0, time=2018-03-12 14:46:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-pavelzgdc-pzb-647-telemetrie-2018-03-12T11-39-26-822Z, dependency=2.0.0-alpha0, time=2018-03-12 11:39:48 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-lhorak-pzb-650-apierror-2018-03-19T13-08-13-400Z, dependency=2.0.0-alpha0, time=2018-03-19 13:08:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-alpha3, dependency=2.0.0-alpha0, time=2018-03-26 08:44:01 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-pavelzgdc-pzb-717-vis-object-md-2018-03-26T08-31-58-887Z, dependency=2.0.0-alpha0, time=2018-03-26 08:32:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-pavelzgdc-pzb-717-vis-object-md-2018-03-26T08-32-28-725Z, dependency=2.0.0-alpha0, time=2018-03-26 08:32:50 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-26T10-25-22-310Z, dependency=2.0.0-alpha0, time=2018-03-26 10:26:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-26T13-42-00-242Z, dependency=2.0.0-alpha0, time=2018-03-26 13:42:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-26T13-50-00-388Z, dependency=2.0.0-alpha0, time=2018-03-26 13:50:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-26T14-08-43-060Z, dependency=2.0.0-alpha0, time=2018-03-26 14:09:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-26T14-29-15-301Z, dependency=2.0.0-alpha0, time=2018-03-26 14:29:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-26T14-57-48-397Z, dependency=2.0.0-alpha0, time=2018-03-26 14:58:18 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-26T15-54-41-233Z, dependency=2.0.0-alpha0, time=2018-03-26 15:55:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-27T12-06-54-526Z, dependency=2.0.0-alpha0, time=2018-03-27 12:09:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-27T12-09-44-736Z, dependency=2.0.0-alpha0, time=2018-03-27 12:10:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-27T13-31-33-850Z, dependency=2.0.0-alpha0, time=2018-03-27 13:32:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-alpha4, dependency=2.0.0-alpha0, time=2018-03-29 11:24:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-tomasreichmann-next-6-0-0-2018-03-28T13-55-44-645Z, dependency=2.0.0-alpha0, time=2018-03-28 13:56:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-27T15-17-00-820Z, dependency=2.0.0-alpha0, time=2018-03-27 15:17:53 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-03-28T11-12-38-515Z, dependency=2.0.0-alpha0, time=2018-03-28 11:13:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-ocetnik-typescript-2018-04-03T11-49-05-583Z, dependency=2.0.0-alpha0, time=2018-04-03 11:49:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-ocetnik-typescript-2018-04-03T11-49-28-867Z, dependency=2.0.0-alpha0, time=2018-04-03 11:50:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-ocetnik-typescript-2018-04-03T11-58-58-527Z, dependency=2.0.0-alpha0, time=2018-04-03 11:59:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-ocetnik-typescript-2018-04-03T15-01-19-759Z, dependency=2.0.0-alpha0, time=2018-04-03 15:01:50 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-alpha5, dependency=2.0.0-alpha0, time=2018-04-04 18:02:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-typescript-2018-04-04T10-40-44-156Z, dependency=2.0.0-alpha0, time=2018-04-04 10:41:17 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-zdenek.vidensky-one-3017-2018-04-04T14-04-24-329Z, dependency=2.0.0-alpha0, time=2018-04-04 14:04:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-zdenek.vidensky-one-3017-2018-04-05T11-32-19-889Z, dependency=2.0.0-alpha0, time=2018-04-05 11:32:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-alpha6, dependency=2.0.0-alpha0, time=2018-04-11 08:07:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-alpha7, dependency=2.0.0-alpha0, time=2018-04-11 15:03:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=6.0.0-vaclavbohac-continue-after-token-expiration-2018-04-11T11-34-45-321Z, dependency=2.0.0-alpha0, time=2018-04-11 11:35:16 UTC),	Latest, "null"
+
+
+Project B:
+DependencyVersion(version=0.0.1, time=2017-11-10 09:50:09 UTC)
+DependencyVersion(version=0.0.1-martin.mosko-mms-bb-343-2017-10-27T08-05-44-132Z, time=2017-10-27 08:05:50 UTC)
+DependencyVersion(version=0.0.1-pavelzgdc-pzb-header-items-2017-11-09T14-56-57-565Z, time=2017-11-09 14:57:03 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-error-as-exception-2017-11-09T09-35-54-536Z, time=2017-11-09 09:36:00 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-10-06T12-12-51-885Z, time=2017-10-06 12:12:59 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-10-11T15-16-44-404Z, time=2017-10-11 15:16:50 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-10-12T08-52-50-244Z, time=2017-10-12 08:52:58 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-10-12T09-14-57-082Z, time=2017-10-12 09:15:05 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-10-16T10-05-34-995Z, time=2017-10-16 10:05:40 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-10-25T07-26-58-606Z, time=2017-10-25 07:27:05 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-10-30T12-44-47-443Z, time=2017-10-30 12:44:53 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-10-30T13-27-11-489Z, time=2017-10-30 13:27:16 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-init-2017-11-03T09-46-45-561Z, time=2017-11-03 09:46:50 UTC)
+DependencyVersion(version=0.0.1-vaclavbohac-pzb-header-items-2017-11-09T16-09-36-030Z, time=2017-11-09 16:09:43 UTC)
+DependencyVersion(version=0.0.1-vojty-init-2017-10-11T11-41-51-254Z, time=2017-10-11 11:41:57 UTC)
+DependencyVersion(version=0.0.1-vojty-init-2017-10-19T16-07-32-500Z, time=2017-10-19 16:07:38 UTC)
+DependencyVersion(version=0.0.1-vojty-init-2017-10-24T11-48-28-794Z, time=2017-10-24 11:48:34 UTC)
+DependencyVersion(version=0.0.1-vojty-init-2017-10-24T12-18-07-277Z, time=2017-10-24 12:18:12 UTC)
+DependencyVersion(version=0.0.1-vojty-init-2017-11-08T11-33-40-593Z, time=2017-11-08 11:33:47 UTC)
+DependencyVersion(version=0.0.2, time=2017-11-15 09:11:10 UTC)
+DependencyVersion(version=0.0.2-lhorak-form-of-attribute-2017-11-23T14-33-22-336Z, time=2017-11-23 14:33:31 UTC)
+DependencyVersion(version=0.0.2-lhorak-master-2017-11-23T14-32-03-457Z, time=2017-11-23 14:32:10 UTC)
+DependencyVersion(version=0.0.3, time=2017-11-24 14:26:55 UTC)
+DependencyVersion(version=0.0.4, time=2017-11-28 12:17:38 UTC)
+DependencyVersion(version=0.0.4-martin.mosko-visualization-object-2017-12-11T15-59-05-420Z, time=2017-12-11 15:59:12 UTC)
+DependencyVersion(version=0.0.4-vaclavbohac-add-filter-type-guards-2017-12-13T13-32-25-648Z, time=2017-12-13 13:32:29 UTC)
+DependencyVersion(version=0.0.5, time=2017-12-20 10:36:25 UTC)
+DependencyVersion(version=0.0.5-lhorak-error-fix-2018-01-31T08-37-13-275Z, time=2018-01-31 08:37:17 UTC)
+DependencyVersion(version=0.0.5-martin.mosko-visualization-object-2018-01-19T14-07-01-174Z, time=2018-01-19 14:07:07 UTC)
+DependencyVersion(version=0.0.5-martin.mosko-visualization-object-2018-01-19T14-13-38-188Z, time=2018-01-19 14:13:43 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-10T11-52-20-244Z, time=2018-01-10 11:52:25 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-10T12-41-56-768Z, time=2018-01-10 12:42:02 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-10T12-47-40-656Z, time=2018-01-10 12:47:44 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-10T12-55-04-554Z, time=2018-01-10 12:55:09 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-10T12-59-52-681Z, time=2018-01-10 12:59:57 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-10T13-05-43-626Z, time=2018-01-10 13:05:48 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-11T09-00-54-250Z, time=2018-01-11 09:00:59 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-11T09-05-14-044Z, time=2018-01-11 09:05:20 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-11T09-10-16-813Z, time=2018-01-11 09:10:20 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-11T09-16-02-679Z, time=2018-01-11 09:16:07 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-11T09-18-58-888Z, time=2018-01-11 09:19:02 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-11T13-48-32-624Z, time=2018-01-11 13:48:38 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-12T15-05-43-934Z, time=2018-01-12 15:05:47 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-15T14-52-25-592Z, time=2018-01-15 14:52:31 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-15T14-54-58-220Z, time=2018-01-15 14:55:02 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-15T15-04-44-056Z, time=2018-01-15 15:04:47 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-16T13-29-00-485Z, time=2018-01-16 13:29:05 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-17T14-09-50-506Z, time=2018-01-17 14:09:55 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-18T09-16-43-981Z, time=2018-01-18 09:16:49 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-18T09-25-27-104Z, time=2018-01-18 09:25:30 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-18T15-12-13-622Z, time=2018-01-18 15:12:20 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-19T13-25-53-793Z, time=2018-01-19 13:25:59 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-22T11-52-41-927Z, time=2018-01-22 11:52:47 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-23T08-36-00-873Z, time=2018-01-23 08:36:06 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-23T14-45-41-346Z, time=2018-01-23 14:45:46 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-24T09-49-58-210Z, time=2018-01-24 09:50:03 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-24T12-50-39-700Z, time=2018-01-24 12:50:45 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-24T12-53-29-824Z, time=2018-01-24 12:53:35 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-25T12-08-47-287Z, time=2018-01-25 12:08:53 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-29T10-27-18-137Z, time=2018-01-29 10:27:21 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-29T10-34-50-595Z, time=2018-01-29 10:34:54 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-29T10-36-59-723Z, time=2018-01-29 10:37:05 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-29T14-25-13-849Z, time=2018-01-29 14:25:19 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-30T11-29-26-239Z, time=2018-01-30 11:29:31 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-30T11-39-12-999Z, time=2018-01-30 11:39:18 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-30T11-53-35-436Z, time=2018-01-30 11:53:40 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-30T13-58-36-810Z, time=2018-01-30 13:58:44 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-30T14-02-19-693Z, time=2018-01-30 14:02:27 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-30T14-04-08-538Z, time=2018-01-30 14:04:23 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-01-31T12-40-47-335Z, time=2018-01-31 12:40:52 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-02-05T08-08-31-565Z, time=2018-02-05 08:08:36 UTC)
+DependencyVersion(version=0.0.5-pbenes-visualization-object-2018-02-05T08-27-19-634Z, time=2018-02-05 08:27:24 UTC)
+DependencyVersion(version=0.0.6, time=2018-02-06 12:44:11 UTC)
+DependencyVersion(version=0.0.6-bertold8-visualization-object-2018-02-06T15-27-05-471Z, time=2018-02-06 15:27:12 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-06T15-04-22-972Z, time=2018-02-06 15:04:28 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-06T15-12-41-159Z, time=2018-02-06 15:12:47 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-06T15-19-53-352Z, time=2018-02-06 15:20:28 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-06T15-27-27-761Z, time=2018-02-06 15:27:32 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-06T15-27-53-161Z, time=2018-02-06 15:27:59 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-08T07-58-44-632Z, time=2018-02-08 07:58:49 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-08T08-08-22-588Z, time=2018-02-08 08:08:27 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-08T13-58-34-640Z, time=2018-02-08 13:58:40 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-08T14-21-51-581Z, time=2018-02-08 14:21:56 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-08T15-18-23-370Z, time=2018-02-08 15:18:28 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-08T15-28-11-388Z, time=2018-02-08 15:28:16 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-08T15-30-10-566Z, time=2018-02-08 15:30:15 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-08T15-34-57-422Z, time=2018-02-08 15:35:02 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-09T08-11-51-489Z, time=2018-02-09 08:11:56 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-09T14-03-56-154Z, time=2018-02-09 14:04:01 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-12T12-31-33-651Z, time=2018-02-12 12:31:38 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-13T08-41-30-310Z, time=2018-02-13 08:41:35 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-13T09-18-00-042Z, time=2018-02-13 09:18:04 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-14T08-13-59-519Z, time=2018-02-14 08:14:04 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-14T19-23-20-215Z, time=2018-02-14 19:23:25 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-14T19-52-18-391Z, time=2018-02-14 19:52:23 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-14T20-08-18-178Z, time=2018-02-14 20:08:23 UTC)
+DependencyVersion(version=0.0.6-pbenes-visualization-object-2018-02-14T20-35-07-048Z, time=2018-02-14 20:35:15 UTC)
+DependencyVersion(version=1.0.0, time=2018-02-16 07:19:21 UTC)
+DependencyVersion(version=1.0.0-peterlacko-master-2018-03-08T10-01-03-320Z, time=2018-03-08 10:01:09 UTC)
+DependencyVersion(version=1.0.0-peterlacko-master-2018-03-08T11-59-11-010Z, time=2018-03-08 11:59:16 UTC)
+DependencyVersion(version=1.0.0-peterlacko-master-2018-03-08T12-29-47-392Z, time=2018-03-08 12:29:52 UTC)
+DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-02-23T14-10-44-328Z, time=2018-02-23 14:11:06 UTC)
+DependencyVersion(version=1.0.0-vaclavbohac-identifiers-to-vo-2018-03-07T12-55-58-692Z, time=2018-03-07 12:56:03 UTC)
+DependencyVersion(version=1.0.1, time=2018-03-10 11:38:10 UTC)
+DependencyVersion(version=2.0.0-alpha0, time=2018-03-07 16:38:55 UTC)

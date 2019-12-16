@@ -103,13 +103,13 @@ Project information
 RouteProvider (1127927)	FParsec (620833)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.0.1-beta, dependency=null, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.1-beta1, dependency=null, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.1-beta2, dependency=null, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.1-beta3, dependency=null, time=2015-12-22 00:59:43 UTC)
-ProjectVersion(version=0.0.1-beta4, dependency=1.0.2, time=2015-12-22 04:59:08 UTC),	Latest, DependencyVersion(version=1.0.3-alpha-170403, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.1-beta5, dependency=1.0.2, time=2016-03-30 03:41:46 UTC),	Latest, DependencyVersion(version=1.0.3-alpha-170403, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.1-beta6, dependency=1.0.2, time=2016-04-10 23:59:04 UTC),	Latest, DependencyVersion(version=1.0.3-alpha-170403, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.1-beta, dependency=null, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.1-beta1, dependency=null, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.1-beta2, dependency=null, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.1-beta3, dependency=null, time=2015-12-22 00:59:43 UTC)
+ProjectVersionFixed(version=0.0.1-beta4, dependency== 1.0.2, time=2015-12-22 04:59:08 UTC),	Latest, DependencyVersion(version=1.0.3-alpha-170403, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.1-beta5, dependency== 1.0.2, time=2016-03-30 03:41:46 UTC),	Latest, DependencyVersion(version=1.0.3-alpha-170403, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.1-beta6, dependency== 1.0.2, time=2016-04-10 23:59:04 UTC),	Latest, DependencyVersion(version=1.0.3-alpha-170403, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=0.9.1, time=2011-09-24 18:00:45 UTC)

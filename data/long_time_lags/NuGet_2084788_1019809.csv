@@ -109,19 +109,19 @@ Project information
 Xamarin.Firebase.AppIndexing (2084788)	Xamarin.GooglePlayServices.Base (1019809)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=42.1001.0-beta1, dependency=null, time=2016-12-23 17:42:25 UTC)
-ProjectVersion(version=42.1001.0-beta2, dependency=null, time=2017-01-05 16:15:00 UTC)
-ProjectVersion(version=42.1001.0, dependency=null, time=2017-02-03 15:18:32 UTC)
-ProjectVersion(version=42.1021.0-beta1, dependency=null, time=2017-04-05 12:55:36 UTC)
-ProjectVersion(version=42.1021.0, dependency=42.1021.0, time=2017-05-04 18:52:47 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=42.1021.1, dependency=42.1021.1, time=2017-05-10 18:46:22 UTC),	Latest, DependencyVersion(version=42.1024.0-beta1, time=2017-05-05 12:50:40 UTC)
-ProjectVersion(version=42.1024.0, dependency=42.1024.0, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=42.1024.0-beta1, dependency=42.1024.0-beta1, time=2017-05-05 12:33:48 UTC),	Latest, null
-ProjectVersion(version=57.1104.0-beta1, dependency=57.1104.0-beta1, time=2017-08-18 14:56:21 UTC),	Latest, null
-ProjectVersion(version=60.1142.0-beta1, dependency=60.1142.0-beta1, time=2017-10-25 14:20:42 UTC),	Latest, null
-ProjectVersion(version=60.1142.0-beta2, dependency=60.1142.0-beta2, time=2017-10-31 13:34:32 UTC),	Latest, null
-ProjectVersion(version=60.1142.0-rc1, dependency=60.1142.0-rc1, time=2017-11-17 14:58:33 UTC),	Latest, null
-ProjectVersion(version=60.1142.0, dependency=60.1142.0, time=2017-12-07 16:07:03 UTC),	Latest, DependencyVersion(version=60.1142.0-rc1, time=2017-11-17 15:04:22 UTC)
+ProjectVersionFixed(version=42.1001.0-beta1, dependency=null, time=2016-12-23 17:42:25 UTC)
+ProjectVersionFixed(version=42.1001.0-beta2, dependency=null, time=2017-01-05 16:15:00 UTC)
+ProjectVersionFixed(version=42.1001.0, dependency=null, time=2017-02-03 15:18:32 UTC)
+ProjectVersionFixed(version=42.1021.0-beta1, dependency=null, time=2017-04-05 12:55:36 UTC)
+ProjectVersionFixed(version=42.1021.0, dependency== 42.1021.0, time=2017-05-04 18:52:47 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=42.1021.1, dependency== 42.1021.1, time=2017-05-10 18:46:22 UTC),	Latest, DependencyVersion(version=42.1024.0-beta1, time=2017-05-05 12:50:40 UTC)
+ProjectVersionFixed(version=42.1024.0, dependency== 42.1024.0, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=42.1024.0-beta1, dependency== 42.1024.0-beta1, time=2017-05-05 12:33:48 UTC),	Latest, null
+ProjectVersionFixed(version=57.1104.0-beta1, dependency== 57.1104.0-beta1, time=2017-08-18 14:56:21 UTC),	Latest, null
+ProjectVersionFixed(version=60.1142.0-beta1, dependency== 60.1142.0-beta1, time=2017-10-25 14:20:42 UTC),	Latest, null
+ProjectVersionFixed(version=60.1142.0-beta2, dependency== 60.1142.0-beta2, time=2017-10-31 13:34:32 UTC),	Latest, null
+ProjectVersionFixed(version=60.1142.0-rc1, dependency== 60.1142.0-rc1, time=2017-11-17 14:58:33 UTC),	Latest, null
+ProjectVersionFixed(version=60.1142.0, dependency== 60.1142.0, time=2017-12-07 16:07:03 UTC),	Latest, DependencyVersion(version=60.1142.0-rc1, time=2017-11-17 15:04:22 UTC)
 
 Project B:
 DependencyVersion(version=23.0.0-beta1, time=2015-04-08 14:07:32 UTC)

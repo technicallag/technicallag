@@ -111,17 +111,17 @@ Project information
 Wolfpack.WebServices.Client (611870)	RestSharp (610975)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=3.0.1-pre, dependency=104.1.0, time=2013-03-15 17:56:44 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.3-pre, dependency=104.1.0, time=2013-03-30 06:26:33 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.4-pre, dependency=104.1.0, time=2013-03-30 07:43:11 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.8-pre, dependency=104.1.0, time=2013-04-07 21:13:00 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.10-pre, dependency=104.1.0, time=2013-04-10 20:22:00 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.12-pre, dependency=104.1.0, time=2013-04-17 20:30:41 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.13-pre, dependency=104.1.0, time=2013-04-18 19:39:56 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.17, dependency=104.4.0, time=2014-05-10 19:45:13 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.19, dependency=104.4.0, time=2014-07-02 22:46:50 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.25, dependency=104.4.0, time=2014-07-23 19:51:06 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.26, dependency=104.4.0, time=2014-07-24 20:13:53 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.1-pre, dependency== 104.1.0, time=2013-03-15 17:56:44 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.3-pre, dependency== 104.1.0, time=2013-03-30 06:26:33 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.4-pre, dependency== 104.1.0, time=2013-03-30 07:43:11 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.8-pre, dependency== 104.1.0, time=2013-04-07 21:13:00 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.10-pre, dependency== 104.1.0, time=2013-04-10 20:22:00 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.12-pre, dependency== 104.1.0, time=2013-04-17 20:30:41 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.13-pre, dependency== 104.1.0, time=2013-04-18 19:39:56 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.17, dependency== 104.4.0, time=2014-05-10 19:45:13 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.19, dependency== 104.4.0, time=2014-07-02 22:46:50 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.25, dependency== 104.4.0, time=2014-07-23 19:51:06 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.26, dependency== 104.4.0, time=2014-07-24 20:13:53 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=100.3.0, time=2011-01-29 07:27:33 UTC)

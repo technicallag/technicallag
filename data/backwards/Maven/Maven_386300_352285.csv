@@ -1,0 +1,77 @@
+
+Project information
+uk.gov.nationalarchives:csv-validator-core (386300)	joda-time:joda-time (352285)	Package Manager: Maven
+RepoID: 173139
+Tag information:
+CommitInfo{repo='GitHub', hash='7ccd1cb832dcdf29c787f5bfc68c68b74221ebd6', version='1.0'}
+CommitInfo{repo='GitHub', hash='d4d7e902f6b6e9b3102f2d2687c8e5621b662d05', version='1.0.1'}
+CommitInfo{repo='GitHub', hash='dc4a822c08b4fb18fbe046406950bfeb5ac6b987', version='1.0.1-RC1'}
+CommitInfo{repo='GitHub', hash='31b50a6ef213c4d85369c91c60bda08eee917aed', version='1.0-RC1'}
+CommitInfo{repo='GitHub', hash='848b8b5c4915dc87906c79f99bef5a550924aa66', version='1.0-RC2'}
+CommitInfo{repo='GitHub', hash='dc58604de5f980b13e293888de226b16354fae26', version='1.0-RC3'}
+CommitInfo{repo='GitHub', hash='4f2df3e8055f659fe6b99caf5f7efa1a1ca56601', version='1.1'}
+CommitInfo{repo='GitHub', hash='25d80c5d6ca96a25e224b44dfa4aff41a511213a', version='1.1.1'}
+CommitInfo{repo='GitHub', hash='d30627c4317b82bbd9df19ba7f311f926d9fbf49', version='1.1.2'}
+CommitInfo{repo='GitHub', hash='155129495b3b1faaccd10161d911a19ef962bf3b', version='1.1.3'}
+CommitInfo{repo='GitHub', hash='80d3574b9d2251d04ffcb6f354cf8ffd7c511eba', version='1.1.4'}
+CommitInfo{repo='GitHub', hash='5fd78456c772c3a94e3665d5fdc70eb49b54065a', version='1.1.5'}
+CommitInfo{repo='GitHub', hash='05edb04ec06d268844df5a533e2a43697de40348', version='1.2-RC1'}
+CommitInfo{repo='GitHub', hash='7320f9ed6452be4d5db6cb12d164a7682fa45907', version='1.2-RC2'}
+
+Project A:
+ProjectVersionFixed(version=1.0-RC1, dependency=2.3, time=2014-03-11 02:15:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0-RC2, dependency=1.6, time=2014-03-11 17:06:50 UTC),	Latest, "DependencyVersion(version=2.3, time=2013-08-16 17:31:24 UTC)"
+
+ProjectVersionFixed(version=1.0-RC3, dependency=1.6, time=2014-03-17 18:11:57 UTC),	Latest, "DependencyVersion(version=2.3, time=2013-08-16 17:31:24 UTC)"
+
+ProjectVersionFixed(version=1.0, dependency=1.6.2, time=2014-07-12 16:37:38 UTC),	Latest, "DependencyVersion(version=2.3, time=2013-08-16 17:31:24 UTC)"
+
+ProjectVersionFixed(version=1.0.1-RC1, dependency=null, time=2014-08-29 09:29:16 UTC)
+ProjectVersionFixed(version=1.0.1, dependency=null, time=2015-11-17 15:54:48 UTC)
+ProjectVersionFixed(version=1.1, dependency=null, time=2016-01-22 18:08:12 UTC)
+ProjectVersionFixed(version=1.1.1, dependency=null, time=2016-01-28 16:36:17 UTC)
+ProjectVersionFixed(version=1.1.2, dependency=null, time=2016-03-02 21:59:48 UTC)
+ProjectVersionFixed(version=1.1.3, dependency=null, time=2016-04-11 15:25:29 UTC)
+ProjectVersionFixed(version=1.1.4, dependency=null, time=2016-05-25 10:23:14 UTC)
+ProjectVersionFixed(version=1.1.5, dependency=null, time=2017-01-24 14:43:44 UTC)
+ProjectVersionFixed(version=1.2-RC1, dependency=null, time=2016-05-26 12:35:05 UTC)
+ProjectVersionFixed(version=1.2-RC2, dependency=null, time=2016-12-20 15:23:53 UTC)
+
+Project B:
+DependencyVersion(version=1.2.1, time=2006-02-13 21:32:02 UTC)
+DependencyVersion(version=0.95, time=2005-08-01 09:42:40 UTC)
+DependencyVersion(version=1.0, time=2005-08-01 09:42:40 UTC)
+DependencyVersion(version=1.1, time=2005-08-11 20:00:47 UTC)
+DependencyVersion(version=1.2, time=2005-12-24 13:31:39 UTC)
+DependencyVersion(version=1.3, time=2006-08-03 13:45:51 UTC)
+DependencyVersion(version=1.4, time=2006-11-16 09:05:38 UTC)
+DependencyVersion(version=1.5, time=2007-10-29 17:34:39 UTC)
+DependencyVersion(version=1.5.1, time=2007-12-05 17:54:21 UTC)
+DependencyVersion(version=1.5.2, time=2008-01-28 05:12:19 UTC)
+DependencyVersion(version=1.6, time=2008-12-01 21:45:34 UTC)
+DependencyVersion(version=1.6.1, time=2010-08-08 21:11:27 UTC)
+DependencyVersion(version=1.6.2, time=2010-09-13 23:07:40 UTC)
+DependencyVersion(version=2.0, time=2011-07-31 22:46:12 UTC)
+DependencyVersion(version=2.1, time=2012-02-22 16:22:47 UTC)
+DependencyVersion(version=2.10, time=2018-05-30 15:08:41 UTC)
+DependencyVersion(version=2.10.1, time=2018-10-27 18:51:15 UTC)
+DependencyVersion(version=2.2, time=2013-03-08 14:23:41 UTC)
+DependencyVersion(version=2.3, time=2013-08-16 17:31:24 UTC)
+DependencyVersion(version=2.4, time=2014-07-27 16:43:45 UTC)
+DependencyVersion(version=2.5, time=2014-10-03 06:56:08 UTC)
+DependencyVersion(version=2.6, time=2014-12-01 14:34:00 UTC)
+DependencyVersion(version=2.7, time=2015-01-12 00:51:18 UTC)
+DependencyVersion(version=2.8, time=2015-05-29 15:56:27 UTC)
+DependencyVersion(version=2.8.1, time=2015-06-15 14:17:00 UTC)
+DependencyVersion(version=2.8.2, time=2015-08-11 11:59:00 UTC)
+DependencyVersion(version=2.9, time=2015-10-24 09:48:27 UTC)
+DependencyVersion(version=2.9.1, time=2015-11-12 12:03:24 UTC)
+DependencyVersion(version=2.9.2, time=2016-01-28 13:44:07 UTC)
+DependencyVersion(version=2.9.3, time=2016-03-27 19:35:29 UTC)
+DependencyVersion(version=2.9.4, time=2016-05-27 09:25:33 UTC)
+DependencyVersion(version=2.9.5, time=2016-11-03 16:36:46 UTC)
+DependencyVersion(version=2.9.6, time=2016-11-10 21:09:28 UTC)
+DependencyVersion(version=2.9.7, time=2016-12-19 22:55:22 UTC)
+DependencyVersion(version=2.9.8, time=2017-03-22 22:15:10 UTC)
+DependencyVersion(version=2.9.9, time=2017-03-23 13:33:11 UTC)

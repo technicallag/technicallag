@@ -1,0 +1,60 @@
+
+Project information
+silverstripe/recipe-reporting-tools (2645923)	silverstripe/sitewidecontent-report (1048299)	Package Manager: Packagist
+RepoID: 32634140
+Tag information:
+CommitInfo{repo='GitHub', hash='7471254fd6b547c9503c14746729390da072f6ac', version='1.0.0'}
+CommitInfo{repo='GitHub', hash='435667efc4dc0ab03a95493021f549f3af015e72', version='1.0.0-rc1'}
+CommitInfo{repo='GitHub', hash='58fd6412788b6183f9e9eeb099397a5eb19cf8aa', version='1.0.0-rc2'}
+CommitInfo{repo='GitHub', hash='a0a03b8e0775797517dd9660264d68fd6d6fb17a', version='1.0.0-rc3'}
+CommitInfo{repo='GitHub', hash='25366d8a433981c242b4e3c4999ff59bb4484700', version='1.0.0-rc4'}
+CommitInfo{repo='GitHub', hash='048d1f969ac6d233c2476c05f914f343b8a2661d', version='1.1.0'}
+CommitInfo{repo='GitHub', hash='048d1f969ac6d233c2476c05f914f343b8a2661d', version='1.1.0'}
+CommitInfo{repo='GitHub', hash='e003be5b8ad0a1e260a3b95a086922099418d71e', version='1.1.0-rc1'}
+CommitInfo{repo='GitHub', hash='4ec64263d72cd71a6c96a78b613aadbc974240de', version='1.1.0-rc2'}
+CommitInfo{repo='GitHub', hash='4f6382f737ffcfda8e4b19c38007554b143bb125', version='1.1.1'}
+CommitInfo{repo='GitHub', hash='c89bbc3239db03bde5adb6a42cc6fc89781529c1', version='1.2.0'}
+CommitInfo{repo='GitHub', hash='8891b88abad554a965895b27fb15ae5f2a3fbe3b', version='1.2.0-rc1'}
+
+Project A:
+ProjectVersionFixed(version=1.0.0-rc1, dependency=3.0.0@stable, time=2018-02-22 05:29:43 UTC),	Latest, "DependencyVersion(version=3.0.1, time=2017-12-04 22:42:02 UTC)"
+
+ProjectVersionFixed(version=1.0.0-rc2, dependency=3.0.0@stable, time=2018-04-03 23:52:02 UTC),	Latest, "DependencyVersion(version=3.0.1, time=2017-12-04 22:42:02 UTC)"
+
+ProjectVersionFixed(version=1.0.0-rc3, dependency=3.0.1@stable, time=2018-04-11 00:45:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.0, dependency=3.0.1@stable, time=2018-05-29 23:39:37 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.0-rc4, dependency=3.0.1@stable, time=2018-05-29 23:02:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.x-dev, dependency=3.0.x-dev, time=2018-06-11 03:29:30 UTC),	Latest, "DependencyVersion(version=3.0.1, time=2017-12-04 22:42:02 UTC)"
+
+ProjectVersionFixed(version=1.1.x-dev, dependency=3.0.x-dev, time=2018-06-17 23:14:08 UTC),	Latest, "DependencyVersion(version=3.0.1, time=2017-12-04 22:42:02 UTC)"
+
+ProjectVersionFixed(version=1.1.0-rc1, dependency=3.0.2@stable, time=2018-06-25 05:29:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0, dependency=3.0.2@stable, time=2018-07-25 23:23:50 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-rc2, dependency=3.0.2@stable, time=2018-07-25 05:56:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.1, dependency=3.0.2@stable, time=2018-08-14 03:36:50 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-rc1, dependency=3.0.2@stable, time=2018-11-08 04:03:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.x-dev, dependency=3.0.x-dev, time=2018-11-07 16:59:57 UTC),	Latest, "DependencyVersion(version=3.0.2, time=2018-06-17 23:16:37 UTC)"
+
+
+Project B:
+DependencyVersion(version=1.0.0, time=2015-11-08 22:00:04 UTC)
+DependencyVersion(version=1.x-dev, time=2015-11-08 22:00:04 UTC)
+DependencyVersion(version=2.0.0, time=2015-11-19 01:52:33 UTC)
+DependencyVersion(version=2.0.1, time=2016-02-04 03:45:15 UTC)
+DependencyVersion(version=2.0.2, time=2016-11-16 23:39:49 UTC)
+DependencyVersion(version=2.0.3, time=2016-11-16 23:39:49 UTC)
+DependencyVersion(version=2.0.4, time=2016-11-16 23:39:49 UTC)
+DependencyVersion(version=2.0.x-dev, time=2016-11-16 23:39:49 UTC)
+DependencyVersion(version=3.0.0, time=2018-02-22 05:29:32 UTC)
+DependencyVersion(version=3.0.0-beta1, time=2017-12-04 22:42:02 UTC)
+DependencyVersion(version=3.0.1, time=2017-12-04 22:42:02 UTC)
+DependencyVersion(version=3.0.2, time=2018-06-17 23:16:37 UTC)
+DependencyVersion(version=3.0.x-dev, time=2018-06-17 23:16:37 UTC)

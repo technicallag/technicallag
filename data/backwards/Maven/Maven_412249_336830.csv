@@ -1,0 +1,360 @@
+
+Project information
+org.jboss.ironjacamar:ironjacamar-core-api (412249)	org.jboss.threads:jboss-threads (336830)	Package Manager: Maven
+RepoID: 165234
+Tag information:
+CommitInfo{repo='GitHub', hash='97bd487cb035f7f8d0aafa48700e5baab249f159', version='ironjacamar-1.0.0.Alpha1'}
+CommitInfo{repo='GitHub', hash='111fed60aed3f993ec0e6e36c4f24c091c815b94', version='ironjacamar-1.0.0.Alpha10'}
+CommitInfo{repo='GitHub', hash='58e492eb0acd5b342b39add948df70e840816c56', version='ironjacamar-1.0.0.Alpha11'}
+CommitInfo{repo='GitHub', hash='ce83a9a273e8553a21b7ef5f405129fcea1f6426', version='ironjacamar-1.0.0.Alpha12'}
+CommitInfo{repo='GitHub', hash='7777dbc89056ee676d00c704aab5d7f2de52a0fb', version='ironjacamar-1.0.0.Alpha13'}
+CommitInfo{repo='GitHub', hash='9e4d1e60b02fabcb8ad55f300a310e776783c799', version='ironjacamar-1.0.0.Alpha2'}
+CommitInfo{repo='GitHub', hash='6fefafbfa7805db0cc5a0e727dcbc9913ca22e85', version='ironjacamar-1.0.0.Alpha3'}
+CommitInfo{repo='GitHub', hash='ea212e2b72a52f5009834fc4e5ee92d310e57b2b', version='ironjacamar-1.0.0.Alpha4'}
+CommitInfo{repo='GitHub', hash='0f30f2ef9b1b009754e4e14361930345621935c0', version='ironjacamar-1.0.0.Alpha5'}
+CommitInfo{repo='GitHub', hash='387c261ca9fa3ea881956078357c8387d2d9e2ec', version='ironjacamar-1.0.0.Alpha6'}
+CommitInfo{repo='GitHub', hash='11a649b074a863cf813898d0279b497ffb71e150', version='ironjacamar-1.0.0.Alpha7'}
+CommitInfo{repo='GitHub', hash='77f99edfbfae4bd8201f3f58ff87572869813b28', version='ironjacamar-1.0.0.Alpha8'}
+CommitInfo{repo='GitHub', hash='8908e96be47f3f137438b7b76a81fc54209d5c9c', version='ironjacamar-1.0.0.Alpha9'}
+CommitInfo{repo='GitHub', hash='20767f486865afffc3de07fabb2520a1a2a2c8cf', version='ironjacamar-1.0.0.Beta1'}
+CommitInfo{repo='GitHub', hash='fbefd48e0b65ebf888bc35bad874f1ebbcdb2434', version='ironjacamar-1.0.0.Beta2'}
+CommitInfo{repo='GitHub', hash='37e979175648b79c13074d4c3a6d6db8e76a29a5', version='ironjacamar-1.0.0.Beta2_1'}
+CommitInfo{repo='GitHub', hash='84a86d099928f1710aebb0b02b85d6d5e878c471', version='ironjacamar-1.0.0.Beta3'}
+CommitInfo{repo='GitHub', hash='e082fdaa2119e200b020b050b2ba7ace8d12ed38', version='ironjacamar-1.0.0.Beta4'}
+CommitInfo{repo='GitHub', hash='f88aaf5c518df2ed893414d5e680704f561f718a', version='ironjacamar-1.0.0.Beta5'}
+CommitInfo{repo='GitHub', hash='06aec28faf4b12ac2f8b9122d278cc2e3a1481ec', version='ironjacamar-1.0.0.Beta6'}
+CommitInfo{repo='GitHub', hash='9e6801812d78abf9830d3414521a52626f6c9f1f', version='ironjacamar-1.0.0.Beta6_1'}
+CommitInfo{repo='GitHub', hash='f469c8db689b3f80f8f1ed8054c3a46d2749743c', version='ironjacamar-1.0.0.CR1'}
+CommitInfo{repo='GitHub', hash='3a747f362d3a797d180e188f6c14a7840ea26a2e', version='ironjacamar-1.0.0.CR2'}
+CommitInfo{repo='GitHub', hash='26d2ffb6e7d40b80668c14b97b3cdc58334e462e', version='ironjacamar-1.0.0.CR3'}
+CommitInfo{repo='GitHub', hash='88688dd47f3f7bd629042974308760c28406f527', version='ironjacamar-1.0.0.Final'}
+CommitInfo{repo='GitHub', hash='5a0f52f7e0e4f3acd9716b962dde2b3e414ea357', version='ironjacamar-1.0.10.Final'}
+CommitInfo{repo='GitHub', hash='250ffd01b10dc21c139defcca741843cc5bd704b', version='ironjacamar-1.0.11.Final'}
+CommitInfo{repo='GitHub', hash='a6e414ed46b25607f1e8c190fa9e6d05c66a8107', version='ironjacamar-1.0.12.Final'}
+CommitInfo{repo='GitHub', hash='3e92e4dbd381e726da32544ea285af716fc88922', version='ironjacamar-1.0.13.Final'}
+CommitInfo{repo='GitHub', hash='e98dd0496da2003ad239f2913b1f1c91aba20f06', version='ironjacamar-1.0.14.Final'}
+CommitInfo{repo='GitHub', hash='3d7b01a2ed2781a3ba2d3a5125b11e69778976dd', version='ironjacamar-1.0.15.Final'}
+CommitInfo{repo='GitHub', hash='eb642a03c24dac5eef4b395cae0d8c8ebcd642bc', version='ironjacamar-1.0.16.Final'}
+CommitInfo{repo='GitHub', hash='a02f512763ab8235882a662e1f4e3ac492e45051', version='ironjacamar-1.0.17.Final'}
+CommitInfo{repo='GitHub', hash='15eaf53334087c8f328aad199bce3875ebb0e71b', version='ironjacamar-1.0.18.Final'}
+CommitInfo{repo='GitHub', hash='cf7188a0d40ec66c4303f0aa6244b0e9522f4410', version='ironjacamar-1.0.19.Final'}
+CommitInfo{repo='GitHub', hash='c6dd1a439415fbafcead60d23f5ed523104a1163', version='ironjacamar-1.0.1.Final'}
+CommitInfo{repo='GitHub', hash='fca91d68d1089f082b64b03a8763ba9bbf173d94', version='ironjacamar-1.0.20.Final'}
+CommitInfo{repo='GitHub', hash='0ae5d498da5fc06877dc7c3c2dabacde49212923', version='ironjacamar-1.0.21.Final'}
+CommitInfo{repo='GitHub', hash='469b4c303dd0d5c39f3476a5972556d8b9537b44', version='ironjacamar-1.0.22.Final'}
+CommitInfo{repo='GitHub', hash='cebb0117da88224cc6c9503878ec49cbe2f022cd', version='ironjacamar-1.0.23.Final'}
+CommitInfo{repo='GitHub', hash='a451dc454928d20bdd8cb3d79d6ac78c7c4a42fe', version='ironjacamar-1.0.24.Final'}
+CommitInfo{repo='GitHub', hash='e45ca1459f4b960e81ab6cfa6322cb4464a5cf68', version='ironjacamar-1.0.25.Final'}
+CommitInfo{repo='GitHub', hash='454cd8933bb76de873e384383196e4ea5719d2e7', version='ironjacamar-1.0.26.Final'}
+CommitInfo{repo='GitHub', hash='24cc42fc8e7a14b4ea60240f9267cc0513d12049', version='ironjacamar-1.0.27.Final'}
+CommitInfo{repo='GitHub', hash='08e73c195beadb05ebddf2ea0f34a22e43ff5a4c', version='ironjacamar-1.0.28.Final'}
+CommitInfo{repo='GitHub', hash='3178f0882873720b4868852af03e59043cfb0f88', version='ironjacamar-1.0.29.Final'}
+CommitInfo{repo='GitHub', hash='274680b90be1cf735ec042ac4d72a9dc38218042', version='ironjacamar-1.0.2.Final'}
+CommitInfo{repo='GitHub', hash='6f1433ef3e63508bad9107a208498015543e21a2', version='ironjacamar-1.0.30.Final'}
+CommitInfo{repo='GitHub', hash='7fda1ec4b40031e93a40482fa9eeb82c6a41ae49', version='ironjacamar-1.0.31.Final'}
+CommitInfo{repo='GitHub', hash='f5adacf6da10237d4b48606c57bbb9dbe6865315', version='ironjacamar-1.0.32.Final'}
+CommitInfo{repo='GitHub', hash='9734a8baeb860e2af46d39bfbb0c987729316422', version='ironjacamar-1.0.33.Final'}
+CommitInfo{repo='GitHub', hash='736a0e8b2f00e0c263b87a52e7633a376816bb7f', version='ironjacamar-1.0.34.Final'}
+CommitInfo{repo='GitHub', hash='667f8534d70972e9f2121b32d564c22cec1a8d39', version='ironjacamar-1.0.35.Final'}
+CommitInfo{repo='GitHub', hash='73ead44d21e0960e26862ce4ad10179f21f77c5b', version='ironjacamar-1.0.36.Final'}
+CommitInfo{repo='GitHub', hash='112c47831328bce8f1befea9b52d829523c58ab0', version='ironjacamar-1.0.37.Final'}
+CommitInfo{repo='GitHub', hash='309f4772a848fa3fc0370aa84ce3af87bcaaa9cc', version='ironjacamar-1.0.38.Final'}
+CommitInfo{repo='GitHub', hash='1627184d3e1d740682b8d3318455ea0f9da46d13', version='ironjacamar-1.0.39.Final'}
+CommitInfo{repo='GitHub', hash='93a2ed611d96e735489a4ad56060e9c76d40fea6', version='ironjacamar-1.0.3.Final'}
+CommitInfo{repo='GitHub', hash='200a31046cd3d124ead8288ae5561578263779df', version='ironjacamar-1.0.40-Final'}
+CommitInfo{repo='GitHub', hash='80fc083ad08989a0408a4f845e4545cf7efed775', version='ironjacamar-1.0.41-Final'}
+CommitInfo{repo='GitHub', hash='24387847f8f05498439c721d24060eaf81a3b7fe', version='ironjacamar-1.0.42.Final'}
+CommitInfo{repo='GitHub', hash='2c7f89631a9146b7687e4cb675e8b22a07311cf4', version='ironjacamar-1.0.4.Final'}
+CommitInfo{repo='GitHub', hash='4287a1e819bfef86839a724caab69102bfd05d99', version='ironjacamar-1.0.5.Final'}
+CommitInfo{repo='GitHub', hash='8f5986b9938485b19e5534a61d5c41c062ed7d01', version='ironjacamar-1.0.6.Final'}
+CommitInfo{repo='GitHub', hash='7b13c75a267341bb8602f31ca29ca5585cfd0e1e', version='ironjacamar-1.0.7.Final'}
+CommitInfo{repo='GitHub', hash='7a77f24e1110f55b24a61d05a7c03bbe142b6f18', version='ironjacamar-1.0.8.Final'}
+CommitInfo{repo='GitHub', hash='8fc4a93c345d94bb4235ef3e53a31cc1e120726e', version='ironjacamar-1.0.9.Final'}
+CommitInfo{repo='GitHub', hash='b5e6fbc46be477ab5272dc14cdb92adaa4a3a5c9', version='ironjacamar-1.1.0.Alpha1'}
+CommitInfo{repo='GitHub', hash='22187ee14e8203f15ace1a1cd05c6e77047e6be5', version='ironjacamar-1.1.0.Alpha2'}
+CommitInfo{repo='GitHub', hash='c7ab984ef051558d82e37a41f5499c41bba209ab', version='ironjacamar-1.1.0.Alpha3'}
+CommitInfo{repo='GitHub', hash='ff8f568f2494fec8c73d8ca9a212d8b9671efcd2', version='ironjacamar-1.1.0.Alpha4'}
+CommitInfo{repo='GitHub', hash='b04ccea8c9e2ce924ce0e49893b435c01ab33d50', version='ironjacamar-1.1.0.Alpha5'}
+CommitInfo{repo='GitHub', hash='3ef70b69c0d47f2fe78973351644fb14f07b0b9d', version='ironjacamar-1.1.0.Alpha6'}
+CommitInfo{repo='GitHub', hash='a6ce1697bf265e1af2db135eea273d212d647a1e', version='ironjacamar-1.1.0.Alpha7'}
+CommitInfo{repo='GitHub', hash='e6220c2d94628fd6e462d7e9df6eb4d073f16407', version='ironjacamar-1.1.0.Beta1'}
+CommitInfo{repo='GitHub', hash='d6627d6b98f9c680c535b67da9507a90831603da', version='ironjacamar-1.1.0.Beta2'}
+CommitInfo{repo='GitHub', hash='bf6dca0482b851919312d41e4fd0b49f984b480b', version='ironjacamar-1.1.0.Beta3'}
+CommitInfo{repo='GitHub', hash='d87db4136858325693eefafb17d7006d1115ac85', version='ironjacamar-1.1.0.Beta4'}
+CommitInfo{repo='GitHub', hash='dc031221328826e394880850b0a04594310911bc', version='ironjacamar-1.1.0.Beta5'}
+CommitInfo{repo='GitHub', hash='fd2658c7c01cd3b4b568fe9b56cb39da454abaef', version='ironjacamar-1.1.0.CR1'}
+CommitInfo{repo='GitHub', hash='cac3c4324ad07001666647c93e979ebec0a36b1a', version='ironjacamar-1.1.0.CR2'}
+CommitInfo{repo='GitHub', hash='e56f1cffb3fdd9501ae176b833fd291a0a8099a1', version='ironjacamar-1.1.0.Final'}
+CommitInfo{repo='GitHub', hash='c09b1259e389e3f05396d047a52d6676a7bc1731', version='ironjacamar-1.1.10.Final'}
+CommitInfo{repo='GitHub', hash='b5a6ab0bd884ed5e0e9401e82af43dfbf59a15a4', version='ironjacamar-1.1.1.Final'}
+CommitInfo{repo='GitHub', hash='b36df71970d649f9750124b08164b350290e02e1', version='ironjacamar-1.1.2.Final'}
+CommitInfo{repo='GitHub', hash='41f62251b7153d567181e864cd963c02e96b654b', version='ironjacamar-1.1.3.Final'}
+CommitInfo{repo='GitHub', hash='d98616c3af7f4f728a0977d499da44e3a4739671', version='ironjacamar-1.1.4.Final'}
+CommitInfo{repo='GitHub', hash='3ea0ba547bcab8b13537c9b55f33a3958bf8f180', version='ironjacamar-1.1.5.Final'}
+CommitInfo{repo='GitHub', hash='e753a4217e50abe5c1ff762fc290b1a71b40dea5', version='ironjacamar-1.1.6.Final'}
+CommitInfo{repo='GitHub', hash='237f67e57c494c6b19987811c79334105dd39edf', version='ironjacamar-1.1.7.Final'}
+CommitInfo{repo='GitHub', hash='de7d7fa25d59f2bd44e5767bc58b3cf618aefbde', version='ironjacamar-1.1.8.Final'}
+CommitInfo{repo='GitHub', hash='715f3c85c0ee0ed26c19a9f5cba722d1a5fa2cb2', version='ironjacamar-1.1.9.Final'}
+CommitInfo{repo='GitHub', hash='a641b3a64963be04095213364c9e91bd8036c68c', version='ironjacamar-1.2.0.Beta1'}
+CommitInfo{repo='GitHub', hash='3f6ca5fa4dec9905ad0edc0fd3cd00a6abe8359c', version='ironjacamar-1.2.0.Beta2'}
+CommitInfo{repo='GitHub', hash='b400c229fbf5df18569a27b834883dd83a1e41e4', version='ironjacamar-1.2.0.Beta3'}
+CommitInfo{repo='GitHub', hash='98ed0cb4034e723ea963a3fc1e7a2ab32909533e', version='ironjacamar-1.2.0.Beta4'}
+CommitInfo{repo='GitHub', hash='dd06ba3852a2bd0f8c806fb829e537d4690a7bf7', version='ironjacamar-1.2.0.CR1'}
+CommitInfo{repo='GitHub', hash='211b2dbccb4d1364c364dc3f1328321fdd3e6aa8', version='ironjacamar-1.2.0.Final'}
+CommitInfo{repo='GitHub', hash='023feb79eb99d0e8c92e419d337f53a15011f09d', version='ironjacamar-1.2.1.Final'}
+CommitInfo{repo='GitHub', hash='04e89f4070c75f27ce39d65964c1e8c18a01af07', version='ironjacamar-1.2.2.Final'}
+CommitInfo{repo='GitHub', hash='b42b4af0b181aa95e01f63159e898b8747bbac03', version='ironjacamar-1.2.3.Final'}
+CommitInfo{repo='GitHub', hash='13d8f4dde37e6afc1c582f71cbc91e3d0bd159f7', version='ironjacamar-1.2.4.Final'}
+CommitInfo{repo='GitHub', hash='2a8141a2c58fb4bd6c6e348b79c310bbcd4ad1ae', version='ironjacamar-1.2.5.Final'}
+CommitInfo{repo='GitHub', hash='13a34e9f4be996dd69fc6462b7d863b88a5052ff', version='ironjacamar-1.2.6.Final'}
+CommitInfo{repo='GitHub', hash='f8d365624016b2ff9f1679113ede01a9f9c8993b', version='ironjacamar-1.2.7.Final'}
+CommitInfo{repo='GitHub', hash='1dd260edc386346801b249d2ea307e9769eb70a6', version='ironjacamar-1.3.0.Final'}
+CommitInfo{repo='GitHub', hash='d76083c07d1b98a3f9620796fc09a89900d8c892', version='ironjacamar-1.3.1.Final'}
+CommitInfo{repo='GitHub', hash='155d7dfaefa665f90f881eb7bbcdbe5531763966', version='ironjacamar-1.3.2.Final'}
+CommitInfo{repo='GitHub', hash='1863fbe8dc56a57646a83742cbf2b625e76f8b39', version='ironjacamar-1.3.3.Final'}
+CommitInfo{repo='GitHub', hash='26522377d18f849daec4cb79cc75e2ba9374c6ca', version='ironjacamar-1.3.4.Final'}
+CommitInfo{repo='GitHub', hash='c76461582407d3668b0bb6ca582ff4ee4eb1a350', version='ironjacamar-1.3.5.Final'}
+CommitInfo{repo='GitHub', hash='baced3ea1826dd2c66a861304e0504a6f7991040', version='ironjacamar-1.3.6.Final'}
+CommitInfo{repo='GitHub', hash='d9650edea1c04f9c2d3cc1dc9b1b23e8caf7d5d4', version='ironjacamar-1.3.7.Final'}
+CommitInfo{repo='GitHub', hash='50c031879eca7addf7849c3e5d5e61138cda6d0b', version='ironjacamar-1.3.8-Final'}
+CommitInfo{repo='GitHub', hash='ad67e401cec14d1a73d5ba8f4913d9b96f60a7e4', version='ironjacamar-1.3.8.Final'}
+CommitInfo{repo='GitHub', hash='5236cbfee5eba9b69ce86471be956848df2e5e5f', version='ironjacamar-1.4.0.Final'}
+CommitInfo{repo='GitHub', hash='b956a84b8efe7c60fe4eacb2f93553d8b7808754', version='ironjacamar-1.4.10.Final'}
+CommitInfo{repo='GitHub', hash='f13efa6792c1f4d69cad1598626801138202352d', version='ironjacamar-1.4.11.Final'}
+CommitInfo{repo='GitHub', hash='c5533d69665f6e555b07cb8b9276bd9e856c61fe', version='ironjacamar-1.4.12.Final'}
+CommitInfo{repo='GitHub', hash='70f110d3b7b06bf5b71d4f0f48902a8d04d8527c', version='ironjacamar-1.4.1.Final'}
+CommitInfo{repo='GitHub', hash='ba47f681809d3fdee33a6c60f4849ec2dc7e4ce7', version='ironjacamar-1.4.2.Final'}
+CommitInfo{repo='GitHub', hash='9d453ab4e8b89cc94891f77fe3425e9911e6001c', version='ironjacamar-1.4.3.Final'}
+CommitInfo{repo='GitHub', hash='bf0f9f836055eb09e96753c0561f9b4057626a04', version='ironjacamar-1.4.4.Final'}
+CommitInfo{repo='GitHub', hash='9b5ef00a521f4319419d2049a6ce89f8247adce6', version='ironjacamar-1.4.5.Final'}
+CommitInfo{repo='GitHub', hash='1fab1c5ba53ce41aee93ea608230be19cbba8a70', version='ironjacamar-1.4.6.Final'}
+CommitInfo{repo='GitHub', hash='75bb85dc78688390d9cc8232f58c89345dff3bd8', version='ironjacamar-1.4.7-Final'}
+CommitInfo{repo='GitHub', hash='d4062b95e05921cb1c6283087f20a1a3cc51eb40', version='ironjacamar-1.4.7.Final'}
+CommitInfo{repo='GitHub', hash='13f4aa0d49c38aa492dd7579412cbdcee3742174', version='ironjacamar-1.4.8.Final'}
+CommitInfo{repo='GitHub', hash='8887fb51b3850fce7807b7261f56bbc3b3f8c1e6', version='ironjacamar-1.4.9.Final'}
+
+Project A:
+ProjectVersionFixed(version=1.0.0.Beta1, dependency=2.0.0.CR3, time=2010-07-29 12:23:21 UTC),	Latest, "DependencyVersion(version=2.0.0.CR4, time=2010-04-06 04:08:11 UTC)"
+
+ProjectVersionFixed(version=1.0.0.Beta2, dependency=2.0.0.CR5, time=2010-09-21 13:37:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.0.Beta2.1, dependency=2.0.0.CR5, time=2010-10-14 19:26:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.0.Beta3, dependency=2.0.0.CR5, time=2010-10-26 16:09:40 UTC),	Latest, "DependencyVersion(version=2.0.0.CR6, time=2010-10-16 02:26:37 UTC)"
+
+ProjectVersionFixed(version=1.0.0.Beta4, dependency=2.0.0.CR7, time=2011-03-03 21:56:27 UTC),	Latest, "DependencyVersion(version=2.0.0.CR8, time=2010-12-20 16:36:50 UTC)"
+
+ProjectVersionFixed(version=1.0.0.Beta5, dependency=2.0.0.CR7, time=2011-03-28 20:03:21 UTC),	Latest, "DependencyVersion(version=2.0.0.CR8, time=2010-12-20 16:36:50 UTC)"
+
+ProjectVersionFixed(version=1.0.0.Beta6, dependency=2.0.0.CR7, time=2011-04-25 15:19:46 UTC),	Latest, "DependencyVersion(version=2.0.0.CR8, time=2010-12-20 16:36:50 UTC)"
+
+ProjectVersionFixed(version=1.0.0.Beta6.1, dependency=2.0.0.CR7, time=2011-05-18 15:12:10 UTC),	Latest, "DependencyVersion(version=2.0.0.CR8, time=2010-12-20 16:36:50 UTC)"
+
+ProjectVersionFixed(version=1.0.0.CR1, dependency=2.0.0.CR7, time=2011-06-09 20:05:57 UTC),	Latest, "DependencyVersion(version=2.0.0.CR8, time=2010-12-20 16:36:50 UTC)"
+
+ProjectVersionFixed(version=1.0.0.CR2, dependency=2.0.0.CR7, time=2011-06-11 00:33:04 UTC),	Latest, "DependencyVersion(version=2.0.0.CR8, time=2010-12-20 16:36:50 UTC)"
+
+ProjectVersionFixed(version=1.0.0.CR3, dependency=2.0.0.CR7, time=2011-06-29 14:48:10 UTC),	Latest, "DependencyVersion(version=2.0.0.CR8, time=2010-12-20 16:36:50 UTC)"
+
+ProjectVersionFixed(version=1.0.0.Final, dependency=2.0.0.GA, time=2011-07-07 15:25:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.1.Final, dependency=2.0.0.GA, time=2011-07-22 15:17:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.2.Final, dependency=2.0.0.GA, time=2011-08-09 15:23:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.3.Final, dependency=2.0.0.GA, time=2011-08-11 13:29:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.4.Final, dependency=2.0.0.GA, time=2011-08-30 14:06:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.5.Final, dependency=2.0.0.GA, time=2011-10-13 17:14:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.6.Final, dependency=2.0.0.GA, time=2011-12-14 10:27:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.7.Final, dependency=2.0.0.GA, time=2012-01-09 18:24:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.8.Final, dependency=2.0.0.GA, time=2012-03-02 13:38:01 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.9.Final, dependency=2.0.0.GA, time=2012-03-08 20:37:42 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.10.Final, dependency=2.0.0.GA, time=2012-04-25 17:25:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.11.Final, dependency=2.0.0.GA, time=2012-05-04 14:22:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.12.Final, dependency=2.0.0.GA, time=2012-08-02 13:57:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.13.Final, dependency=2.0.0.GA, time=2012-10-18 13:10:27 UTC),	Latest, "DependencyVersion(version=2.1.0.Alpha1-ij-1, time=2012-08-30 15:10:44 UTC)"
+
+ProjectVersionFixed(version=1.0.14.Final, dependency=2.0.0.GA, time=2012-12-18 09:22:05 UTC),	Latest, "DependencyVersion(version=2.1.0.Alpha1-ij-1, time=2012-08-30 15:10:44 UTC)"
+
+ProjectVersionFixed(version=1.0.15.Final, dependency=2.0.0.GA, time=2013-01-23 15:24:48 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.0.16.Final, dependency=2.0.0.GA, time=2013-03-26 12:03:36 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.0.17.Final, dependency=2.0.0.GA, time=2013-04-29 15:24:49 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.0.18.Final, dependency=2.0.0.GA, time=2013-07-09 15:16:13 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.0.19.Final, dependency=2.0.0.GA, time=2013-07-10 14:42:39 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.0.20.Final, dependency=2.0.0.GA, time=2013-08-29 13:41:15 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.21.Final, dependency=2.0.0.GA, time=2013-09-18 14:31:08 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.22.Final, dependency=2.0.0.GA, time=2013-11-20 10:25:04 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.23.Final, dependency=2.0.0.GA, time=2013-11-20 14:45:06 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.24.Final, dependency=2.0.0.GA, time=2014-03-03 14:31:43 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.25.Final, dependency=2.0.0.GA, time=2014-03-31 15:05:51 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.26.Final, dependency=2.0.0.GA, time=2014-03-31 19:44:39 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.27.Final, dependency=2.0.0.GA, time=2014-08-14 15:05:07 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.28.Final, dependency=2.0.0.GA, time=2014-09-29 14:58:04 UTC),	Latest, "DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)"
+
+ProjectVersionFixed(version=1.0.29.Final, dependency=2.0.0.GA, time=2014-10-20 14:50:09 UTC),	Latest, "DependencyVersion(version=2.2.0.Beta1, time=2014-10-07 15:09:42 UTC)"
+
+ProjectVersionFixed(version=1.0.30.Final, dependency=2.0.0.GA, time=2014-11-20 15:27:29 UTC),	Latest, "DependencyVersion(version=2.2.0.Final, time=2014-11-12 23:40:12 UTC)"
+
+ProjectVersionFixed(version=1.0.31.Final, dependency=2.0.0.GA, time=2015-02-16 13:59:58 UTC),	Latest, "DependencyVersion(version=2.2.0.Final, time=2014-11-12 23:40:12 UTC)"
+
+ProjectVersionFixed(version=1.1.0.Alpha1, dependency=2.0.0.GA, time=2011-08-31 15:17:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Alpha2, dependency=2.0.0.GA, time=2011-09-30 15:33:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Alpha3, dependency=2.0.0.GA, time=2011-10-31 14:38:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Alpha4, dependency=2.0.0.GA, time=2011-11-30 15:48:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Alpha5, dependency=2.0.0.GA, time=2012-01-31 16:29:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Alpha6, dependency=2.0.0.GA, time=2012-02-29 15:49:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Alpha7, dependency=2.0.0.GA, time=2012-04-30 13:52:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Beta1, dependency=2.0.0.GA, time=2012-06-15 13:12:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Beta2, dependency=2.1.0.Alpha1-ij-1, time=2012-09-06 14:33:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Beta3, dependency=2.1.0.Alpha1-ij-1, time=2012-11-28 14:42:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0.Beta4, dependency=2.1.0.Alpha1-ij-1, time=2013-02-28 14:49:34 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.1.0.Beta5, dependency=2.0.0.GA, time=2013-05-14 15:37:16 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.1.0.CR1, dependency=2.0.0.GA, time=2013-07-09 13:45:08 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.1.0.CR2, dependency=2.0.0.GA, time=2013-07-23 14:24:40 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.1.0.Final, dependency=2.0.0.GA, time=2013-08-06 09:36:44 UTC),	Latest, "DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)"
+
+ProjectVersionFixed(version=1.1.1.Final, dependency=2.1.1.Final, time=2013-10-25 02:43:01 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.2.Final, dependency=2.1.1.Final, time=2013-11-27 12:59:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.3.Final, dependency=2.1.1.Final, time=2014-01-10 14:56:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.4.Final, dependency=2.1.1.Final, time=2014-03-13 14:23:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.5.Final, dependency=2.1.1.Final, time=2014-04-08 14:08:42 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.6.Final, dependency=2.1.1.Final, time=2014-05-13 13:25:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.7.Final, dependency=2.1.1.Final, time=2014-08-12 12:43:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.8.Final, dependency=2.1.1.Final, time=2014-09-16 12:21:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.9.Final, dependency=2.1.1.Final, time=2014-11-06 13:58:10 UTC),	Latest, "DependencyVersion(version=2.2.0.Beta1, time=2014-10-07 15:09:42 UTC)"
+
+ProjectVersionFixed(version=1.1.10.Final, dependency=2.1.1.Final, time=2015-07-20 14:46:53 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.2.0.Beta1, dependency=2.1.1.Final, time=2014-04-10 13:20:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0.Beta2, dependency=2.1.1.Final, time=2014-05-13 13:47:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0.Beta3, dependency=2.1.1.Final, time=2014-06-24 15:02:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0.Beta4, dependency=2.1.1.Final, time=2014-08-12 13:32:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0.CR1, dependency=2.1.1.Final, time=2014-09-30 16:03:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0.Final, dependency=2.1.1.Final, time=2014-10-21 13:25:47 UTC),	Latest, "DependencyVersion(version=2.2.0.Beta1, time=2014-10-07 15:09:42 UTC)"
+
+ProjectVersionFixed(version=1.2.1.Final, dependency=2.1.1.Final, time=2014-12-09 14:28:30 UTC),	Latest, "DependencyVersion(version=2.2.0.Final, time=2014-11-12 23:40:12 UTC)"
+
+ProjectVersionFixed(version=1.2.2.Final, dependency=2.1.1.Final, time=2015-01-13 14:25:11 UTC),	Latest, "DependencyVersion(version=2.2.0.Final, time=2014-11-12 23:40:12 UTC)"
+
+ProjectVersionFixed(version=1.2.3.Final, dependency=2.1.1.Final, time=2015-03-25 14:24:22 UTC),	Latest, "DependencyVersion(version=2.2.0.Final, time=2014-11-12 23:40:12 UTC)"
+
+ProjectVersionFixed(version=1.2.4.Final, dependency=2.1.1.Final, time=2015-04-14 14:03:42 UTC),	Latest, "DependencyVersion(version=2.2.0.Final, time=2014-11-12 23:40:12 UTC)"
+
+ProjectVersionFixed(version=1.2.5.Final, dependency=2.1.1.Final, time=2015-07-21 13:31:23 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.2.6.Final, dependency=2.1.1.Final, time=2015-09-01 17:46:52 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.2.7.Final, dependency=2.1.1.Final, time=2016-03-03 12:53:59 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.3.0.Final, dependency=2.1.1.Final, time=2015-09-09 13:40:17 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.3.1.Final, dependency=2.1.1.Final, time=2015-10-12 15:30:38 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.3.2.Final, dependency=2.1.1.Final, time=2016-01-06 17:56:11 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.3.3.Final, dependency=2.1.1.Final, time=2016-03-03 12:45:10 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.3.4.Final, dependency=2.1.1.Final, time=2016-05-23 12:16:05 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.3.5.Final, dependency=2.1.1.Final, time=2016-11-24 09:17:34 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.4.0.Final, dependency=2.1.1.Final, time=2016-11-23 09:27:50 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.4.1.Final, dependency=2.1.1.Final, time=2017-01-20 16:57:56 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.4.2.Final, dependency=2.1.1.Final, time=2017-02-10 12:34:48 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.4.3.Final, dependency=2.1.1.Final, time=2017-03-31 13:02:47 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.4.4.Final, dependency=2.1.1.Final, time=2017-04-20 14:25:14 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.4.5.Final, dependency=2.1.1.Final, time=2017-05-19 13:33:10 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.4.6.Final, dependency=2.1.1.Final, time=2017-08-10 09:40:41 UTC),	Latest, "DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)"
+
+ProjectVersionFixed(version=1.4.7.Final, dependency=2.1.1.Final, time=2018-02-06 13:08:43 UTC),	Latest, "DependencyVersion(version=2.3.0.Final, time=2018-01-11 16:51:56 UTC)"
+
+ProjectVersionFixed(version=1.4.8.Final, dependency=2.1.1.Final, time=2018-03-12 13:40:05 UTC),	Latest, "DependencyVersion(version=2.3.1.Final, time=2018-02-24 00:22:35 UTC)"
+
+ProjectVersionFixed(version=1.4.9.Final, dependency=2.1.1.Final, time=2018-04-23 14:59:45 UTC),	Latest, "DependencyVersion(version=2.3.2.Final, time=2018-03-16 13:35:48 UTC)"
+
+
+Project B:
+DependencyVersion(version=1.0.0.CR1, time=2009-02-18 16:59:55 UTC)
+DependencyVersion(version=1.0.0.CR2, time=2009-03-03 00:23:28 UTC)
+DependencyVersion(version=1.0.0.CR3, time=2009-04-03 22:29:54 UTC)
+DependencyVersion(version=1.0.0.CR4, time=2009-04-06 13:36:06 UTC)
+DependencyVersion(version=1.0.0.GA, time=2009-05-12 01:59:17 UTC)
+DependencyVersion(version=2.0.0.CR1, time=2010-01-13 22:46:23 UTC)
+DependencyVersion(version=2.0.0.CR2, time=2010-01-22 22:00:42 UTC)
+DependencyVersion(version=2.0.0.CR3, time=2010-02-02 18:50:02 UTC)
+DependencyVersion(version=2.0.0.CR4, time=2010-04-06 04:08:11 UTC)
+DependencyVersion(version=2.0.0.CR5, time=2010-08-10 04:02:32 UTC)
+DependencyVersion(version=2.0.0.CR6, time=2010-10-16 02:26:37 UTC)
+DependencyVersion(version=2.0.0.CR7, time=2010-11-10 15:49:24 UTC)
+DependencyVersion(version=2.0.0.CR8, time=2010-12-20 16:36:50 UTC)
+DependencyVersion(version=2.0.0.GA, time=2011-07-05 23:00:33 UTC)
+DependencyVersion(version=2.0.1.GA, time=2013-08-07 00:38:21 UTC)
+DependencyVersion(version=2.1.0.Alpha1-ij-1, time=2012-08-30 15:10:44 UTC)
+DependencyVersion(version=2.1.0.Final, time=2012-12-19 15:57:16 UTC)
+DependencyVersion(version=2.1.1.Final, time=2013-08-07 00:39:46 UTC)
+DependencyVersion(version=2.1.2.Final, time=2014-10-30 16:32:08 UTC)
+DependencyVersion(version=2.2.0.Beta1, time=2014-10-07 15:09:42 UTC)
+DependencyVersion(version=2.2.0.Final, time=2014-11-12 23:40:12 UTC)
+DependencyVersion(version=2.2.1.Final, time=2015-07-08 23:24:34 UTC)
+DependencyVersion(version=2.3.0.Beta1, time=2017-11-02 13:37:43 UTC)
+DependencyVersion(version=2.3.0.Beta2, time=2017-11-06 19:49:21 UTC)
+DependencyVersion(version=2.3.0.Beta3, time=2017-11-07 22:52:31 UTC)
+DependencyVersion(version=2.3.0.Final, time=2018-01-11 16:51:56 UTC)
+DependencyVersion(version=2.3.1.Final, time=2018-02-24 00:22:35 UTC)
+DependencyVersion(version=2.3.2.Final, time=2018-03-16 13:35:48 UTC)

@@ -105,11 +105,11 @@ Project information
 Calmo.Data.MySql (2905480)	MySql.Data (616035)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=6.9.9, time=2018-06-05 22:49:35 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1, dependency=6.9.9, time=2018-06-06 13:52:25 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.2, dependency=6.9.9, time=2018-06-06 16:30:01 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.3, dependency=6.9.9, time=2018-12-14 18:46:43 UTC),	Latest, DependencyVersion(version=8.0.13, time=2018-10-22 17:00:04 UTC)
-ProjectVersion(version=2017.10.5.9, dependency=6.9.9, time=2017-10-05 22:12:55 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 6.9.9, time=2018-06-05 22:49:35 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1, dependency== 6.9.9, time=2018-06-06 13:52:25 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.2, dependency== 6.9.9, time=2018-06-06 16:30:01 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.3, dependency== 6.9.9, time=2018-12-14 18:46:43 UTC),	Latest, DependencyVersion(version=8.0.13, time=2018-10-22 17:00:04 UTC)
+ProjectVersionFixed(version=2017.10.5.9, dependency== 6.9.9, time=2017-10-05 22:12:55 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=5.1.7, time=2011-07-07 00:36:33 UTC)

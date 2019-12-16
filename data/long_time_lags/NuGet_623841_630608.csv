@@ -107,13 +107,13 @@ Project information
 xunit.execution (623841)	xunit.abstractions (630608)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=2.0.0-beta5-build2785, dependency=2.0.0-beta5-build2785, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=2.0.0-alpha-build2595, dependency=2.0.0-alpha-build2595, time=2014-03-09 23:19:01 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=2.0.0-alpha-build2606, dependency=2.0.0-alpha-build2606, time=2014-03-16 00:53:26 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=2.0.0-beta-build2616, dependency=2.0.0-beta-build2616, time=2014-03-22 23:38:48 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=2.0.0-beta-build2650, dependency=2.0.0-beta-build2650, time=2014-04-29 03:06:45 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=2.0.0-beta-build2700, dependency=2.0.0-beta-build2700, time=2014-06-30 16:20:44 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=2.0.0-beta4-build2738, dependency=2.0.0-beta4-build2738, time=2014-08-10 21:42:44 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=2.0.0-beta5-build2785, dependency== 2.0.0-beta5-build2785, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=2.0.0-alpha-build2595, dependency== 2.0.0-alpha-build2595, time=2014-03-09 23:19:01 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=2.0.0-alpha-build2606, dependency== 2.0.0-alpha-build2606, time=2014-03-16 00:53:26 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=2.0.0-beta-build2616, dependency== 2.0.0-beta-build2616, time=2014-03-22 23:38:48 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=2.0.0-beta-build2650, dependency== 2.0.0-beta-build2650, time=2014-04-29 03:06:45 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=2.0.0-beta-build2700, dependency== 2.0.0-beta-build2700, time=2014-06-30 16:20:44 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=2.0.0-beta4-build2738, dependency== 2.0.0-beta4-build2738, time=2014-08-10 21:42:44 UTC),	Latest, DependencyVersion(version=2.0.1-rc1, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=2.0.0, time=2015-03-16 21:10:45 UTC)

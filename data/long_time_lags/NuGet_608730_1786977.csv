@@ -103,9 +103,9 @@ Project information
 FubuPersistence45 (608730)	RavenDB.Client (1786977)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.9.5.95, dependency=2.5.2750, time=2013-12-16 20:02:31 UTC),	Latest, DependencyVersion(version=4.0.4, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.9.5.96, dependency=2.5.2750, time=2013-12-17 23:29:06 UTC),	Latest, DependencyVersion(version=4.0.4, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.9.5.100, dependency=2.5.2750, time=2016-01-05 13:45:52 UTC),	Latest, DependencyVersion(version=4.0.4, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.9.5.95, dependency== 2.5.2750, time=2013-12-16 20:02:31 UTC),	Latest, DependencyVersion(version=4.0.4, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.9.5.96, dependency== 2.5.2750, time=2013-12-17 23:29:06 UTC),	Latest, DependencyVersion(version=4.0.4, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.9.5.100, dependency== 2.5.2750, time=2016-01-05 13:45:52 UTC),	Latest, DependencyVersion(version=4.0.4, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.0.531, time=1900-01-01 00:00:00 UTC)

@@ -1,0 +1,89 @@
+
+Project information
+com.github.spotbugs:spotbugs-maven-plugin (3119617)	org.apache.maven:maven-compat (414462)	Package Manager: Maven
+RepoID: 26659701
+Tag information:
+CommitInfo{repo='GitHub', hash='12d62b4f1e674ec577e35ddccbf160ff294fc4cf', version='findbugs-maven-plugin-2.5.3'}
+CommitInfo{repo='GitHub', hash='7151ec1f0a72de9fc5d586ebfee2c4ca594dbc6e', version='findbugs-maven-plugin-2.5.4'}
+CommitInfo{repo='GitHub', hash='ea80fd399194bef8e2c2447e536f8e5d015356df', version='findbugs-maven-plugin-2.5.5'}
+CommitInfo{repo='GitHub', hash='7d4d727f3c4f9ec16348f7e48f6be84324e4ea7e', version='findbugs-maven-plugin-3.0.0'}
+CommitInfo{repo='GitHub', hash='91a2e2faa1f84b4e162bc8c9b4372786fccf1206', version='findbugs-maven-plugin-3.0.1'}
+CommitInfo{repo='GitHub', hash='e687285c079fd4a9b0266cf82817093eb6ff97cf', version='findbugs-maven-plugin-3.0.2'}
+CommitInfo{repo='GitHub', hash='57520ef50f972399b2dd556bc496d2d994a618ef', version='findbugs-maven-plugin-3.0.3'}
+CommitInfo{repo='GitHub', hash='31e63052632fa05eb6630823f0112983ede9c274', version='findbugs-maven-plugin-3.0.4'}
+CommitInfo{repo='GitHub', hash='577744712a1a1744f68741c3f6f455a4c1e77fe1', version='findbugs-maven-plugin-3.0.5'}
+CommitInfo{repo='GitHub', hash='a90ad350bdeef0ae13a896bd6c68326deeb14f66', version='spotbugs-maven-plugin-3.1.0'}
+CommitInfo{repo='GitHub', hash='f1524cbc7c86dde8e8042319b699642f5e3ffbcb', version='spotbugs-maven-plugin-3.1.0-RC5'}
+CommitInfo{repo='GitHub', hash='413ae9dd1bc6919d6dae7e6afca39abef8598624', version='spotbugs-maven-plugin-3.1.0-RC6'}
+CommitInfo{repo='GitHub', hash='157890058bb2b33a66caecacd31f65a19f81b0ad', version='spotbugs-maven-plugin-3.1.0-RC7'}
+CommitInfo{repo='GitHub', hash='57bc6d59a0cb50478d3391b1ccdad303baa0f253', version='spotbugs-maven-plugin-3.1.0-RC8'}
+CommitInfo{repo='GitHub', hash='58d928caad3a6595bf9b7fee171bdc75b968cc90', version='spotbugs-maven-plugin-3.1.1'}
+CommitInfo{repo='GitHub', hash='b1ec734cd6eeb3b3cd379838f0bdbbbed9a098e0', version='spotbugs-maven-plugin-3.1.2'}
+CommitInfo{repo='GitHub', hash='4c68f5c46851fade2755cab6f81237cc11a5b884', version='spotbugs-maven-plugin-3.1.3'}
+
+Project A:
+ProjectVersionFixed(version=3.1.0-RC5, dependency=3.5.0, time=2017-10-14 03:59:07 UTC),	Latest, "DependencyVersion(version=3.5.0-beta-1, time=2017-03-20 16:59:47 UTC)"
+
+ProjectVersionFixed(version=3.1.0-RC6, dependency=3.5.0, time=2017-10-14 05:22:39 UTC),	Latest, "DependencyVersion(version=3.5.0-beta-1, time=2017-03-20 16:59:47 UTC)"
+
+ProjectVersionFixed(version=3.1.0-RC7, dependency=3.5.0, time=2017-10-31 03:56:52 UTC),	Latest, "DependencyVersion(version=3.5.2, time=2017-10-18 07:59:28 UTC)"
+
+ProjectVersionFixed(version=3.1.0-RC8, dependency=3.5.0, time=2017-11-09 01:45:44 UTC),	Latest, "DependencyVersion(version=3.5.2, time=2017-10-18 07:59:28 UTC)"
+
+ProjectVersionFixed(version=3.1.0, dependency=3.5.2, time=2017-12-17 07:29:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.1, dependency=3.5.2, time=2017-12-29 00:49:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.1.2, dependency=3.5.2, time=2018-02-25 03:01:25 UTC),	Latest, "DependencyVersion(version=3.5.3, time=2018-02-24 19:51:01 UTC)"
+
+ProjectVersionFixed(version=3.1.3, dependency=3.5.0, time=2018-03-05 02:02:39 UTC),	Latest, "DependencyVersion(version=3.5.3, time=2018-02-24 19:51:01 UTC)"
+
+ProjectVersionFixed(version=3.1.3.1, dependency=3.5.0, time=2018-05-07 03:53:51 UTC),	Latest, "DependencyVersion(version=3.5.3, time=2018-02-24 19:51:01 UTC)"
+
+ProjectVersionFixed(version=3.1.5, dependency=3.5.0, time=2018-06-17 03:23:51 UTC),	Latest, "DependencyVersion(version=3.5.3, time=2018-02-24 19:51:01 UTC)"
+
+
+Project B:
+DependencyVersion(version=2.2.0, time=2009-06-26 13:05:31 UTC)
+DependencyVersion(version=2.2.1, time=2009-08-06 19:16:44 UTC)
+DependencyVersion(version=3.0, time=2010-10-04 11:53:19 UTC)
+DependencyVersion(version=3.0.1, time=2010-11-23 11:01:31 UTC)
+DependencyVersion(version=3.0.2, time=2011-01-09 01:00:20 UTC)
+DependencyVersion(version=3.0.3, time=2011-02-28 17:33:10 UTC)
+DependencyVersion(version=3.0.4, time=2012-01-17 08:46:53 UTC)
+DependencyVersion(version=3.0.5, time=2013-02-19 13:53:19 UTC)
+DependencyVersion(version=3.0-alpha-1, time=2009-01-07 22:46:52 UTC)
+DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:05 UTC)
+DependencyVersion(version=3.0-alpha-3, time=2009-11-09 16:07:19 UTC)
+DependencyVersion(version=3.0-alpha-4, time=2009-11-13 18:09:21 UTC)
+DependencyVersion(version=3.0-alpha-5, time=2009-11-23 15:56:56 UTC)
+DependencyVersion(version=3.0-alpha-6, time=2010-01-06 11:05:00 UTC)
+DependencyVersion(version=3.0-alpha-7, time=2010-03-09 22:33:24 UTC)
+DependencyVersion(version=3.0-beta-1, time=2010-04-19 17:02:52 UTC)
+DependencyVersion(version=3.0-beta-2, time=2010-08-07 11:02:57 UTC)
+DependencyVersion(version=3.0-beta-3, time=2010-08-30 12:46:22 UTC)
+DependencyVersion(version=3.0-TYCHO-733848, time=2009-01-12 18:15:38 UTC)
+DependencyVersion(version=3.0-TYCHO-790714, time=2009-07-06 15:33:51 UTC)
+DependencyVersion(version=3.0-TYCHO-795913, time=2009-07-20 18:33:21 UTC)
+DependencyVersion(version=3.0-TYCHO-796914, time=2009-07-23 02:32:35 UTC)
+DependencyVersion(version=3.0-TYCHO-797695, time=2009-07-25 02:43:07 UTC)
+DependencyVersion(version=3.0-TYCHO-806336, time=2009-08-21 04:58:38 UTC)
+DependencyVersion(version=3.0-TYCHO-807761, time=2009-08-26 02:39:02 UTC)
+DependencyVersion(version=3.0-TYCHO-816755, time=2009-09-19 03:39:43 UTC)
+DependencyVersion(version=3.0-TYCHO-818442, time=2009-09-24 20:59:57 UTC)
+DependencyVersion(version=3.1.0, time=2013-06-28 02:16:54 UTC)
+DependencyVersion(version=3.1.0-alpha-1, time=2013-06-01 13:05:01 UTC)
+DependencyVersion(version=3.1.1, time=2013-09-17 15:23:30 UTC)
+DependencyVersion(version=3.2.1, time=2014-02-14 17:39:30 UTC)
+DependencyVersion(version=3.2.2, time=2014-06-17 13:52:45 UTC)
+DependencyVersion(version=3.2.3, time=2014-08-11 20:59:08 UTC)
+DependencyVersion(version=3.2.5, time=2014-12-14 17:30:19 UTC)
+DependencyVersion(version=3.3.1, time=2015-03-13 20:11:42 UTC)
+DependencyVersion(version=3.3.3, time=2015-04-22 11:58:57 UTC)
+DependencyVersion(version=3.3.9, time=2015-11-10 16:43:14 UTC)
+DependencyVersion(version=3.5.0, time=2017-04-03 19:40:29 UTC)
+DependencyVersion(version=3.5.0-alpha-1, time=2017-02-23 15:06:03 UTC)
+DependencyVersion(version=3.5.0-beta-1, time=2017-03-20 16:59:47 UTC)
+DependencyVersion(version=3.5.2, time=2017-10-18 07:59:28 UTC)
+DependencyVersion(version=3.5.3, time=2018-02-24 19:51:01 UTC)
+DependencyVersion(version=3.5.4, time=2018-06-17 18:35:08 UTC)

@@ -87,7 +87,7 @@ BACKWARD_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
 Total values: 0
 
 Project,Dependency,#MajorLag,#MajorMinor,#MajorMicro,#MajorMinorMicro,#MinorLag,#MinorMicro,#MicroLag,#NoLag,MAJOR DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MAJOR TIME DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MINOR DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MINOR TIME DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MICRO DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MICRO TIME DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,FORWARDS_MAJOR,FORWARDS_MINOR,FORWARDS_MICRO,NO_CHANGE,BACKWARD_MICRO,BACKWARD_MINOR,BACKWARD_MAJOR,missingDepsEnd,missingDepsTotal
-2183683,616035,0,0,0,0,0,0,0,0,,2.0000,0.0000,2,2,2,2,2,2,2,2,2,2.0000,,42806.0000,0.0000,42806,42806,42806,42806,42806,42806,42806,42806,42806,42806.0000,,1.0000,0.0000,1,1,1,1,1,1,1,1,1,1.0000,,95.0000,0.0000,95,95,95,95,95,95,95,95,95,95.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,0,0,0,0,0,0,0,0,0
+2183683,616035,0,0,0,0,0,0,0,0,,2.0000,0.0000,2,2,2,2,2,2,2,2,2,0.0000,,42806.0000,0.0000,42806,42806,42806,42806,42806,42806,42806,42806,42806,0.0000,,1.0000,0.0000,1,1,1,1,1,1,1,1,1,0.0000,,95.0000,0.0000,95,95,95,95,95,95,95,95,95,0.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,0,0,0,0,0,0,0,2,2
 
 
 
@@ -95,15 +95,15 @@ Lag (Vers Behind), Major, Days of Lag, Minor, Days of Lag, Micro, Days of Lag
 ,2,42806,1,95,0,0
 
 Missing Dependency Information
-Total missing deps: 0
-Missing deps at end: 0
+Total missing deps: 2
+Missing deps at end: 2
 Project information
 Bizplatform.MySql.Web (2183683)	MySql.Data (616035)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=6.9.9.1, dependency=null, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=6.9.9.2, dependency=null, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=6.9.9, dependency=6.9.9, time=2017-03-14 16:59:22 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=6.9.9, dependency== 6.9.9, time=2017-03-14 16:59:22 UTC),	Latest, DependencyVersion(version=8.0.12, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=6.9.9.1, dependency=null, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=6.9.9.2, dependency=null, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=5.1.7, time=2011-07-07 00:36:33 UTC)

@@ -1,0 +1,35 @@
+
+Project information
+fup/wordpress-middleware (2595403)	http-interop/http-middleware (1627042)	Package Manager: Packagist
+RepoID: 31843253
+Tag information:
+CommitInfo{repo='GitHub', hash='d06b96df78c0e11a5b64d786d3577fbcf2e76e7d', version='0.1-beta'}
+CommitInfo{repo='GitHub', hash='dc29b0d34670d6cac85bf919abf26a7ffd0493bf', version='1.0.1-beta'}
+CommitInfo{repo='GitHub', hash='798ab4fcb7a7481d96ecf1d62a315208d3fcd265', version='1.0.2-beta'}
+CommitInfo{repo='GitHub', hash='0c60a1c2af7c53bf665bff26b6c7bec2627dc41c', version='1.0-beta'}
+CommitInfo{repo='GitHub', hash='b65428677026b5c16e0ecdf7b47547856852d337', version='2.0.1-alpha'}
+CommitInfo{repo='GitHub', hash='3e229a0c7836520263aa71d851c4ab1370900a83', version='2.0-alpha'}
+
+Project A:
+ProjectVersionFixed(version=0.1-beta, dependency=0.5.0, time=2018-01-19 13:31:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0-beta, dependency=0.4.1, time=2018-01-24 13:21:02 UTC),	Latest, "DependencyVersion(version=0.5.0, time=2017-09-18 15:27:03 UTC)"
+
+ProjectVersionFixed(version=1.0.1-beta, dependency=0.4.1, time=2018-01-24 13:47:58 UTC),	Latest, "DependencyVersion(version=0.5.0, time=2017-09-18 15:27:03 UTC)"
+
+ProjectVersionFixed(version=1.0.2-beta, dependency=0.4.1, time=2018-01-26 12:33:05 UTC),	Latest, "DependencyVersion(version=0.5.0, time=2017-09-18 15:27:03 UTC)"
+
+ProjectVersionFixed(version=2.0-alpha, dependency=0.5.0, time=2018-01-16 10:45:14 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.0.1-alpha, dependency=0.5.0, time=2018-01-24 13:56:10 UTC),	Latest, "null"
+
+
+Project B:
+DependencyVersion(version=0.1.0, time=2016-08-27 13:44:56 UTC)
+DependencyVersion(version=0.1.1, time=2016-08-28 17:21:34 UTC)
+DependencyVersion(version=0.2.0, time=2016-09-25 13:30:27 UTC)
+DependencyVersion(version=0.2.1, time=2016-11-19 15:51:20 UTC)
+DependencyVersion(version=0.3.0, time=2016-11-19 15:51:20 UTC)
+DependencyVersion(version=0.4.0, time=2016-12-16 18:14:42 UTC)
+DependencyVersion(version=0.4.1, time=2017-01-14 15:23:42 UTC)
+DependencyVersion(version=0.5.0, time=2017-09-18 15:27:03 UTC)

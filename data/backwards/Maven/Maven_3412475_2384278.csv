@@ -1,0 +1,85 @@
+
+Project information
+com.codecommit:shims-effect_2.11 (3412475)	org.typelevel:cats-effect-laws_2.11 (2384278)	Package Manager: Maven
+RepoID: 4425715
+Tag information:
+CommitInfo{repo='GitHub', hash='04f38b87b22527aafbc8b9481078b05d9202fb21', version='v0.1'}
+CommitInfo{repo='GitHub', hash='521580f3a1bf89c626d00b6276a7f0f2683347d5', version='v0.2'}
+CommitInfo{repo='GitHub', hash='e627589366391c8d6ac6c7b755ff22bc8768590d', version='v0.3'}
+CommitInfo{repo='GitHub', hash='1179ec62f835a20d0d81e8b3d512e573e001b29e', version='v0.3.1'}
+CommitInfo{repo='GitHub', hash='d7ad45685a4c535ac4e2dd3212121a19f34734d5', version='v0.4'}
+CommitInfo{repo='GitHub', hash='428495fefda7f6522c23d8fa36d964ad2650ef49', version='v0.4.1'}
+CommitInfo{repo='GitHub', hash='14d9855cf08d87af6bb6bf604728cec63f7f8f45', version='v0.4.2'}
+CommitInfo{repo='GitHub', hash='fa62751c263423585f1bdefdc541ae0177413e2a', version='v1.0'}
+CommitInfo{repo='GitHub', hash='985ea9d2df0936cb88224143cc4778a927913de1', version='v1.1'}
+CommitInfo{repo='GitHub', hash='db185900e4842127fbfe280f3c98d711db859fc2', version='v1.2'}
+CommitInfo{repo='GitHub', hash='ff8dfd82a5f53c253a7994a7a969a5a43390fd98', version='v1.2.1'}
+CommitInfo{repo='GitHub', hash='61444db480ed11014cd74c87ad99528672180580', version='v1.3.0'}
+CommitInfo{repo='GitHub', hash='61c5aff074ad97133bb6e745acfa77b203706094', version='v1.3.1'}
+CommitInfo{repo='GitHub', hash='cd4f74492cdb79e02604bcf2197db2d65ad8527c', version='v1.4.0'}
+CommitInfo{repo='GitHub', hash='cf7a19a2c5c1568ab163b782c3f39fd24255eb07', version='v1.5.0'}
+CommitInfo{repo='GitHub', hash='731dfdb50af2b618498900725036104bb0d3d3a0', version='v1.6.1'}
+
+Project A:
+ProjectVersionFixed(version=1.3.0, dependency=1.0.0-RC2, time=2018-06-24 23:47:51 UTC),	Latest, "DependencyVersion(version=1.0.0-RC2-4c8120d, time=2018-06-02 12:04:33 UTC)"
+
+ProjectVersionFixed(version=1.3.1, dependency=1.0.0-RC2, time=2018-07-24 17:06:50 UTC),	Latest, "DependencyVersion(version=1.0.0-RC2-78a795d, time=2018-07-21 13:25:49 UTC)"
+
+ProjectVersionFixed(version=1.4.0, dependency=0.10.1, time=2018-07-24 21:18:28 UTC),	Latest, "DependencyVersion(version=1.0.0-RC2-78a795d, time=2018-07-21 13:25:49 UTC)"
+
+ProjectVersionFixed(version=1.4-c449598, dependency=0.10.1, time=2018-08-17 05:25:15 UTC),	Latest, "DependencyVersion(version=1.0.0-RC2-3433449, time=2018-08-16 11:34:39 UTC)"
+
+ProjectVersionFixed(version=1.5-abcb3e0, dependency=1.0.0, time=2018-09-07 04:19:55 UTC),	Latest, "DependencyVersion(version=1.0.0-RC3-3e17307, time=2018-08-26 15:51:42 UTC)"
+
+ProjectVersionFixed(version=1.5.0, dependency=1.0.0, time=2018-10-11 16:04:49 UTC),	Latest, "DependencyVersion(version=1.0.0-1182d8c, time=2018-09-27 08:26:14 UTC)"
+
+ProjectVersionFixed(version=1.6.0, dependency=1.0.0, time=2018-11-18 21:58:07 UTC),	Latest, "DependencyVersion(version=1.1.0-M1, time=2018-10-26 20:54:32 UTC)"
+
+
+Project B:
+DependencyVersion(version=0.10, time=2018-03-16 11:19:51 UTC)
+DependencyVersion(version=0.10.1, time=2018-04-17 19:14:42 UTC)
+DependencyVersion(version=0.10-317f775, time=2018-04-16 12:02:06 UTC)
+DependencyVersion(version=0.10-4e98208, time=2018-03-08 09:18:41 UTC)
+DependencyVersion(version=0.10-5b8214f, time=2018-02-28 10:58:44 UTC)
+DependencyVersion(version=0.1-0848c9b, time=2017-04-28 16:05:37 UTC)
+DependencyVersion(version=0.10-b6a5446, time=2018-04-18 08:19:06 UTC)
+DependencyVersion(version=0.10-c64e7c9, time=2018-03-07 18:45:02 UTC)
+DependencyVersion(version=0.10-d365658, time=2018-04-16 08:12:38 UTC)
+DependencyVersion(version=0.10-ea8fbc9, time=2018-03-06 07:15:47 UTC)
+DependencyVersion(version=0.1-65b8a75, time=2017-04-24 22:24:00 UTC)
+DependencyVersion(version=0.1-d1b5231, time=2017-04-21 21:01:36 UTC)
+DependencyVersion(version=0.2, time=2017-05-14 17:23:44 UTC)
+DependencyVersion(version=0.2-2f38223, time=2017-05-12 20:24:41 UTC)
+DependencyVersion(version=0.2-3772c8e, time=2017-05-05 16:00:55 UTC)
+DependencyVersion(version=0.2-632d221, time=2017-05-08 23:42:11 UTC)
+DependencyVersion(version=0.3, time=2017-05-29 18:03:46 UTC)
+DependencyVersion(version=0.3-d37204d, time=2017-05-21 03:47:07 UTC)
+DependencyVersion(version=0.4, time=2017-07-29 17:56:08 UTC)
+DependencyVersion(version=0.4-09e64a7, time=2017-07-07 12:46:01 UTC)
+DependencyVersion(version=0.4-542290e, time=2017-10-28 17:59:07 UTC)
+DependencyVersion(version=0.4-c257223, time=2017-06-07 01:18:30 UTC)
+DependencyVersion(version=0.4-d53a78e, time=2017-10-12 21:05:23 UTC)
+DependencyVersion(version=0.5, time=2017-11-01 10:38:37 UTC)
+DependencyVersion(version=0.6, time=2017-12-19 17:16:41 UTC)
+DependencyVersion(version=0.6-307e2c5, time=2017-12-27 20:07:33 UTC)
+DependencyVersion(version=0.7, time=2017-12-27 21:15:57 UTC)
+DependencyVersion(version=0.8, time=2018-01-03 18:36:36 UTC)
+DependencyVersion(version=0.9, time=2018-02-25 07:51:42 UTC)
+DependencyVersion(version=1.0.0, time=2018-09-06 02:04:54 UTC)
+DependencyVersion(version=1.0.0-1182d8c, time=2018-09-27 08:26:14 UTC)
+DependencyVersion(version=1.0.0-RC, time=2018-04-18 08:56:59 UTC)
+DependencyVersion(version=1.0.0-RC2, time=2018-06-03 05:19:36 UTC)
+DependencyVersion(version=1.0.0-RC2-3433449, time=2018-08-16 11:34:39 UTC)
+DependencyVersion(version=1.0.0-RC2-35bac78, time=2018-07-11 07:47:08 UTC)
+DependencyVersion(version=1.0.0-RC2-4c8120d, time=2018-06-02 12:04:33 UTC)
+DependencyVersion(version=1.0.0-RC2-68b7bd9, time=2018-05-29 14:49:20 UTC)
+DependencyVersion(version=1.0.0-RC2-78a795d, time=2018-07-21 13:25:49 UTC)
+DependencyVersion(version=1.0.0-RC2-8ed6e71, time=2018-05-23 08:07:46 UTC)
+DependencyVersion(version=1.0.0-RC2-91b8ec8, time=2018-08-17 23:43:24 UTC)
+DependencyVersion(version=1.0.0-RC2-93ac33d, time=2018-07-03 07:25:41 UTC)
+DependencyVersion(version=1.0.0-RC2-b180a99, time=2018-05-21 09:50:51 UTC)
+DependencyVersion(version=1.0.0-RC2-d7181dc, time=2018-05-30 20:08:54 UTC)
+DependencyVersion(version=1.0.0-RC3, time=2018-08-20 17:32:45 UTC)
+DependencyVersion(version=1.0.0-RC3-3e17307, time=2018-08-26 15:51:42 UTC)
+DependencyVersion(version=1.1.0-M1, time=2018-10-26 20:54:32 UTC)

@@ -102,11 +102,11 @@ Project information
 NextbusNET (609653)	RestSharp (610975)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=102.3.0, time=2011-12-05 04:05:16 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1, dependency=102.3.0, time=2012-01-25 02:39:16 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.2, dependency=null, time=2012-01-25 03:14:26 UTC)
-ProjectVersion(version=1.1.0, dependency=null, time=2012-08-14 00:05:03 UTC)
-ProjectVersion(version=1.2.0, dependency=null, time=2012-09-12 13:28:49 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 102.3.0, time=2011-12-05 04:05:16 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1, dependency== 102.3.0, time=2012-01-25 02:39:16 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.2, dependency=null, time=2012-01-25 03:14:26 UTC)
+ProjectVersionFixed(version=1.1.0, dependency=null, time=2012-08-14 00:05:03 UTC)
+ProjectVersionFixed(version=1.2.0, dependency=null, time=2012-09-12 13:28:49 UTC)
 
 Project B:
 DependencyVersion(version=100.3.0, time=2011-01-29 07:27:33 UTC)

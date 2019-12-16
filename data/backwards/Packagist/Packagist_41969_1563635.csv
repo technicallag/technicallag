@@ -1,0 +1,88 @@
+
+Project information
+beyondit/opencart-test-suite (41969)	opencart/opencart (1563635)	Package Manager: Packagist
+RepoID: 24400
+Tag information:
+CommitInfo{repo='GitHub', hash='8c789bf7620903876546c5ca97eebf7a2f2ea30d', version='0.1.0'}
+CommitInfo{repo='GitHub', hash='5dbc78dcda1e77b4dfec6f44aeb87b6cd9192261', version='0.1.1'}
+CommitInfo{repo='GitHub', hash='23bccb761ebf4e5d78edea223dc9b99dfa38c38b', version='0.1.2'}
+CommitInfo{repo='GitHub', hash='f16252ec59ad1573bfa8cfe592dae93efe312b47', version='0.1.3'}
+CommitInfo{repo='GitHub', hash='46ed2cf0375e1a2b8d2a4236b1f7dd99d3faef37', version='0.1.4'}
+CommitInfo{repo='GitHub', hash='b24e5b148568a476aca0ebf510eff466499ed23a', version='0.2.0'}
+CommitInfo{repo='GitHub', hash='3b07693d189b401586585023dc735d623a17ed03', version='0.2.1'}
+CommitInfo{repo='GitHub', hash='0eb02f12c48cd419ee9e13d417be22946c8b3df8', version='0.3'}
+CommitInfo{repo='GitHub', hash='4f3f1d80f1cb65ddb1485df92e228877533e0b23', version='0.3.1'}
+CommitInfo{repo='GitHub', hash='b12569b378637de4179b8c640c851540472a4079', version='0.3.2'}
+CommitInfo{repo='GitHub', hash='fee13d84f1f696c0b32f7c6cf085d3f507e2b0dc', version='0.3.3'}
+CommitInfo{repo='GitHub', hash='aca2db5efafb2b7700cf511406f64483b9cd14d7', version='2.2.0'}
+CommitInfo{repo='GitHub', hash='0bb9f1819711c8f654ae790cc79edcd514c70e38', version='2.3.0'}
+CommitInfo{repo='GitHub', hash='964f792d14731c75d711ad7eeee5c04b50dab216', version='3.0.0'}
+
+Project A:
+ProjectVersionFixed(version=0.1.0, dependency=null, time=2013-04-10 09:19:50 UTC)
+ProjectVersionFixed(version=0.1.2, dependency=null, time=2013-04-10 10:58:03 UTC)
+ProjectVersionFixed(version=0.1.3, dependency=null, time=2013-04-10 20:47:59 UTC)
+ProjectVersionFixed(version=0.1.4, dependency=null, time=2013-04-11 14:42:20 UTC)
+ProjectVersionFixed(version=0.2.0, dependency=null, time=2013-04-12 11:44:53 UTC)
+ProjectVersionFixed(version=0.2.1, dependency=null, time=2013-04-13 22:33:22 UTC)
+ProjectVersionFixed(version=0.3, dependency=2.2.0.0, time=2016-05-17 13:05:08 UTC),	Latest, "DependencyVersion(version=2.2.0.0_b1, time=2016-02-16 14:46:14 UTC)"
+
+ProjectVersionFixed(version=0.3.1, dependency=2.2.0.0, time=2016-06-16 12:40:41 UTC),	Latest, "DependencyVersion(version=2.2.0.0_b1, time=2016-02-16 14:46:14 UTC)"
+
+ProjectVersionFixed(version=0.3.2, dependency=2.3.0.0_b1, time=2016-07-11 12:20:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.3, dependency=2.3.0.1, time=2016-08-01 19:53:40 UTC),	Latest, "DependencyVersion(version=2.3.0.2, time=2016-08-01 13:43:14 UTC)"
+
+ProjectVersionFixed(version=2.2.0, dependency=2.2.0.0, time=2016-12-02 09:18:30 UTC),	Latest, "DependencyVersion(version=2.3.0.2, time=2016-08-01 13:43:14 UTC)"
+
+ProjectVersionFixed(version=2.2.x-dev, dependency=2.2.0.0, time=2016-12-02 09:18:30 UTC),	Latest, "DependencyVersion(version=2.3.0.2, time=2016-08-01 13:43:14 UTC)"
+
+ProjectVersionFixed(version=2.3.0, dependency=2.3.0.2, time=2016-12-02 10:08:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.3.x-dev, dependency=2.3.0.2, time=2016-12-02 10:08:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.0, dependency=3.0.2.0, time=2017-07-21 16:25:52 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=3.0.x-dev, dependency=3.0.2.0, time=2017-07-21 16:25:52 UTC),	Latest, "null"
+
+
+Project B:
+DependencyVersion(version=1.5.5.1, time=2017-03-27 17:51:19 UTC)
+DependencyVersion(version=1.5.6, time=2017-03-27 17:51:26 UTC)
+DependencyVersion(version=1.5.6.1, time=2017-03-27 17:51:38 UTC)
+DependencyVersion(version=1.5.6.2, time=2017-03-27 17:51:48 UTC)
+DependencyVersion(version=1.5.6.3, time=2017-03-27 17:52:00 UTC)
+DependencyVersion(version=1.5.6.4, time=2017-03-27 17:52:15 UTC)
+DependencyVersion(version=2.0.0.0, time=2017-03-27 17:52:29 UTC)
+DependencyVersion(version=2.0.0.0a1, time=2017-03-27 17:52:44 UTC)
+DependencyVersion(version=2.0.0.0a2, time=2017-03-27 17:53:00 UTC)
+DependencyVersion(version=2.0.0.0a3, time=2017-03-27 17:53:13 UTC)
+DependencyVersion(version=2.0.0.0a4, time=2017-03-27 17:53:29 UTC)
+DependencyVersion(version=2.0.0.0b1, time=2017-03-27 17:53:46 UTC)
+DependencyVersion(version=2.0.0.0b2, time=2017-03-27 17:54:00 UTC)
+DependencyVersion(version=2.0.0.0b3, time=2017-03-27 17:54:14 UTC)
+DependencyVersion(version=2.0.1.0, time=2017-03-27 17:54:33 UTC)
+DependencyVersion(version=2.0.1.1, time=2017-03-27 17:54:50 UTC)
+DependencyVersion(version=2.0.2.0, time=2017-03-27 17:55:06 UTC)
+DependencyVersion(version=2.0.3.0, time=2017-03-27 17:55:22 UTC)
+DependencyVersion(version=2.0.3.1, time=2017-03-27 17:55:39 UTC)
+DependencyVersion(version=2.1.0.0, time=2017-03-27 17:55:57 UTC)
+DependencyVersion(version=2.1.0.0_rc1, time=2017-03-27 17:56:11 UTC)
+DependencyVersion(version=2.1.0.1, time=2017-03-27 17:56:30 UTC)
+DependencyVersion(version=2.1.0.2, time=2017-03-27 17:56:44 UTC)
+DependencyVersion(version=2.2.0.0, time=2016-03-02 11:45:45 UTC)
+DependencyVersion(version=2.2.0.0_a1, time=2016-01-22 17:07:20 UTC)
+DependencyVersion(version=2.2.0.0_b1, time=2016-02-16 14:46:14 UTC)
+DependencyVersion(version=2.3.0.0, time=2016-07-30 17:06:13 UTC)
+DependencyVersion(version=2.3.0.0_b1, time=2016-07-05 14:12:00 UTC)
+DependencyVersion(version=2.3.0.1, time=2016-07-31 11:45:23 UTC)
+DependencyVersion(version=2.3.0.2, time=2016-08-01 13:43:14 UTC)
+DependencyVersion(version=2.3.x-dev, time=2017-06-10 15:57:29 UTC)
+DependencyVersion(version=3.0.0.0, time=2017-06-19 22:28:36 UTC)
+DependencyVersion(version=3.0.0.0_a1, time=2017-04-04 07:28:10 UTC)
+DependencyVersion(version=3.0.0.2, time=2017-07-04 13:32:47 UTC)
+DependencyVersion(version=3.0.1.0, time=2017-07-04 16:03:03 UTC)
+DependencyVersion(version=3.0.1.1, time=2017-07-04 23:43:07 UTC)
+DependencyVersion(version=3.0.1.2, time=2017-07-07 09:13:58 UTC)
+DependencyVersion(version=3.0.2.0, time=2017-07-17 19:01:07 UTC)
+DependencyVersion(version=3.1.0.0_a1, time=2018-07-24 17:33:42 UTC)

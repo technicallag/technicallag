@@ -114,22 +114,22 @@ Project information
 Sarbacane-Sdk (2148991)	RestSharp (610975)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.4, dependency=null, time=2017-02-08 10:57:59 UTC)
-ProjectVersion(version=1.0.4.1, dependency=null, time=2017-02-08 13:16:27 UTC)
-ProjectVersion(version=1.0.4.2, dependency=105.2.3, time=2017-02-09 14:28:35 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.4.4, dependency=105.2.3, time=2017-02-09 16:37:12 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.4.5, dependency=105.2.3, time=2017-02-10 08:58:17 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.5, dependency=105.2.3, time=2017-02-14 14:09:18 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.5.1, dependency=105.2.3, time=2017-02-14 15:04:37 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.5.2, dependency=105.2.3, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.0.5.3, dependency=105.2.3, time=2017-02-17 14:23:44 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.6, dependency=105.2.3, time=2017-02-21 11:27:02 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.6.1, dependency=105.2.3, time=2017-02-27 17:26:44 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.6.2, dependency=105.2.3, time=2017-03-03 11:52:48 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.6.3, dependency=105.2.3, time=2017-03-23 14:11:31 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.6.4, dependency=105.2.3, time=2017-03-23 14:26:47 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.6.5, dependency=105.2.3, time=2017-05-15 09:39:59 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.6.6, dependency=105.2.3, time=2017-05-18 07:30:47 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.4, dependency=null, time=2017-02-08 10:57:59 UTC)
+ProjectVersionFixed(version=1.0.4.1, dependency=null, time=2017-02-08 13:16:27 UTC)
+ProjectVersionFixed(version=1.0.4.2, dependency== 105.2.3, time=2017-02-09 14:28:35 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.4.4, dependency== 105.2.3, time=2017-02-09 16:37:12 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.4.5, dependency== 105.2.3, time=2017-02-10 08:58:17 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.5, dependency== 105.2.3, time=2017-02-14 14:09:18 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.5.1, dependency== 105.2.3, time=2017-02-14 15:04:37 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.5.2, dependency== 105.2.3, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.5.3, dependency== 105.2.3, time=2017-02-17 14:23:44 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.6, dependency== 105.2.3, time=2017-02-21 11:27:02 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.6.1, dependency== 105.2.3, time=2017-02-27 17:26:44 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.6.2, dependency== 105.2.3, time=2017-03-03 11:52:48 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.6.3, dependency== 105.2.3, time=2017-03-23 14:11:31 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.6.4, dependency== 105.2.3, time=2017-03-23 14:26:47 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.6.5, dependency== 105.2.3, time=2017-05-15 09:39:59 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.6.6, dependency== 105.2.3, time=2017-05-18 07:30:47 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=100.3.0, time=2011-01-29 07:27:33 UTC)

@@ -104,10 +104,10 @@ Project information
 SharpHeaderCookie (1024050)	System.Data.SQLite.Core (620825)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.6, dependency=1.0.97, time=2015-07-24 14:10:32 UTC),	Latest, DependencyVersion(version=1.0.98, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.7, dependency=1.0.97, time=2015-09-07 12:05:13 UTC),	Latest, DependencyVersion(version=1.0.98.1, time=2015-08-20 18:23:47 UTC)
-ProjectVersion(version=1.0.8, dependency=1.0.103, time=2016-11-03 15:28:20 UTC),	Latest, null
-ProjectVersion(version=1.0.8.1, dependency=1.0.103, time=2016-11-07 13:21:44 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.6, dependency== 1.0.97, time=2015-07-24 14:10:32 UTC),	Latest, DependencyVersion(version=1.0.98, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.7, dependency== 1.0.97, time=2015-09-07 12:05:13 UTC),	Latest, DependencyVersion(version=1.0.98.1, time=2015-08-20 18:23:47 UTC)
+ProjectVersionFixed(version=1.0.8, dependency== 1.0.103, time=2016-11-03 15:28:20 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.8.1, dependency== 1.0.103, time=2016-11-07 13:21:44 UTC),	Latest, null
 
 Project B:
 DependencyVersion(version=1.0.100, time=2016-04-15 17:38:35 UTC)

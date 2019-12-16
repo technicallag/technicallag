@@ -107,13 +107,13 @@ Project information
 Crowd.NET (1023546)	ServiceStack.Text (1788617)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.1.0, dependency=3.9.71, time=2015-08-13 10:29:37 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
-ProjectVersion(version=1.2.0, dependency=3.9.71, time=2015-08-18 21:23:16 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
-ProjectVersion(version=1.2.1, dependency=3.9.71, time=2015-08-24 20:17:09 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
-ProjectVersion(version=1.3.0, dependency=3.9.71, time=2015-08-25 21:12:18 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
-ProjectVersion(version=1.3.1, dependency=3.9.71, time=2015-08-26 20:04:15 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
-ProjectVersion(version=1.3.2, dependency=3.9.71, time=2016-01-07 22:02:58 UTC),	Latest, DependencyVersion(version=4.0.50, time=2015-11-30 08:11:34 UTC)
-ProjectVersion(version=1.3.3, dependency=3.9.71, time=2017-02-24 23:40:24 UTC),	Latest, DependencyVersion(version=4.5.6, time=2017-01-25 18:25:26 UTC)
+ProjectVersionFixed(version=1.1.0, dependency== 3.9.71, time=2015-08-13 10:29:37 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
+ProjectVersionFixed(version=1.2.0, dependency== 3.9.71, time=2015-08-18 21:23:16 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
+ProjectVersionFixed(version=1.2.1, dependency== 3.9.71, time=2015-08-24 20:17:09 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
+ProjectVersionFixed(version=1.3.0, dependency== 3.9.71, time=2015-08-25 21:12:18 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
+ProjectVersionFixed(version=1.3.1, dependency== 3.9.71, time=2015-08-26 20:04:15 UTC),	Latest, DependencyVersion(version=4.0.42, time=2015-07-07 14:32:28 UTC)
+ProjectVersionFixed(version=1.3.2, dependency== 3.9.71, time=2016-01-07 22:02:58 UTC),	Latest, DependencyVersion(version=4.0.50, time=2015-11-30 08:11:34 UTC)
+ProjectVersionFixed(version=1.3.3, dependency== 3.9.71, time=2017-02-24 23:40:24 UTC),	Latest, DependencyVersion(version=4.5.6, time=2017-01-25 18:25:26 UTC)
 
 Project B:
 DependencyVersion(version=3.4.4, time=1900-01-01 00:00:00 UTC)

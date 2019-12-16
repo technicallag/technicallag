@@ -1,0 +1,430 @@
+
+Project information
+org.jbehave:jbehave-core (351239)	commons-io:commons-io (385093)	Package Manager: Maven
+RepoID: 1120324
+Tag information:
+CommitInfo{repo='GitHub', hash='fd6c6df321d3492ecc8de9202681d738083d779d', version='jbehave-3.0'}
+CommitInfo{repo='GitHub', hash='2d8567d06894299f1101ff5123e3f5a40c54db81', version='jbehave-3.0.1'}
+CommitInfo{repo='GitHub', hash='b0907b5a8f31ab0b521e073259ed295053bf04cf', version='jbehave-3.0.2'}
+CommitInfo{repo='GitHub', hash='5876be342988e2e2ff7e582c872d80c39431ff2d', version='jbehave-3.0.3'}
+CommitInfo{repo='GitHub', hash='903d0c3e935396bde1aedbabcd5477901c62b854', version='jbehave-3.0-beta-10'}
+CommitInfo{repo='GitHub', hash='d1e9d0b2752736d1ed224a9410b553dfe702b253', version='jbehave-3.0-beta-11'}
+CommitInfo{repo='GitHub', hash='ad600b2999003273d3050ab313520719d486bf9a', version='jbehave-3.0-beta-12'}
+CommitInfo{repo='GitHub', hash='efc9f746a3f3cfa43346147d966e4dcfc7e13ae3', version='jbehave-3.0-beta-13'}
+CommitInfo{repo='GitHub', hash='660f995af8348b9d604956f5bf08c2f48e1010bb', version='jbehave-3.0-beta-2'}
+CommitInfo{repo='GitHub', hash='ed82a043d1f26e26ae03b749c19d7623c1fa5bb0', version='jbehave-3.0-beta-3'}
+CommitInfo{repo='GitHub', hash='68d86d110d260a0af372aa6b0925c54de2991b59', version='jbehave-3.0-beta-4'}
+CommitInfo{repo='GitHub', hash='ab283074771240335850d194ceb904e2316e9015', version='jbehave-3.0-beta-5'}
+CommitInfo{repo='GitHub', hash='7eee3e8b06e212ee900ebb4034eda10c69a5e958', version='jbehave-3.0-beta-6'}
+CommitInfo{repo='GitHub', hash='bba59e30cda4a6edee203e56bb83a83616853be7', version='jbehave-3.0-beta-7'}
+CommitInfo{repo='GitHub', hash='1cdf83a09064e9aa037522510c4c0f1eade39332', version='jbehave-3.0-beta-8'}
+CommitInfo{repo='GitHub', hash='8ac091e88b65fbe0e1444d9b0999e90b84e94c08', version='jbehave-3.0-beta-9'}
+CommitInfo{repo='GitHub', hash='c336bb017761747058b3f4d4e750feb144b95619', version='jbehave-3.0-rc1'}
+CommitInfo{repo='GitHub', hash='dc080ed171eee51b2be668526d6d1a4f24c89034', version='jbehave-3.0-rc2'}
+CommitInfo{repo='GitHub', hash='ec1ed1ce2836e6e2f3edf68a4cf5f96e6e8784a2', version='jbehave-3.0-rc3'}
+CommitInfo{repo='GitHub', hash='a9dfa98723e192d519993dc3ad805caf3db07279', version='jbehave-3.1'}
+CommitInfo{repo='GitHub', hash='e1db184904417ebeb6160707c6b0c819eb41e920', version='jbehave-3.10'}
+CommitInfo{repo='GitHub', hash='0346c932cfb1d6b16fc75c590c4c370d99a48709', version='jbehave-3.1.1'}
+CommitInfo{repo='GitHub', hash='a1dedc64753ff9d3d1fc61421b352aa8820fd028', version='jbehave-3.1.2'}
+CommitInfo{repo='GitHub', hash='225b781bc2367d9eb17762db71e8ce0c962c574c', version='jbehave-3.1-beta-1'}
+CommitInfo{repo='GitHub', hash='9224d1105b613eb873bcc584903203c207859619', version='jbehave-3.1-beta-2'}
+CommitInfo{repo='GitHub', hash='3bb424f5f011356b5bdd3bd5353b38afa5f65111', version='jbehave-3.2'}
+CommitInfo{repo='GitHub', hash='fade6d5de93984d45e253a4edcbc931115b51f74', version='jbehave-3.2-beta-1'}
+CommitInfo{repo='GitHub', hash='7b94f20a545dc9058f89a5a1b7a9962a814e20b1', version='jbehave-3.2-beta-2'}
+CommitInfo{repo='GitHub', hash='c849653ee50768f2d795d9feb5334eb7233b3c98', version='jbehave-3.2-beta-3'}
+CommitInfo{repo='GitHub', hash='61d553dc0740653057d3e4ed40171661233a7d2e', version='jbehave-3.2-beta-4'}
+CommitInfo{repo='GitHub', hash='38566388c13bd3ea38ddc8034b61a39daf9a895e', version='jbehave-3.2-beta-5'}
+CommitInfo{repo='GitHub', hash='fce4c10e42105595096b896f9a2144d03f0adfe3', version='jbehave-3.3'}
+CommitInfo{repo='GitHub', hash='688357c3d0599482936c73e46a5e65e38ea43d21', version='jbehave-3.3.1'}
+CommitInfo{repo='GitHub', hash='a7775a5548b1b238a84905377557ae04d6a7baac', version='jbehave-3.3.2'}
+CommitInfo{repo='GitHub', hash='24d7444fa20bb0dcedda060fec240554fdb1ddd2', version='jbehave-3.3-beta-1'}
+CommitInfo{repo='GitHub', hash='0b84690f08d3d1b3698c9a23d5024c58addbb9b9', version='jbehave-3.3-beta-2'}
+CommitInfo{repo='GitHub', hash='5360338e64b4873ea542b5d1a55f50836ae8af5c', version='jbehave-3.3-beta-3'}
+CommitInfo{repo='GitHub', hash='1cc446319c980591f7454b080417edf7c50d6f89', version='jbehave-3.4'}
+CommitInfo{repo='GitHub', hash='daa2cbd1b3c4c15480c4d606cb92cee9e79390f4', version='jbehave-3.4.1'}
+CommitInfo{repo='GitHub', hash='4d7f00b6712f96901b375c96379bedd66e3aabd7', version='jbehave-3.4.2'}
+CommitInfo{repo='GitHub', hash='dbb96573e0b483d8eebd4d060a61cab3b5a824d7', version='jbehave-3.4.3'}
+CommitInfo{repo='GitHub', hash='96114180fc66a30ebe639249f7e317fc9ccd5625', version='jbehave-3.4.4'}
+CommitInfo{repo='GitHub', hash='785b6323b122aedd986e020c8f294f455fc6cc55', version='jbehave-3.4.5'}
+CommitInfo{repo='GitHub', hash='ab239f82873b2fbdad8b3f31bdba952ce9fb9dc5', version='jbehave-3.4-beta-1'}
+CommitInfo{repo='GitHub', hash='8a13d02ebb862fef33a364dd06eb482e210c4c83', version='jbehave-3.4-beta-2'}
+CommitInfo{repo='GitHub', hash='7faa40aaa3ad17e9a5f2dc920208aa74cd5f5f1b', version='jbehave-3.4-beta-3'}
+CommitInfo{repo='GitHub', hash='2f83b1ef5e04b282d4d03bb7a1b07121b5caafa7', version='jbehave-3.4-beta-4'}
+CommitInfo{repo='GitHub', hash='4011735d364d3f3074f4babcca69c9eded9752e0', version='jbehave-3.5'}
+CommitInfo{repo='GitHub', hash='cf8b02212302f1f1020cdb2f30275e80e4ae8892', version='jbehave-3.5.1'}
+CommitInfo{repo='GitHub', hash='7a0368425beb85895e9bfe7d992f5feb86d268d5', version='jbehave-3.5.2'}
+CommitInfo{repo='GitHub', hash='c68e21b24c157776af4a63efce19d57df4bdcbba', version='jbehave-3.5.3'}
+CommitInfo{repo='GitHub', hash='545d13d6b3c8fb0250d31bc3b8e5909e9b4fd309', version='jbehave-3.5.4'}
+CommitInfo{repo='GitHub', hash='9c103815bbdfb0a4336dcc4b51dd89577857981a', version='jbehave-3.5-beta-1'}
+CommitInfo{repo='GitHub', hash='59dd64833f52b0fb64b22e63ebdbf97ee6ffea03', version='jbehave-3.5-beta-2'}
+CommitInfo{repo='GitHub', hash='e58dff3fc7c9d41e596184d39e52b44b224e1f11', version='jbehave-3.5-beta-3'}
+CommitInfo{repo='GitHub', hash='9a256c10352574c86ddd9bced31fb29a1e6697ee', version='jbehave-3.6'}
+CommitInfo{repo='GitHub', hash='9f8bf7a29b09c63bc9007a08a9cc4070691eea97', version='jbehave-3.6.1'}
+CommitInfo{repo='GitHub', hash='54bad114917739c3063ea1e98b59706cad688a04', version='jbehave-3.6.2'}
+CommitInfo{repo='GitHub', hash='c50be402b091df7eb6d8451f2e1b7bf9859eaba4', version='jbehave-3.6.3'}
+CommitInfo{repo='GitHub', hash='5672465c74542100dc72fc328528f6e93a4f26cb', version='jbehave-3.6.4'}
+CommitInfo{repo='GitHub', hash='49ad6f24ae5647e7025b08db3721e708e6a7817e', version='jbehave-3.6.5'}
+CommitInfo{repo='GitHub', hash='342814cd04dd4e7970936f98493a1a7d850f2a16', version='jbehave-3.6.6'}
+CommitInfo{repo='GitHub', hash='632668f54a68bdd4236152045d225714fb980692', version='jbehave-3.6.7'}
+CommitInfo{repo='GitHub', hash='36cce18c3ccb8a322c0d9d3914ebe894179cff5a', version='jbehave-3.6.8'}
+CommitInfo{repo='GitHub', hash='eb29e3178b417597f49ea548cedb0aff2e287a41', version='jbehave-3.6.9'}
+CommitInfo{repo='GitHub', hash='052befbd39994033f402a70d3c91dbcf80782996', version='jbehave-3.6-beta-1'}
+CommitInfo{repo='GitHub', hash='9a0c9d466c50ef93d49679becd61bbe1680c65a4', version='jbehave-3.6-beta-2'}
+CommitInfo{repo='GitHub', hash='9d0062a751cb17c66ed76d6fde2a904ced37b054', version='jbehave-3.6-beta-3'}
+CommitInfo{repo='GitHub', hash='cd7ca336a1bee2bd0fcb85726eceeaa7b6e11aa1', version='jbehave-3.7'}
+CommitInfo{repo='GitHub', hash='c2e4f4a4e099486d80a2cf3721b62be60b20364f', version='jbehave-3.7.1'}
+CommitInfo{repo='GitHub', hash='8e5949ea587105daedb7fa8646532343c43e05bb', version='jbehave-3.7.2'}
+CommitInfo{repo='GitHub', hash='d1695058c0f21cb09f15b368dbcaae2f769dd479', version='jbehave-3.7.3'}
+CommitInfo{repo='GitHub', hash='2b4517a31baadaee8c201e8f383b6397793c6d55', version='jbehave-3.7.4'}
+CommitInfo{repo='GitHub', hash='768472548f31b9926544020e6659d3bc9ee81b26', version='jbehave-3.7.5'}
+CommitInfo{repo='GitHub', hash='7ec1895e0a62c8fa6863cc6132ecc174d8f741be', version='jbehave-3.8'}
+CommitInfo{repo='GitHub', hash='2713194fe0ef08a63fdfe718c873f2bbc1d5646b', version='jbehave-3.9'}
+CommitInfo{repo='GitHub', hash='45b1955e5ab0a84cba80c6dfdc2bccae20462495', version='jbehave-3.9.1'}
+CommitInfo{repo='GitHub', hash='32d59daf47eee01a59a69ae2fbf80f903cbb75e2', version='jbehave-3.9.2'}
+CommitInfo{repo='GitHub', hash='c4666f1c48bfe594f056e0a4801b680a62827624', version='jbehave-3.9.3'}
+CommitInfo{repo='GitHub', hash='86c029da2631edf08c0c6009a3433d9ceb8ecfdb', version='jbehave-3.9.4'}
+CommitInfo{repo='GitHub', hash='aa0014b3ee05204f8def4a0eadb2e11ee83e0dcb', version='jbehave-3.9.5'}
+CommitInfo{repo='GitHub', hash='98533a5af29b63a1f5af2ea529bda70bffe0e1fc', version='jbehave-3.9-beta-1'}
+CommitInfo{repo='GitHub', hash='7c5aafb6e5666c3caa08aa13a1c97835eb302a0b', version='jbehave-3.9-beta-2'}
+CommitInfo{repo='GitHub', hash='a76f70f09e9f7a964512755b86d18ea4788de601', version='jbehave-3.9-beta-3'}
+CommitInfo{repo='GitHub', hash='07648a43a21182385bcb31dc33be0bf22fb4b0c2', version='jbehave-3.9-beta-4'}
+CommitInfo{repo='GitHub', hash='4efa1fb85470d26944748d60ff2b03d18360c0ee', version='jbehave-3.9-beta-5'}
+CommitInfo{repo='GitHub', hash='7e75ee98c49f457baf9738be62f56e75ece1b5b4', version='jbehave-4.0'}
+CommitInfo{repo='GitHub', hash='f4c5041e2a500c5b8bc6368d161e8fc43410aa28', version='jbehave-4.0.1'}
+CommitInfo{repo='GitHub', hash='354038e82a4529b2b769e97d9f92807d0537a888', version='jbehave-4.0.2'}
+CommitInfo{repo='GitHub', hash='70c1244c75547e5e390f2d07fb0b23830cce6dcc', version='jbehave-4.0.3'}
+CommitInfo{repo='GitHub', hash='695210a118aac9461e70c72f2fc6be4c7172fec5', version='jbehave-4.0.4'}
+CommitInfo{repo='GitHub', hash='25a5018fce459848259745fe3003a384585179dc', version='jbehave-4.0.5'}
+CommitInfo{repo='GitHub', hash='18b51c8a89faf9240796d84f4744c75a74f8d7e3', version='jbehave-4.0-beta-1'}
+CommitInfo{repo='GitHub', hash='f169c5481c9937948d5af0ef2fd71de677ffd364', version='jbehave-4.0-beta-10'}
+CommitInfo{repo='GitHub', hash='1f97f4cf34b2ffb3d1c2df2920c4d00fb885f471', version='jbehave-4.0-beta-11'}
+CommitInfo{repo='GitHub', hash='54ccc11554264615b8d76d3fd00f282c5a885052', version='jbehave-4.0-beta-2'}
+CommitInfo{repo='GitHub', hash='436ab8f370ebdd753f8f7a0b2d8f44c9950f41d6', version='jbehave-4.0-beta-3'}
+CommitInfo{repo='GitHub', hash='9ca36cdcee4f68937c916d2072369e078b0395fc', version='jbehave-4.0-beta-4'}
+CommitInfo{repo='GitHub', hash='9c72a98869a8ba3c952b00cc1faa82a466f58632', version='jbehave-4.0-beta-5'}
+CommitInfo{repo='GitHub', hash='a4afbbe1c2172f461387fb094edd6c62b9998348', version='jbehave-4.0-beta-6'}
+CommitInfo{repo='GitHub', hash='360bc4ac93480591b4b44de838f1e338eef00686', version='jbehave-4.0-beta-7'}
+CommitInfo{repo='GitHub', hash='a3e6ea9075fd2c09c275ccbfec2db2489308ebe9', version='jbehave-4.0-beta-8'}
+CommitInfo{repo='GitHub', hash='d95a699dd246e3fd2c68f4d0f3abf5dd2f40e664', version='jbehave-4.0-beta-9'}
+CommitInfo{repo='GitHub', hash='cc3fa156170f035826c0772c910dfa7c2183f020', version='jbehave-4.1'}
+CommitInfo{repo='GitHub', hash='316d280bf0dcdf2c5661c36eaa038bac49a5e226', version='jbehave-4.1.1'}
+CommitInfo{repo='GitHub', hash='93cd01572dea37aa4c44c4687a21cf0aa4abb616', version='jbehave-4.1.2'}
+CommitInfo{repo='GitHub', hash='d5dfda742a13ac790b2a9f5e549a6329f07aa650', version='jbehave-4.1.3'}
+CommitInfo{repo='GitHub', hash='44cb639eb3ea019756a71e7b4555e95f03526d8f', version='jbehave-4.2'}
+CommitInfo{repo='GitHub', hash='e107742a2cb30981a6311f32456df758e0464945', version='jbehave-4.2-beta-1'}
+CommitInfo{repo='GitHub', hash='1917702d6e5f1d6d59a3ea7d6c8f43f2d3715053', version='jbehave-4.2-beta-2'}
+CommitInfo{repo='GitHub', hash='0f33502353fe00ec83e9cff41fa63e57526544c8', version='jbehave-4.2-beta-3'}
+CommitInfo{repo='GitHub', hash='4c416c974313119ebde6aa6b2d118d46451df42e', version='jbehave-4.2-beta-4'}
+CommitInfo{repo='GitHub', hash='af2b37fb2a12d0960f9b590c61e00b2efb73a058', version='jbehave-4.2-beta-5'}
+CommitInfo{repo='GitHub', hash='e223baf4defb7ab81e07083c9ae2c16dda176150', version='jbehave-4.3'}
+CommitInfo{repo='GitHub', hash='0c075e0838689fc5ebd7f3ffc03ca59eacbb0a3f', version='jbehave-4.3.1'}
+CommitInfo{repo='GitHub', hash='2300164078d2c96e62dcce08aded7606158e0e53', version='jbehave-4.3.2'}
+CommitInfo{repo='GitHub', hash='0f73d616e831b0cd1752c09c484a7236785af66f', version='jbehave-4.3.3'}
+CommitInfo{repo='GitHub', hash='c9eea1dfae43392c22b1df9efc25ef1ad47f5d6b', version='jbehave-4.3.4'}
+CommitInfo{repo='GitHub', hash='0731e7d7310ae079a13c8f6dde30d78aebfe6130', version='jbehave-4.3.5'}
+CommitInfo{repo='GitHub', hash='dd94495bac8ea816f27c5dc3a905ff990e65c7ac', version='jbehave-4.3-beta-1'}
+CommitInfo{repo='GitHub', hash='769d8466264205d1780474bd6d18f49630bcc6e1', version='jbehave-4.3-beta-2'}
+CommitInfo{repo='GitHub', hash='2f0784a5d03106e56ac50f8ecbf72ae38f45a03d', version='jbehave-4.3-beta-3'}
+CommitInfo{repo='GitHub', hash='093ade9e523b74164c9c367f9edc0396fd177377', version='jbehave-4.3-beta-4'}
+
+Project A:
+ProjectVersionFixed(version=2.0, dependency=null, time=2008-09-03 08:48:27 UTC)
+ProjectVersionFixed(version=2.0.1, dependency=null, time=2008-10-07 20:32:37 UTC)
+ProjectVersionFixed(version=2.1, dependency=null, time=2008-10-25 12:31:41 UTC)
+ProjectVersionFixed(version=2.1.1, dependency=null, time=2009-01-24 19:07:36 UTC)
+ProjectVersionFixed(version=2.2-rc1, dependency=null, time=2009-02-25 00:16:19 UTC)
+ProjectVersionFixed(version=2.2-rc2, dependency=null, time=2009-04-05 15:09:28 UTC)
+ProjectVersionFixed(version=2.2-rc3, dependency=null, time=2009-04-21 06:59:11 UTC)
+ProjectVersionFixed(version=2.2, dependency=null, time=2009-04-24 20:30:36 UTC)
+ProjectVersionFixed(version=2.2.1, dependency=null, time=2009-08-27 16:25:25 UTC)
+ProjectVersionFixed(version=2.3-rc1, dependency=null, time=2009-09-17 00:29:28 UTC)
+ProjectVersionFixed(version=2.3-rc2, dependency=null, time=2009-10-05 08:15:23 UTC)
+ProjectVersionFixed(version=2.3, dependency=null, time=2009-10-10 09:03:51 UTC)
+ProjectVersionFixed(version=2.3.1, dependency=null, time=2009-10-31 16:26:25 UTC)
+ProjectVersionFixed(version=2.3.2, dependency=null, time=2009-11-03 19:15:01 UTC)
+ProjectVersionFixed(version=2.4-rc1, dependency=null, time=2010-01-10 13:46:45 UTC)
+ProjectVersionFixed(version=2.4-rc2, dependency=null, time=2010-01-11 18:28:36 UTC)
+ProjectVersionFixed(version=2.4, dependency=null, time=2010-01-20 16:11:14 UTC)
+ProjectVersionFixed(version=2.4.1, dependency=null, time=2010-02-06 08:43:02 UTC)
+ProjectVersionFixed(version=2.5-rc1, dependency=null, time=2010-02-25 23:59:54 UTC)
+ProjectVersionFixed(version=2.5, dependency=null, time=2010-03-09 07:31:52 UTC)
+ProjectVersionFixed(version=2.5.1, dependency=null, time=2010-04-05 08:51:56 UTC)
+ProjectVersionFixed(version=2.5.2, dependency=1.4, time=2010-05-01 11:06:11 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=2.5.3, dependency=1.4, time=2010-05-03 23:14:07 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=2.5.4, dependency=1.4, time=2010-05-05 23:00:19 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=2.5.5, dependency=1.4, time=2010-05-08 11:53:50 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=2.5.6, dependency=1.4, time=2010-05-15 12:56:20 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=2.5.7, dependency=1.4, time=2010-05-21 09:25:22 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=2.5.8, dependency=1.4, time=2010-05-25 23:09:17 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=2.5.9, dependency=1.4, time=2010-06-07 22:13:43 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-1, dependency=null, time=2010-04-05 12:15:40 UTC)
+ProjectVersionFixed(version=3.0-beta-2, dependency=null, time=2010-04-12 22:53:16 UTC)
+ProjectVersionFixed(version=3.0-beta-3, dependency=1.4, time=2010-05-02 19:13:28 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-4, dependency=1.4, time=2010-05-04 00:01:14 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-5, dependency=1.4, time=2010-05-11 21:35:33 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-6, dependency=1.4, time=2010-05-16 20:57:29 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-7, dependency=1.4, time=2010-05-22 23:39:56 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-8, dependency=1.4, time=2010-05-26 08:01:53 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-9, dependency=1.4, time=2010-06-07 23:02:21 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-10, dependency=1.4, time=2010-06-17 18:38:14 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-11, dependency=1.4, time=2010-06-24 08:58:16 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-12, dependency=1.4, time=2010-06-29 18:09:58 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-beta-13, dependency=1.4, time=2010-07-13 12:38:08 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-rc1, dependency=1.4, time=2010-07-19 14:24:16 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-rc2, dependency=1.4, time=2010-08-02 09:34:32 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0-rc3, dependency=1.4, time=2010-08-14 17:20:01 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0, dependency=1.4, time=2010-08-31 10:50:50 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0.1, dependency=1.4, time=2010-09-24 11:37:33 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0.2, dependency=1.4, time=2010-09-25 13:26:42 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.0.3, dependency=1.4, time=2010-10-02 12:44:18 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.1-beta-1, dependency=1.4, time=2010-10-18 00:12:34 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.1-beta-2, dependency=1.4, time=2010-10-19 23:18:00 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.1, dependency=1.4, time=2010-10-25 17:48:17 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.1.1, dependency=1.4, time=2010-10-31 11:01:41 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.1.2, dependency=1.4, time=2010-11-13 22:21:23 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.2-beta-1, dependency=1.4, time=2010-11-16 16:28:43 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.2-beta-2, dependency=1.4, time=2010-12-19 14:32:53 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.2-beta-3, dependency=1.4, time=2011-01-10 21:53:10 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.2-beta-4, dependency=1.4, time=2011-01-20 16:29:53 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.2-beta-5, dependency=1.4, time=2011-02-07 21:53:58 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.2, dependency=1.4, time=2011-02-22 22:13:58 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.3-beta-1, dependency=1.4, time=2011-02-28 23:33:18 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.3-beta-2, dependency=1.4, time=2011-03-07 12:43:52 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.3-beta-3, dependency=1.4, time=2011-03-14 09:04:24 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.3, dependency=1.4, time=2011-04-01 14:58:04 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.3.1, dependency=1.4, time=2011-04-09 17:27:13 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.3.2, dependency=1.4, time=2011-04-13 09:06:47 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4-beta-1, dependency=1.4, time=2011-04-17 11:14:50 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4-beta-2, dependency=1.4, time=2011-04-25 13:58:14 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4-beta-3, dependency=1.4, time=2011-05-03 09:47:09 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4-beta-4, dependency=1.4, time=2011-05-12 10:46:26 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4, dependency=1.4, time=2011-05-17 21:22:07 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4.1, dependency=1.4, time=2011-06-01 06:53:38 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4.2, dependency=1.4, time=2011-06-04 20:22:28 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4.3, dependency=1.4, time=2011-06-05 09:27:07 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4.4, dependency=1.4, time=2011-06-09 04:45:56 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.4.5, dependency=1.4, time=2011-06-12 14:54:44 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.5-beta-1, dependency=1.4, time=2011-07-14 12:17:42 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.5-beta-2, dependency=1.4, time=2011-08-16 15:42:17 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.5-beta-3, dependency=1.4, time=2011-09-04 14:36:45 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.5, dependency=1.4, time=2011-09-11 16:29:12 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.5.1, dependency=1.4, time=2011-09-14 21:05:54 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.5.2, dependency=1.4, time=2011-10-30 21:55:57 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.5.3, dependency=1.4, time=2011-11-07 23:33:15 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.5.4, dependency=1.4, time=2011-11-28 23:32:54 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6-beta-1, dependency=1.4, time=2011-12-19 11:20:27 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6-beta-2, dependency=1.4, time=2011-12-28 14:04:03 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6-beta-3, dependency=1.4, time=2012-01-11 15:59:38 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6, dependency=1.4, time=2012-03-29 07:47:38 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.1, dependency=1.4, time=2012-04-04 17:50:37 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.2, dependency=1.4, time=2012-04-10 08:18:32 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.3, dependency=1.4, time=2012-04-18 12:47:20 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.4, dependency=1.4, time=2012-04-27 11:44:59 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.5, dependency=1.4, time=2012-04-30 17:06:01 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.6, dependency=1.4, time=2012-05-10 08:04:30 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.7, dependency=1.4, time=2012-06-02 16:06:17 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.8, dependency=1.4, time=2012-07-05 09:21:19 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.6.9, dependency=1.4, time=2012-08-16 08:45:10 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.7, dependency=1.4, time=2012-09-16 10:10:06 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.7.1, dependency=1.4, time=2012-10-07 08:17:05 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.7.2, dependency=1.4, time=2012-10-18 06:43:04 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.7.3, dependency=1.4, time=2012-10-31 19:43:59 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.7.4, dependency=1.4, time=2012-11-24 10:35:40 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.7.5, dependency=1.4, time=2012-12-30 09:42:21 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.8, dependency=2.4, time=2013-04-14 19:57:55 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9-beta-1, dependency=2.4, time=2013-06-01 16:23:38 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9-beta-2, dependency=2.4, time=2013-09-14 18:20:18 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9-beta-3, dependency=2.4, time=2013-11-26 07:56:00 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9-beta-4, dependency=2.4, time=2013-12-01 14:20:56 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9-beta-5, dependency=2.4, time=2013-12-04 21:56:14 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9, dependency=2.4, time=2013-12-13 07:22:34 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9.1, dependency=2.4, time=2014-03-01 15:41:57 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9.2, dependency=2.4, time=2014-04-12 19:49:27 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9.3, dependency=2.4, time=2014-06-19 19:21:23 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9.4, dependency=2.4, time=2014-08-24 21:21:22 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.9.5, dependency=2.4, time=2014-10-05 10:06:24 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=3.10, dependency=2.4, time=2015-05-30 13:14:23 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-1, dependency=1.4, time=2012-08-01 16:27:43 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-2, dependency=1.4, time=2012-11-12 12:21:06 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-3, dependency=1.4, time=2012-11-25 14:31:01 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-4, dependency=2.4, time=2014-01-19 12:14:59 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-5, dependency=2.4, time=2014-03-01 17:13:53 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-6, dependency=2.4, time=2014-04-13 11:08:56 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-7, dependency=2.4, time=2014-05-02 12:15:50 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-8, dependency=2.4, time=2014-06-18 15:58:14 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-9, dependency=2.4, time=2014-07-29 09:25:00 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-10, dependency=2.4, time=2014-08-24 21:47:36 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0-beta-11, dependency=2.4, time=2014-10-05 10:38:02 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0, dependency=2.4, time=2015-05-30 13:59:24 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0.1, dependency=2.4, time=2015-06-07 21:51:16 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0.2, dependency=2.4, time=2015-07-17 13:58:31 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0.3, dependency=2.4, time=2015-08-05 21:40:44 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0.4, dependency=2.4, time=2015-09-10 20:23:29 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.0.5, dependency=2.4, time=2016-02-06 18:27:26 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.1, dependency=2.5, time=2016-12-01 18:21:55 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.1.1, dependency=2.5, time=2017-05-27 14:01:10 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.1.2, dependency=2.5, time=2017-10-12 18:57:14 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.1.3, dependency=2.5, time=2017-10-28 08:12:46 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.2-beta-1, dependency=2.5, time=2017-12-03 13:52:09 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.2-beta-2, dependency=2.6, time=2018-02-25 15:41:33 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.2-beta-3, dependency=2.6, time=2018-02-28 10:18:25 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.2-beta-4, dependency=2.6, time=2018-03-04 15:41:17 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.2-beta-5, dependency=2.5, time=2018-03-18 16:32:53 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.2, dependency=2.5, time=2018-03-24 23:16:50 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3-beta-1, dependency=2.6, time=2018-04-08 09:19:39 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3-beta-2, dependency=2.6, time=2018-04-09 20:23:03 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3-beta-3, dependency=2.6, time=2018-04-10 14:49:07 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3-beta-4, dependency=null, time=2018-04-12 08:27:38 UTC)
+ProjectVersionFixed(version=4.3, dependency=2.6, time=2018-04-15 11:36:11 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3.1, dependency=2.6, time=2018-04-21 13:10:02 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3.2, dependency=2.6, time=2018-05-10 17:17:45 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3.3, dependency=2.6, time=2018-05-21 14:03:06 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3.4, dependency=2.6, time=2018-06-19 11:47:43 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+ProjectVersionFixed(version=4.3.5, dependency=2.6, time=2018-07-22 16:05:59 UTC),	Latest, "DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)"
+
+
+Project B:
+DependencyVersion(version=1.1, time=2005-11-22 18:09:27 UTC)
+DependencyVersion(version=0.1, time=2005-11-22 18:09:27 UTC)
+DependencyVersion(version=1.0, time=2005-11-22 18:09:27 UTC)
+DependencyVersion(version=1.2, time=2006-07-03 21:30:00 UTC)
+DependencyVersion(version=1.3, time=2007-01-30 22:37:28 UTC)
+DependencyVersion(version=1.3.1, time=2007-02-13 18:31:57 UTC)
+DependencyVersion(version=1.3.2, time=2008-01-01 21:02:24 UTC)
+DependencyVersion(version=1.4, time=2008-01-20 20:44:39 UTC)
+DependencyVersion(version=2.0, time=2010-10-18 19:51:32 UTC)
+DependencyVersion(version=20030203.000550, time=2005-10-15 06:08:08 UTC)
+DependencyVersion(version=2.0.1, time=2010-12-26 17:19:31 UTC)
+DependencyVersion(version=2.1, time=2011-10-03 21:32:39 UTC)
+DependencyVersion(version=2.2, time=2012-03-26 15:14:52 UTC)
+DependencyVersion(version=2.3, time=2012-04-10 15:12:42 UTC)
+DependencyVersion(version=2.4, time=2012-06-12 22:22:25 UTC)
+DependencyVersion(version=2.5, time=2016-04-22 14:52:35 UTC)

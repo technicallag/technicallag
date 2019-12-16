@@ -103,9 +103,9 @@ Project information
 NMSSQLReplication (626491)	Dapper (620981)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.3.0-alpha, dependency=1.13.0, time=2014-02-21 17:20:22 UTC),	Latest, DependencyVersion(version=1.50.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.3.1-alpha, dependency=1.13.0, time=2014-02-24 12:18:19 UTC),	Latest, DependencyVersion(version=1.50.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.3.2-alpha, dependency=1.13.0, time=2014-03-04 10:39:56 UTC),	Latest, DependencyVersion(version=1.50.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.3.0-alpha, dependency== 1.13.0, time=2014-02-21 17:20:22 UTC),	Latest, DependencyVersion(version=1.50.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.3.1-alpha, dependency== 1.13.0, time=2014-02-24 12:18:19 UTC),	Latest, DependencyVersion(version=1.50.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.3.2-alpha, dependency== 1.13.0, time=2014-03-04 10:39:56 UTC),	Latest, DependencyVersion(version=1.50.1, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.0.0, time=2011-04-14 06:14:43 UTC)

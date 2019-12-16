@@ -104,12 +104,12 @@ Project information
 Microsoft.NETCore.Runtime.Native (1034268)	System.Diagnostics.StackTrace (1008090)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=4.0.0, time=2015-07-29 09:09:48 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1, dependency=null, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1-beta-23225, dependency=4.0.1-beta-23225, time=2015-09-01 23:32:44 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1-beta-23409, dependency=4.0.1-beta-23409, time=2015-10-15 16:37:58 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1-beta-23516, dependency=4.0.1-beta-23516, time=2015-11-18 12:57:12 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.2-rc2-24027, dependency=null, time=2016-05-16 13:48:23 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 4.0.0, time=2015-07-29 09:09:48 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1, dependency=null, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1-beta-23225, dependency== 4.0.1-beta-23225, time=2015-09-01 23:32:44 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1-beta-23409, dependency== 4.0.1-beta-23409, time=2015-10-15 16:37:58 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1-beta-23516, dependency== 4.0.1-beta-23516, time=2015-11-18 12:57:12 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.2-rc2-24027, dependency=null, time=2016-05-16 13:48:23 UTC)
 
 Project B:
 DependencyVersion(version=4.0.0, time=2015-07-29 09:10:33 UTC)

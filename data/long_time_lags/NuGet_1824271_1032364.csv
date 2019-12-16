@@ -104,10 +104,10 @@ Project information
 True.Toolkit.Common (1824271)	Microsoft.NETCore.UniversalWindowsPlatform (1032364)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=5.2.2, time=2016-11-07 21:43:57 UTC),	Latest, DependencyVersion(version=6.2.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1, dependency=5.2.2, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.0.2, dependency=5.2.2, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.0.3, dependency=5.2.2, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.0, dependency== 5.2.2, time=2016-11-07 21:43:57 UTC),	Latest, DependencyVersion(version=6.2.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1, dependency== 5.2.2, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.2, dependency== 5.2.2, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.3, dependency== 5.2.2, time=1900-01-01 00:00:00 UTC),	Latest, null
 
 Project B:
 DependencyVersion(version=5.0.0, time=2015-07-29 09:09:48 UTC)

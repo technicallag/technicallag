@@ -1,0 +1,71 @@
+
+Project information
+@blinkmobile/server-cli (2052893)	good-console (283965)	Package Manager: NPM
+RepoID: 13450010
+Tag information:
+CommitInfo{repo='GitHub', hash='6ed025705ed9474e323bde6f678721abf3bed521', version='1.0.0'}
+CommitInfo{repo='GitHub', hash='dfdd2c8b0ae0b2c9db979ee21e3e6af1126f9ad8', version='1.0.0-alpha.1'}
+CommitInfo{repo='GitHub', hash='3e76a1c66371e889c26bcccf395d6b2bba3c0e29', version='1.0.0-beta.1'}
+CommitInfo{repo='GitHub', hash='662f82c40d3cd1fc030dc6d2051729c17eac3019', version='1.0.0-beta.2'}
+CommitInfo{repo='GitHub', hash='b4122f58b02c2de4404d506ab06a995cacdbeb05', version='1.0.0-beta.3'}
+CommitInfo{repo='GitHub', hash='41215c9a48ed47ba625f612e806205ed70515198', version='1.0.0-beta.4'}
+CommitInfo{repo='GitHub', hash='1880d210961950948af8b3740744d8f4517966ff', version='1.0.0-beta.5'}
+CommitInfo{repo='GitHub', hash='a24b5003e43a60d74cecada2e0c68e9649e13386', version='1.0.0-beta.6'}
+CommitInfo{repo='GitHub', hash='07011db2364eaaccbf5de84afad5eb67a41947de', version='2.0.0'}
+CommitInfo{repo='GitHub', hash='eb0f929887931be02a8f5c3dae47b8a547073d0f', version='2.1.0'}
+CommitInfo{repo='GitHub', hash='01528a898d3f2128c1fd561fdc4e64dc9e1abd1a', version='2.2.0'}
+CommitInfo{repo='GitHub', hash='5d9b5ac4ceab7f9ef3c7fc007c043e1a5c41c208', version='2.3.0'}
+CommitInfo{repo='GitHub', hash='d927e50b42061692991211044ec7258bba02b896', version='2.3.1'}
+CommitInfo{repo='GitHub', hash='90e3bcd3ebf5c197ecad78e6c7f01a4ba12a04ef', version='2.4.0'}
+CommitInfo{repo='GitHub', hash='18020db346cd23317d6ad4db2ba0383232bedcc5', version='2.4.1'}
+
+Project A:
+ProjectVersionFixed(version=1.0.0-alpha.1, dependency=6.3.1, time=2016-12-06 00:16:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.0-beta.1, dependency=6.3.1, time=2016-12-18 22:55:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.0-beta.2, dependency=6.2.0, time=2017-01-11 05:44:56 UTC),	Latest, "DependencyVersion(version=6.3.1, time=2016-10-24 18:07:26 UTC)"
+
+ProjectVersionFixed(version=1.0.0-beta.3, dependency=6.2.0, time=2017-02-06 05:47:53 UTC),	Latest, "DependencyVersion(version=6.3.1, time=2016-10-24 18:07:26 UTC)"
+
+ProjectVersionFixed(version=1.0.0-beta.4, dependency=6.4.0, time=2017-02-27 04:52:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.0-beta.5, dependency=6.4.0, time=2017-02-28 06:24:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.0-beta.6, dependency=6.4.0, time=2017-03-08 23:39:58 UTC),	Latest, "null"
+
+
+Project B:
+DependencyVersion(version=0.0.1, time=2014-10-31 20:15:15 UTC)
+DependencyVersion(version=1.0.0, time=2014-10-31 20:49:13 UTC)
+DependencyVersion(version=2.0.0, time=2014-11-04 20:44:10 UTC)
+DependencyVersion(version=2.0.1, time=2014-11-10 15:27:40 UTC)
+DependencyVersion(version=2.1.0, time=2014-12-03 14:42:36 UTC)
+DependencyVersion(version=3.0.0, time=2014-12-03 20:57:07 UTC)
+DependencyVersion(version=3.0.1, time=2014-12-10 18:37:17 UTC)
+DependencyVersion(version=3.0.2, time=2014-12-16 14:59:21 UTC)
+DependencyVersion(version=3.1.0, time=2014-12-19 16:46:41 UTC)
+DependencyVersion(version=3.1.2, time=2014-12-19 19:49:25 UTC)
+DependencyVersion(version=4.0.0, time=2014-12-23 17:19:48 UTC)
+DependencyVersion(version=4.1.0, time=2015-01-06 19:16:13 UTC)
+DependencyVersion(version=5.0.0, time=2015-04-08 10:33:36 UTC)
+DependencyVersion(version=5.0.1, time=2015-05-27 14:21:55 UTC)
+DependencyVersion(version=5.0.2, time=2015-06-04 14:28:31 UTC)
+DependencyVersion(version=5.0.3, time=2015-08-17 13:13:16 UTC)
+DependencyVersion(version=5.1.0, time=2015-09-21 18:55:34 UTC)
+DependencyVersion(version=5.2.0, time=2015-11-05 21:05:03 UTC)
+DependencyVersion(version=5.3.0, time=2016-01-22 14:26:10 UTC)
+DependencyVersion(version=5.3.1, time=2016-02-05 14:23:41 UTC)
+DependencyVersion(version=5.3.2, time=2016-04-21 14:38:05 UTC)
+DependencyVersion(version=6.0.0, time=2016-03-30 14:34:28 UTC)
+DependencyVersion(version=6.1.0, time=2016-04-21 13:40:32 UTC)
+DependencyVersion(version=6.1.1, time=2016-05-02 13:21:19 UTC)
+DependencyVersion(version=6.1.2, time=2016-05-27 18:19:56 UTC)
+DependencyVersion(version=6.1.3, time=2016-12-09 19:17:40 UTC)
+DependencyVersion(version=6.2.0, time=2016-12-08 20:21:39 UTC)
+DependencyVersion(version=6.3.1, time=2016-10-24 18:07:26 UTC)
+DependencyVersion(version=6.4.0, time=2017-02-08 16:45:06 UTC)
+DependencyVersion(version=6.4.1, time=2017-12-05 14:04:50 UTC)
+DependencyVersion(version=7.0.0, time=2018-01-17 17:44:39 UTC)
+DependencyVersion(version=7.0.1, time=2018-01-29 13:57:29 UTC)
+DependencyVersion(version=7.1.0, time=2018-02-15 14:03:27 UTC)

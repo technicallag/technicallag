@@ -101,9 +101,9 @@ Project information
 Cannoli.Logger (1015612)	NLog (616014)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=null, time=2014-09-24 01:34:47 UTC)
-ProjectVersion(version=1.1.0, dependency=null, time=2014-11-25 20:07:23 UTC)
-ProjectVersion(version=3.0.0, dependency=4.2.3, time=2016-02-06 21:49:49 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency=null, time=2014-09-24 01:34:47 UTC)
+ProjectVersionFixed(version=1.1.0, dependency=null, time=2014-11-25 20:07:23 UTC)
+ProjectVersionFixed(version=3.0.0, dependency== 4.2.3, time=2016-02-06 21:49:49 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=4.3.6, time=2016-07-23 22:39:36 UTC)

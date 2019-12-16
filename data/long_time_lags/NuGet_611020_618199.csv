@@ -101,7 +101,7 @@ Project information
 Minibus.RabbitMQ (611020)	RabbitMQ.Client (618199)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.1.1-beta01, dependency=2.8.1, time=2012-10-25 15:22:38 UTC),	Latest, DependencyVersion(version=5.1.0-rc2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.1.1-beta01, dependency== 2.8.1, time=2012-10-25 15:22:38 UTC),	Latest, DependencyVersion(version=5.1.0-rc2, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.0.0, time=2017-07-21 13:03:48 UTC)

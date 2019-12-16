@@ -1,0 +1,240 @@
+
+Project information
+com.github.tminglei:slick-pg_spray-json_2.10 (367236)	org.postgresql:postgresql (396525)	Package Manager: Maven
+RepoID: 165717
+Tag information:
+CommitInfo{repo='GitHub', hash='071d13dc97ff72456c1f9fb7f51586c3fbffa33e', version='0.15.0-RC'}
+CommitInfo{repo='GitHub', hash='bcf93adbc5f11eddd33828f0bb552a231fac1d0a', version='v0.1.0'}
+CommitInfo{repo='GitHub', hash='8d1f0b308a45b80b3fd396df5edb9a530593a4df', version='v0.10.0'}
+CommitInfo{repo='GitHub', hash='a8a407d0b59ddfe90f5ccb9a254b41d29413b16e', version='v0.10.0-M1'}
+CommitInfo{repo='GitHub', hash='f6dca3052a0c44f1e680dd5749e2a28757a47a83', version='v0.10.0-M2'}
+CommitInfo{repo='GitHub', hash='2764e835f359076e6976e414262e07ee0e28d9d3', version='v0.10.0-RC1'}
+CommitInfo{repo='GitHub', hash='ee4ba6a6e0c59e35fd97b2e7ea3ee55326dae239', version='v0.10.1'}
+CommitInfo{repo='GitHub', hash='b584a3e5ce159b771324790ad5169f5afaeb5c1e', version='v0.10.2'}
+CommitInfo{repo='GitHub', hash='0fc3a7817841bbc14fe98520ad14db08dc78cc90', version='v0.1.1'}
+CommitInfo{repo='GitHub', hash='9368e0b7164c6ac68a1a086d30d7de76e5592389', version='v0.11.0'}
+CommitInfo{repo='GitHub', hash='ab10076dd9802d92da95211209c9733d56a05d0e', version='v0.11.1'}
+CommitInfo{repo='GitHub', hash='a5fde30b22232a9252bcd783527fc9eb73f374cb', version='v0.11.2'}
+CommitInfo{repo='GitHub', hash='6607efa590ed8d2c9ef25eb980d834fff55c75b6', version='v0.11.3'}
+CommitInfo{repo='GitHub', hash='c6faf9f0698c25920a7fa4d9e352df33da734c3b', version='v0.1.2'}
+CommitInfo{repo='GitHub', hash='93a613b5372acd12865dd2c73ac7883a6073ab05', version='v0.12.0'}
+CommitInfo{repo='GitHub', hash='6600cd2aa0fff4744be81761ba062737547cf78b', version='v0.12.1'}
+CommitInfo{repo='GitHub', hash='e162b6f0e1d4b435b2328a1839b190a3158e01f7', version='v0.12.2'}
+CommitInfo{repo='GitHub', hash='aff2fc559088cdb79f9e1885861d398ecd0aedc3', version='v0.1.3'}
+CommitInfo{repo='GitHub', hash='42dd8563e6ab529b5e5dee068a1dc9fa089fe64f', version='v0.13.0'}
+CommitInfo{repo='GitHub', hash='32ba2422165dd7cfa271e4943d323eb3114b6d6d', version='v0.1.3.1'}
+CommitInfo{repo='GitHub', hash='fe4a0bac124266bb79e64d2b203bbbf009222067', version='v0.14.0'}
+CommitInfo{repo='GitHub', hash='abc157730a2f2288a7826f3d03f9bd861f0b58c6', version='v0.14.1'}
+CommitInfo{repo='GitHub', hash='e1fc60646bdf3f8b48c6d2849fe5a1e7df9bb7eb', version='v0.14.2'}
+CommitInfo{repo='GitHub', hash='7c694006398516b1e5391091b4b0e984eafce058', version='v0.14.3'}
+CommitInfo{repo='GitHub', hash='27652e9266e022dfb331dbe8a7a2269cd772456d', version='v0.14.4'}
+CommitInfo{repo='GitHub', hash='fad3c2b41ff0a2ac6ace49e34ff06abe028ba21e', version='v0.14.5'}
+CommitInfo{repo='GitHub', hash='6b8ac08db8df6eaf7b9ef0433ea2339ac39c9c9f', version='v0.14.6'}
+CommitInfo{repo='GitHub', hash='02eb07b2d534074ebe771c41c1bff55bfff3813e', version='v0.14.8'}
+CommitInfo{repo='GitHub', hash='c7fc193dd64cf133d967715309a24ff3b6128755', version='v0.14.9'}
+CommitInfo{repo='GitHub', hash='a3a65d878b8efc724a5d03b971d6c6d1e5b19958', version='v0.1.5'}
+CommitInfo{repo='GitHub', hash='d7da9d8184199731385416d28aeeba3f3e3fdff9', version='v0.15.0'}
+CommitInfo{repo='GitHub', hash='3b4123f1c0f8fe3484f20d0fe57ba9767f0865b0', version='v0.15.0-M1'}
+CommitInfo{repo='GitHub', hash='49044d422ffef16355674022fec57d7e822c46e4', version='v0.15.0-M2'}
+CommitInfo{repo='GitHub', hash='1d63866405be51fb7958d36a5e7b1d558e77704b', version='v0.15.0-M3'}
+CommitInfo{repo='GitHub', hash='4c8e79bdda5ce563086d522f4c39bcd65e8235f9', version='v0.15.0-M4'}
+CommitInfo{repo='GitHub', hash='16eacdc1077030133b8f8197c47aab14ad5667a1', version='v0.1.5.1'}
+CommitInfo{repo='GitHub', hash='fb5e1c0c9cf24d6fde150e3351b572c2791d24f2', version='v0.15.1'}
+CommitInfo{repo='GitHub', hash='848268ece9bcdd7e6d5cbc2d64d69340d3e9cd96', version='v0.15.2'}
+CommitInfo{repo='GitHub', hash='f604bc6ebe16e4a2e7894bf2eec1ee01a8775379', version='v0.15.3'}
+CommitInfo{repo='GitHub', hash='e1ff76ebf7362134c1ccff34b169bffb4fe80023', version='v0.15.4'}
+CommitInfo{repo='GitHub', hash='37d7059bce094640d9d2095d6a8ed09e166542b3', version='v0.15.5'}
+CommitInfo{repo='GitHub', hash='64f5b8cbda316d81d619e9090d624603965d5baa', version='v0.15.6'}
+CommitInfo{repo='GitHub', hash='adb97e69a51de0886dc54e081b8b14cbbe260aa1', version='v0.15.7'}
+CommitInfo{repo='GitHub', hash='d2fe77e32ff4e9f797cca29ad31264f36c3eabf8', version='v0.16.0'}
+CommitInfo{repo='GitHub', hash='6cab8da98a2ec32a1825e7b3a92843e3672e65a6', version='v0.16.1'}
+CommitInfo{repo='GitHub', hash='ba75c0e2f730970eac07b19344c18ee6d4b2d2dd', version='v0.16.2'}
+CommitInfo{repo='GitHub', hash='1eac99003cc39c98b3c1e1ded58e8327cbe381d9', version='v0.16.3'}
+CommitInfo{repo='GitHub', hash='50b7c0a4353b1e9d843eabca7487c5690b517f47', version='v0.2.0'}
+CommitInfo{repo='GitHub', hash='bbe80f2b249a39af6e145b64b24f7b223695b7b2', version='v0.2.2'}
+CommitInfo{repo='GitHub', hash='c42f4250488686d2db7fc84c8924b166920c15a7', version='v0.2.5'}
+CommitInfo{repo='GitHub', hash='5e0ad627657fe89a4852a0996cd974cbaf54c273', version='v0.2.6'}
+CommitInfo{repo='GitHub', hash='45b1c6b810f0ea5f176564ca8ae0e5b773194c1b', version='v0.2.7'}
+CommitInfo{repo='GitHub', hash='91d8f3600d519d2c77e926259b2dfae8f44fcb1d', version='v0.2.7.1'}
+CommitInfo{repo='GitHub', hash='97c2ef28b92d78e915d6225123ecc0420642a90e', version='v0.5.0'}
+CommitInfo{repo='GitHub', hash='ee3aeb25de605f96635aef03eccc43863733a501', version='v0.5.0-beta'}
+CommitInfo{repo='GitHub', hash='bb84e80c21618d76291652da14e82921a0012244', version='v0.5.1'}
+CommitInfo{repo='GitHub', hash='7050dfadb3ee49fb7aaec0a9b3ccd69533bf28fa', version='v0.5.1.3'}
+CommitInfo{repo='GitHub', hash='3d4ad5f6f3fa3a7029f9038bfb9c5f28acc3e7ab', version='v0.5.2'}
+CommitInfo{repo='GitHub', hash='bac1252df211f7a52fcb8306db2103699b698f99', version='v0.5.2.3'}
+CommitInfo{repo='GitHub', hash='902a80a0c43401b290180a62330c5a803d0840b3', version='v0.5.3'}
+CommitInfo{repo='GitHub', hash='5677bf3d56064251277c4e8cab41b60f7794e1f3', version='v0.6.0'}
+CommitInfo{repo='GitHub', hash='f97ef2b0044cb18754824e29ba349db8b36b24f3', version='v0.6.0-M1'}
+CommitInfo{repo='GitHub', hash='0d1f27b2819ece9edf2ee766e65737259126ec32', version='v0.6.0-M2'}
+CommitInfo{repo='GitHub', hash='7d44021d9ffa251aca7fa48f7a98f4fcca817625', version='v0.6.1'}
+CommitInfo{repo='GitHub', hash='b196d8ca7ff4db4cbf77e8c5bca03ea79148f0b5', version='v0.6.2'}
+CommitInfo{repo='GitHub', hash='a8c50f17e1c3736d3adb8dedf8dd555ddf4c143e', version='v0.6.3'}
+CommitInfo{repo='GitHub', hash='d17536729dabf3fc53b93cad6f0847039ff3106e', version='v0.6.5'}
+CommitInfo{repo='GitHub', hash='d6ac19baa97d3df50f28e2f483b6c0c642584079', version='v0.7.0'}
+CommitInfo{repo='GitHub', hash='9c7214db988fd22641f8a5ccf18714fd88b97bdf', version='v0.8.0'}
+CommitInfo{repo='GitHub', hash='6607a839ef197c49d53fef290dc9d521befecb63', version='v0.8.1'}
+CommitInfo{repo='GitHub', hash='678004ad4e1a867daca76e0583c59fdb47314268', version='v0.8.2'}
+CommitInfo{repo='GitHub', hash='b3d268a5efbfed299588b7fce1a72e0243298a90', version='v0.8.3'}
+CommitInfo{repo='GitHub', hash='6c129d0e2e5270afb1a7a1604a9139e9da45c66a', version='v0.8.4'}
+CommitInfo{repo='GitHub', hash='278a5778b6186fcc239b323da158dd78549787c6', version='v0.8.5'}
+CommitInfo{repo='GitHub', hash='25c3480a5e1362ac48818e945653502701af087b', version='v0.8.6'}
+CommitInfo{repo='GitHub', hash='aadfc8b5f79c22978286cfd1d467868b38a36545', version='v0.9.0'}
+CommitInfo{repo='GitHub', hash='4f83d6d456352203ff3d9cf9911d53cd97ea4e2a', version='v0.9.0-beta'}
+CommitInfo{repo='GitHub', hash='44f41bdca2bf094ee3f9108c06c041aa3f196d46', version='v0.9.1'}
+CommitInfo{repo='GitHub', hash='38a4fa99da3130b8a9e793b887a5f4ab7e9ecb80', version='v0.9.2'}
+
+Project A:
+ProjectVersionFixed(version=0.5.2, dependency=9.3-1100-jdbc41, time=2014-03-13 12:44:33 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"
+
+ProjectVersionFixed(version=0.5.2.1, dependency=9.3-1100-jdbc41, time=2014-03-24 04:27:29 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"
+
+ProjectVersionFixed(version=0.5.2.2, dependency=9.3-1100-jdbc41, time=2014-03-29 11:28:05 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"
+
+ProjectVersionFixed(version=0.5.2.3, dependency=9.3-1100-jdbc41, time=2014-04-03 14:10:09 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"
+
+ProjectVersionFixed(version=0.5.3, dependency=9.3-1100-jdbc41, time=2014-04-13 11:15:52 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"
+
+ProjectVersionFixed(version=0.6.0-M1, dependency=9.3-1100-jdbc41, time=2014-05-11 23:36:41 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"
+
+ProjectVersionFixed(version=0.6.0-M2, dependency=9.3-1100-jdbc41, time=2014-05-28 14:38:34 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"
+
+ProjectVersionFixed(version=0.6.0-R1, dependency=9.3-1100-jdbc41, time=2014-07-13 05:57:03 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"
+
+ProjectVersionFixed(version=0.6.0, dependency=9.3-1100-jdbc41, time=2014-08-04 12:09:14 UTC),	Latest, "DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)"
+
+ProjectVersionFixed(version=0.6.1, dependency=9.3-1100-jdbc41, time=2014-08-10 01:14:56 UTC),	Latest, "DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)"
+
+ProjectVersionFixed(version=0.6.2, dependency=9.3-1100-jdbc41, time=2014-08-14 10:41:20 UTC),	Latest, "DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)"
+
+ProjectVersionFixed(version=0.6.3, dependency=9.3-1100-jdbc41, time=2014-08-20 10:41:26 UTC),	Latest, "DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)"
+
+ProjectVersionFixed(version=0.6.5, dependency=9.3-1100-jdbc41, time=2014-10-03 03:28:14 UTC),	Latest, "DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)"
+
+ProjectVersionFixed(version=0.6.5.1, dependency=9.3-1100-jdbc41, time=2014-10-03 07:59:29 UTC),	Latest, "DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)"
+
+ProjectVersionFixed(version=0.6.5.2, dependency=9.3-1100-jdbc41, time=2014-10-03 23:34:58 UTC),	Latest, "DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)"
+
+ProjectVersionFixed(version=0.6.5.3, dependency=9.3-1100-jdbc41, time=2014-10-21 12:40:17 UTC),	Latest, "DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)"
+
+ProjectVersionFixed(version=0.10.0, dependency=9.4-1201-jdbc41, time=2015-10-10 00:40:07 UTC),	Latest, "DependencyVersion(version=9.4-1204-jdbc42, time=2015-10-09 17:27:15 UTC)"
+
+ProjectVersionFixed(version=0.10.1, dependency=9.4-1204-jdbc41, time=2015-10-21 22:59:48 UTC),	Latest, "DependencyVersion(version=9.4-1204-jdbc42, time=2015-10-09 17:27:15 UTC)"
+
+ProjectVersionFixed(version=0.10.2, dependency=9.4-1201-jdbc41, time=2015-12-05 03:28:21 UTC),	Latest, "DependencyVersion(version=9.4-1206-jdbc42, time=2015-11-25 20:04:07 UTC)"
+
+ProjectVersionFixed(version=0.11.0, dependency=9.4-1201-jdbc41, time=2016-01-03 13:00:24 UTC),	Latest, "DependencyVersion(version=9.4.1207.jre7, time=2015-12-22 20:29:53 UTC)"
+
+ProjectVersionFixed(version=0.11.1, dependency=9.4-1201-jdbc41, time=2016-02-05 04:33:38 UTC),	Latest, "DependencyVersion(version=9.4.1207.jre7, time=2015-12-22 20:29:53 UTC)"
+
+ProjectVersionFixed(version=0.11.2, dependency=9.4-1201-jdbc41, time=2016-02-06 03:12:50 UTC),	Latest, "DependencyVersion(version=9.4.1207.jre7, time=2015-12-22 20:29:53 UTC)"
+
+ProjectVersionFixed(version=0.11.3, dependency=9.4-1201-jdbc41, time=2016-02-27 01:01:37 UTC),	Latest, "DependencyVersion(version=9.4.1208.jre7, time=2016-02-19 20:47:01 UTC)"
+
+ProjectVersionFixed(version=0.12.0, dependency=9.4-1201-jdbc41, time=2016-03-10 13:04:48 UTC),	Latest, "DependencyVersion(version=9.4.1208.jre7, time=2016-02-19 20:47:01 UTC)"
+
+ProjectVersionFixed(version=0.12.1, dependency=9.4-1201-jdbc41, time=2016-04-03 05:27:33 UTC),	Latest, "DependencyVersion(version=9.4.1208.jre7, time=2016-02-19 20:47:01 UTC)"
+
+ProjectVersionFixed(version=0.12.2, dependency=9.4-1201-jdbc41, time=2016-04-16 02:05:49 UTC),	Latest, "DependencyVersion(version=9.4.1208.jre7, time=2016-02-19 20:47:01 UTC)"
+
+ProjectVersionFixed(version=0.13.0, dependency=9.4-1201-jdbc41, time=2016-04-25 02:10:42 UTC),	Latest, "DependencyVersion(version=9.4.1208.jre7, time=2016-02-19 20:47:01 UTC)"
+
+ProjectVersionFixed(version=0.14.0, dependency=9.4-1201-jdbc41, time=2016-05-09 07:46:06 UTC),	Latest, "DependencyVersion(version=9.4.1208.jre7, time=2016-02-19 20:47:01 UTC)"
+
+ProjectVersionFixed(version=0.14.1, dependency=9.4-1201-jdbc41, time=2016-05-22 10:03:41 UTC),	Latest, "DependencyVersion(version=9.4.1208-atlassian-1, time=2016-05-18 20:26:19 UTC)"
+
+ProjectVersionFixed(version=0.14.2, dependency=9.4-1201-jdbc41, time=2016-07-09 10:40:38 UTC),	Latest, "DependencyVersion(version=9.4.1208-atlassian-1, time=2016-05-18 20:26:19 UTC)"
+
+ProjectVersionFixed(version=0.14.3, dependency=9.4-1201-jdbc41, time=2016-07-27 13:58:27 UTC),	Latest, "DependencyVersion(version=9.4.1209.jre7, time=2016-07-15 13:19:28 UTC)"
+
+ProjectVersionFixed(version=0.14.4, dependency=9.4-1201-jdbc41, time=2016-12-07 13:57:18 UTC),	Latest, "DependencyVersion(version=9.4.1212.jre7, time=2016-11-02 17:31:18 UTC)"
+
+ProjectVersionFixed(version=0.14.5, dependency=9.4-1201-jdbc41, time=2017-01-25 06:53:21 UTC),	Latest, "DependencyVersion(version=9.4.1212.jre7, time=2016-11-02 17:31:18 UTC)"
+
+ProjectVersionFixed(version=0.14.6, dependency=9.4-1201-jdbc41, time=2017-02-08 05:13:32 UTC),	Latest, "DependencyVersion(version=9.4.1212.jre7, time=2016-11-02 17:31:18 UTC)"
+
+
+Project B:
+DependencyVersion(version=42.0.0, time=2017-02-18 19:41:23 UTC)
+DependencyVersion(version=42.0.0.jre6, time=2017-02-18 19:55:15 UTC)
+DependencyVersion(version=42.0.0.jre7, time=2017-02-18 19:48:55 UTC)
+DependencyVersion(version=42.1.0, time=2017-05-04 21:06:28 UTC)
+DependencyVersion(version=42.1.0.jre7, time=2017-05-04 22:54:19 UTC)
+DependencyVersion(version=42.1.1, time=2017-05-05 22:24:19 UTC)
+DependencyVersion(version=42.1.1.jre6, time=2017-05-05 22:33:55 UTC)
+DependencyVersion(version=42.1.1.jre7, time=2017-05-05 22:29:08 UTC)
+DependencyVersion(version=42.1.2, time=2017-07-12 15:30:15 UTC)
+DependencyVersion(version=42.1.2.jre6, time=2017-07-13 10:18:44 UTC)
+DependencyVersion(version=42.1.2.jre7, time=2017-07-13 10:03:01 UTC)
+DependencyVersion(version=42.1.3, time=2017-07-14 08:43:57 UTC)
+DependencyVersion(version=42.1.3.jre6, time=2017-07-14 09:06:56 UTC)
+DependencyVersion(version=42.1.3.jre7, time=2017-07-14 09:01:24 UTC)
+DependencyVersion(version=42.1.4, time=2017-08-01 17:15:25 UTC)
+DependencyVersion(version=42.1.4.jre6, time=2017-08-01 18:24:42 UTC)
+DependencyVersion(version=42.1.4.jre7, time=2017-08-01 18:18:48 UTC)
+DependencyVersion(version=42.2.0, time=2018-01-17 17:25:53 UTC)
+DependencyVersion(version=42.2.0.jre6, time=2018-01-17 17:48:10 UTC)
+DependencyVersion(version=42.2.0.jre7, time=2018-01-17 17:47:09 UTC)
+DependencyVersion(version=42.2.1, time=2018-01-25 15:45:35 UTC)
+DependencyVersion(version=42.2.1.jre6, time=2018-01-25 16:09:00 UTC)
+DependencyVersion(version=42.2.1.jre7, time=2018-01-25 16:07:01 UTC)
+DependencyVersion(version=42.2.2, time=2018-03-15 16:17:20 UTC)
+DependencyVersion(version=42.2.2.jre6, time=2018-03-15 16:42:42 UTC)
+DependencyVersion(version=42.2.2.jre7, time=2018-03-15 16:40:42 UTC)
+DependencyVersion(version=9.2-1002-jdbc4, time=2013-04-05 16:52:29 UTC)
+DependencyVersion(version=9.2-1003-jdbc3, time=2013-10-24 12:58:13 UTC)
+DependencyVersion(version=9.2-1003-jdbc4, time=2013-05-27 22:24:32 UTC)
+DependencyVersion(version=9.2-1004-jdbc3, time=2013-11-01 13:40:28 UTC)
+DependencyVersion(version=9.2-1004-jdbc4, time=2013-11-01 13:41:12 UTC)
+DependencyVersion(version=9.2-1004-jdbc41, time=2013-11-01 13:42:01 UTC)
+DependencyVersion(version=9.3-1100-jdbc3, time=2013-11-01 13:42:52 UTC)
+DependencyVersion(version=9.3-1100-jdbc4, time=2013-11-01 13:43:36 UTC)
+DependencyVersion(version=9.3-1100-jdbc41, time=2013-11-01 13:44:24 UTC)
+DependencyVersion(version=9.3-1101-jdbc3, time=2014-02-19 18:44:03 UTC)
+DependencyVersion(version=9.3-1101-jdbc4, time=2014-02-19 18:44:51 UTC)
+DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)
+DependencyVersion(version=9.3-1102-jdbc3, time=2014-07-18 14:37:38 UTC)
+DependencyVersion(version=9.3-1102-jdbc4, time=2014-07-18 14:38:21 UTC)
+DependencyVersion(version=9.3-1102-jdbc41, time=2014-07-18 14:39:00 UTC)
+DependencyVersion(version=9.3-1103-jdbc3, time=2015-02-02 19:29:05 UTC)
+DependencyVersion(version=9.3-1103-jdbc4, time=2015-02-02 19:29:54 UTC)
+DependencyVersion(version=9.3-1103-jdbc41, time=2015-02-02 19:30:38 UTC)
+DependencyVersion(version=9.3-1104-jdbc4, time=2015-10-09 19:09:31 UTC)
+DependencyVersion(version=9.3-1104-jdbc41, time=2015-10-09 19:10:18 UTC)
+DependencyVersion(version=9.4-1200-jdbc4, time=2015-02-02 19:07:01 UTC)
+DependencyVersion(version=9.4-1200-jdbc41, time=2015-02-02 19:07:00 UTC)
+DependencyVersion(version=9.4-1201-jdbc4, time=2015-02-25 16:14:23 UTC)
+DependencyVersion(version=9.4-1201-jdbc41, time=2015-02-25 16:15:16 UTC)
+DependencyVersion(version=9.4-1202-jdbc4, time=2015-08-27 13:44:55 UTC)
+DependencyVersion(version=9.4-1202-jdbc41, time=2015-08-27 13:45:45 UTC)
+DependencyVersion(version=9.4-1202-jdbc42, time=2015-08-27 14:06:56 UTC)
+DependencyVersion(version=9.4-1203-jdbc4, time=2015-09-17 21:02:00 UTC)
+DependencyVersion(version=9.4-1203-jdbc41, time=2015-09-17 21:04:20 UTC)
+DependencyVersion(version=9.4-1203-jdbc42, time=2015-09-17 21:00:38 UTC)
+DependencyVersion(version=9.4-1204-jdbc4, time=2015-10-09 17:28:08 UTC)
+DependencyVersion(version=9.4-1204-jdbc41, time=2015-10-09 17:29:04 UTC)
+DependencyVersion(version=9.4-1204-jdbc42, time=2015-10-09 17:27:15 UTC)
+DependencyVersion(version=9.4-1205-jdbc4, time=2015-11-03 18:04:36 UTC)
+DependencyVersion(version=9.4-1205-jdbc41, time=2015-11-03 18:05:36 UTC)
+DependencyVersion(version=9.4-1205-jdbc42, time=2015-11-03 18:03:41 UTC)
+DependencyVersion(version=9.4-1206-jdbc4, time=2015-11-25 20:04:56 UTC)
+DependencyVersion(version=9.4-1206-jdbc41, time=2015-11-25 20:05:47 UTC)
+DependencyVersion(version=9.4-1206-jdbc42, time=2015-11-25 20:04:07 UTC)
+DependencyVersion(version=9.4.1207, time=2015-12-22 20:23:40 UTC)
+DependencyVersion(version=9.4.1207.jre6, time=2015-12-22 20:54:55 UTC)
+DependencyVersion(version=9.4.1207.jre7, time=2015-12-22 20:29:53 UTC)
+DependencyVersion(version=9.4.1208, time=2016-02-19 20:31:20 UTC)
+DependencyVersion(version=9.4.1208-atlassian-1, time=2016-05-18 20:26:19 UTC)
+DependencyVersion(version=9.4.1208.jre6, time=2016-02-19 20:34:36 UTC)
+DependencyVersion(version=9.4.1208.jre7, time=2016-02-19 20:47:01 UTC)
+DependencyVersion(version=9.4.1209, time=2016-07-15 13:03:51 UTC)
+DependencyVersion(version=9.4.1209.jre6, time=2016-07-15 13:36:40 UTC)
+DependencyVersion(version=9.4.1209.jre7, time=2016-07-15 13:19:28 UTC)
+DependencyVersion(version=9.4.1210, time=2016-09-06 21:23:14 UTC)
+DependencyVersion(version=9.4.1210.jre6, time=2016-09-07 08:38:34 UTC)
+DependencyVersion(version=9.4.1210.jre7, time=2016-09-07 06:46:48 UTC)
+DependencyVersion(version=9.4.1211, time=2016-09-18 14:02:00 UTC)
+DependencyVersion(version=9.4.1211.jre6, time=2016-09-18 17:31:57 UTC)
+DependencyVersion(version=9.4.1211.jre7, time=2016-09-18 17:05:51 UTC)
+DependencyVersion(version=9.4.1212, time=2016-11-02 17:13:43 UTC)
+DependencyVersion(version=9.4.1212.jre6, time=2016-11-02 17:46:54 UTC)
+DependencyVersion(version=9.4.1212.jre7, time=2016-11-02 17:31:18 UTC)

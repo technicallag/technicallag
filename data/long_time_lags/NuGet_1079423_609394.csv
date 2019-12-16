@@ -103,9 +103,9 @@ Project information
 Shows (1079423)	SimpleInjector (609394)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=3.1.0, time=2015-11-12 09:06:09 UTC),	Latest, DependencyVersion(version=3.2.6, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-beta1, dependency=3.1.0, time=2015-11-11 10:49:21 UTC),	Latest, DependencyVersion(version=3.2.6, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-beta2, dependency=3.1.0, time=2015-11-11 13:02:51 UTC),	Latest, DependencyVersion(version=3.2.6, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 3.1.0, time=2015-11-12 09:06:09 UTC),	Latest, DependencyVersion(version=3.2.6, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-beta1, dependency== 3.1.0, time=2015-11-11 10:49:21 UTC),	Latest, DependencyVersion(version=3.2.6, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-beta2, dependency== 3.1.0, time=2015-11-11 13:02:51 UTC),	Latest, DependencyVersion(version=3.2.6, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.2.0.11273, time=2011-10-03 11:34:00 UTC)

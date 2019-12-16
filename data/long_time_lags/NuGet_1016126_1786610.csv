@@ -103,10 +103,10 @@ Project information
 nGratis.Cop.Core (1016126)	PostSharp (1786610)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.1.100, dependency=null, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.1.162, dependency=4.1.13, time=2015-06-11 12:32:02 UTC),	Latest, DependencyVersion(version=6.0.22, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.1.171, dependency=4.1.13, time=2015-06-21 10:47:51 UTC),	Latest, DependencyVersion(version=6.0.22, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.1.226, dependency=4.1.13, time=2015-08-15 01:41:28 UTC),	Latest, DependencyVersion(version=6.0.22, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.1.100, dependency=null, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.1.162, dependency== 4.1.13, time=2015-06-11 12:32:02 UTC),	Latest, DependencyVersion(version=6.0.22, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.1.171, dependency== 4.1.13, time=2015-06-21 10:47:51 UTC),	Latest, DependencyVersion(version=6.0.22, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.1.226, dependency== 4.1.13, time=2015-08-15 01:41:28 UTC),	Latest, DependencyVersion(version=6.0.22, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=2.1.6.10, time=2012-03-20 12:18:32 UTC)

@@ -101,7 +101,7 @@ Project information
 Diegose.Castle.Core-NLog (629573)	NLog (616014)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=3.2.0, dependency=2.0.1.2, time=2013-04-30 15:28:16 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.2.0, dependency== 2.0.1.2, time=2013-04-30 15:28:16 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=4.3.6, time=2016-07-23 22:39:36 UTC)

@@ -102,8 +102,8 @@ Project information
 AspNet.Identity.OrmLite (1341942)	ServiceStack.OrmLite.SqlServer (1015802)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=3.9.71, time=2016-02-21 02:56:32 UTC),	Latest, DependencyVersion(version=4.0.52, time=2016-01-13 18:31:44 UTC)
-ProjectVersion(version=1.0.1, dependency=3.9.71, time=2016-04-06 19:36:37 UTC),	Latest, DependencyVersion(version=4.0.54, time=2016-03-01 12:56:03 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 3.9.71, time=2016-02-21 02:56:32 UTC),	Latest, DependencyVersion(version=4.0.52, time=2016-01-13 18:31:44 UTC)
+ProjectVersionFixed(version=1.0.1, dependency== 3.9.71, time=2016-04-06 19:36:37 UTC),	Latest, DependencyVersion(version=4.0.54, time=2016-03-01 12:56:03 UTC)
 
 Project B:
 DependencyVersion(version=2.9.0, time=1900-01-01 00:00:00 UTC)

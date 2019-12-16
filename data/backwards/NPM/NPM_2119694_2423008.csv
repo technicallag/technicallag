@@ -1,0 +1,802 @@
+
+Project information
+nva-task (2119694)	progress-webpack-plugin (2423008)	Package Manager: NPM
+RepoID: 16742058
+Tag information:
+CommitInfo{repo='GitHub', hash='4d32bc8aba969350d2d7de259a267708e3d29bd5', version='v0.1.43'}
+CommitInfo{repo='GitHub', hash='0c1dfe7033e1d1f9758760694801715c297ba45b', version='v0.1.44'}
+CommitInfo{repo='GitHub', hash='341d4f96257df54d84df6fdf363a896c2d6320ce', version='0.3.43'}
+CommitInfo{repo='GitHub', hash='e2f3640f9c140cae5a4ae5abd99c52acd2a665cd', version='v0.0.20'}
+CommitInfo{repo='GitHub', hash='7dbf0fdc22f726388f5177ac6be0aac0990d6928', version='v0.0.21'}
+CommitInfo{repo='GitHub', hash='c7a9fc0f2756b1230dcc3e6736a4729171113601', version='v0.0.22'}
+CommitInfo{repo='GitHub', hash='0031cf32698ad456f9feff3c8fe675d5f7e5357d', version='v0.0.23'}
+CommitInfo{repo='GitHub', hash='fb9a23a5a6a6a3f1cd91c5425e47d28bf473aca6', version='v0.1.25'}
+CommitInfo{repo='GitHub', hash='c4d3cec76c261ce4535caa9e15782429b9bee69d', version='v0.1.26'}
+CommitInfo{repo='GitHub', hash='bb4765af36cddb36cfd315d140fd4e253f4aeaa9', version='v0.1.27'}
+CommitInfo{repo='GitHub', hash='b1bb63d61145df9fae4d362e926954a559d931de', version='v0.1.28'}
+CommitInfo{repo='GitHub', hash='218e964fbb5378cfc5abb8e14da4d7167c9c3bbd', version='v0.1.29'}
+CommitInfo{repo='GitHub', hash='7f7dea461af217a171995c463b3a334a069ad0fe', version='v0.1.30'}
+CommitInfo{repo='GitHub', hash='ca998933bb11181d1628e218684e3990a3f96f6e', version='v0.1.31'}
+CommitInfo{repo='GitHub', hash='75db09591dc59b0b46cf23b0d0893b4ad21f91f5', version='v0.1.32'}
+CommitInfo{repo='GitHub', hash='db11ee8057cd0dd95b475e3ca8cb3e19b5e0df6f', version='v0.1.33'}
+CommitInfo{repo='GitHub', hash='fa650fb47a04915f65dda907369c5869a38a365b', version='v0.1.34'}
+CommitInfo{repo='GitHub', hash='2ccfd8f4f7898d5dd875ef44450c8bc2b5929eb7', version='v0.1.35'}
+CommitInfo{repo='GitHub', hash='a5e1cbb4e9815332c91ef6286a64b2468c69a714', version='v0.1.36'}
+CommitInfo{repo='GitHub', hash='fc964d6d29db9c7840802b97902a37a1da123639', version='v0.1.37'}
+CommitInfo{repo='GitHub', hash='856bd5f74454cf4bd0222b65d8070aaad85c769e', version='v0.1.38'}
+CommitInfo{repo='GitHub', hash='0ad1eb149a9027339202c3ff641a82df10e908b7', version='v0.1.39'}
+CommitInfo{repo='GitHub', hash='2f3dcfce53d9b16d12616763eb807e1e6d3db2e8', version='v0.1.40'}
+CommitInfo{repo='GitHub', hash='5ca8f68393c4697a7995e1c2ccddfde1d67d5cac', version='v0.1.41'}
+CommitInfo{repo='GitHub', hash='9054451d7bfa3468db8ca2326f2ea7b5e55dd990', version='v0.1.42'}
+CommitInfo{repo='GitHub', hash='0da86b80e23427439f9d7ede5232802c3c2d4105', version='v0.1.45'}
+CommitInfo{repo='GitHub', hash='86fea963e227b318e0a07d250e636bca6e18b1aa', version='v0.1.46'}
+CommitInfo{repo='GitHub', hash='f230a04e06677e198387737aaeee00dbc24125e9', version='v0.1.47'}
+CommitInfo{repo='GitHub', hash='27dd456b0f99df7361e8c1077a7b14de3088fb9f', version='v0.1.48'}
+CommitInfo{repo='GitHub', hash='de138c6e728924658eb288e9411d31b94ce1c306', version='v0.1.49'}
+CommitInfo{repo='GitHub', hash='3748eecff1a81c790207d5bcc91ad1665e14d8c4', version='v0.1.50'}
+CommitInfo{repo='GitHub', hash='5508e46792126e0558130d98c598faf968f4b011', version='v0.1.51'}
+CommitInfo{repo='GitHub', hash='9838b689a878fb7fe5452999d69cbea478373abd', version='v0.1.52'}
+CommitInfo{repo='GitHub', hash='f7110e00b0db9f73d51692961152df80daecf6f4', version='v0.1.53'}
+CommitInfo{repo='GitHub', hash='64af614e5e16c227c7e5ff121e9f92321622e84e', version='v0.1.54'}
+CommitInfo{repo='GitHub', hash='7e125411101b5f930159ad247f24d2fed5f3bda9', version='v0.1.55'}
+CommitInfo{repo='GitHub', hash='69f6ee3d777811a4c1c18a9d0657ad76d08e359f', version='v0.1.60'}
+CommitInfo{repo='GitHub', hash='2239cd20fbf4a304f47ac0823e47e15cc9521699', version='v0.1.67'}
+CommitInfo{repo='GitHub', hash='5618f91663f3c50c065de481c157de0a98453ba0', version='v0.1.84'}
+
+Project A:
+ProjectVersionFixed(version=0.0.1, dependency=null, time=2017-01-13 10:55:53 UTC)
+ProjectVersionFixed(version=0.0.2, dependency=null, time=2017-01-13 10:57:37 UTC)
+ProjectVersionFixed(version=0.0.5, dependency=null, time=2017-01-19 02:11:35 UTC)
+ProjectVersionFixed(version=0.0.6, dependency=null, time=2017-01-19 02:46:01 UTC)
+ProjectVersionFixed(version=0.0.7, dependency=null, time=2017-01-19 08:27:32 UTC)
+ProjectVersionFixed(version=0.0.8, dependency=null, time=2017-01-19 09:25:30 UTC)
+ProjectVersionFixed(version=0.0.9, dependency=null, time=2017-01-20 06:24:56 UTC)
+ProjectVersionFixed(version=0.0.10, dependency=null, time=2017-01-20 06:27:21 UTC)
+ProjectVersionFixed(version=0.0.11, dependency=null, time=2017-02-05 02:38:39 UTC)
+ProjectVersionFixed(version=0.0.12, dependency=null, time=2017-02-07 09:28:29 UTC)
+ProjectVersionFixed(version=0.0.13, dependency=null, time=2017-02-08 07:17:21 UTC)
+ProjectVersionFixed(version=0.0.15, dependency=null, time=2017-02-08 07:18:32 UTC)
+ProjectVersionFixed(version=0.0.16, dependency=null, time=2017-02-08 07:37:18 UTC)
+ProjectVersionFixed(version=0.0.17, dependency=null, time=2017-02-08 07:45:23 UTC)
+ProjectVersionFixed(version=0.0.18, dependency=null, time=2017-02-09 02:46:16 UTC)
+ProjectVersionFixed(version=0.0.19, dependency=null, time=2017-02-09 02:48:00 UTC)
+ProjectVersionFixed(version=0.0.20, dependency=null, time=2017-02-09 03:22:13 UTC)
+ProjectVersionFixed(version=0.0.21, dependency=null, time=2017-02-09 07:15:47 UTC)
+ProjectVersionFixed(version=0.0.22, dependency=null, time=2017-02-10 08:32:55 UTC)
+ProjectVersionFixed(version=0.0.23, dependency=null, time=2017-02-15 06:25:28 UTC)
+ProjectVersionFixed(version=0.0.24, dependency=null, time=2017-02-15 06:42:07 UTC)
+ProjectVersionFixed(version=0.0.25, dependency=null, time=2017-02-15 06:50:13 UTC)
+ProjectVersionFixed(version=0.0.26, dependency=null, time=2017-02-15 07:08:04 UTC)
+ProjectVersionFixed(version=0.0.27, dependency=null, time=2017-02-15 07:10:57 UTC)
+ProjectVersionFixed(version=0.0.28, dependency=null, time=2017-02-15 07:17:10 UTC)
+ProjectVersionFixed(version=0.0.29, dependency=null, time=2017-02-15 07:19:32 UTC)
+ProjectVersionFixed(version=0.0.30, dependency=null, time=2017-02-15 07:30:12 UTC)
+ProjectVersionFixed(version=0.0.31, dependency=null, time=2017-02-15 07:32:10 UTC)
+ProjectVersionFixed(version=0.0.32, dependency=null, time=2017-02-15 07:43:05 UTC)
+ProjectVersionFixed(version=0.0.33, dependency=null, time=2017-02-15 07:46:45 UTC)
+ProjectVersionFixed(version=0.0.34, dependency=null, time=2017-02-15 07:57:20 UTC)
+ProjectVersionFixed(version=0.0.35, dependency=null, time=2017-02-15 08:03:01 UTC)
+ProjectVersionFixed(version=0.0.36, dependency=null, time=2017-02-15 08:42:26 UTC)
+ProjectVersionFixed(version=0.0.37, dependency=null, time=2017-02-15 08:49:26 UTC)
+ProjectVersionFixed(version=0.0.38, dependency=null, time=2017-02-15 08:53:28 UTC)
+ProjectVersionFixed(version=0.0.39, dependency=null, time=2017-02-15 09:15:16 UTC)
+ProjectVersionFixed(version=0.0.40, dependency=null, time=2017-02-15 09:29:34 UTC)
+ProjectVersionFixed(version=0.0.41, dependency=null, time=2017-02-16 06:48:43 UTC)
+ProjectVersionFixed(version=0.0.50, dependency=null, time=2017-02-17 06:02:06 UTC)
+ProjectVersionFixed(version=0.0.51, dependency=null, time=2017-02-17 06:09:30 UTC)
+ProjectVersionFixed(version=0.0.52, dependency=null, time=2017-02-19 13:25:46 UTC)
+ProjectVersionFixed(version=0.0.53, dependency=null, time=2017-02-19 16:09:08 UTC)
+ProjectVersionFixed(version=0.0.54, dependency=null, time=2017-02-20 08:26:28 UTC)
+ProjectVersionFixed(version=0.0.55, dependency=null, time=2017-02-20 08:54:51 UTC)
+ProjectVersionFixed(version=0.0.56, dependency=null, time=2017-02-20 09:03:19 UTC)
+ProjectVersionFixed(version=0.0.57, dependency=null, time=2017-02-21 09:24:59 UTC)
+ProjectVersionFixed(version=0.0.58, dependency=null, time=2017-02-22 09:26:38 UTC)
+ProjectVersionFixed(version=0.0.60, dependency=null, time=2017-02-22 15:19:43 UTC)
+ProjectVersionFixed(version=0.0.61, dependency=null, time=2017-02-24 08:22:16 UTC)
+ProjectVersionFixed(version=0.1.0, dependency=null, time=2017-02-23 08:40:39 UTC)
+ProjectVersionFixed(version=0.1.1, dependency=null, time=2017-02-23 09:14:49 UTC)
+ProjectVersionFixed(version=0.1.2, dependency=null, time=2017-02-23 15:44:34 UTC)
+ProjectVersionFixed(version=0.1.3, dependency=null, time=2017-02-24 01:13:36 UTC)
+ProjectVersionFixed(version=0.1.4, dependency=null, time=2017-02-24 03:22:19 UTC)
+ProjectVersionFixed(version=0.1.5, dependency=null, time=2017-02-24 08:12:21 UTC)
+ProjectVersionFixed(version=0.1.6, dependency=null, time=2017-02-25 10:11:51 UTC)
+ProjectVersionFixed(version=0.1.7, dependency=null, time=2017-02-25 10:29:31 UTC)
+ProjectVersionFixed(version=0.1.8, dependency=null, time=2017-02-25 15:33:26 UTC)
+ProjectVersionFixed(version=0.1.9, dependency=null, time=2017-02-26 14:58:00 UTC)
+ProjectVersionFixed(version=0.1.10, dependency=null, time=2017-02-26 15:42:37 UTC)
+ProjectVersionFixed(version=0.1.11, dependency=null, time=2017-02-27 08:27:44 UTC)
+ProjectVersionFixed(version=0.1.12, dependency=null, time=2017-03-01 09:09:30 UTC)
+ProjectVersionFixed(version=0.1.13, dependency=null, time=2017-03-02 03:02:45 UTC)
+ProjectVersionFixed(version=0.1.15, dependency=null, time=2017-03-03 03:30:56 UTC)
+ProjectVersionFixed(version=0.1.16, dependency=null, time=2017-03-03 06:55:58 UTC)
+ProjectVersionFixed(version=0.1.17, dependency=null, time=2017-03-03 08:44:41 UTC)
+ProjectVersionFixed(version=0.1.20, dependency=null, time=2017-03-08 06:19:28 UTC)
+ProjectVersionFixed(version=0.1.25, dependency=null, time=2017-03-08 07:12:06 UTC)
+ProjectVersionFixed(version=0.1.26, dependency=null, time=2017-03-08 09:12:10 UTC)
+ProjectVersionFixed(version=0.1.27, dependency=null, time=2017-03-09 09:06:01 UTC)
+ProjectVersionFixed(version=0.1.28, dependency=null, time=2017-03-10 02:07:41 UTC)
+ProjectVersionFixed(version=0.1.29, dependency=null, time=2017-03-10 03:33:50 UTC)
+ProjectVersionFixed(version=0.1.30, dependency=null, time=2017-03-10 03:37:17 UTC)
+ProjectVersionFixed(version=0.1.31, dependency=null, time=2017-03-10 06:28:14 UTC)
+ProjectVersionFixed(version=0.1.32, dependency=null, time=2017-03-10 06:31:25 UTC)
+ProjectVersionFixed(version=0.1.33, dependency=null, time=2017-03-10 08:52:15 UTC)
+ProjectVersionFixed(version=0.1.34, dependency=null, time=2017-03-10 08:55:16 UTC)
+ProjectVersionFixed(version=0.1.35, dependency=null, time=2017-03-10 09:00:47 UTC)
+ProjectVersionFixed(version=0.1.36, dependency=null, time=2017-03-10 09:24:16 UTC)
+ProjectVersionFixed(version=0.1.37, dependency=null, time=2017-03-10 09:28:10 UTC)
+ProjectVersionFixed(version=0.1.38, dependency=null, time=2017-03-10 17:33:21 UTC)
+ProjectVersionFixed(version=0.1.39, dependency=null, time=2017-03-13 02:49:53 UTC)
+ProjectVersionFixed(version=0.1.40, dependency=null, time=2017-03-13 03:38:01 UTC)
+ProjectVersionFixed(version=0.1.41, dependency=null, time=2017-03-13 03:44:48 UTC)
+ProjectVersionFixed(version=0.1.42, dependency=null, time=2017-03-15 06:29:15 UTC)
+ProjectVersionFixed(version=0.1.43, dependency=null, time=2017-03-15 06:32:53 UTC)
+ProjectVersionFixed(version=0.1.44, dependency=null, time=2017-03-15 09:32:41 UTC)
+ProjectVersionFixed(version=0.1.45, dependency=null, time=2017-03-15 16:01:50 UTC)
+ProjectVersionFixed(version=0.1.46, dependency=null, time=2017-03-16 16:52:17 UTC)
+ProjectVersionFixed(version=0.1.47, dependency=null, time=2017-03-17 01:55:10 UTC)
+ProjectVersionFixed(version=0.1.48, dependency=null, time=2017-03-17 02:12:42 UTC)
+ProjectVersionFixed(version=0.1.49, dependency=null, time=2017-03-17 02:27:02 UTC)
+ProjectVersionFixed(version=0.1.50, dependency=null, time=2017-03-17 02:56:41 UTC)
+ProjectVersionFixed(version=0.1.51, dependency=null, time=2017-03-17 03:31:00 UTC)
+ProjectVersionFixed(version=0.1.52, dependency=null, time=2017-03-17 03:38:17 UTC)
+ProjectVersionFixed(version=0.1.53, dependency=null, time=2017-03-17 06:52:54 UTC)
+ProjectVersionFixed(version=0.1.54, dependency=null, time=2017-03-17 06:59:51 UTC)
+ProjectVersionFixed(version=0.1.55, dependency=null, time=2017-03-17 09:04:41 UTC)
+ProjectVersionFixed(version=0.1.56, dependency=null, time=2017-03-19 15:43:35 UTC)
+ProjectVersionFixed(version=0.1.57, dependency=null, time=2017-03-21 02:43:14 UTC)
+ProjectVersionFixed(version=0.1.58, dependency=null, time=2017-03-21 02:50:49 UTC)
+ProjectVersionFixed(version=0.1.59, dependency=null, time=2017-03-21 02:58:19 UTC)
+ProjectVersionFixed(version=0.1.60, dependency=null, time=2017-03-21 03:27:12 UTC)
+ProjectVersionFixed(version=0.1.61, dependency=null, time=2017-03-21 06:25:06 UTC)
+ProjectVersionFixed(version=0.1.62, dependency=null, time=2017-03-21 07:52:22 UTC)
+ProjectVersionFixed(version=0.1.63, dependency=null, time=2017-03-22 16:18:11 UTC)
+ProjectVersionFixed(version=0.1.64, dependency=null, time=2017-04-12 02:38:14 UTC)
+ProjectVersionFixed(version=0.1.65, dependency=null, time=2017-04-12 08:46:11 UTC)
+ProjectVersionFixed(version=0.1.66, dependency=null, time=2017-04-13 01:28:12 UTC)
+ProjectVersionFixed(version=0.1.67, dependency=null, time=2017-04-13 03:21:33 UTC)
+ProjectVersionFixed(version=0.1.68, dependency=null, time=2017-04-13 08:10:23 UTC)
+ProjectVersionFixed(version=0.1.69, dependency=null, time=2017-04-13 09:09:10 UTC)
+ProjectVersionFixed(version=0.1.70, dependency=null, time=2017-04-14 08:06:24 UTC)
+ProjectVersionFixed(version=0.1.71, dependency=null, time=2017-04-15 16:16:25 UTC)
+ProjectVersionFixed(version=0.1.72, dependency=null, time=2017-04-17 09:32:17 UTC)
+ProjectVersionFixed(version=0.1.73, dependency=null, time=2017-04-18 08:22:49 UTC)
+ProjectVersionFixed(version=0.1.74, dependency=null, time=2017-04-19 08:00:30 UTC)
+ProjectVersionFixed(version=0.1.75, dependency=null, time=2017-04-20 03:01:38 UTC)
+ProjectVersionFixed(version=0.1.76, dependency=null, time=2017-04-20 06:10:42 UTC)
+ProjectVersionFixed(version=0.1.77, dependency=null, time=2017-04-20 08:49:00 UTC)
+ProjectVersionFixed(version=0.1.78, dependency=null, time=2017-04-21 06:55:58 UTC)
+ProjectVersionFixed(version=0.1.79, dependency=null, time=2017-04-22 01:06:55 UTC)
+ProjectVersionFixed(version=0.1.80, dependency=null, time=2017-04-24 01:27:46 UTC)
+ProjectVersionFixed(version=0.1.81, dependency=null, time=2017-04-24 02:30:01 UTC)
+ProjectVersionFixed(version=0.1.82, dependency=null, time=2017-04-24 08:51:27 UTC)
+ProjectVersionFixed(version=0.1.83, dependency=null, time=2017-04-24 08:55:15 UTC)
+ProjectVersionFixed(version=0.1.84, dependency=null, time=2017-04-25 09:29:01 UTC)
+ProjectVersionFixed(version=0.1.85, dependency=null, time=2017-04-26 06:40:26 UTC)
+ProjectVersionFixed(version=0.1.86, dependency=null, time=2017-04-26 09:27:57 UTC)
+ProjectVersionFixed(version=0.2.0, dependency=null, time=2017-04-30 14:24:57 UTC)
+ProjectVersionFixed(version=0.2.1, dependency=null, time=2017-04-30 15:02:30 UTC)
+ProjectVersionFixed(version=0.2.2, dependency=null, time=2017-05-02 02:01:36 UTC)
+ProjectVersionFixed(version=0.2.3, dependency=null, time=2017-05-02 02:07:13 UTC)
+ProjectVersionFixed(version=0.2.4, dependency=null, time=2017-05-02 02:15:01 UTC)
+ProjectVersionFixed(version=0.2.5, dependency=null, time=2017-05-02 02:26:55 UTC)
+ProjectVersionFixed(version=0.2.6, dependency=null, time=2017-05-02 02:30:30 UTC)
+ProjectVersionFixed(version=0.2.7, dependency=null, time=2017-05-02 02:34:01 UTC)
+ProjectVersionFixed(version=0.2.8, dependency=null, time=2017-05-02 02:39:47 UTC)
+ProjectVersionFixed(version=0.2.9, dependency=null, time=2017-05-02 03:28:11 UTC)
+ProjectVersionFixed(version=0.2.10, dependency=null, time=2017-05-02 06:01:52 UTC)
+ProjectVersionFixed(version=0.2.11, dependency=null, time=2017-05-02 08:15:21 UTC)
+ProjectVersionFixed(version=0.2.12, dependency=null, time=2017-05-02 08:16:49 UTC)
+ProjectVersionFixed(version=0.2.13, dependency=null, time=2017-05-02 09:19:13 UTC)
+ProjectVersionFixed(version=0.2.15, dependency=null, time=2017-05-03 07:07:36 UTC)
+ProjectVersionFixed(version=0.2.16, dependency=null, time=2017-05-03 07:09:43 UTC)
+ProjectVersionFixed(version=0.2.17, dependency=null, time=2017-05-04 06:37:27 UTC)
+ProjectVersionFixed(version=0.2.18, dependency=null, time=2017-05-04 06:38:59 UTC)
+ProjectVersionFixed(version=0.2.19, dependency=null, time=2017-05-04 07:02:33 UTC)
+ProjectVersionFixed(version=0.2.20, dependency=null, time=2017-05-04 09:48:12 UTC)
+ProjectVersionFixed(version=0.2.21, dependency=null, time=2017-05-04 11:59:46 UTC)
+ProjectVersionFixed(version=0.2.24, dependency=null, time=2017-05-04 16:45:15 UTC)
+ProjectVersionFixed(version=0.2.25, dependency=null, time=2017-05-05 01:51:27 UTC)
+ProjectVersionFixed(version=0.2.26, dependency=null, time=2017-05-05 03:31:12 UTC)
+ProjectVersionFixed(version=0.2.27, dependency=null, time=2017-05-05 07:22:28 UTC)
+ProjectVersionFixed(version=0.2.29, dependency=null, time=2017-05-06 15:55:45 UTC)
+ProjectVersionFixed(version=0.2.30, dependency=null, time=2017-05-06 15:58:10 UTC)
+ProjectVersionFixed(version=0.2.31, dependency=null, time=2017-05-08 03:10:12 UTC)
+ProjectVersionFixed(version=0.2.32, dependency=null, time=2017-05-09 08:15:39 UTC)
+ProjectVersionFixed(version=0.2.33, dependency=null, time=2017-05-12 06:17:41 UTC)
+ProjectVersionFixed(version=0.2.34, dependency=null, time=2017-05-12 06:36:06 UTC)
+ProjectVersionFixed(version=0.2.35, dependency=null, time=2017-05-12 06:57:56 UTC)
+ProjectVersionFixed(version=0.2.36, dependency=null, time=2017-05-12 08:12:40 UTC)
+ProjectVersionFixed(version=0.2.37, dependency=null, time=2017-05-15 06:54:29 UTC)
+ProjectVersionFixed(version=0.2.38, dependency=null, time=2017-05-19 09:01:50 UTC)
+ProjectVersionFixed(version=0.2.39, dependency=null, time=2017-05-22 01:58:23 UTC)
+ProjectVersionFixed(version=0.2.40, dependency=null, time=2017-05-22 03:30:55 UTC)
+ProjectVersionFixed(version=0.2.41, dependency=null, time=2017-05-22 07:34:06 UTC)
+ProjectVersionFixed(version=0.2.42, dependency=null, time=2017-05-22 07:36:18 UTC)
+ProjectVersionFixed(version=0.2.43, dependency=null, time=2017-05-26 02:57:11 UTC)
+ProjectVersionFixed(version=0.2.44, dependency=null, time=2017-05-26 03:16:28 UTC)
+ProjectVersionFixed(version=0.2.45, dependency=null, time=2017-05-26 05:57:59 UTC)
+ProjectVersionFixed(version=0.2.46, dependency=null, time=2017-05-26 06:27:17 UTC)
+ProjectVersionFixed(version=0.2.47, dependency=null, time=2017-05-26 06:32:20 UTC)
+ProjectVersionFixed(version=0.2.48, dependency=null, time=2017-05-26 06:50:14 UTC)
+ProjectVersionFixed(version=0.2.49, dependency=null, time=2017-05-26 06:58:50 UTC)
+ProjectVersionFixed(version=0.2.50, dependency=null, time=2017-05-26 07:17:30 UTC)
+ProjectVersionFixed(version=0.2.51, dependency=null, time=2017-05-26 07:27:06 UTC)
+ProjectVersionFixed(version=0.2.52, dependency=null, time=2017-05-26 07:57:44 UTC)
+ProjectVersionFixed(version=0.2.53, dependency=null, time=2017-05-26 08:11:14 UTC)
+ProjectVersionFixed(version=0.2.54, dependency=null, time=2017-05-26 08:19:13 UTC)
+ProjectVersionFixed(version=0.2.55, dependency=null, time=2017-05-27 09:18:50 UTC)
+ProjectVersionFixed(version=0.2.56, dependency=null, time=2017-05-28 14:11:08 UTC)
+ProjectVersionFixed(version=0.2.57, dependency=null, time=2017-05-28 14:21:17 UTC)
+ProjectVersionFixed(version=0.2.58, dependency=null, time=2017-05-28 15:39:05 UTC)
+ProjectVersionFixed(version=0.2.59, dependency=null, time=2017-05-28 15:54:53 UTC)
+ProjectVersionFixed(version=0.2.60, dependency=null, time=2017-05-29 16:10:16 UTC)
+ProjectVersionFixed(version=0.2.61, dependency=null, time=2017-05-31 16:34:02 UTC)
+ProjectVersionFixed(version=0.2.62, dependency=null, time=2017-06-01 06:35:09 UTC)
+ProjectVersionFixed(version=0.2.63, dependency=null, time=2017-06-01 08:34:07 UTC)
+ProjectVersionFixed(version=0.3.0, dependency=null, time=2017-06-02 09:31:29 UTC)
+ProjectVersionFixed(version=0.3.1, dependency=null, time=2017-06-07 03:23:24 UTC)
+ProjectVersionFixed(version=0.3.2, dependency=null, time=2017-06-07 03:48:33 UTC)
+ProjectVersionFixed(version=0.3.3, dependency=null, time=2017-06-07 06:04:37 UTC)
+ProjectVersionFixed(version=0.3.4, dependency=null, time=2017-06-07 06:55:36 UTC)
+ProjectVersionFixed(version=0.3.5, dependency=null, time=2017-06-07 07:17:15 UTC)
+ProjectVersionFixed(version=0.3.6, dependency=null, time=2017-06-07 07:21:59 UTC)
+ProjectVersionFixed(version=0.3.7, dependency=null, time=2017-06-07 07:27:17 UTC)
+ProjectVersionFixed(version=0.3.8, dependency=null, time=2017-06-07 07:32:57 UTC)
+ProjectVersionFixed(version=0.3.9, dependency=null, time=2017-06-07 07:35:29 UTC)
+ProjectVersionFixed(version=0.3.10, dependency=null, time=2017-06-08 01:28:44 UTC)
+ProjectVersionFixed(version=0.3.11, dependency=null, time=2017-06-08 07:43:37 UTC)
+ProjectVersionFixed(version=0.3.12, dependency=null, time=2017-06-09 03:51:52 UTC)
+ProjectVersionFixed(version=0.3.13, dependency=null, time=2017-06-09 07:25:29 UTC)
+ProjectVersionFixed(version=0.3.15, dependency=null, time=2017-06-10 16:16:13 UTC)
+ProjectVersionFixed(version=0.3.16, dependency=null, time=2017-06-11 17:07:04 UTC)
+ProjectVersionFixed(version=0.3.17, dependency=null, time=2017-06-12 03:38:30 UTC)
+ProjectVersionFixed(version=0.3.18, dependency=null, time=2017-06-12 03:45:07 UTC)
+ProjectVersionFixed(version=0.3.19, dependency=null, time=2017-06-13 09:17:26 UTC)
+ProjectVersionFixed(version=0.3.20, dependency=null, time=2017-06-14 08:59:20 UTC)
+ProjectVersionFixed(version=0.3.21, dependency=null, time=2017-06-14 09:02:25 UTC)
+ProjectVersionFixed(version=0.3.22, dependency=null, time=2017-06-14 09:05:42 UTC)
+ProjectVersionFixed(version=0.3.23, dependency=null, time=2017-06-14 09:07:07 UTC)
+ProjectVersionFixed(version=0.3.24, dependency=null, time=2017-06-15 06:18:12 UTC)
+ProjectVersionFixed(version=0.3.25, dependency=null, time=2017-06-15 07:14:39 UTC)
+ProjectVersionFixed(version=0.3.26, dependency=null, time=2017-06-15 07:19:25 UTC)
+ProjectVersionFixed(version=0.3.27, dependency=null, time=2017-06-15 07:35:35 UTC)
+ProjectVersionFixed(version=0.3.28, dependency=null, time=2017-06-15 08:49:06 UTC)
+ProjectVersionFixed(version=0.3.29, dependency=null, time=2017-06-16 02:25:14 UTC)
+ProjectVersionFixed(version=0.3.30, dependency=null, time=2017-06-16 03:03:19 UTC)
+ProjectVersionFixed(version=0.3.31, dependency=null, time=2017-06-16 17:26:43 UTC)
+ProjectVersionFixed(version=0.3.32, dependency=null, time=2017-06-19 06:27:47 UTC)
+ProjectVersionFixed(version=0.3.33, dependency=null, time=2017-06-19 07:31:47 UTC)
+ProjectVersionFixed(version=0.3.34, dependency=null, time=2017-06-19 08:33:49 UTC)
+ProjectVersionFixed(version=0.3.35, dependency=null, time=2017-06-19 09:02:56 UTC)
+ProjectVersionFixed(version=0.3.36, dependency=null, time=2017-06-19 09:20:15 UTC)
+ProjectVersionFixed(version=0.3.37, dependency=null, time=2017-06-19 09:28:16 UTC)
+ProjectVersionFixed(version=0.3.38, dependency=null, time=2017-06-19 09:33:19 UTC)
+ProjectVersionFixed(version=0.3.39, dependency=null, time=2017-06-20 01:19:58 UTC)
+ProjectVersionFixed(version=0.3.40, dependency=null, time=2017-06-20 01:22:52 UTC)
+ProjectVersionFixed(version=0.3.41, dependency=null, time=2017-06-20 01:34:21 UTC)
+ProjectVersionFixed(version=0.3.42, dependency=null, time=2017-06-20 02:50:02 UTC)
+ProjectVersionFixed(version=0.3.43, dependency=null, time=2017-06-20 02:54:46 UTC)
+ProjectVersionFixed(version=0.3.44, dependency=null, time=2017-06-21 08:56:43 UTC)
+ProjectVersionFixed(version=0.3.45, dependency=null, time=2017-06-21 09:20:48 UTC)
+ProjectVersionFixed(version=0.3.46, dependency=null, time=2017-06-21 09:24:39 UTC)
+ProjectVersionFixed(version=0.3.47, dependency=null, time=2017-06-22 01:10:16 UTC)
+ProjectVersionFixed(version=0.3.48, dependency=null, time=2017-06-22 02:58:28 UTC)
+ProjectVersionFixed(version=0.3.49, dependency=null, time=2017-06-22 03:04:05 UTC)
+ProjectVersionFixed(version=0.3.50, dependency=null, time=2017-06-22 06:11:38 UTC)
+ProjectVersionFixed(version=0.3.51, dependency=null, time=2017-06-22 06:15:45 UTC)
+ProjectVersionFixed(version=0.3.52, dependency=null, time=2017-06-22 06:42:39 UTC)
+ProjectVersionFixed(version=0.3.53, dependency=null, time=2017-06-22 06:48:40 UTC)
+ProjectVersionFixed(version=0.3.54, dependency=null, time=2017-06-22 07:06:51 UTC)
+ProjectVersionFixed(version=0.3.55, dependency=null, time=2017-06-22 07:08:57 UTC)
+ProjectVersionFixed(version=0.3.56, dependency=null, time=2017-06-22 07:22:13 UTC)
+ProjectVersionFixed(version=0.3.59, dependency=null, time=2017-06-22 07:41:51 UTC)
+ProjectVersionFixed(version=0.3.60, dependency=null, time=2017-06-22 08:42:02 UTC)
+ProjectVersionFixed(version=0.3.61, dependency=null, time=2017-06-22 09:06:18 UTC)
+ProjectVersionFixed(version=0.3.62, dependency=null, time=2017-06-22 09:09:35 UTC)
+ProjectVersionFixed(version=0.3.63, dependency=null, time=2017-06-22 09:12:21 UTC)
+ProjectVersionFixed(version=0.3.64, dependency=null, time=2017-06-22 09:20:37 UTC)
+ProjectVersionFixed(version=0.3.65, dependency=null, time=2017-06-23 03:05:44 UTC)
+ProjectVersionFixed(version=0.3.66, dependency=null, time=2017-06-23 09:02:58 UTC)
+ProjectVersionFixed(version=0.3.67, dependency=null, time=2017-06-26 02:42:38 UTC)
+ProjectVersionFixed(version=0.3.68, dependency=null, time=2017-06-26 03:05:42 UTC)
+ProjectVersionFixed(version=0.3.69, dependency=null, time=2017-06-30 07:16:05 UTC)
+ProjectVersionFixed(version=0.3.70, dependency=null, time=2017-06-30 07:53:57 UTC)
+ProjectVersionFixed(version=0.3.71, dependency=null, time=2017-07-04 07:40:50 UTC)
+ProjectVersionFixed(version=0.3.72, dependency=null, time=2017-07-07 09:31:36 UTC)
+ProjectVersionFixed(version=0.3.73, dependency=null, time=2017-07-10 02:46:40 UTC)
+ProjectVersionFixed(version=0.3.74, dependency=null, time=2017-07-10 03:00:01 UTC)
+ProjectVersionFixed(version=0.3.75, dependency=null, time=2017-07-12 02:36:18 UTC)
+ProjectVersionFixed(version=0.3.76, dependency=null, time=2017-07-12 03:46:45 UTC)
+ProjectVersionFixed(version=0.3.77, dependency=null, time=2017-07-12 06:14:55 UTC)
+ProjectVersionFixed(version=0.3.78, dependency=null, time=2017-07-12 06:23:03 UTC)
+ProjectVersionFixed(version=0.3.79, dependency=null, time=2017-07-13 02:21:32 UTC)
+ProjectVersionFixed(version=0.3.80, dependency=null, time=2017-07-13 03:38:22 UTC)
+ProjectVersionFixed(version=0.3.81, dependency=null, time=2017-07-13 10:05:28 UTC)
+ProjectVersionFixed(version=0.3.82, dependency=null, time=2017-07-13 10:13:27 UTC)
+ProjectVersionFixed(version=0.3.83, dependency=null, time=2017-07-14 03:34:00 UTC)
+ProjectVersionFixed(version=0.3.84, dependency=null, time=2017-07-14 03:42:11 UTC)
+ProjectVersionFixed(version=0.3.85, dependency=null, time=2017-07-14 03:47:30 UTC)
+ProjectVersionFixed(version=0.3.86, dependency=null, time=2017-07-14 06:33:57 UTC)
+ProjectVersionFixed(version=0.3.87, dependency=null, time=2017-07-14 07:43:34 UTC)
+ProjectVersionFixed(version=0.3.88, dependency=null, time=2017-07-14 09:33:04 UTC)
+ProjectVersionFixed(version=0.3.89, dependency=null, time=2017-07-17 02:54:25 UTC)
+ProjectVersionFixed(version=0.3.90, dependency=null, time=2017-07-17 03:01:04 UTC)
+ProjectVersionFixed(version=0.3.91, dependency=null, time=2017-07-24 07:55:04 UTC)
+ProjectVersionFixed(version=0.3.93, dependency=null, time=2017-07-24 09:10:37 UTC)
+ProjectVersionFixed(version=0.3.95, dependency=null, time=2017-07-26 08:36:59 UTC)
+ProjectVersionFixed(version=0.3.96, dependency=null, time=2017-07-27 07:45:19 UTC)
+ProjectVersionFixed(version=0.3.97, dependency=null, time=2017-07-27 08:09:24 UTC)
+ProjectVersionFixed(version=0.3.98, dependency=null, time=2017-08-03 08:09:54 UTC)
+ProjectVersionFixed(version=0.3.99, dependency=null, time=2017-08-11 08:22:27 UTC)
+ProjectVersionFixed(version=0.3.100, dependency=null, time=2017-08-15 06:25:05 UTC)
+ProjectVersionFixed(version=0.3.101, dependency=null, time=2017-08-15 08:10:30 UTC)
+ProjectVersionFixed(version=0.3.102, dependency=null, time=2017-08-15 09:13:15 UTC)
+ProjectVersionFixed(version=0.3.103, dependency=null, time=2017-08-16 01:29:15 UTC)
+ProjectVersionFixed(version=0.3.104, dependency=null, time=2017-08-17 08:12:29 UTC)
+ProjectVersionFixed(version=0.3.105, dependency=null, time=2017-08-18 01:08:11 UTC)
+ProjectVersionFixed(version=0.3.106, dependency=null, time=2017-08-18 08:39:42 UTC)
+ProjectVersionFixed(version=0.3.107, dependency=null, time=2017-08-18 08:41:39 UTC)
+ProjectVersionFixed(version=0.3.108, dependency=null, time=2017-08-18 08:44:17 UTC)
+ProjectVersionFixed(version=0.3.109, dependency=null, time=2017-08-28 07:40:01 UTC)
+ProjectVersionFixed(version=0.3.110, dependency=null, time=2017-08-30 07:00:53 UTC)
+ProjectVersionFixed(version=0.3.111, dependency=null, time=2017-08-30 07:11:47 UTC)
+ProjectVersionFixed(version=0.3.112, dependency=null, time=2017-08-30 07:16:18 UTC)
+ProjectVersionFixed(version=0.3.113, dependency=null, time=2017-09-04 06:45:46 UTC)
+ProjectVersionFixed(version=0.3.114, dependency=null, time=2017-09-04 06:53:59 UTC)
+ProjectVersionFixed(version=0.3.115, dependency=null, time=2017-09-04 07:12:13 UTC)
+ProjectVersionFixed(version=0.3.116, dependency=null, time=2017-09-04 07:39:30 UTC)
+ProjectVersionFixed(version=0.3.117, dependency=0.0.6, time=2017-09-06 09:22:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.118, dependency=null, time=2017-09-07 01:21:09 UTC)
+ProjectVersionFixed(version=0.3.119, dependency=0.0.6, time=2017-09-07 01:24:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.120, dependency=0.0.6, time=2017-09-07 02:50:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.121, dependency=0.0.6, time=2017-09-07 02:57:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.122, dependency=0.0.6, time=2017-09-07 03:18:01 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.123, dependency=0.0.6, time=2017-09-07 03:28:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.124, dependency=0.0.6, time=2017-09-07 07:33:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.125, dependency=0.0.6, time=2017-09-07 07:50:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.126, dependency=0.0.7, time=2017-09-07 08:48:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.127, dependency=0.0.8, time=2017-09-07 08:58:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.128, dependency=null, time=2017-09-07 09:09:29 UTC)
+ProjectVersionFixed(version=0.3.129, dependency=0.0.9, time=2017-09-07 09:25:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.130, dependency=0.0.9, time=2017-09-08 01:36:01 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.131, dependency=0.0.10, time=2017-09-08 02:11:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.132, dependency=0.0.11, time=2017-09-08 02:20:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.133, dependency=0.0.12, time=2017-09-08 02:50:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.134, dependency=0.0.12, time=2017-09-08 17:00:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.135, dependency=0.0.12, time=2017-09-21 08:16:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.136, dependency=0.0.12, time=2017-09-22 08:45:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.137, dependency=0.0.12, time=2017-09-22 08:58:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.138, dependency=null, time=2017-09-22 09:11:40 UTC)
+ProjectVersionFixed(version=0.3.139, dependency=0.0.12, time=2017-09-25 02:33:37 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.140, dependency=0.0.12, time=2017-09-25 07:34:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.141, dependency=0.0.12, time=2017-09-26 01:07:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.142, dependency=0.0.12, time=2017-09-26 02:28:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.145, dependency=0.0.12, time=2017-09-26 09:18:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.146, dependency=0.0.12, time=2017-09-28 02:24:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.147, dependency=0.0.12, time=2017-09-28 03:05:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.148, dependency=0.0.12, time=2017-09-28 03:21:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.151, dependency=0.0.12, time=2017-09-28 03:48:23 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.152, dependency=0.0.12, time=2017-09-28 08:19:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.153, dependency=0.0.12, time=2017-09-28 16:04:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.154, dependency=0.0.12, time=2017-10-09 06:46:48 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.155, dependency=0.0.12, time=2017-10-09 07:41:33 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.156, dependency=0.0.12, time=2017-10-09 08:05:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.157, dependency=0.0.12, time=2017-10-10 02:39:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.158, dependency=0.0.12, time=2017-10-11 07:22:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.159, dependency=0.0.12, time=2017-10-11 09:04:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.160, dependency=0.0.12, time=2017-10-13 03:07:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.161, dependency=0.0.12, time=2017-10-13 07:55:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.162, dependency=0.0.12, time=2017-10-13 09:05:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.163, dependency=0.0.12, time=2017-10-13 09:12:03 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.164, dependency=0.0.12, time=2017-10-13 09:26:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.165, dependency=0.0.12, time=2017-10-14 12:25:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.166, dependency=0.0.12, time=2017-10-17 09:11:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.167, dependency=0.0.12, time=2017-11-01 07:46:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.168, dependency=0.0.12, time=2017-11-01 08:41:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.169, dependency=0.0.12, time=2017-11-01 09:04:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.170, dependency=0.0.12, time=2017-11-01 09:06:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.171, dependency=0.0.12, time=2017-11-02 03:49:48 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.172, dependency=null, time=2017-11-02 08:12:12 UTC)
+ProjectVersionFixed(version=0.3.173, dependency=0.0.12, time=2017-11-02 08:12:59 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.174, dependency=0.0.12, time=2017-11-02 08:15:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.175, dependency=0.0.12, time=2017-11-02 08:16:42 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.176, dependency=0.0.12, time=2017-11-06 07:25:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.178, dependency=0.0.12, time=2017-11-06 09:28:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.179, dependency=0.0.12, time=2017-11-07 02:01:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.181, dependency=0.0.12, time=2017-11-07 08:19:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.183, dependency=0.0.12, time=2017-11-07 08:29:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.184, dependency=0.0.12, time=2017-11-07 08:31:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.186, dependency=0.0.12, time=2017-11-07 16:29:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.187, dependency=0.0.12, time=2017-11-07 16:31:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.188, dependency=0.0.12, time=2017-11-09 06:36:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.189, dependency=0.0.12, time=2017-11-09 07:09:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.190, dependency=null, time=2017-11-13 02:03:01 UTC)
+ProjectVersionFixed(version=0.3.191, dependency=0.0.12, time=2017-11-13 03:49:50 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.192, dependency=0.0.12, time=2017-11-13 07:21:57 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.193, dependency=0.0.12, time=2017-11-17 06:49:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.194, dependency=0.0.12, time=2017-11-17 06:56:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.195, dependency=0.0.12, time=2017-11-17 07:07:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.196, dependency=null, time=2017-11-17 07:12:31 UTC)
+ProjectVersionFixed(version=0.3.197, dependency=0.0.12, time=2017-11-17 07:22:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.198, dependency=0.0.12, time=2017-11-17 07:32:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.199, dependency=0.0.12, time=2017-11-17 07:46:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.200, dependency=0.0.12, time=2017-11-17 08:01:18 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.201, dependency=0.0.12, time=2017-11-17 09:11:57 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.202, dependency=0.0.12, time=2017-11-17 09:19:23 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.204, dependency=0.0.12, time=2017-11-21 02:49:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.205, dependency=null, time=2017-11-21 06:45:10 UTC)
+ProjectVersionFixed(version=0.3.207, dependency=0.0.13, time=2017-11-21 06:56:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.208, dependency=0.0.13, time=2017-11-21 07:49:52 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.209, dependency=0.0.13, time=2017-11-21 08:08:46 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.210, dependency=0.0.12, time=2017-11-21 09:04:58 UTC),	Latest, "DependencyVersion(version=0.0.13, time=2017-11-21 06:20:51 UTC)"
+
+ProjectVersionFixed(version=0.3.211, dependency=0.0.12, time=2017-11-21 09:09:31 UTC),	Latest, "DependencyVersion(version=0.0.13, time=2017-11-21 06:20:51 UTC)"
+
+ProjectVersionFixed(version=0.3.212, dependency=0.0.12, time=2017-11-22 06:39:57 UTC),	Latest, "DependencyVersion(version=0.0.13, time=2017-11-21 06:20:51 UTC)"
+
+ProjectVersionFixed(version=0.3.215, dependency=0.0.12, time=2017-11-22 07:09:01 UTC),	Latest, "DependencyVersion(version=0.0.13, time=2017-11-21 06:20:51 UTC)"
+
+ProjectVersionFixed(version=0.3.216, dependency=0.0.12, time=2017-11-22 07:18:24 UTC),	Latest, "DependencyVersion(version=0.0.13, time=2017-11-21 06:20:51 UTC)"
+
+ProjectVersionFixed(version=0.3.217, dependency=null, time=2017-11-22 07:24:44 UTC)
+ProjectVersionFixed(version=0.3.218, dependency=0.0.12, time=2017-11-22 07:33:20 UTC),	Latest, "DependencyVersion(version=0.0.13, time=2017-11-21 06:20:51 UTC)"
+
+ProjectVersionFixed(version=0.3.220, dependency=0.0.13, time=2017-11-22 07:48:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.221, dependency=null, time=2017-11-22 07:55:58 UTC)
+ProjectVersionFixed(version=0.3.222, dependency=0.0.13, time=2017-11-22 08:18:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.223, dependency=0.0.13, time=2017-11-22 08:31:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.224, dependency=null, time=2017-11-29 08:16:10 UTC)
+ProjectVersionFixed(version=0.3.225, dependency=0.0.13, time=2017-11-29 08:21:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.226, dependency=0.0.13, time=2017-12-03 10:22:33 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.227, dependency=0.0.13, time=2017-12-04 09:20:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.228, dependency=null, time=2017-12-04 09:25:55 UTC)
+ProjectVersionFixed(version=0.3.229, dependency=0.0.13, time=2017-12-12 09:16:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.230, dependency=0.0.13, time=2017-12-17 13:30:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.231, dependency=0.0.13, time=2017-12-18 09:06:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.232, dependency=0.0.13, time=2017-12-20 07:47:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.235, dependency=0.0.13, time=2017-12-20 07:49:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.236, dependency=0.0.13, time=2017-12-21 02:31:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.237, dependency=0.0.13, time=2017-12-21 08:30:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.238, dependency=0.0.13, time=2017-12-27 08:56:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.239, dependency=0.0.13, time=2018-01-01 04:26:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.240, dependency=0.0.13, time=2018-01-02 08:43:33 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.241, dependency=null, time=2018-01-02 08:48:10 UTC)
+ProjectVersionFixed(version=0.3.242, dependency=0.0.13, time=2018-01-03 06:48:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.243, dependency=0.0.13, time=2018-01-03 08:16:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.245, dependency=0.0.13, time=2018-01-11 08:54:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.246, dependency=0.0.13, time=2018-01-12 03:22:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.247, dependency=0.0.13, time=2018-01-12 03:43:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.248, dependency=null, time=2018-01-12 03:58:09 UTC)
+ProjectVersionFixed(version=0.3.249, dependency=0.0.13, time=2018-01-18 07:16:01 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.250, dependency=0.0.13, time=2018-01-18 07:17:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.251, dependency=0.0.13, time=2018-01-29 03:09:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.0, dependency=0.0.13, time=2018-02-01 08:58:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.1, dependency=0.0.13, time=2018-02-01 08:58:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.2, dependency=0.0.13, time=2018-02-01 09:04:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.3, dependency=0.0.13, time=2018-02-01 09:15:59 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.5, dependency=0.0.13, time=2018-02-02 03:09:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.6, dependency=0.0.13, time=2018-02-06 07:01:57 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.7, dependency=0.0.13, time=2018-02-21 04:05:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.8, dependency=0.0.13, time=2018-02-26 08:02:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.4.9, dependency=0.0.13, time=2018-04-06 14:37:35 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.10, dependency=0.0.13, time=2018-04-09 10:48:04 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.11, dependency=0.0.13, time=2018-04-09 11:33:44 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.12, dependency=0.0.13, time=2018-04-09 11:41:31 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.13, dependency=0.0.13, time=2018-04-09 11:56:34 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.15, dependency=0.0.13, time=2018-04-09 12:02:18 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.16, dependency=0.0.13, time=2018-04-09 12:04:40 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.17, dependency=0.0.13, time=2018-04-09 12:23:32 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.19, dependency=0.0.13, time=2018-04-10 01:56:34 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.20, dependency=null, time=2018-04-16 11:00:33 UTC)
+ProjectVersionFixed(version=0.4.21, dependency=0.0.13, time=2018-04-16 12:23:01 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.22, dependency=0.0.13, time=2018-05-31 06:08:34 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.4.23, dependency=0.0.13, time=2018-06-01 07:23:05 UTC),	Latest, "DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)"
+
+ProjectVersionFixed(version=0.5.0, dependency=0.0.20, time=2018-03-28 09:12:37 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.1, dependency=0.0.20, time=2018-03-28 15:40:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.2, dependency=0.0.20, time=2018-03-28 15:42:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.3, dependency=null, time=2018-03-29 02:50:35 UTC)
+ProjectVersionFixed(version=0.5.4, dependency=0.0.20, time=2018-03-29 03:00:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.5, dependency=0.0.20, time=2018-03-29 03:02:57 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.7, dependency=null, time=2018-03-29 03:18:13 UTC)
+ProjectVersionFixed(version=0.5.8, dependency=null, time=2018-03-29 03:18:55 UTC)
+ProjectVersionFixed(version=0.5.9, dependency=0.0.20, time=2018-03-29 06:57:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.10, dependency=0.0.20, time=2018-03-29 12:12:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.11, dependency=0.0.20, time=2018-03-29 12:13:52 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.12, dependency=0.0.20, time=2018-03-29 12:29:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.13, dependency=0.0.20, time=2018-04-05 15:09:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.15, dependency=0.0.20, time=2018-04-09 12:27:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.16, dependency=0.0.20, time=2018-04-10 03:26:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.18, dependency=0.0.20, time=2018-04-10 03:49:42 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.20, dependency=0.0.20, time=2018-04-10 06:20:18 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.21, dependency=0.0.20, time=2018-04-10 06:23:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.22, dependency=0.0.20, time=2018-04-10 06:29:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.23, dependency=null, time=2018-04-10 06:35:48 UTC)
+ProjectVersionFixed(version=0.5.24, dependency=0.0.20, time=2018-04-10 06:49:29 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.25, dependency=null, time=2018-04-10 06:54:20 UTC)
+ProjectVersionFixed(version=0.5.26, dependency=0.0.20, time=2018-04-11 06:58:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.27, dependency=0.0.20, time=2018-04-11 08:48:46 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.28, dependency=0.0.20, time=2018-04-12 01:41:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.29, dependency=null, time=2018-04-12 01:42:13 UTC)
+ProjectVersionFixed(version=0.5.30, dependency=0.0.20, time=2018-04-12 08:49:29 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.31, dependency=0.0.20, time=2018-04-13 09:09:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.32, dependency=0.0.20, time=2018-04-13 14:46:14 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.33, dependency=0.0.20, time=2018-04-13 14:49:39 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.34, dependency=0.0.20, time=2018-04-16 07:16:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.35, dependency=0.0.20, time=2018-04-16 07:36:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.36, dependency=0.0.20, time=2018-04-16 08:05:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.37, dependency=0.0.20, time=2018-04-16 08:06:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.38, dependency=null, time=2018-04-16 10:45:20 UTC)
+ProjectVersionFixed(version=0.5.39, dependency=0.0.20, time=2018-04-16 12:18:39 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.40, dependency=0.0.20, time=2018-04-17 09:42:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.41, dependency=0.0.20, time=2018-04-17 13:40:39 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.42, dependency=0.0.20, time=2018-04-18 09:03:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.45, dependency=0.0.20, time=2018-04-19 07:42:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.46, dependency=null, time=2018-04-19 07:51:35 UTC)
+ProjectVersionFixed(version=0.5.47, dependency=0.0.20, time=2018-04-20 06:15:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.48, dependency=0.0.20, time=2018-04-23 09:17:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.49, dependency=0.0.20, time=2018-04-24 08:43:38 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.50, dependency=0.0.20, time=2018-04-24 08:54:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.51, dependency=0.0.20, time=2018-04-24 09:19:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.52, dependency=0.0.20, time=2018-04-24 16:32:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.53, dependency=0.0.20, time=2018-04-25 06:39:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.54, dependency=0.0.20, time=2018-04-25 06:41:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.55, dependency=0.0.20, time=2018-04-26 08:28:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.56, dependency=0.0.20, time=2018-04-28 08:21:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.57, dependency=0.0.20, time=2018-05-02 09:29:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.58, dependency=0.0.20, time=2018-05-02 09:30:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.59, dependency=0.0.20, time=2018-05-03 08:29:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.61, dependency=0.0.20, time=2018-05-03 08:44:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.62, dependency=0.0.20, time=2018-05-03 09:31:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.63, dependency=0.0.20, time=2018-05-04 02:07:33 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.64, dependency=0.0.20, time=2018-05-04 02:27:39 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.65, dependency=0.0.20, time=2018-05-04 08:22:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.66, dependency=0.0.20, time=2018-05-08 07:36:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.67, dependency=0.0.20, time=2018-05-14 07:16:36 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.68, dependency=0.0.20, time=2018-05-15 10:11:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.69, dependency=0.0.20, time=2018-05-16 03:42:18 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.70, dependency=0.0.20, time=2018-05-16 07:04:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.71, dependency=0.0.20, time=2018-05-21 10:13:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.72, dependency=0.0.20, time=2018-05-22 03:52:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.73, dependency=0.0.20, time=2018-06-01 07:13:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.75, dependency=0.0.20, time=2018-08-03 07:52:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.76, dependency=0.0.20, time=2018-08-03 08:00:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.77, dependency=0.0.20, time=2018-08-03 08:17:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.78, dependency=0.0.20, time=2018-10-31 08:37:46 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.79, dependency=0.0.20, time=2018-11-15 07:23:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.80, dependency=0.0.20, time=2018-11-15 07:52:52 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.81, dependency=0.0.20, time=2018-12-11 09:21:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.82, dependency=0.0.20, time=2018-12-12 09:28:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.83, dependency=0.0.20, time=2018-12-13 06:35:52 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.84, dependency=0.0.20, time=2018-12-13 07:25:42 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.85, dependency=0.0.20, time=2018-12-13 08:49:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.87, dependency=0.0.20, time=2018-12-14 02:09:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.88, dependency=0.0.20, time=2018-12-14 06:22:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.89, dependency=0.0.20, time=2018-12-14 06:59:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.90, dependency=0.0.20, time=2018-12-17 03:02:35 UTC),	Latest, "DependencyVersion(version=0.0.21, time=2018-12-17 02:57:30 UTC)"
+
+ProjectVersionFixed(version=0.5.91, dependency=0.0.21, time=2018-12-17 03:40:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.92, dependency=0.0.21, time=2018-12-17 06:51:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.94, dependency=0.0.21, time=2018-12-19 09:24:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.95, dependency=0.0.24, time=2018-12-21 08:07:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.5.96, dependency=0.0.24, time=2018-12-22 13:56:58 UTC),	Latest, "null"
+
+
+Project B:
+DependencyVersion(version=0.0.1, time=2017-09-06 06:36:55 UTC)
+DependencyVersion(version=0.0.10, time=2017-09-08 02:08:45 UTC)
+DependencyVersion(version=0.0.11, time=2017-09-08 02:16:47 UTC)
+DependencyVersion(version=0.0.12, time=2017-09-08 02:48:13 UTC)
+DependencyVersion(version=0.0.13, time=2017-11-21 06:20:51 UTC)
+DependencyVersion(version=0.0.15, time=2018-03-20 06:19:58 UTC)
+DependencyVersion(version=0.0.16, time=2018-03-23 07:24:25 UTC)
+DependencyVersion(version=0.0.17, time=2018-03-23 07:28:41 UTC)
+DependencyVersion(version=0.0.18, time=2018-03-28 01:55:33 UTC)
+DependencyVersion(version=0.0.19, time=2018-03-28 02:01:21 UTC)
+DependencyVersion(version=0.0.2, time=2017-09-06 06:39:49 UTC)
+DependencyVersion(version=0.0.20, time=2018-03-28 02:07:33 UTC)
+DependencyVersion(version=0.0.21, time=2018-12-17 02:57:30 UTC)
+DependencyVersion(version=0.0.24, time=2018-12-21 08:09:58 UTC)
+DependencyVersion(version=0.0.3, time=2017-09-06 08:00:03 UTC)
+DependencyVersion(version=0.0.4, time=2017-09-06 08:02:44 UTC)
+DependencyVersion(version=0.0.5, time=2017-09-06 08:05:12 UTC)
+DependencyVersion(version=0.0.6, time=2017-09-06 09:18:25 UTC)
+DependencyVersion(version=0.0.7, time=2017-09-07 08:43:45 UTC)
+DependencyVersion(version=0.0.8, time=2017-09-07 08:54:53 UTC)
+DependencyVersion(version=0.0.9, time=2017-09-07 09:07:59 UTC)

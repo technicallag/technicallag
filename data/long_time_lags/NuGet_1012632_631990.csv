@@ -116,22 +116,22 @@ Project information
 NRules.Integration.Autofac (1012632)	NRules (631990)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.4.1, dependency=0.4.1, time=2015-06-08 02:26:37 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.4.2, dependency=0.4.2, time=2015-07-01 03:24:55 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.4.3, dependency=0.4.3, time=2015-08-22 01:07:55 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.5.1, dependency=0.5.1, time=2017-04-06 03:17:40 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.5.2, dependency=0.5.2, time=2017-05-03 02:27:37 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.5.3, dependency=0.5.3, time=2017-05-13 00:59:44 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.6.2, dependency=0.6.2, time=2017-05-19 01:15:26 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.6.3, dependency=0.6.3, time=2017-06-23 02:42:55 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.7.0, dependency=0.7.0, time=2017-07-19 02:18:42 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.7.1, dependency=0.7.1, time=2017-08-25 03:29:52 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.7.2, dependency=0.7.2, time=2017-09-08 02:17:24 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.8.0, dependency=0.8.0, time=2017-11-29 04:35:27 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.8.1, dependency=0.8.1, time=2017-12-23 05:11:39 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.8.2, dependency=0.8.2, time=2018-01-21 23:55:44 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.8.3, dependency=0.8.3, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=0.8.4, dependency=0.8.4, time=2018-02-25 22:54:33 UTC),	Latest, null
+ProjectVersionFixed(version=0.4.1, dependency== 0.4.1, time=2015-06-08 02:26:37 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.4.2, dependency== 0.4.2, time=2015-07-01 03:24:55 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.4.3, dependency== 0.4.3, time=2015-08-22 01:07:55 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.5.1, dependency== 0.5.1, time=2017-04-06 03:17:40 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.5.2, dependency== 0.5.2, time=2017-05-03 02:27:37 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.5.3, dependency== 0.5.3, time=2017-05-13 00:59:44 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.6.2, dependency== 0.6.2, time=2017-05-19 01:15:26 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.6.3, dependency== 0.6.3, time=2017-06-23 02:42:55 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.7.0, dependency== 0.7.0, time=2017-07-19 02:18:42 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.7.1, dependency== 0.7.1, time=2017-08-25 03:29:52 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.7.2, dependency== 0.7.2, time=2017-09-08 02:17:24 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.8.0, dependency== 0.8.0, time=2017-11-29 04:35:27 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.8.1, dependency== 0.8.1, time=2017-12-23 05:11:39 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.8.2, dependency== 0.8.2, time=2018-01-21 23:55:44 UTC),	Latest, DependencyVersion(version=0.8.3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.8.3, dependency== 0.8.3, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=0.8.4, dependency== 0.8.4, time=2018-02-25 22:54:33 UTC),	Latest, null
 
 Project B:
 DependencyVersion(version=0.1.0, time=2013-10-27 01:13:39 UTC)

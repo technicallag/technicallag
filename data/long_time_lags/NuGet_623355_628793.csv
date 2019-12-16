@@ -123,29 +123,29 @@ Project information
 SisoDb.Glimpse (623355)	SisoDb (628793)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=12.0.0, dependency=12.0.0, time=2012-05-11 12:24:46 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=13.0.0-pre1, dependency=13.0.0-pre1, time=2012-05-23 11:23:40 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=13.0.0, dependency=13.0.0, time=2012-05-25 21:22:19 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=13.0.0-pre2, dependency=13.0.0-pre2, time=2012-05-25 10:04:30 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=13.0.1, dependency=13.0.1, time=2012-05-29 13:36:33 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=13.0.2, dependency=13.0.2, time=2012-05-30 13:33:25 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=13.0.3, dependency=13.0.3, time=2012-06-04 22:11:55 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=14.0.0-pre1, dependency=14.0.0-pre1, time=2012-06-08 08:33:07 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=14.0.0, dependency=14.0.0, time=2012-07-06 12:34:05 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=14.1.0, dependency=14.1.0, time=2012-07-08 12:00:25 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=14.2.0, dependency=14.2.0, time=2012-07-12 23:06:17 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=14.3.0, dependency=14.3.0, time=2012-07-19 07:47:48 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=14.3.1, dependency=14.3.1, time=2012-07-22 20:30:47 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=15.0.0, dependency=15.0.0, time=2012-08-07 13:11:58 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=15.0.1, dependency=15.0.1, time=2012-08-08 17:49:00 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=15.1.0, dependency=15.1.0, time=2012-09-05 16:35:31 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=16.0.0-pre1, dependency=16.0.0-pre1, time=2012-11-12 14:23:02 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=16.0.0-pre2, dependency=16.0.0-pre2, time=2012-11-15 16:06:21 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=16.0.0-pre3, dependency=16.0.0-pre3, time=2012-11-21 16:50:34 UTC),	Latest, null
-ProjectVersion(version=16.0.0, dependency=16.0.0, time=2012-11-23 16:27:29 UTC),	Latest, DependencyVersion(version=16.0.0-pre2, time=2012-11-15 16:05:44 UTC)
-ProjectVersion(version=16.1.0, dependency=16.1.0, time=2012-12-02 21:56:37 UTC),	Latest, null
-ProjectVersion(version=16.2.0, dependency=16.2.0, time=2012-12-22 14:51:38 UTC),	Latest, null
-ProjectVersion(version=16.2.1, dependency=16.2.1, time=2013-03-12 20:02:05 UTC),	Latest, null
+ProjectVersionFixed(version=12.0.0, dependency== 12.0.0, time=2012-05-11 12:24:46 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=13.0.0-pre1, dependency== 13.0.0-pre1, time=2012-05-23 11:23:40 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=13.0.0, dependency== 13.0.0, time=2012-05-25 21:22:19 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=13.0.0-pre2, dependency== 13.0.0-pre2, time=2012-05-25 10:04:30 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=13.0.1, dependency== 13.0.1, time=2012-05-29 13:36:33 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=13.0.2, dependency== 13.0.2, time=2012-05-30 13:33:25 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=13.0.3, dependency== 13.0.3, time=2012-06-04 22:11:55 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=14.0.0-pre1, dependency== 14.0.0-pre1, time=2012-06-08 08:33:07 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=14.0.0, dependency== 14.0.0, time=2012-07-06 12:34:05 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=14.1.0, dependency== 14.1.0, time=2012-07-08 12:00:25 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=14.2.0, dependency== 14.2.0, time=2012-07-12 23:06:17 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=14.3.0, dependency== 14.3.0, time=2012-07-19 07:47:48 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=14.3.1, dependency== 14.3.1, time=2012-07-22 20:30:47 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=15.0.0, dependency== 15.0.0, time=2012-08-07 13:11:58 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=15.0.1, dependency== 15.0.1, time=2012-08-08 17:49:00 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=15.1.0, dependency== 15.1.0, time=2012-09-05 16:35:31 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=16.0.0-pre1, dependency== 16.0.0-pre1, time=2012-11-12 14:23:02 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=16.0.0-pre2, dependency== 16.0.0-pre2, time=2012-11-15 16:06:21 UTC),	Latest, DependencyVersion(version=16.0.0-pre3, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=16.0.0-pre3, dependency== 16.0.0-pre3, time=2012-11-21 16:50:34 UTC),	Latest, null
+ProjectVersionFixed(version=16.0.0, dependency== 16.0.0, time=2012-11-23 16:27:29 UTC),	Latest, DependencyVersion(version=16.0.0-pre2, time=2012-11-15 16:05:44 UTC)
+ProjectVersionFixed(version=16.1.0, dependency== 16.1.0, time=2012-12-02 21:56:37 UTC),	Latest, null
+ProjectVersionFixed(version=16.2.0, dependency== 16.2.0, time=2012-12-22 14:51:38 UTC),	Latest, null
+ProjectVersionFixed(version=16.2.1, dependency== 16.2.1, time=2013-03-12 20:02:05 UTC),	Latest, null
 
 Project B:
 DependencyVersion(version=10.0.0-prerelease, time=2012-02-15 15:43:19 UTC)

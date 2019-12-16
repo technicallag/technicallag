@@ -112,18 +112,18 @@ Project information
 Brick.FluentNHibernate.Conventions (1022141)	FluentNHibernate (608099)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=2.0.1, time=2015-08-11 12:31:15 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.1, dependency=2.0.1, time=2015-08-22 13:51:05 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.2, dependency=2.0.1, time=2015-09-02 13:27:53 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.3, dependency=2.0.1, time=2015-09-05 12:14:35 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.4, dependency=2.0.1, time=2015-09-05 13:24:13 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.5, dependency=2.0.1, time=2015-09-20 11:25:46 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.6, dependency=2.0.1, time=2015-11-05 10:03:37 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.7, dependency=2.0.3, time=2015-11-10 06:15:18 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.8, dependency=2.0.3, time=2015-11-26 12:25:43 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.9, dependency=2.0.3, time=2015-11-26 12:33:34 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.10, dependency=2.0.3, time=2016-06-10 03:58:05 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0.11, dependency=2.0.3, time=2016-06-21 05:29:50 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 2.0.1, time=2015-08-11 12:31:15 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.1, dependency== 2.0.1, time=2015-08-22 13:51:05 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.2, dependency== 2.0.1, time=2015-09-02 13:27:53 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.3, dependency== 2.0.1, time=2015-09-05 12:14:35 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.4, dependency== 2.0.1, time=2015-09-05 13:24:13 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.5, dependency== 2.0.1, time=2015-09-20 11:25:46 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.6, dependency== 2.0.1, time=2015-11-05 10:03:37 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.7, dependency== 2.0.3, time=2015-11-10 06:15:18 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.8, dependency== 2.0.3, time=2015-11-26 12:25:43 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.9, dependency== 2.0.3, time=2015-11-26 12:33:34 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.10, dependency== 2.0.3, time=2016-06-10 03:58:05 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0.11, dependency== 2.0.3, time=2016-06-21 05:29:50 UTC),	Latest, DependencyVersion(version=2.1.1, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.1.0.694, time=2011-01-07 07:53:33 UTC)

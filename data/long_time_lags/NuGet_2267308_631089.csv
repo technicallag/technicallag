@@ -104,10 +104,10 @@ Project information
 AdvancedREI.Restier.Providers.EntityFramework (2267308)	EntityFramework (631089)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0-beta2, dependency=6.1.3, time=2017-04-30 19:07:11 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=1.0.0-beta2a, dependency=6.1.3, time=2017-05-02 17:35:18 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=1.0.0-beta2b, dependency=6.1.3, time=2017-05-26 19:32:15 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=1.0.0-beta2c, dependency=6.1.3, time=2017-05-28 16:53:18 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=1.0.0-beta2, dependency== 6.1.3, time=2017-04-30 19:07:11 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=1.0.0-beta2a, dependency== 6.1.3, time=2017-05-02 17:35:18 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=1.0.0-beta2b, dependency== 6.1.3, time=2017-05-26 19:32:15 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=1.0.0-beta2c, dependency== 6.1.3, time=2017-05-28 16:53:18 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
 
 Project B:
 DependencyVersion(version=4.1.10311, time=2011-03-15 23:20:09 UTC)

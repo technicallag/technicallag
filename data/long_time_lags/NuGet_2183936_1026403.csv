@@ -101,7 +101,7 @@ Project information
 Microsoft.TeamFoundation.DistributedTask.Common (2183936)	Microsoft.VisualStudio.Services.Client (1026403)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=15.112.1, dependency=15.112.1, time=2017-03-14 23:48:33 UTC),	Latest, DependencyVersion(version=16.118.0-preview, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=15.112.1, dependency== 15.112.1, time=2017-03-14 23:48:33 UTC),	Latest, DependencyVersion(version=16.118.0-preview, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=14.102.0, time=2016-08-03 14:45:47 UTC)

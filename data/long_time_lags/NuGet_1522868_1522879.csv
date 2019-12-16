@@ -121,29 +121,29 @@ Project information
 Xamarin.GooglePlayServices.TagManager.Api (1522868)	Xamarin.Firebase.Analytics (1522879)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=30.0.1-alpha1, dependency=null, time=2016-06-02 18:42:48 UTC)
-ProjectVersion(version=30.0.1-alpha2, dependency=null, time=2016-06-06 19:57:39 UTC)
-ProjectVersion(version=30.0.1-alpha3, dependency=30.0.1-alpha3, time=2016-06-07 18:47:03 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=30.0.1-alpha4, dependency=30.0.1-alpha4, time=2016-06-13 19:16:02 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=30.0.2-alpha1, dependency=30.0.2-alpha1, time=2016-06-21 16:26:57 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=32.4.0-beta1, dependency=32.4.0-beta1, time=2016-08-16 16:59:40 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=32.4.0-beta2, dependency=32.4.0-beta2, time=2016-08-19 18:40:57 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=32.940.0-beta3, dependency=32.940.0-beta3, time=2016-09-15 18:01:12 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=32.961.0-beta1, dependency=32.961.0-beta1, time=2016-11-02 19:44:28 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=32.961.0, dependency=32.961.0, time=2016-11-24 16:43:08 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=42.1001.0-beta1, dependency=42.1001.0-beta1, time=2016-12-23 17:48:24 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=42.1001.0-beta2, dependency=42.1001.0-beta2, time=2017-01-05 16:21:43 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=42.1001.0, dependency=42.1001.0, time=2017-02-03 15:25:25 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=42.1021.0-beta1, dependency=42.1021.0-beta1, time=2017-04-05 13:03:04 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=42.1021.0, dependency=42.1021.0, time=2017-05-04 19:00:03 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=42.1021.1, dependency=42.1021.1, time=2017-05-10 18:53:38 UTC),	Latest, DependencyVersion(version=42.1024.0-beta1, time=2017-05-05 12:30:23 UTC)
-ProjectVersion(version=42.1024.0, dependency=42.1024.0, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=42.1024.0-beta1, dependency=42.1024.0-beta1, time=2017-05-05 13:03:47 UTC),	Latest, null
-ProjectVersion(version=57.1104.0-beta1, dependency=57.1104.0-beta1, time=2017-08-18 15:04:03 UTC),	Latest, null
-ProjectVersion(version=60.1142.0-beta1, dependency=60.1142.0-beta1, time=2017-10-25 14:31:14 UTC),	Latest, null
-ProjectVersion(version=60.1142.0-beta2, dependency=60.1142.0-beta2, time=2017-10-31 13:44:48 UTC),	Latest, null
-ProjectVersion(version=60.1142.0-rc1, dependency=60.1142.0-rc1, time=2017-11-17 15:09:42 UTC),	Latest, null
-ProjectVersion(version=60.1142.0, dependency=60.1142.0, time=2017-12-07 16:32:34 UTC),	Latest, DependencyVersion(version=60.1142.0-rc1, time=2017-11-17 14:58:06 UTC)
+ProjectVersionFixed(version=30.0.1-alpha1, dependency=null, time=2016-06-02 18:42:48 UTC)
+ProjectVersionFixed(version=30.0.1-alpha2, dependency=null, time=2016-06-06 19:57:39 UTC)
+ProjectVersionFixed(version=30.0.1-alpha3, dependency== 30.0.1-alpha3, time=2016-06-07 18:47:03 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=30.0.1-alpha4, dependency== 30.0.1-alpha4, time=2016-06-13 19:16:02 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=30.0.2-alpha1, dependency== 30.0.2-alpha1, time=2016-06-21 16:26:57 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=32.4.0-beta1, dependency== 32.4.0-beta1, time=2016-08-16 16:59:40 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=32.4.0-beta2, dependency== 32.4.0-beta2, time=2016-08-19 18:40:57 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=32.940.0-beta3, dependency== 32.940.0-beta3, time=2016-09-15 18:01:12 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=32.961.0-beta1, dependency== 32.961.0-beta1, time=2016-11-02 19:44:28 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=32.961.0, dependency== 32.961.0, time=2016-11-24 16:43:08 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=42.1001.0-beta1, dependency== 42.1001.0-beta1, time=2016-12-23 17:48:24 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=42.1001.0-beta2, dependency== 42.1001.0-beta2, time=2017-01-05 16:21:43 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=42.1001.0, dependency== 42.1001.0, time=2017-02-03 15:25:25 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=42.1021.0-beta1, dependency== 42.1021.0-beta1, time=2017-04-05 13:03:04 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=42.1021.0, dependency== 42.1021.0, time=2017-05-04 19:00:03 UTC),	Latest, DependencyVersion(version=42.1024.0, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=42.1021.1, dependency== 42.1021.1, time=2017-05-10 18:53:38 UTC),	Latest, DependencyVersion(version=42.1024.0-beta1, time=2017-05-05 12:30:23 UTC)
+ProjectVersionFixed(version=42.1024.0, dependency== 42.1024.0, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=42.1024.0-beta1, dependency== 42.1024.0-beta1, time=2017-05-05 13:03:47 UTC),	Latest, null
+ProjectVersionFixed(version=57.1104.0-beta1, dependency== 57.1104.0-beta1, time=2017-08-18 15:04:03 UTC),	Latest, null
+ProjectVersionFixed(version=60.1142.0-beta1, dependency== 60.1142.0-beta1, time=2017-10-25 14:31:14 UTC),	Latest, null
+ProjectVersionFixed(version=60.1142.0-beta2, dependency== 60.1142.0-beta2, time=2017-10-31 13:44:48 UTC),	Latest, null
+ProjectVersionFixed(version=60.1142.0-rc1, dependency== 60.1142.0-rc1, time=2017-11-17 15:09:42 UTC),	Latest, null
+ProjectVersionFixed(version=60.1142.0, dependency== 60.1142.0, time=2017-12-07 16:32:34 UTC),	Latest, DependencyVersion(version=60.1142.0-rc1, time=2017-11-17 14:58:06 UTC)
 
 Project B:
 DependencyVersion(version=30.0.1-alpha1, time=2016-06-02 18:37:38 UTC)

@@ -107,13 +107,13 @@ Project information
 RoslynNUnitLight (1025970)	Microsoft.CodeAnalysis.VisualBasic.Workspaces (629364)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0-rc-2, dependency=1.0.0-rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
-ProjectVersion(version=1.0.0-rc1, dependency=1.0.0-rc1, time=2015-04-23 18:54:27 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-rc2, dependency=1.0.0-rc1, time=2015-04-23 22:50:12 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-rc3, dependency=1.0.0-rc2, time=2015-04-28 23:11:13 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-rc4, dependency=1.0.0-rc2, time=2015-04-30 16:21:39 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0, dependency=1.0.0, time=2015-07-18 16:45:47 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.1.0-rc1, dependency=1.1.0-rc1, time=2015-11-05 19:06:21 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.0-rc-2, dependency== 1.0.0-rc1, time=1900-01-01 00:00:00 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.0-rc1, dependency== 1.0.0-rc1, time=2015-04-23 18:54:27 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-rc2, dependency== 1.0.0-rc1, time=2015-04-23 22:50:12 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-rc3, dependency== 1.0.0-rc2, time=2015-04-28 23:11:13 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-rc4, dependency== 1.0.0-rc2, time=2015-04-30 16:21:39 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 1.0.0, time=2015-07-18 16:45:47 UTC),	Latest, DependencyVersion(version=1.1.0-rc1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.1.0-rc1, dependency== 1.1.0-rc1, time=2015-11-05 19:06:21 UTC),	Latest, null
 
 Project B:
 DependencyVersion(version=0.6.4033103-beta, time=2014-04-01 01:24:28 UTC)

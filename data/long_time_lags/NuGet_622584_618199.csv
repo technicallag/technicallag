@@ -103,9 +103,9 @@ Project information
 Wolfpack.Contrib.Checks.RabbitMQ (622584)	RabbitMQ.Client (618199)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=3.0.17, dependency=3.2.4, time=2014-05-10 20:01:48 UTC),	Latest, DependencyVersion(version=5.1.0-rc2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.19, dependency=3.2.4, time=2014-07-02 23:07:18 UTC),	Latest, DependencyVersion(version=5.1.0-rc2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.20, dependency=3.2.4, time=2014-07-02 23:20:06 UTC),	Latest, DependencyVersion(version=5.1.0-rc2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.17, dependency== 3.2.4, time=2014-05-10 20:01:48 UTC),	Latest, DependencyVersion(version=5.1.0-rc2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.19, dependency== 3.2.4, time=2014-07-02 23:07:18 UTC),	Latest, DependencyVersion(version=5.1.0-rc2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.20, dependency== 3.2.4, time=2014-07-02 23:20:06 UTC),	Latest, DependencyVersion(version=5.1.0-rc2, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.0.0, time=2017-07-21 13:03:48 UTC)

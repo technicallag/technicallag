@@ -108,14 +108,14 @@ Project information
 BBS.Libraries.Logging.AppInsights (1564999)	Microsoft.ApplicationInsights (622215)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.55, dependency=2.1.0, time=2016-07-07 12:45:13 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.59, dependency=2.1.0, time=2016-07-07 13:22:49 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.62, dependency=2.1.0, time=2016-07-07 14:17:57 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.68, dependency=2.1.0, time=2016-07-10 01:17:31 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.76, dependency=2.1.0, time=2016-07-28 00:30:17 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.82, dependency=2.1.0, time=2016-07-28 01:13:00 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.86, dependency=2.1.0, time=2016-11-22 20:21:26 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=16.7.0, dependency=2.1.0, time=2016-07-04 18:10:20 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.55, dependency== 2.1.0, time=2016-07-07 12:45:13 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.59, dependency== 2.1.0, time=2016-07-07 13:22:49 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.62, dependency== 2.1.0, time=2016-07-07 14:17:57 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.68, dependency== 2.1.0, time=2016-07-10 01:17:31 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.76, dependency== 2.1.0, time=2016-07-28 00:30:17 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.82, dependency== 2.1.0, time=2016-07-28 01:13:00 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.86, dependency== 2.1.0, time=2016-11-22 20:21:26 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=16.7.0, dependency== 2.1.0, time=2016-07-04 18:10:20 UTC),	Latest, DependencyVersion(version=2.6.2, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=0.10.0-build17704, time=2014-08-27 22:20:16 UTC)

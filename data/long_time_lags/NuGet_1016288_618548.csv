@@ -102,8 +102,8 @@ Project information
 Dota2.GameClient (1016288)	protobuf-net (618548)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.3.0, dependency=2.0.0.668, time=2015-08-27 03:39:01 UTC),	Latest, DependencyVersion(version=2.3.18, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.3.1, dependency=2.0.0.668, time=2015-08-30 21:55:29 UTC),	Latest, DependencyVersion(version=2.3.18, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.3.0, dependency== 2.0.0.668, time=2015-08-27 03:39:01 UTC),	Latest, DependencyVersion(version=2.3.18, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.3.1, dependency== 2.0.0.668, time=2015-08-30 21:55:29 UTC),	Latest, DependencyVersion(version=2.3.18, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.0.0.280, time=2011-04-14 07:43:50 UTC)

@@ -1,0 +1,68 @@
+
+Project information
+gate-executor (149855)	code (274847)	Package Manager: NPM
+RepoID: 101002
+Tag information:
+CommitInfo{repo='GitHub', hash='1446fd8aeece8603987253f920746e4e17ec3878', version='0.2.0'}
+CommitInfo{repo='GitHub', hash='faceb9c53a30dd9354f8ed210b542398b38c5a99', version='0.2.1'}
+CommitInfo{repo='GitHub', hash='a7c331c1e59accc0aa33fa94f2ca0e39a435852c', version='0.2.2'}
+CommitInfo{repo='GitHub', hash='e704caa48fd0ff6f23aa0cde6e985b810a2f5e3b', version='0.2.3'}
+CommitInfo{repo='GitHub', hash='d4e16d18756717dc3ef25895d0bba4d75ac559cf', version='0.3.0'}
+CommitInfo{repo='GitHub', hash='f2701f6e23edd8330378cf7ff52162cca86139de', version='0.3.1'}
+CommitInfo{repo='GitHub', hash='fa47d768de39891d5288c2b12a1d38550ce9e170', version='0.3.2'}
+CommitInfo{repo='GitHub', hash='a9f2c69461779b262231bd1eb0ae73aecad78ca3', version='v0.4.0'}
+CommitInfo{repo='GitHub', hash='cbb6cde47e6bbc830ce289a21d2a1a61c0a35f4c', version='v1.1.1'}
+
+Project A:
+ProjectVersionFixed(version=0.1.0, dependency=null, time=2014-08-22 10:41:18 UTC)
+ProjectVersionFixed(version=0.2.0, dependency=null, time=2014-12-09 14:47:09 UTC)
+ProjectVersionFixed(version=0.2.1, dependency=null, time=2015-01-27 11:34:43 UTC)
+ProjectVersionFixed(version=0.2.2, dependency=null, time=2015-01-27 12:35:24 UTC)
+ProjectVersionFixed(version=0.2.3, dependency=null, time=2015-07-09 14:26:18 UTC)
+ProjectVersionFixed(version=0.3.0, dependency=2.1.0, time=2016-01-23 16:37:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.1, dependency=2.1.0, time=2016-01-24 11:02:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.3.2, dependency=1.5.0, time=2016-01-24 19:57:47 UTC),	Latest, "DependencyVersion(version=2.1.0, time=2015-12-30 15:52:17 UTC)"
+
+ProjectVersionFixed(version=0.4.0, dependency=1.5.0, time=2016-03-03 18:31:16 UTC),	Latest, "DependencyVersion(version=2.1.0, time=2015-12-30 15:52:17 UTC)"
+
+ProjectVersionFixed(version=1.0.0, dependency=1.5.0, time=2016-08-10 19:37:53 UTC),	Latest, "DependencyVersion(version=3.0.2, time=2016-07-27 19:17:30 UTC)"
+
+ProjectVersionFixed(version=1.1.0, dependency=1.5.0, time=2016-09-27 12:15:50 UTC),	Latest, "DependencyVersion(version=4.0.0, time=2016-09-21 23:40:40 UTC)"
+
+ProjectVersionFixed(version=1.1.1, dependency=1.5.0, time=2016-10-18 10:12:48 UTC),	Latest, "DependencyVersion(version=4.0.0, time=2016-09-21 23:40:40 UTC)"
+
+
+Project B:
+DependencyVersion(version=0.0.0, time=2014-10-21 07:36:16 UTC)
+DependencyVersion(version=0.0.1, time=2012-04-12 06:44:33 UTC)
+DependencyVersion(version=1.0.0, time=2014-10-21 21:53:00 UTC)
+DependencyVersion(version=1.1.0, time=2014-10-21 22:24:08 UTC)
+DependencyVersion(version=1.1.1, time=2014-10-21 23:54:42 UTC)
+DependencyVersion(version=1.2.0, time=2014-10-22 06:15:57 UTC)
+DependencyVersion(version=1.2.1, time=2014-11-02 19:00:21 UTC)
+DependencyVersion(version=1.3.0, time=2015-01-22 03:53:36 UTC)
+DependencyVersion(version=1.4.0, time=2015-03-26 22:20:11 UTC)
+DependencyVersion(version=1.4.1, time=2015-06-16 19:03:43 UTC)
+DependencyVersion(version=1.5.0, time=2015-07-29 23:57:38 UTC)
+DependencyVersion(version=2.0.0, time=2015-10-30 18:47:18 UTC)
+DependencyVersion(version=2.0.1, time=2015-10-30 19:43:35 UTC)
+DependencyVersion(version=2.1.0, time=2015-12-30 15:52:17 UTC)
+DependencyVersion(version=2.1.1, time=2016-03-13 17:27:27 UTC)
+DependencyVersion(version=2.2.0, time=2016-04-06 13:57:26 UTC)
+DependencyVersion(version=2.2.1, time=2016-04-27 19:59:22 UTC)
+DependencyVersion(version=2.3.0, time=2016-05-06 19:26:13 UTC)
+DependencyVersion(version=3.0.0, time=2016-05-21 01:36:11 UTC)
+DependencyVersion(version=3.0.1, time=2016-06-07 13:19:08 UTC)
+DependencyVersion(version=3.0.2, time=2016-07-27 19:17:30 UTC)
+DependencyVersion(version=4.0.0, time=2016-09-21 23:40:40 UTC)
+DependencyVersion(version=4.1.0, time=2017-06-08 16:26:24 UTC)
+DependencyVersion(version=5.0.0, time=2017-09-16 05:23:13 UTC)
+DependencyVersion(version=5.1.0, time=2017-09-17 20:22:47 UTC)
+DependencyVersion(version=5.1.2, time=2017-11-03 07:01:34 UTC)
+DependencyVersion(version=5.2.0, time=2018-02-09 23:15:26 UTC)
+DependencyVersion(version=5.2.1, time=2018-10-23 20:54:10 UTC)
+DependencyVersion(version=5.2.2, time=2018-11-01 07:16:55 UTC)
+DependencyVersion(version=5.2.3, time=2018-11-02 23:38:50 UTC)
+DependencyVersion(version=5.2.4, time=2018-11-22 07:33:35 UTC)

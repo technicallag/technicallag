@@ -105,11 +105,11 @@ Project information
 Ratcow.Debugging.Server (2355643)	Newtonsoft.Json (628729)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.0.1, dependency=6.0.8, time=2017-07-07 11:28:24 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.2, dependency=6.0.8, time=2017-07-07 15:47:08 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.3, dependency=6.0.8, time=2017-07-13 13:07:04 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.4, dependency=6.0.8, time=2017-12-04 10:06:05 UTC),	Latest, DependencyVersion(version=11.0.1-beta1, time=2017-11-26 00:57:42 UTC)
-ProjectVersion(version=0.0.5, dependency=6.0.8, time=2017-12-05 18:15:22 UTC),	Latest, DependencyVersion(version=11.0.1-beta1, time=2017-11-26 00:57:42 UTC)
+ProjectVersionFixed(version=0.0.1, dependency== 6.0.8, time=2017-07-07 11:28:24 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.2, dependency== 6.0.8, time=2017-07-07 15:47:08 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.3, dependency== 6.0.8, time=2017-07-13 13:07:04 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.4, dependency== 6.0.8, time=2017-12-04 10:06:05 UTC),	Latest, DependencyVersion(version=11.0.1-beta1, time=2017-11-26 00:57:42 UTC)
+ProjectVersionFixed(version=0.0.5, dependency== 6.0.8, time=2017-12-05 18:15:22 UTC),	Latest, DependencyVersion(version=11.0.1-beta1, time=2017-11-26 00:57:42 UTC)
 
 Project B:
 DependencyVersion(version=10.0.1, time=2017-03-20 07:18:50 UTC)

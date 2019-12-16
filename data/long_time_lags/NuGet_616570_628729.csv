@@ -101,8 +101,8 @@ Project information
 UpgradeMvc3ToMvc4 (616570)	Newtonsoft.Json (628729)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=4.5.10, time=2013-02-03 17:35:08 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1, dependency=null, time=2013-02-04 07:16:50 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 4.5.10, time=2013-02-03 17:35:08 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1, dependency=null, time=2013-02-04 07:16:50 UTC)
 
 Project B:
 DependencyVersion(version=10.0.1, time=2017-03-20 07:18:50 UTC)

@@ -102,18 +102,18 @@ Project information
 Wolfpack.WebServices (612649)	ValueInjecter (621148)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=3.0.1-pre, dependency=null, time=2013-03-15 17:56:07 UTC)
-ProjectVersion(version=3.0.2-pre, dependency=null, time=2013-03-28 09:17:10 UTC)
-ProjectVersion(version=3.0.3-pre, dependency=null, time=2013-03-30 06:26:07 UTC)
-ProjectVersion(version=3.0.4-pre, dependency=null, time=2013-03-30 07:43:08 UTC)
-ProjectVersion(version=3.0.8-pre, dependency=null, time=2013-04-07 21:12:57 UTC)
-ProjectVersion(version=3.0.10-pre, dependency=null, time=2013-04-10 20:21:57 UTC)
-ProjectVersion(version=3.0.12-pre, dependency=2.3.3, time=2013-04-17 20:30:39 UTC),	Latest, DependencyVersion(version=3.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.13-pre, dependency=2.3.3, time=2013-04-18 19:39:53 UTC),	Latest, DependencyVersion(version=3.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=3.0.17, dependency=null, time=2014-05-10 19:45:01 UTC)
-ProjectVersion(version=3.0.19, dependency=null, time=2014-07-02 22:46:33 UTC)
-ProjectVersion(version=3.0.25, dependency=null, time=2014-07-23 19:50:49 UTC)
-ProjectVersion(version=3.0.26, dependency=null, time=2014-07-24 20:13:36 UTC)
+ProjectVersionFixed(version=3.0.1-pre, dependency=null, time=2013-03-15 17:56:07 UTC)
+ProjectVersionFixed(version=3.0.2-pre, dependency=null, time=2013-03-28 09:17:10 UTC)
+ProjectVersionFixed(version=3.0.3-pre, dependency=null, time=2013-03-30 06:26:07 UTC)
+ProjectVersionFixed(version=3.0.4-pre, dependency=null, time=2013-03-30 07:43:08 UTC)
+ProjectVersionFixed(version=3.0.8-pre, dependency=null, time=2013-04-07 21:12:57 UTC)
+ProjectVersionFixed(version=3.0.10-pre, dependency=null, time=2013-04-10 20:21:57 UTC)
+ProjectVersionFixed(version=3.0.12-pre, dependency== 2.3.3, time=2013-04-17 20:30:39 UTC),	Latest, DependencyVersion(version=3.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.13-pre, dependency== 2.3.3, time=2013-04-18 19:39:53 UTC),	Latest, DependencyVersion(version=3.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=3.0.17, dependency=null, time=2014-05-10 19:45:01 UTC)
+ProjectVersionFixed(version=3.0.19, dependency=null, time=2014-07-02 22:46:33 UTC)
+ProjectVersionFixed(version=3.0.25, dependency=null, time=2014-07-23 19:50:49 UTC)
+ProjectVersionFixed(version=3.0.26, dependency=null, time=2014-07-24 20:13:36 UTC)
 
 Project B:
 DependencyVersion(version=2.1.0, time=2011-04-26 07:33:37 UTC)

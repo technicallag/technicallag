@@ -1,0 +1,84 @@
+
+Project information
+org.codehaus.mojo:aspectj-maven-plugin (373344)	org.apache.maven:maven-project (420621)	Package Manager: Maven
+RepoID: 1058180
+Tag information:
+CommitInfo{repo='GitHub', hash='9e362d292eecef5d899bf3fb5acbcf3f45a9426a', version='aspectj-maven-plugin-1.0'}
+CommitInfo{repo='GitHub', hash='10e39e49e90019ac5bdbfe25c8003a8f39d0c4de', version='aspectj-maven-plugin-1.0-beta-1'}
+CommitInfo{repo='GitHub', hash='e9d12632a1dd036c5e10cb25454476831b90687d', version='aspectj-maven-plugin-1.0-beta-2'}
+CommitInfo{repo='GitHub', hash='15f37c99b8cf7f0579f5e91f7163776306b9d408', version='aspectj-maven-plugin-1.1'}
+CommitInfo{repo='GitHub', hash='2ad5ec9ce40436c62e31cef574e41620e092b548', version='aspectj-maven-plugin-1.10'}
+CommitInfo{repo='GitHub', hash='54a688d78306729a153fd447a161969e7805c6e1', version='aspectj-maven-plugin-1.11'}
+CommitInfo{repo='GitHub', hash='d45be869d6e5b01d4f42abc5318f6af45f51c440', version='aspectj-maven-plugin-1.2'}
+CommitInfo{repo='GitHub', hash='743e0f4e38191a7162efda045657788c908913aa', version='aspectj-maven-plugin-1.2@10134'}
+CommitInfo{repo='GitHub', hash='5456a51b99238f1272451e4c08bfbde5c63cc54d', version='aspectj-maven-plugin-1.2@1660'}
+CommitInfo{repo='GitHub', hash='2d0057d417b6981df49d8473a457b89f308d8548', version='aspectj-maven-plugin-1.3'}
+CommitInfo{repo='GitHub', hash='aef16d6acc9b21a6596a926ea23fcb67767ffab5', version='aspectj-maven-plugin-1.3.1'}
+CommitInfo{repo='GitHub', hash='0fdacb5810909d6e134bd06373206067eef6ef3f', version='aspectj-maven-plugin-1.4'}
+CommitInfo{repo='GitHub', hash='fcf6e58bb258199af02ddf368573d4a3cf8590f7', version='aspectj-maven-plugin-1.5'}
+CommitInfo{repo='GitHub', hash='c138a1dac167142fc84f6bebeaab2891056b6095', version='aspectj-maven-plugin-1.6'}
+CommitInfo{repo='GitHub', hash='eeaf715a716cdbe7d7ebb70a8e4ddf09df4591ed', version='aspectj-maven-plugin-1.7'}
+CommitInfo{repo='GitHub', hash='fc202d0dfb013024b64ce3f9d3aacb3cd2aef39f', version='aspectj-maven-plugin-1.8'}
+CommitInfo{repo='GitHub', hash='7ea6b2ac3f8dbed16fa2a7b41b891df843ce179b', version='aspectj-maven-plugin-1.9'}
+CommitInfo{repo='GitHub', hash='abb1c49922d713626ed70754471b1fcc1a65a2fe', version='masterWorking'}
+
+Project A:
+ProjectVersionFixed(version=1.0-beta-1, dependency=2.0.2, time=2006-03-10 06:45:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0-beta-2, dependency=2.0, time=2006-08-28 23:10:17 UTC),	Latest, "DependencyVersion(version=2.0.4, time=2006-05-07 22:31:15 UTC)"
+
+ProjectVersionFixed(version=1.0, dependency=2.0, time=2008-04-07 20:00:31 UTC),	Latest, "DependencyVersion(version=2.0.8, time=2007-11-26 21:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1, dependency=2.0, time=2008-12-06 23:30:50 UTC),	Latest, "DependencyVersion(version=3.0-TYCHO-698080, time=2008-09-23 04:08:18 UTC)"
+
+ProjectVersionFixed(version=1.2, dependency=2.0, time=2009-07-14 18:14:58 UTC),	Latest, "DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)"
+
+ProjectVersionFixed(version=1.3, dependency=2.0, time=2010-01-06 12:52:40 UTC),	Latest, "DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)"
+
+ProjectVersionFixed(version=1.3.1, dependency=2.0, time=2011-02-22 22:07:50 UTC),	Latest, "DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)"
+
+ProjectVersionFixed(version=1.4-SONATYPE-13219, dependency=null, time=2010-11-27 11:51:32 UTC)
+ProjectVersionFixed(version=1.4, dependency=2.2.0, time=2011-08-22 18:00:00 UTC),	Latest, "DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)"
+
+ProjectVersionFixed(version=1.5, dependency=2.2.1, time=2013-08-27 00:10:04 UTC),	Latest, "DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)"
+
+ProjectVersionFixed(version=1.6, dependency=2.2.1, time=2013-12-04 07:47:40 UTC),	Latest, "DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)"
+
+ProjectVersionFixed(version=1.7, dependency=2.2.1, time=2014-09-10 06:27:50 UTC),	Latest, "DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)"
+
+ProjectVersionFixed(version=1.8, dependency=2.2.1, time=2015-09-11 10:07:57 UTC),	Latest, "DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)"
+
+ProjectVersionFixed(version=1.9, dependency=null, time=2016-11-27 22:23:57 UTC)
+ProjectVersionFixed(version=1.10, dependency=null, time=2017-03-06 22:07:21 UTC)
+
+Project B:
+DependencyVersion(version=2.0, time=2006-05-07 22:31:14 UTC)
+DependencyVersion(version=2.0-1, time=2006-05-07 22:31:14 UTC)
+DependencyVersion(version=2.0.1, time=2006-05-07 22:31:15 UTC)
+DependencyVersion(version=2.0.10, time=2009-02-10 02:56:16 UTC)
+DependencyVersion(version=2.0.11, time=2010-02-12 05:55:04 UTC)
+DependencyVersion(version=2.0.2, time=2006-05-07 22:31:15 UTC)
+DependencyVersion(version=2.0.3, time=2006-05-07 22:31:15 UTC)
+DependencyVersion(version=2.0.4, time=2006-05-07 22:31:15 UTC)
+DependencyVersion(version=2.0.5, time=2007-02-14 17:11:53 UTC)
+DependencyVersion(version=2.0.6, time=2007-04-01 04:54:08 UTC)
+DependencyVersion(version=2.0.7, time=2007-06-21 05:30:30 UTC)
+DependencyVersion(version=2.0.8, time=2007-11-26 21:58:20 UTC)
+DependencyVersion(version=2.0.9, time=2008-04-10 00:16:46 UTC)
+DependencyVersion(version=2.0-alpha-2, time=2006-05-07 22:31:14 UTC)
+DependencyVersion(version=2.0-alpha-3, time=2006-05-07 22:31:14 UTC)
+DependencyVersion(version=2.0-beta-1, time=2006-05-07 22:31:14 UTC)
+DependencyVersion(version=2.0-beta-2, time=2006-05-07 22:31:14 UTC)
+DependencyVersion(version=2.0-beta-3, time=2006-05-07 22:31:15 UTC)
+DependencyVersion(version=2.1.0, time=2009-03-18 19:09:33 UTC)
+DependencyVersion(version=2.1.0-M1, time=2009-01-08 22:37:25 UTC)
+DependencyVersion(version=2.1-SONATYPE-653485, time=2008-05-15 00:32:01 UTC)
+DependencyVersion(version=2.1-SONATYPE-r667207, time=2008-06-12 22:50:42 UTC)
+DependencyVersion(version=2.2.0, time=2009-06-26 13:03:06 UTC)
+DependencyVersion(version=2.2.1, time=2009-08-06 19:15:10 UTC)
+DependencyVersion(version=3.0-alpha-1, time=2009-01-07 22:46:54 UTC)
+DependencyVersion(version=3.0-alpha-2, time=2009-02-05 06:20:48 UTC)
+DependencyVersion(version=3.0-SONATYPE-688946, time=2008-08-27 15:30:53 UTC)
+DependencyVersion(version=3.0-TYCHO-695720, time=2008-09-16 04:01:22 UTC)
+DependencyVersion(version=3.0-TYCHO-698080, time=2008-09-23 04:08:18 UTC)
+DependencyVersion(version=3.0-TYCHO-733848, time=2009-01-12 18:16:05 UTC)

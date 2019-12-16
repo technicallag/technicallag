@@ -102,8 +102,8 @@ Project information
 Microsoft.NETCore.Runtime.CoreCLR-arm (1008561)	System.Diagnostics.StackTrace (1008090)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=4.0.0, time=2015-07-29 09:15:06 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1-beta-23225, dependency=4.0.1-beta-23225, time=2015-09-08 16:39:24 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 4.0.0, time=2015-07-29 09:15:06 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1-beta-23225, dependency== 4.0.1-beta-23225, time=2015-09-08 16:39:24 UTC),	Latest, DependencyVersion(version=4.0.2, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=4.0.0, time=2015-07-29 09:10:33 UTC)

@@ -102,8 +102,8 @@ Project information
 ShiNiu.ServiceStack.Redis (3415192)	ServiceStack.Text (1788617)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=3.9.71, time=2018-11-22 09:05:23 UTC),	Latest, DependencyVersion(version=5.4.0, time=2018-09-18 17:15:14 UTC)
-ProjectVersion(version=1.0.1, dependency=3.9.71, time=2018-11-22 10:02:17 UTC),	Latest, DependencyVersion(version=5.4.0, time=2018-09-18 17:15:14 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 3.9.71, time=2018-11-22 09:05:23 UTC),	Latest, DependencyVersion(version=5.4.0, time=2018-09-18 17:15:14 UTC)
+ProjectVersionFixed(version=1.0.1, dependency== 3.9.71, time=2018-11-22 10:02:17 UTC),	Latest, DependencyVersion(version=5.4.0, time=2018-09-18 17:15:14 UTC)
 
 Project B:
 DependencyVersion(version=3.4.4, time=1900-01-01 00:00:00 UTC)

@@ -105,14 +105,14 @@ Project information
 TripleA.StoryQ (613930)	RestSharp (610975)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.3.0, dependency=103.4.0, time=2012-08-15 15:23:58 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.3.1, dependency=103.4.0, time=2012-08-16 11:04:20 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.3.2, dependency=103.4.0, time=2012-08-16 14:30:07 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.4.0, dependency=103.4.0, time=2012-10-10 13:59:09 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.5.0, dependency=103.4.0, time=2012-10-25 10:54:08 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.6.0, dependency=null, time=2012-10-30 08:19:58 UTC)
-ProjectVersion(version=0.7.0, dependency=null, time=2012-11-02 08:56:48 UTC)
-ProjectVersion(version=0.8.0, dependency=null, time=2013-03-13 14:12:18 UTC)
+ProjectVersionFixed(version=0.3.0, dependency== 103.4.0, time=2012-08-15 15:23:58 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.3.1, dependency== 103.4.0, time=2012-08-16 11:04:20 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.3.2, dependency== 103.4.0, time=2012-08-16 14:30:07 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.4.0, dependency== 103.4.0, time=2012-10-10 13:59:09 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.5.0, dependency== 103.4.0, time=2012-10-25 10:54:08 UTC),	Latest, DependencyVersion(version=106.3.0-alpha0025, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.6.0, dependency=null, time=2012-10-30 08:19:58 UTC)
+ProjectVersionFixed(version=0.7.0, dependency=null, time=2012-11-02 08:56:48 UTC)
+ProjectVersionFixed(version=0.8.0, dependency=null, time=2013-03-13 14:12:18 UTC)
 
 Project B:
 DependencyVersion(version=100.3.0, time=2011-01-29 07:27:33 UTC)

@@ -103,9 +103,9 @@ Project information
 Shows (1079423)	NLog (616014)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=4.1.0, time=2015-11-12 09:06:09 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-beta1, dependency=4.1.0, time=2015-11-11 10:49:21 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-beta2, dependency=4.1.0, time=2015-11-11 13:02:51 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 4.1.0, time=2015-11-12 09:06:09 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-beta1, dependency== 4.1.0, time=2015-11-11 10:49:21 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-beta2, dependency== 4.1.0, time=2015-11-11 13:02:51 UTC),	Latest, DependencyVersion(version=5.0.0-beta05-test, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=4.3.6, time=2016-07-23 22:39:36 UTC)

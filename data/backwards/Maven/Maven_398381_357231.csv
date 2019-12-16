@@ -1,0 +1,145 @@
+
+Project information
+org.spockframework:spock-tapestry (398381)	org.apache.tapestry:tapestry-ioc (357231)	Package Manager: Maven
+RepoID: 173227
+Tag information:
+CommitInfo{repo='GitHub', hash='f4d986761e64dacd459fab7fcf326625e0950870', version='spock-0.6-groovy-1.8'}
+CommitInfo{repo='GitHub', hash='89158cf678215c13699528a7c4a495f25fbeaf12', version='groovy-1.6-end-of-life'}
+CommitInfo{repo='GitHub', hash='3c330eab32272600978488bc7e2144a88572c74b', version='spock-0.1'}
+CommitInfo{repo='GitHub', hash='3db96e26a11c5458e9bbc747850f7177d6995bc5', version='spock-0.2'}
+CommitInfo{repo='GitHub', hash='781b539af51917ddc127b4b15bde4485b257d58d', version='spock-0.3'}
+CommitInfo{repo='GitHub', hash='c65de7639a7684adc6838b678ed7d32504c8dbe0', version='spock-0.3-groovy-1.7'}
+CommitInfo{repo='GitHub', hash='1d12e16d79c90850e3c3506bfa80d57fb9a7aeb4', version='spock-0.4-groovy-1.6'}
+CommitInfo{repo='GitHub', hash='c9a15a19e44ab7a3b261606841c761f3cf60b41c', version='spock-0.4-groovy-1.7'}
+CommitInfo{repo='GitHub', hash='5f9cc5db3aad1d49da355f84383111fe94345612', version='spock-0.5-groovy-1.6'}
+CommitInfo{repo='GitHub', hash='3ad4081cfbdfcb839f8ce145996e16479ada51ce', version='spock-0.5-groovy-1.7'}
+CommitInfo{repo='GitHub', hash='f262f86702c64c4446c2f94bac7d83620cdede64', version='spock-0.5-groovy-1.8'}
+CommitInfo{repo='GitHub', hash='0de61c19823ed819e0cd1fec5ae5942c66837797', version='spock-0.6-groovy-1.7'}
+CommitInfo{repo='GitHub', hash='3bfd6ea485a0da12b3bcbc8a847933b990008b9b', version='spock-0.6-groovy-1.7-rc-1'}
+CommitInfo{repo='GitHub', hash='c52cb53138cb41fbba5c7c77ef3d61df8dd1e1df', version='spock-0.6-groovy-1.8-rc-1'}
+CommitInfo{repo='GitHub', hash='33212de9b5ea45ad48da0a6e559e69d6e221526d', version='spock-0.6-groovy-2.0'}
+CommitInfo{repo='GitHub', hash='0cadceccce7de0cc47186f6ae88ebce14c9042e6', version='spock-0.6-groovy-2.0-rc-1'}
+CommitInfo{repo='GitHub', hash='2e18eda862d271d5cf1869bb2b265e630a1d091e', version='spock-0.7-groovy-1.8'}
+CommitInfo{repo='GitHub', hash='e35829dfc1c683fe73e9c9e76861738adc542f5b', version='spock-0.7-groovy-2.0'}
+CommitInfo{repo='GitHub', hash='20859053071ec4be01571d2d502fa53deaabc09b', version='spock-1.0'}
+CommitInfo{repo='GitHub', hash='0d96d73b2597ecc3d397c0b81f4b135d911831ee', version='spock-1.1'}
+CommitInfo{repo='GitHub', hash='09760c696c4917bd3562272865ac9e213f41a458', version='spock-1.1-rc-1'}
+CommitInfo{repo='GitHub', hash='8d042a397737e27716edcbf7b97a3d235af7c555', version='spock-1.1-rc-2'}
+CommitInfo{repo='GitHub', hash='d6ad4744a204bc948eb22d2926f9dae06de8c39c', version='spock-1.1-rc-4'}
+CommitInfo{repo='GitHub', hash='a22b23af955b4c77f04ffdbaf8d60d371f444d2d', version='spock-1.2'}
+CommitInfo{repo='GitHub', hash='a22b23af955b4c77f04ffdbaf8d60d371f444d2d', version='spock-1.2'}
+CommitInfo{repo='GitHub', hash='4bcef77701ed242820df615e38eb23129c272508', version='spock-1.2-RC1'}
+CommitInfo{repo='GitHub', hash='4bcef77701ed242820df615e38eb23129c272508', version='spock-1.2-RC1'}
+CommitInfo{repo='GitHub', hash='815d3b10641509bade87c833ad992d4e3cf39823', version='spock-1.2-RC2'}
+CommitInfo{repo='GitHub', hash='815d3b10641509bade87c833ad992d4e3cf39823', version='spock-1.2-RC2'}
+CommitInfo{repo='GitHub', hash='0c3c5533a7313631d9ba0b954fb9068d8d5760dd', version='spock-1.2-RC3'}
+CommitInfo{repo='GitHub', hash='0c3c5533a7313631d9ba0b954fb9068d8d5760dd', version='spock-1.2-RC3'}
+
+Project A:
+ProjectVersionFixed(version=0.3, dependency=null, time=2009-11-19 15:31:33 UTC)
+ProjectVersionFixed(version=0.4-groovy-1.6, dependency=null, time=2010-05-26 20:41:44 UTC)
+ProjectVersionFixed(version=0.4-groovy-1.7, dependency=null, time=2010-05-26 20:54:39 UTC)
+ProjectVersionFixed(version=0.5-groovy-1.6, dependency=null, time=2010-12-10 17:38:51 UTC)
+ProjectVersionFixed(version=0.5-groovy-1.7, dependency=null, time=2010-12-10 17:44:08 UTC)
+ProjectVersionFixed(version=0.5-groovy-1.8, dependency=null, time=2010-12-10 17:48:07 UTC)
+ProjectVersionFixed(version=0.6-groovy-1.7-rc-1, dependency=5.2.4, time=2012-02-28 04:24:58 UTC),	Latest, "DependencyVersion(version=5.3.2, time=2012-01-29 14:22:52 UTC)"
+
+ProjectVersionFixed(version=0.6-groovy-1.8-rc-1, dependency=5.3.2, time=2012-02-28 04:43:53 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.6-groovy-1.7, dependency=5.2.4, time=2012-03-02 03:58:42 UTC),	Latest, "DependencyVersion(version=5.3.2, time=2012-01-29 14:22:52 UTC)"
+
+ProjectVersionFixed(version=0.6-groovy-1.8, dependency=5.3.2, time=2012-03-02 04:02:46 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.7-groovy-2.0, dependency=5.3.5, time=2012-10-08 07:21:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.7-groovy-1.8, dependency=5.3.2, time=2012-10-08 06:45:24 UTC),	Latest, "DependencyVersion(version=5.3.5, time=2012-08-21 17:18:21 UTC)"
+
+ProjectVersionFixed(version=1.0-groovy-2.0, dependency=5.2.6, time=2015-03-02 11:45:15 UTC),	Latest, "DependencyVersion(version=5.4-beta-26, time=2015-01-05 20:57:37 UTC)"
+
+ProjectVersionFixed(version=1.0-groovy-2.3, dependency=5.2.6, time=2015-03-02 11:45:07 UTC),	Latest, "DependencyVersion(version=5.4-beta-26, time=2015-01-05 20:57:37 UTC)"
+
+ProjectVersionFixed(version=1.0-groovy-2.4, dependency=5.2.6, time=2015-03-02 11:45:38 UTC),	Latest, "DependencyVersion(version=5.4-beta-26, time=2015-01-05 20:57:37 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.0-rc-1, dependency=5.2.6, time=2016-06-30 17:11:53 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.3-rc-1, dependency=5.2.6, time=2016-06-30 17:11:57 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.4-rc-1, dependency=5.2.6, time=2016-06-30 17:12:19 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.0-rc-2, dependency=5.2.6, time=2016-08-22 11:36:59 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.3-rc-2, dependency=5.2.6, time=2016-08-22 11:37:22 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.4-rc-2, dependency=5.2.6, time=2016-08-22 11:37:11 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.0-rc-3, dependency=5.2.6, time=2016-11-03 15:04:43 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.3-rc-3, dependency=5.2.6, time=2016-11-03 15:04:33 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.4-rc-3, dependency=5.2.6, time=2016-11-03 15:04:35 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.0-rc-4, dependency=5.2.6, time=2017-03-27 22:09:41 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.3-rc-4, dependency=5.2.6, time=2017-03-27 22:09:13 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.4-rc-4, dependency=5.2.6, time=2017-03-27 22:09:38 UTC),	Latest, "DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.0, dependency=5.2.6, time=2017-05-04 22:31:28 UTC),	Latest, "DependencyVersion(version=5.4.3, time=2017-04-20 15:37:31 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.3, dependency=5.2.6, time=2017-05-04 22:31:28 UTC),	Latest, "DependencyVersion(version=5.4.3, time=2017-04-20 15:37:31 UTC)"
+
+ProjectVersionFixed(version=1.1-groovy-2.4, dependency=5.2.6, time=2017-05-04 22:31:28 UTC),	Latest, "DependencyVersion(version=5.4.3, time=2017-04-20 15:37:31 UTC)"
+
+
+Project B:
+DependencyVersion(version=5.0.1, time=2007-02-02 20:34:49 UTC)
+DependencyVersion(version=5.0.10, time=2008-02-11 20:42:01 UTC)
+DependencyVersion(version=5.0.11, time=2008-03-11 14:11:14 UTC)
+DependencyVersion(version=5.0.12, time=2008-06-03 22:54:27 UTC)
+DependencyVersion(version=5.0.13, time=2008-06-09 22:23:30 UTC)
+DependencyVersion(version=5.0.14, time=2008-08-06 17:39:07 UTC)
+DependencyVersion(version=5.0.15, time=2008-09-13 22:36:10 UTC)
+DependencyVersion(version=5.0.16, time=2008-11-15 18:37:09 UTC)
+DependencyVersion(version=5.0.17, time=2008-11-21 22:53:06 UTC)
+DependencyVersion(version=5.0.18, time=2008-12-04 18:06:52 UTC)
+DependencyVersion(version=5.0.19, time=2009-12-22 19:54:02 UTC)
+DependencyVersion(version=5.0.2, time=2007-02-23 22:38:12 UTC)
+DependencyVersion(version=5.0.3, time=2007-03-14 18:51:31 UTC)
+DependencyVersion(version=5.0.4, time=2007-05-01 02:01:31 UTC)
+DependencyVersion(version=5.0.5, time=2007-06-28 20:27:10 UTC)
+DependencyVersion(version=5.0.6, time=2007-10-21 19:46:33 UTC)
+DependencyVersion(version=5.0.7, time=2007-12-22 16:49:28 UTC)
+DependencyVersion(version=5.0.9, time=2008-01-23 20:32:43 UTC)
+DependencyVersion(version=5.1.0.0, time=2009-02-19 22:58:40 UTC)
+DependencyVersion(version=5.1.0.1, time=2009-03-11 01:31:51 UTC)
+DependencyVersion(version=5.1.0.2, time=2009-03-26 21:40:58 UTC)
+DependencyVersion(version=5.1.0.3, time=2009-04-08 21:53:13 UTC)
+DependencyVersion(version=5.1.0.4, time=2009-04-23 16:31:27 UTC)
+DependencyVersion(version=5.1.0.5, time=2009-04-29 16:19:56 UTC)
+DependencyVersion(version=5.2.0, time=2010-08-04 01:25:02 UTC)
+DependencyVersion(version=5.2.1, time=2010-09-29 00:50:56 UTC)
+DependencyVersion(version=5.2.2, time=2010-10-24 15:08:20 UTC)
+DependencyVersion(version=5.2.4, time=2010-11-15 17:36:54 UTC)
+DependencyVersion(version=5.2.5, time=2011-03-23 12:26:59 UTC)
+DependencyVersion(version=5.2.6, time=2011-06-22 22:58:19 UTC)
+DependencyVersion(version=5.3, time=2011-11-16 04:52:53 UTC)
+DependencyVersion(version=5.3.0, time=2011-06-17 23:30:12 UTC)
+DependencyVersion(version=5.3.1, time=2011-12-13 16:57:29 UTC)
+DependencyVersion(version=5.3.2, time=2012-01-29 14:22:52 UTC)
+DependencyVersion(version=5.3.3, time=2012-04-17 23:58:36 UTC)
+DependencyVersion(version=5.3.3-rc-1, time=2012-03-20 21:50:42 UTC)
+DependencyVersion(version=5.3.4, time=2012-07-09 22:51:30 UTC)
+DependencyVersion(version=5.3.5, time=2012-08-21 17:18:21 UTC)
+DependencyVersion(version=5.3.6, time=2012-10-09 15:53:53 UTC)
+DependencyVersion(version=5.3.7, time=2013-04-24 07:17:14 UTC)
+DependencyVersion(version=5.3.8, time=2014-11-20 16:21:26 UTC)
+DependencyVersion(version=5.4.0, time=2015-12-15 15:59:15 UTC)
+DependencyVersion(version=5.4.1, time=2016-03-16 08:05:48 UTC)
+DependencyVersion(version=5.4.2, time=2017-04-10 11:08:41 UTC)
+DependencyVersion(version=5.4.3, time=2017-04-20 15:37:31 UTC)
+DependencyVersion(version=5.4-beta-22, time=2014-09-12 00:10:53 UTC)
+DependencyVersion(version=5.4-beta-26, time=2015-01-05 20:57:37 UTC)
+DependencyVersion(version=5.4-beta-3, time=2014-02-19 04:07:42 UTC)
+DependencyVersion(version=5.4-beta-35, time=2015-08-17 17:10:51 UTC)
+DependencyVersion(version=5.4-beta-6, time=2014-05-15 16:38:35 UTC)
+DependencyVersion(version=5.4-rc-1, time=2015-10-26 17:09:47 UTC)

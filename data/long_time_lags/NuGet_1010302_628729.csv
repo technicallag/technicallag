@@ -105,11 +105,11 @@ Project information
 WebViewJavascriptBridgeRT (1010302)	Newtonsoft.Json (628729)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0, dependency=6.0.7, time=2015-01-04 14:58:02 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.1, dependency=6.0.7, time=2015-01-04 15:11:04 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.2, dependency=6.0.7, time=2015-01-04 15:30:33 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.3, dependency=6.0.7, time=2015-01-05 12:26:56 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.4, dependency=6.0.7, time=2015-01-05 12:51:14 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0, dependency== 6.0.7, time=2015-01-04 14:58:02 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.1, dependency== 6.0.7, time=2015-01-04 15:11:04 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.2, dependency== 6.0.7, time=2015-01-04 15:30:33 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.3, dependency== 6.0.7, time=2015-01-05 12:26:56 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.4, dependency== 6.0.7, time=2015-01-05 12:51:14 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=10.0.1, time=2017-03-20 07:18:50 UTC)

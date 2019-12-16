@@ -1,0 +1,579 @@
+
+Project information
+ionic3-input-mask (2411886)	@angular/compiler (1420909)	Package Manager: NPM
+RepoID: 4752021
+Tag information:
+CommitInfo{repo='GitHub', hash='a6d1132bbdba9aad5eda78c82f2af2faea9cd426', version='0'}
+CommitInfo{repo='GitHub', hash='d008be966f84bc0ecba382cb30f15e3fac01c14c', version='addons-v0.0.2'}
+CommitInfo{repo='GitHub', hash='d008be966f84bc0ecba382cb30f15e3fac01c14c', version='addons-v0.0.3'}
+CommitInfo{repo='GitHub', hash='92f3b219b117f0ce0aa0ae78ae377964f4ea12e0', version='addons-v0.1.0'}
+CommitInfo{repo='GitHub', hash='e9574804bf151bc136e6132f9ab1de8092d9bb96', version='addons-v0.2.0'}
+CommitInfo{repo='GitHub', hash='0d09eba47886e5212f52439801fe01b785733e14', version='addons-v0.2.1'}
+CommitInfo{repo='GitHub', hash='3d8733c196eedeffaced3549353f8c494cd5f6f7', version='addons-v0.3.0'}
+CommitInfo{repo='GitHub', hash='166ce73d5b3d2be36a45ad39748e82e99e8be20b', version='addons-v0.4.0'}
+CommitInfo{repo='GitHub', hash='da2ee404a9eaebfe306a2ebe9020bc98430c733c', version='addons-v0.4.1'}
+CommitInfo{repo='GitHub', hash='5c58d54172a77ab9df32f8c414c7c316a818f0d8', version='addons-v0.5.0'}
+CommitInfo{repo='GitHub', hash='fc5017bd3235f874acc8dea9a1c7e8a3e9f7043f', version='addons-v0.6.0'}
+CommitInfo{repo='GitHub', hash='afbbd2fb5ff0b9d4b3589df0204ecb99d9c76391', version='addons-v0.7.0'}
+CommitInfo{repo='GitHub', hash='4fd5c6c66e30e736b13fa144318eb7ac69b67a1c', version='addons-v0.7.1'}
+CommitInfo{repo='GitHub', hash='e58f4f017ca8183b8c46685947211e727fad11aa', version='addons-v0.7.2'}
+CommitInfo{repo='GitHub', hash='a9170f5e8d902ad3109d3c90f7d60f1e1eff00db', version='addons-v1.0.0'}
+CommitInfo{repo='GitHub', hash='2ec9d50af56495d14c212d6217912900e365dfe4', version='addons-v1.0.1'}
+CommitInfo{repo='GitHub', hash='2bc0b14eb270c243de1bdfac48eaa2aab48bb17f', version='addons-v2.0.0'}
+CommitInfo{repo='GitHub', hash='2089573800e62fd9435c50fb49219f7365fe3f88', version='addons-v2.1.0'}
+CommitInfo{repo='GitHub', hash='3286b305e63804f1219374743eb866f9ae945f6a', version='addons-v3.0.0'}
+CommitInfo{repo='GitHub', hash='0b6e3374ac13183266856665b78e8ca1a525a4fc', version='addons-v3.1.0'}
+CommitInfo{repo='GitHub', hash='5fa599fa0ea0e37b58070c85fd967307ba282bdb', version='addons-v3.2.0'}
+CommitInfo{repo='GitHub', hash='81e520661dfaeb2260393870b63be4534841d9fd', version='addons-v3.3.0'}
+CommitInfo{repo='GitHub', hash='3d267131521ebd9460dbeae0260f8ca909263812', version='addons-v3.4.0'}
+CommitInfo{repo='GitHub', hash='bc4deef19336a1211da7ab65ecd30a0dff224a02', version='addons-v3.5.0'}
+CommitInfo{repo='GitHub', hash='ff511501d6fed21a990b2c142700f80a114c6c05', version='addons-v3.5.1'}
+CommitInfo{repo='GitHub', hash='4bffddc495a18a7d5acb854b0c434d11e241577c', version='addons-v3.6.0'}
+CommitInfo{repo='GitHub', hash='4d4bdcd172fabb14f10c3195b9e42d818806322e', version='addons-v3.7.0'}
+CommitInfo{repo='GitHub', hash='4abb48e8d3e3e74de710d6af690ca8e52d912b70', version='addons-v3.7.1'}
+CommitInfo{repo='GitHub', hash='69127fea88929cfeaca1687a6de4597d8eb0d0cf', version='addons-v3.7.2'}
+CommitInfo{repo='GitHub', hash='46e275fc3bb9d0a40612450376778ce3bcef3360', version='addons-v3.8.0'}
+CommitInfo{repo='GitHub', hash='14457404f7e42fdd9bd17a547bda3722864c5b3e', version='angular1-v1.0.0'}
+CommitInfo{repo='GitHub', hash='2089573800e62fd9435c50fb49219f7365fe3f88', version='angular1-v1.1.0'}
+CommitInfo{repo='GitHub', hash='5fa599fa0ea0e37b58070c85fd967307ba282bdb', version='angular1-v2.0.0'}
+CommitInfo{repo='GitHub', hash='4b992506b1539c774b226f6b98ff39b3a2b84598', version='angular1-v3.0.0'}
+CommitInfo{repo='GitHub', hash='81e520661dfaeb2260393870b63be4534841d9fd', version='angular1-v4.0.0'}
+CommitInfo{repo='GitHub', hash='9dc19f71c2d2a3b0b090f88c35d1cbaafef1a567', version='angular1-v4.1.0'}
+CommitInfo{repo='GitHub', hash='76295979228489ad2213dbc614f4c820d422b137', version='angular1-v4.2.0'}
+CommitInfo{repo='GitHub', hash='5d16ff4e5896a464a7b81ab8497d54a184b504dd', version='angular1-v4.3.0'}
+CommitInfo{repo='GitHub', hash='ab9f44adee4e9d5ebd0133157fb262048aa150c0', version='angular1-v4.3.1'}
+CommitInfo{repo='GitHub', hash='ff9d5d14df49448561c47119758a38b693e62f54', version='angular1-v4.3.2'}
+CommitInfo{repo='GitHub', hash='6e47639c2ec6e70d912e7770b7fb8414b38c68ca', version='angular1-v4.3.3'}
+CommitInfo{repo='GitHub', hash='f098877ac3255a833e916beab6276b53d18bf444', version='angular1-v5.0.0'}
+CommitInfo{repo='GitHub', hash='6094d1bf7e4bf1d7ac7a2c674208109c2243166d', version='angular1-v6.0.0'}
+CommitInfo{repo='GitHub', hash='4e070087b38cb6d5f1ec5d224ea11472a6a1cc57', version='angular1-v6.0.1'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='angular1-v6.0.2'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='angular1-v6.0.2'}
+CommitInfo{repo='GitHub', hash='89379ccfcb87f2ee556cf18a28157359cfc465bb', version='angular1-v6.0.3'}
+CommitInfo{repo='GitHub', hash='e7018314e0481dad9b524419e6f63c160f0b690e', version='angular1-v6.1.0'}
+CommitInfo{repo='GitHub', hash='e7018314e0481dad9b524419e6f63c160f0b690e', version='angular1-v6.1.0'}
+CommitInfo{repo='GitHub', hash='7b7fd2e7805b9828419153fcb8ba60d12d30cb54', version='angular1-v6.1.1'}
+CommitInfo{repo='GitHub', hash='72ed2c40ecd99817b946f15d3e75a4944b364f4e', version='angular1-v6.1.2'}
+CommitInfo{repo='GitHub', hash='f363158ab82bdc13a8b9eb232bf7112d242fdaf9', version='angular2-v0.10.0'}
+CommitInfo{repo='GitHub', hash='27e15c9aa29c2352f5c4d2cdde0df2458efcb0c7', version='angular2-v0.10.1'}
+CommitInfo{repo='GitHub', hash='92f3b219b117f0ce0aa0ae78ae377964f4ea12e0', version='angular2-v0.11.0'}
+CommitInfo{repo='GitHub', hash='b42351960bb7b06211e6d3d48d0c9a216655a2bc', version='angular2-v0.12.0'}
+CommitInfo{repo='GitHub', hash='98621ad845f599e13ae8349fbeff93c5a6ce23c7', version='angular2-v0.12.1'}
+CommitInfo{repo='GitHub', hash='e9574804bf151bc136e6132f9ab1de8092d9bb96', version='angular2-v0.13.0'}
+CommitInfo{repo='GitHub', hash='4ca6023053789847c8ffbc518906afbf141e1f77', version='angular2-v0.13.1'}
+CommitInfo{repo='GitHub', hash='0c5269acbb74aee1510ce6ec4112037b0fab5af7', version='angular2-v0.13.2'}
+CommitInfo{repo='GitHub', hash='8bf95ebd715fc123b4e515cff257357f51c6e110', version='angular2-v0.14.0'}
+CommitInfo{repo='GitHub', hash='8bf95ebd715fc123b4e515cff257357f51c6e110', version='angular2-v0.14.1'}
+CommitInfo{repo='GitHub', hash='7e443a0af9a17aaa42eb9b3fa47ddeb4756cc36f', version='angular2-v0.14.2'}
+CommitInfo{repo='GitHub', hash='3d8733c196eedeffaced3549353f8c494cd5f6f7', version='angular2-v0.15.0'}
+CommitInfo{repo='GitHub', hash='5c58d54172a77ab9df32f8c414c7c316a818f0d8', version='angular2-v0.16.0'}
+CommitInfo{repo='GitHub', hash='fc5017bd3235f874acc8dea9a1c7e8a3e9f7043f', version='angular2-v0.16.1'}
+CommitInfo{repo='GitHub', hash='b49a166ad698543320cf3984755dd11b830f39cb', version='angular2-v0.16.2'}
+CommitInfo{repo='GitHub', hash='ded091e50b0cc86078a054fb8c87c80068d2483e', version='angular2-v0.16.3'}
+CommitInfo{repo='GitHub', hash='e9ea9cdf0bd22671521896d23a94f22e67eed731', version='angular2-v0.16.4'}
+CommitInfo{repo='GitHub', hash='d4537937191f6d32909f45974c6ab179241e8027', version='angular2-v0.17.0'}
+CommitInfo{repo='GitHub', hash='d4537937191f6d32909f45974c6ab179241e8027', version='angular2-v0.18.0'}
+CommitInfo{repo='GitHub', hash='d4537937191f6d32909f45974c6ab179241e8027', version='angular2-v0.18.1'}
+CommitInfo{repo='GitHub', hash='6e6ef5befe621c52ab9700c77fa51c5e91bb3641', version='angular2-v0.18.2'}
+CommitInfo{repo='GitHub', hash='181ee58d9afef554814cc551e214d1d76d9d49e1', version='angular2-v0.18.3'}
+CommitInfo{repo='GitHub', hash='a017ac9b6cf77a831b40579545badcab17b31346', version='angular2-v0.18.4'}
+CommitInfo{repo='GitHub', hash='73dff73aedeee31d0d37eb62088f524d4f750a31', version='angular2-v0.18.5'}
+CommitInfo{repo='GitHub', hash='d08c91a01751f8d467e0fa9e6e1fd4ccd424da9d', version='angular2-v0.19.0'}
+CommitInfo{repo='GitHub', hash='843a4bae60efc76e8494ec38abee98109addfacd', version='angular2-v0.19.1'}
+CommitInfo{repo='GitHub', hash='6e7ec7ec8efeac6d333e27970148f057018876e1', version='angular2-v0.19.2'}
+CommitInfo{repo='GitHub', hash='c1054b4cf9b43ecc679ea54312800ca19c6c6c99', version='angular2-v0.19.3'}
+CommitInfo{repo='GitHub', hash='e727d62082de6bb6a9e5e3665f09ba407b6b2611', version='angular2-v0.20.0'}
+CommitInfo{repo='GitHub', hash='0550c98861b31cd5e01b9eb77897a718180c66c1', version='angular2-v0.20.1'}
+CommitInfo{repo='GitHub', hash='58f4979b202d5d310cc6ed6b8a3251c57e6e7e3e', version='angular2-v0.20.2'}
+CommitInfo{repo='GitHub', hash='34382f3ce2578d676504a4c01e04fc04ae45ec30', version='angular2-v0.21.0'}
+CommitInfo{repo='GitHub', hash='16c5a9ee9444192950c4bb3ed963dde0e58e9ec6', version='angular2-v0.21.1'}
+CommitInfo{repo='GitHub', hash='5d68cd3e14b3f0ab3c81d1c5ebee1da0aef7d17c', version='angular2-v0.21.2'}
+CommitInfo{repo='GitHub', hash='a4b62d02e089ee900f94863c47f5be9f284262c6', version='angular2-v0.22.0'}
+CommitInfo{repo='GitHub', hash='8c476fd49e09edd023adce7edff75bea6e36c09f', version='angular2-v0.4.3'}
+CommitInfo{repo='GitHub', hash='9a2f3c9388e67bef2516f06d539fd794356eb2f6', version='angular2-v0.4.4'}
+CommitInfo{repo='GitHub', hash='5fb837d63720938b9cb14a11d2957aa303baa658', version='angular2-v0.4.5'}
+CommitInfo{repo='GitHub', hash='1d81c293e161c9026b74d691dc5a6b49c618b4fc', version='angular2-v0.4.6'}
+CommitInfo{repo='GitHub', hash='417b65035bb4a1b356fd4c674c0d212615ebcc59', version='angular2-v0.5.0'}
+CommitInfo{repo='GitHub', hash='d13307d2716c3f6a768a23a6b20d2ee2edd01556', version='angular2-v0.5.1'}
+CommitInfo{repo='GitHub', hash='f9e248d53e13effb5dc82f236df6b19813ce5df5', version='angular2-v0.6.0'}
+CommitInfo{repo='GitHub', hash='110b9fcadfdbb91b6ce35f5fdab6814f815e5d33', version='angular2-v0.7.0'}
+CommitInfo{repo='GitHub', hash='d00c73bfa26ac2fe80e34da51c9593f764d4bc69', version='angular2-v0.7.1'}
+CommitInfo{repo='GitHub', hash='2273607a803f498de70e1a37f14753c38b36bd27', version='angular2-v0.7.2'}
+CommitInfo{repo='GitHub', hash='0bc522436493aa4b1cdaa8eb4dfcc35209522be9', version='angular2-v0.8.0'}
+CommitInfo{repo='GitHub', hash='98eb68e3d3518ad956c869f84705f9fa21018c0c', version='angular2-v0.9.0'}
+CommitInfo{repo='GitHub', hash='dc0c052d43db389ba0a2cda39cf6bb23d9344157', version='angular2-v0.9.1'}
+CommitInfo{repo='GitHub', hash='2b7b8ceea8bd8f15305b68b2a93f459d906f6b98', version='angular2-v1.0.0'}
+CommitInfo{repo='GitHub', hash='2b7b8ceea8bd8f15305b68b2a93f459d906f6b98', version='angular2-v1.0.1'}
+CommitInfo{repo='GitHub', hash='270b28cc4fafd6cea034ffe0a42420db1f5dfdc5', version='angular2-v2.0.0'}
+CommitInfo{repo='GitHub', hash='27a67b3e85d7dc93377b7e285111c066c96e60fe', version='angular2-v2.1.0'}
+CommitInfo{repo='GitHub', hash='2089573800e62fd9435c50fb49219f7365fe3f88', version='angular2-v2.2.0'}
+CommitInfo{repo='GitHub', hash='e2f609ba705100e8ed49f16b5f2ddc50d1ceb818', version='angular2-v3.0.0'}
+CommitInfo{repo='GitHub', hash='ee07790b194f7eecfe1772d417db46de14f654bc', version='angular2-v4.0.0'}
+CommitInfo{repo='GitHub', hash='3990e0be8d99e8e5c5f24264ab30c68884a6b0cd', version='angular2-v4.1.0'}
+CommitInfo{repo='GitHub', hash='4b992506b1539c774b226f6b98ff39b3a2b84598', version='angular2-v5.0.0'}
+CommitInfo{repo='GitHub', hash='81e520661dfaeb2260393870b63be4534841d9fd', version='angular2-v6.0.0'}
+CommitInfo{repo='GitHub', hash='6b2cff192521981beedf51365948496de5a3956a', version='angular2-v6.1.0'}
+CommitInfo{repo='GitHub', hash='71e676f5a7d0a434565c9ed1a835e19fb6c0c3c3', version='angular2-v6.2.0'}
+CommitInfo{repo='GitHub', hash='290f8fcb35b77eb14467f99efa10c40aca35af78', version='angular2-v6.3.0'}
+CommitInfo{repo='GitHub', hash='67dafbef52b226a46b849ebf1dace7699f97f25e', version='angular2-v6.3.1'}
+CommitInfo{repo='GitHub', hash='b6f5d4aedb95bfb3f62e6520e1dbd76c3aaf72f9', version='angular2-v6.3.2'}
+CommitInfo{repo='GitHub', hash='f098877ac3255a833e916beab6276b53d18bf444', version='angular2-v7.0.0'}
+CommitInfo{repo='GitHub', hash='6094d1bf7e4bf1d7ac7a2c674208109c2243166d', version='angular2-v8.0.0'}
+CommitInfo{repo='GitHub', hash='b8e840a193508a4c8a994828e07b867153bdf7d9', version='angular2-v8.0.1'}
+CommitInfo{repo='GitHub', hash='2d9897454b911d923e28ad25d7d5d2d686b5d297', version='angular2-v8.0.2'}
+CommitInfo{repo='GitHub', hash='061e63ad331c1bda1fae264a632c63a97373134a', version='angular2-v8.0.3'}
+CommitInfo{repo='GitHub', hash='4b41348d3c9fc2af45bc95f29db631b68e267a97', version='angular2-v8.0.4'}
+CommitInfo{repo='GitHub', hash='47735fc4eef15ca5004af9bfd1b7b9dc970598be', version='angular2-v8.0.5'}
+CommitInfo{repo='GitHub', hash='c604c3e84bd8c24def7ab9f1ecbfe937564745af', version='angular2-v9.0.0'}
+CommitInfo{repo='GitHub', hash='8347bf750630585cddd3d19dd3924a7c2c8d2c4b', version='archive/caret-trap-attempt'}
+CommitInfo{repo='GitHub', hash='98eb68e3d3518ad956c869f84705f9fa21018c0c', version='core-v0.10.0'}
+CommitInfo{repo='GitHub', hash='f363158ab82bdc13a8b9eb232bf7112d242fdaf9', version='core-v0.10.1'}
+CommitInfo{repo='GitHub', hash='92f3b219b117f0ce0aa0ae78ae377964f4ea12e0', version='core-v0.11.0'}
+CommitInfo{repo='GitHub', hash='b42351960bb7b06211e6d3d48d0c9a216655a2bc', version='core-v0.12.0'}
+CommitInfo{repo='GitHub', hash='98621ad845f599e13ae8349fbeff93c5a6ce23c7', version='core-v0.12.1'}
+CommitInfo{repo='GitHub', hash='efc877a11737b69489c76186e0734b932d529d4b', version='core-v0.13.0'}
+CommitInfo{repo='GitHub', hash='4ca6023053789847c8ffbc518906afbf141e1f77', version='core-v0.13.1'}
+CommitInfo{repo='GitHub', hash='3d8733c196eedeffaced3549353f8c494cd5f6f7', version='core-v0.14.0'}
+CommitInfo{repo='GitHub', hash='5c58d54172a77ab9df32f8c414c7c316a818f0d8', version='core-v0.15.0'}
+CommitInfo{repo='GitHub', hash='fc5017bd3235f874acc8dea9a1c7e8a3e9f7043f', version='core-v0.15.1'}
+CommitInfo{repo='GitHub', hash='ded091e50b0cc86078a054fb8c87c80068d2483e', version='core-v0.15.2'}
+CommitInfo{repo='GitHub', hash='73dff73aedeee31d0d37eb62088f524d4f750a31', version='core-v0.15.3'}
+CommitInfo{repo='GitHub', hash='e727d62082de6bb6a9e5e3665f09ba407b6b2611', version='core-v0.16.0'}
+CommitInfo{repo='GitHub', hash='58f4979b202d5d310cc6ed6b8a3251c57e6e7e3e', version='core-v0.16.1'}
+CommitInfo{repo='GitHub', hash='e58f4f017ca8183b8c46685947211e727fad11aa', version='core-v0.16.2'}
+CommitInfo{repo='GitHub', hash='16c5a9ee9444192950c4bb3ed963dde0e58e9ec6', version='core-v0.16.3'}
+CommitInfo{repo='GitHub', hash='5d68cd3e14b3f0ab3c81d1c5ebee1da0aef7d17c', version='core-v0.16.4'}
+CommitInfo{repo='GitHub', hash='e6f336b524939b9b81c5d4f33258a2d12a49e980', version='core-v0.5.3'}
+CommitInfo{repo='GitHub', hash='9a2f3c9388e67bef2516f06d539fd794356eb2f6', version='core-v0.5.4'}
+CommitInfo{repo='GitHub', hash='5fb837d63720938b9cb14a11d2957aa303baa658', version='core-v0.5.5'}
+CommitInfo{repo='GitHub', hash='1d81c293e161c9026b74d691dc5a6b49c618b4fc', version='core-v0.5.6'}
+CommitInfo{repo='GitHub', hash='417b65035bb4a1b356fd4c674c0d212615ebcc59', version='core-v0.6.0'}
+CommitInfo{repo='GitHub', hash='d13307d2716c3f6a768a23a6b20d2ee2edd01556', version='core-v0.6.1'}
+CommitInfo{repo='GitHub', hash='f9e248d53e13effb5dc82f236df6b19813ce5df5', version='core-v0.7.0'}
+CommitInfo{repo='GitHub', hash='110b9fcadfdbb91b6ce35f5fdab6814f815e5d33', version='core-v0.8.0'}
+CommitInfo{repo='GitHub', hash='87ca8c675d173fcbe0fe6f389c5f8235a7117a11', version='core-v0.9.0'}
+CommitInfo{repo='GitHub', hash='27a67b3e85d7dc93377b7e285111c066c96e60fe', version='core-v1.0.0'}
+CommitInfo{repo='GitHub', hash='2089573800e62fd9435c50fb49219f7365fe3f88', version='core-v1.1.0'}
+CommitInfo{repo='GitHub', hash='4b992506b1539c774b226f6b98ff39b3a2b84598', version='core-v2.0.0'}
+CommitInfo{repo='GitHub', hash='81e520661dfaeb2260393870b63be4534841d9fd', version='core-v3.0.0'}
+CommitInfo{repo='GitHub', hash='54cc9c70fe96d150ac3cedb1738fa3a99abfbb74', version='core-v3.1.0'}
+CommitInfo{repo='GitHub', hash='76295979228489ad2213dbc614f4c820d422b137', version='core-v3.2.0'}
+CommitInfo{repo='GitHub', hash='ab9f44adee4e9d5ebd0133157fb262048aa150c0', version='core-v3.2.1'}
+CommitInfo{repo='GitHub', hash='279e0385eb9bdcc4d331e7c417d4570c108a76a1', version='core-v3.2.2'}
+CommitInfo{repo='GitHub', hash='6e47639c2ec6e70d912e7770b7fb8414b38c68ca', version='core-v3.2.3'}
+CommitInfo{repo='GitHub', hash='f098877ac3255a833e916beab6276b53d18bf444', version='core-v4.0.0'}
+CommitInfo{repo='GitHub', hash='6094d1bf7e4bf1d7ac7a2c674208109c2243166d', version='core-v5.0.0'}
+CommitInfo{repo='GitHub', hash='4e070087b38cb6d5f1ec5d224ea11472a6a1cc57', version='core-v5.0.1'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='core-v5.0.2'}
+CommitInfo{repo='GitHub', hash='0ab02566fb1a514d1c0e84ab195317fe1a02ebf3', version='core-v5.0.3'}
+CommitInfo{repo='GitHub', hash='474f54feac89965dbdf82543e09d190511a5b200', version='core-v5.1.0'}
+CommitInfo{repo='GitHub', hash='474f54feac89965dbdf82543e09d190511a5b200', version='core-v5.1.0'}
+CommitInfo{repo='GitHub', hash='72ed2c40ecd99817b946f15d3e75a4944b364f4e', version='core-v5.1.1'}
+CommitInfo{repo='GitHub', hash='72ed2c40ecd99817b946f15d3e75a4944b364f4e', version='core-v5.1.1'}
+CommitInfo{repo='GitHub', hash='152b0b7d5cfb8da8144a9d7d04650d60c3937203', version='core-v5.1.2'}
+CommitInfo{repo='GitHub', hash='1c26ec1c4c74bbe96897d3cabd9d2d4561c1c2c2', version='ember-v0.0.2'}
+CommitInfo{repo='GitHub', hash='96cc137fc89d2e3fdd68abb0200582e54bcfb266', version='ember-v0.0.3'}
+CommitInfo{repo='GitHub', hash='58f4979b202d5d310cc6ed6b8a3251c57e6e7e3e', version='ember-v0.1.0'}
+CommitInfo{repo='GitHub', hash='6a2ec7b42c398fa0bdb0bb70f67e42b6543254e9', version='ember-v1.0.0'}
+CommitInfo{repo='GitHub', hash='6a2ec7b42c398fa0bdb0bb70f67e42b6543254e9', version='ember-v1.1.0'}
+CommitInfo{repo='GitHub', hash='7d15a8f413a64ab6f338eb07865ad41f5e7b9138', version='ember-v1.2.0'}
+CommitInfo{repo='GitHub', hash='3bc24f37d42c5d4ab2638166e8c852bf0a746ca6', version='ember-v2.0.0'}
+CommitInfo{repo='GitHub', hash='4b992506b1539c774b226f6b98ff39b3a2b84598', version='ember-v3.0.0'}
+CommitInfo{repo='GitHub', hash='81e520661dfaeb2260393870b63be4534841d9fd', version='ember-v4.0.0'}
+CommitInfo{repo='GitHub', hash='6b2cff192521981beedf51365948496de5a3956a', version='ember-v4.1.0'}
+CommitInfo{repo='GitHub', hash='fd7638bbdd527a8dd46b29e62f2233b9d4b759fa', version='ember-v4.2.0'}
+CommitInfo{repo='GitHub', hash='262eaeb1d0947614e65019c16aa69a6835555262', version='ember-v4.2.1'}
+CommitInfo{repo='GitHub', hash='f098877ac3255a833e916beab6276b53d18bf444', version='ember-v5.0.0'}
+CommitInfo{repo='GitHub', hash='6094d1bf7e4bf1d7ac7a2c674208109c2243166d', version='ember-v6.0.0'}
+CommitInfo{repo='GitHub', hash='6094d1bf7e4bf1d7ac7a2c674208109c2243166d', version='ember-v6.0.0'}
+CommitInfo{repo='GitHub', hash='a0ac5fbda55753711a3401755f2b97224deeba44', version='ember-v6.1.0'}
+CommitInfo{repo='GitHub', hash='b20c5cd750db51abdbd6f0699979a42320dcbb5b', version='ember-v6.1.1'}
+CommitInfo{repo='GitHub', hash='31e4aa13fdd564b1641f7f009400b5739b91316f', version='ember-v6.1.2'}
+CommitInfo{repo='GitHub', hash='26c061bffa602f7166cb4f14c8c8bf51204b7835', version='react-'}
+CommitInfo{repo='GitHub', hash='1c95f36861c18345084cdafa5a631bb5379644b1', version='react-v0.10.0'}
+CommitInfo{repo='GitHub', hash='98eb68e3d3518ad956c869f84705f9fa21018c0c', version='react-v0.11.0'}
+CommitInfo{repo='GitHub', hash='dc0c052d43db389ba0a2cda39cf6bb23d9344157', version='react-v0.11.1'}
+CommitInfo{repo='GitHub', hash='f363158ab82bdc13a8b9eb232bf7112d242fdaf9', version='react-v0.12.0'}
+CommitInfo{repo='GitHub', hash='92f3b219b117f0ce0aa0ae78ae377964f4ea12e0', version='react-v0.13.0'}
+CommitInfo{repo='GitHub', hash='b42351960bb7b06211e6d3d48d0c9a216655a2bc', version='react-v0.14.0'}
+CommitInfo{repo='GitHub', hash='98621ad845f599e13ae8349fbeff93c5a6ce23c7', version='react-v0.14.1'}
+CommitInfo{repo='GitHub', hash='e9574804bf151bc136e6132f9ab1de8092d9bb96', version='react-v0.15.0'}
+CommitInfo{repo='GitHub', hash='4ca6023053789847c8ffbc518906afbf141e1f77', version='react-v0.15.1'}
+CommitInfo{repo='GitHub', hash='3d8733c196eedeffaced3549353f8c494cd5f6f7', version='react-v0.16.0'}
+CommitInfo{repo='GitHub', hash='5c58d54172a77ab9df32f8c414c7c316a818f0d8', version='react-v0.17.0'}
+CommitInfo{repo='GitHub', hash='fc5017bd3235f874acc8dea9a1c7e8a3e9f7043f', version='react-v0.17.1'}
+CommitInfo{repo='GitHub', hash='b49a166ad698543320cf3984755dd11b830f39cb', version='react-v0.17.2'}
+CommitInfo{repo='GitHub', hash='ded091e50b0cc86078a054fb8c87c80068d2483e', version='react-v0.17.3'}
+CommitInfo{repo='GitHub', hash='a017ac9b6cf77a831b40579545badcab17b31346', version='react-v0.17.4'}
+CommitInfo{repo='GitHub', hash='73dff73aedeee31d0d37eb62088f524d4f750a31', version='react-v0.17.5'}
+CommitInfo{repo='GitHub', hash='e727d62082de6bb6a9e5e3665f09ba407b6b2611', version='react-v0.18.0'}
+CommitInfo{repo='GitHub', hash='58f4979b202d5d310cc6ed6b8a3251c57e6e7e3e', version='react-v0.18.1'}
+CommitInfo{repo='GitHub', hash='16c5a9ee9444192950c4bb3ed963dde0e58e9ec6', version='react-v0.18.2'}
+CommitInfo{repo='GitHub', hash='5d68cd3e14b3f0ab3c81d1c5ebee1da0aef7d17c', version='react-v0.18.3'}
+CommitInfo{repo='GitHub', hash='27a67b3e85d7dc93377b7e285111c066c96e60fe', version='react-v0.19.0'}
+CommitInfo{repo='GitHub', hash='1d81c293e161c9026b74d691dc5a6b49c618b4fc', version='react-v0.5.10'}
+CommitInfo{repo='GitHub', hash='8c476fd49e09edd023adce7edff75bea6e36c09f', version='react-v0.5.6'}
+CommitInfo{repo='GitHub', hash='cee2bd95c2dfe2075e30fc8d7b0e983bb6f9a17e', version='react-v0.5.7'}
+CommitInfo{repo='GitHub', hash='9a2f3c9388e67bef2516f06d539fd794356eb2f6', version='react-v0.5.8'}
+CommitInfo{repo='GitHub', hash='5fb837d63720938b9cb14a11d2957aa303baa658', version='react-v0.5.9'}
+CommitInfo{repo='GitHub', hash='417b65035bb4a1b356fd4c674c0d212615ebcc59', version='react-v0.6.0'}
+CommitInfo{repo='GitHub', hash='d13307d2716c3f6a768a23a6b20d2ee2edd01556', version='react-v0.6.1'}
+CommitInfo{repo='GitHub', hash='f9e248d53e13effb5dc82f236df6b19813ce5df5', version='react-v0.7.0'}
+CommitInfo{repo='GitHub', hash='110b9fcadfdbb91b6ce35f5fdab6814f815e5d33', version='react-v0.8.0'}
+CommitInfo{repo='GitHub', hash='87ca8c675d173fcbe0fe6f389c5f8235a7117a11', version='react-v0.9.0'}
+CommitInfo{repo='GitHub', hash='4b992506b1539c774b226f6b98ff39b3a2b84598', version='react-v1.0.0'}
+CommitInfo{repo='GitHub', hash='6afb97e9fe79510e17cfae058ddf931e7966ed6e', version='react-v1.0.4'}
+CommitInfo{repo='GitHub', hash='81e520661dfaeb2260393870b63be4534841d9fd', version='react-v2.0.0'}
+CommitInfo{repo='GitHub', hash='9dc19f71c2d2a3b0b090f88c35d1cbaafef1a567', version='react-v2.1.0'}
+CommitInfo{repo='GitHub', hash='76295979228489ad2213dbc614f4c820d422b137', version='react-v2.2.0'}
+CommitInfo{repo='GitHub', hash='ab9f44adee4e9d5ebd0133157fb262048aa150c0', version='react-v2.2.1'}
+CommitInfo{repo='GitHub', hash='7f0deeece61fab9f95c609ea620c573bd275b00f', version='react-v2.3.0'}
+CommitInfo{repo='GitHub', hash='6e47639c2ec6e70d912e7770b7fb8414b38c68ca', version='react-v2.3.1'}
+CommitInfo{repo='GitHub', hash='6e47639c2ec6e70d912e7770b7fb8414b38c68ca', version='react-v2.3.1'}
+CommitInfo{repo='GitHub', hash='f098877ac3255a833e916beab6276b53d18bf444', version='react-v3.0.0'}
+CommitInfo{repo='GitHub', hash='6094d1bf7e4bf1d7ac7a2c674208109c2243166d', version='react-v4.0.0'}
+CommitInfo{repo='GitHub', hash='a0ac5fbda55753711a3401755f2b97224deeba44', version='react-v4.1.0'}
+CommitInfo{repo='GitHub', hash='957bafad24c24e222eb333032297b77ed31566f6', version='react-v5.0.0'}
+CommitInfo{repo='GitHub', hash='4e070087b38cb6d5f1ec5d224ea11472a6a1cc57', version='react-v5.0.1'}
+CommitInfo{repo='GitHub', hash='2f947636e17c54c117e5cad71a448d2a58e3c16a', version='react-v5.0.2'}
+CommitInfo{repo='GitHub', hash='3b2ef1e7c7b3540e6afa74d19341fb18c37e3b59', version='react-v5.1.0'}
+CommitInfo{repo='GitHub', hash='8967339128d08192e3eda076d11bf3d4cd387617', version='react-v5.2.0'}
+CommitInfo{repo='GitHub', hash='d208fdcc8d94b4297ccc037dcf12f5e169e6473e', version='react-v5.2.1'}
+CommitInfo{repo='GitHub', hash='b9feb4690b8ee4f9bf53aa786141de4c417a49c7', version='react-v5.3.0'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='react-v5.3.1'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='react-v5.3.1'}
+CommitInfo{repo='GitHub', hash='89379ccfcb87f2ee556cf18a28157359cfc465bb', version='react-v5.3.2'}
+CommitInfo{repo='GitHub', hash='89379ccfcb87f2ee556cf18a28157359cfc465bb', version='react-v5.3.2'}
+CommitInfo{repo='GitHub', hash='474f54feac89965dbdf82543e09d190511a5b200', version='react-v5.4.0'}
+CommitInfo{repo='GitHub', hash='474f54feac89965dbdf82543e09d190511a5b200', version='react-v5.4.0'}
+CommitInfo{repo='GitHub', hash='72ed2c40ecd99817b946f15d3e75a4944b364f4e', version='react-v5.4.1'}
+CommitInfo{repo='GitHub', hash='5a6f7b5382d07ec86d949c108643dfd6c4cc5789', version='react-v5.4.2'}
+CommitInfo{repo='GitHub', hash='f2260f3bc7b7a451e8bc6f89c8b93b9bcdc044a3', version='react-v5.4.3'}
+CommitInfo{repo='GitHub', hash='f363158ab82bdc13a8b9eb232bf7112d242fdaf9', version='text-mask-v0.2.0'}
+CommitInfo{repo='GitHub', hash='b5266be17fff98625c002cd37ab54ec5139e3c51', version='v0.0.2'}
+CommitInfo{repo='GitHub', hash='92477c94677c5333d94d6518b2a0107d11e106e2', version='v0.0.3'}
+CommitInfo{repo='GitHub', hash='9f84050e361f863c52456f7ec76ebeb098532c97', version='v0.1.0'}
+CommitInfo{repo='GitHub', hash='602f99c344bc06be873e47c8d772c8ee91b9817d', version='v0.3.0'}
+CommitInfo{repo='GitHub', hash='85c51b07d8648bfb8541d747a63a81aeafcb2538', version='vanilla-v0.10.0'}
+CommitInfo{repo='GitHub', hash='f363158ab82bdc13a8b9eb232bf7112d242fdaf9', version='vanilla-v0.11.0'}
+CommitInfo{repo='GitHub', hash='92f3b219b117f0ce0aa0ae78ae377964f4ea12e0', version='vanilla-v0.12.0'}
+CommitInfo{repo='GitHub', hash='b42351960bb7b06211e6d3d48d0c9a216655a2bc', version='vanilla-v0.13.0'}
+CommitInfo{repo='GitHub', hash='98621ad845f599e13ae8349fbeff93c5a6ce23c7', version='vanilla-v0.13.1'}
+CommitInfo{repo='GitHub', hash='e9574804bf151bc136e6132f9ab1de8092d9bb96', version='vanilla-v0.14.0'}
+CommitInfo{repo='GitHub', hash='4ca6023053789847c8ffbc518906afbf141e1f77', version='vanilla-v0.14.1'}
+CommitInfo{repo='GitHub', hash='3d8733c196eedeffaced3549353f8c494cd5f6f7', version='vanilla-v0.15.0'}
+CommitInfo{repo='GitHub', hash='5c58d54172a77ab9df32f8c414c7c316a818f0d8', version='vanilla-v0.16.0'}
+CommitInfo{repo='GitHub', hash='fc5017bd3235f874acc8dea9a1c7e8a3e9f7043f', version='vanilla-v0.16.1'}
+CommitInfo{repo='GitHub', hash='b49a166ad698543320cf3984755dd11b830f39cb', version='vanilla-v0.16.2'}
+CommitInfo{repo='GitHub', hash='73dff73aedeee31d0d37eb62088f524d4f750a31', version='vanilla-v0.16.3'}
+CommitInfo{repo='GitHub', hash='e727d62082de6bb6a9e5e3665f09ba407b6b2611', version='vanilla-v0.17.0'}
+CommitInfo{repo='GitHub', hash='e58f4f017ca8183b8c46685947211e727fad11aa', version='vanilla-v0.17.1'}
+CommitInfo{repo='GitHub', hash='16c5a9ee9444192950c4bb3ed963dde0e58e9ec6', version='vanilla-v0.17.2'}
+CommitInfo{repo='GitHub', hash='5d68cd3e14b3f0ab3c81d1c5ebee1da0aef7d17c', version='vanilla-v0.17.3'}
+CommitInfo{repo='GitHub', hash='8c476fd49e09edd023adce7edff75bea6e36c09f', version='vanilla-v0.5.2'}
+CommitInfo{repo='GitHub', hash='9a2f3c9388e67bef2516f06d539fd794356eb2f6', version='vanilla-v0.5.3'}
+CommitInfo{repo='GitHub', hash='5fb837d63720938b9cb14a11d2957aa303baa658', version='vanilla-v0.5.4'}
+CommitInfo{repo='GitHub', hash='1d81c293e161c9026b74d691dc5a6b49c618b4fc', version='vanilla-v0.5.5'}
+CommitInfo{repo='GitHub', hash='417b65035bb4a1b356fd4c674c0d212615ebcc59', version='vanilla-v0.6.0'}
+CommitInfo{repo='GitHub', hash='d13307d2716c3f6a768a23a6b20d2ee2edd01556', version='vanilla-v0.6.1'}
+CommitInfo{repo='GitHub', hash='f9e248d53e13effb5dc82f236df6b19813ce5df5', version='vanilla-v0.7.0'}
+CommitInfo{repo='GitHub', hash='110b9fcadfdbb91b6ce35f5fdab6814f815e5d33', version='vanilla-v0.8.0'}
+CommitInfo{repo='GitHub', hash='0bc522436493aa4b1cdaa8eb4dfcc35209522be9', version='vanilla-v0.9.0'}
+CommitInfo{repo='GitHub', hash='0bdc4d8f08b7d6be79c7d972a080f172d6592926', version='vanilla-v1.0.0'}
+CommitInfo{repo='GitHub', hash='27a67b3e85d7dc93377b7e285111c066c96e60fe', version='vanilla-v1.1.0'}
+CommitInfo{repo='GitHub', hash='4b992506b1539c774b226f6b98ff39b3a2b84598', version='vanilla-v2.0.0'}
+CommitInfo{repo='GitHub', hash='81e520661dfaeb2260393870b63be4534841d9fd', version='vanilla-v3.0.0'}
+CommitInfo{repo='GitHub', hash='9dc19f71c2d2a3b0b090f88c35d1cbaafef1a567', version='vanilla-v3.1.0'}
+CommitInfo{repo='GitHub', hash='76295979228489ad2213dbc614f4c820d422b137', version='vanilla-v3.2.0'}
+CommitInfo{repo='GitHub', hash='ab9f44adee4e9d5ebd0133157fb262048aa150c0', version='vanilla-v3.2.1'}
+CommitInfo{repo='GitHub', hash='ff9d5d14df49448561c47119758a38b693e62f54', version='vanilla-v3.2.2'}
+CommitInfo{repo='GitHub', hash='6e47639c2ec6e70d912e7770b7fb8414b38c68ca', version='vanilla-v3.2.3'}
+CommitInfo{repo='GitHub', hash='f098877ac3255a833e916beab6276b53d18bf444', version='vanilla-v4.0.0'}
+CommitInfo{repo='GitHub', hash='6094d1bf7e4bf1d7ac7a2c674208109c2243166d', version='vanilla-v5.0.0'}
+CommitInfo{repo='GitHub', hash='4e070087b38cb6d5f1ec5d224ea11472a6a1cc57', version='vanilla-v5.0.1'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='vanilla-v5.0.2'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='vanilla-v5.0.2'}
+CommitInfo{repo='GitHub', hash='89379ccfcb87f2ee556cf18a28157359cfc465bb', version='vanilla-v5.0.3'}
+CommitInfo{repo='GitHub', hash='474f54feac89965dbdf82543e09d190511a5b200', version='vanilla-v5.1.0'}
+CommitInfo{repo='GitHub', hash='474f54feac89965dbdf82543e09d190511a5b200', version='vanilla-v5.1.0'}
+CommitInfo{repo='GitHub', hash='72ed2c40ecd99817b946f15d3e75a4944b364f4e', version='vanilla-v5.1.1'}
+CommitInfo{repo='GitHub', hash='72ed2c40ecd99817b946f15d3e75a4944b364f4e', version='vanilla-v5.1.1'}
+CommitInfo{repo='GitHub', hash='4644c8f5921ecb8cd245cffdaade2b5680ea78aa', version='vue-v0.1.0'}
+CommitInfo{repo='GitHub', hash='16c5a9ee9444192950c4bb3ed963dde0e58e9ec6', version='vue-v0.1.1'}
+CommitInfo{repo='GitHub', hash='5d68cd3e14b3f0ab3c81d1c5ebee1da0aef7d17c', version='vue-v0.1.2'}
+CommitInfo{repo='GitHub', hash='27a67b3e85d7dc93377b7e285111c066c96e60fe', version='vue-v0.2.0'}
+CommitInfo{repo='GitHub', hash='4b992506b1539c774b226f6b98ff39b3a2b84598', version='vue-v1.0.0'}
+CommitInfo{repo='GitHub', hash='81e520661dfaeb2260393870b63be4534841d9fd', version='vue-v2.0.0'}
+CommitInfo{repo='GitHub', hash='9dc19f71c2d2a3b0b090f88c35d1cbaafef1a567', version='vue-v2.1.0'}
+CommitInfo{repo='GitHub', hash='76295979228489ad2213dbc614f4c820d422b137', version='vue-v3.0.0'}
+CommitInfo{repo='GitHub', hash='67dafbef52b226a46b849ebf1dace7699f97f25e', version='vue-v3.1.0'}
+CommitInfo{repo='GitHub', hash='ab9f44adee4e9d5ebd0133157fb262048aa150c0', version='vue-v3.1.1'}
+CommitInfo{repo='GitHub', hash='5c6d493f2717f1a98e64888f37505ed4ed9f7f99', version='vue-v3.1.2'}
+CommitInfo{repo='GitHub', hash='6e47639c2ec6e70d912e7770b7fb8414b38c68ca', version='vue-v3.1.3'}
+CommitInfo{repo='GitHub', hash='f098877ac3255a833e916beab6276b53d18bf444', version='vue-v4.0.0'}
+CommitInfo{repo='GitHub', hash='6094d1bf7e4bf1d7ac7a2c674208109c2243166d', version='vue-v5.0.0'}
+CommitInfo{repo='GitHub', hash='a0ac5fbda55753711a3401755f2b97224deeba44', version='vue-v5.1.0'}
+CommitInfo{repo='GitHub', hash='4e070087b38cb6d5f1ec5d224ea11472a6a1cc57', version='vue-v5.1.1'}
+CommitInfo{repo='GitHub', hash='35042d9b3d467c12cb67d6799abc7845618d2b62', version='vue-v5.2.0'}
+CommitInfo{repo='GitHub', hash='4255e0f6f21384a10e5461e14d525a8ffd575825', version='vue-v6.0.0'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='vue-v6.0.1'}
+CommitInfo{repo='GitHub', hash='3def507118d5938bf966da476f477473f281ba8e', version='vue-v6.0.1'}
+CommitInfo{repo='GitHub', hash='89379ccfcb87f2ee556cf18a28157359cfc465bb', version='vue-v6.0.2'}
+CommitInfo{repo='GitHub', hash='89379ccfcb87f2ee556cf18a28157359cfc465bb', version='vue-v6.0.2'}
+CommitInfo{repo='GitHub', hash='474f54feac89965dbdf82543e09d190511a5b200', version='vue-v6.1.0'}
+CommitInfo{repo='GitHub', hash='474f54feac89965dbdf82543e09d190511a5b200', version='vue-v6.1.0'}
+CommitInfo{repo='GitHub', hash='72ed2c40ecd99817b946f15d3e75a4944b364f4e', version='vue-v6.1.1'}
+CommitInfo{repo='GitHub', hash='72ed2c40ecd99817b946f15d3e75a4944b364f4e', version='vue-v6.1.1'}
+CommitInfo{repo='GitHub', hash='f2260f3bc7b7a451e8bc6f89c8b93b9bcdc044a3', version='vue-v6.1.2'}
+
+Project A:
+ProjectVersionFixed(version=0.18.6, dependency=4.1.3, time=2017-08-27 02:01:26 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.4, time=2017-08-16 20:12:51 UTC)"
+
+ProjectVersionFixed(version=0.19.0, dependency=4.1.3, time=2017-08-27 02:06:32 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.4, time=2017-08-16 20:12:51 UTC)"
+
+ProjectVersionFixed(version=0.19.1, dependency=2.0.0-rc.4, time=2017-08-27 02:10:48 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.4, time=2017-08-16 20:12:51 UTC)"
+
+ProjectVersionFixed(version=0.19.2, dependency=2.0.0-rc.4, time=2017-08-27 02:14:19 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.4, time=2017-08-16 20:12:51 UTC)"
+
+ProjectVersionFixed(version=0.19.3, dependency=2.0.0-rc.4, time=2017-08-27 02:24:03 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.4, time=2017-08-16 20:12:51 UTC)"
+
+ProjectVersionFixed(version=0.19.4, dependency=4.1.3, time=2017-08-28 23:58:07 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.5, time=2017-08-28 23:19:16 UTC)"
+
+ProjectVersionFixed(version=0.19.5, dependency=4.1.3, time=2017-08-29 00:09:08 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.5, time=2017-08-28 23:19:16 UTC)"
+
+ProjectVersionFixed(version=0.19.6, dependency=4.1.3, time=2017-08-29 00:19:37 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.5, time=2017-08-28 23:19:16 UTC)"
+
+ProjectVersionFixed(version=0.20.1, dependency=2.0.0-rc.4, time=2017-09-02 22:12:34 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.6, time=2017-09-02 16:03:37 UTC)"
+
+ProjectVersionFixed(version=0.20.2, dependency=2.0.0-rc.4, time=2017-09-02 22:28:44 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.6, time=2017-09-02 16:03:37 UTC)"
+
+ProjectVersionFixed(version=0.20.3, dependency=2.0.0-rc.4, time=2017-09-02 22:45:53 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.6, time=2017-09-02 16:03:37 UTC)"
+
+ProjectVersionFixed(version=0.20.4, dependency=2.0.0-rc.4, time=2017-09-02 22:53:27 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.6, time=2017-09-02 16:03:37 UTC)"
+
+ProjectVersionFixed(version=0.20.5, dependency=2.0.0-rc.4, time=2017-09-03 16:04:52 UTC),	Latest, "DependencyVersion(version=5.0.0-beta.6, time=2017-09-02 16:03:37 UTC)"
+
+
+Project B:
+DependencyVersion(version=0.0.0-0, time=2016-04-28 04:23:37 UTC)
+DependencyVersion(version=0.0.0-1, time=2016-04-29 22:26:16 UTC)
+DependencyVersion(version=0.0.0-2, time=2016-04-29 22:31:00 UTC)
+DependencyVersion(version=0.0.0-3, time=2016-04-30 08:29:40 UTC)
+DependencyVersion(version=0.0.0-4, time=2016-05-01 23:01:41 UTC)
+DependencyVersion(version=0.0.0-5, time=2016-05-02 06:57:08 UTC)
+DependencyVersion(version=0.0.0-6, time=2016-05-02 20:42:18 UTC)
+DependencyVersion(version=0.0.0-7, time=2016-05-02 22:12:53 UTC)
+DependencyVersion(version=2.0.0, time=2016-09-15 02:32:15 UTC)
+DependencyVersion(version=2.0.0-rc.0, time=2016-05-03 00:15:31 UTC)
+DependencyVersion(version=2.0.0-rc.1, time=2016-05-03 21:25:12 UTC)
+DependencyVersion(version=2.0.0-rc.2, time=2016-06-15 18:02:00 UTC)
+DependencyVersion(version=2.0.0-rc.3, time=2016-06-22 00:04:41 UTC)
+DependencyVersion(version=2.0.0-rc.4, time=2016-06-30 17:47:32 UTC)
+DependencyVersion(version=2.0.0-rc.5, time=2016-08-09 16:20:25 UTC)
+DependencyVersion(version=2.0.0-rc.6, time=2016-08-31 23:36:42 UTC)
+DependencyVersion(version=2.0.0-rc.7, time=2016-09-13 06:44:28 UTC)
+DependencyVersion(version=2.0.1, time=2016-09-23 18:23:46 UTC)
+DependencyVersion(version=2.0.2, time=2016-10-06 13:16:22 UTC)
+DependencyVersion(version=2.1.0, time=2016-10-12 20:36:05 UTC)
+DependencyVersion(version=2.1.0-beta.0, time=2016-09-23 18:51:01 UTC)
+DependencyVersion(version=2.1.0-rc.0, time=2016-10-06 13:47:04 UTC)
+DependencyVersion(version=2.1.1, time=2016-10-20 22:47:08 UTC)
+DependencyVersion(version=2.1.2, time=2016-10-27 18:34:20 UTC)
+DependencyVersion(version=2.2.0, time=2016-11-14 19:28:05 UTC)
+DependencyVersion(version=2.2.0-beta.0, time=2016-10-20 21:39:32 UTC)
+DependencyVersion(version=2.2.0-beta.1, time=2016-10-27 17:38:26 UTC)
+DependencyVersion(version=2.2.0-rc.0, time=2016-11-02 23:32:03 UTC)
+DependencyVersion(version=2.2.1, time=2016-11-17 19:32:04 UTC)
+DependencyVersion(version=2.2.2, time=2016-11-22 22:45:13 UTC)
+DependencyVersion(version=2.2.3, time=2016-11-23 23:13:47 UTC)
+DependencyVersion(version=2.2.4, time=2016-11-30 23:24:54 UTC)
+DependencyVersion(version=2.3.0, time=2016-12-07 21:30:41 UTC)
+DependencyVersion(version=2.3.0-beta.0, time=2016-11-17 20:19:52 UTC)
+DependencyVersion(version=2.3.0-beta.1, time=2016-11-22 23:16:25 UTC)
+DependencyVersion(version=2.3.0-rc.0, time=2016-11-30 23:44:56 UTC)
+DependencyVersion(version=2.3.1, time=2016-12-15 02:26:47 UTC)
+DependencyVersion(version=2.4.0, time=2016-12-20 18:51:25 UTC)
+DependencyVersion(version=2.4.1, time=2016-12-22 00:18:51 UTC)
+DependencyVersion(version=2.4.10, time=2017-03-17 02:34:46 UTC)
+DependencyVersion(version=2.4.2, time=2017-01-06 20:52:54 UTC)
+DependencyVersion(version=2.4.3, time=2017-01-11 22:02:19 UTC)
+DependencyVersion(version=2.4.4, time=2017-01-19 00:44:23 UTC)
+DependencyVersion(version=2.4.5, time=2017-01-25 23:33:07 UTC)
+DependencyVersion(version=2.4.6, time=2017-02-03 04:24:50 UTC)
+DependencyVersion(version=2.4.7, time=2017-02-09 04:40:19 UTC)
+DependencyVersion(version=2.4.8, time=2017-02-18 22:10:57 UTC)
+DependencyVersion(version=2.4.9, time=2017-03-02 07:20:39 UTC)
+DependencyVersion(version=4.0.0, time=2017-03-23 23:58:15 UTC)
+DependencyVersion(version=4.0.0-beta.0, time=2016-12-15 00:34:48 UTC)
+DependencyVersion(version=4.0.0-beta.1, time=2016-12-22 00:58:44 UTC)
+DependencyVersion(version=4.0.0-beta.2, time=2017-01-06 01:33:38 UTC)
+DependencyVersion(version=4.0.0-beta.3, time=2017-01-11 22:50:30 UTC)
+DependencyVersion(version=4.0.0-beta.4, time=2017-01-19 01:02:16 UTC)
+DependencyVersion(version=4.0.0-beta.5, time=2017-01-25 23:53:53 UTC)
+DependencyVersion(version=4.0.0-beta.6, time=2017-02-03 05:23:53 UTC)
+DependencyVersion(version=4.0.0-beta.7, time=2017-02-09 17:49:59 UTC)
+DependencyVersion(version=4.0.0-beta.8, time=2017-02-18 23:10:42 UTC)
+DependencyVersion(version=4.0.0-rc.0, time=2017-02-25 01:52:00 UTC)
+DependencyVersion(version=4.0.0-rc.1, time=2017-02-25 02:10:20 UTC)
+DependencyVersion(version=4.0.0-rc.2, time=2017-03-02 06:59:41 UTC)
+DependencyVersion(version=4.0.0-rc.3, time=2017-03-10 20:38:39 UTC)
+DependencyVersion(version=4.0.0-rc.4, time=2017-03-17 03:21:39 UTC)
+DependencyVersion(version=4.0.0-rc.5, time=2017-03-17 17:28:15 UTC)
+DependencyVersion(version=4.0.0-rc.6, time=2017-03-23 06:16:19 UTC)
+DependencyVersion(version=4.0.1, time=2017-03-29 23:37:21 UTC)
+DependencyVersion(version=4.0.2, time=2017-04-11 22:43:01 UTC)
+DependencyVersion(version=4.0.3, time=2017-04-21 05:02:34 UTC)
+DependencyVersion(version=4.1.0, time=2017-04-26 16:00:43 UTC)
+DependencyVersion(version=4.1.0-beta.0, time=2017-03-30 00:03:30 UTC)
+DependencyVersion(version=4.1.0-beta.1, time=2017-04-12 22:53:33 UTC)
+DependencyVersion(version=4.1.0-rc.0, time=2017-04-21 05:24:11 UTC)
+DependencyVersion(version=4.1.1, time=2017-05-04 21:26:39 UTC)
+DependencyVersion(version=4.1.2, time=2017-05-10 22:57:10 UTC)
+DependencyVersion(version=4.1.3, time=2017-05-17 22:53:52 UTC)
+DependencyVersion(version=4.2.0, time=2017-06-08 22:34:41 UTC)
+DependencyVersion(version=4.2.0-beta.0, time=2017-05-04 22:19:03 UTC)
+DependencyVersion(version=4.2.0-beta.1, time=2017-05-10 23:20:47 UTC)
+DependencyVersion(version=4.2.0-rc.0, time=2017-05-19 23:29:42 UTC)
+DependencyVersion(version=4.2.0-rc.1, time=2017-05-26 22:32:47 UTC)
+DependencyVersion(version=4.2.0-rc.2, time=2017-06-01 21:58:43 UTC)
+DependencyVersion(version=4.2.1, time=2017-06-09 23:22:40 UTC)
+DependencyVersion(version=4.2.2, time=2017-06-12 22:45:44 UTC)
+DependencyVersion(version=4.2.3, time=2017-06-16 16:50:25 UTC)
+DependencyVersion(version=4.2.4, time=2017-06-22 00:08:31 UTC)
+DependencyVersion(version=4.2.5, time=2017-06-30 00:28:10 UTC)
+DependencyVersion(version=4.2.6, time=2017-07-08 05:01:34 UTC)
+DependencyVersion(version=4.3.0, time=2017-07-14 20:21:18 UTC)
+DependencyVersion(version=4.3.0-beta.0, time=2017-06-22 00:32:56 UTC)
+DependencyVersion(version=4.3.0-beta.1, time=2017-06-29 21:50:48 UTC)
+DependencyVersion(version=4.3.0-rc.0, time=2017-07-08 05:16:56 UTC)
+DependencyVersion(version=4.3.1, time=2017-07-19 20:06:42 UTC)
+DependencyVersion(version=4.3.2, time=2017-07-27 21:13:20 UTC)
+DependencyVersion(version=4.3.3, time=2017-08-02 20:10:41 UTC)
+DependencyVersion(version=4.3.4, time=2017-08-10 18:28:57 UTC)
+DependencyVersion(version=4.3.5, time=2017-08-16 18:30:09 UTC)
+DependencyVersion(version=4.3.6, time=2017-08-23 20:30:17 UTC)
+DependencyVersion(version=4.4.0, time=2017-09-15 22:12:53 UTC)
+DependencyVersion(version=4.4.0-RC.0, time=2017-09-02 05:14:11 UTC)
+DependencyVersion(version=4.4.1, time=2017-09-15 22:42:27 UTC)
+DependencyVersion(version=4.4.2, time=2017-09-18 23:10:27 UTC)
+DependencyVersion(version=4.4.3, time=2017-09-19 22:34:23 UTC)
+DependencyVersion(version=4.4.4, time=2017-09-28 21:24:31 UTC)
+DependencyVersion(version=4.4.5, time=2017-10-12 19:59:20 UTC)
+DependencyVersion(version=4.4.6, time=2017-10-19 00:19:07 UTC)
+DependencyVersion(version=4.4.7, time=2018-04-16 09:03:07 UTC)
+DependencyVersion(version=5.0.0, time=2017-11-01 17:57:03 UTC)
+DependencyVersion(version=5.0.0-beta.0, time=2017-07-19 20:23:37 UTC)
+DependencyVersion(version=5.0.0-beta.1, time=2017-07-27 22:10:05 UTC)
+DependencyVersion(version=5.0.0-beta.2, time=2017-08-02 20:29:37 UTC)
+DependencyVersion(version=5.0.0-beta.3, time=2017-08-09 23:16:02 UTC)
+DependencyVersion(version=5.0.0-beta.4, time=2017-08-16 20:12:51 UTC)
+DependencyVersion(version=5.0.0-beta.5, time=2017-08-28 23:19:16 UTC)
+DependencyVersion(version=5.0.0-beta.6, time=2017-09-02 16:03:37 UTC)
+DependencyVersion(version=5.0.0-beta.7, time=2017-09-13 21:09:12 UTC)
+DependencyVersion(version=5.0.0-rc.0, time=2017-09-28 23:38:25 UTC)
+DependencyVersion(version=5.0.0-rc.1, time=2017-10-06 01:25:40 UTC)
+DependencyVersion(version=5.0.0-rc.2, time=2017-10-12 20:54:06 UTC)
+DependencyVersion(version=5.0.0-rc.3, time=2017-10-19 00:36:35 UTC)
+DependencyVersion(version=5.0.0-rc.4, time=2017-10-24 00:50:32 UTC)
+DependencyVersion(version=5.0.0-rc.5, time=2017-10-24 06:47:16 UTC)
+DependencyVersion(version=5.0.0-rc.6, time=2017-10-25 21:46:02 UTC)
+DependencyVersion(version=5.0.0-rc.7, time=2017-10-27 02:44:18 UTC)
+DependencyVersion(version=5.0.0-rc.8, time=2017-10-28 06:43:32 UTC)
+DependencyVersion(version=5.0.0-rc.9, time=2017-10-31 04:22:34 UTC)
+DependencyVersion(version=5.0.1, time=2017-11-08 18:42:49 UTC)
+DependencyVersion(version=5.0.2, time=2017-11-16 21:38:50 UTC)
+DependencyVersion(version=5.0.3, time=2017-11-22 21:19:51 UTC)
+DependencyVersion(version=5.0.4, time=2017-12-01 05:31:00 UTC)
+DependencyVersion(version=5.0.5, time=2017-12-01 22:52:56 UTC)
+DependencyVersion(version=5.1.0, time=2017-12-06 20:38:12 UTC)
+DependencyVersion(version=5.1.0-beta.0, time=2017-11-08 19:45:25 UTC)
+DependencyVersion(version=5.1.0-beta.1, time=2017-11-16 22:13:28 UTC)
+DependencyVersion(version=5.1.0-beta.2, time=2017-11-22 21:52:59 UTC)
+DependencyVersion(version=5.1.0-rc.0, time=2017-12-01 05:47:12 UTC)
+DependencyVersion(version=5.1.0-rc.1, time=2017-12-01 23:11:52 UTC)
+DependencyVersion(version=5.1.1, time=2017-12-13 19:34:11 UTC)
+DependencyVersion(version=5.1.2, time=2017-12-20 21:35:27 UTC)
+DependencyVersion(version=5.1.3, time=2018-01-04 00:01:57 UTC)
+DependencyVersion(version=5.2.0, time=2018-01-10 01:11:23 UTC)
+DependencyVersion(version=5.2.0-beta.0, time=2017-12-13 19:51:54 UTC)
+DependencyVersion(version=5.2.0-beta.1, time=2017-12-20 21:52:43 UTC)
+DependencyVersion(version=5.2.0-rc.0, time=2018-01-04 00:26:28 UTC)
+DependencyVersion(version=5.2.1, time=2018-01-17 18:00:31 UTC)
+DependencyVersion(version=5.2.10, time=2018-04-16 07:37:27 UTC)
+DependencyVersion(version=5.2.11, time=2018-05-16 21:54:47 UTC)
+DependencyVersion(version=5.2.2, time=2018-01-25 05:34:51 UTC)
+DependencyVersion(version=5.2.3, time=2018-01-31 20:56:48 UTC)
+DependencyVersion(version=5.2.4, time=2018-02-07 19:17:26 UTC)
+DependencyVersion(version=5.2.5, time=2018-02-14 05:24:23 UTC)
+DependencyVersion(version=5.2.6, time=2018-02-22 00:53:03 UTC)
+DependencyVersion(version=5.2.7, time=2018-02-28 23:08:50 UTC)
+DependencyVersion(version=5.2.8, time=2018-03-07 22:53:54 UTC)
+DependencyVersion(version=5.2.9, time=2018-03-14 22:20:02 UTC)
+DependencyVersion(version=6.0.0, time=2018-05-03 19:34:34 UTC)
+DependencyVersion(version=6.0.0-beta.0, time=2018-01-17 18:25:34 UTC)
+DependencyVersion(version=6.0.0-beta.1, time=2018-01-25 06:07:35 UTC)
+DependencyVersion(version=6.0.0-beta.2, time=2018-01-31 21:23:41 UTC)
+DependencyVersion(version=6.0.0-beta.3, time=2018-02-07 19:32:48 UTC)
+DependencyVersion(version=6.0.0-beta.4, time=2018-02-14 05:44:05 UTC)
+DependencyVersion(version=6.0.0-beta.5, time=2018-02-22 01:18:05 UTC)
+DependencyVersion(version=6.0.0-beta.6, time=2018-02-28 23:32:43 UTC)
+DependencyVersion(version=6.0.0-beta.7, time=2018-03-07 23:04:35 UTC)
+DependencyVersion(version=6.0.0-beta.8, time=2018-03-17 00:11:21 UTC)
+DependencyVersion(version=6.0.0-rc.0, time=2018-03-21 05:57:37 UTC)
+DependencyVersion(version=6.0.0-rc.1, time=2018-03-30 21:42:55 UTC)
+DependencyVersion(version=6.0.0-rc.2, time=2018-04-05 18:25:14 UTC)
+DependencyVersion(version=6.0.0-rc.3, time=2018-04-06 23:45:20 UTC)
+DependencyVersion(version=6.0.0-rc.4, time=2018-04-12 16:47:33 UTC)
+DependencyVersion(version=6.0.0-rc.5, time=2018-04-14 10:08:09 UTC)
+DependencyVersion(version=6.0.0-rc.6, time=2018-04-27 18:13:25 UTC)
+DependencyVersion(version=6.0.1, time=2018-05-11 05:38:12 UTC)
+DependencyVersion(version=6.0.2, time=2018-05-15 19:45:30 UTC)
+DependencyVersion(version=6.0.3, time=2018-05-22 23:39:16 UTC)
+DependencyVersion(version=6.0.4, time=2018-06-06 19:01:01 UTC)
+DependencyVersion(version=6.0.5, time=2018-06-13 22:38:24 UTC)
+DependencyVersion(version=6.0.6, time=2018-06-20 23:21:38 UTC)
+DependencyVersion(version=6.0.7, time=2018-06-28 00:36:01 UTC)
+DependencyVersion(version=6.0.8, time=2018-07-11 20:50:28 UTC)
+DependencyVersion(version=6.0.9, time=2018-07-11 21:43:54 UTC)
+DependencyVersion(version=6.1.0, time=2018-07-25 21:38:56 UTC)
+DependencyVersion(version=6.1.0-beta.0, time=2018-06-06 20:27:11 UTC)
+DependencyVersion(version=6.1.0-beta.1, time=2018-06-13 23:41:05 UTC)
+DependencyVersion(version=6.1.0-beta.2, time=2018-06-20 23:43:20 UTC)
+DependencyVersion(version=6.1.0-beta.3, time=2018-06-28 01:26:12 UTC)
+DependencyVersion(version=6.1.0-rc.0, time=2018-07-11 21:26:47 UTC)
+DependencyVersion(version=6.1.0-rc.3, time=2018-07-19 22:55:31 UTC)
+DependencyVersion(version=6.1.1, time=2018-08-02 21:14:30 UTC)
+DependencyVersion(version=6.1.10, time=2018-10-10 18:43:07 UTC)
+DependencyVersion(version=6.1.2, time=2018-08-08 18:54:46 UTC)
+DependencyVersion(version=6.1.3, time=2018-08-15 21:57:07 UTC)
+DependencyVersion(version=6.1.4, time=2018-08-22 22:34:58 UTC)
+DependencyVersion(version=6.1.6, time=2018-08-29 22:55:32 UTC)
+DependencyVersion(version=6.1.7, time=2018-09-06 04:13:35 UTC)
+DependencyVersion(version=6.1.8, time=2018-09-19 21:18:28 UTC)
+DependencyVersion(version=6.1.9, time=2018-09-26 19:37:10 UTC)
+DependencyVersion(version=7.0.0, time=2018-10-18 18:11:20 UTC)
+DependencyVersion(version=7.0.0-beta.0, time=2018-08-02 20:44:41 UTC)
+DependencyVersion(version=7.0.0-beta.1, time=2018-08-08 19:59:26 UTC)
+DependencyVersion(version=7.0.0-beta.2, time=2018-08-15 22:55:03 UTC)
+DependencyVersion(version=7.0.0-beta.3, time=2018-08-22 23:19:54 UTC)
+DependencyVersion(version=7.0.0-beta.4, time=2018-08-30 00:20:55 UTC)
+DependencyVersion(version=7.0.0-beta.5, time=2018-09-06 04:53:27 UTC)
+DependencyVersion(version=7.0.0-beta.6, time=2018-09-19 21:41:34 UTC)
+DependencyVersion(version=7.0.0-beta.7, time=2018-09-26 22:21:58 UTC)
+DependencyVersion(version=7.0.0-rc.0, time=2018-09-28 22:35:28 UTC)
+DependencyVersion(version=7.0.0-rc.1, time=2018-10-10 22:38:55 UTC)
+DependencyVersion(version=7.0.1, time=2018-10-24 21:40:13 UTC)
+DependencyVersion(version=7.0.2, time=2018-10-31 23:18:32 UTC)
+DependencyVersion(version=7.0.3, time=2018-11-07 20:10:05 UTC)
+DependencyVersion(version=7.0.4, time=2018-11-14 22:06:35 UTC)
+DependencyVersion(version=7.1.0, time=2018-11-21 23:07:50 UTC)
+DependencyVersion(version=7.1.0-beta.0, time=2018-10-24 22:20:46 UTC)
+DependencyVersion(version=7.1.0-beta.1, time=2018-10-31 23:48:47 UTC)
+DependencyVersion(version=7.1.0-beta.2, time=2018-11-07 20:36:53 UTC)
+DependencyVersion(version=7.1.0-rc.0, time=2018-11-14 23:06:54 UTC)
+DependencyVersion(version=7.1.1, time=2018-11-28 18:23:31 UTC)
+DependencyVersion(version=7.1.2, time=2018-12-06 23:18:10 UTC)
+DependencyVersion(version=7.1.3, time=2018-12-11 21:43:21 UTC)
+DependencyVersion(version=7.2.0-beta.0, time=2018-11-28 19:06:46 UTC)
+DependencyVersion(version=7.2.0-beta.1, time=2018-12-06 22:59:02 UTC)
+DependencyVersion(version=7.2.0-beta.2, time=2018-12-11 22:01:44 UTC)

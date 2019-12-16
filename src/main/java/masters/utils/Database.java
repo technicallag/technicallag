@@ -13,7 +13,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 public class Database {
 
-    private static final int NUM_CONNECTIONS = 1;
+    private static final int NUM_CONNECTIONS = 20;
     private static ArrayBlockingQueue<Connection> CONNECTIONS = new ArrayBlockingQueue<>(NUM_CONNECTIONS);
 
     static {
@@ -132,18 +132,19 @@ public class Database {
     }
 
     public static class CommitInfo {
-        String repo, hash;
+        String repo, hash, version;
 
         @Override
         public String toString() {
             return "CommitInfo{" +
                     "repo='" + repo + '\'' +
                     ", hash='" + hash + '\'' +
+                    ", version='" + version + '\'' +
                     '}';
         }
     }
 
-    private static String getRepoId(int projectid) {
+    public static String getRepoId(int projectid) {
         try {
             Connection c = CONNECTIONS.take();
             PreparedStatement stmt = c.prepareStatement("SELECT repositoryid FROM projects WHERE id = ?;");
@@ -165,6 +166,35 @@ public class Database {
         catch(SQLException | InterruptedException e) {
             Logging.getLogger("").error(e);
             return "";
+        }
+    }
+
+    public static List<CommitInfo> getAllTagCommits(int projectid) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT HostType, TagGitSha, TagName FROM tags WHERE RepositoryId = ?;");
+            stmt.setString(1, getRepoId(projectid));
+
+            ResultSet rs = stmt.executeQuery();
+            List<CommitInfo> infoList = new ArrayList<>();
+            while (rs.next()) {
+                CommitInfo info = new CommitInfo();
+                info.repo = rs.getString("HostType");
+                info.hash = rs.getString("TagGitSha");
+                info.version = rs.getString("TagName");
+                infoList.add(info);
+            }
+
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
+
+            return infoList;
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+            return new ArrayList<>();
         }
     }
 

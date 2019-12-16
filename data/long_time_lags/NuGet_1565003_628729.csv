@@ -108,14 +108,14 @@ Project information
 BBS.Libraries.Extensions (1565003)	Newtonsoft.Json (628729)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.55, dependency=9.0.1, time=2016-07-07 12:44:48 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.59, dependency=9.0.1, time=2016-07-07 13:22:24 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.62, dependency=9.0.1, time=2016-07-07 14:17:31 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.68, dependency=9.0.1, time=2016-07-10 01:17:08 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.76, dependency=9.0.1, time=2016-07-28 00:29:53 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.82, dependency=9.0.1, time=2016-07-28 01:12:36 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.86, dependency=9.0.1, time=2016-11-22 20:20:58 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=16.7.0, dependency=9.0.1, time=2016-07-04 18:09:16 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.55, dependency== 9.0.1, time=2016-07-07 12:44:48 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.59, dependency== 9.0.1, time=2016-07-07 13:22:24 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.62, dependency== 9.0.1, time=2016-07-07 14:17:31 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.68, dependency== 9.0.1, time=2016-07-10 01:17:08 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.76, dependency== 9.0.1, time=2016-07-28 00:29:53 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.82, dependency== 9.0.1, time=2016-07-28 01:12:36 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.86, dependency== 9.0.1, time=2016-11-22 20:20:58 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=16.7.0, dependency== 9.0.1, time=2016-07-04 18:09:16 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=10.0.1, time=2017-03-20 07:18:50 UTC)

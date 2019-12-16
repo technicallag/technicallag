@@ -1,0 +1,59 @@
+
+Project information
+ember-bug-widget (755826)	ember-cli-release (704323)	Package Manager: NPM
+RepoID: 381533
+Tag information:
+CommitInfo{repo='GitHub', hash='fcbb28beb13f9a5d9876c0f69a05441a6a1acbcf', version='0.0.1-beta.1'}
+CommitInfo{repo='GitHub', hash='7002e62d109c9dd4f5182af0723edf1df69f44a2', version='0.0.1-beta.2'}
+CommitInfo{repo='GitHub', hash='32c2f4dac406b766fb1f703ce6b2a4f88c4c95d1', version='0.1.0'}
+CommitInfo{repo='GitHub', hash='1503597c33ae614daef22ae7af94275945aea468', version='0.2.0'}
+CommitInfo{repo='GitHub', hash='ea522f2d2449d187ac86d4a38ae75400bdfa1ba4', version='0.2.1'}
+CommitInfo{repo='GitHub', hash='ba5837e5b34867bc5dc88edb545f6656f3b9987e', version='0.2.2'}
+CommitInfo{repo='GitHub', hash='66bfd88a115181899c31e81c05713e7fab775739', version='1.0.0'}
+CommitInfo{repo='GitHub', hash='20111f4e6a244e50bc2e9e1f5da0e5c43d42620a', version='2.0.0'}
+CommitInfo{repo='GitHub', hash='43a495cee51488ee2d5bcf24c921bcfed7fd950e', version='2.1.0'}
+CommitInfo{repo='GitHub', hash='19d8531f696fc0fcabc33992dc2690fa273e4dbc', version='2.1.1'}
+CommitInfo{repo='GitHub', hash='cadf9c2ec40693daa4aa70594d400e17579d326f', version='2.1.2'}
+CommitInfo{repo='GitHub', hash='dc6c592bee15b74757afd0985d1e82b275dabe15', version='2.12.0'}
+CommitInfo{repo='GitHub', hash='c4e822fdbc5a914c2de20c5b32da65c3e21a4a69', version='3.0.0'}
+
+Project A:
+ProjectVersionFixed(version=0.0.1-beta.1, dependency=null, time=2015-04-10 04:21:15 UTC)
+ProjectVersionFixed(version=0.0.1-beta.2, dependency=null, time=2015-04-10 05:39:51 UTC)
+ProjectVersionFixed(version=0.1.0, dependency=0.2.3, time=2015-07-15 03:35:15 UTC),	Latest, "DependencyVersion(version=0.2.5, time=2015-07-13 21:13:56 UTC)"
+
+ProjectVersionFixed(version=0.2.0, dependency=0.2.3, time=2015-07-16 18:13:16 UTC),	Latest, "DependencyVersion(version=0.2.5, time=2015-07-13 21:13:56 UTC)"
+
+ProjectVersionFixed(version=0.2.1, dependency=0.2.5, time=2015-07-16 18:32:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=0.2.2, dependency=0.2.3, time=2015-08-26 03:00:04 UTC),	Latest, "DependencyVersion(version=0.2.6, time=2015-08-21 18:16:17 UTC)"
+
+ProjectVersionFixed(version=1.0.0, dependency=0.2.6, time=2015-08-26 03:20:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.0.0, dependency=0.2.6, time=2015-08-28 18:31:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.1.0, dependency=0.2.8, time=2016-04-03 08:07:31 UTC),	Latest, "DependencyVersion(version=1.0.0-beta.1, time=2016-01-22 03:51:49 UTC)"
+
+ProjectVersionFixed(version=2.1.1, dependency=0.2.8, time=2016-04-03 08:16:19 UTC),	Latest, "DependencyVersion(version=1.0.0-beta.1, time=2016-01-22 03:51:49 UTC)"
+
+ProjectVersionFixed(version=2.1.2, dependency=1.0.0-beta.1, time=2016-07-30 01:36:11 UTC),	Latest, "DependencyVersion(version=1.0.0-beta.2, time=2016-06-18 19:28:22 UTC)"
+
+ProjectVersionFixed(version=2.12.0, dependency=1.0.0-beta.2, time=2017-03-29 18:20:17 UTC),	Latest, "null"
+
+
+Project B:
+DependencyVersion(version=0.1.0, time=2015-03-11 01:34:09 UTC)
+DependencyVersion(version=0.1.1, time=2015-03-11 17:54:22 UTC)
+DependencyVersion(version=0.2.0, time=2015-03-11 22:53:08 UTC)
+DependencyVersion(version=0.2.1, time=2015-04-14 06:09:23 UTC)
+DependencyVersion(version=0.2.2, time=2015-04-14 16:29:03 UTC)
+DependencyVersion(version=0.2.3, time=2015-04-20 17:28:02 UTC)
+DependencyVersion(version=0.2.4, time=2015-07-06 01:03:12 UTC)
+DependencyVersion(version=0.2.5, time=2015-07-13 21:13:56 UTC)
+DependencyVersion(version=0.2.6, time=2015-08-21 18:16:17 UTC)
+DependencyVersion(version=0.2.7, time=2015-09-24 20:27:51 UTC)
+DependencyVersion(version=0.2.8, time=2015-10-19 18:08:49 UTC)
+DependencyVersion(version=0.2.9, time=2016-06-19 22:46:51 UTC)
+DependencyVersion(version=1.0.0-beta.0, time=2015-12-30 04:16:05 UTC)
+DependencyVersion(version=1.0.0-beta.1, time=2016-01-22 03:51:49 UTC)
+DependencyVersion(version=1.0.0-beta.2, time=2016-06-18 19:28:22 UTC)

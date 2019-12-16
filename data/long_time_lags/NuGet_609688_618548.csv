@@ -102,9 +102,9 @@ Project information
 Froto.Roslyn (609688)	protobuf-net (618548)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.0.0.1, dependency=2.0.0.602, time=2012-11-18 23:31:16 UTC),	Latest, DependencyVersion(version=2.3.18, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.0.0.2, dependency=2.0.0.602, time=2012-11-20 00:40:38 UTC),	Latest, DependencyVersion(version=2.3.18, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.1.0-ci1406081746, dependency=null, time=2014-06-08 17:59:42 UTC)
+ProjectVersionFixed(version=0.0.0.1, dependency== 2.0.0.602, time=2012-11-18 23:31:16 UTC),	Latest, DependencyVersion(version=2.3.18, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.0.0.2, dependency== 2.0.0.602, time=2012-11-20 00:40:38 UTC),	Latest, DependencyVersion(version=2.3.18, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.1.0-ci1406081746, dependency=null, time=2014-06-08 17:59:42 UTC)
 
 Project B:
 DependencyVersion(version=1.0.0.280, time=2011-04-14 07:43:50 UTC)

@@ -1,5 +1,6 @@
 import masters.flexilag.MatcherResult;
 import masters.flexilag.MavenLagChecker;
+import masters.libiostudy.Version;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
@@ -31,7 +32,7 @@ class FlexibleTests {
             "/flexilag-tests/Rubygems.csv",
         }, numLinesToSkip = 1)
     public void testFlexibleLag(String classification, String declaration, String test, String expected) {
-        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new MavenLagChecker().matches(test, classification, declaration));
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new MavenLagChecker().matches(Version.create(test), classification, declaration));
     }
 
 }

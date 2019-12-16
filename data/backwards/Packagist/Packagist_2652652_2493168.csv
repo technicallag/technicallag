@@ -1,0 +1,60 @@
+
+Project information
+cwp/cwp-recipe-kitchen-sink (2652652)	silverstripe/ldap (2493168)	Package Manager: Packagist
+RepoID: 32892201
+Tag information:
+CommitInfo{repo='GitHub', hash='af607b356d3fb26310779a3811412ed0bdf8a43d', version='2.0.0'}
+CommitInfo{repo='GitHub', hash='ed378b4ebbdd781963649da72b056b2234a59633', version='2.0.0-rc1'}
+CommitInfo{repo='GitHub', hash='f126d5af67ab4eb34f9712cd4e7b1c8460e23bc8', version='2.0.0-rc2'}
+CommitInfo{repo='GitHub', hash='e0f917982b8fd63597fdd6232b92cf2fd93cca5f', version='2.0.0-rc3'}
+CommitInfo{repo='GitHub', hash='66cbd021f1c57dd3ec1ecf2b420634e0ce5e4b5a', version='2.0.0-rc4'}
+CommitInfo{repo='GitHub', hash='e2bd5c506b82ce42b2ff4cf6a4dfbb54ffa409d3', version='2.1.0'}
+CommitInfo{repo='GitHub', hash='dcede404efa53539d6b75c909fe4ca64e47bc760', version='2.1.0-beta1'}
+CommitInfo{repo='GitHub', hash='e5f482acdc5d2d8082c472e34b852b006092cc6b', version='2.1.0-rc1'}
+CommitInfo{repo='GitHub', hash='e5fe2455675b31b307330934755dbd39737b84a9', version='2.1.0-rc2'}
+CommitInfo{repo='GitHub', hash='5c47f3b0e81ad764d19593c84fa6b10eef7fd3a8', version='2.1.1'}
+CommitInfo{repo='GitHub', hash='79d29628bae314e9d69cf76900a70fe47f856c5f', version='2.1.1-rc1'}
+CommitInfo{repo='GitHub', hash='d7b137d28e2ba82e384eb018784e753f5be76cfa', version='2.1.1-rc2'}
+CommitInfo{repo='GitHub', hash='58b1d4bc305f49e68ab63c4ae4d02304788517d4', version='2.2.0'}
+CommitInfo{repo='GitHub', hash='e3e69eac5852c85dc34606f2a6486b0a10909421', version='2.2.0-rc1'}
+
+Project A:
+ProjectVersionFixed(version=2.0.0-rc1, dependency=1.0.0@stable, time=2018-02-22 05:35:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.0.0-rc2, dependency=1.0.0@stable, time=2018-04-03 23:55:39 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.0.0-rc3, dependency=1.0.0@stable, time=2018-04-11 00:47:57 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.0.0, dependency=1.0.1@stable, time=2018-05-29 23:41:35 UTC),	Latest, "DependencyVersion(version=1.0.2, time=2018-05-28 02:25:27 UTC)"
+
+ProjectVersionFixed(version=2.0.0-rc4, dependency=1.0.1@stable, time=2018-05-29 23:12:09 UTC),	Latest, "DependencyVersion(version=1.0.2, time=2018-05-28 02:25:27 UTC)"
+
+ProjectVersionFixed(version=2.1.x-dev, dependency=1.0.x-dev, time=2018-06-19 22:34:12 UTC),	Latest, "DependencyVersion(version=1.0.2, time=2018-05-28 02:25:27 UTC)"
+
+ProjectVersionFixed(version=2.1.0-beta1, dependency=1.0.2@stable, time=2018-06-25 05:32:59 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.1.0, dependency=1.0.2@stable, time=2018-07-25 23:25:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.1.0-rc1, dependency=1.0.2@stable, time=2018-07-25 05:39:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.1.0-rc2, dependency=1.0.2@stable, time=2018-07-25 05:57:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.1.1-rc1, dependency=1.0.2@stable, time=2018-08-10 03:12:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.1.1-rc2, dependency=1.0.2@stable, time=2018-08-14 03:37:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.1.1, dependency=1.0.2@stable, time=2018-09-10 00:29:23 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.2.x-dev, dependency=1.0.x-dev, time=2018-07-29 21:29:46 UTC),	Latest, "DependencyVersion(version=1.0.2, time=2018-05-28 02:25:27 UTC)"
+
+ProjectVersionFixed(version=2.2.0-rc1, dependency=1.0.3@stable, time=2018-11-08 04:08:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=2.2.0, dependency=1.0.3@stable, time=2018-12-12 03:53:42 UTC),	Latest, "null"
+
+
+Project B:
+DependencyVersion(version=1.0.0, time=2018-02-22 05:34:40 UTC)
+DependencyVersion(version=1.0.0-beta1, time=2017-11-13 02:00:38 UTC)
+DependencyVersion(version=1.0.1, time=2018-05-28 02:25:27 UTC)
+DependencyVersion(version=1.0.2, time=2018-05-28 02:25:27 UTC)
+DependencyVersion(version=1.0.x-dev, time=2018-05-28 02:25:27 UTC)

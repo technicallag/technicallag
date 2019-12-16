@@ -1,0 +1,828 @@
+
+Project information
+org.eclipse.jetty:jetty-continuation (636001)	org.mortbay.jetty:jetty-util (385223)	Package Manager: Maven
+RepoID: 637783
+Tag information:
+CommitInfo{repo='GitHub', hash='7f0424d0dce08f642d7973294b1960dd2ae57287', version='jetty-7.0.0.M0'}
+CommitInfo{repo='GitHub', hash='bc5493fcbc288e167ac15ee9859405657da966e4', version='jetty-7.0.0.M1'}
+CommitInfo{repo='GitHub', hash='5d3c3c39bc2d0e9483993f8e76f21d2814e20bc4', version='jetty-7.0.0.M2'}
+CommitInfo{repo='GitHub', hash='a4965298928eace57c26ecadc8ad96db978dc3f3', version='jetty-7.0.0.M3'}
+CommitInfo{repo='GitHub', hash='ac824e59cb4900a2adb2683b33bbcfadfe8f1873', version='jetty-7.0.0.M4'}
+CommitInfo{repo='GitHub', hash='978403e2840f4373d81d61da40562a2d3d1d72d6', version='jetty-7.0.0.RC0'}
+CommitInfo{repo='GitHub', hash='43d0f9c82a3b358467fd2602da13a42cd88502de', version='jetty-7.0.0.RC1'}
+CommitInfo{repo='GitHub', hash='9dba9b9f99bfcdb25af0936ac7a05b97a6855739', version='jetty-7.0.0.RC2'}
+CommitInfo{repo='GitHub', hash='f5c4e473bb66cb261847b573970d0c00db9a003d', version='jetty-7.0.0.RC3'}
+CommitInfo{repo='GitHub', hash='5d490aa3cb703a3a41eedd80dd60bc3d3468b826', version='jetty-7.0.0.RC4'}
+CommitInfo{repo='GitHub', hash='7e46b87d9c5b2f22769aa7527d823c31b44d0ca5', version='jetty-7.0.0.RC5'}
+CommitInfo{repo='GitHub', hash='4fe03b9dd0475e61b444f72fc901391c3a719dd0', version='jetty-7.0.0.RC6'}
+CommitInfo{repo='GitHub', hash='bcd1b7d19c3a2e9bfd90b422e937f0bfa777c65b', version='jetty-7.0.0.v20091001'}
+CommitInfo{repo='GitHub', hash='eeee910bde0b6d0c2928985876352f43bf7cf548', version='jetty-7.0.0.v20091005'}
+CommitInfo{repo='GitHub', hash='87c03d4eb658655cd9b1fc12ee197886bb23428e', version='jetty-7.0.1.v20091116'}
+CommitInfo{repo='GitHub', hash='785cdaa9fd2e510e479b85632b94ad00ba9e0643', version='jetty-7.0.1.v20091117'}
+CommitInfo{repo='GitHub', hash='0216eabc876e220a02a62b9a784bc42eb9ea2cdd', version='jetty-7.0.1.v20091122'}
+CommitInfo{repo='GitHub', hash='692d7e91f278958c4b8ac51a1d25c3c49478efac', version='jetty-7.0.1.v20091123'}
+CommitInfo{repo='GitHub', hash='1758a31e6d9df6490921a723365269afee34518c', version='jetty-7.0.1.v20091125'}
+CommitInfo{repo='GitHub', hash='ccaa7ff13c3447631deabae311541d7cadfcd3e8', version='jetty-7.0.2.RC0'}
+CommitInfo{repo='GitHub', hash='42648a63baf6059aeceb12c207d53308eec6b0f0', version='jetty-7.0.2.v20100331'}
+CommitInfo{repo='GitHub', hash='a0f513e1ccb8d3c22495767e40c00cf8ac64548e', version='jetty-7.1.0.RC0'}
+CommitInfo{repo='GitHub', hash='a652f29efe0edef71be93af8361f0641225a03c9', version='jetty-7.1.0.RC1'}
+CommitInfo{repo='GitHub', hash='be2a6c4b4796bb22b82e0b453ae89bf0592af487', version='jetty-7.1.0.v20100505'}
+CommitInfo{repo='GitHub', hash='180319ebaa6c09fb09e80561ed7133c69039d445', version='jetty-7.1.1.v20100517'}
+CommitInfo{repo='GitHub', hash='f5afd247d01e283b43f4a3e918e482573cded133', version='jetty-7.1.2.v20100521'}
+CommitInfo{repo='GitHub', hash='69123529155d706e2518e6c1d291cbf282cced45', version='jetty-7.1.2.v20100522'}
+CommitInfo{repo='GitHub', hash='cea713f21df2189a5c28a99cc877247b4e308818', version='jetty-7.1.2.v20100523'}
+CommitInfo{repo='GitHub', hash='df2811bf73bf5d23a808cdc479ec19df85153c9f', version='jetty-7.1.3.v20100526'}
+CommitInfo{repo='GitHub', hash='e24c2f621fbbc372d567b0a40028ddaab6d308d8', version='jetty-7.1.4.v20090609'}
+CommitInfo{repo='GitHub', hash='b22d424b6d2f3f9c70d345bc05319a39ac7b53d7', version='jetty-7.1.4.v20100609'}
+CommitInfo{repo='GitHub', hash='b556f14ecbac009e21063ec975fcb7322e466a3b', version='jetty-7.1.4.v20100610'}
+CommitInfo{repo='GitHub', hash='74d2ab425d946c85bfeacf193a58c416efb9db22', version='jetty-7.1.5.v20100705'}
+CommitInfo{repo='GitHub', hash='f8cdd80344debf6a6ceb481032559240e71ce52f', version='jetty-7.1.6.v20100715'}
+CommitInfo{repo='GitHub', hash='0316b8c53e63d323d49cda0d73aabf4b6af4206c', version='jetty-7.2.0.RC0'}
+CommitInfo{repo='GitHub', hash='87f8428ba48f5bad47e3069fd7d24bbbbc36825a', version='jetty-7.2.0.RC1'}
+CommitInfo{repo='GitHub', hash='cbdd63c90546de35f9bc750166727350edd817c7', version='jetty-7.2.0.v20101020'}
+CommitInfo{repo='GitHub', hash='1c962fc4b7f47826db0711d88b35de4ae8bfdf81', version='jetty-7.2.1.v20101111'}
+CommitInfo{repo='GitHub', hash='639c5d785af7c7d5d7e30ea212324f849fca5c52', version='jetty-7.2.2.v20101201'}
+CommitInfo{repo='GitHub', hash='9e729f6a507d919ba73d904770de36d342baae7a', version='jetty-7.2.2.v20101203'}
+CommitInfo{repo='GitHub', hash='9bf3ef06798d3b36d3e6ad1f9ccbc0115551d872', version='jetty-7.2.2.v20101205'}
+CommitInfo{repo='GitHub', hash='881a9f516009be86149278798ef96bff322aa213', version='jetty-7.3.0.20110202'}
+CommitInfo{repo='GitHub', hash='de0e42961017a079464d35b568275b8d584ee635', version='jetty-7.3.0.v20110202'}
+CommitInfo{repo='GitHub', hash='9929e7d8e9533a783389cad994a3b5ad88fde4db', version='jetty-7.3.0.v20110203'}
+CommitInfo{repo='GitHub', hash='21103dc510f2019263423faf6f3ea985eec84519', version='jetty-7.3.0.v20112401'}
+CommitInfo{repo='GitHub', hash='162c4f474ce8a0fba7579b227b34a4acb5d1c678', version='jetty-7.3.1.v20110304'}
+CommitInfo{repo='GitHub', hash='be88f7e1f31d0636a2c91ca2af4e4b31f5180b21', version='jetty-7.3.1.v20110307'}
+CommitInfo{repo='GitHub', hash='10b7847166a87c319ab547437b6a9827211afa43', version='jetty-7.4.0.RC0'}
+CommitInfo{repo='GitHub', hash='8195437a229ee9b0b31fad31d768f8c6933fee46', version='jetty-7.4.0.v20110414'}
+CommitInfo{repo='GitHub', hash='a9852bed5ae7e248d9eacd064335593bbe7a9112', version='jetty-7.4.1'}
+CommitInfo{repo='GitHub', hash='f4e8d520deea6ca40aee73e25461510f741c6884', version='jetty-7.4.1.v20110512'}
+CommitInfo{repo='GitHub', hash='42f2d37fc404cdbf30c3fed2e52161c8e4a03b5b', version='jetty-7.4.1.v20110513'}
+CommitInfo{repo='GitHub', hash='18bba806fdb580436e2bce5b11155f9f15ff08dc', version='jetty-7.4.2.v20110526'}
+CommitInfo{repo='GitHub', hash='9f27dfa17c29c2168703f67fbb6e1923e3244f6a', version='jetty-7.4.3.v20110630'}
+CommitInfo{repo='GitHub', hash='ece32d79f1a2336d15f556533497c8ab709c1889', version='jetty-7.4.3.v20110701'}
+CommitInfo{repo='GitHub', hash='5a2d01454fea1ba8eb2c00f9a61b9364849f6d80', version='jetty-7.4.4.v20110707'}
+CommitInfo{repo='GitHub', hash='734e34b9e3c3bf2d7eda53f653db8ec8e8e7163f', version='jetty-7.4.5.v20110725'}
+CommitInfo{repo='GitHub', hash='f7925519bbbeaa1c3f787de4e6aaa649bca3e774', version='jetty-7.5.0.RC0'}
+CommitInfo{repo='GitHub', hash='10a6c453cfc9f04d681dbe6105c012b722ba3e88', version='jetty-7.5.0.RC1'}
+CommitInfo{repo='GitHub', hash='075272ffaad452386587e3cc6fdea82b3d84c221', version='jetty-7.5.0.RC2'}
+CommitInfo{repo='GitHub', hash='6e2a1799b6f63f9616f50e694e52dff80c825e68', version='jetty-7.5.0.v20110901'}
+CommitInfo{repo='GitHub', hash='c64e9a953e38fd106199235c6305935a90d32fdc', version='jetty-7.5.1.v20110907'}
+CommitInfo{repo='GitHub', hash='9e022cdd26d35360948782f3fa0defedd178f00a', version='jetty-7.5.1.v20110908'}
+CommitInfo{repo='GitHub', hash='962df0a31059d65ed8b4ace33e06e7791abd23a3', version='jetty-7.5.2.v20111006'}
+CommitInfo{repo='GitHub', hash='d5afda0d3a1dfa2db5f69aa4d9fc553e55b55f30', version='jetty-7.5.3.v20111011'}
+CommitInfo{repo='GitHub', hash='4a85f9a40cfc6a51c0862d157f1cbd75d9c368a6', version='jetty-7.5.4.v20111024'}
+CommitInfo{repo='GitHub', hash='b76740e0addf659e72d8354e5f61a0cc479e4ce0', version='jetty-7.6.0.RC0'}
+CommitInfo{repo='GitHub', hash='c1cd5d57b7d6d35e5bd4122eddfb5a02dd5493bc', version='jetty-7.6.0.RC1'}
+CommitInfo{repo='GitHub', hash='506f7181cad1aba7ab4c8991fbc78b62db3fc2d4', version='jetty-7.6.0.RC2'}
+CommitInfo{repo='GitHub', hash='ca17fd863a0a6fde322e69067f1de6dd467b3514', version='jetty-7.6.0.RC3'}
+CommitInfo{repo='GitHub', hash='85dba8c02647927e48feb2f263ded815c2e5a446', version='jetty-7.6.0.RC4'}
+CommitInfo{repo='GitHub', hash='406f9a4b069faf3594d1e8b09e26a1ad011b8171', version='jetty-7.6.0.RC5'}
+CommitInfo{repo='GitHub', hash='3e84ba056df58ecd706eb1517328be47a4f22663', version='jetty-7.6.0.v20120125'}
+CommitInfo{repo='GitHub', hash='903e6af2a7f20de5af7ba2fcd6a99247cdcd753e', version='jetty-7.6.0.v20120127'}
+CommitInfo{repo='GitHub', hash='a68864b7a74c3e19b110f43609f3d5f14612af0c', version='jetty-7.6.10.v20130312'}
+CommitInfo{repo='GitHub', hash='0996a794ec9be3aed4538e70e096e0fb8a1706fe', version='jetty-7.6.11.v20130520'}
+CommitInfo{repo='GitHub', hash='745fbf8786e19c6d3bfff34b83052d0a06a66e81', version='jetty-7.6.11.v20130725'}
+CommitInfo{repo='GitHub', hash='4650a3f92585a94a3b173bfd49a2ef2f45a2a2e6', version='jetty-7.6.12.v20130726'}
+CommitInfo{repo='GitHub', hash='800b4e1f3152b9957711e62d2d53c4573ce30d5b', version='jetty-7.6.13.v20130910'}
+CommitInfo{repo='GitHub', hash='60e3ed39e0103dfbc691aec4ed69abc1952d770e', version='jetty-7.6.13.v20130916'}
+CommitInfo{repo='GitHub', hash='584e16a339bcc566806917fada5d29b13476d56d', version='jetty-7.6.14.v20131031'}
+CommitInfo{repo='GitHub', hash='3d6ca81285f29ee6e78877304d444b1ce2fc986a', version='jetty-7.6.15.v20140411'}
+CommitInfo{repo='GitHub', hash='fb69738e68d804bede588344906f5186037739a4', version='jetty-7.6.16.v20140903'}
+CommitInfo{repo='GitHub', hash='81c792386c96113f8487e47f9917f24a5c00365c', version='jetty-7.6.17.v20150415'}
+CommitInfo{repo='GitHub', hash='0b3df331bc77627cc8abae4180b027ff2b77a762', version='jetty-7.6.18.v20150929'}
+CommitInfo{repo='GitHub', hash='39d92f69ccc7768e5b6173cc56247c36250e280f', version='jetty-7.6.19.v20160209'}
+CommitInfo{repo='GitHub', hash='d360bde97f6ba91eb9b9f7802c7fd4c22be3ffd0', version='jetty-7.6.1.v20120215'}
+CommitInfo{repo='GitHub', hash='15b3373a8e41c5600524c8124014c826c6c389fc', version='jetty-7.6.20.v20160902'}
+CommitInfo{repo='GitHub', hash='a42536ded8b375a8ec3453d31b0fa4177cd3fdad', version='jetty-7.6.21.v20160908'}
+CommitInfo{repo='GitHub', hash='f801399a7e51f0ba5986e66b1a882c334864590d', version='jetty-7.6.2.v20120302'}
+CommitInfo{repo='GitHub', hash='a3afe82696806c020283a115fe7d578d69caa57e', version='jetty-7.6.2.v20120308'}
+CommitInfo{repo='GitHub', hash='dbe3a1c4588c5cec247fe07d4b78874054801e5e', version='jetty-7.6.3.v20120413'}
+CommitInfo{repo='GitHub', hash='d5def84bff9304fe867444fbbf8304249ca0a2f1', version='jetty-7.6.3.v20120416'}
+CommitInfo{repo='GitHub', hash='c5c3b5c82b31eaa71dc746f7c32028dd1d584c3d', version='jetty-7.6.4.v20120522'}
+CommitInfo{repo='GitHub', hash='14a1fb18d6ffb36a8c480cb0252e89a196a37ab5', version='jetty-7.6.4.v20120524'}
+CommitInfo{repo='GitHub', hash='b753a6b83ff2bc97b9f264065a462dfa9e57ac04', version='jetty-7.6.5.v20120713'}
+CommitInfo{repo='GitHub', hash='792c36b0d8eae1b5a3d9b1c32c606326adf2b90a', version='jetty-7.6.5.v20120716'}
+CommitInfo{repo='GitHub', hash='84c402d56ab4d7ee22ba6b85683d48e2a42a1221', version='jetty-7.6.6.v20120903'}
+CommitInfo{repo='GitHub', hash='95e4f3b4b493027620a3ae3df556cac814480958', version='jetty-7.6.7.v20120910'}
+CommitInfo{repo='GitHub', hash='fdf840b001851203f1755d48406a53f0b0c5f292', version='jetty-7.6.8.v20121106'}
+CommitInfo{repo='GitHub', hash='12d6c768adb61013656d4beb5bb2ab6a978c4221', version='jetty-7.6.9.v20130131'}
+CommitInfo{repo='GitHub', hash='96abf32ee286abcde3e229fcb8870eef4b53854a', version='jetty-7-to-jetty-8-base-20090328-1'}
+CommitInfo{repo='GitHub', hash='38a44365c7a94373e80a2a0d0978375ba2b2da5e', version='jetty-7-to-jetty-8-base-20110408'}
+CommitInfo{repo='GitHub', hash='b571a13c8ca53f913443f163c50603c23730d950', version='jetty-7-to-jetty-8-base-20110408-2'}
+CommitInfo{repo='GitHub', hash='6e18d14998b0fb13ccbbb12ef0a0909a630acfd3', version='jetty-7-to-jetty-8-base-20110412'}
+CommitInfo{repo='GitHub', hash='226f424ee00891bb7d5f22efc775663ffadead52', version='jetty-7-to-jetty-8-base-20110516'}
+CommitInfo{repo='GitHub', hash='917e071b349f1bcb5768f1c9fe02c2ea359dba11', version='jetty-7-to-jetty-8-base-20110523'}
+CommitInfo{repo='GitHub', hash='dbe6bc42bdb477848bf1bc292af6d38f4fee6d2e', version='jetty-7-to-jetty-8-base-20110524'}
+CommitInfo{repo='GitHub', hash='d87b466929aba49c294e6db8f7b26939dc31fd76', version='jetty-7-to-jetty-8-base-20110527'}
+CommitInfo{repo='GitHub', hash='a3b544e5a79bc01994f6bcc90871464ad5aa21c4', version='jetty-8.0.0.M0'}
+CommitInfo{repo='GitHub', hash='943ecaf6c370172f3158d8224737b4cb986dac04', version='jetty-8.0.0.M1'}
+CommitInfo{repo='GitHub', hash='adab19fee8d2e20e12a83b0c2329d8b398611deb', version='jetty-8.0.0.M2'}
+CommitInfo{repo='GitHub', hash='7de94c2a661bd03452e8ae8143baf31593d28548', version='jetty-8.0.0.M3'}
+CommitInfo{repo='GitHub', hash='7296da144c0f21518178cd5e1e207df7f576677e', version='jetty-8.0.0.RC0'}
+CommitInfo{repo='GitHub', hash='713d483baf41099cc65ff609e24fa6179c73fb88', version='jetty-8.0.0.v20110901'}
+CommitInfo{repo='GitHub', hash='3fb56e00a2fb49e2e9764a184529f8ab7fbd6b87', version='jetty-8.0.1.v20110907'}
+CommitInfo{repo='GitHub', hash='1cffe030ca722ffdc3f0ba8eee36fa6140d00e09', version='jetty-8.0.1.v20110908'}
+CommitInfo{repo='GitHub', hash='750e7606a69be8cd7bab65f57562dd0dd5261fa7', version='jetty-8.0.2.v20111006'}
+CommitInfo{repo='GitHub', hash='1e4d85f464ad118364fc008ef0e532fd9c027d08', version='jetty-8.0.3.v20111011'}
+CommitInfo{repo='GitHub', hash='02f4049863f0fd7ffd183acb51f14fe686c8702a', version='jetty-8.0.4.v20111024'}
+CommitInfo{repo='GitHub', hash='c22d396945f84cd3a076f9206ff358abf8029cc7', version='jetty-8.1.0.RC0'}
+CommitInfo{repo='GitHub', hash='edc124660026e033d1e7ad9525fab50021af686a', version='jetty-8.1.0.RC1'}
+CommitInfo{repo='GitHub', hash='a531859088e039da704583cc8cbfc41d95570ad5', version='jetty-8.1.0.RC2'}
+CommitInfo{repo='GitHub', hash='772f9ed94d0ccfd74b0ef8e6c75a5d9cf1097e29', version='jetty-8.1.0.RC4'}
+CommitInfo{repo='GitHub', hash='98215442ea9e9f5eced4cd44e6f69f9dc9db82da', version='jetty-8.1.0.RC5'}
+CommitInfo{repo='GitHub', hash='9f80c5fef96e5807efc507c4a611e38a7172214c', version='jetty-8.1.0.v20120125'}
+CommitInfo{repo='GitHub', hash='df57589a8e791847c325ea982a3630ca4fffa3e2', version='jetty-8.1.0.v20120127'}
+CommitInfo{repo='GitHub', hash='f4f44500039268a2158398729de901f97645673f', version='jetty-8.1.10.v20130312'}
+CommitInfo{repo='GitHub', hash='66c04232f8b1788279bece96c1bd334bc29da57b', version='jetty-8.1.11.v20130520'}
+CommitInfo{repo='GitHub', hash='fc4271506009aa792a55c815c78efd01ec8d0856', version='jetty-8.1.12.v20130725'}
+CommitInfo{repo='GitHub', hash='8cd91868d362e63a24e6083497ed3a8eba8262ec', version='jetty-8.1.12.v20130726'}
+CommitInfo{repo='GitHub', hash='da9d31422eccb1d4c137284fb077e13fb731454c', version='jetty-8.1.13.v20130910'}
+CommitInfo{repo='GitHub', hash='030af0fbc2699a1d72bfdbcf9a9fc7f286fe7a59', version='jetty-8.1.13.v20130916'}
+CommitInfo{repo='GitHub', hash='ddc1e9cd555b7b47f9b73fb490ff3c3eaa79943b', version='jetty-8.1.14.v20131031'}
+CommitInfo{repo='GitHub', hash='f3cb1c5073ebe67dfe5f78bd1e581c7a6756e3d0', version='jetty-8.1.15.v20140411'}
+CommitInfo{repo='GitHub', hash='800cd040df4bd71c0338d4b9752a0d9c8639c534', version='jetty-8.1.16.v20140903'}
+CommitInfo{repo='GitHub', hash='5a015ff18aa1d5a41e220a0fa36d92298a505840', version='jetty-8.1.17.v20150415'}
+CommitInfo{repo='GitHub', hash='2cebab795280973487809bc717a3ef642cd3df54', version='jetty-8.1.18.v20150929'}
+CommitInfo{repo='GitHub', hash='b192aafff83f4346c6813ddb681a648d35c819eb', version='jetty-8.1.19.v20160209'}
+CommitInfo{repo='GitHub', hash='59d0e9251eecdacec9d81eb30a79bd6c740dad88', version='jetty-8.1.1.v20120215'}
+CommitInfo{repo='GitHub', hash='4af6fe40a6352e3a035c48b36429fe99e81755cf', version='jetty-8.1.20.v20160902'}
+CommitInfo{repo='GitHub', hash='fa4ca93f06c9aaa6bbfbf5b86bcdb1cacfb978d8', version='jetty-8.1.21.v20160908'}
+CommitInfo{repo='GitHub', hash='c10da185bb2141ba0eba4ea1728cc20660e40573', version='jetty-8.1.2.v20120302'}
+CommitInfo{repo='GitHub', hash='6d842506df369800e3063b953894e53d79e4a3d2', version='jetty-8.1.2.v20120308'}
+CommitInfo{repo='GitHub', hash='78f4c16969f03cb6936f20aef4b1b71d75be6323', version='jetty-8.1.3.v20120413'}
+CommitInfo{repo='GitHub', hash='1ff494fe9f7caf27c590a3d57b26aa163a8348fa', version='jetty-8.1.3.v20120416'}
+CommitInfo{repo='GitHub', hash='258a5e90d2cbb934d07a0ca51a40d12b3bf42e91', version='jetty-8.1.4.v20120522'}
+CommitInfo{repo='GitHub', hash='32f475cc143843ab0846938f2d1c853998e4d031', version='jetty-8.1.4.v20120524'}
+CommitInfo{repo='GitHub', hash='2ce0e45b4041810b042f11fb26df79b522eff4df', version='jetty-8.1.5.v20120713'}
+CommitInfo{repo='GitHub', hash='6190fc1c72d45d8c3c99439a54cec19b0b7c75f3', version='jetty-8.1.5.v20120716'}
+CommitInfo{repo='GitHub', hash='a307cd214695f94de66c6cfbb1a2bb327d563bf8', version='jetty-8.1.6.v20120903'}
+CommitInfo{repo='GitHub', hash='db00ff339bc7808296e88bbdace0977078607f1c', version='jetty-8.1.7.v20120910'}
+CommitInfo{repo='GitHub', hash='f6df4ad6fcdbb60c384fe289439dffcb23ed5bc0', version='jetty-8.1.8.v20121106'}
+CommitInfo{repo='GitHub', hash='d350b4d837be95a070fee20eae8a2d45d72e0a97', version='jetty-8.1.9.v20130131'}
+CommitInfo{repo='GitHub', hash='076df7c516e871ba995fcda5975be57ea6162859', version='jetty-8.2.0.v20160908'}
+CommitInfo{repo='GitHub', hash='26423d61b9f75d9adfdaa39feb8c1db9dce5da33', version='jetty-8-historical'}
+CommitInfo{repo='GitHub', hash='82fd5851bf128df4d9b620623e1c72754581d607', version='jetty-9.0.0.M0'}
+CommitInfo{repo='GitHub', hash='1ace78e8fdb488567f3bfcadd5518c7d3c9331c8', version='jetty-9.0.0.M1'}
+CommitInfo{repo='GitHub', hash='3e2cef6529218018f8582fbf07bc309e1065838d', version='jetty-9.0.0.M2'}
+CommitInfo{repo='GitHub', hash='7f33d82d039f45441f88971ed2e7c497e01b0ebd', version='jetty-9.0.0.M3'}
+CommitInfo{repo='GitHub', hash='d6bd135755564c6515b4e6f024c7f3323dc9c6b0', version='jetty-9.0.0.M4'}
+CommitInfo{repo='GitHub', hash='03e5480625e67f4097a9720573d2b6ee281b3c60', version='jetty-9.0.0.M5'}
+CommitInfo{repo='GitHub', hash='fb753ea76ba680d15ffd2fccb56bfa39ddfefd8e', version='jetty-9.0.0.RC0'}
+CommitInfo{repo='GitHub', hash='9df58c3678ece8b39deea1ec6a80af58da34c98b', version='jetty-9.0.0.RC1'}
+CommitInfo{repo='GitHub', hash='130563cdf6fe18e63829e305425bb7ea848d8648', version='jetty-9.0.0.RC2'}
+CommitInfo{repo='GitHub', hash='e75157c37d65b19b07e59f34c1afcecb657c289e', version='jetty-9.0.0.RC3'}
+CommitInfo{repo='GitHub', hash='63639c0aaccf5cd3d39d8e6839950f2ce18dd9b5', version='jetty-9.0.0.v20130308'}
+CommitInfo{repo='GitHub', hash='24b1c3111a7f823f2d9441f6123f400b4d549395', version='jetty-9.0.1.v20130408'}
+CommitInfo{repo='GitHub', hash='022cc229558601db3ed49469054cd821758db9a8', version='jetty-9.0.2.v20130417'}
+CommitInfo{repo='GitHub', hash='d65b3e4951d01e0bca56e60270499d92d3d8485c', version='jetty-9.0.2.v20140415'}
+CommitInfo{repo='GitHub', hash='c345376256c93bf4a40f5c29051f70029f2567f9', version='jetty-9.0.3.v20130506'}
+CommitInfo{repo='GitHub', hash='2f4af8a04acfa60d3eaad4138ae30f5225de960a', version='jetty-9.0.4.v20130621'}
+CommitInfo{repo='GitHub', hash='8e469caccee1eb6647f8965c458cc4724934fd98', version='jetty-9.0.4.v20130625'}
+CommitInfo{repo='GitHub', hash='2aaa4d21265c626a65b1cf4589b43d4f6ba36535', version='jetty-9.0.5.v20130813'}
+CommitInfo{repo='GitHub', hash='ebc50c88bef299581868f39c34c2f8d9137e0f5b', version='jetty-9.0.5.v20130815'}
+CommitInfo{repo='GitHub', hash='6b0ddfe56d54fa9cd00ede4a9c0ce23add9c04ac', version='jetty-9.0.6.v20130919'}
+CommitInfo{repo='GitHub', hash='1b0751fe7b24d94fe433363d6f596c83b1f0b11f', version='jetty-9.0.6.v20130930'}
+CommitInfo{repo='GitHub', hash='d52c834e4943db627508938f257276e4704bb1a7', version='jetty-9.0.7.v20131031'}
+CommitInfo{repo='GitHub', hash='a4fd97ecef0290c5c121ca412289ef9565f21ac8', version='jetty-9.0.7.v20131107'}
+CommitInfo{repo='GitHub', hash='883fe0e8317a89c46b49465bac2dcd07166e714c', version='jetty-9.0.x'}
+CommitInfo{repo='GitHub', hash='82c39b60eb6ca93df4a5c406ec72b12e4b1c143b', version='jetty-9.1.0.M0'}
+CommitInfo{repo='GitHub', hash='4d391fffadad31265985ccd280504ce1b58c4aa6', version='jetty-9.1.0.RC0'}
+CommitInfo{repo='GitHub', hash='c85e7d365c8ebcdb13add4df1e56d666d8358b39', version='jetty-9.1.0.RC1'}
+CommitInfo{repo='GitHub', hash='9f3d92de3aa61cd7661dc0b06b893b6e96174b97', version='jetty-9.1.0.RC2'}
+CommitInfo{repo='GitHub', hash='74a90d0e6571c36ac6642444e7e8bc1489043e33', version='jetty-9.1.0.v20131115'}
+CommitInfo{repo='GitHub', hash='0587a8c01ca0052934baecb951a61beb9c841466', version='jetty-9.1.1.v20140108'}
+CommitInfo{repo='GitHub', hash='ba6360d643499775fb5f7df105d874180cad2a5e', version='jetty-9.1.2.v20140210'}
+CommitInfo{repo='GitHub', hash='eee3068364dba828de8a02299bf1de0a91c769f7', version='jetty-9.1.3.v20140225'}
+CommitInfo{repo='GitHub', hash='ffd6434c73336299d080626a81545f7ee83269e6', version='jetty-9.1.4.v20140401'}
+CommitInfo{repo='GitHub', hash='6f9a3c43afefada3d21e3c928c9236c279a34d25', version='jetty-9.1.5.v20140505'}
+CommitInfo{repo='GitHub', hash='c4eb177412a8f5f9529f3d230d4c6a85a765f6ad', version='jetty-9.1.6.v20151106'}
+CommitInfo{repo='GitHub', hash='fac6d9792b5436780fa7273328935b0b12344ce3', version='jetty-9.1.6.v20151118'}
+CommitInfo{repo='GitHub', hash='00f3a66c9e85d97024da8fc421fb6fa43fedb6e9', version='jetty-9.1.6.v20160112'}
+CommitInfo{repo='GitHub', hash='13fce39b2ce77191b62c051f9befd20c00756f6c', version='jetty-9.2.0.M0'}
+CommitInfo{repo='GitHub', hash='f74b1a0248197175dfa825695374fc1c8c2c11d0', version='jetty-9.2.0.M1'}
+CommitInfo{repo='GitHub', hash='100678d329a469c90787b1d5e1268b496de8e672', version='jetty-9.2.0.RC0'}
+CommitInfo{repo='GitHub', hash='58804e5fc676605f662f284189bc4fb58f491b14', version='jetty-9.2.0.v20140523'}
+CommitInfo{repo='GitHub', hash='de9c589e4de6e97c56dd6bdec932d80cb5c5ecd2', version='jetty-9.2.0.v20140526'}
+CommitInfo{repo='GitHub', hash='914be552282085cdeac8d809f06e5144d05900a2', version='jetty-9.2.10.v20150310'}
+CommitInfo{repo='GitHub', hash='bbabfde3e1808414f97db39dfc6910c456792a06', version='jetty-9.2.11.M0'}
+CommitInfo{repo='GitHub', hash='4f7a3e00add93f5b7b9eea9098f0db9fc7d35418', version='jetty-9.2.11.v20150528'}
+CommitInfo{repo='GitHub', hash='4ff1a2599e0cc573d9699549d94eac393bfa1037', version='jetty-9.2.11.v20150529'}
+CommitInfo{repo='GitHub', hash='64bb0fdfbf57f05aff63c1647a5eec421650220a', version='jetty-9.2.12.M0'}
+CommitInfo{repo='GitHub', hash='c28ed70661603718df0d230103687181d96f6e7f', version='jetty-9.2.12.v20150709'}
+CommitInfo{repo='GitHub', hash='18a54c8bc1f89aecda58945a40cfa8a3e90c7189', version='jetty-9.2.13.v20150730'}
+CommitInfo{repo='GitHub', hash='04eba25fed0fdd62f3607b30076a2e805e119a5f', version='jetty-9.2.14.v20151106'}
+CommitInfo{repo='GitHub', hash='eb341b8b206e9020584979c0855d648d7a354c87', version='jetty-9.2.15.v20160210'}
+CommitInfo{repo='GitHub', hash='89b4b470f584f7413b24f62d3c0bab413d8ef58f', version='jetty-9.2.16.v20160407'}
+CommitInfo{repo='GitHub', hash='54e823571aebcaa662d71020e424aa45a7d1e763', version='jetty-9.2.16.v20160414'}
+CommitInfo{repo='GitHub', hash='bdf5bd7b2b0595994d69430a34f56a3a91100678', version='jetty-9.2.17.v20160517'}
+CommitInfo{repo='GitHub', hash='9c4f2bb8d883d131cb0f0f016dc80b1d5a98754b', version='jetty-9.2.18.v20160721'}
+CommitInfo{repo='GitHub', hash='b112783235f404db10208a8dbb8665f1b7b69d87', version='jetty-9.2.19.v20160908'}
+CommitInfo{repo='GitHub', hash='5e3c46acb986ff4b6ea30b237f7eb90889a4c7bb', version='jetty-9.2.1.v20140609'}
+CommitInfo{repo='GitHub', hash='06393b209ca6077bb5bdc36f9f3a544a6fa5ad7f', version='jetty-9.2.20.v20161216'}
+CommitInfo{repo='GitHub', hash='7271fe10e650a6f5b888c2022c90f15131b67cea', version='jetty-9.2.21.v20170120'}
+CommitInfo{repo='GitHub', hash='9080eaa73427925c3b5a041dfe0c5686271634f4', version='jetty-9.2.22.v20170531'}
+CommitInfo{repo='GitHub', hash='9080eaa73427925c3b5a041dfe0c5686271634f4', version='jetty-9.2.22.v20170531'}
+CommitInfo{repo='GitHub', hash='9080eaa73427925c3b5a041dfe0c5686271634f4', version='jetty-9.2.22.v20170531'}
+CommitInfo{repo='GitHub', hash='9080eaa73427925c3b5a041dfe0c5686271634f4', version='jetty-9.2.22.v20170531'}
+CommitInfo{repo='GitHub', hash='42704c5f0283669cbbd3a64204f9c7d82c7e7eda', version='jetty-9.2.22.v20170606'}
+CommitInfo{repo='GitHub', hash='d219e9475a23908e2b2104ceddedd649dcd93164', version='jetty-9.2.23.v20171218'}
+CommitInfo{repo='GitHub', hash='d2720e4869b0f71de8c7c486375ee5886496e486', version='jetty-9.2.24.v20180105'}
+CommitInfo{repo='GitHub', hash='310ebb26ab4c4c477e6732057ce745d45b95dd69', version='jetty-9.2.25.v20180606'}
+CommitInfo{repo='GitHub', hash='310ebb26ab4c4c477e6732057ce745d45b95dd69', version='jetty-9.2.25.v20180606'}
+CommitInfo{repo='GitHub', hash='310ebb26ab4c4c477e6732057ce745d45b95dd69', version='jetty-9.2.25.v20180606'}
+CommitInfo{repo='GitHub', hash='04de4f73b3f504b21bf1fa9e112699249f9dc0b4', version='jetty-9.2.26.v20180806'}
+CommitInfo{repo='GitHub', hash='1d5c91bbd8b6d4c9a75c2d9bc601c74eea87fa36', version='jetty-9.2.2.v20140723'}
+CommitInfo{repo='GitHub', hash='9562f71b910b7e6d8d60b480d283d9ea93524f42', version='jetty-9.2.3.v20140905'}
+CommitInfo{repo='GitHub', hash='b52f32c01763961ee830a522feab758729f12ffa', version='jetty-9.2.4.v20141103'}
+CommitInfo{repo='GitHub', hash='599ffef93f26dafbf0ba8aad32dff84a202fc9f7', version='jetty-9.2.5.v20141112'}
+CommitInfo{repo='GitHub', hash='f5692eeebad65d9445d48ff1b3a08988d62ae20a', version='jetty-9.2.6.v20141203'}
+CommitInfo{repo='GitHub', hash='413ae3ca8c59d4dfb9a484acc107a125cc2916ff', version='jetty-9.2.6.v20141205'}
+CommitInfo{repo='GitHub', hash='4043f4f4d3deca3da6dfddc7f92374d59dc294bd', version='jetty-9.2.7.v20150116'}
+CommitInfo{repo='GitHub', hash='e2ca4b8facb6fd0a8d7eba4d22531bf4bfcbbe3e', version='jetty-9.2.8.v20150217'}
+CommitInfo{repo='GitHub', hash='c897c8d143f29cc67abb8a847293c90cfd99011d', version='jetty-9.2.9.v20150224'}
+CommitInfo{repo='GitHub', hash='45a2d96e4145622bb678361e95444bb22989a02f', version='jetty-9.3.0.M0'}
+CommitInfo{repo='GitHub', hash='e5e04b3b88679434baacecceb19e874a54b700f6', version='jetty-9.3.0.M1'}
+CommitInfo{repo='GitHub', hash='071748bb69df7f7256afb22c6606cf12d617f94d', version='jetty-9.3.0.M2'}
+CommitInfo{repo='GitHub', hash='f5cfa2ddcd5a703ad1372d04cdd3b05387dd01b9', version='jetty-9.3.0.RC0'}
+CommitInfo{repo='GitHub', hash='6ce45236c6f6f9539f640a5ca1e2fa0b36e0c8be', version='jetty-9.3.0.RC1'}
+CommitInfo{repo='GitHub', hash='cba4801342f01cc309950755ff1cf30b93c46beb', version='jetty-9.3.0.v20150601'}
+CommitInfo{repo='GitHub', hash='32880a9a2084ba9ec728d87ba44379e4410ab16e', version='jetty-9.3.0.v20150608'}
+CommitInfo{repo='GitHub', hash='ff45b692750b87d77bc6d82c1a458d21c7c58210', version='jetty-9.3.0.v20150611'}
+CommitInfo{repo='GitHub', hash='b4c07fadd238671ee484f393550c954d02a08281', version='jetty-9.3.0.v20150612'}
+CommitInfo{repo='GitHub', hash='aa999a1501293f36408d6db46463e43ea29b3b51', version='jetty-9.3.10.M0'}
+CommitInfo{repo='GitHub', hash='e48d29a08bb645a5f75d39677d94d6f362b51882', version='jetty-9.3.10.v20160621'}
+CommitInfo{repo='GitHub', hash='fefde782516a6b43eb1f9e8a0712b89d21ad60ff', version='jetty-9.3.11.M0'}
+CommitInfo{repo='GitHub', hash='e9dca3e4bf1d7471485da2d5284f4485c93fde35', version='jetty-9.3.11.v20160721'}
+CommitInfo{repo='GitHub', hash='cdbd9676e427f21c632d1314bf59c9e860a7b405', version='jetty-9.3.12.v20160915'}
+CommitInfo{repo='GitHub', hash='3f11fad0dcc893141a33452c7294811472806691', version='jetty-9.3.13.M0'}
+CommitInfo{repo='GitHub', hash='59d7391a901bdc5e9d11c35fcf497cd218327ac0', version='jetty-9.3.13.v20161014'}
+CommitInfo{repo='GitHub', hash='179311dacb9e6ae7569f87c6d6bd9e382e84976b', version='jetty-9.3.14.v20161028'}
+CommitInfo{repo='GitHub', hash='26718c5330d573c310bc436c57c454375bdabf39', version='jetty-9.3.15.v20161216'}
+CommitInfo{repo='GitHub', hash='553a83de45db552167d093acda054d854a244094', version='jetty-9.3.15.v20161220'}
+CommitInfo{repo='GitHub', hash='e5c5815700c0fc8ed066e270d45ea2dbf4af4c0f', version='jetty-9.3.16.v20170119'}
+CommitInfo{repo='GitHub', hash='e5c5815700c0fc8ed066e270d45ea2dbf4af4c0f', version='jetty-9.3.16.v20170119'}
+CommitInfo{repo='GitHub', hash='e5c5815700c0fc8ed066e270d45ea2dbf4af4c0f', version='jetty-9.3.16.v20170119'}
+CommitInfo{repo='GitHub', hash='e172e391be4d7097b1a5e76b5461ca412a2b1de7', version='jetty-9.3.16.v20170120'}
+CommitInfo{repo='GitHub', hash='cb5efbaa99c4a931b17c43e8dd8032949e6148f8', version='jetty-9.3.17.RC0'}
+CommitInfo{repo='GitHub', hash='4aec0bb28607a12776d3f2719745801802737bec', version='jetty-9.3.17.v20170317'}
+CommitInfo{repo='GitHub', hash='fe8cb60fdf67160502878190b21963b1d793882a', version='jetty-9.3.18.v20170406'}
+CommitInfo{repo='GitHub', hash='4029e2f1bb8b9c112ed8ec0b0b39e96f6830885e', version='jetty-9.3.19.v20170501'}
+CommitInfo{repo='GitHub', hash='4029e2f1bb8b9c112ed8ec0b0b39e96f6830885e', version='jetty-9.3.19.v20170501'}
+CommitInfo{repo='GitHub', hash='8f29f8380a6a623ab8b2f87faa2a3e49f4bbb376', version='jetty-9.3.19.v20170502'}
+CommitInfo{repo='GitHub', hash='8f29f8380a6a623ab8b2f87faa2a3e49f4bbb376', version='jetty-9.3.19.v20170502'}
+CommitInfo{repo='GitHub', hash='1b05667d3c1a0f44f8d8a3c1580e9827ce5dbe33', version='jetty-9.3.1.v20150714'}
+CommitInfo{repo='GitHub', hash='8744332c1a488cebad8c59518644eb4896e9f16a', version='jetty-9.3.20.v20170531'}
+CommitInfo{repo='GitHub', hash='3220bb4f123a7205b6688d11ecdccfacd2bd37ce', version='jetty-9.3.21.M0'}
+CommitInfo{repo='GitHub', hash='74303100cb9c967aff804007b9688921a7299051', version='jetty-9.3.21.RC0'}
+CommitInfo{repo='GitHub', hash='0657debedafc7b94e588846951cae7f4ff826412', version='jetty-9.3.21.v20170918'}
+CommitInfo{repo='GitHub', hash='705048cc4958ef50aca5070c275d3594db9ab700', version='jetty-9.3.22.v20171030'}
+CommitInfo{repo='GitHub', hash='a081033dae12b7714ddb350e4be67a505a4e9cfe', version='jetty-9.3.23.v20180228'}
+CommitInfo{repo='GitHub', hash='312844307724d0e8006cfd7f1145320558a03b0c', version='jetty-9.3.24.v20180605'}
+CommitInfo{repo='GitHub', hash='312844307724d0e8006cfd7f1145320558a03b0c', version='jetty-9.3.24.v20180605'}
+CommitInfo{repo='GitHub', hash='312844307724d0e8006cfd7f1145320558a03b0c', version='jetty-9.3.24.v20180605'}
+CommitInfo{repo='GitHub', hash='312844307724d0e8006cfd7f1145320558a03b0c', version='jetty-9.3.24.v20180605'}
+CommitInfo{repo='GitHub', hash='312844307724d0e8006cfd7f1145320558a03b0c', version='jetty-9.3.24.v20180605'}
+CommitInfo{repo='GitHub', hash='bcf11777c1b5b38ab571ec9c272a128b8e1accfd', version='jetty-9.3.25.v20180904'}
+CommitInfo{repo='GitHub', hash='3da7b4794b946f8351f7f1b876a5acbdad0cac63', version='jetty-9.3.2.v20150730'}
+CommitInfo{repo='GitHub', hash='0b172cab8d28fa140dfb7a2ccdd8c9c570b87bc3', version='jetty-9.3.3.v20150825'}
+CommitInfo{repo='GitHub', hash='b5d036657600ff005687b1925d0072e331a25feb', version='jetty-9.3.3.v20150827'}
+CommitInfo{repo='GitHub', hash='7e76a26a6f3a0b61d23a985134b33083fc0fbd97', version='jetty-9.3.4.RC0'}
+CommitInfo{repo='GitHub', hash='0484a0b3ec71d06f2ee29161bd000a9669dca4fd', version='jetty-9.3.4.RC1'}
+CommitInfo{repo='GitHub', hash='c78b7c6d97ab58fcd618f7b1706b2ec1e0cf1989', version='jetty-9.3.4.v20151005'}
+CommitInfo{repo='GitHub', hash='e25ace43a6f80a2340465160bd884e543fbefb2e', version='jetty-9.3.4.v20151007'}
+CommitInfo{repo='GitHub', hash='bf2a77593b6265068ed228674f6407ea930597b3', version='jetty-9.3.5.v20151012'}
+CommitInfo{repo='GitHub', hash='95243554837584ecd9a055df4071430388032bf7', version='jetty-9.3.6.v20151106'}
+CommitInfo{repo='GitHub', hash='0e4da5f7f8e885cda60f973ad837e6c6921371de', version='jetty-9.3.7.RC0'}
+CommitInfo{repo='GitHub', hash='d7962a3eb321628a9bb5354c0f769e15e4ce34ca', version='jetty-9.3.7.RC1'}
+CommitInfo{repo='GitHub', hash='deeca5387a40f17e38658d1e501335cd1a4ac10f', version='jetty-9.3.7.v20160115'}
+CommitInfo{repo='GitHub', hash='7e0d5fd29902a350fe6abc60597d931fb0b94723', version='jetty-9.3.8.RC0'}
+CommitInfo{repo='GitHub', hash='0b93723a82f3b2186314d8555f62544b0bb6757e', version='jetty-9.3.8.v20160311'}
+CommitInfo{repo='GitHub', hash='9e4651b9bc01c4043f1fcfc1b4c41add1154fc80', version='jetty-9.3.8.v20160314'}
+CommitInfo{repo='GitHub', hash='459505be069d254b975d09b066e7fa666790f32b', version='jetty-9.3.9.M0'}
+CommitInfo{repo='GitHub', hash='6f11dfe6359f59eee2d7ef2c5c31cdc957f69bef', version='jetty-9.3.9.M1'}
+CommitInfo{repo='GitHub', hash='e9edcdc989b263c1264aed09ee347ac73f696418', version='jetty-9.3.9.v20160517'}
+CommitInfo{repo='GitHub', hash='8df1715bb99f91553a41f107f5a1b595c3265bcb', version='jetty-9.4.0.M0'}
+CommitInfo{repo='GitHub', hash='c33cf7adf592090314751e2a0b338754db9465d8', version='jetty-9.4.0.M1'}
+CommitInfo{repo='GitHub', hash='49674bb75ce4d1093a9c628b566158cfb1d88f0b', version='jetty-9.4.0.RC0'}
+CommitInfo{repo='GitHub', hash='f4bce0240aef156142c744feae2bfce42103bac3', version='jetty-9.4.0.RC1'}
+CommitInfo{repo='GitHub', hash='ebc6c8cf60f976ca3d32e2a30fa87f55df88ec9a', version='jetty-9.4.0.RC2'}
+CommitInfo{repo='GitHub', hash='a77c190790d8f1090ef1c138bacfa5103c6d5f24', version='jetty-9.4.0.RC3'}
+CommitInfo{repo='GitHub', hash='1cfc315b53c9b11f63a507c1fdc3231bddc78ff2', version='jetty-9.4.0.v20161207'}
+CommitInfo{repo='GitHub', hash='4df02a75620e69002f06238ac1b4772627ba2dfe', version='jetty-9.4.0.v20161208'}
+CommitInfo{repo='GitHub', hash='ac5b9b310d91e06890af90daa4baa02b1d0b2a63', version='jetty-9.4.0.v20180619'}
+CommitInfo{repo='GitHub', hash='9ac823bfd694314d12e5f42b17118a69427b013b', version='jetty-9.4.10.RC0'}
+CommitInfo{repo='GitHub', hash='454c91165f72370c392ca061c16c946e454f579f', version='jetty-9.4.10.RC1'}
+CommitInfo{repo='GitHub', hash='159e8bd9b61fa6825111a7fcc93d5a507909f9ac', version='jetty-9.4.10.v20180503'}
+CommitInfo{repo='GitHub', hash='ac3ee6060ceab553458788453ab807bfc1eeadff', version='jetty-9.4.11.v20180605'}
+CommitInfo{repo='GitHub', hash='ac3ee6060ceab553458788453ab807bfc1eeadff', version='jetty-9.4.11.v20180605'}
+CommitInfo{repo='GitHub', hash='ac3ee6060ceab553458788453ab807bfc1eeadff', version='jetty-9.4.11.v20180605'}
+CommitInfo{repo='GitHub', hash='ac3ee6060ceab553458788453ab807bfc1eeadff', version='jetty-9.4.11.v20180605'}
+CommitInfo{repo='GitHub', hash='ac3ee6060ceab553458788453ab807bfc1eeadff', version='jetty-9.4.11.v20180605'}
+CommitInfo{repo='GitHub', hash='ac3ee6060ceab553458788453ab807bfc1eeadff', version='jetty-9.4.11.v20180605'}
+CommitInfo{repo='GitHub', hash='ac3ee6060ceab553458788453ab807bfc1eeadff', version='jetty-9.4.11.v20180605'}
+CommitInfo{repo='GitHub', hash='85d61cd7ebe3eff0a7cc2b85aff52d229bb62789', version='jetty-9.4.12.RC0'}
+CommitInfo{repo='GitHub', hash='85d61cd7ebe3eff0a7cc2b85aff52d229bb62789', version='jetty-9.4.12.RC0'}
+CommitInfo{repo='GitHub', hash='85d61cd7ebe3eff0a7cc2b85aff52d229bb62789', version='jetty-9.4.12.RC0'}
+CommitInfo{repo='GitHub', hash='85d61cd7ebe3eff0a7cc2b85aff52d229bb62789', version='jetty-9.4.12.RC0'}
+CommitInfo{repo='GitHub', hash='753ba2a1881af00687714ec9c6cef978571d5211', version='jetty-9.4.12.RC1'}
+CommitInfo{repo='GitHub', hash='753ba2a1881af00687714ec9c6cef978571d5211', version='jetty-9.4.12.RC1'}
+CommitInfo{repo='GitHub', hash='3a8c59a7ec64fe2fc87c1b52f689cda69ad2128f', version='jetty-9.4.12.RC2'}
+CommitInfo{repo='GitHub', hash='ff0dcf065ff913d5c76588ea1b39881bc54b583a', version='jetty-9.4.12.v20180830'}
+CommitInfo{repo='GitHub', hash='bf3a54bb29806b09dabc50a43e4563e5db69c458', version='jetty-9.4.13.v20181111'}
+CommitInfo{repo='GitHub', hash='9dee5b41aca6cb9a86019ca746c563be1daad302', version='jetty-9.4.14.v20181114'}
+CommitInfo{repo='GitHub', hash='9f922f0c59b2b39ab5676b63eee42112c2067f1f', version='jetty-9.4.1.v20170120'}
+CommitInfo{repo='GitHub', hash='4bec988362affe43e584bb6fee8bb6aed355f77d', version='jetty-9.4.1.v20180619'}
+CommitInfo{repo='GitHub', hash='daf47fa2a6a7a9b4ea904be56d43d96ef1c657d0', version='jetty-9.4.2.v20170220'}
+CommitInfo{repo='GitHub', hash='c7768c974b9f9c5f086060040b09616b4da4e069', version='jetty-9.4.2.v20180619'}
+CommitInfo{repo='GitHub', hash='be45034eb3d7012ac498975836246956b97a9209', version='jetty-9.4.3.v20170317'}
+CommitInfo{repo='GitHub', hash='5d645c32729716aa1a13595702ca9acb44e84f3f', version='jetty-9.4.3.v20180619'}
+CommitInfo{repo='GitHub', hash='c3cc1454046106650fc622c4b22524bd3154892a', version='jetty-9.4.4.v20170410'}
+CommitInfo{repo='GitHub', hash='c3cc1454046106650fc622c4b22524bd3154892a', version='jetty-9.4.4.v20170410'}
+CommitInfo{repo='GitHub', hash='97208d184671e5a9db32f4af529b739071c6269a', version='jetty-9.4.4.v20170413'}
+CommitInfo{repo='GitHub', hash='02fcbca928766f6d165031a898016c39c18b1b6e', version='jetty-9.4.4.v20170414'}
+CommitInfo{repo='GitHub', hash='ece967fe304ec1cb5ab85b5299c5de2dae25dc09', version='jetty-9.4.4.v20180619'}
+CommitInfo{repo='GitHub', hash='960ff8278d989a80caf6969cbb4f62d85eb07798', version='jetty-9.4.5.v20170427'}
+CommitInfo{repo='GitHub', hash='5e46b54f720dbbf30aae742df37bcfb31fbb51d3', version='jetty-9.4.5.v20170501'}
+CommitInfo{repo='GitHub', hash='5e46b54f720dbbf30aae742df37bcfb31fbb51d3', version='jetty-9.4.5.v20170501'}
+CommitInfo{repo='GitHub', hash='67bad221fdbbec12e728320c98cd33d2eff725d9', version='jetty-9.4.5.v20170502'}
+CommitInfo{repo='GitHub', hash='96bfa0580d88edae5eb0c44e63466090ffd3ee8e', version='jetty-9.4.5.v20180619'}
+CommitInfo{repo='GitHub', hash='a2d54ee98ad080edd05c160119a0b7bafe3399ff', version='jetty-9.4.6.v20170531'}
+CommitInfo{repo='GitHub', hash='af7f80279ab3fc3c5c931d649c6ac2df929cbf4c', version='jetty-9.4.6.v20180619'}
+CommitInfo{repo='GitHub', hash='9e753c8bea7f9925883eb20d8e032faa81899cf0', version='jetty-9.4.7.RC0'}
+CommitInfo{repo='GitHub', hash='572ddc8bc14aacc37d24e791076c57637f4179f8', version='jetty-9.4.7.v20170913'}
+CommitInfo{repo='GitHub', hash='9ff74164ff1c729cd352b156b4abb4192e302987', version='jetty-9.4.7.v20170914'}
+CommitInfo{repo='GitHub', hash='9a184491331bc033e64a02776a9fa432fb5229f9', version='jetty-9.4.7.v20180619'}
+CommitInfo{repo='GitHub', hash='3514152f9b0b778ea3ea94f2d4f3609a2a409090', version='jetty-9.4.8.v20171121'}
+CommitInfo{repo='GitHub', hash='ae300718a633c8967ccbe2072d0005e6969ee986', version='jetty-9.4.8.v20180619'}
+CommitInfo{repo='GitHub', hash='ae300718a633c8967ccbe2072d0005e6969ee986', version='jetty-9.4.8.v20180619'}
+CommitInfo{repo='GitHub', hash='9373a9c664e0394c1c6d69092d325a7f1dbfe753', version='jetty-9.4.9.v20180307'}
+CommitInfo{repo='GitHub', hash='8ddbe977bd50e6f1dc7439c9667e5c2ef5c7b34c', version='jetty-9.4.9.v20180311'}
+CommitInfo{repo='GitHub', hash='163ce69f025788c7d6b1479329cc574001bcd34b', version='jetty-9.4.9.v20180320'}
+CommitInfo{repo='GitHub', hash='3c853aa46cb952027b9a80b98cefa4269c1bd07b', version='jetty-project-7.0.0.M1'}
+CommitInfo{repo='GitHub', hash='a59c9642c928f78208cf9ca32335a83f86d14a6c', version='jetty-project-7.0.0.RC3'}
+CommitInfo{repo='GitHub', hash='7afc2653adb115ab8bf65047dd6f2addcee4f5ad', version='jetty-project-7.0.2.RC0'}
+CommitInfo{repo='GitHub', hash='5c6c02cfd63fd4ca63cf59f816dc5da4bd060f3a', version='jetty-project-7.0.2.v20100331'}
+CommitInfo{repo='GitHub', hash='50812b021ce71b6ea53b343dfe9e1d9432dc4a76', version='jetty-project-7.4.2.vTEST'}
+CommitInfo{repo='GitHub', hash='57d8295f411b2d9ac54cc959c36ccd66d949d955', version='jetty-project-7.6.17.v20150415'}
+CommitInfo{repo='GitHub', hash='19531c79dfc84ab63777e859d5cac2eb80748861', version='jetty-project-8.0.0.M1'}
+CommitInfo{repo='GitHub', hash='8bbfbc2db0346eccfbb5e7b1979fff6f19f62a0a', version='npn-api-1.0.0.v20120402'}
+CommitInfo{repo='GitHub', hash='76944fce3aa8e28fe178e74865a218b8676b1cf5', version='npn-api-1.1.0.v20120525'}
+CommitInfo{repo='GitHub', hash='796e240545be41b1777bfea924c57f53251733a3', version='PRE-MERGE-20120719-1138'}
+
+Project A:
+ProjectVersionFixed(version=7.0.0.M0, dependency=null, time=2009-04-03 15:47:30 UTC)
+ProjectVersionFixed(version=7.0.0.M1, dependency=null, time=2009-04-22 08:52:01 UTC)
+ProjectVersionFixed(version=7.0.0.M2, dependency=null, time=2009-05-18 09:09:29 UTC)
+ProjectVersionFixed(version=7.0.0.M3, dependency=6.1.18, time=2009-06-18 14:19:31 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.M4, dependency=6.1.18, time=2009-07-01 19:05:44 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.RC0, dependency=6.1.18, time=2009-07-09 02:48:36 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.RC1, dependency=6.1.15, time=2009-07-15 21:27:26 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.RC2, dependency=6.1.15, time=2009-07-29 14:51:53 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.RC3, dependency=6.1.15, time=2009-08-06 14:37:29 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.RC4, dependency=6.1.15, time=2009-08-18 02:47:21 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.RC5, dependency=6.1.15, time=2009-08-27 15:28:38 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.RC6, dependency=6.1.15, time=2009-09-21 19:09:43 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.0.v20091005, dependency=6.1.15, time=2009-10-05 18:15:04 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.1.v20091125, dependency=6.1.15, time=2009-11-25 02:33:41 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.2.RC0, dependency=6.1.15, time=2010-03-09 04:54:06 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.0.2.v20100331, dependency=6.1.15, time=2010-03-31 18:51:16 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.0.RC0, dependency=6.1.15, time=2010-04-27 16:42:29 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.0.RC1, dependency=6.1.15, time=2010-05-04 21:49:31 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.0.v20100505, dependency=6.1.15, time=2010-05-05 21:19:14 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.1.v20100517, dependency=6.1.15, time=2010-05-17 19:56:38 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.2.v20100523, dependency=6.1.15, time=2010-05-23 21:03:53 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.3.v20100526, dependency=6.1.15, time=2010-05-26 19:19:57 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.4.v20100610, dependency=6.1.15, time=2010-06-11 00:37:09 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.5.v20100705, dependency=6.1.15, time=2010-07-05 14:15:59 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.1.6.v20100715, dependency=6.1.15, time=2010-07-15 17:54:13 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.2.0.RC0, dependency=6.1.15, time=2010-10-01 22:29:05 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.2.0.v20101020, dependency=6.1.15, time=2010-10-20 19:59:15 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.2.1.v20101111, dependency=6.1.15, time=2010-11-11 16:37:11 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.2.2.v20101205, dependency=6.1.15, time=2010-12-06 15:04:10 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.3.0.v20110203, dependency=6.1.15, time=2011-02-03 16:37:39 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.3.1.v20110307, dependency=6.1.15, time=2011-03-07 07:47:02 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.4.0.RC0, dependency=6.1.15, time=2011-04-07 01:48:24 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.4.0.v20110414, dependency=6.1.15, time=2011-04-14 02:38:33 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.4.1.v20110513, dependency=6.1.15, time=2011-05-13 05:01:03 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.4.2.v20110526, dependency=6.1.15, time=2011-05-26 12:41:03 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.4.3.v20110701, dependency=6.1.15, time=2011-07-01 11:17:05 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.4.4.v20110707, dependency=6.1.15, time=2011-07-07 23:47:00 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.4.5.v20110725, dependency=6.1.15, time=2011-07-25 15:19:25 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.5.0.RC0, dependency=6.1.26, time=2011-08-15 19:24:27 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.5.0.RC1, dependency=6.1.26, time=2011-08-19 12:22:26 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.5.0.RC2, dependency=6.1.26, time=2011-08-30 20:18:24 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.5.0.v20110901, dependency=6.1.26, time=2011-09-01 16:20:47 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.5.1.v20110908, dependency=6.1.26, time=2011-09-08 17:03:17 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.5.2.v20111006, dependency=6.1.26, time=2011-10-06 22:30:16 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.5.3.v20111011, dependency=6.1.26, time=2011-10-11 13:51:15 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.5.4.v20111024, dependency=6.1.26, time=2011-10-24 19:57:12 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.0.RC0, dependency=6.1.26, time=2011-11-29 13:02:09 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.0.RC1, dependency=6.1.26, time=2011-12-04 20:48:11 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.0.RC2, dependency=6.1.26, time=2011-12-22 20:03:55 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.0.RC3, dependency=6.1.26, time=2012-01-05 16:55:01 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.0.RC4, dependency=6.1.26, time=2012-01-13 16:37:05 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.0.RC5, dependency=6.1.26, time=2012-01-20 16:54:44 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.0.v20120127, dependency=6.1.26, time=2012-01-27 14:25:33 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.1.v20120215, dependency=6.1.26, time=2012-02-15 20:29:14 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.2.v20120308, dependency=6.1.26, time=2012-03-09 03:13:27 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.3.v20120416, dependency=6.1.26, time=2012-04-16 14:42:37 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.4.v20120524, dependency=6.1.26, time=2012-05-24 20:54:31 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.5.v20120716, dependency=6.1.26, time=2012-07-16 20:24:30 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.6.v20120903, dependency=6.1.26, time=2012-09-03 18:36:56 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.7.v20120910, dependency=6.1.26, time=2012-09-10 19:54:15 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.7.redhat-001, dependency=null, time=2013-10-23 19:23:45 UTC)
+ProjectVersionFixed(version=7.6.8.v20121106, dependency=6.1.26, time=2012-11-06 14:16:18 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.9.v20130131, dependency=6.1.26, time=2013-01-31 14:46:14 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.10.v20130312, dependency=6.1.26, time=2013-03-12 14:15:27 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.11.v20130520, dependency=6.1.26, time=2013-05-20 12:21:47 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.12.v20130726, dependency=6.1.26, time=2013-07-26 16:01:30 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.13.v20130916, dependency=6.1.26, time=2013-09-16 17:16:36 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.14.v20131031, dependency=6.1.26, time=2013-10-31 14:47:13 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.15.v20140411, dependency=6.1.26, time=2014-04-11 17:23:11 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.16.v20140903, dependency=6.1.26, time=2014-09-03 16:19:57 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.17.v20150415, dependency=6.1.26, time=2015-04-28 23:58:11 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.18.v20150929, dependency=6.1.26, time=2015-09-29 16:49:08 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.19.v20160209, dependency=6.1.26, time=2016-02-09 16:20:54 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.20.v20160902, dependency=6.1.26, time=2016-09-02 19:22:15 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=7.6.21.v20160908, dependency=6.1.26, time=2016-09-08 13:08:59 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.0.M0, dependency=null, time=2010-03-03 14:02:46 UTC)
+ProjectVersionFixed(version=8.0.0.M1, dependency=6.1.15, time=2010-07-12 09:26:58 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.0.M2, dependency=6.1.15, time=2010-11-16 19:38:54 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.0.M3, dependency=6.1.15, time=2011-05-27 12:02:54 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.0.RC0, dependency=6.1.26, time=2011-08-16 14:33:08 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.0.v20110901, dependency=6.1.26, time=2011-09-01 17:29:56 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.1.v20110908, dependency=6.1.26, time=2011-09-08 17:47:42 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.2.v20111006, dependency=6.1.26, time=2011-10-07 00:33:32 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.3.v20111011, dependency=6.1.26, time=2011-10-11 15:20:10 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.0.4.v20111024, dependency=6.1.26, time=2011-10-24 20:50:19 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.0.RC0, dependency=6.1.26, time=2011-11-30 03:03:37 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.0.RC1, dependency=6.1.26, time=2011-12-06 21:46:56 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.0.RC2, dependency=6.1.26, time=2011-12-22 21:21:02 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.0.RC4, dependency=6.1.26, time=2012-01-13 17:24:17 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.0.RC5, dependency=6.1.26, time=2012-01-20 18:50:28 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.0.v20120127, dependency=6.1.26, time=2012-01-27 16:06:59 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.1.v20120215, dependency=6.1.26, time=2012-02-15 21:24:04 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.2.v20120308, dependency=6.1.26, time=2012-03-09 05:57:18 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.3.v20120416, dependency=6.1.26, time=2012-04-16 15:31:21 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.4.v20120524, dependency=6.1.26, time=2012-05-24 21:40:00 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.5.v20120716, dependency=6.1.26, time=2012-07-16 21:40:38 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.6.v20120903, dependency=6.1.26, time=2012-09-03 19:35:18 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.7.v20120910, dependency=6.1.26, time=2012-09-10 19:04:23 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.8.v20121106, dependency=6.1.26, time=2012-11-06 15:01:10 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.9.v20130131, dependency=6.1.26, time=2013-01-31 18:33:04 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.9.redhat-001, dependency=null, time=2013-09-18 14:34:38 UTC)
+ProjectVersionFixed(version=8.1.10.v20130312, dependency=6.1.26, time=2013-03-12 15:28:35 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.11.v20130520, dependency=6.1.26, time=2013-05-20 13:04:52 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.12.v20130726, dependency=6.1.26, time=2013-07-26 16:57:47 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.13.v20130916, dependency=6.1.26, time=2013-09-16 19:30:33 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.14.v20131031, dependency=6.1.26, time=2013-10-31 15:37:28 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.15.v20140411, dependency=6.1.26, time=2014-04-11 18:03:40 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.16.v20140903, dependency=6.1.26, time=2014-09-03 17:54:42 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.17.v20150415, dependency=6.1.26, time=2015-04-28 22:41:20 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.18.v20150929, dependency=6.1.26, time=2015-09-29 17:51:09 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.19.v20160209, dependency=6.1.26, time=2016-02-09 17:17:24 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.20.v20160902, dependency=6.1.26, time=2016-09-02 20:09:41 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.21.v20160908, dependency=6.1.26, time=2016-09-08 16:17:08 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.1.22.v20160922, dependency=6.1.26, time=2016-09-22 13:43:41 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=8.2.0.v20160908, dependency=6.1.26, time=2016-09-08 19:56:54 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=9.0.0.M0, dependency=6.1.26, time=2012-09-21 19:25:50 UTC),	Latest, "DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)"
+
+ProjectVersionFixed(version=9.0.0.M1, dependency=null, time=2012-10-15 18:34:58 UTC)
+ProjectVersionFixed(version=9.0.0.M2, dependency=null, time=2012-11-05 22:08:04 UTC)
+ProjectVersionFixed(version=9.0.0.M3, dependency=null, time=2012-11-20 19:00:38 UTC)
+ProjectVersionFixed(version=9.0.0.M4, dependency=null, time=2012-12-21 18:59:57 UTC)
+ProjectVersionFixed(version=9.0.0.M5, dependency=null, time=2013-01-20 02:12:43 UTC)
+ProjectVersionFixed(version=9.0.0.RC0, dependency=null, time=2013-02-01 18:07:48 UTC)
+ProjectVersionFixed(version=9.0.0.RC1, dependency=null, time=2013-02-22 14:13:26 UTC)
+ProjectVersionFixed(version=9.0.0.RC2, dependency=null, time=2013-02-24 15:28:18 UTC)
+ProjectVersionFixed(version=9.0.0.v20130308, dependency=null, time=2013-03-08 18:50:13 UTC)
+ProjectVersionFixed(version=9.0.1.v20130408, dependency=null, time=2013-04-08 05:53:26 UTC)
+ProjectVersionFixed(version=9.0.2.v20130417, dependency=null, time=2013-04-17 17:08:24 UTC)
+ProjectVersionFixed(version=9.0.3.v20130506, dependency=null, time=2013-05-06 23:42:08 UTC)
+ProjectVersionFixed(version=9.0.4.v20130625, dependency=null, time=2013-06-25 16:27:52 UTC)
+ProjectVersionFixed(version=9.0.5.v20130815, dependency=null, time=2013-08-15 09:27:57 UTC)
+ProjectVersionFixed(version=9.0.6.v20130930, dependency=null, time=2013-10-03 17:42:27 UTC)
+ProjectVersionFixed(version=9.0.7.v20131107, dependency=null, time=2013-11-07 16:14:34 UTC)
+ProjectVersionFixed(version=9.1.0.M0, dependency=null, time=2013-09-16 18:18:53 UTC)
+ProjectVersionFixed(version=9.1.0.RC0, dependency=null, time=2013-10-01 02:30:43 UTC)
+ProjectVersionFixed(version=9.1.0.RC1, dependency=null, time=2013-10-31 21:50:22 UTC)
+ProjectVersionFixed(version=9.1.0.RC2, dependency=null, time=2013-11-07 17:24:23 UTC)
+ProjectVersionFixed(version=9.1.0.v20131115, dependency=null, time=2013-11-16 00:12:12 UTC)
+ProjectVersionFixed(version=9.1.1.v20140108, dependency=null, time=2014-01-08 23:01:09 UTC)
+ProjectVersionFixed(version=9.1.2.v20140210, dependency=null, time=2014-02-10 18:14:26 UTC)
+ProjectVersionFixed(version=9.1.3.v20140225, dependency=null, time=2014-02-25 21:03:26 UTC)
+ProjectVersionFixed(version=9.1.4.v20140401, dependency=null, time=2014-04-02 16:53:19 UTC)
+ProjectVersionFixed(version=9.1.5.v20140505, dependency=null, time=2014-05-05 18:29:33 UTC)
+ProjectVersionFixed(version=9.1.6.v20160112, dependency=null, time=2016-01-12 20:58:44 UTC)
+ProjectVersionFixed(version=9.2.0.M0, dependency=null, time=2014-04-09 19:27:20 UTC)
+ProjectVersionFixed(version=9.2.0.M1, dependency=null, time=2014-05-08 18:36:22 UTC)
+ProjectVersionFixed(version=9.2.0.RC0, dependency=null, time=2014-05-15 19:54:43 UTC)
+ProjectVersionFixed(version=9.2.0.v20140526, dependency=null, time=2014-05-26 17:16:00 UTC)
+ProjectVersionFixed(version=9.2.1.v20140609, dependency=null, time=2014-06-09 20:07:33 UTC)
+ProjectVersionFixed(version=9.2.2.v20140723, dependency=null, time=2014-07-23 18:26:49 UTC)
+ProjectVersionFixed(version=9.2.3.v20140905, dependency=null, time=2014-09-05 14:39:54 UTC)
+ProjectVersionFixed(version=9.2.4.v20141103, dependency=null, time=2014-11-03 20:29:13 UTC)
+ProjectVersionFixed(version=9.2.5.v20141112, dependency=null, time=2014-11-12 23:23:22 UTC)
+ProjectVersionFixed(version=9.2.6.v20141205, dependency=null, time=2014-12-05 16:14:20 UTC)
+ProjectVersionFixed(version=9.2.7.v20150116, dependency=null, time=2015-01-16 23:58:28 UTC)
+ProjectVersionFixed(version=9.2.8.v20150217, dependency=null, time=2015-02-18 00:11:16 UTC)
+ProjectVersionFixed(version=9.2.9.v20150224, dependency=null, time=2015-02-24 16:50:00 UTC)
+ProjectVersionFixed(version=9.2.10.v20150310, dependency=null, time=2015-03-10 13:28:53 UTC)
+ProjectVersionFixed(version=9.2.11.M0, dependency=null, time=2015-03-25 14:23:07 UTC)
+ProjectVersionFixed(version=9.2.11.v20150529, dependency=null, time=2015-05-29 16:34:02 UTC)
+ProjectVersionFixed(version=9.2.12.M0, dependency=null, time=2015-06-15 20:43:36 UTC)
+ProjectVersionFixed(version=9.2.12.v20150709, dependency=null, time=2015-07-09 17:58:25 UTC)
+ProjectVersionFixed(version=9.2.13.v20150730, dependency=null, time=2015-07-30 17:18:01 UTC)
+ProjectVersionFixed(version=9.2.14.v20151106, dependency=null, time=2015-11-06 17:39:55 UTC)
+ProjectVersionFixed(version=9.2.15.v20160210, dependency=null, time=2016-02-10 21:58:19 UTC)
+ProjectVersionFixed(version=9.2.16.v20160414, dependency=null, time=2016-04-14 20:28:22 UTC)
+ProjectVersionFixed(version=9.2.17.v20160517, dependency=null, time=2016-05-17 20:59:56 UTC)
+ProjectVersionFixed(version=9.2.18.v20160721, dependency=null, time=2016-07-21 19:42:09 UTC)
+ProjectVersionFixed(version=9.2.19.v20160908, dependency=null, time=2016-09-08 19:19:56 UTC)
+ProjectVersionFixed(version=9.2.20.v20161216, dependency=null, time=2016-12-16 22:55:07 UTC)
+ProjectVersionFixed(version=9.2.21.v20170120, dependency=null, time=2017-01-23 13:14:40 UTC)
+ProjectVersionFixed(version=9.2.22.v20170606, dependency=null, time=2017-06-06 14:31:12 UTC)
+ProjectVersionFixed(version=9.2.23.v20171218, dependency=null, time=2017-12-18 15:31:29 UTC)
+ProjectVersionFixed(version=9.2.24.v20180105, dependency=null, time=2018-01-05 16:36:30 UTC)
+ProjectVersionFixed(version=9.2.25.v20180606, dependency=null, time=2018-06-06 22:17:43 UTC)
+ProjectVersionFixed(version=9.2.26.v20180806, dependency=null, time=2018-08-06 15:58:59 UTC)
+ProjectVersionFixed(version=9.3.0.M0, dependency=null, time=2014-09-24 23:05:02 UTC)
+ProjectVersionFixed(version=9.3.0.M1, dependency=null, time=2014-11-03 21:41:43 UTC)
+ProjectVersionFixed(version=9.3.0.M2, dependency=null, time=2015-03-11 16:30:44 UTC)
+ProjectVersionFixed(version=9.3.0.RC0, dependency=null, time=2015-05-12 16:47:34 UTC)
+ProjectVersionFixed(version=9.3.0.RC1, dependency=null, time=2015-05-23 00:54:22 UTC)
+ProjectVersionFixed(version=9.3.0.v20150612, dependency=null, time=2015-06-12 17:20:02 UTC)
+ProjectVersionFixed(version=9.3.1.v20150714, dependency=null, time=2015-07-14 17:03:26 UTC)
+ProjectVersionFixed(version=9.3.2.v20150730, dependency=null, time=2015-07-30 18:35:59 UTC)
+ProjectVersionFixed(version=9.3.3.v20150827, dependency=null, time=2015-08-31 15:24:35 UTC)
+ProjectVersionFixed(version=9.3.4.RC0, dependency=null, time=2015-09-04 06:09:40 UTC)
+ProjectVersionFixed(version=9.3.4.RC1, dependency=null, time=2015-10-06 15:17:48 UTC)
+ProjectVersionFixed(version=9.3.4.v20151007, dependency=null, time=2015-10-07 22:07:26 UTC)
+ProjectVersionFixed(version=9.3.5.v20151012, dependency=null, time=2015-10-12 22:19:35 UTC)
+ProjectVersionFixed(version=9.3.6.v20151106, dependency=null, time=2015-11-06 18:20:21 UTC)
+ProjectVersionFixed(version=9.3.7.RC0, dependency=null, time=2016-01-05 18:26:08 UTC)
+ProjectVersionFixed(version=9.3.7.RC1, dependency=null, time=2016-01-13 14:38:44 UTC)
+ProjectVersionFixed(version=9.3.7.v20160115, dependency=null, time=2016-01-15 23:49:18 UTC)
+ProjectVersionFixed(version=9.3.8.RC0, dependency=null, time=2016-02-25 17:35:56 UTC)
+ProjectVersionFixed(version=9.3.8.v20160314, dependency=null, time=2016-03-14 15:38:49 UTC)
+ProjectVersionFixed(version=9.3.9.M0, dependency=null, time=2016-04-05 19:45:39 UTC)
+ProjectVersionFixed(version=9.3.9.M1, dependency=null, time=2016-04-11 22:44:38 UTC)
+ProjectVersionFixed(version=9.3.9.v20160517, dependency=null, time=2016-05-17 22:47:49 UTC)
+ProjectVersionFixed(version=9.3.10.M0, dependency=null, time=2016-05-26 14:15:06 UTC)
+ProjectVersionFixed(version=9.3.10.v20160621, dependency=null, time=2016-06-21 14:04:48 UTC)
+ProjectVersionFixed(version=9.3.11.M0, dependency=null, time=2016-06-22 19:09:25 UTC)
+ProjectVersionFixed(version=9.3.11.v20160721, dependency=null, time=2016-07-22 01:44:55 UTC)
+ProjectVersionFixed(version=9.3.12.v20160915, dependency=null, time=2016-09-15 13:57:54 UTC)
+ProjectVersionFixed(version=9.3.13.M0, dependency=null, time=2016-09-30 18:14:57 UTC)
+ProjectVersionFixed(version=9.3.13.v20161014, dependency=null, time=2016-10-14 17:52:47 UTC)
+ProjectVersionFixed(version=9.3.14.v20161028, dependency=null, time=2016-10-28 19:30:27 UTC)
+ProjectVersionFixed(version=9.3.15.v20161220, dependency=null, time=2016-12-20 19:41:03 UTC)
+ProjectVersionFixed(version=9.3.16.v20170120, dependency=null, time=2017-01-20 15:13:59 UTC)
+ProjectVersionFixed(version=9.3.17.RC0, dependency=null, time=2017-03-07 16:29:54 UTC)
+ProjectVersionFixed(version=9.3.17.v20170317, dependency=null, time=2017-03-17 16:17:05 UTC)
+ProjectVersionFixed(version=9.3.18.v20170406, dependency=null, time=2017-04-06 13:45:37 UTC)
+ProjectVersionFixed(version=9.3.19.v20170502, dependency=null, time=2017-05-02 21:51:36 UTC)
+ProjectVersionFixed(version=9.3.20.v20170531, dependency=null, time=2017-05-31 22:39:57 UTC)
+ProjectVersionFixed(version=9.3.21.M0, dependency=null, time=2017-08-01 17:59:52 UTC)
+ProjectVersionFixed(version=9.3.21.RC0, dependency=null, time=2017-08-16 16:15:26 UTC)
+ProjectVersionFixed(version=9.3.21.v20170918, dependency=null, time=2017-09-18 21:34:00 UTC)
+ProjectVersionFixed(version=9.3.22.v20171030, dependency=null, time=2017-10-30 20:23:01 UTC)
+ProjectVersionFixed(version=9.3.23.v20180228, dependency=null, time=2018-02-28 21:54:05 UTC)
+ProjectVersionFixed(version=9.3.24.v20180605, dependency=null, time=2018-06-05 17:28:09 UTC)
+ProjectVersionFixed(version=9.3.25.v20180904, dependency=null, time=2018-09-04 21:29:07 UTC)
+ProjectVersionFixed(version=9.4.0.M0, dependency=null, time=2016-06-03 15:38:08 UTC)
+ProjectVersionFixed(version=9.4.0.M1, dependency=null, time=2016-08-16 03:22:27 UTC)
+ProjectVersionFixed(version=9.4.0.RC0, dependency=null, time=2016-09-15 18:46:38 UTC)
+ProjectVersionFixed(version=9.4.0.RC1, dependency=null, time=2016-10-21 20:12:31 UTC)
+ProjectVersionFixed(version=9.4.0.RC2, dependency=null, time=2016-11-16 16:24:03 UTC)
+ProjectVersionFixed(version=9.4.0.RC3, dependency=null, time=2016-12-05 14:58:45 UTC)
+ProjectVersionFixed(version=9.4.0.v20161208, dependency=null, time=2016-12-08 15:06:03 UTC)
+ProjectVersionFixed(version=9.4.0.v20180619, dependency=null, time=2018-06-19 19:17:46 UTC)
+ProjectVersionFixed(version=9.4.1.v20170120, dependency=null, time=2017-01-20 15:55:56 UTC)
+ProjectVersionFixed(version=9.4.1.v20180619, dependency=null, time=2018-06-19 20:57:04 UTC)
+ProjectVersionFixed(version=9.4.2.v20170220, dependency=null, time=2017-02-20 13:41:32 UTC)
+ProjectVersionFixed(version=9.4.2.v20180619, dependency=null, time=2018-06-20 01:33:56 UTC)
+ProjectVersionFixed(version=9.4.3.v20170317, dependency=null, time=2017-03-17 17:09:13 UTC)
+ProjectVersionFixed(version=9.4.3.v20180619, dependency=null, time=2018-06-20 14:42:45 UTC)
+ProjectVersionFixed(version=9.4.4.v20170414, dependency=null, time=2017-04-14 20:41:37 UTC)
+ProjectVersionFixed(version=9.4.4.v20180619, dependency=null, time=2018-06-20 17:12:57 UTC)
+ProjectVersionFixed(version=9.4.5.v20170502, dependency=null, time=2017-05-02 20:35:19 UTC)
+ProjectVersionFixed(version=9.4.5.v20180619, dependency=null, time=2018-06-20 18:17:54 UTC)
+ProjectVersionFixed(version=9.4.6.v20170531, dependency=null, time=2017-05-31 23:32:18 UTC)
+ProjectVersionFixed(version=9.4.6.v20180619, dependency=null, time=2018-06-20 21:11:49 UTC)
+ProjectVersionFixed(version=9.4.7.RC0, dependency=null, time=2017-08-16 18:08:22 UTC)
+ProjectVersionFixed(version=9.4.7.v20170914, dependency=null, time=2017-09-14 14:48:48 UTC)
+ProjectVersionFixed(version=9.4.7.v20180619, dependency=null, time=2018-06-20 22:24:14 UTC)
+ProjectVersionFixed(version=9.4.8.v20171121, dependency=null, time=2017-11-21 21:38:04 UTC)
+ProjectVersionFixed(version=9.4.8.v20180619, dependency=null, time=2018-06-21 00:05:06 UTC)
+ProjectVersionFixed(version=9.4.9.v20180320, dependency=null, time=2018-03-20 12:40:42 UTC)
+ProjectVersionFixed(version=9.4.10.RC0, dependency=null, time=2018-04-13 16:40:10 UTC)
+ProjectVersionFixed(version=9.4.10.RC1, dependency=null, time=2018-04-26 22:32:00 UTC)
+ProjectVersionFixed(version=9.4.10.v20180503, dependency=null, time=2018-05-03 16:13:49 UTC)
+ProjectVersionFixed(version=9.4.11.v20180605, dependency=null, time=2018-06-05 18:34:04 UTC)
+ProjectVersionFixed(version=9.4.12.RC0, dependency=null, time=2018-07-17 16:27:17 UTC)
+ProjectVersionFixed(version=9.4.12.RC1, dependency=null, time=2018-08-01 17:42:45 UTC)
+ProjectVersionFixed(version=9.4.12.RC2, dependency=null, time=2018-08-14 16:58:01 UTC)
+ProjectVersionFixed(version=9.4.12.v20180830, dependency=null, time=2018-08-30 14:40:16 UTC)
+
+Project B:
+DependencyVersion(version=6.0.0, time=2006-09-11 08:43:48 UTC)
+DependencyVersion(version=6.0.0beta1, time=2006-03-14 17:35:32 UTC)
+DependencyVersion(version=6.0.0beta14, time=2006-04-09 21:51:12 UTC)
+DependencyVersion(version=6.0.0beta15, time=2006-05-11 21:22:02 UTC)
+DependencyVersion(version=6.0.0beta16, time=2006-05-15 03:41:59 UTC)
+DependencyVersion(version=6.0.0beta17, time=2006-06-02 07:31:19 UTC)
+DependencyVersion(version=6.0.0rc0, time=2006-07-06 23:38:17 UTC)
+DependencyVersion(version=6.0.0rc1, time=2006-08-16 15:49:15 UTC)
+DependencyVersion(version=6.0.0rc2, time=2006-08-25 13:36:01 UTC)
+DependencyVersion(version=6.0.0rc3, time=2006-09-01 15:29:02 UTC)
+DependencyVersion(version=6.0.0rc4, time=2006-09-05 14:53:01 UTC)
+DependencyVersion(version=6.0.1, time=2006-09-24 21:41:23 UTC)
+DependencyVersion(version=6.0.2, time=2006-11-23 09:55:40 UTC)
+DependencyVersion(version=6.1.0, time=2007-01-05 18:54:09 UTC)
+DependencyVersion(version=6.1.0pre0, time=2006-10-21 19:05:00 UTC)
+DependencyVersion(version=6.1.0pre1, time=2006-11-18 11:33:11 UTC)
+DependencyVersion(version=6.1.0pre2, time=2006-11-20 06:36:30 UTC)
+DependencyVersion(version=6.1.0pre3, time=2006-11-23 11:58:07 UTC)
+DependencyVersion(version=6.1.0rc0, time=2006-12-08 12:22:25 UTC)
+DependencyVersion(version=6.1.0rc1, time=2006-12-13 21:55:01 UTC)
+DependencyVersion(version=6.1.0rc2, time=2006-12-20 21:33:57 UTC)
+DependencyVersion(version=6.1.0rc3, time=2007-01-02 18:07:04 UTC)
+DependencyVersion(version=6.1.1, time=2007-01-15 15:54:41 UTC)
+DependencyVersion(version=6.1.10, time=2008-05-21 16:05:36 UTC)
+DependencyVersion(version=6.1.11, time=2008-06-09 14:37:29 UTC)
+DependencyVersion(version=6.1.12, time=2008-11-05 00:31:33 UTC)
+DependencyVersion(version=6.1.12rc1, time=2008-08-01 07:10:48 UTC)
+DependencyVersion(version=6.1.12.rc2, time=2008-09-12 14:10:20 UTC)
+DependencyVersion(version=6.1.12.rc3, time=2008-10-12 01:28:38 UTC)
+DependencyVersion(version=6.1.12.rc4, time=2008-10-21 16:18:59 UTC)
+DependencyVersion(version=6.1.12.rc5, time=2008-10-30 16:01:29 UTC)
+DependencyVersion(version=6.1.14, time=2008-11-14 00:49:22 UTC)
+DependencyVersion(version=6.1.15, time=2009-03-05 15:36:26 UTC)
+DependencyVersion(version=6.1.15.pre0, time=2009-01-21 02:37:24 UTC)
+DependencyVersion(version=6.1.15.rc2, time=2009-01-23 18:13:10 UTC)
+DependencyVersion(version=6.1.15.rc3, time=2009-01-28 19:10:36 UTC)
+DependencyVersion(version=6.1.15.rc4, time=2009-02-19 03:14:12 UTC)
+DependencyVersion(version=6.1.15.rc5, time=2009-02-26 23:14:13 UTC)
+DependencyVersion(version=6.1.16, time=2009-04-03 16:35:27 UTC)
+DependencyVersion(version=6.1.17, time=2009-04-30 14:03:06 UTC)
+DependencyVersion(version=6.1.18, time=2009-05-18 08:19:17 UTC)
+DependencyVersion(version=6.1.19, time=2009-07-03 03:04:25 UTC)
+DependencyVersion(version=6.1.1rc0, time=2007-01-09 15:06:16 UTC)
+DependencyVersion(version=6.1.1rc1, time=2007-01-12 01:00:56 UTC)
+DependencyVersion(version=6.1.2, time=2007-05-02 02:06:32 UTC)
+DependencyVersion(version=6.1.20, time=2009-08-27 16:25:22 UTC)
+DependencyVersion(version=6.1.21, time=2009-09-22 23:42:36 UTC)
+DependencyVersion(version=6.1.22, time=2009-11-17 04:25:57 UTC)
+DependencyVersion(version=6.1.23, time=2010-04-05 22:31:41 UTC)
+DependencyVersion(version=6.1.24, time=2010-04-21 18:43:44 UTC)
+DependencyVersion(version=6.1.25, time=2010-07-26 13:21:47 UTC)
+DependencyVersion(version=6.1.26, time=2010-11-10 21:38:19 UTC)
+DependencyVersion(version=6.1.26.cloudera.1, time=2011-09-27 20:35:41 UTC)
+DependencyVersion(version=6.1.26.cloudera.2, time=2012-08-31 18:06:39 UTC)
+DependencyVersion(version=6.1.26.cloudera.3, time=2014-10-20 15:40:10 UTC)
+DependencyVersion(version=6.1.26.cloudera.4, time=2014-11-11 18:07:29 UTC)
+DependencyVersion(version=6.1.26RC0, time=2010-10-19 21:30:19 UTC)
+DependencyVersion(version=6.1.2pre0, time=2007-02-01 16:52:52 UTC)
+DependencyVersion(version=6.1.2pre1, time=2007-02-05 09:22:52 UTC)
+DependencyVersion(version=6.1.2rc0, time=2007-02-15 13:05:32 UTC)
+DependencyVersion(version=6.1.2rc1, time=2007-03-08 12:47:23 UTC)
+DependencyVersion(version=6.1.2rc2, time=2007-03-27 22:24:50 UTC)
+DependencyVersion(version=6.1.2rc4, time=2007-04-19 10:47:16 UTC)
+DependencyVersion(version=6.1.2rc5, time=2007-04-24 13:10:45 UTC)
+DependencyVersion(version=6.1.3, time=2007-05-04 17:18:58 UTC)
+DependencyVersion(version=6.1.4, time=2007-06-15 23:21:20 UTC)
+DependencyVersion(version=6.1.4rc0, time=2007-05-30 11:24:05 UTC)
+DependencyVersion(version=6.1.4rc1, time=2007-06-10 05:21:42 UTC)
+DependencyVersion(version=6.1.5, time=2007-07-23 06:03:06 UTC)
+DependencyVersion(version=6.1.5rc0, time=2007-07-16 10:59:32 UTC)
+DependencyVersion(version=6.1.6, time=2007-11-22 05:34:07 UTC)
+DependencyVersion(version=6.1.6rc0, time=2007-10-04 05:01:01 UTC)
+DependencyVersion(version=6.1.6rc1, time=2007-11-05 06:07:21 UTC)
+DependencyVersion(version=6.1.7, time=2007-12-24 07:14:58 UTC)
+DependencyVersion(version=6.1.8, time=2008-03-03 08:09:49 UTC)
+DependencyVersion(version=6.1.9, time=2008-04-01 14:58:18 UTC)
+DependencyVersion(version=6.1H.10, time=2008-06-28 02:16:24 UTC)
+DependencyVersion(version=6.1H.14, time=2009-01-14 14:57:40 UTC)
+DependencyVersion(version=6.1H.14.1, time=2009-01-14 15:39:40 UTC)
+DependencyVersion(version=6.1H.22, time=2009-11-19 03:38:53 UTC)
+DependencyVersion(version=6.1H.4-beta, time=2007-07-05 04:26:51 UTC)
+DependencyVersion(version=6.1H.4rc1, time=2007-06-13 08:37:37 UTC)
+DependencyVersion(version=6.1H.5-beta, time=2007-08-13 01:58:07 UTC)
+DependencyVersion(version=6.1H.6, time=2007-12-06 03:48:18 UTC)
+DependencyVersion(version=6.1H.7, time=2007-12-24 08:21:50 UTC)
+DependencyVersion(version=6.1H.8, time=2008-03-08 08:14:39 UTC)
+DependencyVersion(version=6.1-SONATYPE-20090119, time=2009-01-20 00:00:57 UTC)
+DependencyVersion(version=7.0.0pre0, time=2008-04-22 16:02:49 UTC)
+DependencyVersion(version=7.0.0pre1, time=2008-05-04 12:48:00 UTC)
+DependencyVersion(version=7.0.0pre2, time=2008-06-30 11:48:07 UTC)
+DependencyVersion(version=7.0.0pre3, time=2008-08-05 21:18:00 UTC)
+DependencyVersion(version=7.0.0.pre4, time=2008-10-28 23:15:07 UTC)
+DependencyVersion(version=7.0.0.pre5, time=2008-10-30 19:27:38 UTC)

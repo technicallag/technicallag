@@ -1,12 +1,14 @@
 package masters.flexilag;
 
+import masters.libiostudy.Version;
+
 /**
  * @author ______
  */
 public class PubLagChecker implements LagChecker {
 
     @Override
-    public MatcherResult matches(String version, String classification, String declaration) {
+    public MatcherResult matches(Version version, String classification, String declaration) {
         return MatcherResult.NOT_SUPPORTED;
     }
 

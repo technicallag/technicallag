@@ -1,0 +1,347 @@
+
+Project information
+com.liferay:com.liferay.announcements.web (3138854)	com.liferay.portal:com.liferay.portal.impl (2259498)	Package Manager: Maven
+RepoID: 165909
+Tag information:
+CommitInfo{repo='GitHub', hash='7b9b4432586464f353fcb65893ecf22f635c80d6', version='6.1.0-b1'}
+CommitInfo{repo='GitHub', hash='4f5603382bdec76b2342fa4fbc2088fde55a6701', version='6.1.0-b2'}
+CommitInfo{repo='GitHub', hash='037e5369e4770a9ca7ee4e39f0dbb2eb2862532a', version='6.1.0-b3'}
+CommitInfo{repo='GitHub', hash='2ced8fc435f38494ae939edcb6bf0872006d289e', version='6.1.0-b4'}
+CommitInfo{repo='GitHub', hash='73c2fa07b6d1ce2d0b52d290fda7c859ed3ec5d9', version='6.1.0-ga1'}
+CommitInfo{repo='GitHub', hash='c41fe6f9251c732abbbaff0833093997f45fe771', version='6.1.0-rc1'}
+CommitInfo{repo='GitHub', hash='fe708510b1566583870a6be892d86f1761a1e64b', version='6.1.1-ga2'}
+CommitInfo{repo='GitHub', hash='a3636a9d8cf1db7d6d4c37dfb66b5696826e6181', version='6.1.2-ga3'}
+CommitInfo{repo='GitHub', hash='7db0dccf7d7890a9eed7850a87ddd98e44e44334', version='6.2.0-b1'}
+CommitInfo{repo='GitHub', hash='cc5f17f39dea3f623cec5b712e1969eced6392a8', version='6.2.0-b2'}
+CommitInfo{repo='GitHub', hash='3ca050d98b0375da829c67275956a96f72ef67ff', version='6.2.0-ga1'}
+CommitInfo{repo='GitHub', hash='102d1733262a50f3b38b0ac345cf4edcec0c0147', version='6.2.0-m1'}
+CommitInfo{repo='GitHub', hash='88c0f2887b0b043996debaa2ac89cfbb58bf34d4', version='6.2.0-m2'}
+CommitInfo{repo='GitHub', hash='5e70cf5d85b7b8d134231a5a849f7c14ec999c37', version='6.2.0-m3'}
+CommitInfo{repo='GitHub', hash='b3d91bbdf96c0b496a9e9d413c853fd4ec4dd398', version='6.2.0-m4'}
+CommitInfo{repo='GitHub', hash='88ce66386e7523b9a6a13f4452671bda5ebf3c00', version='6.2.0-m5'}
+CommitInfo{repo='GitHub', hash='2fe263fd4a97be4062f8f610faaf951b59ba9812', version='6.2.0-m6'}
+CommitInfo{repo='GitHub', hash='b763e6b461b351df22d19cfeef6cc6e87dc063a2', version='6.2.0-rc1'}
+CommitInfo{repo='GitHub', hash='1a0613d1058c2026fcd0a95f42e7ee691cb5152a', version='6.2.0-rc2'}
+CommitInfo{repo='GitHub', hash='a4975bcab9dbeed99486741ab9bfb11af986603f', version='6.2.0-rc3'}
+CommitInfo{repo='GitHub', hash='dd0055a1dbc65732bc0b4e3fb8142ef31e247ff8', version='6.2.0-rc4'}
+CommitInfo{repo='GitHub', hash='81f35b7112af4ab38e8fe2e0e44f8c9cea5d6927', version='6.2.0-rc5'}
+CommitInfo{repo='GitHub', hash='a70f328d72613022e94f40f963a8b65d6a84b365', version='6.2.0-rc6'}
+CommitInfo{repo='GitHub', hash='93e22c329f89bfa8056fd1038700c8cc0852ad77', version='6.2.1-ga2'}
+CommitInfo{repo='GitHub', hash='dd5ac7f5cf0102e1d230c5840a29f473cdbeb2e3', version='6.2.2-ga3'}
+CommitInfo{repo='GitHub', hash='20502a3ea3a6498a038b27530f3f35f3a511ec75', version='6.2.3-ga4'}
+CommitInfo{repo='GitHub', hash='cb6351aff7ad2cb5dcf4c30e7583079770757425', version='6.2.4-ga5'}
+CommitInfo{repo='GitHub', hash='65d7a800f1a57b232a127bdcaefb876a9de469f9', version='6.2.5-ga6'}
+CommitInfo{repo='GitHub', hash='d2398d94d4ffa150583ba0c62c3550d4f4f83589', version='7.0.0-a1'}
+CommitInfo{repo='GitHub', hash='9a80f48af2541586e6307ad92d7a02ca2c6f430e', version='7.0.0-a2'}
+CommitInfo{repo='GitHub', hash='60664c4e1d1d5ca6add187ff9acb83ed5008b261', version='7.0.0-a3'}
+CommitInfo{repo='GitHub', hash='4476dacd585901c8d316631a46df0d24eec3e0e8', version='7.0.0-a4'}
+CommitInfo{repo='GitHub', hash='acb98944e2d50be190a6f158fcfc228aa0446766', version='7.0.0-a5'}
+CommitInfo{repo='GitHub', hash='decfba54a02192a2434590dc2aac2845b8beeb0f', version='7.0.0-b1'}
+CommitInfo{repo='GitHub', hash='5e60a730661d8c0559d51b0b3894afd0722449df', version='7.0.0-b2'}
+CommitInfo{repo='GitHub', hash='eda5f487af1ce4b92a3663b1748b17243f437557', version='7.0.0-b3'}
+CommitInfo{repo='GitHub', hash='91d309e8a602386a31c4604712e0db95643e16f5', version='7.0.0-b4'}
+CommitInfo{repo='GitHub', hash='56674425a32dfa5898ee76dcd88e2fe2d9c5b870', version='7.0.0-b5'}
+CommitInfo{repo='GitHub', hash='e30d2596496ee8c3b3267f62e5d22bcd9325258b', version='7.0.0-b6'}
+CommitInfo{repo='GitHub', hash='2911741499c37a012cc9251abf79732b63d5bfb4', version='7.0.0-b7'}
+CommitInfo{repo='GitHub', hash='7a5e02e717b98b9c9ffcf54eb27d061fdac5c588', version='7.0.0-ga1'}
+CommitInfo{repo='GitHub', hash='16d03be248641f92824e33f48a0ff952dfe59703', version='7.0.0-ga2'}
+CommitInfo{repo='GitHub', hash='b0b9e85245327a06dbceac9407cdff2465b757a6', version='7.0.0-m1'}
+CommitInfo{repo='GitHub', hash='586bf2c21b0bd775aedc0789c37d6111da043d76', version='7.0.0-m2'}
+CommitInfo{repo='GitHub', hash='712e525580fa83d989cb748dbab27dc7a5d94ccd', version='7.0.0-m3'}
+CommitInfo{repo='GitHub', hash='7ea9043aa7383d4f2d1656135b535f3276608988', version='7.0.0-m4'}
+CommitInfo{repo='GitHub', hash='0ea0614a95bd1c31945a9a096e22f40cdf29700c', version='7.0.0-m5'}
+CommitInfo{repo='GitHub', hash='c98c005f2a37c49feaaa7c96e052edd85da60dbe', version='7.0.0-m6'}
+CommitInfo{repo='GitHub', hash='d23485b8092ee466ef4550d694bfd85a49c20285', version='7.0.0-m7'}
+CommitInfo{repo='GitHub', hash='16d03be248641f92824e33f48a0ff952dfe59703', version='7.0.1-ga2'}
+CommitInfo{repo='GitHub', hash='475b9805d040f0ce2a046955bd68bf16fe1c2f0e', version='7.0.2-ga3'}
+CommitInfo{repo='GitHub', hash='b2d7cc68a80f974282a379aa700e22387c70c50a', version='7.0.3-ga4'}
+CommitInfo{repo='GitHub', hash='07af97431ed9c9ce34dfd814fc14adfc5911450d', version='7.0.4-ga5'}
+CommitInfo{repo='GitHub', hash='1315ff6875135daf5f41378e56cdd6def2ac7e14', version='7.0.5-ga6'}
+CommitInfo{repo='GitHub', hash='e1ac3de357b51e64ba77c121e5f65fe5b6f297f8', version='7.0.6-ga7'}
+CommitInfo{repo='GitHub', hash='c21656293330905eef482081b05eda9897bd8267', version='7.1.0-a1'}
+CommitInfo{repo='GitHub', hash='3251695ebe0a9570ca6cfdd7b7b789fddde08859', version='7.1.0-a2'}
+CommitInfo{repo='GitHub', hash='ea4f66893facaf6c2403a7eb96390dc42e2d62fb', version='7.1.0-b1'}
+CommitInfo{repo='GitHub', hash='7405cb6b216d9b67f7d0f6e99b8f70b3b1812148', version='7.1.0-b2'}
+CommitInfo{repo='GitHub', hash='aa2c022f6b63addd28bff66a2d8fdf0c1a5a268e', version='7.1.0-b3'}
+CommitInfo{repo='GitHub', hash='bf9943b93ff9473888db9fac9695168575fa3ab2', version='7.1.0-ga1'}
+CommitInfo{repo='GitHub', hash='d67b55c18ccb3d6e9d142f8148032d0d130fe9cb', version='7.1.0-m1'}
+CommitInfo{repo='GitHub', hash='5d9fb631f3719c9f3e5002e50fb40951aaf43cc9', version='7.1.0-m2'}
+CommitInfo{repo='GitHub', hash='439f94cc22eea87c56abb3405b6f8e3ba705dacb', version='7.1.0-rc1'}
+CommitInfo{repo='GitHub', hash='b592d429e865da88827138e975fa3b82bd8ba8fd', version='7.1.1-ga2'}
+CommitInfo{repo='GitHub', hash='d15034edcc38331fbc5269106500e1db5f5b0a7a', version='sync-3.0.0-b1'}
+CommitInfo{repo='GitHub', hash='871f8a4f786463acd9b71c86da075c114031a454', version='sync-3.0.10-ga2'}
+CommitInfo{repo='GitHub', hash='6e896de12c79ddadab4b38a6758345da930013b3', version='sync-3.0.1-b2'}
+CommitInfo{repo='GitHub', hash='5818be946782c127ea01faf3f5ee407b992511a6', version='sync-3.0.2-b3'}
+CommitInfo{repo='GitHub', hash='41e3aed06729ca8330d5806b65992caa04ca4044', version='sync-3.0.3-b4'}
+CommitInfo{repo='GitHub', hash='8326971296a9b1f94e0df8eade9272d7641f8982', version='sync-3.0.4-b5'}
+CommitInfo{repo='GitHub', hash='1e6f0a84e01210c70f7cd5ae115baec10f543d72', version='sync-3.0.5-b6'}
+CommitInfo{repo='GitHub', hash='8f8c42a1cccb4f0907306728c04c00bc6fc2abaf', version='sync-3.0.6-b7'}
+CommitInfo{repo='GitHub', hash='821251344bd8de9662b375dc352fe98ada15b62f', version='sync-3.0.7-b8'}
+CommitInfo{repo='GitHub', hash='5b69e80e41b5936b458a31852dfac57c9c960dfb', version='sync-3.0.8-b9'}
+CommitInfo{repo='GitHub', hash='b5345a286e92e6d9f377825c5887b1c529a0b170', version='sync-3.0.9-ga1'}
+CommitInfo{repo='GitHub', hash='24d76b93961e10beb0418dd19465155e285ba3ea', version='sync-3.1.0-ga1'}
+CommitInfo{repo='GitHub', hash='2e89e542a4d890864fb9cf38f04483ad5f5ce637', version='test-sandbox-2-fix-pack-fix-89660450'}
+
+Project A:
+ProjectVersionFixed(version=1.0.0, dependency=2.0.0, time=2016-03-21 07:48:48 UTC),	Latest, "DependencyVersion(version=2.1.0, time=2016-03-18 06:08:36 UTC)"
+
+ProjectVersionFixed(version=1.0.1, dependency=2.0.0, time=2016-03-21 07:49:46 UTC),	Latest, "DependencyVersion(version=2.1.0, time=2016-03-18 06:08:36 UTC)"
+
+ProjectVersionFixed(version=1.0.2, dependency=2.2.0, time=2016-03-30 23:32:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.3, dependency=2.2.0, time=2016-03-31 15:39:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.4, dependency=2.0.0, time=2016-06-01 06:14:23 UTC),	Latest, "DependencyVersion(version=2.4.0, time=2016-05-31 04:08:15 UTC)"
+
+ProjectVersionFixed(version=1.0.5, dependency=2.0.0, time=2016-06-08 00:02:31 UTC),	Latest, "DependencyVersion(version=2.4.0, time=2016-05-31 04:08:15 UTC)"
+
+ProjectVersionFixed(version=1.0.6, dependency=2.0.0, time=2016-07-23 16:10:54 UTC),	Latest, "DependencyVersion(version=2.6.0, time=2016-07-22 20:35:08 UTC)"
+
+ProjectVersionFixed(version=1.0.7, dependency=2.0.0, time=2016-09-01 22:32:13 UTC),	Latest, "DependencyVersion(version=2.7.0, time=2016-08-20 05:39:00 UTC)"
+
+ProjectVersionFixed(version=1.0.8, dependency=2.0.0, time=2016-09-27 19:27:19 UTC),	Latest, "DependencyVersion(version=2.7.0, time=2016-08-20 05:39:00 UTC)"
+
+ProjectVersionFixed(version=1.0.9, dependency=2.0.0, time=2016-12-02 05:20:54 UTC),	Latest, "DependencyVersion(version=2.9.0, time=2016-10-21 05:40:17 UTC)"
+
+ProjectVersionFixed(version=1.0.10, dependency=2.0.0, time=2016-12-08 19:08:04 UTC),	Latest, "DependencyVersion(version=2.9.0, time=2016-10-21 05:40:17 UTC)"
+
+ProjectVersionFixed(version=1.1.0, dependency=2.0.0, time=2017-01-04 21:04:32 UTC),	Latest, "DependencyVersion(version=2.9.0, time=2016-10-21 05:40:17 UTC)"
+
+ProjectVersionFixed(version=1.1.1, dependency=2.0.0, time=2017-01-05 06:02:59 UTC),	Latest, "DependencyVersion(version=2.10.0, time=2017-01-05 04:08:39 UTC)"
+
+ProjectVersionFixed(version=1.1.2, dependency=2.0.0, time=2017-02-06 21:55:26 UTC),	Latest, "DependencyVersion(version=2.11.0, time=2017-01-30 00:16:49 UTC)"
+
+ProjectVersionFixed(version=1.1.3, dependency=2.0.0, time=2017-02-13 05:24:16 UTC),	Latest, "DependencyVersion(version=2.11.0, time=2017-01-30 00:16:49 UTC)"
+
+ProjectVersionFixed(version=1.1.4, dependency=2.0.0, time=2017-02-15 05:54:19 UTC),	Latest, "DependencyVersion(version=2.11.0, time=2017-01-30 00:16:49 UTC)"
+
+ProjectVersionFixed(version=1.1.5, dependency=2.0.0, time=2017-03-17 20:41:35 UTC),	Latest, "DependencyVersion(version=2.11.0, time=2017-01-30 00:16:49 UTC)"
+
+ProjectVersionFixed(version=1.1.6, dependency=2.0.0, time=2017-04-07 05:15:47 UTC),	Latest, "DependencyVersion(version=2.14.0, time=2017-04-07 04:16:05 UTC)"
+
+ProjectVersionFixed(version=1.1.7, dependency=2.0.0, time=2017-04-28 06:32:49 UTC),	Latest, "DependencyVersion(version=2.14.0, time=2017-04-07 04:16:05 UTC)"
+
+ProjectVersionFixed(version=1.1.8, dependency=2.0.0, time=2017-05-12 01:41:11 UTC),	Latest, "DependencyVersion(version=2.14.0, time=2017-04-07 04:16:05 UTC)"
+
+ProjectVersionFixed(version=1.1.9, dependency=2.0.0, time=2017-06-02 00:20:36 UTC),	Latest, "DependencyVersion(version=2.15.0, time=2017-05-24 05:20:28 UTC)"
+
+ProjectVersionFixed(version=1.1.10, dependency=2.0.0, time=2017-08-31 01:25:04 UTC),	Latest, "DependencyVersion(version=2.20.0, time=2017-08-28 20:43:47 UTC)"
+
+ProjectVersionFixed(version=1.1.11, dependency=2.0.0, time=2017-10-09 04:15:08 UTC),	Latest, "DependencyVersion(version=2.21.0, time=2017-09-14 21:16:54 UTC)"
+
+ProjectVersionFixed(version=1.1.12, dependency=2.0.0, time=2017-10-11 22:38:08 UTC),	Latest, "DependencyVersion(version=2.21.0, time=2017-09-14 21:16:54 UTC)"
+
+ProjectVersionFixed(version=1.1.13, dependency=2.0.0, time=2017-10-12 03:55:36 UTC),	Latest, "DependencyVersion(version=2.21.0, time=2017-09-14 21:16:54 UTC)"
+
+ProjectVersionFixed(version=1.1.14, dependency=2.0.0, time=2017-10-25 18:28:28 UTC),	Latest, "DependencyVersion(version=2.22.0, time=2017-10-12 16:06:32 UTC)"
+
+ProjectVersionFixed(version=2.0.0, dependency=2.0.0, time=2017-11-08 22:30:55 UTC),	Latest, "DependencyVersion(version=2.22.0, time=2017-10-12 16:06:32 UTC)"
+
+ProjectVersionFixed(version=2.0.1, dependency=2.0.0, time=2017-11-22 19:05:39 UTC),	Latest, "DependencyVersion(version=2.23.0, time=2017-11-13 23:34:03 UTC)"
+
+ProjectVersionFixed(version=2.0.2, dependency=2.0.0, time=2017-12-06 02:20:53 UTC),	Latest, "DependencyVersion(version=2.24.0, time=2017-12-01 18:56:57 UTC)"
+
+ProjectVersionFixed(version=2.0.3, dependency=2.0.0, time=2017-12-06 18:45:32 UTC),	Latest, "DependencyVersion(version=2.25.0, time=2017-12-06 17:10:51 UTC)"
+
+ProjectVersionFixed(version=2.0.4, dependency=2.0.0, time=2017-12-17 05:49:39 UTC),	Latest, "DependencyVersion(version=2.25.1, time=2017-12-11 19:31:25 UTC)"
+
+ProjectVersionFixed(version=2.0.5, dependency=2.0.0, time=2017-12-25 18:54:01 UTC),	Latest, "DependencyVersion(version=2.25.3, time=2017-12-25 17:19:12 UTC)"
+
+ProjectVersionFixed(version=2.0.6, dependency=2.0.0, time=2018-01-09 21:01:23 UTC),	Latest, "DependencyVersion(version=2.26.0, time=2018-01-05 04:13:41 UTC)"
+
+ProjectVersionFixed(version=2.0.7, dependency=2.0.0, time=2018-01-20 04:52:15 UTC),	Latest, "DependencyVersion(version=2.26.2, time=2018-01-12 06:09:49 UTC)"
+
+ProjectVersionFixed(version=2.0.8, dependency=2.0.0, time=2018-03-23 00:15:03 UTC),	Latest, "DependencyVersion(version=2.29.0, time=2018-03-05 22:22:37 UTC)"
+
+ProjectVersionFixed(version=2.0.9, dependency=null, time=2018-04-06 05:38:29 UTC)
+ProjectVersionFixed(version=2.0.10, dependency=null, time=2018-05-11 19:02:43 UTC)
+ProjectVersionFixed(version=2.0.11, dependency=null, time=2018-05-31 16:14:20 UTC)
+ProjectVersionFixed(version=2.0.12, dependency=null, time=2018-06-23 05:27:20 UTC)
+ProjectVersionFixed(version=2.0.13, dependency=null, time=2018-06-27 19:38:03 UTC)
+ProjectVersionFixed(version=2.0.14, dependency=null, time=2018-07-04 06:36:28 UTC)
+ProjectVersionFixed(version=2.0.17, dependency=null, time=2018-08-29 19:39:22 UTC)
+ProjectVersionFixed(version=3.0.0, dependency=null, time=2018-06-15 14:43:04 UTC)
+ProjectVersionFixed(version=3.0.1, dependency=null, time=2018-06-25 20:30:01 UTC)
+ProjectVersionFixed(version=3.0.2, dependency=null, time=2018-07-02 19:22:30 UTC)
+ProjectVersionFixed(version=3.0.3, dependency=null, time=2018-07-05 03:23:17 UTC)
+ProjectVersionFixed(version=3.0.4, dependency=null, time=2018-07-07 04:57:44 UTC)
+ProjectVersionFixed(version=3.0.7, dependency=null, time=2018-08-23 20:14:23 UTC)
+ProjectVersionFixed(version=3.0.8, dependency=null, time=2018-09-14 02:28:15 UTC)
+ProjectVersionFixed(version=3.0.9, dependency=null, time=2018-09-19 04:43:06 UTC)
+
+Project B:
+DependencyVersion(version=1.0.0, time=2016-03-04 17:40:02 UTC)
+DependencyVersion(version=1.0.1, time=2016-03-09 19:55:51 UTC)
+DependencyVersion(version=2.0.0, time=2016-03-12 05:51:43 UTC)
+DependencyVersion(version=2.1.0, time=2016-03-18 06:08:36 UTC)
+DependencyVersion(version=2.10.0, time=2017-01-05 04:08:39 UTC)
+DependencyVersion(version=2.11.0, time=2017-01-30 00:16:49 UTC)
+DependencyVersion(version=2.12.0, time=2017-03-29 04:06:42 UTC)
+DependencyVersion(version=2.13.0, time=2017-04-04 22:58:43 UTC)
+DependencyVersion(version=2.14.0, time=2017-04-07 04:16:05 UTC)
+DependencyVersion(version=2.15.0, time=2017-05-24 05:20:28 UTC)
+DependencyVersion(version=2.16.0, time=2017-07-10 20:41:15 UTC)
+DependencyVersion(version=2.17.0, time=2017-07-13 19:40:12 UTC)
+DependencyVersion(version=2.18.0, time=2017-08-10 17:48:36 UTC)
+DependencyVersion(version=2.19.0, time=2017-08-23 03:49:51 UTC)
+DependencyVersion(version=2.2.0, time=2016-03-30 21:53:07 UTC)
+DependencyVersion(version=2.20.0, time=2017-08-28 20:43:47 UTC)
+DependencyVersion(version=2.21.0, time=2017-09-14 21:16:54 UTC)
+DependencyVersion(version=2.22.0, time=2017-10-12 16:06:32 UTC)
+DependencyVersion(version=2.23.0, time=2017-11-13 23:34:03 UTC)
+DependencyVersion(version=2.24.0, time=2017-12-01 18:56:57 UTC)
+DependencyVersion(version=2.25.0, time=2017-12-06 17:10:51 UTC)
+DependencyVersion(version=2.25.1, time=2017-12-11 19:31:25 UTC)
+DependencyVersion(version=2.25.2, time=2017-12-17 06:15:04 UTC)
+DependencyVersion(version=2.25.3, time=2017-12-25 17:19:12 UTC)
+DependencyVersion(version=2.26.0, time=2018-01-05 04:13:41 UTC)
+DependencyVersion(version=2.26.1, time=2018-01-09 21:17:17 UTC)
+DependencyVersion(version=2.26.2, time=2018-01-12 06:09:49 UTC)
+DependencyVersion(version=2.27.0, time=2018-01-20 06:02:59 UTC)
+DependencyVersion(version=2.27.1, time=2018-01-23 03:21:59 UTC)
+DependencyVersion(version=2.27.2, time=2018-01-26 03:04:30 UTC)
+DependencyVersion(version=2.28.0, time=2018-02-02 05:46:02 UTC)
+DependencyVersion(version=2.28.1, time=2018-02-12 02:28:18 UTC)
+DependencyVersion(version=2.28.2, time=2018-02-12 18:54:30 UTC)
+DependencyVersion(version=2.29.0, time=2018-03-05 22:22:37 UTC)
+DependencyVersion(version=2.3.0, time=2016-03-31 18:40:27 UTC)
+DependencyVersion(version=2.30.0, time=2018-04-06 15:09:24 UTC)
+DependencyVersion(version=2.30.1, time=2018-04-13 17:22:16 UTC)
+DependencyVersion(version=2.30.2, time=2018-04-26 16:54:04 UTC)
+DependencyVersion(version=2.30.3, time=2018-05-02 03:35:17 UTC)
+DependencyVersion(version=2.30.4, time=2018-05-11 18:32:30 UTC)
+DependencyVersion(version=2.31.0, time=2018-05-22 19:01:17 UTC)
+DependencyVersion(version=2.32.0, time=2018-05-24 21:19:01 UTC)
+DependencyVersion(version=2.32.1, time=2018-05-27 03:18:10 UTC)
+DependencyVersion(version=2.33.0, time=2018-05-31 15:46:45 UTC)
+DependencyVersion(version=2.33.1, time=2018-05-31 21:00:26 UTC)
+DependencyVersion(version=2.33.2, time=2018-06-07 20:32:52 UTC)
+DependencyVersion(version=2.34.0, time=2018-06-16 06:07:19 UTC)
+DependencyVersion(version=2.34.1, time=2018-06-23 05:15:08 UTC)
+DependencyVersion(version=2.35.0, time=2018-06-25 18:57:50 UTC)
+DependencyVersion(version=2.36.0, time=2018-06-28 20:23:11 UTC)
+DependencyVersion(version=2.36.1, time=2018-07-04 03:32:30 UTC)
+DependencyVersion(version=2.36.2, time=2018-07-05 21:04:21 UTC)
+DependencyVersion(version=2.36.3, time=2018-07-11 19:36:29 UTC)
+DependencyVersion(version=2.36.4, time=2018-07-13 01:02:36 UTC)
+DependencyVersion(version=2.37.4, time=2018-08-16 05:01:02 UTC)
+DependencyVersion(version=2.38.0, time=2018-08-18 04:26:21 UTC)
+DependencyVersion(version=2.38.1, time=2018-08-24 04:45:47 UTC)
+DependencyVersion(version=2.38.2, time=2018-08-29 19:06:16 UTC)
+DependencyVersion(version=2.39.0, time=2018-09-07 15:58:00 UTC)
+DependencyVersion(version=2.4.0, time=2016-05-31 04:08:15 UTC)
+DependencyVersion(version=2.40.0, time=2018-09-20 05:53:43 UTC)
+DependencyVersion(version=2.41.0, time=2018-09-22 23:06:18 UTC)
+DependencyVersion(version=2.41.1, time=2018-09-28 05:45:04 UTC)
+DependencyVersion(version=2.42.0, time=2018-10-04 20:52:45 UTC)
+DependencyVersion(version=2.42.1, time=2018-10-08 17:21:25 UTC)
+DependencyVersion(version=2.42.2, time=2018-10-09 03:31:09 UTC)
+DependencyVersion(version=2.43.0, time=2018-10-17 15:52:46 UTC)
+DependencyVersion(version=2.43.1, time=2018-10-24 01:53:08 UTC)
+DependencyVersion(version=2.43.2, time=2018-10-25 23:12:52 UTC)
+DependencyVersion(version=2.43.3, time=2018-11-05 04:26:20 UTC)
+DependencyVersion(version=2.43.4, time=2018-11-09 02:49:33 UTC)
+DependencyVersion(version=2.43.5, time=2018-11-15 17:04:42 UTC)
+DependencyVersion(version=2.43.6, time=2018-11-15 22:12:39 UTC)
+DependencyVersion(version=2.5.0, time=2016-06-09 18:33:40 UTC)
+DependencyVersion(version=2.6.0, time=2016-07-22 20:35:08 UTC)
+DependencyVersion(version=2.7.0, time=2016-08-20 05:39:00 UTC)
+DependencyVersion(version=2.8.0, time=2016-09-28 02:31:32 UTC)
+DependencyVersion(version=2.9.0, time=2016-10-21 05:40:17 UTC)
+DependencyVersion(version=3.0.0, time=2018-06-14 18:07:29 UTC)
+DependencyVersion(version=3.0.1, time=2018-06-14 20:11:20 UTC)
+DependencyVersion(version=3.0.2, time=2018-06-18 18:00:42 UTC)
+DependencyVersion(version=3.0.3, time=2018-06-20 07:19:28 UTC)
+DependencyVersion(version=3.0.4, time=2018-06-20 16:26:23 UTC)
+DependencyVersion(version=3.0.5, time=2018-06-20 21:08:25 UTC)
+DependencyVersion(version=3.1.0, time=2018-06-21 18:16:19 UTC)
+DependencyVersion(version=3.10.0, time=2018-08-29 06:43:04 UTC)
+DependencyVersion(version=3.1.1, time=2018-06-22 18:31:23 UTC)
+DependencyVersion(version=3.11.0, time=2018-09-10 04:56:47 UTC)
+DependencyVersion(version=3.11.1, time=2018-09-11 03:17:29 UTC)
+DependencyVersion(version=3.1.2, time=2018-06-23 05:03:43 UTC)
+DependencyVersion(version=3.12.0, time=2018-09-13 17:05:07 UTC)
+DependencyVersion(version=3.1.3, time=2018-06-25 19:11:23 UTC)
+DependencyVersion(version=3.13.0, time=2018-09-14 00:00:50 UTC)
+DependencyVersion(version=3.13.1, time=2018-09-14 01:50:59 UTC)
+DependencyVersion(version=3.13.2, time=2018-09-17 18:59:59 UTC)
+DependencyVersion(version=3.13.3, time=2018-09-18 01:18:15 UTC)
+DependencyVersion(version=3.1.4, time=2018-06-25 22:36:23 UTC)
+DependencyVersion(version=3.14.0, time=2018-09-18 16:57:55 UTC)
+DependencyVersion(version=3.14.1, time=2018-09-19 03:32:40 UTC)
+DependencyVersion(version=3.14.2, time=2018-09-19 18:38:39 UTC)
+DependencyVersion(version=3.14.3, time=2018-09-19 20:29:38 UTC)
+DependencyVersion(version=3.14.4, time=2018-09-19 22:58:25 UTC)
+DependencyVersion(version=3.14.5, time=2018-09-20 22:08:21 UTC)
+DependencyVersion(version=3.15.0, time=2018-09-20 22:19:01 UTC)
+DependencyVersion(version=3.15.1, time=2018-09-25 04:24:26 UTC)
+DependencyVersion(version=3.15.2, time=2018-09-25 20:26:42 UTC)
+DependencyVersion(version=3.15.3, time=2018-09-25 22:28:28 UTC)
+DependencyVersion(version=3.16.0, time=2018-09-26 07:48:39 UTC)
+DependencyVersion(version=3.17.0, time=2018-10-03 03:41:53 UTC)
+DependencyVersion(version=3.17.1, time=2018-10-04 02:40:08 UTC)
+DependencyVersion(version=3.17.2, time=2018-10-04 21:36:57 UTC)
+DependencyVersion(version=3.18.0, time=2018-10-05 05:35:39 UTC)
+DependencyVersion(version=3.19.0, time=2018-10-05 20:39:59 UTC)
+DependencyVersion(version=3.19.1, time=2018-10-05 22:41:39 UTC)
+DependencyVersion(version=3.19.2, time=2018-10-08 05:05:47 UTC)
+DependencyVersion(version=3.2.0, time=2018-06-26 17:53:03 UTC)
+DependencyVersion(version=3.20.0, time=2018-10-09 18:52:52 UTC)
+DependencyVersion(version=3.20.1, time=2018-10-10 21:30:17 UTC)
+DependencyVersion(version=3.20.2, time=2018-10-10 22:40:19 UTC)
+DependencyVersion(version=3.20.3, time=2018-10-11 02:36:07 UTC)
+DependencyVersion(version=3.21.0, time=2018-10-16 02:18:42 UTC)
+DependencyVersion(version=3.21.1, time=2018-10-17 02:58:06 UTC)
+DependencyVersion(version=3.22.0, time=2018-10-17 18:24:56 UTC)
+DependencyVersion(version=3.22.1, time=2018-10-17 21:39:22 UTC)
+DependencyVersion(version=3.22.10, time=2018-10-24 04:23:02 UTC)
+DependencyVersion(version=3.22.11, time=2018-10-24 17:30:31 UTC)
+DependencyVersion(version=3.22.12, time=2018-10-25 02:38:45 UTC)
+DependencyVersion(version=3.22.13, time=2018-10-26 01:16:25 UTC)
+DependencyVersion(version=3.22.14, time=2018-10-26 16:19:48 UTC)
+DependencyVersion(version=3.22.15, time=2018-10-26 20:20:19 UTC)
+DependencyVersion(version=3.22.16, time=2018-10-29 17:01:57 UTC)
+DependencyVersion(version=3.22.17, time=2018-10-29 21:46:44 UTC)
+DependencyVersion(version=3.22.18, time=2018-10-31 16:18:38 UTC)
+DependencyVersion(version=3.22.19, time=2018-11-01 04:22:18 UTC)
+DependencyVersion(version=3.22.2, time=2018-10-18 01:10:32 UTC)
+DependencyVersion(version=3.22.20, time=2018-11-05 04:23:29 UTC)
+DependencyVersion(version=3.22.3, time=2018-10-18 16:22:29 UTC)
+DependencyVersion(version=3.22.4, time=2018-10-18 22:17:58 UTC)
+DependencyVersion(version=3.22.5, time=2018-10-19 16:02:13 UTC)
+DependencyVersion(version=3.22.6, time=2018-10-19 20:55:47 UTC)
+DependencyVersion(version=3.22.7, time=2018-10-20 06:21:56 UTC)
+DependencyVersion(version=3.22.8, time=2018-10-22 21:04:17 UTC)
+DependencyVersion(version=3.22.9, time=2018-10-23 04:28:31 UTC)
+DependencyVersion(version=3.23.0, time=2018-11-09 04:17:23 UTC)
+DependencyVersion(version=3.23.1, time=2018-11-10 05:54:19 UTC)
+DependencyVersion(version=3.23.2, time=2018-11-13 20:12:40 UTC)
+DependencyVersion(version=3.23.3, time=2018-11-14 00:13:42 UTC)
+DependencyVersion(version=3.23.4, time=2018-11-14 21:18:53 UTC)
+DependencyVersion(version=3.23.5, time=2018-11-16 20:58:13 UTC)
+DependencyVersion(version=3.3.0, time=2018-06-26 21:00:30 UTC)
+DependencyVersion(version=3.3.1, time=2018-06-27 02:22:47 UTC)
+DependencyVersion(version=3.3.10, time=2018-07-05 21:55:04 UTC)
+DependencyVersion(version=3.3.11, time=2018-07-07 03:33:55 UTC)
+DependencyVersion(version=3.3.12, time=2018-07-09 18:31:41 UTC)
+DependencyVersion(version=3.3.13, time=2018-07-10 01:22:40 UTC)
+DependencyVersion(version=3.3.2, time=2018-06-27 18:10:28 UTC)
+DependencyVersion(version=3.3.3, time=2018-06-28 01:39:11 UTC)
+DependencyVersion(version=3.3.4, time=2018-06-28 20:30:36 UTC)
+DependencyVersion(version=3.3.5, time=2018-06-29 20:57:03 UTC)
+DependencyVersion(version=3.3.6, time=2018-07-02 17:53:02 UTC)
+DependencyVersion(version=3.3.7, time=2018-07-02 23:21:42 UTC)
+DependencyVersion(version=3.3.8, time=2018-07-03 20:24:00 UTC)
+DependencyVersion(version=3.3.9, time=2018-07-05 02:44:46 UTC)
+DependencyVersion(version=3.4.0, time=2018-07-11 03:05:57 UTC)
+DependencyVersion(version=3.4.1, time=2018-07-12 04:24:57 UTC)
+DependencyVersion(version=3.4.2, time=2018-07-12 18:41:19 UTC)
+DependencyVersion(version=3.4.3, time=2018-07-13 02:47:01 UTC)
+DependencyVersion(version=3.4.4, time=2018-07-13 20:50:30 UTC)
+DependencyVersion(version=3.8.0, time=2018-08-13 19:38:50 UTC)
+DependencyVersion(version=3.8.1, time=2018-08-15 18:35:20 UTC)
+DependencyVersion(version=3.9.0, time=2018-08-20 18:59:11 UTC)
+DependencyVersion(version=3.9.1, time=2018-08-23 18:35:32 UTC)
+DependencyVersion(version=3.9.2, time=2018-08-24 19:26:13 UTC)
+DependencyVersion(version=3.9.3, time=2018-08-27 20:14:01 UTC)
+DependencyVersion(version=3.9.4, time=2018-08-29 04:23:21 UTC)

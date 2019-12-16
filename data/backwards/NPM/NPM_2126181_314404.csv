@@ -1,0 +1,944 @@
+
+Project information
+fabric-client (2126181)	sjcl (314404)	Package Manager: NPM
+RepoID: 13740532
+Tag information:
+CommitInfo{repo='GitHub', hash='3a3541d5807ebc786d86a690f58453803b09890d', version='v1.0.0'}
+CommitInfo{repo='GitHub', hash='bd1a535fdc11761805c8c3e90f17af696791e600', version='v1.0.0-alpha'}
+CommitInfo{repo='GitHub', hash='377aac2f1d66ea8306b00aa5dae84784a7db2667', version='v1.0.0-alpha.1'}
+CommitInfo{repo='GitHub', hash='4efae9859dc12c35e1bb047b376ead58f9537aed', version='v1.0.0-alpha2'}
+CommitInfo{repo='GitHub', hash='e2f923717b558f22dcc21005c7807b2f0af3a200', version='v1.0.0-beta'}
+CommitInfo{repo='GitHub', hash='cf0b81500a50923c198f84cf483cd7e263a73201', version='v1.0.0-rc1'}
+CommitInfo{repo='GitHub', hash='1b1fcd684be8971fb981d5f43684619022d0ec0c', version='v1.0.1'}
+CommitInfo{repo='GitHub', hash='58076f6000abb5e00ffcfd187d32293351405708', version='v1.0.2'}
+CommitInfo{repo='GitHub', hash='eea6239aad5f04b61d040f46d93b38b30c080ce3', version='v1.0.3'}
+CommitInfo{repo='GitHub', hash='9f830fa2116c79a13ca4105c40f2dc114f5f44fd', version='v1.0.4'}
+CommitInfo{repo='GitHub', hash='cdf4a6d192906134522630a079f0b7db88b7aefa', version='v1.0.5'}
+CommitInfo{repo='GitHub', hash='acfff5047d58d9b7e5437d1ef0220ab8b9726b10', version='v1.0.6'}
+CommitInfo{repo='GitHub', hash='3df357676eaf4d6d0e9a8e2316cb17dec239eaae', version='v1.0.7'}
+CommitInfo{repo='GitHub', hash='bea7b2ec78a9648e0df992d66edb688e9f840c85', version='v1.0.8'}
+CommitInfo{repo='GitHub', hash='f939d90765750d6a099f3b2b8b2558ee7b11df37', version='v1.1.0'}
+CommitInfo{repo='GitHub', hash='d8c68f0475f637060eed5a915713b357d5d54f1d', version='v1.1.0-alpha'}
+CommitInfo{repo='GitHub', hash='54247c562d96dd2f82a5f7d8dab4206bb05b19c6', version='v1.1.0-preview'}
+CommitInfo{repo='GitHub', hash='898d418f189a9e732706f9f42e4718d5da82ba26', version='v1.1.1'}
+CommitInfo{repo='GitHub', hash='72040ea3cd57079da5cc1b45f08c65949be00642', version='v1.1.2'}
+CommitInfo{repo='GitHub', hash='efb269ea01b91fa00c96a75422d5bbfba5dd6ebc', version='v1.2.0'}
+CommitInfo{repo='GitHub', hash='27b47513365f07b3b8a6cdedfa30c965618bb2f9', version='v1.2.1'}
+CommitInfo{repo='GitHub', hash='94c73283a4ff00ca1a37ebaa4cc3eb9f7e64cd63', version='v1.2.2'}
+CommitInfo{repo='GitHub', hash='8f4a9958fe8a5681a9898c879b23e93e3ad3227b', version='v1.3.0'}
+CommitInfo{repo='GitHub', hash='3e2f4384d1dc4a3d7968291248fd2f3589f1922c', version='v1.4.0-beta'}
+CommitInfo{repo='GitHub', hash='7ee62962567098b12e8b37867945d9005dc3b5de', version='v1.4.0-rc2'}
+
+Project A:
+ProjectVersionFixed(version=0.1.0, dependency=1.0.3, time=2017-01-27 20:27:17 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=0.1.1, dependency=1.0.3, time=2017-01-30 04:35:36 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=0.1.2, dependency=1.0.3, time=2017-01-31 03:27:12 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=0.1.3, dependency=1.0.3, time=2017-02-01 14:32:36 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=0.2.0, dependency=1.0.3, time=2017-03-06 17:34:21 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=0.2.1, dependency=null, time=2017-03-09 15:05:33 UTC)
+ProjectVersionFixed(version=0.2.2, dependency=1.0.3, time=2017-03-15 17:46:25 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=0.2.3, dependency=1.0.3, time=2017-03-16 00:20:20 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-alpha, dependency=1.0.3, time=2017-03-16 13:42:57 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot, dependency=1.0.3, time=2017-03-16 23:58:58 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.1, dependency=null, time=2017-03-18 10:08:53 UTC)
+ProjectVersionFixed(version=1.0.0-snapshot.2, dependency=1.0.3, time=2017-03-18 15:36:33 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.3, dependency=1.0.3, time=2017-03-23 03:54:45 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.4, dependency=1.0.3, time=2017-03-24 13:56:00 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.5, dependency=1.0.3, time=2017-03-27 18:10:46 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.6, dependency=1.0.3, time=2017-03-28 15:55:29 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.7, dependency=null, time=2017-03-30 00:49:06 UTC)
+ProjectVersionFixed(version=1.0.0-snapshot.8, dependency=1.0.3, time=2017-03-30 00:50:30 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.9, dependency=null, time=2017-03-31 19:30:05 UTC)
+ProjectVersionFixed(version=1.0.0-snapshot.10, dependency=1.0.3, time=2017-04-03 20:51:00 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.11, dependency=1.0.3, time=2017-04-04 19:27:33 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.12, dependency=1.0.3, time=2017-04-04 21:31:33 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.13, dependency=null, time=2017-04-07 23:05:23 UTC)
+ProjectVersionFixed(version=1.0.0-snapshot.14, dependency=1.0.3, time=2017-04-08 14:50:04 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.15, dependency=1.0.3, time=2017-04-09 15:06:21 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.16, dependency=1.0.3, time=2017-04-12 04:10:17 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.17, dependency=1.0.3, time=2017-04-19 03:01:53 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.18, dependency=1.0.3, time=2017-04-22 22:32:39 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.19, dependency=null, time=2017-04-23 01:21:11 UTC)
+ProjectVersionFixed(version=1.0.0-snapshot.20, dependency=1.0.3, time=2017-04-26 04:00:53 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.21, dependency=null, time=2017-04-26 15:22:44 UTC)
+ProjectVersionFixed(version=1.0.0-snapshot.22, dependency=1.0.3, time=2017-04-26 19:17:46 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-alpha.1, dependency=1.0.3, time=2017-04-28 18:41:10 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.23, dependency=1.0.3, time=2017-05-02 12:57:10 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.24, dependency=1.0.3, time=2017-05-03 02:19:09 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.25, dependency=1.0.3, time=2017-05-04 19:01:09 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.26, dependency=1.0.3, time=2017-05-09 07:50:48 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.27, dependency=1.0.3, time=2017-05-10 03:38:44 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.28, dependency=1.0.3, time=2017-05-10 04:29:32 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.29, dependency=1.0.3, time=2017-05-10 05:25:23 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.30, dependency=1.0.3, time=2017-05-10 22:03:33 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.31, dependency=1.0.3, time=2017-05-11 17:32:37 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.32, dependency=1.0.3, time=2017-05-11 23:22:07 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-alpha2, dependency=null, time=2017-05-14 13:41:22 UTC)
+ProjectVersionFixed(version=1.0.0-snapshot.33, dependency=1.0.3, time=2017-05-14 13:34:07 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.34, dependency=1.0.3, time=2017-05-15 13:58:34 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.35, dependency=1.0.3, time=2017-05-17 16:37:55 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.36, dependency=1.0.3, time=2017-05-17 21:43:39 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.37, dependency=1.0.3, time=2017-05-17 21:51:03 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.38, dependency=1.0.3, time=2017-05-18 21:32:49 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.39, dependency=1.0.3, time=2017-05-19 00:02:21 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.40, dependency=1.0.3, time=2017-05-19 00:58:50 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.41, dependency=null, time=2017-05-19 14:18:20 UTC)
+ProjectVersionFixed(version=1.0.0-snapshot.42, dependency=1.0.3, time=2017-05-19 17:42:46 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.43, dependency=1.0.3, time=2017-05-21 04:44:57 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.44, dependency=1.0.3, time=2017-05-22 18:05:00 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.45, dependency=1.0.3, time=2017-05-22 19:03:41 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.46, dependency=1.0.3, time=2017-05-23 17:09:43 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.47, dependency=1.0.3, time=2017-05-23 19:17:45 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.48, dependency=1.0.3, time=2017-05-24 19:34:00 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.49, dependency=1.0.3, time=2017-05-24 21:17:39 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.50, dependency=1.0.3, time=2017-05-25 03:21:14 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.51, dependency=1.0.3, time=2017-05-25 16:39:13 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.52, dependency=1.0.3, time=2017-05-25 18:37:06 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.53, dependency=1.0.3, time=2017-05-26 02:41:03 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.54, dependency=1.0.3, time=2017-05-30 15:19:46 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.55, dependency=1.0.3, time=2017-05-30 19:33:06 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.56, dependency=1.0.3, time=2017-05-30 19:40:31 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.57, dependency=1.0.3, time=2017-05-30 20:54:29 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.58, dependency=1.0.3, time=2017-05-31 18:54:41 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.59, dependency=1.0.3, time=2017-06-02 01:26:10 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.60, dependency=1.0.3, time=2017-06-02 15:31:11 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.61, dependency=1.0.3, time=2017-06-05 03:46:48 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.62, dependency=1.0.3, time=2017-06-05 15:26:11 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.63, dependency=1.0.3, time=2017-06-05 20:19:54 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.64, dependency=1.0.3, time=2017-06-05 22:07:32 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.65, dependency=1.0.3, time=2017-06-06 02:24:05 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-beta, dependency=1.0.3, time=2017-06-08 17:23:39 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.66, dependency=1.0.3, time=2017-06-08 02:16:40 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.67, dependency=1.0.3, time=2017-06-08 14:16:16 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.68, dependency=1.0.3, time=2017-06-08 15:49:54 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.69, dependency=1.0.3, time=2017-06-08 17:36:11 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.70, dependency=1.0.3, time=2017-06-08 17:38:42 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.71, dependency=1.0.3, time=2017-06-08 17:40:44 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.72, dependency=1.0.3, time=2017-06-09 17:45:56 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.73, dependency=1.0.3, time=2017-06-12 13:41:38 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.74, dependency=1.0.3, time=2017-06-12 21:46:38 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.75, dependency=1.0.3, time=2017-06-13 16:34:48 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.76, dependency=1.0.3, time=2017-06-14 05:01:17 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.77, dependency=1.0.3, time=2017-06-14 18:08:50 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.78, dependency=1.0.3, time=2017-06-15 20:22:15 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.79, dependency=1.0.3, time=2017-06-16 15:18:43 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.80, dependency=1.0.3, time=2017-06-16 16:10:48 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.81, dependency=1.0.3, time=2017-06-17 17:57:25 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.82, dependency=1.0.3, time=2017-06-19 05:02:17 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.83, dependency=1.0.3, time=2017-06-20 03:32:29 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.84, dependency=1.0.3, time=2017-06-20 15:55:58 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.85, dependency=1.0.3, time=2017-06-20 16:25:34 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.86, dependency=1.0.3, time=2017-06-21 17:15:22 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.87, dependency=1.0.3, time=2017-06-21 17:24:12 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-rc1, dependency=1.0.3, time=2017-06-23 22:33:28 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.88, dependency=1.0.3, time=2017-06-23 20:59:39 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.89, dependency=1.0.3, time=2017-06-23 23:51:44 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.90, dependency=1.0.3, time=2017-06-25 22:56:03 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.91, dependency=1.0.3, time=2017-06-27 11:09:23 UTC),	Latest, "DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)"
+
+ProjectVersionFixed(version=1.0.0, dependency=1.0.3, time=2017-07-11 17:05:01 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.92, dependency=1.0.3, time=2017-07-12 18:31:08 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.93, dependency=1.0.3, time=2017-07-14 09:59:53 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.94, dependency=1.0.3, time=2017-07-14 13:46:01 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.95, dependency=1.0.3, time=2017-07-14 18:25:52 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.96, dependency=1.0.3, time=2017-07-14 18:27:10 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.97, dependency=1.0.3, time=2017-07-14 19:29:14 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.98, dependency=1.0.3, time=2017-07-17 14:22:16 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.99, dependency=1.0.3, time=2017-07-17 15:52:15 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.100, dependency=1.0.3, time=2017-07-17 16:09:51 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.101, dependency=1.0.3, time=2017-07-20 20:52:56 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.102, dependency=1.0.3, time=2017-07-26 15:54:48 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.103, dependency=1.0.3, time=2017-07-26 17:42:24 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.104, dependency=1.0.3, time=2017-07-26 21:20:27 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.0-snapshot.105, dependency=1.0.3, time=2017-07-27 20:20:23 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.1, dependency=1.0.3, time=2017-08-10 14:44:09 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot, dependency=1.0.3, time=2017-08-12 09:55:59 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.3, dependency=1.0.3, time=2017-08-18 02:04:27 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.4, dependency=1.0.3, time=2017-08-20 13:26:00 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.5, dependency=1.0.3, time=2017-08-24 18:00:47 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.6, dependency=1.0.3, time=2017-08-25 02:46:56 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.7, dependency=null, time=2017-08-26 23:03:37 UTC)
+ProjectVersionFixed(version=1.0.2-snapshot.8, dependency=1.0.3, time=2017-08-30 15:06:14 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.9, dependency=1.0.3, time=2017-08-30 15:09:18 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.10, dependency=1.0.3, time=2017-08-30 15:16:52 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.11, dependency=1.0.3, time=2017-08-30 15:17:52 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2, dependency=1.0.3, time=2017-09-06 11:20:36 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.2-snapshot.12, dependency=1.0.3, time=2017-09-06 20:00:34 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.0.3, dependency=1.0.7, time=2018-02-06 10:03:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.4, dependency=1.0.7, time=2018-02-23 20:47:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.5, dependency=1.0.7, time=2018-03-09 15:15:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.6, dependency=1.0.7, time=2018-05-07 20:21:36 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.7, dependency=1.0.7, time=2018-05-09 19:46:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.0.8, dependency=1.0.7, time=2018-05-26 12:57:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot, dependency=1.0.3, time=2017-09-10 04:00:24 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.1, dependency=1.0.3, time=2017-09-11 18:50:37 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.2, dependency=1.0.3, time=2017-09-14 14:15:28 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.3, dependency=1.0.3, time=2017-09-14 14:17:17 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.4, dependency=1.0.3, time=2017-09-15 17:39:51 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.5, dependency=1.0.3, time=2017-09-22 02:36:22 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.6, dependency=1.0.3, time=2017-09-22 03:16:17 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.7, dependency=1.0.3, time=2017-09-22 12:54:39 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.8, dependency=1.0.3, time=2017-09-30 03:25:35 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.9, dependency=1.0.3, time=2017-10-03 14:56:47 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.10, dependency=1.0.3, time=2017-10-03 15:03:10 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.11, dependency=1.0.3, time=2017-10-03 20:04:42 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.12, dependency=1.0.3, time=2017-10-04 17:48:58 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.13, dependency=1.0.3, time=2017-10-05 20:41:38 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.14, dependency=1.0.3, time=2017-10-05 20:42:18 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.15, dependency=null, time=2017-10-07 09:26:52 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.16, dependency=1.0.3, time=2017-10-09 15:32:19 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.17, dependency=1.0.3, time=2017-10-12 17:42:22 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.18, dependency=1.0.3, time=2017-10-18 23:30:07 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.19, dependency=1.0.3, time=2017-10-23 19:53:09 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.20, dependency=null, time=2017-10-24 03:21:45 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.21, dependency=1.0.3, time=2017-10-24 03:24:03 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.22, dependency=1.0.3, time=2017-10-24 03:31:28 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.23, dependency=1.0.3, time=2017-10-26 17:22:39 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.24, dependency=1.0.3, time=2017-10-27 03:18:17 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.25, dependency=1.0.3, time=2017-10-28 17:42:24 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-preview, dependency=1.0.3, time=2017-11-01 21:25:35 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.26, dependency=1.0.3, time=2017-11-01 18:30:01 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.27, dependency=1.0.3, time=2017-11-03 03:28:37 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.28, dependency=1.0.3, time=2017-11-03 23:28:23 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.29, dependency=1.0.3, time=2017-11-06 16:18:17 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.30, dependency=null, time=2017-11-09 11:06:00 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.31, dependency=1.0.3, time=2017-11-09 22:46:04 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.32, dependency=1.0.3, time=2017-11-09 22:51:09 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.33, dependency=1.0.7, time=2017-11-10 22:25:42 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.34, dependency=1.0.3, time=2017-11-11 08:15:38 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.35, dependency=1.0.3, time=2017-11-11 15:40:24 UTC),	Latest, "DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)"
+
+ProjectVersionFixed(version=1.1.0-snapshot.36, dependency=1.0.7, time=2017-11-13 03:40:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.37, dependency=1.0.7, time=2017-11-17 03:19:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.38, dependency=1.0.7, time=2017-11-24 15:03:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.39, dependency=1.0.7, time=2017-11-24 20:30:50 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.40, dependency=null, time=2017-12-05 18:24:01 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.41, dependency=1.0.7, time=2018-01-08 17:21:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.42, dependency=null, time=2018-01-08 19:08:01 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.43, dependency=1.0.7, time=2018-01-12 19:47:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.44, dependency=1.0.7, time=2018-01-16 22:09:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.45, dependency=null, time=2018-01-19 20:16:34 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.46, dependency=1.0.7, time=2018-01-19 20:16:59 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.47, dependency=1.0.7, time=2018-01-22 19:01:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.48, dependency=1.0.7, time=2018-01-23 08:31:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.49, dependency=null, time=2018-01-24 18:12:02 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.50, dependency=1.0.7, time=2018-01-24 19:05:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.51, dependency=null, time=2018-01-25 14:12:34 UTC)
+ProjectVersionFixed(version=1.1.0-alpha, dependency=1.0.7, time=2018-01-27 01:13:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.52, dependency=1.0.7, time=2018-01-26 01:33:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.53, dependency=1.0.7, time=2018-01-26 04:14:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.54, dependency=1.0.7, time=2018-01-26 13:45:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.55, dependency=null, time=2018-01-26 15:02:00 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.56, dependency=null, time=2018-02-03 08:31:57 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.57, dependency=null, time=2018-02-05 17:05:33 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.58, dependency=1.0.7, time=2018-02-07 08:34:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.59, dependency=1.0.7, time=2018-02-08 15:39:53 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.60, dependency=1.0.7, time=2018-02-12 21:02:36 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.61, dependency=1.0.7, time=2018-02-14 17:01:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.62, dependency=1.0.7, time=2018-02-15 04:24:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.63, dependency=1.0.7, time=2018-02-18 16:15:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.64, dependency=1.0.7, time=2018-02-20 15:26:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.65, dependency=1.0.7, time=2018-02-20 15:31:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.66, dependency=1.0.7, time=2018-02-20 18:27:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.67, dependency=1.0.7, time=2018-02-21 21:29:03 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.68, dependency=1.0.7, time=2018-02-21 21:53:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.69, dependency=1.0.7, time=2018-02-22 04:26:23 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.70, dependency=1.0.7, time=2018-02-22 14:52:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.71, dependency=1.0.7, time=2018-02-23 16:53:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.72, dependency=1.0.7, time=2018-02-23 16:55:39 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.73, dependency=1.0.7, time=2018-02-23 17:24:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.74, dependency=1.0.7, time=2018-02-23 20:52:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.75, dependency=1.0.7, time=2018-02-23 20:56:59 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.76, dependency=null, time=2018-02-24 21:08:22 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.77, dependency=null, time=2018-02-25 13:56:17 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.78, dependency=1.0.7, time=2018-02-26 02:22:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.79, dependency=1.0.7, time=2018-02-26 20:35:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.80, dependency=1.0.7, time=2018-02-27 21:03:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.81, dependency=null, time=2018-02-28 23:19:20 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.82, dependency=1.0.7, time=2018-03-02 05:05:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.83, dependency=1.0.7, time=2018-03-02 05:10:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.84, dependency=1.0.7, time=2018-03-02 16:18:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.85, dependency=1.0.7, time=2018-03-02 20:22:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.86, dependency=1.0.7, time=2018-03-05 05:55:25 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.87, dependency=1.0.7, time=2018-03-05 06:14:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.88, dependency=1.0.7, time=2018-03-05 09:30:28 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.89, dependency=null, time=2018-03-05 15:26:11 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.90, dependency=null, time=2018-03-06 19:07:55 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.91, dependency=1.0.7, time=2018-03-06 20:57:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.92, dependency=1.0.7, time=2018-03-06 23:38:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.93, dependency=1.0.7, time=2018-03-07 02:21:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.94, dependency=1.0.7, time=2018-03-09 09:37:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.95, dependency=1.0.7, time=2018-03-09 09:37:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.96, dependency=1.0.7, time=2018-03-10 05:42:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.97, dependency=1.0.7, time=2018-03-10 05:57:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.98, dependency=1.0.7, time=2018-03-10 06:09:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.99, dependency=null, time=2018-03-13 02:46:53 UTC)
+ProjectVersionFixed(version=1.1.0-snapshot.100, dependency=1.0.7, time=2018-03-14 02:28:02 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0, dependency=1.0.7, time=2018-03-16 03:39:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.101, dependency=1.0.7, time=2018-03-15 14:22:14 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.102, dependency=1.0.7, time=2018-03-15 14:28:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.0-snapshot.103, dependency=1.0.7, time=2018-03-15 14:31:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.1, dependency=1.0.7, time=2018-05-07 21:22:29 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.1.2, dependency=1.0.7, time=2018-05-09 20:31:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot, dependency=1.0.7, time=2018-03-16 05:10:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.1, dependency=1.0.7, time=2018-03-17 10:07:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.2, dependency=1.0.7, time=2018-03-18 09:55:05 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.3, dependency=1.0.7, time=2018-03-19 12:27:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.4, dependency=1.0.7, time=2018-03-20 11:39:01 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.5, dependency=1.0.7, time=2018-03-20 17:32:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.6, dependency=1.0.7, time=2018-03-20 17:47:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.7, dependency=1.0.7, time=2018-03-21 15:11:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.8, dependency=1.0.7, time=2018-03-23 08:09:36 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.9, dependency=1.0.7, time=2018-03-23 08:14:17 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.10, dependency=1.0.7, time=2018-03-23 08:15:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.11, dependency=1.0.7, time=2018-03-23 14:41:36 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.12, dependency=1.0.7, time=2018-03-23 19:02:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.13, dependency=1.0.7, time=2018-03-23 21:37:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.14, dependency=1.0.7, time=2018-03-24 05:54:23 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.15, dependency=1.0.7, time=2018-03-24 06:02:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.16, dependency=1.0.7, time=2018-03-24 22:19:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.17, dependency=1.0.7, time=2018-03-27 12:44:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.18, dependency=1.0.7, time=2018-03-28 03:38:14 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.19, dependency=1.0.7, time=2018-03-28 16:25:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.20, dependency=1.0.7, time=2018-04-02 02:22:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.21, dependency=1.0.7, time=2018-04-02 14:51:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.22, dependency=1.0.7, time=2018-04-03 17:32:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.23, dependency=1.0.7, time=2018-04-06 21:02:18 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.24, dependency=1.0.7, time=2018-04-06 21:20:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.25, dependency=null, time=2018-04-07 09:19:53 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.26, dependency=1.0.7, time=2018-04-09 16:31:48 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.27, dependency=1.0.7, time=2018-04-12 18:12:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.28, dependency=1.0.7, time=2018-04-13 02:06:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.29, dependency=1.0.7, time=2018-04-16 02:02:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.30, dependency=1.0.7, time=2018-04-17 14:45:47 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.31, dependency=1.0.7, time=2018-04-17 14:48:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.32, dependency=null, time=2018-04-23 14:09:09 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.33, dependency=1.0.7, time=2018-04-25 15:19:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.34, dependency=null, time=2018-05-03 02:27:32 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.35, dependency=null, time=2018-05-03 07:43:27 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.36, dependency=null, time=2018-05-04 01:58:02 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.37, dependency=1.0.7, time=2018-05-08 08:06:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.38, dependency=1.0.7, time=2018-05-10 21:26:27 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.39, dependency=1.0.7, time=2018-05-21 14:40:23 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.40, dependency=1.0.7, time=2018-05-22 17:51:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.41, dependency=1.0.7, time=2018-05-23 20:38:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.42, dependency=1.0.7, time=2018-05-24 12:17:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.43, dependency=1.0.7, time=2018-05-25 15:01:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.44, dependency=1.0.7, time=2018-05-26 12:49:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.45, dependency=1.0.7, time=2018-05-28 12:50:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.46, dependency=1.0.7, time=2018-05-29 15:28:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.47, dependency=1.0.7, time=2018-05-30 08:39:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.48, dependency=1.0.7, time=2018-05-30 11:06:57 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.49, dependency=1.0.7, time=2018-05-30 11:16:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.50, dependency=1.0.7, time=2018-05-30 16:00:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.51, dependency=1.0.7, time=2018-05-31 11:37:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.52, dependency=null, time=2018-06-01 02:59:26 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.53, dependency=1.0.7, time=2018-06-04 07:37:37 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.54, dependency=1.0.7, time=2018-06-06 01:41:56 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.55, dependency=null, time=2018-06-07 10:26:50 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.56, dependency=1.0.7, time=2018-06-12 13:22:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.57, dependency=1.0.7, time=2018-06-14 02:15:46 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.58, dependency=1.0.7, time=2018-06-14 15:27:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.59, dependency=1.0.7, time=2018-06-15 02:45:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.60, dependency=1.0.7, time=2018-06-19 02:18:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.61, dependency=1.0.7, time=2018-06-19 02:24:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.62, dependency=1.0.7, time=2018-06-19 12:45:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.63, dependency=null, time=2018-06-19 22:06:13 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.64, dependency=1.0.7, time=2018-06-20 09:28:36 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.65, dependency=1.0.7, time=2018-06-20 09:32:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.66, dependency=1.0.7, time=2018-06-20 11:13:17 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.67, dependency=1.0.7, time=2018-06-20 13:11:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.68, dependency=1.0.7, time=2018-06-20 14:23:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.69, dependency=1.0.7, time=2018-06-22 08:05:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.70, dependency=1.0.7, time=2018-06-22 08:11:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.71, dependency=1.0.7, time=2018-06-22 16:27:07 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.72, dependency=null, time=2018-06-23 18:08:09 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.73, dependency=1.0.7, time=2018-06-26 15:21:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.74, dependency=null, time=2018-06-28 16:34:30 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.75, dependency=null, time=2018-06-28 19:08:04 UTC)
+ProjectVersionFixed(version=1.2.0-snapshot.76, dependency=1.0.7, time=2018-06-29 14:44:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.77, dependency=1.0.7, time=2018-06-29 15:25:59 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.78, dependency=1.0.7, time=2018-06-29 18:49:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0-snapshot.79, dependency=1.0.7, time=2018-06-30 20:01:12 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.0, dependency=1.0.7, time=2018-07-07 09:13:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.1, dependency=null, time=2018-07-30 20:18:43 UTC)
+ProjectVersionFixed(version=1.2.2, dependency=1.0.7, time=2018-09-13 13:55:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.2.3-snapshot.80, dependency=1.0.7, time=2018-11-19 13:58:05 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.2.3-snapshot.81, dependency=1.0.7, time=2018-12-06 21:45:22 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.3.0-snapshot, dependency=1.0.7, time=2018-07-12 02:37:50 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.1, dependency=null, time=2018-07-16 08:29:58 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.2, dependency=null, time=2018-07-16 19:49:32 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.3, dependency=1.0.7, time=2018-07-17 07:08:14 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.4, dependency=null, time=2018-07-17 12:37:43 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.5, dependency=1.0.7, time=2018-07-18 08:33:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.6, dependency=1.0.7, time=2018-07-19 08:46:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.7, dependency=1.0.7, time=2018-07-23 10:07:17 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.8, dependency=1.0.7, time=2018-07-24 14:35:17 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.9, dependency=1.0.7, time=2018-07-26 11:10:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.10, dependency=null, time=2018-07-26 15:57:28 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.11, dependency=1.0.7, time=2018-07-26 16:06:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.12, dependency=1.0.7, time=2018-07-30 16:47:37 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.13, dependency=1.0.7, time=2018-07-30 16:56:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.14, dependency=1.0.7, time=2018-08-02 15:53:03 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.15, dependency=1.0.7, time=2018-08-08 07:29:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.16, dependency=null, time=2018-08-08 07:30:52 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.17, dependency=1.0.7, time=2018-08-09 09:37:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.18, dependency=1.0.7, time=2018-08-09 09:39:32 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.19, dependency=null, time=2018-08-10 13:08:07 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.20, dependency=null, time=2018-08-10 13:13:35 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.21, dependency=1.0.7, time=2018-08-13 03:05:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.22, dependency=null, time=2018-08-13 03:35:15 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.23, dependency=null, time=2018-08-13 16:25:27 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.24, dependency=1.0.7, time=2018-08-16 16:31:41 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.25, dependency=1.0.7, time=2018-08-16 19:55:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.26, dependency=1.0.7, time=2018-08-17 10:59:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.27, dependency=1.0.7, time=2018-08-17 14:56:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.28, dependency=1.0.7, time=2018-08-20 05:46:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.29, dependency=1.0.7, time=2018-08-20 19:19:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.30, dependency=1.0.7, time=2018-08-20 20:34:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.31, dependency=null, time=2018-08-21 14:21:21 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.32, dependency=1.0.7, time=2018-08-21 14:26:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.33, dependency=1.0.7, time=2018-08-21 18:15:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.34, dependency=null, time=2018-08-23 17:37:47 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.35, dependency=null, time=2018-08-24 14:49:19 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.36, dependency=1.0.7, time=2018-08-28 20:12:51 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.37, dependency=1.0.7, time=2018-08-29 17:36:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.38, dependency=1.0.7, time=2018-08-30 14:45:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.39, dependency=null, time=2018-09-02 19:33:03 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.40, dependency=1.0.7, time=2018-09-03 15:29:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.41, dependency=1.0.7, time=2018-09-04 14:47:00 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.42, dependency=1.0.7, time=2018-09-05 15:20:57 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.43, dependency=1.0.7, time=2018-09-06 14:25:31 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.44, dependency=1.0.7, time=2018-09-10 17:14:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.45, dependency=null, time=2018-09-11 08:18:25 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.46, dependency=1.0.7, time=2018-09-11 09:22:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.47, dependency=1.0.7, time=2018-09-11 20:47:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.48, dependency=1.0.7, time=2018-09-12 08:05:52 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.49, dependency=1.0.7, time=2018-09-12 10:19:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.50, dependency=1.0.7, time=2018-09-12 15:51:20 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.51, dependency=1.0.7, time=2018-09-12 15:55:08 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.52, dependency=1.0.7, time=2018-09-14 14:13:19 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.53, dependency=null, time=2018-09-14 14:25:04 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.54, dependency=1.0.7, time=2018-09-14 18:14:34 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.55, dependency=1.0.7, time=2018-09-18 08:19:46 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.56, dependency=null, time=2018-09-18 08:40:06 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.57, dependency=null, time=2018-09-18 22:25:23 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.58, dependency=1.0.7, time=2018-09-19 10:40:14 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.59, dependency=null, time=2018-09-20 16:27:47 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.60, dependency=1.0.7, time=2018-09-21 17:07:40 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.61, dependency=null, time=2018-09-24 21:02:23 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.62, dependency=1.0.7, time=2018-09-26 12:52:16 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.63, dependency=1.0.7, time=2018-09-26 14:18:58 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.64, dependency=null, time=2018-09-26 14:31:08 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.65, dependency=null, time=2018-09-28 12:00:06 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.66, dependency=1.0.7, time=2018-09-30 13:03:09 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.67, dependency=1.0.7, time=2018-10-03 16:21:36 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.68, dependency=null, time=2018-10-03 16:58:21 UTC)
+ProjectVersionFixed(version=1.3.0-snapshot.69, dependency=1.0.7, time=2018-10-03 16:58:35 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.70, dependency=1.0.7, time=2018-10-03 16:59:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.71, dependency=1.0.7, time=2018-10-04 01:14:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.72, dependency=1.0.7, time=2018-10-04 01:15:55 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.73, dependency=1.0.7, time=2018-10-04 12:21:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0-snapshot.74, dependency=1.0.7, time=2018-10-04 15:49:22 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.0, dependency=1.0.7, time=2018-10-10 19:15:13 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.3.1-snapshot.1.4.0-snapshot.111, dependency=1.0.7, time=2018-11-20 10:59:47 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.3.1-snapshot.119, dependency=1.0.7, time=2018-11-30 12:02:20 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.3.1-snapshot.126, dependency=1.0.7, time=2018-12-06 11:24:03 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.3.1-snapshot.129, dependency=1.0.7, time=2018-12-06 21:50:12 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.3.1-snapshot.137, dependency=1.0.7, time=2018-12-17 22:17:50 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.3.1-snapshot.138, dependency=1.0.7, time=2018-12-18 00:54:17 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.75, dependency=1.0.7, time=2018-10-10 14:00:18 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.76, dependency=1.0.7, time=2018-10-10 14:57:04 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.77, dependency=1.0.7, time=2018-10-17 02:09:49 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.78, dependency=1.0.7, time=2018-10-18 06:40:15 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.79, dependency=null, time=2018-10-18 08:26:48 UTC)
+ProjectVersionFixed(version=1.4.0-snapshot.80, dependency=1.0.7, time=2018-10-18 08:48:06 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.81, dependency=null, time=2018-10-19 12:36:03 UTC)
+ProjectVersionFixed(version=1.4.0-snapshot.82, dependency=1.0.7, time=2018-10-22 08:46:54 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.83, dependency=null, time=2018-10-24 12:12:43 UTC)
+ProjectVersionFixed(version=1.4.0-snapshot.84, dependency=1.0.7, time=2018-10-24 15:36:21 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.85, dependency=1.0.7, time=2018-10-24 16:21:36 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.86, dependency=null, time=2018-10-25 09:22:46 UTC)
+ProjectVersionFixed(version=1.4.0-snapshot.87, dependency=1.0.7, time=2018-10-26 00:46:44 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.88, dependency=null, time=2018-10-26 14:15:48 UTC)
+ProjectVersionFixed(version=1.4.0-snapshot.89, dependency=1.0.7, time=2018-10-30 10:33:23 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.90, dependency=1.0.7, time=2018-10-30 14:10:38 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.91, dependency=1.0.7, time=2018-10-30 16:33:37 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.92, dependency=1.0.7, time=2018-10-31 14:31:24 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.93, dependency=1.0.7, time=2018-10-31 14:32:11 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.94, dependency=null, time=2018-10-31 15:50:24 UTC)
+ProjectVersionFixed(version=1.4.0-snapshot.95, dependency=null, time=2018-10-31 15:55:55 UTC)
+ProjectVersionFixed(version=1.4.0-beta, dependency=1.0.7, time=2018-11-01 19:13:45 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.96, dependency=1.0.7, time=2018-11-01 11:58:30 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.97, dependency=1.0.7, time=2018-11-06 21:35:33 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.98, dependency=1.0.7, time=2018-11-06 22:21:10 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.99, dependency=1.0.7, time=2018-11-06 22:29:26 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.100, dependency=1.0.7, time=2018-11-07 20:49:59 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.101, dependency=1.0.7, time=2018-11-07 21:26:43 UTC),	Latest, "null"
+
+ProjectVersionFixed(version=1.4.0-snapshot.102, dependency=1.0.7, time=2018-11-13 17:51:08 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.103, dependency=1.0.7, time=2018-11-13 18:18:10 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.104, dependency=1.0.7, time=2018-11-19 17:06:50 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.105, dependency=1.0.7, time=2018-11-19 19:39:10 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.106, dependency=1.0.7, time=2018-11-19 22:07:32 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.107, dependency=1.0.7, time=2018-11-19 22:55:32 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.108, dependency=1.0.7, time=2018-11-20 00:08:20 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.109, dependency=1.0.7, time=2018-11-20 00:50:56 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.110, dependency=1.0.7, time=2018-11-20 10:40:19 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.112, dependency=1.0.7, time=2018-11-22 05:26:27 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.113, dependency=1.0.7, time=2018-11-22 17:34:12 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.114, dependency=1.0.7, time=2018-11-26 09:36:15 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.115, dependency=1.0.7, time=2018-11-27 17:38:39 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.116, dependency=1.0.7, time=2018-11-28 18:36:58 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.117, dependency=1.0.7, time=2018-11-29 14:01:08 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.118, dependency=1.0.7, time=2018-11-29 14:05:50 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.120, dependency=1.0.7, time=2018-11-30 14:54:39 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.121, dependency=1.0.7, time=2018-12-03 02:53:05 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.122, dependency=1.0.7, time=2018-12-03 09:53:10 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.123, dependency=1.0.7, time=2018-12-04 10:08:39 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.124, dependency=1.0.7, time=2018-12-04 11:41:05 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.125, dependency=1.0.7, time=2018-12-06 10:06:25 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.127, dependency=1.0.7, time=2018-12-06 15:48:41 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.128, dependency=1.0.7, time=2018-12-06 20:17:53 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.130, dependency=1.0.7, time=2018-12-06 21:57:43 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.131, dependency=1.0.7, time=2018-12-07 08:38:48 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-rc1, dependency=1.0.7, time=2018-12-12 03:24:32 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-rc2, dependency=1.0.7, time=2018-12-12 13:09:06 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-snapshot.132, dependency=1.0.7, time=2018-12-11 23:52:08 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-rc3-snapshot.1, dependency=1.0.7, time=2018-12-14 16:45:01 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-rc3-snapshot.2, dependency=1.0.7, time=2018-12-14 23:17:05 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-rc3-snapshot.3, dependency=1.0.7, time=2018-12-17 17:52:17 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-rc3-snapshot.4, dependency=1.0.7, time=2018-12-17 22:27:15 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=1.4.0-rc3-snapshot.5, dependency=1.0.7, time=2018-12-19 14:18:50 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=2.0.0-snapshot.133, dependency=1.0.7, time=2018-12-12 21:17:19 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=2.0.0-snapshot.134, dependency=1.0.7, time=2018-12-14 14:51:22 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=2.0.0-snapshot.135, dependency=1.0.7, time=2018-12-14 15:09:16 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=2.0.0-snapshot.136, dependency=1.0.7, time=2018-12-17 14:09:53 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=2.0.0-snapshot.139, dependency=1.0.7, time=2018-12-18 11:02:09 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=2.0.0-snapshot.140, dependency=1.0.7, time=2018-12-18 11:03:04 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=2.0.0-snapshot.141, dependency=1.0.7, time=2018-12-19 14:19:18 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+ProjectVersionFixed(version=2.0.0-snapshot.142, dependency=1.0.7, time=2018-12-20 13:48:40 UTC),	Latest, "DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)"
+
+
+Project B:
+DependencyVersion(version=1.0.0, time=2013-09-10 11:14:07 UTC)
+DependencyVersion(version=1.0.1, time=2014-04-30 07:51:49 UTC)
+DependencyVersion(version=1.0.2, time=2015-01-25 13:14:25 UTC)
+DependencyVersion(version=1.0.3, time=2015-05-20 14:55:51 UTC)
+DependencyVersion(version=1.0.5, time=2016-09-09 08:13:48 UTC)
+DependencyVersion(version=1.0.6, time=2016-09-10 10:44:32 UTC)
+DependencyVersion(version=1.0.7, time=2017-07-04 08:58:20 UTC)
+DependencyVersion(version=1.0.8, time=2018-11-10 14:56:58 UTC)

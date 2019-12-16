@@ -103,10 +103,10 @@ Project information
 Microsoft.AnalysisServices.test (2369480)	Newtonsoft.Json (628729)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=14.0.1.429, dependency=null, time=2017-07-19 19:41:57 UTC)
-ProjectVersion(version=14.0.700.339, dependency=6.0.8, time=2017-07-20 19:11:24 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=14.0.800.144, dependency=6.0.8, time=2017-07-20 19:47:30 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=140.700.339, dependency=6.0.8, time=2017-07-20 19:02:48 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=14.0.1.429, dependency=null, time=2017-07-19 19:41:57 UTC)
+ProjectVersionFixed(version=14.0.700.339, dependency== 6.0.8, time=2017-07-20 19:11:24 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=14.0.800.144, dependency== 6.0.8, time=2017-07-20 19:47:30 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=140.700.339, dependency== 6.0.8, time=2017-07-20 19:02:48 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=10.0.1, time=2017-03-20 07:18:50 UTC)

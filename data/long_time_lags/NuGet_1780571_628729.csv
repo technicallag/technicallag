@@ -104,12 +104,12 @@ Project information
 Gu.Persist.NewtonsoftJson (1780571)	Newtonsoft.Json (628729)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=0.1.0, dependency=8.0.3, time=2016-10-29 00:15:19 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.1.0.1, dependency=8.0.3, time=2016-10-29 08:03:42 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.2.0, dependency=8.0.3, time=2016-11-02 11:21:23 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.2.0.1, dependency=8.0.3, time=2016-11-02 12:44:18 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=0.2.0.2, dependency=null, time=2016-12-20 17:22:16 UTC)
-ProjectVersion(version=0.2.0.3, dependency=null, time=2017-01-31 15:53:02 UTC)
+ProjectVersionFixed(version=0.1.0, dependency== 8.0.3, time=2016-10-29 00:15:19 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.1.0.1, dependency== 8.0.3, time=2016-10-29 08:03:42 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.2.0, dependency== 8.0.3, time=2016-11-02 11:21:23 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.2.0.1, dependency== 8.0.3, time=2016-11-02 12:44:18 UTC),	Latest, DependencyVersion(version=11.0.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=0.2.0.2, dependency=null, time=2016-12-20 17:22:16 UTC)
+ProjectVersionFixed(version=0.2.0.3, dependency=null, time=2017-01-31 15:53:02 UTC)
 
 Project B:
 DependencyVersion(version=10.0.1, time=2017-03-20 07:18:50 UTC)

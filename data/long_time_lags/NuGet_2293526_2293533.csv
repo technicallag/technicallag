@@ -103,10 +103,10 @@ Project information
 Gigya.Ninject.Host (2293526)	Gigya.Microdot.ServiceDiscovery (2293533)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=1.0.0-develop-00077, dependency=null, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-develop-00056, dependency=1.0.0-develop-00056, time=2017-05-23 18:42:51 UTC),	Latest, DependencyVersion(version=1.6.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-develop-00063, dependency=1.0.0-develop-00063, time=2017-05-28 10:40:50 UTC),	Latest, DependencyVersion(version=1.6.1, time=1900-01-01 00:00:00 UTC)
-ProjectVersion(version=1.0.0-develop-00065, dependency=1.0.0-develop-00065, time=2017-05-28 11:48:40 UTC),	Latest, DependencyVersion(version=1.6.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-develop-00077, dependency=null, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-develop-00056, dependency== 1.0.0-develop-00056, time=2017-05-23 18:42:51 UTC),	Latest, DependencyVersion(version=1.6.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-develop-00063, dependency== 1.0.0-develop-00063, time=2017-05-28 10:40:50 UTC),	Latest, DependencyVersion(version=1.6.1, time=1900-01-01 00:00:00 UTC)
+ProjectVersionFixed(version=1.0.0-develop-00065, dependency== 1.0.0-develop-00065, time=2017-05-28 11:48:40 UTC),	Latest, DependencyVersion(version=1.6.1, time=1900-01-01 00:00:00 UTC)
 
 Project B:
 DependencyVersion(version=1.0.0, time=2017-06-04 13:13:06 UTC)

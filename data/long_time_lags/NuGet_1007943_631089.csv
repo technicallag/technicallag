@@ -113,19 +113,19 @@ Project information
 Lebara.CoreDB.Data (1007943)	EntityFramework (631089)	Package Manager: NuGet
 
 Project A:
-ProjectVersion(version=2.0.0, dependency=6.1.1, time=2014-11-12 07:04:04 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=2.1.0, dependency=6.1.1, time=2014-11-12 07:21:31 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=2.3.0, dependency=6.1.1, time=2014-11-16 08:41:37 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=2.4.0, dependency=6.1.1, time=2014-11-16 08:53:41 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=2.5.0, dependency=6.1.1, time=2014-11-16 09:02:26 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=2.6.0, dependency=6.1.1, time=2014-11-16 13:37:56 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=2.7.0, dependency=6.1.1, time=2014-11-16 13:45:56 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=2.8.0, dependency=6.1.1, time=2014-11-16 13:54:57 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=2.9.0, dependency=6.1.1, time=2014-11-17 07:20:33 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=3.0.0, dependency=6.1.1, time=2014-11-17 08:57:13 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=3.1.0, dependency=6.1.1, time=2014-11-17 09:09:55 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=3.2.0, dependency=6.1.1, time=2014-11-18 11:37:13 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
-ProjectVersion(version=3.3.0, dependency=6.1.1, time=2014-11-18 13:23:45 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.0.0, dependency== 6.1.1, time=2014-11-12 07:04:04 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.1.0, dependency== 6.1.1, time=2014-11-12 07:21:31 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.3.0, dependency== 6.1.1, time=2014-11-16 08:41:37 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.4.0, dependency== 6.1.1, time=2014-11-16 08:53:41 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.5.0, dependency== 6.1.1, time=2014-11-16 09:02:26 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.6.0, dependency== 6.1.1, time=2014-11-16 13:37:56 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.7.0, dependency== 6.1.1, time=2014-11-16 13:45:56 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.8.0, dependency== 6.1.1, time=2014-11-16 13:54:57 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=2.9.0, dependency== 6.1.1, time=2014-11-17 07:20:33 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=3.0.0, dependency== 6.1.1, time=2014-11-17 08:57:13 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=3.1.0, dependency== 6.1.1, time=2014-11-17 09:09:55 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=3.2.0, dependency== 6.1.1, time=2014-11-18 11:37:13 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
+ProjectVersionFixed(version=3.3.0, dependency== 6.1.1, time=2014-11-18 13:23:45 UTC),	Latest, DependencyVersion(version=7.0.0-beta1, time=2014-11-11 21:10:03 UTC)
 
 Project B:
 DependencyVersion(version=4.1.10311, time=2011-03-15 23:20:09 UTC)
