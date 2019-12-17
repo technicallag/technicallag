@@ -45,19 +45,21 @@ class FlexibleAnalysisByPM(val pm: PairCollector.PackageManager) {
             }
         }
 
-        runBlocking {
+        CoroutineScope(Dispatchers.Default).launch {
+            val jobs = mutableListOf<Job>()
             fixed.forEach {
-                async {
+                jobs += launch {
                     processPair(it)
                     counter.increment()
                 }
             }
             flexible.forEach {
-                async {
+                jobs += launch {
                     processPair(it)
                     counter.increment()
                 }
             }
+            jobs.forEach { it.join() }
         }
 
         Logging.getLogger("").info("Finished lag service for $pm after ${(System.currentTimeMillis() - startTime)/1000} seconds")

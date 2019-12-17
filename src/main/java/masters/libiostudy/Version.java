@@ -137,6 +137,12 @@ public class Version implements Comparable<Version> {
         return first.get(0).equals(second.get(0)) && first.get(1).equals(second.get(1));
     }
 
+    public boolean sameMicro(Version other) {
+        BigInteger third = (versionTokens.size() > 2) ? versionTokens.get(2) : BigInteger.ZERO;
+        BigInteger other_third = (other.versionTokens.size() > 2) ? other.versionTokens.get(2) : BigInteger.ZERO;
+        return this.sameMinor(other) && third.equals(other_third);
+    }
+
     public enum VersionRelationship {
         SAME_MAJOR,
         SAME_MINOR,

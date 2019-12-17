@@ -6,5 +6,28 @@ package masters.flexilag;
 public enum MatcherResult {
     NOT_SUPPORTED,
     MATCH,
-    NO_MATCH
+    NO_MATCH;
+
+    // precedence = NOT_SUPPORTED > NO_MATCH > MATCH
+    public MatcherResult and(MatcherResult other) {
+        if (this == MATCH) {
+            return other;
+        } else if (this == NO_MATCH) {
+            if (other == MATCH) return this;
+            return other;
+        } else {
+            return this;
+        }
+    }
+
+    // precedence = NOT_SUPPORTED < NO_MATCH < MATCH
+    public MatcherResult or(MatcherResult other) {
+        if (this == MATCH || other == MATCH) {
+            return MATCH;
+        } else if (this == NO_MATCH || other == NO_MATCH) {
+            return NO_MATCH;
+        } else {
+            return NOT_SUPPORTED;
+        }
+    }
 }
