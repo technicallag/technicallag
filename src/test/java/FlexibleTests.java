@@ -29,4 +29,9 @@ class FlexibleTests {
         assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new RubygemsLagChecker().matches(Version.create(test), classification, declaration));
     }
 
+    @ParameterizedTest
+    @CsvFileSource(resources = "/flexilag-tests/NPM.csv", numLinesToSkip = 1)
+    public void testFlexibleLagNPM(String classification, String declaration, String test, String expected) {
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new NPMLagChecker().matches(Version.create(test), classification, declaration));
+    }
 }
