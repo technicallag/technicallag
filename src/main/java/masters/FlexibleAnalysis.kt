@@ -2,21 +2,47 @@ package masters
 
 import masters.flexilag.MatcherResult
 import masters.libiostudy.Classifications
-import java.io.File
+import masters.utils.Logging
+import java.io.*
 import java.util.*
 
 /**
  * Created by Jacob Stringer on 16/12/2019.
  */
 
+const val results_bin_path = "data/flexible_lag.bin"
+var results: Array<Vector<Array<Int>>> = Array(PairCollector.PackageManager.values().size) { Vector<Array<Int>>() }
+
 fun analyseAll() {
-    val results: Array<Vector<Array<Int>>> = Array(PairCollector.PackageManager.values().size) { Vector<Array<Int>>() }
+    loadResults()
+
     for (pm in PairCollector.PackageManager.values()) {
         val lag = FlexibleAnalysisByPM(pm)
         val result = lag.getLag()
         results[pm.ordinal] = result
     }
 
+    saveResults()
+    printToFile()
+}
+
+private fun loadResults() {
+    try {
+        val streamin = ObjectInputStream(FileInputStream(results_bin_path))
+        results = streamin.readObject() as Array<Vector<Array<Int>>>
+        streamin.close()
+    } catch (e: FileNotFoundException) {
+        Logging.getLogger("").warn("File $results_bin_path was not found")
+    }
+}
+
+private fun saveResults() {
+    val streamout = ObjectOutputStream(FileOutputStream(results_bin_path))
+    streamout.writeObject(results)
+    streamout.close()
+}
+
+private fun printToFile() {
     File("data/flexible_lag.csv").bufferedWriter().use { out ->
         out.write(",")
         PairCollector.PackageManager.values().forEach {

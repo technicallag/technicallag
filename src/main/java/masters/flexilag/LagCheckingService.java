@@ -5,8 +5,9 @@ import masters.libiostudy.Version;
 import masters.libiostudy.VersionCategoryWrapper;
 import masters.utils.Logging;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Created by Jacob Stringer on 12/12/2019.
@@ -14,6 +15,11 @@ import java.util.Map;
 public class LagCheckingService {
 
     private static Map<PairCollector.PackageManager, LagChecker> mapper;
+
+    private static Set<PairCollector.PackageManager> supported = Stream.of(
+            PairCollector.PackageManager.MAVEN,
+            PairCollector.PackageManager.RUBYGEMS
+    ).collect(Collectors.toSet());
 
     static {
         mapper = new HashMap<>();
@@ -34,6 +40,10 @@ public class LagCheckingService {
         mapper.put(PairCollector.PackageManager.PUPPET, new PuppetLagChecker());
         mapper.put(PairCollector.PackageManager.PYPI, new PypiLagChecker());
         mapper.put(PairCollector.PackageManager.RUBYGEMS, new RubygemsLagChecker());
+    }
+
+    public static boolean supportedPM(PairCollector.PackageManager pm) {
+        return supported.contains(pm);
     }
 
     public static MatcherResult matcher(PairCollector.PackageManager pm, Version version, String classification, String declaration) {

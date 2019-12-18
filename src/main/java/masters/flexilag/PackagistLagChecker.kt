@@ -9,14 +9,17 @@ import masters.libiostudy.Version
 class PackagistLagChecker : LagChecker {
 
     override fun matches(version: Version, classification: String, declaration: String) : MatcherResult {
+        // Packagist uses whitespace as logical 'AND' and ' || ' as logical 'OR' (AND is resolved before OR). Hyphen ranges dealt with as a third option.
         val parts = splitter(declaration)
         return resolveRecursive(parts, version)
     }
 
     fun resolveRecursive(parts: List<String>, version: Version) : MatcherResult {
+        // pipes() and hyphen() are mutually recursive functions with resolveRecursive() that break the tokens up into smaller logical segments
         if (parts.contains("||")) return pipes(parts, version)
         if (parts.contains("-")) return hyphen(parts, version)
 
+        // Deal with each token individually and AND them
         var accumulator = MatcherResult.MATCH
         for (part in parts) {
             accumulator = accumulator.and(when {
@@ -24,7 +27,9 @@ class PackagistLagChecker : LagChecker {
                 part.contains('~') -> tilde(part, version)
                 part.contains('^') -> caret(part, version)
                 part.startsWith(">=") -> atleast(part, version, equal=true)
-                // <= >= < >
+                part.startsWith('>') -> atleast(part, version)
+                part.startsWith("<=") -> atmost(part, version, equal=true)
+                part.startsWith('<') -> atmost(part, version)
                 else -> if (Version.create(part).sameMicro(version)) MatcherResult.MATCH else MatcherResult.NO_MATCH
             })
         }
@@ -104,20 +109,4 @@ class PackagistLagChecker : LagChecker {
         return declaration.split(" ")
                 .map { it.trim() }
     }
-
-    data class PartialDeclaration(val prefix: String, val version: Version)
-
-    fun classify(rawString: String) : RubygemsLagChecker.PartialDeclaration? {
-        for (i in rawString.indices) {
-            if (rawString[i].isDigit()) {
-                return RubygemsLagChecker.PartialDeclaration(
-                        if (i == 0) "" else rawString.substring(0, i).trim(),
-                        Version.create(rawString.substring(i))
-                )
-            }
-        }
-
-        return null
-    }
-
 }
