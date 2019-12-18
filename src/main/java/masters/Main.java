@@ -1,6 +1,5 @@
 package masters;
 
-import masters.flexilag.MatcherResult;
 import masters.utils.Database;
 
 import java.io.*;
@@ -35,7 +34,7 @@ public class Main {
         Aggregator allData = new Aggregator("ALL");
         Aggregator allLargePairs = new Aggregator("ALL_LARGE_PAIRS");
 
-        for (PairCollector.PackageManager pm: PairCollector.PackageManager.values()) {
+        for (PackageManager pm: PackageManager.values()) {
             List<PairIDs> pairsByPM = pairCollector.getPairs(pm, PairCollector.Status.INCLUDED);
             //if (pm == PairCollector.PackageManager.MAVEN || pm == PairCollector.PackageManager.NPM) continue;
 
@@ -66,8 +65,8 @@ public class Main {
     // print(ps, path) will only print it if it hasn't been printed before - so need to randomise or change to print more on subsequent runs
     // Memory for maybePrint
     int backwardsPrinted = 0;
-    PairCollector.PackageManager curPM = null;
-    private void maybePrint(PairStatistics ps, PairCollector.PackageManager pm) {
+    PackageManager curPM = null;
+    private void maybePrint(PairStatistics ps, PackageManager pm) {
         if (pm != curPM) {
             curPM = pm;
             backwardsPrinted = 0;

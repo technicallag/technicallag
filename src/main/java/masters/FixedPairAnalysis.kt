@@ -1,6 +1,5 @@
 package masters
 
-import masters.libiostudy.Version
 import masters.libiostudy.Version.VersionRelationship
 import masters.utils.*
 import java.io.BufferedWriter
@@ -175,7 +174,7 @@ data class UpdateMatrix (val index: Int) {
     }
 }
 
-data class PairStatistics(val pair: PairFullDataFixed, val pm: PairCollector.PackageManager) {
+data class PairStatistics(val pair: PairFullDataFixed, val pm: PackageManager) {
     val classifyUpdates = mutableListOf<Change>()
     val quantityOfLag = mutableListOf<Lag>()
     val matrices = Array(8) { UpdateMatrix(it) }
@@ -394,7 +393,7 @@ class FixedPairAnalysis {
 
     companion object {
         @JvmStatic
-        fun classifyPair(pair: PairFullDataFixed, pm: PairCollector.PackageManager) : PairStatistics {
+        fun classifyPair(pair: PairFullDataFixed, pm: PackageManager) : PairStatistics {
             val stats = PairStatistics(pair, pm)
 
             try {

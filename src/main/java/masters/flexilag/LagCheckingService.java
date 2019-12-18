@@ -1,8 +1,7 @@
 package masters.flexilag;
 
-import masters.PairCollector;
+import masters.PackageManager;
 import masters.libiostudy.Version;
-import masters.libiostudy.VersionCategoryWrapper;
 import masters.utils.Logging;
 
 import java.util.*;
@@ -14,39 +13,39 @@ import java.util.stream.Stream;
  */
 public class LagCheckingService {
 
-    private static Map<PairCollector.PackageManager, LagChecker> mapper;
+    private static Map<PackageManager, LagChecker> mapper;
 
-    private static Set<PairCollector.PackageManager> supported = Stream.of(
-            PairCollector.PackageManager.MAVEN,
-            PairCollector.PackageManager.RUBYGEMS
+    private static Set<PackageManager> supported = Stream.of(
+            PackageManager.MAVEN,
+            PackageManager.RUBYGEMS
     ).collect(Collectors.toSet());
 
     static {
         mapper = new HashMap<>();
-        mapper.put(PairCollector.PackageManager.ATOM, new NPMLagChecker());
-        mapper.put(PairCollector.PackageManager.CARGO, new CargoLagChecker());
-        mapper.put(PairCollector.PackageManager.CPAN, new CPANLagChecker());
-        mapper.put(PairCollector.PackageManager.CRAN, new CRANLagChecker());
-        mapper.put(PairCollector.PackageManager.DUB, new DubLagChecker());
-        mapper.put(PairCollector.PackageManager.ELM, new ElmLagChecker());
-        mapper.put(PairCollector.PackageManager.HAXELIB, new HaxelibLagChecker());
-        mapper.put(PairCollector.PackageManager.HEX, new HexLagChecker());
-        mapper.put(PairCollector.PackageManager.HOMEBREW, new HomebrewLagChecker());
-        mapper.put(PairCollector.PackageManager.MAVEN, new MavenLagChecker());
-        mapper.put(PairCollector.PackageManager.NPM, new NPMLagChecker());
-        mapper.put(PairCollector.PackageManager.NUGET, new NuGetLagChecker());
-        mapper.put(PairCollector.PackageManager.PACKAGIST, new PackagistLagChecker());
-        mapper.put(PairCollector.PackageManager.PUB, new PubLagChecker());
-        mapper.put(PairCollector.PackageManager.PUPPET, new PuppetLagChecker());
-        mapper.put(PairCollector.PackageManager.PYPI, new PypiLagChecker());
-        mapper.put(PairCollector.PackageManager.RUBYGEMS, new RubygemsLagChecker());
+        mapper.put(PackageManager.ATOM, new NPMLagChecker());
+        mapper.put(PackageManager.CARGO, new CargoLagChecker());
+        mapper.put(PackageManager.CPAN, new CPANLagChecker());
+        mapper.put(PackageManager.CRAN, new CRANLagChecker());
+        mapper.put(PackageManager.DUB, new DubLagChecker());
+        mapper.put(PackageManager.ELM, new ElmLagChecker());
+        mapper.put(PackageManager.HAXELIB, new HaxelibLagChecker());
+        mapper.put(PackageManager.HEX, new HexLagChecker());
+        mapper.put(PackageManager.HOMEBREW, new HomebrewLagChecker());
+        mapper.put(PackageManager.MAVEN, new MavenLagChecker());
+        mapper.put(PackageManager.NPM, new NPMLagChecker());
+        mapper.put(PackageManager.NUGET, new NuGetLagChecker());
+        mapper.put(PackageManager.PACKAGIST, new PackagistLagChecker());
+        mapper.put(PackageManager.PUB, new PubLagChecker());
+        mapper.put(PackageManager.PUPPET, new PuppetLagChecker());
+        mapper.put(PackageManager.PYPI, new PypiLagChecker());
+        mapper.put(PackageManager.RUBYGEMS, new RubygemsLagChecker());
     }
 
-    public static boolean supportedPM(PairCollector.PackageManager pm) {
+    public static boolean supportedPM(PackageManager pm) {
         return supported.contains(pm);
     }
 
-    public static MatcherResult matcher(PairCollector.PackageManager pm, Version version, String classification, String declaration) {
+    public static MatcherResult matcher(PackageManager pm, Version version, String classification, String declaration) {
         try {
             if (mapper.containsKey(pm)) {
                 return mapper.get(pm).matches(version, classification, declaration);

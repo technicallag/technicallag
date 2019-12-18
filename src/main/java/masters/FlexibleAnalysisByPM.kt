@@ -1,23 +1,20 @@
 package masters
 
 import kotlinx.coroutines.*
-import masters.PairCollector.PackageManager
 import masters.flexilag.LagCheckingService
 import masters.flexilag.MatcherResult
 import masters.libiostudy.Classifications
 import masters.libiostudy.VersionCategoryWrapper
 import masters.utils.Database
 import masters.utils.Logging
-import java.io.File
 import java.util.*
-import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.LongAdder
 
 /**
  * Created by Jacob Stringer on 12/12/2019.
  */
 
-class FlexibleAnalysisByPM(val pm: PairCollector.PackageManager) {
+class FlexibleAnalysisByPM(val pm: PackageManager) {
     // stats[classification][matcherresult] = number_of_instances
     val stats: Vector<Array<Int>> = Vector()
     var counter = LongAdder()

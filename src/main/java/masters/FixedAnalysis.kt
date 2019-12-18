@@ -4,7 +4,6 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking
 import masters.CollectDataForPair.Companion.collectDataForFixedAnalysis
 import masters.FixedPairAnalysis.Companion.classifyPair
-import masters.PairCollector.PackageManager
 import masters.utils.Logging
 
 /**

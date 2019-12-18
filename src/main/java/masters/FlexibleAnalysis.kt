@@ -11,12 +11,12 @@ import java.util.*
  */
 
 const val results_bin_path = "data/flexible_lag.bin"
-var results: Array<Vector<Array<Int>>> = Array(PairCollector.PackageManager.values().size) { Vector<Array<Int>>() }
+var results: Array<Vector<Array<Int>>> = Array(PackageManager.values().size) { Vector<Array<Int>>() }
 
 fun analyseAll() {
     loadResults()
 
-    for (pm in PairCollector.PackageManager.values()) {
+    for (pm in PackageManager.values()) {
         val lag = FlexibleAnalysisByPM(pm)
         val result = lag.getLag()
         results[pm.ordinal] = result
@@ -45,7 +45,7 @@ private fun saveResults() {
 private fun printToFile() {
     File("data/flexible_lag.csv").bufferedWriter().use { out ->
         out.write(",")
-        PairCollector.PackageManager.values().forEach {
+        PackageManager.values().forEach {
             out.write(",$it")
         }
         out.write("\n")
@@ -53,7 +53,7 @@ private fun printToFile() {
         Classifications.ALL.forEach { classification ->
             MatcherResult.values().forEach { match ->
                 out.write("\n$classification,$match")
-                PairCollector.PackageManager.values().forEach { pm ->
+                PackageManager.values().forEach { pm ->
                     out.write(",${results[pm.ordinal][Classifications.ALL.indexOf(classification)][match.ordinal]}")
                 }
             }

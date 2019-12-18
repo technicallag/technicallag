@@ -1,14 +1,14 @@
-package masters;
+package masters
 
 import masters.libiostudy.Version
-import masters.utils.Database;
-import masters.utils.Logging;
-import masters.libiostudy.VersionCategoryWrapper;
+import masters.utils.Database
+import masters.utils.Logging
+import masters.libiostudy.VersionCategoryWrapper
 import java.io.*
 import java.lang.Integer.min
 import java.math.BigInteger
 
-import java.sql.SQLException;
+import java.sql.SQLException
 import kotlin.collections.HashMap
 
 /**
@@ -31,29 +31,6 @@ class PairCollector {
         override fun toString(): String {
             return "$f, $fviolates, $s, $sviolates\n"
         }
-    }
-
-    enum class PackageManager(val nameInDB: String) : Serializable {
-        CPAN("CPAN"),
-        CRAN("CRAN"),
-        DUB("Dub"),
-        ELM("Elm"),
-        HAXELIB("Haxelib"),
-        HOMEBREW("Homebrew"),
-        PUB("Pub"),
-        PUPPET("Puppet"),
-
-        ATOM("Atom"),
-        CARGO("Cargo"),
-        HEX("Hex"),
-        MAVEN("Maven"),
-        NPM("NPM"),
-        NUGET("NuGet"),
-        PACKAGIST("Packagist"),
-        PYPI("Pypi"),
-        RUBYGEMS("Rubygems");
-
-        public override fun toString() : String = nameInDB
     }
 
     enum class Status : Serializable {
