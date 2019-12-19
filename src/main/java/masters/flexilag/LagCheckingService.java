@@ -1,6 +1,7 @@
 package masters.flexilag;
 
-import masters.PackageManager;
+import masters.PairCollector.PackageManager;
+import masters.PairCollector;
 import masters.libiostudy.Version;
 import masters.utils.Logging;
 
@@ -13,10 +14,12 @@ import java.util.stream.Stream;
  */
 public class LagCheckingService {
 
-    private static Map<PackageManager, LagChecker> mapper;
+    private static Map<PairCollector.PackageManager, LagChecker> mapper;
 
-    private static Set<PackageManager> supported = Stream.of(
+    // Allows PMs not to call the service if the PM rules have not been implemented
+    private static Set<PairCollector.PackageManager> supported = Stream.of(
             PackageManager.MAVEN,
+            PackageManager.PACKAGIST,
             PackageManager.RUBYGEMS
     ).collect(Collectors.toSet());
 
@@ -41,7 +44,7 @@ public class LagCheckingService {
         mapper.put(PackageManager.RUBYGEMS, new RubygemsLagChecker());
     }
 
-    public static boolean supportedPM(PackageManager pm) {
+    public static boolean supported(PackageManager pm) {
         return supported.contains(pm);
     }
 

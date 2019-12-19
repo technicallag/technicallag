@@ -26,10 +26,12 @@ class PackagistLagChecker : LagChecker {
                 part.contains('*') -> wildcard(part, version)
                 part.contains('~') -> tilde(part, version)
                 part.contains('^') -> caret(part, version)
+                part.startsWith("!=") -> not(part, version)
                 part.startsWith(">=") -> atleast(part, version, equal=true)
                 part.startsWith('>') -> atleast(part, version)
                 part.startsWith("<=") -> atmost(part, version, equal=true)
                 part.startsWith('<') -> atmost(part, version)
+                //!part.contains("[0-9]") -> MatcherResult.NOT_SUPPORTED // Not version-like
                 else -> if (Version.create(part).sameMicro(version)) MatcherResult.MATCH else MatcherResult.NO_MATCH
             })
         }
@@ -49,16 +51,21 @@ class PackagistLagChecker : LagChecker {
         val startVers = Version.create(parts[hyphen-1])
         val endVers = Version.create(parts[hyphen+1])
 
-        val cur = if (startVers <= version && (version <= endVers ||
-                        endVers.versionTokens.size == 1 && endVers.sameMajor(version) ||
-                        endVers.versionTokens.size == 2 && endVers.sameMinor(version) ||
-                        endVers.versionTokens.size == 3 && endVers.sameMicro(version))) MatcherResult.MATCH else MatcherResult.NO_MATCH
+        val cur = if (startVers <= version &&
+                        (version <= endVers ||
+                                endVers.versionTokens.size == 1 && endVers.sameMajor(version) ||
+                                endVers.versionTokens.size == 2 && endVers.sameMinor(version) ||
+                                endVers.versionTokens.size == 3 && endVers.sameMicro(version)))
+            MatcherResult.MATCH else MatcherResult.NO_MATCH
 
         return prior.and(cur).and(post)
     }
 
     fun wildcard(part: String, version: Version) : MatcherResult {
         val or = part.indexOf('*')
+        if (or == 0)
+            return MatcherResult.MATCH
+
         var newString = part.substring(0, or)
         if (!newString.last().isDigit()) newString += "0"
 
@@ -72,16 +79,28 @@ class PackagistLagChecker : LagChecker {
     fun caret(part: String, version: Version) : MatcherResult {
         val decVersion = Version.create(part.substring(1))
 
+        if (decVersion > version && !version.sameMicro(decVersion))
+            return MatcherResult.NO_MATCH
+
         return if (decVersion.major == 0 && decVersion.sameMinor(version) || decVersion.sameMajor(version))
             MatcherResult.MATCH
         else
             MatcherResult.NO_MATCH
     }
 
+    fun not(part: String, version: Version) : MatcherResult {
+        val decVersion = Version.create(part.substring(2))
+
+        return if (decVersion.sameMicro(version))
+            MatcherResult.NO_MATCH
+        else
+            MatcherResult.MATCH
+    }
+
     fun atleast(part: String, version: Version, equal: Boolean = false) : MatcherResult {
         val decVersion = Version.create(part.substring(if (equal) 2 else 1))
 
-        return if (decVersion < version || (equal && decVersion.sameMicro(version)))
+        return if (decVersion < version && !decVersion.sameMicro(version) || (decVersion.sameMicro(version) && equal))
             MatcherResult.MATCH
         else
             MatcherResult.NO_MATCH
@@ -90,7 +109,7 @@ class PackagistLagChecker : LagChecker {
     fun atmost(part: String, version: Version, equal: Boolean = false) : MatcherResult {
         val decVersion = Version.create(part.substring(if (equal) 2 else 1))
 
-        return if (decVersion > version || (equal && decVersion.sameMicro(version)))
+        return if (decVersion > version && !decVersion.sameMicro(version) || (decVersion.sameMicro(version) && equal))
             MatcherResult.MATCH
         else
             MatcherResult.NO_MATCH
@@ -99,6 +118,9 @@ class PackagistLagChecker : LagChecker {
     fun semverRange(version: Version, declaration: String) : MatcherResult {
         val dec = Version.create(declaration)
 
+        if (version < dec && !version.sameMicro(dec))
+            return MatcherResult.NO_MATCH
+
         if (dec.versionTokens.size < 3 && dec.sameMajor(version) || dec.sameMinor(version))
             return MatcherResult.MATCH
         else
@@ -106,7 +128,7 @@ class PackagistLagChecker : LagChecker {
     }
 
     fun splitter(declaration: String) : List<String> {
-        return declaration.split(" ")
+        return declaration.split(" ", ",")
                 .map { it.trim() }
     }
 }

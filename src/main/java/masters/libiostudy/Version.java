@@ -181,18 +181,28 @@ public class Version implements Comparable<Version> {
 
     @Override
     public int compareTo(Version otherVersion) {
-        while (versionTokens.size() > otherVersion.versionTokens.size()) {
-            otherVersion.versionTokens.add(BigInteger.ZERO);
-        }
-        while (versionTokens.size() < otherVersion.versionTokens.size()) {
-            this.versionTokens.add(BigInteger.ZERO);
-        }
+//        while (versionTokens.size() > otherVersion.versionTokens.size()) {
+//            otherVersion.versionTokens.add(BigInteger.ZERO);
+//        }
+//        while (versionTokens.size() < otherVersion.versionTokens.size()) {
+//            this.versionTokens.add(BigInteger.ZERO);
+//        }
 
-        for (int i=0; i < this.versionTokens.size(); i++) {
+        int i = 0;
+        for (; i < Math.min(this.versionTokens.size(), otherVersion.versionTokens.size()); i++) {
             int diff = this.versionTokens.get(i).compareTo(otherVersion.versionTokens.get(i));
             if (diff!=0) {
                 return diff;
             }
+        }
+
+        while (i < this.versionTokens.size()) {
+            if (!versionTokens.get(i++).equals(BigInteger.ZERO))
+                return 1;
+        }
+        while (i < otherVersion.versionTokens.size()) {
+            if (!otherVersion.versionTokens.get(i++).equals(BigInteger.ZERO))
+                return -1;
         }
 
         if (this.additionalInfo.isEmpty() && otherVersion.additionalInfo.isEmpty()) return 0;
@@ -205,7 +215,7 @@ public class Version implements Comparable<Version> {
 
         // Check that the tag type is the same - else do an alphabetical ordering.
         // Assumption: tags are constructed as '-<letters><digits>'
-        for (int i = 0; i < Math.min(additionalInfo.length(), otherVersion.additionalInfo.length()); i++) {
+        for (i = 0; i < Math.min(additionalInfo.length(), otherVersion.additionalInfo.length()); i++) {
             char first = additionalInfo.charAt(i), second = otherVersion.additionalInfo.charAt(i);
 
             // If they are both digits, they have matching letter parts of the tag, so can go to the next stage

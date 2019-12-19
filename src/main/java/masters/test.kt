@@ -1,5 +1,6 @@
 package masters
 
+import kotlinx.coroutines.*
 import masters.utils.Database
 import java.io.*
 import java.util.regex.Pattern
@@ -9,11 +10,21 @@ import java.util.regex.Pattern
  */
 
 fun main(args: Array<String>) {
-    //getSubcomponentInfo()
-    val versionNumber = Pattern.compile("\\d+(\\.\\d+){0,2}")
-    if (versionNumber.matcher("(,1.0]").find()) {
-        println("hi")
+    val start = System.currentTimeMillis()
+    var result = 0
+
+    runBlocking {
+        result = (1.. 100000).map {
+            this.async {
+                delay(1000)
+                1 + 2
+            }
+        }.map {
+            it.await()
+        }.sum()
     }
+    println(System.currentTimeMillis() - start)
+    println(result)
 }
 
 fun getSubcomponentInfo() {

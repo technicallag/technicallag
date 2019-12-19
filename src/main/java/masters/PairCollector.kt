@@ -22,7 +22,7 @@ import kotlin.collections.HashMap
 data class PairIDs (val projectID: Int, val dependencyID: Int) : Serializable
 
 class PairCollector {
-    var counts = HashMap<PackageManager, Map<Status, Int>>()
+    var counts: HashMap<PackageManager, Map<Status, Int>>
     private val log = Logging.getLogger("")
 
     val PAIR_FOLDER = "../cached_pair_ids"
@@ -41,6 +41,29 @@ class PairCollector {
         NOT_IN_DATASET
     }
 
+    enum class PackageManager(val nameInDB: String) : Serializable {
+        CPAN("CPAN"),
+        CRAN("CRAN"),
+        DUB("Dub"),
+        ELM("Elm"),
+        HAXELIB("Haxelib"),
+        HOMEBREW("Homebrew"),
+        PUB("Pub"),
+        PUPPET("Puppet"),
+
+        ATOM("Atom"),
+        CARGO("Cargo"),
+        HEX("Hex"),
+        MAVEN("Maven"),
+        NPM("NPM"),
+        NUGET("NuGet"),
+        PACKAGIST("Packagist"),
+        PYPI("Pypi"),
+        RUBYGEMS("Rubygems");
+
+        override fun toString() : String = nameInDB
+    }
+
     // The initialisation phase collects any information that has not yet been cached and produces pair statistics
     init {
         // Load in any counts data from file
@@ -49,7 +72,8 @@ class PairCollector {
             counts = streamin.readObject() as HashMap<PackageManager, Map<Status, Int>>
             streamin.close()
         } catch (e: FileNotFoundException) {
-            log.warn("File data/pairs/pair_counts.bin was not found")
+            log.warn("File $PAIR_FOLDER/pair_counts.bin was not found")
+            counts = HashMap()
         }
 
         // Preprocess pair data from DB into Files as needed
@@ -227,4 +251,3 @@ class PairCollector {
     }
 
 }
-

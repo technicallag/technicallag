@@ -91,16 +91,14 @@ test: 1.8.*@stable
 match: (\w+|\.){4}\*((-|@|\+)\w+)?
 classify:var-micro
 
+# Jacob (18/12/2019): Carets should not be part of this category
+# These are semantically var-micro not range
 # Tilde and Caret Version Range (micro)
 test: ~1.2.3
-test: ^1.2.3
-test: ^5.0.19
-test: ^1.2.3@alpha
 test: ~1.2.3@dev
 test: ~9.0.0-beta.4
-test: ^0.16.0
-match: (\~|\^)(\w+|\.){5}((-|@|\+)\w+(\.\d+)?)?
-classify:range
+match: (\~)(\w+|\.){5}((-|@|\+)\w+(\.\d+)?)?
+classify:var-micro
 
 # Wildcard Version Range (minor)
 test: 1.*
@@ -110,7 +108,13 @@ test: 1.*.*
 match: (\w+|\.){2}(\.?\*)+((-|@|\+)\w+)?
 classify:var-minor
 
+# Jacob (18/12/2019): Carets moved from var-micro category
+# These are semantically var-minor not range
 # Tilde and Caret Version Range (minor)
+test: ^1.2.3
+test: ^5.0.19
+test: ^1.2.3@alpha
+test: ^0.16.0
 test: ~1.2
 test: ^1.2
 test: ~2.0@dev
@@ -124,8 +128,8 @@ test: ^5
 test: ~5
 test: ~1.
 test: ^9.0@dev.4
-match: (\~|\^)((\w+\.?)|(\w+|\.){3})((-|@|\+)\w+(\.\d+)?)?
-classify:range
+match: (\~(\w+|\.){1,5}|(\^(\w+|\.){1,7}))((-|@|\+)\w+(\.\d+)?)?
+classify:var-minor
 
 # Tilde and Caret Version Range (micro)
 #new_classification? four levels

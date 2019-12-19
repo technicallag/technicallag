@@ -174,7 +174,7 @@ data class UpdateMatrix (val index: Int) {
     }
 }
 
-data class PairStatistics(val pair: PairFullDataFixed, val pm: PackageManager) {
+data class PairStatistics(val pair: PairFullDataFixed, val pm: PairCollector.PackageManager) {
     val classifyUpdates = mutableListOf<Change>()
     val quantityOfLag = mutableListOf<Lag>()
     val matrices = Array(8) { UpdateMatrix(it) }
@@ -393,7 +393,7 @@ class FixedPairAnalysis {
 
     companion object {
         @JvmStatic
-        fun classifyPair(pair: PairFullDataFixed, pm: PackageManager) : PairStatistics {
+        fun classifyPair(pair: PairFullDataFixed, pm: PairCollector.PackageManager) : PairStatistics {
             val stats = PairStatistics(pair, pm)
 
             try {
