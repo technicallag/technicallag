@@ -1,5 +1,6 @@
 package masters
 
+import masters.flexilag.LagCheckingService
 import masters.flexilag.MatcherResult
 import masters.libiostudy.Classifications
 import masters.utils.Logging
@@ -11,12 +12,27 @@ import java.util.*
  */
 
 const val results_bin_path = "data/flexible_lag.bin"
+val log = Logging.getLogger("")
+
+// results[pm.ordinal][classification.indexOf][match.ordinal]
 var results: Array<Vector<Array<Int>>> = Array(PairCollector.PackageManager.values().size) { Vector<Array<Int>>() }
 
 fun analyseAll() {
     loadResults()
 
     for (pm in PairCollector.PackageManager.values()) {
+        if (!LagCheckingService.supported(pm)) {
+            // Only check pairs in PMs with finished classes
+            log.info("$pm flexible study not supported")
+            continue
+        }
+
+        if (resultsCount(pm) > 0) {
+            // Avoid recomputing values
+            log.info("${resultsCount(pm)} in $pm")
+            continue
+        }
+
         val lag = FlexibleAnalysisByPM(pm)
         val result = lag.getLag()
         results[pm.ordinal] = result
@@ -26,6 +42,10 @@ fun analyseAll() {
     printToFile()
 }
 
+fun resultsCount(pm: PairCollector.PackageManager) : Int {
+    return results[pm.ordinal].map { it.sum() }.sum()
+}
+
 private fun loadResults() {
     try {
         val streamin = ObjectInputStream(FileInputStream(results_bin_path))
@@ -33,6 +53,7 @@ private fun loadResults() {
         streamin.close()
     } catch (e: FileNotFoundException) {
         Logging.getLogger("").warn("File $results_bin_path was not found")
+        results.forEach { vector -> Classifications.ALL.forEach { vector.add(Array(MatcherResult.values().size) {0}) } }
     }
 }
 
@@ -48,7 +69,6 @@ private fun printToFile() {
         PairCollector.PackageManager.values().forEach {
             out.write(",$it")
         }
-        out.write("\n")
 
         Classifications.ALL.forEach { classification ->
             MatcherResult.values().forEach { match ->

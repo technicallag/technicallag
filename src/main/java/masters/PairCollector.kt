@@ -1,14 +1,14 @@
-package masters;
+package masters
 
 import masters.libiostudy.Version
-import masters.utils.Database;
-import masters.utils.Logging;
-import masters.libiostudy.VersionCategoryWrapper;
+import masters.utils.Database
+import masters.utils.Logging
+import masters.libiostudy.VersionCategoryWrapper
 import java.io.*
 import java.lang.Integer.min
 import java.math.BigInteger
 
-import java.sql.SQLException;
+import java.sql.SQLException
 import kotlin.collections.HashMap
 
 /**
@@ -22,7 +22,7 @@ import kotlin.collections.HashMap
 data class PairIDs (val projectID: Int, val dependencyID: Int) : Serializable
 
 class PairCollector {
-    var counts = HashMap<PackageManager, Map<Status, Int>>()
+    var counts: HashMap<PackageManager, Map<Status, Int>>
     private val log = Logging.getLogger("")
 
     val PAIR_FOLDER = "../cached_pair_ids"
@@ -31,6 +31,14 @@ class PairCollector {
         override fun toString(): String {
             return "$f, $fviolates, $s, $sviolates\n"
         }
+    }
+
+    enum class Status : Serializable {
+        INCLUDED,
+        VERSIONS_NON_SEMVER,
+        FLEXIBLE,
+        SUBCOMPONENT,
+        NOT_IN_DATASET
     }
 
     enum class PackageManager(val nameInDB: String) : Serializable {
@@ -53,15 +61,7 @@ class PairCollector {
         PYPI("Pypi"),
         RUBYGEMS("Rubygems");
 
-        public override fun toString() : String = nameInDB
-    }
-
-    enum class Status : Serializable {
-        INCLUDED,
-        VERSIONS_NON_SEMVER,
-        FLEXIBLE,
-        SUBCOMPONENT,
-        NOT_IN_DATASET
+        override fun toString() : String = nameInDB
     }
 
     // The initialisation phase collects any information that has not yet been cached and produces pair statistics
@@ -72,7 +72,8 @@ class PairCollector {
             counts = streamin.readObject() as HashMap<PackageManager, Map<Status, Int>>
             streamin.close()
         } catch (e: FileNotFoundException) {
-            log.warn("File data/pairs/pair_counts.bin was not found")
+            log.warn("File $PAIR_FOLDER/pair_counts.bin was not found")
+            counts = HashMap()
         }
 
         // Preprocess pair data from DB into Files as needed
@@ -250,4 +251,3 @@ class PairCollector {
     }
 
 }
-

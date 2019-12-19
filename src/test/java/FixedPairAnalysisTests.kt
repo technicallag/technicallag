@@ -5,8 +5,8 @@ package masters
  */
 
 import masters.libiostudy.Version.VersionRelationship
-import org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Test
 
 
 class FixedPairAnalysisTests {
@@ -35,7 +35,7 @@ class FixedPairAnalysisTests {
         // PROBLEM: 4 versions published within minutes mean version ordering doesn't make sense - libraries.io timestamps can be inaccurate up to a day.
         // FIXED: Only order tags by time if they are published more than 24 hours apart
         val results = getResultsBackwardsChanges(1157630, 921, PairCollector.PackageManager.HEX)
-        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MINOR));
+        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MINOR))
     }
 
     @Test
@@ -43,7 +43,7 @@ class FixedPairAnalysisTests {
         // PROBLEM: 1.0.4 has a newer dependency than 1.1.0, but it was produced afterwards.
         // FIXED: When a backwards change is detected, versions are checked for time, and the previous version timewise is compared
         val results = getResultsBackwardsChanges(930779, 930773, PairCollector.PackageManager.ATOM)
-        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MICRO));
+        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MICRO))
     }
 
     @Test
@@ -51,7 +51,7 @@ class FixedPairAnalysisTests {
         // PROBLEM: Ordering of tags is incorrect which caused an update to seem to be backwards when it wasn't
         // FIXED: Versions now order their tags by time as a first step (major > minor > micro > published time > other tag info)
         val results = getResultsBackwardsChanges(1777583, 1643839, PairCollector.PackageManager.ATOM)
-        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MICRO));
+        assertFalse(results.hasThisUpdate.contains(Update.BACKWARD_MICRO))
     }
 
     @Test

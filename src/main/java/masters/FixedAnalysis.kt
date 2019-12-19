@@ -4,7 +4,6 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking
 import masters.CollectDataForPair.Companion.collectDataForFixedAnalysis
 import masters.FixedPairAnalysis.Companion.classifyPair
-import masters.PairCollector.PackageManager
 import masters.utils.Logging
 
 /**
@@ -16,7 +15,7 @@ fun analysePairs() {
     val allData = Aggregator("ALL")
     val allLargePairs = Aggregator("ALL_LARGE_PAIRS")
 
-    for (pm in PackageManager.values()) {
+    for (pm in PairCollector.PackageManager.values()) {
         val pairsByPM = pairCollector.getPairs(pm, PairCollector.Status.INCLUDED)
 
         Logging.getLogger("").info("Aggregating data for $pm")
@@ -47,6 +46,6 @@ fun analysePairs() {
 }
 
 // Toggle which pairs get individually printed for validation
-fun maybePrint(ps: PairStatistics, pm: PackageManager) {
+fun maybePrint(ps: PairStatistics, pm: PairCollector.PackageManager) {
     if (ps.hasBackwardsChanges()) ps.printBackwardsInformation("data/backwards/$pm")
 }

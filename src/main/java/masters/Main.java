@@ -1,6 +1,5 @@
 package masters;
 
-import masters.flexilag.MatcherResult;
 import masters.utils.Database;
 
 import java.io.*;
