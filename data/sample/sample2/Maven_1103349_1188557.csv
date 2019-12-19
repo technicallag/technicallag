@@ -1,0 +1,99 @@
+
+Project information
+com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-smell-plugin (1103349)	org.sonarsource.sonarqube:sonar-plugin-api (1188557)	Package Manager: Maven
+RepoID: 1132806
+Tag information:
+CommitInfo{repo='GitHub', hash='917e168c6ce9f1a9f2960839af61f1f701c06b53', version='qualinsight-plugins-sonarqube-smell-1.0.0'}
+CommitInfo{repo='GitHub', hash='e855ddcea4f4d32fa9a6dd40ba6544869def7158', version='qualinsight-plugins-sonarqube-smell-1.0.1'}
+CommitInfo{repo='GitHub', hash='8d473c8a92583e001a74b14876351abbb87d2cd9', version='qualinsight-plugins-sonarqube-smell-1.0.2'}
+CommitInfo{repo='GitHub', hash='bcfb5850cb2cde497fa15cb7d593a781d587eda1', version='qualinsight-plugins-sonarqube-smell-1.0.3'}
+CommitInfo{repo='GitHub', hash='06d5aab5ede8e4b48d715179396347a94ab1fc19', version='qualinsight-plugins-sonarqube-smell-1.0.4'}
+CommitInfo{repo='GitHub', hash='a36f83681369ae817fc4c0e0d825cafedf5bfb63', version='qualinsight-plugins-sonarqube-smell-2.0.0'}
+CommitInfo{repo='GitHub', hash='66df01b3a2fd754dc52eb3971246b5f9033627e6', version='qualinsight-plugins-sonarqube-smell-2.0.0-RC1'}
+CommitInfo{repo='GitHub', hash='cd6a91d96b2c2d33bbed854dbc0c93b56d0be699', version='qualinsight-plugins-sonarqube-smell-2.0.0-RC2'}
+CommitInfo{repo='GitHub', hash='c7687e0fcf7095d7dacc7fa9e94c71d95f6ecb3f', version='qualinsight-plugins-sonarqube-smell-2.0.1'}
+CommitInfo{repo='GitHub', hash='88c3819563086db4b33ad79ef29f8eb303e34298', version='qualinsight-plugins-sonarqube-smell-2.0.1-RC1'}
+CommitInfo{repo='GitHub', hash='fcc31378d3eeb3a4e05293a81f0ff69fcee742fc', version='qualinsight-plugins-sonarqube-smell-3.0.0'}
+CommitInfo{repo='GitHub', hash='5140fd47191511f12fb8c8f8f779782f2587b89c', version='qualinsight-plugins-sonarqube-smell-3.0.0-RC1'}
+CommitInfo{repo='GitHub', hash='fee9cadac43dced570df3fd11c0177f98bbebce8', version='qualinsight-plugins-sonarqube-smell-4.0.0-RC1'}
+CommitInfo{repo='GitHub', hash='1334f1e891a936a619d6ef6ca9a6abea408bb951', version='qualinsight-plugins-sonarqube-smell-4.0.0-RC2'}
+CommitInfo{repo='GitHub', hash='36bd236fab1b7549bc6a857d30504bf92714744a', version='qualinsight-plugins-sonarqube-smell-4.0.0-RC3'}
+CommitInfo{repo='GitHub', hash='917e168c6ce9f1a9f2960839af61f1f701c06b53', version='qualinsight-plugins-sonarqube-wtf-1.0.0'}
+CommitInfo{repo='GitHub', hash='e855ddcea4f4d32fa9a6dd40ba6544869def7158', version='qualinsight-plugins-sonarqube-wtf-1.0.1'}
+
+Project A:
+ProjectVersionFixed(version=2.0.0-RC1, dependency=null, time=2015-10-18 22:20:43 UTC)
+ProjectVersionFixed(version=2.0.0-RC2, dependency=null, time=2015-10-21 16:39:42 UTC)
+ProjectVersionFixed(version=2.0.0, dependency=null, time=2015-10-22 17:56:19 UTC)
+ProjectVersionFixed(version=2.0.1-RC1, dependency=null, time=2015-11-25 20:11:13 UTC)
+ProjectVersionFixed(version=2.0.1, dependency=null, time=2015-11-27 23:38:01 UTC)
+ProjectVersionFixed(version=3.0.0-RC1, dependency=null, time=2016-01-06 22:10:04 UTC)
+ProjectVersionFixed(version=3.0.0, dependency=null, time=2016-01-11 19:20:44 UTC)
+ProjectVersionFixed(version=4.0.0-RC1, dependency=5.6.1, time=2016-11-09 21:27:50 UTC),	Latest, "DependencyVersion(version=6.1, time=2016-10-11 07:36:36 UTC)"
+
+ProjectVersionFixed(version=4.0.0-RC2, dependency=5.6, time=2017-01-20 22:20:25 UTC),	Latest, "DependencyVersion(version=6.2.1, time=2017-01-17 10:08:45 UTC)"
+
+ProjectVersionFixed(version=4.0.0-RC3, dependency=5.6, time=2017-01-25 23:13:45 UTC),	Latest, "DependencyVersion(version=6.2.1, time=2017-01-17 10:08:45 UTC)"
+
+ProjectVersionFixed(version=4.0.0, dependency=5.6, time=2017-01-30 18:38:49 UTC),	Latest, "DependencyVersion(version=6.2.1, time=2017-01-17 10:08:45 UTC)"
+
+
+Project B:
+DependencyVersion(version=5.2, time=2015-11-02 10:36:45 UTC)
+DependencyVersion(version=5.2-RC2, time=2015-10-13 11:14:39 UTC)
+DependencyVersion(version=5.2-RC3, time=2015-10-20 14:39:09 UTC)
+DependencyVersion(version=5.2-RC4, time=2015-10-27 14:18:57 UTC)
+DependencyVersion(version=5.3, time=2016-01-08 10:48:36 UTC)
+DependencyVersion(version=5.3-RC1, time=2015-12-10 08:21:37 UTC)
+DependencyVersion(version=5.3-RC2, time=2015-12-18 14:21:50 UTC)
+DependencyVersion(version=5.4, time=2016-03-08 18:34:28 UTC)
+DependencyVersion(version=5.4-RC1, time=2016-02-09 13:17:41 UTC)
+DependencyVersion(version=5.4-RC2, time=2016-02-15 16:31:21 UTC)
+DependencyVersion(version=5.4-RC3, time=2016-03-01 10:53:31 UTC)
+DependencyVersion(version=5.4-RC4, time=2016-03-04 17:35:07 UTC)
+DependencyVersion(version=5.5, time=2016-05-02 15:02:13 UTC)
+DependencyVersion(version=5.5-RC1, time=2016-04-08 14:26:13 UTC)
+DependencyVersion(version=5.5-RC2, time=2016-04-28 07:16:35 UTC)
+DependencyVersion(version=5.6, time=2016-06-01 12:32:51 UTC)
+DependencyVersion(version=5.6.1, time=2016-07-25 08:44:37 UTC)
+DependencyVersion(version=5.6.2, time=2016-10-03 15:29:15 UTC)
+DependencyVersion(version=5.6.3, time=2016-10-03 15:03:39 UTC)
+DependencyVersion(version=5.6.4, time=2016-12-12 11:16:59 UTC)
+DependencyVersion(version=5.6.5, time=2017-01-19 08:09:34 UTC)
+DependencyVersion(version=5.6.6, time=2017-02-16 21:18:24 UTC)
+DependencyVersion(version=5.6.7, time=2017-09-25 11:28:56 UTC)
+DependencyVersion(version=5.6-RC1, time=2016-05-27 09:15:48 UTC)
+DependencyVersion(version=5.6-RC2, time=2016-05-27 15:56:09 UTC)
+DependencyVersion(version=6.0, time=2016-08-03 09:46:26 UTC)
+DependencyVersion(version=6.0-RC1, time=2016-07-20 09:00:06 UTC)
+DependencyVersion(version=6.0-RC2, time=2016-07-29 08:50:31 UTC)
+DependencyVersion(version=6.1, time=2016-10-11 07:36:36 UTC)
+DependencyVersion(version=6.1-RC1, time=2016-09-19 15:25:08 UTC)
+DependencyVersion(version=6.1-RC2, time=2016-10-03 08:24:43 UTC)
+DependencyVersion(version=6.2, time=2016-12-13 16:29:47 UTC)
+DependencyVersion(version=6.2.1, time=2017-01-17 10:08:45 UTC)
+DependencyVersion(version=6.2-RC1, time=2016-11-21 13:00:30 UTC)
+DependencyVersion(version=6.2-RC3, time=2016-12-09 12:43:33 UTC)
+DependencyVersion(version=6.3, time=2017-03-14 13:24:28 UTC)
+DependencyVersion(version=6.3.1, time=2017-04-11 16:12:45 UTC)
+DependencyVersion(version=6.3-RC4, time=2017-03-06 07:51:08 UTC)
+DependencyVersion(version=6.4, time=2017-06-02 09:56:17 UTC)
+DependencyVersion(version=6.4-RC1, time=2017-05-18 14:27:13 UTC)
+DependencyVersion(version=6.4-RC2, time=2017-05-22 12:10:54 UTC)
+DependencyVersion(version=6.4-RC3, time=2017-05-29 11:51:30 UTC)
+DependencyVersion(version=6.5, time=2017-08-01 13:36:20 UTC)
+DependencyVersion(version=6.5-RC1, time=2017-07-14 10:55:59 UTC)
+DependencyVersion(version=6.5-RC2, time=2017-07-25 08:24:58 UTC)
+DependencyVersion(version=6.6, time=2017-10-20 14:13:58 UTC)
+DependencyVersion(version=6.6-RC1, time=2017-10-12 06:19:08 UTC)
+DependencyVersion(version=6.7, time=2017-11-08 08:40:04 UTC)
+DependencyVersion(version=6.7.1, time=2018-01-11 14:21:57 UTC)
+DependencyVersion(version=6.7.3, time=2018-04-06 16:30:09 UTC)
+DependencyVersion(version=6.7.4, time=2018-05-30 09:13:41 UTC)
+DependencyVersion(version=6.7-RC1, time=2017-10-27 16:55:32 UTC)
+DependencyVersion(version=7.0, time=2018-02-02 13:51:57 UTC)
+DependencyVersion(version=7.0-RC1, time=2018-01-24 16:23:20 UTC)
+DependencyVersion(version=7.1, time=2018-04-17 09:33:39 UTC)
+DependencyVersion(version=7.2, time=2018-06-18 14:25:06 UTC)
+DependencyVersion(version=7.2.1, time=2018-06-29 14:48:17 UTC)
+DependencyVersion(version=7.3, time=2018-08-16 08:23:51 UTC)
