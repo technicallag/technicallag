@@ -3,6 +3,7 @@ package masters.flexilag;
 import masters.PairCollector.PackageManager;
 import masters.PairCollector;
 import masters.libiostudy.Version;
+import masters.npm.SemVer;
 import masters.utils.Logging;
 
 import java.util.*;
@@ -20,7 +21,9 @@ public class LagCheckingService {
     private static Set<PairCollector.PackageManager> supported = Stream.of(
             PackageManager.MAVEN,
             PackageManager.PACKAGIST,
-            PackageManager.RUBYGEMS
+            PackageManager.RUBYGEMS,
+            PackageManager.NPM,
+            PackageManager.ATOM
     ).collect(Collectors.toSet());
 
     static {
@@ -50,7 +53,15 @@ public class LagCheckingService {
 
     public static MatcherResult matcher(PackageManager pm, Version version, String classification, String declaration) {
         try {
-            if (mapper.containsKey(pm)) {
+            if (pm == PackageManager.NPM || pm == PackageManager.ATOM) {
+                if (SemVer.satisfies(version.toString(), declaration)) {
+                    return MatcherResult.MATCH;
+                } else {
+                    return MatcherResult.NO_MATCH;
+                }
+            }
+
+            else if (mapper.containsKey(pm)) {
                 return mapper.get(pm).matches(version, classification, declaration);
             }
         } catch (Exception e) {

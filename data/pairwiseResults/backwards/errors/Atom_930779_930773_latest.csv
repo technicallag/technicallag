@@ -86,8 +86,8 @@ BACKWARD_MINOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
 BACKWARD_MAJOR,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000
 Total values: 7
 
-Project,Dependency,#MajorLag,#MajorMinor,#MajorMicro,#MajorMinorMicro,#MinorLag,#MinorMicro,#MicroLag,#NoLag,MAJOR DESCRIPTION,0%, 10%, 25%, 50%, 75%, 90%, 100%,Avg,MAJOR TIME DESCRIPTION,0%, 10%, 25%, 50%, 75%, 90%, 100%,Avg,MINOR DESCRIPTION,0%, 10%, 25%, 50%, 75%, 90%, 100%,Avg,MINOR TIME DESCRIPTION,0%, 10%, 25%, 50%, 75%, 90%, 100%,Avg,MICRO DESCRIPTION,0%, 10%, 25%, 50%, 75%, 90%, 100%,Avg,MICRO TIME DESCRIPTION,0%, 10%, 25%, 50%, 75%, 90%, 100%,Avg,FORWARDS_MAJOR,FORWARDS_MINOR,FORWARDS_MICRO,NO_CHANGE,BACKWARD_MICRO,BACKWARD_MINOR,BACKWARD_MAJOR,missingDepsEnd,missingDepsTotal
-930779,930773,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,4,2,0,0,0,0,0
+Project,Dependency,#MajorLag,#MajorMinor,#MajorMicro,#MajorMinorMicro,#MinorLag,#MinorMicro,#MicroLag,#NoLag,MAJOR DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MAJOR TIME DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MINOR DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MINOR TIME DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MICRO DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,MICRO TIME DESCRIPTION,AVG,STDDEV,0%,10%,25%,50%,75%,90%,95%,99%,100%,Avg,FORWARDS_MAJOR,FORWARDS_MINOR,FORWARDS_MICRO,NO_CHANGE,BACKWARD_MICRO,BACKWARD_MINOR,BACKWARD_MAJOR,missingDepsEnd,missingDepsTotal
+930779,930773,0,0,0,0,0,0,0,7,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,,0.0000,0.0000,0,0,0,0,0,0,0,0,0,0.0000,1,0,4,2,0,0,0,0,0
 
 
 
@@ -108,14 +108,14 @@ Project information
 replicated-preview (930779)	replicated-config-render (930773)	Package Manager: Atom
 
 Project A:
-ProjectVersion(version=1.0.1, dependency=1.0.0, time=2015-08-14 23:28:30 UTC),	Latest, null
-ProjectVersion(version=1.0.2, dependency=1.0.0, time=2015-08-14 23:38:37 UTC),	Latest, null
-ProjectVersion(version=1.0.3, dependency=1.0.1, time=2015-08-15 00:28:29 UTC),	Latest, null
-ProjectVersion(version=1.0.4, dependency=1.0.3, time=2015-08-18 15:58:52 UTC),	Latest, null
-ProjectVersion(version=1.1.0, dependency=1.0.1, time=2015-08-15 01:48:39 UTC),	Latest, null
-ProjectVersion(version=1.1.1, dependency=1.0.3, time=2015-08-18 15:58:52 UTC),	Latest, null
-ProjectVersion(version=1.1.2, dependency=1.0.7, time=2015-08-24 23:58:47 UTC),	Latest, null
-ProjectVersion(version=2.0.0, dependency=4.0.14, time=2016-05-09 23:36:01 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.1, dependency=1.0.0, time=2015-08-14 23:28:30 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.2, dependency=1.0.0, time=2015-08-14 23:38:37 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.3, dependency=1.0.1, time=2015-08-15 00:28:29 UTC),	Latest, null
+ProjectVersionFixed(version=1.0.4, dependency=1.0.3, time=2015-08-18 15:58:52 UTC),	Latest, null
+ProjectVersionFixed(version=1.1.0, dependency=1.0.1, time=2015-08-15 01:48:39 UTC),	Latest, null
+ProjectVersionFixed(version=1.1.1, dependency=1.0.3, time=2015-08-18 15:58:52 UTC),	Latest, null
+ProjectVersionFixed(version=1.1.2, dependency=1.0.7, time=2015-08-24 23:58:47 UTC),	Latest, null
+ProjectVersionFixed(version=2.0.0, dependency=4.0.14, time=2016-05-09 23:36:01 UTC),	Latest, null
 
 Project B:
 DependencyVersion(version=1.0.0, time=2015-08-14 23:11:43 UTC)
