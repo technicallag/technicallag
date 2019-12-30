@@ -292,10 +292,23 @@ data class PairStatistics(val pair: PairFullDataFixed, val pm: PairCollector.Pac
             it.write("\nProject information")
             it.write("\n$aName (${pair.pairIDs.projectID})\t$bName (${pair.pairIDs.dependencyID})\tPackage Manager: $pm")
 
-            it.write("\nRepoID: ${Database.getRepoId(pair.pairIDs.projectID)}")
-            it.write("\nTag information:")
+            val repoID = Database.getRepoId(pair.pairIDs.projectID)
+            val repoinfo = Database.getRepositoryInfo(repoID)
+            val commitStub = when (repoinfo.hosttype.toLowerCase()) {
+                "github" -> "https://github.com/${repoinfo.ownerwithname}/commit/"
+                "gitlab" -> "https://gitlab.com/${repoinfo.ownerwithname}/commit/"
+                "bitbucket" -> "https://bitbucket.org/${repoinfo.ownerwithname}/commit/"
+            }
+
+            it.write("\nRepoID: ${repoID}")
+            it.write("\nRepo Owner/Name: ${repoinfo.ownerwithname}")
+            it.write("\nRepository type: ${repoinfo.hosttype}")
+
+            it.write("\n\n ${commitStub}")
+
+            it.write("\n\nTag information:")
             Database.getAllTagCommits(pair.pairIDs.projectID).forEach { commit ->
-                it.write("\n$commit")
+                it.write("\n$commit \t${commitStub}${commit.hash}")
             }
 
             it.write("\n\nProject A:")

@@ -21,11 +21,8 @@ public class Main {
     public static void main(String[] args) {
         Logger log = Logging.getLogger("New memory model working - saving new files each time");
         Main main = new Main(log);
-        //main.getAllLag();
-        //main.aggregateData();
-        FlexibleAnalysisKt.analyseAll();
-//        FixedAnalysisKt.analysePairs();
-        main.savePrintedHistory();
+        // FlexibleAnalysisKt.analyseAll();
+        FixedAnalysisKt.analysePairs();
         Database.closeConnections();
     }
 

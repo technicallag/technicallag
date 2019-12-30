@@ -17,6 +17,7 @@ Integration is based on invoking the NPM function directy using the Java `Proces
 2. in the project root folder, install the following NPM packages: 
    1. npm i semver
    2. npm i make-runnable
+   3. npm i line-reader
    
    
 ### Alternatives

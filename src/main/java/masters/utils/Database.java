@@ -144,6 +144,36 @@ public class Database {
         }
     }
 
+    class RepositoryInfo {
+        String ownerwithname, hosttype;
+    }
+
+    public static RepositoryInfo getRepositoryInfo(String repoid) {
+        try {
+            Connection c = CONNECTIONS.take();
+            PreparedStatement stmt = c.prepareStatement("SELECT hosttype, ownerwithname FROM tags WHERE id = ?;");
+            stmt.setString(1, repoid);
+
+            ResultSet rs = stmt.executeQuery();
+            RepositoryInfo res = new RepositoryInfo;
+            if (rs.next()) {
+                res.ownerwithname = rs.getString("ownerwithname");
+                res.hosttype = rs.getString("hosttype");
+            }
+
+            rs.close();
+            stmt.close();
+            CONNECTIONS.add(c);
+
+            return res;
+        }
+
+        catch(SQLException | InterruptedException e) {
+            Logging.getLogger("").error(e);
+            return "";
+        }
+    }
+
     public static String getRepoId(int projectid) {
         try {
             Connection c = CONNECTIONS.take();
