@@ -2,240 +2,245 @@
 Project information
 com.strapdata.cassandra:cassandra-all (3146296)	io.netty:netty-all (638602)	Package Manager: Maven
 RepoID: 23190445
+Repo Owner/Name: strapdata/cassandra
+Repository type: GitHub
+
+ https://github.com/strapdata/cassandra/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='91661ec296c6d089e3238e1a72f3861c449326aa', version='3.0.13-tentative'}
-CommitInfo{repo='GitHub', hash='66ee8b58577a6b61c1195eaa797d14ce38042ea7', version='cassandra-0.3.0-final'}
-CommitInfo{repo='GitHub', hash='5fdeaaa4abdc1c53a44a49851da8716a70a19bb1', version='cassandra-0.3.0-rc1'}
-CommitInfo{repo='GitHub', hash='f29f2bdc9b46c822090a5513faf02bf4406f1019', version='cassandra-0.3.0-rc2'}
-CommitInfo{repo='GitHub', hash='e8e11d09ca6cf78b800c28b8555b6f659b1c528b', version='cassandra-0.3.0-rc3'}
-CommitInfo{repo='GitHub', hash='5682bbe6f7a8bb26f4b0ba4a0ef01f5396fb01a9', version='cassandra-0.4.0-beta1'}
-CommitInfo{repo='GitHub', hash='e362e3cfe42749138607975d9bc2e5d30e2d800d', version='cassandra-0.4.0-final'}
-CommitInfo{repo='GitHub', hash='c478127d005e3c92b6975df56bf478294d611f26', version='cassandra-0.4.0-rc1'}
-CommitInfo{repo='GitHub', hash='3251b3bcc8b0a58cd61608a194a8f4ffbfd5c3aa', version='cassandra-0.4.0-rc2'}
-CommitInfo{repo='GitHub', hash='c5f607dbd31bbb254e777846f5e2436bd3b934d6', version='cassandra-0.4.1'}
-CommitInfo{repo='GitHub', hash='851f4b7dbb5eb8d4c3b7cc6ecdf10c96121f8e9f', version='cassandra-0.4.2'}
-CommitInfo{repo='GitHub', hash='66996774c39cbc1ae01f2aed7e3632a0b9bf63c1', version='cassandra-0.5.0'}
-CommitInfo{repo='GitHub', hash='18e5473c68e6c4daf01430d22e075efdf23bcc97', version='cassandra-0.5.0-beta1'}
-CommitInfo{repo='GitHub', hash='34f2f28fc3e13401e14017a45351d511d63d8615', version='cassandra-0.5.0-beta2'}
-CommitInfo{repo='GitHub', hash='b10421d98f3ff7ed92b898e4d921da1538fd3403', version='cassandra-0.5.0-rc1'}
-CommitInfo{repo='GitHub', hash='825abfeb31875c893962be98efc7a46cb358bb08', version='cassandra-0.5.0-rc2'}
-CommitInfo{repo='GitHub', hash='49f0e35d03f621e5ac73ca15b68e2de6caff8776', version='cassandra-0.5.0-rc3'}
-CommitInfo{repo='GitHub', hash='114821d1f60a89b0db59cb064f68862476eda271', version='cassandra-0.5.1'}
-CommitInfo{repo='GitHub', hash='f7d015285d71b8c3d2bb8c5b6caec6dff240a27d', version='cassandra-0.6.0'}
-CommitInfo{repo='GitHub', hash='f7dbb29877c450e0f0a600f90432a2bd76c2ddf1', version='cassandra-0.6.0-beta1'}
-CommitInfo{repo='GitHub', hash='78bed92f98e7da152545ef95913103e7c426e7ca', version='cassandra-0.6.0-beta2'}
-CommitInfo{repo='GitHub', hash='9121e0184ff43f8c9e843c3654913b322c6903e9', version='cassandra-0.6.0-beta3'}
-CommitInfo{repo='GitHub', hash='0a6a6d7a1df7fdb84415b4c84e6df9cd46672485', version='cassandra-0.6.0-rc1'}
-CommitInfo{repo='GitHub', hash='48a9ce22dbe97de673b995e31d8bbf9f16052963', version='cassandra-0.6.1'}
-CommitInfo{repo='GitHub', hash='1d8cff98f7aff590aac96327bab9af9903468346', version='cassandra-0.6.10'}
-CommitInfo{repo='GitHub', hash='49f30875997e29f349eb86e1bd98f0fe87e7546b', version='cassandra-0.6.11'}
-CommitInfo{repo='GitHub', hash='7d7cd8af47e45ac430a49ee813814fa71a5f78a8', version='cassandra-0.6.12'}
-CommitInfo{repo='GitHub', hash='926fb9193384ee3731069e2d8a39ab497008ff89', version='cassandra-0.6.13'}
-CommitInfo{repo='GitHub', hash='554a6105aa1f406ad5095c9a55602f65a4c6fc42', version='cassandra-0.6.2'}
-CommitInfo{repo='GitHub', hash='aeb778bab3a14063794e49b86db3e78d9c4b6aee', version='cassandra-0.6.3'}
-CommitInfo{repo='GitHub', hash='8a178a0dc215d5515874ab0e7df41c04ec5a03e0', version='cassandra-0.6.4'}
-CommitInfo{repo='GitHub', hash='61062be4562b9d37e91821bffc027ac58d509ddf', version='cassandra-0.6.5'}
-CommitInfo{repo='GitHub', hash='6b0cbcd9103e3e41bb16d22f4f9dad74771f64fa', version='cassandra-0.6.6'}
-CommitInfo{repo='GitHub', hash='292cde7309ae1d0b217955ac6e3d6cb921a9a94a', version='cassandra-0.6.7'}
-CommitInfo{repo='GitHub', hash='e5a0e2c8797f37c7ffe34d717986ede9eb687a61', version='cassandra-0.6.8'}
-CommitInfo{repo='GitHub', hash='3776fb798da0bbd58e0c4a655dc65f8f401b9706', version='cassandra-0.6.9'}
-CommitInfo{repo='GitHub', hash='bbde1651679a5917453f3e15de907f3dba6b6aaa', version='cassandra-0.7.0'}
-CommitInfo{repo='GitHub', hash='8081ba158dcb2416a4a824c613f56efbe185f347', version='cassandra-0.7.0-beta1'}
-CommitInfo{repo='GitHub', hash='2eda5c2396f211d852972db04934ec92061c3784', version='cassandra-0.7.0-beta2'}
-CommitInfo{repo='GitHub', hash='888e473dc04bfef9cbcabb6a2cd457f82c9f01bb', version='cassandra-0.7.0-beta3'}
-CommitInfo{repo='GitHub', hash='2c91e00037a41bf7254c7c49da3d4ca666e5aea0', version='cassandra-0.7.0-rc1'}
-CommitInfo{repo='GitHub', hash='f1b798089461685f66b236ac3ef9c592ea9d5571', version='cassandra-0.7.0-rc2'}
-CommitInfo{repo='GitHub', hash='adef0c054f1ca6e270335128b350d523b52e73fe', version='cassandra-0.7.0-rc3'}
-CommitInfo{repo='GitHub', hash='08366d98003590051f66ae7f9f0bd422a9c5002b', version='cassandra-0.7.0-rc4'}
-CommitInfo{repo='GitHub', hash='356691e3a919f5ab8bacadaa7411d61080c7032e', version='cassandra-0.7.1'}
-CommitInfo{repo='GitHub', hash='c0ed28d5354dbfcb25725dc889ff5d55820904db', version='cassandra-0.7.10'}
-CommitInfo{repo='GitHub', hash='1aaf197454ff74b3131996eef50dc552e9952a2d', version='cassandra-0.7.2'}
-CommitInfo{repo='GitHub', hash='a962ce6cf3bdc22279df0cf7815d68f99c925511', version='cassandra-0.7.3'}
-CommitInfo{repo='GitHub', hash='d68cdf404972fa6459cf90e15d80b99fa5fa37d5', version='cassandra-0.7.4'}
-CommitInfo{repo='GitHub', hash='3e8973421d0131d2e4d32542beca93ff64507c4c', version='cassandra-0.7.5'}
-CommitInfo{repo='GitHub', hash='478f138983994a510c2b9a736111defcd3018df4', version='cassandra-0.7.6'}
-CommitInfo{repo='GitHub', hash='1d0825c43f188aeaf077a4561183f748da1f5fd3', version='cassandra-0.7.6-2'}
-CommitInfo{repo='GitHub', hash='3970f1c6549210a2793669b9a20c64993f8110b7', version='cassandra-0.7.7'}
-CommitInfo{repo='GitHub', hash='17118ce0b6419ed9cbc53643a7162d2e90076411', version='cassandra-0.7.8'}
-CommitInfo{repo='GitHub', hash='2e4e908afd057dde28f55ecdf5f65d4a74176915', version='cassandra-0.7.9'}
-CommitInfo{repo='GitHub', hash='6d85611ac31f823165049700289ac8633bf777cc', version='cassandra-0.8.0'}
-CommitInfo{repo='GitHub', hash='95f25e31d696e5c5ef36ad58439ddb80e8a97143', version='cassandra-0.8.0-beta1'}
-CommitInfo{repo='GitHub', hash='0bba522d549fcffc9ed18735ace3f4200b0978e4', version='cassandra-0.8.0-beta2'}
-CommitInfo{repo='GitHub', hash='8982102de9d1fd141cd0942dc678accc9a1331b9', version='cassandra-0.8.0-rc1'}
-CommitInfo{repo='GitHub', hash='1afdf2254b198f99ead039acf765cc9979d7f0e9', version='cassandra-0.8.1'}
-CommitInfo{repo='GitHub', hash='c45a17cd08a752600b244065a3c3ecfc8cb97422', version='cassandra-0.8.10'}
-CommitInfo{repo='GitHub', hash='8ac6833b20750b8fb7a00cf344e438fd67423e3b', version='cassandra-0.8.2'}
-CommitInfo{repo='GitHub', hash='61a283ba718ee25f67d0e8eb285fa73ae94a352f', version='cassandra-0.8.3'}
-CommitInfo{repo='GitHub', hash='9440fc200658691adb64702544eb8a131684d73e', version='cassandra-0.8.4'}
-CommitInfo{repo='GitHub', hash='85d8edf9a91ce2091502b30a4e1aa10aa5af4037', version='cassandra-0.8.5'}
-CommitInfo{repo='GitHub', hash='6ef44741d39201ef0b070c1631aa9dcf3a23f53c', version='cassandra-0.8.6'}
-CommitInfo{repo='GitHub', hash='c44821db5e7368822f8e687454ed3d39c0a1a8e7', version='cassandra-0.8.7'}
-CommitInfo{repo='GitHub', hash='1b98b1e3a588b5b952f238dcbb1e4b8f53104ced', version='cassandra-0.8.8'}
-CommitInfo{repo='GitHub', hash='cb61bfd526300380da2f0c56104cfe2014d454b4', version='cassandra-0.8.9'}
-CommitInfo{repo='GitHub', hash='1d1c9f6608376151138b87000467debc854a284c', version='cassandra-1.0.0'}
-CommitInfo{repo='GitHub', hash='61b44c54a5cefd46dcf189bf575f81a16a806e4f', version='cassandra-1.0.0-beta1'}
-CommitInfo{repo='GitHub', hash='82cf5752ddfe7b1643c363ad815ff4db6dcedf9b', version='cassandra-1.0.0-rc1'}
-CommitInfo{repo='GitHub', hash='50dd978cbfaec8d138c6feafb1f1ffecd958c4e7', version='cassandra-1.0.0-rc2'}
-CommitInfo{repo='GitHub', hash='41ab2ba4b10392144833eb4defaa2fe96840acb1', version='cassandra-1.0.1'}
-CommitInfo{repo='GitHub', hash='2ad9d19f1eef29c019bfd24f7c75679b3d034574', version='cassandra-1.0.10'}
-CommitInfo{repo='GitHub', hash='5f42506a8ec68a0eb2c204673ad1e4be3a70b679', version='cassandra-1.0.11'}
-CommitInfo{repo='GitHub', hash='fcfd88b7ed5eaa85d83aacd8aff9ea27fbdf565f', version='cassandra-1.0.12'}
-CommitInfo{repo='GitHub', hash='0b4193eced3d013ebfdaa52c1bfca4fe4ffd725f', version='cassandra-1.0.2'}
-CommitInfo{repo='GitHub', hash='7ba3b66562b1fe80fa960d987943929396c97eff', version='cassandra-1.0.3'}
-CommitInfo{repo='GitHub', hash='07131e79519cee15edc32c120b2badcd11d1c1ae', version='cassandra-1.0.4'}
-CommitInfo{repo='GitHub', hash='12b6c4309e0d50ac4b7472086a82048aa6112746', version='cassandra-1.0.5'}
-CommitInfo{repo='GitHub', hash='5d3c26619b52de63f6a8e3116eeb4ea0b9afe30e', version='cassandra-1.0.6'}
-CommitInfo{repo='GitHub', hash='6950e7a456fad70a3da6140a358fe1e78e2ae79b', version='cassandra-1.0.7'}
-CommitInfo{repo='GitHub', hash='221df34b9fdc009a59abe77e3bfb70fc9ee125f0', version='cassandra-1.0.8'}
-CommitInfo{repo='GitHub', hash='3b86366dd315b9d22b5e640ca1ffd536401e7d18', version='cassandra-1.0.9'}
-CommitInfo{repo='GitHub', hash='5413e64ff7a19eaf72d53a07bd2f9774c3a97054', version='cassandra-1.1.0'}
-CommitInfo{repo='GitHub', hash='58cff1868c6079cd4f9b9480ba1b39bcb868bb0b', version='cassandra-1.1.0-beta1'}
-CommitInfo{repo='GitHub', hash='1625c56c363d3884f5d72a6e2153430440f3700c', version='cassandra-1.1.0-beta2'}
-CommitInfo{repo='GitHub', hash='f6418198330ae03ebeae47f8c7cce5ff681064f3', version='cassandra-1.1.0-rc1'}
-CommitInfo{repo='GitHub', hash='925c5611f0bb8100d3fdc0c7972c92c1b7983017', version='cassandra-1.1.1'}
-CommitInfo{repo='GitHub', hash='8fb8426583304a0f89b003154191dab4472afa1f', version='cassandra-1.1.10'}
-CommitInfo{repo='GitHub', hash='d939a0c958d36a3debfc63364a3fa569aa632c6e', version='cassandra-1.1.11'}
-CommitInfo{repo='GitHub', hash='b35284a5f584e789fc20915670c05b1e2881466e', version='cassandra-1.1.12'}
-CommitInfo{repo='GitHub', hash='a12e34e99c958c01d7610bb73898117a52f3901c', version='cassandra-1.1.2'}
-CommitInfo{repo='GitHub', hash='aa950cd78128c2bac5abfd06b74932c35ff1a4e9', version='cassandra-1.1.3'}
-CommitInfo{repo='GitHub', hash='5cb344c909fa7fceedfce7b69002b1db3ab6f91f', version='cassandra-1.1.4'}
-CommitInfo{repo='GitHub', hash='971bd9b7afdb188c00e054b787f0800fe66f7fe9', version='cassandra-1.1.5'}
-CommitInfo{repo='GitHub', hash='94dc0169d0f6c602148d3a562133a6b883b28c13', version='cassandra-1.1.6'}
-CommitInfo{repo='GitHub', hash='36f584238061d55e6700ad32e92a6c9198fad47b', version='cassandra-1.1.7'}
-CommitInfo{repo='GitHub', hash='7fd23267bbdad07b090a593cd057df9d08550915', version='cassandra-1.1.8'}
-CommitInfo{repo='GitHub', hash='c22aaeebd5c46570a6c59d38902b3e2462143e6b', version='cassandra-1.1.9'}
-CommitInfo{repo='GitHub', hash='95395aadf2ae00a626e6ad44afa4b6217d669fb5', version='cassandra-1.2.0'}
-CommitInfo{repo='GitHub', hash='34710af649e89bc6d6d7552321eadceea675f5d9', version='cassandra-1.2.0-beta1'}
-CommitInfo{repo='GitHub', hash='bbbaefc13aece27e6a6a3fcf1761cb88d438d38a', version='cassandra-1.2.0-beta2'}
-CommitInfo{repo='GitHub', hash='eb2d12ab747c5e862ad60c9733f3c49544afcba5', version='cassandra-1.2.0-beta3'}
-CommitInfo{repo='GitHub', hash='5bb36f909026b8339f111a2afd492dd0c1b59736', version='cassandra-1.2.0-rc1'}
-CommitInfo{repo='GitHub', hash='f90812311b3e7ec4eb46c27586bdbaf4801dc92b', version='cassandra-1.2.0-rc2'}
-CommitInfo{repo='GitHub', hash='33c54984c532b02198452a5cfd0f7254d735f450', version='cassandra-1.2.1'}
-CommitInfo{repo='GitHub', hash='64d62d61ac1f7c5bb2f5c8a65e8330549d7c7b14', version='cassandra-1.2.10'}
-CommitInfo{repo='GitHub', hash='d0627cc37c24c97e2fee4f4e12b2cc9202710de1', version='cassandra-1.2.11'}
-CommitInfo{repo='GitHub', hash='d4d273dccbcb44c2475ac6ad8dbf8b99c0795e47', version='cassandra-1.2.12'}
-CommitInfo{repo='GitHub', hash='e5581be502d09834cb7b8488587e4772e7b8cac5', version='cassandra-1.2.13'}
-CommitInfo{repo='GitHub', hash='f9bef16aefb064d68327bcb19968944ddb80c21b', version='cassandra-1.2.14'}
-CommitInfo{repo='GitHub', hash='de8662f7591863760c0dd435602dcfde1084d40a', version='cassandra-1.2.15'}
-CommitInfo{repo='GitHub', hash='ef3b9b7d15df39854c76e2773cf74d2f2caf441b', version='cassandra-1.2.16'}
-CommitInfo{repo='GitHub', hash='077879a5f0fa9a8cabbecab642b6684db9ee5c70', version='cassandra-1.2.17'}
-CommitInfo{repo='GitHub', hash='9687f3ce14bb56223efa4f97c62b361b22d3aa87', version='cassandra-1.2.18'}
-CommitInfo{repo='GitHub', hash='48acfec1634b4a7a66c195d504f4c3a46f02a37f', version='cassandra-1.2.19'}
-CommitInfo{repo='GitHub', hash='7ab7299229d4fa1c122459b5ab4bc82aeb2e59e3', version='cassandra-1.2.2'}
-CommitInfo{repo='GitHub', hash='292dcbdf55b42a23414b913cbce455c0b52ca5d1', version='cassandra-1.2.3'}
-CommitInfo{repo='GitHub', hash='487b6a70847c1287e577750d346ad4124f503634', version='cassandra-1.2.4'}
-CommitInfo{repo='GitHub', hash='21c341ac91d77892265ed0edc62801f2fcf490a3', version='cassandra-1.2.5'}
-CommitInfo{repo='GitHub', hash='55004ecec5581bae336c1daa00108c81ec360c6f', version='cassandra-1.2.6'}
-CommitInfo{repo='GitHub', hash='8430c8f30d1e4593821c55badfd93cb34164eb0d', version='cassandra-1.2.7'}
-CommitInfo{repo='GitHub', hash='0291d696018214000709025c0b806089c2f51e97', version='cassandra-1.2.8'}
-CommitInfo{repo='GitHub', hash='bad1c648cf42088b3009037eb2e87ca018602328', version='cassandra-1.2.9'}
-CommitInfo{repo='GitHub', hash='b7ab56bb2ecfcf7350d3dffd225cc527c4fc7a01', version='cassandra-2.0.0'}
-CommitInfo{repo='GitHub', hash='5a22ff2db8f823b8238229ee383737158439a1b8', version='cassandra-2.0.0-beta1'}
-CommitInfo{repo='GitHub', hash='7eee44ec6f16573e6741b9c2bca8b2c5b45304c5', version='cassandra-2.0.0-beta2'}
-CommitInfo{repo='GitHub', hash='930e60a7a520c90c9119907c37e049999dc3a2ed', version='cassandra-2.0.0-rc1'}
-CommitInfo{repo='GitHub', hash='b0d9aeddfee5abaef35e0f6e7555ff1ade7c8afe', version='cassandra-2.0.0-rc2'}
-CommitInfo{repo='GitHub', hash='4a4db64d804e5f7eb75710b1e61d979e26a56d26', version='cassandra-2.0.1'}
-CommitInfo{repo='GitHub', hash='23fe7e9d877dfd4a625f0d997383c1ffa876046b', version='cassandra-2.0.10'}
-CommitInfo{repo='GitHub', hash='e05e21060f06c8a38181b785854099ff03b7effd', version='cassandra-2.0.11'}
-CommitInfo{repo='GitHub', hash='5a039ad1e873d08c1e51c94ab78f3dee700c672e', version='cassandra-2.0.12'}
-CommitInfo{repo='GitHub', hash='df1c31b80443ffceb58a5873dde409d9f516955e', version='cassandra-2.0.13'}
-CommitInfo{repo='GitHub', hash='513be774e664a11d6c063daa3dea1171990dba70', version='cassandra-2.0.14'}
-CommitInfo{repo='GitHub', hash='dceba21bd5dff87f2881763975479242ff580fd4', version='cassandra-2.0.15'}
-CommitInfo{repo='GitHub', hash='8248f4bb5b56fbb9231d20d8359de54b809ea696', version='cassandra-2.0.16'}
-CommitInfo{repo='GitHub', hash='0ca04f023710017e5dcff436a6e5a06feae5e837', version='cassandra-2.0.17'}
-CommitInfo{repo='GitHub', hash='61d1310363f5a203915d3c3f49abf9891fc85230', version='cassandra-2.0.2'}
-CommitInfo{repo='GitHub', hash='7c21e122f28220003c72a7b85c67a803d08a92f3', version='cassandra-2.0.3'}
-CommitInfo{repo='GitHub', hash='68a768882c1127d49422621a7a1d7430a3f4870e', version='cassandra-2.0.4'}
-CommitInfo{repo='GitHub', hash='71c4e4a0236a766a64bfc0c9c8a00734f61f5566', version='cassandra-2.0.5'}
-CommitInfo{repo='GitHub', hash='6f07ddbe9aa6131cec5f50652109e86f7336c714', version='cassandra-2.0.6'}
-CommitInfo{repo='GitHub', hash='c11d5eaf918bb2f839141226f64aec313889c8cb', version='cassandra-2.0.7'}
-CommitInfo{repo='GitHub', hash='6482be76dc7250ae61377e3765f118e4f66a68f0', version='cassandra-2.0.8'}
-CommitInfo{repo='GitHub', hash='901147df6283cf44fd2b3e9ba14c4e1a14536ab0', version='cassandra-2.0.9'}
-CommitInfo{repo='GitHub', hash='265d2ae20017ced69c65c8af0b2f4557a2e97551', version='cassandra-2.1.0'}
-CommitInfo{repo='GitHub', hash='f4d5f40b1acb29130bbb818aabac8dd63475d6ee', version='cassandra-2.1.0-beta1'}
-CommitInfo{repo='GitHub', hash='3bb78e53d30687ff7cba34ba2b141f59e5995938', version='cassandra-2.1.0-beta2'}
-CommitInfo{repo='GitHub', hash='e06c1e8381525363e90ccf694275361e2958647a', version='cassandra-2.1.0-deb'}
-CommitInfo{repo='GitHub', hash='8634f45208ef673cb0a757ea6dbf4c450bdd6273', version='cassandra-2.1.0-rc1'}
-CommitInfo{repo='GitHub', hash='f88841bbbc2653f71c11905850b4be121806d6f8', version='cassandra-2.1.0-rc2'}
-CommitInfo{repo='GitHub', hash='bfc7f2805b7d17f4da29304f686b8ea517085dcb', version='cassandra-2.1.0-rc3'}
-CommitInfo{repo='GitHub', hash='9268c3274013647cd6945410a635c038d0e263a4', version='cassandra-2.1.0-rc4'}
-CommitInfo{repo='GitHub', hash='5619529ef399dd86b0e8ae731a9c2f35628c2390', version='cassandra-2.1.0-rc5'}
-CommitInfo{repo='GitHub', hash='aed763b3c348a2224c8d38c894b775ccd5d9416a', version='cassandra-2.1.0-rc6'}
-CommitInfo{repo='GitHub', hash='2503dbea5231be729b1c769a0039158ba504255e', version='cassandra-2.1.0-rc7'}
-CommitInfo{repo='GitHub', hash='e5ca6217110db149232b686c5b827aa0348d7898', version='cassandra-2.1.1'}
-CommitInfo{repo='GitHub', hash='255fbe68950ec695460e598924964e21cb628d0f', version='cassandra-2.1.10'}
-CommitInfo{repo='GitHub', hash='06351b49e7bbab5c8b871269a0d42cdd9e4232c6', version='cassandra-2.1.11'}
-CommitInfo{repo='GitHub', hash='7c121f62115ce7b776ac01fbd9106cd4a895e9cb', version='cassandra-2.1.12'}
-CommitInfo{repo='GitHub', hash='8f7509bfdd34202a141e2534f5575598732212cc', version='cassandra-2.1.13'}
-CommitInfo{repo='GitHub', hash='a98b558c5658e9ece3ac9c72034248e405c062b8', version='cassandra-2.1.14'}
-CommitInfo{repo='GitHub', hash='d43c9a33bbd26803a14397b666e0a94949860987', version='cassandra-2.1.15'}
-CommitInfo{repo='GitHub', hash='4bb7402728da809c586a0c0da113dae57b1cf147', version='cassandra-2.1.16'}
-CommitInfo{repo='GitHub', hash='db2cd1904a71e6db301eff7c26ebf254c7a7c046', version='cassandra-2.1.17'}
-CommitInfo{repo='GitHub', hash='37b2aa4cc2f18642f046d35594be575da69affd1', version='cassandra-2.1.18'}
-CommitInfo{repo='GitHub', hash='18d68a230712ed0f32d5525c2e13af7c8c490bce', version='cassandra-2.1.2'}
-CommitInfo{repo='GitHub', hash='ea4013aeba29d1dd0ce81c7996d3365459071e03', version='cassandra-2.1.3'}
-CommitInfo{repo='GitHub', hash='86ae5d07751f3747ff0f0e9d6baa8811b46243da', version='cassandra-2.1.4'}
-CommitInfo{repo='GitHub', hash='67235bf76291fba4c8a2bc5b96a6ba8e9e439651', version='cassandra-2.1.5'}
-CommitInfo{repo='GitHub', hash='f57481e428142c3eb3580a2ab3f3c9145b9e0a2b', version='cassandra-2.1.6'}
-CommitInfo{repo='GitHub', hash='da52be811cf89e890f67b7921a8af2b9e4ec9226', version='cassandra-2.1.7'}
-CommitInfo{repo='GitHub', hash='c2c3c2fb44d773cd6a9ec2ad7fbc0d2d7f17b2ad', version='cassandra-2.1.8'}
-CommitInfo{repo='GitHub', hash='08cff55a5423017b879f6b907d0fdd856459902b', version='cassandra-2.1.9'}
-CommitInfo{repo='GitHub', hash='753bc1e8328754af3ba885bf9f175636f19ebf3c', version='cassandra-2.2.0'}
-CommitInfo{repo='GitHub', hash='f7e42e94eddc290141787d953c2176f21ba60177', version='cassandra-2.2.0-beta1'}
-CommitInfo{repo='GitHub', hash='aa3bcf6773ce83349d92aff7b19817a6d2399e94', version='cassandra-2.2.0-rc1'}
-CommitInfo{repo='GitHub', hash='3e7dd47b9456539e57c8a514d02ca1fd168055fc', version='cassandra-2.2.0-rc2'}
-CommitInfo{repo='GitHub', hash='bafdfdc1a89f8c2372331979bb6b9b3b2a9b8546', version='cassandra-2.2.1'}
-CommitInfo{repo='GitHub', hash='1d1e1af90dd45e0ea731c78253285dc0747983de', version='cassandra-2.2.10'}
-CommitInfo{repo='GitHub', hash='044b6b4675e25cf6ca91bb0666a6774e4d088161', version='cassandra-2.2.2'}
-CommitInfo{repo='GitHub', hash='8470e4e661470c040261ecdb8bfebb77b44d9f3b', version='cassandra-2.2.3'}
-CommitInfo{repo='GitHub', hash='02d4cb6f9b228b392908df52ad20b49386fdc82d', version='cassandra-2.2.4'}
-CommitInfo{repo='GitHub', hash='048a043055319eb61056a1349421d088a40b3576', version='cassandra-2.2.5'}
-CommitInfo{repo='GitHub', hash='a7975f385681e0ae17bc0fea0260065142b85fd9', version='cassandra-2.2.6'}
-CommitInfo{repo='GitHub', hash='fdf8320b40974a2ed29bc1259dfd59808b9ef37e', version='cassandra-2.2.7'}
-CommitInfo{repo='GitHub', hash='5a71132ac88931b6459c2cc2a1a100b617a6e232', version='cassandra-2.2.8'}
-CommitInfo{repo='GitHub', hash='07dee6efc3be815b8792ef79d4c382c6e20e6b06', version='cassandra-2.2.9'}
-CommitInfo{repo='GitHub', hash='f64adb85273e873fd87b82234ce5a313afca08d9', version='cassandra-3.0.0'}
-CommitInfo{repo='GitHub', hash='8cf27fc3b84900e45ecd2cb5dd70f5c9e4441a9b', version='cassandra-3.0.0-alpha1'}
-CommitInfo{repo='GitHub', hash='4bbe0361c531e856bbaa37cd956911736aaa932c', version='cassandra-3.0.0-beta1'}
-CommitInfo{repo='GitHub', hash='7da2c88dff90bb86691e5a106a10a037a8431a7b', version='cassandra-3.0.0-beta2'}
-CommitInfo{repo='GitHub', hash='64e5b21865fd6d819033cdb53ffa5fb37b198965', version='cassandra-3.0.0-rc1'}
-CommitInfo{repo='GitHub', hash='11a81903db77f1d2d1d529fc40eb73c9650f21bf', version='cassandra-3.0.0-rc2'}
-CommitInfo{repo='GitHub', hash='16b1bbd019586721b0aabecf96ba3051eb5e6585', version='cassandra-3.0.1'}
-CommitInfo{repo='GitHub', hash='a0ff991dcdee1da8826831ed3ed840a256ff4ea2', version='cassandra-3.0.10'}
-CommitInfo{repo='GitHub', hash='37d266d19e36ce843a3b44bf3c9824bd839f5ef9', version='cassandra-3.0.10-strapdata'}
-CommitInfo{repo='GitHub', hash='4165b0818af9459b6938587b3af1f4c31e70318d', version='cassandra-3.0.11'}
-CommitInfo{repo='GitHub', hash='23cfdfcc3228c77abfaa6136505016d2ede732f3', version='cassandra-3.0.11-strapdata'}
-CommitInfo{repo='GitHub', hash='7056a42ae945f60650454f8093a7c0dc5b53fb32', version='cassandra-3.0.12'}
-CommitInfo{repo='GitHub', hash='932f1d1d0e92f7d68b1ef3a409517cd4918fa597', version='cassandra-3.0.12-strapdata'}
-CommitInfo{repo='GitHub', hash='2822c6c329b6fb80a40d2c9ae84a83d3b09c1621', version='cassandra-3.0.13'}
-CommitInfo{repo='GitHub', hash='2ce01643c285b35ea204fe59a45f202f91797465', version='cassandra-3.0.13-strapdata'}
-CommitInfo{repo='GitHub', hash='7bf0cd1a4018f55b98ffd935d9f4f30e26f2cc54', version='cassandra-3.0.14'}
-CommitInfo{repo='GitHub', hash='190323a1c3f6a4f63b3011dba3a05265de2be4ce', version='cassandra-3.0.2'}
-CommitInfo{repo='GitHub', hash='4b6fecd181706d1908a033d50e80578b52ba5495', version='cassandra-3.0.3'}
-CommitInfo{repo='GitHub', hash='866a7904dd5e54c990d0831a12106dc5ec20bf1a', version='cassandra-3.0.4'}
-CommitInfo{repo='GitHub', hash='5dab8843a363201199dbbad53c702ba3550b1eec', version='cassandra-3.0.5'}
-CommitInfo{repo='GitHub', hash='081d8dfe69c8f22e234d8e9782c727e0dda75670', version='cassandra-3.0.6'}
-CommitInfo{repo='GitHub', hash='49b561ae6270fa985e611af4377239ebbebe2c83', version='cassandra-3.0.7'}
-CommitInfo{repo='GitHub', hash='742817afd9395dc07763a6f36e15ae5e811e6b42', version='cassandra-3.0.8'}
-CommitInfo{repo='GitHub', hash='c3f525f525335c616d7610960ed36262c8f26e83', version='cassandra-3.0.9'}
-CommitInfo{repo='GitHub', hash='2ad7402828c3a04da30610b4ac05ab89a92a5efb', version='cassandra-3.1'}
-CommitInfo{repo='GitHub', hash='2790f5c721841e3f230696b41294f92b1c3d9a29', version='cassandra-3.10'}
-CommitInfo{repo='GitHub', hash='9476a7f22abcd3aacb41a88ff8d13370249ced64', version='cassandra-3.1.1'}
-CommitInfo{repo='GitHub', hash='bef80a4a7ffce58deea75ca56d5e655b08df6108', version='cassandra-3.11.0'}
-CommitInfo{repo='GitHub', hash='79fee4aaa2a266066719ad3f450981f27572aa9a', version='cassandra-3.11.0.1-strapdata'}
-CommitInfo{repo='GitHub', hash='44f3c6dbe595c024d60a6ae1e30589e1aaf7415f', version='cassandra-3.11.0-strapdata'}
-CommitInfo{repo='GitHub', hash='4bbe67d63d544ad03e8518afdcc34630bcb442b4', version='cassandra-3.11.1.0-strapdata'}
-CommitInfo{repo='GitHub', hash='0295f5df40d2c59f7557fc7128ee741a44dd7dce', version='cassandra-3.11.1.2-strapdata'}
-CommitInfo{repo='GitHub', hash='c58eabb4945ef832d2703e543cbd51eaf59ce59f', version='cassandra-3.11.2.1-strapdata'}
-CommitInfo{repo='GitHub', hash='3d47b502c01f2e4ee2197d6ed8ca0a58a7b49613', version='cassandra-3.2'}
-CommitInfo{repo='GitHub', hash='9a44974b032bd32e4ba6f6dcc914007d7c3b9c2f', version='cassandra-3.2.1'}
-CommitInfo{repo='GitHub', hash='d92d8c429fbf5c8245500ddd92ca3c39ea5bb3be', version='cassandra-3.3'}
-CommitInfo{repo='GitHub', hash='fd952750fab6a03566f301f9b45228237bf906c7', version='cassandra-3.4'}
-CommitInfo{repo='GitHub', hash='6a201b169445c9bf2063ac56e931e0979a7c1a81', version='cassandra-3.5'}
-CommitInfo{repo='GitHub', hash='dd4c2ef58e77a4a5e6a039fdf9579df737696832', version='cassandra-3.6'}
-CommitInfo{repo='GitHub', hash='12660c4b9ffe1b79af0f5d58ea807c62a15d8e2a', version='cassandra-3.7'}
-CommitInfo{repo='GitHub', hash='d414b4e4b6bd019300d4c75eca35c5b4c739feb4', version='cassandra-3.8'}
-CommitInfo{repo='GitHub', hash='18bafa8b86bf9f0d28b620d69d18b6719b73c691', version='cassandra-3.9'}
+CommitInfo{repo='GitHub', hash='91661ec296c6d089e3238e1a72f3861c449326aa', version='3.0.13-tentative'} 	https://github.com/strapdata/cassandra/commit/91661ec296c6d089e3238e1a72f3861c449326aa
+CommitInfo{repo='GitHub', hash='66ee8b58577a6b61c1195eaa797d14ce38042ea7', version='cassandra-0.3.0-final'} 	https://github.com/strapdata/cassandra/commit/66ee8b58577a6b61c1195eaa797d14ce38042ea7
+CommitInfo{repo='GitHub', hash='5fdeaaa4abdc1c53a44a49851da8716a70a19bb1', version='cassandra-0.3.0-rc1'} 	https://github.com/strapdata/cassandra/commit/5fdeaaa4abdc1c53a44a49851da8716a70a19bb1
+CommitInfo{repo='GitHub', hash='f29f2bdc9b46c822090a5513faf02bf4406f1019', version='cassandra-0.3.0-rc2'} 	https://github.com/strapdata/cassandra/commit/f29f2bdc9b46c822090a5513faf02bf4406f1019
+CommitInfo{repo='GitHub', hash='e8e11d09ca6cf78b800c28b8555b6f659b1c528b', version='cassandra-0.3.0-rc3'} 	https://github.com/strapdata/cassandra/commit/e8e11d09ca6cf78b800c28b8555b6f659b1c528b
+CommitInfo{repo='GitHub', hash='5682bbe6f7a8bb26f4b0ba4a0ef01f5396fb01a9', version='cassandra-0.4.0-beta1'} 	https://github.com/strapdata/cassandra/commit/5682bbe6f7a8bb26f4b0ba4a0ef01f5396fb01a9
+CommitInfo{repo='GitHub', hash='e362e3cfe42749138607975d9bc2e5d30e2d800d', version='cassandra-0.4.0-final'} 	https://github.com/strapdata/cassandra/commit/e362e3cfe42749138607975d9bc2e5d30e2d800d
+CommitInfo{repo='GitHub', hash='c478127d005e3c92b6975df56bf478294d611f26', version='cassandra-0.4.0-rc1'} 	https://github.com/strapdata/cassandra/commit/c478127d005e3c92b6975df56bf478294d611f26
+CommitInfo{repo='GitHub', hash='3251b3bcc8b0a58cd61608a194a8f4ffbfd5c3aa', version='cassandra-0.4.0-rc2'} 	https://github.com/strapdata/cassandra/commit/3251b3bcc8b0a58cd61608a194a8f4ffbfd5c3aa
+CommitInfo{repo='GitHub', hash='c5f607dbd31bbb254e777846f5e2436bd3b934d6', version='cassandra-0.4.1'} 	https://github.com/strapdata/cassandra/commit/c5f607dbd31bbb254e777846f5e2436bd3b934d6
+CommitInfo{repo='GitHub', hash='851f4b7dbb5eb8d4c3b7cc6ecdf10c96121f8e9f', version='cassandra-0.4.2'} 	https://github.com/strapdata/cassandra/commit/851f4b7dbb5eb8d4c3b7cc6ecdf10c96121f8e9f
+CommitInfo{repo='GitHub', hash='66996774c39cbc1ae01f2aed7e3632a0b9bf63c1', version='cassandra-0.5.0'} 	https://github.com/strapdata/cassandra/commit/66996774c39cbc1ae01f2aed7e3632a0b9bf63c1
+CommitInfo{repo='GitHub', hash='18e5473c68e6c4daf01430d22e075efdf23bcc97', version='cassandra-0.5.0-beta1'} 	https://github.com/strapdata/cassandra/commit/18e5473c68e6c4daf01430d22e075efdf23bcc97
+CommitInfo{repo='GitHub', hash='34f2f28fc3e13401e14017a45351d511d63d8615', version='cassandra-0.5.0-beta2'} 	https://github.com/strapdata/cassandra/commit/34f2f28fc3e13401e14017a45351d511d63d8615
+CommitInfo{repo='GitHub', hash='b10421d98f3ff7ed92b898e4d921da1538fd3403', version='cassandra-0.5.0-rc1'} 	https://github.com/strapdata/cassandra/commit/b10421d98f3ff7ed92b898e4d921da1538fd3403
+CommitInfo{repo='GitHub', hash='825abfeb31875c893962be98efc7a46cb358bb08', version='cassandra-0.5.0-rc2'} 	https://github.com/strapdata/cassandra/commit/825abfeb31875c893962be98efc7a46cb358bb08
+CommitInfo{repo='GitHub', hash='49f0e35d03f621e5ac73ca15b68e2de6caff8776', version='cassandra-0.5.0-rc3'} 	https://github.com/strapdata/cassandra/commit/49f0e35d03f621e5ac73ca15b68e2de6caff8776
+CommitInfo{repo='GitHub', hash='114821d1f60a89b0db59cb064f68862476eda271', version='cassandra-0.5.1'} 	https://github.com/strapdata/cassandra/commit/114821d1f60a89b0db59cb064f68862476eda271
+CommitInfo{repo='GitHub', hash='f7d015285d71b8c3d2bb8c5b6caec6dff240a27d', version='cassandra-0.6.0'} 	https://github.com/strapdata/cassandra/commit/f7d015285d71b8c3d2bb8c5b6caec6dff240a27d
+CommitInfo{repo='GitHub', hash='f7dbb29877c450e0f0a600f90432a2bd76c2ddf1', version='cassandra-0.6.0-beta1'} 	https://github.com/strapdata/cassandra/commit/f7dbb29877c450e0f0a600f90432a2bd76c2ddf1
+CommitInfo{repo='GitHub', hash='78bed92f98e7da152545ef95913103e7c426e7ca', version='cassandra-0.6.0-beta2'} 	https://github.com/strapdata/cassandra/commit/78bed92f98e7da152545ef95913103e7c426e7ca
+CommitInfo{repo='GitHub', hash='9121e0184ff43f8c9e843c3654913b322c6903e9', version='cassandra-0.6.0-beta3'} 	https://github.com/strapdata/cassandra/commit/9121e0184ff43f8c9e843c3654913b322c6903e9
+CommitInfo{repo='GitHub', hash='0a6a6d7a1df7fdb84415b4c84e6df9cd46672485', version='cassandra-0.6.0-rc1'} 	https://github.com/strapdata/cassandra/commit/0a6a6d7a1df7fdb84415b4c84e6df9cd46672485
+CommitInfo{repo='GitHub', hash='48a9ce22dbe97de673b995e31d8bbf9f16052963', version='cassandra-0.6.1'} 	https://github.com/strapdata/cassandra/commit/48a9ce22dbe97de673b995e31d8bbf9f16052963
+CommitInfo{repo='GitHub', hash='1d8cff98f7aff590aac96327bab9af9903468346', version='cassandra-0.6.10'} 	https://github.com/strapdata/cassandra/commit/1d8cff98f7aff590aac96327bab9af9903468346
+CommitInfo{repo='GitHub', hash='49f30875997e29f349eb86e1bd98f0fe87e7546b', version='cassandra-0.6.11'} 	https://github.com/strapdata/cassandra/commit/49f30875997e29f349eb86e1bd98f0fe87e7546b
+CommitInfo{repo='GitHub', hash='7d7cd8af47e45ac430a49ee813814fa71a5f78a8', version='cassandra-0.6.12'} 	https://github.com/strapdata/cassandra/commit/7d7cd8af47e45ac430a49ee813814fa71a5f78a8
+CommitInfo{repo='GitHub', hash='926fb9193384ee3731069e2d8a39ab497008ff89', version='cassandra-0.6.13'} 	https://github.com/strapdata/cassandra/commit/926fb9193384ee3731069e2d8a39ab497008ff89
+CommitInfo{repo='GitHub', hash='554a6105aa1f406ad5095c9a55602f65a4c6fc42', version='cassandra-0.6.2'} 	https://github.com/strapdata/cassandra/commit/554a6105aa1f406ad5095c9a55602f65a4c6fc42
+CommitInfo{repo='GitHub', hash='aeb778bab3a14063794e49b86db3e78d9c4b6aee', version='cassandra-0.6.3'} 	https://github.com/strapdata/cassandra/commit/aeb778bab3a14063794e49b86db3e78d9c4b6aee
+CommitInfo{repo='GitHub', hash='8a178a0dc215d5515874ab0e7df41c04ec5a03e0', version='cassandra-0.6.4'} 	https://github.com/strapdata/cassandra/commit/8a178a0dc215d5515874ab0e7df41c04ec5a03e0
+CommitInfo{repo='GitHub', hash='61062be4562b9d37e91821bffc027ac58d509ddf', version='cassandra-0.6.5'} 	https://github.com/strapdata/cassandra/commit/61062be4562b9d37e91821bffc027ac58d509ddf
+CommitInfo{repo='GitHub', hash='6b0cbcd9103e3e41bb16d22f4f9dad74771f64fa', version='cassandra-0.6.6'} 	https://github.com/strapdata/cassandra/commit/6b0cbcd9103e3e41bb16d22f4f9dad74771f64fa
+CommitInfo{repo='GitHub', hash='292cde7309ae1d0b217955ac6e3d6cb921a9a94a', version='cassandra-0.6.7'} 	https://github.com/strapdata/cassandra/commit/292cde7309ae1d0b217955ac6e3d6cb921a9a94a
+CommitInfo{repo='GitHub', hash='e5a0e2c8797f37c7ffe34d717986ede9eb687a61', version='cassandra-0.6.8'} 	https://github.com/strapdata/cassandra/commit/e5a0e2c8797f37c7ffe34d717986ede9eb687a61
+CommitInfo{repo='GitHub', hash='3776fb798da0bbd58e0c4a655dc65f8f401b9706', version='cassandra-0.6.9'} 	https://github.com/strapdata/cassandra/commit/3776fb798da0bbd58e0c4a655dc65f8f401b9706
+CommitInfo{repo='GitHub', hash='bbde1651679a5917453f3e15de907f3dba6b6aaa', version='cassandra-0.7.0'} 	https://github.com/strapdata/cassandra/commit/bbde1651679a5917453f3e15de907f3dba6b6aaa
+CommitInfo{repo='GitHub', hash='8081ba158dcb2416a4a824c613f56efbe185f347', version='cassandra-0.7.0-beta1'} 	https://github.com/strapdata/cassandra/commit/8081ba158dcb2416a4a824c613f56efbe185f347
+CommitInfo{repo='GitHub', hash='2eda5c2396f211d852972db04934ec92061c3784', version='cassandra-0.7.0-beta2'} 	https://github.com/strapdata/cassandra/commit/2eda5c2396f211d852972db04934ec92061c3784
+CommitInfo{repo='GitHub', hash='888e473dc04bfef9cbcabb6a2cd457f82c9f01bb', version='cassandra-0.7.0-beta3'} 	https://github.com/strapdata/cassandra/commit/888e473dc04bfef9cbcabb6a2cd457f82c9f01bb
+CommitInfo{repo='GitHub', hash='2c91e00037a41bf7254c7c49da3d4ca666e5aea0', version='cassandra-0.7.0-rc1'} 	https://github.com/strapdata/cassandra/commit/2c91e00037a41bf7254c7c49da3d4ca666e5aea0
+CommitInfo{repo='GitHub', hash='f1b798089461685f66b236ac3ef9c592ea9d5571', version='cassandra-0.7.0-rc2'} 	https://github.com/strapdata/cassandra/commit/f1b798089461685f66b236ac3ef9c592ea9d5571
+CommitInfo{repo='GitHub', hash='adef0c054f1ca6e270335128b350d523b52e73fe', version='cassandra-0.7.0-rc3'} 	https://github.com/strapdata/cassandra/commit/adef0c054f1ca6e270335128b350d523b52e73fe
+CommitInfo{repo='GitHub', hash='08366d98003590051f66ae7f9f0bd422a9c5002b', version='cassandra-0.7.0-rc4'} 	https://github.com/strapdata/cassandra/commit/08366d98003590051f66ae7f9f0bd422a9c5002b
+CommitInfo{repo='GitHub', hash='356691e3a919f5ab8bacadaa7411d61080c7032e', version='cassandra-0.7.1'} 	https://github.com/strapdata/cassandra/commit/356691e3a919f5ab8bacadaa7411d61080c7032e
+CommitInfo{repo='GitHub', hash='c0ed28d5354dbfcb25725dc889ff5d55820904db', version='cassandra-0.7.10'} 	https://github.com/strapdata/cassandra/commit/c0ed28d5354dbfcb25725dc889ff5d55820904db
+CommitInfo{repo='GitHub', hash='1aaf197454ff74b3131996eef50dc552e9952a2d', version='cassandra-0.7.2'} 	https://github.com/strapdata/cassandra/commit/1aaf197454ff74b3131996eef50dc552e9952a2d
+CommitInfo{repo='GitHub', hash='a962ce6cf3bdc22279df0cf7815d68f99c925511', version='cassandra-0.7.3'} 	https://github.com/strapdata/cassandra/commit/a962ce6cf3bdc22279df0cf7815d68f99c925511
+CommitInfo{repo='GitHub', hash='d68cdf404972fa6459cf90e15d80b99fa5fa37d5', version='cassandra-0.7.4'} 	https://github.com/strapdata/cassandra/commit/d68cdf404972fa6459cf90e15d80b99fa5fa37d5
+CommitInfo{repo='GitHub', hash='3e8973421d0131d2e4d32542beca93ff64507c4c', version='cassandra-0.7.5'} 	https://github.com/strapdata/cassandra/commit/3e8973421d0131d2e4d32542beca93ff64507c4c
+CommitInfo{repo='GitHub', hash='478f138983994a510c2b9a736111defcd3018df4', version='cassandra-0.7.6'} 	https://github.com/strapdata/cassandra/commit/478f138983994a510c2b9a736111defcd3018df4
+CommitInfo{repo='GitHub', hash='1d0825c43f188aeaf077a4561183f748da1f5fd3', version='cassandra-0.7.6-2'} 	https://github.com/strapdata/cassandra/commit/1d0825c43f188aeaf077a4561183f748da1f5fd3
+CommitInfo{repo='GitHub', hash='3970f1c6549210a2793669b9a20c64993f8110b7', version='cassandra-0.7.7'} 	https://github.com/strapdata/cassandra/commit/3970f1c6549210a2793669b9a20c64993f8110b7
+CommitInfo{repo='GitHub', hash='17118ce0b6419ed9cbc53643a7162d2e90076411', version='cassandra-0.7.8'} 	https://github.com/strapdata/cassandra/commit/17118ce0b6419ed9cbc53643a7162d2e90076411
+CommitInfo{repo='GitHub', hash='2e4e908afd057dde28f55ecdf5f65d4a74176915', version='cassandra-0.7.9'} 	https://github.com/strapdata/cassandra/commit/2e4e908afd057dde28f55ecdf5f65d4a74176915
+CommitInfo{repo='GitHub', hash='6d85611ac31f823165049700289ac8633bf777cc', version='cassandra-0.8.0'} 	https://github.com/strapdata/cassandra/commit/6d85611ac31f823165049700289ac8633bf777cc
+CommitInfo{repo='GitHub', hash='95f25e31d696e5c5ef36ad58439ddb80e8a97143', version='cassandra-0.8.0-beta1'} 	https://github.com/strapdata/cassandra/commit/95f25e31d696e5c5ef36ad58439ddb80e8a97143
+CommitInfo{repo='GitHub', hash='0bba522d549fcffc9ed18735ace3f4200b0978e4', version='cassandra-0.8.0-beta2'} 	https://github.com/strapdata/cassandra/commit/0bba522d549fcffc9ed18735ace3f4200b0978e4
+CommitInfo{repo='GitHub', hash='8982102de9d1fd141cd0942dc678accc9a1331b9', version='cassandra-0.8.0-rc1'} 	https://github.com/strapdata/cassandra/commit/8982102de9d1fd141cd0942dc678accc9a1331b9
+CommitInfo{repo='GitHub', hash='1afdf2254b198f99ead039acf765cc9979d7f0e9', version='cassandra-0.8.1'} 	https://github.com/strapdata/cassandra/commit/1afdf2254b198f99ead039acf765cc9979d7f0e9
+CommitInfo{repo='GitHub', hash='c45a17cd08a752600b244065a3c3ecfc8cb97422', version='cassandra-0.8.10'} 	https://github.com/strapdata/cassandra/commit/c45a17cd08a752600b244065a3c3ecfc8cb97422
+CommitInfo{repo='GitHub', hash='8ac6833b20750b8fb7a00cf344e438fd67423e3b', version='cassandra-0.8.2'} 	https://github.com/strapdata/cassandra/commit/8ac6833b20750b8fb7a00cf344e438fd67423e3b
+CommitInfo{repo='GitHub', hash='61a283ba718ee25f67d0e8eb285fa73ae94a352f', version='cassandra-0.8.3'} 	https://github.com/strapdata/cassandra/commit/61a283ba718ee25f67d0e8eb285fa73ae94a352f
+CommitInfo{repo='GitHub', hash='9440fc200658691adb64702544eb8a131684d73e', version='cassandra-0.8.4'} 	https://github.com/strapdata/cassandra/commit/9440fc200658691adb64702544eb8a131684d73e
+CommitInfo{repo='GitHub', hash='85d8edf9a91ce2091502b30a4e1aa10aa5af4037', version='cassandra-0.8.5'} 	https://github.com/strapdata/cassandra/commit/85d8edf9a91ce2091502b30a4e1aa10aa5af4037
+CommitInfo{repo='GitHub', hash='6ef44741d39201ef0b070c1631aa9dcf3a23f53c', version='cassandra-0.8.6'} 	https://github.com/strapdata/cassandra/commit/6ef44741d39201ef0b070c1631aa9dcf3a23f53c
+CommitInfo{repo='GitHub', hash='c44821db5e7368822f8e687454ed3d39c0a1a8e7', version='cassandra-0.8.7'} 	https://github.com/strapdata/cassandra/commit/c44821db5e7368822f8e687454ed3d39c0a1a8e7
+CommitInfo{repo='GitHub', hash='1b98b1e3a588b5b952f238dcbb1e4b8f53104ced', version='cassandra-0.8.8'} 	https://github.com/strapdata/cassandra/commit/1b98b1e3a588b5b952f238dcbb1e4b8f53104ced
+CommitInfo{repo='GitHub', hash='cb61bfd526300380da2f0c56104cfe2014d454b4', version='cassandra-0.8.9'} 	https://github.com/strapdata/cassandra/commit/cb61bfd526300380da2f0c56104cfe2014d454b4
+CommitInfo{repo='GitHub', hash='1d1c9f6608376151138b87000467debc854a284c', version='cassandra-1.0.0'} 	https://github.com/strapdata/cassandra/commit/1d1c9f6608376151138b87000467debc854a284c
+CommitInfo{repo='GitHub', hash='61b44c54a5cefd46dcf189bf575f81a16a806e4f', version='cassandra-1.0.0-beta1'} 	https://github.com/strapdata/cassandra/commit/61b44c54a5cefd46dcf189bf575f81a16a806e4f
+CommitInfo{repo='GitHub', hash='82cf5752ddfe7b1643c363ad815ff4db6dcedf9b', version='cassandra-1.0.0-rc1'} 	https://github.com/strapdata/cassandra/commit/82cf5752ddfe7b1643c363ad815ff4db6dcedf9b
+CommitInfo{repo='GitHub', hash='50dd978cbfaec8d138c6feafb1f1ffecd958c4e7', version='cassandra-1.0.0-rc2'} 	https://github.com/strapdata/cassandra/commit/50dd978cbfaec8d138c6feafb1f1ffecd958c4e7
+CommitInfo{repo='GitHub', hash='41ab2ba4b10392144833eb4defaa2fe96840acb1', version='cassandra-1.0.1'} 	https://github.com/strapdata/cassandra/commit/41ab2ba4b10392144833eb4defaa2fe96840acb1
+CommitInfo{repo='GitHub', hash='2ad9d19f1eef29c019bfd24f7c75679b3d034574', version='cassandra-1.0.10'} 	https://github.com/strapdata/cassandra/commit/2ad9d19f1eef29c019bfd24f7c75679b3d034574
+CommitInfo{repo='GitHub', hash='5f42506a8ec68a0eb2c204673ad1e4be3a70b679', version='cassandra-1.0.11'} 	https://github.com/strapdata/cassandra/commit/5f42506a8ec68a0eb2c204673ad1e4be3a70b679
+CommitInfo{repo='GitHub', hash='fcfd88b7ed5eaa85d83aacd8aff9ea27fbdf565f', version='cassandra-1.0.12'} 	https://github.com/strapdata/cassandra/commit/fcfd88b7ed5eaa85d83aacd8aff9ea27fbdf565f
+CommitInfo{repo='GitHub', hash='0b4193eced3d013ebfdaa52c1bfca4fe4ffd725f', version='cassandra-1.0.2'} 	https://github.com/strapdata/cassandra/commit/0b4193eced3d013ebfdaa52c1bfca4fe4ffd725f
+CommitInfo{repo='GitHub', hash='7ba3b66562b1fe80fa960d987943929396c97eff', version='cassandra-1.0.3'} 	https://github.com/strapdata/cassandra/commit/7ba3b66562b1fe80fa960d987943929396c97eff
+CommitInfo{repo='GitHub', hash='07131e79519cee15edc32c120b2badcd11d1c1ae', version='cassandra-1.0.4'} 	https://github.com/strapdata/cassandra/commit/07131e79519cee15edc32c120b2badcd11d1c1ae
+CommitInfo{repo='GitHub', hash='12b6c4309e0d50ac4b7472086a82048aa6112746', version='cassandra-1.0.5'} 	https://github.com/strapdata/cassandra/commit/12b6c4309e0d50ac4b7472086a82048aa6112746
+CommitInfo{repo='GitHub', hash='5d3c26619b52de63f6a8e3116eeb4ea0b9afe30e', version='cassandra-1.0.6'} 	https://github.com/strapdata/cassandra/commit/5d3c26619b52de63f6a8e3116eeb4ea0b9afe30e
+CommitInfo{repo='GitHub', hash='6950e7a456fad70a3da6140a358fe1e78e2ae79b', version='cassandra-1.0.7'} 	https://github.com/strapdata/cassandra/commit/6950e7a456fad70a3da6140a358fe1e78e2ae79b
+CommitInfo{repo='GitHub', hash='221df34b9fdc009a59abe77e3bfb70fc9ee125f0', version='cassandra-1.0.8'} 	https://github.com/strapdata/cassandra/commit/221df34b9fdc009a59abe77e3bfb70fc9ee125f0
+CommitInfo{repo='GitHub', hash='3b86366dd315b9d22b5e640ca1ffd536401e7d18', version='cassandra-1.0.9'} 	https://github.com/strapdata/cassandra/commit/3b86366dd315b9d22b5e640ca1ffd536401e7d18
+CommitInfo{repo='GitHub', hash='5413e64ff7a19eaf72d53a07bd2f9774c3a97054', version='cassandra-1.1.0'} 	https://github.com/strapdata/cassandra/commit/5413e64ff7a19eaf72d53a07bd2f9774c3a97054
+CommitInfo{repo='GitHub', hash='58cff1868c6079cd4f9b9480ba1b39bcb868bb0b', version='cassandra-1.1.0-beta1'} 	https://github.com/strapdata/cassandra/commit/58cff1868c6079cd4f9b9480ba1b39bcb868bb0b
+CommitInfo{repo='GitHub', hash='1625c56c363d3884f5d72a6e2153430440f3700c', version='cassandra-1.1.0-beta2'} 	https://github.com/strapdata/cassandra/commit/1625c56c363d3884f5d72a6e2153430440f3700c
+CommitInfo{repo='GitHub', hash='f6418198330ae03ebeae47f8c7cce5ff681064f3', version='cassandra-1.1.0-rc1'} 	https://github.com/strapdata/cassandra/commit/f6418198330ae03ebeae47f8c7cce5ff681064f3
+CommitInfo{repo='GitHub', hash='925c5611f0bb8100d3fdc0c7972c92c1b7983017', version='cassandra-1.1.1'} 	https://github.com/strapdata/cassandra/commit/925c5611f0bb8100d3fdc0c7972c92c1b7983017
+CommitInfo{repo='GitHub', hash='8fb8426583304a0f89b003154191dab4472afa1f', version='cassandra-1.1.10'} 	https://github.com/strapdata/cassandra/commit/8fb8426583304a0f89b003154191dab4472afa1f
+CommitInfo{repo='GitHub', hash='d939a0c958d36a3debfc63364a3fa569aa632c6e', version='cassandra-1.1.11'} 	https://github.com/strapdata/cassandra/commit/d939a0c958d36a3debfc63364a3fa569aa632c6e
+CommitInfo{repo='GitHub', hash='b35284a5f584e789fc20915670c05b1e2881466e', version='cassandra-1.1.12'} 	https://github.com/strapdata/cassandra/commit/b35284a5f584e789fc20915670c05b1e2881466e
+CommitInfo{repo='GitHub', hash='a12e34e99c958c01d7610bb73898117a52f3901c', version='cassandra-1.1.2'} 	https://github.com/strapdata/cassandra/commit/a12e34e99c958c01d7610bb73898117a52f3901c
+CommitInfo{repo='GitHub', hash='aa950cd78128c2bac5abfd06b74932c35ff1a4e9', version='cassandra-1.1.3'} 	https://github.com/strapdata/cassandra/commit/aa950cd78128c2bac5abfd06b74932c35ff1a4e9
+CommitInfo{repo='GitHub', hash='5cb344c909fa7fceedfce7b69002b1db3ab6f91f', version='cassandra-1.1.4'} 	https://github.com/strapdata/cassandra/commit/5cb344c909fa7fceedfce7b69002b1db3ab6f91f
+CommitInfo{repo='GitHub', hash='971bd9b7afdb188c00e054b787f0800fe66f7fe9', version='cassandra-1.1.5'} 	https://github.com/strapdata/cassandra/commit/971bd9b7afdb188c00e054b787f0800fe66f7fe9
+CommitInfo{repo='GitHub', hash='94dc0169d0f6c602148d3a562133a6b883b28c13', version='cassandra-1.1.6'} 	https://github.com/strapdata/cassandra/commit/94dc0169d0f6c602148d3a562133a6b883b28c13
+CommitInfo{repo='GitHub', hash='36f584238061d55e6700ad32e92a6c9198fad47b', version='cassandra-1.1.7'} 	https://github.com/strapdata/cassandra/commit/36f584238061d55e6700ad32e92a6c9198fad47b
+CommitInfo{repo='GitHub', hash='7fd23267bbdad07b090a593cd057df9d08550915', version='cassandra-1.1.8'} 	https://github.com/strapdata/cassandra/commit/7fd23267bbdad07b090a593cd057df9d08550915
+CommitInfo{repo='GitHub', hash='c22aaeebd5c46570a6c59d38902b3e2462143e6b', version='cassandra-1.1.9'} 	https://github.com/strapdata/cassandra/commit/c22aaeebd5c46570a6c59d38902b3e2462143e6b
+CommitInfo{repo='GitHub', hash='95395aadf2ae00a626e6ad44afa4b6217d669fb5', version='cassandra-1.2.0'} 	https://github.com/strapdata/cassandra/commit/95395aadf2ae00a626e6ad44afa4b6217d669fb5
+CommitInfo{repo='GitHub', hash='34710af649e89bc6d6d7552321eadceea675f5d9', version='cassandra-1.2.0-beta1'} 	https://github.com/strapdata/cassandra/commit/34710af649e89bc6d6d7552321eadceea675f5d9
+CommitInfo{repo='GitHub', hash='bbbaefc13aece27e6a6a3fcf1761cb88d438d38a', version='cassandra-1.2.0-beta2'} 	https://github.com/strapdata/cassandra/commit/bbbaefc13aece27e6a6a3fcf1761cb88d438d38a
+CommitInfo{repo='GitHub', hash='eb2d12ab747c5e862ad60c9733f3c49544afcba5', version='cassandra-1.2.0-beta3'} 	https://github.com/strapdata/cassandra/commit/eb2d12ab747c5e862ad60c9733f3c49544afcba5
+CommitInfo{repo='GitHub', hash='5bb36f909026b8339f111a2afd492dd0c1b59736', version='cassandra-1.2.0-rc1'} 	https://github.com/strapdata/cassandra/commit/5bb36f909026b8339f111a2afd492dd0c1b59736
+CommitInfo{repo='GitHub', hash='f90812311b3e7ec4eb46c27586bdbaf4801dc92b', version='cassandra-1.2.0-rc2'} 	https://github.com/strapdata/cassandra/commit/f90812311b3e7ec4eb46c27586bdbaf4801dc92b
+CommitInfo{repo='GitHub', hash='33c54984c532b02198452a5cfd0f7254d735f450', version='cassandra-1.2.1'} 	https://github.com/strapdata/cassandra/commit/33c54984c532b02198452a5cfd0f7254d735f450
+CommitInfo{repo='GitHub', hash='64d62d61ac1f7c5bb2f5c8a65e8330549d7c7b14', version='cassandra-1.2.10'} 	https://github.com/strapdata/cassandra/commit/64d62d61ac1f7c5bb2f5c8a65e8330549d7c7b14
+CommitInfo{repo='GitHub', hash='d0627cc37c24c97e2fee4f4e12b2cc9202710de1', version='cassandra-1.2.11'} 	https://github.com/strapdata/cassandra/commit/d0627cc37c24c97e2fee4f4e12b2cc9202710de1
+CommitInfo{repo='GitHub', hash='d4d273dccbcb44c2475ac6ad8dbf8b99c0795e47', version='cassandra-1.2.12'} 	https://github.com/strapdata/cassandra/commit/d4d273dccbcb44c2475ac6ad8dbf8b99c0795e47
+CommitInfo{repo='GitHub', hash='e5581be502d09834cb7b8488587e4772e7b8cac5', version='cassandra-1.2.13'} 	https://github.com/strapdata/cassandra/commit/e5581be502d09834cb7b8488587e4772e7b8cac5
+CommitInfo{repo='GitHub', hash='f9bef16aefb064d68327bcb19968944ddb80c21b', version='cassandra-1.2.14'} 	https://github.com/strapdata/cassandra/commit/f9bef16aefb064d68327bcb19968944ddb80c21b
+CommitInfo{repo='GitHub', hash='de8662f7591863760c0dd435602dcfde1084d40a', version='cassandra-1.2.15'} 	https://github.com/strapdata/cassandra/commit/de8662f7591863760c0dd435602dcfde1084d40a
+CommitInfo{repo='GitHub', hash='ef3b9b7d15df39854c76e2773cf74d2f2caf441b', version='cassandra-1.2.16'} 	https://github.com/strapdata/cassandra/commit/ef3b9b7d15df39854c76e2773cf74d2f2caf441b
+CommitInfo{repo='GitHub', hash='077879a5f0fa9a8cabbecab642b6684db9ee5c70', version='cassandra-1.2.17'} 	https://github.com/strapdata/cassandra/commit/077879a5f0fa9a8cabbecab642b6684db9ee5c70
+CommitInfo{repo='GitHub', hash='9687f3ce14bb56223efa4f97c62b361b22d3aa87', version='cassandra-1.2.18'} 	https://github.com/strapdata/cassandra/commit/9687f3ce14bb56223efa4f97c62b361b22d3aa87
+CommitInfo{repo='GitHub', hash='48acfec1634b4a7a66c195d504f4c3a46f02a37f', version='cassandra-1.2.19'} 	https://github.com/strapdata/cassandra/commit/48acfec1634b4a7a66c195d504f4c3a46f02a37f
+CommitInfo{repo='GitHub', hash='7ab7299229d4fa1c122459b5ab4bc82aeb2e59e3', version='cassandra-1.2.2'} 	https://github.com/strapdata/cassandra/commit/7ab7299229d4fa1c122459b5ab4bc82aeb2e59e3
+CommitInfo{repo='GitHub', hash='292dcbdf55b42a23414b913cbce455c0b52ca5d1', version='cassandra-1.2.3'} 	https://github.com/strapdata/cassandra/commit/292dcbdf55b42a23414b913cbce455c0b52ca5d1
+CommitInfo{repo='GitHub', hash='487b6a70847c1287e577750d346ad4124f503634', version='cassandra-1.2.4'} 	https://github.com/strapdata/cassandra/commit/487b6a70847c1287e577750d346ad4124f503634
+CommitInfo{repo='GitHub', hash='21c341ac91d77892265ed0edc62801f2fcf490a3', version='cassandra-1.2.5'} 	https://github.com/strapdata/cassandra/commit/21c341ac91d77892265ed0edc62801f2fcf490a3
+CommitInfo{repo='GitHub', hash='55004ecec5581bae336c1daa00108c81ec360c6f', version='cassandra-1.2.6'} 	https://github.com/strapdata/cassandra/commit/55004ecec5581bae336c1daa00108c81ec360c6f
+CommitInfo{repo='GitHub', hash='8430c8f30d1e4593821c55badfd93cb34164eb0d', version='cassandra-1.2.7'} 	https://github.com/strapdata/cassandra/commit/8430c8f30d1e4593821c55badfd93cb34164eb0d
+CommitInfo{repo='GitHub', hash='0291d696018214000709025c0b806089c2f51e97', version='cassandra-1.2.8'} 	https://github.com/strapdata/cassandra/commit/0291d696018214000709025c0b806089c2f51e97
+CommitInfo{repo='GitHub', hash='bad1c648cf42088b3009037eb2e87ca018602328', version='cassandra-1.2.9'} 	https://github.com/strapdata/cassandra/commit/bad1c648cf42088b3009037eb2e87ca018602328
+CommitInfo{repo='GitHub', hash='b7ab56bb2ecfcf7350d3dffd225cc527c4fc7a01', version='cassandra-2.0.0'} 	https://github.com/strapdata/cassandra/commit/b7ab56bb2ecfcf7350d3dffd225cc527c4fc7a01
+CommitInfo{repo='GitHub', hash='5a22ff2db8f823b8238229ee383737158439a1b8', version='cassandra-2.0.0-beta1'} 	https://github.com/strapdata/cassandra/commit/5a22ff2db8f823b8238229ee383737158439a1b8
+CommitInfo{repo='GitHub', hash='7eee44ec6f16573e6741b9c2bca8b2c5b45304c5', version='cassandra-2.0.0-beta2'} 	https://github.com/strapdata/cassandra/commit/7eee44ec6f16573e6741b9c2bca8b2c5b45304c5
+CommitInfo{repo='GitHub', hash='930e60a7a520c90c9119907c37e049999dc3a2ed', version='cassandra-2.0.0-rc1'} 	https://github.com/strapdata/cassandra/commit/930e60a7a520c90c9119907c37e049999dc3a2ed
+CommitInfo{repo='GitHub', hash='b0d9aeddfee5abaef35e0f6e7555ff1ade7c8afe', version='cassandra-2.0.0-rc2'} 	https://github.com/strapdata/cassandra/commit/b0d9aeddfee5abaef35e0f6e7555ff1ade7c8afe
+CommitInfo{repo='GitHub', hash='4a4db64d804e5f7eb75710b1e61d979e26a56d26', version='cassandra-2.0.1'} 	https://github.com/strapdata/cassandra/commit/4a4db64d804e5f7eb75710b1e61d979e26a56d26
+CommitInfo{repo='GitHub', hash='23fe7e9d877dfd4a625f0d997383c1ffa876046b', version='cassandra-2.0.10'} 	https://github.com/strapdata/cassandra/commit/23fe7e9d877dfd4a625f0d997383c1ffa876046b
+CommitInfo{repo='GitHub', hash='e05e21060f06c8a38181b785854099ff03b7effd', version='cassandra-2.0.11'} 	https://github.com/strapdata/cassandra/commit/e05e21060f06c8a38181b785854099ff03b7effd
+CommitInfo{repo='GitHub', hash='5a039ad1e873d08c1e51c94ab78f3dee700c672e', version='cassandra-2.0.12'} 	https://github.com/strapdata/cassandra/commit/5a039ad1e873d08c1e51c94ab78f3dee700c672e
+CommitInfo{repo='GitHub', hash='df1c31b80443ffceb58a5873dde409d9f516955e', version='cassandra-2.0.13'} 	https://github.com/strapdata/cassandra/commit/df1c31b80443ffceb58a5873dde409d9f516955e
+CommitInfo{repo='GitHub', hash='513be774e664a11d6c063daa3dea1171990dba70', version='cassandra-2.0.14'} 	https://github.com/strapdata/cassandra/commit/513be774e664a11d6c063daa3dea1171990dba70
+CommitInfo{repo='GitHub', hash='dceba21bd5dff87f2881763975479242ff580fd4', version='cassandra-2.0.15'} 	https://github.com/strapdata/cassandra/commit/dceba21bd5dff87f2881763975479242ff580fd4
+CommitInfo{repo='GitHub', hash='8248f4bb5b56fbb9231d20d8359de54b809ea696', version='cassandra-2.0.16'} 	https://github.com/strapdata/cassandra/commit/8248f4bb5b56fbb9231d20d8359de54b809ea696
+CommitInfo{repo='GitHub', hash='0ca04f023710017e5dcff436a6e5a06feae5e837', version='cassandra-2.0.17'} 	https://github.com/strapdata/cassandra/commit/0ca04f023710017e5dcff436a6e5a06feae5e837
+CommitInfo{repo='GitHub', hash='61d1310363f5a203915d3c3f49abf9891fc85230', version='cassandra-2.0.2'} 	https://github.com/strapdata/cassandra/commit/61d1310363f5a203915d3c3f49abf9891fc85230
+CommitInfo{repo='GitHub', hash='7c21e122f28220003c72a7b85c67a803d08a92f3', version='cassandra-2.0.3'} 	https://github.com/strapdata/cassandra/commit/7c21e122f28220003c72a7b85c67a803d08a92f3
+CommitInfo{repo='GitHub', hash='68a768882c1127d49422621a7a1d7430a3f4870e', version='cassandra-2.0.4'} 	https://github.com/strapdata/cassandra/commit/68a768882c1127d49422621a7a1d7430a3f4870e
+CommitInfo{repo='GitHub', hash='71c4e4a0236a766a64bfc0c9c8a00734f61f5566', version='cassandra-2.0.5'} 	https://github.com/strapdata/cassandra/commit/71c4e4a0236a766a64bfc0c9c8a00734f61f5566
+CommitInfo{repo='GitHub', hash='6f07ddbe9aa6131cec5f50652109e86f7336c714', version='cassandra-2.0.6'} 	https://github.com/strapdata/cassandra/commit/6f07ddbe9aa6131cec5f50652109e86f7336c714
+CommitInfo{repo='GitHub', hash='c11d5eaf918bb2f839141226f64aec313889c8cb', version='cassandra-2.0.7'} 	https://github.com/strapdata/cassandra/commit/c11d5eaf918bb2f839141226f64aec313889c8cb
+CommitInfo{repo='GitHub', hash='6482be76dc7250ae61377e3765f118e4f66a68f0', version='cassandra-2.0.8'} 	https://github.com/strapdata/cassandra/commit/6482be76dc7250ae61377e3765f118e4f66a68f0
+CommitInfo{repo='GitHub', hash='901147df6283cf44fd2b3e9ba14c4e1a14536ab0', version='cassandra-2.0.9'} 	https://github.com/strapdata/cassandra/commit/901147df6283cf44fd2b3e9ba14c4e1a14536ab0
+CommitInfo{repo='GitHub', hash='265d2ae20017ced69c65c8af0b2f4557a2e97551', version='cassandra-2.1.0'} 	https://github.com/strapdata/cassandra/commit/265d2ae20017ced69c65c8af0b2f4557a2e97551
+CommitInfo{repo='GitHub', hash='f4d5f40b1acb29130bbb818aabac8dd63475d6ee', version='cassandra-2.1.0-beta1'} 	https://github.com/strapdata/cassandra/commit/f4d5f40b1acb29130bbb818aabac8dd63475d6ee
+CommitInfo{repo='GitHub', hash='3bb78e53d30687ff7cba34ba2b141f59e5995938', version='cassandra-2.1.0-beta2'} 	https://github.com/strapdata/cassandra/commit/3bb78e53d30687ff7cba34ba2b141f59e5995938
+CommitInfo{repo='GitHub', hash='e06c1e8381525363e90ccf694275361e2958647a', version='cassandra-2.1.0-deb'} 	https://github.com/strapdata/cassandra/commit/e06c1e8381525363e90ccf694275361e2958647a
+CommitInfo{repo='GitHub', hash='8634f45208ef673cb0a757ea6dbf4c450bdd6273', version='cassandra-2.1.0-rc1'} 	https://github.com/strapdata/cassandra/commit/8634f45208ef673cb0a757ea6dbf4c450bdd6273
+CommitInfo{repo='GitHub', hash='f88841bbbc2653f71c11905850b4be121806d6f8', version='cassandra-2.1.0-rc2'} 	https://github.com/strapdata/cassandra/commit/f88841bbbc2653f71c11905850b4be121806d6f8
+CommitInfo{repo='GitHub', hash='bfc7f2805b7d17f4da29304f686b8ea517085dcb', version='cassandra-2.1.0-rc3'} 	https://github.com/strapdata/cassandra/commit/bfc7f2805b7d17f4da29304f686b8ea517085dcb
+CommitInfo{repo='GitHub', hash='9268c3274013647cd6945410a635c038d0e263a4', version='cassandra-2.1.0-rc4'} 	https://github.com/strapdata/cassandra/commit/9268c3274013647cd6945410a635c038d0e263a4
+CommitInfo{repo='GitHub', hash='5619529ef399dd86b0e8ae731a9c2f35628c2390', version='cassandra-2.1.0-rc5'} 	https://github.com/strapdata/cassandra/commit/5619529ef399dd86b0e8ae731a9c2f35628c2390
+CommitInfo{repo='GitHub', hash='aed763b3c348a2224c8d38c894b775ccd5d9416a', version='cassandra-2.1.0-rc6'} 	https://github.com/strapdata/cassandra/commit/aed763b3c348a2224c8d38c894b775ccd5d9416a
+CommitInfo{repo='GitHub', hash='2503dbea5231be729b1c769a0039158ba504255e', version='cassandra-2.1.0-rc7'} 	https://github.com/strapdata/cassandra/commit/2503dbea5231be729b1c769a0039158ba504255e
+CommitInfo{repo='GitHub', hash='e5ca6217110db149232b686c5b827aa0348d7898', version='cassandra-2.1.1'} 	https://github.com/strapdata/cassandra/commit/e5ca6217110db149232b686c5b827aa0348d7898
+CommitInfo{repo='GitHub', hash='255fbe68950ec695460e598924964e21cb628d0f', version='cassandra-2.1.10'} 	https://github.com/strapdata/cassandra/commit/255fbe68950ec695460e598924964e21cb628d0f
+CommitInfo{repo='GitHub', hash='06351b49e7bbab5c8b871269a0d42cdd9e4232c6', version='cassandra-2.1.11'} 	https://github.com/strapdata/cassandra/commit/06351b49e7bbab5c8b871269a0d42cdd9e4232c6
+CommitInfo{repo='GitHub', hash='7c121f62115ce7b776ac01fbd9106cd4a895e9cb', version='cassandra-2.1.12'} 	https://github.com/strapdata/cassandra/commit/7c121f62115ce7b776ac01fbd9106cd4a895e9cb
+CommitInfo{repo='GitHub', hash='8f7509bfdd34202a141e2534f5575598732212cc', version='cassandra-2.1.13'} 	https://github.com/strapdata/cassandra/commit/8f7509bfdd34202a141e2534f5575598732212cc
+CommitInfo{repo='GitHub', hash='a98b558c5658e9ece3ac9c72034248e405c062b8', version='cassandra-2.1.14'} 	https://github.com/strapdata/cassandra/commit/a98b558c5658e9ece3ac9c72034248e405c062b8
+CommitInfo{repo='GitHub', hash='d43c9a33bbd26803a14397b666e0a94949860987', version='cassandra-2.1.15'} 	https://github.com/strapdata/cassandra/commit/d43c9a33bbd26803a14397b666e0a94949860987
+CommitInfo{repo='GitHub', hash='4bb7402728da809c586a0c0da113dae57b1cf147', version='cassandra-2.1.16'} 	https://github.com/strapdata/cassandra/commit/4bb7402728da809c586a0c0da113dae57b1cf147
+CommitInfo{repo='GitHub', hash='db2cd1904a71e6db301eff7c26ebf254c7a7c046', version='cassandra-2.1.17'} 	https://github.com/strapdata/cassandra/commit/db2cd1904a71e6db301eff7c26ebf254c7a7c046
+CommitInfo{repo='GitHub', hash='37b2aa4cc2f18642f046d35594be575da69affd1', version='cassandra-2.1.18'} 	https://github.com/strapdata/cassandra/commit/37b2aa4cc2f18642f046d35594be575da69affd1
+CommitInfo{repo='GitHub', hash='18d68a230712ed0f32d5525c2e13af7c8c490bce', version='cassandra-2.1.2'} 	https://github.com/strapdata/cassandra/commit/18d68a230712ed0f32d5525c2e13af7c8c490bce
+CommitInfo{repo='GitHub', hash='ea4013aeba29d1dd0ce81c7996d3365459071e03', version='cassandra-2.1.3'} 	https://github.com/strapdata/cassandra/commit/ea4013aeba29d1dd0ce81c7996d3365459071e03
+CommitInfo{repo='GitHub', hash='86ae5d07751f3747ff0f0e9d6baa8811b46243da', version='cassandra-2.1.4'} 	https://github.com/strapdata/cassandra/commit/86ae5d07751f3747ff0f0e9d6baa8811b46243da
+CommitInfo{repo='GitHub', hash='67235bf76291fba4c8a2bc5b96a6ba8e9e439651', version='cassandra-2.1.5'} 	https://github.com/strapdata/cassandra/commit/67235bf76291fba4c8a2bc5b96a6ba8e9e439651
+CommitInfo{repo='GitHub', hash='f57481e428142c3eb3580a2ab3f3c9145b9e0a2b', version='cassandra-2.1.6'} 	https://github.com/strapdata/cassandra/commit/f57481e428142c3eb3580a2ab3f3c9145b9e0a2b
+CommitInfo{repo='GitHub', hash='da52be811cf89e890f67b7921a8af2b9e4ec9226', version='cassandra-2.1.7'} 	https://github.com/strapdata/cassandra/commit/da52be811cf89e890f67b7921a8af2b9e4ec9226
+CommitInfo{repo='GitHub', hash='c2c3c2fb44d773cd6a9ec2ad7fbc0d2d7f17b2ad', version='cassandra-2.1.8'} 	https://github.com/strapdata/cassandra/commit/c2c3c2fb44d773cd6a9ec2ad7fbc0d2d7f17b2ad
+CommitInfo{repo='GitHub', hash='08cff55a5423017b879f6b907d0fdd856459902b', version='cassandra-2.1.9'} 	https://github.com/strapdata/cassandra/commit/08cff55a5423017b879f6b907d0fdd856459902b
+CommitInfo{repo='GitHub', hash='753bc1e8328754af3ba885bf9f175636f19ebf3c', version='cassandra-2.2.0'} 	https://github.com/strapdata/cassandra/commit/753bc1e8328754af3ba885bf9f175636f19ebf3c
+CommitInfo{repo='GitHub', hash='f7e42e94eddc290141787d953c2176f21ba60177', version='cassandra-2.2.0-beta1'} 	https://github.com/strapdata/cassandra/commit/f7e42e94eddc290141787d953c2176f21ba60177
+CommitInfo{repo='GitHub', hash='aa3bcf6773ce83349d92aff7b19817a6d2399e94', version='cassandra-2.2.0-rc1'} 	https://github.com/strapdata/cassandra/commit/aa3bcf6773ce83349d92aff7b19817a6d2399e94
+CommitInfo{repo='GitHub', hash='3e7dd47b9456539e57c8a514d02ca1fd168055fc', version='cassandra-2.2.0-rc2'} 	https://github.com/strapdata/cassandra/commit/3e7dd47b9456539e57c8a514d02ca1fd168055fc
+CommitInfo{repo='GitHub', hash='bafdfdc1a89f8c2372331979bb6b9b3b2a9b8546', version='cassandra-2.2.1'} 	https://github.com/strapdata/cassandra/commit/bafdfdc1a89f8c2372331979bb6b9b3b2a9b8546
+CommitInfo{repo='GitHub', hash='1d1e1af90dd45e0ea731c78253285dc0747983de', version='cassandra-2.2.10'} 	https://github.com/strapdata/cassandra/commit/1d1e1af90dd45e0ea731c78253285dc0747983de
+CommitInfo{repo='GitHub', hash='044b6b4675e25cf6ca91bb0666a6774e4d088161', version='cassandra-2.2.2'} 	https://github.com/strapdata/cassandra/commit/044b6b4675e25cf6ca91bb0666a6774e4d088161
+CommitInfo{repo='GitHub', hash='8470e4e661470c040261ecdb8bfebb77b44d9f3b', version='cassandra-2.2.3'} 	https://github.com/strapdata/cassandra/commit/8470e4e661470c040261ecdb8bfebb77b44d9f3b
+CommitInfo{repo='GitHub', hash='02d4cb6f9b228b392908df52ad20b49386fdc82d', version='cassandra-2.2.4'} 	https://github.com/strapdata/cassandra/commit/02d4cb6f9b228b392908df52ad20b49386fdc82d
+CommitInfo{repo='GitHub', hash='048a043055319eb61056a1349421d088a40b3576', version='cassandra-2.2.5'} 	https://github.com/strapdata/cassandra/commit/048a043055319eb61056a1349421d088a40b3576
+CommitInfo{repo='GitHub', hash='a7975f385681e0ae17bc0fea0260065142b85fd9', version='cassandra-2.2.6'} 	https://github.com/strapdata/cassandra/commit/a7975f385681e0ae17bc0fea0260065142b85fd9
+CommitInfo{repo='GitHub', hash='fdf8320b40974a2ed29bc1259dfd59808b9ef37e', version='cassandra-2.2.7'} 	https://github.com/strapdata/cassandra/commit/fdf8320b40974a2ed29bc1259dfd59808b9ef37e
+CommitInfo{repo='GitHub', hash='5a71132ac88931b6459c2cc2a1a100b617a6e232', version='cassandra-2.2.8'} 	https://github.com/strapdata/cassandra/commit/5a71132ac88931b6459c2cc2a1a100b617a6e232
+CommitInfo{repo='GitHub', hash='07dee6efc3be815b8792ef79d4c382c6e20e6b06', version='cassandra-2.2.9'} 	https://github.com/strapdata/cassandra/commit/07dee6efc3be815b8792ef79d4c382c6e20e6b06
+CommitInfo{repo='GitHub', hash='f64adb85273e873fd87b82234ce5a313afca08d9', version='cassandra-3.0.0'} 	https://github.com/strapdata/cassandra/commit/f64adb85273e873fd87b82234ce5a313afca08d9
+CommitInfo{repo='GitHub', hash='8cf27fc3b84900e45ecd2cb5dd70f5c9e4441a9b', version='cassandra-3.0.0-alpha1'} 	https://github.com/strapdata/cassandra/commit/8cf27fc3b84900e45ecd2cb5dd70f5c9e4441a9b
+CommitInfo{repo='GitHub', hash='4bbe0361c531e856bbaa37cd956911736aaa932c', version='cassandra-3.0.0-beta1'} 	https://github.com/strapdata/cassandra/commit/4bbe0361c531e856bbaa37cd956911736aaa932c
+CommitInfo{repo='GitHub', hash='7da2c88dff90bb86691e5a106a10a037a8431a7b', version='cassandra-3.0.0-beta2'} 	https://github.com/strapdata/cassandra/commit/7da2c88dff90bb86691e5a106a10a037a8431a7b
+CommitInfo{repo='GitHub', hash='64e5b21865fd6d819033cdb53ffa5fb37b198965', version='cassandra-3.0.0-rc1'} 	https://github.com/strapdata/cassandra/commit/64e5b21865fd6d819033cdb53ffa5fb37b198965
+CommitInfo{repo='GitHub', hash='11a81903db77f1d2d1d529fc40eb73c9650f21bf', version='cassandra-3.0.0-rc2'} 	https://github.com/strapdata/cassandra/commit/11a81903db77f1d2d1d529fc40eb73c9650f21bf
+CommitInfo{repo='GitHub', hash='16b1bbd019586721b0aabecf96ba3051eb5e6585', version='cassandra-3.0.1'} 	https://github.com/strapdata/cassandra/commit/16b1bbd019586721b0aabecf96ba3051eb5e6585
+CommitInfo{repo='GitHub', hash='a0ff991dcdee1da8826831ed3ed840a256ff4ea2', version='cassandra-3.0.10'} 	https://github.com/strapdata/cassandra/commit/a0ff991dcdee1da8826831ed3ed840a256ff4ea2
+CommitInfo{repo='GitHub', hash='37d266d19e36ce843a3b44bf3c9824bd839f5ef9', version='cassandra-3.0.10-strapdata'} 	https://github.com/strapdata/cassandra/commit/37d266d19e36ce843a3b44bf3c9824bd839f5ef9
+CommitInfo{repo='GitHub', hash='4165b0818af9459b6938587b3af1f4c31e70318d', version='cassandra-3.0.11'} 	https://github.com/strapdata/cassandra/commit/4165b0818af9459b6938587b3af1f4c31e70318d
+CommitInfo{repo='GitHub', hash='23cfdfcc3228c77abfaa6136505016d2ede732f3', version='cassandra-3.0.11-strapdata'} 	https://github.com/strapdata/cassandra/commit/23cfdfcc3228c77abfaa6136505016d2ede732f3
+CommitInfo{repo='GitHub', hash='7056a42ae945f60650454f8093a7c0dc5b53fb32', version='cassandra-3.0.12'} 	https://github.com/strapdata/cassandra/commit/7056a42ae945f60650454f8093a7c0dc5b53fb32
+CommitInfo{repo='GitHub', hash='932f1d1d0e92f7d68b1ef3a409517cd4918fa597', version='cassandra-3.0.12-strapdata'} 	https://github.com/strapdata/cassandra/commit/932f1d1d0e92f7d68b1ef3a409517cd4918fa597
+CommitInfo{repo='GitHub', hash='2822c6c329b6fb80a40d2c9ae84a83d3b09c1621', version='cassandra-3.0.13'} 	https://github.com/strapdata/cassandra/commit/2822c6c329b6fb80a40d2c9ae84a83d3b09c1621
+CommitInfo{repo='GitHub', hash='2ce01643c285b35ea204fe59a45f202f91797465', version='cassandra-3.0.13-strapdata'} 	https://github.com/strapdata/cassandra/commit/2ce01643c285b35ea204fe59a45f202f91797465
+CommitInfo{repo='GitHub', hash='7bf0cd1a4018f55b98ffd935d9f4f30e26f2cc54', version='cassandra-3.0.14'} 	https://github.com/strapdata/cassandra/commit/7bf0cd1a4018f55b98ffd935d9f4f30e26f2cc54
+CommitInfo{repo='GitHub', hash='190323a1c3f6a4f63b3011dba3a05265de2be4ce', version='cassandra-3.0.2'} 	https://github.com/strapdata/cassandra/commit/190323a1c3f6a4f63b3011dba3a05265de2be4ce
+CommitInfo{repo='GitHub', hash='4b6fecd181706d1908a033d50e80578b52ba5495', version='cassandra-3.0.3'} 	https://github.com/strapdata/cassandra/commit/4b6fecd181706d1908a033d50e80578b52ba5495
+CommitInfo{repo='GitHub', hash='866a7904dd5e54c990d0831a12106dc5ec20bf1a', version='cassandra-3.0.4'} 	https://github.com/strapdata/cassandra/commit/866a7904dd5e54c990d0831a12106dc5ec20bf1a
+CommitInfo{repo='GitHub', hash='5dab8843a363201199dbbad53c702ba3550b1eec', version='cassandra-3.0.5'} 	https://github.com/strapdata/cassandra/commit/5dab8843a363201199dbbad53c702ba3550b1eec
+CommitInfo{repo='GitHub', hash='081d8dfe69c8f22e234d8e9782c727e0dda75670', version='cassandra-3.0.6'} 	https://github.com/strapdata/cassandra/commit/081d8dfe69c8f22e234d8e9782c727e0dda75670
+CommitInfo{repo='GitHub', hash='49b561ae6270fa985e611af4377239ebbebe2c83', version='cassandra-3.0.7'} 	https://github.com/strapdata/cassandra/commit/49b561ae6270fa985e611af4377239ebbebe2c83
+CommitInfo{repo='GitHub', hash='742817afd9395dc07763a6f36e15ae5e811e6b42', version='cassandra-3.0.8'} 	https://github.com/strapdata/cassandra/commit/742817afd9395dc07763a6f36e15ae5e811e6b42
+CommitInfo{repo='GitHub', hash='c3f525f525335c616d7610960ed36262c8f26e83', version='cassandra-3.0.9'} 	https://github.com/strapdata/cassandra/commit/c3f525f525335c616d7610960ed36262c8f26e83
+CommitInfo{repo='GitHub', hash='2ad7402828c3a04da30610b4ac05ab89a92a5efb', version='cassandra-3.1'} 	https://github.com/strapdata/cassandra/commit/2ad7402828c3a04da30610b4ac05ab89a92a5efb
+CommitInfo{repo='GitHub', hash='2790f5c721841e3f230696b41294f92b1c3d9a29', version='cassandra-3.10'} 	https://github.com/strapdata/cassandra/commit/2790f5c721841e3f230696b41294f92b1c3d9a29
+CommitInfo{repo='GitHub', hash='9476a7f22abcd3aacb41a88ff8d13370249ced64', version='cassandra-3.1.1'} 	https://github.com/strapdata/cassandra/commit/9476a7f22abcd3aacb41a88ff8d13370249ced64
+CommitInfo{repo='GitHub', hash='bef80a4a7ffce58deea75ca56d5e655b08df6108', version='cassandra-3.11.0'} 	https://github.com/strapdata/cassandra/commit/bef80a4a7ffce58deea75ca56d5e655b08df6108
+CommitInfo{repo='GitHub', hash='79fee4aaa2a266066719ad3f450981f27572aa9a', version='cassandra-3.11.0.1-strapdata'} 	https://github.com/strapdata/cassandra/commit/79fee4aaa2a266066719ad3f450981f27572aa9a
+CommitInfo{repo='GitHub', hash='44f3c6dbe595c024d60a6ae1e30589e1aaf7415f', version='cassandra-3.11.0-strapdata'} 	https://github.com/strapdata/cassandra/commit/44f3c6dbe595c024d60a6ae1e30589e1aaf7415f
+CommitInfo{repo='GitHub', hash='4bbe67d63d544ad03e8518afdcc34630bcb442b4', version='cassandra-3.11.1.0-strapdata'} 	https://github.com/strapdata/cassandra/commit/4bbe67d63d544ad03e8518afdcc34630bcb442b4
+CommitInfo{repo='GitHub', hash='0295f5df40d2c59f7557fc7128ee741a44dd7dce', version='cassandra-3.11.1.2-strapdata'} 	https://github.com/strapdata/cassandra/commit/0295f5df40d2c59f7557fc7128ee741a44dd7dce
+CommitInfo{repo='GitHub', hash='c58eabb4945ef832d2703e543cbd51eaf59ce59f', version='cassandra-3.11.2.1-strapdata'} 	https://github.com/strapdata/cassandra/commit/c58eabb4945ef832d2703e543cbd51eaf59ce59f
+CommitInfo{repo='GitHub', hash='3d47b502c01f2e4ee2197d6ed8ca0a58a7b49613', version='cassandra-3.2'} 	https://github.com/strapdata/cassandra/commit/3d47b502c01f2e4ee2197d6ed8ca0a58a7b49613
+CommitInfo{repo='GitHub', hash='9a44974b032bd32e4ba6f6dcc914007d7c3b9c2f', version='cassandra-3.2.1'} 	https://github.com/strapdata/cassandra/commit/9a44974b032bd32e4ba6f6dcc914007d7c3b9c2f
+CommitInfo{repo='GitHub', hash='d92d8c429fbf5c8245500ddd92ca3c39ea5bb3be', version='cassandra-3.3'} 	https://github.com/strapdata/cassandra/commit/d92d8c429fbf5c8245500ddd92ca3c39ea5bb3be
+CommitInfo{repo='GitHub', hash='fd952750fab6a03566f301f9b45228237bf906c7', version='cassandra-3.4'} 	https://github.com/strapdata/cassandra/commit/fd952750fab6a03566f301f9b45228237bf906c7
+CommitInfo{repo='GitHub', hash='6a201b169445c9bf2063ac56e931e0979a7c1a81', version='cassandra-3.5'} 	https://github.com/strapdata/cassandra/commit/6a201b169445c9bf2063ac56e931e0979a7c1a81
+CommitInfo{repo='GitHub', hash='dd4c2ef58e77a4a5e6a039fdf9579df737696832', version='cassandra-3.6'} 	https://github.com/strapdata/cassandra/commit/dd4c2ef58e77a4a5e6a039fdf9579df737696832
+CommitInfo{repo='GitHub', hash='12660c4b9ffe1b79af0f5d58ea807c62a15d8e2a', version='cassandra-3.7'} 	https://github.com/strapdata/cassandra/commit/12660c4b9ffe1b79af0f5d58ea807c62a15d8e2a
+CommitInfo{repo='GitHub', hash='d414b4e4b6bd019300d4c75eca35c5b4c739feb4', version='cassandra-3.8'} 	https://github.com/strapdata/cassandra/commit/d414b4e4b6bd019300d4c75eca35c5b4c739feb4
+CommitInfo{repo='GitHub', hash='18bafa8b86bf9f0d28b620d69d18b6719b73c691', version='cassandra-3.9'} 	https://github.com/strapdata/cassandra/commit/18bafa8b86bf9f0d28b620d69d18b6719b73c691
 
 Project A:
 ProjectVersionFixed(version=3.0.10, dependency=4.0.23.Final, time=2017-04-20 16:04:49 UTC),	Latest, "DependencyVersion(version=5.0.0.Alpha2, time=2015-03-03 16:18:59 UTC)"

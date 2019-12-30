@@ -2,99 +2,104 @@
 Project information
 com.twitter:scalding-parquet_2.10 (364474)	org.scala-lang:scala-library (359772)	Package Manager: Maven
 RepoID: 165262
+Repo Owner/Name: twitter/scalding
+Repository type: GitHub
+
+ https://github.com/twitter/scalding/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='6d9195b26e2103f58073bf403846d62d2eac3fed', version='0.1.0'}
-CommitInfo{repo='GitHub', hash='5c2edb33d3b0df4d459767ef5287f9f27c4b8d3c', version='0.10.0'}
-CommitInfo{repo='GitHub', hash='b71533d61f5afb222b4a20b4365fe5f0ceef303e', version='0.1.1'}
-CommitInfo{repo='GitHub', hash='481f1f4939d6172449e0ff7dd3b28d6bd75d6228', version='0.11.0'}
-CommitInfo{repo='GitHub', hash='32c4c1356d47c79fd3e70f0a28c1f919fe5216c7', version='0.11.1'}
-CommitInfo{repo='GitHub', hash='b95cc126924daf77512d9b8e8b084f17a5872ff1', version='0.11.2'}
-CommitInfo{repo='GitHub', hash='0d4744d9034bd9ba2d3ac7e4e28894ea35c98ed7', version='0.11.3rc1'}
-CommitInfo{repo='GitHub', hash='d957e49eec3e1e3c4bf04d55cb8d7e6362af910c', version='0.1.2'}
-CommitInfo{repo='GitHub', hash='94f89c7745e9ade060995941ed64e1a1c4da1f4f', version='0.12.0'}
-CommitInfo{repo='GitHub', hash='ed7c352bf98e221bdea41174f94eadc12b86dfad', version='0.12.0rc1'}
-CommitInfo{repo='GitHub', hash='81fc2efcfd2f19e2d72944224a1ba14ab157d9d6', version='0.12.0.rc2'}
-CommitInfo{repo='GitHub', hash='2f42707ab4da8b449dae22e7357056e0106212ad', version='0.12.0rc3'}
-CommitInfo{repo='GitHub', hash='089205642f98719f807c662170a2a1ba87228f02', version='0.12.0rc4'}
-CommitInfo{repo='GitHub', hash='bf83fa83a7904ef8c81815b85f37291c3cac6232', version='0.12.0rc5'}
-CommitInfo{repo='GitHub', hash='089205642f98719f807c662170a2a1ba87228f02', version='0.12.4'}
-CommitInfo{repo='GitHub', hash='6d9aad7b9ccfed519be0beeccf6e62c5a2792d12', version='0.1.3'}
-CommitInfo{repo='GitHub', hash='019c46431a7fff8ff98bfc9b9471ea0f44088473', version='0.13.0'}
-CommitInfo{repo='GitHub', hash='df54a7b5b31b301c33ddd60092cfce5539f9efb4', version='0.13.1'}
-CommitInfo{repo='GitHub', hash='b0c7c10287e31911ea911e9efac232accaa94528', version='0.14.0'}
-CommitInfo{repo='GitHub', hash='359d018336b47331b1abb322d441f5f189d338e1', version='0.15.0'}
-CommitInfo{repo='GitHub', hash='75c19d8278874552ed4681ec2344f6ed2e16a687', version='0.15.1-RC10'}
-CommitInfo{repo='GitHub', hash='dc648a8c342ece2e1ff7217526e3b3f6cb8b29b3', version='0.15.1-RC11'}
-CommitInfo{repo='GitHub', hash='23b005d49ff496c6a9d3613dc3f9a9a88ce9618c', version='0.15.1-RC12'}
-CommitInfo{repo='GitHub', hash='b76b8531454f7a88d33db14c8939cfe15392a8f8', version='0.15.1-RC13'}
-CommitInfo{repo='GitHub', hash='9fa28523d2e0a37b79afc08e4491d35bc546d327', version='0.15.1-RC14'}
-CommitInfo{repo='GitHub', hash='308699a7e85fa8b8a100d84dd71f07eb9bfaca55', version='0.15.1-RC15'}
-CommitInfo{repo='GitHub', hash='398545991c63019714d80ac22de6494adfd798f2', version='0.15.1-RC16'}
-CommitInfo{repo='GitHub', hash='00e92ba66e6c9075183fbfa1c3ae0811700fb459', version='0.15.1-RC2'}
-CommitInfo{repo='GitHub', hash='cc1da5525496a610ff7679e39fb820b3295afa1e', version='0.15.1-RC3'}
-CommitInfo{repo='GitHub', hash='84d13fc0c1c78a01c3415edd9e9ff84198fc14db', version='0.15.1-RC4'}
-CommitInfo{repo='GitHub', hash='3eff5e958fad69ddbc53ac59125e4beb60f5613c', version='0.15.1-RC8'}
-CommitInfo{repo='GitHub', hash='a994b7dc2f7a29157d253b36c20f729cf4328b3f', version='0.15.1-RC9'}
-CommitInfo{repo='GitHub', hash='1ff544226517b2ebf8926db2118822cc665d220e', version='0.17.2'}
-CommitInfo{repo='GitHub', hash='c8e2012171bb12be0876605fe07ae2913e4c5e97', version='0.2.0'}
-CommitInfo{repo='GitHub', hash='ea09275c3a0ae0eb3151d80e750ddf37ebe06885', version='0.2.1'}
-CommitInfo{repo='GitHub', hash='51742bd739fd1d9b7b1be0be2aaf22051908adee', version='0.3.0'}
-CommitInfo{repo='GitHub', hash='57958754a03355180f3afa6840d6b19553a2440c', version='0.3.1'}
-CommitInfo{repo='GitHub', hash='329ac8e782b58bd266757b414bcbe2e757f929e2', version='0.3.2'}
-CommitInfo{repo='GitHub', hash='4990bae787e015084fe3c78c2bc72545d0185c14', version='0.3.3'}
-CommitInfo{repo='GitHub', hash='34a58edbe868018323191211e0a2646c87986f21', version='0.3.4'}
-CommitInfo{repo='GitHub', hash='36d6770c41ca29e0d3c5eea916c82f32b5fd6a50', version='0.3.5'}
-CommitInfo{repo='GitHub', hash='5cde9934a5df4ebb14ce8d55ee340d5e14f017dd', version='0.4.0'}
-CommitInfo{repo='GitHub', hash='ebef45c086385c49455cd0667ca1362f3e9cec9d', version='0.4.1'}
-CommitInfo{repo='GitHub', hash='36bdc0c87d4dd93619251b927a789d39d8f01784', version='0.5.0'}
-CommitInfo{repo='GitHub', hash='7f531f96e8cdc5faba762c9684f0be813a303709', version='0.5.1'}
-CommitInfo{repo='GitHub', hash='814ba51faa04c2255fc92a16bc90aa67beeec78c', version='0.5.2'}
-CommitInfo{repo='GitHub', hash='36d9291a005f6670715209b1b89c976c5ef6d70a', version='0.5.3'}
-CommitInfo{repo='GitHub', hash='5f1c6eace8519162166b6b7ea962e914e8e000b9', version='0.5.4'}
-CommitInfo{repo='GitHub', hash='48c148bc6d62d5d4be4e6078289f663cc4572c23', version='0.6.0'}
-CommitInfo{repo='GitHub', hash='015b66b71ff9e7089f65ff75a14e10785fb3f219', version='0.6.1'}
-CommitInfo{repo='GitHub', hash='0e58834770c63090ee426009a131457ba1137710', version='0.6.2'}
-CommitInfo{repo='GitHub', hash='010a19c81d2130340b0fc2ffc1577a951da22f7c', version='0.6.3'}
-CommitInfo{repo='GitHub', hash='020128acf9ba68819e49622b8b7999e4054202ca', version='0.7.0'}
-CommitInfo{repo='GitHub', hash='6c02acaf47df2bbaa4df95d036f3d106479caaa5', version='0.7.1'}
-CommitInfo{repo='GitHub', hash='b346eee97840113ff558d499d640094fcc21d2a1', version='0.7.2'}
-CommitInfo{repo='GitHub', hash='d3f7ad8dae57b04d5824554ef679b351ca5be82c', version='0.8.0'}
-CommitInfo{repo='GitHub', hash='08f4c57b8a8cf427e630679319a9d36d159c79dd', version='0.8.1'}
-CommitInfo{repo='GitHub', hash='887004e1518290309822923e2b8121f425371a55', version='0.8.11'}
-CommitInfo{repo='GitHub', hash='46a6b11f0b839e8810b724ca4768ae1e58a9e8bd', version='0.8.2'}
-CommitInfo{repo='GitHub', hash='6850b72ed16a0ba3131ae350d4a1a0c064137a61', version='0.8.3'}
-CommitInfo{repo='GitHub', hash='4cd5e490eab5d7a95d8213beb72881650b495b0e', version='0.8.4'}
-CommitInfo{repo='GitHub', hash='4e84a0fe5a133a7d6afc2676687e6166cc390b4b', version='0.8.5'}
-CommitInfo{repo='GitHub', hash='371f9d895361028808febed1cad2f165bf588151', version='0.8.6'}
-CommitInfo{repo='GitHub', hash='4558217a80231949370d513aaaa99ec88d4e2825', version='0.8.7'}
-CommitInfo{repo='GitHub', hash='cfd30cb5f8ccf483fb55f7174797d8ddc065a369', version='0.8.8'}
-CommitInfo{repo='GitHub', hash='342a2c46b670e70c86770fd545e16089d6d7e3c5', version='0.9.0'}
-CommitInfo{repo='GitHub', hash='4de199e18c39369da3e679d3c13727a23fef3ea6', version='0.9.0rc1'}
-CommitInfo{repo='GitHub', hash='b0b8c478b212772f6a95f1239bbef347777aed34', version='0.9.0rc15'}
-CommitInfo{repo='GitHub', hash='8ac2314807857ddf546415e45730c18ca6377a5c', version='0.9.0rc16'}
-CommitInfo{repo='GitHub', hash='13929f3e3aa282b0143aefce455f51bf0b58c028', version='0.9.0rc17'}
-CommitInfo{repo='GitHub', hash='a9386d9682c01d23e21f278c70c6bee2a3b337a4', version='0.9.0rc4'}
-CommitInfo{repo='GitHub', hash='b1177b4c582519691d14cf252adad5f3cfb17f09', version='0.9.1'}
-CommitInfo{repo='GitHub', hash='b346eee97840113ff558d499d640094fcc21d2a1', version='list'}
-CommitInfo{repo='GitHub', hash='bf98098fd90d539fcd9d60fc4afc4a070287baad', version='v0.16.0'}
-CommitInfo{repo='GitHub', hash='24778d44bbea2d61e1bdf478256769f7d8ed9e9b', version='v0.16.0-RC1'}
-CommitInfo{repo='GitHub', hash='da59141341cc6a99e541ab260f4a78e17c061552', version='v0.16.0-RC2'}
-CommitInfo{repo='GitHub', hash='cc8b02205475fd4b92bffb06309996f54129d525', version='v0.16.0-RC3'}
-CommitInfo{repo='GitHub', hash='261d536fe1b83907faac6993814cd3e4bf8817aa', version='v0.16.0-RC4'}
-CommitInfo{repo='GitHub', hash='16a50af053bdf77cd3d1181d0d881b45280cd660', version='v0.16.0-RC5'}
-CommitInfo{repo='GitHub', hash='90e13c475bc46ea03fcabe08ccb6960a69d6e958', version='v0.16.0-RC6'}
-CommitInfo{repo='GitHub', hash='4528b16e310db13cdac2e9cc1e241e410cd3c1f3', version='v0.16.1-cascading3-RC1'}
-CommitInfo{repo='GitHub', hash='fcca92ad9f380c524d2b3edd9ba58db01c907381', version='v0.16.1-cascading3-RC2'}
-CommitInfo{repo='GitHub', hash='6510c205ba9fd495082ffe9ed58398996ce0ce53', version='v0.16.1-cascading3-RC3'}
-CommitInfo{repo='GitHub', hash='03dc0f3e52f69f692a1e6113572f9fd97dd356ce', version='v0.16.1-cascading3-RC4'}
-CommitInfo{repo='GitHub', hash='910996bb08f21d115b9b5c16cd15374392c7e996', version='v0.16.1-RC1'}
-CommitInfo{repo='GitHub', hash='fd08f71726c8b1b41ce29915c8084f14b671b1ea', version='v0.16.1-RC2'}
-CommitInfo{repo='GitHub', hash='8f8b4a2675dd8599b45fc81a678b1e4997ddabf0', version='v0.16.1-RC3'}
-CommitInfo{repo='GitHub', hash='d46959f6454237326af89f1041de0870cd6c39f9', version='v0.17.0'}
-CommitInfo{repo='GitHub', hash='135fc821c7b55dd58ee98824507f7d86e0d169b9', version='v0.17.1'}
-CommitInfo{repo='GitHub', hash='682c7d5caa5416c573532f86488fd9b814f07e0a', version='v0.17.2'}
-CommitInfo{repo='GitHub', hash='a9ed66e136e8da99b0c93598e93d93766dd493a6', version='v0.17.3'}
-CommitInfo{repo='GitHub', hash='685064acc3004cec1984f278c0cb53886f61ff40', version='v0.17.4'}
+CommitInfo{repo='GitHub', hash='6d9195b26e2103f58073bf403846d62d2eac3fed', version='0.1.0'} 	https://github.com/twitter/scalding/commit/6d9195b26e2103f58073bf403846d62d2eac3fed
+CommitInfo{repo='GitHub', hash='5c2edb33d3b0df4d459767ef5287f9f27c4b8d3c', version='0.10.0'} 	https://github.com/twitter/scalding/commit/5c2edb33d3b0df4d459767ef5287f9f27c4b8d3c
+CommitInfo{repo='GitHub', hash='b71533d61f5afb222b4a20b4365fe5f0ceef303e', version='0.1.1'} 	https://github.com/twitter/scalding/commit/b71533d61f5afb222b4a20b4365fe5f0ceef303e
+CommitInfo{repo='GitHub', hash='481f1f4939d6172449e0ff7dd3b28d6bd75d6228', version='0.11.0'} 	https://github.com/twitter/scalding/commit/481f1f4939d6172449e0ff7dd3b28d6bd75d6228
+CommitInfo{repo='GitHub', hash='32c4c1356d47c79fd3e70f0a28c1f919fe5216c7', version='0.11.1'} 	https://github.com/twitter/scalding/commit/32c4c1356d47c79fd3e70f0a28c1f919fe5216c7
+CommitInfo{repo='GitHub', hash='b95cc126924daf77512d9b8e8b084f17a5872ff1', version='0.11.2'} 	https://github.com/twitter/scalding/commit/b95cc126924daf77512d9b8e8b084f17a5872ff1
+CommitInfo{repo='GitHub', hash='0d4744d9034bd9ba2d3ac7e4e28894ea35c98ed7', version='0.11.3rc1'} 	https://github.com/twitter/scalding/commit/0d4744d9034bd9ba2d3ac7e4e28894ea35c98ed7
+CommitInfo{repo='GitHub', hash='d957e49eec3e1e3c4bf04d55cb8d7e6362af910c', version='0.1.2'} 	https://github.com/twitter/scalding/commit/d957e49eec3e1e3c4bf04d55cb8d7e6362af910c
+CommitInfo{repo='GitHub', hash='94f89c7745e9ade060995941ed64e1a1c4da1f4f', version='0.12.0'} 	https://github.com/twitter/scalding/commit/94f89c7745e9ade060995941ed64e1a1c4da1f4f
+CommitInfo{repo='GitHub', hash='ed7c352bf98e221bdea41174f94eadc12b86dfad', version='0.12.0rc1'} 	https://github.com/twitter/scalding/commit/ed7c352bf98e221bdea41174f94eadc12b86dfad
+CommitInfo{repo='GitHub', hash='81fc2efcfd2f19e2d72944224a1ba14ab157d9d6', version='0.12.0.rc2'} 	https://github.com/twitter/scalding/commit/81fc2efcfd2f19e2d72944224a1ba14ab157d9d6
+CommitInfo{repo='GitHub', hash='2f42707ab4da8b449dae22e7357056e0106212ad', version='0.12.0rc3'} 	https://github.com/twitter/scalding/commit/2f42707ab4da8b449dae22e7357056e0106212ad
+CommitInfo{repo='GitHub', hash='089205642f98719f807c662170a2a1ba87228f02', version='0.12.0rc4'} 	https://github.com/twitter/scalding/commit/089205642f98719f807c662170a2a1ba87228f02
+CommitInfo{repo='GitHub', hash='bf83fa83a7904ef8c81815b85f37291c3cac6232', version='0.12.0rc5'} 	https://github.com/twitter/scalding/commit/bf83fa83a7904ef8c81815b85f37291c3cac6232
+CommitInfo{repo='GitHub', hash='089205642f98719f807c662170a2a1ba87228f02', version='0.12.4'} 	https://github.com/twitter/scalding/commit/089205642f98719f807c662170a2a1ba87228f02
+CommitInfo{repo='GitHub', hash='6d9aad7b9ccfed519be0beeccf6e62c5a2792d12', version='0.1.3'} 	https://github.com/twitter/scalding/commit/6d9aad7b9ccfed519be0beeccf6e62c5a2792d12
+CommitInfo{repo='GitHub', hash='019c46431a7fff8ff98bfc9b9471ea0f44088473', version='0.13.0'} 	https://github.com/twitter/scalding/commit/019c46431a7fff8ff98bfc9b9471ea0f44088473
+CommitInfo{repo='GitHub', hash='df54a7b5b31b301c33ddd60092cfce5539f9efb4', version='0.13.1'} 	https://github.com/twitter/scalding/commit/df54a7b5b31b301c33ddd60092cfce5539f9efb4
+CommitInfo{repo='GitHub', hash='b0c7c10287e31911ea911e9efac232accaa94528', version='0.14.0'} 	https://github.com/twitter/scalding/commit/b0c7c10287e31911ea911e9efac232accaa94528
+CommitInfo{repo='GitHub', hash='359d018336b47331b1abb322d441f5f189d338e1', version='0.15.0'} 	https://github.com/twitter/scalding/commit/359d018336b47331b1abb322d441f5f189d338e1
+CommitInfo{repo='GitHub', hash='75c19d8278874552ed4681ec2344f6ed2e16a687', version='0.15.1-RC10'} 	https://github.com/twitter/scalding/commit/75c19d8278874552ed4681ec2344f6ed2e16a687
+CommitInfo{repo='GitHub', hash='dc648a8c342ece2e1ff7217526e3b3f6cb8b29b3', version='0.15.1-RC11'} 	https://github.com/twitter/scalding/commit/dc648a8c342ece2e1ff7217526e3b3f6cb8b29b3
+CommitInfo{repo='GitHub', hash='23b005d49ff496c6a9d3613dc3f9a9a88ce9618c', version='0.15.1-RC12'} 	https://github.com/twitter/scalding/commit/23b005d49ff496c6a9d3613dc3f9a9a88ce9618c
+CommitInfo{repo='GitHub', hash='b76b8531454f7a88d33db14c8939cfe15392a8f8', version='0.15.1-RC13'} 	https://github.com/twitter/scalding/commit/b76b8531454f7a88d33db14c8939cfe15392a8f8
+CommitInfo{repo='GitHub', hash='9fa28523d2e0a37b79afc08e4491d35bc546d327', version='0.15.1-RC14'} 	https://github.com/twitter/scalding/commit/9fa28523d2e0a37b79afc08e4491d35bc546d327
+CommitInfo{repo='GitHub', hash='308699a7e85fa8b8a100d84dd71f07eb9bfaca55', version='0.15.1-RC15'} 	https://github.com/twitter/scalding/commit/308699a7e85fa8b8a100d84dd71f07eb9bfaca55
+CommitInfo{repo='GitHub', hash='398545991c63019714d80ac22de6494adfd798f2', version='0.15.1-RC16'} 	https://github.com/twitter/scalding/commit/398545991c63019714d80ac22de6494adfd798f2
+CommitInfo{repo='GitHub', hash='00e92ba66e6c9075183fbfa1c3ae0811700fb459', version='0.15.1-RC2'} 	https://github.com/twitter/scalding/commit/00e92ba66e6c9075183fbfa1c3ae0811700fb459
+CommitInfo{repo='GitHub', hash='cc1da5525496a610ff7679e39fb820b3295afa1e', version='0.15.1-RC3'} 	https://github.com/twitter/scalding/commit/cc1da5525496a610ff7679e39fb820b3295afa1e
+CommitInfo{repo='GitHub', hash='84d13fc0c1c78a01c3415edd9e9ff84198fc14db', version='0.15.1-RC4'} 	https://github.com/twitter/scalding/commit/84d13fc0c1c78a01c3415edd9e9ff84198fc14db
+CommitInfo{repo='GitHub', hash='3eff5e958fad69ddbc53ac59125e4beb60f5613c', version='0.15.1-RC8'} 	https://github.com/twitter/scalding/commit/3eff5e958fad69ddbc53ac59125e4beb60f5613c
+CommitInfo{repo='GitHub', hash='a994b7dc2f7a29157d253b36c20f729cf4328b3f', version='0.15.1-RC9'} 	https://github.com/twitter/scalding/commit/a994b7dc2f7a29157d253b36c20f729cf4328b3f
+CommitInfo{repo='GitHub', hash='1ff544226517b2ebf8926db2118822cc665d220e', version='0.17.2'} 	https://github.com/twitter/scalding/commit/1ff544226517b2ebf8926db2118822cc665d220e
+CommitInfo{repo='GitHub', hash='c8e2012171bb12be0876605fe07ae2913e4c5e97', version='0.2.0'} 	https://github.com/twitter/scalding/commit/c8e2012171bb12be0876605fe07ae2913e4c5e97
+CommitInfo{repo='GitHub', hash='ea09275c3a0ae0eb3151d80e750ddf37ebe06885', version='0.2.1'} 	https://github.com/twitter/scalding/commit/ea09275c3a0ae0eb3151d80e750ddf37ebe06885
+CommitInfo{repo='GitHub', hash='51742bd739fd1d9b7b1be0be2aaf22051908adee', version='0.3.0'} 	https://github.com/twitter/scalding/commit/51742bd739fd1d9b7b1be0be2aaf22051908adee
+CommitInfo{repo='GitHub', hash='57958754a03355180f3afa6840d6b19553a2440c', version='0.3.1'} 	https://github.com/twitter/scalding/commit/57958754a03355180f3afa6840d6b19553a2440c
+CommitInfo{repo='GitHub', hash='329ac8e782b58bd266757b414bcbe2e757f929e2', version='0.3.2'} 	https://github.com/twitter/scalding/commit/329ac8e782b58bd266757b414bcbe2e757f929e2
+CommitInfo{repo='GitHub', hash='4990bae787e015084fe3c78c2bc72545d0185c14', version='0.3.3'} 	https://github.com/twitter/scalding/commit/4990bae787e015084fe3c78c2bc72545d0185c14
+CommitInfo{repo='GitHub', hash='34a58edbe868018323191211e0a2646c87986f21', version='0.3.4'} 	https://github.com/twitter/scalding/commit/34a58edbe868018323191211e0a2646c87986f21
+CommitInfo{repo='GitHub', hash='36d6770c41ca29e0d3c5eea916c82f32b5fd6a50', version='0.3.5'} 	https://github.com/twitter/scalding/commit/36d6770c41ca29e0d3c5eea916c82f32b5fd6a50
+CommitInfo{repo='GitHub', hash='5cde9934a5df4ebb14ce8d55ee340d5e14f017dd', version='0.4.0'} 	https://github.com/twitter/scalding/commit/5cde9934a5df4ebb14ce8d55ee340d5e14f017dd
+CommitInfo{repo='GitHub', hash='ebef45c086385c49455cd0667ca1362f3e9cec9d', version='0.4.1'} 	https://github.com/twitter/scalding/commit/ebef45c086385c49455cd0667ca1362f3e9cec9d
+CommitInfo{repo='GitHub', hash='36bdc0c87d4dd93619251b927a789d39d8f01784', version='0.5.0'} 	https://github.com/twitter/scalding/commit/36bdc0c87d4dd93619251b927a789d39d8f01784
+CommitInfo{repo='GitHub', hash='7f531f96e8cdc5faba762c9684f0be813a303709', version='0.5.1'} 	https://github.com/twitter/scalding/commit/7f531f96e8cdc5faba762c9684f0be813a303709
+CommitInfo{repo='GitHub', hash='814ba51faa04c2255fc92a16bc90aa67beeec78c', version='0.5.2'} 	https://github.com/twitter/scalding/commit/814ba51faa04c2255fc92a16bc90aa67beeec78c
+CommitInfo{repo='GitHub', hash='36d9291a005f6670715209b1b89c976c5ef6d70a', version='0.5.3'} 	https://github.com/twitter/scalding/commit/36d9291a005f6670715209b1b89c976c5ef6d70a
+CommitInfo{repo='GitHub', hash='5f1c6eace8519162166b6b7ea962e914e8e000b9', version='0.5.4'} 	https://github.com/twitter/scalding/commit/5f1c6eace8519162166b6b7ea962e914e8e000b9
+CommitInfo{repo='GitHub', hash='48c148bc6d62d5d4be4e6078289f663cc4572c23', version='0.6.0'} 	https://github.com/twitter/scalding/commit/48c148bc6d62d5d4be4e6078289f663cc4572c23
+CommitInfo{repo='GitHub', hash='015b66b71ff9e7089f65ff75a14e10785fb3f219', version='0.6.1'} 	https://github.com/twitter/scalding/commit/015b66b71ff9e7089f65ff75a14e10785fb3f219
+CommitInfo{repo='GitHub', hash='0e58834770c63090ee426009a131457ba1137710', version='0.6.2'} 	https://github.com/twitter/scalding/commit/0e58834770c63090ee426009a131457ba1137710
+CommitInfo{repo='GitHub', hash='010a19c81d2130340b0fc2ffc1577a951da22f7c', version='0.6.3'} 	https://github.com/twitter/scalding/commit/010a19c81d2130340b0fc2ffc1577a951da22f7c
+CommitInfo{repo='GitHub', hash='020128acf9ba68819e49622b8b7999e4054202ca', version='0.7.0'} 	https://github.com/twitter/scalding/commit/020128acf9ba68819e49622b8b7999e4054202ca
+CommitInfo{repo='GitHub', hash='6c02acaf47df2bbaa4df95d036f3d106479caaa5', version='0.7.1'} 	https://github.com/twitter/scalding/commit/6c02acaf47df2bbaa4df95d036f3d106479caaa5
+CommitInfo{repo='GitHub', hash='b346eee97840113ff558d499d640094fcc21d2a1', version='0.7.2'} 	https://github.com/twitter/scalding/commit/b346eee97840113ff558d499d640094fcc21d2a1
+CommitInfo{repo='GitHub', hash='d3f7ad8dae57b04d5824554ef679b351ca5be82c', version='0.8.0'} 	https://github.com/twitter/scalding/commit/d3f7ad8dae57b04d5824554ef679b351ca5be82c
+CommitInfo{repo='GitHub', hash='08f4c57b8a8cf427e630679319a9d36d159c79dd', version='0.8.1'} 	https://github.com/twitter/scalding/commit/08f4c57b8a8cf427e630679319a9d36d159c79dd
+CommitInfo{repo='GitHub', hash='887004e1518290309822923e2b8121f425371a55', version='0.8.11'} 	https://github.com/twitter/scalding/commit/887004e1518290309822923e2b8121f425371a55
+CommitInfo{repo='GitHub', hash='46a6b11f0b839e8810b724ca4768ae1e58a9e8bd', version='0.8.2'} 	https://github.com/twitter/scalding/commit/46a6b11f0b839e8810b724ca4768ae1e58a9e8bd
+CommitInfo{repo='GitHub', hash='6850b72ed16a0ba3131ae350d4a1a0c064137a61', version='0.8.3'} 	https://github.com/twitter/scalding/commit/6850b72ed16a0ba3131ae350d4a1a0c064137a61
+CommitInfo{repo='GitHub', hash='4cd5e490eab5d7a95d8213beb72881650b495b0e', version='0.8.4'} 	https://github.com/twitter/scalding/commit/4cd5e490eab5d7a95d8213beb72881650b495b0e
+CommitInfo{repo='GitHub', hash='4e84a0fe5a133a7d6afc2676687e6166cc390b4b', version='0.8.5'} 	https://github.com/twitter/scalding/commit/4e84a0fe5a133a7d6afc2676687e6166cc390b4b
+CommitInfo{repo='GitHub', hash='371f9d895361028808febed1cad2f165bf588151', version='0.8.6'} 	https://github.com/twitter/scalding/commit/371f9d895361028808febed1cad2f165bf588151
+CommitInfo{repo='GitHub', hash='4558217a80231949370d513aaaa99ec88d4e2825', version='0.8.7'} 	https://github.com/twitter/scalding/commit/4558217a80231949370d513aaaa99ec88d4e2825
+CommitInfo{repo='GitHub', hash='cfd30cb5f8ccf483fb55f7174797d8ddc065a369', version='0.8.8'} 	https://github.com/twitter/scalding/commit/cfd30cb5f8ccf483fb55f7174797d8ddc065a369
+CommitInfo{repo='GitHub', hash='342a2c46b670e70c86770fd545e16089d6d7e3c5', version='0.9.0'} 	https://github.com/twitter/scalding/commit/342a2c46b670e70c86770fd545e16089d6d7e3c5
+CommitInfo{repo='GitHub', hash='4de199e18c39369da3e679d3c13727a23fef3ea6', version='0.9.0rc1'} 	https://github.com/twitter/scalding/commit/4de199e18c39369da3e679d3c13727a23fef3ea6
+CommitInfo{repo='GitHub', hash='b0b8c478b212772f6a95f1239bbef347777aed34', version='0.9.0rc15'} 	https://github.com/twitter/scalding/commit/b0b8c478b212772f6a95f1239bbef347777aed34
+CommitInfo{repo='GitHub', hash='8ac2314807857ddf546415e45730c18ca6377a5c', version='0.9.0rc16'} 	https://github.com/twitter/scalding/commit/8ac2314807857ddf546415e45730c18ca6377a5c
+CommitInfo{repo='GitHub', hash='13929f3e3aa282b0143aefce455f51bf0b58c028', version='0.9.0rc17'} 	https://github.com/twitter/scalding/commit/13929f3e3aa282b0143aefce455f51bf0b58c028
+CommitInfo{repo='GitHub', hash='a9386d9682c01d23e21f278c70c6bee2a3b337a4', version='0.9.0rc4'} 	https://github.com/twitter/scalding/commit/a9386d9682c01d23e21f278c70c6bee2a3b337a4
+CommitInfo{repo='GitHub', hash='b1177b4c582519691d14cf252adad5f3cfb17f09', version='0.9.1'} 	https://github.com/twitter/scalding/commit/b1177b4c582519691d14cf252adad5f3cfb17f09
+CommitInfo{repo='GitHub', hash='b346eee97840113ff558d499d640094fcc21d2a1', version='list'} 	https://github.com/twitter/scalding/commit/b346eee97840113ff558d499d640094fcc21d2a1
+CommitInfo{repo='GitHub', hash='bf98098fd90d539fcd9d60fc4afc4a070287baad', version='v0.16.0'} 	https://github.com/twitter/scalding/commit/bf98098fd90d539fcd9d60fc4afc4a070287baad
+CommitInfo{repo='GitHub', hash='24778d44bbea2d61e1bdf478256769f7d8ed9e9b', version='v0.16.0-RC1'} 	https://github.com/twitter/scalding/commit/24778d44bbea2d61e1bdf478256769f7d8ed9e9b
+CommitInfo{repo='GitHub', hash='da59141341cc6a99e541ab260f4a78e17c061552', version='v0.16.0-RC2'} 	https://github.com/twitter/scalding/commit/da59141341cc6a99e541ab260f4a78e17c061552
+CommitInfo{repo='GitHub', hash='cc8b02205475fd4b92bffb06309996f54129d525', version='v0.16.0-RC3'} 	https://github.com/twitter/scalding/commit/cc8b02205475fd4b92bffb06309996f54129d525
+CommitInfo{repo='GitHub', hash='261d536fe1b83907faac6993814cd3e4bf8817aa', version='v0.16.0-RC4'} 	https://github.com/twitter/scalding/commit/261d536fe1b83907faac6993814cd3e4bf8817aa
+CommitInfo{repo='GitHub', hash='16a50af053bdf77cd3d1181d0d881b45280cd660', version='v0.16.0-RC5'} 	https://github.com/twitter/scalding/commit/16a50af053bdf77cd3d1181d0d881b45280cd660
+CommitInfo{repo='GitHub', hash='90e13c475bc46ea03fcabe08ccb6960a69d6e958', version='v0.16.0-RC6'} 	https://github.com/twitter/scalding/commit/90e13c475bc46ea03fcabe08ccb6960a69d6e958
+CommitInfo{repo='GitHub', hash='4528b16e310db13cdac2e9cc1e241e410cd3c1f3', version='v0.16.1-cascading3-RC1'} 	https://github.com/twitter/scalding/commit/4528b16e310db13cdac2e9cc1e241e410cd3c1f3
+CommitInfo{repo='GitHub', hash='fcca92ad9f380c524d2b3edd9ba58db01c907381', version='v0.16.1-cascading3-RC2'} 	https://github.com/twitter/scalding/commit/fcca92ad9f380c524d2b3edd9ba58db01c907381
+CommitInfo{repo='GitHub', hash='6510c205ba9fd495082ffe9ed58398996ce0ce53', version='v0.16.1-cascading3-RC3'} 	https://github.com/twitter/scalding/commit/6510c205ba9fd495082ffe9ed58398996ce0ce53
+CommitInfo{repo='GitHub', hash='03dc0f3e52f69f692a1e6113572f9fd97dd356ce', version='v0.16.1-cascading3-RC4'} 	https://github.com/twitter/scalding/commit/03dc0f3e52f69f692a1e6113572f9fd97dd356ce
+CommitInfo{repo='GitHub', hash='910996bb08f21d115b9b5c16cd15374392c7e996', version='v0.16.1-RC1'} 	https://github.com/twitter/scalding/commit/910996bb08f21d115b9b5c16cd15374392c7e996
+CommitInfo{repo='GitHub', hash='fd08f71726c8b1b41ce29915c8084f14b671b1ea', version='v0.16.1-RC2'} 	https://github.com/twitter/scalding/commit/fd08f71726c8b1b41ce29915c8084f14b671b1ea
+CommitInfo{repo='GitHub', hash='8f8b4a2675dd8599b45fc81a678b1e4997ddabf0', version='v0.16.1-RC3'} 	https://github.com/twitter/scalding/commit/8f8b4a2675dd8599b45fc81a678b1e4997ddabf0
+CommitInfo{repo='GitHub', hash='d46959f6454237326af89f1041de0870cd6c39f9', version='v0.17.0'} 	https://github.com/twitter/scalding/commit/d46959f6454237326af89f1041de0870cd6c39f9
+CommitInfo{repo='GitHub', hash='135fc821c7b55dd58ee98824507f7d86e0d169b9', version='v0.17.1'} 	https://github.com/twitter/scalding/commit/135fc821c7b55dd58ee98824507f7d86e0d169b9
+CommitInfo{repo='GitHub', hash='682c7d5caa5416c573532f86488fd9b814f07e0a', version='v0.17.2'} 	https://github.com/twitter/scalding/commit/682c7d5caa5416c573532f86488fd9b814f07e0a
+CommitInfo{repo='GitHub', hash='a9ed66e136e8da99b0c93598e93d93766dd493a6', version='v0.17.3'} 	https://github.com/twitter/scalding/commit/a9ed66e136e8da99b0c93598e93d93766dd493a6
+CommitInfo{repo='GitHub', hash='685064acc3004cec1984f278c0cb53886f61ff40', version='v0.17.4'} 	https://github.com/twitter/scalding/commit/685064acc3004cec1984f278c0cb53886f61ff40
 
 Project A:
 ProjectVersionFixed(version=0.9.0rc8, dependency=2.10.3, time=2014-03-03 23:22:26 UTC),	Latest, "DependencyVersion(version=2.11.0-RC1, time=2014-02-28 06:00:24 UTC)"

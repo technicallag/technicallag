@@ -2,243 +2,248 @@
 Project information
 org.hibernate:hibernate-envers (360749)	org.javassist:javassist (386724)	Package Manager: Maven
 RepoID: 172547
+Repo Owner/Name: hibernate/hibernate-orm
+Repository type: GitHub
+
+ https://github.com/hibernate/hibernate-orm/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='3999829fa96c7acececead383635b0eb617c33e2', version='3.6.0.Beta1'}
-CommitInfo{repo='GitHub', hash='f0af71ceba2f4feb7ad70b5303405313d78f4796', version='3.6.0.Beta2'}
-CommitInfo{repo='GitHub', hash='6953f85160bd0554fab20fd1c4fa856663eb855c', version='3.6.0.Beta3'}
-CommitInfo{repo='GitHub', hash='2646df90e5d28fe27421d3453c7b760dda9989f9', version='3.6.0.Beta4'}
-CommitInfo{repo='GitHub', hash='e52a64d04887633d903e76b219e5f3f6c9fd2bc4', version='3.6.0.CR1'}
-CommitInfo{repo='GitHub', hash='ec8f6724a3f68e3b69a0bda6b9f3b5abcbe638f7', version='3.6.0.CR2'}
-CommitInfo{repo='GitHub', hash='42203d816394f8cbaf300cb30a0862e78c42cf0f', version='3.6.0.Final'}
-CommitInfo{repo='GitHub', hash='d9ffe3505bde3b8f6480fecd889f6cc9a3959c98', version='3.6.10.Final'}
-CommitInfo{repo='GitHub', hash='aed532981a7f2d50a41c96f3c3a6667af827c1b1', version='3.6.1.Final'}
-CommitInfo{repo='GitHub', hash='f66fb1efe6b975376be7475fef0ca0cad4439507', version='3.6.2.Final'}
-CommitInfo{repo='GitHub', hash='0b261d2a8cddce030b0ad61cba3bcb3df86710d2', version='3.6.3.Final'}
-CommitInfo{repo='GitHub', hash='9806df80d4c9400a6b56144691429db5e1157875', version='3.6.4.Final'}
-CommitInfo{repo='GitHub', hash='18a2816d31e80b313d54d65578d3170207ab6f57', version='3.6.5.Final'}
-CommitInfo{repo='GitHub', hash='3d2aaa22cf25b1e4e7802b9189af35e9c2d12155', version='3.6.6.Final'}
-CommitInfo{repo='GitHub', hash='b4d433c29e20c6506d06fcf5b49039e7841f8737', version='3.6.7.Final'}
-CommitInfo{repo='GitHub', hash='8c46d447b63c6aa11a463bccc0d87850172480b3', version='3.6.8.Final'}
-CommitInfo{repo='GitHub', hash='ed687a85536fbb86e48fad62ff5ed485063a5652', version='3.6.9.Final'}
-CommitInfo{repo='GitHub', hash='0fa3db6f0493ad383e89642c36ad195031509665', version='4.0.0.Alpha1'}
-CommitInfo{repo='GitHub', hash='06f28f21fd18b4540eacff0116199e6e22e78fce', version='4.0.0.Alpha2'}
-CommitInfo{repo='GitHub', hash='bc20efaaf55f955ce1e88d47705b248f9f81cc84', version='4.0.0.Alpha3'}
-CommitInfo{repo='GitHub', hash='898a1f802f0046e512a6b5e8f895d6e438ba3234', version='4.0.0.Beta1'}
-CommitInfo{repo='GitHub', hash='2eaee3fd92421980433ce3de640a8f99e07d5ea3', version='4.0.0.Beta2'}
-CommitInfo{repo='GitHub', hash='38a2ff3df77f194a74d9ff009536ebfba9b2c93f', version='4.0.0.Beta3'}
-CommitInfo{repo='GitHub', hash='bf5ac397312636e5b50368ad0ffd3bdb35f45f51', version='4.0.0.Beta4'}
-CommitInfo{repo='GitHub', hash='3bd2b171abc81080e05ed22127730446f123d451', version='4.0.0.Beta5'}
-CommitInfo{repo='GitHub', hash='2b50eb24c0ab65542083866bb8515e86f42e20f3', version='4.0.0.CR1'}
-CommitInfo{repo='GitHub', hash='a5b1a76cf47a29cf31b7d63bb4fb2d4d09505116', version='4.0.0.CR2'}
-CommitInfo{repo='GitHub', hash='55da9dacdfc7a5d28f65aca3776c3fccc8f9d669', version='4.0.0.CR3'}
-CommitInfo{repo='GitHub', hash='857a50b739467a8577df3af305a44505f06e160d', version='4.0.0.CR4'}
-CommitInfo{repo='GitHub', hash='b381d3c2538f29972e5f3853cc4728750a47113f', version='4.0.0.CR5'}
-CommitInfo{repo='GitHub', hash='008812e59ecdf03b53796cbfa105383420bd0183', version='4.0.0.CR6'}
-CommitInfo{repo='GitHub', hash='589dd754e8acbba238ca3769cbe32668ffc9c598', version='4.0.0.CR7'}
-CommitInfo{repo='GitHub', hash='02d5310a2ff959263cf9752e34ad4a13f53e3522', version='4.0.0.Final'}
-CommitInfo{repo='GitHub', hash='d80ef59f27dfdde2bc56754e19c1699b9c94c923', version='4.0.1'}
-CommitInfo{repo='GitHub', hash='c3c57990495dd862ac0c44f0c991f0712cf160ca', version='4.0.1.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='4681373688bd764f3b0a6799d8823b688c1a8903', version='4.0.2.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='5cfa6f39556792ac93984c29c63a4059cc3bd325', version='4.0.3.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='e95c11e0feeb7306251fbe305dd11fd79a85b433', version='4.1.0.Final'}
-CommitInfo{repo='GitHub', hash='df9d8366facc441714035965b6a8d75a368e0667', version='4.1.1'}
-CommitInfo{repo='GitHub', hash='0e17cadb33295fc9a8a67228a3a68559cc2e6652', version='4.1.10.Final'}
-CommitInfo{repo='GitHub', hash='f39a530ea79afd3d7121ce3147fff3555e0d7bb8', version='4.1.11.Final'}
-CommitInfo{repo='GitHub', hash='accfd266fa95fb38f95c6a523a7e212532a3d303', version='4.1.12.Final'}
-CommitInfo{repo='GitHub', hash='83d0074245bea5a81bf571d5c9363ba338508a43', version='4.1.2'}
-CommitInfo{repo='GitHub', hash='c34f6b4cffd42cf0344174c52b4dd409eac12315', version='4.1.2.Final'}
-CommitInfo{repo='GitHub', hash='ebc42b6b53c8cbc55a8676e8323cb4ec5d818b2a', version='4.1.3.Final'}
-CommitInfo{repo='GitHub', hash='2e7c163e9710ec8ec38daadbf4cfc0b6e7f1d463', version='4.1.3.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='94e86fa3319912ed2353e4fc1d8848e31fe185ad', version='4.1.4.Final'}
-CommitInfo{repo='GitHub', hash='8c5a124cc580b75fdcbbda67b40f4b079dbed5c1', version='4.1.5.Final'}
-CommitInfo{repo='GitHub', hash='92908198424bcffb5a6bbd2ccebd90466ae4e927', version='4.1.5.SP1'}
-CommitInfo{repo='GitHub', hash='b27e5c1a9fa8e53345808f4cce9767de92084498', version='4.1.6.Final'}
-CommitInfo{repo='GitHub', hash='2573f900f4d865c422914ea6082a09575ae234aa', version='4.1.7.Final'}
-CommitInfo{repo='GitHub', hash='e6de47db9b8a948b8ad964282f7ccf443e4eb64d', version='4.1.8.Final'}
-CommitInfo{repo='GitHub', hash='d61660428c5ed1fe15a305020624f94da8ebadcb', version='4.1.9.Final'}
-CommitInfo{repo='GitHub', hash='c3630b729aaba3c9a98577444a6a82cd06b12389', version='4.1.9.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='9a84ab249beac7e75353d505ab717a71833e95c1', version='4.2.0.CR1'}
-CommitInfo{repo='GitHub', hash='7e0acd436bfe7c0968fcd5d4db30dd5eac92236b', version='4.2.0.CR2'}
-CommitInfo{repo='GitHub', hash='aa671554ce7d0203e00756c24597687dcd6afd3e', version='4.2.0.Final'}
-CommitInfo{repo='GitHub', hash='80938a651de23d98c7de819d785908a807990973', version='4.2.0.SP1'}
-CommitInfo{repo='GitHub', hash='ca6ebcf6ef4dbf7a97e446c59a4328de01b33db8', version='4.2.0.SP1-redhat-1'}
-CommitInfo{repo='GitHub', hash='6e272b79e7489adb04ed2e6edd2266e1066dfb1a', version='4.2.10.Final'}
-CommitInfo{repo='GitHub', hash='2fa6535b97934c9080ffb1b2d8928a6e6a14e3d7', version='4.2.11.Final'}
-CommitInfo{repo='GitHub', hash='fefea987d5225eca6639400c47396692796b15f6', version='4.2.11.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='0db253a6090b997db5e7ba1b9dd42a1c5db839cc', version='4.2.12.Final'}
-CommitInfo{repo='GitHub', hash='efbb3b3c214c827cd3a6be53447ff761ab83c664', version='4.2.12.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='f471769d5587cea8475f7f232b5cc7575eebd42a', version='4.2.13.Final'}
-CommitInfo{repo='GitHub', hash='484c2291f95b7c74e0e24be370770b9e03567bc7', version='4.2.13.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='342a3e3b087566ec1f60663087d3c444a796e55c', version='4.2.14.Final'}
-CommitInfo{repo='GitHub', hash='4f2fc1021b9e5a73913990909c8eec77ae8a8a62', version='4.2.14.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='f3bafe0e569c6473c8609017507eab43d5e42533', version='4.2.14.SP1-redhat-1'}
-CommitInfo{repo='GitHub', hash='2481835caa987ec164ecd8fbe49058fb485243ed', version='4.2.14.SP2-redhat-1'}
-CommitInfo{repo='GitHub', hash='2e568e24d3f0b73c775cda1ff982b0fe86dde01c', version='4.2.14.SP3-redhat-1'}
-CommitInfo{repo='GitHub', hash='c71b7a5ee2653b3b01999bcd7b413953ceca1311', version='4.2.14.SP4-redhat-1'}
-CommitInfo{repo='GitHub', hash='9e738a25b553042012676df26aec3e9b68530bf3', version='4.2.15.Final'}
-CommitInfo{repo='GitHub', hash='f7ec6fd1dd5ed63a748dbd521b89f982dcff488c', version='4.2.16.Final'}
-CommitInfo{repo='GitHub', hash='7bdd82510c106585a90988e10f97712ab9dfc75e', version='4.2.16.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='6ce3816f10417392c529c49e21c16b6776101cfa', version='4.2.17.Final'}
-CommitInfo{repo='GitHub', hash='3433b7b6708b8b14576fa7efe7ac53f865693c9c', version='4.2.17.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='b50a40d43e3333a52c748c1cb44ef44c4c3d183d', version='4.2.17.SP1-redhat-1'}
-CommitInfo{repo='GitHub', hash='670d9b070af609bea1876751fc1296a5fd969f82', version='4.2.18.Final'}
-CommitInfo{repo='GitHub', hash='88a5f15a323abc4b87d4c34b92b159bb7de2c2a4', version='4.2.18.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='e80055545205e932dc6ca6dbc6e123b626c51b6a', version='4.2.18.Final-redhat-2'}
-CommitInfo{repo='GitHub', hash='f6b88e1630df3e5bf2698f8f9905c0ceb1529808', version='4.2.19.Final'}
-CommitInfo{repo='GitHub', hash='ee6e637a526cfd380309567ca28b6cd560b7d6d3', version='4.2.19.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='4088342b6eb5f5afc6be3fe0ce6998862c3bda59', version='4.2.1.Final'}
-CommitInfo{repo='GitHub', hash='210d7a73e8e408380a44ab515ae6ec6f6874073e', version='4.2.20.Final'}
-CommitInfo{repo='GitHub', hash='31c31e085587c8f79756be6a332d18d668c60ebd', version='4.2.20.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='45e47b213b1b849741788433782cf77a795932cf', version='4.2.21.Final'}
-CommitInfo{repo='GitHub', hash='3ec15dcdcd1f110023b3a5b82dd88d47569c2d73', version='4.2.21.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='d6c5b26436b36419f3bf8c6be5d531fbbf6e36d1', version='4.2.22.Final'}
-CommitInfo{repo='GitHub', hash='3f9de290adce633f86e649e791713c779fd9db4e', version='4.2.22.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='0f539adea2cb1c217ddb746edffb7673abb30deb', version='4.2.23.Final'}
-CommitInfo{repo='GitHub', hash='dde4325a91770267bc5b97147c8b6aea0505e386', version='4.2.23.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='ccba446e54cef670a9d00bc6ca04d42240e79c16', version='4.2.24.Final'}
-CommitInfo{repo='GitHub', hash='dd252eede80ced725a1d6bc134b489573871d807', version='4.2.24.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='ac6368739caf6c2776b89cbae1bc74c26c36d783', version='4.2.25.Final'}
-CommitInfo{repo='GitHub', hash='cfaf313d2f3798ba9960ba168cee8d1f141f3a94', version='4.2.26.Final'}
-CommitInfo{repo='GitHub', hash='62a64e828e9d8713c1871f84ecf63e1306f913a8', version='4.2.27.Final'}
-CommitInfo{repo='GitHub', hash='8082a8213c749e5a665808e5bf3b4444a1de20bf', version='4.2.2.Final'}
-CommitInfo{repo='GitHub', hash='e4eb223dcf58d0d7954a88af88e93cc52609a3ec', version='4.2.3.Final'}
-CommitInfo{repo='GitHub', hash='354ef063bce2a4c08c8532ab61811efc98e1ec02', version='4.2.4.Final'}
-CommitInfo{repo='GitHub', hash='b8cb94d58b2d4237a0fad34b007504f408f6a73f', version='4.2.5.Final'}
-CommitInfo{repo='GitHub', hash='c31d9d32138d7bb2fb407545e0e21d1489922ade', version='4.2.6.Final'}
-CommitInfo{repo='GitHub', hash='9ab832682035d8eeab7797786285be2595161aba', version='4.2.6.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='b4d9441ff5313f4033c9de45f7aa671b44e92c1d', version='4.2.7.Final'}
-CommitInfo{repo='GitHub', hash='4fae265451754406265bc61e107aca69f8ece7f1', version='4.2.7.SP1'}
-CommitInfo{repo='GitHub', hash='92ac8e3156b1fc033c78f6bf1e3994fad0e36f3c', version='4.2.7.SP1-redhat-1'}
-CommitInfo{repo='GitHub', hash='b59efed36addc6a1b598fdda960b516391727497', version='4.2.7.SP1-redhat-2'}
-CommitInfo{repo='GitHub', hash='125d579c5882a3be9d813338f63e351f8d124e83', version='4.2.7.SP1-redhat-3'}
-CommitInfo{repo='GitHub', hash='ef2a22f91db3e5599cb8799c58b1b60bdfee1f81', version='4.2.7.SP1-redhat-4'}
-CommitInfo{repo='GitHub', hash='7cc0b10b85263dd3e63dbc0af4c00f2688f0bb05', version='4.2.7.SP2-redhat-1'}
-CommitInfo{repo='GitHub', hash='e545d79219690ea28c367b4a188a93a6d20df252', version='4.2.7.SP3-redhat-1'}
-CommitInfo{repo='GitHub', hash='b0197b60ef748df1cc7e92797cd57bf9fcebb30e', version='4.2.7.SP4-redhat-1'}
-CommitInfo{repo='GitHub', hash='b59258e26cba95b0d187fea48e5637a2c56ae9bc', version='4.2.7.SP5-redhat-1'}
-CommitInfo{repo='GitHub', hash='dc4ea7cb750eba011011e5fc24ac9d5b1cd52679', version='4.2.8.Final'}
-CommitInfo{repo='GitHub', hash='90b338e567d92d296969f048ab7c178a379a1a38', version='4.2.9.Final'}
-CommitInfo{repo='GitHub', hash='cf5a067b8ca300bc4819a0a9fc17e9d526713371', version='4.3.0.Beta1'}
-CommitInfo{repo='GitHub', hash='9a003f921b3ba0c9db2bbfa405f785976f588ef0', version='4.3.0.Beta2'}
-CommitInfo{repo='GitHub', hash='b4fd976d6a8f119295cdda23021846033eb310e3', version='4.3.0.Beta3'}
-CommitInfo{repo='GitHub', hash='6d9c27a5f869090cd2f36f00437e4bed4fb45bf2', version='4.3.0.Beta4'}
-CommitInfo{repo='GitHub', hash='2283fb3046537ed32c5001e93e2fbe1e1bd4c75f', version='4.3.0.Beta5'}
-CommitInfo{repo='GitHub', hash='b1d38a2040aa1689b648f5200dead1c7f21e6a21', version='4.3.0.CR1'}
-CommitInfo{repo='GitHub', hash='4cad4ba500e33827ec989824e5bb1e800c258760', version='4.3.0.CR2'}
-CommitInfo{repo='GitHub', hash='a152952ba5310f1201eb242b6add8af53b6cf03c', version='4.3.0.Final'}
-CommitInfo{repo='GitHub', hash='8ab7bc4e7b463004c75b3f7d84a8776e2137c8f5', version='4.3.10.Final'}
-CommitInfo{repo='GitHub', hash='972a4f79b6040fa76a463f5e1bedd5b07ecee45f', version='4.3.11.Final'}
-CommitInfo{repo='GitHub', hash='ad28bb2dbe7a884fbe21ff1cb62f6a69f2e98fad', version='4.3.1.Final'}
-CommitInfo{repo='GitHub', hash='c83cec884a811dc4d91bba408014ed0a572d4849', version='4.3.2.Final'}
-CommitInfo{repo='GitHub', hash='fa3bcd1bdab0c97ce1dac01fd34369ba0a8db34f', version='4.3.3.Final'}
-CommitInfo{repo='GitHub', hash='9ec172f7a939dce951746d8453e92bd5e33b95da', version='4.3.4.Final'}
-CommitInfo{repo='GitHub', hash='7ee941e13c8de2f48986b2d58429ba5364b5fea0', version='4.3.5.Final'}
-CommitInfo{repo='GitHub', hash='40de71de634a85dd33bc4cac253e6023085926ee', version='4.3.6.Final'}
-CommitInfo{repo='GitHub', hash='6259f3c38664b972affbc1cbd11c3a93b1985062', version='4.3.7.Final'}
-CommitInfo{repo='GitHub', hash='cf350ed5c2c3570a3f64982c90f51fd140f10bf5', version='4.3.8.Final'}
-CommitInfo{repo='GitHub', hash='ac0012b3d5e9243a7a02eb84d015de6e86cfaab4', version='4.3.9.Final'}
-CommitInfo{repo='GitHub', hash='41ca9c856c9420ccea5f3faef3668d22ad02ccf8', version='5.0.0.Beta1'}
-CommitInfo{repo='GitHub', hash='b790840b1e7be8ac0d86f616f3af9b6d64acebfd', version='5.0.0.Beta2'}
-CommitInfo{repo='GitHub', hash='70057fd7541511ddf2179d791d1a7b67bdefe662', version='5.0.0.CR1'}
-CommitInfo{repo='GitHub', hash='faa399a715a6f920efb005e087af2b78296940a0', version='5.0.0.CR2'}
-CommitInfo{repo='GitHub', hash='056827fbe92864c645274dcbc7d86426ab5c068b', version='5.0.0.CR3'}
-CommitInfo{repo='GitHub', hash='61356086a6c8cfb08b5e411981a3fdbd3d28e8ea', version='5.0.0.CR4'}
-CommitInfo{repo='GitHub', hash='26a65d4756cacc10fa542937a2afdc8aa4082129', version='5.0.0.Final'}
-CommitInfo{repo='GitHub', hash='5177a922049d376d6748ad1fb7ebc24737c72f52', version='5.0.10'}
-CommitInfo{repo='GitHub', hash='11fc7ad251fac1e84904554ebd019a10e97aae72', version='5.0.11'}
-CommitInfo{repo='GitHub', hash='6d2c021ffe56305e234a3e9f284b2e30418277b3', version='5.0.11.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='1a7747095c65435bd68126dd9075ff0d9ac48b30', version='5.0.12'}
-CommitInfo{repo='GitHub', hash='62461e4907ac7a1b632e68472bb85aa2f7779103', version='5.0.13'}
-CommitInfo{repo='GitHub', hash='7119bf05b37cb59bcb03de8a19141491aeeb3945', version='5.0.14'}
-CommitInfo{repo='GitHub', hash='980ed16ce73840241b6f5f1167209eb8f43ca813', version='5.0.15'}
-CommitInfo{repo='GitHub', hash='59a4b2b111c52d2dcdbc4effb36cd9295bb9761d', version='5.0.16'}
-CommitInfo{repo='GitHub', hash='6bf61092f582eb95e93ab974f13939ee260deb65', version='5.0.1.Final'}
-CommitInfo{repo='GitHub', hash='fcd9cd44607a00a3bfd574e50a94f62177d89860', version='5.0.2.Final'}
-CommitInfo{repo='GitHub', hash='7516c80f7e2b9e22cef3d47c84d7b373397ee90f', version='5.0.3'}
-CommitInfo{repo='GitHub', hash='6a81d06d2532e5a7432caa64a1bc07e20e410d46', version='5.0.4'}
-CommitInfo{repo='GitHub', hash='11a1e3b1c36ca73cafce847c837df84726a1c4a4', version='5.0.5'}
-CommitInfo{repo='GitHub', hash='9d060b361b9067074f26e9d321c42ca5c7a1d5e0', version='5.0.5.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='3a26f32137e999f1011d81aacd85aac378bce499', version='5.0.6'}
-CommitInfo{repo='GitHub', hash='c86597ce52a56d9a5e5aab3605f3d3c98b4db5b0', version='5.0.6.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='334403afa9282e576eed664c4097406363320443', version='5.0.7'}
-CommitInfo{repo='GitHub', hash='4237f4936186b6b07b224989afba795aa754bfe3', version='5.0.7.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='4dfb0f1a5429f49949fb1db289c9b0ce4758175e', version='5.0.8'}
-CommitInfo{repo='GitHub', hash='e6d92b6b11ea212eec876355325cdfa531c1c27c', version='5.0.8.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='c9e98c3b445ccf7743035f582616c951b56aca6b', version='5.0.9'}
-CommitInfo{repo='GitHub', hash='625abe6d3eff77152f0f4f3e7a009531762ea323', version='5.0.9.Final-redhat-1'}
-CommitInfo{repo='GitHub', hash='22069ff9d0a5ea4d41195e45c4d398c6f4d82862', version='5.1.0'}
-CommitInfo{repo='GitHub', hash='a9f94f58aab616dd3afa10cae7e707630af70c67', version='5.1.1'}
-CommitInfo{repo='GitHub', hash='2360c68310f4923f055883f6c04a3723d366ceec', version='5.1.10'}
-CommitInfo{repo='GitHub', hash='9261b12b916fc4238013e38fb05935f8d5c24cc6', version='5.1.11'}
-CommitInfo{repo='GitHub', hash='ab70a368f3e34e67fb8277c63a1f569b327289ca', version='5.1.12'}
-CommitInfo{repo='GitHub', hash='1beb98b560b64d3170a9acbd4722506df61f0f39', version='5.1.13'}
-CommitInfo{repo='GitHub', hash='19073ba270c111a8be8497f876489a6675436328', version='5.1.14'}
-CommitInfo{repo='GitHub', hash='503dc394788e03070585d7496258fd92b3b46a4b', version='5.1.15'}
-CommitInfo{repo='GitHub', hash='b0689e7a80e3efe0a95a41437cf04c6d95da9b3d', version='5.1.16'}
-CommitInfo{repo='GitHub', hash='c34bfb3058b2e0d0eec5d806852ed1a505f1ddf4', version='5.1.17'}
-CommitInfo{repo='GitHub', hash='67aec1ffa0879ee4950c659e4cf9f7b753023f69', version='5.1.2'}
-CommitInfo{repo='GitHub', hash='378643ddd052fc9d7d11806b2218ab0d282d62d7', version='5.1.3'}
-CommitInfo{repo='GitHub', hash='e68d32bdb95ae11953959e61dc406609cb24b0be', version='5.1.4'}
-CommitInfo{repo='GitHub', hash='3185156860c3c9be6c5118cd38150e2bb8b18bb8', version='5.1.5'}
-CommitInfo{repo='GitHub', hash='11495551a82e7254ae233db51abbf1dbd7645d2e', version='5.1.6'}
-CommitInfo{repo='GitHub', hash='3d3f41224e4926b370e4b43ebe53aa85f22a0730', version='5.1.7'}
-CommitInfo{repo='GitHub', hash='6085d1d9fef5f3badb05fbc58db6e040f92f62ae', version='5.1.8'}
-CommitInfo{repo='GitHub', hash='bd44fb35692da58f960fdf05b9edeb5c120e622b', version='5.1.9'}
-CommitInfo{repo='GitHub', hash='8fd12d6bab51da6e39f6496a8abd12fcbd1532b7', version='5.2.0'}
-CommitInfo{repo='GitHub', hash='ae2ebc7e861b7b73acec027040a61c86f320952f', version='5.2.1'}
-CommitInfo{repo='GitHub', hash='2b3e1205a0fc576619bc5ffe5451cd7a46c07dd3', version='5.2.10'}
-CommitInfo{repo='GitHub', hash='921ab8357231ebea54ecde421d06e5ac5abf74e4', version='5.2.11'}
-CommitInfo{repo='GitHub', hash='1c915087a1231688c9745336492e24965aaaf1cf', version='5.2.12'}
-CommitInfo{repo='GitHub', hash='43ce347c0c47a64500b8f7ff748cb5413e37ac49', version='5.2.13'}
-CommitInfo{repo='GitHub', hash='b49e6405af99e4afd5038a44b7bd0d329b4feea5', version='5.2.14'}
-CommitInfo{repo='GitHub', hash='95ff6344ca391a1b0a417241e5b86a6a9c18710e', version='5.2.15'}
-CommitInfo{repo='GitHub', hash='20a5319733fac8c87dafacfed545b882a6d0ba6d', version='5.2.16'}
-CommitInfo{repo='GitHub', hash='f9e7e7d9e9d260ba77df98de93e643ef8ded517d', version='5.2.17'}
-CommitInfo{repo='GitHub', hash='f9e7e7d9e9d260ba77df98de93e643ef8ded517d', version='5.2.17'}
-CommitInfo{repo='GitHub', hash='f9e7e7d9e9d260ba77df98de93e643ef8ded517d', version='5.2.17'}
-CommitInfo{repo='GitHub', hash='7c3249c246a1f0b6d6fe058b9581c938982a20c1', version='5.2.18'}
-CommitInfo{repo='GitHub', hash='b6bfade383b45b3969d7db13913fe4a7464813bc', version='5.2.2'}
-CommitInfo{repo='GitHub', hash='4f9689a2f2fba7d7591061460f669af5e3f789fd', version='5.2.3'}
-CommitInfo{repo='GitHub', hash='e6315be204b1f6e3472143641b7652486871dabc', version='5.2.4'}
-CommitInfo{repo='GitHub', hash='1053f16618ab7dd1f0b35fd78c1ebc078136e51d', version='5.2.5'}
-CommitInfo{repo='GitHub', hash='e17fd6cf0503d10fe02106d9962961c290567d3b', version='5.2.6'}
-CommitInfo{repo='GitHub', hash='024b6e97fe32cc39f63ca89839e53700645b1bbd', version='5.2.7'}
-CommitInfo{repo='GitHub', hash='5d5b4e9776fddb96c2a0ccb1e194a33b5c73b6cd', version='5.2.8'}
-CommitInfo{repo='GitHub', hash='1b8a2b992471995469de22c32b0ab37d204469c4', version='5.2.9'}
-CommitInfo{repo='GitHub', hash='538039fe20f5fb058c8a15c86566baea9684b1b3', version='5.3.0.Beta1'}
-CommitInfo{repo='GitHub', hash='16d9736569ef6480e9aa54042fabd9d85de27518', version='5.3.0.Beta2'}
-CommitInfo{repo='GitHub', hash='4ccebfec91b60837bd8ce2f158a18265c6c4d17f', version='5.3.0.CR2'}
-CommitInfo{repo='GitHub', hash='4ccebfec91b60837bd8ce2f158a18265c6c4d17f', version='5.3.0.CR2'}
-CommitInfo{repo='GitHub', hash='4ccebfec91b60837bd8ce2f158a18265c6c4d17f', version='5.3.0.CR2'}
-CommitInfo{repo='GitHub', hash='d2d3b98ccfa33df23a7c9a60a73819942f59e559', version='5.3.0.Final'}
-CommitInfo{repo='GitHub', hash='7430cdafcf520d6d7d40d362fdc42c6a5d8b141e', version='5.3.1'}
-CommitInfo{repo='GitHub', hash='84d702c43fae823b1ab70f2fcc4e0446ef6b2995', version='5.3.2'}
-CommitInfo{repo='GitHub', hash='3c81ade1988d0169b3d3fb52bec2857f45b89801', version='5.3.3'}
-CommitInfo{repo='GitHub', hash='3c81ade1988d0169b3d3fb52bec2857f45b89801', version='5.3.3'}
-CommitInfo{repo='GitHub', hash='922c4694c76eedeefe29d39bb86129585391be80', version='5.3.4'}
-CommitInfo{repo='GitHub', hash='0c22ccc1075ef180c8044bbc224cc397056a5b89', version='5.3.5'}
-CommitInfo{repo='GitHub', hash='97af7c48118d0181a736228db83bdd0afaf7da16', version='5.3.6'}
-CommitInfo{repo='GitHub', hash='890a6409a637da6f9fb64e2e11a9b87e01270ee0', version='5.3.7'}
-CommitInfo{repo='GitHub', hash='7759404259a8715927485fa1bc051da1f0dc9d9b', version='5.4.0'}
-CommitInfo{repo='GitHub', hash='06da34868ba31fcd8c7b33dadd8bd5a7cf51d399', version='5.4.0.CR1'}
-CommitInfo{repo='GitHub', hash='695a2792f83baab5c6e11c4ba6617d521774b6fe', version='5.4.0.CR2'}
-CommitInfo{repo='GitHub', hash='b19c81e136fd21f684769dfad56e2e7f66839a32', version='6.0.0.Alpha1'}
-CommitInfo{repo='GitHub', hash='a4dfcc8f250f7fabcac121dbf9f16401d8744f15', version='cdi-20-patch-in-wildfly-integration-tests'}
-CommitInfo{repo='GitHub', hash='829462494743bffd71683b36da977d55c5993ae1', version='EAP-6.0.0'}
-CommitInfo{repo='GitHub', hash='47cfd26b7dada7c7b79de36be957c25786ef1259', version='EAP-6.0.1'}
-CommitInfo{repo='GitHub', hash='98cce63a238e396d0710e1a0b17ac1af897b4035', version='EAP-6.1'}
-CommitInfo{repo='GitHub', hash='ec41f3af247f5b553baa252f06bb1863ec79369e', version='EAP-6.1_ER2'}
-CommitInfo{repo='GitHub', hash='73e15bafd585ad0be5565b1d83aca9b6c073ec51', version='EAP-6.1_FINAL'}
-CommitInfo{repo='GitHub', hash='b8cb94d58b2d4237a0fad34b007504f408f6a73f', version='EAP-6.2'}
-CommitInfo{repo='GitHub', hash='17384d6d02d6a951d03daf2ee47c749f5c80d413', version='EAP-6.2_ER4'}
-CommitInfo{repo='GitHub', hash='3fbb7d3c82bb96af947b1c1152b92520b1d06128', version='EAP-6.2_ER7'}
-CommitInfo{repo='GitHub', hash='1c43f6f5d3a8ae1c4d11196f806d6b2f72465736', version='EAP-6.2_ER7_SP1'}
-CommitInfo{repo='GitHub', hash='9660445610c5ecb84e4f4448e3afffd1fd76d291', version='EAP-6-ER2'}
-CommitInfo{repo='GitHub', hash='a88c8375c5edbdf9b7855a4801cd3a539acbf77e', version='EAP-6-ER3'}
-CommitInfo{repo='GitHub', hash='d3a29e951dcbee8dbc5e8725dd5f5e705ff66f78', version='EAP-6-ER4'}
-CommitInfo{repo='GitHub', hash='4c1c21ef85101de87c5ef8ca635e57eb76646cab', version='EAP-6-ER5'}
-CommitInfo{repo='GitHub', hash='d180ed9336d3e009ae4f3b821f2737807239e5e0', version='EAP-6-ER6'}
-CommitInfo{repo='GitHub', hash='f92d9737b905573d664461e99eae106e07fdb13c', version='EAP-6-ER7'}
+CommitInfo{repo='GitHub', hash='3999829fa96c7acececead383635b0eb617c33e2', version='3.6.0.Beta1'} 	https://github.com/hibernate/hibernate-orm/commit/3999829fa96c7acececead383635b0eb617c33e2
+CommitInfo{repo='GitHub', hash='f0af71ceba2f4feb7ad70b5303405313d78f4796', version='3.6.0.Beta2'} 	https://github.com/hibernate/hibernate-orm/commit/f0af71ceba2f4feb7ad70b5303405313d78f4796
+CommitInfo{repo='GitHub', hash='6953f85160bd0554fab20fd1c4fa856663eb855c', version='3.6.0.Beta3'} 	https://github.com/hibernate/hibernate-orm/commit/6953f85160bd0554fab20fd1c4fa856663eb855c
+CommitInfo{repo='GitHub', hash='2646df90e5d28fe27421d3453c7b760dda9989f9', version='3.6.0.Beta4'} 	https://github.com/hibernate/hibernate-orm/commit/2646df90e5d28fe27421d3453c7b760dda9989f9
+CommitInfo{repo='GitHub', hash='e52a64d04887633d903e76b219e5f3f6c9fd2bc4', version='3.6.0.CR1'} 	https://github.com/hibernate/hibernate-orm/commit/e52a64d04887633d903e76b219e5f3f6c9fd2bc4
+CommitInfo{repo='GitHub', hash='ec8f6724a3f68e3b69a0bda6b9f3b5abcbe638f7', version='3.6.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/ec8f6724a3f68e3b69a0bda6b9f3b5abcbe638f7
+CommitInfo{repo='GitHub', hash='42203d816394f8cbaf300cb30a0862e78c42cf0f', version='3.6.0.Final'} 	https://github.com/hibernate/hibernate-orm/commit/42203d816394f8cbaf300cb30a0862e78c42cf0f
+CommitInfo{repo='GitHub', hash='d9ffe3505bde3b8f6480fecd889f6cc9a3959c98', version='3.6.10.Final'} 	https://github.com/hibernate/hibernate-orm/commit/d9ffe3505bde3b8f6480fecd889f6cc9a3959c98
+CommitInfo{repo='GitHub', hash='aed532981a7f2d50a41c96f3c3a6667af827c1b1', version='3.6.1.Final'} 	https://github.com/hibernate/hibernate-orm/commit/aed532981a7f2d50a41c96f3c3a6667af827c1b1
+CommitInfo{repo='GitHub', hash='f66fb1efe6b975376be7475fef0ca0cad4439507', version='3.6.2.Final'} 	https://github.com/hibernate/hibernate-orm/commit/f66fb1efe6b975376be7475fef0ca0cad4439507
+CommitInfo{repo='GitHub', hash='0b261d2a8cddce030b0ad61cba3bcb3df86710d2', version='3.6.3.Final'} 	https://github.com/hibernate/hibernate-orm/commit/0b261d2a8cddce030b0ad61cba3bcb3df86710d2
+CommitInfo{repo='GitHub', hash='9806df80d4c9400a6b56144691429db5e1157875', version='3.6.4.Final'} 	https://github.com/hibernate/hibernate-orm/commit/9806df80d4c9400a6b56144691429db5e1157875
+CommitInfo{repo='GitHub', hash='18a2816d31e80b313d54d65578d3170207ab6f57', version='3.6.5.Final'} 	https://github.com/hibernate/hibernate-orm/commit/18a2816d31e80b313d54d65578d3170207ab6f57
+CommitInfo{repo='GitHub', hash='3d2aaa22cf25b1e4e7802b9189af35e9c2d12155', version='3.6.6.Final'} 	https://github.com/hibernate/hibernate-orm/commit/3d2aaa22cf25b1e4e7802b9189af35e9c2d12155
+CommitInfo{repo='GitHub', hash='b4d433c29e20c6506d06fcf5b49039e7841f8737', version='3.6.7.Final'} 	https://github.com/hibernate/hibernate-orm/commit/b4d433c29e20c6506d06fcf5b49039e7841f8737
+CommitInfo{repo='GitHub', hash='8c46d447b63c6aa11a463bccc0d87850172480b3', version='3.6.8.Final'} 	https://github.com/hibernate/hibernate-orm/commit/8c46d447b63c6aa11a463bccc0d87850172480b3
+CommitInfo{repo='GitHub', hash='ed687a85536fbb86e48fad62ff5ed485063a5652', version='3.6.9.Final'} 	https://github.com/hibernate/hibernate-orm/commit/ed687a85536fbb86e48fad62ff5ed485063a5652
+CommitInfo{repo='GitHub', hash='0fa3db6f0493ad383e89642c36ad195031509665', version='4.0.0.Alpha1'} 	https://github.com/hibernate/hibernate-orm/commit/0fa3db6f0493ad383e89642c36ad195031509665
+CommitInfo{repo='GitHub', hash='06f28f21fd18b4540eacff0116199e6e22e78fce', version='4.0.0.Alpha2'} 	https://github.com/hibernate/hibernate-orm/commit/06f28f21fd18b4540eacff0116199e6e22e78fce
+CommitInfo{repo='GitHub', hash='bc20efaaf55f955ce1e88d47705b248f9f81cc84', version='4.0.0.Alpha3'} 	https://github.com/hibernate/hibernate-orm/commit/bc20efaaf55f955ce1e88d47705b248f9f81cc84
+CommitInfo{repo='GitHub', hash='898a1f802f0046e512a6b5e8f895d6e438ba3234', version='4.0.0.Beta1'} 	https://github.com/hibernate/hibernate-orm/commit/898a1f802f0046e512a6b5e8f895d6e438ba3234
+CommitInfo{repo='GitHub', hash='2eaee3fd92421980433ce3de640a8f99e07d5ea3', version='4.0.0.Beta2'} 	https://github.com/hibernate/hibernate-orm/commit/2eaee3fd92421980433ce3de640a8f99e07d5ea3
+CommitInfo{repo='GitHub', hash='38a2ff3df77f194a74d9ff009536ebfba9b2c93f', version='4.0.0.Beta3'} 	https://github.com/hibernate/hibernate-orm/commit/38a2ff3df77f194a74d9ff009536ebfba9b2c93f
+CommitInfo{repo='GitHub', hash='bf5ac397312636e5b50368ad0ffd3bdb35f45f51', version='4.0.0.Beta4'} 	https://github.com/hibernate/hibernate-orm/commit/bf5ac397312636e5b50368ad0ffd3bdb35f45f51
+CommitInfo{repo='GitHub', hash='3bd2b171abc81080e05ed22127730446f123d451', version='4.0.0.Beta5'} 	https://github.com/hibernate/hibernate-orm/commit/3bd2b171abc81080e05ed22127730446f123d451
+CommitInfo{repo='GitHub', hash='2b50eb24c0ab65542083866bb8515e86f42e20f3', version='4.0.0.CR1'} 	https://github.com/hibernate/hibernate-orm/commit/2b50eb24c0ab65542083866bb8515e86f42e20f3
+CommitInfo{repo='GitHub', hash='a5b1a76cf47a29cf31b7d63bb4fb2d4d09505116', version='4.0.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/a5b1a76cf47a29cf31b7d63bb4fb2d4d09505116
+CommitInfo{repo='GitHub', hash='55da9dacdfc7a5d28f65aca3776c3fccc8f9d669', version='4.0.0.CR3'} 	https://github.com/hibernate/hibernate-orm/commit/55da9dacdfc7a5d28f65aca3776c3fccc8f9d669
+CommitInfo{repo='GitHub', hash='857a50b739467a8577df3af305a44505f06e160d', version='4.0.0.CR4'} 	https://github.com/hibernate/hibernate-orm/commit/857a50b739467a8577df3af305a44505f06e160d
+CommitInfo{repo='GitHub', hash='b381d3c2538f29972e5f3853cc4728750a47113f', version='4.0.0.CR5'} 	https://github.com/hibernate/hibernate-orm/commit/b381d3c2538f29972e5f3853cc4728750a47113f
+CommitInfo{repo='GitHub', hash='008812e59ecdf03b53796cbfa105383420bd0183', version='4.0.0.CR6'} 	https://github.com/hibernate/hibernate-orm/commit/008812e59ecdf03b53796cbfa105383420bd0183
+CommitInfo{repo='GitHub', hash='589dd754e8acbba238ca3769cbe32668ffc9c598', version='4.0.0.CR7'} 	https://github.com/hibernate/hibernate-orm/commit/589dd754e8acbba238ca3769cbe32668ffc9c598
+CommitInfo{repo='GitHub', hash='02d5310a2ff959263cf9752e34ad4a13f53e3522', version='4.0.0.Final'} 	https://github.com/hibernate/hibernate-orm/commit/02d5310a2ff959263cf9752e34ad4a13f53e3522
+CommitInfo{repo='GitHub', hash='d80ef59f27dfdde2bc56754e19c1699b9c94c923', version='4.0.1'} 	https://github.com/hibernate/hibernate-orm/commit/d80ef59f27dfdde2bc56754e19c1699b9c94c923
+CommitInfo{repo='GitHub', hash='c3c57990495dd862ac0c44f0c991f0712cf160ca', version='4.0.1.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/c3c57990495dd862ac0c44f0c991f0712cf160ca
+CommitInfo{repo='GitHub', hash='4681373688bd764f3b0a6799d8823b688c1a8903', version='4.0.2.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/4681373688bd764f3b0a6799d8823b688c1a8903
+CommitInfo{repo='GitHub', hash='5cfa6f39556792ac93984c29c63a4059cc3bd325', version='4.0.3.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/5cfa6f39556792ac93984c29c63a4059cc3bd325
+CommitInfo{repo='GitHub', hash='e95c11e0feeb7306251fbe305dd11fd79a85b433', version='4.1.0.Final'} 	https://github.com/hibernate/hibernate-orm/commit/e95c11e0feeb7306251fbe305dd11fd79a85b433
+CommitInfo{repo='GitHub', hash='df9d8366facc441714035965b6a8d75a368e0667', version='4.1.1'} 	https://github.com/hibernate/hibernate-orm/commit/df9d8366facc441714035965b6a8d75a368e0667
+CommitInfo{repo='GitHub', hash='0e17cadb33295fc9a8a67228a3a68559cc2e6652', version='4.1.10.Final'} 	https://github.com/hibernate/hibernate-orm/commit/0e17cadb33295fc9a8a67228a3a68559cc2e6652
+CommitInfo{repo='GitHub', hash='f39a530ea79afd3d7121ce3147fff3555e0d7bb8', version='4.1.11.Final'} 	https://github.com/hibernate/hibernate-orm/commit/f39a530ea79afd3d7121ce3147fff3555e0d7bb8
+CommitInfo{repo='GitHub', hash='accfd266fa95fb38f95c6a523a7e212532a3d303', version='4.1.12.Final'} 	https://github.com/hibernate/hibernate-orm/commit/accfd266fa95fb38f95c6a523a7e212532a3d303
+CommitInfo{repo='GitHub', hash='83d0074245bea5a81bf571d5c9363ba338508a43', version='4.1.2'} 	https://github.com/hibernate/hibernate-orm/commit/83d0074245bea5a81bf571d5c9363ba338508a43
+CommitInfo{repo='GitHub', hash='c34f6b4cffd42cf0344174c52b4dd409eac12315', version='4.1.2.Final'} 	https://github.com/hibernate/hibernate-orm/commit/c34f6b4cffd42cf0344174c52b4dd409eac12315
+CommitInfo{repo='GitHub', hash='ebc42b6b53c8cbc55a8676e8323cb4ec5d818b2a', version='4.1.3.Final'} 	https://github.com/hibernate/hibernate-orm/commit/ebc42b6b53c8cbc55a8676e8323cb4ec5d818b2a
+CommitInfo{repo='GitHub', hash='2e7c163e9710ec8ec38daadbf4cfc0b6e7f1d463', version='4.1.3.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/2e7c163e9710ec8ec38daadbf4cfc0b6e7f1d463
+CommitInfo{repo='GitHub', hash='94e86fa3319912ed2353e4fc1d8848e31fe185ad', version='4.1.4.Final'} 	https://github.com/hibernate/hibernate-orm/commit/94e86fa3319912ed2353e4fc1d8848e31fe185ad
+CommitInfo{repo='GitHub', hash='8c5a124cc580b75fdcbbda67b40f4b079dbed5c1', version='4.1.5.Final'} 	https://github.com/hibernate/hibernate-orm/commit/8c5a124cc580b75fdcbbda67b40f4b079dbed5c1
+CommitInfo{repo='GitHub', hash='92908198424bcffb5a6bbd2ccebd90466ae4e927', version='4.1.5.SP1'} 	https://github.com/hibernate/hibernate-orm/commit/92908198424bcffb5a6bbd2ccebd90466ae4e927
+CommitInfo{repo='GitHub', hash='b27e5c1a9fa8e53345808f4cce9767de92084498', version='4.1.6.Final'} 	https://github.com/hibernate/hibernate-orm/commit/b27e5c1a9fa8e53345808f4cce9767de92084498
+CommitInfo{repo='GitHub', hash='2573f900f4d865c422914ea6082a09575ae234aa', version='4.1.7.Final'} 	https://github.com/hibernate/hibernate-orm/commit/2573f900f4d865c422914ea6082a09575ae234aa
+CommitInfo{repo='GitHub', hash='e6de47db9b8a948b8ad964282f7ccf443e4eb64d', version='4.1.8.Final'} 	https://github.com/hibernate/hibernate-orm/commit/e6de47db9b8a948b8ad964282f7ccf443e4eb64d
+CommitInfo{repo='GitHub', hash='d61660428c5ed1fe15a305020624f94da8ebadcb', version='4.1.9.Final'} 	https://github.com/hibernate/hibernate-orm/commit/d61660428c5ed1fe15a305020624f94da8ebadcb
+CommitInfo{repo='GitHub', hash='c3630b729aaba3c9a98577444a6a82cd06b12389', version='4.1.9.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/c3630b729aaba3c9a98577444a6a82cd06b12389
+CommitInfo{repo='GitHub', hash='9a84ab249beac7e75353d505ab717a71833e95c1', version='4.2.0.CR1'} 	https://github.com/hibernate/hibernate-orm/commit/9a84ab249beac7e75353d505ab717a71833e95c1
+CommitInfo{repo='GitHub', hash='7e0acd436bfe7c0968fcd5d4db30dd5eac92236b', version='4.2.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/7e0acd436bfe7c0968fcd5d4db30dd5eac92236b
+CommitInfo{repo='GitHub', hash='aa671554ce7d0203e00756c24597687dcd6afd3e', version='4.2.0.Final'} 	https://github.com/hibernate/hibernate-orm/commit/aa671554ce7d0203e00756c24597687dcd6afd3e
+CommitInfo{repo='GitHub', hash='80938a651de23d98c7de819d785908a807990973', version='4.2.0.SP1'} 	https://github.com/hibernate/hibernate-orm/commit/80938a651de23d98c7de819d785908a807990973
+CommitInfo{repo='GitHub', hash='ca6ebcf6ef4dbf7a97e446c59a4328de01b33db8', version='4.2.0.SP1-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/ca6ebcf6ef4dbf7a97e446c59a4328de01b33db8
+CommitInfo{repo='GitHub', hash='6e272b79e7489adb04ed2e6edd2266e1066dfb1a', version='4.2.10.Final'} 	https://github.com/hibernate/hibernate-orm/commit/6e272b79e7489adb04ed2e6edd2266e1066dfb1a
+CommitInfo{repo='GitHub', hash='2fa6535b97934c9080ffb1b2d8928a6e6a14e3d7', version='4.2.11.Final'} 	https://github.com/hibernate/hibernate-orm/commit/2fa6535b97934c9080ffb1b2d8928a6e6a14e3d7
+CommitInfo{repo='GitHub', hash='fefea987d5225eca6639400c47396692796b15f6', version='4.2.11.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/fefea987d5225eca6639400c47396692796b15f6
+CommitInfo{repo='GitHub', hash='0db253a6090b997db5e7ba1b9dd42a1c5db839cc', version='4.2.12.Final'} 	https://github.com/hibernate/hibernate-orm/commit/0db253a6090b997db5e7ba1b9dd42a1c5db839cc
+CommitInfo{repo='GitHub', hash='efbb3b3c214c827cd3a6be53447ff761ab83c664', version='4.2.12.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/efbb3b3c214c827cd3a6be53447ff761ab83c664
+CommitInfo{repo='GitHub', hash='f471769d5587cea8475f7f232b5cc7575eebd42a', version='4.2.13.Final'} 	https://github.com/hibernate/hibernate-orm/commit/f471769d5587cea8475f7f232b5cc7575eebd42a
+CommitInfo{repo='GitHub', hash='484c2291f95b7c74e0e24be370770b9e03567bc7', version='4.2.13.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/484c2291f95b7c74e0e24be370770b9e03567bc7
+CommitInfo{repo='GitHub', hash='342a3e3b087566ec1f60663087d3c444a796e55c', version='4.2.14.Final'} 	https://github.com/hibernate/hibernate-orm/commit/342a3e3b087566ec1f60663087d3c444a796e55c
+CommitInfo{repo='GitHub', hash='4f2fc1021b9e5a73913990909c8eec77ae8a8a62', version='4.2.14.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/4f2fc1021b9e5a73913990909c8eec77ae8a8a62
+CommitInfo{repo='GitHub', hash='f3bafe0e569c6473c8609017507eab43d5e42533', version='4.2.14.SP1-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/f3bafe0e569c6473c8609017507eab43d5e42533
+CommitInfo{repo='GitHub', hash='2481835caa987ec164ecd8fbe49058fb485243ed', version='4.2.14.SP2-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/2481835caa987ec164ecd8fbe49058fb485243ed
+CommitInfo{repo='GitHub', hash='2e568e24d3f0b73c775cda1ff982b0fe86dde01c', version='4.2.14.SP3-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/2e568e24d3f0b73c775cda1ff982b0fe86dde01c
+CommitInfo{repo='GitHub', hash='c71b7a5ee2653b3b01999bcd7b413953ceca1311', version='4.2.14.SP4-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/c71b7a5ee2653b3b01999bcd7b413953ceca1311
+CommitInfo{repo='GitHub', hash='9e738a25b553042012676df26aec3e9b68530bf3', version='4.2.15.Final'} 	https://github.com/hibernate/hibernate-orm/commit/9e738a25b553042012676df26aec3e9b68530bf3
+CommitInfo{repo='GitHub', hash='f7ec6fd1dd5ed63a748dbd521b89f982dcff488c', version='4.2.16.Final'} 	https://github.com/hibernate/hibernate-orm/commit/f7ec6fd1dd5ed63a748dbd521b89f982dcff488c
+CommitInfo{repo='GitHub', hash='7bdd82510c106585a90988e10f97712ab9dfc75e', version='4.2.16.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/7bdd82510c106585a90988e10f97712ab9dfc75e
+CommitInfo{repo='GitHub', hash='6ce3816f10417392c529c49e21c16b6776101cfa', version='4.2.17.Final'} 	https://github.com/hibernate/hibernate-orm/commit/6ce3816f10417392c529c49e21c16b6776101cfa
+CommitInfo{repo='GitHub', hash='3433b7b6708b8b14576fa7efe7ac53f865693c9c', version='4.2.17.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/3433b7b6708b8b14576fa7efe7ac53f865693c9c
+CommitInfo{repo='GitHub', hash='b50a40d43e3333a52c748c1cb44ef44c4c3d183d', version='4.2.17.SP1-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/b50a40d43e3333a52c748c1cb44ef44c4c3d183d
+CommitInfo{repo='GitHub', hash='670d9b070af609bea1876751fc1296a5fd969f82', version='4.2.18.Final'} 	https://github.com/hibernate/hibernate-orm/commit/670d9b070af609bea1876751fc1296a5fd969f82
+CommitInfo{repo='GitHub', hash='88a5f15a323abc4b87d4c34b92b159bb7de2c2a4', version='4.2.18.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/88a5f15a323abc4b87d4c34b92b159bb7de2c2a4
+CommitInfo{repo='GitHub', hash='e80055545205e932dc6ca6dbc6e123b626c51b6a', version='4.2.18.Final-redhat-2'} 	https://github.com/hibernate/hibernate-orm/commit/e80055545205e932dc6ca6dbc6e123b626c51b6a
+CommitInfo{repo='GitHub', hash='f6b88e1630df3e5bf2698f8f9905c0ceb1529808', version='4.2.19.Final'} 	https://github.com/hibernate/hibernate-orm/commit/f6b88e1630df3e5bf2698f8f9905c0ceb1529808
+CommitInfo{repo='GitHub', hash='ee6e637a526cfd380309567ca28b6cd560b7d6d3', version='4.2.19.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/ee6e637a526cfd380309567ca28b6cd560b7d6d3
+CommitInfo{repo='GitHub', hash='4088342b6eb5f5afc6be3fe0ce6998862c3bda59', version='4.2.1.Final'} 	https://github.com/hibernate/hibernate-orm/commit/4088342b6eb5f5afc6be3fe0ce6998862c3bda59
+CommitInfo{repo='GitHub', hash='210d7a73e8e408380a44ab515ae6ec6f6874073e', version='4.2.20.Final'} 	https://github.com/hibernate/hibernate-orm/commit/210d7a73e8e408380a44ab515ae6ec6f6874073e
+CommitInfo{repo='GitHub', hash='31c31e085587c8f79756be6a332d18d668c60ebd', version='4.2.20.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/31c31e085587c8f79756be6a332d18d668c60ebd
+CommitInfo{repo='GitHub', hash='45e47b213b1b849741788433782cf77a795932cf', version='4.2.21.Final'} 	https://github.com/hibernate/hibernate-orm/commit/45e47b213b1b849741788433782cf77a795932cf
+CommitInfo{repo='GitHub', hash='3ec15dcdcd1f110023b3a5b82dd88d47569c2d73', version='4.2.21.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/3ec15dcdcd1f110023b3a5b82dd88d47569c2d73
+CommitInfo{repo='GitHub', hash='d6c5b26436b36419f3bf8c6be5d531fbbf6e36d1', version='4.2.22.Final'} 	https://github.com/hibernate/hibernate-orm/commit/d6c5b26436b36419f3bf8c6be5d531fbbf6e36d1
+CommitInfo{repo='GitHub', hash='3f9de290adce633f86e649e791713c779fd9db4e', version='4.2.22.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/3f9de290adce633f86e649e791713c779fd9db4e
+CommitInfo{repo='GitHub', hash='0f539adea2cb1c217ddb746edffb7673abb30deb', version='4.2.23.Final'} 	https://github.com/hibernate/hibernate-orm/commit/0f539adea2cb1c217ddb746edffb7673abb30deb
+CommitInfo{repo='GitHub', hash='dde4325a91770267bc5b97147c8b6aea0505e386', version='4.2.23.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/dde4325a91770267bc5b97147c8b6aea0505e386
+CommitInfo{repo='GitHub', hash='ccba446e54cef670a9d00bc6ca04d42240e79c16', version='4.2.24.Final'} 	https://github.com/hibernate/hibernate-orm/commit/ccba446e54cef670a9d00bc6ca04d42240e79c16
+CommitInfo{repo='GitHub', hash='dd252eede80ced725a1d6bc134b489573871d807', version='4.2.24.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/dd252eede80ced725a1d6bc134b489573871d807
+CommitInfo{repo='GitHub', hash='ac6368739caf6c2776b89cbae1bc74c26c36d783', version='4.2.25.Final'} 	https://github.com/hibernate/hibernate-orm/commit/ac6368739caf6c2776b89cbae1bc74c26c36d783
+CommitInfo{repo='GitHub', hash='cfaf313d2f3798ba9960ba168cee8d1f141f3a94', version='4.2.26.Final'} 	https://github.com/hibernate/hibernate-orm/commit/cfaf313d2f3798ba9960ba168cee8d1f141f3a94
+CommitInfo{repo='GitHub', hash='62a64e828e9d8713c1871f84ecf63e1306f913a8', version='4.2.27.Final'} 	https://github.com/hibernate/hibernate-orm/commit/62a64e828e9d8713c1871f84ecf63e1306f913a8
+CommitInfo{repo='GitHub', hash='8082a8213c749e5a665808e5bf3b4444a1de20bf', version='4.2.2.Final'} 	https://github.com/hibernate/hibernate-orm/commit/8082a8213c749e5a665808e5bf3b4444a1de20bf
+CommitInfo{repo='GitHub', hash='e4eb223dcf58d0d7954a88af88e93cc52609a3ec', version='4.2.3.Final'} 	https://github.com/hibernate/hibernate-orm/commit/e4eb223dcf58d0d7954a88af88e93cc52609a3ec
+CommitInfo{repo='GitHub', hash='354ef063bce2a4c08c8532ab61811efc98e1ec02', version='4.2.4.Final'} 	https://github.com/hibernate/hibernate-orm/commit/354ef063bce2a4c08c8532ab61811efc98e1ec02
+CommitInfo{repo='GitHub', hash='b8cb94d58b2d4237a0fad34b007504f408f6a73f', version='4.2.5.Final'} 	https://github.com/hibernate/hibernate-orm/commit/b8cb94d58b2d4237a0fad34b007504f408f6a73f
+CommitInfo{repo='GitHub', hash='c31d9d32138d7bb2fb407545e0e21d1489922ade', version='4.2.6.Final'} 	https://github.com/hibernate/hibernate-orm/commit/c31d9d32138d7bb2fb407545e0e21d1489922ade
+CommitInfo{repo='GitHub', hash='9ab832682035d8eeab7797786285be2595161aba', version='4.2.6.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/9ab832682035d8eeab7797786285be2595161aba
+CommitInfo{repo='GitHub', hash='b4d9441ff5313f4033c9de45f7aa671b44e92c1d', version='4.2.7.Final'} 	https://github.com/hibernate/hibernate-orm/commit/b4d9441ff5313f4033c9de45f7aa671b44e92c1d
+CommitInfo{repo='GitHub', hash='4fae265451754406265bc61e107aca69f8ece7f1', version='4.2.7.SP1'} 	https://github.com/hibernate/hibernate-orm/commit/4fae265451754406265bc61e107aca69f8ece7f1
+CommitInfo{repo='GitHub', hash='92ac8e3156b1fc033c78f6bf1e3994fad0e36f3c', version='4.2.7.SP1-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/92ac8e3156b1fc033c78f6bf1e3994fad0e36f3c
+CommitInfo{repo='GitHub', hash='b59efed36addc6a1b598fdda960b516391727497', version='4.2.7.SP1-redhat-2'} 	https://github.com/hibernate/hibernate-orm/commit/b59efed36addc6a1b598fdda960b516391727497
+CommitInfo{repo='GitHub', hash='125d579c5882a3be9d813338f63e351f8d124e83', version='4.2.7.SP1-redhat-3'} 	https://github.com/hibernate/hibernate-orm/commit/125d579c5882a3be9d813338f63e351f8d124e83
+CommitInfo{repo='GitHub', hash='ef2a22f91db3e5599cb8799c58b1b60bdfee1f81', version='4.2.7.SP1-redhat-4'} 	https://github.com/hibernate/hibernate-orm/commit/ef2a22f91db3e5599cb8799c58b1b60bdfee1f81
+CommitInfo{repo='GitHub', hash='7cc0b10b85263dd3e63dbc0af4c00f2688f0bb05', version='4.2.7.SP2-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/7cc0b10b85263dd3e63dbc0af4c00f2688f0bb05
+CommitInfo{repo='GitHub', hash='e545d79219690ea28c367b4a188a93a6d20df252', version='4.2.7.SP3-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/e545d79219690ea28c367b4a188a93a6d20df252
+CommitInfo{repo='GitHub', hash='b0197b60ef748df1cc7e92797cd57bf9fcebb30e', version='4.2.7.SP4-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/b0197b60ef748df1cc7e92797cd57bf9fcebb30e
+CommitInfo{repo='GitHub', hash='b59258e26cba95b0d187fea48e5637a2c56ae9bc', version='4.2.7.SP5-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/b59258e26cba95b0d187fea48e5637a2c56ae9bc
+CommitInfo{repo='GitHub', hash='dc4ea7cb750eba011011e5fc24ac9d5b1cd52679', version='4.2.8.Final'} 	https://github.com/hibernate/hibernate-orm/commit/dc4ea7cb750eba011011e5fc24ac9d5b1cd52679
+CommitInfo{repo='GitHub', hash='90b338e567d92d296969f048ab7c178a379a1a38', version='4.2.9.Final'} 	https://github.com/hibernate/hibernate-orm/commit/90b338e567d92d296969f048ab7c178a379a1a38
+CommitInfo{repo='GitHub', hash='cf5a067b8ca300bc4819a0a9fc17e9d526713371', version='4.3.0.Beta1'} 	https://github.com/hibernate/hibernate-orm/commit/cf5a067b8ca300bc4819a0a9fc17e9d526713371
+CommitInfo{repo='GitHub', hash='9a003f921b3ba0c9db2bbfa405f785976f588ef0', version='4.3.0.Beta2'} 	https://github.com/hibernate/hibernate-orm/commit/9a003f921b3ba0c9db2bbfa405f785976f588ef0
+CommitInfo{repo='GitHub', hash='b4fd976d6a8f119295cdda23021846033eb310e3', version='4.3.0.Beta3'} 	https://github.com/hibernate/hibernate-orm/commit/b4fd976d6a8f119295cdda23021846033eb310e3
+CommitInfo{repo='GitHub', hash='6d9c27a5f869090cd2f36f00437e4bed4fb45bf2', version='4.3.0.Beta4'} 	https://github.com/hibernate/hibernate-orm/commit/6d9c27a5f869090cd2f36f00437e4bed4fb45bf2
+CommitInfo{repo='GitHub', hash='2283fb3046537ed32c5001e93e2fbe1e1bd4c75f', version='4.3.0.Beta5'} 	https://github.com/hibernate/hibernate-orm/commit/2283fb3046537ed32c5001e93e2fbe1e1bd4c75f
+CommitInfo{repo='GitHub', hash='b1d38a2040aa1689b648f5200dead1c7f21e6a21', version='4.3.0.CR1'} 	https://github.com/hibernate/hibernate-orm/commit/b1d38a2040aa1689b648f5200dead1c7f21e6a21
+CommitInfo{repo='GitHub', hash='4cad4ba500e33827ec989824e5bb1e800c258760', version='4.3.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/4cad4ba500e33827ec989824e5bb1e800c258760
+CommitInfo{repo='GitHub', hash='a152952ba5310f1201eb242b6add8af53b6cf03c', version='4.3.0.Final'} 	https://github.com/hibernate/hibernate-orm/commit/a152952ba5310f1201eb242b6add8af53b6cf03c
+CommitInfo{repo='GitHub', hash='8ab7bc4e7b463004c75b3f7d84a8776e2137c8f5', version='4.3.10.Final'} 	https://github.com/hibernate/hibernate-orm/commit/8ab7bc4e7b463004c75b3f7d84a8776e2137c8f5
+CommitInfo{repo='GitHub', hash='972a4f79b6040fa76a463f5e1bedd5b07ecee45f', version='4.3.11.Final'} 	https://github.com/hibernate/hibernate-orm/commit/972a4f79b6040fa76a463f5e1bedd5b07ecee45f
+CommitInfo{repo='GitHub', hash='ad28bb2dbe7a884fbe21ff1cb62f6a69f2e98fad', version='4.3.1.Final'} 	https://github.com/hibernate/hibernate-orm/commit/ad28bb2dbe7a884fbe21ff1cb62f6a69f2e98fad
+CommitInfo{repo='GitHub', hash='c83cec884a811dc4d91bba408014ed0a572d4849', version='4.3.2.Final'} 	https://github.com/hibernate/hibernate-orm/commit/c83cec884a811dc4d91bba408014ed0a572d4849
+CommitInfo{repo='GitHub', hash='fa3bcd1bdab0c97ce1dac01fd34369ba0a8db34f', version='4.3.3.Final'} 	https://github.com/hibernate/hibernate-orm/commit/fa3bcd1bdab0c97ce1dac01fd34369ba0a8db34f
+CommitInfo{repo='GitHub', hash='9ec172f7a939dce951746d8453e92bd5e33b95da', version='4.3.4.Final'} 	https://github.com/hibernate/hibernate-orm/commit/9ec172f7a939dce951746d8453e92bd5e33b95da
+CommitInfo{repo='GitHub', hash='7ee941e13c8de2f48986b2d58429ba5364b5fea0', version='4.3.5.Final'} 	https://github.com/hibernate/hibernate-orm/commit/7ee941e13c8de2f48986b2d58429ba5364b5fea0
+CommitInfo{repo='GitHub', hash='40de71de634a85dd33bc4cac253e6023085926ee', version='4.3.6.Final'} 	https://github.com/hibernate/hibernate-orm/commit/40de71de634a85dd33bc4cac253e6023085926ee
+CommitInfo{repo='GitHub', hash='6259f3c38664b972affbc1cbd11c3a93b1985062', version='4.3.7.Final'} 	https://github.com/hibernate/hibernate-orm/commit/6259f3c38664b972affbc1cbd11c3a93b1985062
+CommitInfo{repo='GitHub', hash='cf350ed5c2c3570a3f64982c90f51fd140f10bf5', version='4.3.8.Final'} 	https://github.com/hibernate/hibernate-orm/commit/cf350ed5c2c3570a3f64982c90f51fd140f10bf5
+CommitInfo{repo='GitHub', hash='ac0012b3d5e9243a7a02eb84d015de6e86cfaab4', version='4.3.9.Final'} 	https://github.com/hibernate/hibernate-orm/commit/ac0012b3d5e9243a7a02eb84d015de6e86cfaab4
+CommitInfo{repo='GitHub', hash='41ca9c856c9420ccea5f3faef3668d22ad02ccf8', version='5.0.0.Beta1'} 	https://github.com/hibernate/hibernate-orm/commit/41ca9c856c9420ccea5f3faef3668d22ad02ccf8
+CommitInfo{repo='GitHub', hash='b790840b1e7be8ac0d86f616f3af9b6d64acebfd', version='5.0.0.Beta2'} 	https://github.com/hibernate/hibernate-orm/commit/b790840b1e7be8ac0d86f616f3af9b6d64acebfd
+CommitInfo{repo='GitHub', hash='70057fd7541511ddf2179d791d1a7b67bdefe662', version='5.0.0.CR1'} 	https://github.com/hibernate/hibernate-orm/commit/70057fd7541511ddf2179d791d1a7b67bdefe662
+CommitInfo{repo='GitHub', hash='faa399a715a6f920efb005e087af2b78296940a0', version='5.0.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/faa399a715a6f920efb005e087af2b78296940a0
+CommitInfo{repo='GitHub', hash='056827fbe92864c645274dcbc7d86426ab5c068b', version='5.0.0.CR3'} 	https://github.com/hibernate/hibernate-orm/commit/056827fbe92864c645274dcbc7d86426ab5c068b
+CommitInfo{repo='GitHub', hash='61356086a6c8cfb08b5e411981a3fdbd3d28e8ea', version='5.0.0.CR4'} 	https://github.com/hibernate/hibernate-orm/commit/61356086a6c8cfb08b5e411981a3fdbd3d28e8ea
+CommitInfo{repo='GitHub', hash='26a65d4756cacc10fa542937a2afdc8aa4082129', version='5.0.0.Final'} 	https://github.com/hibernate/hibernate-orm/commit/26a65d4756cacc10fa542937a2afdc8aa4082129
+CommitInfo{repo='GitHub', hash='5177a922049d376d6748ad1fb7ebc24737c72f52', version='5.0.10'} 	https://github.com/hibernate/hibernate-orm/commit/5177a922049d376d6748ad1fb7ebc24737c72f52
+CommitInfo{repo='GitHub', hash='11fc7ad251fac1e84904554ebd019a10e97aae72', version='5.0.11'} 	https://github.com/hibernate/hibernate-orm/commit/11fc7ad251fac1e84904554ebd019a10e97aae72
+CommitInfo{repo='GitHub', hash='6d2c021ffe56305e234a3e9f284b2e30418277b3', version='5.0.11.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/6d2c021ffe56305e234a3e9f284b2e30418277b3
+CommitInfo{repo='GitHub', hash='1a7747095c65435bd68126dd9075ff0d9ac48b30', version='5.0.12'} 	https://github.com/hibernate/hibernate-orm/commit/1a7747095c65435bd68126dd9075ff0d9ac48b30
+CommitInfo{repo='GitHub', hash='62461e4907ac7a1b632e68472bb85aa2f7779103', version='5.0.13'} 	https://github.com/hibernate/hibernate-orm/commit/62461e4907ac7a1b632e68472bb85aa2f7779103
+CommitInfo{repo='GitHub', hash='7119bf05b37cb59bcb03de8a19141491aeeb3945', version='5.0.14'} 	https://github.com/hibernate/hibernate-orm/commit/7119bf05b37cb59bcb03de8a19141491aeeb3945
+CommitInfo{repo='GitHub', hash='980ed16ce73840241b6f5f1167209eb8f43ca813', version='5.0.15'} 	https://github.com/hibernate/hibernate-orm/commit/980ed16ce73840241b6f5f1167209eb8f43ca813
+CommitInfo{repo='GitHub', hash='59a4b2b111c52d2dcdbc4effb36cd9295bb9761d', version='5.0.16'} 	https://github.com/hibernate/hibernate-orm/commit/59a4b2b111c52d2dcdbc4effb36cd9295bb9761d
+CommitInfo{repo='GitHub', hash='6bf61092f582eb95e93ab974f13939ee260deb65', version='5.0.1.Final'} 	https://github.com/hibernate/hibernate-orm/commit/6bf61092f582eb95e93ab974f13939ee260deb65
+CommitInfo{repo='GitHub', hash='fcd9cd44607a00a3bfd574e50a94f62177d89860', version='5.0.2.Final'} 	https://github.com/hibernate/hibernate-orm/commit/fcd9cd44607a00a3bfd574e50a94f62177d89860
+CommitInfo{repo='GitHub', hash='7516c80f7e2b9e22cef3d47c84d7b373397ee90f', version='5.0.3'} 	https://github.com/hibernate/hibernate-orm/commit/7516c80f7e2b9e22cef3d47c84d7b373397ee90f
+CommitInfo{repo='GitHub', hash='6a81d06d2532e5a7432caa64a1bc07e20e410d46', version='5.0.4'} 	https://github.com/hibernate/hibernate-orm/commit/6a81d06d2532e5a7432caa64a1bc07e20e410d46
+CommitInfo{repo='GitHub', hash='11a1e3b1c36ca73cafce847c837df84726a1c4a4', version='5.0.5'} 	https://github.com/hibernate/hibernate-orm/commit/11a1e3b1c36ca73cafce847c837df84726a1c4a4
+CommitInfo{repo='GitHub', hash='9d060b361b9067074f26e9d321c42ca5c7a1d5e0', version='5.0.5.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/9d060b361b9067074f26e9d321c42ca5c7a1d5e0
+CommitInfo{repo='GitHub', hash='3a26f32137e999f1011d81aacd85aac378bce499', version='5.0.6'} 	https://github.com/hibernate/hibernate-orm/commit/3a26f32137e999f1011d81aacd85aac378bce499
+CommitInfo{repo='GitHub', hash='c86597ce52a56d9a5e5aab3605f3d3c98b4db5b0', version='5.0.6.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/c86597ce52a56d9a5e5aab3605f3d3c98b4db5b0
+CommitInfo{repo='GitHub', hash='334403afa9282e576eed664c4097406363320443', version='5.0.7'} 	https://github.com/hibernate/hibernate-orm/commit/334403afa9282e576eed664c4097406363320443
+CommitInfo{repo='GitHub', hash='4237f4936186b6b07b224989afba795aa754bfe3', version='5.0.7.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/4237f4936186b6b07b224989afba795aa754bfe3
+CommitInfo{repo='GitHub', hash='4dfb0f1a5429f49949fb1db289c9b0ce4758175e', version='5.0.8'} 	https://github.com/hibernate/hibernate-orm/commit/4dfb0f1a5429f49949fb1db289c9b0ce4758175e
+CommitInfo{repo='GitHub', hash='e6d92b6b11ea212eec876355325cdfa531c1c27c', version='5.0.8.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/e6d92b6b11ea212eec876355325cdfa531c1c27c
+CommitInfo{repo='GitHub', hash='c9e98c3b445ccf7743035f582616c951b56aca6b', version='5.0.9'} 	https://github.com/hibernate/hibernate-orm/commit/c9e98c3b445ccf7743035f582616c951b56aca6b
+CommitInfo{repo='GitHub', hash='625abe6d3eff77152f0f4f3e7a009531762ea323', version='5.0.9.Final-redhat-1'} 	https://github.com/hibernate/hibernate-orm/commit/625abe6d3eff77152f0f4f3e7a009531762ea323
+CommitInfo{repo='GitHub', hash='22069ff9d0a5ea4d41195e45c4d398c6f4d82862', version='5.1.0'} 	https://github.com/hibernate/hibernate-orm/commit/22069ff9d0a5ea4d41195e45c4d398c6f4d82862
+CommitInfo{repo='GitHub', hash='a9f94f58aab616dd3afa10cae7e707630af70c67', version='5.1.1'} 	https://github.com/hibernate/hibernate-orm/commit/a9f94f58aab616dd3afa10cae7e707630af70c67
+CommitInfo{repo='GitHub', hash='2360c68310f4923f055883f6c04a3723d366ceec', version='5.1.10'} 	https://github.com/hibernate/hibernate-orm/commit/2360c68310f4923f055883f6c04a3723d366ceec
+CommitInfo{repo='GitHub', hash='9261b12b916fc4238013e38fb05935f8d5c24cc6', version='5.1.11'} 	https://github.com/hibernate/hibernate-orm/commit/9261b12b916fc4238013e38fb05935f8d5c24cc6
+CommitInfo{repo='GitHub', hash='ab70a368f3e34e67fb8277c63a1f569b327289ca', version='5.1.12'} 	https://github.com/hibernate/hibernate-orm/commit/ab70a368f3e34e67fb8277c63a1f569b327289ca
+CommitInfo{repo='GitHub', hash='1beb98b560b64d3170a9acbd4722506df61f0f39', version='5.1.13'} 	https://github.com/hibernate/hibernate-orm/commit/1beb98b560b64d3170a9acbd4722506df61f0f39
+CommitInfo{repo='GitHub', hash='19073ba270c111a8be8497f876489a6675436328', version='5.1.14'} 	https://github.com/hibernate/hibernate-orm/commit/19073ba270c111a8be8497f876489a6675436328
+CommitInfo{repo='GitHub', hash='503dc394788e03070585d7496258fd92b3b46a4b', version='5.1.15'} 	https://github.com/hibernate/hibernate-orm/commit/503dc394788e03070585d7496258fd92b3b46a4b
+CommitInfo{repo='GitHub', hash='b0689e7a80e3efe0a95a41437cf04c6d95da9b3d', version='5.1.16'} 	https://github.com/hibernate/hibernate-orm/commit/b0689e7a80e3efe0a95a41437cf04c6d95da9b3d
+CommitInfo{repo='GitHub', hash='c34bfb3058b2e0d0eec5d806852ed1a505f1ddf4', version='5.1.17'} 	https://github.com/hibernate/hibernate-orm/commit/c34bfb3058b2e0d0eec5d806852ed1a505f1ddf4
+CommitInfo{repo='GitHub', hash='67aec1ffa0879ee4950c659e4cf9f7b753023f69', version='5.1.2'} 	https://github.com/hibernate/hibernate-orm/commit/67aec1ffa0879ee4950c659e4cf9f7b753023f69
+CommitInfo{repo='GitHub', hash='378643ddd052fc9d7d11806b2218ab0d282d62d7', version='5.1.3'} 	https://github.com/hibernate/hibernate-orm/commit/378643ddd052fc9d7d11806b2218ab0d282d62d7
+CommitInfo{repo='GitHub', hash='e68d32bdb95ae11953959e61dc406609cb24b0be', version='5.1.4'} 	https://github.com/hibernate/hibernate-orm/commit/e68d32bdb95ae11953959e61dc406609cb24b0be
+CommitInfo{repo='GitHub', hash='3185156860c3c9be6c5118cd38150e2bb8b18bb8', version='5.1.5'} 	https://github.com/hibernate/hibernate-orm/commit/3185156860c3c9be6c5118cd38150e2bb8b18bb8
+CommitInfo{repo='GitHub', hash='11495551a82e7254ae233db51abbf1dbd7645d2e', version='5.1.6'} 	https://github.com/hibernate/hibernate-orm/commit/11495551a82e7254ae233db51abbf1dbd7645d2e
+CommitInfo{repo='GitHub', hash='3d3f41224e4926b370e4b43ebe53aa85f22a0730', version='5.1.7'} 	https://github.com/hibernate/hibernate-orm/commit/3d3f41224e4926b370e4b43ebe53aa85f22a0730
+CommitInfo{repo='GitHub', hash='6085d1d9fef5f3badb05fbc58db6e040f92f62ae', version='5.1.8'} 	https://github.com/hibernate/hibernate-orm/commit/6085d1d9fef5f3badb05fbc58db6e040f92f62ae
+CommitInfo{repo='GitHub', hash='bd44fb35692da58f960fdf05b9edeb5c120e622b', version='5.1.9'} 	https://github.com/hibernate/hibernate-orm/commit/bd44fb35692da58f960fdf05b9edeb5c120e622b
+CommitInfo{repo='GitHub', hash='8fd12d6bab51da6e39f6496a8abd12fcbd1532b7', version='5.2.0'} 	https://github.com/hibernate/hibernate-orm/commit/8fd12d6bab51da6e39f6496a8abd12fcbd1532b7
+CommitInfo{repo='GitHub', hash='ae2ebc7e861b7b73acec027040a61c86f320952f', version='5.2.1'} 	https://github.com/hibernate/hibernate-orm/commit/ae2ebc7e861b7b73acec027040a61c86f320952f
+CommitInfo{repo='GitHub', hash='2b3e1205a0fc576619bc5ffe5451cd7a46c07dd3', version='5.2.10'} 	https://github.com/hibernate/hibernate-orm/commit/2b3e1205a0fc576619bc5ffe5451cd7a46c07dd3
+CommitInfo{repo='GitHub', hash='921ab8357231ebea54ecde421d06e5ac5abf74e4', version='5.2.11'} 	https://github.com/hibernate/hibernate-orm/commit/921ab8357231ebea54ecde421d06e5ac5abf74e4
+CommitInfo{repo='GitHub', hash='1c915087a1231688c9745336492e24965aaaf1cf', version='5.2.12'} 	https://github.com/hibernate/hibernate-orm/commit/1c915087a1231688c9745336492e24965aaaf1cf
+CommitInfo{repo='GitHub', hash='43ce347c0c47a64500b8f7ff748cb5413e37ac49', version='5.2.13'} 	https://github.com/hibernate/hibernate-orm/commit/43ce347c0c47a64500b8f7ff748cb5413e37ac49
+CommitInfo{repo='GitHub', hash='b49e6405af99e4afd5038a44b7bd0d329b4feea5', version='5.2.14'} 	https://github.com/hibernate/hibernate-orm/commit/b49e6405af99e4afd5038a44b7bd0d329b4feea5
+CommitInfo{repo='GitHub', hash='95ff6344ca391a1b0a417241e5b86a6a9c18710e', version='5.2.15'} 	https://github.com/hibernate/hibernate-orm/commit/95ff6344ca391a1b0a417241e5b86a6a9c18710e
+CommitInfo{repo='GitHub', hash='20a5319733fac8c87dafacfed545b882a6d0ba6d', version='5.2.16'} 	https://github.com/hibernate/hibernate-orm/commit/20a5319733fac8c87dafacfed545b882a6d0ba6d
+CommitInfo{repo='GitHub', hash='f9e7e7d9e9d260ba77df98de93e643ef8ded517d', version='5.2.17'} 	https://github.com/hibernate/hibernate-orm/commit/f9e7e7d9e9d260ba77df98de93e643ef8ded517d
+CommitInfo{repo='GitHub', hash='f9e7e7d9e9d260ba77df98de93e643ef8ded517d', version='5.2.17'} 	https://github.com/hibernate/hibernate-orm/commit/f9e7e7d9e9d260ba77df98de93e643ef8ded517d
+CommitInfo{repo='GitHub', hash='f9e7e7d9e9d260ba77df98de93e643ef8ded517d', version='5.2.17'} 	https://github.com/hibernate/hibernate-orm/commit/f9e7e7d9e9d260ba77df98de93e643ef8ded517d
+CommitInfo{repo='GitHub', hash='7c3249c246a1f0b6d6fe058b9581c938982a20c1', version='5.2.18'} 	https://github.com/hibernate/hibernate-orm/commit/7c3249c246a1f0b6d6fe058b9581c938982a20c1
+CommitInfo{repo='GitHub', hash='b6bfade383b45b3969d7db13913fe4a7464813bc', version='5.2.2'} 	https://github.com/hibernate/hibernate-orm/commit/b6bfade383b45b3969d7db13913fe4a7464813bc
+CommitInfo{repo='GitHub', hash='4f9689a2f2fba7d7591061460f669af5e3f789fd', version='5.2.3'} 	https://github.com/hibernate/hibernate-orm/commit/4f9689a2f2fba7d7591061460f669af5e3f789fd
+CommitInfo{repo='GitHub', hash='e6315be204b1f6e3472143641b7652486871dabc', version='5.2.4'} 	https://github.com/hibernate/hibernate-orm/commit/e6315be204b1f6e3472143641b7652486871dabc
+CommitInfo{repo='GitHub', hash='1053f16618ab7dd1f0b35fd78c1ebc078136e51d', version='5.2.5'} 	https://github.com/hibernate/hibernate-orm/commit/1053f16618ab7dd1f0b35fd78c1ebc078136e51d
+CommitInfo{repo='GitHub', hash='e17fd6cf0503d10fe02106d9962961c290567d3b', version='5.2.6'} 	https://github.com/hibernate/hibernate-orm/commit/e17fd6cf0503d10fe02106d9962961c290567d3b
+CommitInfo{repo='GitHub', hash='024b6e97fe32cc39f63ca89839e53700645b1bbd', version='5.2.7'} 	https://github.com/hibernate/hibernate-orm/commit/024b6e97fe32cc39f63ca89839e53700645b1bbd
+CommitInfo{repo='GitHub', hash='5d5b4e9776fddb96c2a0ccb1e194a33b5c73b6cd', version='5.2.8'} 	https://github.com/hibernate/hibernate-orm/commit/5d5b4e9776fddb96c2a0ccb1e194a33b5c73b6cd
+CommitInfo{repo='GitHub', hash='1b8a2b992471995469de22c32b0ab37d204469c4', version='5.2.9'} 	https://github.com/hibernate/hibernate-orm/commit/1b8a2b992471995469de22c32b0ab37d204469c4
+CommitInfo{repo='GitHub', hash='538039fe20f5fb058c8a15c86566baea9684b1b3', version='5.3.0.Beta1'} 	https://github.com/hibernate/hibernate-orm/commit/538039fe20f5fb058c8a15c86566baea9684b1b3
+CommitInfo{repo='GitHub', hash='16d9736569ef6480e9aa54042fabd9d85de27518', version='5.3.0.Beta2'} 	https://github.com/hibernate/hibernate-orm/commit/16d9736569ef6480e9aa54042fabd9d85de27518
+CommitInfo{repo='GitHub', hash='4ccebfec91b60837bd8ce2f158a18265c6c4d17f', version='5.3.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/4ccebfec91b60837bd8ce2f158a18265c6c4d17f
+CommitInfo{repo='GitHub', hash='4ccebfec91b60837bd8ce2f158a18265c6c4d17f', version='5.3.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/4ccebfec91b60837bd8ce2f158a18265c6c4d17f
+CommitInfo{repo='GitHub', hash='4ccebfec91b60837bd8ce2f158a18265c6c4d17f', version='5.3.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/4ccebfec91b60837bd8ce2f158a18265c6c4d17f
+CommitInfo{repo='GitHub', hash='d2d3b98ccfa33df23a7c9a60a73819942f59e559', version='5.3.0.Final'} 	https://github.com/hibernate/hibernate-orm/commit/d2d3b98ccfa33df23a7c9a60a73819942f59e559
+CommitInfo{repo='GitHub', hash='7430cdafcf520d6d7d40d362fdc42c6a5d8b141e', version='5.3.1'} 	https://github.com/hibernate/hibernate-orm/commit/7430cdafcf520d6d7d40d362fdc42c6a5d8b141e
+CommitInfo{repo='GitHub', hash='84d702c43fae823b1ab70f2fcc4e0446ef6b2995', version='5.3.2'} 	https://github.com/hibernate/hibernate-orm/commit/84d702c43fae823b1ab70f2fcc4e0446ef6b2995
+CommitInfo{repo='GitHub', hash='3c81ade1988d0169b3d3fb52bec2857f45b89801', version='5.3.3'} 	https://github.com/hibernate/hibernate-orm/commit/3c81ade1988d0169b3d3fb52bec2857f45b89801
+CommitInfo{repo='GitHub', hash='3c81ade1988d0169b3d3fb52bec2857f45b89801', version='5.3.3'} 	https://github.com/hibernate/hibernate-orm/commit/3c81ade1988d0169b3d3fb52bec2857f45b89801
+CommitInfo{repo='GitHub', hash='922c4694c76eedeefe29d39bb86129585391be80', version='5.3.4'} 	https://github.com/hibernate/hibernate-orm/commit/922c4694c76eedeefe29d39bb86129585391be80
+CommitInfo{repo='GitHub', hash='0c22ccc1075ef180c8044bbc224cc397056a5b89', version='5.3.5'} 	https://github.com/hibernate/hibernate-orm/commit/0c22ccc1075ef180c8044bbc224cc397056a5b89
+CommitInfo{repo='GitHub', hash='97af7c48118d0181a736228db83bdd0afaf7da16', version='5.3.6'} 	https://github.com/hibernate/hibernate-orm/commit/97af7c48118d0181a736228db83bdd0afaf7da16
+CommitInfo{repo='GitHub', hash='890a6409a637da6f9fb64e2e11a9b87e01270ee0', version='5.3.7'} 	https://github.com/hibernate/hibernate-orm/commit/890a6409a637da6f9fb64e2e11a9b87e01270ee0
+CommitInfo{repo='GitHub', hash='7759404259a8715927485fa1bc051da1f0dc9d9b', version='5.4.0'} 	https://github.com/hibernate/hibernate-orm/commit/7759404259a8715927485fa1bc051da1f0dc9d9b
+CommitInfo{repo='GitHub', hash='06da34868ba31fcd8c7b33dadd8bd5a7cf51d399', version='5.4.0.CR1'} 	https://github.com/hibernate/hibernate-orm/commit/06da34868ba31fcd8c7b33dadd8bd5a7cf51d399
+CommitInfo{repo='GitHub', hash='695a2792f83baab5c6e11c4ba6617d521774b6fe', version='5.4.0.CR2'} 	https://github.com/hibernate/hibernate-orm/commit/695a2792f83baab5c6e11c4ba6617d521774b6fe
+CommitInfo{repo='GitHub', hash='b19c81e136fd21f684769dfad56e2e7f66839a32', version='6.0.0.Alpha1'} 	https://github.com/hibernate/hibernate-orm/commit/b19c81e136fd21f684769dfad56e2e7f66839a32
+CommitInfo{repo='GitHub', hash='a4dfcc8f250f7fabcac121dbf9f16401d8744f15', version='cdi-20-patch-in-wildfly-integration-tests'} 	https://github.com/hibernate/hibernate-orm/commit/a4dfcc8f250f7fabcac121dbf9f16401d8744f15
+CommitInfo{repo='GitHub', hash='829462494743bffd71683b36da977d55c5993ae1', version='EAP-6.0.0'} 	https://github.com/hibernate/hibernate-orm/commit/829462494743bffd71683b36da977d55c5993ae1
+CommitInfo{repo='GitHub', hash='47cfd26b7dada7c7b79de36be957c25786ef1259', version='EAP-6.0.1'} 	https://github.com/hibernate/hibernate-orm/commit/47cfd26b7dada7c7b79de36be957c25786ef1259
+CommitInfo{repo='GitHub', hash='98cce63a238e396d0710e1a0b17ac1af897b4035', version='EAP-6.1'} 	https://github.com/hibernate/hibernate-orm/commit/98cce63a238e396d0710e1a0b17ac1af897b4035
+CommitInfo{repo='GitHub', hash='ec41f3af247f5b553baa252f06bb1863ec79369e', version='EAP-6.1_ER2'} 	https://github.com/hibernate/hibernate-orm/commit/ec41f3af247f5b553baa252f06bb1863ec79369e
+CommitInfo{repo='GitHub', hash='73e15bafd585ad0be5565b1d83aca9b6c073ec51', version='EAP-6.1_FINAL'} 	https://github.com/hibernate/hibernate-orm/commit/73e15bafd585ad0be5565b1d83aca9b6c073ec51
+CommitInfo{repo='GitHub', hash='b8cb94d58b2d4237a0fad34b007504f408f6a73f', version='EAP-6.2'} 	https://github.com/hibernate/hibernate-orm/commit/b8cb94d58b2d4237a0fad34b007504f408f6a73f
+CommitInfo{repo='GitHub', hash='17384d6d02d6a951d03daf2ee47c749f5c80d413', version='EAP-6.2_ER4'} 	https://github.com/hibernate/hibernate-orm/commit/17384d6d02d6a951d03daf2ee47c749f5c80d413
+CommitInfo{repo='GitHub', hash='3fbb7d3c82bb96af947b1c1152b92520b1d06128', version='EAP-6.2_ER7'} 	https://github.com/hibernate/hibernate-orm/commit/3fbb7d3c82bb96af947b1c1152b92520b1d06128
+CommitInfo{repo='GitHub', hash='1c43f6f5d3a8ae1c4d11196f806d6b2f72465736', version='EAP-6.2_ER7_SP1'} 	https://github.com/hibernate/hibernate-orm/commit/1c43f6f5d3a8ae1c4d11196f806d6b2f72465736
+CommitInfo{repo='GitHub', hash='9660445610c5ecb84e4f4448e3afffd1fd76d291', version='EAP-6-ER2'} 	https://github.com/hibernate/hibernate-orm/commit/9660445610c5ecb84e4f4448e3afffd1fd76d291
+CommitInfo{repo='GitHub', hash='a88c8375c5edbdf9b7855a4801cd3a539acbf77e', version='EAP-6-ER3'} 	https://github.com/hibernate/hibernate-orm/commit/a88c8375c5edbdf9b7855a4801cd3a539acbf77e
+CommitInfo{repo='GitHub', hash='d3a29e951dcbee8dbc5e8725dd5f5e705ff66f78', version='EAP-6-ER4'} 	https://github.com/hibernate/hibernate-orm/commit/d3a29e951dcbee8dbc5e8725dd5f5e705ff66f78
+CommitInfo{repo='GitHub', hash='4c1c21ef85101de87c5ef8ca635e57eb76646cab', version='EAP-6-ER5'} 	https://github.com/hibernate/hibernate-orm/commit/4c1c21ef85101de87c5ef8ca635e57eb76646cab
+CommitInfo{repo='GitHub', hash='d180ed9336d3e009ae4f3b821f2737807239e5e0', version='EAP-6-ER6'} 	https://github.com/hibernate/hibernate-orm/commit/d180ed9336d3e009ae4f3b821f2737807239e5e0
+CommitInfo{repo='GitHub', hash='f92d9737b905573d664461e99eae106e07fdb13c', version='EAP-6-ER7'} 	https://github.com/hibernate/hibernate-orm/commit/f92d9737b905573d664461e99eae106e07fdb13c
 
 Project A:
 ProjectVersionFixed(version=3.5.0.Beta-1, dependency=null, time=2009-08-20 02:37:47 UTC)

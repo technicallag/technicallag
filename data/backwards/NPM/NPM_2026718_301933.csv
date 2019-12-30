@@ -2,84 +2,89 @@
 Project information
 cozy-client-js (2026718)	pouchdb (301933)	Package Manager: NPM
 RepoID: 15205106
+Repo Owner/Name: cozy/cozy-client-js
+Repository type: GitHub
+
+ https://github.com/cozy/cozy-client-js/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='0099be6de13992d9b483d37334782c81765e13d2', version='v0.2.0'}
-CommitInfo{repo='GitHub', hash='7d6412e20813c73ed9d429844a1c59efa171f352', version='0.0.6'}
-CommitInfo{repo='GitHub', hash='244d2ed6a9ec10adea7bbdd528baca36fe650d6c', version='0.3.6'}
-CommitInfo{repo='GitHub', hash='6e4d6dd20a64cb45e1becfefb0acbceb48fbed1b', version='v0.0.1'}
-CommitInfo{repo='GitHub', hash='ae0bec4d39f89f6cc3d916a0a8a351323bee08ae', version='v0.0.10'}
-CommitInfo{repo='GitHub', hash='6fd4c2f3057f940b3dbef8b492aba52760d17bc7', version='v0.0.11'}
-CommitInfo{repo='GitHub', hash='24d58afa9f122b92f47887467186b7eb12cf9d42', version='v0.0.2'}
-CommitInfo{repo='GitHub', hash='7e4cb0cc29e5a4832f015a0b07a55439e235eef2', version='v0.0.3'}
-CommitInfo{repo='GitHub', hash='596818ce97d058c0c8164c873fe434807e2089d4', version='v0.0.4'}
-CommitInfo{repo='GitHub', hash='cecad21fd221153c02749e2f36b21c422b02f67e', version='v0.0.5'}
-CommitInfo{repo='GitHub', hash='e5d4ff41ec48e80d480580e64c5cdac826c3e9e9', version='v0.0.7'}
-CommitInfo{repo='GitHub', hash='843ce722b939e8fc48532513da26efe8911533c6', version='v0.0.8'}
-CommitInfo{repo='GitHub', hash='7b89528274155271a48c586bfea84defa5a00eea', version='v0.0.9'}
-CommitInfo{repo='GitHub', hash='6fc22fb8072af5f2ac241702298d9c5e8f5d2320', version='v0.1.0'}
-CommitInfo{repo='GitHub', hash='b3c2c3bb6690012c9f40502424ea98295ffc8106', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='d210215963bd26d1e8b2ed68534655ac69c24f9b', version='v0.1.1'}
-CommitInfo{repo='GitHub', hash='451b3394c8511233a4abccdb2ddb1b975319ead7', version='v0.1.10'}
-CommitInfo{repo='GitHub', hash='df60411707c3addae58cbe1a7415edf15e5a413e', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='a3f8fe111c8eda15f282f5c42ef63d37dc68dd94', version='v0.1.11'}
-CommitInfo{repo='GitHub', hash='6c0f6562fc391ad67434778547fc9f472ae88934', version='v0.1.2'}
-CommitInfo{repo='GitHub', hash='e84e1163b32f4c1e80274dd923f209ba662f120b', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='cf85855ffb4ae2d1809af3be51caeb93ad37f84d', version='v0.12.1'}
-CommitInfo{repo='GitHub', hash='adc110b0d713801fcf38d014291e5d01b7b3b3cb', version='v0.1.3'}
-CommitInfo{repo='GitHub', hash='92f73d310e5f1b01a238ca32c20a4948a030d7ad', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='09c7ee83141ab7b907152e5304ccc354e236092a', version='v0.1.4'}
-CommitInfo{repo='GitHub', hash='65400b3c9bda96d69357c58764b74faaa3e82b23', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='224fc7415b73d7567df829083e3837eac444e5bd', version='v0.14.1'}
-CommitInfo{repo='GitHub', hash='e1ad6eb9d8a55cd6fc11e576cf3b8b8f7c68cb1a', version='v0.14.2'}
-CommitInfo{repo='GitHub', hash='7ddb1915efd755bb1f9875a7c8323f36f24dcd53', version='v0.1.5'}
-CommitInfo{repo='GitHub', hash='0c3c1f11067f5e672b88cb555ab88992904a1fb4', version='v0.1.6'}
-CommitInfo{repo='GitHub', hash='a16332f534491cd55e4cb2c944a075e26d8afbac', version='v0.1.7'}
-CommitInfo{repo='GitHub', hash='c86acda8b8c5e686b9e59028aa3d143cb4448166', version='v0.1.8'}
-CommitInfo{repo='GitHub', hash='f34ab3b6b2ca0d10ac7cd1d27a4729ff81dbf9cf', version='v0.1.9'}
-CommitInfo{repo='GitHub', hash='a4e266f84eb864737b91789fd8606c1a63034cbe', version='v0.2.1'}
-CommitInfo{repo='GitHub', hash='7f986699eebf4a073b072b4a94bdbd63ec4b4eaa', version='v0.2.2'}
-CommitInfo{repo='GitHub', hash='33d62b83aa99c4e36fc19e523b45d7dcc7b45648', version='v0.2.3'}
-CommitInfo{repo='GitHub', hash='d29a8bb91434303c83b8e003f388cbbd7fd5040a', version='v0.2.4'}
-CommitInfo{repo='GitHub', hash='83623f8982f5bba577519cd34744a389c669ea48', version='v0.2.5'}
-CommitInfo{repo='GitHub', hash='ef2c2d11dea5940d738e05c062c7db2f21e5c747', version='v0.3.0'}
-CommitInfo{repo='GitHub', hash='3e0482f6273f560b6a42025973f53aa545215400', version='v0.3.1'}
-CommitInfo{repo='GitHub', hash='6e96adec5476fc6995a82e6da2402fc793d8d7a4', version='v0.3.10'}
-CommitInfo{repo='GitHub', hash='506146858783a7c283ea6e9c5675a904526eaddc', version='v0.3.11'}
-CommitInfo{repo='GitHub', hash='2cc7d8acc7b51d25fc5fb5a4820ffe35074a5852', version='v0.3.12'}
-CommitInfo{repo='GitHub', hash='cc60ccd8d451d581f55d22d086200b55d781b99a', version='v0.3.13'}
-CommitInfo{repo='GitHub', hash='c1544e0b8c3aa6673a4b638d287031bb9a0ddfed', version='v0.3.14'}
-CommitInfo{repo='GitHub', hash='4345b945675835dd757c8548f054cfb1bd7dd381', version='v0.3.15'}
-CommitInfo{repo='GitHub', hash='7a48a6e4353a5927a2aa296cd582988edf7fbed8', version='v0.3.16'}
-CommitInfo{repo='GitHub', hash='dd6c002cc6ed72ebd6c954cbd4c3443b4922c2c4', version='v0.3.17'}
-CommitInfo{repo='GitHub', hash='6a43dd674f94efb285fb3c40fffa0fe564f8da1c', version='v0.3.18'}
-CommitInfo{repo='GitHub', hash='089057522f728bee928bc4cb2937c0d7456c7247', version='v0.3.19'}
-CommitInfo{repo='GitHub', hash='f7750630ef565cd892975b9870eadd3269e5c6a8', version='v0.3.2'}
-CommitInfo{repo='GitHub', hash='18b8025856b00bcf701585e2851cd4a1a162597d', version='v0.3.20'}
-CommitInfo{repo='GitHub', hash='baf727d1fa10c8f8c23c7698f23fc99e1c8078c0', version='v0.3.3'}
-CommitInfo{repo='GitHub', hash='b45dbcdf4ae0d62bea5beb501b8e6fc75c5b5719', version='v0.3.4'}
-CommitInfo{repo='GitHub', hash='7b790ffa135bcc31eee86aa14c17b4e8189f5834', version='v0.3.5'}
-CommitInfo{repo='GitHub', hash='244d2ed6a9ec10adea7bbdd528baca36fe650d6c', version='v0.3.6'}
-CommitInfo{repo='GitHub', hash='565adb8e991dc481b35f0def72f1767fe39dbd72', version='v0.3.7'}
-CommitInfo{repo='GitHub', hash='379bb670137ae5cca77e88f6debe7f5333dcf580', version='v0.3.8'}
-CommitInfo{repo='GitHub', hash='ed95ffe827a68922f0aa1abe85dde3b184bf8323', version='v0.3.9'}
-CommitInfo{repo='GitHub', hash='820e208831e8fd0363b4bbaae14227c7ba2ddd2f', version='v0.4.0'}
-CommitInfo{repo='GitHub', hash='e54d77b7341bd56c748ab42a5b079a2978830a3f', version='v0.4.1'}
-CommitInfo{repo='GitHub', hash='31eab3fb4b72f7e8051c0eaab70fb0666ff26807', version='v0.4.2'}
-CommitInfo{repo='GitHub', hash='c0188d9262513b3b68bb4fc81a51610758a4a318', version='v0.4.3'}
-CommitInfo{repo='GitHub', hash='7079d46cd8c3a49b65ec6c3cc63623427421782d', version='v0.4.4'}
-CommitInfo{repo='GitHub', hash='24fa17652ee9bd63d4ec1fec8ae3b04689402c15', version='v0.5.0'}
-CommitInfo{repo='GitHub', hash='7e9ff9c1e00022c6eaa8042b111843a91c299b5b', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='e06a2b4b64900638e9da5d2988218671de9b4f2c', version='v0.6.1'}
-CommitInfo{repo='GitHub', hash='c9b8a630072babd381abacc3117e84a2b329f1fa', version='v0.6.2'}
-CommitInfo{repo='GitHub', hash='e7d3e3339a008f6cc1fa0004523410124cd2c5fe', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='653821aecac04bf994f60045189a0c516b7e2732', version='v0.7.1'}
-CommitInfo{repo='GitHub', hash='cf18e2af881f19028bb308941579ce427af04e31', version='v0.7.2'}
-CommitInfo{repo='GitHub', hash='0805674ad01484057e09ab0c7ca1961de67768d3', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='f7360ba1d1bdfa52a7f2225ddd263758357ab069', version='v0.8.1'}
-CommitInfo{repo='GitHub', hash='9bf02c14394a0f9bed2ee38b92eb3d3268113483', version='v0.8.2'}
-CommitInfo{repo='GitHub', hash='6eb5db54aff85e899bb05207533054a68b1b2771', version='v0.8.3'}
-CommitInfo{repo='GitHub', hash='58b877ea538a3203c610f152e265ac91c8aedde2', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='31eab3fb4b72f7e8051c0eaab70fb0666ff26807', version='v4.0.2'}
+CommitInfo{repo='GitHub', hash='0099be6de13992d9b483d37334782c81765e13d2', version='v0.2.0'} 	https://github.com/cozy/cozy-client-js/commit/0099be6de13992d9b483d37334782c81765e13d2
+CommitInfo{repo='GitHub', hash='7d6412e20813c73ed9d429844a1c59efa171f352', version='0.0.6'} 	https://github.com/cozy/cozy-client-js/commit/7d6412e20813c73ed9d429844a1c59efa171f352
+CommitInfo{repo='GitHub', hash='244d2ed6a9ec10adea7bbdd528baca36fe650d6c', version='0.3.6'} 	https://github.com/cozy/cozy-client-js/commit/244d2ed6a9ec10adea7bbdd528baca36fe650d6c
+CommitInfo{repo='GitHub', hash='6e4d6dd20a64cb45e1becfefb0acbceb48fbed1b', version='v0.0.1'} 	https://github.com/cozy/cozy-client-js/commit/6e4d6dd20a64cb45e1becfefb0acbceb48fbed1b
+CommitInfo{repo='GitHub', hash='ae0bec4d39f89f6cc3d916a0a8a351323bee08ae', version='v0.0.10'} 	https://github.com/cozy/cozy-client-js/commit/ae0bec4d39f89f6cc3d916a0a8a351323bee08ae
+CommitInfo{repo='GitHub', hash='6fd4c2f3057f940b3dbef8b492aba52760d17bc7', version='v0.0.11'} 	https://github.com/cozy/cozy-client-js/commit/6fd4c2f3057f940b3dbef8b492aba52760d17bc7
+CommitInfo{repo='GitHub', hash='24d58afa9f122b92f47887467186b7eb12cf9d42', version='v0.0.2'} 	https://github.com/cozy/cozy-client-js/commit/24d58afa9f122b92f47887467186b7eb12cf9d42
+CommitInfo{repo='GitHub', hash='7e4cb0cc29e5a4832f015a0b07a55439e235eef2', version='v0.0.3'} 	https://github.com/cozy/cozy-client-js/commit/7e4cb0cc29e5a4832f015a0b07a55439e235eef2
+CommitInfo{repo='GitHub', hash='596818ce97d058c0c8164c873fe434807e2089d4', version='v0.0.4'} 	https://github.com/cozy/cozy-client-js/commit/596818ce97d058c0c8164c873fe434807e2089d4
+CommitInfo{repo='GitHub', hash='cecad21fd221153c02749e2f36b21c422b02f67e', version='v0.0.5'} 	https://github.com/cozy/cozy-client-js/commit/cecad21fd221153c02749e2f36b21c422b02f67e
+CommitInfo{repo='GitHub', hash='e5d4ff41ec48e80d480580e64c5cdac826c3e9e9', version='v0.0.7'} 	https://github.com/cozy/cozy-client-js/commit/e5d4ff41ec48e80d480580e64c5cdac826c3e9e9
+CommitInfo{repo='GitHub', hash='843ce722b939e8fc48532513da26efe8911533c6', version='v0.0.8'} 	https://github.com/cozy/cozy-client-js/commit/843ce722b939e8fc48532513da26efe8911533c6
+CommitInfo{repo='GitHub', hash='7b89528274155271a48c586bfea84defa5a00eea', version='v0.0.9'} 	https://github.com/cozy/cozy-client-js/commit/7b89528274155271a48c586bfea84defa5a00eea
+CommitInfo{repo='GitHub', hash='6fc22fb8072af5f2ac241702298d9c5e8f5d2320', version='v0.1.0'} 	https://github.com/cozy/cozy-client-js/commit/6fc22fb8072af5f2ac241702298d9c5e8f5d2320
+CommitInfo{repo='GitHub', hash='b3c2c3bb6690012c9f40502424ea98295ffc8106', version='v0.10.0'} 	https://github.com/cozy/cozy-client-js/commit/b3c2c3bb6690012c9f40502424ea98295ffc8106
+CommitInfo{repo='GitHub', hash='d210215963bd26d1e8b2ed68534655ac69c24f9b', version='v0.1.1'} 	https://github.com/cozy/cozy-client-js/commit/d210215963bd26d1e8b2ed68534655ac69c24f9b
+CommitInfo{repo='GitHub', hash='451b3394c8511233a4abccdb2ddb1b975319ead7', version='v0.1.10'} 	https://github.com/cozy/cozy-client-js/commit/451b3394c8511233a4abccdb2ddb1b975319ead7
+CommitInfo{repo='GitHub', hash='df60411707c3addae58cbe1a7415edf15e5a413e', version='v0.11.0'} 	https://github.com/cozy/cozy-client-js/commit/df60411707c3addae58cbe1a7415edf15e5a413e
+CommitInfo{repo='GitHub', hash='a3f8fe111c8eda15f282f5c42ef63d37dc68dd94', version='v0.1.11'} 	https://github.com/cozy/cozy-client-js/commit/a3f8fe111c8eda15f282f5c42ef63d37dc68dd94
+CommitInfo{repo='GitHub', hash='6c0f6562fc391ad67434778547fc9f472ae88934', version='v0.1.2'} 	https://github.com/cozy/cozy-client-js/commit/6c0f6562fc391ad67434778547fc9f472ae88934
+CommitInfo{repo='GitHub', hash='e84e1163b32f4c1e80274dd923f209ba662f120b', version='v0.12.0'} 	https://github.com/cozy/cozy-client-js/commit/e84e1163b32f4c1e80274dd923f209ba662f120b
+CommitInfo{repo='GitHub', hash='cf85855ffb4ae2d1809af3be51caeb93ad37f84d', version='v0.12.1'} 	https://github.com/cozy/cozy-client-js/commit/cf85855ffb4ae2d1809af3be51caeb93ad37f84d
+CommitInfo{repo='GitHub', hash='adc110b0d713801fcf38d014291e5d01b7b3b3cb', version='v0.1.3'} 	https://github.com/cozy/cozy-client-js/commit/adc110b0d713801fcf38d014291e5d01b7b3b3cb
+CommitInfo{repo='GitHub', hash='92f73d310e5f1b01a238ca32c20a4948a030d7ad', version='v0.13.0'} 	https://github.com/cozy/cozy-client-js/commit/92f73d310e5f1b01a238ca32c20a4948a030d7ad
+CommitInfo{repo='GitHub', hash='09c7ee83141ab7b907152e5304ccc354e236092a', version='v0.1.4'} 	https://github.com/cozy/cozy-client-js/commit/09c7ee83141ab7b907152e5304ccc354e236092a
+CommitInfo{repo='GitHub', hash='65400b3c9bda96d69357c58764b74faaa3e82b23', version='v0.14.0'} 	https://github.com/cozy/cozy-client-js/commit/65400b3c9bda96d69357c58764b74faaa3e82b23
+CommitInfo{repo='GitHub', hash='224fc7415b73d7567df829083e3837eac444e5bd', version='v0.14.1'} 	https://github.com/cozy/cozy-client-js/commit/224fc7415b73d7567df829083e3837eac444e5bd
+CommitInfo{repo='GitHub', hash='e1ad6eb9d8a55cd6fc11e576cf3b8b8f7c68cb1a', version='v0.14.2'} 	https://github.com/cozy/cozy-client-js/commit/e1ad6eb9d8a55cd6fc11e576cf3b8b8f7c68cb1a
+CommitInfo{repo='GitHub', hash='7ddb1915efd755bb1f9875a7c8323f36f24dcd53', version='v0.1.5'} 	https://github.com/cozy/cozy-client-js/commit/7ddb1915efd755bb1f9875a7c8323f36f24dcd53
+CommitInfo{repo='GitHub', hash='0c3c1f11067f5e672b88cb555ab88992904a1fb4', version='v0.1.6'} 	https://github.com/cozy/cozy-client-js/commit/0c3c1f11067f5e672b88cb555ab88992904a1fb4
+CommitInfo{repo='GitHub', hash='a16332f534491cd55e4cb2c944a075e26d8afbac', version='v0.1.7'} 	https://github.com/cozy/cozy-client-js/commit/a16332f534491cd55e4cb2c944a075e26d8afbac
+CommitInfo{repo='GitHub', hash='c86acda8b8c5e686b9e59028aa3d143cb4448166', version='v0.1.8'} 	https://github.com/cozy/cozy-client-js/commit/c86acda8b8c5e686b9e59028aa3d143cb4448166
+CommitInfo{repo='GitHub', hash='f34ab3b6b2ca0d10ac7cd1d27a4729ff81dbf9cf', version='v0.1.9'} 	https://github.com/cozy/cozy-client-js/commit/f34ab3b6b2ca0d10ac7cd1d27a4729ff81dbf9cf
+CommitInfo{repo='GitHub', hash='a4e266f84eb864737b91789fd8606c1a63034cbe', version='v0.2.1'} 	https://github.com/cozy/cozy-client-js/commit/a4e266f84eb864737b91789fd8606c1a63034cbe
+CommitInfo{repo='GitHub', hash='7f986699eebf4a073b072b4a94bdbd63ec4b4eaa', version='v0.2.2'} 	https://github.com/cozy/cozy-client-js/commit/7f986699eebf4a073b072b4a94bdbd63ec4b4eaa
+CommitInfo{repo='GitHub', hash='33d62b83aa99c4e36fc19e523b45d7dcc7b45648', version='v0.2.3'} 	https://github.com/cozy/cozy-client-js/commit/33d62b83aa99c4e36fc19e523b45d7dcc7b45648
+CommitInfo{repo='GitHub', hash='d29a8bb91434303c83b8e003f388cbbd7fd5040a', version='v0.2.4'} 	https://github.com/cozy/cozy-client-js/commit/d29a8bb91434303c83b8e003f388cbbd7fd5040a
+CommitInfo{repo='GitHub', hash='83623f8982f5bba577519cd34744a389c669ea48', version='v0.2.5'} 	https://github.com/cozy/cozy-client-js/commit/83623f8982f5bba577519cd34744a389c669ea48
+CommitInfo{repo='GitHub', hash='ef2c2d11dea5940d738e05c062c7db2f21e5c747', version='v0.3.0'} 	https://github.com/cozy/cozy-client-js/commit/ef2c2d11dea5940d738e05c062c7db2f21e5c747
+CommitInfo{repo='GitHub', hash='3e0482f6273f560b6a42025973f53aa545215400', version='v0.3.1'} 	https://github.com/cozy/cozy-client-js/commit/3e0482f6273f560b6a42025973f53aa545215400
+CommitInfo{repo='GitHub', hash='6e96adec5476fc6995a82e6da2402fc793d8d7a4', version='v0.3.10'} 	https://github.com/cozy/cozy-client-js/commit/6e96adec5476fc6995a82e6da2402fc793d8d7a4
+CommitInfo{repo='GitHub', hash='506146858783a7c283ea6e9c5675a904526eaddc', version='v0.3.11'} 	https://github.com/cozy/cozy-client-js/commit/506146858783a7c283ea6e9c5675a904526eaddc
+CommitInfo{repo='GitHub', hash='2cc7d8acc7b51d25fc5fb5a4820ffe35074a5852', version='v0.3.12'} 	https://github.com/cozy/cozy-client-js/commit/2cc7d8acc7b51d25fc5fb5a4820ffe35074a5852
+CommitInfo{repo='GitHub', hash='cc60ccd8d451d581f55d22d086200b55d781b99a', version='v0.3.13'} 	https://github.com/cozy/cozy-client-js/commit/cc60ccd8d451d581f55d22d086200b55d781b99a
+CommitInfo{repo='GitHub', hash='c1544e0b8c3aa6673a4b638d287031bb9a0ddfed', version='v0.3.14'} 	https://github.com/cozy/cozy-client-js/commit/c1544e0b8c3aa6673a4b638d287031bb9a0ddfed
+CommitInfo{repo='GitHub', hash='4345b945675835dd757c8548f054cfb1bd7dd381', version='v0.3.15'} 	https://github.com/cozy/cozy-client-js/commit/4345b945675835dd757c8548f054cfb1bd7dd381
+CommitInfo{repo='GitHub', hash='7a48a6e4353a5927a2aa296cd582988edf7fbed8', version='v0.3.16'} 	https://github.com/cozy/cozy-client-js/commit/7a48a6e4353a5927a2aa296cd582988edf7fbed8
+CommitInfo{repo='GitHub', hash='dd6c002cc6ed72ebd6c954cbd4c3443b4922c2c4', version='v0.3.17'} 	https://github.com/cozy/cozy-client-js/commit/dd6c002cc6ed72ebd6c954cbd4c3443b4922c2c4
+CommitInfo{repo='GitHub', hash='6a43dd674f94efb285fb3c40fffa0fe564f8da1c', version='v0.3.18'} 	https://github.com/cozy/cozy-client-js/commit/6a43dd674f94efb285fb3c40fffa0fe564f8da1c
+CommitInfo{repo='GitHub', hash='089057522f728bee928bc4cb2937c0d7456c7247', version='v0.3.19'} 	https://github.com/cozy/cozy-client-js/commit/089057522f728bee928bc4cb2937c0d7456c7247
+CommitInfo{repo='GitHub', hash='f7750630ef565cd892975b9870eadd3269e5c6a8', version='v0.3.2'} 	https://github.com/cozy/cozy-client-js/commit/f7750630ef565cd892975b9870eadd3269e5c6a8
+CommitInfo{repo='GitHub', hash='18b8025856b00bcf701585e2851cd4a1a162597d', version='v0.3.20'} 	https://github.com/cozy/cozy-client-js/commit/18b8025856b00bcf701585e2851cd4a1a162597d
+CommitInfo{repo='GitHub', hash='baf727d1fa10c8f8c23c7698f23fc99e1c8078c0', version='v0.3.3'} 	https://github.com/cozy/cozy-client-js/commit/baf727d1fa10c8f8c23c7698f23fc99e1c8078c0
+CommitInfo{repo='GitHub', hash='b45dbcdf4ae0d62bea5beb501b8e6fc75c5b5719', version='v0.3.4'} 	https://github.com/cozy/cozy-client-js/commit/b45dbcdf4ae0d62bea5beb501b8e6fc75c5b5719
+CommitInfo{repo='GitHub', hash='7b790ffa135bcc31eee86aa14c17b4e8189f5834', version='v0.3.5'} 	https://github.com/cozy/cozy-client-js/commit/7b790ffa135bcc31eee86aa14c17b4e8189f5834
+CommitInfo{repo='GitHub', hash='244d2ed6a9ec10adea7bbdd528baca36fe650d6c', version='v0.3.6'} 	https://github.com/cozy/cozy-client-js/commit/244d2ed6a9ec10adea7bbdd528baca36fe650d6c
+CommitInfo{repo='GitHub', hash='565adb8e991dc481b35f0def72f1767fe39dbd72', version='v0.3.7'} 	https://github.com/cozy/cozy-client-js/commit/565adb8e991dc481b35f0def72f1767fe39dbd72
+CommitInfo{repo='GitHub', hash='379bb670137ae5cca77e88f6debe7f5333dcf580', version='v0.3.8'} 	https://github.com/cozy/cozy-client-js/commit/379bb670137ae5cca77e88f6debe7f5333dcf580
+CommitInfo{repo='GitHub', hash='ed95ffe827a68922f0aa1abe85dde3b184bf8323', version='v0.3.9'} 	https://github.com/cozy/cozy-client-js/commit/ed95ffe827a68922f0aa1abe85dde3b184bf8323
+CommitInfo{repo='GitHub', hash='820e208831e8fd0363b4bbaae14227c7ba2ddd2f', version='v0.4.0'} 	https://github.com/cozy/cozy-client-js/commit/820e208831e8fd0363b4bbaae14227c7ba2ddd2f
+CommitInfo{repo='GitHub', hash='e54d77b7341bd56c748ab42a5b079a2978830a3f', version='v0.4.1'} 	https://github.com/cozy/cozy-client-js/commit/e54d77b7341bd56c748ab42a5b079a2978830a3f
+CommitInfo{repo='GitHub', hash='31eab3fb4b72f7e8051c0eaab70fb0666ff26807', version='v0.4.2'} 	https://github.com/cozy/cozy-client-js/commit/31eab3fb4b72f7e8051c0eaab70fb0666ff26807
+CommitInfo{repo='GitHub', hash='c0188d9262513b3b68bb4fc81a51610758a4a318', version='v0.4.3'} 	https://github.com/cozy/cozy-client-js/commit/c0188d9262513b3b68bb4fc81a51610758a4a318
+CommitInfo{repo='GitHub', hash='7079d46cd8c3a49b65ec6c3cc63623427421782d', version='v0.4.4'} 	https://github.com/cozy/cozy-client-js/commit/7079d46cd8c3a49b65ec6c3cc63623427421782d
+CommitInfo{repo='GitHub', hash='24fa17652ee9bd63d4ec1fec8ae3b04689402c15', version='v0.5.0'} 	https://github.com/cozy/cozy-client-js/commit/24fa17652ee9bd63d4ec1fec8ae3b04689402c15
+CommitInfo{repo='GitHub', hash='7e9ff9c1e00022c6eaa8042b111843a91c299b5b', version='v0.6.0'} 	https://github.com/cozy/cozy-client-js/commit/7e9ff9c1e00022c6eaa8042b111843a91c299b5b
+CommitInfo{repo='GitHub', hash='e06a2b4b64900638e9da5d2988218671de9b4f2c', version='v0.6.1'} 	https://github.com/cozy/cozy-client-js/commit/e06a2b4b64900638e9da5d2988218671de9b4f2c
+CommitInfo{repo='GitHub', hash='c9b8a630072babd381abacc3117e84a2b329f1fa', version='v0.6.2'} 	https://github.com/cozy/cozy-client-js/commit/c9b8a630072babd381abacc3117e84a2b329f1fa
+CommitInfo{repo='GitHub', hash='e7d3e3339a008f6cc1fa0004523410124cd2c5fe', version='v0.7.0'} 	https://github.com/cozy/cozy-client-js/commit/e7d3e3339a008f6cc1fa0004523410124cd2c5fe
+CommitInfo{repo='GitHub', hash='653821aecac04bf994f60045189a0c516b7e2732', version='v0.7.1'} 	https://github.com/cozy/cozy-client-js/commit/653821aecac04bf994f60045189a0c516b7e2732
+CommitInfo{repo='GitHub', hash='cf18e2af881f19028bb308941579ce427af04e31', version='v0.7.2'} 	https://github.com/cozy/cozy-client-js/commit/cf18e2af881f19028bb308941579ce427af04e31
+CommitInfo{repo='GitHub', hash='0805674ad01484057e09ab0c7ca1961de67768d3', version='v0.8.0'} 	https://github.com/cozy/cozy-client-js/commit/0805674ad01484057e09ab0c7ca1961de67768d3
+CommitInfo{repo='GitHub', hash='f7360ba1d1bdfa52a7f2225ddd263758357ab069', version='v0.8.1'} 	https://github.com/cozy/cozy-client-js/commit/f7360ba1d1bdfa52a7f2225ddd263758357ab069
+CommitInfo{repo='GitHub', hash='9bf02c14394a0f9bed2ee38b92eb3d3268113483', version='v0.8.2'} 	https://github.com/cozy/cozy-client-js/commit/9bf02c14394a0f9bed2ee38b92eb3d3268113483
+CommitInfo{repo='GitHub', hash='6eb5db54aff85e899bb05207533054a68b1b2771', version='v0.8.3'} 	https://github.com/cozy/cozy-client-js/commit/6eb5db54aff85e899bb05207533054a68b1b2771
+CommitInfo{repo='GitHub', hash='58b877ea538a3203c610f152e265ac91c8aedde2', version='v0.9.0'} 	https://github.com/cozy/cozy-client-js/commit/58b877ea538a3203c610f152e265ac91c8aedde2
+CommitInfo{repo='GitHub', hash='31eab3fb4b72f7e8051c0eaab70fb0666ff26807', version='v4.0.2'} 	https://github.com/cozy/cozy-client-js/commit/31eab3fb4b72f7e8051c0eaab70fb0666ff26807
 
 Project A:
 ProjectVersionFixed(version=0.0.1, dependency=null, time=2016-12-14 11:38:50 UTC)

@@ -2,181 +2,186 @@
 Project information
 org.scala-sbt:compiler-interface (2237306)	org.scala-lang:scala-library (359772)	Package Manager: Maven
 RepoID: 3237920
+Repo Owner/Name: sbt/zinc
+Repository type: GitHub
+
+ https://github.com/sbt/zinc/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='1a7c973a27275061948414bed49172f2cb156521', version='0.11.3-new-launcher-only'}
-CommitInfo{repo='GitHub', hash='4964461fd730ab899647a12ca83d3c592c3d40eb', version='0.13.5-RC5'}
-CommitInfo{repo='GitHub', hash='f38f599157c413cdf31c8639788b25ee6f9d46da', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='f41565e08ed973a2f1aa5099246300f6706d81b3', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='93224cd0cc93968df2d89416ecde6e070a802afd', version='v0.1.0-M1'}
-CommitInfo{repo='GitHub', hash='fc0f538b8591129950e18dcbbd1bb05d6525dd3f', version='v0.1.0-M2'}
-CommitInfo{repo='GitHub', hash='8e85ae1f4f793e12649cfd9eaf06b314068058f0', version='v0.1.0-M3'}
-CommitInfo{repo='GitHub', hash='3fc72a2114f536d525f7fe9b2d8335b2dc209672', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='e0103293f6b616a12182422f5ddc4b2d71b05c75', version='v0.11.0-RC0'}
-CommitInfo{repo='GitHub', hash='ea25020a2322166a34e45e9c17648e8ed7050922', version='v0.11.0-RC1'}
-CommitInfo{repo='GitHub', hash='fe4ffd9e0df1bfac9f16c6c1304b4062dbaa30a1', version='v0.11.1'}
-CommitInfo{repo='GitHub', hash='1e47d727e6a6518adf244765ff37045b61b2463b', version='v0.11.2'}
-CommitInfo{repo='GitHub', hash='cb680a4c0e486d54fb94ef5c35ca26cb75f1e1e0', version='v0.11.3'}
-CommitInfo{repo='GitHub', hash='eba00901c07cd71394e501882a86ede06384eaff', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='cbd1572f54ee8953fb0550ae7837ecf79c27c20b', version='v0.12.0-Beta'}
-CommitInfo{repo='GitHub', hash='f37f5a247111367b0256de6e6e674f101b67892d', version='v0.12.0-Beta2'}
-CommitInfo{repo='GitHub', hash='ba471548469a18e129da94a2c3c9d4d93f3844d4', version='v0.12.0-M1'}
-CommitInfo{repo='GitHub', hash='a2a50e417ab9d398ab99052d050cd1b6f4a6158d', version='v0.12.0-M2'}
-CommitInfo{repo='GitHub', hash='c16647a288fbaef2391510b30f19f2e9d2f9b27c', version='v0.12.0-RC1'}
-CommitInfo{repo='GitHub', hash='9869b0d9ca26f8bc840e01fc7e470e47e1058dac', version='v0.12.0-RC2'}
-CommitInfo{repo='GitHub', hash='3094c8a224095884f11b7223b2437883f4b096af', version='v0.12.0-RC3'}
-CommitInfo{repo='GitHub', hash='6145ccddbdeba4229a5fdd290c706f5c3a028e15', version='v0.12.0-RC4'}
-CommitInfo{repo='GitHub', hash='a099df81129b2e3b16db98df4d9cfaf630761cd6', version='v0.12.1'}
-CommitInfo{repo='GitHub', hash='db221cdcccf6183bed8759e6cd86661f2513da39', version='v0.12.1-RC1'}
-CommitInfo{repo='GitHub', hash='ef8438e70c233b6af62779e1d18a7f81ef339cae', version='v0.12.1-RC2'}
-CommitInfo{repo='GitHub', hash='3ef267cdc619c9627459856fffb6255fb64c631b', version='v0.12.2'}
-CommitInfo{repo='GitHub', hash='7c3c231b8d02ffe78cde3bdb7bc4cfbdb3eabd47', version='v0.12.2-RC1'}
-CommitInfo{repo='GitHub', hash='b23a2051af1e762546902aec80d06976d87d48fc', version='v0.12.2-RC2'}
-CommitInfo{repo='GitHub', hash='50d64b28cc56c713f2954ff5ce187f95f9709bee', version='v0.12.3'}
-CommitInfo{repo='GitHub', hash='6e264d05874f28f085a2bacf22344c1ddc75fd7c', version='v0.12.3-RC1'}
-CommitInfo{repo='GitHub', hash='7f5692a73f75d7e78cc157260ca45a4cd3de0e16', version='v0.12.3-RC2'}
-CommitInfo{repo='GitHub', hash='20a0f71646c311db7530ab7cdf0e6c8fb43ddf19', version='v0.12.4'}
-CommitInfo{repo='GitHub', hash='f95af4c1277556077a26311238e04caf0e64c6ec', version='v0.12.4-M1'}
-CommitInfo{repo='GitHub', hash='17d205fb4753d64f3e4676f5c8b48f9684b3b606', version='v0.12.4-RC1'}
-CommitInfo{repo='GitHub', hash='ec18a6c6743d54ead5c719450a7bef4e3f9fad93', version='v0.12.4-RC2'}
-CommitInfo{repo='GitHub', hash='acb7a782f18f3da80a7f8b81b0f179a43f3a868e', version='v0.12.4-RC3'}
-CommitInfo{repo='GitHub', hash='63df5b8504842b188d98f29e186b22efcd77be05', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='a2a0d25ab5289b35c34f38141ceb3c088490b62e', version='v0.13.0-Beta2'}
-CommitInfo{repo='GitHub', hash='0bad8787172d44e760df619a46924ad1f6410aa9', version='v0.13.0-for-scala-2.11.0-M5'}
-CommitInfo{repo='GitHub', hash='fc2d6c7822867213053451f4d54a204583c012b6', version='v0.13.0-M1'}
-CommitInfo{repo='GitHub', hash='74f1f9dc4ffb58e602aa5f6f412cc3d491858631', version='v0.13.0-M2'}
-CommitInfo{repo='GitHub', hash='7905cee053dbad828226f7d8006ebf995a36ea4a', version='v0.13.0-RC1'}
-CommitInfo{repo='GitHub', hash='299692fa38131f3f099c919a9389ed4a5ab463e7', version='v0.13.0-RC2'}
-CommitInfo{repo='GitHub', hash='9aa8598000ec8456f658fa00e00075e4cb932c1f', version='v0.13.0-RC3'}
-CommitInfo{repo='GitHub', hash='090870c4fb386790e8b2cec85788a01182a42c76', version='v0.13.0-RC4'}
-CommitInfo{repo='GitHub', hash='3f33db774d7046619d22ffa4734296fdff92316e', version='v0.13.0-RC5'}
-CommitInfo{repo='GitHub', hash='2d250791d3811a7e4395117169832a949a0eeab4', version='v0.13.1'}
-CommitInfo{repo='GitHub', hash='b62307021eeb034f2392730f4439e3be015f0a55', version='v0.13.10'}
-CommitInfo{repo='GitHub', hash='c0002cb8c622816fe73f5a8cfc49c656f30214bf', version='v0.13.10-RC1'}
-CommitInfo{repo='GitHub', hash='02ca59929ec3fc992c4ffd05b7bee2a2a59ebea3', version='v0.13.10-RC2'}
-CommitInfo{repo='GitHub', hash='7aa7da7ed4ac3c5b37b307740ea801227a52ffe2', version='v0.13.10-RC3'}
-CommitInfo{repo='GitHub', hash='41927f648158dfaf982e3949a22cae8dacb17072', version='v0.13.11'}
-CommitInfo{repo='GitHub', hash='c27132e29a93aec9734abfc6672df168733fabf4', version='v0.13.12-M1'}
-CommitInfo{repo='GitHub', hash='267cb0fc3a8429840cba59dde3083338ee6cb38c', version='v0.13.12-RC1'}
-CommitInfo{repo='GitHub', hash='c1772798abe2d345e840f2069491c788c847321e', version='v0.13.1-M1'}
-CommitInfo{repo='GitHub', hash='6b7b09ffa11d54a3452439b5531d984afc3e174c', version='v0.13.1-RC1'}
-CommitInfo{repo='GitHub', hash='8eb4dacff7aa21c683c2e52367c88ab90bb2cce4', version='v0.13.1-RC2'}
-CommitInfo{repo='GitHub', hash='ff5d1672dcf271c1c0b2a8e2aa918990fcdd479d', version='v0.13.1-RC3'}
-CommitInfo{repo='GitHub', hash='9a53166aa5344901b070115980561a9a936750bc', version='v0.13.1-RC4'}
-CommitInfo{repo='GitHub', hash='da3fdd6951f508f7e54e170d2073b1f18153c173', version='v0.13.1-RC5'}
-CommitInfo{repo='GitHub', hash='ed75ff024244420f03f81bf9a0c2f77dcc7bd9d1', version='v0.13.2'}
-CommitInfo{repo='GitHub', hash='ae856763ffb8a1211d6ab66f0ea52c49b3a45889', version='v0.13.2-M1'}
-CommitInfo{repo='GitHub', hash='724e36a83a4b237172f07b18090ccdef5f1fee69', version='v0.13.2-M2'}
-CommitInfo{repo='GitHub', hash='6be96b882f9bd14df382e2377a179b96d1f7fef6', version='v0.13.2-M3'}
-CommitInfo{repo='GitHub', hash='5da93644ed00568ee6c699952085bff7a53b997b', version='v0.13.2-MSERVER-1'}
-CommitInfo{repo='GitHub', hash='5fcd4683f64c7b6114cd6afff8c450a32b9e3090', version='v0.13.2-RC1'}
-CommitInfo{repo='GitHub', hash='a63634cbdc51b116e6ff35350af2f016ff6dff0d', version='v0.13.2-RC2'}
-CommitInfo{repo='GitHub', hash='e45cd69240c1fee819f9555ff61796f95fbbee08', version='v0.13.2-RC3'}
-CommitInfo{repo='GitHub', hash='22a8d1875a70425d7035b617939af72eb46734a4', version='v0.13.5'}
-CommitInfo{repo='GitHub', hash='ea4dd26710a78f5892b4149bf5e128017ef5c938', version='v0.13.5-M1'}
-CommitInfo{repo='GitHub', hash='876c067baa4a41e1ecc636e8d9f0d72c22e3f533', version='v0.13.5-M2'}
-CommitInfo{repo='GitHub', hash='91223de336932cdf94d3025a3307b672ddfd564d', version='v0.13.5-M3'}
-CommitInfo{repo='GitHub', hash='1ee9d980da3966f9c44a67a7e2b4c6165a28a28e', version='v0.13.5-M4'}
-CommitInfo{repo='GitHub', hash='6a04a2118a32e630935e725ebd6f5919961f25b9', version='v0.13.5-RC1'}
-CommitInfo{repo='GitHub', hash='1cc9b5c2a697f5f2bafecdf67de017e4f786b51c', version='v0.13.5-RC2'}
-CommitInfo{repo='GitHub', hash='b4f882ff6b2ca2ce9aa82508705df693a08f9aad', version='v0.13.5-RC3'}
-CommitInfo{repo='GitHub', hash='35cb33491bb44c3dc288e58d13845015cb9e8e41', version='v0.13.5-RC4'}
-CommitInfo{repo='GitHub', hash='b292af9b555d9937bd4ea580c10c07eec3943605', version='v0.13.6'}
-CommitInfo{repo='GitHub', hash='fc4b1c089df36a4941fc24cd87817ba7fce72a51', version='v0.13.6-M1'}
-CommitInfo{repo='GitHub', hash='d5d3e7589852c49f0ffffeea87c5beb3614254d9', version='v0.13.6-M2'}
-CommitInfo{repo='GitHub', hash='62bd59ad0f6bcb52c18f0571fce79c02e3007396', version='v0.13.6-MSERVER-1'}
-CommitInfo{repo='GitHub', hash='03ff41298dff5d12a6023aabcf23816381864d0b', version='v0.13.6-MSERVER-2'}
-CommitInfo{repo='GitHub', hash='3630a5b4acbc39f6608849d890cc6bc4fb1b176c', version='v0.13.6-MSERVER-3'}
-CommitInfo{repo='GitHub', hash='b6b8c7823c892d391ba013d3134a81f8483e3c49', version='v0.13.6-MSERVER-4'}
-CommitInfo{repo='GitHub', hash='d52478788d23057d42e73d8625ba10e74f146669', version='v0.13.6-RC1'}
-CommitInfo{repo='GitHub', hash='5c4dca872e3c9472bb4d127359d2a430e2b911c4', version='v0.13.6-RC2'}
-CommitInfo{repo='GitHub', hash='c2623d79d17b5080fdba811f6e3d0e954937ee39', version='v0.13.6-RC3'}
-CommitInfo{repo='GitHub', hash='ccc74c3dd5bb6f08d4361d87a6b0a258aff340aa', version='v0.13.7'}
-CommitInfo{repo='GitHub', hash='6430adc7a768b65b14167361464063cab2777635', version='v0.13.7-M1'}
-CommitInfo{repo='GitHub', hash='b0adb7a5f0ab2443d0256662d2709bbc0204937a', version='v0.13.7-M2'}
-CommitInfo{repo='GitHub', hash='b1dedefae5fc6d057d1c7d2244b5c1e366c8af73', version='v0.13.7-M3'}
-CommitInfo{repo='GitHub', hash='8917e7519325497fb92be9ceac5c09dd0cdec4c1', version='v0.13.7-RC1'}
-CommitInfo{repo='GitHub', hash='7cd24d0a230c8a461d9932ca4ce20d2c6ebe1cd3', version='v0.13.7-RC2'}
-CommitInfo{repo='GitHub', hash='bcddb790c66d44f90b0a05b7527ebee6a1793178', version='v0.13.7-RC3'}
-CommitInfo{repo='GitHub', hash='076ea53f3b1f7ced032906ded89a34b2a580ac45', version='v0.13.7-RC4'}
-CommitInfo{repo='GitHub', hash='f21e8398639308a998364b646dc496230d3a8318', version='v0.13.8'}
-CommitInfo{repo='GitHub', hash='ff92e9f06b046e17f8f16dfecf83b112bd565661', version='v0.13.8-M1'}
-CommitInfo{repo='GitHub', hash='63ba4b745a9dce98e54a3f28c1e60c4fe62d461a', version='v0.13.8-M2'}
-CommitInfo{repo='GitHub', hash='46e9e658bfcaf98735b91013675c3d2ed2f97708', version='v0.13.8-M3'}
-CommitInfo{repo='GitHub', hash='01377737132ee4ad3bad8ff2b12d77136a0f8963', version='v0.13.8-M4'}
-CommitInfo{repo='GitHub', hash='e633d74cf4d654b2cfdecc9130ffd961a019571f', version='v0.13.8-M5'}
-CommitInfo{repo='GitHub', hash='cf18bab8f989121f331f062ee504670c75391201', version='v0.13.8-M6'}
-CommitInfo{repo='GitHub', hash='19aa80e50fd9635893c1c4fcc36b912028ee615c', version='v0.13.8-RC1'}
-CommitInfo{repo='GitHub', hash='3673cec96a5769d48d14d7d5efadea15c50f8859', version='v0.13.9'}
-CommitInfo{repo='GitHub', hash='08ed7dfd538de46941f8b10b2de421d85d277350', version='v0.13.9-M1'}
-CommitInfo{repo='GitHub', hash='3597c855af85952dbb6a8d6fbe4a030cb433b3f7', version='v0.13.9-M2'}
-CommitInfo{repo='GitHub', hash='fd3e5cea18178774b3e42d3ec014c960754076c8', version='v0.13.9-M3'}
-CommitInfo{repo='GitHub', hash='67e4c0ba51aad5e17d99bc006cee8b23929d9439', version='v0.13.9-M4'}
-CommitInfo{repo='GitHub', hash='656088de9ade20b930af2654504fd9fb045cc1fb', version='v0.13.9-RC1'}
-CommitInfo{repo='GitHub', hash='ee2c8969bd84ed198c12ccecbdfa54608e407ab0', version='v0.13.9-RC2'}
-CommitInfo{repo='GitHub', hash='56926549521a4131d30edd38d19cf3cf2425570f', version='v0.13.9-RC3'}
-CommitInfo{repo='GitHub', hash='40915f90105e5c5525a0452c34d3cf932df255e8', version='v0.7.5'}
-CommitInfo{repo='GitHub', hash='d1a9790afb284fffa6bfdcee5920f2225ba318d6', version='v0.7.7'}
-CommitInfo{repo='GitHub', hash='2b28173b76a70872c25c12df83df87c281b52028', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='3ce0e5dd2d7e4e8d6558d086f47fecbc29037eff', version='v0.9.1'}
-CommitInfo{repo='GitHub', hash='ed5bb1a2d43f84d9122e8f7973ef1b7a5c67e4e1', version='v0.9.10'}
-CommitInfo{repo='GitHub', hash='5933e7b29cd9465a88144e4b091900a7536f29c4', version='v0.9.2'}
-CommitInfo{repo='GitHub', hash='14d2adb4bc3726129143ee400152978e54a909de', version='v0.9.3'}
-CommitInfo{repo='GitHub', hash='6db465003512780a55c0664eca00a2f2f3083645', version='v0.9.4'}
-CommitInfo{repo='GitHub', hash='081f296d55f17ea7f35303ebea9bacd271c8b900', version='v0.9.5'}
-CommitInfo{repo='GitHub', hash='ffc3d9b496231e7d1a967a7150d7642486be1ce5', version='v0.9.6'}
-CommitInfo{repo='GitHub', hash='63acaca0a6e2495b6bd0bcb7e85d573502231cdb', version='v0.9.7'}
-CommitInfo{repo='GitHub', hash='41162b248492ca336ab0fa2f4be0e399b478efac', version='v0.9.8'}
-CommitInfo{repo='GitHub', hash='9002720933c620f9287209f52e8eff57e70b8c6b', version='v0.9.9'}
-CommitInfo{repo='GitHub', hash='f64d93079b9b38d8f1f8ff6c2c7297d4a88c2cbd', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='f72ab91ca5e478e4b7ffa1bb81a23888a1707faa', version='v1.0.0-M1'}
-CommitInfo{repo='GitHub', hash='53de01d94d59f86229ab7bac5a0179886abca590', version='v1.0.0-M2'}
-CommitInfo{repo='GitHub', hash='399c57dea29238ed33cd9726331db461da61003a', version='v1.0.0-M3'}
-CommitInfo{repo='GitHub', hash='70d9441163df7af87cef6b0795fac54f27544bd7', version='v1.0.0-M4'}
-CommitInfo{repo='GitHub', hash='8825fd91bc3c2b1455f416dd429bf6aef5538976', version='v1.0.0-M5'}
-CommitInfo{repo='GitHub', hash='f404385d9919802ec395c68eac3f8bfc3709ff61', version='v1.0.0-RC3'}
-CommitInfo{repo='GitHub', hash='6c4aa90578c877843e0f32e21e5b90eaafb3d5a9', version='v1.0.0-X1'}
-CommitInfo{repo='GitHub', hash='01dffd4d6b503cc81856a8bb42f33acb22930eff', version='v1.0.0-X10'}
-CommitInfo{repo='GitHub', hash='43863512cabe46cdc37185b084ff4fe22952dbd2', version='v1.0.0-X11'}
-CommitInfo{repo='GitHub', hash='11d5dba9bcf244aa1f5c5e108b2840cc57a12418', version='v1.0.0-X12'}
-CommitInfo{repo='GitHub', hash='70e6c45289dfa53e305b2ba41d727ebd057bf37f', version='v1.0.0-X13'}
-CommitInfo{repo='GitHub', hash='457b007cb3f1542b49e0ec90a36666870ed6c0a8', version='v1.0.0-X14'}
-CommitInfo{repo='GitHub', hash='b8078fb8e4a2ffca1b508941654ce7d8289475b0', version='v1.0.0-X15'}
-CommitInfo{repo='GitHub', hash='0c9baf3e4b2c0272f2e1f29923096880341f5a9d', version='v1.0.0-X16'}
-CommitInfo{repo='GitHub', hash='25a3a5da92d65a5bc6bc31419e87ed64ac2c174d', version='v1.0.0-X17'}
-CommitInfo{repo='GitHub', hash='a2d20e30501d692f6b8dbb3935b432dc4c8699c0', version='v1.0.0-X18'}
-CommitInfo{repo='GitHub', hash='9cf670bffb84d739929ba955f18eaa2993206209', version='v1.0.0-X19'}
-CommitInfo{repo='GitHub', hash='7c2fe1d690fe984e32d19dba024892d6f48b876c', version='v1.0.0-X20'}
-CommitInfo{repo='GitHub', hash='b8b365f3e86a2c2634d92a27b5543f5c750b998b', version='v1.0.0-X3'}
-CommitInfo{repo='GitHub', hash='ef32d39020d1ba42bbe047c02e78421bfb9f353f', version='v1.0.0-X4'}
-CommitInfo{repo='GitHub', hash='7d63695f7172a462dbc1a33c08024ab8d6f85510', version='v1.0.0-X5'}
-CommitInfo{repo='GitHub', hash='f6a8f68e7daef1940649eaf07e354c57d1a15105', version='v1.0.0-X6'}
-CommitInfo{repo='GitHub', hash='461e579d62219d33c6740230f66ee7eacd713636', version='v1.0.0-X7'}
-CommitInfo{repo='GitHub', hash='a879971fd7abb52e309866db9cd6592e25f31442', version='v1.0.0-X8'}
-CommitInfo{repo='GitHub', hash='3d113727b83b4242873d76e1557940e5a9047b31', version='v1.0.0-X9'}
-CommitInfo{repo='GitHub', hash='d987923a00fbc47d040354a55fbf20924047fcc9', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='b9d2cef37500c1708b5160f6f62bd4bda381941e', version='v1.0.2'}
-CommitInfo{repo='GitHub', hash='a94a4f9b717848132077db41c63a71aacdb5f9e2', version='v1.0.3'}
-CommitInfo{repo='GitHub', hash='7ff88ff1e04f98e23773e32f053b93d3ac32fa32', version='v1.0.4'}
-CommitInfo{repo='GitHub', hash='70e23716e5a23dc960f7f81053c8ba8d20a01569', version='v1.0.5'}
-CommitInfo{repo='GitHub', hash='becbb5b88b98e98089476959b198cf98f1138bea', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='0c3d3d42e6ca2404fd30342d7da3de381b4a3472', version='v1.1.0-RC1'}
-CommitInfo{repo='GitHub', hash='731128af220b8e852e193569b5001954442105e8', version='v1.1.0-RC2'}
-CommitInfo{repo='GitHub', hash='34dcfb5671d7a791ceb667e0f7dd3282388ba885', version='v1.1.0-RC3'}
-CommitInfo{repo='GitHub', hash='3925dea97f643682c0347fecd3d673047795eb8d', version='v1.1.0-RC4'}
-CommitInfo{repo='GitHub', hash='73765c8425f67f5c24f5fd3a671c21559eb17b7d', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='989e7eca01130be8c676a2e7f424cf4c41649590', version='v1.1.2'}
-CommitInfo{repo='GitHub', hash='82f4dbed19c2a84d1724feff8878dd63a95981d6', version='v1.1.3'}
-CommitInfo{repo='GitHub', hash='7054298f80b999fc5dc3c761879a5e0343fe0aba', version='v1.1.4'}
-CommitInfo{repo='GitHub', hash='31e2bc7bbc82b4f3b8902e9e73c9644832923e74', version='v1.1.5'}
-CommitInfo{repo='GitHub', hash='85f33656379519de626bef33a3294ab7e0d7f5c3', version='v1.1.6'}
-CommitInfo{repo='GitHub', hash='65e5475a6049e26903c2e7fc740e1115ce604210', version='v1.1.7'}
-CommitInfo{repo='GitHub', hash='65e5475a6049e26903c2e7fc740e1115ce604210', version='v1.1.7'}
-CommitInfo{repo='GitHub', hash='830e3d08fcce2f04ac13e0802b0dd5ee39655334', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='75eea0de6d27f9f969d315482c2f3cde2d425a55', version='v1.2.0-M1'}
-CommitInfo{repo='GitHub', hash='75eea0de6d27f9f969d315482c2f3cde2d425a55', version='v1.2.0-M1'}
-CommitInfo{repo='GitHub', hash='56598a9f6b6fa48d66e954bb6d93950c817df168', version='v1.2.0-M2'}
-CommitInfo{repo='GitHub', hash='e82c84286ff13c626d86182148ccfee011012ba1', version='v1.2.1'}
-CommitInfo{repo='GitHub', hash='1ea87a61e6df05ef15998a4fc486060cb8e02d70', version='v1.2.2'}
+CommitInfo{repo='GitHub', hash='1a7c973a27275061948414bed49172f2cb156521', version='0.11.3-new-launcher-only'} 	https://github.com/sbt/zinc/commit/1a7c973a27275061948414bed49172f2cb156521
+CommitInfo{repo='GitHub', hash='4964461fd730ab899647a12ca83d3c592c3d40eb', version='0.13.5-RC5'} 	https://github.com/sbt/zinc/commit/4964461fd730ab899647a12ca83d3c592c3d40eb
+CommitInfo{repo='GitHub', hash='f38f599157c413cdf31c8639788b25ee6f9d46da', version='v0.10.0'} 	https://github.com/sbt/zinc/commit/f38f599157c413cdf31c8639788b25ee6f9d46da
+CommitInfo{repo='GitHub', hash='f41565e08ed973a2f1aa5099246300f6706d81b3', version='v0.10.1'} 	https://github.com/sbt/zinc/commit/f41565e08ed973a2f1aa5099246300f6706d81b3
+CommitInfo{repo='GitHub', hash='93224cd0cc93968df2d89416ecde6e070a802afd', version='v0.1.0-M1'} 	https://github.com/sbt/zinc/commit/93224cd0cc93968df2d89416ecde6e070a802afd
+CommitInfo{repo='GitHub', hash='fc0f538b8591129950e18dcbbd1bb05d6525dd3f', version='v0.1.0-M2'} 	https://github.com/sbt/zinc/commit/fc0f538b8591129950e18dcbbd1bb05d6525dd3f
+CommitInfo{repo='GitHub', hash='8e85ae1f4f793e12649cfd9eaf06b314068058f0', version='v0.1.0-M3'} 	https://github.com/sbt/zinc/commit/8e85ae1f4f793e12649cfd9eaf06b314068058f0
+CommitInfo{repo='GitHub', hash='3fc72a2114f536d525f7fe9b2d8335b2dc209672', version='v0.11.0'} 	https://github.com/sbt/zinc/commit/3fc72a2114f536d525f7fe9b2d8335b2dc209672
+CommitInfo{repo='GitHub', hash='e0103293f6b616a12182422f5ddc4b2d71b05c75', version='v0.11.0-RC0'} 	https://github.com/sbt/zinc/commit/e0103293f6b616a12182422f5ddc4b2d71b05c75
+CommitInfo{repo='GitHub', hash='ea25020a2322166a34e45e9c17648e8ed7050922', version='v0.11.0-RC1'} 	https://github.com/sbt/zinc/commit/ea25020a2322166a34e45e9c17648e8ed7050922
+CommitInfo{repo='GitHub', hash='fe4ffd9e0df1bfac9f16c6c1304b4062dbaa30a1', version='v0.11.1'} 	https://github.com/sbt/zinc/commit/fe4ffd9e0df1bfac9f16c6c1304b4062dbaa30a1
+CommitInfo{repo='GitHub', hash='1e47d727e6a6518adf244765ff37045b61b2463b', version='v0.11.2'} 	https://github.com/sbt/zinc/commit/1e47d727e6a6518adf244765ff37045b61b2463b
+CommitInfo{repo='GitHub', hash='cb680a4c0e486d54fb94ef5c35ca26cb75f1e1e0', version='v0.11.3'} 	https://github.com/sbt/zinc/commit/cb680a4c0e486d54fb94ef5c35ca26cb75f1e1e0
+CommitInfo{repo='GitHub', hash='eba00901c07cd71394e501882a86ede06384eaff', version='v0.12.0'} 	https://github.com/sbt/zinc/commit/eba00901c07cd71394e501882a86ede06384eaff
+CommitInfo{repo='GitHub', hash='cbd1572f54ee8953fb0550ae7837ecf79c27c20b', version='v0.12.0-Beta'} 	https://github.com/sbt/zinc/commit/cbd1572f54ee8953fb0550ae7837ecf79c27c20b
+CommitInfo{repo='GitHub', hash='f37f5a247111367b0256de6e6e674f101b67892d', version='v0.12.0-Beta2'} 	https://github.com/sbt/zinc/commit/f37f5a247111367b0256de6e6e674f101b67892d
+CommitInfo{repo='GitHub', hash='ba471548469a18e129da94a2c3c9d4d93f3844d4', version='v0.12.0-M1'} 	https://github.com/sbt/zinc/commit/ba471548469a18e129da94a2c3c9d4d93f3844d4
+CommitInfo{repo='GitHub', hash='a2a50e417ab9d398ab99052d050cd1b6f4a6158d', version='v0.12.0-M2'} 	https://github.com/sbt/zinc/commit/a2a50e417ab9d398ab99052d050cd1b6f4a6158d
+CommitInfo{repo='GitHub', hash='c16647a288fbaef2391510b30f19f2e9d2f9b27c', version='v0.12.0-RC1'} 	https://github.com/sbt/zinc/commit/c16647a288fbaef2391510b30f19f2e9d2f9b27c
+CommitInfo{repo='GitHub', hash='9869b0d9ca26f8bc840e01fc7e470e47e1058dac', version='v0.12.0-RC2'} 	https://github.com/sbt/zinc/commit/9869b0d9ca26f8bc840e01fc7e470e47e1058dac
+CommitInfo{repo='GitHub', hash='3094c8a224095884f11b7223b2437883f4b096af', version='v0.12.0-RC3'} 	https://github.com/sbt/zinc/commit/3094c8a224095884f11b7223b2437883f4b096af
+CommitInfo{repo='GitHub', hash='6145ccddbdeba4229a5fdd290c706f5c3a028e15', version='v0.12.0-RC4'} 	https://github.com/sbt/zinc/commit/6145ccddbdeba4229a5fdd290c706f5c3a028e15
+CommitInfo{repo='GitHub', hash='a099df81129b2e3b16db98df4d9cfaf630761cd6', version='v0.12.1'} 	https://github.com/sbt/zinc/commit/a099df81129b2e3b16db98df4d9cfaf630761cd6
+CommitInfo{repo='GitHub', hash='db221cdcccf6183bed8759e6cd86661f2513da39', version='v0.12.1-RC1'} 	https://github.com/sbt/zinc/commit/db221cdcccf6183bed8759e6cd86661f2513da39
+CommitInfo{repo='GitHub', hash='ef8438e70c233b6af62779e1d18a7f81ef339cae', version='v0.12.1-RC2'} 	https://github.com/sbt/zinc/commit/ef8438e70c233b6af62779e1d18a7f81ef339cae
+CommitInfo{repo='GitHub', hash='3ef267cdc619c9627459856fffb6255fb64c631b', version='v0.12.2'} 	https://github.com/sbt/zinc/commit/3ef267cdc619c9627459856fffb6255fb64c631b
+CommitInfo{repo='GitHub', hash='7c3c231b8d02ffe78cde3bdb7bc4cfbdb3eabd47', version='v0.12.2-RC1'} 	https://github.com/sbt/zinc/commit/7c3c231b8d02ffe78cde3bdb7bc4cfbdb3eabd47
+CommitInfo{repo='GitHub', hash='b23a2051af1e762546902aec80d06976d87d48fc', version='v0.12.2-RC2'} 	https://github.com/sbt/zinc/commit/b23a2051af1e762546902aec80d06976d87d48fc
+CommitInfo{repo='GitHub', hash='50d64b28cc56c713f2954ff5ce187f95f9709bee', version='v0.12.3'} 	https://github.com/sbt/zinc/commit/50d64b28cc56c713f2954ff5ce187f95f9709bee
+CommitInfo{repo='GitHub', hash='6e264d05874f28f085a2bacf22344c1ddc75fd7c', version='v0.12.3-RC1'} 	https://github.com/sbt/zinc/commit/6e264d05874f28f085a2bacf22344c1ddc75fd7c
+CommitInfo{repo='GitHub', hash='7f5692a73f75d7e78cc157260ca45a4cd3de0e16', version='v0.12.3-RC2'} 	https://github.com/sbt/zinc/commit/7f5692a73f75d7e78cc157260ca45a4cd3de0e16
+CommitInfo{repo='GitHub', hash='20a0f71646c311db7530ab7cdf0e6c8fb43ddf19', version='v0.12.4'} 	https://github.com/sbt/zinc/commit/20a0f71646c311db7530ab7cdf0e6c8fb43ddf19
+CommitInfo{repo='GitHub', hash='f95af4c1277556077a26311238e04caf0e64c6ec', version='v0.12.4-M1'} 	https://github.com/sbt/zinc/commit/f95af4c1277556077a26311238e04caf0e64c6ec
+CommitInfo{repo='GitHub', hash='17d205fb4753d64f3e4676f5c8b48f9684b3b606', version='v0.12.4-RC1'} 	https://github.com/sbt/zinc/commit/17d205fb4753d64f3e4676f5c8b48f9684b3b606
+CommitInfo{repo='GitHub', hash='ec18a6c6743d54ead5c719450a7bef4e3f9fad93', version='v0.12.4-RC2'} 	https://github.com/sbt/zinc/commit/ec18a6c6743d54ead5c719450a7bef4e3f9fad93
+CommitInfo{repo='GitHub', hash='acb7a782f18f3da80a7f8b81b0f179a43f3a868e', version='v0.12.4-RC3'} 	https://github.com/sbt/zinc/commit/acb7a782f18f3da80a7f8b81b0f179a43f3a868e
+CommitInfo{repo='GitHub', hash='63df5b8504842b188d98f29e186b22efcd77be05', version='v0.13.0'} 	https://github.com/sbt/zinc/commit/63df5b8504842b188d98f29e186b22efcd77be05
+CommitInfo{repo='GitHub', hash='a2a0d25ab5289b35c34f38141ceb3c088490b62e', version='v0.13.0-Beta2'} 	https://github.com/sbt/zinc/commit/a2a0d25ab5289b35c34f38141ceb3c088490b62e
+CommitInfo{repo='GitHub', hash='0bad8787172d44e760df619a46924ad1f6410aa9', version='v0.13.0-for-scala-2.11.0-M5'} 	https://github.com/sbt/zinc/commit/0bad8787172d44e760df619a46924ad1f6410aa9
+CommitInfo{repo='GitHub', hash='fc2d6c7822867213053451f4d54a204583c012b6', version='v0.13.0-M1'} 	https://github.com/sbt/zinc/commit/fc2d6c7822867213053451f4d54a204583c012b6
+CommitInfo{repo='GitHub', hash='74f1f9dc4ffb58e602aa5f6f412cc3d491858631', version='v0.13.0-M2'} 	https://github.com/sbt/zinc/commit/74f1f9dc4ffb58e602aa5f6f412cc3d491858631
+CommitInfo{repo='GitHub', hash='7905cee053dbad828226f7d8006ebf995a36ea4a', version='v0.13.0-RC1'} 	https://github.com/sbt/zinc/commit/7905cee053dbad828226f7d8006ebf995a36ea4a
+CommitInfo{repo='GitHub', hash='299692fa38131f3f099c919a9389ed4a5ab463e7', version='v0.13.0-RC2'} 	https://github.com/sbt/zinc/commit/299692fa38131f3f099c919a9389ed4a5ab463e7
+CommitInfo{repo='GitHub', hash='9aa8598000ec8456f658fa00e00075e4cb932c1f', version='v0.13.0-RC3'} 	https://github.com/sbt/zinc/commit/9aa8598000ec8456f658fa00e00075e4cb932c1f
+CommitInfo{repo='GitHub', hash='090870c4fb386790e8b2cec85788a01182a42c76', version='v0.13.0-RC4'} 	https://github.com/sbt/zinc/commit/090870c4fb386790e8b2cec85788a01182a42c76
+CommitInfo{repo='GitHub', hash='3f33db774d7046619d22ffa4734296fdff92316e', version='v0.13.0-RC5'} 	https://github.com/sbt/zinc/commit/3f33db774d7046619d22ffa4734296fdff92316e
+CommitInfo{repo='GitHub', hash='2d250791d3811a7e4395117169832a949a0eeab4', version='v0.13.1'} 	https://github.com/sbt/zinc/commit/2d250791d3811a7e4395117169832a949a0eeab4
+CommitInfo{repo='GitHub', hash='b62307021eeb034f2392730f4439e3be015f0a55', version='v0.13.10'} 	https://github.com/sbt/zinc/commit/b62307021eeb034f2392730f4439e3be015f0a55
+CommitInfo{repo='GitHub', hash='c0002cb8c622816fe73f5a8cfc49c656f30214bf', version='v0.13.10-RC1'} 	https://github.com/sbt/zinc/commit/c0002cb8c622816fe73f5a8cfc49c656f30214bf
+CommitInfo{repo='GitHub', hash='02ca59929ec3fc992c4ffd05b7bee2a2a59ebea3', version='v0.13.10-RC2'} 	https://github.com/sbt/zinc/commit/02ca59929ec3fc992c4ffd05b7bee2a2a59ebea3
+CommitInfo{repo='GitHub', hash='7aa7da7ed4ac3c5b37b307740ea801227a52ffe2', version='v0.13.10-RC3'} 	https://github.com/sbt/zinc/commit/7aa7da7ed4ac3c5b37b307740ea801227a52ffe2
+CommitInfo{repo='GitHub', hash='41927f648158dfaf982e3949a22cae8dacb17072', version='v0.13.11'} 	https://github.com/sbt/zinc/commit/41927f648158dfaf982e3949a22cae8dacb17072
+CommitInfo{repo='GitHub', hash='c27132e29a93aec9734abfc6672df168733fabf4', version='v0.13.12-M1'} 	https://github.com/sbt/zinc/commit/c27132e29a93aec9734abfc6672df168733fabf4
+CommitInfo{repo='GitHub', hash='267cb0fc3a8429840cba59dde3083338ee6cb38c', version='v0.13.12-RC1'} 	https://github.com/sbt/zinc/commit/267cb0fc3a8429840cba59dde3083338ee6cb38c
+CommitInfo{repo='GitHub', hash='c1772798abe2d345e840f2069491c788c847321e', version='v0.13.1-M1'} 	https://github.com/sbt/zinc/commit/c1772798abe2d345e840f2069491c788c847321e
+CommitInfo{repo='GitHub', hash='6b7b09ffa11d54a3452439b5531d984afc3e174c', version='v0.13.1-RC1'} 	https://github.com/sbt/zinc/commit/6b7b09ffa11d54a3452439b5531d984afc3e174c
+CommitInfo{repo='GitHub', hash='8eb4dacff7aa21c683c2e52367c88ab90bb2cce4', version='v0.13.1-RC2'} 	https://github.com/sbt/zinc/commit/8eb4dacff7aa21c683c2e52367c88ab90bb2cce4
+CommitInfo{repo='GitHub', hash='ff5d1672dcf271c1c0b2a8e2aa918990fcdd479d', version='v0.13.1-RC3'} 	https://github.com/sbt/zinc/commit/ff5d1672dcf271c1c0b2a8e2aa918990fcdd479d
+CommitInfo{repo='GitHub', hash='9a53166aa5344901b070115980561a9a936750bc', version='v0.13.1-RC4'} 	https://github.com/sbt/zinc/commit/9a53166aa5344901b070115980561a9a936750bc
+CommitInfo{repo='GitHub', hash='da3fdd6951f508f7e54e170d2073b1f18153c173', version='v0.13.1-RC5'} 	https://github.com/sbt/zinc/commit/da3fdd6951f508f7e54e170d2073b1f18153c173
+CommitInfo{repo='GitHub', hash='ed75ff024244420f03f81bf9a0c2f77dcc7bd9d1', version='v0.13.2'} 	https://github.com/sbt/zinc/commit/ed75ff024244420f03f81bf9a0c2f77dcc7bd9d1
+CommitInfo{repo='GitHub', hash='ae856763ffb8a1211d6ab66f0ea52c49b3a45889', version='v0.13.2-M1'} 	https://github.com/sbt/zinc/commit/ae856763ffb8a1211d6ab66f0ea52c49b3a45889
+CommitInfo{repo='GitHub', hash='724e36a83a4b237172f07b18090ccdef5f1fee69', version='v0.13.2-M2'} 	https://github.com/sbt/zinc/commit/724e36a83a4b237172f07b18090ccdef5f1fee69
+CommitInfo{repo='GitHub', hash='6be96b882f9bd14df382e2377a179b96d1f7fef6', version='v0.13.2-M3'} 	https://github.com/sbt/zinc/commit/6be96b882f9bd14df382e2377a179b96d1f7fef6
+CommitInfo{repo='GitHub', hash='5da93644ed00568ee6c699952085bff7a53b997b', version='v0.13.2-MSERVER-1'} 	https://github.com/sbt/zinc/commit/5da93644ed00568ee6c699952085bff7a53b997b
+CommitInfo{repo='GitHub', hash='5fcd4683f64c7b6114cd6afff8c450a32b9e3090', version='v0.13.2-RC1'} 	https://github.com/sbt/zinc/commit/5fcd4683f64c7b6114cd6afff8c450a32b9e3090
+CommitInfo{repo='GitHub', hash='a63634cbdc51b116e6ff35350af2f016ff6dff0d', version='v0.13.2-RC2'} 	https://github.com/sbt/zinc/commit/a63634cbdc51b116e6ff35350af2f016ff6dff0d
+CommitInfo{repo='GitHub', hash='e45cd69240c1fee819f9555ff61796f95fbbee08', version='v0.13.2-RC3'} 	https://github.com/sbt/zinc/commit/e45cd69240c1fee819f9555ff61796f95fbbee08
+CommitInfo{repo='GitHub', hash='22a8d1875a70425d7035b617939af72eb46734a4', version='v0.13.5'} 	https://github.com/sbt/zinc/commit/22a8d1875a70425d7035b617939af72eb46734a4
+CommitInfo{repo='GitHub', hash='ea4dd26710a78f5892b4149bf5e128017ef5c938', version='v0.13.5-M1'} 	https://github.com/sbt/zinc/commit/ea4dd26710a78f5892b4149bf5e128017ef5c938
+CommitInfo{repo='GitHub', hash='876c067baa4a41e1ecc636e8d9f0d72c22e3f533', version='v0.13.5-M2'} 	https://github.com/sbt/zinc/commit/876c067baa4a41e1ecc636e8d9f0d72c22e3f533
+CommitInfo{repo='GitHub', hash='91223de336932cdf94d3025a3307b672ddfd564d', version='v0.13.5-M3'} 	https://github.com/sbt/zinc/commit/91223de336932cdf94d3025a3307b672ddfd564d
+CommitInfo{repo='GitHub', hash='1ee9d980da3966f9c44a67a7e2b4c6165a28a28e', version='v0.13.5-M4'} 	https://github.com/sbt/zinc/commit/1ee9d980da3966f9c44a67a7e2b4c6165a28a28e
+CommitInfo{repo='GitHub', hash='6a04a2118a32e630935e725ebd6f5919961f25b9', version='v0.13.5-RC1'} 	https://github.com/sbt/zinc/commit/6a04a2118a32e630935e725ebd6f5919961f25b9
+CommitInfo{repo='GitHub', hash='1cc9b5c2a697f5f2bafecdf67de017e4f786b51c', version='v0.13.5-RC2'} 	https://github.com/sbt/zinc/commit/1cc9b5c2a697f5f2bafecdf67de017e4f786b51c
+CommitInfo{repo='GitHub', hash='b4f882ff6b2ca2ce9aa82508705df693a08f9aad', version='v0.13.5-RC3'} 	https://github.com/sbt/zinc/commit/b4f882ff6b2ca2ce9aa82508705df693a08f9aad
+CommitInfo{repo='GitHub', hash='35cb33491bb44c3dc288e58d13845015cb9e8e41', version='v0.13.5-RC4'} 	https://github.com/sbt/zinc/commit/35cb33491bb44c3dc288e58d13845015cb9e8e41
+CommitInfo{repo='GitHub', hash='b292af9b555d9937bd4ea580c10c07eec3943605', version='v0.13.6'} 	https://github.com/sbt/zinc/commit/b292af9b555d9937bd4ea580c10c07eec3943605
+CommitInfo{repo='GitHub', hash='fc4b1c089df36a4941fc24cd87817ba7fce72a51', version='v0.13.6-M1'} 	https://github.com/sbt/zinc/commit/fc4b1c089df36a4941fc24cd87817ba7fce72a51
+CommitInfo{repo='GitHub', hash='d5d3e7589852c49f0ffffeea87c5beb3614254d9', version='v0.13.6-M2'} 	https://github.com/sbt/zinc/commit/d5d3e7589852c49f0ffffeea87c5beb3614254d9
+CommitInfo{repo='GitHub', hash='62bd59ad0f6bcb52c18f0571fce79c02e3007396', version='v0.13.6-MSERVER-1'} 	https://github.com/sbt/zinc/commit/62bd59ad0f6bcb52c18f0571fce79c02e3007396
+CommitInfo{repo='GitHub', hash='03ff41298dff5d12a6023aabcf23816381864d0b', version='v0.13.6-MSERVER-2'} 	https://github.com/sbt/zinc/commit/03ff41298dff5d12a6023aabcf23816381864d0b
+CommitInfo{repo='GitHub', hash='3630a5b4acbc39f6608849d890cc6bc4fb1b176c', version='v0.13.6-MSERVER-3'} 	https://github.com/sbt/zinc/commit/3630a5b4acbc39f6608849d890cc6bc4fb1b176c
+CommitInfo{repo='GitHub', hash='b6b8c7823c892d391ba013d3134a81f8483e3c49', version='v0.13.6-MSERVER-4'} 	https://github.com/sbt/zinc/commit/b6b8c7823c892d391ba013d3134a81f8483e3c49
+CommitInfo{repo='GitHub', hash='d52478788d23057d42e73d8625ba10e74f146669', version='v0.13.6-RC1'} 	https://github.com/sbt/zinc/commit/d52478788d23057d42e73d8625ba10e74f146669
+CommitInfo{repo='GitHub', hash='5c4dca872e3c9472bb4d127359d2a430e2b911c4', version='v0.13.6-RC2'} 	https://github.com/sbt/zinc/commit/5c4dca872e3c9472bb4d127359d2a430e2b911c4
+CommitInfo{repo='GitHub', hash='c2623d79d17b5080fdba811f6e3d0e954937ee39', version='v0.13.6-RC3'} 	https://github.com/sbt/zinc/commit/c2623d79d17b5080fdba811f6e3d0e954937ee39
+CommitInfo{repo='GitHub', hash='ccc74c3dd5bb6f08d4361d87a6b0a258aff340aa', version='v0.13.7'} 	https://github.com/sbt/zinc/commit/ccc74c3dd5bb6f08d4361d87a6b0a258aff340aa
+CommitInfo{repo='GitHub', hash='6430adc7a768b65b14167361464063cab2777635', version='v0.13.7-M1'} 	https://github.com/sbt/zinc/commit/6430adc7a768b65b14167361464063cab2777635
+CommitInfo{repo='GitHub', hash='b0adb7a5f0ab2443d0256662d2709bbc0204937a', version='v0.13.7-M2'} 	https://github.com/sbt/zinc/commit/b0adb7a5f0ab2443d0256662d2709bbc0204937a
+CommitInfo{repo='GitHub', hash='b1dedefae5fc6d057d1c7d2244b5c1e366c8af73', version='v0.13.7-M3'} 	https://github.com/sbt/zinc/commit/b1dedefae5fc6d057d1c7d2244b5c1e366c8af73
+CommitInfo{repo='GitHub', hash='8917e7519325497fb92be9ceac5c09dd0cdec4c1', version='v0.13.7-RC1'} 	https://github.com/sbt/zinc/commit/8917e7519325497fb92be9ceac5c09dd0cdec4c1
+CommitInfo{repo='GitHub', hash='7cd24d0a230c8a461d9932ca4ce20d2c6ebe1cd3', version='v0.13.7-RC2'} 	https://github.com/sbt/zinc/commit/7cd24d0a230c8a461d9932ca4ce20d2c6ebe1cd3
+CommitInfo{repo='GitHub', hash='bcddb790c66d44f90b0a05b7527ebee6a1793178', version='v0.13.7-RC3'} 	https://github.com/sbt/zinc/commit/bcddb790c66d44f90b0a05b7527ebee6a1793178
+CommitInfo{repo='GitHub', hash='076ea53f3b1f7ced032906ded89a34b2a580ac45', version='v0.13.7-RC4'} 	https://github.com/sbt/zinc/commit/076ea53f3b1f7ced032906ded89a34b2a580ac45
+CommitInfo{repo='GitHub', hash='f21e8398639308a998364b646dc496230d3a8318', version='v0.13.8'} 	https://github.com/sbt/zinc/commit/f21e8398639308a998364b646dc496230d3a8318
+CommitInfo{repo='GitHub', hash='ff92e9f06b046e17f8f16dfecf83b112bd565661', version='v0.13.8-M1'} 	https://github.com/sbt/zinc/commit/ff92e9f06b046e17f8f16dfecf83b112bd565661
+CommitInfo{repo='GitHub', hash='63ba4b745a9dce98e54a3f28c1e60c4fe62d461a', version='v0.13.8-M2'} 	https://github.com/sbt/zinc/commit/63ba4b745a9dce98e54a3f28c1e60c4fe62d461a
+CommitInfo{repo='GitHub', hash='46e9e658bfcaf98735b91013675c3d2ed2f97708', version='v0.13.8-M3'} 	https://github.com/sbt/zinc/commit/46e9e658bfcaf98735b91013675c3d2ed2f97708
+CommitInfo{repo='GitHub', hash='01377737132ee4ad3bad8ff2b12d77136a0f8963', version='v0.13.8-M4'} 	https://github.com/sbt/zinc/commit/01377737132ee4ad3bad8ff2b12d77136a0f8963
+CommitInfo{repo='GitHub', hash='e633d74cf4d654b2cfdecc9130ffd961a019571f', version='v0.13.8-M5'} 	https://github.com/sbt/zinc/commit/e633d74cf4d654b2cfdecc9130ffd961a019571f
+CommitInfo{repo='GitHub', hash='cf18bab8f989121f331f062ee504670c75391201', version='v0.13.8-M6'} 	https://github.com/sbt/zinc/commit/cf18bab8f989121f331f062ee504670c75391201
+CommitInfo{repo='GitHub', hash='19aa80e50fd9635893c1c4fcc36b912028ee615c', version='v0.13.8-RC1'} 	https://github.com/sbt/zinc/commit/19aa80e50fd9635893c1c4fcc36b912028ee615c
+CommitInfo{repo='GitHub', hash='3673cec96a5769d48d14d7d5efadea15c50f8859', version='v0.13.9'} 	https://github.com/sbt/zinc/commit/3673cec96a5769d48d14d7d5efadea15c50f8859
+CommitInfo{repo='GitHub', hash='08ed7dfd538de46941f8b10b2de421d85d277350', version='v0.13.9-M1'} 	https://github.com/sbt/zinc/commit/08ed7dfd538de46941f8b10b2de421d85d277350
+CommitInfo{repo='GitHub', hash='3597c855af85952dbb6a8d6fbe4a030cb433b3f7', version='v0.13.9-M2'} 	https://github.com/sbt/zinc/commit/3597c855af85952dbb6a8d6fbe4a030cb433b3f7
+CommitInfo{repo='GitHub', hash='fd3e5cea18178774b3e42d3ec014c960754076c8', version='v0.13.9-M3'} 	https://github.com/sbt/zinc/commit/fd3e5cea18178774b3e42d3ec014c960754076c8
+CommitInfo{repo='GitHub', hash='67e4c0ba51aad5e17d99bc006cee8b23929d9439', version='v0.13.9-M4'} 	https://github.com/sbt/zinc/commit/67e4c0ba51aad5e17d99bc006cee8b23929d9439
+CommitInfo{repo='GitHub', hash='656088de9ade20b930af2654504fd9fb045cc1fb', version='v0.13.9-RC1'} 	https://github.com/sbt/zinc/commit/656088de9ade20b930af2654504fd9fb045cc1fb
+CommitInfo{repo='GitHub', hash='ee2c8969bd84ed198c12ccecbdfa54608e407ab0', version='v0.13.9-RC2'} 	https://github.com/sbt/zinc/commit/ee2c8969bd84ed198c12ccecbdfa54608e407ab0
+CommitInfo{repo='GitHub', hash='56926549521a4131d30edd38d19cf3cf2425570f', version='v0.13.9-RC3'} 	https://github.com/sbt/zinc/commit/56926549521a4131d30edd38d19cf3cf2425570f
+CommitInfo{repo='GitHub', hash='40915f90105e5c5525a0452c34d3cf932df255e8', version='v0.7.5'} 	https://github.com/sbt/zinc/commit/40915f90105e5c5525a0452c34d3cf932df255e8
+CommitInfo{repo='GitHub', hash='d1a9790afb284fffa6bfdcee5920f2225ba318d6', version='v0.7.7'} 	https://github.com/sbt/zinc/commit/d1a9790afb284fffa6bfdcee5920f2225ba318d6
+CommitInfo{repo='GitHub', hash='2b28173b76a70872c25c12df83df87c281b52028', version='v0.9.0'} 	https://github.com/sbt/zinc/commit/2b28173b76a70872c25c12df83df87c281b52028
+CommitInfo{repo='GitHub', hash='3ce0e5dd2d7e4e8d6558d086f47fecbc29037eff', version='v0.9.1'} 	https://github.com/sbt/zinc/commit/3ce0e5dd2d7e4e8d6558d086f47fecbc29037eff
+CommitInfo{repo='GitHub', hash='ed5bb1a2d43f84d9122e8f7973ef1b7a5c67e4e1', version='v0.9.10'} 	https://github.com/sbt/zinc/commit/ed5bb1a2d43f84d9122e8f7973ef1b7a5c67e4e1
+CommitInfo{repo='GitHub', hash='5933e7b29cd9465a88144e4b091900a7536f29c4', version='v0.9.2'} 	https://github.com/sbt/zinc/commit/5933e7b29cd9465a88144e4b091900a7536f29c4
+CommitInfo{repo='GitHub', hash='14d2adb4bc3726129143ee400152978e54a909de', version='v0.9.3'} 	https://github.com/sbt/zinc/commit/14d2adb4bc3726129143ee400152978e54a909de
+CommitInfo{repo='GitHub', hash='6db465003512780a55c0664eca00a2f2f3083645', version='v0.9.4'} 	https://github.com/sbt/zinc/commit/6db465003512780a55c0664eca00a2f2f3083645
+CommitInfo{repo='GitHub', hash='081f296d55f17ea7f35303ebea9bacd271c8b900', version='v0.9.5'} 	https://github.com/sbt/zinc/commit/081f296d55f17ea7f35303ebea9bacd271c8b900
+CommitInfo{repo='GitHub', hash='ffc3d9b496231e7d1a967a7150d7642486be1ce5', version='v0.9.6'} 	https://github.com/sbt/zinc/commit/ffc3d9b496231e7d1a967a7150d7642486be1ce5
+CommitInfo{repo='GitHub', hash='63acaca0a6e2495b6bd0bcb7e85d573502231cdb', version='v0.9.7'} 	https://github.com/sbt/zinc/commit/63acaca0a6e2495b6bd0bcb7e85d573502231cdb
+CommitInfo{repo='GitHub', hash='41162b248492ca336ab0fa2f4be0e399b478efac', version='v0.9.8'} 	https://github.com/sbt/zinc/commit/41162b248492ca336ab0fa2f4be0e399b478efac
+CommitInfo{repo='GitHub', hash='9002720933c620f9287209f52e8eff57e70b8c6b', version='v0.9.9'} 	https://github.com/sbt/zinc/commit/9002720933c620f9287209f52e8eff57e70b8c6b
+CommitInfo{repo='GitHub', hash='f64d93079b9b38d8f1f8ff6c2c7297d4a88c2cbd', version='v1.0.0'} 	https://github.com/sbt/zinc/commit/f64d93079b9b38d8f1f8ff6c2c7297d4a88c2cbd
+CommitInfo{repo='GitHub', hash='f72ab91ca5e478e4b7ffa1bb81a23888a1707faa', version='v1.0.0-M1'} 	https://github.com/sbt/zinc/commit/f72ab91ca5e478e4b7ffa1bb81a23888a1707faa
+CommitInfo{repo='GitHub', hash='53de01d94d59f86229ab7bac5a0179886abca590', version='v1.0.0-M2'} 	https://github.com/sbt/zinc/commit/53de01d94d59f86229ab7bac5a0179886abca590
+CommitInfo{repo='GitHub', hash='399c57dea29238ed33cd9726331db461da61003a', version='v1.0.0-M3'} 	https://github.com/sbt/zinc/commit/399c57dea29238ed33cd9726331db461da61003a
+CommitInfo{repo='GitHub', hash='70d9441163df7af87cef6b0795fac54f27544bd7', version='v1.0.0-M4'} 	https://github.com/sbt/zinc/commit/70d9441163df7af87cef6b0795fac54f27544bd7
+CommitInfo{repo='GitHub', hash='8825fd91bc3c2b1455f416dd429bf6aef5538976', version='v1.0.0-M5'} 	https://github.com/sbt/zinc/commit/8825fd91bc3c2b1455f416dd429bf6aef5538976
+CommitInfo{repo='GitHub', hash='f404385d9919802ec395c68eac3f8bfc3709ff61', version='v1.0.0-RC3'} 	https://github.com/sbt/zinc/commit/f404385d9919802ec395c68eac3f8bfc3709ff61
+CommitInfo{repo='GitHub', hash='6c4aa90578c877843e0f32e21e5b90eaafb3d5a9', version='v1.0.0-X1'} 	https://github.com/sbt/zinc/commit/6c4aa90578c877843e0f32e21e5b90eaafb3d5a9
+CommitInfo{repo='GitHub', hash='01dffd4d6b503cc81856a8bb42f33acb22930eff', version='v1.0.0-X10'} 	https://github.com/sbt/zinc/commit/01dffd4d6b503cc81856a8bb42f33acb22930eff
+CommitInfo{repo='GitHub', hash='43863512cabe46cdc37185b084ff4fe22952dbd2', version='v1.0.0-X11'} 	https://github.com/sbt/zinc/commit/43863512cabe46cdc37185b084ff4fe22952dbd2
+CommitInfo{repo='GitHub', hash='11d5dba9bcf244aa1f5c5e108b2840cc57a12418', version='v1.0.0-X12'} 	https://github.com/sbt/zinc/commit/11d5dba9bcf244aa1f5c5e108b2840cc57a12418
+CommitInfo{repo='GitHub', hash='70e6c45289dfa53e305b2ba41d727ebd057bf37f', version='v1.0.0-X13'} 	https://github.com/sbt/zinc/commit/70e6c45289dfa53e305b2ba41d727ebd057bf37f
+CommitInfo{repo='GitHub', hash='457b007cb3f1542b49e0ec90a36666870ed6c0a8', version='v1.0.0-X14'} 	https://github.com/sbt/zinc/commit/457b007cb3f1542b49e0ec90a36666870ed6c0a8
+CommitInfo{repo='GitHub', hash='b8078fb8e4a2ffca1b508941654ce7d8289475b0', version='v1.0.0-X15'} 	https://github.com/sbt/zinc/commit/b8078fb8e4a2ffca1b508941654ce7d8289475b0
+CommitInfo{repo='GitHub', hash='0c9baf3e4b2c0272f2e1f29923096880341f5a9d', version='v1.0.0-X16'} 	https://github.com/sbt/zinc/commit/0c9baf3e4b2c0272f2e1f29923096880341f5a9d
+CommitInfo{repo='GitHub', hash='25a3a5da92d65a5bc6bc31419e87ed64ac2c174d', version='v1.0.0-X17'} 	https://github.com/sbt/zinc/commit/25a3a5da92d65a5bc6bc31419e87ed64ac2c174d
+CommitInfo{repo='GitHub', hash='a2d20e30501d692f6b8dbb3935b432dc4c8699c0', version='v1.0.0-X18'} 	https://github.com/sbt/zinc/commit/a2d20e30501d692f6b8dbb3935b432dc4c8699c0
+CommitInfo{repo='GitHub', hash='9cf670bffb84d739929ba955f18eaa2993206209', version='v1.0.0-X19'} 	https://github.com/sbt/zinc/commit/9cf670bffb84d739929ba955f18eaa2993206209
+CommitInfo{repo='GitHub', hash='7c2fe1d690fe984e32d19dba024892d6f48b876c', version='v1.0.0-X20'} 	https://github.com/sbt/zinc/commit/7c2fe1d690fe984e32d19dba024892d6f48b876c
+CommitInfo{repo='GitHub', hash='b8b365f3e86a2c2634d92a27b5543f5c750b998b', version='v1.0.0-X3'} 	https://github.com/sbt/zinc/commit/b8b365f3e86a2c2634d92a27b5543f5c750b998b
+CommitInfo{repo='GitHub', hash='ef32d39020d1ba42bbe047c02e78421bfb9f353f', version='v1.0.0-X4'} 	https://github.com/sbt/zinc/commit/ef32d39020d1ba42bbe047c02e78421bfb9f353f
+CommitInfo{repo='GitHub', hash='7d63695f7172a462dbc1a33c08024ab8d6f85510', version='v1.0.0-X5'} 	https://github.com/sbt/zinc/commit/7d63695f7172a462dbc1a33c08024ab8d6f85510
+CommitInfo{repo='GitHub', hash='f6a8f68e7daef1940649eaf07e354c57d1a15105', version='v1.0.0-X6'} 	https://github.com/sbt/zinc/commit/f6a8f68e7daef1940649eaf07e354c57d1a15105
+CommitInfo{repo='GitHub', hash='461e579d62219d33c6740230f66ee7eacd713636', version='v1.0.0-X7'} 	https://github.com/sbt/zinc/commit/461e579d62219d33c6740230f66ee7eacd713636
+CommitInfo{repo='GitHub', hash='a879971fd7abb52e309866db9cd6592e25f31442', version='v1.0.0-X8'} 	https://github.com/sbt/zinc/commit/a879971fd7abb52e309866db9cd6592e25f31442
+CommitInfo{repo='GitHub', hash='3d113727b83b4242873d76e1557940e5a9047b31', version='v1.0.0-X9'} 	https://github.com/sbt/zinc/commit/3d113727b83b4242873d76e1557940e5a9047b31
+CommitInfo{repo='GitHub', hash='d987923a00fbc47d040354a55fbf20924047fcc9', version='v1.0.1'} 	https://github.com/sbt/zinc/commit/d987923a00fbc47d040354a55fbf20924047fcc9
+CommitInfo{repo='GitHub', hash='b9d2cef37500c1708b5160f6f62bd4bda381941e', version='v1.0.2'} 	https://github.com/sbt/zinc/commit/b9d2cef37500c1708b5160f6f62bd4bda381941e
+CommitInfo{repo='GitHub', hash='a94a4f9b717848132077db41c63a71aacdb5f9e2', version='v1.0.3'} 	https://github.com/sbt/zinc/commit/a94a4f9b717848132077db41c63a71aacdb5f9e2
+CommitInfo{repo='GitHub', hash='7ff88ff1e04f98e23773e32f053b93d3ac32fa32', version='v1.0.4'} 	https://github.com/sbt/zinc/commit/7ff88ff1e04f98e23773e32f053b93d3ac32fa32
+CommitInfo{repo='GitHub', hash='70e23716e5a23dc960f7f81053c8ba8d20a01569', version='v1.0.5'} 	https://github.com/sbt/zinc/commit/70e23716e5a23dc960f7f81053c8ba8d20a01569
+CommitInfo{repo='GitHub', hash='becbb5b88b98e98089476959b198cf98f1138bea', version='v1.1.0'} 	https://github.com/sbt/zinc/commit/becbb5b88b98e98089476959b198cf98f1138bea
+CommitInfo{repo='GitHub', hash='0c3d3d42e6ca2404fd30342d7da3de381b4a3472', version='v1.1.0-RC1'} 	https://github.com/sbt/zinc/commit/0c3d3d42e6ca2404fd30342d7da3de381b4a3472
+CommitInfo{repo='GitHub', hash='731128af220b8e852e193569b5001954442105e8', version='v1.1.0-RC2'} 	https://github.com/sbt/zinc/commit/731128af220b8e852e193569b5001954442105e8
+CommitInfo{repo='GitHub', hash='34dcfb5671d7a791ceb667e0f7dd3282388ba885', version='v1.1.0-RC3'} 	https://github.com/sbt/zinc/commit/34dcfb5671d7a791ceb667e0f7dd3282388ba885
+CommitInfo{repo='GitHub', hash='3925dea97f643682c0347fecd3d673047795eb8d', version='v1.1.0-RC4'} 	https://github.com/sbt/zinc/commit/3925dea97f643682c0347fecd3d673047795eb8d
+CommitInfo{repo='GitHub', hash='73765c8425f67f5c24f5fd3a671c21559eb17b7d', version='v1.1.1'} 	https://github.com/sbt/zinc/commit/73765c8425f67f5c24f5fd3a671c21559eb17b7d
+CommitInfo{repo='GitHub', hash='989e7eca01130be8c676a2e7f424cf4c41649590', version='v1.1.2'} 	https://github.com/sbt/zinc/commit/989e7eca01130be8c676a2e7f424cf4c41649590
+CommitInfo{repo='GitHub', hash='82f4dbed19c2a84d1724feff8878dd63a95981d6', version='v1.1.3'} 	https://github.com/sbt/zinc/commit/82f4dbed19c2a84d1724feff8878dd63a95981d6
+CommitInfo{repo='GitHub', hash='7054298f80b999fc5dc3c761879a5e0343fe0aba', version='v1.1.4'} 	https://github.com/sbt/zinc/commit/7054298f80b999fc5dc3c761879a5e0343fe0aba
+CommitInfo{repo='GitHub', hash='31e2bc7bbc82b4f3b8902e9e73c9644832923e74', version='v1.1.5'} 	https://github.com/sbt/zinc/commit/31e2bc7bbc82b4f3b8902e9e73c9644832923e74
+CommitInfo{repo='GitHub', hash='85f33656379519de626bef33a3294ab7e0d7f5c3', version='v1.1.6'} 	https://github.com/sbt/zinc/commit/85f33656379519de626bef33a3294ab7e0d7f5c3
+CommitInfo{repo='GitHub', hash='65e5475a6049e26903c2e7fc740e1115ce604210', version='v1.1.7'} 	https://github.com/sbt/zinc/commit/65e5475a6049e26903c2e7fc740e1115ce604210
+CommitInfo{repo='GitHub', hash='65e5475a6049e26903c2e7fc740e1115ce604210', version='v1.1.7'} 	https://github.com/sbt/zinc/commit/65e5475a6049e26903c2e7fc740e1115ce604210
+CommitInfo{repo='GitHub', hash='830e3d08fcce2f04ac13e0802b0dd5ee39655334', version='v1.2.0'} 	https://github.com/sbt/zinc/commit/830e3d08fcce2f04ac13e0802b0dd5ee39655334
+CommitInfo{repo='GitHub', hash='75eea0de6d27f9f969d315482c2f3cde2d425a55', version='v1.2.0-M1'} 	https://github.com/sbt/zinc/commit/75eea0de6d27f9f969d315482c2f3cde2d425a55
+CommitInfo{repo='GitHub', hash='75eea0de6d27f9f969d315482c2f3cde2d425a55', version='v1.2.0-M1'} 	https://github.com/sbt/zinc/commit/75eea0de6d27f9f969d315482c2f3cde2d425a55
+CommitInfo{repo='GitHub', hash='56598a9f6b6fa48d66e954bb6d93950c817df168', version='v1.2.0-M2'} 	https://github.com/sbt/zinc/commit/56598a9f6b6fa48d66e954bb6d93950c817df168
+CommitInfo{repo='GitHub', hash='e82c84286ff13c626d86182148ccfee011012ba1', version='v1.2.1'} 	https://github.com/sbt/zinc/commit/e82c84286ff13c626d86182148ccfee011012ba1
+CommitInfo{repo='GitHub', hash='1ea87a61e6df05ef15998a4fc486060cb8e02d70', version='v1.2.2'} 	https://github.com/sbt/zinc/commit/1ea87a61e6df05ef15998a4fc486060cb8e02d70
 
 Project A:
 ProjectVersionFixed(version=0.1.0-M1, dependency=null, time=2015-11-13 21:34:26 UTC)

@@ -2,48 +2,53 @@
 Project information
 com.twitter:parquet-encoding (400841)	commons-codec:commons-codec (340080)	Package Manager: Maven
 RepoID: 547500
+Repo Owner/Name: apache/parquet-mr
+Repository type: GitHub
+
+ https://github.com/apache/parquet-mr/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='afdb341bfcf127f543018b9079d2e52df5b73f47', version='apache-parquet-1.7.0'}
-CommitInfo{repo='GitHub', hash='0024da98d900682ab9c1380c6c67432a57e984ad', version='apache-parquet-1.8.0'}
-CommitInfo{repo='GitHub', hash='06210eb201f108d189ebb1fdfd446c24b6d6121c', version='apache-parquet-1.8.1'}
-CommitInfo{repo='GitHub', hash='beaf00345158fb64ce9802211b8872e56fde7dea', version='apache-parquet-1.8.2'}
-CommitInfo{repo='GitHub', hash='cf7b0545adf8de1c9558aa01677000a6ed1bfd87', version='apache-parquet-1.9.0'}
-CommitInfo{repo='GitHub', hash='70ce63623049bc0c172ec954a663460530df4c07', version='apache-parquet-mr-1.6.0-incubating'}
-CommitInfo{repo='GitHub', hash='efdfec10d60e9dbeef51ad67d6ba1e0d41c60ce9', version='parquet-1.0.0'}
-CommitInfo{repo='GitHub', hash='5f3522201b07e8112a3f6f9308b297f1af2beb23', version='parquet-1.0.0-t1'}
-CommitInfo{repo='GitHub', hash='811682ca1eda260d13c2d3fe86faf166241cf1c0', version='parquet-1.0.0-t2'}
-CommitInfo{repo='GitHub', hash='c5ce10a2523ae6bef4e2584ea326c6839ba2fa35', version='parquet-1.0.0-t3'}
-CommitInfo{repo='GitHub', hash='58eedcfb3d44d7f611ef6a5bc7a01c1edf72a4a3', version='parquet-1.0.1'}
-CommitInfo{repo='GitHub', hash='752be2d8d7baab0e646466268f347ae74ebd7174', version='parquet-1.1.0'}
-CommitInfo{repo='GitHub', hash='4586bc59de060137212e72a6a2db41fd9752bcd1', version='parquet-1.1.1'}
-CommitInfo{repo='GitHub', hash='e58ac41b89843165f2f79c5cf2fa8627d2df650b', version='parquet-1.1.2'}
-CommitInfo{repo='GitHub', hash='88293588ca46ec760f4dedb8ed813980337901ab', version='parquet-1.2.0'}
-CommitInfo{repo='GitHub', hash='a7c256126c7c77c211eefdd84a6e874a33c15b9f', version='parquet-1.2.1'}
-CommitInfo{repo='GitHub', hash='142f6a25fc2548d7e8c6085d8663cc394178bd86', version='parquet-1.2.10'}
-CommitInfo{repo='GitHub', hash='55c8af9491e8e35c5a1bb25f410268c8f98e90b7', version='parquet-1.2.2'}
-CommitInfo{repo='GitHub', hash='945416d7f37e912c43077e069cda9f4ba920e368', version='parquet-1.2.3'}
-CommitInfo{repo='GitHub', hash='df42424a2cef5b7b56ee8c41539a129f4807ce0b', version='parquet-1.2.4'}
-CommitInfo{repo='GitHub', hash='11b92f34058e78d846cec899253672fb4e4ffee2', version='parquet-1.2.5'}
-CommitInfo{repo='GitHub', hash='d9173da49c341b23b0e67f1be4dd57a1256858e2', version='parquet-1.2.6'}
-CommitInfo{repo='GitHub', hash='abdebf7f6c4fb06c58e97aaedd8719de6184e1a2', version='parquet-1.2.7'}
-CommitInfo{repo='GitHub', hash='9ed38e0d0a4825557720313a18a38052d09fe2b9', version='parquet-1.2.8'}
-CommitInfo{repo='GitHub', hash='a4f5bb147228b9c76c59ec35207165fde243f027', version='parquet-1.2.9'}
-CommitInfo{repo='GitHub', hash='f0ef6e8790636dbd3aed50905d7c95d4b896529a', version='parquet-1.3.0'}
-CommitInfo{repo='GitHub', hash='c07d2bc9031a12559ab900912377658b13efa252', version='parquet-1.3.1'}
-CommitInfo{repo='GitHub', hash='2590b1c6e38b0945d134ed7c9ea0620ae1838230', version='parquet-1.3.2'}
-CommitInfo{repo='GitHub', hash='b01cd6da6904046d155d41258e01f4837945ea5f', version='parquet-1.4.0'}
-CommitInfo{repo='GitHub', hash='aebdd916208ea0a8147cb1f74eb6879d62079443', version='parquet-1.4.1'}
-CommitInfo{repo='GitHub', hash='f4421fbc742ea0be602f10806bd868e581d5097d', version='parquet-1.4.2'}
-CommitInfo{repo='GitHub', hash='4687eae0205a9742c708f6a9017f241a46a512ca', version='parquet-1.4.3'}
-CommitInfo{repo='GitHub', hash='641d9972c8e659f52c64b8a63ea344eb5e36f535', version='parquet-1.5.0'}
-CommitInfo{repo='GitHub', hash='381c2514ca28c8e38a0190ecd2a71b11c7072849', version='parquet-1.6.0rc1'}
-CommitInfo{repo='GitHub', hash='60565ad05cdc77a6c4bf9bfabc82b2c3ba05839e', version='parquet-1.6.0rc2'}
-CommitInfo{repo='GitHub', hash='9b3e9f6eacd40e2af7f3d6d1d15f81e7195a3072', version='parquet-1.6.0rc3'}
-CommitInfo{repo='GitHub', hash='7c0e8efb04f9984b95d83f8321f7d38d97a9d273', version='parquet-1.6.0rc4'}
-CommitInfo{repo='GitHub', hash='d7b27cfafe913b4b65d8d5ee6209a6b3a22efac3', version='parquet-1.6.0rc5'}
-CommitInfo{repo='GitHub', hash='efd844cb9053709e7291c5195aab93e8d40b3961', version='parquet-1.6.0rc6'}
-CommitInfo{repo='GitHub', hash='c9c169e2036b04199864da3f1a48aff1f2383943', version='parquet-1.6.0rc7'}
-CommitInfo{repo='GitHub', hash='5faf635bae35c5b02df0a8bebfef0546eab67656', version='parquet-1.8.0rc1'}
+CommitInfo{repo='GitHub', hash='afdb341bfcf127f543018b9079d2e52df5b73f47', version='apache-parquet-1.7.0'} 	https://github.com/apache/parquet-mr/commit/afdb341bfcf127f543018b9079d2e52df5b73f47
+CommitInfo{repo='GitHub', hash='0024da98d900682ab9c1380c6c67432a57e984ad', version='apache-parquet-1.8.0'} 	https://github.com/apache/parquet-mr/commit/0024da98d900682ab9c1380c6c67432a57e984ad
+CommitInfo{repo='GitHub', hash='06210eb201f108d189ebb1fdfd446c24b6d6121c', version='apache-parquet-1.8.1'} 	https://github.com/apache/parquet-mr/commit/06210eb201f108d189ebb1fdfd446c24b6d6121c
+CommitInfo{repo='GitHub', hash='beaf00345158fb64ce9802211b8872e56fde7dea', version='apache-parquet-1.8.2'} 	https://github.com/apache/parquet-mr/commit/beaf00345158fb64ce9802211b8872e56fde7dea
+CommitInfo{repo='GitHub', hash='cf7b0545adf8de1c9558aa01677000a6ed1bfd87', version='apache-parquet-1.9.0'} 	https://github.com/apache/parquet-mr/commit/cf7b0545adf8de1c9558aa01677000a6ed1bfd87
+CommitInfo{repo='GitHub', hash='70ce63623049bc0c172ec954a663460530df4c07', version='apache-parquet-mr-1.6.0-incubating'} 	https://github.com/apache/parquet-mr/commit/70ce63623049bc0c172ec954a663460530df4c07
+CommitInfo{repo='GitHub', hash='efdfec10d60e9dbeef51ad67d6ba1e0d41c60ce9', version='parquet-1.0.0'} 	https://github.com/apache/parquet-mr/commit/efdfec10d60e9dbeef51ad67d6ba1e0d41c60ce9
+CommitInfo{repo='GitHub', hash='5f3522201b07e8112a3f6f9308b297f1af2beb23', version='parquet-1.0.0-t1'} 	https://github.com/apache/parquet-mr/commit/5f3522201b07e8112a3f6f9308b297f1af2beb23
+CommitInfo{repo='GitHub', hash='811682ca1eda260d13c2d3fe86faf166241cf1c0', version='parquet-1.0.0-t2'} 	https://github.com/apache/parquet-mr/commit/811682ca1eda260d13c2d3fe86faf166241cf1c0
+CommitInfo{repo='GitHub', hash='c5ce10a2523ae6bef4e2584ea326c6839ba2fa35', version='parquet-1.0.0-t3'} 	https://github.com/apache/parquet-mr/commit/c5ce10a2523ae6bef4e2584ea326c6839ba2fa35
+CommitInfo{repo='GitHub', hash='58eedcfb3d44d7f611ef6a5bc7a01c1edf72a4a3', version='parquet-1.0.1'} 	https://github.com/apache/parquet-mr/commit/58eedcfb3d44d7f611ef6a5bc7a01c1edf72a4a3
+CommitInfo{repo='GitHub', hash='752be2d8d7baab0e646466268f347ae74ebd7174', version='parquet-1.1.0'} 	https://github.com/apache/parquet-mr/commit/752be2d8d7baab0e646466268f347ae74ebd7174
+CommitInfo{repo='GitHub', hash='4586bc59de060137212e72a6a2db41fd9752bcd1', version='parquet-1.1.1'} 	https://github.com/apache/parquet-mr/commit/4586bc59de060137212e72a6a2db41fd9752bcd1
+CommitInfo{repo='GitHub', hash='e58ac41b89843165f2f79c5cf2fa8627d2df650b', version='parquet-1.1.2'} 	https://github.com/apache/parquet-mr/commit/e58ac41b89843165f2f79c5cf2fa8627d2df650b
+CommitInfo{repo='GitHub', hash='88293588ca46ec760f4dedb8ed813980337901ab', version='parquet-1.2.0'} 	https://github.com/apache/parquet-mr/commit/88293588ca46ec760f4dedb8ed813980337901ab
+CommitInfo{repo='GitHub', hash='a7c256126c7c77c211eefdd84a6e874a33c15b9f', version='parquet-1.2.1'} 	https://github.com/apache/parquet-mr/commit/a7c256126c7c77c211eefdd84a6e874a33c15b9f
+CommitInfo{repo='GitHub', hash='142f6a25fc2548d7e8c6085d8663cc394178bd86', version='parquet-1.2.10'} 	https://github.com/apache/parquet-mr/commit/142f6a25fc2548d7e8c6085d8663cc394178bd86
+CommitInfo{repo='GitHub', hash='55c8af9491e8e35c5a1bb25f410268c8f98e90b7', version='parquet-1.2.2'} 	https://github.com/apache/parquet-mr/commit/55c8af9491e8e35c5a1bb25f410268c8f98e90b7
+CommitInfo{repo='GitHub', hash='945416d7f37e912c43077e069cda9f4ba920e368', version='parquet-1.2.3'} 	https://github.com/apache/parquet-mr/commit/945416d7f37e912c43077e069cda9f4ba920e368
+CommitInfo{repo='GitHub', hash='df42424a2cef5b7b56ee8c41539a129f4807ce0b', version='parquet-1.2.4'} 	https://github.com/apache/parquet-mr/commit/df42424a2cef5b7b56ee8c41539a129f4807ce0b
+CommitInfo{repo='GitHub', hash='11b92f34058e78d846cec899253672fb4e4ffee2', version='parquet-1.2.5'} 	https://github.com/apache/parquet-mr/commit/11b92f34058e78d846cec899253672fb4e4ffee2
+CommitInfo{repo='GitHub', hash='d9173da49c341b23b0e67f1be4dd57a1256858e2', version='parquet-1.2.6'} 	https://github.com/apache/parquet-mr/commit/d9173da49c341b23b0e67f1be4dd57a1256858e2
+CommitInfo{repo='GitHub', hash='abdebf7f6c4fb06c58e97aaedd8719de6184e1a2', version='parquet-1.2.7'} 	https://github.com/apache/parquet-mr/commit/abdebf7f6c4fb06c58e97aaedd8719de6184e1a2
+CommitInfo{repo='GitHub', hash='9ed38e0d0a4825557720313a18a38052d09fe2b9', version='parquet-1.2.8'} 	https://github.com/apache/parquet-mr/commit/9ed38e0d0a4825557720313a18a38052d09fe2b9
+CommitInfo{repo='GitHub', hash='a4f5bb147228b9c76c59ec35207165fde243f027', version='parquet-1.2.9'} 	https://github.com/apache/parquet-mr/commit/a4f5bb147228b9c76c59ec35207165fde243f027
+CommitInfo{repo='GitHub', hash='f0ef6e8790636dbd3aed50905d7c95d4b896529a', version='parquet-1.3.0'} 	https://github.com/apache/parquet-mr/commit/f0ef6e8790636dbd3aed50905d7c95d4b896529a
+CommitInfo{repo='GitHub', hash='c07d2bc9031a12559ab900912377658b13efa252', version='parquet-1.3.1'} 	https://github.com/apache/parquet-mr/commit/c07d2bc9031a12559ab900912377658b13efa252
+CommitInfo{repo='GitHub', hash='2590b1c6e38b0945d134ed7c9ea0620ae1838230', version='parquet-1.3.2'} 	https://github.com/apache/parquet-mr/commit/2590b1c6e38b0945d134ed7c9ea0620ae1838230
+CommitInfo{repo='GitHub', hash='b01cd6da6904046d155d41258e01f4837945ea5f', version='parquet-1.4.0'} 	https://github.com/apache/parquet-mr/commit/b01cd6da6904046d155d41258e01f4837945ea5f
+CommitInfo{repo='GitHub', hash='aebdd916208ea0a8147cb1f74eb6879d62079443', version='parquet-1.4.1'} 	https://github.com/apache/parquet-mr/commit/aebdd916208ea0a8147cb1f74eb6879d62079443
+CommitInfo{repo='GitHub', hash='f4421fbc742ea0be602f10806bd868e581d5097d', version='parquet-1.4.2'} 	https://github.com/apache/parquet-mr/commit/f4421fbc742ea0be602f10806bd868e581d5097d
+CommitInfo{repo='GitHub', hash='4687eae0205a9742c708f6a9017f241a46a512ca', version='parquet-1.4.3'} 	https://github.com/apache/parquet-mr/commit/4687eae0205a9742c708f6a9017f241a46a512ca
+CommitInfo{repo='GitHub', hash='641d9972c8e659f52c64b8a63ea344eb5e36f535', version='parquet-1.5.0'} 	https://github.com/apache/parquet-mr/commit/641d9972c8e659f52c64b8a63ea344eb5e36f535
+CommitInfo{repo='GitHub', hash='381c2514ca28c8e38a0190ecd2a71b11c7072849', version='parquet-1.6.0rc1'} 	https://github.com/apache/parquet-mr/commit/381c2514ca28c8e38a0190ecd2a71b11c7072849
+CommitInfo{repo='GitHub', hash='60565ad05cdc77a6c4bf9bfabc82b2c3ba05839e', version='parquet-1.6.0rc2'} 	https://github.com/apache/parquet-mr/commit/60565ad05cdc77a6c4bf9bfabc82b2c3ba05839e
+CommitInfo{repo='GitHub', hash='9b3e9f6eacd40e2af7f3d6d1d15f81e7195a3072', version='parquet-1.6.0rc3'} 	https://github.com/apache/parquet-mr/commit/9b3e9f6eacd40e2af7f3d6d1d15f81e7195a3072
+CommitInfo{repo='GitHub', hash='7c0e8efb04f9984b95d83f8321f7d38d97a9d273', version='parquet-1.6.0rc4'} 	https://github.com/apache/parquet-mr/commit/7c0e8efb04f9984b95d83f8321f7d38d97a9d273
+CommitInfo{repo='GitHub', hash='d7b27cfafe913b4b65d8d5ee6209a6b3a22efac3', version='parquet-1.6.0rc5'} 	https://github.com/apache/parquet-mr/commit/d7b27cfafe913b4b65d8d5ee6209a6b3a22efac3
+CommitInfo{repo='GitHub', hash='efd844cb9053709e7291c5195aab93e8d40b3961', version='parquet-1.6.0rc6'} 	https://github.com/apache/parquet-mr/commit/efd844cb9053709e7291c5195aab93e8d40b3961
+CommitInfo{repo='GitHub', hash='c9c169e2036b04199864da3f1a48aff1f2383943', version='parquet-1.6.0rc7'} 	https://github.com/apache/parquet-mr/commit/c9c169e2036b04199864da3f1a48aff1f2383943
+CommitInfo{repo='GitHub', hash='5faf635bae35c5b02df0a8bebfef0546eab67656', version='parquet-1.8.0rc1'} 	https://github.com/apache/parquet-mr/commit/5faf635bae35c5b02df0a8bebfef0546eab67656
 
 Project A:
 ProjectVersionFixed(version=1.0.0, dependency=1.7, time=2013-07-30 04:27:09 UTC),	Latest, "DependencyVersion(version=20041127.091804, time=2005-10-15 07:27:54 UTC)"

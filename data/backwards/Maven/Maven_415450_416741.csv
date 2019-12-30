@@ -2,75 +2,80 @@
 Project information
 org.sonatype.nexus.plugins:nexus-rrb-plugin (415450)	junit:junit (416741)	Package Manager: Maven
 RepoID: 172625
+Repo Owner/Name: sonatype/nexus-oss
+Repository type: GitHub
+
+ https://github.com/sonatype/nexus-oss/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='63114b89cfd6cfe57ddaada4126c0800f4cd8aec', version='2.6.0-02'}
-CommitInfo{repo='GitHub', hash='6e5d2f0311ba253270d3c392fe5f1885dcdefc5e', version='nexus-2.10.0-01'}
-CommitInfo{repo='GitHub', hash='7748a4f2241589e57f733021af8b4790a8b35a1e', version='nexus-2.10.0-02'}
-CommitInfo{repo='GitHub', hash='9732550c81cc00d0198b074e76b36550f9cbf9cc', version='nexus-2.11.0-01'}
-CommitInfo{repo='GitHub', hash='4ba1677855241e995ae57a558c6157f9ca56627b', version='nexus-2.11.0-02'}
-CommitInfo{repo='GitHub', hash='a61039e39933f4da457e9bd55e907bb6fb25e958', version='nexus-2.11.1-01'}
-CommitInfo{repo='GitHub', hash='6c88bc741056ac3a16a84f3ef90c2e41651dd319', version='nexus-2.11.2-01'}
-CommitInfo{repo='GitHub', hash='4644a6e90db78205b33260828e170b44e09631de', version='nexus-2.11.2-02'}
-CommitInfo{repo='GitHub', hash='fe7be4fac04f6eba244b35a5ce58a8a152449bb3', version='nexus-2.11.2-03'}
-CommitInfo{repo='GitHub', hash='3a11860a6b8428846dfb17a9e2459918a5529f7c', version='nexus-2.11.2-04'}
-CommitInfo{repo='GitHub', hash='cc9b2f88fc1db0c4a193e55774f53fa31fc15f5c', version='nexus-2.11.2-05'}
-CommitInfo{repo='GitHub', hash='0c5779f451b4d07946be25ae84499fdb89a321d0', version='nexus-2.11.2-06'}
-CommitInfo{repo='GitHub', hash='e6d26541db5ad7a85e0e95de4f384a24d0e9a8f8', version='nexus-2.11.3-01'}
-CommitInfo{repo='GitHub', hash='ccd6c342122df84a76ab72a5d4a52d6ef017b4aa', version='nexus-2.11.4-01'}
-CommitInfo{repo='GitHub', hash='d2dbdcd9b38e9a8bdbd014f9d63e5fbfe015f91c', version='nexus-2.6.3-01'}
-CommitInfo{repo='GitHub', hash='532cf9db8fe9a24c5a0485e426edbc25033332e4', version='nexus-2.6.4-01'}
-CommitInfo{repo='GitHub', hash='3fae0404119b21ec44b7a4d972b240ed32243da6', version='nexus-2.6.4-02'}
-CommitInfo{repo='GitHub', hash='24d6d9ab0c51e4a4506e54ebb3cee4e8af9144b3', version='nexus-2.6.4-03'}
-CommitInfo{repo='GitHub', hash='915d636f921888878ca3bbca4898e9fc7563ed01', version='nexus-2.7.0-01'}
-CommitInfo{repo='GitHub', hash='981fedd95145b288256b494fe42cefa81f9e1c1f', version='nexus-2.7.0-02'}
-CommitInfo{repo='GitHub', hash='7a55773e2ebd18015a738d93072428c1ad3268ee', version='nexus-2.7.0-03'}
-CommitInfo{repo='GitHub', hash='5e3ddcb3819902173c531263b3caa6fad7de8795', version='nexus-2.7.0-04'}
-CommitInfo{repo='GitHub', hash='db3da64e04b87e03671b0c55400a6222de331ce8', version='nexus-2.7.0-05'}
-CommitInfo{repo='GitHub', hash='6c86b5d004f10365718f62f82c9baf2d83441976', version='nexus-2.7.0-06'}
-CommitInfo{repo='GitHub', hash='9bbf02763c80807cd50a7f81ddc9bdb83cbb2e83', version='nexus-2.7.0-alpha-1'}
-CommitInfo{repo='GitHub', hash='350616634e12109cfd5c21b8437057807edf25fa', version='nexus-2.7.0-m1'}
-CommitInfo{repo='GitHub', hash='81c3657041c86d9331f1dba2a39ed43e8b2994de', version='nexus-2.7.0-m2'}
-CommitInfo{repo='GitHub', hash='1f37675aebf55153c83b77e79760c65e2971b6ff', version='nexus-2.7.0-m3'}
-CommitInfo{repo='GitHub', hash='c896345da0c5e540f8f5acd7822e34e1d08f08cc', version='nexus-2.7.0-m4'}
-CommitInfo{repo='GitHub', hash='290dc7edc15a47c611430b72c86435af0592c09b', version='nexus-2.7.1-01'}
-CommitInfo{repo='GitHub', hash='6e6e49aab24015147a71b55a1032a54d120d92ec', version='nexus-2.7.2-01'}
-CommitInfo{repo='GitHub', hash='e46cadf84d76759503ad49bb2ac83006b3d1e2ff', version='nexus-2.7.2-02'}
-CommitInfo{repo='GitHub', hash='439aeca0b52886d99374d57a2d213941656cf190', version='nexus-2.7.2-03'}
-CommitInfo{repo='GitHub', hash='da8c491fcd93dfa8f45db628e67d31b7aee165be', version='nexus-2.8.0-01'}
-CommitInfo{repo='GitHub', hash='fc4d12cf9c1c52d2e073f50e7216f68adc22b8bd', version='nexus-2.8.0-02'}
-CommitInfo{repo='GitHub', hash='4e6a2ca8239333b90ded373b12ab6ea63bd10eea', version='nexus-2.8.0-03'}
-CommitInfo{repo='GitHub', hash='37dc32e593218881dd104c90e7687b3d354f6075', version='nexus-2.8.0-04'}
-CommitInfo{repo='GitHub', hash='d17afd694eb2f5a5d9c94d3c4f7cef795f6596a6', version='nexus-2.8.0-05'}
-CommitInfo{repo='GitHub', hash='32d788940050bde8e09afed3f612bf326464c1fd', version='nexus-2.8.0-m1'}
-CommitInfo{repo='GitHub', hash='39e8332648e1283dd7bed8493e534b7cef4e01d7', version='nexus-2.8.0-m2'}
-CommitInfo{repo='GitHub', hash='617cc806b3c75573d75b984bbc53b70e0aae0554', version='nexus-2.8.1-01'}
-CommitInfo{repo='GitHub', hash='b1c4debb10f6a9d023a980f35500df59aa16759f', version='nexus-2.8.1-m1'}
-CommitInfo{repo='GitHub', hash='87711cf65985d36fd9de544d3b435904817e6377', version='nexus-2.9.0-01'}
-CommitInfo{repo='GitHub', hash='be03096d87fea33beab4cd17f33caa74c0704e95', version='nexus-2.9.0-02'}
-CommitInfo{repo='GitHub', hash='c4167e770415d8e722b97716eccf3ccb10bc51fd', version='nexus-2.9.0-03'}
-CommitInfo{repo='GitHub', hash='e8a2a3c5884aa4a0e2d89af966a20db7553b5485', version='nexus-2.9.0-04'}
-CommitInfo{repo='GitHub', hash='585e3a5e17c3cc161761b8cd437cf34c64bf7130', version='nexus-2.9.1-01'}
-CommitInfo{repo='GitHub', hash='20b748c1024e11319687adcfdfb2ecc87d648955', version='nexus-2.9.1-02'}
-CommitInfo{repo='GitHub', hash='0d2d67220ed3814a77237d018d28f92e6450e1fd', version='nexus-2.9.2-01'}
-CommitInfo{repo='GitHub', hash='871a449fa91ba0ce2d469bef35a10da9ec63d054', version='nexus-3.0.0-b2014082101'}
-CommitInfo{repo='GitHub', hash='f6e6fa20cc9732392d9f32ddd9e71dffb1c8fad3', version='nexus-3.0.0-b2014082501'}
-CommitInfo{repo='GitHub', hash='7adda785649d795448277c218f754ce3b3e32ef0', version='nexus-3.0.0-b2014082901'}
-CommitInfo{repo='GitHub', hash='47d648d0af91a7db52a75fa532f4a23f9ebeb479', version='nexus-3.0.0-b2014092601'}
-CommitInfo{repo='GitHub', hash='31c657837eeacf577bd1d0d83308c4f9b0aa4bfe', version='nexus-3.0.0-b2014092602'}
-CommitInfo{repo='GitHub', hash='3fc02a409d860cd782d71f23aa075e3b2bfb2e5e', version='nexus-3.0.0-b2014101001'}
-CommitInfo{repo='GitHub', hash='5bb4b2d5212265de881b36f1dbd44f44d169221b', version='nexus-3.0.0-b2015020501'}
-CommitInfo{repo='GitHub', hash='027a44a2fe97a534d7f4981a92a0472a7ec6c045', version='nexus-3.0.0-b2015020701'}
-CommitInfo{repo='GitHub', hash='8fe1587c424e68f4ffd65359a920fb18eab6a022', version='nexus-oss-2.6.0-01'}
-CommitInfo{repo='GitHub', hash='d2775561fbfc0ddab2457727bbb67cf0b5b78fb0', version='nexus-oss-2.6.0-03'}
-CommitInfo{repo='GitHub', hash='65e3aba7e05ed01a777d3484b24540c1d5439ed1', version='nexus-oss-2.6.0-04'}
-CommitInfo{repo='GitHub', hash='483aada115a94dd37957b5f4b765d24487ba4ad0', version='nexus-oss-2.6.0-05'}
-CommitInfo{repo='GitHub', hash='cf8732c57cf7c2c527aa77d923a2228e834db4a9', version='nexus-oss-2.6.1-01'}
-CommitInfo{repo='GitHub', hash='f45b837e60a513cea6375496d174106b97eff63f', version='nexus-oss-2.6.1-02'}
-CommitInfo{repo='GitHub', hash='4f08cf0b9b1dfd59cb181ae79650b6f2998e49aa', version='nexus-oss-2.6.2-01'}
-CommitInfo{repo='GitHub', hash='4da24e9066a4fd6cad9083e3f0bd021dae1ac78f', version='pre-nexus-public-merge'}
-CommitInfo{repo='GitHub', hash='d845726499e155666b521bc259e6c8f9dafcba88', version='release-3.0.0-b2015060401'}
-CommitInfo{repo='GitHub', hash='f904a7756320ef451c762c1b3adc5e16376eabb3', version='release-3.0.0-b2015060901'}
-CommitInfo{repo='GitHub', hash='265d2556774c92bafdf3b91298fbcd197c3a34b8', version='release-3.0.0-b2015061001'}
+CommitInfo{repo='GitHub', hash='63114b89cfd6cfe57ddaada4126c0800f4cd8aec', version='2.6.0-02'} 	https://github.com/sonatype/nexus-oss/commit/63114b89cfd6cfe57ddaada4126c0800f4cd8aec
+CommitInfo{repo='GitHub', hash='6e5d2f0311ba253270d3c392fe5f1885dcdefc5e', version='nexus-2.10.0-01'} 	https://github.com/sonatype/nexus-oss/commit/6e5d2f0311ba253270d3c392fe5f1885dcdefc5e
+CommitInfo{repo='GitHub', hash='7748a4f2241589e57f733021af8b4790a8b35a1e', version='nexus-2.10.0-02'} 	https://github.com/sonatype/nexus-oss/commit/7748a4f2241589e57f733021af8b4790a8b35a1e
+CommitInfo{repo='GitHub', hash='9732550c81cc00d0198b074e76b36550f9cbf9cc', version='nexus-2.11.0-01'} 	https://github.com/sonatype/nexus-oss/commit/9732550c81cc00d0198b074e76b36550f9cbf9cc
+CommitInfo{repo='GitHub', hash='4ba1677855241e995ae57a558c6157f9ca56627b', version='nexus-2.11.0-02'} 	https://github.com/sonatype/nexus-oss/commit/4ba1677855241e995ae57a558c6157f9ca56627b
+CommitInfo{repo='GitHub', hash='a61039e39933f4da457e9bd55e907bb6fb25e958', version='nexus-2.11.1-01'} 	https://github.com/sonatype/nexus-oss/commit/a61039e39933f4da457e9bd55e907bb6fb25e958
+CommitInfo{repo='GitHub', hash='6c88bc741056ac3a16a84f3ef90c2e41651dd319', version='nexus-2.11.2-01'} 	https://github.com/sonatype/nexus-oss/commit/6c88bc741056ac3a16a84f3ef90c2e41651dd319
+CommitInfo{repo='GitHub', hash='4644a6e90db78205b33260828e170b44e09631de', version='nexus-2.11.2-02'} 	https://github.com/sonatype/nexus-oss/commit/4644a6e90db78205b33260828e170b44e09631de
+CommitInfo{repo='GitHub', hash='fe7be4fac04f6eba244b35a5ce58a8a152449bb3', version='nexus-2.11.2-03'} 	https://github.com/sonatype/nexus-oss/commit/fe7be4fac04f6eba244b35a5ce58a8a152449bb3
+CommitInfo{repo='GitHub', hash='3a11860a6b8428846dfb17a9e2459918a5529f7c', version='nexus-2.11.2-04'} 	https://github.com/sonatype/nexus-oss/commit/3a11860a6b8428846dfb17a9e2459918a5529f7c
+CommitInfo{repo='GitHub', hash='cc9b2f88fc1db0c4a193e55774f53fa31fc15f5c', version='nexus-2.11.2-05'} 	https://github.com/sonatype/nexus-oss/commit/cc9b2f88fc1db0c4a193e55774f53fa31fc15f5c
+CommitInfo{repo='GitHub', hash='0c5779f451b4d07946be25ae84499fdb89a321d0', version='nexus-2.11.2-06'} 	https://github.com/sonatype/nexus-oss/commit/0c5779f451b4d07946be25ae84499fdb89a321d0
+CommitInfo{repo='GitHub', hash='e6d26541db5ad7a85e0e95de4f384a24d0e9a8f8', version='nexus-2.11.3-01'} 	https://github.com/sonatype/nexus-oss/commit/e6d26541db5ad7a85e0e95de4f384a24d0e9a8f8
+CommitInfo{repo='GitHub', hash='ccd6c342122df84a76ab72a5d4a52d6ef017b4aa', version='nexus-2.11.4-01'} 	https://github.com/sonatype/nexus-oss/commit/ccd6c342122df84a76ab72a5d4a52d6ef017b4aa
+CommitInfo{repo='GitHub', hash='d2dbdcd9b38e9a8bdbd014f9d63e5fbfe015f91c', version='nexus-2.6.3-01'} 	https://github.com/sonatype/nexus-oss/commit/d2dbdcd9b38e9a8bdbd014f9d63e5fbfe015f91c
+CommitInfo{repo='GitHub', hash='532cf9db8fe9a24c5a0485e426edbc25033332e4', version='nexus-2.6.4-01'} 	https://github.com/sonatype/nexus-oss/commit/532cf9db8fe9a24c5a0485e426edbc25033332e4
+CommitInfo{repo='GitHub', hash='3fae0404119b21ec44b7a4d972b240ed32243da6', version='nexus-2.6.4-02'} 	https://github.com/sonatype/nexus-oss/commit/3fae0404119b21ec44b7a4d972b240ed32243da6
+CommitInfo{repo='GitHub', hash='24d6d9ab0c51e4a4506e54ebb3cee4e8af9144b3', version='nexus-2.6.4-03'} 	https://github.com/sonatype/nexus-oss/commit/24d6d9ab0c51e4a4506e54ebb3cee4e8af9144b3
+CommitInfo{repo='GitHub', hash='915d636f921888878ca3bbca4898e9fc7563ed01', version='nexus-2.7.0-01'} 	https://github.com/sonatype/nexus-oss/commit/915d636f921888878ca3bbca4898e9fc7563ed01
+CommitInfo{repo='GitHub', hash='981fedd95145b288256b494fe42cefa81f9e1c1f', version='nexus-2.7.0-02'} 	https://github.com/sonatype/nexus-oss/commit/981fedd95145b288256b494fe42cefa81f9e1c1f
+CommitInfo{repo='GitHub', hash='7a55773e2ebd18015a738d93072428c1ad3268ee', version='nexus-2.7.0-03'} 	https://github.com/sonatype/nexus-oss/commit/7a55773e2ebd18015a738d93072428c1ad3268ee
+CommitInfo{repo='GitHub', hash='5e3ddcb3819902173c531263b3caa6fad7de8795', version='nexus-2.7.0-04'} 	https://github.com/sonatype/nexus-oss/commit/5e3ddcb3819902173c531263b3caa6fad7de8795
+CommitInfo{repo='GitHub', hash='db3da64e04b87e03671b0c55400a6222de331ce8', version='nexus-2.7.0-05'} 	https://github.com/sonatype/nexus-oss/commit/db3da64e04b87e03671b0c55400a6222de331ce8
+CommitInfo{repo='GitHub', hash='6c86b5d004f10365718f62f82c9baf2d83441976', version='nexus-2.7.0-06'} 	https://github.com/sonatype/nexus-oss/commit/6c86b5d004f10365718f62f82c9baf2d83441976
+CommitInfo{repo='GitHub', hash='9bbf02763c80807cd50a7f81ddc9bdb83cbb2e83', version='nexus-2.7.0-alpha-1'} 	https://github.com/sonatype/nexus-oss/commit/9bbf02763c80807cd50a7f81ddc9bdb83cbb2e83
+CommitInfo{repo='GitHub', hash='350616634e12109cfd5c21b8437057807edf25fa', version='nexus-2.7.0-m1'} 	https://github.com/sonatype/nexus-oss/commit/350616634e12109cfd5c21b8437057807edf25fa
+CommitInfo{repo='GitHub', hash='81c3657041c86d9331f1dba2a39ed43e8b2994de', version='nexus-2.7.0-m2'} 	https://github.com/sonatype/nexus-oss/commit/81c3657041c86d9331f1dba2a39ed43e8b2994de
+CommitInfo{repo='GitHub', hash='1f37675aebf55153c83b77e79760c65e2971b6ff', version='nexus-2.7.0-m3'} 	https://github.com/sonatype/nexus-oss/commit/1f37675aebf55153c83b77e79760c65e2971b6ff
+CommitInfo{repo='GitHub', hash='c896345da0c5e540f8f5acd7822e34e1d08f08cc', version='nexus-2.7.0-m4'} 	https://github.com/sonatype/nexus-oss/commit/c896345da0c5e540f8f5acd7822e34e1d08f08cc
+CommitInfo{repo='GitHub', hash='290dc7edc15a47c611430b72c86435af0592c09b', version='nexus-2.7.1-01'} 	https://github.com/sonatype/nexus-oss/commit/290dc7edc15a47c611430b72c86435af0592c09b
+CommitInfo{repo='GitHub', hash='6e6e49aab24015147a71b55a1032a54d120d92ec', version='nexus-2.7.2-01'} 	https://github.com/sonatype/nexus-oss/commit/6e6e49aab24015147a71b55a1032a54d120d92ec
+CommitInfo{repo='GitHub', hash='e46cadf84d76759503ad49bb2ac83006b3d1e2ff', version='nexus-2.7.2-02'} 	https://github.com/sonatype/nexus-oss/commit/e46cadf84d76759503ad49bb2ac83006b3d1e2ff
+CommitInfo{repo='GitHub', hash='439aeca0b52886d99374d57a2d213941656cf190', version='nexus-2.7.2-03'} 	https://github.com/sonatype/nexus-oss/commit/439aeca0b52886d99374d57a2d213941656cf190
+CommitInfo{repo='GitHub', hash='da8c491fcd93dfa8f45db628e67d31b7aee165be', version='nexus-2.8.0-01'} 	https://github.com/sonatype/nexus-oss/commit/da8c491fcd93dfa8f45db628e67d31b7aee165be
+CommitInfo{repo='GitHub', hash='fc4d12cf9c1c52d2e073f50e7216f68adc22b8bd', version='nexus-2.8.0-02'} 	https://github.com/sonatype/nexus-oss/commit/fc4d12cf9c1c52d2e073f50e7216f68adc22b8bd
+CommitInfo{repo='GitHub', hash='4e6a2ca8239333b90ded373b12ab6ea63bd10eea', version='nexus-2.8.0-03'} 	https://github.com/sonatype/nexus-oss/commit/4e6a2ca8239333b90ded373b12ab6ea63bd10eea
+CommitInfo{repo='GitHub', hash='37dc32e593218881dd104c90e7687b3d354f6075', version='nexus-2.8.0-04'} 	https://github.com/sonatype/nexus-oss/commit/37dc32e593218881dd104c90e7687b3d354f6075
+CommitInfo{repo='GitHub', hash='d17afd694eb2f5a5d9c94d3c4f7cef795f6596a6', version='nexus-2.8.0-05'} 	https://github.com/sonatype/nexus-oss/commit/d17afd694eb2f5a5d9c94d3c4f7cef795f6596a6
+CommitInfo{repo='GitHub', hash='32d788940050bde8e09afed3f612bf326464c1fd', version='nexus-2.8.0-m1'} 	https://github.com/sonatype/nexus-oss/commit/32d788940050bde8e09afed3f612bf326464c1fd
+CommitInfo{repo='GitHub', hash='39e8332648e1283dd7bed8493e534b7cef4e01d7', version='nexus-2.8.0-m2'} 	https://github.com/sonatype/nexus-oss/commit/39e8332648e1283dd7bed8493e534b7cef4e01d7
+CommitInfo{repo='GitHub', hash='617cc806b3c75573d75b984bbc53b70e0aae0554', version='nexus-2.8.1-01'} 	https://github.com/sonatype/nexus-oss/commit/617cc806b3c75573d75b984bbc53b70e0aae0554
+CommitInfo{repo='GitHub', hash='b1c4debb10f6a9d023a980f35500df59aa16759f', version='nexus-2.8.1-m1'} 	https://github.com/sonatype/nexus-oss/commit/b1c4debb10f6a9d023a980f35500df59aa16759f
+CommitInfo{repo='GitHub', hash='87711cf65985d36fd9de544d3b435904817e6377', version='nexus-2.9.0-01'} 	https://github.com/sonatype/nexus-oss/commit/87711cf65985d36fd9de544d3b435904817e6377
+CommitInfo{repo='GitHub', hash='be03096d87fea33beab4cd17f33caa74c0704e95', version='nexus-2.9.0-02'} 	https://github.com/sonatype/nexus-oss/commit/be03096d87fea33beab4cd17f33caa74c0704e95
+CommitInfo{repo='GitHub', hash='c4167e770415d8e722b97716eccf3ccb10bc51fd', version='nexus-2.9.0-03'} 	https://github.com/sonatype/nexus-oss/commit/c4167e770415d8e722b97716eccf3ccb10bc51fd
+CommitInfo{repo='GitHub', hash='e8a2a3c5884aa4a0e2d89af966a20db7553b5485', version='nexus-2.9.0-04'} 	https://github.com/sonatype/nexus-oss/commit/e8a2a3c5884aa4a0e2d89af966a20db7553b5485
+CommitInfo{repo='GitHub', hash='585e3a5e17c3cc161761b8cd437cf34c64bf7130', version='nexus-2.9.1-01'} 	https://github.com/sonatype/nexus-oss/commit/585e3a5e17c3cc161761b8cd437cf34c64bf7130
+CommitInfo{repo='GitHub', hash='20b748c1024e11319687adcfdfb2ecc87d648955', version='nexus-2.9.1-02'} 	https://github.com/sonatype/nexus-oss/commit/20b748c1024e11319687adcfdfb2ecc87d648955
+CommitInfo{repo='GitHub', hash='0d2d67220ed3814a77237d018d28f92e6450e1fd', version='nexus-2.9.2-01'} 	https://github.com/sonatype/nexus-oss/commit/0d2d67220ed3814a77237d018d28f92e6450e1fd
+CommitInfo{repo='GitHub', hash='871a449fa91ba0ce2d469bef35a10da9ec63d054', version='nexus-3.0.0-b2014082101'} 	https://github.com/sonatype/nexus-oss/commit/871a449fa91ba0ce2d469bef35a10da9ec63d054
+CommitInfo{repo='GitHub', hash='f6e6fa20cc9732392d9f32ddd9e71dffb1c8fad3', version='nexus-3.0.0-b2014082501'} 	https://github.com/sonatype/nexus-oss/commit/f6e6fa20cc9732392d9f32ddd9e71dffb1c8fad3
+CommitInfo{repo='GitHub', hash='7adda785649d795448277c218f754ce3b3e32ef0', version='nexus-3.0.0-b2014082901'} 	https://github.com/sonatype/nexus-oss/commit/7adda785649d795448277c218f754ce3b3e32ef0
+CommitInfo{repo='GitHub', hash='47d648d0af91a7db52a75fa532f4a23f9ebeb479', version='nexus-3.0.0-b2014092601'} 	https://github.com/sonatype/nexus-oss/commit/47d648d0af91a7db52a75fa532f4a23f9ebeb479
+CommitInfo{repo='GitHub', hash='31c657837eeacf577bd1d0d83308c4f9b0aa4bfe', version='nexus-3.0.0-b2014092602'} 	https://github.com/sonatype/nexus-oss/commit/31c657837eeacf577bd1d0d83308c4f9b0aa4bfe
+CommitInfo{repo='GitHub', hash='3fc02a409d860cd782d71f23aa075e3b2bfb2e5e', version='nexus-3.0.0-b2014101001'} 	https://github.com/sonatype/nexus-oss/commit/3fc02a409d860cd782d71f23aa075e3b2bfb2e5e
+CommitInfo{repo='GitHub', hash='5bb4b2d5212265de881b36f1dbd44f44d169221b', version='nexus-3.0.0-b2015020501'} 	https://github.com/sonatype/nexus-oss/commit/5bb4b2d5212265de881b36f1dbd44f44d169221b
+CommitInfo{repo='GitHub', hash='027a44a2fe97a534d7f4981a92a0472a7ec6c045', version='nexus-3.0.0-b2015020701'} 	https://github.com/sonatype/nexus-oss/commit/027a44a2fe97a534d7f4981a92a0472a7ec6c045
+CommitInfo{repo='GitHub', hash='8fe1587c424e68f4ffd65359a920fb18eab6a022', version='nexus-oss-2.6.0-01'} 	https://github.com/sonatype/nexus-oss/commit/8fe1587c424e68f4ffd65359a920fb18eab6a022
+CommitInfo{repo='GitHub', hash='d2775561fbfc0ddab2457727bbb67cf0b5b78fb0', version='nexus-oss-2.6.0-03'} 	https://github.com/sonatype/nexus-oss/commit/d2775561fbfc0ddab2457727bbb67cf0b5b78fb0
+CommitInfo{repo='GitHub', hash='65e3aba7e05ed01a777d3484b24540c1d5439ed1', version='nexus-oss-2.6.0-04'} 	https://github.com/sonatype/nexus-oss/commit/65e3aba7e05ed01a777d3484b24540c1d5439ed1
+CommitInfo{repo='GitHub', hash='483aada115a94dd37957b5f4b765d24487ba4ad0', version='nexus-oss-2.6.0-05'} 	https://github.com/sonatype/nexus-oss/commit/483aada115a94dd37957b5f4b765d24487ba4ad0
+CommitInfo{repo='GitHub', hash='cf8732c57cf7c2c527aa77d923a2228e834db4a9', version='nexus-oss-2.6.1-01'} 	https://github.com/sonatype/nexus-oss/commit/cf8732c57cf7c2c527aa77d923a2228e834db4a9
+CommitInfo{repo='GitHub', hash='f45b837e60a513cea6375496d174106b97eff63f', version='nexus-oss-2.6.1-02'} 	https://github.com/sonatype/nexus-oss/commit/f45b837e60a513cea6375496d174106b97eff63f
+CommitInfo{repo='GitHub', hash='4f08cf0b9b1dfd59cb181ae79650b6f2998e49aa', version='nexus-oss-2.6.2-01'} 	https://github.com/sonatype/nexus-oss/commit/4f08cf0b9b1dfd59cb181ae79650b6f2998e49aa
+CommitInfo{repo='GitHub', hash='4da24e9066a4fd6cad9083e3f0bd021dae1ac78f', version='pre-nexus-public-merge'} 	https://github.com/sonatype/nexus-oss/commit/4da24e9066a4fd6cad9083e3f0bd021dae1ac78f
+CommitInfo{repo='GitHub', hash='d845726499e155666b521bc259e6c8f9dafcba88', version='release-3.0.0-b2015060401'} 	https://github.com/sonatype/nexus-oss/commit/d845726499e155666b521bc259e6c8f9dafcba88
+CommitInfo{repo='GitHub', hash='f904a7756320ef451c762c1b3adc5e16376eabb3', version='release-3.0.0-b2015060901'} 	https://github.com/sonatype/nexus-oss/commit/f904a7756320ef451c762c1b3adc5e16376eabb3
+CommitInfo{repo='GitHub', hash='265d2556774c92bafdf3b91298fbcd197c3a34b8', version='release-3.0.0-b2015061001'} 	https://github.com/sonatype/nexus-oss/commit/265d2556774c92bafdf3b91298fbcd197c3a34b8
 
 Project A:
 ProjectVersionFixed(version=1.5.0, dependency=4.8.1, time=2010-01-26 22:58:11 UTC),	Latest, "null"

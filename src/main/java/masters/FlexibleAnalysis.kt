@@ -11,7 +11,7 @@ import java.util.*
  * Created by Jacob Stringer on 16/12/2019.
  */
 
-const val results_bin_path = "data/flexible_study/flexible_lag.bin"
+const val results_bin_path = "../flexible_study/flexible_lag.bin"
 val log = Logging.getLogger("")
 
 // results[pm.ordinal][classification.indexOf][match.ordinal]

@@ -2,121 +2,126 @@
 Project information
 react-apollo (1386550)	@types/recompose (1717641)	Package Manager: NPM
 RepoID: 8639951
+Repo Owner/Name: apollographql/react-apollo
+Repository type: GitHub
+
+ https://github.com/apollographql/react-apollo/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='d5e6bb1d89d074f4d01e086fe75b3ff584956dd5', version='2.1.0-alpha.0'}
-CommitInfo{repo='GitHub', hash='b902ea65d9c35f61566575286972a6d52334ac01', version='2.2.0'}
-CommitInfo{repo='GitHub', hash='af17be5b8e3036615d6fe9a271f5d25cf6fa048f', version='v0.1.0'}
-CommitInfo{repo='GitHub', hash='70fe4056c5b5b786c717e4021947bb8e5c698a8c', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='b755ad088fdc67fbf70d62d873b5282570319e57', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='4542850f23d98e49caba387fd54c700540bd116f', version='v0.1.1'}
-CommitInfo{repo='GitHub', hash='5d55f4ebebdbb2d420072783c4b8f3712020737e', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='6403ef8ed6d0ffb0508dfc23ca02baf880491aa2', version='v0.1.3'}
-CommitInfo{repo='GitHub', hash='fa2c4bdea5a01ba89749cefa58de73e502ec822a', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='5a56e0a3425c82fb13269c7dd75f7a1ef564dff9', version='v0.13.1'}
-CommitInfo{repo='GitHub', hash='8ec4e1ef0041b1ea1b7ca19b9d1b736f3ecbb9e8', version='v0.13.2'}
-CommitInfo{repo='GitHub', hash='a6c005a370ab7898c62e8592be8b52918a159c98', version='v0.1.4'}
-CommitInfo{repo='GitHub', hash='ffe66e6cc68ce62207514b641204e0c42a8d8d90', version='v0.1.5'}
-CommitInfo{repo='GitHub', hash='6bc5027ca7df63ab0802e43032d9ab2f8151a323', version='v0.2.0'}
-CommitInfo{repo='GitHub', hash='f5e2e534f147606dba775f32e78dc7170c462f50', version='v0.2.1'}
-CommitInfo{repo='GitHub', hash='17b0d85ee6921b5f8e63a4ca54bb7f0f9d4f5708', version='v0.2.1-rc.1'}
-CommitInfo{repo='GitHub', hash='fff5b6c876826358d4ff9827bffca7400fee55e5', version='v0.2.1-rc.2'}
-CommitInfo{repo='GitHub', hash='6791f492f2ea8007b410d59344e4e6385c493b8b', version='v0.2.1-rc.3'}
-CommitInfo{repo='GitHub', hash='8659529067a2efdaf7e245cd3776d755d7f6c6a9', version='v0.2.1-rc.4'}
-CommitInfo{repo='GitHub', hash='25f74071c3f34a9b1de10adbe4c59c1cbcdf8ada', version='v0.3.0'}
-CommitInfo{repo='GitHub', hash='540dbce289060408ab6f4f3bd3d1571a8ef905c3', version='v0.3.1'}
-CommitInfo{repo='GitHub', hash='a4e16460d9e752ee31b682c8fb285331ad5f0796', version='v0.3.10'}
-CommitInfo{repo='GitHub', hash='8fc7155e47fc18a06b8e563321d2a226fe59c79b', version='v0.3.11'}
-CommitInfo{repo='GitHub', hash='1641487a1f58d229967ef6bb4a323d1ce1c63462', version='v0.3.12'}
-CommitInfo{repo='GitHub', hash='26e30f21960aa2c08728a35023ab51ef45c4676c', version='v0.3.13'}
-CommitInfo{repo='GitHub', hash='b59788088c1f65eb51cb2571630a89d363279a2f', version='v0.3.14'}
-CommitInfo{repo='GitHub', hash='1254af86c1495f8ad9321c6f366ec47d926c9f19', version='v0.3.15'}
-CommitInfo{repo='GitHub', hash='284711594c09d985dedcb11fb17d908ebb059976', version='v0.3.16'}
-CommitInfo{repo='GitHub', hash='7490b53121c89c26b8d44df69a490f4cf7412ea1', version='v0.3.17'}
-CommitInfo{repo='GitHub', hash='32b63645884ffb50f787eebda905b74c77ac9543', version='v0.3.18'}
-CommitInfo{repo='GitHub', hash='01009004451ade484afc76ba515344fae4a31b4d', version='v0.3.19'}
-CommitInfo{repo='GitHub', hash='cc77616fcf5f3a2055ccd274478b91c4e60d57c9', version='v0.3.20'}
-CommitInfo{repo='GitHub', hash='cc77616fcf5f3a2055ccd274478b91c4e60d57c9', version='v0.3.21'}
-CommitInfo{repo='GitHub', hash='05e8fd6f3b4b0d5593b38c8e658e8330da0a0257', version='v0.3.3'}
-CommitInfo{repo='GitHub', hash='4ee77bad793c9426eb0c1a7e137c229853f7e77b', version='v0.3.30'}
-CommitInfo{repo='GitHub', hash='8623c7341a798c522c5a61fa363f9d15924711ef', version='v0.3.4'}
-CommitInfo{repo='GitHub', hash='ba18fd83bc56b26147f87ea9425e447819c1076c', version='v0.3.5'}
-CommitInfo{repo='GitHub', hash='b1018c29280da220602cb6050d2b4dcc57036c90', version='v0.3.6'}
-CommitInfo{repo='GitHub', hash='4d87e99d5cff57439600e027cfbf10965f1471ac', version='v0.3.7'}
-CommitInfo{repo='GitHub', hash='fdf73d5151f7a8f37c216f6f835cd5352e4cf034', version='v0.3.8'}
-CommitInfo{repo='GitHub', hash='93457dcc6fa3a2f86e0969a0879eea42ae747e94', version='v0.3.9'}
-CommitInfo{repo='GitHub', hash='041f07472ef0eaf8167bf977eebe167ee79d2a5d', version='v0.4.1'}
-CommitInfo{repo='GitHub', hash='9836ef6e1a5fb00d7120d7617e0a8e003aadff12', version='v0.4.2'}
-CommitInfo{repo='GitHub', hash='58eb6d15541d562abb9af2773c1b50fec73ad27e', version='v0.4.3'}
-CommitInfo{repo='GitHub', hash='7c5980a9594b6015451c3178076293a2dcf57efa', version='v0.4.4'}
-CommitInfo{repo='GitHub', hash='f0da04fb94626de4c5ba46a2851f9f90d1321966', version='v0.4.5'}
-CommitInfo{repo='GitHub', hash='1108116b72ea36955ae0eb69d266bb1a924b7c6e', version='v0.4.6'}
-CommitInfo{repo='GitHub', hash='b7b06402ae67a197af01a36165a2f6fb6e17966b', version='v0.4.7'}
-CommitInfo{repo='GitHub', hash='76a2108eed012c6fda1a8a31c0d84c7e56350cd4', version='v0.5.0'}
-CommitInfo{repo='GitHub', hash='4a9ffeccbbea6113af60eda27e3a6422eada9231', version='v0.5.1'}
-CommitInfo{repo='GitHub', hash='93bf1a23d55a0656d894711d05dfe732ba334d22', version='v0.5.10'}
-CommitInfo{repo='GitHub', hash='070a6198d2978ab75342caf5e69df5eb3319e299', version='v0.5.11'}
-CommitInfo{repo='GitHub', hash='d3d792b7b89427f020522e4d0784ff837271e9a3', version='v0.5.12'}
-CommitInfo{repo='GitHub', hash='eb9d588309e6fb861eb656779ead3ef1d85e2a58', version='v0.5.13'}
-CommitInfo{repo='GitHub', hash='091d65e6c1fdc7b40732be24923f3ede19001710', version='v0.5.14'}
-CommitInfo{repo='GitHub', hash='87bcc44eb59699c390d89e21132c649a83bbbc9c', version='v0.5.15'}
-CommitInfo{repo='GitHub', hash='e6516e999059003173b4a010920df322ecae28c2', version='v0.5.16'}
-CommitInfo{repo='GitHub', hash='790ad59ee0e4bc9352905fd225a7ed5e1a891e38', version='v0.5.2'}
-CommitInfo{repo='GitHub', hash='49f9a9e28d1d21bef2c1732749d4c7a7021862c2', version='v0.5.3'}
-CommitInfo{repo='GitHub', hash='4042b7e7366c51f05e185d8b298f3019f3adc178', version='v0.5.4'}
-CommitInfo{repo='GitHub', hash='4271f68d604e7a6f9c23c7a123a0b15573cafd0e', version='v0.5.5'}
-CommitInfo{repo='GitHub', hash='01425b3df5f05e7f389b36f3385433c89a39977b', version='v0.5.6'}
-CommitInfo{repo='GitHub', hash='34ffd3ad601ba407168b6856274afaafdcc5c4d2', version='v0.5.7'}
-CommitInfo{repo='GitHub', hash='180d4d68378ecc69980005e247fcad50cab4a48e', version='v0.5.8'}
-CommitInfo{repo='GitHub', hash='6baf0fda9de62e6a0c8fe36da6ae0679af7e0057', version='v0.5.8.1'}
-CommitInfo{repo='GitHub', hash='5f5afbb2095925dde1cac09ba4a013e5aa9f6468', version='v0.5.9'}
-CommitInfo{repo='GitHub', hash='86e7e73d78d0ef66fdd60467c289541ecee9cedf', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='8af0d53b6f4ea00fa6b585a1a62fbba98deb170e', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='92aaaa3b44a59b6509f7b391a9beea5320d9bd72', version='v0.7.1'}
-CommitInfo{repo='GitHub', hash='8597e420bfeaf79cae423bda4808465a5dda1a15', version='v0.7.2'}
-CommitInfo{repo='GitHub', hash='5ed626006cb969a068abc8c975fdfe4839e7e4c3', version='v0.7.3'}
-CommitInfo{repo='GitHub', hash='0b6ac94f3fc386f25c7f8a45f71972263f0bd227', version='v0.7.4'}
-CommitInfo{repo='GitHub', hash='c6d853c2c962c27b75b3dfb6b835dd68d3451320', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='239c81ced4d3a528800af27fda69fb640e99faaf', version='v0.8.1'}
-CommitInfo{repo='GitHub', hash='bd2f6bcec124e0bb7f26b6a3ce192237c3365e2d', version='v0.8.1-rc.0'}
-CommitInfo{repo='GitHub', hash='6743af261f9cc8ebb840fa163f6e1e6711bc5f3f', version='v0.8.2'}
-CommitInfo{repo='GitHub', hash='9498b572746f5e58acb428fece0e4440f64846b6', version='v0.8.3'}
-CommitInfo{repo='GitHub', hash='14436348740f8c811beb7a1faf4059227613cfde', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='7924d2f869068b3bdf0d1fc27b2e5d7e309d6448', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='d0b592a2b4b9176e2b247b726d12e984ba732096', version='v1.0.0-rc.1'}
-CommitInfo{repo='GitHub', hash='0a159737dd4dc82e452ee63d9d830fff64032bbe', version='v1.0.0-rc.2'}
-CommitInfo{repo='GitHub', hash='acdb763983b8122fd7a8d929fcebf821e77165d5', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='4514799a72927911b054961f300a1d6ca555386d', version='v1.0.2'}
-CommitInfo{repo='GitHub', hash='7877988cf19c3e816146bb8e0bdb57fcb251eca5', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='1c087fbb6052cd65fd91c7e82ceeffde3dba95c0', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='818923cbb2e18215ad8cd477f9c89dc537fee914', version='v1.1.2'}
-CommitInfo{repo='GitHub', hash='cb0e9fb8ea2ff24f07eab04804eb1f83b9707749', version='v1.1.3'}
-CommitInfo{repo='GitHub', hash='076faa48f19beb65b9299cedaacefb43fd859087', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='ffac8a7dd0bd893852a50c2f546d94fb77f0c763', version='v1.3.0'}
-CommitInfo{repo='GitHub', hash='ddd3d8faabf135dca691d20ce8ab0bc24ccc414e', version='v1.4.0'}
-CommitInfo{repo='GitHub', hash='77cae5b9f2c2a65a7fe93c3e273d1bf961fcf4c1', version='v1.4.1'}
-CommitInfo{repo='GitHub', hash='6a6cf351cbcc400d0f88691b6b300437ee744233', version='v1.4.11'}
-CommitInfo{repo='GitHub', hash='d58d9b85865eb799a9407bd523331e86d493a7f5', version='v1.4.15'}
-CommitInfo{repo='GitHub', hash='2baa0564d82ff29aafd4f8bdbec06143acbfd939', version='v1.4.2'}
-CommitInfo{repo='GitHub', hash='99cd89704ea9bb975422894f369b5b606727cfe1', version='v1.4.3'}
-CommitInfo{repo='GitHub', hash='8ee56e94d90c1df6862b54073ed0cf3b99330ead', version='v1.4.4'}
-CommitInfo{repo='GitHub', hash='609b055c357b89b7338fd28a200a7bd84e8eaf6c', version='v1.4.5'}
-CommitInfo{repo='GitHub', hash='8e3fb2c74c3415788935df05cf67db99a55c0724', version='v2.1.0-alpha.1'}
-CommitInfo{repo='GitHub', hash='4454ceae8adef9514d411503e36750835d06c007', version='v2.1.0-alpha.2'}
-CommitInfo{repo='GitHub', hash='3f08786697cfd46e050db32ee853a9bbbb66df8c', version='v2.1.0-beta.0'}
-CommitInfo{repo='GitHub', hash='ed75b71f3f166a0921d89dc89dfaa7b0d908dde3', version='v2.1.0-beta.3'}
-CommitInfo{repo='GitHub', hash='e19d84e5ec2d6ebf9e0d0534db0166bc62f8ffb1', version='v2.2.0'}
-CommitInfo{repo='GitHub', hash='e19d84e5ec2d6ebf9e0d0534db0166bc62f8ffb1', version='v2.2.1'}
-CommitInfo{repo='GitHub', hash='c96e9c2da75d07d52a65235c76aa31a71af8177a', version='v2.2.2'}
-CommitInfo{repo='GitHub', hash='649712cbd91818154b65238837bf6e9c1803b131', version='v2.2.3'}
-CommitInfo{repo='GitHub', hash='64ac74046fd2b0e369188eaccd0a7139841a5714', version='v2.2.4'}
-CommitInfo{repo='GitHub', hash='9460187d40844ebcc6e01f263402a8b8cbed71fb', version='v2.3.0'}
-CommitInfo{repo='GitHub', hash='347b7a81ef7b22676cba27bf02d7e72007e5b626', version='v2.3.0-beta.0'}
-CommitInfo{repo='GitHub', hash='856122d2cb1c3de775073530d76dca36f481dcee', version='v2.3.0-beta.1'}
-CommitInfo{repo='GitHub', hash='a3c49ce6bab44bf9a7c130d060da74aaa2e162d0', version='v2.3.1'}
-CommitInfo{repo='GitHub', hash='302db389095b008c34d4c759fc5738ee18d04ccc', version='v2.3.2-beta.0'}
-CommitInfo{repo='GitHub', hash='f9980b61c0d9341f3941bd79589e65375558213c', version='v2.3.2-beta.1'}
-CommitInfo{repo='GitHub', hash='5a27ad0ca8ed788024ccf44f11290caf8d30c197', version='v2.3.2-beta.2'}
-CommitInfo{repo='GitHub', hash='9f181b20d7fe497b6c03b9ee140ab15b82b5e52e', version='v2.3.2-beta.3'}
+CommitInfo{repo='GitHub', hash='d5e6bb1d89d074f4d01e086fe75b3ff584956dd5', version='2.1.0-alpha.0'} 	https://github.com/apollographql/react-apollo/commit/d5e6bb1d89d074f4d01e086fe75b3ff584956dd5
+CommitInfo{repo='GitHub', hash='b902ea65d9c35f61566575286972a6d52334ac01', version='2.2.0'} 	https://github.com/apollographql/react-apollo/commit/b902ea65d9c35f61566575286972a6d52334ac01
+CommitInfo{repo='GitHub', hash='af17be5b8e3036615d6fe9a271f5d25cf6fa048f', version='v0.1.0'} 	https://github.com/apollographql/react-apollo/commit/af17be5b8e3036615d6fe9a271f5d25cf6fa048f
+CommitInfo{repo='GitHub', hash='70fe4056c5b5b786c717e4021947bb8e5c698a8c', version='v0.10.0'} 	https://github.com/apollographql/react-apollo/commit/70fe4056c5b5b786c717e4021947bb8e5c698a8c
+CommitInfo{repo='GitHub', hash='b755ad088fdc67fbf70d62d873b5282570319e57', version='v0.10.1'} 	https://github.com/apollographql/react-apollo/commit/b755ad088fdc67fbf70d62d873b5282570319e57
+CommitInfo{repo='GitHub', hash='4542850f23d98e49caba387fd54c700540bd116f', version='v0.1.1'} 	https://github.com/apollographql/react-apollo/commit/4542850f23d98e49caba387fd54c700540bd116f
+CommitInfo{repo='GitHub', hash='5d55f4ebebdbb2d420072783c4b8f3712020737e', version='v0.12.0'} 	https://github.com/apollographql/react-apollo/commit/5d55f4ebebdbb2d420072783c4b8f3712020737e
+CommitInfo{repo='GitHub', hash='6403ef8ed6d0ffb0508dfc23ca02baf880491aa2', version='v0.1.3'} 	https://github.com/apollographql/react-apollo/commit/6403ef8ed6d0ffb0508dfc23ca02baf880491aa2
+CommitInfo{repo='GitHub', hash='fa2c4bdea5a01ba89749cefa58de73e502ec822a', version='v0.13.0'} 	https://github.com/apollographql/react-apollo/commit/fa2c4bdea5a01ba89749cefa58de73e502ec822a
+CommitInfo{repo='GitHub', hash='5a56e0a3425c82fb13269c7dd75f7a1ef564dff9', version='v0.13.1'} 	https://github.com/apollographql/react-apollo/commit/5a56e0a3425c82fb13269c7dd75f7a1ef564dff9
+CommitInfo{repo='GitHub', hash='8ec4e1ef0041b1ea1b7ca19b9d1b736f3ecbb9e8', version='v0.13.2'} 	https://github.com/apollographql/react-apollo/commit/8ec4e1ef0041b1ea1b7ca19b9d1b736f3ecbb9e8
+CommitInfo{repo='GitHub', hash='a6c005a370ab7898c62e8592be8b52918a159c98', version='v0.1.4'} 	https://github.com/apollographql/react-apollo/commit/a6c005a370ab7898c62e8592be8b52918a159c98
+CommitInfo{repo='GitHub', hash='ffe66e6cc68ce62207514b641204e0c42a8d8d90', version='v0.1.5'} 	https://github.com/apollographql/react-apollo/commit/ffe66e6cc68ce62207514b641204e0c42a8d8d90
+CommitInfo{repo='GitHub', hash='6bc5027ca7df63ab0802e43032d9ab2f8151a323', version='v0.2.0'} 	https://github.com/apollographql/react-apollo/commit/6bc5027ca7df63ab0802e43032d9ab2f8151a323
+CommitInfo{repo='GitHub', hash='f5e2e534f147606dba775f32e78dc7170c462f50', version='v0.2.1'} 	https://github.com/apollographql/react-apollo/commit/f5e2e534f147606dba775f32e78dc7170c462f50
+CommitInfo{repo='GitHub', hash='17b0d85ee6921b5f8e63a4ca54bb7f0f9d4f5708', version='v0.2.1-rc.1'} 	https://github.com/apollographql/react-apollo/commit/17b0d85ee6921b5f8e63a4ca54bb7f0f9d4f5708
+CommitInfo{repo='GitHub', hash='fff5b6c876826358d4ff9827bffca7400fee55e5', version='v0.2.1-rc.2'} 	https://github.com/apollographql/react-apollo/commit/fff5b6c876826358d4ff9827bffca7400fee55e5
+CommitInfo{repo='GitHub', hash='6791f492f2ea8007b410d59344e4e6385c493b8b', version='v0.2.1-rc.3'} 	https://github.com/apollographql/react-apollo/commit/6791f492f2ea8007b410d59344e4e6385c493b8b
+CommitInfo{repo='GitHub', hash='8659529067a2efdaf7e245cd3776d755d7f6c6a9', version='v0.2.1-rc.4'} 	https://github.com/apollographql/react-apollo/commit/8659529067a2efdaf7e245cd3776d755d7f6c6a9
+CommitInfo{repo='GitHub', hash='25f74071c3f34a9b1de10adbe4c59c1cbcdf8ada', version='v0.3.0'} 	https://github.com/apollographql/react-apollo/commit/25f74071c3f34a9b1de10adbe4c59c1cbcdf8ada
+CommitInfo{repo='GitHub', hash='540dbce289060408ab6f4f3bd3d1571a8ef905c3', version='v0.3.1'} 	https://github.com/apollographql/react-apollo/commit/540dbce289060408ab6f4f3bd3d1571a8ef905c3
+CommitInfo{repo='GitHub', hash='a4e16460d9e752ee31b682c8fb285331ad5f0796', version='v0.3.10'} 	https://github.com/apollographql/react-apollo/commit/a4e16460d9e752ee31b682c8fb285331ad5f0796
+CommitInfo{repo='GitHub', hash='8fc7155e47fc18a06b8e563321d2a226fe59c79b', version='v0.3.11'} 	https://github.com/apollographql/react-apollo/commit/8fc7155e47fc18a06b8e563321d2a226fe59c79b
+CommitInfo{repo='GitHub', hash='1641487a1f58d229967ef6bb4a323d1ce1c63462', version='v0.3.12'} 	https://github.com/apollographql/react-apollo/commit/1641487a1f58d229967ef6bb4a323d1ce1c63462
+CommitInfo{repo='GitHub', hash='26e30f21960aa2c08728a35023ab51ef45c4676c', version='v0.3.13'} 	https://github.com/apollographql/react-apollo/commit/26e30f21960aa2c08728a35023ab51ef45c4676c
+CommitInfo{repo='GitHub', hash='b59788088c1f65eb51cb2571630a89d363279a2f', version='v0.3.14'} 	https://github.com/apollographql/react-apollo/commit/b59788088c1f65eb51cb2571630a89d363279a2f
+CommitInfo{repo='GitHub', hash='1254af86c1495f8ad9321c6f366ec47d926c9f19', version='v0.3.15'} 	https://github.com/apollographql/react-apollo/commit/1254af86c1495f8ad9321c6f366ec47d926c9f19
+CommitInfo{repo='GitHub', hash='284711594c09d985dedcb11fb17d908ebb059976', version='v0.3.16'} 	https://github.com/apollographql/react-apollo/commit/284711594c09d985dedcb11fb17d908ebb059976
+CommitInfo{repo='GitHub', hash='7490b53121c89c26b8d44df69a490f4cf7412ea1', version='v0.3.17'} 	https://github.com/apollographql/react-apollo/commit/7490b53121c89c26b8d44df69a490f4cf7412ea1
+CommitInfo{repo='GitHub', hash='32b63645884ffb50f787eebda905b74c77ac9543', version='v0.3.18'} 	https://github.com/apollographql/react-apollo/commit/32b63645884ffb50f787eebda905b74c77ac9543
+CommitInfo{repo='GitHub', hash='01009004451ade484afc76ba515344fae4a31b4d', version='v0.3.19'} 	https://github.com/apollographql/react-apollo/commit/01009004451ade484afc76ba515344fae4a31b4d
+CommitInfo{repo='GitHub', hash='cc77616fcf5f3a2055ccd274478b91c4e60d57c9', version='v0.3.20'} 	https://github.com/apollographql/react-apollo/commit/cc77616fcf5f3a2055ccd274478b91c4e60d57c9
+CommitInfo{repo='GitHub', hash='cc77616fcf5f3a2055ccd274478b91c4e60d57c9', version='v0.3.21'} 	https://github.com/apollographql/react-apollo/commit/cc77616fcf5f3a2055ccd274478b91c4e60d57c9
+CommitInfo{repo='GitHub', hash='05e8fd6f3b4b0d5593b38c8e658e8330da0a0257', version='v0.3.3'} 	https://github.com/apollographql/react-apollo/commit/05e8fd6f3b4b0d5593b38c8e658e8330da0a0257
+CommitInfo{repo='GitHub', hash='4ee77bad793c9426eb0c1a7e137c229853f7e77b', version='v0.3.30'} 	https://github.com/apollographql/react-apollo/commit/4ee77bad793c9426eb0c1a7e137c229853f7e77b
+CommitInfo{repo='GitHub', hash='8623c7341a798c522c5a61fa363f9d15924711ef', version='v0.3.4'} 	https://github.com/apollographql/react-apollo/commit/8623c7341a798c522c5a61fa363f9d15924711ef
+CommitInfo{repo='GitHub', hash='ba18fd83bc56b26147f87ea9425e447819c1076c', version='v0.3.5'} 	https://github.com/apollographql/react-apollo/commit/ba18fd83bc56b26147f87ea9425e447819c1076c
+CommitInfo{repo='GitHub', hash='b1018c29280da220602cb6050d2b4dcc57036c90', version='v0.3.6'} 	https://github.com/apollographql/react-apollo/commit/b1018c29280da220602cb6050d2b4dcc57036c90
+CommitInfo{repo='GitHub', hash='4d87e99d5cff57439600e027cfbf10965f1471ac', version='v0.3.7'} 	https://github.com/apollographql/react-apollo/commit/4d87e99d5cff57439600e027cfbf10965f1471ac
+CommitInfo{repo='GitHub', hash='fdf73d5151f7a8f37c216f6f835cd5352e4cf034', version='v0.3.8'} 	https://github.com/apollographql/react-apollo/commit/fdf73d5151f7a8f37c216f6f835cd5352e4cf034
+CommitInfo{repo='GitHub', hash='93457dcc6fa3a2f86e0969a0879eea42ae747e94', version='v0.3.9'} 	https://github.com/apollographql/react-apollo/commit/93457dcc6fa3a2f86e0969a0879eea42ae747e94
+CommitInfo{repo='GitHub', hash='041f07472ef0eaf8167bf977eebe167ee79d2a5d', version='v0.4.1'} 	https://github.com/apollographql/react-apollo/commit/041f07472ef0eaf8167bf977eebe167ee79d2a5d
+CommitInfo{repo='GitHub', hash='9836ef6e1a5fb00d7120d7617e0a8e003aadff12', version='v0.4.2'} 	https://github.com/apollographql/react-apollo/commit/9836ef6e1a5fb00d7120d7617e0a8e003aadff12
+CommitInfo{repo='GitHub', hash='58eb6d15541d562abb9af2773c1b50fec73ad27e', version='v0.4.3'} 	https://github.com/apollographql/react-apollo/commit/58eb6d15541d562abb9af2773c1b50fec73ad27e
+CommitInfo{repo='GitHub', hash='7c5980a9594b6015451c3178076293a2dcf57efa', version='v0.4.4'} 	https://github.com/apollographql/react-apollo/commit/7c5980a9594b6015451c3178076293a2dcf57efa
+CommitInfo{repo='GitHub', hash='f0da04fb94626de4c5ba46a2851f9f90d1321966', version='v0.4.5'} 	https://github.com/apollographql/react-apollo/commit/f0da04fb94626de4c5ba46a2851f9f90d1321966
+CommitInfo{repo='GitHub', hash='1108116b72ea36955ae0eb69d266bb1a924b7c6e', version='v0.4.6'} 	https://github.com/apollographql/react-apollo/commit/1108116b72ea36955ae0eb69d266bb1a924b7c6e
+CommitInfo{repo='GitHub', hash='b7b06402ae67a197af01a36165a2f6fb6e17966b', version='v0.4.7'} 	https://github.com/apollographql/react-apollo/commit/b7b06402ae67a197af01a36165a2f6fb6e17966b
+CommitInfo{repo='GitHub', hash='76a2108eed012c6fda1a8a31c0d84c7e56350cd4', version='v0.5.0'} 	https://github.com/apollographql/react-apollo/commit/76a2108eed012c6fda1a8a31c0d84c7e56350cd4
+CommitInfo{repo='GitHub', hash='4a9ffeccbbea6113af60eda27e3a6422eada9231', version='v0.5.1'} 	https://github.com/apollographql/react-apollo/commit/4a9ffeccbbea6113af60eda27e3a6422eada9231
+CommitInfo{repo='GitHub', hash='93bf1a23d55a0656d894711d05dfe732ba334d22', version='v0.5.10'} 	https://github.com/apollographql/react-apollo/commit/93bf1a23d55a0656d894711d05dfe732ba334d22
+CommitInfo{repo='GitHub', hash='070a6198d2978ab75342caf5e69df5eb3319e299', version='v0.5.11'} 	https://github.com/apollographql/react-apollo/commit/070a6198d2978ab75342caf5e69df5eb3319e299
+CommitInfo{repo='GitHub', hash='d3d792b7b89427f020522e4d0784ff837271e9a3', version='v0.5.12'} 	https://github.com/apollographql/react-apollo/commit/d3d792b7b89427f020522e4d0784ff837271e9a3
+CommitInfo{repo='GitHub', hash='eb9d588309e6fb861eb656779ead3ef1d85e2a58', version='v0.5.13'} 	https://github.com/apollographql/react-apollo/commit/eb9d588309e6fb861eb656779ead3ef1d85e2a58
+CommitInfo{repo='GitHub', hash='091d65e6c1fdc7b40732be24923f3ede19001710', version='v0.5.14'} 	https://github.com/apollographql/react-apollo/commit/091d65e6c1fdc7b40732be24923f3ede19001710
+CommitInfo{repo='GitHub', hash='87bcc44eb59699c390d89e21132c649a83bbbc9c', version='v0.5.15'} 	https://github.com/apollographql/react-apollo/commit/87bcc44eb59699c390d89e21132c649a83bbbc9c
+CommitInfo{repo='GitHub', hash='e6516e999059003173b4a010920df322ecae28c2', version='v0.5.16'} 	https://github.com/apollographql/react-apollo/commit/e6516e999059003173b4a010920df322ecae28c2
+CommitInfo{repo='GitHub', hash='790ad59ee0e4bc9352905fd225a7ed5e1a891e38', version='v0.5.2'} 	https://github.com/apollographql/react-apollo/commit/790ad59ee0e4bc9352905fd225a7ed5e1a891e38
+CommitInfo{repo='GitHub', hash='49f9a9e28d1d21bef2c1732749d4c7a7021862c2', version='v0.5.3'} 	https://github.com/apollographql/react-apollo/commit/49f9a9e28d1d21bef2c1732749d4c7a7021862c2
+CommitInfo{repo='GitHub', hash='4042b7e7366c51f05e185d8b298f3019f3adc178', version='v0.5.4'} 	https://github.com/apollographql/react-apollo/commit/4042b7e7366c51f05e185d8b298f3019f3adc178
+CommitInfo{repo='GitHub', hash='4271f68d604e7a6f9c23c7a123a0b15573cafd0e', version='v0.5.5'} 	https://github.com/apollographql/react-apollo/commit/4271f68d604e7a6f9c23c7a123a0b15573cafd0e
+CommitInfo{repo='GitHub', hash='01425b3df5f05e7f389b36f3385433c89a39977b', version='v0.5.6'} 	https://github.com/apollographql/react-apollo/commit/01425b3df5f05e7f389b36f3385433c89a39977b
+CommitInfo{repo='GitHub', hash='34ffd3ad601ba407168b6856274afaafdcc5c4d2', version='v0.5.7'} 	https://github.com/apollographql/react-apollo/commit/34ffd3ad601ba407168b6856274afaafdcc5c4d2
+CommitInfo{repo='GitHub', hash='180d4d68378ecc69980005e247fcad50cab4a48e', version='v0.5.8'} 	https://github.com/apollographql/react-apollo/commit/180d4d68378ecc69980005e247fcad50cab4a48e
+CommitInfo{repo='GitHub', hash='6baf0fda9de62e6a0c8fe36da6ae0679af7e0057', version='v0.5.8.1'} 	https://github.com/apollographql/react-apollo/commit/6baf0fda9de62e6a0c8fe36da6ae0679af7e0057
+CommitInfo{repo='GitHub', hash='5f5afbb2095925dde1cac09ba4a013e5aa9f6468', version='v0.5.9'} 	https://github.com/apollographql/react-apollo/commit/5f5afbb2095925dde1cac09ba4a013e5aa9f6468
+CommitInfo{repo='GitHub', hash='86e7e73d78d0ef66fdd60467c289541ecee9cedf', version='v0.6.0'} 	https://github.com/apollographql/react-apollo/commit/86e7e73d78d0ef66fdd60467c289541ecee9cedf
+CommitInfo{repo='GitHub', hash='8af0d53b6f4ea00fa6b585a1a62fbba98deb170e', version='v0.7.0'} 	https://github.com/apollographql/react-apollo/commit/8af0d53b6f4ea00fa6b585a1a62fbba98deb170e
+CommitInfo{repo='GitHub', hash='92aaaa3b44a59b6509f7b391a9beea5320d9bd72', version='v0.7.1'} 	https://github.com/apollographql/react-apollo/commit/92aaaa3b44a59b6509f7b391a9beea5320d9bd72
+CommitInfo{repo='GitHub', hash='8597e420bfeaf79cae423bda4808465a5dda1a15', version='v0.7.2'} 	https://github.com/apollographql/react-apollo/commit/8597e420bfeaf79cae423bda4808465a5dda1a15
+CommitInfo{repo='GitHub', hash='5ed626006cb969a068abc8c975fdfe4839e7e4c3', version='v0.7.3'} 	https://github.com/apollographql/react-apollo/commit/5ed626006cb969a068abc8c975fdfe4839e7e4c3
+CommitInfo{repo='GitHub', hash='0b6ac94f3fc386f25c7f8a45f71972263f0bd227', version='v0.7.4'} 	https://github.com/apollographql/react-apollo/commit/0b6ac94f3fc386f25c7f8a45f71972263f0bd227
+CommitInfo{repo='GitHub', hash='c6d853c2c962c27b75b3dfb6b835dd68d3451320', version='v0.8.0'} 	https://github.com/apollographql/react-apollo/commit/c6d853c2c962c27b75b3dfb6b835dd68d3451320
+CommitInfo{repo='GitHub', hash='239c81ced4d3a528800af27fda69fb640e99faaf', version='v0.8.1'} 	https://github.com/apollographql/react-apollo/commit/239c81ced4d3a528800af27fda69fb640e99faaf
+CommitInfo{repo='GitHub', hash='bd2f6bcec124e0bb7f26b6a3ce192237c3365e2d', version='v0.8.1-rc.0'} 	https://github.com/apollographql/react-apollo/commit/bd2f6bcec124e0bb7f26b6a3ce192237c3365e2d
+CommitInfo{repo='GitHub', hash='6743af261f9cc8ebb840fa163f6e1e6711bc5f3f', version='v0.8.2'} 	https://github.com/apollographql/react-apollo/commit/6743af261f9cc8ebb840fa163f6e1e6711bc5f3f
+CommitInfo{repo='GitHub', hash='9498b572746f5e58acb428fece0e4440f64846b6', version='v0.8.3'} 	https://github.com/apollographql/react-apollo/commit/9498b572746f5e58acb428fece0e4440f64846b6
+CommitInfo{repo='GitHub', hash='14436348740f8c811beb7a1faf4059227613cfde', version='v0.9.0'} 	https://github.com/apollographql/react-apollo/commit/14436348740f8c811beb7a1faf4059227613cfde
+CommitInfo{repo='GitHub', hash='7924d2f869068b3bdf0d1fc27b2e5d7e309d6448', version='v1.0.0'} 	https://github.com/apollographql/react-apollo/commit/7924d2f869068b3bdf0d1fc27b2e5d7e309d6448
+CommitInfo{repo='GitHub', hash='d0b592a2b4b9176e2b247b726d12e984ba732096', version='v1.0.0-rc.1'} 	https://github.com/apollographql/react-apollo/commit/d0b592a2b4b9176e2b247b726d12e984ba732096
+CommitInfo{repo='GitHub', hash='0a159737dd4dc82e452ee63d9d830fff64032bbe', version='v1.0.0-rc.2'} 	https://github.com/apollographql/react-apollo/commit/0a159737dd4dc82e452ee63d9d830fff64032bbe
+CommitInfo{repo='GitHub', hash='acdb763983b8122fd7a8d929fcebf821e77165d5', version='v1.0.1'} 	https://github.com/apollographql/react-apollo/commit/acdb763983b8122fd7a8d929fcebf821e77165d5
+CommitInfo{repo='GitHub', hash='4514799a72927911b054961f300a1d6ca555386d', version='v1.0.2'} 	https://github.com/apollographql/react-apollo/commit/4514799a72927911b054961f300a1d6ca555386d
+CommitInfo{repo='GitHub', hash='7877988cf19c3e816146bb8e0bdb57fcb251eca5', version='v1.1.0'} 	https://github.com/apollographql/react-apollo/commit/7877988cf19c3e816146bb8e0bdb57fcb251eca5
+CommitInfo{repo='GitHub', hash='1c087fbb6052cd65fd91c7e82ceeffde3dba95c0', version='v1.1.1'} 	https://github.com/apollographql/react-apollo/commit/1c087fbb6052cd65fd91c7e82ceeffde3dba95c0
+CommitInfo{repo='GitHub', hash='818923cbb2e18215ad8cd477f9c89dc537fee914', version='v1.1.2'} 	https://github.com/apollographql/react-apollo/commit/818923cbb2e18215ad8cd477f9c89dc537fee914
+CommitInfo{repo='GitHub', hash='cb0e9fb8ea2ff24f07eab04804eb1f83b9707749', version='v1.1.3'} 	https://github.com/apollographql/react-apollo/commit/cb0e9fb8ea2ff24f07eab04804eb1f83b9707749
+CommitInfo{repo='GitHub', hash='076faa48f19beb65b9299cedaacefb43fd859087', version='v1.2.0'} 	https://github.com/apollographql/react-apollo/commit/076faa48f19beb65b9299cedaacefb43fd859087
+CommitInfo{repo='GitHub', hash='ffac8a7dd0bd893852a50c2f546d94fb77f0c763', version='v1.3.0'} 	https://github.com/apollographql/react-apollo/commit/ffac8a7dd0bd893852a50c2f546d94fb77f0c763
+CommitInfo{repo='GitHub', hash='ddd3d8faabf135dca691d20ce8ab0bc24ccc414e', version='v1.4.0'} 	https://github.com/apollographql/react-apollo/commit/ddd3d8faabf135dca691d20ce8ab0bc24ccc414e
+CommitInfo{repo='GitHub', hash='77cae5b9f2c2a65a7fe93c3e273d1bf961fcf4c1', version='v1.4.1'} 	https://github.com/apollographql/react-apollo/commit/77cae5b9f2c2a65a7fe93c3e273d1bf961fcf4c1
+CommitInfo{repo='GitHub', hash='6a6cf351cbcc400d0f88691b6b300437ee744233', version='v1.4.11'} 	https://github.com/apollographql/react-apollo/commit/6a6cf351cbcc400d0f88691b6b300437ee744233
+CommitInfo{repo='GitHub', hash='d58d9b85865eb799a9407bd523331e86d493a7f5', version='v1.4.15'} 	https://github.com/apollographql/react-apollo/commit/d58d9b85865eb799a9407bd523331e86d493a7f5
+CommitInfo{repo='GitHub', hash='2baa0564d82ff29aafd4f8bdbec06143acbfd939', version='v1.4.2'} 	https://github.com/apollographql/react-apollo/commit/2baa0564d82ff29aafd4f8bdbec06143acbfd939
+CommitInfo{repo='GitHub', hash='99cd89704ea9bb975422894f369b5b606727cfe1', version='v1.4.3'} 	https://github.com/apollographql/react-apollo/commit/99cd89704ea9bb975422894f369b5b606727cfe1
+CommitInfo{repo='GitHub', hash='8ee56e94d90c1df6862b54073ed0cf3b99330ead', version='v1.4.4'} 	https://github.com/apollographql/react-apollo/commit/8ee56e94d90c1df6862b54073ed0cf3b99330ead
+CommitInfo{repo='GitHub', hash='609b055c357b89b7338fd28a200a7bd84e8eaf6c', version='v1.4.5'} 	https://github.com/apollographql/react-apollo/commit/609b055c357b89b7338fd28a200a7bd84e8eaf6c
+CommitInfo{repo='GitHub', hash='8e3fb2c74c3415788935df05cf67db99a55c0724', version='v2.1.0-alpha.1'} 	https://github.com/apollographql/react-apollo/commit/8e3fb2c74c3415788935df05cf67db99a55c0724
+CommitInfo{repo='GitHub', hash='4454ceae8adef9514d411503e36750835d06c007', version='v2.1.0-alpha.2'} 	https://github.com/apollographql/react-apollo/commit/4454ceae8adef9514d411503e36750835d06c007
+CommitInfo{repo='GitHub', hash='3f08786697cfd46e050db32ee853a9bbbb66df8c', version='v2.1.0-beta.0'} 	https://github.com/apollographql/react-apollo/commit/3f08786697cfd46e050db32ee853a9bbbb66df8c
+CommitInfo{repo='GitHub', hash='ed75b71f3f166a0921d89dc89dfaa7b0d908dde3', version='v2.1.0-beta.3'} 	https://github.com/apollographql/react-apollo/commit/ed75b71f3f166a0921d89dc89dfaa7b0d908dde3
+CommitInfo{repo='GitHub', hash='e19d84e5ec2d6ebf9e0d0534db0166bc62f8ffb1', version='v2.2.0'} 	https://github.com/apollographql/react-apollo/commit/e19d84e5ec2d6ebf9e0d0534db0166bc62f8ffb1
+CommitInfo{repo='GitHub', hash='e19d84e5ec2d6ebf9e0d0534db0166bc62f8ffb1', version='v2.2.1'} 	https://github.com/apollographql/react-apollo/commit/e19d84e5ec2d6ebf9e0d0534db0166bc62f8ffb1
+CommitInfo{repo='GitHub', hash='c96e9c2da75d07d52a65235c76aa31a71af8177a', version='v2.2.2'} 	https://github.com/apollographql/react-apollo/commit/c96e9c2da75d07d52a65235c76aa31a71af8177a
+CommitInfo{repo='GitHub', hash='649712cbd91818154b65238837bf6e9c1803b131', version='v2.2.3'} 	https://github.com/apollographql/react-apollo/commit/649712cbd91818154b65238837bf6e9c1803b131
+CommitInfo{repo='GitHub', hash='64ac74046fd2b0e369188eaccd0a7139841a5714', version='v2.2.4'} 	https://github.com/apollographql/react-apollo/commit/64ac74046fd2b0e369188eaccd0a7139841a5714
+CommitInfo{repo='GitHub', hash='9460187d40844ebcc6e01f263402a8b8cbed71fb', version='v2.3.0'} 	https://github.com/apollographql/react-apollo/commit/9460187d40844ebcc6e01f263402a8b8cbed71fb
+CommitInfo{repo='GitHub', hash='347b7a81ef7b22676cba27bf02d7e72007e5b626', version='v2.3.0-beta.0'} 	https://github.com/apollographql/react-apollo/commit/347b7a81ef7b22676cba27bf02d7e72007e5b626
+CommitInfo{repo='GitHub', hash='856122d2cb1c3de775073530d76dca36f481dcee', version='v2.3.0-beta.1'} 	https://github.com/apollographql/react-apollo/commit/856122d2cb1c3de775073530d76dca36f481dcee
+CommitInfo{repo='GitHub', hash='a3c49ce6bab44bf9a7c130d060da74aaa2e162d0', version='v2.3.1'} 	https://github.com/apollographql/react-apollo/commit/a3c49ce6bab44bf9a7c130d060da74aaa2e162d0
+CommitInfo{repo='GitHub', hash='302db389095b008c34d4c759fc5738ee18d04ccc', version='v2.3.2-beta.0'} 	https://github.com/apollographql/react-apollo/commit/302db389095b008c34d4c759fc5738ee18d04ccc
+CommitInfo{repo='GitHub', hash='f9980b61c0d9341f3941bd79589e65375558213c', version='v2.3.2-beta.1'} 	https://github.com/apollographql/react-apollo/commit/f9980b61c0d9341f3941bd79589e65375558213c
+CommitInfo{repo='GitHub', hash='5a27ad0ca8ed788024ccf44f11290caf8d30c197', version='v2.3.2-beta.2'} 	https://github.com/apollographql/react-apollo/commit/5a27ad0ca8ed788024ccf44f11290caf8d30c197
+CommitInfo{repo='GitHub', hash='9f181b20d7fe497b6c03b9ee140ab15b82b5e52e', version='v2.3.2-beta.3'} 	https://github.com/apollographql/react-apollo/commit/9f181b20d7fe497b6c03b9ee140ab15b82b5e52e
 
 Project A:
 ProjectVersionFixed(version=0.0.1, dependency=null, time=2016-04-19 02:08:35 UTC)

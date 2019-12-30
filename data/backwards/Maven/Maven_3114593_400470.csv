@@ -2,132 +2,137 @@
 Project information
 org.grails:grails-datastore-gorm-rx-plugin-support (3114593)	org.codehaus.groovy:groovy-test (400470)	Package Manager: Maven
 RepoID: 582406
+Repo Owner/Name: grails/grails-data-mapping
+Repository type: GitHub
+
+ https://github.com/grails/grails-data-mapping/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='62fa26fa53cf94957564284824e2ab09390c055d', version='1.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='01c8d237976af13105e2eccba82ce601a4a43197', version='cassandra-v0.2'}
-CommitInfo{repo='GitHub', hash='a8c54eed6f901521e0d2ec90d5b037655473bf17', version='cassandra-v1.0.0-M01'}
-CommitInfo{repo='GitHub', hash='cfbdd299b00cd5bc8f2d6106f9ddd4aa7ee2c2d6', version='neo4j-v1.0.0'}
-CommitInfo{repo='GitHub', hash='7c809287137fac0c7472fe80a0d517bfd59730db', version='neo4j-v1.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='c74d8cd5c42074fe73c4395cd6d6960482392e1c', version='neo4j-v1.0.1'}
-CommitInfo{repo='GitHub', hash='b36f816fe039980ece3cb1b838a1dd8a2ba7c2a9', version='neo4j-v1.1.2'}
-CommitInfo{repo='GitHub', hash='6c97c5b015190742974e5bca8e3ead9c55c2e96d', version='neo4j-v2.0.0-M01'}
-CommitInfo{repo='GitHub', hash='f3999e09f1de05dbb25812752dcf475218f05eb7', version='neo4j-v2.0.0-M02'}
-CommitInfo{repo='GitHub', hash='557f49031426003b014f22c8c26577fc7b219f3f', version='simpledb-v0.1'}
-CommitInfo{repo='GitHub', hash='4c4f52b92256cf174663a8d044b10410afb4bbea', version='v1.0.0.M1'}
-CommitInfo{repo='GitHub', hash='2e60a4deb1ffda11f31f487b6b0d35cd83cd1b37', version='v1.0.0.M10'}
-CommitInfo{repo='GitHub', hash='89d95ededc27800b7216f92e72c943676129ae53', version='v1.0.0.M4'}
-CommitInfo{repo='GitHub', hash='7fa822731b2cd5043edd73398e3cdb427c85c3e6', version='v1.0.0.M5'}
-CommitInfo{repo='GitHub', hash='33b326c6f167627fb05d9425f41dedf0ac69100a', version='v1.0.0.M6'}
-CommitInfo{repo='GitHub', hash='62eb08b1c06f115ef25de065909e2bee8f60456f', version='v1.0.0.M9'}
-CommitInfo{repo='GitHub', hash='5b013024cb1b0ffb823796a6a89bb523034a77ae', version='v1.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='4d765920a9be5bead9dbc5e9168549b0d19e7793', version='v1.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='a54a9d97861d661e18563ca32c25fd8fb47ccb6a', version='v1.0.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='855304fbd2986714d26cb0355216f8e4f7756b2f', version='v1.0.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='a377132728bd1ade76e2de23d54d5a6481e30254', version='v1.0.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='c9c89bd818028c50b8945845a48c9c71c4ddc5d3', version='v1.0.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='f1e789599113e40452958b031a06b3680d92cfd4', version='v1.0.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='6532b6356643ec61f7c8cba5810ace25474154b3', version='v1.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='972080b6a67a2498a69a3fe774b7e18937f71de4', version='v1.0.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='e8d53cbd26ca6af1a651662695b9fd9d56c7b242', version='v1.0.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='6744b57d63043652d33b89d66d5ec80c73ca47fb', version='v1.0.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='e02c220450a7433b82d54a42c0216032af29f4b2', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='c99fd5bde834aad1f500634b7a4cab47d235ee0b', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='e14f3735f1035c180ddd1a4bd6e0082e3daf98e8', version='v1.1.2'}
-CommitInfo{repo='GitHub', hash='4fe742df5ed583d8488dc885387a0de920e261fe', version='v1.1.3'}
-CommitInfo{repo='GitHub', hash='98955e73faa959b36db23fae59072d45d6322dce', version='v1.1.4'}
-CommitInfo{repo='GitHub', hash='687dda93d81f0a2ed6e102c37d435ae29ba7290b', version='v1.1.5'}
-CommitInfo{repo='GitHub', hash='91d0fb98a17fe9ad9fc3dfbc7cf738ef9b7fa27e', version='v1.1.6'}
-CommitInfo{repo='GitHub', hash='303adb00707e849628c5a6b0c90945a521ce1a90', version='v1.1.8'}
-CommitInfo{repo='GitHub', hash='2c9c5c3b1180f836883941f7ed63fc6f08add954', version='v1.1.9'}
-CommitInfo{repo='GitHub', hash='0a87c42c8deb824728582f8b66badbf9fbaaa432', version='v2.0.0'}
-CommitInfo{repo='GitHub', hash='247c1b6eae330e99aaab77c31aa77d805093f9d8', version='v2.0.0.M2'}
-CommitInfo{repo='GitHub', hash='00049be59abd27b3fa92a43d0dd4a334aa490017', version='v2.0.0.M3'}
-CommitInfo{repo='GitHub', hash='6d5bd19af2872fed036cd2b3afcc91613697bff2', version='v2.0.0.M4'}
-CommitInfo{repo='GitHub', hash='c13396e524e71aa98d4eac7a30c3e13b5449df4b', version='v2.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='189b254b4d25fd77c0a2293c564c5a02dbef2651', version='v2.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='920b26958d3ba5711f5ba15f119cbe3df87a6f00', version='v2.0.1'}
-CommitInfo{repo='GitHub', hash='966d8f985b86111ba4059c823eff7e5d8553e387', version='v2.0.2'}
-CommitInfo{repo='GitHub', hash='03b0d8a32c768a31069f579e52b31ab279a63137', version='v2.0.3'}
-CommitInfo{repo='GitHub', hash='23c8471ea3065494bc8d6fa419bbd8c1e5b74e9e', version='v2.0.4'}
-CommitInfo{repo='GitHub', hash='90a0d622835f183a2b4b8db5388ce2261b283218', version='v2.0.5'}
-CommitInfo{repo='GitHub', hash='364ecb744764e6c4a76738fbc59baf13bb98a5c7', version='v2.0.6'}
-CommitInfo{repo='GitHub', hash='3e91b6d4c895ee88dc2ac8a539dbb4904e4e96e8', version='v2.0.7'}
-CommitInfo{repo='GitHub', hash='afccf2b181e94f22456592e9804c2ce92c9899f4', version='v3.0.0'}
-CommitInfo{repo='GitHub', hash='7ddabc094d66dd9f22be1762a10d5b97340cb316', version='v3.0.1'}
-CommitInfo{repo='GitHub', hash='c63349d1b362057b2ab5c8e3cda60af201df7845', version='v3.0.2'}
-CommitInfo{repo='GitHub', hash='3aec8bb044f85c8e29db9d88740f3af082c4034b', version='v3.0.3'}
-CommitInfo{repo='GitHub', hash='14da52f9f2c7ed9718a843099d8cfda1260608fa', version='v3.0.4'}
-CommitInfo{repo='GitHub', hash='1b3f010c5b3ab575deeadd19d52598a06f8bd5aa', version='v3.0.5'}
-CommitInfo{repo='GitHub', hash='c522375fb04a28e92d5ebb0afaa39a05319c8d26', version='v3.0.6'}
-CommitInfo{repo='GitHub', hash='4b69c902f59297442175a3713be4b436bc68c8f2', version='v3.1.0'}
-CommitInfo{repo='GitHub', hash='fce7c3345ff945af9151869f7b0c7069d77c182a', version='v3.1.1'}
-CommitInfo{repo='GitHub', hash='a1ded3e1cf31498810e6fe3ac1e611fc7d5faff4', version='v3.1.2'}
-CommitInfo{repo='GitHub', hash='ad18cca283f1aeb321ad207a0357f7c4aabb4c2e', version='v3.1.3'}
-CommitInfo{repo='GitHub', hash='8479adc15f692cfd39d448aed4ef988511d30bb8', version='v3.1.4'}
-CommitInfo{repo='GitHub', hash='9a59ff264298ab730c4660dd1f4c9653b1286b4d', version='v3.1.5'}
-CommitInfo{repo='GitHub', hash='8f5e84d06478f9965cc0802f8b7bee3ebffb3b2c', version='v4.0.0'}
-CommitInfo{repo='GitHub', hash='2e57e554914326accdaf77402fa7d841d287e8ab', version='v4.0.0.M1'}
-CommitInfo{repo='GitHub', hash='0e1719fc4cbe750706ed1fa66bb9c2714bb740aa', version='v4.0.0.M3'}
-CommitInfo{repo='GitHub', hash='81274ab23c2b7b4f77a9afd976f68fa56c0b809c', version='v4.0.0.M4'}
-CommitInfo{repo='GitHub', hash='5aaaf991d3393ac0e62edb38126986dbb69decc6', version='v4.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='4a662ec07044dc9a6d67c7ff694838313803d294', version='v4.0.1'}
-CommitInfo{repo='GitHub', hash='1c98795d254a63b6b2ef547ee5646b042289abb5', version='v4.0.3'}
-CommitInfo{repo='GitHub', hash='6ce2ec7ac1ce06ab45c73c264e38884dc2b38acd', version='v4.0.4'}
-CommitInfo{repo='GitHub', hash='d96d3cb713537229808c5b8fda41a7fe77df1046', version='v4.0.5'}
-CommitInfo{repo='GitHub', hash='bfd7e0e4a52c24913c7bfe57a9a9b62cda6b8689', version='v4.0.6'}
-CommitInfo{repo='GitHub', hash='e042f902385e6b1e7e9b1fd853a46b98a057f3c5', version='v4.0.7'}
-CommitInfo{repo='GitHub', hash='ade857ecdeca221ade07f35bc917f606fb4412a7', version='v5.0.0'}
-CommitInfo{repo='GitHub', hash='8df9d7de9338e81ae2cc718f284b711285325331', version='v5.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='7e20f6f78c2f0725559aac11bf0477a34c6395d4', version='v5.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='c239d75333a756a37c42664c3ff1e2df5cf42327', version='v5.0.0.RC3'}
-CommitInfo{repo='GitHub', hash='56d28539822951dd09c75436e1bfe93b3d06b2b1', version='v5.0.0.RC4'}
-CommitInfo{repo='GitHub', hash='8e67ba487649412d1883e53a2654bedba8ec0e61', version='v5.0.1'}
-CommitInfo{repo='GitHub', hash='cdf5cc5294febab5ead678e983cfd18c2cf1eeb5', version='v5.0.10'}
-CommitInfo{repo='GitHub', hash='1da3159a897752f91d75fd607bae8ccb34b7dac7', version='v5.0.11'}
-CommitInfo{repo='GitHub', hash='1ebbfcecae4abafc3eeffeec86ac6a9f38a6cd0c', version='v5.0.12'}
-CommitInfo{repo='GitHub', hash='b68f735dc7c607dd43d675658e7e05745dddcecf', version='v5.0.13'}
-CommitInfo{repo='GitHub', hash='810db730ef9130437d67dcae9d10f871cb83e0da', version='v5.0.2'}
-CommitInfo{repo='GitHub', hash='28962cf4aa6f370dc9e69e2f6b8201fcf3e1aa32', version='v5.0.3'}
-CommitInfo{repo='GitHub', hash='71eaedd927f18868646a1c83f8d76806f018bc71', version='v5.0.4'}
-CommitInfo{repo='GitHub', hash='e9ac5256d06f7b5fa4cd66716d3f1f1d001be78c', version='v5.0.5'}
-CommitInfo{repo='GitHub', hash='2980afac9140671768fb6cafdc2e9e57c704db2b', version='v5.0.6'}
-CommitInfo{repo='GitHub', hash='76512f1c8fe22fba99b25e5558d10bd5d8413175', version='v5.0.7'}
-CommitInfo{repo='GitHub', hash='b940916e80a030e73449a676fdad9d31bf014223', version='v5.0.8'}
-CommitInfo{repo='GitHub', hash='433bbf6ea01f526fbcdb6c31eb14aa680d0e09cf', version='v5.0.9'}
-CommitInfo{repo='GitHub', hash='acd68212065e29a2baa538c3c99002611900d426', version='v6.0.0'}
-CommitInfo{repo='GitHub', hash='f5af34b918878e54c2aac973431ca5eb8e860d16', version='v6.0.0.M1'}
-CommitInfo{repo='GitHub', hash='c05ba46af5f394a5780f1c3b3ab98ae0080e6722', version='v6.0.0.M2'}
-CommitInfo{repo='GitHub', hash='298182ac7fb58d7a26257794724f44e645effcc6', version='v6.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='b46a5bb5ec75ef01eb10621e6eb4d1f306c00c78', version='v6.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='4931761ebffa02b3291479d8beec9ad3d7abd3c9', version='v6.0.1'}
-CommitInfo{repo='GitHub', hash='6debfa7282f8ab2c8f7e854670831ec2ba126b14', version='v6.0.10'}
-CommitInfo{repo='GitHub', hash='80f75e3262424cfbff021bbc02dfcf65bd11bccb', version='v6.0.11'}
-CommitInfo{repo='GitHub', hash='8a1d7799344cc7487cfca1097470b899c8be55e4', version='v6.0.12'}
-CommitInfo{repo='GitHub', hash='a61e5f16d67b81292bb2f83f64049e9bea112e6f', version='v6.0.13'}
-CommitInfo{repo='GitHub', hash='9a6162cc1c6c645f8e7150ab479b182624b1bc17', version='v6.0.2'}
-CommitInfo{repo='GitHub', hash='5d89e2cbb8cddf508a0f5dd0c8092b14e62c3d6d', version='v6.0.3'}
-CommitInfo{repo='GitHub', hash='85879b509a723d51af3458eb0d343c04dfee7b49', version='v6.0.4'}
-CommitInfo{repo='GitHub', hash='1e9ef4a580d9b750df7331e3750f8272ca4976be', version='v6.0.5'}
-CommitInfo{repo='GitHub', hash='1035685b1b5a40df35ee86094e3087dfc8e4cba2', version='v6.0.6'}
-CommitInfo{repo='GitHub', hash='76a121b532116d6b934767f81ef49ff4c5c59300', version='v6.0.7'}
-CommitInfo{repo='GitHub', hash='92405fde9f37c4b616739368dd62e5d523ea32ac', version='v6.0.8'}
-CommitInfo{repo='GitHub', hash='df61634dacb52b71a3796c1f5f44cbcfe28213fc', version='v6.0.9'}
-CommitInfo{repo='GitHub', hash='317bf58fceaffe7700e972446498d088b83db001', version='v6.1.0'}
-CommitInfo{repo='GitHub', hash='5960ad047baa9687dd990509bd1100691d9edf4b', version='v6.1.0.M1'}
-CommitInfo{repo='GitHub', hash='78a53d9872dff70a9184783ffb2e8dff857e9003', version='v6.1.0.M2'}
-CommitInfo{repo='GitHub', hash='86052d606e58bccc5c8a265a007115c96d3e44a9', version='v6.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='fd2cbb198d94781a461a0a9dbac691dbe90e4dc8', version='v6.1.0.RC2'}
-CommitInfo{repo='GitHub', hash='765161bf57e60b9106c248ba23261870290c082a', version='v6.1.1'}
-CommitInfo{repo='GitHub', hash='1926b06256dd074cb8f7c9935a814a428ca7dabd', version='v6.1.10'}
-CommitInfo{repo='GitHub', hash='225bed6f0d14905dbd3fdc98a27e7d7a96117b3e', version='v6.1.2'}
-CommitInfo{repo='GitHub', hash='399158319e2ac29cb57cf3573e07109c14962de5', version='v6.1.3'}
-CommitInfo{repo='GitHub', hash='ad69ca8f7dc75fb5f0e5d21b564e49ebc919eac3', version='v6.1.4'}
-CommitInfo{repo='GitHub', hash='c3a12498f1f883bd4ebe46d47d9ff10fcc2c3f23', version='v6.1.5'}
-CommitInfo{repo='GitHub', hash='46d70cd300274ff32f81267bcd1ad42a9a3f5772', version='v6.1.6'}
-CommitInfo{repo='GitHub', hash='474c27387d20dd8bdb6489759b4b7232f6e6a2b4', version='v6.1.7'}
-CommitInfo{repo='GitHub', hash='c2500eeb5f3b30f757c9878d2213750ed456056c', version='v6.1.8'}
-CommitInfo{repo='GitHub', hash='c2500eeb5f3b30f757c9878d2213750ed456056c', version='v6.1.8'}
-CommitInfo{repo='GitHub', hash='06373e264694be7b6461447b5b8b53ddbef2eef4', version='v6.1.9'}
+CommitInfo{repo='GitHub', hash='62fa26fa53cf94957564284824e2ab09390c055d', version='1.0.6.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/62fa26fa53cf94957564284824e2ab09390c055d
+CommitInfo{repo='GitHub', hash='01c8d237976af13105e2eccba82ce601a4a43197', version='cassandra-v0.2'} 	https://github.com/grails/grails-data-mapping/commit/01c8d237976af13105e2eccba82ce601a4a43197
+CommitInfo{repo='GitHub', hash='a8c54eed6f901521e0d2ec90d5b037655473bf17', version='cassandra-v1.0.0-M01'} 	https://github.com/grails/grails-data-mapping/commit/a8c54eed6f901521e0d2ec90d5b037655473bf17
+CommitInfo{repo='GitHub', hash='cfbdd299b00cd5bc8f2d6106f9ddd4aa7ee2c2d6', version='neo4j-v1.0.0'} 	https://github.com/grails/grails-data-mapping/commit/cfbdd299b00cd5bc8f2d6106f9ddd4aa7ee2c2d6
+CommitInfo{repo='GitHub', hash='7c809287137fac0c7472fe80a0d517bfd59730db', version='neo4j-v1.0.0.RC2'} 	https://github.com/grails/grails-data-mapping/commit/7c809287137fac0c7472fe80a0d517bfd59730db
+CommitInfo{repo='GitHub', hash='c74d8cd5c42074fe73c4395cd6d6960482392e1c', version='neo4j-v1.0.1'} 	https://github.com/grails/grails-data-mapping/commit/c74d8cd5c42074fe73c4395cd6d6960482392e1c
+CommitInfo{repo='GitHub', hash='b36f816fe039980ece3cb1b838a1dd8a2ba7c2a9', version='neo4j-v1.1.2'} 	https://github.com/grails/grails-data-mapping/commit/b36f816fe039980ece3cb1b838a1dd8a2ba7c2a9
+CommitInfo{repo='GitHub', hash='6c97c5b015190742974e5bca8e3ead9c55c2e96d', version='neo4j-v2.0.0-M01'} 	https://github.com/grails/grails-data-mapping/commit/6c97c5b015190742974e5bca8e3ead9c55c2e96d
+CommitInfo{repo='GitHub', hash='f3999e09f1de05dbb25812752dcf475218f05eb7', version='neo4j-v2.0.0-M02'} 	https://github.com/grails/grails-data-mapping/commit/f3999e09f1de05dbb25812752dcf475218f05eb7
+CommitInfo{repo='GitHub', hash='557f49031426003b014f22c8c26577fc7b219f3f', version='simpledb-v0.1'} 	https://github.com/grails/grails-data-mapping/commit/557f49031426003b014f22c8c26577fc7b219f3f
+CommitInfo{repo='GitHub', hash='4c4f52b92256cf174663a8d044b10410afb4bbea', version='v1.0.0.M1'} 	https://github.com/grails/grails-data-mapping/commit/4c4f52b92256cf174663a8d044b10410afb4bbea
+CommitInfo{repo='GitHub', hash='2e60a4deb1ffda11f31f487b6b0d35cd83cd1b37', version='v1.0.0.M10'} 	https://github.com/grails/grails-data-mapping/commit/2e60a4deb1ffda11f31f487b6b0d35cd83cd1b37
+CommitInfo{repo='GitHub', hash='89d95ededc27800b7216f92e72c943676129ae53', version='v1.0.0.M4'} 	https://github.com/grails/grails-data-mapping/commit/89d95ededc27800b7216f92e72c943676129ae53
+CommitInfo{repo='GitHub', hash='7fa822731b2cd5043edd73398e3cdb427c85c3e6', version='v1.0.0.M5'} 	https://github.com/grails/grails-data-mapping/commit/7fa822731b2cd5043edd73398e3cdb427c85c3e6
+CommitInfo{repo='GitHub', hash='33b326c6f167627fb05d9425f41dedf0ac69100a', version='v1.0.0.M6'} 	https://github.com/grails/grails-data-mapping/commit/33b326c6f167627fb05d9425f41dedf0ac69100a
+CommitInfo{repo='GitHub', hash='62eb08b1c06f115ef25de065909e2bee8f60456f', version='v1.0.0.M9'} 	https://github.com/grails/grails-data-mapping/commit/62eb08b1c06f115ef25de065909e2bee8f60456f
+CommitInfo{repo='GitHub', hash='5b013024cb1b0ffb823796a6a89bb523034a77ae', version='v1.0.0.RC1'} 	https://github.com/grails/grails-data-mapping/commit/5b013024cb1b0ffb823796a6a89bb523034a77ae
+CommitInfo{repo='GitHub', hash='4d765920a9be5bead9dbc5e9168549b0d19e7793', version='v1.0.0.RC2'} 	https://github.com/grails/grails-data-mapping/commit/4d765920a9be5bead9dbc5e9168549b0d19e7793
+CommitInfo{repo='GitHub', hash='a54a9d97861d661e18563ca32c25fd8fb47ccb6a', version='v1.0.0.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/a54a9d97861d661e18563ca32c25fd8fb47ccb6a
+CommitInfo{repo='GitHub', hash='855304fbd2986714d26cb0355216f8e4f7756b2f', version='v1.0.1.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/855304fbd2986714d26cb0355216f8e4f7756b2f
+CommitInfo{repo='GitHub', hash='a377132728bd1ade76e2de23d54d5a6481e30254', version='v1.0.2.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/a377132728bd1ade76e2de23d54d5a6481e30254
+CommitInfo{repo='GitHub', hash='c9c89bd818028c50b8945845a48c9c71c4ddc5d3', version='v1.0.3.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/c9c89bd818028c50b8945845a48c9c71c4ddc5d3
+CommitInfo{repo='GitHub', hash='f1e789599113e40452958b031a06b3680d92cfd4', version='v1.0.4.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/f1e789599113e40452958b031a06b3680d92cfd4
+CommitInfo{repo='GitHub', hash='6532b6356643ec61f7c8cba5810ace25474154b3', version='v1.0.5.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/6532b6356643ec61f7c8cba5810ace25474154b3
+CommitInfo{repo='GitHub', hash='972080b6a67a2498a69a3fe774b7e18937f71de4', version='v1.0.7.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/972080b6a67a2498a69a3fe774b7e18937f71de4
+CommitInfo{repo='GitHub', hash='e8d53cbd26ca6af1a651662695b9fd9d56c7b242', version='v1.0.8.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/e8d53cbd26ca6af1a651662695b9fd9d56c7b242
+CommitInfo{repo='GitHub', hash='6744b57d63043652d33b89d66d5ec80c73ca47fb', version='v1.0.9.RELEASE'} 	https://github.com/grails/grails-data-mapping/commit/6744b57d63043652d33b89d66d5ec80c73ca47fb
+CommitInfo{repo='GitHub', hash='e02c220450a7433b82d54a42c0216032af29f4b2', version='v1.1.0'} 	https://github.com/grails/grails-data-mapping/commit/e02c220450a7433b82d54a42c0216032af29f4b2
+CommitInfo{repo='GitHub', hash='c99fd5bde834aad1f500634b7a4cab47d235ee0b', version='v1.1.1'} 	https://github.com/grails/grails-data-mapping/commit/c99fd5bde834aad1f500634b7a4cab47d235ee0b
+CommitInfo{repo='GitHub', hash='e14f3735f1035c180ddd1a4bd6e0082e3daf98e8', version='v1.1.2'} 	https://github.com/grails/grails-data-mapping/commit/e14f3735f1035c180ddd1a4bd6e0082e3daf98e8
+CommitInfo{repo='GitHub', hash='4fe742df5ed583d8488dc885387a0de920e261fe', version='v1.1.3'} 	https://github.com/grails/grails-data-mapping/commit/4fe742df5ed583d8488dc885387a0de920e261fe
+CommitInfo{repo='GitHub', hash='98955e73faa959b36db23fae59072d45d6322dce', version='v1.1.4'} 	https://github.com/grails/grails-data-mapping/commit/98955e73faa959b36db23fae59072d45d6322dce
+CommitInfo{repo='GitHub', hash='687dda93d81f0a2ed6e102c37d435ae29ba7290b', version='v1.1.5'} 	https://github.com/grails/grails-data-mapping/commit/687dda93d81f0a2ed6e102c37d435ae29ba7290b
+CommitInfo{repo='GitHub', hash='91d0fb98a17fe9ad9fc3dfbc7cf738ef9b7fa27e', version='v1.1.6'} 	https://github.com/grails/grails-data-mapping/commit/91d0fb98a17fe9ad9fc3dfbc7cf738ef9b7fa27e
+CommitInfo{repo='GitHub', hash='303adb00707e849628c5a6b0c90945a521ce1a90', version='v1.1.8'} 	https://github.com/grails/grails-data-mapping/commit/303adb00707e849628c5a6b0c90945a521ce1a90
+CommitInfo{repo='GitHub', hash='2c9c5c3b1180f836883941f7ed63fc6f08add954', version='v1.1.9'} 	https://github.com/grails/grails-data-mapping/commit/2c9c5c3b1180f836883941f7ed63fc6f08add954
+CommitInfo{repo='GitHub', hash='0a87c42c8deb824728582f8b66badbf9fbaaa432', version='v2.0.0'} 	https://github.com/grails/grails-data-mapping/commit/0a87c42c8deb824728582f8b66badbf9fbaaa432
+CommitInfo{repo='GitHub', hash='247c1b6eae330e99aaab77c31aa77d805093f9d8', version='v2.0.0.M2'} 	https://github.com/grails/grails-data-mapping/commit/247c1b6eae330e99aaab77c31aa77d805093f9d8
+CommitInfo{repo='GitHub', hash='00049be59abd27b3fa92a43d0dd4a334aa490017', version='v2.0.0.M3'} 	https://github.com/grails/grails-data-mapping/commit/00049be59abd27b3fa92a43d0dd4a334aa490017
+CommitInfo{repo='GitHub', hash='6d5bd19af2872fed036cd2b3afcc91613697bff2', version='v2.0.0.M4'} 	https://github.com/grails/grails-data-mapping/commit/6d5bd19af2872fed036cd2b3afcc91613697bff2
+CommitInfo{repo='GitHub', hash='c13396e524e71aa98d4eac7a30c3e13b5449df4b', version='v2.0.0.RC1'} 	https://github.com/grails/grails-data-mapping/commit/c13396e524e71aa98d4eac7a30c3e13b5449df4b
+CommitInfo{repo='GitHub', hash='189b254b4d25fd77c0a2293c564c5a02dbef2651', version='v2.0.0.RC2'} 	https://github.com/grails/grails-data-mapping/commit/189b254b4d25fd77c0a2293c564c5a02dbef2651
+CommitInfo{repo='GitHub', hash='920b26958d3ba5711f5ba15f119cbe3df87a6f00', version='v2.0.1'} 	https://github.com/grails/grails-data-mapping/commit/920b26958d3ba5711f5ba15f119cbe3df87a6f00
+CommitInfo{repo='GitHub', hash='966d8f985b86111ba4059c823eff7e5d8553e387', version='v2.0.2'} 	https://github.com/grails/grails-data-mapping/commit/966d8f985b86111ba4059c823eff7e5d8553e387
+CommitInfo{repo='GitHub', hash='03b0d8a32c768a31069f579e52b31ab279a63137', version='v2.0.3'} 	https://github.com/grails/grails-data-mapping/commit/03b0d8a32c768a31069f579e52b31ab279a63137
+CommitInfo{repo='GitHub', hash='23c8471ea3065494bc8d6fa419bbd8c1e5b74e9e', version='v2.0.4'} 	https://github.com/grails/grails-data-mapping/commit/23c8471ea3065494bc8d6fa419bbd8c1e5b74e9e
+CommitInfo{repo='GitHub', hash='90a0d622835f183a2b4b8db5388ce2261b283218', version='v2.0.5'} 	https://github.com/grails/grails-data-mapping/commit/90a0d622835f183a2b4b8db5388ce2261b283218
+CommitInfo{repo='GitHub', hash='364ecb744764e6c4a76738fbc59baf13bb98a5c7', version='v2.0.6'} 	https://github.com/grails/grails-data-mapping/commit/364ecb744764e6c4a76738fbc59baf13bb98a5c7
+CommitInfo{repo='GitHub', hash='3e91b6d4c895ee88dc2ac8a539dbb4904e4e96e8', version='v2.0.7'} 	https://github.com/grails/grails-data-mapping/commit/3e91b6d4c895ee88dc2ac8a539dbb4904e4e96e8
+CommitInfo{repo='GitHub', hash='afccf2b181e94f22456592e9804c2ce92c9899f4', version='v3.0.0'} 	https://github.com/grails/grails-data-mapping/commit/afccf2b181e94f22456592e9804c2ce92c9899f4
+CommitInfo{repo='GitHub', hash='7ddabc094d66dd9f22be1762a10d5b97340cb316', version='v3.0.1'} 	https://github.com/grails/grails-data-mapping/commit/7ddabc094d66dd9f22be1762a10d5b97340cb316
+CommitInfo{repo='GitHub', hash='c63349d1b362057b2ab5c8e3cda60af201df7845', version='v3.0.2'} 	https://github.com/grails/grails-data-mapping/commit/c63349d1b362057b2ab5c8e3cda60af201df7845
+CommitInfo{repo='GitHub', hash='3aec8bb044f85c8e29db9d88740f3af082c4034b', version='v3.0.3'} 	https://github.com/grails/grails-data-mapping/commit/3aec8bb044f85c8e29db9d88740f3af082c4034b
+CommitInfo{repo='GitHub', hash='14da52f9f2c7ed9718a843099d8cfda1260608fa', version='v3.0.4'} 	https://github.com/grails/grails-data-mapping/commit/14da52f9f2c7ed9718a843099d8cfda1260608fa
+CommitInfo{repo='GitHub', hash='1b3f010c5b3ab575deeadd19d52598a06f8bd5aa', version='v3.0.5'} 	https://github.com/grails/grails-data-mapping/commit/1b3f010c5b3ab575deeadd19d52598a06f8bd5aa
+CommitInfo{repo='GitHub', hash='c522375fb04a28e92d5ebb0afaa39a05319c8d26', version='v3.0.6'} 	https://github.com/grails/grails-data-mapping/commit/c522375fb04a28e92d5ebb0afaa39a05319c8d26
+CommitInfo{repo='GitHub', hash='4b69c902f59297442175a3713be4b436bc68c8f2', version='v3.1.0'} 	https://github.com/grails/grails-data-mapping/commit/4b69c902f59297442175a3713be4b436bc68c8f2
+CommitInfo{repo='GitHub', hash='fce7c3345ff945af9151869f7b0c7069d77c182a', version='v3.1.1'} 	https://github.com/grails/grails-data-mapping/commit/fce7c3345ff945af9151869f7b0c7069d77c182a
+CommitInfo{repo='GitHub', hash='a1ded3e1cf31498810e6fe3ac1e611fc7d5faff4', version='v3.1.2'} 	https://github.com/grails/grails-data-mapping/commit/a1ded3e1cf31498810e6fe3ac1e611fc7d5faff4
+CommitInfo{repo='GitHub', hash='ad18cca283f1aeb321ad207a0357f7c4aabb4c2e', version='v3.1.3'} 	https://github.com/grails/grails-data-mapping/commit/ad18cca283f1aeb321ad207a0357f7c4aabb4c2e
+CommitInfo{repo='GitHub', hash='8479adc15f692cfd39d448aed4ef988511d30bb8', version='v3.1.4'} 	https://github.com/grails/grails-data-mapping/commit/8479adc15f692cfd39d448aed4ef988511d30bb8
+CommitInfo{repo='GitHub', hash='9a59ff264298ab730c4660dd1f4c9653b1286b4d', version='v3.1.5'} 	https://github.com/grails/grails-data-mapping/commit/9a59ff264298ab730c4660dd1f4c9653b1286b4d
+CommitInfo{repo='GitHub', hash='8f5e84d06478f9965cc0802f8b7bee3ebffb3b2c', version='v4.0.0'} 	https://github.com/grails/grails-data-mapping/commit/8f5e84d06478f9965cc0802f8b7bee3ebffb3b2c
+CommitInfo{repo='GitHub', hash='2e57e554914326accdaf77402fa7d841d287e8ab', version='v4.0.0.M1'} 	https://github.com/grails/grails-data-mapping/commit/2e57e554914326accdaf77402fa7d841d287e8ab
+CommitInfo{repo='GitHub', hash='0e1719fc4cbe750706ed1fa66bb9c2714bb740aa', version='v4.0.0.M3'} 	https://github.com/grails/grails-data-mapping/commit/0e1719fc4cbe750706ed1fa66bb9c2714bb740aa
+CommitInfo{repo='GitHub', hash='81274ab23c2b7b4f77a9afd976f68fa56c0b809c', version='v4.0.0.M4'} 	https://github.com/grails/grails-data-mapping/commit/81274ab23c2b7b4f77a9afd976f68fa56c0b809c
+CommitInfo{repo='GitHub', hash='5aaaf991d3393ac0e62edb38126986dbb69decc6', version='v4.0.0.RC1'} 	https://github.com/grails/grails-data-mapping/commit/5aaaf991d3393ac0e62edb38126986dbb69decc6
+CommitInfo{repo='GitHub', hash='4a662ec07044dc9a6d67c7ff694838313803d294', version='v4.0.1'} 	https://github.com/grails/grails-data-mapping/commit/4a662ec07044dc9a6d67c7ff694838313803d294
+CommitInfo{repo='GitHub', hash='1c98795d254a63b6b2ef547ee5646b042289abb5', version='v4.0.3'} 	https://github.com/grails/grails-data-mapping/commit/1c98795d254a63b6b2ef547ee5646b042289abb5
+CommitInfo{repo='GitHub', hash='6ce2ec7ac1ce06ab45c73c264e38884dc2b38acd', version='v4.0.4'} 	https://github.com/grails/grails-data-mapping/commit/6ce2ec7ac1ce06ab45c73c264e38884dc2b38acd
+CommitInfo{repo='GitHub', hash='d96d3cb713537229808c5b8fda41a7fe77df1046', version='v4.0.5'} 	https://github.com/grails/grails-data-mapping/commit/d96d3cb713537229808c5b8fda41a7fe77df1046
+CommitInfo{repo='GitHub', hash='bfd7e0e4a52c24913c7bfe57a9a9b62cda6b8689', version='v4.0.6'} 	https://github.com/grails/grails-data-mapping/commit/bfd7e0e4a52c24913c7bfe57a9a9b62cda6b8689
+CommitInfo{repo='GitHub', hash='e042f902385e6b1e7e9b1fd853a46b98a057f3c5', version='v4.0.7'} 	https://github.com/grails/grails-data-mapping/commit/e042f902385e6b1e7e9b1fd853a46b98a057f3c5
+CommitInfo{repo='GitHub', hash='ade857ecdeca221ade07f35bc917f606fb4412a7', version='v5.0.0'} 	https://github.com/grails/grails-data-mapping/commit/ade857ecdeca221ade07f35bc917f606fb4412a7
+CommitInfo{repo='GitHub', hash='8df9d7de9338e81ae2cc718f284b711285325331', version='v5.0.0.RC1'} 	https://github.com/grails/grails-data-mapping/commit/8df9d7de9338e81ae2cc718f284b711285325331
+CommitInfo{repo='GitHub', hash='7e20f6f78c2f0725559aac11bf0477a34c6395d4', version='v5.0.0.RC2'} 	https://github.com/grails/grails-data-mapping/commit/7e20f6f78c2f0725559aac11bf0477a34c6395d4
+CommitInfo{repo='GitHub', hash='c239d75333a756a37c42664c3ff1e2df5cf42327', version='v5.0.0.RC3'} 	https://github.com/grails/grails-data-mapping/commit/c239d75333a756a37c42664c3ff1e2df5cf42327
+CommitInfo{repo='GitHub', hash='56d28539822951dd09c75436e1bfe93b3d06b2b1', version='v5.0.0.RC4'} 	https://github.com/grails/grails-data-mapping/commit/56d28539822951dd09c75436e1bfe93b3d06b2b1
+CommitInfo{repo='GitHub', hash='8e67ba487649412d1883e53a2654bedba8ec0e61', version='v5.0.1'} 	https://github.com/grails/grails-data-mapping/commit/8e67ba487649412d1883e53a2654bedba8ec0e61
+CommitInfo{repo='GitHub', hash='cdf5cc5294febab5ead678e983cfd18c2cf1eeb5', version='v5.0.10'} 	https://github.com/grails/grails-data-mapping/commit/cdf5cc5294febab5ead678e983cfd18c2cf1eeb5
+CommitInfo{repo='GitHub', hash='1da3159a897752f91d75fd607bae8ccb34b7dac7', version='v5.0.11'} 	https://github.com/grails/grails-data-mapping/commit/1da3159a897752f91d75fd607bae8ccb34b7dac7
+CommitInfo{repo='GitHub', hash='1ebbfcecae4abafc3eeffeec86ac6a9f38a6cd0c', version='v5.0.12'} 	https://github.com/grails/grails-data-mapping/commit/1ebbfcecae4abafc3eeffeec86ac6a9f38a6cd0c
+CommitInfo{repo='GitHub', hash='b68f735dc7c607dd43d675658e7e05745dddcecf', version='v5.0.13'} 	https://github.com/grails/grails-data-mapping/commit/b68f735dc7c607dd43d675658e7e05745dddcecf
+CommitInfo{repo='GitHub', hash='810db730ef9130437d67dcae9d10f871cb83e0da', version='v5.0.2'} 	https://github.com/grails/grails-data-mapping/commit/810db730ef9130437d67dcae9d10f871cb83e0da
+CommitInfo{repo='GitHub', hash='28962cf4aa6f370dc9e69e2f6b8201fcf3e1aa32', version='v5.0.3'} 	https://github.com/grails/grails-data-mapping/commit/28962cf4aa6f370dc9e69e2f6b8201fcf3e1aa32
+CommitInfo{repo='GitHub', hash='71eaedd927f18868646a1c83f8d76806f018bc71', version='v5.0.4'} 	https://github.com/grails/grails-data-mapping/commit/71eaedd927f18868646a1c83f8d76806f018bc71
+CommitInfo{repo='GitHub', hash='e9ac5256d06f7b5fa4cd66716d3f1f1d001be78c', version='v5.0.5'} 	https://github.com/grails/grails-data-mapping/commit/e9ac5256d06f7b5fa4cd66716d3f1f1d001be78c
+CommitInfo{repo='GitHub', hash='2980afac9140671768fb6cafdc2e9e57c704db2b', version='v5.0.6'} 	https://github.com/grails/grails-data-mapping/commit/2980afac9140671768fb6cafdc2e9e57c704db2b
+CommitInfo{repo='GitHub', hash='76512f1c8fe22fba99b25e5558d10bd5d8413175', version='v5.0.7'} 	https://github.com/grails/grails-data-mapping/commit/76512f1c8fe22fba99b25e5558d10bd5d8413175
+CommitInfo{repo='GitHub', hash='b940916e80a030e73449a676fdad9d31bf014223', version='v5.0.8'} 	https://github.com/grails/grails-data-mapping/commit/b940916e80a030e73449a676fdad9d31bf014223
+CommitInfo{repo='GitHub', hash='433bbf6ea01f526fbcdb6c31eb14aa680d0e09cf', version='v5.0.9'} 	https://github.com/grails/grails-data-mapping/commit/433bbf6ea01f526fbcdb6c31eb14aa680d0e09cf
+CommitInfo{repo='GitHub', hash='acd68212065e29a2baa538c3c99002611900d426', version='v6.0.0'} 	https://github.com/grails/grails-data-mapping/commit/acd68212065e29a2baa538c3c99002611900d426
+CommitInfo{repo='GitHub', hash='f5af34b918878e54c2aac973431ca5eb8e860d16', version='v6.0.0.M1'} 	https://github.com/grails/grails-data-mapping/commit/f5af34b918878e54c2aac973431ca5eb8e860d16
+CommitInfo{repo='GitHub', hash='c05ba46af5f394a5780f1c3b3ab98ae0080e6722', version='v6.0.0.M2'} 	https://github.com/grails/grails-data-mapping/commit/c05ba46af5f394a5780f1c3b3ab98ae0080e6722
+CommitInfo{repo='GitHub', hash='298182ac7fb58d7a26257794724f44e645effcc6', version='v6.0.0.RC1'} 	https://github.com/grails/grails-data-mapping/commit/298182ac7fb58d7a26257794724f44e645effcc6
+CommitInfo{repo='GitHub', hash='b46a5bb5ec75ef01eb10621e6eb4d1f306c00c78', version='v6.0.0.RC2'} 	https://github.com/grails/grails-data-mapping/commit/b46a5bb5ec75ef01eb10621e6eb4d1f306c00c78
+CommitInfo{repo='GitHub', hash='4931761ebffa02b3291479d8beec9ad3d7abd3c9', version='v6.0.1'} 	https://github.com/grails/grails-data-mapping/commit/4931761ebffa02b3291479d8beec9ad3d7abd3c9
+CommitInfo{repo='GitHub', hash='6debfa7282f8ab2c8f7e854670831ec2ba126b14', version='v6.0.10'} 	https://github.com/grails/grails-data-mapping/commit/6debfa7282f8ab2c8f7e854670831ec2ba126b14
+CommitInfo{repo='GitHub', hash='80f75e3262424cfbff021bbc02dfcf65bd11bccb', version='v6.0.11'} 	https://github.com/grails/grails-data-mapping/commit/80f75e3262424cfbff021bbc02dfcf65bd11bccb
+CommitInfo{repo='GitHub', hash='8a1d7799344cc7487cfca1097470b899c8be55e4', version='v6.0.12'} 	https://github.com/grails/grails-data-mapping/commit/8a1d7799344cc7487cfca1097470b899c8be55e4
+CommitInfo{repo='GitHub', hash='a61e5f16d67b81292bb2f83f64049e9bea112e6f', version='v6.0.13'} 	https://github.com/grails/grails-data-mapping/commit/a61e5f16d67b81292bb2f83f64049e9bea112e6f
+CommitInfo{repo='GitHub', hash='9a6162cc1c6c645f8e7150ab479b182624b1bc17', version='v6.0.2'} 	https://github.com/grails/grails-data-mapping/commit/9a6162cc1c6c645f8e7150ab479b182624b1bc17
+CommitInfo{repo='GitHub', hash='5d89e2cbb8cddf508a0f5dd0c8092b14e62c3d6d', version='v6.0.3'} 	https://github.com/grails/grails-data-mapping/commit/5d89e2cbb8cddf508a0f5dd0c8092b14e62c3d6d
+CommitInfo{repo='GitHub', hash='85879b509a723d51af3458eb0d343c04dfee7b49', version='v6.0.4'} 	https://github.com/grails/grails-data-mapping/commit/85879b509a723d51af3458eb0d343c04dfee7b49
+CommitInfo{repo='GitHub', hash='1e9ef4a580d9b750df7331e3750f8272ca4976be', version='v6.0.5'} 	https://github.com/grails/grails-data-mapping/commit/1e9ef4a580d9b750df7331e3750f8272ca4976be
+CommitInfo{repo='GitHub', hash='1035685b1b5a40df35ee86094e3087dfc8e4cba2', version='v6.0.6'} 	https://github.com/grails/grails-data-mapping/commit/1035685b1b5a40df35ee86094e3087dfc8e4cba2
+CommitInfo{repo='GitHub', hash='76a121b532116d6b934767f81ef49ff4c5c59300', version='v6.0.7'} 	https://github.com/grails/grails-data-mapping/commit/76a121b532116d6b934767f81ef49ff4c5c59300
+CommitInfo{repo='GitHub', hash='92405fde9f37c4b616739368dd62e5d523ea32ac', version='v6.0.8'} 	https://github.com/grails/grails-data-mapping/commit/92405fde9f37c4b616739368dd62e5d523ea32ac
+CommitInfo{repo='GitHub', hash='df61634dacb52b71a3796c1f5f44cbcfe28213fc', version='v6.0.9'} 	https://github.com/grails/grails-data-mapping/commit/df61634dacb52b71a3796c1f5f44cbcfe28213fc
+CommitInfo{repo='GitHub', hash='317bf58fceaffe7700e972446498d088b83db001', version='v6.1.0'} 	https://github.com/grails/grails-data-mapping/commit/317bf58fceaffe7700e972446498d088b83db001
+CommitInfo{repo='GitHub', hash='5960ad047baa9687dd990509bd1100691d9edf4b', version='v6.1.0.M1'} 	https://github.com/grails/grails-data-mapping/commit/5960ad047baa9687dd990509bd1100691d9edf4b
+CommitInfo{repo='GitHub', hash='78a53d9872dff70a9184783ffb2e8dff857e9003', version='v6.1.0.M2'} 	https://github.com/grails/grails-data-mapping/commit/78a53d9872dff70a9184783ffb2e8dff857e9003
+CommitInfo{repo='GitHub', hash='86052d606e58bccc5c8a265a007115c96d3e44a9', version='v6.1.0.RC1'} 	https://github.com/grails/grails-data-mapping/commit/86052d606e58bccc5c8a265a007115c96d3e44a9
+CommitInfo{repo='GitHub', hash='fd2cbb198d94781a461a0a9dbac691dbe90e4dc8', version='v6.1.0.RC2'} 	https://github.com/grails/grails-data-mapping/commit/fd2cbb198d94781a461a0a9dbac691dbe90e4dc8
+CommitInfo{repo='GitHub', hash='765161bf57e60b9106c248ba23261870290c082a', version='v6.1.1'} 	https://github.com/grails/grails-data-mapping/commit/765161bf57e60b9106c248ba23261870290c082a
+CommitInfo{repo='GitHub', hash='1926b06256dd074cb8f7c9935a814a428ca7dabd', version='v6.1.10'} 	https://github.com/grails/grails-data-mapping/commit/1926b06256dd074cb8f7c9935a814a428ca7dabd
+CommitInfo{repo='GitHub', hash='225bed6f0d14905dbd3fdc98a27e7d7a96117b3e', version='v6.1.2'} 	https://github.com/grails/grails-data-mapping/commit/225bed6f0d14905dbd3fdc98a27e7d7a96117b3e
+CommitInfo{repo='GitHub', hash='399158319e2ac29cb57cf3573e07109c14962de5', version='v6.1.3'} 	https://github.com/grails/grails-data-mapping/commit/399158319e2ac29cb57cf3573e07109c14962de5
+CommitInfo{repo='GitHub', hash='ad69ca8f7dc75fb5f0e5d21b564e49ebc919eac3', version='v6.1.4'} 	https://github.com/grails/grails-data-mapping/commit/ad69ca8f7dc75fb5f0e5d21b564e49ebc919eac3
+CommitInfo{repo='GitHub', hash='c3a12498f1f883bd4ebe46d47d9ff10fcc2c3f23', version='v6.1.5'} 	https://github.com/grails/grails-data-mapping/commit/c3a12498f1f883bd4ebe46d47d9ff10fcc2c3f23
+CommitInfo{repo='GitHub', hash='46d70cd300274ff32f81267bcd1ad42a9a3f5772', version='v6.1.6'} 	https://github.com/grails/grails-data-mapping/commit/46d70cd300274ff32f81267bcd1ad42a9a3f5772
+CommitInfo{repo='GitHub', hash='474c27387d20dd8bdb6489759b4b7232f6e6a2b4', version='v6.1.7'} 	https://github.com/grails/grails-data-mapping/commit/474c27387d20dd8bdb6489759b4b7232f6e6a2b4
+CommitInfo{repo='GitHub', hash='c2500eeb5f3b30f757c9878d2213750ed456056c', version='v6.1.8'} 	https://github.com/grails/grails-data-mapping/commit/c2500eeb5f3b30f757c9878d2213750ed456056c
+CommitInfo{repo='GitHub', hash='c2500eeb5f3b30f757c9878d2213750ed456056c', version='v6.1.8'} 	https://github.com/grails/grails-data-mapping/commit/c2500eeb5f3b30f757c9878d2213750ed456056c
+CommitInfo{repo='GitHub', hash='06373e264694be7b6461447b5b8b53ddbef2eef4', version='v6.1.9'} 	https://github.com/grails/grails-data-mapping/commit/06373e264694be7b6461447b5b8b53ddbef2eef4
 
 Project A:
 ProjectVersionFixed(version=6.0.0.M1, dependency=2.4.5, time=2016-05-30 14:42:16 UTC),	Latest, "DependencyVersion(version=2.4.6, time=2016-02-22 08:41:19 UTC)"

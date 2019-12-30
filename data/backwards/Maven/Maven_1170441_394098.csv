@@ -2,120 +2,125 @@
 Project information
 com.vmware.xenon:xenon-common (1170441)	org.apache.lucene:lucene-analyzers-common (394098)	Package Manager: Maven
 RepoID: 3288129
+Repo Owner/Name: vmware/xenon
+Repository type: GitHub
+
+ https://github.com/vmware/xenon/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='0297f05b15682dd586a185bc3f6412a2981b5a92', version='v0.3.0-release'}
-CommitInfo{repo='GitHub', hash='b071d1db5f83a228514f795bf27bbbfd4b932c9b', version='v0.3.1-release'}
-CommitInfo{repo='GitHub', hash='044c4560c0d597e0a9b8651b25d41cf7c3b804f9', version='v0.3.2-release'}
-CommitInfo{repo='GitHub', hash='ae88b0100f96b045f8cd6c3998cba55de2f7db8d', version='v0.4.0-release'}
-CommitInfo{repo='GitHub', hash='86fbf96a2e0cbef5968f6e183f974707484cd65c', version='v0.4.1-release'}
-CommitInfo{repo='GitHub', hash='40e50577913046905241d22524c967d30b5db120', version='v0.5.0-release'}
-CommitInfo{repo='GitHub', hash='89ba50c1b76a2bf80c0df62c533e4b8db0d0844f', version='v0.5.1-release'}
-CommitInfo{repo='GitHub', hash='e9832a2c2a6a9ae6544c4b37875bfa5d0c360056', version='v0.6.0-release'}
-CommitInfo{repo='GitHub', hash='257f5d2a4c2b68f2765529cd00747c7a75e5451f', version='v0.7.0-release'}
-CommitInfo{repo='GitHub', hash='9f2e2aa93fbb9ddfaebd283bb3ae89974287c2b0', version='v0.7.1-release'}
-CommitInfo{repo='GitHub', hash='25050efe4421db7929f7b2124d961b5436b0f02a', version='v0.7.2-release'}
-CommitInfo{repo='GitHub', hash='a27a2acc5fd1c90daffb249c036bb7bb10e389f2', version='v0.7.5-release'}
-CommitInfo{repo='GitHub', hash='75c0862962e8fa8155091acc761984a845332d6a', version='v0.7.6-release'}
-CommitInfo{repo='GitHub', hash='d69061f5f2f1471f45dba5ab00dd3137187362d8', version='v0.8.0-release'}
-CommitInfo{repo='GitHub', hash='e5efe1ded1642d823948d372563cb489aeea4659', version='v0.8.1-release'}
-CommitInfo{repo='GitHub', hash='709e7ecff2b10683a4ba97846cd3a484f6080888', version='v0.8.2-release'}
-CommitInfo{repo='GitHub', hash='cc6d0a1e739d52ae5631808e91603d1277171ce3', version='v0.9.0-CR1-release'}
-CommitInfo{repo='GitHub', hash='f72cfaecb3e41affacde6c4d4b7bf135c0820c7a', version='v0.9.0-release'}
-CommitInfo{repo='GitHub', hash='2aedd593a231dd93607e77de04f79cae837a7187', version='v0.9.1-release'}
-CommitInfo{repo='GitHub', hash='400c10faa27423956d49fc39f07318ccc9ca5269', version='v0.9.2-release'}
-CommitInfo{repo='GitHub', hash='52ffe3a4d798a172b7faf0f635d827d3ced1f330', version='v0.9.3-release'}
-CommitInfo{repo='GitHub', hash='9ceb4f7f7044a59e7a2e326bc466cc67097743f6', version='v0.9.4-release'}
-CommitInfo{repo='GitHub', hash='0ba50c84903e44b60bd06d2827bccea2202a31a0', version='v0.9.5-release'}
-CommitInfo{repo='GitHub', hash='858fde6b43d78b8d3a112589386a83452b232d13', version='v0.9.6-release'}
-CommitInfo{repo='GitHub', hash='8b294702d36d55ba1c2198493bed7a8faf0c6971', version='v0.9.7-release'}
-CommitInfo{repo='GitHub', hash='29b966dd4219d67194e893a94b22fea7733cf6f0', version='v1.0.0-release'}
-CommitInfo{repo='GitHub', hash='5e25ff46e66a393b0aeaaf62753012151ad82b08', version='v1.1.0-CR0-1-release'}
-CommitInfo{repo='GitHub', hash='667d6e4068c2887a62815e929dea22aec959694b', version='v1.1.0-CR0-2-release'}
-CommitInfo{repo='GitHub', hash='97bc429122da903533b7560e68ec67533e3d366e', version='v1.1.0-CR0-3-release'}
-CommitInfo{repo='GitHub', hash='dc21335ed881f9d28f0b942a07ed08391968419e', version='v1.1.0-CR1-release'}
-CommitInfo{repo='GitHub', hash='fbc04ebe4490686db12a51a98fa6bc0e68b72bc4', version='v1.1.0-CR2-release'}
-CommitInfo{repo='GitHub', hash='4b8f891a2791f26bdbd270f5bca2d7c1a308a870', version='v1.1.0-CR3_1-release'}
-CommitInfo{repo='GitHub', hash='5e869f916bd9c5106341498135fa3fdde5409045', version='v1.1.0-CR3-release'}
-CommitInfo{repo='GitHub', hash='22a16cd15cb6743516cdf0e7220d08737abdb2b1', version='v1.1.0-CR4-release'}
-CommitInfo{repo='GitHub', hash='045fdd895e4c4a8f8c8cfd02aee2455b06fa51c9', version='v1.1.0-CR5-release'}
-CommitInfo{repo='GitHub', hash='e622f223195fe12508a5f74946bcab7cea6e3bae', version='v1.1.0-CR6-release'}
-CommitInfo{repo='GitHub', hash='437cab956c379050e020cf0eb95bd0965b6566b6', version='v1.1.0-release'}
-CommitInfo{repo='GitHub', hash='0f9044f96f3f2f82bb7d9ad7b06b616db2421a23', version='v1.1.1-release'}
-CommitInfo{repo='GitHub', hash='e0aa859fca734b5d42c5a2e434ab651ff6a35bed', version='v1.2.0-release'}
-CommitInfo{repo='GitHub', hash='bba76088a4b4f4aa844fdbf63993652403f3ece6', version='v1.3.0-release'}
-CommitInfo{repo='GitHub', hash='855c83e0722cdcb1930d9d9e6833f9d9bddbedac', version='v1.3.1-release'}
-CommitInfo{repo='GitHub', hash='f833a9d3628946b15e1ce9fdb1c3085f3d365ea4', version='v1.3.2-release'}
-CommitInfo{repo='GitHub', hash='15f7688039ddcc3bd359b900958359c162407269', version='v1.3.3-release'}
-CommitInfo{repo='GitHub', hash='2dc80ad3e3ac57d02475c284869eedf8f888eba3', version='v1.3.4-release'}
-CommitInfo{repo='GitHub', hash='5702a41e62ce808e0218b4f1bb118e4381b39331', version='v1.3.5-release'}
-CommitInfo{repo='GitHub', hash='4ba1cf7350fd0f32bf04763776167f1d1c15e226', version='v1.3.6-release'}
-CommitInfo{repo='GitHub', hash='bd751fde8b7dc468d28753c2a5679022d1edb402', version='v1.3.7-CR1_1-release'}
-CommitInfo{repo='GitHub', hash='203ecb7ee27ad4a086ecd222b1576adcc7ea6b1d', version='v1.3.7-CR1_2-release'}
-CommitInfo{repo='GitHub', hash='0faee3775a55b1d0c17e23bf6a360d5733a8ac8e', version='v1.3.7-CR1-release'}
-CommitInfo{repo='GitHub', hash='50981275d033bd8f6e32e574d94d158b8713700f', version='v1.3.7-release'}
-CommitInfo{repo='GitHub', hash='03655e9817474b94b2498724e90773445d643cb4', version='v1.4.0-release'}
-CommitInfo{repo='GitHub', hash='c505e0a45ee86d45c25c5ae5a79c0d8bd332ec46', version='v1.4.1-release'}
-CommitInfo{repo='GitHub', hash='a17534d81fd9da294db84f728efbf8e16a872504', version='v1.4.2-CR1-release'}
-CommitInfo{repo='GitHub', hash='b8459cb05ab98210c2c376b95e0dad6bc67c5c85', version='v1.4.2-CR2-release'}
-CommitInfo{repo='GitHub', hash='792c4830f36309c9a967d73497c0292c32ed3fbf', version='v1.4.2-CR3-release'}
-CommitInfo{repo='GitHub', hash='2cc70b8e445595d1084f5e0dbf0e59b799819e57', version='v1.4.2-CR4_1-release'}
-CommitInfo{repo='GitHub', hash='405bb8127581b1fd20a9e12c877695900221e371', version='v1.4.2-CR4-release'}
-CommitInfo{repo='GitHub', hash='e324956bab4e19c782c689ad9eef98560bc2f9c5', version='v1.4.2-release'}
-CommitInfo{repo='GitHub', hash='eccfddbc295639859da4db4df7e832d66870310a', version='v1.5.0-release'}
-CommitInfo{repo='GitHub', hash='290d5d633485adef43365a3c19db7824dd24d89b', version='v1.5.1-CR1-release'}
-CommitInfo{repo='GitHub', hash='eae3b6688bc36e9384a9710fc634654913cac5fa', version='v1.5.1-CR2-release'}
-CommitInfo{repo='GitHub', hash='7849ea64c39520c81fe10e9465e0a9ed4fbaa144', version='v1.5.1-release'}
-CommitInfo{repo='GitHub', hash='ab0dcba9e456841561ec693acb108560b2c84d9b', version='v1.5.2-CR1-release'}
-CommitInfo{repo='GitHub', hash='7fb02d761dd43c0aa00e98cc52c9f9649e291d84', version='v1.5.2-release'}
-CommitInfo{repo='GitHub', hash='a005a32dc30e48a8e7e722edb446202e615cf57c', version='v1.5.3-release'}
-CommitInfo{repo='GitHub', hash='d362d799ed4c5a8c565ba1baf806a22a5d566d0e', version='v1.5.4_8-release'}
-CommitInfo{repo='GitHub', hash='6adf5b4cac7c2c5bc8a62a9512f6c8fee529cc05', version='v1.5.4_9-release'}
-CommitInfo{repo='GitHub', hash='43a1085d54164fe2516598982781bc0303ca943c', version='v1.5.4-CR2-release'}
-CommitInfo{repo='GitHub', hash='ae809337729ff1e122b2b80bb6af67fdc367c267', version='v1.5.4-CR3-release'}
-CommitInfo{repo='GitHub', hash='a3cfb3d4b68c5da85a33f073f81f0b4bcda4c0d2', version='v1.5.4-CR4-release'}
-CommitInfo{repo='GitHub', hash='75fbf1bf2ecec5897fe9449b0f5ab1e64c0a4c91', version='v1.5.4-CR5-release'}
-CommitInfo{repo='GitHub', hash='32cc2d9d08537e1fa77103a709c43029a7fb81b2', version='v1.5.4-CR6_1-release'}
-CommitInfo{repo='GitHub', hash='41d6c16f103869f0bbb7b0096c43b51f2276a0a0', version='v1.5.4-CR6_2-release'}
-CommitInfo{repo='GitHub', hash='0b69ed762db8f7deaebc4e2932680c5cd68c9fb5', version='v1.5.4-CR6-release'}
-CommitInfo{repo='GitHub', hash='413e3bce75da33b4162f3ab679e7d876c4099895', version='v1.5.4-CR7_1-release'}
-CommitInfo{repo='GitHub', hash='882bd0fd5c597031a10edd6eb6b4248d26a3ab37', version='v1.5.4-CR7-release'}
-CommitInfo{repo='GitHub', hash='8c11d2b2af0adf30b7484d29ca7a46497932a831', version='v1.5.4-release'}
-CommitInfo{repo='GitHub', hash='c112c8e7e285180590dde3c0f3f203273dc9323a', version='v1.5.5-release'}
-CommitInfo{repo='GitHub', hash='793ae4987837c0d6b5ad692db5dc4fda8b8ac815', version='v1.5.6-release'}
-CommitInfo{repo='GitHub', hash='bbfb9749abf116e82dee3c1e120f87907440f2a6', version='v1.5.7_5-release'}
-CommitInfo{repo='GitHub', hash='67c424cd5998f027bd83d1706a65bb8585f277e7', version='v1.5.7_6_1-release'}
-CommitInfo{repo='GitHub', hash='c8ec8dacb6460d2fbe009ef967b54f49878f74c0', version='v1.5.7_6_2-release'}
-CommitInfo{repo='GitHub', hash='3f1dac59795b26a589ec1cb866145f54fe633aaa', version='v1.5.7_6-release'}
-CommitInfo{repo='GitHub', hash='84dbb080fc52ff232400331ef3b6955b82221d42', version='v1.5.7_7-release'}
-CommitInfo{repo='GitHub', hash='51f61ddaefe65181689826ae809bf9d4a681ff9a', version='v1.5.7_8-release'}
-CommitInfo{repo='GitHub', hash='758ed9d0d02cdd3e0016b3fec90a7cd4429e0f0f', version='v1.5.7_9-release'}
-CommitInfo{repo='GitHub', hash='00cc2f9ed9dba0d7088dd5854f4fcbeda9190beb', version='v1.5.7-CR1-release'}
-CommitInfo{repo='GitHub', hash='d6b23049b5a0fba8f4ffbd18b03c24db93d158d2', version='v1.5.7-CR2-release'}
-CommitInfo{repo='GitHub', hash='80edcab5037607e836d4c8d6dd8feebc4a897bfa', version='v1.5.7-CR3-release'}
-CommitInfo{repo='GitHub', hash='7578a997e3be122a4fb781a7e4aecc8a61d694e3', version='v1.5.7-CR4-release'}
-CommitInfo{repo='GitHub', hash='a1fae52f400105ffcc26051cf613e7bc7d3b3113', version='v1.5.7-release'}
-CommitInfo{repo='GitHub', hash='e27be08174eaa9e0aadd169a51d7a44d638a0eeb', version='v1.6.0-release'}
-CommitInfo{repo='GitHub', hash='aa95cd366bbbd73dd347cfe710e968eb8dc2c255', version='v1.6.10-release'}
-CommitInfo{repo='GitHub', hash='9996deb1b9033ba6a0922472beeefe93fbd1b5ac', version='v1.6.11-release'}
-CommitInfo{repo='GitHub', hash='9a34e1dcd0ae863116ead0ce01c8b37b823679ee', version='v1.6.12-release'}
-CommitInfo{repo='GitHub', hash='e0708103ba7ec972664fc6cfc8ba3c22c8837d02', version='v1.6.13-release'}
-CommitInfo{repo='GitHub', hash='e0708103ba7ec972664fc6cfc8ba3c22c8837d02', version='v1.6.13-release'}
-CommitInfo{repo='GitHub', hash='bcd4dca8281d935c0272cc98060a464b860721ea', version='v1.6.14-release'}
-CommitInfo{repo='GitHub', hash='a268e3e9a3f43b058ef472d4c2586ae488edebdf', version='v1.6.1-release'}
-CommitInfo{repo='GitHub', hash='8d9ae3b66d97e75a41fc133e12bdab617494dbc8', version='v1.6.2.1-release'}
-CommitInfo{repo='GitHub', hash='f3660250870e15919c96d15da1fee061de275fe0', version='v1.6.2-release'}
-CommitInfo{repo='GitHub', hash='8e7f90e61bc2cf084b0d6006ed16ed7c8f1cd207', version='v1.6.3.1-release'}
-CommitInfo{repo='GitHub', hash='86cae44513fee7daaacf691f1225f5089830009f', version='v1.6.3.2-release'}
-CommitInfo{repo='GitHub', hash='ea3d8b13a44784236a0b6193129b2093f740b632', version='v1.6.3.3-release'}
-CommitInfo{repo='GitHub', hash='b22c45c111db589c0290d070a8e93ea744e5b0ea', version='v1.6.3-release'}
-CommitInfo{repo='GitHub', hash='38fe3d6b584a987df9509e9827179a2ee207753d', version='v1.6.4.1-release'}
-CommitInfo{repo='GitHub', hash='3fd89ae5b7fbd6db9eb6a44ae6834283b3c7f187', version='v1.6.4.2-release'}
-CommitInfo{repo='GitHub', hash='549ec44ba9b2eb3dfe08a249e78f89adb9061fe9', version='v1.6.4-release'}
-CommitInfo{repo='GitHub', hash='1651ff07c3caaf985c2a0a3b4842657d52802d6f', version='v1.6.5-release'}
-CommitInfo{repo='GitHub', hash='e8fc2c9ee0fae4f97833e717de181094721eea19', version='v1.6.6-release'}
-CommitInfo{repo='GitHub', hash='4b0ef1947db32c39059dc082dec0760564ef7983', version='v1.6.7-release'}
-CommitInfo{repo='GitHub', hash='8a6bc1739cbb26a27ab0d89dd50506f295032f13', version='v1.6.8-release'}
-CommitInfo{repo='GitHub', hash='353f2eaf14154a934e110e86e7d7d6d99a62142b', version='v1.6.9-release'}
+CommitInfo{repo='GitHub', hash='0297f05b15682dd586a185bc3f6412a2981b5a92', version='v0.3.0-release'} 	https://github.com/vmware/xenon/commit/0297f05b15682dd586a185bc3f6412a2981b5a92
+CommitInfo{repo='GitHub', hash='b071d1db5f83a228514f795bf27bbbfd4b932c9b', version='v0.3.1-release'} 	https://github.com/vmware/xenon/commit/b071d1db5f83a228514f795bf27bbbfd4b932c9b
+CommitInfo{repo='GitHub', hash='044c4560c0d597e0a9b8651b25d41cf7c3b804f9', version='v0.3.2-release'} 	https://github.com/vmware/xenon/commit/044c4560c0d597e0a9b8651b25d41cf7c3b804f9
+CommitInfo{repo='GitHub', hash='ae88b0100f96b045f8cd6c3998cba55de2f7db8d', version='v0.4.0-release'} 	https://github.com/vmware/xenon/commit/ae88b0100f96b045f8cd6c3998cba55de2f7db8d
+CommitInfo{repo='GitHub', hash='86fbf96a2e0cbef5968f6e183f974707484cd65c', version='v0.4.1-release'} 	https://github.com/vmware/xenon/commit/86fbf96a2e0cbef5968f6e183f974707484cd65c
+CommitInfo{repo='GitHub', hash='40e50577913046905241d22524c967d30b5db120', version='v0.5.0-release'} 	https://github.com/vmware/xenon/commit/40e50577913046905241d22524c967d30b5db120
+CommitInfo{repo='GitHub', hash='89ba50c1b76a2bf80c0df62c533e4b8db0d0844f', version='v0.5.1-release'} 	https://github.com/vmware/xenon/commit/89ba50c1b76a2bf80c0df62c533e4b8db0d0844f
+CommitInfo{repo='GitHub', hash='e9832a2c2a6a9ae6544c4b37875bfa5d0c360056', version='v0.6.0-release'} 	https://github.com/vmware/xenon/commit/e9832a2c2a6a9ae6544c4b37875bfa5d0c360056
+CommitInfo{repo='GitHub', hash='257f5d2a4c2b68f2765529cd00747c7a75e5451f', version='v0.7.0-release'} 	https://github.com/vmware/xenon/commit/257f5d2a4c2b68f2765529cd00747c7a75e5451f
+CommitInfo{repo='GitHub', hash='9f2e2aa93fbb9ddfaebd283bb3ae89974287c2b0', version='v0.7.1-release'} 	https://github.com/vmware/xenon/commit/9f2e2aa93fbb9ddfaebd283bb3ae89974287c2b0
+CommitInfo{repo='GitHub', hash='25050efe4421db7929f7b2124d961b5436b0f02a', version='v0.7.2-release'} 	https://github.com/vmware/xenon/commit/25050efe4421db7929f7b2124d961b5436b0f02a
+CommitInfo{repo='GitHub', hash='a27a2acc5fd1c90daffb249c036bb7bb10e389f2', version='v0.7.5-release'} 	https://github.com/vmware/xenon/commit/a27a2acc5fd1c90daffb249c036bb7bb10e389f2
+CommitInfo{repo='GitHub', hash='75c0862962e8fa8155091acc761984a845332d6a', version='v0.7.6-release'} 	https://github.com/vmware/xenon/commit/75c0862962e8fa8155091acc761984a845332d6a
+CommitInfo{repo='GitHub', hash='d69061f5f2f1471f45dba5ab00dd3137187362d8', version='v0.8.0-release'} 	https://github.com/vmware/xenon/commit/d69061f5f2f1471f45dba5ab00dd3137187362d8
+CommitInfo{repo='GitHub', hash='e5efe1ded1642d823948d372563cb489aeea4659', version='v0.8.1-release'} 	https://github.com/vmware/xenon/commit/e5efe1ded1642d823948d372563cb489aeea4659
+CommitInfo{repo='GitHub', hash='709e7ecff2b10683a4ba97846cd3a484f6080888', version='v0.8.2-release'} 	https://github.com/vmware/xenon/commit/709e7ecff2b10683a4ba97846cd3a484f6080888
+CommitInfo{repo='GitHub', hash='cc6d0a1e739d52ae5631808e91603d1277171ce3', version='v0.9.0-CR1-release'} 	https://github.com/vmware/xenon/commit/cc6d0a1e739d52ae5631808e91603d1277171ce3
+CommitInfo{repo='GitHub', hash='f72cfaecb3e41affacde6c4d4b7bf135c0820c7a', version='v0.9.0-release'} 	https://github.com/vmware/xenon/commit/f72cfaecb3e41affacde6c4d4b7bf135c0820c7a
+CommitInfo{repo='GitHub', hash='2aedd593a231dd93607e77de04f79cae837a7187', version='v0.9.1-release'} 	https://github.com/vmware/xenon/commit/2aedd593a231dd93607e77de04f79cae837a7187
+CommitInfo{repo='GitHub', hash='400c10faa27423956d49fc39f07318ccc9ca5269', version='v0.9.2-release'} 	https://github.com/vmware/xenon/commit/400c10faa27423956d49fc39f07318ccc9ca5269
+CommitInfo{repo='GitHub', hash='52ffe3a4d798a172b7faf0f635d827d3ced1f330', version='v0.9.3-release'} 	https://github.com/vmware/xenon/commit/52ffe3a4d798a172b7faf0f635d827d3ced1f330
+CommitInfo{repo='GitHub', hash='9ceb4f7f7044a59e7a2e326bc466cc67097743f6', version='v0.9.4-release'} 	https://github.com/vmware/xenon/commit/9ceb4f7f7044a59e7a2e326bc466cc67097743f6
+CommitInfo{repo='GitHub', hash='0ba50c84903e44b60bd06d2827bccea2202a31a0', version='v0.9.5-release'} 	https://github.com/vmware/xenon/commit/0ba50c84903e44b60bd06d2827bccea2202a31a0
+CommitInfo{repo='GitHub', hash='858fde6b43d78b8d3a112589386a83452b232d13', version='v0.9.6-release'} 	https://github.com/vmware/xenon/commit/858fde6b43d78b8d3a112589386a83452b232d13
+CommitInfo{repo='GitHub', hash='8b294702d36d55ba1c2198493bed7a8faf0c6971', version='v0.9.7-release'} 	https://github.com/vmware/xenon/commit/8b294702d36d55ba1c2198493bed7a8faf0c6971
+CommitInfo{repo='GitHub', hash='29b966dd4219d67194e893a94b22fea7733cf6f0', version='v1.0.0-release'} 	https://github.com/vmware/xenon/commit/29b966dd4219d67194e893a94b22fea7733cf6f0
+CommitInfo{repo='GitHub', hash='5e25ff46e66a393b0aeaaf62753012151ad82b08', version='v1.1.0-CR0-1-release'} 	https://github.com/vmware/xenon/commit/5e25ff46e66a393b0aeaaf62753012151ad82b08
+CommitInfo{repo='GitHub', hash='667d6e4068c2887a62815e929dea22aec959694b', version='v1.1.0-CR0-2-release'} 	https://github.com/vmware/xenon/commit/667d6e4068c2887a62815e929dea22aec959694b
+CommitInfo{repo='GitHub', hash='97bc429122da903533b7560e68ec67533e3d366e', version='v1.1.0-CR0-3-release'} 	https://github.com/vmware/xenon/commit/97bc429122da903533b7560e68ec67533e3d366e
+CommitInfo{repo='GitHub', hash='dc21335ed881f9d28f0b942a07ed08391968419e', version='v1.1.0-CR1-release'} 	https://github.com/vmware/xenon/commit/dc21335ed881f9d28f0b942a07ed08391968419e
+CommitInfo{repo='GitHub', hash='fbc04ebe4490686db12a51a98fa6bc0e68b72bc4', version='v1.1.0-CR2-release'} 	https://github.com/vmware/xenon/commit/fbc04ebe4490686db12a51a98fa6bc0e68b72bc4
+CommitInfo{repo='GitHub', hash='4b8f891a2791f26bdbd270f5bca2d7c1a308a870', version='v1.1.0-CR3_1-release'} 	https://github.com/vmware/xenon/commit/4b8f891a2791f26bdbd270f5bca2d7c1a308a870
+CommitInfo{repo='GitHub', hash='5e869f916bd9c5106341498135fa3fdde5409045', version='v1.1.0-CR3-release'} 	https://github.com/vmware/xenon/commit/5e869f916bd9c5106341498135fa3fdde5409045
+CommitInfo{repo='GitHub', hash='22a16cd15cb6743516cdf0e7220d08737abdb2b1', version='v1.1.0-CR4-release'} 	https://github.com/vmware/xenon/commit/22a16cd15cb6743516cdf0e7220d08737abdb2b1
+CommitInfo{repo='GitHub', hash='045fdd895e4c4a8f8c8cfd02aee2455b06fa51c9', version='v1.1.0-CR5-release'} 	https://github.com/vmware/xenon/commit/045fdd895e4c4a8f8c8cfd02aee2455b06fa51c9
+CommitInfo{repo='GitHub', hash='e622f223195fe12508a5f74946bcab7cea6e3bae', version='v1.1.0-CR6-release'} 	https://github.com/vmware/xenon/commit/e622f223195fe12508a5f74946bcab7cea6e3bae
+CommitInfo{repo='GitHub', hash='437cab956c379050e020cf0eb95bd0965b6566b6', version='v1.1.0-release'} 	https://github.com/vmware/xenon/commit/437cab956c379050e020cf0eb95bd0965b6566b6
+CommitInfo{repo='GitHub', hash='0f9044f96f3f2f82bb7d9ad7b06b616db2421a23', version='v1.1.1-release'} 	https://github.com/vmware/xenon/commit/0f9044f96f3f2f82bb7d9ad7b06b616db2421a23
+CommitInfo{repo='GitHub', hash='e0aa859fca734b5d42c5a2e434ab651ff6a35bed', version='v1.2.0-release'} 	https://github.com/vmware/xenon/commit/e0aa859fca734b5d42c5a2e434ab651ff6a35bed
+CommitInfo{repo='GitHub', hash='bba76088a4b4f4aa844fdbf63993652403f3ece6', version='v1.3.0-release'} 	https://github.com/vmware/xenon/commit/bba76088a4b4f4aa844fdbf63993652403f3ece6
+CommitInfo{repo='GitHub', hash='855c83e0722cdcb1930d9d9e6833f9d9bddbedac', version='v1.3.1-release'} 	https://github.com/vmware/xenon/commit/855c83e0722cdcb1930d9d9e6833f9d9bddbedac
+CommitInfo{repo='GitHub', hash='f833a9d3628946b15e1ce9fdb1c3085f3d365ea4', version='v1.3.2-release'} 	https://github.com/vmware/xenon/commit/f833a9d3628946b15e1ce9fdb1c3085f3d365ea4
+CommitInfo{repo='GitHub', hash='15f7688039ddcc3bd359b900958359c162407269', version='v1.3.3-release'} 	https://github.com/vmware/xenon/commit/15f7688039ddcc3bd359b900958359c162407269
+CommitInfo{repo='GitHub', hash='2dc80ad3e3ac57d02475c284869eedf8f888eba3', version='v1.3.4-release'} 	https://github.com/vmware/xenon/commit/2dc80ad3e3ac57d02475c284869eedf8f888eba3
+CommitInfo{repo='GitHub', hash='5702a41e62ce808e0218b4f1bb118e4381b39331', version='v1.3.5-release'} 	https://github.com/vmware/xenon/commit/5702a41e62ce808e0218b4f1bb118e4381b39331
+CommitInfo{repo='GitHub', hash='4ba1cf7350fd0f32bf04763776167f1d1c15e226', version='v1.3.6-release'} 	https://github.com/vmware/xenon/commit/4ba1cf7350fd0f32bf04763776167f1d1c15e226
+CommitInfo{repo='GitHub', hash='bd751fde8b7dc468d28753c2a5679022d1edb402', version='v1.3.7-CR1_1-release'} 	https://github.com/vmware/xenon/commit/bd751fde8b7dc468d28753c2a5679022d1edb402
+CommitInfo{repo='GitHub', hash='203ecb7ee27ad4a086ecd222b1576adcc7ea6b1d', version='v1.3.7-CR1_2-release'} 	https://github.com/vmware/xenon/commit/203ecb7ee27ad4a086ecd222b1576adcc7ea6b1d
+CommitInfo{repo='GitHub', hash='0faee3775a55b1d0c17e23bf6a360d5733a8ac8e', version='v1.3.7-CR1-release'} 	https://github.com/vmware/xenon/commit/0faee3775a55b1d0c17e23bf6a360d5733a8ac8e
+CommitInfo{repo='GitHub', hash='50981275d033bd8f6e32e574d94d158b8713700f', version='v1.3.7-release'} 	https://github.com/vmware/xenon/commit/50981275d033bd8f6e32e574d94d158b8713700f
+CommitInfo{repo='GitHub', hash='03655e9817474b94b2498724e90773445d643cb4', version='v1.4.0-release'} 	https://github.com/vmware/xenon/commit/03655e9817474b94b2498724e90773445d643cb4
+CommitInfo{repo='GitHub', hash='c505e0a45ee86d45c25c5ae5a79c0d8bd332ec46', version='v1.4.1-release'} 	https://github.com/vmware/xenon/commit/c505e0a45ee86d45c25c5ae5a79c0d8bd332ec46
+CommitInfo{repo='GitHub', hash='a17534d81fd9da294db84f728efbf8e16a872504', version='v1.4.2-CR1-release'} 	https://github.com/vmware/xenon/commit/a17534d81fd9da294db84f728efbf8e16a872504
+CommitInfo{repo='GitHub', hash='b8459cb05ab98210c2c376b95e0dad6bc67c5c85', version='v1.4.2-CR2-release'} 	https://github.com/vmware/xenon/commit/b8459cb05ab98210c2c376b95e0dad6bc67c5c85
+CommitInfo{repo='GitHub', hash='792c4830f36309c9a967d73497c0292c32ed3fbf', version='v1.4.2-CR3-release'} 	https://github.com/vmware/xenon/commit/792c4830f36309c9a967d73497c0292c32ed3fbf
+CommitInfo{repo='GitHub', hash='2cc70b8e445595d1084f5e0dbf0e59b799819e57', version='v1.4.2-CR4_1-release'} 	https://github.com/vmware/xenon/commit/2cc70b8e445595d1084f5e0dbf0e59b799819e57
+CommitInfo{repo='GitHub', hash='405bb8127581b1fd20a9e12c877695900221e371', version='v1.4.2-CR4-release'} 	https://github.com/vmware/xenon/commit/405bb8127581b1fd20a9e12c877695900221e371
+CommitInfo{repo='GitHub', hash='e324956bab4e19c782c689ad9eef98560bc2f9c5', version='v1.4.2-release'} 	https://github.com/vmware/xenon/commit/e324956bab4e19c782c689ad9eef98560bc2f9c5
+CommitInfo{repo='GitHub', hash='eccfddbc295639859da4db4df7e832d66870310a', version='v1.5.0-release'} 	https://github.com/vmware/xenon/commit/eccfddbc295639859da4db4df7e832d66870310a
+CommitInfo{repo='GitHub', hash='290d5d633485adef43365a3c19db7824dd24d89b', version='v1.5.1-CR1-release'} 	https://github.com/vmware/xenon/commit/290d5d633485adef43365a3c19db7824dd24d89b
+CommitInfo{repo='GitHub', hash='eae3b6688bc36e9384a9710fc634654913cac5fa', version='v1.5.1-CR2-release'} 	https://github.com/vmware/xenon/commit/eae3b6688bc36e9384a9710fc634654913cac5fa
+CommitInfo{repo='GitHub', hash='7849ea64c39520c81fe10e9465e0a9ed4fbaa144', version='v1.5.1-release'} 	https://github.com/vmware/xenon/commit/7849ea64c39520c81fe10e9465e0a9ed4fbaa144
+CommitInfo{repo='GitHub', hash='ab0dcba9e456841561ec693acb108560b2c84d9b', version='v1.5.2-CR1-release'} 	https://github.com/vmware/xenon/commit/ab0dcba9e456841561ec693acb108560b2c84d9b
+CommitInfo{repo='GitHub', hash='7fb02d761dd43c0aa00e98cc52c9f9649e291d84', version='v1.5.2-release'} 	https://github.com/vmware/xenon/commit/7fb02d761dd43c0aa00e98cc52c9f9649e291d84
+CommitInfo{repo='GitHub', hash='a005a32dc30e48a8e7e722edb446202e615cf57c', version='v1.5.3-release'} 	https://github.com/vmware/xenon/commit/a005a32dc30e48a8e7e722edb446202e615cf57c
+CommitInfo{repo='GitHub', hash='d362d799ed4c5a8c565ba1baf806a22a5d566d0e', version='v1.5.4_8-release'} 	https://github.com/vmware/xenon/commit/d362d799ed4c5a8c565ba1baf806a22a5d566d0e
+CommitInfo{repo='GitHub', hash='6adf5b4cac7c2c5bc8a62a9512f6c8fee529cc05', version='v1.5.4_9-release'} 	https://github.com/vmware/xenon/commit/6adf5b4cac7c2c5bc8a62a9512f6c8fee529cc05
+CommitInfo{repo='GitHub', hash='43a1085d54164fe2516598982781bc0303ca943c', version='v1.5.4-CR2-release'} 	https://github.com/vmware/xenon/commit/43a1085d54164fe2516598982781bc0303ca943c
+CommitInfo{repo='GitHub', hash='ae809337729ff1e122b2b80bb6af67fdc367c267', version='v1.5.4-CR3-release'} 	https://github.com/vmware/xenon/commit/ae809337729ff1e122b2b80bb6af67fdc367c267
+CommitInfo{repo='GitHub', hash='a3cfb3d4b68c5da85a33f073f81f0b4bcda4c0d2', version='v1.5.4-CR4-release'} 	https://github.com/vmware/xenon/commit/a3cfb3d4b68c5da85a33f073f81f0b4bcda4c0d2
+CommitInfo{repo='GitHub', hash='75fbf1bf2ecec5897fe9449b0f5ab1e64c0a4c91', version='v1.5.4-CR5-release'} 	https://github.com/vmware/xenon/commit/75fbf1bf2ecec5897fe9449b0f5ab1e64c0a4c91
+CommitInfo{repo='GitHub', hash='32cc2d9d08537e1fa77103a709c43029a7fb81b2', version='v1.5.4-CR6_1-release'} 	https://github.com/vmware/xenon/commit/32cc2d9d08537e1fa77103a709c43029a7fb81b2
+CommitInfo{repo='GitHub', hash='41d6c16f103869f0bbb7b0096c43b51f2276a0a0', version='v1.5.4-CR6_2-release'} 	https://github.com/vmware/xenon/commit/41d6c16f103869f0bbb7b0096c43b51f2276a0a0
+CommitInfo{repo='GitHub', hash='0b69ed762db8f7deaebc4e2932680c5cd68c9fb5', version='v1.5.4-CR6-release'} 	https://github.com/vmware/xenon/commit/0b69ed762db8f7deaebc4e2932680c5cd68c9fb5
+CommitInfo{repo='GitHub', hash='413e3bce75da33b4162f3ab679e7d876c4099895', version='v1.5.4-CR7_1-release'} 	https://github.com/vmware/xenon/commit/413e3bce75da33b4162f3ab679e7d876c4099895
+CommitInfo{repo='GitHub', hash='882bd0fd5c597031a10edd6eb6b4248d26a3ab37', version='v1.5.4-CR7-release'} 	https://github.com/vmware/xenon/commit/882bd0fd5c597031a10edd6eb6b4248d26a3ab37
+CommitInfo{repo='GitHub', hash='8c11d2b2af0adf30b7484d29ca7a46497932a831', version='v1.5.4-release'} 	https://github.com/vmware/xenon/commit/8c11d2b2af0adf30b7484d29ca7a46497932a831
+CommitInfo{repo='GitHub', hash='c112c8e7e285180590dde3c0f3f203273dc9323a', version='v1.5.5-release'} 	https://github.com/vmware/xenon/commit/c112c8e7e285180590dde3c0f3f203273dc9323a
+CommitInfo{repo='GitHub', hash='793ae4987837c0d6b5ad692db5dc4fda8b8ac815', version='v1.5.6-release'} 	https://github.com/vmware/xenon/commit/793ae4987837c0d6b5ad692db5dc4fda8b8ac815
+CommitInfo{repo='GitHub', hash='bbfb9749abf116e82dee3c1e120f87907440f2a6', version='v1.5.7_5-release'} 	https://github.com/vmware/xenon/commit/bbfb9749abf116e82dee3c1e120f87907440f2a6
+CommitInfo{repo='GitHub', hash='67c424cd5998f027bd83d1706a65bb8585f277e7', version='v1.5.7_6_1-release'} 	https://github.com/vmware/xenon/commit/67c424cd5998f027bd83d1706a65bb8585f277e7
+CommitInfo{repo='GitHub', hash='c8ec8dacb6460d2fbe009ef967b54f49878f74c0', version='v1.5.7_6_2-release'} 	https://github.com/vmware/xenon/commit/c8ec8dacb6460d2fbe009ef967b54f49878f74c0
+CommitInfo{repo='GitHub', hash='3f1dac59795b26a589ec1cb866145f54fe633aaa', version='v1.5.7_6-release'} 	https://github.com/vmware/xenon/commit/3f1dac59795b26a589ec1cb866145f54fe633aaa
+CommitInfo{repo='GitHub', hash='84dbb080fc52ff232400331ef3b6955b82221d42', version='v1.5.7_7-release'} 	https://github.com/vmware/xenon/commit/84dbb080fc52ff232400331ef3b6955b82221d42
+CommitInfo{repo='GitHub', hash='51f61ddaefe65181689826ae809bf9d4a681ff9a', version='v1.5.7_8-release'} 	https://github.com/vmware/xenon/commit/51f61ddaefe65181689826ae809bf9d4a681ff9a
+CommitInfo{repo='GitHub', hash='758ed9d0d02cdd3e0016b3fec90a7cd4429e0f0f', version='v1.5.7_9-release'} 	https://github.com/vmware/xenon/commit/758ed9d0d02cdd3e0016b3fec90a7cd4429e0f0f
+CommitInfo{repo='GitHub', hash='00cc2f9ed9dba0d7088dd5854f4fcbeda9190beb', version='v1.5.7-CR1-release'} 	https://github.com/vmware/xenon/commit/00cc2f9ed9dba0d7088dd5854f4fcbeda9190beb
+CommitInfo{repo='GitHub', hash='d6b23049b5a0fba8f4ffbd18b03c24db93d158d2', version='v1.5.7-CR2-release'} 	https://github.com/vmware/xenon/commit/d6b23049b5a0fba8f4ffbd18b03c24db93d158d2
+CommitInfo{repo='GitHub', hash='80edcab5037607e836d4c8d6dd8feebc4a897bfa', version='v1.5.7-CR3-release'} 	https://github.com/vmware/xenon/commit/80edcab5037607e836d4c8d6dd8feebc4a897bfa
+CommitInfo{repo='GitHub', hash='7578a997e3be122a4fb781a7e4aecc8a61d694e3', version='v1.5.7-CR4-release'} 	https://github.com/vmware/xenon/commit/7578a997e3be122a4fb781a7e4aecc8a61d694e3
+CommitInfo{repo='GitHub', hash='a1fae52f400105ffcc26051cf613e7bc7d3b3113', version='v1.5.7-release'} 	https://github.com/vmware/xenon/commit/a1fae52f400105ffcc26051cf613e7bc7d3b3113
+CommitInfo{repo='GitHub', hash='e27be08174eaa9e0aadd169a51d7a44d638a0eeb', version='v1.6.0-release'} 	https://github.com/vmware/xenon/commit/e27be08174eaa9e0aadd169a51d7a44d638a0eeb
+CommitInfo{repo='GitHub', hash='aa95cd366bbbd73dd347cfe710e968eb8dc2c255', version='v1.6.10-release'} 	https://github.com/vmware/xenon/commit/aa95cd366bbbd73dd347cfe710e968eb8dc2c255
+CommitInfo{repo='GitHub', hash='9996deb1b9033ba6a0922472beeefe93fbd1b5ac', version='v1.6.11-release'} 	https://github.com/vmware/xenon/commit/9996deb1b9033ba6a0922472beeefe93fbd1b5ac
+CommitInfo{repo='GitHub', hash='9a34e1dcd0ae863116ead0ce01c8b37b823679ee', version='v1.6.12-release'} 	https://github.com/vmware/xenon/commit/9a34e1dcd0ae863116ead0ce01c8b37b823679ee
+CommitInfo{repo='GitHub', hash='e0708103ba7ec972664fc6cfc8ba3c22c8837d02', version='v1.6.13-release'} 	https://github.com/vmware/xenon/commit/e0708103ba7ec972664fc6cfc8ba3c22c8837d02
+CommitInfo{repo='GitHub', hash='e0708103ba7ec972664fc6cfc8ba3c22c8837d02', version='v1.6.13-release'} 	https://github.com/vmware/xenon/commit/e0708103ba7ec972664fc6cfc8ba3c22c8837d02
+CommitInfo{repo='GitHub', hash='bcd4dca8281d935c0272cc98060a464b860721ea', version='v1.6.14-release'} 	https://github.com/vmware/xenon/commit/bcd4dca8281d935c0272cc98060a464b860721ea
+CommitInfo{repo='GitHub', hash='a268e3e9a3f43b058ef472d4c2586ae488edebdf', version='v1.6.1-release'} 	https://github.com/vmware/xenon/commit/a268e3e9a3f43b058ef472d4c2586ae488edebdf
+CommitInfo{repo='GitHub', hash='8d9ae3b66d97e75a41fc133e12bdab617494dbc8', version='v1.6.2.1-release'} 	https://github.com/vmware/xenon/commit/8d9ae3b66d97e75a41fc133e12bdab617494dbc8
+CommitInfo{repo='GitHub', hash='f3660250870e15919c96d15da1fee061de275fe0', version='v1.6.2-release'} 	https://github.com/vmware/xenon/commit/f3660250870e15919c96d15da1fee061de275fe0
+CommitInfo{repo='GitHub', hash='8e7f90e61bc2cf084b0d6006ed16ed7c8f1cd207', version='v1.6.3.1-release'} 	https://github.com/vmware/xenon/commit/8e7f90e61bc2cf084b0d6006ed16ed7c8f1cd207
+CommitInfo{repo='GitHub', hash='86cae44513fee7daaacf691f1225f5089830009f', version='v1.6.3.2-release'} 	https://github.com/vmware/xenon/commit/86cae44513fee7daaacf691f1225f5089830009f
+CommitInfo{repo='GitHub', hash='ea3d8b13a44784236a0b6193129b2093f740b632', version='v1.6.3.3-release'} 	https://github.com/vmware/xenon/commit/ea3d8b13a44784236a0b6193129b2093f740b632
+CommitInfo{repo='GitHub', hash='b22c45c111db589c0290d070a8e93ea744e5b0ea', version='v1.6.3-release'} 	https://github.com/vmware/xenon/commit/b22c45c111db589c0290d070a8e93ea744e5b0ea
+CommitInfo{repo='GitHub', hash='38fe3d6b584a987df9509e9827179a2ee207753d', version='v1.6.4.1-release'} 	https://github.com/vmware/xenon/commit/38fe3d6b584a987df9509e9827179a2ee207753d
+CommitInfo{repo='GitHub', hash='3fd89ae5b7fbd6db9eb6a44ae6834283b3c7f187', version='v1.6.4.2-release'} 	https://github.com/vmware/xenon/commit/3fd89ae5b7fbd6db9eb6a44ae6834283b3c7f187
+CommitInfo{repo='GitHub', hash='549ec44ba9b2eb3dfe08a249e78f89adb9061fe9', version='v1.6.4-release'} 	https://github.com/vmware/xenon/commit/549ec44ba9b2eb3dfe08a249e78f89adb9061fe9
+CommitInfo{repo='GitHub', hash='1651ff07c3caaf985c2a0a3b4842657d52802d6f', version='v1.6.5-release'} 	https://github.com/vmware/xenon/commit/1651ff07c3caaf985c2a0a3b4842657d52802d6f
+CommitInfo{repo='GitHub', hash='e8fc2c9ee0fae4f97833e717de181094721eea19', version='v1.6.6-release'} 	https://github.com/vmware/xenon/commit/e8fc2c9ee0fae4f97833e717de181094721eea19
+CommitInfo{repo='GitHub', hash='4b0ef1947db32c39059dc082dec0760564ef7983', version='v1.6.7-release'} 	https://github.com/vmware/xenon/commit/4b0ef1947db32c39059dc082dec0760564ef7983
+CommitInfo{repo='GitHub', hash='8a6bc1739cbb26a27ab0d89dd50506f295032f13', version='v1.6.8-release'} 	https://github.com/vmware/xenon/commit/8a6bc1739cbb26a27ab0d89dd50506f295032f13
+CommitInfo{repo='GitHub', hash='353f2eaf14154a934e110e86e7d7d6d99a62142b', version='v1.6.9-release'} 	https://github.com/vmware/xenon/commit/353f2eaf14154a934e110e86e7d7d6d99a62142b
 
 Project A:
 ProjectVersionFixed(version=0.3.0, dependency=5.2.1, time=2015-11-24 22:01:12 UTC),	Latest, "DependencyVersion(version=5.3.1, time=2015-09-28 16:45:30 UTC)"

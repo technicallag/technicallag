@@ -2,144 +2,149 @@
 Project information
 org.jboss:jboss-ejb-client (340801)	org.jboss.xnio:xnio-nio (425542)	Package Manager: Maven
 RepoID: 165582
+Repo Owner/Name: wildfly/jboss-ejb-client
+Repository type: GitHub
+
+ https://github.com/wildfly/jboss-ejb-client/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='eedd487afabebcaa8226ad6a71472ff46224bfc9', version='1.0.0.Beta1'}
-CommitInfo{repo='GitHub', hash='a53e5f8819293943c1b6a18837114881ba9572cc', version='1.0.0.Beta10'}
-CommitInfo{repo='GitHub', hash='b251b36517c9305b3550cca7a93fac8ce3f9216f', version='1.0.0.Beta11'}
-CommitInfo{repo='GitHub', hash='7f214bea4a9626de26c3a7486a46ff6b7c4eb236', version='1.0.0.Beta2'}
-CommitInfo{repo='GitHub', hash='b6beb9318b1863ff83f808b8af1398ca4e1bb108', version='1.0.0.Beta3'}
-CommitInfo{repo='GitHub', hash='69127a482283227ed44b1aacd0cb6551705ecdb7', version='1.0.0.Beta4'}
-CommitInfo{repo='GitHub', hash='1b343a4719f55924ed8dd934865f356e77f05cfb', version='1.0.0.Beta5'}
-CommitInfo{repo='GitHub', hash='115ded5e8e3ba9f91307f0068efb9f7210dd51ca', version='1.0.0.Beta6'}
-CommitInfo{repo='GitHub', hash='93702a23be1f698d4f84e85355707bd1ac1e7bbd', version='1.0.0.Beta7'}
-CommitInfo{repo='GitHub', hash='99c1e57a64b3aa776dd70f2d8f3e1c5776e160ee', version='1.0.0.Beta8'}
-CommitInfo{repo='GitHub', hash='4ca9ea2013d5c6269127e8f1a28d57262ec2f9de', version='1.0.0.Beta9'}
-CommitInfo{repo='GitHub', hash='8a62b87f02d4d912598a84f262d507241dcae1a5', version='1.0.0.Final'}
-CommitInfo{repo='GitHub', hash='4c737bc5df5819f1e14a3e0857ab5612af2edc62', version='1.0.10.Final'}
-CommitInfo{repo='GitHub', hash='12fdbb97b709198386d13dd4034fdd74db2bf20a', version='1.0.11.Final'}
-CommitInfo{repo='GitHub', hash='5a0c81763c259086e40c17e267a36e189a8aa864', version='1.0.12.Final'}
-CommitInfo{repo='GitHub', hash='89ead9f025a742bb292e439b5baf65a232cedcc5', version='1.0.13.Final'}
-CommitInfo{repo='GitHub', hash='082fb435c62d47d634e432a8cb4e100865b57be5', version='1.0.14.Final'}
-CommitInfo{repo='GitHub', hash='655f2aa6d79300d52b78996060ba8869e8e69bfc', version='1.0.15.Final'}
-CommitInfo{repo='GitHub', hash='a1ae89b3330dabd263d7db7119599739d580f0e5', version='1.0.16.Final'}
-CommitInfo{repo='GitHub', hash='dccb213d25176bcbe300ecb75964da02a7449eb2', version='1.0.17.Final'}
-CommitInfo{repo='GitHub', hash='a9096b0586d1387e804a97a221bf97935336a417', version='1.0.18.Final'}
-CommitInfo{repo='GitHub', hash='fe3cead787fb02ebe6a963a4940e7a4e2b1c8c27', version='1.0.19.Final'}
-CommitInfo{repo='GitHub', hash='e978794f32c3c0b963b46b88f88bab5ea2904c64', version='1.0.1.Final'}
-CommitInfo{repo='GitHub', hash='e0579c404396cb1420b1dfca1be60ae414b0fa82', version='1.0.20.Final'}
-CommitInfo{repo='GitHub', hash='e02a13866392f3ebfa7cea3391e691434203d5bb', version='1.0.21.Final'}
-CommitInfo{repo='GitHub', hash='ddacedbd808de9ceed0b1e58046d90975dda5e85', version='1.0.22.Final'}
-CommitInfo{repo='GitHub', hash='07c007e2157ea31885019b1375bcd48dc2c2e97e', version='1.0.23.Final'}
-CommitInfo{repo='GitHub', hash='8b2a9d6865dbcc1dfb396a2635750166fbfddb72', version='1.0.24.Final'}
-CommitInfo{repo='GitHub', hash='375bb501837d6de7c0fc8292a93727ec5061ad88', version='1.0.25.Final'}
-CommitInfo{repo='GitHub', hash='c37c1f4d947dd124fb3524372a17794c5db8098c', version='1.0.26.Final'}
-CommitInfo{repo='GitHub', hash='c20454f277b047ad360fc0b9cbb0e5f1cbd69472', version='1.0.27.Final'}
-CommitInfo{repo='GitHub', hash='5672eb5b163725240ffed0932f620b9f6be384da', version='1.0.28.Final'}
-CommitInfo{repo='GitHub', hash='1bafa40c3aa0ec89fdb7f46f2508a7ef5b0d4300', version='1.0.29.Final'}
-CommitInfo{repo='GitHub', hash='4938968d1ba7f958622ea33f3d1b92d870217c78', version='1.0.2.Final'}
-CommitInfo{repo='GitHub', hash='7556437daa60b29425afcd3904cc0fbac266709d', version='1.0.30.Final'}
-CommitInfo{repo='GitHub', hash='45cc2cb9526765018998d55af45354b484ee365d', version='1.0.31.Final'}
-CommitInfo{repo='GitHub', hash='44d59268ca69a2bb7b4dcf7b03f61392ba0a3745', version='1.0.32.Final'}
-CommitInfo{repo='GitHub', hash='af035f6351b2f8dfa88ab165feb754140f39f494', version='1.0.33.Final'}
-CommitInfo{repo='GitHub', hash='f2636252a45dd802c8d12c150c21c38841b30ace', version='1.0.34.Final'}
-CommitInfo{repo='GitHub', hash='35ecf4b00ef09faf55acebafa9649672f978ea97', version='1.0.35.Final'}
-CommitInfo{repo='GitHub', hash='98e4f02cb10bcc6c901600f27f770601f84954e8', version='1.0.36.Final'}
-CommitInfo{repo='GitHub', hash='9b33ab596a050d6d2336b02d3c94c211e1aed24d', version='1.0.37.Final'}
-CommitInfo{repo='GitHub', hash='b3c4bb7ade2dedc853a7577ab9fc4c2b80dc1e07', version='1.0.38.Final'}
-CommitInfo{repo='GitHub', hash='2c79cafb31abd1cd26022505128ddd2996c8a422', version='1.0.39.Final'}
-CommitInfo{repo='GitHub', hash='2c79cafb31abd1cd26022505128ddd2996c8a422', version='1.0.39.Final'}
-CommitInfo{repo='GitHub', hash='faa89488bc0db843a543bb15e9694ed37bcfab2f', version='1.0.3.Final'}
-CommitInfo{repo='GitHub', hash='b7c6c042791e442c68f3fc4d2c1a80b0914db9f8', version='1.0.40.Final'}
-CommitInfo{repo='GitHub', hash='a4f089f5be555a9298e5eb29cf564780f2e57677', version='1.0.4.Final'}
-CommitInfo{repo='GitHub', hash='fb9da8a474345cd9fa1d3948e32d3960297e233e', version='1.0.5.Final'}
-CommitInfo{repo='GitHub', hash='b103946d7b942e2c82fd7f555e7a8541b59b8312', version='1.0.6.CR1'}
-CommitInfo{repo='GitHub', hash='dbd34533c226eaa47735a01d01f1f6d8570947e5', version='1.0.6.Final'}
-CommitInfo{repo='GitHub', hash='c90019648f48e0599033abb0ebc7a555bee35418', version='1.0.7.Final'}
-CommitInfo{repo='GitHub', hash='74a9387de647c39a42cc4772643d12cb85164a03', version='1.0.8.Final'}
-CommitInfo{repo='GitHub', hash='053f7113845045e1fc9eb5445198e01413bb0324', version='1.0.9.Final'}
-CommitInfo{repo='GitHub', hash='9886bc61d9cbf0586914b1381e3ef383aa584141', version='1.1.0.Alpha1'}
-CommitInfo{repo='GitHub', hash='b3acf800425aca2bc7ea7526ce5a630347ca3024', version='2.0.0.Beta1'}
-CommitInfo{repo='GitHub', hash='cf770d5eceb8d8667650b931a640431966251246', version='2.0.0.Beta2'}
-CommitInfo{repo='GitHub', hash='6c980fe8e2433eaa86ca78ace72178520510275b', version='2.0.0.Beta3'}
-CommitInfo{repo='GitHub', hash='ed9d2b8ce50d05c48bbed598d9f1d7ab9dc64922', version='2.0.0.Beta4'}
-CommitInfo{repo='GitHub', hash='2cadac8ffd16e6dc88fb28ebf9324e8da1fda72d', version='2.0.0.Beta5'}
-CommitInfo{repo='GitHub', hash='3d0a53b7a6d80cf26e68c85437e2d02267103bbc', version='2.0.0.Final'}
-CommitInfo{repo='GitHub', hash='81859afe32b64ae148bf4f8fe8af3470b5de27d4', version='2.0.1.Final'}
-CommitInfo{repo='GitHub', hash='e23e2a7d968c64d4086ba07242d9b11140e2bdd3', version='2.0.2.Final'}
-CommitInfo{repo='GitHub', hash='ae045136459912992faf1d87b140b555a051a173', version='2.0.3.Final'}
-CommitInfo{repo='GitHub', hash='39e0806203d46d886f88751fc03f36cc118ce5d9', version='2.1.0.Final'}
-CommitInfo{repo='GitHub', hash='54874029266d7abde958b67e1e55975814a87bf9', version='2.1.1.Final'}
-CommitInfo{repo='GitHub', hash='cfed6f76b7758df8ef631a9234cc27f08b4aa1fc', version='2.1.2.Final'}
-CommitInfo{repo='GitHub', hash='eb44d6565da9ccd332a18496f874bbcdfdd6a0fc', version='2.1.3.Final'}
-CommitInfo{repo='GitHub', hash='c5faf2a2ae53d8cf860e874caa14652beba5e045', version='2.1.4.Final'}
-CommitInfo{repo='GitHub', hash='ebc8c5412842f959e5595d378030ff8bd85453d3', version='2.1.5.Final'}
-CommitInfo{repo='GitHub', hash='d1096a69b8a0029a0af73a46e0b23824091badf9', version='2.1.6.Final'}
-CommitInfo{repo='GitHub', hash='29bf0f7e0c45acd147a0edd0ba45761334506993', version='2.1.7.Final'}
-CommitInfo{repo='GitHub', hash='ee6e84b506ce27a391ce4bc419cb4e04c5ed155c', version='2.1.8.Final'}
-CommitInfo{repo='GitHub', hash='66c078619ff84165b239ca8319956cb757980e85', version='3.0.0.Beta1'}
-CommitInfo{repo='GitHub', hash='846875373acb02908807a786d9f332b74abac272', version='3.0.0.Beta2'}
-CommitInfo{repo='GitHub', hash='60c9f867b8fe227da87787338ab9bd60c0327d5d', version='3.0.0.Beta3'}
-CommitInfo{repo='GitHub', hash='ad4af5ffefbd65586860816b38c57ffbd9d96d3b', version='3.0.0.Beta4'}
-CommitInfo{repo='GitHub', hash='23ca62753e6b351f64441c13cc5017e9bc513735', version='3.0.0.Beta5'}
-CommitInfo{repo='GitHub', hash='617fa73097b5dd6f628d3f039016530d4845c374', version='3.0.0.Beta6'}
-CommitInfo{repo='GitHub', hash='ad9d3f93760321faa383c8967a53beb881592c30', version='3.0.0.Beta7'}
-CommitInfo{repo='GitHub', hash='182dec68804ba55c1810b6cdae8d4685e052bd43', version='3.0.0.CR1'}
-CommitInfo{repo='GitHub', hash='9368e9080d66d47e76730b391f5668740258fa5e', version='3.0.0.Final'}
-CommitInfo{repo='GitHub', hash='0c02c5882d6d3abf978720c629d5d18c1abac0a6', version='3.0.1.Final'}
-CommitInfo{repo='GitHub', hash='cfda6f100dfa3bf10ae17fe774690fc48b330793', version='3.0.2.Final'}
-CommitInfo{repo='GitHub', hash='e9c3ccdde49c6c7fce5ecc74e9f7b9c5b354a79b', version='4.0.0.Beta1'}
-CommitInfo{repo='GitHub', hash='69a774cfc123a5fe1c981924d8fd0a02e3a00842', version='4.0.0.Beta10'}
-CommitInfo{repo='GitHub', hash='96e6bef6f0cb425b569b58b04fd308cb84c23e3a', version='4.0.0.Beta11'}
-CommitInfo{repo='GitHub', hash='2f02fc4735da4da785b2872d2c47c1b660c7ad96', version='4.0.0.Beta12'}
-CommitInfo{repo='GitHub', hash='e27a04cd6ffdc76b86800cf4b84d3ee30da3da69', version='4.0.0.Beta13'}
-CommitInfo{repo='GitHub', hash='e828dce8fcdc3964da79b0bb638ae14d501903fb', version='4.0.0.Beta14'}
-CommitInfo{repo='GitHub', hash='ac6264cf976ddb1eaaefff26d0eb87d2cdd4dd2a', version='4.0.0.Beta15'}
-CommitInfo{repo='GitHub', hash='84213990d70aae8135477e32220080ae2042592b', version='4.0.0.Beta16'}
-CommitInfo{repo='GitHub', hash='2058d8270712493d217608bbabc610a48f53dd85', version='4.0.0.Beta17'}
-CommitInfo{repo='GitHub', hash='9c5a0674727e9b87bf96dcdb47011a768e8c79b0', version='4.0.0.Beta18'}
-CommitInfo{repo='GitHub', hash='ae6357c82fbfaefa40eed1716fa10f120c94847a', version='4.0.0.Beta19'}
-CommitInfo{repo='GitHub', hash='277b472aaa2f01be6bf78a4a4c92cba8f72914a3', version='4.0.0.Beta2'}
-CommitInfo{repo='GitHub', hash='c98fa1f345f7329d19ec247157ca07d7224f4319', version='4.0.0.Beta20'}
-CommitInfo{repo='GitHub', hash='1c1fd8f97b035585d6d55ecc789053320356b4aa', version='4.0.0.Beta21'}
-CommitInfo{repo='GitHub', hash='995b8cceb76036483881c875f44ab4eae5198003', version='4.0.0.Beta22'}
-CommitInfo{repo='GitHub', hash='e1bde7f0d94020f955159dafdbb3f554d2144ecf', version='4.0.0.Beta23'}
-CommitInfo{repo='GitHub', hash='a857c445945847c08e3355929adc9ece553b7ac0', version='4.0.0.Beta24'}
-CommitInfo{repo='GitHub', hash='9d0f9349891cdb419941c3371351108ef1343a32', version='4.0.0.Beta25'}
-CommitInfo{repo='GitHub', hash='ca6ce6518718294d0a5776aba673d62030c10d68', version='4.0.0.Beta25-jbossorg-1'}
-CommitInfo{repo='GitHub', hash='2ac11cb75faead739a6892c31185bd4a53d55f41', version='4.0.0.Beta26'}
-CommitInfo{repo='GitHub', hash='81016f4ecd56e815f020c404fae7e8319984c9bf', version='4.0.0.Beta27'}
-CommitInfo{repo='GitHub', hash='49a9e934d8b19c89f2027a72d8ff67aaee3a1c10', version='4.0.0.Beta28'}
-CommitInfo{repo='GitHub', hash='4b67179016efd52678d9cd31de427790bef9dbe0', version='4.0.0.Beta29'}
-CommitInfo{repo='GitHub', hash='ab06ebb373d8836d35c7287d464b93111e7bff08', version='4.0.0.Beta3'}
-CommitInfo{repo='GitHub', hash='c02fc37eb3ad530315714c406e658fe4dda141db', version='4.0.0.Beta30'}
-CommitInfo{repo='GitHub', hash='bd73c57a38872e308df6386fd9fb8ad332b9c338', version='4.0.0.Beta31'}
-CommitInfo{repo='GitHub', hash='698ee611153780914ec4143c1ce4224794d6f065', version='4.0.0.Beta4'}
-CommitInfo{repo='GitHub', hash='966beadddfe3a9158305e6031ae510ddf054a1e0', version='4.0.0.Beta5'}
-CommitInfo{repo='GitHub', hash='9cbae58286ef9eb283bbb0696bffb71f2594e036', version='4.0.0.Beta6'}
-CommitInfo{repo='GitHub', hash='4b1b8856d06ccd7c22712ec1d4d7f6af8cab666e', version='4.0.0.Beta7'}
-CommitInfo{repo='GitHub', hash='31d1ef432f16d2db7323a124431bf2bf0bc3bc94', version='4.0.0.Beta8'}
-CommitInfo{repo='GitHub', hash='e5d74019a9d08b27dcdf84ec56b98b6822687179', version='4.0.0.Beta9'}
-CommitInfo{repo='GitHub', hash='759a4bdae08356c78c9015635586d50589e64594', version='4.0.0.CR1'}
-CommitInfo{repo='GitHub', hash='4e8271ee806dd10f030d42f8bdd4035757daf521', version='4.0.0.CR2'}
-CommitInfo{repo='GitHub', hash='c7a142435cf155827283d0b5fc44b2d5d3de6f55', version='4.0.0.CR3'}
-CommitInfo{repo='GitHub', hash='216f89a505f1f3fac9d670b7bb4f431fa6e68dd5', version='4.0.0.CR4'}
-CommitInfo{repo='GitHub', hash='dce20e96850e4f292cc89de7c267b25c72b74c18', version='4.0.0.CR5'}
-CommitInfo{repo='GitHub', hash='fb7cf0e2aa8e7f9cf8f9e4022ad166d17a81c069', version='4.0.0.CR6'}
-CommitInfo{repo='GitHub', hash='ed72f40cbf7c6375a038449256d33ae881421486', version='4.0.0.CR7'}
-CommitInfo{repo='GitHub', hash='19fb0bd70378d5f0a980b79716cfe8dbd398af0f', version='4.0.0.Final'}
-CommitInfo{repo='GitHub', hash='c5e79c68aa4ac0f75c9eca847ac4db8c3df7c494', version='4.0.10.Final'}
-CommitInfo{repo='GitHub', hash='65180ee6186671d684eed103c8a1ac8b14a9a3bc', version='4.0.11.Final'}
-CommitInfo{repo='GitHub', hash='aeed457aeaedd2e968b805b2abf0baaa7349c595', version='4.0.1.Final'}
-CommitInfo{repo='GitHub', hash='9a10748e72c12fa8b02e7b1c5aa8aa8b45ee02c3', version='4.0.2.Final'}
-CommitInfo{repo='GitHub', hash='88d5dda2f93ec71efd0a362748cc49ec66cf81a4', version='4.0.3.Final'}
-CommitInfo{repo='GitHub', hash='bb54e78d25a2fd6473b6c1d2fe35fb6dd78e6f11', version='4.0.4.Final'}
-CommitInfo{repo='GitHub', hash='29110853844004fcd1bd22d233dea3a83d45a958', version='4.0.5.Final'}
-CommitInfo{repo='GitHub', hash='14bc5c0e0fcb051a23f98c903793b5a2c9b141e6', version='4.0.6.Final'}
-CommitInfo{repo='GitHub', hash='1ca28edd09e7c780b826f666e4a7bcbe163cece0', version='4.0.7.Final'}
-CommitInfo{repo='GitHub', hash='242917f67f4d1360cf64144650acdfa787a2e346', version='4.0.8.Final'}
-CommitInfo{repo='GitHub', hash='1752ef89bac81e8547a805b48413b18e32432553', version='4.0.9.Final'}
-CommitInfo{repo='GitHub', hash='6d4fb188391deb19f334c55fec40809eb5d008bb', version='7.0.0.CR1'}
-CommitInfo{repo='GitHub', hash='16366db1b63320b1b1007e2c2749267c6e789654', version='7.0.0.Final'}
+CommitInfo{repo='GitHub', hash='eedd487afabebcaa8226ad6a71472ff46224bfc9', version='1.0.0.Beta1'} 	https://github.com/wildfly/jboss-ejb-client/commit/eedd487afabebcaa8226ad6a71472ff46224bfc9
+CommitInfo{repo='GitHub', hash='a53e5f8819293943c1b6a18837114881ba9572cc', version='1.0.0.Beta10'} 	https://github.com/wildfly/jboss-ejb-client/commit/a53e5f8819293943c1b6a18837114881ba9572cc
+CommitInfo{repo='GitHub', hash='b251b36517c9305b3550cca7a93fac8ce3f9216f', version='1.0.0.Beta11'} 	https://github.com/wildfly/jboss-ejb-client/commit/b251b36517c9305b3550cca7a93fac8ce3f9216f
+CommitInfo{repo='GitHub', hash='7f214bea4a9626de26c3a7486a46ff6b7c4eb236', version='1.0.0.Beta2'} 	https://github.com/wildfly/jboss-ejb-client/commit/7f214bea4a9626de26c3a7486a46ff6b7c4eb236
+CommitInfo{repo='GitHub', hash='b6beb9318b1863ff83f808b8af1398ca4e1bb108', version='1.0.0.Beta3'} 	https://github.com/wildfly/jboss-ejb-client/commit/b6beb9318b1863ff83f808b8af1398ca4e1bb108
+CommitInfo{repo='GitHub', hash='69127a482283227ed44b1aacd0cb6551705ecdb7', version='1.0.0.Beta4'} 	https://github.com/wildfly/jboss-ejb-client/commit/69127a482283227ed44b1aacd0cb6551705ecdb7
+CommitInfo{repo='GitHub', hash='1b343a4719f55924ed8dd934865f356e77f05cfb', version='1.0.0.Beta5'} 	https://github.com/wildfly/jboss-ejb-client/commit/1b343a4719f55924ed8dd934865f356e77f05cfb
+CommitInfo{repo='GitHub', hash='115ded5e8e3ba9f91307f0068efb9f7210dd51ca', version='1.0.0.Beta6'} 	https://github.com/wildfly/jboss-ejb-client/commit/115ded5e8e3ba9f91307f0068efb9f7210dd51ca
+CommitInfo{repo='GitHub', hash='93702a23be1f698d4f84e85355707bd1ac1e7bbd', version='1.0.0.Beta7'} 	https://github.com/wildfly/jboss-ejb-client/commit/93702a23be1f698d4f84e85355707bd1ac1e7bbd
+CommitInfo{repo='GitHub', hash='99c1e57a64b3aa776dd70f2d8f3e1c5776e160ee', version='1.0.0.Beta8'} 	https://github.com/wildfly/jboss-ejb-client/commit/99c1e57a64b3aa776dd70f2d8f3e1c5776e160ee
+CommitInfo{repo='GitHub', hash='4ca9ea2013d5c6269127e8f1a28d57262ec2f9de', version='1.0.0.Beta9'} 	https://github.com/wildfly/jboss-ejb-client/commit/4ca9ea2013d5c6269127e8f1a28d57262ec2f9de
+CommitInfo{repo='GitHub', hash='8a62b87f02d4d912598a84f262d507241dcae1a5', version='1.0.0.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/8a62b87f02d4d912598a84f262d507241dcae1a5
+CommitInfo{repo='GitHub', hash='4c737bc5df5819f1e14a3e0857ab5612af2edc62', version='1.0.10.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/4c737bc5df5819f1e14a3e0857ab5612af2edc62
+CommitInfo{repo='GitHub', hash='12fdbb97b709198386d13dd4034fdd74db2bf20a', version='1.0.11.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/12fdbb97b709198386d13dd4034fdd74db2bf20a
+CommitInfo{repo='GitHub', hash='5a0c81763c259086e40c17e267a36e189a8aa864', version='1.0.12.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/5a0c81763c259086e40c17e267a36e189a8aa864
+CommitInfo{repo='GitHub', hash='89ead9f025a742bb292e439b5baf65a232cedcc5', version='1.0.13.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/89ead9f025a742bb292e439b5baf65a232cedcc5
+CommitInfo{repo='GitHub', hash='082fb435c62d47d634e432a8cb4e100865b57be5', version='1.0.14.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/082fb435c62d47d634e432a8cb4e100865b57be5
+CommitInfo{repo='GitHub', hash='655f2aa6d79300d52b78996060ba8869e8e69bfc', version='1.0.15.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/655f2aa6d79300d52b78996060ba8869e8e69bfc
+CommitInfo{repo='GitHub', hash='a1ae89b3330dabd263d7db7119599739d580f0e5', version='1.0.16.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/a1ae89b3330dabd263d7db7119599739d580f0e5
+CommitInfo{repo='GitHub', hash='dccb213d25176bcbe300ecb75964da02a7449eb2', version='1.0.17.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/dccb213d25176bcbe300ecb75964da02a7449eb2
+CommitInfo{repo='GitHub', hash='a9096b0586d1387e804a97a221bf97935336a417', version='1.0.18.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/a9096b0586d1387e804a97a221bf97935336a417
+CommitInfo{repo='GitHub', hash='fe3cead787fb02ebe6a963a4940e7a4e2b1c8c27', version='1.0.19.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/fe3cead787fb02ebe6a963a4940e7a4e2b1c8c27
+CommitInfo{repo='GitHub', hash='e978794f32c3c0b963b46b88f88bab5ea2904c64', version='1.0.1.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/e978794f32c3c0b963b46b88f88bab5ea2904c64
+CommitInfo{repo='GitHub', hash='e0579c404396cb1420b1dfca1be60ae414b0fa82', version='1.0.20.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/e0579c404396cb1420b1dfca1be60ae414b0fa82
+CommitInfo{repo='GitHub', hash='e02a13866392f3ebfa7cea3391e691434203d5bb', version='1.0.21.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/e02a13866392f3ebfa7cea3391e691434203d5bb
+CommitInfo{repo='GitHub', hash='ddacedbd808de9ceed0b1e58046d90975dda5e85', version='1.0.22.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/ddacedbd808de9ceed0b1e58046d90975dda5e85
+CommitInfo{repo='GitHub', hash='07c007e2157ea31885019b1375bcd48dc2c2e97e', version='1.0.23.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/07c007e2157ea31885019b1375bcd48dc2c2e97e
+CommitInfo{repo='GitHub', hash='8b2a9d6865dbcc1dfb396a2635750166fbfddb72', version='1.0.24.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/8b2a9d6865dbcc1dfb396a2635750166fbfddb72
+CommitInfo{repo='GitHub', hash='375bb501837d6de7c0fc8292a93727ec5061ad88', version='1.0.25.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/375bb501837d6de7c0fc8292a93727ec5061ad88
+CommitInfo{repo='GitHub', hash='c37c1f4d947dd124fb3524372a17794c5db8098c', version='1.0.26.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/c37c1f4d947dd124fb3524372a17794c5db8098c
+CommitInfo{repo='GitHub', hash='c20454f277b047ad360fc0b9cbb0e5f1cbd69472', version='1.0.27.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/c20454f277b047ad360fc0b9cbb0e5f1cbd69472
+CommitInfo{repo='GitHub', hash='5672eb5b163725240ffed0932f620b9f6be384da', version='1.0.28.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/5672eb5b163725240ffed0932f620b9f6be384da
+CommitInfo{repo='GitHub', hash='1bafa40c3aa0ec89fdb7f46f2508a7ef5b0d4300', version='1.0.29.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/1bafa40c3aa0ec89fdb7f46f2508a7ef5b0d4300
+CommitInfo{repo='GitHub', hash='4938968d1ba7f958622ea33f3d1b92d870217c78', version='1.0.2.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/4938968d1ba7f958622ea33f3d1b92d870217c78
+CommitInfo{repo='GitHub', hash='7556437daa60b29425afcd3904cc0fbac266709d', version='1.0.30.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/7556437daa60b29425afcd3904cc0fbac266709d
+CommitInfo{repo='GitHub', hash='45cc2cb9526765018998d55af45354b484ee365d', version='1.0.31.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/45cc2cb9526765018998d55af45354b484ee365d
+CommitInfo{repo='GitHub', hash='44d59268ca69a2bb7b4dcf7b03f61392ba0a3745', version='1.0.32.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/44d59268ca69a2bb7b4dcf7b03f61392ba0a3745
+CommitInfo{repo='GitHub', hash='af035f6351b2f8dfa88ab165feb754140f39f494', version='1.0.33.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/af035f6351b2f8dfa88ab165feb754140f39f494
+CommitInfo{repo='GitHub', hash='f2636252a45dd802c8d12c150c21c38841b30ace', version='1.0.34.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/f2636252a45dd802c8d12c150c21c38841b30ace
+CommitInfo{repo='GitHub', hash='35ecf4b00ef09faf55acebafa9649672f978ea97', version='1.0.35.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/35ecf4b00ef09faf55acebafa9649672f978ea97
+CommitInfo{repo='GitHub', hash='98e4f02cb10bcc6c901600f27f770601f84954e8', version='1.0.36.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/98e4f02cb10bcc6c901600f27f770601f84954e8
+CommitInfo{repo='GitHub', hash='9b33ab596a050d6d2336b02d3c94c211e1aed24d', version='1.0.37.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/9b33ab596a050d6d2336b02d3c94c211e1aed24d
+CommitInfo{repo='GitHub', hash='b3c4bb7ade2dedc853a7577ab9fc4c2b80dc1e07', version='1.0.38.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/b3c4bb7ade2dedc853a7577ab9fc4c2b80dc1e07
+CommitInfo{repo='GitHub', hash='2c79cafb31abd1cd26022505128ddd2996c8a422', version='1.0.39.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/2c79cafb31abd1cd26022505128ddd2996c8a422
+CommitInfo{repo='GitHub', hash='2c79cafb31abd1cd26022505128ddd2996c8a422', version='1.0.39.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/2c79cafb31abd1cd26022505128ddd2996c8a422
+CommitInfo{repo='GitHub', hash='faa89488bc0db843a543bb15e9694ed37bcfab2f', version='1.0.3.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/faa89488bc0db843a543bb15e9694ed37bcfab2f
+CommitInfo{repo='GitHub', hash='b7c6c042791e442c68f3fc4d2c1a80b0914db9f8', version='1.0.40.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/b7c6c042791e442c68f3fc4d2c1a80b0914db9f8
+CommitInfo{repo='GitHub', hash='a4f089f5be555a9298e5eb29cf564780f2e57677', version='1.0.4.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/a4f089f5be555a9298e5eb29cf564780f2e57677
+CommitInfo{repo='GitHub', hash='fb9da8a474345cd9fa1d3948e32d3960297e233e', version='1.0.5.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/fb9da8a474345cd9fa1d3948e32d3960297e233e
+CommitInfo{repo='GitHub', hash='b103946d7b942e2c82fd7f555e7a8541b59b8312', version='1.0.6.CR1'} 	https://github.com/wildfly/jboss-ejb-client/commit/b103946d7b942e2c82fd7f555e7a8541b59b8312
+CommitInfo{repo='GitHub', hash='dbd34533c226eaa47735a01d01f1f6d8570947e5', version='1.0.6.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/dbd34533c226eaa47735a01d01f1f6d8570947e5
+CommitInfo{repo='GitHub', hash='c90019648f48e0599033abb0ebc7a555bee35418', version='1.0.7.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/c90019648f48e0599033abb0ebc7a555bee35418
+CommitInfo{repo='GitHub', hash='74a9387de647c39a42cc4772643d12cb85164a03', version='1.0.8.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/74a9387de647c39a42cc4772643d12cb85164a03
+CommitInfo{repo='GitHub', hash='053f7113845045e1fc9eb5445198e01413bb0324', version='1.0.9.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/053f7113845045e1fc9eb5445198e01413bb0324
+CommitInfo{repo='GitHub', hash='9886bc61d9cbf0586914b1381e3ef383aa584141', version='1.1.0.Alpha1'} 	https://github.com/wildfly/jboss-ejb-client/commit/9886bc61d9cbf0586914b1381e3ef383aa584141
+CommitInfo{repo='GitHub', hash='b3acf800425aca2bc7ea7526ce5a630347ca3024', version='2.0.0.Beta1'} 	https://github.com/wildfly/jboss-ejb-client/commit/b3acf800425aca2bc7ea7526ce5a630347ca3024
+CommitInfo{repo='GitHub', hash='cf770d5eceb8d8667650b931a640431966251246', version='2.0.0.Beta2'} 	https://github.com/wildfly/jboss-ejb-client/commit/cf770d5eceb8d8667650b931a640431966251246
+CommitInfo{repo='GitHub', hash='6c980fe8e2433eaa86ca78ace72178520510275b', version='2.0.0.Beta3'} 	https://github.com/wildfly/jboss-ejb-client/commit/6c980fe8e2433eaa86ca78ace72178520510275b
+CommitInfo{repo='GitHub', hash='ed9d2b8ce50d05c48bbed598d9f1d7ab9dc64922', version='2.0.0.Beta4'} 	https://github.com/wildfly/jboss-ejb-client/commit/ed9d2b8ce50d05c48bbed598d9f1d7ab9dc64922
+CommitInfo{repo='GitHub', hash='2cadac8ffd16e6dc88fb28ebf9324e8da1fda72d', version='2.0.0.Beta5'} 	https://github.com/wildfly/jboss-ejb-client/commit/2cadac8ffd16e6dc88fb28ebf9324e8da1fda72d
+CommitInfo{repo='GitHub', hash='3d0a53b7a6d80cf26e68c85437e2d02267103bbc', version='2.0.0.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/3d0a53b7a6d80cf26e68c85437e2d02267103bbc
+CommitInfo{repo='GitHub', hash='81859afe32b64ae148bf4f8fe8af3470b5de27d4', version='2.0.1.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/81859afe32b64ae148bf4f8fe8af3470b5de27d4
+CommitInfo{repo='GitHub', hash='e23e2a7d968c64d4086ba07242d9b11140e2bdd3', version='2.0.2.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/e23e2a7d968c64d4086ba07242d9b11140e2bdd3
+CommitInfo{repo='GitHub', hash='ae045136459912992faf1d87b140b555a051a173', version='2.0.3.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/ae045136459912992faf1d87b140b555a051a173
+CommitInfo{repo='GitHub', hash='39e0806203d46d886f88751fc03f36cc118ce5d9', version='2.1.0.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/39e0806203d46d886f88751fc03f36cc118ce5d9
+CommitInfo{repo='GitHub', hash='54874029266d7abde958b67e1e55975814a87bf9', version='2.1.1.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/54874029266d7abde958b67e1e55975814a87bf9
+CommitInfo{repo='GitHub', hash='cfed6f76b7758df8ef631a9234cc27f08b4aa1fc', version='2.1.2.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/cfed6f76b7758df8ef631a9234cc27f08b4aa1fc
+CommitInfo{repo='GitHub', hash='eb44d6565da9ccd332a18496f874bbcdfdd6a0fc', version='2.1.3.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/eb44d6565da9ccd332a18496f874bbcdfdd6a0fc
+CommitInfo{repo='GitHub', hash='c5faf2a2ae53d8cf860e874caa14652beba5e045', version='2.1.4.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/c5faf2a2ae53d8cf860e874caa14652beba5e045
+CommitInfo{repo='GitHub', hash='ebc8c5412842f959e5595d378030ff8bd85453d3', version='2.1.5.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/ebc8c5412842f959e5595d378030ff8bd85453d3
+CommitInfo{repo='GitHub', hash='d1096a69b8a0029a0af73a46e0b23824091badf9', version='2.1.6.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/d1096a69b8a0029a0af73a46e0b23824091badf9
+CommitInfo{repo='GitHub', hash='29bf0f7e0c45acd147a0edd0ba45761334506993', version='2.1.7.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/29bf0f7e0c45acd147a0edd0ba45761334506993
+CommitInfo{repo='GitHub', hash='ee6e84b506ce27a391ce4bc419cb4e04c5ed155c', version='2.1.8.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/ee6e84b506ce27a391ce4bc419cb4e04c5ed155c
+CommitInfo{repo='GitHub', hash='66c078619ff84165b239ca8319956cb757980e85', version='3.0.0.Beta1'} 	https://github.com/wildfly/jboss-ejb-client/commit/66c078619ff84165b239ca8319956cb757980e85
+CommitInfo{repo='GitHub', hash='846875373acb02908807a786d9f332b74abac272', version='3.0.0.Beta2'} 	https://github.com/wildfly/jboss-ejb-client/commit/846875373acb02908807a786d9f332b74abac272
+CommitInfo{repo='GitHub', hash='60c9f867b8fe227da87787338ab9bd60c0327d5d', version='3.0.0.Beta3'} 	https://github.com/wildfly/jboss-ejb-client/commit/60c9f867b8fe227da87787338ab9bd60c0327d5d
+CommitInfo{repo='GitHub', hash='ad4af5ffefbd65586860816b38c57ffbd9d96d3b', version='3.0.0.Beta4'} 	https://github.com/wildfly/jboss-ejb-client/commit/ad4af5ffefbd65586860816b38c57ffbd9d96d3b
+CommitInfo{repo='GitHub', hash='23ca62753e6b351f64441c13cc5017e9bc513735', version='3.0.0.Beta5'} 	https://github.com/wildfly/jboss-ejb-client/commit/23ca62753e6b351f64441c13cc5017e9bc513735
+CommitInfo{repo='GitHub', hash='617fa73097b5dd6f628d3f039016530d4845c374', version='3.0.0.Beta6'} 	https://github.com/wildfly/jboss-ejb-client/commit/617fa73097b5dd6f628d3f039016530d4845c374
+CommitInfo{repo='GitHub', hash='ad9d3f93760321faa383c8967a53beb881592c30', version='3.0.0.Beta7'} 	https://github.com/wildfly/jboss-ejb-client/commit/ad9d3f93760321faa383c8967a53beb881592c30
+CommitInfo{repo='GitHub', hash='182dec68804ba55c1810b6cdae8d4685e052bd43', version='3.0.0.CR1'} 	https://github.com/wildfly/jboss-ejb-client/commit/182dec68804ba55c1810b6cdae8d4685e052bd43
+CommitInfo{repo='GitHub', hash='9368e9080d66d47e76730b391f5668740258fa5e', version='3.0.0.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/9368e9080d66d47e76730b391f5668740258fa5e
+CommitInfo{repo='GitHub', hash='0c02c5882d6d3abf978720c629d5d18c1abac0a6', version='3.0.1.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/0c02c5882d6d3abf978720c629d5d18c1abac0a6
+CommitInfo{repo='GitHub', hash='cfda6f100dfa3bf10ae17fe774690fc48b330793', version='3.0.2.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/cfda6f100dfa3bf10ae17fe774690fc48b330793
+CommitInfo{repo='GitHub', hash='e9c3ccdde49c6c7fce5ecc74e9f7b9c5b354a79b', version='4.0.0.Beta1'} 	https://github.com/wildfly/jboss-ejb-client/commit/e9c3ccdde49c6c7fce5ecc74e9f7b9c5b354a79b
+CommitInfo{repo='GitHub', hash='69a774cfc123a5fe1c981924d8fd0a02e3a00842', version='4.0.0.Beta10'} 	https://github.com/wildfly/jboss-ejb-client/commit/69a774cfc123a5fe1c981924d8fd0a02e3a00842
+CommitInfo{repo='GitHub', hash='96e6bef6f0cb425b569b58b04fd308cb84c23e3a', version='4.0.0.Beta11'} 	https://github.com/wildfly/jboss-ejb-client/commit/96e6bef6f0cb425b569b58b04fd308cb84c23e3a
+CommitInfo{repo='GitHub', hash='2f02fc4735da4da785b2872d2c47c1b660c7ad96', version='4.0.0.Beta12'} 	https://github.com/wildfly/jboss-ejb-client/commit/2f02fc4735da4da785b2872d2c47c1b660c7ad96
+CommitInfo{repo='GitHub', hash='e27a04cd6ffdc76b86800cf4b84d3ee30da3da69', version='4.0.0.Beta13'} 	https://github.com/wildfly/jboss-ejb-client/commit/e27a04cd6ffdc76b86800cf4b84d3ee30da3da69
+CommitInfo{repo='GitHub', hash='e828dce8fcdc3964da79b0bb638ae14d501903fb', version='4.0.0.Beta14'} 	https://github.com/wildfly/jboss-ejb-client/commit/e828dce8fcdc3964da79b0bb638ae14d501903fb
+CommitInfo{repo='GitHub', hash='ac6264cf976ddb1eaaefff26d0eb87d2cdd4dd2a', version='4.0.0.Beta15'} 	https://github.com/wildfly/jboss-ejb-client/commit/ac6264cf976ddb1eaaefff26d0eb87d2cdd4dd2a
+CommitInfo{repo='GitHub', hash='84213990d70aae8135477e32220080ae2042592b', version='4.0.0.Beta16'} 	https://github.com/wildfly/jboss-ejb-client/commit/84213990d70aae8135477e32220080ae2042592b
+CommitInfo{repo='GitHub', hash='2058d8270712493d217608bbabc610a48f53dd85', version='4.0.0.Beta17'} 	https://github.com/wildfly/jboss-ejb-client/commit/2058d8270712493d217608bbabc610a48f53dd85
+CommitInfo{repo='GitHub', hash='9c5a0674727e9b87bf96dcdb47011a768e8c79b0', version='4.0.0.Beta18'} 	https://github.com/wildfly/jboss-ejb-client/commit/9c5a0674727e9b87bf96dcdb47011a768e8c79b0
+CommitInfo{repo='GitHub', hash='ae6357c82fbfaefa40eed1716fa10f120c94847a', version='4.0.0.Beta19'} 	https://github.com/wildfly/jboss-ejb-client/commit/ae6357c82fbfaefa40eed1716fa10f120c94847a
+CommitInfo{repo='GitHub', hash='277b472aaa2f01be6bf78a4a4c92cba8f72914a3', version='4.0.0.Beta2'} 	https://github.com/wildfly/jboss-ejb-client/commit/277b472aaa2f01be6bf78a4a4c92cba8f72914a3
+CommitInfo{repo='GitHub', hash='c98fa1f345f7329d19ec247157ca07d7224f4319', version='4.0.0.Beta20'} 	https://github.com/wildfly/jboss-ejb-client/commit/c98fa1f345f7329d19ec247157ca07d7224f4319
+CommitInfo{repo='GitHub', hash='1c1fd8f97b035585d6d55ecc789053320356b4aa', version='4.0.0.Beta21'} 	https://github.com/wildfly/jboss-ejb-client/commit/1c1fd8f97b035585d6d55ecc789053320356b4aa
+CommitInfo{repo='GitHub', hash='995b8cceb76036483881c875f44ab4eae5198003', version='4.0.0.Beta22'} 	https://github.com/wildfly/jboss-ejb-client/commit/995b8cceb76036483881c875f44ab4eae5198003
+CommitInfo{repo='GitHub', hash='e1bde7f0d94020f955159dafdbb3f554d2144ecf', version='4.0.0.Beta23'} 	https://github.com/wildfly/jboss-ejb-client/commit/e1bde7f0d94020f955159dafdbb3f554d2144ecf
+CommitInfo{repo='GitHub', hash='a857c445945847c08e3355929adc9ece553b7ac0', version='4.0.0.Beta24'} 	https://github.com/wildfly/jboss-ejb-client/commit/a857c445945847c08e3355929adc9ece553b7ac0
+CommitInfo{repo='GitHub', hash='9d0f9349891cdb419941c3371351108ef1343a32', version='4.0.0.Beta25'} 	https://github.com/wildfly/jboss-ejb-client/commit/9d0f9349891cdb419941c3371351108ef1343a32
+CommitInfo{repo='GitHub', hash='ca6ce6518718294d0a5776aba673d62030c10d68', version='4.0.0.Beta25-jbossorg-1'} 	https://github.com/wildfly/jboss-ejb-client/commit/ca6ce6518718294d0a5776aba673d62030c10d68
+CommitInfo{repo='GitHub', hash='2ac11cb75faead739a6892c31185bd4a53d55f41', version='4.0.0.Beta26'} 	https://github.com/wildfly/jboss-ejb-client/commit/2ac11cb75faead739a6892c31185bd4a53d55f41
+CommitInfo{repo='GitHub', hash='81016f4ecd56e815f020c404fae7e8319984c9bf', version='4.0.0.Beta27'} 	https://github.com/wildfly/jboss-ejb-client/commit/81016f4ecd56e815f020c404fae7e8319984c9bf
+CommitInfo{repo='GitHub', hash='49a9e934d8b19c89f2027a72d8ff67aaee3a1c10', version='4.0.0.Beta28'} 	https://github.com/wildfly/jboss-ejb-client/commit/49a9e934d8b19c89f2027a72d8ff67aaee3a1c10
+CommitInfo{repo='GitHub', hash='4b67179016efd52678d9cd31de427790bef9dbe0', version='4.0.0.Beta29'} 	https://github.com/wildfly/jboss-ejb-client/commit/4b67179016efd52678d9cd31de427790bef9dbe0
+CommitInfo{repo='GitHub', hash='ab06ebb373d8836d35c7287d464b93111e7bff08', version='4.0.0.Beta3'} 	https://github.com/wildfly/jboss-ejb-client/commit/ab06ebb373d8836d35c7287d464b93111e7bff08
+CommitInfo{repo='GitHub', hash='c02fc37eb3ad530315714c406e658fe4dda141db', version='4.0.0.Beta30'} 	https://github.com/wildfly/jboss-ejb-client/commit/c02fc37eb3ad530315714c406e658fe4dda141db
+CommitInfo{repo='GitHub', hash='bd73c57a38872e308df6386fd9fb8ad332b9c338', version='4.0.0.Beta31'} 	https://github.com/wildfly/jboss-ejb-client/commit/bd73c57a38872e308df6386fd9fb8ad332b9c338
+CommitInfo{repo='GitHub', hash='698ee611153780914ec4143c1ce4224794d6f065', version='4.0.0.Beta4'} 	https://github.com/wildfly/jboss-ejb-client/commit/698ee611153780914ec4143c1ce4224794d6f065
+CommitInfo{repo='GitHub', hash='966beadddfe3a9158305e6031ae510ddf054a1e0', version='4.0.0.Beta5'} 	https://github.com/wildfly/jboss-ejb-client/commit/966beadddfe3a9158305e6031ae510ddf054a1e0
+CommitInfo{repo='GitHub', hash='9cbae58286ef9eb283bbb0696bffb71f2594e036', version='4.0.0.Beta6'} 	https://github.com/wildfly/jboss-ejb-client/commit/9cbae58286ef9eb283bbb0696bffb71f2594e036
+CommitInfo{repo='GitHub', hash='4b1b8856d06ccd7c22712ec1d4d7f6af8cab666e', version='4.0.0.Beta7'} 	https://github.com/wildfly/jboss-ejb-client/commit/4b1b8856d06ccd7c22712ec1d4d7f6af8cab666e
+CommitInfo{repo='GitHub', hash='31d1ef432f16d2db7323a124431bf2bf0bc3bc94', version='4.0.0.Beta8'} 	https://github.com/wildfly/jboss-ejb-client/commit/31d1ef432f16d2db7323a124431bf2bf0bc3bc94
+CommitInfo{repo='GitHub', hash='e5d74019a9d08b27dcdf84ec56b98b6822687179', version='4.0.0.Beta9'} 	https://github.com/wildfly/jboss-ejb-client/commit/e5d74019a9d08b27dcdf84ec56b98b6822687179
+CommitInfo{repo='GitHub', hash='759a4bdae08356c78c9015635586d50589e64594', version='4.0.0.CR1'} 	https://github.com/wildfly/jboss-ejb-client/commit/759a4bdae08356c78c9015635586d50589e64594
+CommitInfo{repo='GitHub', hash='4e8271ee806dd10f030d42f8bdd4035757daf521', version='4.0.0.CR2'} 	https://github.com/wildfly/jboss-ejb-client/commit/4e8271ee806dd10f030d42f8bdd4035757daf521
+CommitInfo{repo='GitHub', hash='c7a142435cf155827283d0b5fc44b2d5d3de6f55', version='4.0.0.CR3'} 	https://github.com/wildfly/jboss-ejb-client/commit/c7a142435cf155827283d0b5fc44b2d5d3de6f55
+CommitInfo{repo='GitHub', hash='216f89a505f1f3fac9d670b7bb4f431fa6e68dd5', version='4.0.0.CR4'} 	https://github.com/wildfly/jboss-ejb-client/commit/216f89a505f1f3fac9d670b7bb4f431fa6e68dd5
+CommitInfo{repo='GitHub', hash='dce20e96850e4f292cc89de7c267b25c72b74c18', version='4.0.0.CR5'} 	https://github.com/wildfly/jboss-ejb-client/commit/dce20e96850e4f292cc89de7c267b25c72b74c18
+CommitInfo{repo='GitHub', hash='fb7cf0e2aa8e7f9cf8f9e4022ad166d17a81c069', version='4.0.0.CR6'} 	https://github.com/wildfly/jboss-ejb-client/commit/fb7cf0e2aa8e7f9cf8f9e4022ad166d17a81c069
+CommitInfo{repo='GitHub', hash='ed72f40cbf7c6375a038449256d33ae881421486', version='4.0.0.CR7'} 	https://github.com/wildfly/jboss-ejb-client/commit/ed72f40cbf7c6375a038449256d33ae881421486
+CommitInfo{repo='GitHub', hash='19fb0bd70378d5f0a980b79716cfe8dbd398af0f', version='4.0.0.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/19fb0bd70378d5f0a980b79716cfe8dbd398af0f
+CommitInfo{repo='GitHub', hash='c5e79c68aa4ac0f75c9eca847ac4db8c3df7c494', version='4.0.10.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/c5e79c68aa4ac0f75c9eca847ac4db8c3df7c494
+CommitInfo{repo='GitHub', hash='65180ee6186671d684eed103c8a1ac8b14a9a3bc', version='4.0.11.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/65180ee6186671d684eed103c8a1ac8b14a9a3bc
+CommitInfo{repo='GitHub', hash='aeed457aeaedd2e968b805b2abf0baaa7349c595', version='4.0.1.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/aeed457aeaedd2e968b805b2abf0baaa7349c595
+CommitInfo{repo='GitHub', hash='9a10748e72c12fa8b02e7b1c5aa8aa8b45ee02c3', version='4.0.2.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/9a10748e72c12fa8b02e7b1c5aa8aa8b45ee02c3
+CommitInfo{repo='GitHub', hash='88d5dda2f93ec71efd0a362748cc49ec66cf81a4', version='4.0.3.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/88d5dda2f93ec71efd0a362748cc49ec66cf81a4
+CommitInfo{repo='GitHub', hash='bb54e78d25a2fd6473b6c1d2fe35fb6dd78e6f11', version='4.0.4.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/bb54e78d25a2fd6473b6c1d2fe35fb6dd78e6f11
+CommitInfo{repo='GitHub', hash='29110853844004fcd1bd22d233dea3a83d45a958', version='4.0.5.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/29110853844004fcd1bd22d233dea3a83d45a958
+CommitInfo{repo='GitHub', hash='14bc5c0e0fcb051a23f98c903793b5a2c9b141e6', version='4.0.6.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/14bc5c0e0fcb051a23f98c903793b5a2c9b141e6
+CommitInfo{repo='GitHub', hash='1ca28edd09e7c780b826f666e4a7bcbe163cece0', version='4.0.7.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/1ca28edd09e7c780b826f666e4a7bcbe163cece0
+CommitInfo{repo='GitHub', hash='242917f67f4d1360cf64144650acdfa787a2e346', version='4.0.8.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/242917f67f4d1360cf64144650acdfa787a2e346
+CommitInfo{repo='GitHub', hash='1752ef89bac81e8547a805b48413b18e32432553', version='4.0.9.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/1752ef89bac81e8547a805b48413b18e32432553
+CommitInfo{repo='GitHub', hash='6d4fb188391deb19f334c55fec40809eb5d008bb', version='7.0.0.CR1'} 	https://github.com/wildfly/jboss-ejb-client/commit/6d4fb188391deb19f334c55fec40809eb5d008bb
+CommitInfo{repo='GitHub', hash='16366db1b63320b1b1007e2c2749267c6e789654', version='7.0.0.Final'} 	https://github.com/wildfly/jboss-ejb-client/commit/16366db1b63320b1b1007e2c2749267c6e789654
 
 Project A:
 ProjectVersionFixed(version=1.0.0.Beta1, dependency=3.0.0.Beta3, time=2011-09-28 15:04:46 UTC),	Latest, "DependencyVersion(version=3.0.0.Beta4, time=2011-08-04 14:48:26 UTC)"

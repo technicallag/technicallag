@@ -2,55 +2,60 @@
 Project information
 com.twitter:scrooge-core_2.10 (392729)	org.apache.thrift:libthrift (410324)	Package Manager: Maven
 RepoID: 165439
+Repo Owner/Name: twitter/scrooge
+Repository type: GitHub
+
+ https://github.com/twitter/scrooge/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='68a1245f6f48e293a171886a0fdd2d8bb8555a61', version='org=com.twitter,name=scrooge,version=1.1.3'}
-CommitInfo{repo='GitHub', hash='c100bbfc02d8a15f79f14f4d7411a64d7d550818', version='org=com.twitter,name=scrooge,version=1.1.4'}
-CommitInfo{repo='GitHub', hash='10c4c780b53e7f317ac8d59d697bd69b3868175d', version='org=com.twitter,name=scrooge,version=1.1.5'}
-CommitInfo{repo='GitHub', hash='03b548b907bea5b25f1818f545972ae39a7d1f47', version='org=com.twitter,name=scrooge,version=1.1.6'}
-CommitInfo{repo='GitHub', hash='f65597e4a9d23c54df9ccda5d457546d754f48a3', version='org=com.twitter,name=scrooge,version=1.1.7'}
-CommitInfo{repo='GitHub', hash='43251932cd1335b57dc03bdebabe865a3f49b7ce', version='org=scrooge,name=scrooge,version=3.0.0'}
-CommitInfo{repo='GitHub', hash='413cb0f9ecd2c494241b40f2a7981ff7b1351959', version='org=scrooge,name=scrooge,version=3.0.1'}
-CommitInfo{repo='GitHub', hash='a395d27f181631da854d3d3e2c14ca9d8917d7f6', version='scrooge-17.10.0'}
-CommitInfo{repo='GitHub', hash='e3e505c157c6f63f38e9a7f46e6e32ac28477ad9', version='scrooge-17.11.0'}
-CommitInfo{repo='GitHub', hash='9690ae0f172e5ee330a937f5fb935c5db3e8e6ca', version='scrooge-17.12.0'}
-CommitInfo{repo='GitHub', hash='84fbb79cc490d39b76eb2f6c1a38f08f03e0fabe', version='scrooge-18.1.0'}
-CommitInfo{repo='GitHub', hash='13c26e196ec2a399833771a335ae98afcc4d6b57', version='scrooge-18.2.0'}
-CommitInfo{repo='GitHub', hash='8a7bf1c411e75e79daf75452a5203a2ce4dee2ec', version='scrooge-18.3.0'}
-CommitInfo{repo='GitHub', hash='b64bcb47af2451b2e51a1ed1b3876f6c06c642b3', version='scrooge-18.4.0'}
-CommitInfo{repo='GitHub', hash='3134c6d06f42d90a4358ce09226bee7d6b350fed', version='scrooge-18.5.0'}
-CommitInfo{repo='GitHub', hash='4d5c08c211c7320d0d225bba35a74bdc47c750e6', version='scrooge-18.6.0'}
-CommitInfo{repo='GitHub', hash='49aac48342028781e43a3c08ee3d08c8672386cd', version='scrooge-18.7.0'}
-CommitInfo{repo='GitHub', hash='d6a7069d76bc83083aebb5049c07b87111b216ec', version='scrooge-18.8.0'}
-CommitInfo{repo='GitHub', hash='d6a7069d76bc83083aebb5049c07b87111b216ec', version='scrooge-18.8.0'}
-CommitInfo{repo='GitHub', hash='1087ab03ffa3449ca2d5ca23716b54066e9b4329', version='scrooge-18.9.0'}
-CommitInfo{repo='GitHub', hash='1087ab03ffa3449ca2d5ca23716b54066e9b4329', version='scrooge-18.9.0'}
-CommitInfo{repo='GitHub', hash='15d061372d11cef341bc00eabd9efdfa79920cf0', version='scrooge-18.9.1'}
-CommitInfo{repo='GitHub', hash='870e03227d1ab52c37f323118561ad4b79485a0d', version='scrooge-3.17.0'}
-CommitInfo{repo='GitHub', hash='0f631ea6329f437be3ee265d2ae18d2dc0f8f38f', version='scrooge-3.18.0'}
-CommitInfo{repo='GitHub', hash='59eb954f8f1bf091a6ddd6e6fb21219aff8cbcc5', version='scrooge-3.18.1'}
-CommitInfo{repo='GitHub', hash='a470ba0b90af37c6dfc4b19c5258652a8e7f706e', version='scrooge-3.19.0'}
-CommitInfo{repo='GitHub', hash='0805321d69745466806017e1167a5027cd298d66', version='scrooge-3.20.0'}
-CommitInfo{repo='GitHub', hash='2d9d7656d3b3b7eff89450ac6a78f12af6cc627b', version='scrooge-4.0.0'}
-CommitInfo{repo='GitHub', hash='87b84f89477a4737c8d57580a1e8bdaeac529b19', version='scrooge-4.1.0'}
-CommitInfo{repo='GitHub', hash='93b5383f7afff1301467b8941baf6ab35959a15c', version='scrooge-4.10.0'}
-CommitInfo{repo='GitHub', hash='53125d3304736db41e23d8474e5765d6c2fe3ded', version='scrooge-4.11.0'}
-CommitInfo{repo='GitHub', hash='f7190e7f6b92684107b8cebf853d0d2403473022', version='scrooge-4.12.0'}
-CommitInfo{repo='GitHub', hash='d78092e3646973525a551fa9d3f703f08b1ba76a', version='scrooge-4.13.0'}
-CommitInfo{repo='GitHub', hash='56cc6a6ed000a14f1a3fef4e3e5e60dab4478499', version='scrooge-4.14.0'}
-CommitInfo{repo='GitHub', hash='afb71130ca59bc14afcef7aea788ee179657a43b', version='scrooge-4.15.0'}
-CommitInfo{repo='GitHub', hash='0201cac9fdd6188248d42da91fd14c87744cc4a5', version='scrooge-4.16.0'}
-CommitInfo{repo='GitHub', hash='19f0c3c1e92bca00860d6b0b3c7edea6702ab439', version='scrooge-4.18.0'}
-CommitInfo{repo='GitHub', hash='7d34fd72196cf3468c490a76681e002cc11d94fa', version='scrooge-4.19.0'}
-CommitInfo{repo='GitHub', hash='916ae5af15aee43701613662730f8d261ca968ff', version='scrooge-4.2.0'}
-CommitInfo{repo='GitHub', hash='cb187fa846aef7d49488991c1e2333f01b1763d9', version='scrooge-4.20.0'}
-CommitInfo{repo='GitHub', hash='64fd5eddcaea45735958d3f67f49152ca9767a5e', version='scrooge-4.3.0'}
-CommitInfo{repo='GitHub', hash='ec42f75b4385c996538c4dca210b6347aa1d8ba0', version='scrooge-4.4.0'}
-CommitInfo{repo='GitHub', hash='014664de600267b36809bbc85225e26aec286216', version='scrooge-4.5.0'}
-CommitInfo{repo='GitHub', hash='eb57ae5452b3a7a1fe18ba3ebf6bcc0721393d8c', version='scrooge-4.6.0'}
-CommitInfo{repo='GitHub', hash='d9d56174937f524a1981b38ebd6280eef7eeda4a', version='scrooge-4.7.0'}
-CommitInfo{repo='GitHub', hash='a96517ce2f542026f7c02451c8ef8d33bc7e319d', version='scrooge-4.8.0'}
-CommitInfo{repo='GitHub', hash='2e24bd0a8b4d00264b74784a457ac08bf4aea1d6', version='scrooge-4.9.0'}
-CommitInfo{repo='GitHub', hash='f7190e7f6b92684107b8cebf853d0d2403473022', version='version-4.12.0'}
+CommitInfo{repo='GitHub', hash='68a1245f6f48e293a171886a0fdd2d8bb8555a61', version='org=com.twitter,name=scrooge,version=1.1.3'} 	https://github.com/twitter/scrooge/commit/68a1245f6f48e293a171886a0fdd2d8bb8555a61
+CommitInfo{repo='GitHub', hash='c100bbfc02d8a15f79f14f4d7411a64d7d550818', version='org=com.twitter,name=scrooge,version=1.1.4'} 	https://github.com/twitter/scrooge/commit/c100bbfc02d8a15f79f14f4d7411a64d7d550818
+CommitInfo{repo='GitHub', hash='10c4c780b53e7f317ac8d59d697bd69b3868175d', version='org=com.twitter,name=scrooge,version=1.1.5'} 	https://github.com/twitter/scrooge/commit/10c4c780b53e7f317ac8d59d697bd69b3868175d
+CommitInfo{repo='GitHub', hash='03b548b907bea5b25f1818f545972ae39a7d1f47', version='org=com.twitter,name=scrooge,version=1.1.6'} 	https://github.com/twitter/scrooge/commit/03b548b907bea5b25f1818f545972ae39a7d1f47
+CommitInfo{repo='GitHub', hash='f65597e4a9d23c54df9ccda5d457546d754f48a3', version='org=com.twitter,name=scrooge,version=1.1.7'} 	https://github.com/twitter/scrooge/commit/f65597e4a9d23c54df9ccda5d457546d754f48a3
+CommitInfo{repo='GitHub', hash='43251932cd1335b57dc03bdebabe865a3f49b7ce', version='org=scrooge,name=scrooge,version=3.0.0'} 	https://github.com/twitter/scrooge/commit/43251932cd1335b57dc03bdebabe865a3f49b7ce
+CommitInfo{repo='GitHub', hash='413cb0f9ecd2c494241b40f2a7981ff7b1351959', version='org=scrooge,name=scrooge,version=3.0.1'} 	https://github.com/twitter/scrooge/commit/413cb0f9ecd2c494241b40f2a7981ff7b1351959
+CommitInfo{repo='GitHub', hash='a395d27f181631da854d3d3e2c14ca9d8917d7f6', version='scrooge-17.10.0'} 	https://github.com/twitter/scrooge/commit/a395d27f181631da854d3d3e2c14ca9d8917d7f6
+CommitInfo{repo='GitHub', hash='e3e505c157c6f63f38e9a7f46e6e32ac28477ad9', version='scrooge-17.11.0'} 	https://github.com/twitter/scrooge/commit/e3e505c157c6f63f38e9a7f46e6e32ac28477ad9
+CommitInfo{repo='GitHub', hash='9690ae0f172e5ee330a937f5fb935c5db3e8e6ca', version='scrooge-17.12.0'} 	https://github.com/twitter/scrooge/commit/9690ae0f172e5ee330a937f5fb935c5db3e8e6ca
+CommitInfo{repo='GitHub', hash='84fbb79cc490d39b76eb2f6c1a38f08f03e0fabe', version='scrooge-18.1.0'} 	https://github.com/twitter/scrooge/commit/84fbb79cc490d39b76eb2f6c1a38f08f03e0fabe
+CommitInfo{repo='GitHub', hash='13c26e196ec2a399833771a335ae98afcc4d6b57', version='scrooge-18.2.0'} 	https://github.com/twitter/scrooge/commit/13c26e196ec2a399833771a335ae98afcc4d6b57
+CommitInfo{repo='GitHub', hash='8a7bf1c411e75e79daf75452a5203a2ce4dee2ec', version='scrooge-18.3.0'} 	https://github.com/twitter/scrooge/commit/8a7bf1c411e75e79daf75452a5203a2ce4dee2ec
+CommitInfo{repo='GitHub', hash='b64bcb47af2451b2e51a1ed1b3876f6c06c642b3', version='scrooge-18.4.0'} 	https://github.com/twitter/scrooge/commit/b64bcb47af2451b2e51a1ed1b3876f6c06c642b3
+CommitInfo{repo='GitHub', hash='3134c6d06f42d90a4358ce09226bee7d6b350fed', version='scrooge-18.5.0'} 	https://github.com/twitter/scrooge/commit/3134c6d06f42d90a4358ce09226bee7d6b350fed
+CommitInfo{repo='GitHub', hash='4d5c08c211c7320d0d225bba35a74bdc47c750e6', version='scrooge-18.6.0'} 	https://github.com/twitter/scrooge/commit/4d5c08c211c7320d0d225bba35a74bdc47c750e6
+CommitInfo{repo='GitHub', hash='49aac48342028781e43a3c08ee3d08c8672386cd', version='scrooge-18.7.0'} 	https://github.com/twitter/scrooge/commit/49aac48342028781e43a3c08ee3d08c8672386cd
+CommitInfo{repo='GitHub', hash='d6a7069d76bc83083aebb5049c07b87111b216ec', version='scrooge-18.8.0'} 	https://github.com/twitter/scrooge/commit/d6a7069d76bc83083aebb5049c07b87111b216ec
+CommitInfo{repo='GitHub', hash='d6a7069d76bc83083aebb5049c07b87111b216ec', version='scrooge-18.8.0'} 	https://github.com/twitter/scrooge/commit/d6a7069d76bc83083aebb5049c07b87111b216ec
+CommitInfo{repo='GitHub', hash='1087ab03ffa3449ca2d5ca23716b54066e9b4329', version='scrooge-18.9.0'} 	https://github.com/twitter/scrooge/commit/1087ab03ffa3449ca2d5ca23716b54066e9b4329
+CommitInfo{repo='GitHub', hash='1087ab03ffa3449ca2d5ca23716b54066e9b4329', version='scrooge-18.9.0'} 	https://github.com/twitter/scrooge/commit/1087ab03ffa3449ca2d5ca23716b54066e9b4329
+CommitInfo{repo='GitHub', hash='15d061372d11cef341bc00eabd9efdfa79920cf0', version='scrooge-18.9.1'} 	https://github.com/twitter/scrooge/commit/15d061372d11cef341bc00eabd9efdfa79920cf0
+CommitInfo{repo='GitHub', hash='870e03227d1ab52c37f323118561ad4b79485a0d', version='scrooge-3.17.0'} 	https://github.com/twitter/scrooge/commit/870e03227d1ab52c37f323118561ad4b79485a0d
+CommitInfo{repo='GitHub', hash='0f631ea6329f437be3ee265d2ae18d2dc0f8f38f', version='scrooge-3.18.0'} 	https://github.com/twitter/scrooge/commit/0f631ea6329f437be3ee265d2ae18d2dc0f8f38f
+CommitInfo{repo='GitHub', hash='59eb954f8f1bf091a6ddd6e6fb21219aff8cbcc5', version='scrooge-3.18.1'} 	https://github.com/twitter/scrooge/commit/59eb954f8f1bf091a6ddd6e6fb21219aff8cbcc5
+CommitInfo{repo='GitHub', hash='a470ba0b90af37c6dfc4b19c5258652a8e7f706e', version='scrooge-3.19.0'} 	https://github.com/twitter/scrooge/commit/a470ba0b90af37c6dfc4b19c5258652a8e7f706e
+CommitInfo{repo='GitHub', hash='0805321d69745466806017e1167a5027cd298d66', version='scrooge-3.20.0'} 	https://github.com/twitter/scrooge/commit/0805321d69745466806017e1167a5027cd298d66
+CommitInfo{repo='GitHub', hash='2d9d7656d3b3b7eff89450ac6a78f12af6cc627b', version='scrooge-4.0.0'} 	https://github.com/twitter/scrooge/commit/2d9d7656d3b3b7eff89450ac6a78f12af6cc627b
+CommitInfo{repo='GitHub', hash='87b84f89477a4737c8d57580a1e8bdaeac529b19', version='scrooge-4.1.0'} 	https://github.com/twitter/scrooge/commit/87b84f89477a4737c8d57580a1e8bdaeac529b19
+CommitInfo{repo='GitHub', hash='93b5383f7afff1301467b8941baf6ab35959a15c', version='scrooge-4.10.0'} 	https://github.com/twitter/scrooge/commit/93b5383f7afff1301467b8941baf6ab35959a15c
+CommitInfo{repo='GitHub', hash='53125d3304736db41e23d8474e5765d6c2fe3ded', version='scrooge-4.11.0'} 	https://github.com/twitter/scrooge/commit/53125d3304736db41e23d8474e5765d6c2fe3ded
+CommitInfo{repo='GitHub', hash='f7190e7f6b92684107b8cebf853d0d2403473022', version='scrooge-4.12.0'} 	https://github.com/twitter/scrooge/commit/f7190e7f6b92684107b8cebf853d0d2403473022
+CommitInfo{repo='GitHub', hash='d78092e3646973525a551fa9d3f703f08b1ba76a', version='scrooge-4.13.0'} 	https://github.com/twitter/scrooge/commit/d78092e3646973525a551fa9d3f703f08b1ba76a
+CommitInfo{repo='GitHub', hash='56cc6a6ed000a14f1a3fef4e3e5e60dab4478499', version='scrooge-4.14.0'} 	https://github.com/twitter/scrooge/commit/56cc6a6ed000a14f1a3fef4e3e5e60dab4478499
+CommitInfo{repo='GitHub', hash='afb71130ca59bc14afcef7aea788ee179657a43b', version='scrooge-4.15.0'} 	https://github.com/twitter/scrooge/commit/afb71130ca59bc14afcef7aea788ee179657a43b
+CommitInfo{repo='GitHub', hash='0201cac9fdd6188248d42da91fd14c87744cc4a5', version='scrooge-4.16.0'} 	https://github.com/twitter/scrooge/commit/0201cac9fdd6188248d42da91fd14c87744cc4a5
+CommitInfo{repo='GitHub', hash='19f0c3c1e92bca00860d6b0b3c7edea6702ab439', version='scrooge-4.18.0'} 	https://github.com/twitter/scrooge/commit/19f0c3c1e92bca00860d6b0b3c7edea6702ab439
+CommitInfo{repo='GitHub', hash='7d34fd72196cf3468c490a76681e002cc11d94fa', version='scrooge-4.19.0'} 	https://github.com/twitter/scrooge/commit/7d34fd72196cf3468c490a76681e002cc11d94fa
+CommitInfo{repo='GitHub', hash='916ae5af15aee43701613662730f8d261ca968ff', version='scrooge-4.2.0'} 	https://github.com/twitter/scrooge/commit/916ae5af15aee43701613662730f8d261ca968ff
+CommitInfo{repo='GitHub', hash='cb187fa846aef7d49488991c1e2333f01b1763d9', version='scrooge-4.20.0'} 	https://github.com/twitter/scrooge/commit/cb187fa846aef7d49488991c1e2333f01b1763d9
+CommitInfo{repo='GitHub', hash='64fd5eddcaea45735958d3f67f49152ca9767a5e', version='scrooge-4.3.0'} 	https://github.com/twitter/scrooge/commit/64fd5eddcaea45735958d3f67f49152ca9767a5e
+CommitInfo{repo='GitHub', hash='ec42f75b4385c996538c4dca210b6347aa1d8ba0', version='scrooge-4.4.0'} 	https://github.com/twitter/scrooge/commit/ec42f75b4385c996538c4dca210b6347aa1d8ba0
+CommitInfo{repo='GitHub', hash='014664de600267b36809bbc85225e26aec286216', version='scrooge-4.5.0'} 	https://github.com/twitter/scrooge/commit/014664de600267b36809bbc85225e26aec286216
+CommitInfo{repo='GitHub', hash='eb57ae5452b3a7a1fe18ba3ebf6bcc0721393d8c', version='scrooge-4.6.0'} 	https://github.com/twitter/scrooge/commit/eb57ae5452b3a7a1fe18ba3ebf6bcc0721393d8c
+CommitInfo{repo='GitHub', hash='d9d56174937f524a1981b38ebd6280eef7eeda4a', version='scrooge-4.7.0'} 	https://github.com/twitter/scrooge/commit/d9d56174937f524a1981b38ebd6280eef7eeda4a
+CommitInfo{repo='GitHub', hash='a96517ce2f542026f7c02451c8ef8d33bc7e319d', version='scrooge-4.8.0'} 	https://github.com/twitter/scrooge/commit/a96517ce2f542026f7c02451c8ef8d33bc7e319d
+CommitInfo{repo='GitHub', hash='2e24bd0a8b4d00264b74784a457ac08bf4aea1d6', version='scrooge-4.9.0'} 	https://github.com/twitter/scrooge/commit/2e24bd0a8b4d00264b74784a457ac08bf4aea1d6
+CommitInfo{repo='GitHub', hash='f7190e7f6b92684107b8cebf853d0d2403473022', version='version-4.12.0'} 	https://github.com/twitter/scrooge/commit/f7190e7f6b92684107b8cebf853d0d2403473022
 
 Project A:
 ProjectVersionFixed(version=3.4.0, dependency=0.8.0, time=2013-08-07 16:46:15 UTC),	Latest, "DependencyVersion(version=0.9.0-cdh4-1, time=2013-06-14 20:33:48 UTC)"

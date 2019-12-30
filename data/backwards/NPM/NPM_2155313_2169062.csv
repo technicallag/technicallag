@@ -2,102 +2,107 @@
 Project information
 ngx-widgets (2155313)	patternfly-sass-with-css (2169062)	Package Manager: NPM
 RepoID: 20174844
+Repo Owner/Name: fabric8-ui/ngx-widgets
+Repository type: GitHub
+
+ https://github.com/fabric8-ui/ngx-widgets/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='0f66252437921077624258e86e2519aa40d24eda', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='be8945875a197f1cd7be0a9220a8f551cad8f215', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='b66605b19433bd11b9940c0ad48c57eab7473ccd', version='v0.10.2'}
-CommitInfo{repo='GitHub', hash='5af9b03f8d3b21c549a36d1c373ff3d6e8f50a79', version='v0.10.3'}
-CommitInfo{repo='GitHub', hash='371f1d8ab1157cdac34d64bad8022d24138435b1', version='v0.10.4'}
-CommitInfo{repo='GitHub', hash='ecdb82c86a94df6d447d641ca64a18de799851e1', version='v0.10.5'}
-CommitInfo{repo='GitHub', hash='259d19a659e83523d614e642095761bc29a9f680', version='v0.10.6'}
-CommitInfo{repo='GitHub', hash='b7886705d0d0361e853c3e608b4b52bd537d649f', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='485ad888f151dc10c081571efac4003bf0d43e8f', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='536ff6e5e83b12e336a579e16edf284875b8d347', version='v0.12.1'}
-CommitInfo{repo='GitHub', hash='7904048d660db8f621c33d17fbea323500e18b39', version='v0.12.2'}
-CommitInfo{repo='GitHub', hash='9c44142e2bb6679cb7d4d7d712616c747900bd00', version='v0.12.3'}
-CommitInfo{repo='GitHub', hash='ff9913fa7a924357d766939eae50844f85d86ba1', version='v0.12.4'}
-CommitInfo{repo='GitHub', hash='7bb7f78b2d05605d2323a86c9d8605be663db4a9', version='v0.12.5'}
-CommitInfo{repo='GitHub', hash='2bb75819d99e3030415b842887b053d57f58f7cd', version='v0.12.6'}
-CommitInfo{repo='GitHub', hash='ddd868ab2990cd4366f69b50cb8058fbbdbe15d8', version='v0.12.7'}
-CommitInfo{repo='GitHub', hash='d3592f7c26f451bc359c807d2c10390680037616', version='v0.12.8'}
-CommitInfo{repo='GitHub', hash='ffaaee2b5a40bad528307229149d5725a10b54e9', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='832d2d9f482030239e0f0a3fb23d7c83cce2b212', version='v0.13.1'}
-CommitInfo{repo='GitHub', hash='6e2f4c4cc88e9ac3d056b636baf1b0b2800db5f2', version='v0.13.2'}
-CommitInfo{repo='GitHub', hash='c6c902ee132c1ddc8afebd23d53d1f0500c1948c', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='49975376a696b47fd8bb99823cd758910be8e55e', version='v0.15.0'}
-CommitInfo{repo='GitHub', hash='8b6f6386033fef75794580666ee53f44fe2ec20d', version='v0.15.1'}
-CommitInfo{repo='GitHub', hash='13c76b9a614e227f6a800b811b75267634768344', version='v0.15.2'}
-CommitInfo{repo='GitHub', hash='9a2f7015a5826d477f021538815f7b5d33f09e0b', version='v0.15.3'}
-CommitInfo{repo='GitHub', hash='c5424c92a47f7eda411753be7b86446551f67b83', version='v0.4.0'}
-CommitInfo{repo='GitHub', hash='7c6a532c4350b9f870157139b39cabe1b3c82e72', version='v0.4.1'}
-CommitInfo{repo='GitHub', hash='0c89758c96ca9f950b573871622daa10d58b360d', version='v0.4.2'}
-CommitInfo{repo='GitHub', hash='b3b217cdbb2eead7c16ca0010ce37b7d8cc1ed87', version='v0.5.0'}
-CommitInfo{repo='GitHub', hash='9dc8987fa9531f939c705c8fcca8e89e39b03cea', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='28fdd7251d6f8ac3c287164a6bc3f12b3a0839fa', version='v0.6.1'}
-CommitInfo{repo='GitHub', hash='f62e6edd7edec54d3f9fd27c635574b57f3b6a4a', version='v0.6.2'}
-CommitInfo{repo='GitHub', hash='1679135bc406b2c97986fbd8013d07caab1b5623', version='v0.6.3'}
-CommitInfo{repo='GitHub', hash='918b27324e6f99a74f9ef3e0b8754b1f8644779f', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='a3f5233f7415b77a708598e80f94bdd7ad1277c4', version='v0.7.1'}
-CommitInfo{repo='GitHub', hash='05b5eee7b3baf7dcc51055aa8c3f6b2f3b745aed', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='bdad20112464dee3213834043033e9b1526ba570', version='v0.9.1'}
-CommitInfo{repo='GitHub', hash='34905dab1757c12361019a7b1445bfa8aba04a20', version='v0.9.2'}
-CommitInfo{repo='GitHub', hash='909171e4f1b16198423d33209e03dd579ee75e36', version='v0.9.3'}
-CommitInfo{repo='GitHub', hash='a6499bea9dcd4de6e5eb3faa4f728394072e6ebc', version='v0.9.4'}
-CommitInfo{repo='GitHub', hash='d6c9674421d0d4736d01434344c697557465cd97', version='v0.9.5'}
-CommitInfo{repo='GitHub', hash='181dbf787425e177156764ddc3eb2667da28eb16', version='v0.9.6'}
-CommitInfo{repo='GitHub', hash='c9fcd0e330954406ace413f0e431f5b2edcee0f8', version='v0.9.7'}
-CommitInfo{repo='GitHub', hash='f7d102fd50ee26a66c4d6c57096c31bc0915059e', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='300d07538ff876bbbf12d3b8ec4ae3e0cb19195a', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='60059243ab19950ae1a2d2195d09a1cdb3567908', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='0669dc5f51aa0fc009b67262bc0d53b59ad937f1', version='v1.1.2'}
-CommitInfo{repo='GitHub', hash='05d5abcc302d1feaefa0f8cfbc22682f02e12644', version='v2.0.0'}
-CommitInfo{repo='GitHub', hash='05d5abcc302d1feaefa0f8cfbc22682f02e12644', version='v2.0.1'}
-CommitInfo{repo='GitHub', hash='0e508f1eeb9319dce02b0c04a2e7c6c1e7e69c36', version='v2.0.2'}
-CommitInfo{repo='GitHub', hash='b6757b33bfbd17391d65eb6347a20f4cc22186aa', version='v2.0.3'}
-CommitInfo{repo='GitHub', hash='f6798816e8f9a8f244ac2f6c86b2465ed31f08b3', version='v2.1.0'}
-CommitInfo{repo='GitHub', hash='0ac1bcf0018577450501b4b51025780139ddf09b', version='v2.1.1'}
-CommitInfo{repo='GitHub', hash='0ac1bcf0018577450501b4b51025780139ddf09b', version='v2.1.2'}
-CommitInfo{repo='GitHub', hash='0a4001cd9b67c905674c7687094d6ae980061ce2', version='v2.1.3'}
-CommitInfo{repo='GitHub', hash='3090becfde5ef9b7366e2788bfea36b4c0871ca0', version='v2.1.4'}
-CommitInfo{repo='GitHub', hash='4d06c917686f233c3cfb608be67add25c4785b82', version='v2.1.5'}
-CommitInfo{repo='GitHub', hash='7fe1f92f47a344315fcc9e9ecbdfdfa699ec95ca', version='v2.1.6'}
-CommitInfo{repo='GitHub', hash='f70b520e4776512e5fc72d3e70cc6e4c3ef9eb01', version='v2.1.7'}
-CommitInfo{repo='GitHub', hash='c535a60fdc4538944c44d1b77b8ab40ed0b875dd', version='v2.2.0'}
-CommitInfo{repo='GitHub', hash='79f889359451f89db8f45a576dcfc875249e79b8', version='v2.2.1'}
-CommitInfo{repo='GitHub', hash='9bc9c6d61c0b4117ea8017a03bc0256cae734de3', version='v2.2.2'}
-CommitInfo{repo='GitHub', hash='78171248683506cd931a0a2bd6e8a7132f480b6d', version='v2.2.3'}
-CommitInfo{repo='GitHub', hash='b41050861c0ae13f55a832630de9cc733049ec9a', version='v2.2.4'}
-CommitInfo{repo='GitHub', hash='e55c0f10707811dadbb010d7a763810f49397495', version='v2.2.5'}
-CommitInfo{repo='GitHub', hash='a62b66eca091dd87466ff00123f57f7cd2290618', version='v2.2.6'}
-CommitInfo{repo='GitHub', hash='082c51a3c83e68e754d1c9334e72e0fc3d976b63', version='v2.2.7'}
-CommitInfo{repo='GitHub', hash='74beda38dad7ed5043be1d1c05d16962e02c92e6', version='v2.2.8'}
-CommitInfo{repo='GitHub', hash='e81b85547a7789990abebffeb9691cdceec95466', version='v2.2.9'}
-CommitInfo{repo='GitHub', hash='d6f36980945602106fc129422e8bbc46a542af67', version='v2.3.0'}
-CommitInfo{repo='GitHub', hash='8ac168886a537850eaf222ad644095aa69450d4c', version='v2.3.1'}
-CommitInfo{repo='GitHub', hash='685639369eadb5e94a0653a3a78dbd026920bed6', version='v2.3.10'}
-CommitInfo{repo='GitHub', hash='cc0f45596ed43a175e2155ae033598f47f097283', version='v2.3.2'}
-CommitInfo{repo='GitHub', hash='329b329885121ace1d6f0b5d0c391eecddc522f5', version='v2.3.3'}
-CommitInfo{repo='GitHub', hash='a7a7f9a80b40903de1284bd9f793f422baf56f99', version='v2.3.4'}
-CommitInfo{repo='GitHub', hash='5c51bede324e7f12623b4ea8ba1fa6f69f504811', version='v2.3.5'}
-CommitInfo{repo='GitHub', hash='4f56cc866b91d673feaaaac213e4e4adddd3d0e0', version='v2.3.6'}
-CommitInfo{repo='GitHub', hash='f25de7d876a1a6f0f3659bbe991c4895fc9f6c95', version='v2.3.7'}
-CommitInfo{repo='GitHub', hash='93847e33b561b40c2b670141fd1bbcbe203446b3', version='v2.3.8'}
-CommitInfo{repo='GitHub', hash='c16936ef820bfc632ef3b08b6556eb2d14914a9f', version='v2.3.9'}
-CommitInfo{repo='GitHub', hash='95492fec6d29e39c63468a8fd7bf86d991a63438', version='v2.4.0'}
-CommitInfo{repo='GitHub', hash='61998661fbc4f08529f77b545e721a8295572cc0', version='v2.4.1'}
-CommitInfo{repo='GitHub', hash='c145e7d457f1cee165c156d954e302f03dfe472b', version='v2.4.2'}
-CommitInfo{repo='GitHub', hash='41234f2fa641c6dc753ff7aede6568f5e5716208', version='v2.4.3'}
-CommitInfo{repo='GitHub', hash='7dcc8a1ccd547cee6d324726fa8818bf6407187b', version='v2.4.4'}
-CommitInfo{repo='GitHub', hash='b378247cb4e7aa1f1f292ddd85317a2e5ea9e6ce', version='v2.4.5'}
-CommitInfo{repo='GitHub', hash='4d262cb86e9e2413ff27d14fc34b400ae61d38e6', version='v2.4.6'}
-CommitInfo{repo='GitHub', hash='786ff524428be0efa093f16027b9914418c87684', version='v3.0.0'}
-CommitInfo{repo='GitHub', hash='41dcf1ebf73eba0777b5036e4de7d7dd583a69b4', version='v3.1.0'}
-CommitInfo{repo='GitHub', hash='2ceac6ff48c0fc666ec4842ae73b842177547b4d', version='v3.1.1'}
-CommitInfo{repo='GitHub', hash='eeef18905dc66d13265bf51c50eb2eeece72bbea', version='v3.1.2'}
-CommitInfo{repo='GitHub', hash='b4b77a8430718f8722931c1c76dfa05f19d836f6', version='v3.1.3'}
-CommitInfo{repo='GitHub', hash='742cc95b0a0cc1a8f477d5e19bb054b67813b2b4', version='v3.1.4'}
-CommitInfo{repo='GitHub', hash='86d3d4e2a198859a242ffa083930e1960d0d2e70', version='v3.1.5'}
-CommitInfo{repo='GitHub', hash='b569e15fac75c5739d87b1c9a46216bb792c8d80', version='v3.2.0'}
+CommitInfo{repo='GitHub', hash='0f66252437921077624258e86e2519aa40d24eda', version='v0.10.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/0f66252437921077624258e86e2519aa40d24eda
+CommitInfo{repo='GitHub', hash='be8945875a197f1cd7be0a9220a8f551cad8f215', version='v0.10.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/be8945875a197f1cd7be0a9220a8f551cad8f215
+CommitInfo{repo='GitHub', hash='b66605b19433bd11b9940c0ad48c57eab7473ccd', version='v0.10.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/b66605b19433bd11b9940c0ad48c57eab7473ccd
+CommitInfo{repo='GitHub', hash='5af9b03f8d3b21c549a36d1c373ff3d6e8f50a79', version='v0.10.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/5af9b03f8d3b21c549a36d1c373ff3d6e8f50a79
+CommitInfo{repo='GitHub', hash='371f1d8ab1157cdac34d64bad8022d24138435b1', version='v0.10.4'} 	https://github.com/fabric8-ui/ngx-widgets/commit/371f1d8ab1157cdac34d64bad8022d24138435b1
+CommitInfo{repo='GitHub', hash='ecdb82c86a94df6d447d641ca64a18de799851e1', version='v0.10.5'} 	https://github.com/fabric8-ui/ngx-widgets/commit/ecdb82c86a94df6d447d641ca64a18de799851e1
+CommitInfo{repo='GitHub', hash='259d19a659e83523d614e642095761bc29a9f680', version='v0.10.6'} 	https://github.com/fabric8-ui/ngx-widgets/commit/259d19a659e83523d614e642095761bc29a9f680
+CommitInfo{repo='GitHub', hash='b7886705d0d0361e853c3e608b4b52bd537d649f', version='v0.11.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/b7886705d0d0361e853c3e608b4b52bd537d649f
+CommitInfo{repo='GitHub', hash='485ad888f151dc10c081571efac4003bf0d43e8f', version='v0.12.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/485ad888f151dc10c081571efac4003bf0d43e8f
+CommitInfo{repo='GitHub', hash='536ff6e5e83b12e336a579e16edf284875b8d347', version='v0.12.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/536ff6e5e83b12e336a579e16edf284875b8d347
+CommitInfo{repo='GitHub', hash='7904048d660db8f621c33d17fbea323500e18b39', version='v0.12.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/7904048d660db8f621c33d17fbea323500e18b39
+CommitInfo{repo='GitHub', hash='9c44142e2bb6679cb7d4d7d712616c747900bd00', version='v0.12.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/9c44142e2bb6679cb7d4d7d712616c747900bd00
+CommitInfo{repo='GitHub', hash='ff9913fa7a924357d766939eae50844f85d86ba1', version='v0.12.4'} 	https://github.com/fabric8-ui/ngx-widgets/commit/ff9913fa7a924357d766939eae50844f85d86ba1
+CommitInfo{repo='GitHub', hash='7bb7f78b2d05605d2323a86c9d8605be663db4a9', version='v0.12.5'} 	https://github.com/fabric8-ui/ngx-widgets/commit/7bb7f78b2d05605d2323a86c9d8605be663db4a9
+CommitInfo{repo='GitHub', hash='2bb75819d99e3030415b842887b053d57f58f7cd', version='v0.12.6'} 	https://github.com/fabric8-ui/ngx-widgets/commit/2bb75819d99e3030415b842887b053d57f58f7cd
+CommitInfo{repo='GitHub', hash='ddd868ab2990cd4366f69b50cb8058fbbdbe15d8', version='v0.12.7'} 	https://github.com/fabric8-ui/ngx-widgets/commit/ddd868ab2990cd4366f69b50cb8058fbbdbe15d8
+CommitInfo{repo='GitHub', hash='d3592f7c26f451bc359c807d2c10390680037616', version='v0.12.8'} 	https://github.com/fabric8-ui/ngx-widgets/commit/d3592f7c26f451bc359c807d2c10390680037616
+CommitInfo{repo='GitHub', hash='ffaaee2b5a40bad528307229149d5725a10b54e9', version='v0.13.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/ffaaee2b5a40bad528307229149d5725a10b54e9
+CommitInfo{repo='GitHub', hash='832d2d9f482030239e0f0a3fb23d7c83cce2b212', version='v0.13.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/832d2d9f482030239e0f0a3fb23d7c83cce2b212
+CommitInfo{repo='GitHub', hash='6e2f4c4cc88e9ac3d056b636baf1b0b2800db5f2', version='v0.13.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/6e2f4c4cc88e9ac3d056b636baf1b0b2800db5f2
+CommitInfo{repo='GitHub', hash='c6c902ee132c1ddc8afebd23d53d1f0500c1948c', version='v0.14.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/c6c902ee132c1ddc8afebd23d53d1f0500c1948c
+CommitInfo{repo='GitHub', hash='49975376a696b47fd8bb99823cd758910be8e55e', version='v0.15.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/49975376a696b47fd8bb99823cd758910be8e55e
+CommitInfo{repo='GitHub', hash='8b6f6386033fef75794580666ee53f44fe2ec20d', version='v0.15.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/8b6f6386033fef75794580666ee53f44fe2ec20d
+CommitInfo{repo='GitHub', hash='13c76b9a614e227f6a800b811b75267634768344', version='v0.15.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/13c76b9a614e227f6a800b811b75267634768344
+CommitInfo{repo='GitHub', hash='9a2f7015a5826d477f021538815f7b5d33f09e0b', version='v0.15.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/9a2f7015a5826d477f021538815f7b5d33f09e0b
+CommitInfo{repo='GitHub', hash='c5424c92a47f7eda411753be7b86446551f67b83', version='v0.4.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/c5424c92a47f7eda411753be7b86446551f67b83
+CommitInfo{repo='GitHub', hash='7c6a532c4350b9f870157139b39cabe1b3c82e72', version='v0.4.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/7c6a532c4350b9f870157139b39cabe1b3c82e72
+CommitInfo{repo='GitHub', hash='0c89758c96ca9f950b573871622daa10d58b360d', version='v0.4.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/0c89758c96ca9f950b573871622daa10d58b360d
+CommitInfo{repo='GitHub', hash='b3b217cdbb2eead7c16ca0010ce37b7d8cc1ed87', version='v0.5.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/b3b217cdbb2eead7c16ca0010ce37b7d8cc1ed87
+CommitInfo{repo='GitHub', hash='9dc8987fa9531f939c705c8fcca8e89e39b03cea', version='v0.6.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/9dc8987fa9531f939c705c8fcca8e89e39b03cea
+CommitInfo{repo='GitHub', hash='28fdd7251d6f8ac3c287164a6bc3f12b3a0839fa', version='v0.6.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/28fdd7251d6f8ac3c287164a6bc3f12b3a0839fa
+CommitInfo{repo='GitHub', hash='f62e6edd7edec54d3f9fd27c635574b57f3b6a4a', version='v0.6.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/f62e6edd7edec54d3f9fd27c635574b57f3b6a4a
+CommitInfo{repo='GitHub', hash='1679135bc406b2c97986fbd8013d07caab1b5623', version='v0.6.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/1679135bc406b2c97986fbd8013d07caab1b5623
+CommitInfo{repo='GitHub', hash='918b27324e6f99a74f9ef3e0b8754b1f8644779f', version='v0.7.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/918b27324e6f99a74f9ef3e0b8754b1f8644779f
+CommitInfo{repo='GitHub', hash='a3f5233f7415b77a708598e80f94bdd7ad1277c4', version='v0.7.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/a3f5233f7415b77a708598e80f94bdd7ad1277c4
+CommitInfo{repo='GitHub', hash='05b5eee7b3baf7dcc51055aa8c3f6b2f3b745aed', version='v0.9.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/05b5eee7b3baf7dcc51055aa8c3f6b2f3b745aed
+CommitInfo{repo='GitHub', hash='bdad20112464dee3213834043033e9b1526ba570', version='v0.9.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/bdad20112464dee3213834043033e9b1526ba570
+CommitInfo{repo='GitHub', hash='34905dab1757c12361019a7b1445bfa8aba04a20', version='v0.9.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/34905dab1757c12361019a7b1445bfa8aba04a20
+CommitInfo{repo='GitHub', hash='909171e4f1b16198423d33209e03dd579ee75e36', version='v0.9.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/909171e4f1b16198423d33209e03dd579ee75e36
+CommitInfo{repo='GitHub', hash='a6499bea9dcd4de6e5eb3faa4f728394072e6ebc', version='v0.9.4'} 	https://github.com/fabric8-ui/ngx-widgets/commit/a6499bea9dcd4de6e5eb3faa4f728394072e6ebc
+CommitInfo{repo='GitHub', hash='d6c9674421d0d4736d01434344c697557465cd97', version='v0.9.5'} 	https://github.com/fabric8-ui/ngx-widgets/commit/d6c9674421d0d4736d01434344c697557465cd97
+CommitInfo{repo='GitHub', hash='181dbf787425e177156764ddc3eb2667da28eb16', version='v0.9.6'} 	https://github.com/fabric8-ui/ngx-widgets/commit/181dbf787425e177156764ddc3eb2667da28eb16
+CommitInfo{repo='GitHub', hash='c9fcd0e330954406ace413f0e431f5b2edcee0f8', version='v0.9.7'} 	https://github.com/fabric8-ui/ngx-widgets/commit/c9fcd0e330954406ace413f0e431f5b2edcee0f8
+CommitInfo{repo='GitHub', hash='f7d102fd50ee26a66c4d6c57096c31bc0915059e', version='v1.0.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/f7d102fd50ee26a66c4d6c57096c31bc0915059e
+CommitInfo{repo='GitHub', hash='300d07538ff876bbbf12d3b8ec4ae3e0cb19195a', version='v1.1.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/300d07538ff876bbbf12d3b8ec4ae3e0cb19195a
+CommitInfo{repo='GitHub', hash='60059243ab19950ae1a2d2195d09a1cdb3567908', version='v1.1.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/60059243ab19950ae1a2d2195d09a1cdb3567908
+CommitInfo{repo='GitHub', hash='0669dc5f51aa0fc009b67262bc0d53b59ad937f1', version='v1.1.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/0669dc5f51aa0fc009b67262bc0d53b59ad937f1
+CommitInfo{repo='GitHub', hash='05d5abcc302d1feaefa0f8cfbc22682f02e12644', version='v2.0.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/05d5abcc302d1feaefa0f8cfbc22682f02e12644
+CommitInfo{repo='GitHub', hash='05d5abcc302d1feaefa0f8cfbc22682f02e12644', version='v2.0.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/05d5abcc302d1feaefa0f8cfbc22682f02e12644
+CommitInfo{repo='GitHub', hash='0e508f1eeb9319dce02b0c04a2e7c6c1e7e69c36', version='v2.0.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/0e508f1eeb9319dce02b0c04a2e7c6c1e7e69c36
+CommitInfo{repo='GitHub', hash='b6757b33bfbd17391d65eb6347a20f4cc22186aa', version='v2.0.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/b6757b33bfbd17391d65eb6347a20f4cc22186aa
+CommitInfo{repo='GitHub', hash='f6798816e8f9a8f244ac2f6c86b2465ed31f08b3', version='v2.1.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/f6798816e8f9a8f244ac2f6c86b2465ed31f08b3
+CommitInfo{repo='GitHub', hash='0ac1bcf0018577450501b4b51025780139ddf09b', version='v2.1.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/0ac1bcf0018577450501b4b51025780139ddf09b
+CommitInfo{repo='GitHub', hash='0ac1bcf0018577450501b4b51025780139ddf09b', version='v2.1.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/0ac1bcf0018577450501b4b51025780139ddf09b
+CommitInfo{repo='GitHub', hash='0a4001cd9b67c905674c7687094d6ae980061ce2', version='v2.1.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/0a4001cd9b67c905674c7687094d6ae980061ce2
+CommitInfo{repo='GitHub', hash='3090becfde5ef9b7366e2788bfea36b4c0871ca0', version='v2.1.4'} 	https://github.com/fabric8-ui/ngx-widgets/commit/3090becfde5ef9b7366e2788bfea36b4c0871ca0
+CommitInfo{repo='GitHub', hash='4d06c917686f233c3cfb608be67add25c4785b82', version='v2.1.5'} 	https://github.com/fabric8-ui/ngx-widgets/commit/4d06c917686f233c3cfb608be67add25c4785b82
+CommitInfo{repo='GitHub', hash='7fe1f92f47a344315fcc9e9ecbdfdfa699ec95ca', version='v2.1.6'} 	https://github.com/fabric8-ui/ngx-widgets/commit/7fe1f92f47a344315fcc9e9ecbdfdfa699ec95ca
+CommitInfo{repo='GitHub', hash='f70b520e4776512e5fc72d3e70cc6e4c3ef9eb01', version='v2.1.7'} 	https://github.com/fabric8-ui/ngx-widgets/commit/f70b520e4776512e5fc72d3e70cc6e4c3ef9eb01
+CommitInfo{repo='GitHub', hash='c535a60fdc4538944c44d1b77b8ab40ed0b875dd', version='v2.2.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/c535a60fdc4538944c44d1b77b8ab40ed0b875dd
+CommitInfo{repo='GitHub', hash='79f889359451f89db8f45a576dcfc875249e79b8', version='v2.2.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/79f889359451f89db8f45a576dcfc875249e79b8
+CommitInfo{repo='GitHub', hash='9bc9c6d61c0b4117ea8017a03bc0256cae734de3', version='v2.2.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/9bc9c6d61c0b4117ea8017a03bc0256cae734de3
+CommitInfo{repo='GitHub', hash='78171248683506cd931a0a2bd6e8a7132f480b6d', version='v2.2.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/78171248683506cd931a0a2bd6e8a7132f480b6d
+CommitInfo{repo='GitHub', hash='b41050861c0ae13f55a832630de9cc733049ec9a', version='v2.2.4'} 	https://github.com/fabric8-ui/ngx-widgets/commit/b41050861c0ae13f55a832630de9cc733049ec9a
+CommitInfo{repo='GitHub', hash='e55c0f10707811dadbb010d7a763810f49397495', version='v2.2.5'} 	https://github.com/fabric8-ui/ngx-widgets/commit/e55c0f10707811dadbb010d7a763810f49397495
+CommitInfo{repo='GitHub', hash='a62b66eca091dd87466ff00123f57f7cd2290618', version='v2.2.6'} 	https://github.com/fabric8-ui/ngx-widgets/commit/a62b66eca091dd87466ff00123f57f7cd2290618
+CommitInfo{repo='GitHub', hash='082c51a3c83e68e754d1c9334e72e0fc3d976b63', version='v2.2.7'} 	https://github.com/fabric8-ui/ngx-widgets/commit/082c51a3c83e68e754d1c9334e72e0fc3d976b63
+CommitInfo{repo='GitHub', hash='74beda38dad7ed5043be1d1c05d16962e02c92e6', version='v2.2.8'} 	https://github.com/fabric8-ui/ngx-widgets/commit/74beda38dad7ed5043be1d1c05d16962e02c92e6
+CommitInfo{repo='GitHub', hash='e81b85547a7789990abebffeb9691cdceec95466', version='v2.2.9'} 	https://github.com/fabric8-ui/ngx-widgets/commit/e81b85547a7789990abebffeb9691cdceec95466
+CommitInfo{repo='GitHub', hash='d6f36980945602106fc129422e8bbc46a542af67', version='v2.3.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/d6f36980945602106fc129422e8bbc46a542af67
+CommitInfo{repo='GitHub', hash='8ac168886a537850eaf222ad644095aa69450d4c', version='v2.3.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/8ac168886a537850eaf222ad644095aa69450d4c
+CommitInfo{repo='GitHub', hash='685639369eadb5e94a0653a3a78dbd026920bed6', version='v2.3.10'} 	https://github.com/fabric8-ui/ngx-widgets/commit/685639369eadb5e94a0653a3a78dbd026920bed6
+CommitInfo{repo='GitHub', hash='cc0f45596ed43a175e2155ae033598f47f097283', version='v2.3.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/cc0f45596ed43a175e2155ae033598f47f097283
+CommitInfo{repo='GitHub', hash='329b329885121ace1d6f0b5d0c391eecddc522f5', version='v2.3.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/329b329885121ace1d6f0b5d0c391eecddc522f5
+CommitInfo{repo='GitHub', hash='a7a7f9a80b40903de1284bd9f793f422baf56f99', version='v2.3.4'} 	https://github.com/fabric8-ui/ngx-widgets/commit/a7a7f9a80b40903de1284bd9f793f422baf56f99
+CommitInfo{repo='GitHub', hash='5c51bede324e7f12623b4ea8ba1fa6f69f504811', version='v2.3.5'} 	https://github.com/fabric8-ui/ngx-widgets/commit/5c51bede324e7f12623b4ea8ba1fa6f69f504811
+CommitInfo{repo='GitHub', hash='4f56cc866b91d673feaaaac213e4e4adddd3d0e0', version='v2.3.6'} 	https://github.com/fabric8-ui/ngx-widgets/commit/4f56cc866b91d673feaaaac213e4e4adddd3d0e0
+CommitInfo{repo='GitHub', hash='f25de7d876a1a6f0f3659bbe991c4895fc9f6c95', version='v2.3.7'} 	https://github.com/fabric8-ui/ngx-widgets/commit/f25de7d876a1a6f0f3659bbe991c4895fc9f6c95
+CommitInfo{repo='GitHub', hash='93847e33b561b40c2b670141fd1bbcbe203446b3', version='v2.3.8'} 	https://github.com/fabric8-ui/ngx-widgets/commit/93847e33b561b40c2b670141fd1bbcbe203446b3
+CommitInfo{repo='GitHub', hash='c16936ef820bfc632ef3b08b6556eb2d14914a9f', version='v2.3.9'} 	https://github.com/fabric8-ui/ngx-widgets/commit/c16936ef820bfc632ef3b08b6556eb2d14914a9f
+CommitInfo{repo='GitHub', hash='95492fec6d29e39c63468a8fd7bf86d991a63438', version='v2.4.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/95492fec6d29e39c63468a8fd7bf86d991a63438
+CommitInfo{repo='GitHub', hash='61998661fbc4f08529f77b545e721a8295572cc0', version='v2.4.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/61998661fbc4f08529f77b545e721a8295572cc0
+CommitInfo{repo='GitHub', hash='c145e7d457f1cee165c156d954e302f03dfe472b', version='v2.4.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/c145e7d457f1cee165c156d954e302f03dfe472b
+CommitInfo{repo='GitHub', hash='41234f2fa641c6dc753ff7aede6568f5e5716208', version='v2.4.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/41234f2fa641c6dc753ff7aede6568f5e5716208
+CommitInfo{repo='GitHub', hash='7dcc8a1ccd547cee6d324726fa8818bf6407187b', version='v2.4.4'} 	https://github.com/fabric8-ui/ngx-widgets/commit/7dcc8a1ccd547cee6d324726fa8818bf6407187b
+CommitInfo{repo='GitHub', hash='b378247cb4e7aa1f1f292ddd85317a2e5ea9e6ce', version='v2.4.5'} 	https://github.com/fabric8-ui/ngx-widgets/commit/b378247cb4e7aa1f1f292ddd85317a2e5ea9e6ce
+CommitInfo{repo='GitHub', hash='4d262cb86e9e2413ff27d14fc34b400ae61d38e6', version='v2.4.6'} 	https://github.com/fabric8-ui/ngx-widgets/commit/4d262cb86e9e2413ff27d14fc34b400ae61d38e6
+CommitInfo{repo='GitHub', hash='786ff524428be0efa093f16027b9914418c87684', version='v3.0.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/786ff524428be0efa093f16027b9914418c87684
+CommitInfo{repo='GitHub', hash='41dcf1ebf73eba0777b5036e4de7d7dd583a69b4', version='v3.1.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/41dcf1ebf73eba0777b5036e4de7d7dd583a69b4
+CommitInfo{repo='GitHub', hash='2ceac6ff48c0fc666ec4842ae73b842177547b4d', version='v3.1.1'} 	https://github.com/fabric8-ui/ngx-widgets/commit/2ceac6ff48c0fc666ec4842ae73b842177547b4d
+CommitInfo{repo='GitHub', hash='eeef18905dc66d13265bf51c50eb2eeece72bbea', version='v3.1.2'} 	https://github.com/fabric8-ui/ngx-widgets/commit/eeef18905dc66d13265bf51c50eb2eeece72bbea
+CommitInfo{repo='GitHub', hash='b4b77a8430718f8722931c1c76dfa05f19d836f6', version='v3.1.3'} 	https://github.com/fabric8-ui/ngx-widgets/commit/b4b77a8430718f8722931c1c76dfa05f19d836f6
+CommitInfo{repo='GitHub', hash='742cc95b0a0cc1a8f477d5e19bb054b67813b2b4', version='v3.1.4'} 	https://github.com/fabric8-ui/ngx-widgets/commit/742cc95b0a0cc1a8f477d5e19bb054b67813b2b4
+CommitInfo{repo='GitHub', hash='86d3d4e2a198859a242ffa083930e1960d0d2e70', version='v3.1.5'} 	https://github.com/fabric8-ui/ngx-widgets/commit/86d3d4e2a198859a242ffa083930e1960d0d2e70
+CommitInfo{repo='GitHub', hash='b569e15fac75c5739d87b1c9a46216bb792c8d80', version='v3.2.0'} 	https://github.com/fabric8-ui/ngx-widgets/commit/b569e15fac75c5739d87b1c9a46216bb792c8d80
 
 Project A:
 ProjectVersionFixed(version=0.0.1, dependency=null, time=2017-02-15 03:28:40 UTC)

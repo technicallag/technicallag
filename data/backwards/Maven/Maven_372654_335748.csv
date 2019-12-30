@@ -2,203 +2,208 @@
 Project information
 org.springframework:spring-orm (372654)	org.hibernate:hibernate-entitymanager (335748)	Package Manager: Maven
 RepoID: 172533
+Repo Owner/Name: spring-projects/spring-framework
+Repository type: GitHub
+
+ https://github.com/spring-projects/spring-framework/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='f742534867e1dca1d6700431329b4597c9bcf0fe', version='v3.0.0.M1'}
-CommitInfo{repo='GitHub', hash='e9df9d910f5bdd9486649830bea9939fae718bde', version='v3.0.0.M2'}
-CommitInfo{repo='GitHub', hash='30eb1464022329888c3704769a035a77f896d967', version='v3.0.0.M3'}
-CommitInfo{repo='GitHub', hash='e58a018ed3eb9e296555c1204e4ee39560bfbd28', version='v3.0.0.M4'}
-CommitInfo{repo='GitHub', hash='8a14673acce2618ad25df6214596486ac560610c', version='v3.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='8b66918a4e0c394ec10d3f12a680883ea776b82d', version='v3.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='92880706089fca93d30831e28bfb5ec482e58c9c', version='v3.0.0.RC3'}
-CommitInfo{repo='GitHub', hash='65f56b138dc315bf9007b5f8d49ce8063ac81ba1', version='v3.0.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='d261cd199142d4d6067bd6a8c6c3fb80a7cc1f45', version='v3.0.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='3c3c340a44f654394c2ccd0f93de0ef270d0372f', version='v3.0.1.RELEASE-A'}
-CommitInfo{repo='GitHub', hash='4834382bd42e96efd552cc540a305929f775dc81', version='v3.0.1.RELEASE.A'}
-CommitInfo{repo='GitHub', hash='ca3a901689600759c5dfedc97f5b7f3e3bde9f1c', version='v3.0.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='5b6bfe4f32395476ba9521b75c550b76f343aeb0', version='v3.0.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='50fff0d5b98fdcde176b9fbe359d77e6d6f6948f', version='v3.0.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='3d6a06079e03527fbdc7d4e57d9aef706fbb4f59', version='v3.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='612da644764d83e81a4649a125643985d49bf206', version='v3.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='40015e3de33c3384cf21914f85a2338858e63a1b', version='v3.0.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='602a7e39667e0d052851168633050d914cec727e', version='v3.1.0.M1'}
-CommitInfo{repo='GitHub', hash='6e24a84f5842a1ac80389c4bca98663cf4789d9c', version='v3.1.0.M2'}
-CommitInfo{repo='GitHub', hash='9c006b56adff585a4059d5a10e1f5aed5eeed325', version='v3.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='5a05ad6e062df0da288fcc142828b2dd71ffac95', version='v3.1.0.RC2'}
-CommitInfo{repo='GitHub', hash='0f4ec49a9146a1fd705ebe4a722be78606454b86', version='v3.1.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='79c9ca1a26a507b89988562e62564ac2a32e4463', version='v3.1.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='49f728eae839ddbb1a1d17a65a86cf196549d986', version='v3.1.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='6c3624005572d7104f82def53dd29bba3b62de26', version='v3.1.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='e7d2ac4427c0ce9068f34dc326242f3e864a3a2e', version='v3.1.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='c6dcd1011b5277f7206c9430db52f6c9235414f4', version='v3.2.0.M1'}
-CommitInfo{repo='GitHub', hash='707b5a77f2d00ec18226b65caeaa423d16eae230', version='v3.2.0.M2'}
-CommitInfo{repo='GitHub', hash='d72d1c5acaa644cea444a852a3485c1b8ced0e4e', version='v3.2.0.RC1'}
-CommitInfo{repo='GitHub', hash='83450e5b1ec2cea0c4170cb807772f3892f9db9d', version='v3.2.0.RC2'}
-CommitInfo{repo='GitHub', hash='80bc4ea8b37deed39f95772308a7900426a6f176', version='v3.2.0.RC2-A'}
-CommitInfo{repo='GitHub', hash='abdcefb460fcbc1348ef04505a78381a2c69a643', version='v3.2.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='d28e6b1dbfa5721014ee8abf7eec5b6b15718143', version='v3.2.10.RELEASE'}
-CommitInfo{repo='GitHub', hash='33b618f3026c4d1e5d507435f3911826dd1b8aa7', version='v3.2.11.RELEASE'}
-CommitInfo{repo='GitHub', hash='212a0820df8dbcf68d669b5c7f0d25e9840c167c', version='v3.2.12.RELEASE'}
-CommitInfo{repo='GitHub', hash='7ebb703f22e1c3525f20dd6821119f73ec74c8e8', version='v3.2.13.RELEASE'}
-CommitInfo{repo='GitHub', hash='e8b1ea39cc010089b32819e38085e1dac827701b', version='v3.2.14.RELEASE'}
-CommitInfo{repo='GitHub', hash='182dfc1fb0abd5fe1d76e08de4e7ade64b702bfe', version='v3.2.15.RELEASE'}
-CommitInfo{repo='GitHub', hash='ad2d271bd36bc53a2db9831a861cda08ee1faa56', version='v3.2.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='9acb67d090a60ad6793548804a5a0ec9d52fb78f', version='v3.2.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='0178f468ce3cd970e79e633af3a9e0ec690cb4b8', version='v3.2.18.RELEASE'}
-CommitInfo{repo='GitHub', hash='7c40de07bf68105037e441b87517ccf189b64bc8', version='v3.2.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='5b433c996808fdf3f0bfbafb5f2974965cff904f', version='v3.2.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='fc7eef5a22e5bd1ff5c2eca9f88f0a46d31cb416', version='v3.2.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='301fb9d56bb3571bba696a65cc6f9652c39b148e', version='v3.2.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='c8017d2e26841dca2d98b99cee2bd974cd9e0672', version='v3.2.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='6cc25e66a925134e5e7287d4d09276bc43e6dbe5', version='v3.2.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='9c9b772b926b08bd6abb6b9236f3e0168c3db666', version='v3.2.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='0a77155d2e6d0af442bec60236bf9c4bbdf57727', version='v3.2.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='e6a6102b0a5c42fe9dabc2f0ddaaadfa7a070d4f', version='v3.2.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='eb8c6e0752aecd99db18bdcbd8a711b55786de2a', version='v4.0.0.M1'}
-CommitInfo{repo='GitHub', hash='8ff69ee0310bbf7fc1f6a0eeb39d2d5098d42d42', version='v4.0.0.M2'}
-CommitInfo{repo='GitHub', hash='67de8394658f071a82e4c4b977d304339907279a', version='v4.0.0.M3'}
-CommitInfo{repo='GitHub', hash='42a2adff9a4dbb7547763486e16a107959960f4e', version='v4.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='7a52e7097f7ede472b02c10357210e54662131de', version='v4.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='05f333ccafa30187a9f8abfb990c46d76d9f8d95', version='v4.0.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='8417b6fde1280f2e6e999abdf25aa3c3e8ab34e4', version='v4.0.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb62f4010fb890d7ccfb33b9aa91ae5a6c6763d', version='v4.0.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='090a707748a256dee6de5e17f2315beb8a0024a0', version='v4.0.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='d6f0252362a1b632343d16063b97a624fd617c61', version='v4.0.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='d42b4a03f5e43a7c673a59a38715205b13a1a615', version='v4.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='44f7321b1812e3ea0a83937fb0c0bf24921585b4', version='v4.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='6c51a318b6492f14fdaa4b9a2447ca9919b7b052', version='v4.0.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='ef803df8609bd11befeb3f0c28bf57537388c236', version='v4.0.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='76aee3be4528bdf4b04e454a23f12b06505548e2', version='v4.0.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='5d3824922b5116b4bcef9285af2bedc0ffbf4a69', version='v4.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='86aa29fda581fd29b9f36349db95b345e90da488', version='v4.1.0.RC2'}
-CommitInfo{repo='GitHub', hash='fd86ab8fa7b90f051e6a1240d98602b4333dc5ce', version='v4.1.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='3035d7284292624374fb137d91bd66937ee38c7d', version='v4.1.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='a4d5631c4ae9be0de1b29201b786cc2bbd254b0f', version='v4.1.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='b185e1cd095ecc042b2fbccd2d0c841f8f0836bc', version='v4.1.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='80d1a61dd05b248c09a34a00d71ec1a5f452ee1b', version='v4.1.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='8d5a913b0a315ebf238289c09f8b41b1a37a224b', version='v4.1.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='d1662320cb8545c777f8066d4fabb038be19dc0b', version='v4.1.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='12cb2998520d88a6dc3efa29993e81231fd93608', version='v4.1.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='f1047da7e1e68f0ed8a646ea5e66a38082a703b4', version='v4.1.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='3d141a81be603c193b7a382fe4e14b74c85029ad', version='v4.1.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='1bbe3f9cc323cc8dd585fc3e97ff7b3e0d25bd8a', version='v4.2.0.RC1'}
-CommitInfo{repo='GitHub', hash='32f5b358e6bef35d3ca923b30dabef8eb8c98b26', version='v4.2.0.RC2'}
-CommitInfo{repo='GitHub', hash='3b5b7ed12cb90d4fe76bc734d674c2a18f520def', version='v4.2.0.RC3'}
-CommitInfo{repo='GitHub', hash='8e1635c62d0b856d15966538019f67444f1b0e31', version='v4.2.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='9df98007f4b149facf32751048d517428bd4f036', version='v4.2.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='76307473bc9d0d4f64852b2f29c2946a4fc65f2f', version='v4.2.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='6aa6f874fd4bebf9e5e2b0f64b53d707fe93fcce', version='v4.2.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='579fd3f0c816d24626eb5ba7bf4b1d0e83a741c0', version='v4.2.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='c7b2ac21974d4925b473ef4e8f36f4ab440715cd', version='v4.2.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='b27bf6dd5f696384d1f4a86c420c9b17a19bd5da', version='v4.2.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='2fd07c652447ed158b42fc54ef41ddfc6e53c59c', version='v4.2.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='145b5768de1d9bb6d936267536dd35becb309fd6', version='v4.2.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='f213d2c3a3ea67dbd68180efbc41035a27444c10', version='v4.2.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='3331c2f5819d63d22df5d2078d22c900b0d09112', version='v4.3.0.RC1'}
-CommitInfo{repo='GitHub', hash='58bc543933323910ba25802d1ac4ad9ab05fa4c2', version='v4.3.0.RC2'}
-CommitInfo{repo='GitHub', hash='e1f37db1315171cedf74bac3caa46617c0c4ab8c', version='v4.3.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='64acd3d7bd96d05a9e999038861d655580138d96', version='v4.3.10.RELEASE'}
-CommitInfo{repo='GitHub', hash='d3be29caf2baeb9a1de6006f111cd2ffeb3c4929', version='v4.3.11.RELEASE'}
-CommitInfo{repo='GitHub', hash='95744de800d89bbef06bc2343810d00eb6a0dbe8', version='v4.3.12.RELEASE'}
-CommitInfo{repo='GitHub', hash='61a7892c2393fa1cdc7cd8a9ac54099a52d6cca4', version='v4.3.13.RELEASE'}
-CommitInfo{repo='GitHub', hash='158c53810d55ee8bd85396c60723ad820f571a2e', version='v4.3.14.RELEASE'}
-CommitInfo{repo='GitHub', hash='fc4f32da0608178cea384520dffdd552976967f5', version='v4.3.15.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'}
-CommitInfo{repo='GitHub', hash='471d6ea587d683cc0f091f7371d5a6c618f797f9', version='v4.3.18.RELEASE'}
-CommitInfo{repo='GitHub', hash='2a08f7c13777569fe2c0e4845d08104aa04ecb73', version='v4.3.19.RELEASE'}
-CommitInfo{repo='GitHub', hash='6f7bbaddba8c557dae3bdb1e12a59461ac640783', version='v4.3.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='2d852ad4d87dc3e421e76f78a23a92e7c9852cf7', version='v4.3.20.RELEASE'}
-CommitInfo{repo='GitHub', hash='666d4f9a2d1886a37463c4e97e7f79646a98602b', version='v4.3.21.RELEASE'}
-CommitInfo{repo='GitHub', hash='d8e0197890e3efbbaeca2ea608d3103d29bbd7f2', version='v4.3.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='818a092a7d7be5e9469b0045a320a7288fb7d839', version='v4.3.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='aebec172c0f5a132c1af41720a3e658100853a52', version='v4.3.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='1d9fcfddb110f71adb0a8f888f9d6d851443da4b', version='v4.3.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='7b7f14f454407792f593f5b6c3292e00f83dd57f', version='v4.3.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='1a4e3f8b3724cb421b338a13e92160cb84193af2', version='v4.3.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='16cd27239cd069898107b6e67bb8e7cbcbfa890d', version='v4.3.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='16cd27239cd069898107b6e67bb8e7cbcbfa890d', version='v4.3.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='16cd27239cd069898107b6e67bb8e7cbcbfa890d', version='v4.3.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='16cd27239cd069898107b6e67bb8e7cbcbfa890d', version='v4.3.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='cfd40f77ec5b86d98cd3ac89a9a2961c30c04668', version='v4.3.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='34432c4de798e417d275acc55372fe501e95495c', version='v5.0.0.M1'}
-CommitInfo{repo='GitHub', hash='d95c3cb3eec80a057e05f6edfd21a825b38180e8', version='v5.0.0.M2'}
-CommitInfo{repo='GitHub', hash='ad00eb1587edb1a2750e552fbdc6372812240ee3', version='v5.0.0.M3'}
-CommitInfo{repo='GitHub', hash='ee975d76d5629ddfc54d0ad4c011ad4b045104c0', version='v5.0.0.M4'}
-CommitInfo{repo='GitHub', hash='14631d94e4b842938d6ea14c8001b8c2b6570d37', version='v5.0.0.M5'}
-CommitInfo{repo='GitHub', hash='e6bff3cfd4f1a6e67a5c18a0fa7c14d94681df11', version='v5.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='80e18ef1f62de083891785ff885de1429ea17d1f', version='v5.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='c2bf76dd22f31fc2788dc1d784d0d4bb38001036', version='v5.0.0.RC3'}
-CommitInfo{repo='GitHub', hash='6b59f63c0a0d2861e89c4561ce3f8625ee5897d1', version='v5.0.0.RC4'}
-CommitInfo{repo='GitHub', hash='8c70fb740e1f01afca9be109745544cda76b4a0f', version='v5.0.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='c4ac5e6fbcc94255d4187c78fe766e258195c8ed', version='v5.0.10.RELEASE'}
-CommitInfo{repo='GitHub', hash='2938a2049503b43ef35351e4fa3359c193a8e213', version='v5.0.11.RELEASE'}
-CommitInfo{repo='GitHub', hash='19b24ffbb3bd47a75a481a35e06bbf00a3e7e48f', version='v5.0.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='a7bd9ce284f96b4e36fbb63deafadea81a80c13d', version='v5.0.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='67b7035e2a0329f73ba39704b114a3f4c28c5631', version='v5.0.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='ca1cb327005f2966bf7105470dfb9f504026c2c0', version='v5.0.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='0d4b4ba09f0a20054b874565ed8cf25cdcc560e6', version='v5.0.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='6b5248f9c8a53f638c1ea75dc10ec0bf2e39b0eb', version='v5.0.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='938c8039866de4ca337f854349778260d66fd05c', version='v5.0.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='4a3639da299db682ce87cd5156aadae1bf1856e9', version='v5.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='fa46cb2ce04f75d69ab9aaa68b11d2dc5f7dadbc', version='v5.1.0.RC2'}
-CommitInfo{repo='GitHub', hash='a041f4d5de072f76347c1fdb0e2427b2fd58d38f', version='v5.1.0.RC3'}
-CommitInfo{repo='GitHub', hash='391215c7cded0bdc266021c352e9cc90189980c3', version='v5.1.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='f86e0fdd03c92781fe679892c20a9d9b0db7c180', version='v5.1.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='ec41ca3ab528cc1d1bf5e966fea5a6f41cedaf0a', version='v5.1.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='c775562c4378738bb30d10b82b1caf89cf739246', version='v5.1.3.RELEASE'}
+CommitInfo{repo='GitHub', hash='f742534867e1dca1d6700431329b4597c9bcf0fe', version='v3.0.0.M1'} 	https://github.com/spring-projects/spring-framework/commit/f742534867e1dca1d6700431329b4597c9bcf0fe
+CommitInfo{repo='GitHub', hash='e9df9d910f5bdd9486649830bea9939fae718bde', version='v3.0.0.M2'} 	https://github.com/spring-projects/spring-framework/commit/e9df9d910f5bdd9486649830bea9939fae718bde
+CommitInfo{repo='GitHub', hash='30eb1464022329888c3704769a035a77f896d967', version='v3.0.0.M3'} 	https://github.com/spring-projects/spring-framework/commit/30eb1464022329888c3704769a035a77f896d967
+CommitInfo{repo='GitHub', hash='e58a018ed3eb9e296555c1204e4ee39560bfbd28', version='v3.0.0.M4'} 	https://github.com/spring-projects/spring-framework/commit/e58a018ed3eb9e296555c1204e4ee39560bfbd28
+CommitInfo{repo='GitHub', hash='8a14673acce2618ad25df6214596486ac560610c', version='v3.0.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/8a14673acce2618ad25df6214596486ac560610c
+CommitInfo{repo='GitHub', hash='8b66918a4e0c394ec10d3f12a680883ea776b82d', version='v3.0.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/8b66918a4e0c394ec10d3f12a680883ea776b82d
+CommitInfo{repo='GitHub', hash='92880706089fca93d30831e28bfb5ec482e58c9c', version='v3.0.0.RC3'} 	https://github.com/spring-projects/spring-framework/commit/92880706089fca93d30831e28bfb5ec482e58c9c
+CommitInfo{repo='GitHub', hash='65f56b138dc315bf9007b5f8d49ce8063ac81ba1', version='v3.0.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/65f56b138dc315bf9007b5f8d49ce8063ac81ba1
+CommitInfo{repo='GitHub', hash='d261cd199142d4d6067bd6a8c6c3fb80a7cc1f45', version='v3.0.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/d261cd199142d4d6067bd6a8c6c3fb80a7cc1f45
+CommitInfo{repo='GitHub', hash='3c3c340a44f654394c2ccd0f93de0ef270d0372f', version='v3.0.1.RELEASE-A'} 	https://github.com/spring-projects/spring-framework/commit/3c3c340a44f654394c2ccd0f93de0ef270d0372f
+CommitInfo{repo='GitHub', hash='4834382bd42e96efd552cc540a305929f775dc81', version='v3.0.1.RELEASE.A'} 	https://github.com/spring-projects/spring-framework/commit/4834382bd42e96efd552cc540a305929f775dc81
+CommitInfo{repo='GitHub', hash='ca3a901689600759c5dfedc97f5b7f3e3bde9f1c', version='v3.0.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/ca3a901689600759c5dfedc97f5b7f3e3bde9f1c
+CommitInfo{repo='GitHub', hash='5b6bfe4f32395476ba9521b75c550b76f343aeb0', version='v3.0.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/5b6bfe4f32395476ba9521b75c550b76f343aeb0
+CommitInfo{repo='GitHub', hash='50fff0d5b98fdcde176b9fbe359d77e6d6f6948f', version='v3.0.4.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/50fff0d5b98fdcde176b9fbe359d77e6d6f6948f
+CommitInfo{repo='GitHub', hash='3d6a06079e03527fbdc7d4e57d9aef706fbb4f59', version='v3.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/3d6a06079e03527fbdc7d4e57d9aef706fbb4f59
+CommitInfo{repo='GitHub', hash='612da644764d83e81a4649a125643985d49bf206', version='v3.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/612da644764d83e81a4649a125643985d49bf206
+CommitInfo{repo='GitHub', hash='40015e3de33c3384cf21914f85a2338858e63a1b', version='v3.0.7.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/40015e3de33c3384cf21914f85a2338858e63a1b
+CommitInfo{repo='GitHub', hash='602a7e39667e0d052851168633050d914cec727e', version='v3.1.0.M1'} 	https://github.com/spring-projects/spring-framework/commit/602a7e39667e0d052851168633050d914cec727e
+CommitInfo{repo='GitHub', hash='6e24a84f5842a1ac80389c4bca98663cf4789d9c', version='v3.1.0.M2'} 	https://github.com/spring-projects/spring-framework/commit/6e24a84f5842a1ac80389c4bca98663cf4789d9c
+CommitInfo{repo='GitHub', hash='9c006b56adff585a4059d5a10e1f5aed5eeed325', version='v3.1.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/9c006b56adff585a4059d5a10e1f5aed5eeed325
+CommitInfo{repo='GitHub', hash='5a05ad6e062df0da288fcc142828b2dd71ffac95', version='v3.1.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/5a05ad6e062df0da288fcc142828b2dd71ffac95
+CommitInfo{repo='GitHub', hash='0f4ec49a9146a1fd705ebe4a722be78606454b86', version='v3.1.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/0f4ec49a9146a1fd705ebe4a722be78606454b86
+CommitInfo{repo='GitHub', hash='79c9ca1a26a507b89988562e62564ac2a32e4463', version='v3.1.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/79c9ca1a26a507b89988562e62564ac2a32e4463
+CommitInfo{repo='GitHub', hash='49f728eae839ddbb1a1d17a65a86cf196549d986', version='v3.1.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/49f728eae839ddbb1a1d17a65a86cf196549d986
+CommitInfo{repo='GitHub', hash='6c3624005572d7104f82def53dd29bba3b62de26', version='v3.1.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/6c3624005572d7104f82def53dd29bba3b62de26
+CommitInfo{repo='GitHub', hash='e7d2ac4427c0ce9068f34dc326242f3e864a3a2e', version='v3.1.4.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/e7d2ac4427c0ce9068f34dc326242f3e864a3a2e
+CommitInfo{repo='GitHub', hash='c6dcd1011b5277f7206c9430db52f6c9235414f4', version='v3.2.0.M1'} 	https://github.com/spring-projects/spring-framework/commit/c6dcd1011b5277f7206c9430db52f6c9235414f4
+CommitInfo{repo='GitHub', hash='707b5a77f2d00ec18226b65caeaa423d16eae230', version='v3.2.0.M2'} 	https://github.com/spring-projects/spring-framework/commit/707b5a77f2d00ec18226b65caeaa423d16eae230
+CommitInfo{repo='GitHub', hash='d72d1c5acaa644cea444a852a3485c1b8ced0e4e', version='v3.2.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/d72d1c5acaa644cea444a852a3485c1b8ced0e4e
+CommitInfo{repo='GitHub', hash='83450e5b1ec2cea0c4170cb807772f3892f9db9d', version='v3.2.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/83450e5b1ec2cea0c4170cb807772f3892f9db9d
+CommitInfo{repo='GitHub', hash='80bc4ea8b37deed39f95772308a7900426a6f176', version='v3.2.0.RC2-A'} 	https://github.com/spring-projects/spring-framework/commit/80bc4ea8b37deed39f95772308a7900426a6f176
+CommitInfo{repo='GitHub', hash='abdcefb460fcbc1348ef04505a78381a2c69a643', version='v3.2.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/abdcefb460fcbc1348ef04505a78381a2c69a643
+CommitInfo{repo='GitHub', hash='d28e6b1dbfa5721014ee8abf7eec5b6b15718143', version='v3.2.10.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/d28e6b1dbfa5721014ee8abf7eec5b6b15718143
+CommitInfo{repo='GitHub', hash='33b618f3026c4d1e5d507435f3911826dd1b8aa7', version='v3.2.11.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/33b618f3026c4d1e5d507435f3911826dd1b8aa7
+CommitInfo{repo='GitHub', hash='212a0820df8dbcf68d669b5c7f0d25e9840c167c', version='v3.2.12.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/212a0820df8dbcf68d669b5c7f0d25e9840c167c
+CommitInfo{repo='GitHub', hash='7ebb703f22e1c3525f20dd6821119f73ec74c8e8', version='v3.2.13.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/7ebb703f22e1c3525f20dd6821119f73ec74c8e8
+CommitInfo{repo='GitHub', hash='e8b1ea39cc010089b32819e38085e1dac827701b', version='v3.2.14.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/e8b1ea39cc010089b32819e38085e1dac827701b
+CommitInfo{repo='GitHub', hash='182dfc1fb0abd5fe1d76e08de4e7ade64b702bfe', version='v3.2.15.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/182dfc1fb0abd5fe1d76e08de4e7ade64b702bfe
+CommitInfo{repo='GitHub', hash='ad2d271bd36bc53a2db9831a861cda08ee1faa56', version='v3.2.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/ad2d271bd36bc53a2db9831a861cda08ee1faa56
+CommitInfo{repo='GitHub', hash='9acb67d090a60ad6793548804a5a0ec9d52fb78f', version='v3.2.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/9acb67d090a60ad6793548804a5a0ec9d52fb78f
+CommitInfo{repo='GitHub', hash='0178f468ce3cd970e79e633af3a9e0ec690cb4b8', version='v3.2.18.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/0178f468ce3cd970e79e633af3a9e0ec690cb4b8
+CommitInfo{repo='GitHub', hash='7c40de07bf68105037e441b87517ccf189b64bc8', version='v3.2.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/7c40de07bf68105037e441b87517ccf189b64bc8
+CommitInfo{repo='GitHub', hash='5b433c996808fdf3f0bfbafb5f2974965cff904f', version='v3.2.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/5b433c996808fdf3f0bfbafb5f2974965cff904f
+CommitInfo{repo='GitHub', hash='fc7eef5a22e5bd1ff5c2eca9f88f0a46d31cb416', version='v3.2.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/fc7eef5a22e5bd1ff5c2eca9f88f0a46d31cb416
+CommitInfo{repo='GitHub', hash='301fb9d56bb3571bba696a65cc6f9652c39b148e', version='v3.2.4.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/301fb9d56bb3571bba696a65cc6f9652c39b148e
+CommitInfo{repo='GitHub', hash='c8017d2e26841dca2d98b99cee2bd974cd9e0672', version='v3.2.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/c8017d2e26841dca2d98b99cee2bd974cd9e0672
+CommitInfo{repo='GitHub', hash='6cc25e66a925134e5e7287d4d09276bc43e6dbe5', version='v3.2.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/6cc25e66a925134e5e7287d4d09276bc43e6dbe5
+CommitInfo{repo='GitHub', hash='9c9b772b926b08bd6abb6b9236f3e0168c3db666', version='v3.2.7.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/9c9b772b926b08bd6abb6b9236f3e0168c3db666
+CommitInfo{repo='GitHub', hash='0a77155d2e6d0af442bec60236bf9c4bbdf57727', version='v3.2.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/0a77155d2e6d0af442bec60236bf9c4bbdf57727
+CommitInfo{repo='GitHub', hash='e6a6102b0a5c42fe9dabc2f0ddaaadfa7a070d4f', version='v3.2.9.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/e6a6102b0a5c42fe9dabc2f0ddaaadfa7a070d4f
+CommitInfo{repo='GitHub', hash='eb8c6e0752aecd99db18bdcbd8a711b55786de2a', version='v4.0.0.M1'} 	https://github.com/spring-projects/spring-framework/commit/eb8c6e0752aecd99db18bdcbd8a711b55786de2a
+CommitInfo{repo='GitHub', hash='8ff69ee0310bbf7fc1f6a0eeb39d2d5098d42d42', version='v4.0.0.M2'} 	https://github.com/spring-projects/spring-framework/commit/8ff69ee0310bbf7fc1f6a0eeb39d2d5098d42d42
+CommitInfo{repo='GitHub', hash='67de8394658f071a82e4c4b977d304339907279a', version='v4.0.0.M3'} 	https://github.com/spring-projects/spring-framework/commit/67de8394658f071a82e4c4b977d304339907279a
+CommitInfo{repo='GitHub', hash='42a2adff9a4dbb7547763486e16a107959960f4e', version='v4.0.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/42a2adff9a4dbb7547763486e16a107959960f4e
+CommitInfo{repo='GitHub', hash='7a52e7097f7ede472b02c10357210e54662131de', version='v4.0.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/7a52e7097f7ede472b02c10357210e54662131de
+CommitInfo{repo='GitHub', hash='05f333ccafa30187a9f8abfb990c46d76d9f8d95', version='v4.0.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05f333ccafa30187a9f8abfb990c46d76d9f8d95
+CommitInfo{repo='GitHub', hash='8417b6fde1280f2e6e999abdf25aa3c3e8ab34e4', version='v4.0.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/8417b6fde1280f2e6e999abdf25aa3c3e8ab34e4
+CommitInfo{repo='GitHub', hash='cdb62f4010fb890d7ccfb33b9aa91ae5a6c6763d', version='v4.0.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb62f4010fb890d7ccfb33b9aa91ae5a6c6763d
+CommitInfo{repo='GitHub', hash='090a707748a256dee6de5e17f2315beb8a0024a0', version='v4.0.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/090a707748a256dee6de5e17f2315beb8a0024a0
+CommitInfo{repo='GitHub', hash='d6f0252362a1b632343d16063b97a624fd617c61', version='v4.0.4.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/d6f0252362a1b632343d16063b97a624fd617c61
+CommitInfo{repo='GitHub', hash='d42b4a03f5e43a7c673a59a38715205b13a1a615', version='v4.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/d42b4a03f5e43a7c673a59a38715205b13a1a615
+CommitInfo{repo='GitHub', hash='44f7321b1812e3ea0a83937fb0c0bf24921585b4', version='v4.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/44f7321b1812e3ea0a83937fb0c0bf24921585b4
+CommitInfo{repo='GitHub', hash='6c51a318b6492f14fdaa4b9a2447ca9919b7b052', version='v4.0.7.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/6c51a318b6492f14fdaa4b9a2447ca9919b7b052
+CommitInfo{repo='GitHub', hash='ef803df8609bd11befeb3f0c28bf57537388c236', version='v4.0.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/ef803df8609bd11befeb3f0c28bf57537388c236
+CommitInfo{repo='GitHub', hash='76aee3be4528bdf4b04e454a23f12b06505548e2', version='v4.0.9.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/76aee3be4528bdf4b04e454a23f12b06505548e2
+CommitInfo{repo='GitHub', hash='5d3824922b5116b4bcef9285af2bedc0ffbf4a69', version='v4.1.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/5d3824922b5116b4bcef9285af2bedc0ffbf4a69
+CommitInfo{repo='GitHub', hash='86aa29fda581fd29b9f36349db95b345e90da488', version='v4.1.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/86aa29fda581fd29b9f36349db95b345e90da488
+CommitInfo{repo='GitHub', hash='fd86ab8fa7b90f051e6a1240d98602b4333dc5ce', version='v4.1.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/fd86ab8fa7b90f051e6a1240d98602b4333dc5ce
+CommitInfo{repo='GitHub', hash='3035d7284292624374fb137d91bd66937ee38c7d', version='v4.1.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/3035d7284292624374fb137d91bd66937ee38c7d
+CommitInfo{repo='GitHub', hash='a4d5631c4ae9be0de1b29201b786cc2bbd254b0f', version='v4.1.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/a4d5631c4ae9be0de1b29201b786cc2bbd254b0f
+CommitInfo{repo='GitHub', hash='b185e1cd095ecc042b2fbccd2d0c841f8f0836bc', version='v4.1.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/b185e1cd095ecc042b2fbccd2d0c841f8f0836bc
+CommitInfo{repo='GitHub', hash='80d1a61dd05b248c09a34a00d71ec1a5f452ee1b', version='v4.1.4.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/80d1a61dd05b248c09a34a00d71ec1a5f452ee1b
+CommitInfo{repo='GitHub', hash='8d5a913b0a315ebf238289c09f8b41b1a37a224b', version='v4.1.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/8d5a913b0a315ebf238289c09f8b41b1a37a224b
+CommitInfo{repo='GitHub', hash='d1662320cb8545c777f8066d4fabb038be19dc0b', version='v4.1.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/d1662320cb8545c777f8066d4fabb038be19dc0b
+CommitInfo{repo='GitHub', hash='12cb2998520d88a6dc3efa29993e81231fd93608', version='v4.1.7.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/12cb2998520d88a6dc3efa29993e81231fd93608
+CommitInfo{repo='GitHub', hash='f1047da7e1e68f0ed8a646ea5e66a38082a703b4', version='v4.1.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/f1047da7e1e68f0ed8a646ea5e66a38082a703b4
+CommitInfo{repo='GitHub', hash='3d141a81be603c193b7a382fe4e14b74c85029ad', version='v4.1.9.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/3d141a81be603c193b7a382fe4e14b74c85029ad
+CommitInfo{repo='GitHub', hash='1bbe3f9cc323cc8dd585fc3e97ff7b3e0d25bd8a', version='v4.2.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/1bbe3f9cc323cc8dd585fc3e97ff7b3e0d25bd8a
+CommitInfo{repo='GitHub', hash='32f5b358e6bef35d3ca923b30dabef8eb8c98b26', version='v4.2.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/32f5b358e6bef35d3ca923b30dabef8eb8c98b26
+CommitInfo{repo='GitHub', hash='3b5b7ed12cb90d4fe76bc734d674c2a18f520def', version='v4.2.0.RC3'} 	https://github.com/spring-projects/spring-framework/commit/3b5b7ed12cb90d4fe76bc734d674c2a18f520def
+CommitInfo{repo='GitHub', hash='8e1635c62d0b856d15966538019f67444f1b0e31', version='v4.2.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/8e1635c62d0b856d15966538019f67444f1b0e31
+CommitInfo{repo='GitHub', hash='9df98007f4b149facf32751048d517428bd4f036', version='v4.2.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/9df98007f4b149facf32751048d517428bd4f036
+CommitInfo{repo='GitHub', hash='76307473bc9d0d4f64852b2f29c2946a4fc65f2f', version='v4.2.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/76307473bc9d0d4f64852b2f29c2946a4fc65f2f
+CommitInfo{repo='GitHub', hash='6aa6f874fd4bebf9e5e2b0f64b53d707fe93fcce', version='v4.2.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/6aa6f874fd4bebf9e5e2b0f64b53d707fe93fcce
+CommitInfo{repo='GitHub', hash='579fd3f0c816d24626eb5ba7bf4b1d0e83a741c0', version='v4.2.4.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/579fd3f0c816d24626eb5ba7bf4b1d0e83a741c0
+CommitInfo{repo='GitHub', hash='c7b2ac21974d4925b473ef4e8f36f4ab440715cd', version='v4.2.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/c7b2ac21974d4925b473ef4e8f36f4ab440715cd
+CommitInfo{repo='GitHub', hash='b27bf6dd5f696384d1f4a86c420c9b17a19bd5da', version='v4.2.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/b27bf6dd5f696384d1f4a86c420c9b17a19bd5da
+CommitInfo{repo='GitHub', hash='2fd07c652447ed158b42fc54ef41ddfc6e53c59c', version='v4.2.7.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/2fd07c652447ed158b42fc54ef41ddfc6e53c59c
+CommitInfo{repo='GitHub', hash='145b5768de1d9bb6d936267536dd35becb309fd6', version='v4.2.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/145b5768de1d9bb6d936267536dd35becb309fd6
+CommitInfo{repo='GitHub', hash='f213d2c3a3ea67dbd68180efbc41035a27444c10', version='v4.2.9.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/f213d2c3a3ea67dbd68180efbc41035a27444c10
+CommitInfo{repo='GitHub', hash='3331c2f5819d63d22df5d2078d22c900b0d09112', version='v4.3.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/3331c2f5819d63d22df5d2078d22c900b0d09112
+CommitInfo{repo='GitHub', hash='58bc543933323910ba25802d1ac4ad9ab05fa4c2', version='v4.3.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/58bc543933323910ba25802d1ac4ad9ab05fa4c2
+CommitInfo{repo='GitHub', hash='e1f37db1315171cedf74bac3caa46617c0c4ab8c', version='v4.3.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/e1f37db1315171cedf74bac3caa46617c0c4ab8c
+CommitInfo{repo='GitHub', hash='64acd3d7bd96d05a9e999038861d655580138d96', version='v4.3.10.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/64acd3d7bd96d05a9e999038861d655580138d96
+CommitInfo{repo='GitHub', hash='d3be29caf2baeb9a1de6006f111cd2ffeb3c4929', version='v4.3.11.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/d3be29caf2baeb9a1de6006f111cd2ffeb3c4929
+CommitInfo{repo='GitHub', hash='95744de800d89bbef06bc2343810d00eb6a0dbe8', version='v4.3.12.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/95744de800d89bbef06bc2343810d00eb6a0dbe8
+CommitInfo{repo='GitHub', hash='61a7892c2393fa1cdc7cd8a9ac54099a52d6cca4', version='v4.3.13.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/61a7892c2393fa1cdc7cd8a9ac54099a52d6cca4
+CommitInfo{repo='GitHub', hash='158c53810d55ee8bd85396c60723ad820f571a2e', version='v4.3.14.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/158c53810d55ee8bd85396c60723ad820f571a2e
+CommitInfo{repo='GitHub', hash='fc4f32da0608178cea384520dffdd552976967f5', version='v4.3.15.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/fc4f32da0608178cea384520dffdd552976967f5
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='05379b4e12444efdc2f4bc2d7fc2866d2dd15755', version='v4.3.16.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/05379b4e12444efdc2f4bc2d7fc2866d2dd15755
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='946e877756a98c0758df68a849d183482f724ab3', version='v4.3.17.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/946e877756a98c0758df68a849d183482f724ab3
+CommitInfo{repo='GitHub', hash='471d6ea587d683cc0f091f7371d5a6c618f797f9', version='v4.3.18.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/471d6ea587d683cc0f091f7371d5a6c618f797f9
+CommitInfo{repo='GitHub', hash='2a08f7c13777569fe2c0e4845d08104aa04ecb73', version='v4.3.19.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/2a08f7c13777569fe2c0e4845d08104aa04ecb73
+CommitInfo{repo='GitHub', hash='6f7bbaddba8c557dae3bdb1e12a59461ac640783', version='v4.3.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/6f7bbaddba8c557dae3bdb1e12a59461ac640783
+CommitInfo{repo='GitHub', hash='2d852ad4d87dc3e421e76f78a23a92e7c9852cf7', version='v4.3.20.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/2d852ad4d87dc3e421e76f78a23a92e7c9852cf7
+CommitInfo{repo='GitHub', hash='666d4f9a2d1886a37463c4e97e7f79646a98602b', version='v4.3.21.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/666d4f9a2d1886a37463c4e97e7f79646a98602b
+CommitInfo{repo='GitHub', hash='d8e0197890e3efbbaeca2ea608d3103d29bbd7f2', version='v4.3.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/d8e0197890e3efbbaeca2ea608d3103d29bbd7f2
+CommitInfo{repo='GitHub', hash='818a092a7d7be5e9469b0045a320a7288fb7d839', version='v4.3.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/818a092a7d7be5e9469b0045a320a7288fb7d839
+CommitInfo{repo='GitHub', hash='aebec172c0f5a132c1af41720a3e658100853a52', version='v4.3.4.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/aebec172c0f5a132c1af41720a3e658100853a52
+CommitInfo{repo='GitHub', hash='1d9fcfddb110f71adb0a8f888f9d6d851443da4b', version='v4.3.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/1d9fcfddb110f71adb0a8f888f9d6d851443da4b
+CommitInfo{repo='GitHub', hash='7b7f14f454407792f593f5b6c3292e00f83dd57f', version='v4.3.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/7b7f14f454407792f593f5b6c3292e00f83dd57f
+CommitInfo{repo='GitHub', hash='1a4e3f8b3724cb421b338a13e92160cb84193af2', version='v4.3.7.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/1a4e3f8b3724cb421b338a13e92160cb84193af2
+CommitInfo{repo='GitHub', hash='16cd27239cd069898107b6e67bb8e7cbcbfa890d', version='v4.3.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/16cd27239cd069898107b6e67bb8e7cbcbfa890d
+CommitInfo{repo='GitHub', hash='16cd27239cd069898107b6e67bb8e7cbcbfa890d', version='v4.3.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/16cd27239cd069898107b6e67bb8e7cbcbfa890d
+CommitInfo{repo='GitHub', hash='16cd27239cd069898107b6e67bb8e7cbcbfa890d', version='v4.3.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/16cd27239cd069898107b6e67bb8e7cbcbfa890d
+CommitInfo{repo='GitHub', hash='16cd27239cd069898107b6e67bb8e7cbcbfa890d', version='v4.3.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/16cd27239cd069898107b6e67bb8e7cbcbfa890d
+CommitInfo{repo='GitHub', hash='cfd40f77ec5b86d98cd3ac89a9a2961c30c04668', version='v4.3.9.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cfd40f77ec5b86d98cd3ac89a9a2961c30c04668
+CommitInfo{repo='GitHub', hash='34432c4de798e417d275acc55372fe501e95495c', version='v5.0.0.M1'} 	https://github.com/spring-projects/spring-framework/commit/34432c4de798e417d275acc55372fe501e95495c
+CommitInfo{repo='GitHub', hash='d95c3cb3eec80a057e05f6edfd21a825b38180e8', version='v5.0.0.M2'} 	https://github.com/spring-projects/spring-framework/commit/d95c3cb3eec80a057e05f6edfd21a825b38180e8
+CommitInfo{repo='GitHub', hash='ad00eb1587edb1a2750e552fbdc6372812240ee3', version='v5.0.0.M3'} 	https://github.com/spring-projects/spring-framework/commit/ad00eb1587edb1a2750e552fbdc6372812240ee3
+CommitInfo{repo='GitHub', hash='ee975d76d5629ddfc54d0ad4c011ad4b045104c0', version='v5.0.0.M4'} 	https://github.com/spring-projects/spring-framework/commit/ee975d76d5629ddfc54d0ad4c011ad4b045104c0
+CommitInfo{repo='GitHub', hash='14631d94e4b842938d6ea14c8001b8c2b6570d37', version='v5.0.0.M5'} 	https://github.com/spring-projects/spring-framework/commit/14631d94e4b842938d6ea14c8001b8c2b6570d37
+CommitInfo{repo='GitHub', hash='e6bff3cfd4f1a6e67a5c18a0fa7c14d94681df11', version='v5.0.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/e6bff3cfd4f1a6e67a5c18a0fa7c14d94681df11
+CommitInfo{repo='GitHub', hash='80e18ef1f62de083891785ff885de1429ea17d1f', version='v5.0.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/80e18ef1f62de083891785ff885de1429ea17d1f
+CommitInfo{repo='GitHub', hash='c2bf76dd22f31fc2788dc1d784d0d4bb38001036', version='v5.0.0.RC3'} 	https://github.com/spring-projects/spring-framework/commit/c2bf76dd22f31fc2788dc1d784d0d4bb38001036
+CommitInfo{repo='GitHub', hash='6b59f63c0a0d2861e89c4561ce3f8625ee5897d1', version='v5.0.0.RC4'} 	https://github.com/spring-projects/spring-framework/commit/6b59f63c0a0d2861e89c4561ce3f8625ee5897d1
+CommitInfo{repo='GitHub', hash='8c70fb740e1f01afca9be109745544cda76b4a0f', version='v5.0.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/8c70fb740e1f01afca9be109745544cda76b4a0f
+CommitInfo{repo='GitHub', hash='c4ac5e6fbcc94255d4187c78fe766e258195c8ed', version='v5.0.10.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/c4ac5e6fbcc94255d4187c78fe766e258195c8ed
+CommitInfo{repo='GitHub', hash='2938a2049503b43ef35351e4fa3359c193a8e213', version='v5.0.11.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/2938a2049503b43ef35351e4fa3359c193a8e213
+CommitInfo{repo='GitHub', hash='19b24ffbb3bd47a75a481a35e06bbf00a3e7e48f', version='v5.0.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/19b24ffbb3bd47a75a481a35e06bbf00a3e7e48f
+CommitInfo{repo='GitHub', hash='a7bd9ce284f96b4e36fbb63deafadea81a80c13d', version='v5.0.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/a7bd9ce284f96b4e36fbb63deafadea81a80c13d
+CommitInfo{repo='GitHub', hash='67b7035e2a0329f73ba39704b114a3f4c28c5631', version='v5.0.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/67b7035e2a0329f73ba39704b114a3f4c28c5631
+CommitInfo{repo='GitHub', hash='ca1cb327005f2966bf7105470dfb9f504026c2c0', version='v5.0.4.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/ca1cb327005f2966bf7105470dfb9f504026c2c0
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cdb7081ecaf6c2d6961b032341170775bda8b044', version='v5.0.5.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cdb7081ecaf6c2d6961b032341170775bda8b044
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='cf27cc5603a4d021df4c4fdd21b93b7865676dab', version='v5.0.6.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/cf27cc5603a4d021df4c4fdd21b93b7865676dab
+CommitInfo{repo='GitHub', hash='0d4b4ba09f0a20054b874565ed8cf25cdcc560e6', version='v5.0.7.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/0d4b4ba09f0a20054b874565ed8cf25cdcc560e6
+CommitInfo{repo='GitHub', hash='6b5248f9c8a53f638c1ea75dc10ec0bf2e39b0eb', version='v5.0.8.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/6b5248f9c8a53f638c1ea75dc10ec0bf2e39b0eb
+CommitInfo{repo='GitHub', hash='938c8039866de4ca337f854349778260d66fd05c', version='v5.0.9.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/938c8039866de4ca337f854349778260d66fd05c
+CommitInfo{repo='GitHub', hash='4a3639da299db682ce87cd5156aadae1bf1856e9', version='v5.1.0.RC1'} 	https://github.com/spring-projects/spring-framework/commit/4a3639da299db682ce87cd5156aadae1bf1856e9
+CommitInfo{repo='GitHub', hash='fa46cb2ce04f75d69ab9aaa68b11d2dc5f7dadbc', version='v5.1.0.RC2'} 	https://github.com/spring-projects/spring-framework/commit/fa46cb2ce04f75d69ab9aaa68b11d2dc5f7dadbc
+CommitInfo{repo='GitHub', hash='a041f4d5de072f76347c1fdb0e2427b2fd58d38f', version='v5.1.0.RC3'} 	https://github.com/spring-projects/spring-framework/commit/a041f4d5de072f76347c1fdb0e2427b2fd58d38f
+CommitInfo{repo='GitHub', hash='391215c7cded0bdc266021c352e9cc90189980c3', version='v5.1.0.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/391215c7cded0bdc266021c352e9cc90189980c3
+CommitInfo{repo='GitHub', hash='f86e0fdd03c92781fe679892c20a9d9b0db7c180', version='v5.1.1.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/f86e0fdd03c92781fe679892c20a9d9b0db7c180
+CommitInfo{repo='GitHub', hash='ec41ca3ab528cc1d1bf5e966fea5a6f41cedaf0a', version='v5.1.2.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/ec41ca3ab528cc1d1bf5e966fea5a6f41cedaf0a
+CommitInfo{repo='GitHub', hash='c775562c4378738bb30d10b82b1caf89cf739246', version='v5.1.3.RELEASE'} 	https://github.com/spring-projects/spring-framework/commit/c775562c4378738bb30d10b82b1caf89cf739246
 
 Project A:
 ProjectVersionFixed(version=1.0, dependency=null, time=2005-12-23 16:37:53 UTC)

@@ -2,77 +2,82 @@
 Project information
 biz.paluch.redis:lettuce (348684)	com.github.javaparser:javaparser-core (384722)	Package Manager: Maven
 RepoID: 173764
+Repo Owner/Name: lettuce-io/lettuce-core
+Repository type: GitHub
+
+ https://github.com/lettuce-io/lettuce-core/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='a0af8f57ab3df6012f15eb2a0a8b954e0076bbda', version='1.0.0'}
-CommitInfo{repo='GitHub', hash='1b679d35925b020d1ad59c4f446b871eff7cd067', version='1.1.0'}
-CommitInfo{repo='GitHub', hash='a6575c92d825fca8b8af6955d33e32c1e713a928', version='1.2.0'}
-CommitInfo{repo='GitHub', hash='beaafb4fb09f2582777362426e41ce219249bd34', version='1.3.0'}
-CommitInfo{repo='GitHub', hash='1ad7213b47db6863efc4914193e836bae1ae91af', version='2.0.0'}
-CommitInfo{repo='GitHub', hash='acb008ebc2891467ae5ed5cb2d4a1b34c036c727', version='2.1.0'}
-CommitInfo{repo='GitHub', hash='7d9bd25cf7575127cbf8e8eedfdbf8a8d5506749', version='2.2.0'}
-CommitInfo{repo='GitHub', hash='9be681e185b321403a68588cf8c97fbc0668b493', version='2.3.0'}
-CommitInfo{repo='GitHub', hash='bba3cd8070f0adda905ff4c9cdbb56d82cf8d448', version='2.3.1'}
-CommitInfo{repo='GitHub', hash='62efb948d909ca0183d99782c098e5b483c6af94', version='2.3.2'}
-CommitInfo{repo='GitHub', hash='05565170c0bf04e54afda3ff2ec3c757456ac5fd', version='2.3.3'}
-CommitInfo{repo='GitHub', hash='d7ab00cd13c9e2e32d9604bb0dd4504258825d4c', version='3.0.1.Final'}
-CommitInfo{repo='GitHub', hash='1dead7948df4371ac076cf55fbe60c7c0e33c5e7', version='3.0.2.Final'}
-CommitInfo{repo='GitHub', hash='3d7ab8744386488d8558ae99ff917c4a1ffc9b67', version='3.0.3.Final'}
-CommitInfo{repo='GitHub', hash='b711d4419604b1e06e74101c0950392255c558fc', version='3.0.Beta1'}
-CommitInfo{repo='GitHub', hash='67b6592d021d807913d149a59f92aa34239735d8', version='3.0.Beta2'}
-CommitInfo{repo='GitHub', hash='e8d7e1a00432de1dcdb96f5b6453a127fa29e4ec', version='3.0.Beta3'}
-CommitInfo{repo='GitHub', hash='1b9e753cf098fe2cf32cfcb7e2142f37bc69a8d8', version='3.0.Final'}
-CommitInfo{repo='GitHub', hash='13a2db5758c887320b46582d89a435d3b1af0711', version='3.1.Final'}
-CommitInfo{repo='GitHub', hash='1f27d6517480953d0deeb5ffd5d3f7b44709d11b', version='3.2.Beta1'}
-CommitInfo{repo='GitHub', hash='8d8ced5ab335218f4d5e59601939d4d086eb5c00', version='3.2.Final'}
-CommitInfo{repo='GitHub', hash='80aa300b5ba3e3673b171217ba43badb11611c01', version='3.3.1.Final'}
-CommitInfo{repo='GitHub', hash='de840a4bc94ced13f765f13c65cd4cf870290400', version='3.3.2.Final'}
-CommitInfo{repo='GitHub', hash='1078cee7d503d5cafa632d80f94766898680fc52', version='3.3.Beta1'}
-CommitInfo{repo='GitHub', hash='25cf017045b1b3e6bef7bf608393c007b5d8f888', version='3.3.Final'}
-CommitInfo{repo='GitHub', hash='6d78927cd9d7cdd51ba7954ef8022a7cb4624bef', version='3.4.1.Final'}
-CommitInfo{repo='GitHub', hash='c5d6fa11dc865190ff2b1a0951c0084c3f0ac6bf', version='3.4.2.Final'}
-CommitInfo{repo='GitHub', hash='53c9966c033dae6271a035540a75487121fceedc', version='3.4.3.Final'}
-CommitInfo{repo='GitHub', hash='621f8802c9182e2e253bea587b6a81a79ed12f17', version='3.4.Final'}
-CommitInfo{repo='GitHub', hash='31731c41485d30f6305787883d438e5f8c631a59', version='3.5.0.Final'}
-CommitInfo{repo='GitHub', hash='fe5de19d94a6b2ff1da164074603572f9519a6b3', version='4.0.1.Final'}
-CommitInfo{repo='GitHub', hash='ec6df4d8724c682e890aa1aa2a1806098ae9db7e', version='4.0.2.Final'}
-CommitInfo{repo='GitHub', hash='b5f6e9a3fe6f5ece6a6d8ccb97b170eb4a4c1390', version='4.0.Beta1'}
-CommitInfo{repo='GitHub', hash='ba6d79265a8c817ab36966d534c5685d015a00fc', version='4.0.Beta2'}
-CommitInfo{repo='GitHub', hash='066b264027750638f1a884c805c34efa9b4e9880', version='4.0.Final'}
-CommitInfo{repo='GitHub', hash='ec7b7f93fef4d05642ee357959ae5584a679aeeb', version='4.1.1.Final'}
-CommitInfo{repo='GitHub', hash='77268158efd6e9913d857624710f3a03c1b7821c', version='4.1.2.Final'}
-CommitInfo{repo='GitHub', hash='b33f1b89381d829af7c49b29e3a154960838a2eb', version='4.1.Final'}
-CommitInfo{repo='GitHub', hash='52de4b088f949a027006a45643a020d7aac8916e', version='4.2.0.Final'}
-CommitInfo{repo='GitHub', hash='9b8f76fb6ea88bcc8cbdba62be6e940e71ac8af1', version='4.2.1.Final'}
-CommitInfo{repo='GitHub', hash='636619278c0bc6e689e474464036ef8e6065b2ad', version='4.2.2.Final'}
-CommitInfo{repo='GitHub', hash='4d76dc87d24db00dc3f7807715f8f114f6629f26', version='4.3.0.Final'}
-CommitInfo{repo='GitHub', hash='3bf4992ec8d6ee4061e5eb0858f3a28a0444f031', version='4.3.1.Final'}
-CommitInfo{repo='GitHub', hash='f0fa30b84f5be77a968e57c9f7796c51012bdc70', version='4.3.2.Final'}
-CommitInfo{repo='GitHub', hash='7fba42c2cd636d55c2926204cd15c6c625b4f4ab', version='4.3.3.Final'}
-CommitInfo{repo='GitHub', hash='188ba07dc6aaac606a7c6312edbbe73647acc109', version='4.4.0.Final'}
-CommitInfo{repo='GitHub', hash='184f0deafb61b17e536e3a19e50381d2cc7273f8', version='4.4.1.Final'}
-CommitInfo{repo='GitHub', hash='b36dffcbc3d39afb005c64193cb974ac305cd7cd', version='4.4.2.Final'}
-CommitInfo{repo='GitHub', hash='ac9728b462fca52f64fe5dad3f185cf1f940609d', version='4.4.3.Final'}
-CommitInfo{repo='GitHub', hash='ff5470677a823912d4c475b03572bc02ea08e43d', version='4.4.4.Final'}
-CommitInfo{repo='GitHub', hash='fb735b27642db5ff7ef60efc0f161173a86b4c47', version='4.4.5.Final'}
-CommitInfo{repo='GitHub', hash='fa479e85f034b05482055066d186cc5c463cfef2', version='4.4.6.Final'}
-CommitInfo{repo='GitHub', hash='289f36ecabf35cffebd9203f1dd78522aac0ba0a', version='4.5.0.Beta1'}
-CommitInfo{repo='GitHub', hash='79c656e75f922d74d304d504c7437430e8ea3028', version='4.5.0.Final'}
-CommitInfo{repo='GitHub', hash='14e2765abfc2e3f98a858e48aab7f42d74fc59ac', version='5.0.0.Beta1'}
-CommitInfo{repo='GitHub', hash='3cbfa5b5f31226713b9688c4dd547fd484b0aff4', version='5.0.0.M2'}
-CommitInfo{repo='GitHub', hash='9c7add9495d409f70deda946d927c16fc1005d96', version='5.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='72b2dfa62f96d869cc8c6b4bf565e2ca9ba5183f', version='5.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='be45be0d2ad7c6bf0532a0bb051202fef9d14b6e', version='5.0.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='f24c16fe8d0f6f8d0e8a6ab941b115a4b9f60cd3', version='5.0.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='ab4a1a7216fb970802bcdaf9295a2bb5d93d9e20', version='5.0.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='89a779eecd7879cc3a6e1bac435ef37b4ae4316c', version='5.0.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='b44bd3eb9105c6be4017179632dd813f30fc6d46', version='5.0.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='d459f03f701bcbf100d3f43443e99235cf060793', version='5.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='28310120392c75651098a8b8b6f8f47176a7ed1e', version='5.1.0.M1'}
-CommitInfo{repo='GitHub', hash='5b5890e5d471626ed928caf9504bd0b9951c866b', version='5.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='5b5890e5d471626ed928caf9504bd0b9951c866b', version='5.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='b535de8e9bc15390a490d12b87e42c7e4a7a340b', version='5.1.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='b535de8e9bc15390a490d12b87e42c7e4a7a340b', version='5.1.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='2f5ca3066a36a1a5c616529763a38c6f5b26558f', version='pre-io'}
+CommitInfo{repo='GitHub', hash='a0af8f57ab3df6012f15eb2a0a8b954e0076bbda', version='1.0.0'} 	https://github.com/lettuce-io/lettuce-core/commit/a0af8f57ab3df6012f15eb2a0a8b954e0076bbda
+CommitInfo{repo='GitHub', hash='1b679d35925b020d1ad59c4f446b871eff7cd067', version='1.1.0'} 	https://github.com/lettuce-io/lettuce-core/commit/1b679d35925b020d1ad59c4f446b871eff7cd067
+CommitInfo{repo='GitHub', hash='a6575c92d825fca8b8af6955d33e32c1e713a928', version='1.2.0'} 	https://github.com/lettuce-io/lettuce-core/commit/a6575c92d825fca8b8af6955d33e32c1e713a928
+CommitInfo{repo='GitHub', hash='beaafb4fb09f2582777362426e41ce219249bd34', version='1.3.0'} 	https://github.com/lettuce-io/lettuce-core/commit/beaafb4fb09f2582777362426e41ce219249bd34
+CommitInfo{repo='GitHub', hash='1ad7213b47db6863efc4914193e836bae1ae91af', version='2.0.0'} 	https://github.com/lettuce-io/lettuce-core/commit/1ad7213b47db6863efc4914193e836bae1ae91af
+CommitInfo{repo='GitHub', hash='acb008ebc2891467ae5ed5cb2d4a1b34c036c727', version='2.1.0'} 	https://github.com/lettuce-io/lettuce-core/commit/acb008ebc2891467ae5ed5cb2d4a1b34c036c727
+CommitInfo{repo='GitHub', hash='7d9bd25cf7575127cbf8e8eedfdbf8a8d5506749', version='2.2.0'} 	https://github.com/lettuce-io/lettuce-core/commit/7d9bd25cf7575127cbf8e8eedfdbf8a8d5506749
+CommitInfo{repo='GitHub', hash='9be681e185b321403a68588cf8c97fbc0668b493', version='2.3.0'} 	https://github.com/lettuce-io/lettuce-core/commit/9be681e185b321403a68588cf8c97fbc0668b493
+CommitInfo{repo='GitHub', hash='bba3cd8070f0adda905ff4c9cdbb56d82cf8d448', version='2.3.1'} 	https://github.com/lettuce-io/lettuce-core/commit/bba3cd8070f0adda905ff4c9cdbb56d82cf8d448
+CommitInfo{repo='GitHub', hash='62efb948d909ca0183d99782c098e5b483c6af94', version='2.3.2'} 	https://github.com/lettuce-io/lettuce-core/commit/62efb948d909ca0183d99782c098e5b483c6af94
+CommitInfo{repo='GitHub', hash='05565170c0bf04e54afda3ff2ec3c757456ac5fd', version='2.3.3'} 	https://github.com/lettuce-io/lettuce-core/commit/05565170c0bf04e54afda3ff2ec3c757456ac5fd
+CommitInfo{repo='GitHub', hash='d7ab00cd13c9e2e32d9604bb0dd4504258825d4c', version='3.0.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/d7ab00cd13c9e2e32d9604bb0dd4504258825d4c
+CommitInfo{repo='GitHub', hash='1dead7948df4371ac076cf55fbe60c7c0e33c5e7', version='3.0.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/1dead7948df4371ac076cf55fbe60c7c0e33c5e7
+CommitInfo{repo='GitHub', hash='3d7ab8744386488d8558ae99ff917c4a1ffc9b67', version='3.0.3.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/3d7ab8744386488d8558ae99ff917c4a1ffc9b67
+CommitInfo{repo='GitHub', hash='b711d4419604b1e06e74101c0950392255c558fc', version='3.0.Beta1'} 	https://github.com/lettuce-io/lettuce-core/commit/b711d4419604b1e06e74101c0950392255c558fc
+CommitInfo{repo='GitHub', hash='67b6592d021d807913d149a59f92aa34239735d8', version='3.0.Beta2'} 	https://github.com/lettuce-io/lettuce-core/commit/67b6592d021d807913d149a59f92aa34239735d8
+CommitInfo{repo='GitHub', hash='e8d7e1a00432de1dcdb96f5b6453a127fa29e4ec', version='3.0.Beta3'} 	https://github.com/lettuce-io/lettuce-core/commit/e8d7e1a00432de1dcdb96f5b6453a127fa29e4ec
+CommitInfo{repo='GitHub', hash='1b9e753cf098fe2cf32cfcb7e2142f37bc69a8d8', version='3.0.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/1b9e753cf098fe2cf32cfcb7e2142f37bc69a8d8
+CommitInfo{repo='GitHub', hash='13a2db5758c887320b46582d89a435d3b1af0711', version='3.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/13a2db5758c887320b46582d89a435d3b1af0711
+CommitInfo{repo='GitHub', hash='1f27d6517480953d0deeb5ffd5d3f7b44709d11b', version='3.2.Beta1'} 	https://github.com/lettuce-io/lettuce-core/commit/1f27d6517480953d0deeb5ffd5d3f7b44709d11b
+CommitInfo{repo='GitHub', hash='8d8ced5ab335218f4d5e59601939d4d086eb5c00', version='3.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/8d8ced5ab335218f4d5e59601939d4d086eb5c00
+CommitInfo{repo='GitHub', hash='80aa300b5ba3e3673b171217ba43badb11611c01', version='3.3.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/80aa300b5ba3e3673b171217ba43badb11611c01
+CommitInfo{repo='GitHub', hash='de840a4bc94ced13f765f13c65cd4cf870290400', version='3.3.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/de840a4bc94ced13f765f13c65cd4cf870290400
+CommitInfo{repo='GitHub', hash='1078cee7d503d5cafa632d80f94766898680fc52', version='3.3.Beta1'} 	https://github.com/lettuce-io/lettuce-core/commit/1078cee7d503d5cafa632d80f94766898680fc52
+CommitInfo{repo='GitHub', hash='25cf017045b1b3e6bef7bf608393c007b5d8f888', version='3.3.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/25cf017045b1b3e6bef7bf608393c007b5d8f888
+CommitInfo{repo='GitHub', hash='6d78927cd9d7cdd51ba7954ef8022a7cb4624bef', version='3.4.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/6d78927cd9d7cdd51ba7954ef8022a7cb4624bef
+CommitInfo{repo='GitHub', hash='c5d6fa11dc865190ff2b1a0951c0084c3f0ac6bf', version='3.4.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/c5d6fa11dc865190ff2b1a0951c0084c3f0ac6bf
+CommitInfo{repo='GitHub', hash='53c9966c033dae6271a035540a75487121fceedc', version='3.4.3.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/53c9966c033dae6271a035540a75487121fceedc
+CommitInfo{repo='GitHub', hash='621f8802c9182e2e253bea587b6a81a79ed12f17', version='3.4.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/621f8802c9182e2e253bea587b6a81a79ed12f17
+CommitInfo{repo='GitHub', hash='31731c41485d30f6305787883d438e5f8c631a59', version='3.5.0.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/31731c41485d30f6305787883d438e5f8c631a59
+CommitInfo{repo='GitHub', hash='fe5de19d94a6b2ff1da164074603572f9519a6b3', version='4.0.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/fe5de19d94a6b2ff1da164074603572f9519a6b3
+CommitInfo{repo='GitHub', hash='ec6df4d8724c682e890aa1aa2a1806098ae9db7e', version='4.0.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/ec6df4d8724c682e890aa1aa2a1806098ae9db7e
+CommitInfo{repo='GitHub', hash='b5f6e9a3fe6f5ece6a6d8ccb97b170eb4a4c1390', version='4.0.Beta1'} 	https://github.com/lettuce-io/lettuce-core/commit/b5f6e9a3fe6f5ece6a6d8ccb97b170eb4a4c1390
+CommitInfo{repo='GitHub', hash='ba6d79265a8c817ab36966d534c5685d015a00fc', version='4.0.Beta2'} 	https://github.com/lettuce-io/lettuce-core/commit/ba6d79265a8c817ab36966d534c5685d015a00fc
+CommitInfo{repo='GitHub', hash='066b264027750638f1a884c805c34efa9b4e9880', version='4.0.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/066b264027750638f1a884c805c34efa9b4e9880
+CommitInfo{repo='GitHub', hash='ec7b7f93fef4d05642ee357959ae5584a679aeeb', version='4.1.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/ec7b7f93fef4d05642ee357959ae5584a679aeeb
+CommitInfo{repo='GitHub', hash='77268158efd6e9913d857624710f3a03c1b7821c', version='4.1.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/77268158efd6e9913d857624710f3a03c1b7821c
+CommitInfo{repo='GitHub', hash='b33f1b89381d829af7c49b29e3a154960838a2eb', version='4.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/b33f1b89381d829af7c49b29e3a154960838a2eb
+CommitInfo{repo='GitHub', hash='52de4b088f949a027006a45643a020d7aac8916e', version='4.2.0.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/52de4b088f949a027006a45643a020d7aac8916e
+CommitInfo{repo='GitHub', hash='9b8f76fb6ea88bcc8cbdba62be6e940e71ac8af1', version='4.2.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/9b8f76fb6ea88bcc8cbdba62be6e940e71ac8af1
+CommitInfo{repo='GitHub', hash='636619278c0bc6e689e474464036ef8e6065b2ad', version='4.2.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/636619278c0bc6e689e474464036ef8e6065b2ad
+CommitInfo{repo='GitHub', hash='4d76dc87d24db00dc3f7807715f8f114f6629f26', version='4.3.0.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/4d76dc87d24db00dc3f7807715f8f114f6629f26
+CommitInfo{repo='GitHub', hash='3bf4992ec8d6ee4061e5eb0858f3a28a0444f031', version='4.3.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/3bf4992ec8d6ee4061e5eb0858f3a28a0444f031
+CommitInfo{repo='GitHub', hash='f0fa30b84f5be77a968e57c9f7796c51012bdc70', version='4.3.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/f0fa30b84f5be77a968e57c9f7796c51012bdc70
+CommitInfo{repo='GitHub', hash='7fba42c2cd636d55c2926204cd15c6c625b4f4ab', version='4.3.3.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/7fba42c2cd636d55c2926204cd15c6c625b4f4ab
+CommitInfo{repo='GitHub', hash='188ba07dc6aaac606a7c6312edbbe73647acc109', version='4.4.0.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/188ba07dc6aaac606a7c6312edbbe73647acc109
+CommitInfo{repo='GitHub', hash='184f0deafb61b17e536e3a19e50381d2cc7273f8', version='4.4.1.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/184f0deafb61b17e536e3a19e50381d2cc7273f8
+CommitInfo{repo='GitHub', hash='b36dffcbc3d39afb005c64193cb974ac305cd7cd', version='4.4.2.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/b36dffcbc3d39afb005c64193cb974ac305cd7cd
+CommitInfo{repo='GitHub', hash='ac9728b462fca52f64fe5dad3f185cf1f940609d', version='4.4.3.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/ac9728b462fca52f64fe5dad3f185cf1f940609d
+CommitInfo{repo='GitHub', hash='ff5470677a823912d4c475b03572bc02ea08e43d', version='4.4.4.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/ff5470677a823912d4c475b03572bc02ea08e43d
+CommitInfo{repo='GitHub', hash='fb735b27642db5ff7ef60efc0f161173a86b4c47', version='4.4.5.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/fb735b27642db5ff7ef60efc0f161173a86b4c47
+CommitInfo{repo='GitHub', hash='fa479e85f034b05482055066d186cc5c463cfef2', version='4.4.6.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/fa479e85f034b05482055066d186cc5c463cfef2
+CommitInfo{repo='GitHub', hash='289f36ecabf35cffebd9203f1dd78522aac0ba0a', version='4.5.0.Beta1'} 	https://github.com/lettuce-io/lettuce-core/commit/289f36ecabf35cffebd9203f1dd78522aac0ba0a
+CommitInfo{repo='GitHub', hash='79c656e75f922d74d304d504c7437430e8ea3028', version='4.5.0.Final'} 	https://github.com/lettuce-io/lettuce-core/commit/79c656e75f922d74d304d504c7437430e8ea3028
+CommitInfo{repo='GitHub', hash='14e2765abfc2e3f98a858e48aab7f42d74fc59ac', version='5.0.0.Beta1'} 	https://github.com/lettuce-io/lettuce-core/commit/14e2765abfc2e3f98a858e48aab7f42d74fc59ac
+CommitInfo{repo='GitHub', hash='3cbfa5b5f31226713b9688c4dd547fd484b0aff4', version='5.0.0.M2'} 	https://github.com/lettuce-io/lettuce-core/commit/3cbfa5b5f31226713b9688c4dd547fd484b0aff4
+CommitInfo{repo='GitHub', hash='9c7add9495d409f70deda946d927c16fc1005d96', version='5.0.0.RC1'} 	https://github.com/lettuce-io/lettuce-core/commit/9c7add9495d409f70deda946d927c16fc1005d96
+CommitInfo{repo='GitHub', hash='72b2dfa62f96d869cc8c6b4bf565e2ca9ba5183f', version='5.0.0.RC2'} 	https://github.com/lettuce-io/lettuce-core/commit/72b2dfa62f96d869cc8c6b4bf565e2ca9ba5183f
+CommitInfo{repo='GitHub', hash='be45be0d2ad7c6bf0532a0bb051202fef9d14b6e', version='5.0.0.RELEASE'} 	https://github.com/lettuce-io/lettuce-core/commit/be45be0d2ad7c6bf0532a0bb051202fef9d14b6e
+CommitInfo{repo='GitHub', hash='f24c16fe8d0f6f8d0e8a6ab941b115a4b9f60cd3', version='5.0.1.RELEASE'} 	https://github.com/lettuce-io/lettuce-core/commit/f24c16fe8d0f6f8d0e8a6ab941b115a4b9f60cd3
+CommitInfo{repo='GitHub', hash='ab4a1a7216fb970802bcdaf9295a2bb5d93d9e20', version='5.0.2.RELEASE'} 	https://github.com/lettuce-io/lettuce-core/commit/ab4a1a7216fb970802bcdaf9295a2bb5d93d9e20
+CommitInfo{repo='GitHub', hash='89a779eecd7879cc3a6e1bac435ef37b4ae4316c', version='5.0.3.RELEASE'} 	https://github.com/lettuce-io/lettuce-core/commit/89a779eecd7879cc3a6e1bac435ef37b4ae4316c
+CommitInfo{repo='GitHub', hash='b44bd3eb9105c6be4017179632dd813f30fc6d46', version='5.0.4.RELEASE'} 	https://github.com/lettuce-io/lettuce-core/commit/b44bd3eb9105c6be4017179632dd813f30fc6d46
+CommitInfo{repo='GitHub', hash='d459f03f701bcbf100d3f43443e99235cf060793', version='5.0.5.RELEASE'} 	https://github.com/lettuce-io/lettuce-core/commit/d459f03f701bcbf100d3f43443e99235cf060793
+CommitInfo{repo='GitHub', hash='28310120392c75651098a8b8b6f8f47176a7ed1e', version='5.1.0.M1'} 	https://github.com/lettuce-io/lettuce-core/commit/28310120392c75651098a8b8b6f8f47176a7ed1e
+CommitInfo{repo='GitHub', hash='5b5890e5d471626ed928caf9504bd0b9951c866b', version='5.1.0.RC1'} 	https://github.com/lettuce-io/lettuce-core/commit/5b5890e5d471626ed928caf9504bd0b9951c866b
+CommitInfo{repo='GitHub', hash='5b5890e5d471626ed928caf9504bd0b9951c866b', version='5.1.0.RC1'} 	https://github.com/lettuce-io/lettuce-core/commit/5b5890e5d471626ed928caf9504bd0b9951c866b
+CommitInfo{repo='GitHub', hash='b535de8e9bc15390a490d12b87e42c7e4a7a340b', version='5.1.0.RELEASE'} 	https://github.com/lettuce-io/lettuce-core/commit/b535de8e9bc15390a490d12b87e42c7e4a7a340b
+CommitInfo{repo='GitHub', hash='b535de8e9bc15390a490d12b87e42c7e4a7a340b', version='5.1.0.RELEASE'} 	https://github.com/lettuce-io/lettuce-core/commit/b535de8e9bc15390a490d12b87e42c7e4a7a340b
+CommitInfo{repo='GitHub', hash='2f5ca3066a36a1a5c616529763a38c6f5b26558f', version='pre-io'} 	https://github.com/lettuce-io/lettuce-core/commit/2f5ca3066a36a1a5c616529763a38c6f5b26558f
 
 Project A:
 ProjectVersionFixed(version=3.0.Beta1, dependency=null, time=2014-06-04 07:02:52 UTC)

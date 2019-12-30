@@ -2,53 +2,58 @@
 Project information
 io.grpc:grpc-core (2235252)	com.google.guava:guava (406662)	Package Manager: Maven
 RepoID: 723029
+Repo Owner/Name: grpc/grpc-java
+Repository type: GitHub
+
+ https://github.com/grpc/grpc-java/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='67d9e2686240726ea90144e0dccbb74ebabed0ba', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='6248f6ed9a5ceb98a520b06c001f5d0ef57140d4', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='440757f7039545e4a4af08d9e528935fe8f8bf8f', version='v0.13.1'}
-CommitInfo{repo='GitHub', hash='a151a901a2be8487a31b3cea63525bc89db0b4e8', version='v0.13.2'}
-CommitInfo{repo='GitHub', hash='bd85322ab226d953c23574747c9324b1d10bb49b', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='28e43746db30c13feb140b187a320eb308f93da6', version='v0.14.1'}
-CommitInfo{repo='GitHub', hash='634dd7f72113396bf0e1256789651ca6e7d42991', version='v0.15.0'}
-CommitInfo{repo='GitHub', hash='186a9b23b8e44f0181deaaec0a029e5385f6c8c3', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='abd260b8e6c969fb8b95bf5dc8d3524f8ab6576d', version='v0.7.1'}
-CommitInfo{repo='GitHub', hash='53b35aeb03d7078e7e40c38ead59d7dbc80dc68c', version='v0.7.2'}
-CommitInfo{repo='GitHub', hash='d93e5571fdbd214eb79d56c97d2badfb290b26c1', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='63503c2989df6d895c56e22f430f2b934e7a41d3', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='70650f6056560e70f36ebaf75d2825486123a4f6', version='v0.9.1'}
-CommitInfo{repo='GitHub', hash='c7fb6ab6e06cc4e982078b9c401b8cc0a61cea87', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='279d044814f2091d70238bb7b88d6550e1bfe801', version='v1.0.0-pre1'}
-CommitInfo{repo='GitHub', hash='e4b75cf89fa89417c2084ec171c1501d9d539ecd', version='v1.0.0-pre2'}
-CommitInfo{repo='GitHub', hash='81dc964c1b5cc4ff14177d083a0159a9c65f550b', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='91215c467788ab2920c4ac845136539402d495a9', version='v1.0.2'}
-CommitInfo{repo='GitHub', hash='5d422076a037bb17ed8b54ab1980ec3f36e782d5', version='v1.0.3'}
-CommitInfo{repo='GitHub', hash='2a97724d5db6f9bb926704ddbbdcf534719c5f34', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='4e7e32892420de01934f8d40fa95d9f92498f56f', version='v1.10.0'}
-CommitInfo{repo='GitHub', hash='9e35804f73e048335e59886b8507999fcea683fe', version='v1.10.1'}
-CommitInfo{repo='GitHub', hash='a1550e7eab0f5e7b04fb3838fafb6b64ab14842f', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='9c32e04a5d9b3b003632c93aa55418310ca68df4', version='v1.11.0'}
-CommitInfo{repo='GitHub', hash='6abfb18ee089cb21a2c093eed0e053472437ddb3', version='v1.1.2'}
-CommitInfo{repo='GitHub', hash='0a8df92298239fa6900ec52f14ba3d79e07d7d80', version='v1.12.0'}
-CommitInfo{repo='GitHub', hash='f1f313860d1f96b6e7cbfbb11656e288cd5ac482', version='v1.12.1'}
-CommitInfo{repo='GitHub', hash='32c81a32ac0822a8ea23a9d9fb9ef0f7f9598696', version='v1.13.1'}
-CommitInfo{repo='GitHub', hash='d58d46268aacd1d1d7eddac2bf08b91dffa3159b', version='v1.13.2'}
-CommitInfo{repo='GitHub', hash='093fa25377455c6b79683b9d5c69ad89b6a37eae', version='v1.14.0'}
-CommitInfo{repo='GitHub', hash='3c34ef622dcea79274d4332a4dc6217a25314294', version='v1.15.0'}
-CommitInfo{repo='GitHub', hash='86b3504f2965b98c8c6dbfebce91cf5033358c17', version='v1.15.1'}
-CommitInfo{repo='GitHub', hash='82442b741e8bf083001df4e09845b2cf9c1845ef', version='v1.16.0'}
-CommitInfo{repo='GitHub', hash='03ae720dde6ae6e6e7d9a4f46ee6c68349142ead', version='v1.16.1'}
-CommitInfo{repo='GitHub', hash='678f6f6f8a0fbd8bf2bfa03f4f0285441fdc1f55', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='7e9f969837328cba26d09c7a6aaabffd40a7a1e4', version='v1.3.0'}
-CommitInfo{repo='GitHub', hash='dce3510c3bc785361a59f5031afc2c3e16af7bec', version='v1.3.1'}
-CommitInfo{repo='GitHub', hash='caaed5f6474959d1bf658c755d904d9e1b074907', version='v1.4.0'}
-CommitInfo{repo='GitHub', hash='9ffd2eaa40a2a0ec6cd5236869cc138737969354', version='v1.5.0'}
-CommitInfo{repo='GitHub', hash='d2e0b840399877e0f1d9849fb20553177b8af29c', version='v1.6.1'}
-CommitInfo{repo='GitHub', hash='ea78184fc10a99e1b443114114064a47457eea3f', version='v1.7.0'}
-CommitInfo{repo='GitHub', hash='b5da14ac989a8fccc5e5adfbb1379d76fc94453b', version='v1.7.1'}
-CommitInfo{repo='GitHub', hash='cc60c33a453ba06390ce25f582969af90b449a88', version='v1.8.0'}
-CommitInfo{repo='GitHub', hash='382a37bd8a3e5674054ade94fe4865dda38d665d', version='v1.9.0'}
-CommitInfo{repo='GitHub', hash='753f331040f9ee5a015e5b8ac549e03315699615', version='v1.9.1'}
-CommitInfo{repo='GitHub', hash='753f331040f9ee5a015e5b8ac549e03315699615', version='v1.9.1'}
+CommitInfo{repo='GitHub', hash='67d9e2686240726ea90144e0dccbb74ebabed0ba', version='v0.12.0'} 	https://github.com/grpc/grpc-java/commit/67d9e2686240726ea90144e0dccbb74ebabed0ba
+CommitInfo{repo='GitHub', hash='6248f6ed9a5ceb98a520b06c001f5d0ef57140d4', version='v0.13.0'} 	https://github.com/grpc/grpc-java/commit/6248f6ed9a5ceb98a520b06c001f5d0ef57140d4
+CommitInfo{repo='GitHub', hash='440757f7039545e4a4af08d9e528935fe8f8bf8f', version='v0.13.1'} 	https://github.com/grpc/grpc-java/commit/440757f7039545e4a4af08d9e528935fe8f8bf8f
+CommitInfo{repo='GitHub', hash='a151a901a2be8487a31b3cea63525bc89db0b4e8', version='v0.13.2'} 	https://github.com/grpc/grpc-java/commit/a151a901a2be8487a31b3cea63525bc89db0b4e8
+CommitInfo{repo='GitHub', hash='bd85322ab226d953c23574747c9324b1d10bb49b', version='v0.14.0'} 	https://github.com/grpc/grpc-java/commit/bd85322ab226d953c23574747c9324b1d10bb49b
+CommitInfo{repo='GitHub', hash='28e43746db30c13feb140b187a320eb308f93da6', version='v0.14.1'} 	https://github.com/grpc/grpc-java/commit/28e43746db30c13feb140b187a320eb308f93da6
+CommitInfo{repo='GitHub', hash='634dd7f72113396bf0e1256789651ca6e7d42991', version='v0.15.0'} 	https://github.com/grpc/grpc-java/commit/634dd7f72113396bf0e1256789651ca6e7d42991
+CommitInfo{repo='GitHub', hash='186a9b23b8e44f0181deaaec0a029e5385f6c8c3', version='v0.7.0'} 	https://github.com/grpc/grpc-java/commit/186a9b23b8e44f0181deaaec0a029e5385f6c8c3
+CommitInfo{repo='GitHub', hash='abd260b8e6c969fb8b95bf5dc8d3524f8ab6576d', version='v0.7.1'} 	https://github.com/grpc/grpc-java/commit/abd260b8e6c969fb8b95bf5dc8d3524f8ab6576d
+CommitInfo{repo='GitHub', hash='53b35aeb03d7078e7e40c38ead59d7dbc80dc68c', version='v0.7.2'} 	https://github.com/grpc/grpc-java/commit/53b35aeb03d7078e7e40c38ead59d7dbc80dc68c
+CommitInfo{repo='GitHub', hash='d93e5571fdbd214eb79d56c97d2badfb290b26c1', version='v0.8.0'} 	https://github.com/grpc/grpc-java/commit/d93e5571fdbd214eb79d56c97d2badfb290b26c1
+CommitInfo{repo='GitHub', hash='63503c2989df6d895c56e22f430f2b934e7a41d3', version='v0.9.0'} 	https://github.com/grpc/grpc-java/commit/63503c2989df6d895c56e22f430f2b934e7a41d3
+CommitInfo{repo='GitHub', hash='70650f6056560e70f36ebaf75d2825486123a4f6', version='v0.9.1'} 	https://github.com/grpc/grpc-java/commit/70650f6056560e70f36ebaf75d2825486123a4f6
+CommitInfo{repo='GitHub', hash='c7fb6ab6e06cc4e982078b9c401b8cc0a61cea87', version='v1.0.0'} 	https://github.com/grpc/grpc-java/commit/c7fb6ab6e06cc4e982078b9c401b8cc0a61cea87
+CommitInfo{repo='GitHub', hash='279d044814f2091d70238bb7b88d6550e1bfe801', version='v1.0.0-pre1'} 	https://github.com/grpc/grpc-java/commit/279d044814f2091d70238bb7b88d6550e1bfe801
+CommitInfo{repo='GitHub', hash='e4b75cf89fa89417c2084ec171c1501d9d539ecd', version='v1.0.0-pre2'} 	https://github.com/grpc/grpc-java/commit/e4b75cf89fa89417c2084ec171c1501d9d539ecd
+CommitInfo{repo='GitHub', hash='81dc964c1b5cc4ff14177d083a0159a9c65f550b', version='v1.0.1'} 	https://github.com/grpc/grpc-java/commit/81dc964c1b5cc4ff14177d083a0159a9c65f550b
+CommitInfo{repo='GitHub', hash='91215c467788ab2920c4ac845136539402d495a9', version='v1.0.2'} 	https://github.com/grpc/grpc-java/commit/91215c467788ab2920c4ac845136539402d495a9
+CommitInfo{repo='GitHub', hash='5d422076a037bb17ed8b54ab1980ec3f36e782d5', version='v1.0.3'} 	https://github.com/grpc/grpc-java/commit/5d422076a037bb17ed8b54ab1980ec3f36e782d5
+CommitInfo{repo='GitHub', hash='2a97724d5db6f9bb926704ddbbdcf534719c5f34', version='v1.1.0'} 	https://github.com/grpc/grpc-java/commit/2a97724d5db6f9bb926704ddbbdcf534719c5f34
+CommitInfo{repo='GitHub', hash='4e7e32892420de01934f8d40fa95d9f92498f56f', version='v1.10.0'} 	https://github.com/grpc/grpc-java/commit/4e7e32892420de01934f8d40fa95d9f92498f56f
+CommitInfo{repo='GitHub', hash='9e35804f73e048335e59886b8507999fcea683fe', version='v1.10.1'} 	https://github.com/grpc/grpc-java/commit/9e35804f73e048335e59886b8507999fcea683fe
+CommitInfo{repo='GitHub', hash='a1550e7eab0f5e7b04fb3838fafb6b64ab14842f', version='v1.1.1'} 	https://github.com/grpc/grpc-java/commit/a1550e7eab0f5e7b04fb3838fafb6b64ab14842f
+CommitInfo{repo='GitHub', hash='9c32e04a5d9b3b003632c93aa55418310ca68df4', version='v1.11.0'} 	https://github.com/grpc/grpc-java/commit/9c32e04a5d9b3b003632c93aa55418310ca68df4
+CommitInfo{repo='GitHub', hash='6abfb18ee089cb21a2c093eed0e053472437ddb3', version='v1.1.2'} 	https://github.com/grpc/grpc-java/commit/6abfb18ee089cb21a2c093eed0e053472437ddb3
+CommitInfo{repo='GitHub', hash='0a8df92298239fa6900ec52f14ba3d79e07d7d80', version='v1.12.0'} 	https://github.com/grpc/grpc-java/commit/0a8df92298239fa6900ec52f14ba3d79e07d7d80
+CommitInfo{repo='GitHub', hash='f1f313860d1f96b6e7cbfbb11656e288cd5ac482', version='v1.12.1'} 	https://github.com/grpc/grpc-java/commit/f1f313860d1f96b6e7cbfbb11656e288cd5ac482
+CommitInfo{repo='GitHub', hash='32c81a32ac0822a8ea23a9d9fb9ef0f7f9598696', version='v1.13.1'} 	https://github.com/grpc/grpc-java/commit/32c81a32ac0822a8ea23a9d9fb9ef0f7f9598696
+CommitInfo{repo='GitHub', hash='d58d46268aacd1d1d7eddac2bf08b91dffa3159b', version='v1.13.2'} 	https://github.com/grpc/grpc-java/commit/d58d46268aacd1d1d7eddac2bf08b91dffa3159b
+CommitInfo{repo='GitHub', hash='093fa25377455c6b79683b9d5c69ad89b6a37eae', version='v1.14.0'} 	https://github.com/grpc/grpc-java/commit/093fa25377455c6b79683b9d5c69ad89b6a37eae
+CommitInfo{repo='GitHub', hash='3c34ef622dcea79274d4332a4dc6217a25314294', version='v1.15.0'} 	https://github.com/grpc/grpc-java/commit/3c34ef622dcea79274d4332a4dc6217a25314294
+CommitInfo{repo='GitHub', hash='86b3504f2965b98c8c6dbfebce91cf5033358c17', version='v1.15.1'} 	https://github.com/grpc/grpc-java/commit/86b3504f2965b98c8c6dbfebce91cf5033358c17
+CommitInfo{repo='GitHub', hash='82442b741e8bf083001df4e09845b2cf9c1845ef', version='v1.16.0'} 	https://github.com/grpc/grpc-java/commit/82442b741e8bf083001df4e09845b2cf9c1845ef
+CommitInfo{repo='GitHub', hash='03ae720dde6ae6e6e7d9a4f46ee6c68349142ead', version='v1.16.1'} 	https://github.com/grpc/grpc-java/commit/03ae720dde6ae6e6e7d9a4f46ee6c68349142ead
+CommitInfo{repo='GitHub', hash='678f6f6f8a0fbd8bf2bfa03f4f0285441fdc1f55', version='v1.2.0'} 	https://github.com/grpc/grpc-java/commit/678f6f6f8a0fbd8bf2bfa03f4f0285441fdc1f55
+CommitInfo{repo='GitHub', hash='7e9f969837328cba26d09c7a6aaabffd40a7a1e4', version='v1.3.0'} 	https://github.com/grpc/grpc-java/commit/7e9f969837328cba26d09c7a6aaabffd40a7a1e4
+CommitInfo{repo='GitHub', hash='dce3510c3bc785361a59f5031afc2c3e16af7bec', version='v1.3.1'} 	https://github.com/grpc/grpc-java/commit/dce3510c3bc785361a59f5031afc2c3e16af7bec
+CommitInfo{repo='GitHub', hash='caaed5f6474959d1bf658c755d904d9e1b074907', version='v1.4.0'} 	https://github.com/grpc/grpc-java/commit/caaed5f6474959d1bf658c755d904d9e1b074907
+CommitInfo{repo='GitHub', hash='9ffd2eaa40a2a0ec6cd5236869cc138737969354', version='v1.5.0'} 	https://github.com/grpc/grpc-java/commit/9ffd2eaa40a2a0ec6cd5236869cc138737969354
+CommitInfo{repo='GitHub', hash='d2e0b840399877e0f1d9849fb20553177b8af29c', version='v1.6.1'} 	https://github.com/grpc/grpc-java/commit/d2e0b840399877e0f1d9849fb20553177b8af29c
+CommitInfo{repo='GitHub', hash='ea78184fc10a99e1b443114114064a47457eea3f', version='v1.7.0'} 	https://github.com/grpc/grpc-java/commit/ea78184fc10a99e1b443114114064a47457eea3f
+CommitInfo{repo='GitHub', hash='b5da14ac989a8fccc5e5adfbb1379d76fc94453b', version='v1.7.1'} 	https://github.com/grpc/grpc-java/commit/b5da14ac989a8fccc5e5adfbb1379d76fc94453b
+CommitInfo{repo='GitHub', hash='cc60c33a453ba06390ce25f582969af90b449a88', version='v1.8.0'} 	https://github.com/grpc/grpc-java/commit/cc60c33a453ba06390ce25f582969af90b449a88
+CommitInfo{repo='GitHub', hash='382a37bd8a3e5674054ade94fe4865dda38d665d', version='v1.9.0'} 	https://github.com/grpc/grpc-java/commit/382a37bd8a3e5674054ade94fe4865dda38d665d
+CommitInfo{repo='GitHub', hash='753f331040f9ee5a015e5b8ac549e03315699615', version='v1.9.1'} 	https://github.com/grpc/grpc-java/commit/753f331040f9ee5a015e5b8ac549e03315699615
+CommitInfo{repo='GitHub', hash='753f331040f9ee5a015e5b8ac549e03315699615', version='v1.9.1'} 	https://github.com/grpc/grpc-java/commit/753f331040f9ee5a015e5b8ac549e03315699615
 
 Project A:
 ProjectVersionFixed(version=0.7.0, dependency=18.0, time=2015-05-26 23:58:00 UTC),	Latest, "DependencyVersion(version=18.0-rc2, time=2014-08-18 20:38:06 UTC)"

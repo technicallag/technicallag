@@ -294,10 +294,11 @@ data class PairStatistics(val pair: PairFullDataFixed, val pm: PairCollector.Pac
 
             val repoID = Database.getRepoId(pair.pairIDs.projectID)
             val repoinfo = Database.getRepositoryInfo(repoID)
-            val commitStub = when (repoinfo.hosttype.toLowerCase()) {
+            val commitStub = when (repoinfo.hosttype?.toLowerCase()) {
                 "github" -> "https://github.com/${repoinfo.ownerwithname}/commit/"
                 "gitlab" -> "https://gitlab.com/${repoinfo.ownerwithname}/commit/"
                 "bitbucket" -> "https://bitbucket.org/${repoinfo.ownerwithname}/commit/"
+                else -> ""
             }
 
             it.write("\nRepoID: ${repoID}")

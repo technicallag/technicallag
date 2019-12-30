@@ -2,67 +2,72 @@
 Project information
 org.scalactic:scalactic_2.10 (405855)	org.scala-lang:scala-compiler (353184)	Package Manager: Maven
 RepoID: 166851
+Repo Owner/Name: scalatest/scalatest
+Repository type: GitHub
+
+ https://github.com/scalatest/scalatest/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='f7b71e84a95c0fcc8c066ec091eb544474374a45', version='3.0.1'}
-CommitInfo{repo='GitHub', hash='302547be7f5deccb51c7d3003b935e024eb5bd07', version='release-2.0-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='494230d070498a311306b7e9eaded0c7370d926f', version='release-2.0.M6-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='0fc2a31113b1a97a0bafa7a9edb644b9edfa8aef', version='release-2.0.M7-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='efbfe7e08c6c4f2b44a5317a17891f5d9a28eebc', version='release-2.0.M8-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='ad1975dff9bc9b84f73d99be44f708c3317f2e5b', version='release-2.0.RC1-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='a647444ca8623d4cc4cf405c338f4790feebec72', version='release-2.0.RC2-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='3f565aa8f2a2e5ca1e09a229397cfd97cb9e1dc1', version='release-2.0.RC3-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='37303e8f4c36313bfe4936798e27bf6381ee1448', version='release-2.1.0-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='1729e5e97a4a2d4ee67c7d6de16eb8acefa34fcf', version='release-2.1.0-for-scala-2.11.0-RC1'}
-CommitInfo{repo='GitHub', hash='50f5b7f1af55dd0543e97387207a68f0b27ce2d0', version='release-2.1.0-RC2-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='7c02188445d96bb07a0df6f2bf88559859185132', version='release-2.1.0-RC2-for-scala-2.11.0-M8'}
-CommitInfo{repo='GitHub', hash='d1b51c6bb3eebeec95694cb5718880ec4cdb042e', version='release-2.1.0-RC3-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='e3eb1df055441655388458ff899305b5d616da3c', version='release-2.1.0-RC3-for-scala-2.11.0-M8'}
-CommitInfo{repo='GitHub', hash='f4de9bba9885eb2da3848e53fa1fc60e7d9b7d67', version='release-2.1.1-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='5f532afb6e328a7a6170e614785f823537bcc3d5', version='release-2.1.1-for-scala-2.11.0-RC2'}
-CommitInfo{repo='GitHub', hash='b3233292fa8e9d219ea7dd9b2ba9d44dd4d89e4b', version='release-2.1.2-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='58fc6a910636aa64855ff2569a9d72662c767461', version='release-2.1.2-for-scala-2.11.0-RC3'}
-CommitInfo{repo='GitHub', hash='446bc1893fe8e0c99854f5cb8cf32b3f7045d5b6', version='release-2.1.3-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='c64a15a20035907959fcc83f2cca63d584bd94a6', version='release-2.1.3-for-scala-2.11'}
-CommitInfo{repo='GitHub', hash='4d5c73bd2b9fd0cbb2db1af7ea53a4ddaf1537d7', version='release-2.1.3-for-scala-2.11.0-RC4'}
-CommitInfo{repo='GitHub', hash='a14dac21bf64916fdf7e80c48340f023170ba568', version='release-2.1.4-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='f44163a4650cb5cd6ed6d53c77db1258821d85ea', version='release-2.1.4-for-scala-2.11'}
-CommitInfo{repo='GitHub', hash='0c88ebf5028e983ca5409d30407952a6e8350eac', version='release-2.1.5-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='5c52ec586a2ed742c86597c345a7ac75c868612d', version='release-2.1.5-for-scala-2.11'}
-CommitInfo{repo='GitHub', hash='057b2be3811b940e46271bd6d822dc89cb4a120b', version='release-2.1.6-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='41ce395931919ffb76acb99d70428136f6f8e3b2', version='release-2.1.6-for-scala-2.11'}
-CommitInfo{repo='GitHub', hash='770cde9ede6d7bcaa205968ec0b51cdceb746c11', version='release-2.1.7-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='2e4c38516898160a453d5c676fa8f1b85ceb9515', version='release-2.1.7-for-scala-2.11'}
-CommitInfo{repo='GitHub', hash='9eef26922fede59944a01bd5342385b174223cc2', version='release-2.2.0-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='618e9c6f448203bf1dd11352e0b6279432f577e6', version='release-2.2.0-M1-for-scala-2.10'}
-CommitInfo{repo='GitHub', hash='a280a5b33ff25b703a560a4b417db799a395d569', version='release-2.2.0-RC1-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='25278758fb007538097e3ca03b79039aced1227d', version='release-2.2.0-RC2-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='87643c21be9816feb302fbf46d6fda3ad74e9420', version='release-2.2.1-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='a536306601abb72365f6aa09d9d181003af1ff82', version='release-2.2.2-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='d492f253d6ffc76b071aeaae4a81ec40cdef0329', version='release-2.2.3-SNAP1-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='9b20270b4a7a6909e40afc001ff93fc299fbf3ce', version='release-2.2.4-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='3b97ff02b2dd9269664495afc1d9aaefddfe8b7c', version='release-2.2.5-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='adab49e02e8f9b39c6043a1a65f332f949a0f07a', version='release-2.2.6-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='111b17a0fe82ab56a4f77f458a531eb6e0923017', version='release-2.2.6-M1-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='235ae9060541f5676e982b1721f7b43b71c59cf7', version='release-3.0.0'}
-CommitInfo{repo='GitHub', hash='92b0500d748541e5677138a5ee0cf776518c2383', version='release-3.0.0-M10-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='f393c0da8ce94de51f3bcd22848e44b5f164415a', version='release-3.0.0-M11-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='7da9ab14345d704a2175890e9d950e75a0be8ebc', version='release-3.0.0-M14-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='57e91f17e809d4cb25494c69def8a09658980d62', version='release-3.0.0-M15-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='5e4d6cd431e47058b57770f7ef2e57b30ddb219a', version='release-3.0.0-M8'}
-CommitInfo{repo='GitHub', hash='beb9bc0078be2585af32c1087c0aba90843d593f', version='release-3.0.0-M9-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='7041e8065b9501a2dc487009453b4c2521bb2540', version='release-3.0.0-RC1-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='5db436af1b32ec9c020838da7546fb226d8c6a4d', version='release-3.0.0-RC1-with-scaladoc'}
-CommitInfo{repo='GitHub', hash='55d5334a2493c01fa35ed36c3698b3385243d257', version='release-3.0.0-RC2-for-scala-2.10-2.11-2.12'}
-CommitInfo{repo='GitHub', hash='9ad2a78293954d2feabe808c057c03e88d5e3ee6', version='release-3.0.0-RC3'}
-CommitInfo{repo='GitHub', hash='85efd9c468bacfc94ef87bfaffb5655761ad8323', version='release-3.0.0-RC3-for-scala-2.10-2.11-2.12'}
-CommitInfo{repo='GitHub', hash='b46a39b0663efa27c437b7e5adbf60992f04f347', version='release-3.0.0-RC4'}
-CommitInfo{repo='GitHub', hash='ed74392d0fbe8474c7e2c059928e6f47267a102e', version='release-3.0.0-SNAP1-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='1f802d2aa8eedfbcf06f1d38b6be2d099b1d3f02', version='release-3.0.0-SNAP2-for-scala-2.11-and-2.10'}
-CommitInfo{repo='GitHub', hash='a64b88a0c9576c5ffe19b673a1b3cfa48730f06b', version='release-3.0.2'}
-CommitInfo{repo='GitHub', hash='12fd7b1f2d15c63a731f41aa66e8b4b259abf6a1', version='release-3.0.3'}
-CommitInfo{repo='GitHub', hash='12fd7b1f2d15c63a731f41aa66e8b4b259abf6a1', version='release-3.0.3'}
-CommitInfo{repo='GitHub', hash='78d8816e07d3727f4fc57b8438acaafda7589d19', version='release-3.0.4'}
-CommitInfo{repo='GitHub', hash='7447274839d2543b9a6c33be2757875aff353db3', version='release-3.0.5'}
+CommitInfo{repo='GitHub', hash='f7b71e84a95c0fcc8c066ec091eb544474374a45', version='3.0.1'} 	https://github.com/scalatest/scalatest/commit/f7b71e84a95c0fcc8c066ec091eb544474374a45
+CommitInfo{repo='GitHub', hash='302547be7f5deccb51c7d3003b935e024eb5bd07', version='release-2.0-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/302547be7f5deccb51c7d3003b935e024eb5bd07
+CommitInfo{repo='GitHub', hash='494230d070498a311306b7e9eaded0c7370d926f', version='release-2.0.M6-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/494230d070498a311306b7e9eaded0c7370d926f
+CommitInfo{repo='GitHub', hash='0fc2a31113b1a97a0bafa7a9edb644b9edfa8aef', version='release-2.0.M7-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/0fc2a31113b1a97a0bafa7a9edb644b9edfa8aef
+CommitInfo{repo='GitHub', hash='efbfe7e08c6c4f2b44a5317a17891f5d9a28eebc', version='release-2.0.M8-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/efbfe7e08c6c4f2b44a5317a17891f5d9a28eebc
+CommitInfo{repo='GitHub', hash='ad1975dff9bc9b84f73d99be44f708c3317f2e5b', version='release-2.0.RC1-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/ad1975dff9bc9b84f73d99be44f708c3317f2e5b
+CommitInfo{repo='GitHub', hash='a647444ca8623d4cc4cf405c338f4790feebec72', version='release-2.0.RC2-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/a647444ca8623d4cc4cf405c338f4790feebec72
+CommitInfo{repo='GitHub', hash='3f565aa8f2a2e5ca1e09a229397cfd97cb9e1dc1', version='release-2.0.RC3-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/3f565aa8f2a2e5ca1e09a229397cfd97cb9e1dc1
+CommitInfo{repo='GitHub', hash='37303e8f4c36313bfe4936798e27bf6381ee1448', version='release-2.1.0-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/37303e8f4c36313bfe4936798e27bf6381ee1448
+CommitInfo{repo='GitHub', hash='1729e5e97a4a2d4ee67c7d6de16eb8acefa34fcf', version='release-2.1.0-for-scala-2.11.0-RC1'} 	https://github.com/scalatest/scalatest/commit/1729e5e97a4a2d4ee67c7d6de16eb8acefa34fcf
+CommitInfo{repo='GitHub', hash='50f5b7f1af55dd0543e97387207a68f0b27ce2d0', version='release-2.1.0-RC2-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/50f5b7f1af55dd0543e97387207a68f0b27ce2d0
+CommitInfo{repo='GitHub', hash='7c02188445d96bb07a0df6f2bf88559859185132', version='release-2.1.0-RC2-for-scala-2.11.0-M8'} 	https://github.com/scalatest/scalatest/commit/7c02188445d96bb07a0df6f2bf88559859185132
+CommitInfo{repo='GitHub', hash='d1b51c6bb3eebeec95694cb5718880ec4cdb042e', version='release-2.1.0-RC3-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/d1b51c6bb3eebeec95694cb5718880ec4cdb042e
+CommitInfo{repo='GitHub', hash='e3eb1df055441655388458ff899305b5d616da3c', version='release-2.1.0-RC3-for-scala-2.11.0-M8'} 	https://github.com/scalatest/scalatest/commit/e3eb1df055441655388458ff899305b5d616da3c
+CommitInfo{repo='GitHub', hash='f4de9bba9885eb2da3848e53fa1fc60e7d9b7d67', version='release-2.1.1-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/f4de9bba9885eb2da3848e53fa1fc60e7d9b7d67
+CommitInfo{repo='GitHub', hash='5f532afb6e328a7a6170e614785f823537bcc3d5', version='release-2.1.1-for-scala-2.11.0-RC2'} 	https://github.com/scalatest/scalatest/commit/5f532afb6e328a7a6170e614785f823537bcc3d5
+CommitInfo{repo='GitHub', hash='b3233292fa8e9d219ea7dd9b2ba9d44dd4d89e4b', version='release-2.1.2-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/b3233292fa8e9d219ea7dd9b2ba9d44dd4d89e4b
+CommitInfo{repo='GitHub', hash='58fc6a910636aa64855ff2569a9d72662c767461', version='release-2.1.2-for-scala-2.11.0-RC3'} 	https://github.com/scalatest/scalatest/commit/58fc6a910636aa64855ff2569a9d72662c767461
+CommitInfo{repo='GitHub', hash='446bc1893fe8e0c99854f5cb8cf32b3f7045d5b6', version='release-2.1.3-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/446bc1893fe8e0c99854f5cb8cf32b3f7045d5b6
+CommitInfo{repo='GitHub', hash='c64a15a20035907959fcc83f2cca63d584bd94a6', version='release-2.1.3-for-scala-2.11'} 	https://github.com/scalatest/scalatest/commit/c64a15a20035907959fcc83f2cca63d584bd94a6
+CommitInfo{repo='GitHub', hash='4d5c73bd2b9fd0cbb2db1af7ea53a4ddaf1537d7', version='release-2.1.3-for-scala-2.11.0-RC4'} 	https://github.com/scalatest/scalatest/commit/4d5c73bd2b9fd0cbb2db1af7ea53a4ddaf1537d7
+CommitInfo{repo='GitHub', hash='a14dac21bf64916fdf7e80c48340f023170ba568', version='release-2.1.4-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/a14dac21bf64916fdf7e80c48340f023170ba568
+CommitInfo{repo='GitHub', hash='f44163a4650cb5cd6ed6d53c77db1258821d85ea', version='release-2.1.4-for-scala-2.11'} 	https://github.com/scalatest/scalatest/commit/f44163a4650cb5cd6ed6d53c77db1258821d85ea
+CommitInfo{repo='GitHub', hash='0c88ebf5028e983ca5409d30407952a6e8350eac', version='release-2.1.5-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/0c88ebf5028e983ca5409d30407952a6e8350eac
+CommitInfo{repo='GitHub', hash='5c52ec586a2ed742c86597c345a7ac75c868612d', version='release-2.1.5-for-scala-2.11'} 	https://github.com/scalatest/scalatest/commit/5c52ec586a2ed742c86597c345a7ac75c868612d
+CommitInfo{repo='GitHub', hash='057b2be3811b940e46271bd6d822dc89cb4a120b', version='release-2.1.6-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/057b2be3811b940e46271bd6d822dc89cb4a120b
+CommitInfo{repo='GitHub', hash='41ce395931919ffb76acb99d70428136f6f8e3b2', version='release-2.1.6-for-scala-2.11'} 	https://github.com/scalatest/scalatest/commit/41ce395931919ffb76acb99d70428136f6f8e3b2
+CommitInfo{repo='GitHub', hash='770cde9ede6d7bcaa205968ec0b51cdceb746c11', version='release-2.1.7-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/770cde9ede6d7bcaa205968ec0b51cdceb746c11
+CommitInfo{repo='GitHub', hash='2e4c38516898160a453d5c676fa8f1b85ceb9515', version='release-2.1.7-for-scala-2.11'} 	https://github.com/scalatest/scalatest/commit/2e4c38516898160a453d5c676fa8f1b85ceb9515
+CommitInfo{repo='GitHub', hash='9eef26922fede59944a01bd5342385b174223cc2', version='release-2.2.0-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/9eef26922fede59944a01bd5342385b174223cc2
+CommitInfo{repo='GitHub', hash='618e9c6f448203bf1dd11352e0b6279432f577e6', version='release-2.2.0-M1-for-scala-2.10'} 	https://github.com/scalatest/scalatest/commit/618e9c6f448203bf1dd11352e0b6279432f577e6
+CommitInfo{repo='GitHub', hash='a280a5b33ff25b703a560a4b417db799a395d569', version='release-2.2.0-RC1-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/a280a5b33ff25b703a560a4b417db799a395d569
+CommitInfo{repo='GitHub', hash='25278758fb007538097e3ca03b79039aced1227d', version='release-2.2.0-RC2-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/25278758fb007538097e3ca03b79039aced1227d
+CommitInfo{repo='GitHub', hash='87643c21be9816feb302fbf46d6fda3ad74e9420', version='release-2.2.1-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/87643c21be9816feb302fbf46d6fda3ad74e9420
+CommitInfo{repo='GitHub', hash='a536306601abb72365f6aa09d9d181003af1ff82', version='release-2.2.2-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/a536306601abb72365f6aa09d9d181003af1ff82
+CommitInfo{repo='GitHub', hash='d492f253d6ffc76b071aeaae4a81ec40cdef0329', version='release-2.2.3-SNAP1-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/d492f253d6ffc76b071aeaae4a81ec40cdef0329
+CommitInfo{repo='GitHub', hash='9b20270b4a7a6909e40afc001ff93fc299fbf3ce', version='release-2.2.4-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/9b20270b4a7a6909e40afc001ff93fc299fbf3ce
+CommitInfo{repo='GitHub', hash='3b97ff02b2dd9269664495afc1d9aaefddfe8b7c', version='release-2.2.5-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/3b97ff02b2dd9269664495afc1d9aaefddfe8b7c
+CommitInfo{repo='GitHub', hash='adab49e02e8f9b39c6043a1a65f332f949a0f07a', version='release-2.2.6-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/adab49e02e8f9b39c6043a1a65f332f949a0f07a
+CommitInfo{repo='GitHub', hash='111b17a0fe82ab56a4f77f458a531eb6e0923017', version='release-2.2.6-M1-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/111b17a0fe82ab56a4f77f458a531eb6e0923017
+CommitInfo{repo='GitHub', hash='235ae9060541f5676e982b1721f7b43b71c59cf7', version='release-3.0.0'} 	https://github.com/scalatest/scalatest/commit/235ae9060541f5676e982b1721f7b43b71c59cf7
+CommitInfo{repo='GitHub', hash='92b0500d748541e5677138a5ee0cf776518c2383', version='release-3.0.0-M10-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/92b0500d748541e5677138a5ee0cf776518c2383
+CommitInfo{repo='GitHub', hash='f393c0da8ce94de51f3bcd22848e44b5f164415a', version='release-3.0.0-M11-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/f393c0da8ce94de51f3bcd22848e44b5f164415a
+CommitInfo{repo='GitHub', hash='7da9ab14345d704a2175890e9d950e75a0be8ebc', version='release-3.0.0-M14-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/7da9ab14345d704a2175890e9d950e75a0be8ebc
+CommitInfo{repo='GitHub', hash='57e91f17e809d4cb25494c69def8a09658980d62', version='release-3.0.0-M15-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/57e91f17e809d4cb25494c69def8a09658980d62
+CommitInfo{repo='GitHub', hash='5e4d6cd431e47058b57770f7ef2e57b30ddb219a', version='release-3.0.0-M8'} 	https://github.com/scalatest/scalatest/commit/5e4d6cd431e47058b57770f7ef2e57b30ddb219a
+CommitInfo{repo='GitHub', hash='beb9bc0078be2585af32c1087c0aba90843d593f', version='release-3.0.0-M9-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/beb9bc0078be2585af32c1087c0aba90843d593f
+CommitInfo{repo='GitHub', hash='7041e8065b9501a2dc487009453b4c2521bb2540', version='release-3.0.0-RC1-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/7041e8065b9501a2dc487009453b4c2521bb2540
+CommitInfo{repo='GitHub', hash='5db436af1b32ec9c020838da7546fb226d8c6a4d', version='release-3.0.0-RC1-with-scaladoc'} 	https://github.com/scalatest/scalatest/commit/5db436af1b32ec9c020838da7546fb226d8c6a4d
+CommitInfo{repo='GitHub', hash='55d5334a2493c01fa35ed36c3698b3385243d257', version='release-3.0.0-RC2-for-scala-2.10-2.11-2.12'} 	https://github.com/scalatest/scalatest/commit/55d5334a2493c01fa35ed36c3698b3385243d257
+CommitInfo{repo='GitHub', hash='9ad2a78293954d2feabe808c057c03e88d5e3ee6', version='release-3.0.0-RC3'} 	https://github.com/scalatest/scalatest/commit/9ad2a78293954d2feabe808c057c03e88d5e3ee6
+CommitInfo{repo='GitHub', hash='85efd9c468bacfc94ef87bfaffb5655761ad8323', version='release-3.0.0-RC3-for-scala-2.10-2.11-2.12'} 	https://github.com/scalatest/scalatest/commit/85efd9c468bacfc94ef87bfaffb5655761ad8323
+CommitInfo{repo='GitHub', hash='b46a39b0663efa27c437b7e5adbf60992f04f347', version='release-3.0.0-RC4'} 	https://github.com/scalatest/scalatest/commit/b46a39b0663efa27c437b7e5adbf60992f04f347
+CommitInfo{repo='GitHub', hash='ed74392d0fbe8474c7e2c059928e6f47267a102e', version='release-3.0.0-SNAP1-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/ed74392d0fbe8474c7e2c059928e6f47267a102e
+CommitInfo{repo='GitHub', hash='1f802d2aa8eedfbcf06f1d38b6be2d099b1d3f02', version='release-3.0.0-SNAP2-for-scala-2.11-and-2.10'} 	https://github.com/scalatest/scalatest/commit/1f802d2aa8eedfbcf06f1d38b6be2d099b1d3f02
+CommitInfo{repo='GitHub', hash='a64b88a0c9576c5ffe19b673a1b3cfa48730f06b', version='release-3.0.2'} 	https://github.com/scalatest/scalatest/commit/a64b88a0c9576c5ffe19b673a1b3cfa48730f06b
+CommitInfo{repo='GitHub', hash='12fd7b1f2d15c63a731f41aa66e8b4b259abf6a1', version='release-3.0.3'} 	https://github.com/scalatest/scalatest/commit/12fd7b1f2d15c63a731f41aa66e8b4b259abf6a1
+CommitInfo{repo='GitHub', hash='12fd7b1f2d15c63a731f41aa66e8b4b259abf6a1', version='release-3.0.3'} 	https://github.com/scalatest/scalatest/commit/12fd7b1f2d15c63a731f41aa66e8b4b259abf6a1
+CommitInfo{repo='GitHub', hash='78d8816e07d3727f4fc57b8438acaafda7589d19', version='release-3.0.4'} 	https://github.com/scalatest/scalatest/commit/78d8816e07d3727f4fc57b8438acaafda7589d19
+CommitInfo{repo='GitHub', hash='7447274839d2543b9a6c33be2757875aff353db3', version='release-3.0.5'} 	https://github.com/scalatest/scalatest/commit/7447274839d2543b9a6c33be2757875aff353db3
 
 Project A:
 ProjectVersionFixed(version=2.2.0-M1, dependency=2.10.3, time=2014-05-13 04:34:00 UTC),	Latest, "DependencyVersion(version=2.11.0, time=2014-04-16 09:14:04 UTC)"

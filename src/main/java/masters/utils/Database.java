@@ -132,7 +132,7 @@ public class Database {
     }
 
     public static class CommitInfo {
-        String repo, hash, version;
+        public String repo, hash, version;
 
         @Override
         public String toString() {
@@ -144,20 +144,20 @@ public class Database {
         }
     }
 
-    class RepositoryInfo {
-        String ownerwithname, hosttype;
+    public static class RepositoryInfo {
+        public String ownerwithname, hosttype;
     }
 
     public static RepositoryInfo getRepositoryInfo(String repoid) {
         try {
             Connection c = CONNECTIONS.take();
-            PreparedStatement stmt = c.prepareStatement("SELECT hosttype, ownerwithname FROM tags WHERE id = ?;");
+            PreparedStatement stmt = c.prepareStatement("SELECT hosttype, RepositoryNameWithOwner FROM tags WHERE repositoryid = ?;");
             stmt.setString(1, repoid);
 
             ResultSet rs = stmt.executeQuery();
-            RepositoryInfo res = new RepositoryInfo;
+            RepositoryInfo res = new RepositoryInfo();
             if (rs.next()) {
-                res.ownerwithname = rs.getString("ownerwithname");
+                res.ownerwithname = rs.getString("RepositoryNameWithOwner");
                 res.hosttype = rs.getString("hosttype");
             }
 
@@ -170,7 +170,7 @@ public class Database {
 
         catch(SQLException | InterruptedException e) {
             Logging.getLogger("").error(e);
-            return "";
+            return new RepositoryInfo();
         }
     }
 

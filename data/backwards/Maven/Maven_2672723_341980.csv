@@ -2,46 +2,51 @@
 Project information
 io.micrometer:micrometer-registry-cloudwatch (2672723)	org.slf4j:slf4j-api (341980)	Package Manager: Maven
 RepoID: 23633187
+Repo Owner/Name: micrometer-metrics/micrometer
+Repository type: GitHub
+
+ https://github.com/micrometer-metrics/micrometer/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='eb5f737882fe3bc2b36ebe894b29a12016d974f9', version='v0.10.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='676ff5a1631ce4548c7f19cd7d80abb432a67382', version='v0.1.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='29d94c785e595fc7303effdf420104d332c69a61', version='v0.11.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='89bfc7d846fd827a612462e265a7fc2713774e5f', version='v0.1.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='da11ec529415d79290ef3bbaf40997876e74fb8d', version='v0.12.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='cda1634b919552890cd6be6b409067165ac71e57', version='v0.2.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='7e65bbe9c2dea5c25d8b7a10d9b4ad504d9946eb', version='v0.2.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='d44191a19fbf38133b26afe64bbe5f1b5670a80a', version='v0.3.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='63ca8d39ebb60af1b932f43ee3215c4513bf1393', version='v0.4.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='4b09ec134f78d1a02c15fb6995054cddcaeed71f', version='v0.5.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='cc8c23ddfb50f19016a97233a0b97bb6d0adb023', version='v0.5.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='07fd0721c553ef6379af8b9355f27a1ec5ba1f8b', version='v0.6.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='803c4604a82dfab8f305e86e79f464bb59514310', version='v0.6.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='2e5cd9e5320351bb3f731b9b8757d2259d2b5d10', version='v0.6.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='34083b753652a326b9d72b234f001af686883cc0', version='v0.6.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='90c8c36f1e6a2059e74050c874ba70d15a45e5c8', version='v0.7.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='d240a639991a25940be2ebb8e63ccb21723547d5', version='v0.8.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='58ba6463b21817fd36ac0a4ba3aeab4ce05c92c0', version='v0.9.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='68af7f3b4cd2882b4cd060dee49d13cfc9c1b795', version='v0.9.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='11ee58e4b132c1c0fb636745ea0e5aa1f5541147', version='v0.9.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='8ff18d08bca02952bc075ae69042e0f2ea214399', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='15895a9c590171bee083316708f5c59e31850e7f', version='v1.0.0-rc.1'}
-CommitInfo{repo='GitHub', hash='e81f194fe6d2daba3c81242e22a63c1c7e0f50c4', version='v1.0.0-rc.2'}
-CommitInfo{repo='GitHub', hash='fc53c0c39c1f363de1c27397383b8c57b8fdbb6f', version='v1.0.0-rc.3'}
-CommitInfo{repo='GitHub', hash='ceef525388ba433381fb68e785d093bf1b6dc9c1', version='v1.0.0-rc.4'}
-CommitInfo{repo='GitHub', hash='59ed523b4d361a7939cc175f33d96bef935b3e35', version='v1.0.0-rc.5'}
-CommitInfo{repo='GitHub', hash='e4e60b8bd678adf70a1b963eaa0f9faba0d6acf1', version='v1.0.0-rc.6'}
-CommitInfo{repo='GitHub', hash='80667ac15b66eedeab46836287d9ab1c14b1c04b', version='v1.0.0-rc.7'}
-CommitInfo{repo='GitHub', hash='b96c07348e8ad1e22bc16ff10910a8459c5bf8de', version='v1.0.0-rc.8'}
-CommitInfo{repo='GitHub', hash='50c4791e741734a78b11dfbe37686f7d605ffb95', version='v1.0.0-rc.9'}
-CommitInfo{repo='GitHub', hash='3123291d6eb3ccd5d626ff829a066a16e11c4f1c', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='7c15dacfe4d95c1719a1e963d1802946fe8907c7', version='v1.0.2'}
-CommitInfo{repo='GitHub', hash='3d0f1fd80dc30032c5b31c0de433b1be9d5b1a09', version='v1.0.3'}
-CommitInfo{repo='GitHub', hash='4394033e91b7ba29cc81dccc54b06c664a2c800d', version='v1.0.4'}
-CommitInfo{repo='GitHub', hash='2565a80abbbbc417c97c8dbe957ef79a194ea11d', version='v1.0.5'}
-CommitInfo{repo='GitHub', hash='ab64167bf4fdda38bd008606854ab836afb1f941', version='v1.0.6'}
-CommitInfo{repo='GitHub', hash='9049caa1fde0ba76d4ea7889d20bfdd00bb2dedb', version='v1.0.7'}
-CommitInfo{repo='GitHub', hash='5e772a0c7f13aac62688349a6fdde4ff13b92581', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='4a2a4c13d01b2db2a911291a5ad04d9462442707', version='v1.1.0-rc.1'}
+CommitInfo{repo='GitHub', hash='eb5f737882fe3bc2b36ebe894b29a12016d974f9', version='v0.10.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/eb5f737882fe3bc2b36ebe894b29a12016d974f9
+CommitInfo{repo='GitHub', hash='676ff5a1631ce4548c7f19cd7d80abb432a67382', version='v0.1.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/676ff5a1631ce4548c7f19cd7d80abb432a67382
+CommitInfo{repo='GitHub', hash='29d94c785e595fc7303effdf420104d332c69a61', version='v0.11.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/29d94c785e595fc7303effdf420104d332c69a61
+CommitInfo{repo='GitHub', hash='89bfc7d846fd827a612462e265a7fc2713774e5f', version='v0.1.1.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/89bfc7d846fd827a612462e265a7fc2713774e5f
+CommitInfo{repo='GitHub', hash='da11ec529415d79290ef3bbaf40997876e74fb8d', version='v0.12.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/da11ec529415d79290ef3bbaf40997876e74fb8d
+CommitInfo{repo='GitHub', hash='cda1634b919552890cd6be6b409067165ac71e57', version='v0.2.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/cda1634b919552890cd6be6b409067165ac71e57
+CommitInfo{repo='GitHub', hash='7e65bbe9c2dea5c25d8b7a10d9b4ad504d9946eb', version='v0.2.1.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/7e65bbe9c2dea5c25d8b7a10d9b4ad504d9946eb
+CommitInfo{repo='GitHub', hash='d44191a19fbf38133b26afe64bbe5f1b5670a80a', version='v0.3.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/d44191a19fbf38133b26afe64bbe5f1b5670a80a
+CommitInfo{repo='GitHub', hash='63ca8d39ebb60af1b932f43ee3215c4513bf1393', version='v0.4.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/63ca8d39ebb60af1b932f43ee3215c4513bf1393
+CommitInfo{repo='GitHub', hash='4b09ec134f78d1a02c15fb6995054cddcaeed71f', version='v0.5.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/4b09ec134f78d1a02c15fb6995054cddcaeed71f
+CommitInfo{repo='GitHub', hash='cc8c23ddfb50f19016a97233a0b97bb6d0adb023', version='v0.5.1.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/cc8c23ddfb50f19016a97233a0b97bb6d0adb023
+CommitInfo{repo='GitHub', hash='07fd0721c553ef6379af8b9355f27a1ec5ba1f8b', version='v0.6.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/07fd0721c553ef6379af8b9355f27a1ec5ba1f8b
+CommitInfo{repo='GitHub', hash='803c4604a82dfab8f305e86e79f464bb59514310', version='v0.6.1.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/803c4604a82dfab8f305e86e79f464bb59514310
+CommitInfo{repo='GitHub', hash='2e5cd9e5320351bb3f731b9b8757d2259d2b5d10', version='v0.6.2.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/2e5cd9e5320351bb3f731b9b8757d2259d2b5d10
+CommitInfo{repo='GitHub', hash='34083b753652a326b9d72b234f001af686883cc0', version='v0.6.3.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/34083b753652a326b9d72b234f001af686883cc0
+CommitInfo{repo='GitHub', hash='90c8c36f1e6a2059e74050c874ba70d15a45e5c8', version='v0.7.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/90c8c36f1e6a2059e74050c874ba70d15a45e5c8
+CommitInfo{repo='GitHub', hash='d240a639991a25940be2ebb8e63ccb21723547d5', version='v0.8.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/d240a639991a25940be2ebb8e63ccb21723547d5
+CommitInfo{repo='GitHub', hash='58ba6463b21817fd36ac0a4ba3aeab4ce05c92c0', version='v0.9.0.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/58ba6463b21817fd36ac0a4ba3aeab4ce05c92c0
+CommitInfo{repo='GitHub', hash='68af7f3b4cd2882b4cd060dee49d13cfc9c1b795', version='v0.9.1.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/68af7f3b4cd2882b4cd060dee49d13cfc9c1b795
+CommitInfo{repo='GitHub', hash='11ee58e4b132c1c0fb636745ea0e5aa1f5541147', version='v0.9.2.RELEASE'} 	https://github.com/micrometer-metrics/micrometer/commit/11ee58e4b132c1c0fb636745ea0e5aa1f5541147
+CommitInfo{repo='GitHub', hash='8ff18d08bca02952bc075ae69042e0f2ea214399', version='v1.0.0'} 	https://github.com/micrometer-metrics/micrometer/commit/8ff18d08bca02952bc075ae69042e0f2ea214399
+CommitInfo{repo='GitHub', hash='15895a9c590171bee083316708f5c59e31850e7f', version='v1.0.0-rc.1'} 	https://github.com/micrometer-metrics/micrometer/commit/15895a9c590171bee083316708f5c59e31850e7f
+CommitInfo{repo='GitHub', hash='e81f194fe6d2daba3c81242e22a63c1c7e0f50c4', version='v1.0.0-rc.2'} 	https://github.com/micrometer-metrics/micrometer/commit/e81f194fe6d2daba3c81242e22a63c1c7e0f50c4
+CommitInfo{repo='GitHub', hash='fc53c0c39c1f363de1c27397383b8c57b8fdbb6f', version='v1.0.0-rc.3'} 	https://github.com/micrometer-metrics/micrometer/commit/fc53c0c39c1f363de1c27397383b8c57b8fdbb6f
+CommitInfo{repo='GitHub', hash='ceef525388ba433381fb68e785d093bf1b6dc9c1', version='v1.0.0-rc.4'} 	https://github.com/micrometer-metrics/micrometer/commit/ceef525388ba433381fb68e785d093bf1b6dc9c1
+CommitInfo{repo='GitHub', hash='59ed523b4d361a7939cc175f33d96bef935b3e35', version='v1.0.0-rc.5'} 	https://github.com/micrometer-metrics/micrometer/commit/59ed523b4d361a7939cc175f33d96bef935b3e35
+CommitInfo{repo='GitHub', hash='e4e60b8bd678adf70a1b963eaa0f9faba0d6acf1', version='v1.0.0-rc.6'} 	https://github.com/micrometer-metrics/micrometer/commit/e4e60b8bd678adf70a1b963eaa0f9faba0d6acf1
+CommitInfo{repo='GitHub', hash='80667ac15b66eedeab46836287d9ab1c14b1c04b', version='v1.0.0-rc.7'} 	https://github.com/micrometer-metrics/micrometer/commit/80667ac15b66eedeab46836287d9ab1c14b1c04b
+CommitInfo{repo='GitHub', hash='b96c07348e8ad1e22bc16ff10910a8459c5bf8de', version='v1.0.0-rc.8'} 	https://github.com/micrometer-metrics/micrometer/commit/b96c07348e8ad1e22bc16ff10910a8459c5bf8de
+CommitInfo{repo='GitHub', hash='50c4791e741734a78b11dfbe37686f7d605ffb95', version='v1.0.0-rc.9'} 	https://github.com/micrometer-metrics/micrometer/commit/50c4791e741734a78b11dfbe37686f7d605ffb95
+CommitInfo{repo='GitHub', hash='3123291d6eb3ccd5d626ff829a066a16e11c4f1c', version='v1.0.1'} 	https://github.com/micrometer-metrics/micrometer/commit/3123291d6eb3ccd5d626ff829a066a16e11c4f1c
+CommitInfo{repo='GitHub', hash='7c15dacfe4d95c1719a1e963d1802946fe8907c7', version='v1.0.2'} 	https://github.com/micrometer-metrics/micrometer/commit/7c15dacfe4d95c1719a1e963d1802946fe8907c7
+CommitInfo{repo='GitHub', hash='3d0f1fd80dc30032c5b31c0de433b1be9d5b1a09', version='v1.0.3'} 	https://github.com/micrometer-metrics/micrometer/commit/3d0f1fd80dc30032c5b31c0de433b1be9d5b1a09
+CommitInfo{repo='GitHub', hash='4394033e91b7ba29cc81dccc54b06c664a2c800d', version='v1.0.4'} 	https://github.com/micrometer-metrics/micrometer/commit/4394033e91b7ba29cc81dccc54b06c664a2c800d
+CommitInfo{repo='GitHub', hash='2565a80abbbbc417c97c8dbe957ef79a194ea11d', version='v1.0.5'} 	https://github.com/micrometer-metrics/micrometer/commit/2565a80abbbbc417c97c8dbe957ef79a194ea11d
+CommitInfo{repo='GitHub', hash='ab64167bf4fdda38bd008606854ab836afb1f941', version='v1.0.6'} 	https://github.com/micrometer-metrics/micrometer/commit/ab64167bf4fdda38bd008606854ab836afb1f941
+CommitInfo{repo='GitHub', hash='9049caa1fde0ba76d4ea7889d20bfdd00bb2dedb', version='v1.0.7'} 	https://github.com/micrometer-metrics/micrometer/commit/9049caa1fde0ba76d4ea7889d20bfdd00bb2dedb
+CommitInfo{repo='GitHub', hash='5e772a0c7f13aac62688349a6fdde4ff13b92581', version='v1.1.0'} 	https://github.com/micrometer-metrics/micrometer/commit/5e772a0c7f13aac62688349a6fdde4ff13b92581
+CommitInfo{repo='GitHub', hash='4a2a4c13d01b2db2a911291a5ad04d9462442707', version='v1.1.0-rc.1'} 	https://github.com/micrometer-metrics/micrometer/commit/4a2a4c13d01b2db2a911291a5ad04d9462442707
 
 Project A:
 ProjectVersionFixed(version=1.0.0-rc.5, dependency=1.8.0-beta0, time=2017-11-27 03:53:07 UTC),	Latest, "null"

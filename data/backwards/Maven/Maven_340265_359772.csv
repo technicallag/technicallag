@@ -2,54 +2,59 @@
 Project information
 com.twitter:chill_2.11 (340265)	org.scala-lang:scala-library (359772)	Package Manager: Maven
 RepoID: 165503
+Repo Owner/Name: twitter/chill
+Repository type: GitHub
+
+ https://github.com/twitter/chill/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='328d10cd9be8b36b6293daea702e2ce1565a422b', version='0.7.2'}
-CommitInfo{repo='GitHub', hash='339e20054de6b57774d1c8976b203c735671ba36', version='0.7.4'}
-CommitInfo{repo='GitHub', hash='27e53d8fdadf98f9e7968650d0b2fd4c417d3e06', version='0.7.7'}
-CommitInfo{repo='GitHub', hash='eb9f29c8681b90df6dbf9db13aae30ca3e9fd07d', version='0.0.2'}
-CommitInfo{repo='GitHub', hash='01711b21714f6dba15ea1778f708dc486aff6ff1', version='0.0.3'}
-CommitInfo{repo='GitHub', hash='b3a05fa348fcdf31259eaadde523fa443b065db5', version='0.0.4'}
-CommitInfo{repo='GitHub', hash='70da3a7836993c214a93948b2d89b8c554928cf6', version='0.1.0'}
-CommitInfo{repo='GitHub', hash='58e39bccb4dfb53903e4d1512f07b499fff7164e', version='0.1.1'}
-CommitInfo{repo='GitHub', hash='cea2d6269a4f8fab07139ce79e88d707d47ab729', version='0.1.2'}
-CommitInfo{repo='GitHub', hash='7b3cbe7c5d12a9f0e5c352b831c101029a81a16e', version='0.1.3'}
-CommitInfo{repo='GitHub', hash='b336ea2130751bbfc3e15ac4ca80aba7ca26ee6e', version='0.1.4'}
-CommitInfo{repo='GitHub', hash='a197bd637108538d1433fedee2ed1a328c3f9403', version='0.2.0'}
-CommitInfo{repo='GitHub', hash='e0771b8ff03e4801c65b1501a15502df89be7ba0', version='0.2.1'}
-CommitInfo{repo='GitHub', hash='b29dd8dc598925ad190f6a449988ea80c8b04c36', version='0.2.2'}
-CommitInfo{repo='GitHub', hash='2b0328a5e50994eafefe38d4881dd4f53477c41c', version='0.2.3'}
-CommitInfo{repo='GitHub', hash='0f1ec64fd0ebfe37841bca029bc441aa325e7540', version='0.3.0'}
-CommitInfo{repo='GitHub', hash='68e77084aca3914b52fae5a2477de7073058ae66', version='0.3.1'}
-CommitInfo{repo='GitHub', hash='61756800cf9bde0741b78d73fa9e2199c51e63cb', version='0.3.2'}
-CommitInfo{repo='GitHub', hash='85c5bf17d4f1139ab6eb2363490eddaf6eb110f4', version='0.3.3'}
-CommitInfo{repo='GitHub', hash='465c3c283457abc8403aea2cbef4fb653f1574ee', version='0.3.4'}
-CommitInfo{repo='GitHub', hash='ba888910044bac0e6bf799ac78e530c7fe3e8a88', version='0.3.5'}
-CommitInfo{repo='GitHub', hash='f9ac85c54415eb3e3edeacfd8d41c9512af7b3fd', version='0.3.6'}
-CommitInfo{repo='GitHub', hash='239393db76fd8b2e1ca3a0da21d6ab80013b7f3e', version='0.4.0'}
-CommitInfo{repo='GitHub', hash='befb1978d63188767f1d8d4dde0db4d152c38d30', version='0.4.1'}
-CommitInfo{repo='GitHub', hash='12b1781ef2575bc30a82c0427410abd47883939b', version='0.5.0'}
-CommitInfo{repo='GitHub', hash='f19373539e4c2e735743b44bef1fbfae8e85e4c8', version='0.5.1'}
-CommitInfo{repo='GitHub', hash='93258d759d17a0f97dd94721401ede4a9c773ebe', version='0.5.2'}
-CommitInfo{repo='GitHub', hash='e0f4b4afbce068ecdba21734149f9290a081d303', version='0.6.0'}
-CommitInfo{repo='GitHub', hash='ae0e56693b508c481a06b1744f909637071b957a', version='0.7.0'}
-CommitInfo{repo='GitHub', hash='c4afd8563e60b78720faa500d07e8b350b1cf1b2', version='0.7.1'}
-CommitInfo{repo='GitHub', hash='f5b28caa65d519867cb99c2d5246d8a1cc3e3b43', version='0.8.0'}
-CommitInfo{repo='GitHub', hash='3bffda97ff9199bd780786b2bd29a19da9ead880', version='0.8.4'}
-CommitInfo{repo='GitHub', hash='3c1aba09d3c953b02d75003a681e1712154144d6', version='0.9.2'}
-CommitInfo{repo='GitHub', hash='01711b21714f6dba15ea1778f708dc486aff6ff1', version='help'}
-CommitInfo{repo='GitHub', hash='bebc1da191acea513b4e4eb34d955a27f7f81614', version='v0.7.3'}
-CommitInfo{repo='GitHub', hash='c02c53d69dd3e84d14a48765af91fe4559f5a063', version='v0.7.4'}
-CommitInfo{repo='GitHub', hash='c4077fef2c2149097b95a1e27c3e24fcee05231a', version='v0.7.5'}
-CommitInfo{repo='GitHub', hash='b0aebddbc477abf324019a17bd5eea60e8b398f1', version='v0.7.6'}
-CommitInfo{repo='GitHub', hash='d6775fa6ee610fd7a24b298b893daf6ca6afc975', version='v0.7.8'}
-CommitInfo{repo='GitHub', hash='2c038018b2a45fac433ad0b2971cc5782a8e73c1', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='fb9c19167645269e02c8e87e0153b0de58202799', version='v0.8.1'}
-CommitInfo{repo='GitHub', hash='fb127d629aa23bba3b1c8f037b044523057b7688', version='v0.8.2'}
-CommitInfo{repo='GitHub', hash='ab041d8e96248520b5a61cc0f551180a0a7aeed5', version='v0.8.3'}
-CommitInfo{repo='GitHub', hash='1877e4292d3597032d2a3d87b117f0088240f7fe', version='v0.8.5'}
-CommitInfo{repo='GitHub', hash='5e190748f296bfebb223c0439b2cd471cbbf21e9', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='3403d92bba10053118ae0408bbce9b2b8214649a', version='v0.9.1'}
-CommitInfo{repo='GitHub', hash='6c0e4889d474aef076c5f0f191fa47171f1c8bac', version='v0.9.3'}
+CommitInfo{repo='GitHub', hash='328d10cd9be8b36b6293daea702e2ce1565a422b', version='0.7.2'} 	https://github.com/twitter/chill/commit/328d10cd9be8b36b6293daea702e2ce1565a422b
+CommitInfo{repo='GitHub', hash='339e20054de6b57774d1c8976b203c735671ba36', version='0.7.4'} 	https://github.com/twitter/chill/commit/339e20054de6b57774d1c8976b203c735671ba36
+CommitInfo{repo='GitHub', hash='27e53d8fdadf98f9e7968650d0b2fd4c417d3e06', version='0.7.7'} 	https://github.com/twitter/chill/commit/27e53d8fdadf98f9e7968650d0b2fd4c417d3e06
+CommitInfo{repo='GitHub', hash='eb9f29c8681b90df6dbf9db13aae30ca3e9fd07d', version='0.0.2'} 	https://github.com/twitter/chill/commit/eb9f29c8681b90df6dbf9db13aae30ca3e9fd07d
+CommitInfo{repo='GitHub', hash='01711b21714f6dba15ea1778f708dc486aff6ff1', version='0.0.3'} 	https://github.com/twitter/chill/commit/01711b21714f6dba15ea1778f708dc486aff6ff1
+CommitInfo{repo='GitHub', hash='b3a05fa348fcdf31259eaadde523fa443b065db5', version='0.0.4'} 	https://github.com/twitter/chill/commit/b3a05fa348fcdf31259eaadde523fa443b065db5
+CommitInfo{repo='GitHub', hash='70da3a7836993c214a93948b2d89b8c554928cf6', version='0.1.0'} 	https://github.com/twitter/chill/commit/70da3a7836993c214a93948b2d89b8c554928cf6
+CommitInfo{repo='GitHub', hash='58e39bccb4dfb53903e4d1512f07b499fff7164e', version='0.1.1'} 	https://github.com/twitter/chill/commit/58e39bccb4dfb53903e4d1512f07b499fff7164e
+CommitInfo{repo='GitHub', hash='cea2d6269a4f8fab07139ce79e88d707d47ab729', version='0.1.2'} 	https://github.com/twitter/chill/commit/cea2d6269a4f8fab07139ce79e88d707d47ab729
+CommitInfo{repo='GitHub', hash='7b3cbe7c5d12a9f0e5c352b831c101029a81a16e', version='0.1.3'} 	https://github.com/twitter/chill/commit/7b3cbe7c5d12a9f0e5c352b831c101029a81a16e
+CommitInfo{repo='GitHub', hash='b336ea2130751bbfc3e15ac4ca80aba7ca26ee6e', version='0.1.4'} 	https://github.com/twitter/chill/commit/b336ea2130751bbfc3e15ac4ca80aba7ca26ee6e
+CommitInfo{repo='GitHub', hash='a197bd637108538d1433fedee2ed1a328c3f9403', version='0.2.0'} 	https://github.com/twitter/chill/commit/a197bd637108538d1433fedee2ed1a328c3f9403
+CommitInfo{repo='GitHub', hash='e0771b8ff03e4801c65b1501a15502df89be7ba0', version='0.2.1'} 	https://github.com/twitter/chill/commit/e0771b8ff03e4801c65b1501a15502df89be7ba0
+CommitInfo{repo='GitHub', hash='b29dd8dc598925ad190f6a449988ea80c8b04c36', version='0.2.2'} 	https://github.com/twitter/chill/commit/b29dd8dc598925ad190f6a449988ea80c8b04c36
+CommitInfo{repo='GitHub', hash='2b0328a5e50994eafefe38d4881dd4f53477c41c', version='0.2.3'} 	https://github.com/twitter/chill/commit/2b0328a5e50994eafefe38d4881dd4f53477c41c
+CommitInfo{repo='GitHub', hash='0f1ec64fd0ebfe37841bca029bc441aa325e7540', version='0.3.0'} 	https://github.com/twitter/chill/commit/0f1ec64fd0ebfe37841bca029bc441aa325e7540
+CommitInfo{repo='GitHub', hash='68e77084aca3914b52fae5a2477de7073058ae66', version='0.3.1'} 	https://github.com/twitter/chill/commit/68e77084aca3914b52fae5a2477de7073058ae66
+CommitInfo{repo='GitHub', hash='61756800cf9bde0741b78d73fa9e2199c51e63cb', version='0.3.2'} 	https://github.com/twitter/chill/commit/61756800cf9bde0741b78d73fa9e2199c51e63cb
+CommitInfo{repo='GitHub', hash='85c5bf17d4f1139ab6eb2363490eddaf6eb110f4', version='0.3.3'} 	https://github.com/twitter/chill/commit/85c5bf17d4f1139ab6eb2363490eddaf6eb110f4
+CommitInfo{repo='GitHub', hash='465c3c283457abc8403aea2cbef4fb653f1574ee', version='0.3.4'} 	https://github.com/twitter/chill/commit/465c3c283457abc8403aea2cbef4fb653f1574ee
+CommitInfo{repo='GitHub', hash='ba888910044bac0e6bf799ac78e530c7fe3e8a88', version='0.3.5'} 	https://github.com/twitter/chill/commit/ba888910044bac0e6bf799ac78e530c7fe3e8a88
+CommitInfo{repo='GitHub', hash='f9ac85c54415eb3e3edeacfd8d41c9512af7b3fd', version='0.3.6'} 	https://github.com/twitter/chill/commit/f9ac85c54415eb3e3edeacfd8d41c9512af7b3fd
+CommitInfo{repo='GitHub', hash='239393db76fd8b2e1ca3a0da21d6ab80013b7f3e', version='0.4.0'} 	https://github.com/twitter/chill/commit/239393db76fd8b2e1ca3a0da21d6ab80013b7f3e
+CommitInfo{repo='GitHub', hash='befb1978d63188767f1d8d4dde0db4d152c38d30', version='0.4.1'} 	https://github.com/twitter/chill/commit/befb1978d63188767f1d8d4dde0db4d152c38d30
+CommitInfo{repo='GitHub', hash='12b1781ef2575bc30a82c0427410abd47883939b', version='0.5.0'} 	https://github.com/twitter/chill/commit/12b1781ef2575bc30a82c0427410abd47883939b
+CommitInfo{repo='GitHub', hash='f19373539e4c2e735743b44bef1fbfae8e85e4c8', version='0.5.1'} 	https://github.com/twitter/chill/commit/f19373539e4c2e735743b44bef1fbfae8e85e4c8
+CommitInfo{repo='GitHub', hash='93258d759d17a0f97dd94721401ede4a9c773ebe', version='0.5.2'} 	https://github.com/twitter/chill/commit/93258d759d17a0f97dd94721401ede4a9c773ebe
+CommitInfo{repo='GitHub', hash='e0f4b4afbce068ecdba21734149f9290a081d303', version='0.6.0'} 	https://github.com/twitter/chill/commit/e0f4b4afbce068ecdba21734149f9290a081d303
+CommitInfo{repo='GitHub', hash='ae0e56693b508c481a06b1744f909637071b957a', version='0.7.0'} 	https://github.com/twitter/chill/commit/ae0e56693b508c481a06b1744f909637071b957a
+CommitInfo{repo='GitHub', hash='c4afd8563e60b78720faa500d07e8b350b1cf1b2', version='0.7.1'} 	https://github.com/twitter/chill/commit/c4afd8563e60b78720faa500d07e8b350b1cf1b2
+CommitInfo{repo='GitHub', hash='f5b28caa65d519867cb99c2d5246d8a1cc3e3b43', version='0.8.0'} 	https://github.com/twitter/chill/commit/f5b28caa65d519867cb99c2d5246d8a1cc3e3b43
+CommitInfo{repo='GitHub', hash='3bffda97ff9199bd780786b2bd29a19da9ead880', version='0.8.4'} 	https://github.com/twitter/chill/commit/3bffda97ff9199bd780786b2bd29a19da9ead880
+CommitInfo{repo='GitHub', hash='3c1aba09d3c953b02d75003a681e1712154144d6', version='0.9.2'} 	https://github.com/twitter/chill/commit/3c1aba09d3c953b02d75003a681e1712154144d6
+CommitInfo{repo='GitHub', hash='01711b21714f6dba15ea1778f708dc486aff6ff1', version='help'} 	https://github.com/twitter/chill/commit/01711b21714f6dba15ea1778f708dc486aff6ff1
+CommitInfo{repo='GitHub', hash='bebc1da191acea513b4e4eb34d955a27f7f81614', version='v0.7.3'} 	https://github.com/twitter/chill/commit/bebc1da191acea513b4e4eb34d955a27f7f81614
+CommitInfo{repo='GitHub', hash='c02c53d69dd3e84d14a48765af91fe4559f5a063', version='v0.7.4'} 	https://github.com/twitter/chill/commit/c02c53d69dd3e84d14a48765af91fe4559f5a063
+CommitInfo{repo='GitHub', hash='c4077fef2c2149097b95a1e27c3e24fcee05231a', version='v0.7.5'} 	https://github.com/twitter/chill/commit/c4077fef2c2149097b95a1e27c3e24fcee05231a
+CommitInfo{repo='GitHub', hash='b0aebddbc477abf324019a17bd5eea60e8b398f1', version='v0.7.6'} 	https://github.com/twitter/chill/commit/b0aebddbc477abf324019a17bd5eea60e8b398f1
+CommitInfo{repo='GitHub', hash='d6775fa6ee610fd7a24b298b893daf6ca6afc975', version='v0.7.8'} 	https://github.com/twitter/chill/commit/d6775fa6ee610fd7a24b298b893daf6ca6afc975
+CommitInfo{repo='GitHub', hash='2c038018b2a45fac433ad0b2971cc5782a8e73c1', version='v0.8.0'} 	https://github.com/twitter/chill/commit/2c038018b2a45fac433ad0b2971cc5782a8e73c1
+CommitInfo{repo='GitHub', hash='fb9c19167645269e02c8e87e0153b0de58202799', version='v0.8.1'} 	https://github.com/twitter/chill/commit/fb9c19167645269e02c8e87e0153b0de58202799
+CommitInfo{repo='GitHub', hash='fb127d629aa23bba3b1c8f037b044523057b7688', version='v0.8.2'} 	https://github.com/twitter/chill/commit/fb127d629aa23bba3b1c8f037b044523057b7688
+CommitInfo{repo='GitHub', hash='ab041d8e96248520b5a61cc0f551180a0a7aeed5', version='v0.8.3'} 	https://github.com/twitter/chill/commit/ab041d8e96248520b5a61cc0f551180a0a7aeed5
+CommitInfo{repo='GitHub', hash='1877e4292d3597032d2a3d87b117f0088240f7fe', version='v0.8.5'} 	https://github.com/twitter/chill/commit/1877e4292d3597032d2a3d87b117f0088240f7fe
+CommitInfo{repo='GitHub', hash='5e190748f296bfebb223c0439b2cd471cbbf21e9', version='v0.9.0'} 	https://github.com/twitter/chill/commit/5e190748f296bfebb223c0439b2cd471cbbf21e9
+CommitInfo{repo='GitHub', hash='3403d92bba10053118ae0408bbce9b2b8214649a', version='v0.9.1'} 	https://github.com/twitter/chill/commit/3403d92bba10053118ae0408bbce9b2b8214649a
+CommitInfo{repo='GitHub', hash='6c0e4889d474aef076c5f0f191fa47171f1c8bac', version='v0.9.3'} 	https://github.com/twitter/chill/commit/6c0e4889d474aef076c5f0f191fa47171f1c8bac
 
 Project A:
 ProjectVersionFixed(version=0.5.0, dependency=2.11.2, time=2014-09-10 02:43:52 UTC),	Latest, "null"

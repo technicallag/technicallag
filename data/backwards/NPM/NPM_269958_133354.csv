@@ -2,670 +2,675 @@
 Project information
 aws-sdk (269958)	buffer (133354)	Package Manager: NPM
 RepoID: 14004
+Repo Owner/Name: aws/aws-sdk-js
+Repository type: GitHub
+
+ https://github.com/aws/aws-sdk-js/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='116d92384d4418b0efea1639d92cec817af4446a', version='v0.9.0-pre.1'}
-CommitInfo{repo='GitHub', hash='96ec24ffd46a8c44c694893ca8186d6413017ac9', version='v0.9.1-pre.2'}
-CommitInfo{repo='GitHub', hash='7084c75fc0b64fce5772c17ec776765771a93c18', version='v0.9.2-pre.3'}
-CommitInfo{repo='GitHub', hash='744c3a91198d9271114ed4bf105938b1b41ebdc6', version='v0.9.3-pre.4'}
-CommitInfo{repo='GitHub', hash='d45884acb799b91df45b913a58c91d8d283a35e4', version='v0.9.4-pre.5'}
-CommitInfo{repo='GitHub', hash='c51a778c63e6237d3efeef1c6960c4ccdde23a30', version='v0.9.5-pre.6'}
-CommitInfo{repo='GitHub', hash='f94d05b1ffe216bf0c3d059cb7158f951953f358', version='v0.9.6-pre.7'}
-CommitInfo{repo='GitHub', hash='d5d2216adaa9aa697245feded414239b11e5f1d7', version='v0.9.7-pre.8'}
-CommitInfo{repo='GitHub', hash='ff33eda166fa64ced5b1aca7ef30935e1b4f02e3', version='v0.9.8-pre.9'}
-CommitInfo{repo='GitHub', hash='65323a495ab40f73a516d8b561d021c6e6b5fc87', version='v0.9.9-pre.10'}
-CommitInfo{repo='GitHub', hash='f33ad60e28c79612e396f5d65d22dd6528aba203', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='a59d7b725265ca06d14baa648705128a2a7430b7', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='4d53c06e5045241ee7df59abaf1467347a84efb3', version='v1.10.0'}
-CommitInfo{repo='GitHub', hash='8a4dd06b8b24f495c2f1347f6f4b3366393a1772', version='v1.11.0'}
-CommitInfo{repo='GitHub', hash='5769843a0cf46bbcecdd971e3a4ac0b84956eb02', version='v1.12.0'}
-CommitInfo{repo='GitHub', hash='11b3a4ac23b7910e95cf34fe852fdaf599a4e732', version='v1.13.0'}
-CommitInfo{repo='GitHub', hash='06c07c588abfe9c4685d8225be47575fee642722', version='v1.14.0'}
-CommitInfo{repo='GitHub', hash='9e9480c7ad3d6b113c91222fda14ab95ffc278c7', version='v1.15.0'}
-CommitInfo{repo='GitHub', hash='d182b9f93d4a64c7db1601e7fb8793acd49a2cd4', version='v1.16.0'}
-CommitInfo{repo='GitHub', hash='ef1e2a5e078a446111aa13d90fbebea32e318e26', version='v1.17.0'}
-CommitInfo{repo='GitHub', hash='c480ea0de6b6fe676242389eca76e725cca8a6c2', version='v1.17.1'}
-CommitInfo{repo='GitHub', hash='081cbfe2d94a9178676ab2a9e0fc832ac39eb466', version='v1.17.2'}
-CommitInfo{repo='GitHub', hash='43d010173906bc523702dd30198d32541713f316', version='v1.17.3'}
-CommitInfo{repo='GitHub', hash='acd8d79fc75d0a0319278d1c4d5d00efb8941887', version='v1.18.0'}
-CommitInfo{repo='GitHub', hash='746666dc4f9d456975eb5e1330da39e3fb0ed58d', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='15b5a2e0e5146d57fb9df4e59f4d062700661d68', version='v1.3.0'}
-CommitInfo{repo='GitHub', hash='75206c5d4758072286e94fa652bf07357bf770e2', version='v1.3.1'}
-CommitInfo{repo='GitHub', hash='a77c9c7bac10685bb0931aec66ecb11d0d426ba1', version='v1.3.2'}
-CommitInfo{repo='GitHub', hash='09bd64a77956c1fef5156450c5287681007b04d7', version='v1.4.1'}
-CommitInfo{repo='GitHub', hash='b3f411ae2f6a65c9154b5b3f664ee64b22cf1d9a', version='v1.5.0'}
-CommitInfo{repo='GitHub', hash='ee58493f91d25e1d5aa3505ca20aefbf033e1c29', version='v1.5.1'}
-CommitInfo{repo='GitHub', hash='1660bd7af46e3c86835b652eb98e892f3d4c0b62', version='v1.5.2'}
-CommitInfo{repo='GitHub', hash='3280de04648e5003b493b977bc7002866c412b5a', version='v1.6.0'}
-CommitInfo{repo='GitHub', hash='005635e845be5eda0dc35175a3c40c7962c63fa2', version='v1.7.0'}
-CommitInfo{repo='GitHub', hash='0cc2b73f76ded5cdaac76d20cd264295f2e23924', version='v1.7.1'}
-CommitInfo{repo='GitHub', hash='51b350bd01591faed2b2e7af047b9a11029256df', version='v1.8.0'}
-CommitInfo{repo='GitHub', hash='c582b6c40cc5ff779567b7ad77e178d86b977352', version='v1.8.1'}
-CommitInfo{repo='GitHub', hash='cbccc61467813ebca3dc44d6fda9156f899c453e', version='v1.9.0'}
-CommitInfo{repo='GitHub', hash='447e8e3c1df46a98bc6d015f6a5474f04473c258', version='v2.0.0'}
-CommitInfo{repo='GitHub', hash='35bd55c9cc2887ab58f40331865f29917ae3fdcc', version='v2.0.0-rc1'}
-CommitInfo{repo='GitHub', hash='085119f7d21d4fcd08f357758207f059972b5248', version='v2.0.0-rc10'}
-CommitInfo{repo='GitHub', hash='f9ad631b59ab0a98d259c563a5e93f6c3ecc1fc8', version='v2.0.0-rc11'}
-CommitInfo{repo='GitHub', hash='9a4ac0239dda90454394dfe4fef3b032f6e42cbf', version='v2.0.0-rc12'}
-CommitInfo{repo='GitHub', hash='150ed59874ef01054e2440efc1dafb16c2f89f5d', version='v2.0.0-rc13'}
-CommitInfo{repo='GitHub', hash='e66a0bb610d4023e4b4aad57b4275d8393ee0627', version='v2.0.0-rc.14'}
-CommitInfo{repo='GitHub', hash='ec69899bfb166f35a23257ab2efc894e6e3cb1f7', version='v2.0.0-rc.15'}
-CommitInfo{repo='GitHub', hash='4c7db43aae36855643b49f86e2a5563611866fad', version='v2.0.0-rc.16'}
-CommitInfo{repo='GitHub', hash='2b57615509ba967fb2389e2e8e5a12a53e724ac5', version='v2.0.0-rc.17'}
-CommitInfo{repo='GitHub', hash='b1f2fb8ff3a3c363f9accb581c2d3125b972211a', version='v2.0.0-rc.18'}
-CommitInfo{repo='GitHub', hash='48e3db0758eff5f4bf217820d574e067d5d52564', version='v2.0.0-rc.19'}
-CommitInfo{repo='GitHub', hash='30645499a69c5df8c9e6eea9326ccb58429c3472', version='v2.0.0-rc2'}
-CommitInfo{repo='GitHub', hash='8677e87e7dc519aff2bd373340b9e1928eafcb06', version='v2.0.0-rc.20'}
-CommitInfo{repo='GitHub', hash='5f74129c6e803cdc968cea7c8163041faf24403f', version='v2.0.0-rc3'}
-CommitInfo{repo='GitHub', hash='903a8e23a97e24d0db0f15ad09ba09e0a2ff5a97', version='v2.0.0-rc4'}
-CommitInfo{repo='GitHub', hash='2fee785a62a4415074a46d0f3ac1805d40d94a6a', version='v2.0.0-rc5'}
-CommitInfo{repo='GitHub', hash='66d4d580b5ad6c7e206297e870f538131e74e3f1', version='v2.0.0-rc6'}
-CommitInfo{repo='GitHub', hash='63c3b8c2034faa12be3cd63b2985754c6c7205e9', version='v2.0.0-rc7'}
-CommitInfo{repo='GitHub', hash='19793bfb0a7229f1d33bbaa3213b51265d5969ce', version='v2.0.0-rc8'}
-CommitInfo{repo='GitHub', hash='39d318baa566bcfc0eec80d06b1cee9b5b4d8918', version='v2.0.0-rc9'}
-CommitInfo{repo='GitHub', hash='48a5d2ab8e7de4f316e960faf7f35a47bafa2273', version='v2.0.1'}
-CommitInfo{repo='GitHub', hash='48b6633489eda0fcebf890a2ae9c9506f83b3366', version='v2.0.10'}
-CommitInfo{repo='GitHub', hash='1691574f2fb14706df83fbabdfb56bbdd6c4ef29', version='v2.0.11'}
-CommitInfo{repo='GitHub', hash='98b0cb780019968023f53bc22f69874d0377e872', version='v2.0.12'}
-CommitInfo{repo='GitHub', hash='307de9cff7223006c87b9162e5a72797b42764a5', version='v2.0.13'}
-CommitInfo{repo='GitHub', hash='16ac62047e58806444f6b2420dfd4430217a2068', version='v2.0.14'}
-CommitInfo{repo='GitHub', hash='643f2854f1f59b10f52ecb42fa0608e93012841e', version='v2.0.15'}
-CommitInfo{repo='GitHub', hash='57cee3952d6db6345fc8e28dffe393f98c0eaf78', version='v2.0.16'}
-CommitInfo{repo='GitHub', hash='09b01705dbb37c03058838804923becb160ba22d', version='v2.0.17'}
-CommitInfo{repo='GitHub', hash='b0951729c6f66bb89810ad97b44218c44544ef7a', version='v2.0.18'}
-CommitInfo{repo='GitHub', hash='d658d4c7b7e9408f3b51a9a836f2864b29bc394a', version='v2.0.19'}
-CommitInfo{repo='GitHub', hash='da19df68ade58aa73cc66e70df2d65822baf3b3c', version='v2.0.2'}
-CommitInfo{repo='GitHub', hash='a54077b46094bcb594dd1ee11539fa203b5f3160', version='v2.0.20'}
-CommitInfo{repo='GitHub', hash='608ac8d572df00c7cb8778bbd960a53f4ca58dc7', version='v2.0.21'}
-CommitInfo{repo='GitHub', hash='3727be7152b598d451aa712d9f0fc68f1897d41f', version='v2.0.22'}
-CommitInfo{repo='GitHub', hash='4cb59713f3d902df1d5305bdd223bb695828d53d', version='v2.0.23'}
-CommitInfo{repo='GitHub', hash='bea6fcd6d66806fae55ad5b4f302d28c6cf2d1f1', version='v2.0.24'}
-CommitInfo{repo='GitHub', hash='49372d816484bb93dad82d8262923609dd2a5956', version='v2.0.25'}
-CommitInfo{repo='GitHub', hash='783c7029731db054ff65e2801ea7d29c6d14ff5c', version='v2.0.26'}
-CommitInfo{repo='GitHub', hash='8e2e66c9c53146ba69e358c73bc2369644bf2fe5', version='v2.0.27'}
-CommitInfo{repo='GitHub', hash='4d69a1945110306d8f56780a08fb40a02be843f7', version='v2.0.28'}
-CommitInfo{repo='GitHub', hash='2b463ce1e418f6771327d08c9912628e621bb1f8', version='v2.0.29'}
-CommitInfo{repo='GitHub', hash='71f87d93323c85255af2778042722a9eb0e60018', version='v2.0.3'}
-CommitInfo{repo='GitHub', hash='89c20edaa32247f5447df446bf3a53575ed7218f', version='v2.0.30'}
-CommitInfo{repo='GitHub', hash='6fc999b0644eb71518eb00a3445f3e1472b834e0', version='v2.0.31'}
-CommitInfo{repo='GitHub', hash='126656acdbe8caec1873969963d4eefc8476601b', version='v2.0.4'}
-CommitInfo{repo='GitHub', hash='882d7ceb956b4d533196fa5a76a8b0d7782bbe6c', version='v2.0.5'}
-CommitInfo{repo='GitHub', hash='031db2910640d9b9f7d148eabe4b8915738b6712', version='v2.0.6'}
-CommitInfo{repo='GitHub', hash='aec48df284de75972d6b0121b46c7dd359d0dccc', version='v2.0.7'}
-CommitInfo{repo='GitHub', hash='f62e77bc6b00f3e8e76434d4e9c39c60a83fdd18', version='v2.0.8'}
-CommitInfo{repo='GitHub', hash='ca273438840722fe9287685b2d00618cd693055a', version='v2.0.9'}
-CommitInfo{repo='GitHub', hash='91005bd86103f674f7eb1bdb5d0ea147a48a415a', version='v2.1.0'}
-CommitInfo{repo='GitHub', hash='d0fb1a0d61aa0e463be3e20879e7632d0a08872c', version='v2.10.0'}
-CommitInfo{repo='GitHub', hash='10f13da7dc8bf0675d9c87bb732de8bef70eab66', version='v2.100.0'}
-CommitInfo{repo='GitHub', hash='773a89499954919ac6fbeb0ddcb4ccb3f787fe6d', version='v2.101.0'}
-CommitInfo{repo='GitHub', hash='8cfdf11aa745b4e3b95ae3cc9349c4fc3eaad393', version='v2.102.0'}
-CommitInfo{repo='GitHub', hash='5a2ca97483297825205e1a09d992f64ee0ec5701', version='v2.103.0'}
-CommitInfo{repo='GitHub', hash='6a79945e226f8757681b2638caba7c278657ee65', version='v2.104.0'}
-CommitInfo{repo='GitHub', hash='e1886282f4c99e3b2a4c74279548b03d0e8d25f6', version='v2.105.0'}
-CommitInfo{repo='GitHub', hash='e1886282f4c99e3b2a4c74279548b03d0e8d25f6', version='v2.105.0'}
-CommitInfo{repo='GitHub', hash='ddc02e6c44ea71fe6a1a3228ce63487ec141ca92', version='v2.106.0'}
-CommitInfo{repo='GitHub', hash='dcc196a8c79a9546a8b6ec21b1854b9be90a5354', version='v2.107.0'}
-CommitInfo{repo='GitHub', hash='fb754dba8718e53a16f0dba9daedb5c107bda406', version='v2.108.0'}
-CommitInfo{repo='GitHub', hash='ccffe1451e8edef726f3abee6666e538ac2e97f9', version='v2.109.0'}
-CommitInfo{repo='GitHub', hash='ccffe1451e8edef726f3abee6666e538ac2e97f9', version='v2.109.0'}
-CommitInfo{repo='GitHub', hash='3e02217305d72b367d5445f529e44fabfaad7a0a', version='v2.1.1'}
-CommitInfo{repo='GitHub', hash='26f5750d98f774c72cc74aabd9bc084b7e9628a4', version='v2.1.10'}
-CommitInfo{repo='GitHub', hash='2b45e4d023ca2d041d4d6db35e22722ce6a0c7c1', version='v2.11.0'}
-CommitInfo{repo='GitHub', hash='02b9c97b76293352fe087e2025116ecf1901105c', version='v2.110.0'}
-CommitInfo{repo='GitHub', hash='ce59cd61428748eb7e40412e2b2ef75b65a69965', version='v2.1.11'}
-CommitInfo{repo='GitHub', hash='f8ba4c1a388de3f31b12ecccd51d8589ce805f71', version='v2.111.0'}
-CommitInfo{repo='GitHub', hash='75e340d5a00e293c9349591921a27a4a8cd71129', version='v2.1.12'}
-CommitInfo{repo='GitHub', hash='c8643e9f5ceffeb117cf25b52d5ff82441caed46', version='v2.112.0'}
-CommitInfo{repo='GitHub', hash='10f2b858d9fe600c362a04582634bbc484818931', version='v2.1.13'}
-CommitInfo{repo='GitHub', hash='b8323c44e529758458a61102bbbcfa44f9afff29', version='v2.113.0'}
-CommitInfo{repo='GitHub', hash='45a1bd64146469899ed536f3051f358167577875', version='v2.1.14'}
-CommitInfo{repo='GitHub', hash='84486ef337f5e0a423674ceca492aedd42cbd46d', version='v2.114.0'}
-CommitInfo{repo='GitHub', hash='821bb6be9f55898ed6d81822fb53da18aad32c99', version='v2.1.15'}
-CommitInfo{repo='GitHub', hash='5e22114787928450abfa0d8eeab828eba5f29110', version='v2.115.0'}
-CommitInfo{repo='GitHub', hash='eb83937b0dafec81cb0ac2a0b94b0ab426dd9a26', version='v2.1.16'}
-CommitInfo{repo='GitHub', hash='2a630e16293bc95f4f2edb91e822a080e8fd2424', version='v2.116.0'}
-CommitInfo{repo='GitHub', hash='47416560efb743b4242b6c9a65f6561e2ae815eb', version='v2.1.17'}
-CommitInfo{repo='GitHub', hash='b4578e190f0b325e355c9e81bd02d666a62c7666', version='v2.117.0'}
-CommitInfo{repo='GitHub', hash='69f05c427f503caea6845dabaf9183a0bb181846', version='v2.1.18'}
-CommitInfo{repo='GitHub', hash='8a43108d60aa0553d986cf4a7ca1951b5866b27b', version='v2.118.0'}
-CommitInfo{repo='GitHub', hash='afad5b72a0f0b19c0f6cd0de7ebd5fe467fc4767', version='v2.1.19'}
-CommitInfo{repo='GitHub', hash='123a520a69e6323f74cfde32f3b498568e120cb1', version='v2.119.0'}
-CommitInfo{repo='GitHub', hash='95d54984902987139f2b38fadf05924409167f5a', version='v2.1.2'}
-CommitInfo{repo='GitHub', hash='0234d82a36a417bd22cada1f7c1f70f0ab097b2f', version='v2.1.20'}
-CommitInfo{repo='GitHub', hash='e56cd9ea269edd457dbe9496b62c1c87374c31a3', version='v2.12.0'}
-CommitInfo{repo='GitHub', hash='2acb7054a5422fa88b69823f55fc2889ec42e9f1', version='v2.120.0'}
-CommitInfo{repo='GitHub', hash='d3ceaae49329932c94adfe20f9894db73d3be58d', version='v2.1.21'}
-CommitInfo{repo='GitHub', hash='4c75cada2893fb833ec2b0d6035f4fb1a4538ca0', version='v2.121.0'}
-CommitInfo{repo='GitHub', hash='35778b026bfebfe6b4e83140ebff86ba033c74c7', version='v2.1.22'}
-CommitInfo{repo='GitHub', hash='6e9b2b15b2213cb4a008d5fc3e37a57b731d711a', version='v2.122.0'}
-CommitInfo{repo='GitHub', hash='b867cf7601703cb54f94c4ec14471585ebc0bcdb', version='v2.1.23'}
-CommitInfo{repo='GitHub', hash='0875abbfd67de6e9738d16b6eb5b8d54f18f12af', version='v2.123.0'}
-CommitInfo{repo='GitHub', hash='5cc2e65b96ff9a77ad3b129a4e57ad74036798e3', version='v2.1.24'}
-CommitInfo{repo='GitHub', hash='17afb5ad667a2651938bb7520ceed1c1becd37c7', version='v2.124.0'}
-CommitInfo{repo='GitHub', hash='17afb5ad667a2651938bb7520ceed1c1becd37c7', version='v2.124.0'}
-CommitInfo{repo='GitHub', hash='71a3c0abbfe06f2382de321dceeecf252ed1d6c7', version='v2.1.25'}
-CommitInfo{repo='GitHub', hash='8673931835a178a131e4f8ffe841e61369ad9e64', version='v2.125.0'}
-CommitInfo{repo='GitHub', hash='d3b8962c530f9717d524123b83002024c3bd928d', version='v2.1.26'}
-CommitInfo{repo='GitHub', hash='664143d13054d8eb9e3d84d96769965e87be309b', version='v2.126.0'}
-CommitInfo{repo='GitHub', hash='ff0729150b7a0ea2d12b5482f6e853ff42321e96', version='v2.1.27'}
-CommitInfo{repo='GitHub', hash='afe798b85c4a16b490b8963e35dce6de4f9b1104', version='v2.127.0'}
-CommitInfo{repo='GitHub', hash='aabfbea4ebf2b01c06f7b1c9c1c1bcb07b92b8c8', version='v2.1.28'}
-CommitInfo{repo='GitHub', hash='d38bcfd1e85576915e8c51b7855e486dacc81c27', version='v2.128.0'}
-CommitInfo{repo='GitHub', hash='ac01539402082b8cf674cf3c079252df9903cd14', version='v2.1.29'}
-CommitInfo{repo='GitHub', hash='507fcb9c0d7ded2648b7ab0dafe7eba2b4f81a72', version='v2.129.0'}
-CommitInfo{repo='GitHub', hash='971af2e4b5908648ce9a0a655223632aa5870ef6', version='v2.1.3'}
-CommitInfo{repo='GitHub', hash='02164d0a77bd07051e9e1fcd6fabf8e9e7cc9129', version='v2.1.30'}
-CommitInfo{repo='GitHub', hash='e4d72fcb39fc1a990870c0efa33b5ee7ac3a637b', version='v2.13.0'}
-CommitInfo{repo='GitHub', hash='bdc8327466f2cd8f4b6a027d7c82178c8d77b950', version='v2.130.0'}
-CommitInfo{repo='GitHub', hash='2091913fef41c225814c53a4a2fb435ef7fe60c9', version='v2.1.31'}
-CommitInfo{repo='GitHub', hash='5511603d945576d7302ae7597136cecbe00ec3e8', version='v2.131.0'}
-CommitInfo{repo='GitHub', hash='fb0f95f43ea958846d932bb4e79934a4a548155f', version='v2.1.32'}
-CommitInfo{repo='GitHub', hash='488327a234ddef160a1592e717dd1e437560119a', version='v2.132.0'}
-CommitInfo{repo='GitHub', hash='8a307cfb0564a0be7a7e2cf2892c88aedbd67e6b', version='v2.1.33'}
-CommitInfo{repo='GitHub', hash='98b5e281c8a3f9633bd92a3a41fdc332030a2b22', version='v2.133.0'}
-CommitInfo{repo='GitHub', hash='08de9516754ea98b88bcc186c8b6ffbf89458502', version='v2.1.34'}
-CommitInfo{repo='GitHub', hash='881c5030c3ff1673ec38c5c502de08149d780bdf', version='v2.134.0'}
-CommitInfo{repo='GitHub', hash='670b61a3a9bfe38380560f72a08069f2c06d7ec0', version='v2.1.35'}
-CommitInfo{repo='GitHub', hash='2751999520ae13b989ab898f7582ed9f41fc4a39', version='v2.135.0'}
-CommitInfo{repo='GitHub', hash='99c0e1240bd1a8278c6258b8bac3ca6f44336ca4', version='v2.1.36'}
-CommitInfo{repo='GitHub', hash='506ba3783bbf5ed965bf60b03ec53920cde1ea20', version='v2.136.0'}
-CommitInfo{repo='GitHub', hash='66e1274a2c22cc184275918c356a1f5f0361d4e4', version='v2.1.37'}
-CommitInfo{repo='GitHub', hash='ebcb767ee7e85443c0e8d4478a7fc7dfc39c87ca', version='v2.137.0'}
-CommitInfo{repo='GitHub', hash='a4dcd6072b65bc1a1dcebd989081fe1c9c6184c9', version='v2.1.38'}
-CommitInfo{repo='GitHub', hash='e778e1768678d9a6068d49d75fa56004d22ff13a', version='v2.138.0'}
-CommitInfo{repo='GitHub', hash='89a08414895f74e54d39c8580a435dccb58c4d82', version='v2.1.39'}
-CommitInfo{repo='GitHub', hash='d723282755b763d9776e28dcad6abb7a20e1756d', version='v2.139.0'}
-CommitInfo{repo='GitHub', hash='8a15f085d87c52de38c2bbf645a80b8649627b30', version='v2.1.4'}
-CommitInfo{repo='GitHub', hash='61315bb286519273eca0ecbe8270987c9f05ae89', version='v2.1.40'}
-CommitInfo{repo='GitHub', hash='d911f8df388279403fa9c3e6d2e615ca87ab1729', version='v2.14.0'}
-CommitInfo{repo='GitHub', hash='d78a29ba72812a2c44667489d2f24c3eff615c3e', version='v2.140.0'}
-CommitInfo{repo='GitHub', hash='e0fcbe08bae68fdd86ce6a5bf50c726982553277', version='v2.1.41'}
-CommitInfo{repo='GitHub', hash='0b3f9ae16bc633a45504ff0e66474fa8bda9d6be', version='v2.141.0'}
-CommitInfo{repo='GitHub', hash='6ad65d3e09a3a4531c84d12b980e6fb9af136a0a', version='v2.1.42'}
-CommitInfo{repo='GitHub', hash='efe2e31d26d30775f8922353f964610304415f85', version='v2.142.0'}
-CommitInfo{repo='GitHub', hash='68d893421104df066d897875906d2fc58addc8fe', version='v2.1.43'}
-CommitInfo{repo='GitHub', hash='0bc3ec20a4fc297c29286cfed72fa7d3ef887689', version='v2.143.0'}
-CommitInfo{repo='GitHub', hash='c0ab39a7abd2672d05554f495aef8d39c9e09af4', version='v2.1.44'}
-CommitInfo{repo='GitHub', hash='8af948cb8d4a5b1dec065f6ee50a6855805ec968', version='v2.144.0'}
-CommitInfo{repo='GitHub', hash='320ee0c4e88769bfcb662f15dc1eb7e07bbb2e17', version='v2.1.45'}
-CommitInfo{repo='GitHub', hash='df8003a0b27d6c58e8ee7080ec9a74f04223d816', version='v2.145.0'}
-CommitInfo{repo='GitHub', hash='3b6419996e0380505bfc89131f46373892b0c8f8', version='v2.1.46'}
-CommitInfo{repo='GitHub', hash='27b9431768d6a48822c25f77aac0302185330c7d', version='v2.146.0'}
-CommitInfo{repo='GitHub', hash='44a2e95fcad8083b70d217754be27cd7a52c0747', version='v2.1.47'}
-CommitInfo{repo='GitHub', hash='dacf88a174ba60576bf49034a918a15e596b0368', version='v2.147.0'}
-CommitInfo{repo='GitHub', hash='e77a9f74c7b001f67956377e14ffb5b155413ce5', version='v2.1.48'}
-CommitInfo{repo='GitHub', hash='bcc98a5b19aede81932be81d4cefa3c7f9d83093', version='v2.148.0'}
-CommitInfo{repo='GitHub', hash='34c956b2543d5d26f73ca03c006e051a8cd1d4fe', version='v2.1.49'}
-CommitInfo{repo='GitHub', hash='1ecbb247704e094d6bafa771b596657ffa1f9571', version='v2.149.0'}
-CommitInfo{repo='GitHub', hash='5c239be98cb1bede93e771fbcfb4ecd56d0b2258', version='v2.1.5'}
-CommitInfo{repo='GitHub', hash='7dd7d9b343a1a626cb907b257bc24e0c9ff70693', version='v2.1.50'}
-CommitInfo{repo='GitHub', hash='5eec2b18b0b53e10c08b6e9e387de18bdd8f49b4', version='v2.15.0'}
-CommitInfo{repo='GitHub', hash='27354b179ae1ff2dd155d5ab5a4d0ea539681280', version='v2.150.0'}
-CommitInfo{repo='GitHub', hash='2d0981a8ef3c6b29dceb3e69b5c9a3eb3bb78621', version='v2.151.0'}
-CommitInfo{repo='GitHub', hash='2d0981a8ef3c6b29dceb3e69b5c9a3eb3bb78621', version='v2.151.0'}
-CommitInfo{repo='GitHub', hash='46a5ab29c1dc0a40e824cbabf623343c5e9e622a', version='v2.152.0'}
-CommitInfo{repo='GitHub', hash='b293eb4005b4301fe31412255b899b3f262e7cb5', version='v2.153.0'}
-CommitInfo{repo='GitHub', hash='d390fad3490a0bd4b9489db953ded8706d5f3ec7', version='v2.154.0'}
-CommitInfo{repo='GitHub', hash='4c8e625d365b89aa0338586cfb2ba2a522e4872f', version='v2.155.0'}
-CommitInfo{repo='GitHub', hash='b81c81052eaadb27fcf3b33ffcc83b3f2f8ac810', version='v2.156.0'}
-CommitInfo{repo='GitHub', hash='5a98407ce8902984dcc4e40269959dfe8abb2d71', version='v2.157.0'}
-CommitInfo{repo='GitHub', hash='b4d380d81cd4d4b2fedc0d389578cf2106f6cb13', version='v2.158.0'}
-CommitInfo{repo='GitHub', hash='51ea8e0b2abed00e0aa717c4910d051448b52adb', version='v2.159.0'}
-CommitInfo{repo='GitHub', hash='fc04887905f4a8dca1a96e1799c2f8bedab1cd01', version='v2.1.6'}
-CommitInfo{repo='GitHub', hash='04e2f1c1fc83285bf60ce89c88bf592ae400f507', version='v2.16.0'}
-CommitInfo{repo='GitHub', hash='b4c010fa5c70ba557e4fa542d70f6a82b49e2495', version='v2.160.0'}
-CommitInfo{repo='GitHub', hash='1d89e56e3ca57fcd0deaac01bfdf37e7a196a83b', version='v2.161.0'}
-CommitInfo{repo='GitHub', hash='653ad8f4fa458997e6f35bf1279749903851e1f1', version='v2.162.0'}
-CommitInfo{repo='GitHub', hash='abf4fd528ac05b08b7af0d78f14b847459511a32', version='v2.163.0'}
-CommitInfo{repo='GitHub', hash='2ddc5682ed63ae17a68460369607bebce207e695', version='v2.164.0'}
-CommitInfo{repo='GitHub', hash='36dd7de40c5d75263083c80affc12640d144abd7', version='v2.165.0'}
-CommitInfo{repo='GitHub', hash='e928b93159ecdc848e183d23bab5276aafe1e39b', version='v2.166.0'}
-CommitInfo{repo='GitHub', hash='7eed85b22649688b01c32f3d4849672d3361ccea', version='v2.167.0'}
-CommitInfo{repo='GitHub', hash='603acdcfcd182d84b8dd4bb9698e0d84b2056447', version='v2.168.0'}
-CommitInfo{repo='GitHub', hash='9e92c593cee8824832399c2628681b86e54612a8', version='v2.169.0'}
-CommitInfo{repo='GitHub', hash='e4eddec453e7ba4301ea36107ef9259e06286e41', version='v2.1.7'}
-CommitInfo{repo='GitHub', hash='6a1b00c11d7f4f08af3b3d08d14ef77d1349ce84', version='v2.17.0'}
-CommitInfo{repo='GitHub', hash='fe131895db916118fde508e709e39ccee8e15de4', version='v2.170.0'}
-CommitInfo{repo='GitHub', hash='6d717c4c6e566e090b923e9b4f5fc453865f3dad', version='v2.171.0'}
-CommitInfo{repo='GitHub', hash='f59df64d55e8ee3d1d8e4c37590d12bfa4fe0485', version='v2.172.0'}
-CommitInfo{repo='GitHub', hash='5d556e569733a4b282af40b83d4cb213cc845e3e', version='v2.173.0'}
-CommitInfo{repo='GitHub', hash='492220188734ba91685df2c51bf26f1cd64c375c', version='v2.174.0'}
-CommitInfo{repo='GitHub', hash='45570fae250a910bf7277f19b726ca328bcdad05', version='v2.175.0'}
-CommitInfo{repo='GitHub', hash='f48617340a2f843ee17ed4d442adc40bcaf6ac86', version='v2.176.0'}
-CommitInfo{repo='GitHub', hash='86793ba8dba9c10488d39ee93b8d201085bf0e89', version='v2.177.0'}
-CommitInfo{repo='GitHub', hash='48c9f0423368c76121bc11f19e53f2b22f2f3c43', version='v2.178.0'}
-CommitInfo{repo='GitHub', hash='0e239c272b057b32f81f46a7008762bc594b6acc', version='v2.179.0'}
-CommitInfo{repo='GitHub', hash='12ba49f4cc4bae730385c0a93d82bcb0fb810984', version='v2.1.8'}
-CommitInfo{repo='GitHub', hash='2b3b3555940c3ef9221c43703134ae1cf3118547', version='v2.18.0'}
-CommitInfo{repo='GitHub', hash='8e2bae61b2753316a080851537d9ba6ebae2762d', version='v2.180.0'}
-CommitInfo{repo='GitHub', hash='704995277d426be140b2c9a23856e5530321fa66', version='v2.181.0'}
-CommitInfo{repo='GitHub', hash='8d63025f0d34106438e245b141822b8911e87ca4', version='v2.182.0'}
-CommitInfo{repo='GitHub', hash='8d63025f0d34106438e245b141822b8911e87ca4', version='v2.182.0'}
-CommitInfo{repo='GitHub', hash='a9117af4b5c25f399aa48ef90678abd7c36fe4b4', version='v2.183.0'}
-CommitInfo{repo='GitHub', hash='43b9429fed1049f3a72f98433290a1e16a9db53d', version='v2.184.0'}
-CommitInfo{repo='GitHub', hash='cae0a4f0edc59a66e30321bbeb0554a694f52742', version='v2.185.0'}
-CommitInfo{repo='GitHub', hash='77a2693fc65736ddc6914b27afd56cd65a092668', version='v2.186.0'}
-CommitInfo{repo='GitHub', hash='37293449885a00a384357a05a0aaecedf4cf55ea', version='v2.187.0'}
-CommitInfo{repo='GitHub', hash='1f52beba04f74104df4b599a1499504b26f290cc', version='v2.188.0'}
-CommitInfo{repo='GitHub', hash='12c993f564984edeaacec19d503b905d295a5319', version='v2.189.0'}
-CommitInfo{repo='GitHub', hash='01ff101547ccf819b33db71eafea34e6d66fccfe', version='v2.1.9'}
-CommitInfo{repo='GitHub', hash='ab6a052f02b729fd9154e09ebc2981b1a0cec920', version='v2.19.0'}
-CommitInfo{repo='GitHub', hash='79d10f58019674f6706ee0fb0e79b2ef18daf563', version='v2.190.0'}
-CommitInfo{repo='GitHub', hash='1f07afaed7c8a069e0e25b1d0aa4c9ee1037b42d', version='v2.191.0'}
-CommitInfo{repo='GitHub', hash='1f3e24112a95f03e2027050dd9d112f3f794f9b9', version='v2.192.0'}
-CommitInfo{repo='GitHub', hash='1f3e24112a95f03e2027050dd9d112f3f794f9b9', version='v2.192.0'}
-CommitInfo{repo='GitHub', hash='3d8b2e9abbe6261f3c4098c67745db051f1f21ad', version='v2.193.0'}
-CommitInfo{repo='GitHub', hash='b50b2c9153a175819133d78d785e842faa493f9b', version='v2.194.0'}
-CommitInfo{repo='GitHub', hash='fa2f5498d42dc17b169d8a0de040b46588230cb4', version='v2.195.0'}
-CommitInfo{repo='GitHub', hash='840ccd7877c2682069a8a92f6c44f2d60a62d25b', version='v2.196.0'}
-CommitInfo{repo='GitHub', hash='9f42cb4f5910cb47ef29181fdebea7437eb26913', version='v2.197.0'}
-CommitInfo{repo='GitHub', hash='afa008820b8cd1017a55f23377df91396b485d5e', version='v2.198.0'}
-CommitInfo{repo='GitHub', hash='880dec7910972f7c0f4449ddb31d2f80acc06f59', version='v2.199.0'}
-CommitInfo{repo='GitHub', hash='ed33efdd856e0c5b8ec6eda6de367b91e5ef6b24', version='v2.2.0'}
-CommitInfo{repo='GitHub', hash='fdc0895a0fbcbb070c12d66fd8ec2370d653690f', version='v2.20.0'}
-CommitInfo{repo='GitHub', hash='9d1c09d4c403dcac6a30e695482dc7ac28807064', version='v2.200.0'}
-CommitInfo{repo='GitHub', hash='e1f3923bdf6744c04b7329dc2d0ac5dc8dfb3302', version='v2.201.0'}
-CommitInfo{repo='GitHub', hash='b5f0db7a67ce3ca9a9980b66aaef197acac60ab9', version='v2.202.0'}
-CommitInfo{repo='GitHub', hash='4325060bff4ea2e82fb0e3f6e7a1811a197a94f9', version='v2.203.0'}
-CommitInfo{repo='GitHub', hash='924d0221e9a643bce1b0e5484f07ada205aeab2c', version='v2.204.0'}
-CommitInfo{repo='GitHub', hash='0fb21c06f67fdc960882aeffe3a01e9ab174e2c9', version='v2.205.0'}
-CommitInfo{repo='GitHub', hash='0a9f9e858a185a2cf09573c8167088adb9c7e74c', version='v2.206.0'}
-CommitInfo{repo='GitHub', hash='fa711eb42c76b89506d5266988b6c76e5c9be696', version='v2.207.0'}
-CommitInfo{repo='GitHub', hash='818a94bac328f65a068aa87371a5fe60854c4991', version='v2.208.0'}
-CommitInfo{repo='GitHub', hash='545b481949f6df544cd38fa7e56750e8194a4df6', version='v2.209.0'}
-CommitInfo{repo='GitHub', hash='d257e7e0497896dd89136f22dbc9e1faa29ab33c', version='v2.2.1'}
-CommitInfo{repo='GitHub', hash='fe184e5064c3daef261c9ff95ba9282f854c6ae3', version='v2.2.10'}
-CommitInfo{repo='GitHub', hash='bc5aab63f0d52bf95f53887d0cdd6ccb5ac52e4c', version='v2.21.0'}
-CommitInfo{repo='GitHub', hash='b054b41e3de1e0e3e9362286a9b6ecf5dc3cd1a4', version='v2.210.0'}
-CommitInfo{repo='GitHub', hash='de899ccde8facb8489c971990725b5c277e401f5', version='v2.2.11'}
-CommitInfo{repo='GitHub', hash='a5a796c16b2024f92b5b9ad47389da55c725c054', version='v2.211.0'}
-CommitInfo{repo='GitHub', hash='32b0d924f31589e5d9cf4df21955a31d17d9969f', version='v2.211.1'}
-CommitInfo{repo='GitHub', hash='4e8ae64d36e57447a88302f554299e7de57ca21e', version='v2.2.12'}
-CommitInfo{repo='GitHub', hash='d41f6b2e137fb75f959696604960145353ebd0dc', version='v2.212.1'}
-CommitInfo{repo='GitHub', hash='38b983777b323b7e22421df20f9d59bdd0e43a38', version='v2.2.13'}
-CommitInfo{repo='GitHub', hash='3a14acee4b7d402c62bedec6b1087fe0b06001cf', version='v2.213.1'}
-CommitInfo{repo='GitHub', hash='6306fe825bff4f6218ea405c07f16d67dd5b9b9a', version='v2.2.14'}
-CommitInfo{repo='GitHub', hash='9c27fd7e215330571a64aa8af43b9fad893b9ec8', version='v2.214.1'}
-CommitInfo{repo='GitHub', hash='76d17d33404db0b88bb1f971ffb4ecad76e7a9cd', version='v2.2.15'}
-CommitInfo{repo='GitHub', hash='be6f7073d6545dfd49296453e3d5e8583a16eb0a', version='v2.215.1'}
-CommitInfo{repo='GitHub', hash='3a258c98578494d7cbc1ea18e1590f0622df31f7', version='v2.2.16'}
-CommitInfo{repo='GitHub', hash='5349bc82e51d93cd6f19253a126ec247d1e0b8b2', version='v2.216.1'}
-CommitInfo{repo='GitHub', hash='47f6e3d77b58997d8e5af6c80a0709280c4c54dc', version='v2.2.17'}
-CommitInfo{repo='GitHub', hash='915501ff717c6c9d2e05f6ea168a434fc1d00f37', version='v2.217.1'}
-CommitInfo{repo='GitHub', hash='ae68e4cc627889ae89559d88eda5b12b5c675c5a', version='v2.2.18'}
-CommitInfo{repo='GitHub', hash='d32e92643ea3baab6cfade078de2634929da1d21', version='v2.218.1'}
-CommitInfo{repo='GitHub', hash='93147f23804781efb537d2fce60e12b2bae708b0', version='v2.2.19'}
-CommitInfo{repo='GitHub', hash='70191b1a82d1a74fca0e706355e54dcb480a37ed', version='v2.219.1'}
-CommitInfo{repo='GitHub', hash='120ea5afe58afca94632683469944d3e0cf47f2c', version='v2.2.2'}
-CommitInfo{repo='GitHub', hash='4ffe5a57a249ac5ba038c1bcdefb78de0980e145', version='v2.2.20'}
-CommitInfo{repo='GitHub', hash='975b315d9d6cd4dd4a3de727585bb3b81227b9f3', version='v2.22.0'}
-CommitInfo{repo='GitHub', hash='5dacf0a2b35ec7b54f08e8af19e205bb2e996097', version='v2.220.1'}
-CommitInfo{repo='GitHub', hash='0966bd25a70cfdc68edb1ca93d998f6506869f3c', version='v2.2.21'}
-CommitInfo{repo='GitHub', hash='d6518e0f73f62aae688acc4cd9ee74f1af2f3326', version='v2.221.1'}
-CommitInfo{repo='GitHub', hash='d20ddadd7ac39b81f4262cacd1ad29813988bf84', version='v2.2.22'}
-CommitInfo{repo='GitHub', hash='7ada7a0ce97286d2adda5457f1013e33a1ec5b1c', version='v2.222.1'}
-CommitInfo{repo='GitHub', hash='f84679d85ba932c6ad1139ebcf8e9e577e0a11df', version='v2.2.23'}
-CommitInfo{repo='GitHub', hash='f6dfa2814357ef48f9a2aa485c0d7e484e508ab6', version='v2.223.1'}
-CommitInfo{repo='GitHub', hash='b19e57f8efb4c3865c153b9b4b7e01e5d2eb41a4', version='v2.2.24'}
-CommitInfo{repo='GitHub', hash='214b42460882384ab1ac5edd6ec48a6076f31f8f', version='v2.224.1'}
-CommitInfo{repo='GitHub', hash='f1f1fce6700bb0a934b1016f6b1a8cf786d6bb02', version='v2.2.25'}
-CommitInfo{repo='GitHub', hash='af30c6c63ca0f6dc17d5f32e1b7ffff50bd4e79d', version='v2.225.1'}
-CommitInfo{repo='GitHub', hash='c1fb488760cea28dd166b1c94ad20e8cda938b01', version='v2.2.26'}
-CommitInfo{repo='GitHub', hash='6863343836dac1ee8eb3b135b5352600d23de1da', version='v2.226.1'}
-CommitInfo{repo='GitHub', hash='c47fd1d2690acf0266084c091abe04753816df0a', version='v2.2.27'}
-CommitInfo{repo='GitHub', hash='1c9883996b22a7e67f64dab32e0e4ec9bf809959', version='v2.227.1'}
-CommitInfo{repo='GitHub', hash='581da55ed84c890417e42d392d7ee9ed9cf98206', version='v2.2.28'}
-CommitInfo{repo='GitHub', hash='d07fbad92769a5d3b9066d7aa78a89f0e152956f', version='v2.228.1'}
-CommitInfo{repo='GitHub', hash='179139a5acdce2d422d5b773341fe95bae5cc107', version='v2.2.29'}
-CommitInfo{repo='GitHub', hash='47cabc88feab810994db03cf1cccdea9d9e3cd9b', version='v2.229.1'}
-CommitInfo{repo='GitHub', hash='67eca4cd6f82ed74771d933a71adf3a0530b48a9', version='v2.2.3'}
-CommitInfo{repo='GitHub', hash='02c28ba360ace48c62b23e06be61e26843ad9dca', version='v2.2.30'}
-CommitInfo{repo='GitHub', hash='cd6f7281d3453b8b70e8a6bd4f2192aa5d3a2524', version='v2.23.0'}
-CommitInfo{repo='GitHub', hash='4ea818e7e2edbc6f60ac274e0f06b29b450b0d66', version='v2.230.1'}
-CommitInfo{repo='GitHub', hash='421923a0d121824ceec50af2139212797adef5b6', version='v2.2.31'}
-CommitInfo{repo='GitHub', hash='ec96800159122f2028a7d2895db051254d4b8437', version='v2.231.1'}
-CommitInfo{repo='GitHub', hash='7e291e8852910eb924acea3e445711ba4c0971f6', version='v2.2.32'}
-CommitInfo{repo='GitHub', hash='d6fbc4e81a560c06b93a3341854480ef1002d48c', version='v2.232.1'}
-CommitInfo{repo='GitHub', hash='991a05cf69591a3e227df381756ba85f017f1c58', version='v2.2.33'}
-CommitInfo{repo='GitHub', hash='707f7ee3f37a4ce896cc6c9281dcee4d2ae8cf22', version='v2.233.1'}
-CommitInfo{repo='GitHub', hash='375fe6b57a715bc2d68a85e243be2a5cb81eec78', version='v2.2.34'}
-CommitInfo{repo='GitHub', hash='9a095ccc7364d585bf1eebefb9d404070776f034', version='v2.234.1'}
-CommitInfo{repo='GitHub', hash='7a2c63f3298d241dfb4bdc4e4426de202b9549a7', version='v2.2.35'}
-CommitInfo{repo='GitHub', hash='2b84fb51bbbb54430cc6b44d7761f0f9c65cc8ac', version='v2.235.1'}
-CommitInfo{repo='GitHub', hash='b99a4d5e0a12e114027cbcd1402af68ec069d73b', version='v2.2.36'}
-CommitInfo{repo='GitHub', hash='864f19874dddb4df48a6d74064c54c922fb4d18b', version='v2.236.1'}
-CommitInfo{repo='GitHub', hash='ec3008f1866c16afde99a15faac4da6880999f2f', version='v2.2.37'}
-CommitInfo{repo='GitHub', hash='c8fd3af3a5705d6b997499da9eadbc7505fdae46', version='v2.237.1'}
-CommitInfo{repo='GitHub', hash='dc459d6d874152707b20cc7e7e435004e1dd3640', version='v2.2.38'}
-CommitInfo{repo='GitHub', hash='eef6e5c864210fef3b31081200fabc314702da40', version='v2.238.1'}
-CommitInfo{repo='GitHub', hash='158e4ec96b171738399afecc4bcdd50fcba26988', version='v2.2.39'}
-CommitInfo{repo='GitHub', hash='c4c3286ce259d36d27130f90922121b4d8b00481', version='v2.239.1'}
-CommitInfo{repo='GitHub', hash='17a6cc5f55e84b7b162956c1f48f3c8b62139764', version='v2.2.4'}
-CommitInfo{repo='GitHub', hash='b327a1dc5f470ad44cd79d4931f76eb7104cc8ea', version='v2.2.40'}
-CommitInfo{repo='GitHub', hash='b98cc2e447c75811a1829fe4cbe69b8ba5df6c35', version='v2.24.0'}
-CommitInfo{repo='GitHub', hash='120e2c21898f617113e0e0c451c92e2dea2e0526', version='v2.240.1'}
-CommitInfo{repo='GitHub', hash='fb1352155e26d5d529885246b11b6df3bcce6623', version='v2.2.41'}
-CommitInfo{repo='GitHub', hash='e2723e112730c0df351322e00a544ceee823ee64', version='v2.241.1'}
-CommitInfo{repo='GitHub', hash='bceca7277941c30c93367c5e9a5935df4fb2500f', version='v2.2.42'}
-CommitInfo{repo='GitHub', hash='9643591f4d54521c20e62fad6a5a8a63c4ddf50f', version='v2.242.1'}
-CommitInfo{repo='GitHub', hash='23faf40932a4bed1fc63879b1a9ce692e961960e', version='v2.2.43'}
-CommitInfo{repo='GitHub', hash='44a92eeac697abd054f7d3e26cbaeb403b3bd4a2', version='v2.243.1'}
-CommitInfo{repo='GitHub', hash='a59069b2f7b863aa87556b4486f095e6ebab60db', version='v2.2.44'}
-CommitInfo{repo='GitHub', hash='97f3a85ed02148567f03112ab0b9bbc0036dbbe2', version='v2.244.1'}
-CommitInfo{repo='GitHub', hash='7fa8798ebe6c1a0c8e8629e910ed098ec4f51185', version='v2.2.45'}
-CommitInfo{repo='GitHub', hash='43f996d9f5081d525b4e40a09dff095759cca062', version='v2.245.1'}
-CommitInfo{repo='GitHub', hash='cb5ff41d04a7237b32ec10bcb521a974e693f6bb', version='v2.2.46'}
-CommitInfo{repo='GitHub', hash='61b95136d7b45412cea0790434b362be910ce419', version='v2.246.1'}
-CommitInfo{repo='GitHub', hash='a467169acf01e510d63cc3fce10e24a1aaa8452c', version='v2.2.47'}
-CommitInfo{repo='GitHub', hash='897e343a140ada184e498ab9eb589d5e4b1c6955', version='v2.247.1'}
-CommitInfo{repo='GitHub', hash='f04eeedaf38b2cd06450fb909b68f3a4f784ce1e', version='v2.2.48'}
-CommitInfo{repo='GitHub', hash='9c3260495b092a55aee0fbea086c56a67f8f0b2c', version='v2.248.1'}
-CommitInfo{repo='GitHub', hash='83094bb21b7afb0bd314cc242b2549a07baa87aa', version='v2.249.1'}
-CommitInfo{repo='GitHub', hash='21a5bf239c6462373be5d262a85b6963989040a6', version='v2.2.5'}
-CommitInfo{repo='GitHub', hash='971646efc9c56591f2d3a67df55e32ee1c02038f', version='v2.25.0'}
-CommitInfo{repo='GitHub', hash='eff411003edf9037e57fd298d68351e86dd1febe', version='v2.250.1'}
-CommitInfo{repo='GitHub', hash='a5e750cdbfba617c154d4e12928a99c9fbfc8c28', version='v2.251.1'}
-CommitInfo{repo='GitHub', hash='8503bf70ece4e1b15f9d96cbb4aed701bfdaee44', version='v2.252.1'}
-CommitInfo{repo='GitHub', hash='681936f96a6613eab02af5d5f2ac621dcfff46ee', version='v2.253.1'}
-CommitInfo{repo='GitHub', hash='0a7112befbfe3a546708e0fcb4f243d166cc2e85', version='v2.254.1'}
-CommitInfo{repo='GitHub', hash='0fba618f984350a8c0cd0fa3c3e861e0363cc729', version='v2.255.1'}
-CommitInfo{repo='GitHub', hash='3cedc60213ff5c56307adc3207778e831a3304e9', version='v2.256.1'}
-CommitInfo{repo='GitHub', hash='8f8d1cc6429cdb1684858ba834aca87559bd37cf', version='v2.257.1'}
-CommitInfo{repo='GitHub', hash='8f8d1cc6429cdb1684858ba834aca87559bd37cf', version='v2.257.1'}
-CommitInfo{repo='GitHub', hash='baff9c74d251b6f683e695f08971c61c13bc64e0', version='v2.258.1'}
-CommitInfo{repo='GitHub', hash='81babe816c5741920d473caa3026ad77cedd19b6', version='v2.259.1'}
-CommitInfo{repo='GitHub', hash='70d2f084f432fcbff0b774476d76a4a8d0cee8cb', version='v2.2.6'}
-CommitInfo{repo='GitHub', hash='5abfca7fdf0d62463b0da9d9ca5fcdf5e8cfb687', version='v2.26.0'}
-CommitInfo{repo='GitHub', hash='001a9b69707b34917dbc7128b23c591208cd0f1f', version='v2.260.1'}
-CommitInfo{repo='GitHub', hash='8f886b71bc4c1c51552299221b241551c46a11b6', version='v2.261.1'}
-CommitInfo{repo='GitHub', hash='0f277a10e4d6bb7d2162e4d5ab3ed95410933d35', version='v2.262.1'}
-CommitInfo{repo='GitHub', hash='cc29728c1c4178969ebabe3bbe6b6f3159436394', version='v2.263.1'}
-CommitInfo{repo='GitHub', hash='046a1adcc0bac4067b795b90fcca211ab1fa2798', version='v2.264.1'}
-CommitInfo{repo='GitHub', hash='e5e5b28f04a6ffe8988c7a511df2ebe502d1e9f2', version='v2.265.1'}
-CommitInfo{repo='GitHub', hash='5e3d129184b8ab8cc966b8822dd8bf245054d472', version='v2.266.1'}
-CommitInfo{repo='GitHub', hash='b8a4ee71e784e31e258b0dec14b43ae39e79140f', version='v2.267.1'}
-CommitInfo{repo='GitHub', hash='f5a9d4295fb9495a110cfe9b3b200f773699fc52', version='v2.268.1'}
-CommitInfo{repo='GitHub', hash='a56b2c08ba4bb045725c6e5b40e2aa667507e84b', version='v2.269.1'}
-CommitInfo{repo='GitHub', hash='2dcbc29ade5ace5c80662c70d440d98c26b41c8c', version='v2.2.7'}
-CommitInfo{repo='GitHub', hash='719fd612bcfbe93b32702b44c68614188b61c0aa', version='v2.27.0'}
-CommitInfo{repo='GitHub', hash='5111e76fea13d153b62235e542c84c7b018cd952', version='v2.270.1'}
-CommitInfo{repo='GitHub', hash='bf40be4f679fe9aa33d9359d65aa10cd312edc30', version='v2.271.1'}
-CommitInfo{repo='GitHub', hash='a1eb75efd5d13c92a9e9b1cbed9795d8e128c530', version='v2.272.1'}
-CommitInfo{repo='GitHub', hash='33ba6432c192d65d4a3db2cf3902873e4c0255c8', version='v2.273.1'}
-CommitInfo{repo='GitHub', hash='279db76b4ecc0970cb2ab35059b04e1fdd5e161a', version='v2.274.1'}
-CommitInfo{repo='GitHub', hash='d6573a8baf893b9106fb2b795469e60cf7dc2f14', version='v2.275.1'}
-CommitInfo{repo='GitHub', hash='31cc500d4d83e5f74e83853b8fdbc580efff08a8', version='v2.276.1'}
-CommitInfo{repo='GitHub', hash='75978fcfe4186d5a310e9b5c6d6328e90997edf0', version='v2.277.1'}
-CommitInfo{repo='GitHub', hash='1921d7e42e703a3460d7bc3f2938a850349cf9fb', version='v2.278.1'}
-CommitInfo{repo='GitHub', hash='f16d34054deb5dea47e64682272d369832f96553', version='v2.279.1'}
-CommitInfo{repo='GitHub', hash='7b2757e0cce1bb40e7377e6cb3d34fe192efed61', version='v2.2.8'}
-CommitInfo{repo='GitHub', hash='3a190e05a7c88f858c73bb633b889dafa88b8d46', version='v2.28.0'}
-CommitInfo{repo='GitHub', hash='ad7168ee76492dd293e1ccaaf252a25b8e125b51', version='v2.280.1'}
-CommitInfo{repo='GitHub', hash='06daf85d10cfcac948bcfa12b5b865b72dc99831', version='v2.281.1'}
-CommitInfo{repo='GitHub', hash='bb421b7553b0e8a79299475a26e8c65350e642a1', version='v2.282.1'}
-CommitInfo{repo='GitHub', hash='5b8d5c3667ec96e58450667e6013b9830a6b4fef', version='v2.283.1'}
-CommitInfo{repo='GitHub', hash='ebf03c7404d02068baeb89ca102a82215440c8b4', version='v2.284.1'}
-CommitInfo{repo='GitHub', hash='bf70ef94c7d1618de1c86d01f3f98491a0f766d8', version='v2.285.1'}
-CommitInfo{repo='GitHub', hash='d626206687fc249bc02a4d2c38d97753a023a7d0', version='v2.286.1'}
-CommitInfo{repo='GitHub', hash='5aa0d4de0a0473b4578703621f848dd6cb10a5ed', version='v2.286.2'}
-CommitInfo{repo='GitHub', hash='67081dcf5c07bd26cd06e9262149b522430c5e12', version='v2.287.0'}
-CommitInfo{repo='GitHub', hash='c208c6518ca1081e86e708d8491090331d921928', version='v2.288.0'}
-CommitInfo{repo='GitHub', hash='240bf4de43a9f8df3f092b73ceb0684841cb148d', version='v2.289.0'}
-CommitInfo{repo='GitHub', hash='857cbb6bb726c8b12122ecf54a9978da6e268863', version='v2.2.9'}
-CommitInfo{repo='GitHub', hash='18deee05a4e7113d61dd3fc1c54123312d7f7e6d', version='v2.29.0'}
-CommitInfo{repo='GitHub', hash='0e4934ad91a346f1ea14e3e83ca27a4dab7ecba3', version='v2.290.0'}
-CommitInfo{repo='GitHub', hash='c32342673da339ebfee717abb936d5f671912623', version='v2.291.0'}
-CommitInfo{repo='GitHub', hash='11da4266bc07210c27d4d6e851c328730db2eba7', version='v2.292.0'}
-CommitInfo{repo='GitHub', hash='f7728f45dd80c5d4919652720a773d343aaab8af', version='v2.293.0'}
-CommitInfo{repo='GitHub', hash='462e8d5d3cf032a94e24e2a75e86be0dce77447b', version='v2.294.0'}
-CommitInfo{repo='GitHub', hash='79247287dc16a883a448725d97691e67dd8d806a', version='v2.295.0'}
-CommitInfo{repo='GitHub', hash='b0739d8e55bcacd92749df0647b8c62251835c70', version='v2.296.0'}
-CommitInfo{repo='GitHub', hash='bbbbf8ee58ecb7520b12065ffb66627639569c8a', version='v2.297.0'}
-CommitInfo{repo='GitHub', hash='4cf44bbc872897cdc24e20210bf2674e6811f895', version='v2.298.0'}
-CommitInfo{repo='GitHub', hash='8c3043b352bc7127934cba5a7487d3bc6f3a8b8c', version='v2.299.0'}
-CommitInfo{repo='GitHub', hash='266875c2e6a6ef5f9ff875e2cdaf36e10018d2da', version='v2.3.0'}
-CommitInfo{repo='GitHub', hash='40dcb0b38c26c26dcc86e4d7abe23e809d375282', version='v2.30.0'}
-CommitInfo{repo='GitHub', hash='53916e832f5ed3c48da7be552bc9ad09106148aa', version='v2.300.0'}
-CommitInfo{repo='GitHub', hash='f8d1a11ee8a0385f771c7576f5b540793c82937a', version='v2.301.0'}
-CommitInfo{repo='GitHub', hash='677704588c3b52b3b82cec3146ec20d2f6803368', version='v2.302.0'}
-CommitInfo{repo='GitHub', hash='7a4e1981688a9fa156db3e1197477a69460dfe5a', version='v2.303.0'}
-CommitInfo{repo='GitHub', hash='19a944b5089901f7cb42fe1326f376fa83f4546f', version='v2.304.0'}
-CommitInfo{repo='GitHub', hash='3fc6181f33d349a98cef844949a5f3aa21b9ebcb', version='v2.305.0'}
-CommitInfo{repo='GitHub', hash='770145227b90b08779805c6b3e4f36390ade8b12', version='v2.306.0'}
-CommitInfo{repo='GitHub', hash='85f776a761ed265217beb03ae19624814a537906', version='v2.307.0'}
-CommitInfo{repo='GitHub', hash='33a0cd135c198fe46649da1dfbc580fb3d6af322', version='v2.308.0'}
-CommitInfo{repo='GitHub', hash='e0ffda59181174e59041e1d9561fff2cbf947a6a', version='v2.309.0'}
-CommitInfo{repo='GitHub', hash='1babda0c31df6f4dfe3618b686feb6a93fa8a322', version='v2.3.1'}
-CommitInfo{repo='GitHub', hash='898708262c83facebd86c93734eed4933d300a89', version='v2.3.10'}
-CommitInfo{repo='GitHub', hash='1a46ee6537a0fdcb67b655ae11d434a123c65123', version='v2.31.0'}
-CommitInfo{repo='GitHub', hash='0b5e95cc788866c135933e5b94feaeaf0b7e6152', version='v2.310.0'}
-CommitInfo{repo='GitHub', hash='ad17e01a77e5959f0f5fdbd4ab2bc13dc3ae3c28', version='v2.3.11'}
-CommitInfo{repo='GitHub', hash='cf6b9a02f7921bb3d984a47a6e1eeb974ee40743', version='v2.311.0'}
-CommitInfo{repo='GitHub', hash='2de8ea1c0335fed90977705f50f5974d45853377', version='v2.3.12'}
-CommitInfo{repo='GitHub', hash='4ed5104d4c3fa2728594854b70737009d815268c', version='v2.312.0'}
-CommitInfo{repo='GitHub', hash='997b09b9c32d1bf9192c93fbb3b366092324c8af', version='v2.3.13'}
-CommitInfo{repo='GitHub', hash='9dd7095cfb52cebd90a31e4cd2e2950c69946a11', version='v2.313.0'}
-CommitInfo{repo='GitHub', hash='78a5d09c3815e0563269bfdb8b99853e5dfc8cf2', version='v2.3.14'}
-CommitInfo{repo='GitHub', hash='9aa6cfbcf29ca74b4a017dc7f710caa12e5b2ec8', version='v2.314.0'}
-CommitInfo{repo='GitHub', hash='58550d4643f25cac73cc7945be4dff62af17bfa4', version='v2.3.15'}
-CommitInfo{repo='GitHub', hash='4f022812007e44117a3ad171462542d13c89317a', version='v2.315.0'}
-CommitInfo{repo='GitHub', hash='a452b08ce1c0fd9f2c8c98ffe69c90b9ceb38eca', version='v2.3.16'}
-CommitInfo{repo='GitHub', hash='b319e06e455d4ba3e66019bbd049c6cb996d2fc0', version='v2.316.0'}
-CommitInfo{repo='GitHub', hash='e809d56f9204c0889c2f9726bf3b7d7e28d59c50', version='v2.3.17'}
-CommitInfo{repo='GitHub', hash='dc705e0f4a7e62e7e2f1ef7ed0aee95dbe349805', version='v2.317.0'}
-CommitInfo{repo='GitHub', hash='51ade30e70b2dd49e17b098b8230cb6978a2e3a6', version='v2.3.18'}
-CommitInfo{repo='GitHub', hash='01039b3e5b1299ede23776a9bb56db9aeded1c2d', version='v2.318.0'}
-CommitInfo{repo='GitHub', hash='c2c3a809919a85c0502f820974be71990827112e', version='v2.3.19'}
-CommitInfo{repo='GitHub', hash='8c66f351fd4df31e8e3f1bd9d2caa1c6273ac14e', version='v2.319.0'}
-CommitInfo{repo='GitHub', hash='5b49f61185f1b0f56569fd5cab858b5e74cbd9f4', version='v2.3.2'}
-CommitInfo{repo='GitHub', hash='78b8b18e4eea0e6c20d83cda323c2cd25043ab8f', version='v2.32.0'}
-CommitInfo{repo='GitHub', hash='ddc67e681cc74e10e013a6081e288d8731afe95f', version='v2.320.0'}
-CommitInfo{repo='GitHub', hash='3fe5f68a7db896671263a9f805f770ef78fcb386', version='v2.321.0'}
-CommitInfo{repo='GitHub', hash='3fe5f68a7db896671263a9f805f770ef78fcb386', version='v2.321.0'}
-CommitInfo{repo='GitHub', hash='cabf1fa2163dad9a07f2e081f7e30f52bef8c036', version='v2.322.0'}
-CommitInfo{repo='GitHub', hash='6e7dfeb18286ba354c91736340019487a7fd7682', version='v2.323.0'}
-CommitInfo{repo='GitHub', hash='1f0fa4fc35ba0f9aa2599bf31b4f510cd1ad2aa1', version='v2.324.0'}
-CommitInfo{repo='GitHub', hash='00498827134d4ef4385387d668862215dde1b598', version='v2.325.0'}
-CommitInfo{repo='GitHub', hash='56b7ccf116decac0679e74c6a4a6e108c590ceeb', version='v2.326.0'}
-CommitInfo{repo='GitHub', hash='aab0b99d72d0a90260bca5b4fd2a0fa2ff4de946', version='v2.327.0'}
-CommitInfo{repo='GitHub', hash='e004bea910c20ea81dfd3162001e56a3fcb76089', version='v2.328.0'}
-CommitInfo{repo='GitHub', hash='25dcd9d1f484ea214363ad50212bf51f392f4a67', version='v2.329.0'}
-CommitInfo{repo='GitHub', hash='d8724e679857dc6b19867db0145f5a216eec948b', version='v2.3.3'}
-CommitInfo{repo='GitHub', hash='1552e1bd4b914a36be94ec686b95f536ac30b566', version='v2.33.0'}
-CommitInfo{repo='GitHub', hash='d5ea34e9abc3d2e2bdddba5dccd72927d80f261d', version='v2.330.0'}
-CommitInfo{repo='GitHub', hash='18e6859dee453171ad3f371cb961ac69edd58bea', version='v2.331.0'}
-CommitInfo{repo='GitHub', hash='849671562b5c336238df756ec054816deeee82bd', version='v2.332.0'}
-CommitInfo{repo='GitHub', hash='15565095103e7f33da109e724375d85be7d5ae15', version='v2.333.0'}
-CommitInfo{repo='GitHub', hash='8878346af3cbd2affa87febe8c26d30e9b526f26', version='v2.334.0'}
-CommitInfo{repo='GitHub', hash='9ef04224bb4b3da437be039c19d4b25a08dc7a6e', version='v2.335.0'}
-CommitInfo{repo='GitHub', hash='907d609d08bdcc3b2eaaa875e2cd4ac05df3e4c2', version='v2.336.0'}
-CommitInfo{repo='GitHub', hash='5ce9d6e27f28495ffca53dcec64e006ad52c4cc6', version='v2.337.0'}
-CommitInfo{repo='GitHub', hash='264505734d811f9688a54864eaa6b5332cba1999', version='v2.338.0'}
-CommitInfo{repo='GitHub', hash='077142068f78ed3baf01e8c2edfa453466800499', version='v2.339.0'}
-CommitInfo{repo='GitHub', hash='de7622da941334252b300de73f2a50febd672b3c', version='v2.3.4'}
-CommitInfo{repo='GitHub', hash='1c6135ee3cc0cdf39d189950b795512267ab2994', version='v2.34.0'}
-CommitInfo{repo='GitHub', hash='083e7a6ed9fd7ae7fd01e18a57bf732ba83faa10', version='v2.340.0'}
-CommitInfo{repo='GitHub', hash='29fc8d39b73a9c7c15b6bc8fb28cf5ef313691f4', version='v2.341.0'}
-CommitInfo{repo='GitHub', hash='93982ab41f9bf52bcbba105234c235040fcd0633', version='v2.342.0'}
-CommitInfo{repo='GitHub', hash='074dd3b481cae15d44cb5dbeb6fc34821098bc06', version='v2.343.0'}
-CommitInfo{repo='GitHub', hash='10ece2793b04d4c0aeb8cd31ca91818c8205260e', version='v2.344.0'}
-CommitInfo{repo='GitHub', hash='ef650d472bd35c537c30c6539ecc897febb02197', version='v2.345.0'}
-CommitInfo{repo='GitHub', hash='06d940527fa4dfcdb009c4f248060fb4fb0d4d8f', version='v2.346.0'}
-CommitInfo{repo='GitHub', hash='03631db71e664d9c565a2e4f8e19f3f6fb8826b0', version='v2.347.0'}
-CommitInfo{repo='GitHub', hash='67c4d1650e284907517ce3a4b2ec5b1c2925a8c9', version='v2.348.0'}
-CommitInfo{repo='GitHub', hash='55885a3ab705fccf003dc6de7394de9fe0d2a915', version='v2.349.0'}
-CommitInfo{repo='GitHub', hash='a1027ec0e22a447426b66b5274b59346800ffa25', version='v2.3.5'}
-CommitInfo{repo='GitHub', hash='c5c0a612c7964a256d90bae0dc5400d090fa7664', version='v2.35.0'}
-CommitInfo{repo='GitHub', hash='66e7431a57d0a855ad6ed8b36f403fc82f411da0', version='v2.350.0'}
-CommitInfo{repo='GitHub', hash='70cbaa7d8859067028af4a59c95958eb95d6c9ae', version='v2.351.0'}
-CommitInfo{repo='GitHub', hash='72c0480cf04bf3046e52de78680673143b3ae66e', version='v2.352.0'}
-CommitInfo{repo='GitHub', hash='53490b40b5498f9ad2136ac67652d5ff03f6baa1', version='v2.353.0'}
-CommitInfo{repo='GitHub', hash='2e580dc1767f438d28373159b385a4e4ffcecbf8', version='v2.354.0'}
-CommitInfo{repo='GitHub', hash='887033c8ab4ce49f106a0a9a3daea6f88676cb1b', version='v2.355.0'}
-CommitInfo{repo='GitHub', hash='5dbd6fb9050035c1aaa4d952893f3d7941575d16', version='v2.356.0'}
-CommitInfo{repo='GitHub', hash='7cc9ae5b0d7b2935fa69dee945d5f3e6e638c660', version='v2.357.0'}
-CommitInfo{repo='GitHub', hash='3a8901f1c92e417562b27d5541b8bcd6ca37c31c', version='v2.358.0'}
-CommitInfo{repo='GitHub', hash='99352ce022aecb94e02084376a5c770639b4ecb9', version='v2.359.0'}
-CommitInfo{repo='GitHub', hash='f9e13c8273e8b01e11c0fd61d7bac5ecf2c66895', version='v2.3.6'}
-CommitInfo{repo='GitHub', hash='42b7eead7802e662334bbfb08422833149983180', version='v2.36.0'}
-CommitInfo{repo='GitHub', hash='a61fc5693064a620a6f46cab3d24443c2cf0d613', version='v2.360.0'}
-CommitInfo{repo='GitHub', hash='9e2c58fcf06999137f0b7f22d446346f0ea6a265', version='v2.361.0'}
-CommitInfo{repo='GitHub', hash='64a02e04e2f7994bdf156984e04eb4f5be7ea2e4', version='v2.362.0'}
-CommitInfo{repo='GitHub', hash='e2a1385f5d1b0703c0c01815447eeb885da2bf3f', version='v2.363.0'}
-CommitInfo{repo='GitHub', hash='7b4bea109087da7dd1696cde4c153bbd53a30da9', version='v2.364.0'}
-CommitInfo{repo='GitHub', hash='364717b7e99caa2a5419949cc1c34469404283ed', version='v2.365.0'}
-CommitInfo{repo='GitHub', hash='5c05964fa9a4f19121072915936bd5ed9455591d', version='v2.366.0'}
-CommitInfo{repo='GitHub', hash='d9f97285b39ebfcf60f5ea08644c8ab48c59a64a', version='v2.367.0'}
-CommitInfo{repo='GitHub', hash='61f89137708f199bec5dfe7bf8f4754719324501', version='v2.368.0'}
-CommitInfo{repo='GitHub', hash='a62c6f62db63d5be7ca6e9806ae711117a312d1e', version='v2.369.0'}
-CommitInfo{repo='GitHub', hash='0bfea057945229105f2c7024ff3a8bc8444120fa', version='v2.3.7'}
-CommitInfo{repo='GitHub', hash='1afa82480fe993e63fc0c1550d8bde4a222685bc', version='v2.37.0'}
-CommitInfo{repo='GitHub', hash='1afa82480fe993e63fc0c1550d8bde4a222685bc', version='v2.37.0'}
-CommitInfo{repo='GitHub', hash='83ebfbcc6ab30b9a486b15cdede26a1bd03c72e4', version='v2.370.0'}
-CommitInfo{repo='GitHub', hash='db344812728a3fb7aa29d8a82990fcd8dd980d62', version='v2.371.0'}
-CommitInfo{repo='GitHub', hash='42cb9d825e5d1ef44ee13612961111784af76149', version='v2.372.0'}
-CommitInfo{repo='GitHub', hash='ae00af1486d031c3841a2d506cc64e4cda451fff', version='v2.373.0'}
-CommitInfo{repo='GitHub', hash='4e074eb27deb5b88b0fe9b06d893f55a4a867dbb', version='v2.374.0'}
-CommitInfo{repo='GitHub', hash='68ad0d033341937aa4b26db4d6a4a2257d4d6bbe', version='v2.375.0'}
-CommitInfo{repo='GitHub', hash='d2f58a164c5bc5f7aff8f44f4cc595f2706c3071', version='v2.376.0'}
-CommitInfo{repo='GitHub', hash='11b75446c51b355f847a362668eb74fed0fe84e1', version='v2.377.0'}
-CommitInfo{repo='GitHub', hash='1c5d58beb671887f7017bdd13599a3dbc9beae44', version='v2.378.0'}
-CommitInfo{repo='GitHub', hash='9371a606629022a85793ecba634d702d4314b853', version='v2.379.0'}
-CommitInfo{repo='GitHub', hash='3ecb3b4dccaeee3fc25250a172aa05c6156c5d49', version='v2.3.8'}
-CommitInfo{repo='GitHub', hash='2e6d8bc1e5cd1695e8bf8aa4f07df5623fe68def', version='v2.38.0'}
-CommitInfo{repo='GitHub', hash='1987862af6887ea24345fb0fd34af5a5a09f323e', version='v2.380.0'}
-CommitInfo{repo='GitHub', hash='abdfa436668511afa0f2f57b663099306df8285b', version='v2.381.0'}
-CommitInfo{repo='GitHub', hash='8db24fbf7abcd61b12feab0bf8374477bd126d77', version='v2.382.0'}
-CommitInfo{repo='GitHub', hash='9761eeae16f47e0a2c012d3be99254a21bf142b1', version='v2.3.9'}
-CommitInfo{repo='GitHub', hash='6a4eed54e265acb1372e1137a49109e4c15c5ca0', version='v2.39.0'}
-CommitInfo{repo='GitHub', hash='4f7751382529ed22ce06edcf6cb119ba3ca8bc1e', version='v2.4.0'}
-CommitInfo{repo='GitHub', hash='d92fa2715f52e955bdfd32531fd84cc413f69a92', version='v2.40.0'}
-CommitInfo{repo='GitHub', hash='88fba8c03654b620aa6158f2c851522d549d06ed', version='v2.4.1'}
-CommitInfo{repo='GitHub', hash='155bf58d098d53646e445428a4b1d258fa33b5e0', version='v2.4.10'}
-CommitInfo{repo='GitHub', hash='de5abc00731bd30ef81f17b70b0d4ed7232f6038', version='v2.41.0'}
-CommitInfo{repo='GitHub', hash='11c8d805f1a66109c15fc9a4b275142026e2c8c7', version='v2.4.11'}
-CommitInfo{repo='GitHub', hash='902e0632de0492508b24cfe4a495d39f7f6ed3fb', version='v2.4.12'}
-CommitInfo{repo='GitHub', hash='692e005ace60b3b4725513499566f4d2ddf0ce5e', version='v2.4.13'}
-CommitInfo{repo='GitHub', hash='f00ea8722c49d63dab514d7d3080eb167b389a9c', version='v2.4.14'}
-CommitInfo{repo='GitHub', hash='ce8cbe6ba2d4a82cd830fb3fa9ff97df7600d4e4', version='v2.4.2'}
-CommitInfo{repo='GitHub', hash='55a8f68435522014fa8bd4ed1bd77f5459a79da8', version='v2.42.0'}
-CommitInfo{repo='GitHub', hash='078e478592d0d6a0a367731baf86eb850af00923', version='v2.4.3'}
-CommitInfo{repo='GitHub', hash='57a3e044ee1fea4df3ddf74107b9dd9ba94ae4b5', version='v2.43.0'}
-CommitInfo{repo='GitHub', hash='4da4aaf1f2ca9c94c0a4fabeb1c54c5f87f82b2e', version='v2.4.4'}
-CommitInfo{repo='GitHub', hash='40e66430177d06699863cdd28a3d4ce39fc6008b', version='v2.44.0'}
-CommitInfo{repo='GitHub', hash='0f20de29728072dc6024f25d6a4e0b978dc6c2f3', version='v2.4.5'}
-CommitInfo{repo='GitHub', hash='8bc99767740a3142b8e2b4c519588260bb69d79f', version='v2.45.0'}
-CommitInfo{repo='GitHub', hash='9787eaa2357bbba9941b8ab64f89f0e632817577', version='v2.4.6'}
-CommitInfo{repo='GitHub', hash='dca3aeca0fa5c68ca7dee713964aada081469bab', version='v2.46.0'}
-CommitInfo{repo='GitHub', hash='d61f3254fbe87448306e179b783d206d0f3dd8a9', version='v2.4.7'}
-CommitInfo{repo='GitHub', hash='207593d057cdc90d00aa27a220052923f7822114', version='v2.47.0'}
-CommitInfo{repo='GitHub', hash='466490f02c57dce312e8938aa076820a9699ac7d', version='v2.4.8'}
-CommitInfo{repo='GitHub', hash='33924ac5bd97b3a31b41d29222fb8db0139f8375', version='v2.48.0'}
-CommitInfo{repo='GitHub', hash='a97c2baf784a49bd46e938f3228db9398cb999c4', version='v2.4.9'}
-CommitInfo{repo='GitHub', hash='6929f7dd6bdb76fb1ad67eaca5f0b763911a694e', version='v2.49.0'}
-CommitInfo{repo='GitHub', hash='0e4d7504537d8b646f019c92f135d4d8bc88aabd', version='v2.5.0'}
-CommitInfo{repo='GitHub', hash='065c7dfe717e806fe675091bc58bc26c96e4cd4a', version='v2.50.0'}
-CommitInfo{repo='GitHub', hash='5b3a8a69f876f8b4f52e422e0a076cb2e3855c48', version='v2.5.1'}
-CommitInfo{repo='GitHub', hash='575e3e76ca1010a974ee52baaa863cd237f42bb5', version='v2.51.0'}
-CommitInfo{repo='GitHub', hash='4e5eb69ef808faa8f8013790f4d6ca956752f24e', version='v2.5.2'}
-CommitInfo{repo='GitHub', hash='f0085727d6de0ce6119e5cebb892b5844418ad9b', version='v2.52.0'}
-CommitInfo{repo='GitHub', hash='7e3c279acb0fefecac6b2cf41bbabea2e0ce3a3a', version='v2.5.3'}
-CommitInfo{repo='GitHub', hash='0ab1bb28f916a1031b6efa5ebd1f04c553c21bb9', version='v2.53.0'}
-CommitInfo{repo='GitHub', hash='3314cd9d1b9902aee3cd40ef32b8a8fd382615c2', version='v2.5.4'}
-CommitInfo{repo='GitHub', hash='4950fdbe7815f2493ecaf5f52f4483372b33ec39', version='v2.54.0'}
-CommitInfo{repo='GitHub', hash='b768e4705da33d1900bae781ea7a280d90c72382', version='v2.5.5'}
-CommitInfo{repo='GitHub', hash='7839084ef1a61448c598fb7c4809512c652c1f28', version='v2.55.0'}
-CommitInfo{repo='GitHub', hash='02c54e1846ca4e9ebfd09982ce963dbc8bcc0969', version='v2.5.6'}
-CommitInfo{repo='GitHub', hash='93a50b90f3ef2150d337cc40e048d4cd4380db9a', version='v2.56.0'}
-CommitInfo{repo='GitHub', hash='5f19aba172815131d13f5cdd03f7be55a7f75145', version='v2.57.0'}
-CommitInfo{repo='GitHub', hash='5d317042297633c266489519cf55d6311809157c', version='v2.58.0'}
-CommitInfo{repo='GitHub', hash='da8f568a31d2c84e44891cd467f2735aa08888e0', version='v2.59.0'}
-CommitInfo{repo='GitHub', hash='8fd2060d63ff9e2116c99f6118dc451de6798520', version='v2.6.0'}
-CommitInfo{repo='GitHub', hash='fc2439d0d4ab3c68469209297a4b599aa3a47320', version='v2.60.0'}
-CommitInfo{repo='GitHub', hash='62d1715f88837ea7b48ebb2c1bf0c4c9092d4901', version='v2.6.1'}
-CommitInfo{repo='GitHub', hash='a9a6032a8605e7af5f1162b961ba189082320b6b', version='v2.6.10'}
-CommitInfo{repo='GitHub', hash='5f8845227356438fd02636f71a640b5ccc2fc162', version='v2.61.0'}
-CommitInfo{repo='GitHub', hash='9611fef26f31d226dce3aac77c7b9a66229b8ef3', version='v2.6.11'}
-CommitInfo{repo='GitHub', hash='151dac16b4cd375d2078b306ff08bc7374888715', version='v2.6.12'}
-CommitInfo{repo='GitHub', hash='9328c205edb859ff9d4f22ec943c9c56c69a1a6d', version='v2.6.13'}
-CommitInfo{repo='GitHub', hash='13e1b3bd2bfcffbe48942c947da25690f27f6a53', version='v2.6.14'}
-CommitInfo{repo='GitHub', hash='d8e171ce6021f7a7fe437af7ccdd6765d1080d77', version='v2.6.15'}
-CommitInfo{repo='GitHub', hash='d9c89f9161f63b8b3af06af069873e0e61fd4091', version='v2.6.2'}
-CommitInfo{repo='GitHub', hash='5fcf374193e4922f30d1720de8fc84986d309a62', version='v2.62.0'}
-CommitInfo{repo='GitHub', hash='5a26680dbf734f312015b4a6700e894e3781717a', version='v2.6.3'}
-CommitInfo{repo='GitHub', hash='f65c11df96871889156a3b7b2fa6311675a0d962', version='v2.63.0'}
-CommitInfo{repo='GitHub', hash='513bdebb26739a298f522e58277e7d340afaa3f5', version='v2.6.4'}
-CommitInfo{repo='GitHub', hash='9b118eff2e08fc7899877ea94ffe040e2de753dc', version='v2.64.0'}
-CommitInfo{repo='GitHub', hash='530175fa17f24e7e02781fe87c6762c8fe16bb70', version='v2.6.5'}
-CommitInfo{repo='GitHub', hash='bf07fdc2cd1a38efa6d152760b25cf8cccbc8ac5', version='v2.65.0'}
-CommitInfo{repo='GitHub', hash='ee4148330a38d51f7806b7e014b11c9c0be3a5c5', version='v2.6.6'}
-CommitInfo{repo='GitHub', hash='5136a45526d386deddf900ea78703ff2320856e2', version='v2.66.0'}
-CommitInfo{repo='GitHub', hash='54a18bbd3caaefddc2ccfb747ab8443930ae1e6e', version='v2.6.7'}
-CommitInfo{repo='GitHub', hash='20ecff72c378499a99da1c07501d7d72715dbd4a', version='v2.67.0'}
-CommitInfo{repo='GitHub', hash='471dd1a4d3bcdbda3436c0f6c64c00a5cd544682', version='v2.6.8'}
-CommitInfo{repo='GitHub', hash='37f8596926dc0736d4e3e5021872fa981a305067', version='v2.68.0'}
-CommitInfo{repo='GitHub', hash='8593f8dcc1830ea53d7f83ec3ef19ff46024e227', version='v2.6.9'}
-CommitInfo{repo='GitHub', hash='2ef6f083db7d5b5fd3aa677ef1cff479803d6bbb', version='v2.69.0'}
-CommitInfo{repo='GitHub', hash='17cd1cc529f34f74588227322f7d076c6de63b54', version='v2.7.0'}
-CommitInfo{repo='GitHub', hash='9b6fcacce0f97ae31e20f0bbb0afb335ba15d8a0', version='v2.70.0'}
-CommitInfo{repo='GitHub', hash='c8ecca09d4f354eeff527ff5925ac7501f322a18', version='v2.7.1'}
-CommitInfo{repo='GitHub', hash='5dba638fd7c58aeb776e7a5cc42c52c692314093', version='v2.7.10'}
-CommitInfo{repo='GitHub', hash='8f0bf5e7837312ae0357b6154f7da9ac745a3db5', version='v2.71.0'}
-CommitInfo{repo='GitHub', hash='2292f9e05e11baeb975a38f60269c696f3545d4b', version='v2.7.11'}
-CommitInfo{repo='GitHub', hash='8a449df5f69f07c169a4be5226f80711454d65dc', version='v2.7.12'}
-CommitInfo{repo='GitHub', hash='685bffb77ba6bb3f1124f1785310661e1e061619', version='v2.7.13'}
-CommitInfo{repo='GitHub', hash='d4ef1e89f1a6ba4960aafe7b8c27f7782685a313', version='v2.7.14'}
-CommitInfo{repo='GitHub', hash='50b95419b312c1d9d3dee82c87443c853d91e3ce', version='v2.7.15'}
-CommitInfo{repo='GitHub', hash='33621885d545c05d968cbbb737cd9f06f338e907', version='v2.7.16'}
-CommitInfo{repo='GitHub', hash='84549a5eb5f4634f22718b756bcdd8e37157d1d2', version='v2.7.17'}
-CommitInfo{repo='GitHub', hash='b969bbccb7d5e8aef4977bbc50c3de530c14bbfa', version='v2.7.18'}
-CommitInfo{repo='GitHub', hash='421b8d83425f10aa0e226fa720c5ee544d2784ce', version='v2.7.19'}
-CommitInfo{repo='GitHub', hash='c8cd950b9d4cb0514a898a4d3bf20b3d9dc577ce', version='v2.7.2'}
-CommitInfo{repo='GitHub', hash='3c76ce85ca5698e1ac7b072c30acafb761af618f', version='v2.7.20'}
-CommitInfo{repo='GitHub', hash='dde5a6f8aa1ffbb4d20f8f50f43393a1f399f491', version='v2.72.0'}
-CommitInfo{repo='GitHub', hash='4064bbe4006060100d0aeb91593d2d49eac858a9', version='v2.7.21'}
-CommitInfo{repo='GitHub', hash='be97613cb5c682180493007b2c266b73707b94df', version='v2.7.22'}
-CommitInfo{repo='GitHub', hash='7e2703e43596e7383e247bbee36d21fa63313ba5', version='v2.7.23'}
-CommitInfo{repo='GitHub', hash='556bc9d4f2a5bdd01666294bb36e8b164312ae98', version='v2.7.24'}
-CommitInfo{repo='GitHub', hash='51263f9ab6bb726ca9eb784712320b1eb25dd105', version='v2.7.25'}
-CommitInfo{repo='GitHub', hash='3ea51a63042aeffedf47a9e8de1d28d484ecc551', version='v2.7.26'}
-CommitInfo{repo='GitHub', hash='c40f0d6d914852a68d35af181d7981a44413fb41', version='v2.7.27'}
-CommitInfo{repo='GitHub', hash='4e20b4ff4a3a7f98769d483c37b456d63bf39c29', version='v2.7.28'}
-CommitInfo{repo='GitHub', hash='bf0896b1f8339dbc105e9a90fd4864d863989930', version='v2.7.3'}
-CommitInfo{repo='GitHub', hash='17612f9a9a8f51a74b0f5edcdeff1efff4bf5ad2', version='v2.73.0'}
-CommitInfo{repo='GitHub', hash='ecf4809ee7ecba7a62953c5902274d109785ea45', version='v2.7.4'}
-CommitInfo{repo='GitHub', hash='bb2c2c9b228db0fa86a5897ab2eba0f7fc433db8', version='v2.74.0'}
-CommitInfo{repo='GitHub', hash='e5b340b8fd11c6aaec35fc338e7fb8107927b84a', version='v2.7.5'}
-CommitInfo{repo='GitHub', hash='af1e55994b0a2ab69ae72840c74dbfc8aaed6723', version='v2.75.0'}
-CommitInfo{repo='GitHub', hash='f227a5f303808a1c37ebb325c5a584b9eb480550', version='v2.7.6'}
-CommitInfo{repo='GitHub', hash='460dbbd8ef8e98c01fee1ce6030a66dededd7b0c', version='v2.76.0'}
-CommitInfo{repo='GitHub', hash='e02103e5f82d4251062cf09e3a38f8e1c3ac5dcc', version='v2.7.7'}
-CommitInfo{repo='GitHub', hash='9d3a4a72a6b6c79fe4cb44c5996f0a8cf10bffdb', version='v2.77.0'}
-CommitInfo{repo='GitHub', hash='39c3a4704ea4c0fb23ee585fd8b703ec65b96a9a', version='v2.7.8'}
-CommitInfo{repo='GitHub', hash='7ec6f443bc530c99194083360bfb8a36fc5fbe25', version='v2.78.0'}
-CommitInfo{repo='GitHub', hash='62032870a757d0a187f8a93d38994a2d6ea428d7', version='v2.7.9'}
-CommitInfo{repo='GitHub', hash='1dd824ac9296a493fc9ef72d16b4e4f22a7d6b5f', version='v2.79.0'}
-CommitInfo{repo='GitHub', hash='c8d55cb28105180f47e5e16cc48b613364791444', version='v2.8.0'}
-CommitInfo{repo='GitHub', hash='c2cd0584515c9f7d6550264d164e34ebbb894caf', version='v2.80.0'}
-CommitInfo{repo='GitHub', hash='17b15f475b7b17539381f22485233ef02dda796d', version='v2.81.0'}
-CommitInfo{repo='GitHub', hash='4e246aaa7bfe8ce5349fa104c15425a826d46493', version='v2.82.0'}
-CommitInfo{repo='GitHub', hash='543add6f75848b73b8d8f1e2049f36ba389bf4b2', version='v2.83.0'}
-CommitInfo{repo='GitHub', hash='4b6cd565ed7fa56cc4829255c7b9b164f947436f', version='v2.84.0'}
-CommitInfo{repo='GitHub', hash='b6bac7f23bd248802d4e82767e2e1ae4399b9a9e', version='v2.85.0'}
-CommitInfo{repo='GitHub', hash='8913f6962740386a3aa2039fa2fea3310d2d7689', version='v2.86.0'}
-CommitInfo{repo='GitHub', hash='69b244d58fb3ae80a8faeb41c776bddeb3f4a802', version='v2.87.0'}
-CommitInfo{repo='GitHub', hash='bd91112dad079d6d78ede52772956c316a0cc956', version='v2.88.0'}
-CommitInfo{repo='GitHub', hash='efcd19b74fcf5e681797ee49e40c5623a8df65a6', version='v2.89.0'}
-CommitInfo{repo='GitHub', hash='c59e4b7cfb20d7f14844fab3b8d63a3494542f7a', version='v2.9.0'}
-CommitInfo{repo='GitHub', hash='225282af3240342620df06b837f3ff28dbfea45d', version='v2.90.0'}
-CommitInfo{repo='GitHub', hash='28c8cc652f71cd6f928b812730265892331f10e6', version='v2.91.0'}
-CommitInfo{repo='GitHub', hash='9cdf912b552ee5a4b254dd9e2a33e52cc0ad3abe', version='v2.92.0'}
-CommitInfo{repo='GitHub', hash='cd3cc540fbc791d9eedbab5fb660c3a418bc5f41', version='v2.93.0'}
-CommitInfo{repo='GitHub', hash='b1f2815de738eda7cac3e24f3c6256048cb5eb6c', version='v2.94.0'}
-CommitInfo{repo='GitHub', hash='ac2cee0988178cff52f37a20a1fe167470d12223', version='v2.95.0'}
-CommitInfo{repo='GitHub', hash='2f2dec236fb6d52780726fb952e9256efc1b9984', version='v2.96.0'}
-CommitInfo{repo='GitHub', hash='4616765edab3e5ac821db9830fa00baf4ee4e569', version='v2.97.0'}
-CommitInfo{repo='GitHub', hash='c665ca8d4c82ba15ad53ac35d883435403e07dd0', version='v2.98.0'}
-CommitInfo{repo='GitHub', hash='b8207ee91ae9d833b714db872e2a8d3923f4ab92', version='v2.99.0'}
+CommitInfo{repo='GitHub', hash='116d92384d4418b0efea1639d92cec817af4446a', version='v0.9.0-pre.1'} 	https://github.com/aws/aws-sdk-js/commit/116d92384d4418b0efea1639d92cec817af4446a
+CommitInfo{repo='GitHub', hash='96ec24ffd46a8c44c694893ca8186d6413017ac9', version='v0.9.1-pre.2'} 	https://github.com/aws/aws-sdk-js/commit/96ec24ffd46a8c44c694893ca8186d6413017ac9
+CommitInfo{repo='GitHub', hash='7084c75fc0b64fce5772c17ec776765771a93c18', version='v0.9.2-pre.3'} 	https://github.com/aws/aws-sdk-js/commit/7084c75fc0b64fce5772c17ec776765771a93c18
+CommitInfo{repo='GitHub', hash='744c3a91198d9271114ed4bf105938b1b41ebdc6', version='v0.9.3-pre.4'} 	https://github.com/aws/aws-sdk-js/commit/744c3a91198d9271114ed4bf105938b1b41ebdc6
+CommitInfo{repo='GitHub', hash='d45884acb799b91df45b913a58c91d8d283a35e4', version='v0.9.4-pre.5'} 	https://github.com/aws/aws-sdk-js/commit/d45884acb799b91df45b913a58c91d8d283a35e4
+CommitInfo{repo='GitHub', hash='c51a778c63e6237d3efeef1c6960c4ccdde23a30', version='v0.9.5-pre.6'} 	https://github.com/aws/aws-sdk-js/commit/c51a778c63e6237d3efeef1c6960c4ccdde23a30
+CommitInfo{repo='GitHub', hash='f94d05b1ffe216bf0c3d059cb7158f951953f358', version='v0.9.6-pre.7'} 	https://github.com/aws/aws-sdk-js/commit/f94d05b1ffe216bf0c3d059cb7158f951953f358
+CommitInfo{repo='GitHub', hash='d5d2216adaa9aa697245feded414239b11e5f1d7', version='v0.9.7-pre.8'} 	https://github.com/aws/aws-sdk-js/commit/d5d2216adaa9aa697245feded414239b11e5f1d7
+CommitInfo{repo='GitHub', hash='ff33eda166fa64ced5b1aca7ef30935e1b4f02e3', version='v0.9.8-pre.9'} 	https://github.com/aws/aws-sdk-js/commit/ff33eda166fa64ced5b1aca7ef30935e1b4f02e3
+CommitInfo{repo='GitHub', hash='65323a495ab40f73a516d8b561d021c6e6b5fc87', version='v0.9.9-pre.10'} 	https://github.com/aws/aws-sdk-js/commit/65323a495ab40f73a516d8b561d021c6e6b5fc87
+CommitInfo{repo='GitHub', hash='f33ad60e28c79612e396f5d65d22dd6528aba203', version='v1.0.0'} 	https://github.com/aws/aws-sdk-js/commit/f33ad60e28c79612e396f5d65d22dd6528aba203
+CommitInfo{repo='GitHub', hash='a59d7b725265ca06d14baa648705128a2a7430b7', version='v1.1.0'} 	https://github.com/aws/aws-sdk-js/commit/a59d7b725265ca06d14baa648705128a2a7430b7
+CommitInfo{repo='GitHub', hash='4d53c06e5045241ee7df59abaf1467347a84efb3', version='v1.10.0'} 	https://github.com/aws/aws-sdk-js/commit/4d53c06e5045241ee7df59abaf1467347a84efb3
+CommitInfo{repo='GitHub', hash='8a4dd06b8b24f495c2f1347f6f4b3366393a1772', version='v1.11.0'} 	https://github.com/aws/aws-sdk-js/commit/8a4dd06b8b24f495c2f1347f6f4b3366393a1772
+CommitInfo{repo='GitHub', hash='5769843a0cf46bbcecdd971e3a4ac0b84956eb02', version='v1.12.0'} 	https://github.com/aws/aws-sdk-js/commit/5769843a0cf46bbcecdd971e3a4ac0b84956eb02
+CommitInfo{repo='GitHub', hash='11b3a4ac23b7910e95cf34fe852fdaf599a4e732', version='v1.13.0'} 	https://github.com/aws/aws-sdk-js/commit/11b3a4ac23b7910e95cf34fe852fdaf599a4e732
+CommitInfo{repo='GitHub', hash='06c07c588abfe9c4685d8225be47575fee642722', version='v1.14.0'} 	https://github.com/aws/aws-sdk-js/commit/06c07c588abfe9c4685d8225be47575fee642722
+CommitInfo{repo='GitHub', hash='9e9480c7ad3d6b113c91222fda14ab95ffc278c7', version='v1.15.0'} 	https://github.com/aws/aws-sdk-js/commit/9e9480c7ad3d6b113c91222fda14ab95ffc278c7
+CommitInfo{repo='GitHub', hash='d182b9f93d4a64c7db1601e7fb8793acd49a2cd4', version='v1.16.0'} 	https://github.com/aws/aws-sdk-js/commit/d182b9f93d4a64c7db1601e7fb8793acd49a2cd4
+CommitInfo{repo='GitHub', hash='ef1e2a5e078a446111aa13d90fbebea32e318e26', version='v1.17.0'} 	https://github.com/aws/aws-sdk-js/commit/ef1e2a5e078a446111aa13d90fbebea32e318e26
+CommitInfo{repo='GitHub', hash='c480ea0de6b6fe676242389eca76e725cca8a6c2', version='v1.17.1'} 	https://github.com/aws/aws-sdk-js/commit/c480ea0de6b6fe676242389eca76e725cca8a6c2
+CommitInfo{repo='GitHub', hash='081cbfe2d94a9178676ab2a9e0fc832ac39eb466', version='v1.17.2'} 	https://github.com/aws/aws-sdk-js/commit/081cbfe2d94a9178676ab2a9e0fc832ac39eb466
+CommitInfo{repo='GitHub', hash='43d010173906bc523702dd30198d32541713f316', version='v1.17.3'} 	https://github.com/aws/aws-sdk-js/commit/43d010173906bc523702dd30198d32541713f316
+CommitInfo{repo='GitHub', hash='acd8d79fc75d0a0319278d1c4d5d00efb8941887', version='v1.18.0'} 	https://github.com/aws/aws-sdk-js/commit/acd8d79fc75d0a0319278d1c4d5d00efb8941887
+CommitInfo{repo='GitHub', hash='746666dc4f9d456975eb5e1330da39e3fb0ed58d', version='v1.2.0'} 	https://github.com/aws/aws-sdk-js/commit/746666dc4f9d456975eb5e1330da39e3fb0ed58d
+CommitInfo{repo='GitHub', hash='15b5a2e0e5146d57fb9df4e59f4d062700661d68', version='v1.3.0'} 	https://github.com/aws/aws-sdk-js/commit/15b5a2e0e5146d57fb9df4e59f4d062700661d68
+CommitInfo{repo='GitHub', hash='75206c5d4758072286e94fa652bf07357bf770e2', version='v1.3.1'} 	https://github.com/aws/aws-sdk-js/commit/75206c5d4758072286e94fa652bf07357bf770e2
+CommitInfo{repo='GitHub', hash='a77c9c7bac10685bb0931aec66ecb11d0d426ba1', version='v1.3.2'} 	https://github.com/aws/aws-sdk-js/commit/a77c9c7bac10685bb0931aec66ecb11d0d426ba1
+CommitInfo{repo='GitHub', hash='09bd64a77956c1fef5156450c5287681007b04d7', version='v1.4.1'} 	https://github.com/aws/aws-sdk-js/commit/09bd64a77956c1fef5156450c5287681007b04d7
+CommitInfo{repo='GitHub', hash='b3f411ae2f6a65c9154b5b3f664ee64b22cf1d9a', version='v1.5.0'} 	https://github.com/aws/aws-sdk-js/commit/b3f411ae2f6a65c9154b5b3f664ee64b22cf1d9a
+CommitInfo{repo='GitHub', hash='ee58493f91d25e1d5aa3505ca20aefbf033e1c29', version='v1.5.1'} 	https://github.com/aws/aws-sdk-js/commit/ee58493f91d25e1d5aa3505ca20aefbf033e1c29
+CommitInfo{repo='GitHub', hash='1660bd7af46e3c86835b652eb98e892f3d4c0b62', version='v1.5.2'} 	https://github.com/aws/aws-sdk-js/commit/1660bd7af46e3c86835b652eb98e892f3d4c0b62
+CommitInfo{repo='GitHub', hash='3280de04648e5003b493b977bc7002866c412b5a', version='v1.6.0'} 	https://github.com/aws/aws-sdk-js/commit/3280de04648e5003b493b977bc7002866c412b5a
+CommitInfo{repo='GitHub', hash='005635e845be5eda0dc35175a3c40c7962c63fa2', version='v1.7.0'} 	https://github.com/aws/aws-sdk-js/commit/005635e845be5eda0dc35175a3c40c7962c63fa2
+CommitInfo{repo='GitHub', hash='0cc2b73f76ded5cdaac76d20cd264295f2e23924', version='v1.7.1'} 	https://github.com/aws/aws-sdk-js/commit/0cc2b73f76ded5cdaac76d20cd264295f2e23924
+CommitInfo{repo='GitHub', hash='51b350bd01591faed2b2e7af047b9a11029256df', version='v1.8.0'} 	https://github.com/aws/aws-sdk-js/commit/51b350bd01591faed2b2e7af047b9a11029256df
+CommitInfo{repo='GitHub', hash='c582b6c40cc5ff779567b7ad77e178d86b977352', version='v1.8.1'} 	https://github.com/aws/aws-sdk-js/commit/c582b6c40cc5ff779567b7ad77e178d86b977352
+CommitInfo{repo='GitHub', hash='cbccc61467813ebca3dc44d6fda9156f899c453e', version='v1.9.0'} 	https://github.com/aws/aws-sdk-js/commit/cbccc61467813ebca3dc44d6fda9156f899c453e
+CommitInfo{repo='GitHub', hash='447e8e3c1df46a98bc6d015f6a5474f04473c258', version='v2.0.0'} 	https://github.com/aws/aws-sdk-js/commit/447e8e3c1df46a98bc6d015f6a5474f04473c258
+CommitInfo{repo='GitHub', hash='35bd55c9cc2887ab58f40331865f29917ae3fdcc', version='v2.0.0-rc1'} 	https://github.com/aws/aws-sdk-js/commit/35bd55c9cc2887ab58f40331865f29917ae3fdcc
+CommitInfo{repo='GitHub', hash='085119f7d21d4fcd08f357758207f059972b5248', version='v2.0.0-rc10'} 	https://github.com/aws/aws-sdk-js/commit/085119f7d21d4fcd08f357758207f059972b5248
+CommitInfo{repo='GitHub', hash='f9ad631b59ab0a98d259c563a5e93f6c3ecc1fc8', version='v2.0.0-rc11'} 	https://github.com/aws/aws-sdk-js/commit/f9ad631b59ab0a98d259c563a5e93f6c3ecc1fc8
+CommitInfo{repo='GitHub', hash='9a4ac0239dda90454394dfe4fef3b032f6e42cbf', version='v2.0.0-rc12'} 	https://github.com/aws/aws-sdk-js/commit/9a4ac0239dda90454394dfe4fef3b032f6e42cbf
+CommitInfo{repo='GitHub', hash='150ed59874ef01054e2440efc1dafb16c2f89f5d', version='v2.0.0-rc13'} 	https://github.com/aws/aws-sdk-js/commit/150ed59874ef01054e2440efc1dafb16c2f89f5d
+CommitInfo{repo='GitHub', hash='e66a0bb610d4023e4b4aad57b4275d8393ee0627', version='v2.0.0-rc.14'} 	https://github.com/aws/aws-sdk-js/commit/e66a0bb610d4023e4b4aad57b4275d8393ee0627
+CommitInfo{repo='GitHub', hash='ec69899bfb166f35a23257ab2efc894e6e3cb1f7', version='v2.0.0-rc.15'} 	https://github.com/aws/aws-sdk-js/commit/ec69899bfb166f35a23257ab2efc894e6e3cb1f7
+CommitInfo{repo='GitHub', hash='4c7db43aae36855643b49f86e2a5563611866fad', version='v2.0.0-rc.16'} 	https://github.com/aws/aws-sdk-js/commit/4c7db43aae36855643b49f86e2a5563611866fad
+CommitInfo{repo='GitHub', hash='2b57615509ba967fb2389e2e8e5a12a53e724ac5', version='v2.0.0-rc.17'} 	https://github.com/aws/aws-sdk-js/commit/2b57615509ba967fb2389e2e8e5a12a53e724ac5
+CommitInfo{repo='GitHub', hash='b1f2fb8ff3a3c363f9accb581c2d3125b972211a', version='v2.0.0-rc.18'} 	https://github.com/aws/aws-sdk-js/commit/b1f2fb8ff3a3c363f9accb581c2d3125b972211a
+CommitInfo{repo='GitHub', hash='48e3db0758eff5f4bf217820d574e067d5d52564', version='v2.0.0-rc.19'} 	https://github.com/aws/aws-sdk-js/commit/48e3db0758eff5f4bf217820d574e067d5d52564
+CommitInfo{repo='GitHub', hash='30645499a69c5df8c9e6eea9326ccb58429c3472', version='v2.0.0-rc2'} 	https://github.com/aws/aws-sdk-js/commit/30645499a69c5df8c9e6eea9326ccb58429c3472
+CommitInfo{repo='GitHub', hash='8677e87e7dc519aff2bd373340b9e1928eafcb06', version='v2.0.0-rc.20'} 	https://github.com/aws/aws-sdk-js/commit/8677e87e7dc519aff2bd373340b9e1928eafcb06
+CommitInfo{repo='GitHub', hash='5f74129c6e803cdc968cea7c8163041faf24403f', version='v2.0.0-rc3'} 	https://github.com/aws/aws-sdk-js/commit/5f74129c6e803cdc968cea7c8163041faf24403f
+CommitInfo{repo='GitHub', hash='903a8e23a97e24d0db0f15ad09ba09e0a2ff5a97', version='v2.0.0-rc4'} 	https://github.com/aws/aws-sdk-js/commit/903a8e23a97e24d0db0f15ad09ba09e0a2ff5a97
+CommitInfo{repo='GitHub', hash='2fee785a62a4415074a46d0f3ac1805d40d94a6a', version='v2.0.0-rc5'} 	https://github.com/aws/aws-sdk-js/commit/2fee785a62a4415074a46d0f3ac1805d40d94a6a
+CommitInfo{repo='GitHub', hash='66d4d580b5ad6c7e206297e870f538131e74e3f1', version='v2.0.0-rc6'} 	https://github.com/aws/aws-sdk-js/commit/66d4d580b5ad6c7e206297e870f538131e74e3f1
+CommitInfo{repo='GitHub', hash='63c3b8c2034faa12be3cd63b2985754c6c7205e9', version='v2.0.0-rc7'} 	https://github.com/aws/aws-sdk-js/commit/63c3b8c2034faa12be3cd63b2985754c6c7205e9
+CommitInfo{repo='GitHub', hash='19793bfb0a7229f1d33bbaa3213b51265d5969ce', version='v2.0.0-rc8'} 	https://github.com/aws/aws-sdk-js/commit/19793bfb0a7229f1d33bbaa3213b51265d5969ce
+CommitInfo{repo='GitHub', hash='39d318baa566bcfc0eec80d06b1cee9b5b4d8918', version='v2.0.0-rc9'} 	https://github.com/aws/aws-sdk-js/commit/39d318baa566bcfc0eec80d06b1cee9b5b4d8918
+CommitInfo{repo='GitHub', hash='48a5d2ab8e7de4f316e960faf7f35a47bafa2273', version='v2.0.1'} 	https://github.com/aws/aws-sdk-js/commit/48a5d2ab8e7de4f316e960faf7f35a47bafa2273
+CommitInfo{repo='GitHub', hash='48b6633489eda0fcebf890a2ae9c9506f83b3366', version='v2.0.10'} 	https://github.com/aws/aws-sdk-js/commit/48b6633489eda0fcebf890a2ae9c9506f83b3366
+CommitInfo{repo='GitHub', hash='1691574f2fb14706df83fbabdfb56bbdd6c4ef29', version='v2.0.11'} 	https://github.com/aws/aws-sdk-js/commit/1691574f2fb14706df83fbabdfb56bbdd6c4ef29
+CommitInfo{repo='GitHub', hash='98b0cb780019968023f53bc22f69874d0377e872', version='v2.0.12'} 	https://github.com/aws/aws-sdk-js/commit/98b0cb780019968023f53bc22f69874d0377e872
+CommitInfo{repo='GitHub', hash='307de9cff7223006c87b9162e5a72797b42764a5', version='v2.0.13'} 	https://github.com/aws/aws-sdk-js/commit/307de9cff7223006c87b9162e5a72797b42764a5
+CommitInfo{repo='GitHub', hash='16ac62047e58806444f6b2420dfd4430217a2068', version='v2.0.14'} 	https://github.com/aws/aws-sdk-js/commit/16ac62047e58806444f6b2420dfd4430217a2068
+CommitInfo{repo='GitHub', hash='643f2854f1f59b10f52ecb42fa0608e93012841e', version='v2.0.15'} 	https://github.com/aws/aws-sdk-js/commit/643f2854f1f59b10f52ecb42fa0608e93012841e
+CommitInfo{repo='GitHub', hash='57cee3952d6db6345fc8e28dffe393f98c0eaf78', version='v2.0.16'} 	https://github.com/aws/aws-sdk-js/commit/57cee3952d6db6345fc8e28dffe393f98c0eaf78
+CommitInfo{repo='GitHub', hash='09b01705dbb37c03058838804923becb160ba22d', version='v2.0.17'} 	https://github.com/aws/aws-sdk-js/commit/09b01705dbb37c03058838804923becb160ba22d
+CommitInfo{repo='GitHub', hash='b0951729c6f66bb89810ad97b44218c44544ef7a', version='v2.0.18'} 	https://github.com/aws/aws-sdk-js/commit/b0951729c6f66bb89810ad97b44218c44544ef7a
+CommitInfo{repo='GitHub', hash='d658d4c7b7e9408f3b51a9a836f2864b29bc394a', version='v2.0.19'} 	https://github.com/aws/aws-sdk-js/commit/d658d4c7b7e9408f3b51a9a836f2864b29bc394a
+CommitInfo{repo='GitHub', hash='da19df68ade58aa73cc66e70df2d65822baf3b3c', version='v2.0.2'} 	https://github.com/aws/aws-sdk-js/commit/da19df68ade58aa73cc66e70df2d65822baf3b3c
+CommitInfo{repo='GitHub', hash='a54077b46094bcb594dd1ee11539fa203b5f3160', version='v2.0.20'} 	https://github.com/aws/aws-sdk-js/commit/a54077b46094bcb594dd1ee11539fa203b5f3160
+CommitInfo{repo='GitHub', hash='608ac8d572df00c7cb8778bbd960a53f4ca58dc7', version='v2.0.21'} 	https://github.com/aws/aws-sdk-js/commit/608ac8d572df00c7cb8778bbd960a53f4ca58dc7
+CommitInfo{repo='GitHub', hash='3727be7152b598d451aa712d9f0fc68f1897d41f', version='v2.0.22'} 	https://github.com/aws/aws-sdk-js/commit/3727be7152b598d451aa712d9f0fc68f1897d41f
+CommitInfo{repo='GitHub', hash='4cb59713f3d902df1d5305bdd223bb695828d53d', version='v2.0.23'} 	https://github.com/aws/aws-sdk-js/commit/4cb59713f3d902df1d5305bdd223bb695828d53d
+CommitInfo{repo='GitHub', hash='bea6fcd6d66806fae55ad5b4f302d28c6cf2d1f1', version='v2.0.24'} 	https://github.com/aws/aws-sdk-js/commit/bea6fcd6d66806fae55ad5b4f302d28c6cf2d1f1
+CommitInfo{repo='GitHub', hash='49372d816484bb93dad82d8262923609dd2a5956', version='v2.0.25'} 	https://github.com/aws/aws-sdk-js/commit/49372d816484bb93dad82d8262923609dd2a5956
+CommitInfo{repo='GitHub', hash='783c7029731db054ff65e2801ea7d29c6d14ff5c', version='v2.0.26'} 	https://github.com/aws/aws-sdk-js/commit/783c7029731db054ff65e2801ea7d29c6d14ff5c
+CommitInfo{repo='GitHub', hash='8e2e66c9c53146ba69e358c73bc2369644bf2fe5', version='v2.0.27'} 	https://github.com/aws/aws-sdk-js/commit/8e2e66c9c53146ba69e358c73bc2369644bf2fe5
+CommitInfo{repo='GitHub', hash='4d69a1945110306d8f56780a08fb40a02be843f7', version='v2.0.28'} 	https://github.com/aws/aws-sdk-js/commit/4d69a1945110306d8f56780a08fb40a02be843f7
+CommitInfo{repo='GitHub', hash='2b463ce1e418f6771327d08c9912628e621bb1f8', version='v2.0.29'} 	https://github.com/aws/aws-sdk-js/commit/2b463ce1e418f6771327d08c9912628e621bb1f8
+CommitInfo{repo='GitHub', hash='71f87d93323c85255af2778042722a9eb0e60018', version='v2.0.3'} 	https://github.com/aws/aws-sdk-js/commit/71f87d93323c85255af2778042722a9eb0e60018
+CommitInfo{repo='GitHub', hash='89c20edaa32247f5447df446bf3a53575ed7218f', version='v2.0.30'} 	https://github.com/aws/aws-sdk-js/commit/89c20edaa32247f5447df446bf3a53575ed7218f
+CommitInfo{repo='GitHub', hash='6fc999b0644eb71518eb00a3445f3e1472b834e0', version='v2.0.31'} 	https://github.com/aws/aws-sdk-js/commit/6fc999b0644eb71518eb00a3445f3e1472b834e0
+CommitInfo{repo='GitHub', hash='126656acdbe8caec1873969963d4eefc8476601b', version='v2.0.4'} 	https://github.com/aws/aws-sdk-js/commit/126656acdbe8caec1873969963d4eefc8476601b
+CommitInfo{repo='GitHub', hash='882d7ceb956b4d533196fa5a76a8b0d7782bbe6c', version='v2.0.5'} 	https://github.com/aws/aws-sdk-js/commit/882d7ceb956b4d533196fa5a76a8b0d7782bbe6c
+CommitInfo{repo='GitHub', hash='031db2910640d9b9f7d148eabe4b8915738b6712', version='v2.0.6'} 	https://github.com/aws/aws-sdk-js/commit/031db2910640d9b9f7d148eabe4b8915738b6712
+CommitInfo{repo='GitHub', hash='aec48df284de75972d6b0121b46c7dd359d0dccc', version='v2.0.7'} 	https://github.com/aws/aws-sdk-js/commit/aec48df284de75972d6b0121b46c7dd359d0dccc
+CommitInfo{repo='GitHub', hash='f62e77bc6b00f3e8e76434d4e9c39c60a83fdd18', version='v2.0.8'} 	https://github.com/aws/aws-sdk-js/commit/f62e77bc6b00f3e8e76434d4e9c39c60a83fdd18
+CommitInfo{repo='GitHub', hash='ca273438840722fe9287685b2d00618cd693055a', version='v2.0.9'} 	https://github.com/aws/aws-sdk-js/commit/ca273438840722fe9287685b2d00618cd693055a
+CommitInfo{repo='GitHub', hash='91005bd86103f674f7eb1bdb5d0ea147a48a415a', version='v2.1.0'} 	https://github.com/aws/aws-sdk-js/commit/91005bd86103f674f7eb1bdb5d0ea147a48a415a
+CommitInfo{repo='GitHub', hash='d0fb1a0d61aa0e463be3e20879e7632d0a08872c', version='v2.10.0'} 	https://github.com/aws/aws-sdk-js/commit/d0fb1a0d61aa0e463be3e20879e7632d0a08872c
+CommitInfo{repo='GitHub', hash='10f13da7dc8bf0675d9c87bb732de8bef70eab66', version='v2.100.0'} 	https://github.com/aws/aws-sdk-js/commit/10f13da7dc8bf0675d9c87bb732de8bef70eab66
+CommitInfo{repo='GitHub', hash='773a89499954919ac6fbeb0ddcb4ccb3f787fe6d', version='v2.101.0'} 	https://github.com/aws/aws-sdk-js/commit/773a89499954919ac6fbeb0ddcb4ccb3f787fe6d
+CommitInfo{repo='GitHub', hash='8cfdf11aa745b4e3b95ae3cc9349c4fc3eaad393', version='v2.102.0'} 	https://github.com/aws/aws-sdk-js/commit/8cfdf11aa745b4e3b95ae3cc9349c4fc3eaad393
+CommitInfo{repo='GitHub', hash='5a2ca97483297825205e1a09d992f64ee0ec5701', version='v2.103.0'} 	https://github.com/aws/aws-sdk-js/commit/5a2ca97483297825205e1a09d992f64ee0ec5701
+CommitInfo{repo='GitHub', hash='6a79945e226f8757681b2638caba7c278657ee65', version='v2.104.0'} 	https://github.com/aws/aws-sdk-js/commit/6a79945e226f8757681b2638caba7c278657ee65
+CommitInfo{repo='GitHub', hash='e1886282f4c99e3b2a4c74279548b03d0e8d25f6', version='v2.105.0'} 	https://github.com/aws/aws-sdk-js/commit/e1886282f4c99e3b2a4c74279548b03d0e8d25f6
+CommitInfo{repo='GitHub', hash='e1886282f4c99e3b2a4c74279548b03d0e8d25f6', version='v2.105.0'} 	https://github.com/aws/aws-sdk-js/commit/e1886282f4c99e3b2a4c74279548b03d0e8d25f6
+CommitInfo{repo='GitHub', hash='ddc02e6c44ea71fe6a1a3228ce63487ec141ca92', version='v2.106.0'} 	https://github.com/aws/aws-sdk-js/commit/ddc02e6c44ea71fe6a1a3228ce63487ec141ca92
+CommitInfo{repo='GitHub', hash='dcc196a8c79a9546a8b6ec21b1854b9be90a5354', version='v2.107.0'} 	https://github.com/aws/aws-sdk-js/commit/dcc196a8c79a9546a8b6ec21b1854b9be90a5354
+CommitInfo{repo='GitHub', hash='fb754dba8718e53a16f0dba9daedb5c107bda406', version='v2.108.0'} 	https://github.com/aws/aws-sdk-js/commit/fb754dba8718e53a16f0dba9daedb5c107bda406
+CommitInfo{repo='GitHub', hash='ccffe1451e8edef726f3abee6666e538ac2e97f9', version='v2.109.0'} 	https://github.com/aws/aws-sdk-js/commit/ccffe1451e8edef726f3abee6666e538ac2e97f9
+CommitInfo{repo='GitHub', hash='ccffe1451e8edef726f3abee6666e538ac2e97f9', version='v2.109.0'} 	https://github.com/aws/aws-sdk-js/commit/ccffe1451e8edef726f3abee6666e538ac2e97f9
+CommitInfo{repo='GitHub', hash='3e02217305d72b367d5445f529e44fabfaad7a0a', version='v2.1.1'} 	https://github.com/aws/aws-sdk-js/commit/3e02217305d72b367d5445f529e44fabfaad7a0a
+CommitInfo{repo='GitHub', hash='26f5750d98f774c72cc74aabd9bc084b7e9628a4', version='v2.1.10'} 	https://github.com/aws/aws-sdk-js/commit/26f5750d98f774c72cc74aabd9bc084b7e9628a4
+CommitInfo{repo='GitHub', hash='2b45e4d023ca2d041d4d6db35e22722ce6a0c7c1', version='v2.11.0'} 	https://github.com/aws/aws-sdk-js/commit/2b45e4d023ca2d041d4d6db35e22722ce6a0c7c1
+CommitInfo{repo='GitHub', hash='02b9c97b76293352fe087e2025116ecf1901105c', version='v2.110.0'} 	https://github.com/aws/aws-sdk-js/commit/02b9c97b76293352fe087e2025116ecf1901105c
+CommitInfo{repo='GitHub', hash='ce59cd61428748eb7e40412e2b2ef75b65a69965', version='v2.1.11'} 	https://github.com/aws/aws-sdk-js/commit/ce59cd61428748eb7e40412e2b2ef75b65a69965
+CommitInfo{repo='GitHub', hash='f8ba4c1a388de3f31b12ecccd51d8589ce805f71', version='v2.111.0'} 	https://github.com/aws/aws-sdk-js/commit/f8ba4c1a388de3f31b12ecccd51d8589ce805f71
+CommitInfo{repo='GitHub', hash='75e340d5a00e293c9349591921a27a4a8cd71129', version='v2.1.12'} 	https://github.com/aws/aws-sdk-js/commit/75e340d5a00e293c9349591921a27a4a8cd71129
+CommitInfo{repo='GitHub', hash='c8643e9f5ceffeb117cf25b52d5ff82441caed46', version='v2.112.0'} 	https://github.com/aws/aws-sdk-js/commit/c8643e9f5ceffeb117cf25b52d5ff82441caed46
+CommitInfo{repo='GitHub', hash='10f2b858d9fe600c362a04582634bbc484818931', version='v2.1.13'} 	https://github.com/aws/aws-sdk-js/commit/10f2b858d9fe600c362a04582634bbc484818931
+CommitInfo{repo='GitHub', hash='b8323c44e529758458a61102bbbcfa44f9afff29', version='v2.113.0'} 	https://github.com/aws/aws-sdk-js/commit/b8323c44e529758458a61102bbbcfa44f9afff29
+CommitInfo{repo='GitHub', hash='45a1bd64146469899ed536f3051f358167577875', version='v2.1.14'} 	https://github.com/aws/aws-sdk-js/commit/45a1bd64146469899ed536f3051f358167577875
+CommitInfo{repo='GitHub', hash='84486ef337f5e0a423674ceca492aedd42cbd46d', version='v2.114.0'} 	https://github.com/aws/aws-sdk-js/commit/84486ef337f5e0a423674ceca492aedd42cbd46d
+CommitInfo{repo='GitHub', hash='821bb6be9f55898ed6d81822fb53da18aad32c99', version='v2.1.15'} 	https://github.com/aws/aws-sdk-js/commit/821bb6be9f55898ed6d81822fb53da18aad32c99
+CommitInfo{repo='GitHub', hash='5e22114787928450abfa0d8eeab828eba5f29110', version='v2.115.0'} 	https://github.com/aws/aws-sdk-js/commit/5e22114787928450abfa0d8eeab828eba5f29110
+CommitInfo{repo='GitHub', hash='eb83937b0dafec81cb0ac2a0b94b0ab426dd9a26', version='v2.1.16'} 	https://github.com/aws/aws-sdk-js/commit/eb83937b0dafec81cb0ac2a0b94b0ab426dd9a26
+CommitInfo{repo='GitHub', hash='2a630e16293bc95f4f2edb91e822a080e8fd2424', version='v2.116.0'} 	https://github.com/aws/aws-sdk-js/commit/2a630e16293bc95f4f2edb91e822a080e8fd2424
+CommitInfo{repo='GitHub', hash='47416560efb743b4242b6c9a65f6561e2ae815eb', version='v2.1.17'} 	https://github.com/aws/aws-sdk-js/commit/47416560efb743b4242b6c9a65f6561e2ae815eb
+CommitInfo{repo='GitHub', hash='b4578e190f0b325e355c9e81bd02d666a62c7666', version='v2.117.0'} 	https://github.com/aws/aws-sdk-js/commit/b4578e190f0b325e355c9e81bd02d666a62c7666
+CommitInfo{repo='GitHub', hash='69f05c427f503caea6845dabaf9183a0bb181846', version='v2.1.18'} 	https://github.com/aws/aws-sdk-js/commit/69f05c427f503caea6845dabaf9183a0bb181846
+CommitInfo{repo='GitHub', hash='8a43108d60aa0553d986cf4a7ca1951b5866b27b', version='v2.118.0'} 	https://github.com/aws/aws-sdk-js/commit/8a43108d60aa0553d986cf4a7ca1951b5866b27b
+CommitInfo{repo='GitHub', hash='afad5b72a0f0b19c0f6cd0de7ebd5fe467fc4767', version='v2.1.19'} 	https://github.com/aws/aws-sdk-js/commit/afad5b72a0f0b19c0f6cd0de7ebd5fe467fc4767
+CommitInfo{repo='GitHub', hash='123a520a69e6323f74cfde32f3b498568e120cb1', version='v2.119.0'} 	https://github.com/aws/aws-sdk-js/commit/123a520a69e6323f74cfde32f3b498568e120cb1
+CommitInfo{repo='GitHub', hash='95d54984902987139f2b38fadf05924409167f5a', version='v2.1.2'} 	https://github.com/aws/aws-sdk-js/commit/95d54984902987139f2b38fadf05924409167f5a
+CommitInfo{repo='GitHub', hash='0234d82a36a417bd22cada1f7c1f70f0ab097b2f', version='v2.1.20'} 	https://github.com/aws/aws-sdk-js/commit/0234d82a36a417bd22cada1f7c1f70f0ab097b2f
+CommitInfo{repo='GitHub', hash='e56cd9ea269edd457dbe9496b62c1c87374c31a3', version='v2.12.0'} 	https://github.com/aws/aws-sdk-js/commit/e56cd9ea269edd457dbe9496b62c1c87374c31a3
+CommitInfo{repo='GitHub', hash='2acb7054a5422fa88b69823f55fc2889ec42e9f1', version='v2.120.0'} 	https://github.com/aws/aws-sdk-js/commit/2acb7054a5422fa88b69823f55fc2889ec42e9f1
+CommitInfo{repo='GitHub', hash='d3ceaae49329932c94adfe20f9894db73d3be58d', version='v2.1.21'} 	https://github.com/aws/aws-sdk-js/commit/d3ceaae49329932c94adfe20f9894db73d3be58d
+CommitInfo{repo='GitHub', hash='4c75cada2893fb833ec2b0d6035f4fb1a4538ca0', version='v2.121.0'} 	https://github.com/aws/aws-sdk-js/commit/4c75cada2893fb833ec2b0d6035f4fb1a4538ca0
+CommitInfo{repo='GitHub', hash='35778b026bfebfe6b4e83140ebff86ba033c74c7', version='v2.1.22'} 	https://github.com/aws/aws-sdk-js/commit/35778b026bfebfe6b4e83140ebff86ba033c74c7
+CommitInfo{repo='GitHub', hash='6e9b2b15b2213cb4a008d5fc3e37a57b731d711a', version='v2.122.0'} 	https://github.com/aws/aws-sdk-js/commit/6e9b2b15b2213cb4a008d5fc3e37a57b731d711a
+CommitInfo{repo='GitHub', hash='b867cf7601703cb54f94c4ec14471585ebc0bcdb', version='v2.1.23'} 	https://github.com/aws/aws-sdk-js/commit/b867cf7601703cb54f94c4ec14471585ebc0bcdb
+CommitInfo{repo='GitHub', hash='0875abbfd67de6e9738d16b6eb5b8d54f18f12af', version='v2.123.0'} 	https://github.com/aws/aws-sdk-js/commit/0875abbfd67de6e9738d16b6eb5b8d54f18f12af
+CommitInfo{repo='GitHub', hash='5cc2e65b96ff9a77ad3b129a4e57ad74036798e3', version='v2.1.24'} 	https://github.com/aws/aws-sdk-js/commit/5cc2e65b96ff9a77ad3b129a4e57ad74036798e3
+CommitInfo{repo='GitHub', hash='17afb5ad667a2651938bb7520ceed1c1becd37c7', version='v2.124.0'} 	https://github.com/aws/aws-sdk-js/commit/17afb5ad667a2651938bb7520ceed1c1becd37c7
+CommitInfo{repo='GitHub', hash='17afb5ad667a2651938bb7520ceed1c1becd37c7', version='v2.124.0'} 	https://github.com/aws/aws-sdk-js/commit/17afb5ad667a2651938bb7520ceed1c1becd37c7
+CommitInfo{repo='GitHub', hash='71a3c0abbfe06f2382de321dceeecf252ed1d6c7', version='v2.1.25'} 	https://github.com/aws/aws-sdk-js/commit/71a3c0abbfe06f2382de321dceeecf252ed1d6c7
+CommitInfo{repo='GitHub', hash='8673931835a178a131e4f8ffe841e61369ad9e64', version='v2.125.0'} 	https://github.com/aws/aws-sdk-js/commit/8673931835a178a131e4f8ffe841e61369ad9e64
+CommitInfo{repo='GitHub', hash='d3b8962c530f9717d524123b83002024c3bd928d', version='v2.1.26'} 	https://github.com/aws/aws-sdk-js/commit/d3b8962c530f9717d524123b83002024c3bd928d
+CommitInfo{repo='GitHub', hash='664143d13054d8eb9e3d84d96769965e87be309b', version='v2.126.0'} 	https://github.com/aws/aws-sdk-js/commit/664143d13054d8eb9e3d84d96769965e87be309b
+CommitInfo{repo='GitHub', hash='ff0729150b7a0ea2d12b5482f6e853ff42321e96', version='v2.1.27'} 	https://github.com/aws/aws-sdk-js/commit/ff0729150b7a0ea2d12b5482f6e853ff42321e96
+CommitInfo{repo='GitHub', hash='afe798b85c4a16b490b8963e35dce6de4f9b1104', version='v2.127.0'} 	https://github.com/aws/aws-sdk-js/commit/afe798b85c4a16b490b8963e35dce6de4f9b1104
+CommitInfo{repo='GitHub', hash='aabfbea4ebf2b01c06f7b1c9c1c1bcb07b92b8c8', version='v2.1.28'} 	https://github.com/aws/aws-sdk-js/commit/aabfbea4ebf2b01c06f7b1c9c1c1bcb07b92b8c8
+CommitInfo{repo='GitHub', hash='d38bcfd1e85576915e8c51b7855e486dacc81c27', version='v2.128.0'} 	https://github.com/aws/aws-sdk-js/commit/d38bcfd1e85576915e8c51b7855e486dacc81c27
+CommitInfo{repo='GitHub', hash='ac01539402082b8cf674cf3c079252df9903cd14', version='v2.1.29'} 	https://github.com/aws/aws-sdk-js/commit/ac01539402082b8cf674cf3c079252df9903cd14
+CommitInfo{repo='GitHub', hash='507fcb9c0d7ded2648b7ab0dafe7eba2b4f81a72', version='v2.129.0'} 	https://github.com/aws/aws-sdk-js/commit/507fcb9c0d7ded2648b7ab0dafe7eba2b4f81a72
+CommitInfo{repo='GitHub', hash='971af2e4b5908648ce9a0a655223632aa5870ef6', version='v2.1.3'} 	https://github.com/aws/aws-sdk-js/commit/971af2e4b5908648ce9a0a655223632aa5870ef6
+CommitInfo{repo='GitHub', hash='02164d0a77bd07051e9e1fcd6fabf8e9e7cc9129', version='v2.1.30'} 	https://github.com/aws/aws-sdk-js/commit/02164d0a77bd07051e9e1fcd6fabf8e9e7cc9129
+CommitInfo{repo='GitHub', hash='e4d72fcb39fc1a990870c0efa33b5ee7ac3a637b', version='v2.13.0'} 	https://github.com/aws/aws-sdk-js/commit/e4d72fcb39fc1a990870c0efa33b5ee7ac3a637b
+CommitInfo{repo='GitHub', hash='bdc8327466f2cd8f4b6a027d7c82178c8d77b950', version='v2.130.0'} 	https://github.com/aws/aws-sdk-js/commit/bdc8327466f2cd8f4b6a027d7c82178c8d77b950
+CommitInfo{repo='GitHub', hash='2091913fef41c225814c53a4a2fb435ef7fe60c9', version='v2.1.31'} 	https://github.com/aws/aws-sdk-js/commit/2091913fef41c225814c53a4a2fb435ef7fe60c9
+CommitInfo{repo='GitHub', hash='5511603d945576d7302ae7597136cecbe00ec3e8', version='v2.131.0'} 	https://github.com/aws/aws-sdk-js/commit/5511603d945576d7302ae7597136cecbe00ec3e8
+CommitInfo{repo='GitHub', hash='fb0f95f43ea958846d932bb4e79934a4a548155f', version='v2.1.32'} 	https://github.com/aws/aws-sdk-js/commit/fb0f95f43ea958846d932bb4e79934a4a548155f
+CommitInfo{repo='GitHub', hash='488327a234ddef160a1592e717dd1e437560119a', version='v2.132.0'} 	https://github.com/aws/aws-sdk-js/commit/488327a234ddef160a1592e717dd1e437560119a
+CommitInfo{repo='GitHub', hash='8a307cfb0564a0be7a7e2cf2892c88aedbd67e6b', version='v2.1.33'} 	https://github.com/aws/aws-sdk-js/commit/8a307cfb0564a0be7a7e2cf2892c88aedbd67e6b
+CommitInfo{repo='GitHub', hash='98b5e281c8a3f9633bd92a3a41fdc332030a2b22', version='v2.133.0'} 	https://github.com/aws/aws-sdk-js/commit/98b5e281c8a3f9633bd92a3a41fdc332030a2b22
+CommitInfo{repo='GitHub', hash='08de9516754ea98b88bcc186c8b6ffbf89458502', version='v2.1.34'} 	https://github.com/aws/aws-sdk-js/commit/08de9516754ea98b88bcc186c8b6ffbf89458502
+CommitInfo{repo='GitHub', hash='881c5030c3ff1673ec38c5c502de08149d780bdf', version='v2.134.0'} 	https://github.com/aws/aws-sdk-js/commit/881c5030c3ff1673ec38c5c502de08149d780bdf
+CommitInfo{repo='GitHub', hash='670b61a3a9bfe38380560f72a08069f2c06d7ec0', version='v2.1.35'} 	https://github.com/aws/aws-sdk-js/commit/670b61a3a9bfe38380560f72a08069f2c06d7ec0
+CommitInfo{repo='GitHub', hash='2751999520ae13b989ab898f7582ed9f41fc4a39', version='v2.135.0'} 	https://github.com/aws/aws-sdk-js/commit/2751999520ae13b989ab898f7582ed9f41fc4a39
+CommitInfo{repo='GitHub', hash='99c0e1240bd1a8278c6258b8bac3ca6f44336ca4', version='v2.1.36'} 	https://github.com/aws/aws-sdk-js/commit/99c0e1240bd1a8278c6258b8bac3ca6f44336ca4
+CommitInfo{repo='GitHub', hash='506ba3783bbf5ed965bf60b03ec53920cde1ea20', version='v2.136.0'} 	https://github.com/aws/aws-sdk-js/commit/506ba3783bbf5ed965bf60b03ec53920cde1ea20
+CommitInfo{repo='GitHub', hash='66e1274a2c22cc184275918c356a1f5f0361d4e4', version='v2.1.37'} 	https://github.com/aws/aws-sdk-js/commit/66e1274a2c22cc184275918c356a1f5f0361d4e4
+CommitInfo{repo='GitHub', hash='ebcb767ee7e85443c0e8d4478a7fc7dfc39c87ca', version='v2.137.0'} 	https://github.com/aws/aws-sdk-js/commit/ebcb767ee7e85443c0e8d4478a7fc7dfc39c87ca
+CommitInfo{repo='GitHub', hash='a4dcd6072b65bc1a1dcebd989081fe1c9c6184c9', version='v2.1.38'} 	https://github.com/aws/aws-sdk-js/commit/a4dcd6072b65bc1a1dcebd989081fe1c9c6184c9
+CommitInfo{repo='GitHub', hash='e778e1768678d9a6068d49d75fa56004d22ff13a', version='v2.138.0'} 	https://github.com/aws/aws-sdk-js/commit/e778e1768678d9a6068d49d75fa56004d22ff13a
+CommitInfo{repo='GitHub', hash='89a08414895f74e54d39c8580a435dccb58c4d82', version='v2.1.39'} 	https://github.com/aws/aws-sdk-js/commit/89a08414895f74e54d39c8580a435dccb58c4d82
+CommitInfo{repo='GitHub', hash='d723282755b763d9776e28dcad6abb7a20e1756d', version='v2.139.0'} 	https://github.com/aws/aws-sdk-js/commit/d723282755b763d9776e28dcad6abb7a20e1756d
+CommitInfo{repo='GitHub', hash='8a15f085d87c52de38c2bbf645a80b8649627b30', version='v2.1.4'} 	https://github.com/aws/aws-sdk-js/commit/8a15f085d87c52de38c2bbf645a80b8649627b30
+CommitInfo{repo='GitHub', hash='61315bb286519273eca0ecbe8270987c9f05ae89', version='v2.1.40'} 	https://github.com/aws/aws-sdk-js/commit/61315bb286519273eca0ecbe8270987c9f05ae89
+CommitInfo{repo='GitHub', hash='d911f8df388279403fa9c3e6d2e615ca87ab1729', version='v2.14.0'} 	https://github.com/aws/aws-sdk-js/commit/d911f8df388279403fa9c3e6d2e615ca87ab1729
+CommitInfo{repo='GitHub', hash='d78a29ba72812a2c44667489d2f24c3eff615c3e', version='v2.140.0'} 	https://github.com/aws/aws-sdk-js/commit/d78a29ba72812a2c44667489d2f24c3eff615c3e
+CommitInfo{repo='GitHub', hash='e0fcbe08bae68fdd86ce6a5bf50c726982553277', version='v2.1.41'} 	https://github.com/aws/aws-sdk-js/commit/e0fcbe08bae68fdd86ce6a5bf50c726982553277
+CommitInfo{repo='GitHub', hash='0b3f9ae16bc633a45504ff0e66474fa8bda9d6be', version='v2.141.0'} 	https://github.com/aws/aws-sdk-js/commit/0b3f9ae16bc633a45504ff0e66474fa8bda9d6be
+CommitInfo{repo='GitHub', hash='6ad65d3e09a3a4531c84d12b980e6fb9af136a0a', version='v2.1.42'} 	https://github.com/aws/aws-sdk-js/commit/6ad65d3e09a3a4531c84d12b980e6fb9af136a0a
+CommitInfo{repo='GitHub', hash='efe2e31d26d30775f8922353f964610304415f85', version='v2.142.0'} 	https://github.com/aws/aws-sdk-js/commit/efe2e31d26d30775f8922353f964610304415f85
+CommitInfo{repo='GitHub', hash='68d893421104df066d897875906d2fc58addc8fe', version='v2.1.43'} 	https://github.com/aws/aws-sdk-js/commit/68d893421104df066d897875906d2fc58addc8fe
+CommitInfo{repo='GitHub', hash='0bc3ec20a4fc297c29286cfed72fa7d3ef887689', version='v2.143.0'} 	https://github.com/aws/aws-sdk-js/commit/0bc3ec20a4fc297c29286cfed72fa7d3ef887689
+CommitInfo{repo='GitHub', hash='c0ab39a7abd2672d05554f495aef8d39c9e09af4', version='v2.1.44'} 	https://github.com/aws/aws-sdk-js/commit/c0ab39a7abd2672d05554f495aef8d39c9e09af4
+CommitInfo{repo='GitHub', hash='8af948cb8d4a5b1dec065f6ee50a6855805ec968', version='v2.144.0'} 	https://github.com/aws/aws-sdk-js/commit/8af948cb8d4a5b1dec065f6ee50a6855805ec968
+CommitInfo{repo='GitHub', hash='320ee0c4e88769bfcb662f15dc1eb7e07bbb2e17', version='v2.1.45'} 	https://github.com/aws/aws-sdk-js/commit/320ee0c4e88769bfcb662f15dc1eb7e07bbb2e17
+CommitInfo{repo='GitHub', hash='df8003a0b27d6c58e8ee7080ec9a74f04223d816', version='v2.145.0'} 	https://github.com/aws/aws-sdk-js/commit/df8003a0b27d6c58e8ee7080ec9a74f04223d816
+CommitInfo{repo='GitHub', hash='3b6419996e0380505bfc89131f46373892b0c8f8', version='v2.1.46'} 	https://github.com/aws/aws-sdk-js/commit/3b6419996e0380505bfc89131f46373892b0c8f8
+CommitInfo{repo='GitHub', hash='27b9431768d6a48822c25f77aac0302185330c7d', version='v2.146.0'} 	https://github.com/aws/aws-sdk-js/commit/27b9431768d6a48822c25f77aac0302185330c7d
+CommitInfo{repo='GitHub', hash='44a2e95fcad8083b70d217754be27cd7a52c0747', version='v2.1.47'} 	https://github.com/aws/aws-sdk-js/commit/44a2e95fcad8083b70d217754be27cd7a52c0747
+CommitInfo{repo='GitHub', hash='dacf88a174ba60576bf49034a918a15e596b0368', version='v2.147.0'} 	https://github.com/aws/aws-sdk-js/commit/dacf88a174ba60576bf49034a918a15e596b0368
+CommitInfo{repo='GitHub', hash='e77a9f74c7b001f67956377e14ffb5b155413ce5', version='v2.1.48'} 	https://github.com/aws/aws-sdk-js/commit/e77a9f74c7b001f67956377e14ffb5b155413ce5
+CommitInfo{repo='GitHub', hash='bcc98a5b19aede81932be81d4cefa3c7f9d83093', version='v2.148.0'} 	https://github.com/aws/aws-sdk-js/commit/bcc98a5b19aede81932be81d4cefa3c7f9d83093
+CommitInfo{repo='GitHub', hash='34c956b2543d5d26f73ca03c006e051a8cd1d4fe', version='v2.1.49'} 	https://github.com/aws/aws-sdk-js/commit/34c956b2543d5d26f73ca03c006e051a8cd1d4fe
+CommitInfo{repo='GitHub', hash='1ecbb247704e094d6bafa771b596657ffa1f9571', version='v2.149.0'} 	https://github.com/aws/aws-sdk-js/commit/1ecbb247704e094d6bafa771b596657ffa1f9571
+CommitInfo{repo='GitHub', hash='5c239be98cb1bede93e771fbcfb4ecd56d0b2258', version='v2.1.5'} 	https://github.com/aws/aws-sdk-js/commit/5c239be98cb1bede93e771fbcfb4ecd56d0b2258
+CommitInfo{repo='GitHub', hash='7dd7d9b343a1a626cb907b257bc24e0c9ff70693', version='v2.1.50'} 	https://github.com/aws/aws-sdk-js/commit/7dd7d9b343a1a626cb907b257bc24e0c9ff70693
+CommitInfo{repo='GitHub', hash='5eec2b18b0b53e10c08b6e9e387de18bdd8f49b4', version='v2.15.0'} 	https://github.com/aws/aws-sdk-js/commit/5eec2b18b0b53e10c08b6e9e387de18bdd8f49b4
+CommitInfo{repo='GitHub', hash='27354b179ae1ff2dd155d5ab5a4d0ea539681280', version='v2.150.0'} 	https://github.com/aws/aws-sdk-js/commit/27354b179ae1ff2dd155d5ab5a4d0ea539681280
+CommitInfo{repo='GitHub', hash='2d0981a8ef3c6b29dceb3e69b5c9a3eb3bb78621', version='v2.151.0'} 	https://github.com/aws/aws-sdk-js/commit/2d0981a8ef3c6b29dceb3e69b5c9a3eb3bb78621
+CommitInfo{repo='GitHub', hash='2d0981a8ef3c6b29dceb3e69b5c9a3eb3bb78621', version='v2.151.0'} 	https://github.com/aws/aws-sdk-js/commit/2d0981a8ef3c6b29dceb3e69b5c9a3eb3bb78621
+CommitInfo{repo='GitHub', hash='46a5ab29c1dc0a40e824cbabf623343c5e9e622a', version='v2.152.0'} 	https://github.com/aws/aws-sdk-js/commit/46a5ab29c1dc0a40e824cbabf623343c5e9e622a
+CommitInfo{repo='GitHub', hash='b293eb4005b4301fe31412255b899b3f262e7cb5', version='v2.153.0'} 	https://github.com/aws/aws-sdk-js/commit/b293eb4005b4301fe31412255b899b3f262e7cb5
+CommitInfo{repo='GitHub', hash='d390fad3490a0bd4b9489db953ded8706d5f3ec7', version='v2.154.0'} 	https://github.com/aws/aws-sdk-js/commit/d390fad3490a0bd4b9489db953ded8706d5f3ec7
+CommitInfo{repo='GitHub', hash='4c8e625d365b89aa0338586cfb2ba2a522e4872f', version='v2.155.0'} 	https://github.com/aws/aws-sdk-js/commit/4c8e625d365b89aa0338586cfb2ba2a522e4872f
+CommitInfo{repo='GitHub', hash='b81c81052eaadb27fcf3b33ffcc83b3f2f8ac810', version='v2.156.0'} 	https://github.com/aws/aws-sdk-js/commit/b81c81052eaadb27fcf3b33ffcc83b3f2f8ac810
+CommitInfo{repo='GitHub', hash='5a98407ce8902984dcc4e40269959dfe8abb2d71', version='v2.157.0'} 	https://github.com/aws/aws-sdk-js/commit/5a98407ce8902984dcc4e40269959dfe8abb2d71
+CommitInfo{repo='GitHub', hash='b4d380d81cd4d4b2fedc0d389578cf2106f6cb13', version='v2.158.0'} 	https://github.com/aws/aws-sdk-js/commit/b4d380d81cd4d4b2fedc0d389578cf2106f6cb13
+CommitInfo{repo='GitHub', hash='51ea8e0b2abed00e0aa717c4910d051448b52adb', version='v2.159.0'} 	https://github.com/aws/aws-sdk-js/commit/51ea8e0b2abed00e0aa717c4910d051448b52adb
+CommitInfo{repo='GitHub', hash='fc04887905f4a8dca1a96e1799c2f8bedab1cd01', version='v2.1.6'} 	https://github.com/aws/aws-sdk-js/commit/fc04887905f4a8dca1a96e1799c2f8bedab1cd01
+CommitInfo{repo='GitHub', hash='04e2f1c1fc83285bf60ce89c88bf592ae400f507', version='v2.16.0'} 	https://github.com/aws/aws-sdk-js/commit/04e2f1c1fc83285bf60ce89c88bf592ae400f507
+CommitInfo{repo='GitHub', hash='b4c010fa5c70ba557e4fa542d70f6a82b49e2495', version='v2.160.0'} 	https://github.com/aws/aws-sdk-js/commit/b4c010fa5c70ba557e4fa542d70f6a82b49e2495
+CommitInfo{repo='GitHub', hash='1d89e56e3ca57fcd0deaac01bfdf37e7a196a83b', version='v2.161.0'} 	https://github.com/aws/aws-sdk-js/commit/1d89e56e3ca57fcd0deaac01bfdf37e7a196a83b
+CommitInfo{repo='GitHub', hash='653ad8f4fa458997e6f35bf1279749903851e1f1', version='v2.162.0'} 	https://github.com/aws/aws-sdk-js/commit/653ad8f4fa458997e6f35bf1279749903851e1f1
+CommitInfo{repo='GitHub', hash='abf4fd528ac05b08b7af0d78f14b847459511a32', version='v2.163.0'} 	https://github.com/aws/aws-sdk-js/commit/abf4fd528ac05b08b7af0d78f14b847459511a32
+CommitInfo{repo='GitHub', hash='2ddc5682ed63ae17a68460369607bebce207e695', version='v2.164.0'} 	https://github.com/aws/aws-sdk-js/commit/2ddc5682ed63ae17a68460369607bebce207e695
+CommitInfo{repo='GitHub', hash='36dd7de40c5d75263083c80affc12640d144abd7', version='v2.165.0'} 	https://github.com/aws/aws-sdk-js/commit/36dd7de40c5d75263083c80affc12640d144abd7
+CommitInfo{repo='GitHub', hash='e928b93159ecdc848e183d23bab5276aafe1e39b', version='v2.166.0'} 	https://github.com/aws/aws-sdk-js/commit/e928b93159ecdc848e183d23bab5276aafe1e39b
+CommitInfo{repo='GitHub', hash='7eed85b22649688b01c32f3d4849672d3361ccea', version='v2.167.0'} 	https://github.com/aws/aws-sdk-js/commit/7eed85b22649688b01c32f3d4849672d3361ccea
+CommitInfo{repo='GitHub', hash='603acdcfcd182d84b8dd4bb9698e0d84b2056447', version='v2.168.0'} 	https://github.com/aws/aws-sdk-js/commit/603acdcfcd182d84b8dd4bb9698e0d84b2056447
+CommitInfo{repo='GitHub', hash='9e92c593cee8824832399c2628681b86e54612a8', version='v2.169.0'} 	https://github.com/aws/aws-sdk-js/commit/9e92c593cee8824832399c2628681b86e54612a8
+CommitInfo{repo='GitHub', hash='e4eddec453e7ba4301ea36107ef9259e06286e41', version='v2.1.7'} 	https://github.com/aws/aws-sdk-js/commit/e4eddec453e7ba4301ea36107ef9259e06286e41
+CommitInfo{repo='GitHub', hash='6a1b00c11d7f4f08af3b3d08d14ef77d1349ce84', version='v2.17.0'} 	https://github.com/aws/aws-sdk-js/commit/6a1b00c11d7f4f08af3b3d08d14ef77d1349ce84
+CommitInfo{repo='GitHub', hash='fe131895db916118fde508e709e39ccee8e15de4', version='v2.170.0'} 	https://github.com/aws/aws-sdk-js/commit/fe131895db916118fde508e709e39ccee8e15de4
+CommitInfo{repo='GitHub', hash='6d717c4c6e566e090b923e9b4f5fc453865f3dad', version='v2.171.0'} 	https://github.com/aws/aws-sdk-js/commit/6d717c4c6e566e090b923e9b4f5fc453865f3dad
+CommitInfo{repo='GitHub', hash='f59df64d55e8ee3d1d8e4c37590d12bfa4fe0485', version='v2.172.0'} 	https://github.com/aws/aws-sdk-js/commit/f59df64d55e8ee3d1d8e4c37590d12bfa4fe0485
+CommitInfo{repo='GitHub', hash='5d556e569733a4b282af40b83d4cb213cc845e3e', version='v2.173.0'} 	https://github.com/aws/aws-sdk-js/commit/5d556e569733a4b282af40b83d4cb213cc845e3e
+CommitInfo{repo='GitHub', hash='492220188734ba91685df2c51bf26f1cd64c375c', version='v2.174.0'} 	https://github.com/aws/aws-sdk-js/commit/492220188734ba91685df2c51bf26f1cd64c375c
+CommitInfo{repo='GitHub', hash='45570fae250a910bf7277f19b726ca328bcdad05', version='v2.175.0'} 	https://github.com/aws/aws-sdk-js/commit/45570fae250a910bf7277f19b726ca328bcdad05
+CommitInfo{repo='GitHub', hash='f48617340a2f843ee17ed4d442adc40bcaf6ac86', version='v2.176.0'} 	https://github.com/aws/aws-sdk-js/commit/f48617340a2f843ee17ed4d442adc40bcaf6ac86
+CommitInfo{repo='GitHub', hash='86793ba8dba9c10488d39ee93b8d201085bf0e89', version='v2.177.0'} 	https://github.com/aws/aws-sdk-js/commit/86793ba8dba9c10488d39ee93b8d201085bf0e89
+CommitInfo{repo='GitHub', hash='48c9f0423368c76121bc11f19e53f2b22f2f3c43', version='v2.178.0'} 	https://github.com/aws/aws-sdk-js/commit/48c9f0423368c76121bc11f19e53f2b22f2f3c43
+CommitInfo{repo='GitHub', hash='0e239c272b057b32f81f46a7008762bc594b6acc', version='v2.179.0'} 	https://github.com/aws/aws-sdk-js/commit/0e239c272b057b32f81f46a7008762bc594b6acc
+CommitInfo{repo='GitHub', hash='12ba49f4cc4bae730385c0a93d82bcb0fb810984', version='v2.1.8'} 	https://github.com/aws/aws-sdk-js/commit/12ba49f4cc4bae730385c0a93d82bcb0fb810984
+CommitInfo{repo='GitHub', hash='2b3b3555940c3ef9221c43703134ae1cf3118547', version='v2.18.0'} 	https://github.com/aws/aws-sdk-js/commit/2b3b3555940c3ef9221c43703134ae1cf3118547
+CommitInfo{repo='GitHub', hash='8e2bae61b2753316a080851537d9ba6ebae2762d', version='v2.180.0'} 	https://github.com/aws/aws-sdk-js/commit/8e2bae61b2753316a080851537d9ba6ebae2762d
+CommitInfo{repo='GitHub', hash='704995277d426be140b2c9a23856e5530321fa66', version='v2.181.0'} 	https://github.com/aws/aws-sdk-js/commit/704995277d426be140b2c9a23856e5530321fa66
+CommitInfo{repo='GitHub', hash='8d63025f0d34106438e245b141822b8911e87ca4', version='v2.182.0'} 	https://github.com/aws/aws-sdk-js/commit/8d63025f0d34106438e245b141822b8911e87ca4
+CommitInfo{repo='GitHub', hash='8d63025f0d34106438e245b141822b8911e87ca4', version='v2.182.0'} 	https://github.com/aws/aws-sdk-js/commit/8d63025f0d34106438e245b141822b8911e87ca4
+CommitInfo{repo='GitHub', hash='a9117af4b5c25f399aa48ef90678abd7c36fe4b4', version='v2.183.0'} 	https://github.com/aws/aws-sdk-js/commit/a9117af4b5c25f399aa48ef90678abd7c36fe4b4
+CommitInfo{repo='GitHub', hash='43b9429fed1049f3a72f98433290a1e16a9db53d', version='v2.184.0'} 	https://github.com/aws/aws-sdk-js/commit/43b9429fed1049f3a72f98433290a1e16a9db53d
+CommitInfo{repo='GitHub', hash='cae0a4f0edc59a66e30321bbeb0554a694f52742', version='v2.185.0'} 	https://github.com/aws/aws-sdk-js/commit/cae0a4f0edc59a66e30321bbeb0554a694f52742
+CommitInfo{repo='GitHub', hash='77a2693fc65736ddc6914b27afd56cd65a092668', version='v2.186.0'} 	https://github.com/aws/aws-sdk-js/commit/77a2693fc65736ddc6914b27afd56cd65a092668
+CommitInfo{repo='GitHub', hash='37293449885a00a384357a05a0aaecedf4cf55ea', version='v2.187.0'} 	https://github.com/aws/aws-sdk-js/commit/37293449885a00a384357a05a0aaecedf4cf55ea
+CommitInfo{repo='GitHub', hash='1f52beba04f74104df4b599a1499504b26f290cc', version='v2.188.0'} 	https://github.com/aws/aws-sdk-js/commit/1f52beba04f74104df4b599a1499504b26f290cc
+CommitInfo{repo='GitHub', hash='12c993f564984edeaacec19d503b905d295a5319', version='v2.189.0'} 	https://github.com/aws/aws-sdk-js/commit/12c993f564984edeaacec19d503b905d295a5319
+CommitInfo{repo='GitHub', hash='01ff101547ccf819b33db71eafea34e6d66fccfe', version='v2.1.9'} 	https://github.com/aws/aws-sdk-js/commit/01ff101547ccf819b33db71eafea34e6d66fccfe
+CommitInfo{repo='GitHub', hash='ab6a052f02b729fd9154e09ebc2981b1a0cec920', version='v2.19.0'} 	https://github.com/aws/aws-sdk-js/commit/ab6a052f02b729fd9154e09ebc2981b1a0cec920
+CommitInfo{repo='GitHub', hash='79d10f58019674f6706ee0fb0e79b2ef18daf563', version='v2.190.0'} 	https://github.com/aws/aws-sdk-js/commit/79d10f58019674f6706ee0fb0e79b2ef18daf563
+CommitInfo{repo='GitHub', hash='1f07afaed7c8a069e0e25b1d0aa4c9ee1037b42d', version='v2.191.0'} 	https://github.com/aws/aws-sdk-js/commit/1f07afaed7c8a069e0e25b1d0aa4c9ee1037b42d
+CommitInfo{repo='GitHub', hash='1f3e24112a95f03e2027050dd9d112f3f794f9b9', version='v2.192.0'} 	https://github.com/aws/aws-sdk-js/commit/1f3e24112a95f03e2027050dd9d112f3f794f9b9
+CommitInfo{repo='GitHub', hash='1f3e24112a95f03e2027050dd9d112f3f794f9b9', version='v2.192.0'} 	https://github.com/aws/aws-sdk-js/commit/1f3e24112a95f03e2027050dd9d112f3f794f9b9
+CommitInfo{repo='GitHub', hash='3d8b2e9abbe6261f3c4098c67745db051f1f21ad', version='v2.193.0'} 	https://github.com/aws/aws-sdk-js/commit/3d8b2e9abbe6261f3c4098c67745db051f1f21ad
+CommitInfo{repo='GitHub', hash='b50b2c9153a175819133d78d785e842faa493f9b', version='v2.194.0'} 	https://github.com/aws/aws-sdk-js/commit/b50b2c9153a175819133d78d785e842faa493f9b
+CommitInfo{repo='GitHub', hash='fa2f5498d42dc17b169d8a0de040b46588230cb4', version='v2.195.0'} 	https://github.com/aws/aws-sdk-js/commit/fa2f5498d42dc17b169d8a0de040b46588230cb4
+CommitInfo{repo='GitHub', hash='840ccd7877c2682069a8a92f6c44f2d60a62d25b', version='v2.196.0'} 	https://github.com/aws/aws-sdk-js/commit/840ccd7877c2682069a8a92f6c44f2d60a62d25b
+CommitInfo{repo='GitHub', hash='9f42cb4f5910cb47ef29181fdebea7437eb26913', version='v2.197.0'} 	https://github.com/aws/aws-sdk-js/commit/9f42cb4f5910cb47ef29181fdebea7437eb26913
+CommitInfo{repo='GitHub', hash='afa008820b8cd1017a55f23377df91396b485d5e', version='v2.198.0'} 	https://github.com/aws/aws-sdk-js/commit/afa008820b8cd1017a55f23377df91396b485d5e
+CommitInfo{repo='GitHub', hash='880dec7910972f7c0f4449ddb31d2f80acc06f59', version='v2.199.0'} 	https://github.com/aws/aws-sdk-js/commit/880dec7910972f7c0f4449ddb31d2f80acc06f59
+CommitInfo{repo='GitHub', hash='ed33efdd856e0c5b8ec6eda6de367b91e5ef6b24', version='v2.2.0'} 	https://github.com/aws/aws-sdk-js/commit/ed33efdd856e0c5b8ec6eda6de367b91e5ef6b24
+CommitInfo{repo='GitHub', hash='fdc0895a0fbcbb070c12d66fd8ec2370d653690f', version='v2.20.0'} 	https://github.com/aws/aws-sdk-js/commit/fdc0895a0fbcbb070c12d66fd8ec2370d653690f
+CommitInfo{repo='GitHub', hash='9d1c09d4c403dcac6a30e695482dc7ac28807064', version='v2.200.0'} 	https://github.com/aws/aws-sdk-js/commit/9d1c09d4c403dcac6a30e695482dc7ac28807064
+CommitInfo{repo='GitHub', hash='e1f3923bdf6744c04b7329dc2d0ac5dc8dfb3302', version='v2.201.0'} 	https://github.com/aws/aws-sdk-js/commit/e1f3923bdf6744c04b7329dc2d0ac5dc8dfb3302
+CommitInfo{repo='GitHub', hash='b5f0db7a67ce3ca9a9980b66aaef197acac60ab9', version='v2.202.0'} 	https://github.com/aws/aws-sdk-js/commit/b5f0db7a67ce3ca9a9980b66aaef197acac60ab9
+CommitInfo{repo='GitHub', hash='4325060bff4ea2e82fb0e3f6e7a1811a197a94f9', version='v2.203.0'} 	https://github.com/aws/aws-sdk-js/commit/4325060bff4ea2e82fb0e3f6e7a1811a197a94f9
+CommitInfo{repo='GitHub', hash='924d0221e9a643bce1b0e5484f07ada205aeab2c', version='v2.204.0'} 	https://github.com/aws/aws-sdk-js/commit/924d0221e9a643bce1b0e5484f07ada205aeab2c
+CommitInfo{repo='GitHub', hash='0fb21c06f67fdc960882aeffe3a01e9ab174e2c9', version='v2.205.0'} 	https://github.com/aws/aws-sdk-js/commit/0fb21c06f67fdc960882aeffe3a01e9ab174e2c9
+CommitInfo{repo='GitHub', hash='0a9f9e858a185a2cf09573c8167088adb9c7e74c', version='v2.206.0'} 	https://github.com/aws/aws-sdk-js/commit/0a9f9e858a185a2cf09573c8167088adb9c7e74c
+CommitInfo{repo='GitHub', hash='fa711eb42c76b89506d5266988b6c76e5c9be696', version='v2.207.0'} 	https://github.com/aws/aws-sdk-js/commit/fa711eb42c76b89506d5266988b6c76e5c9be696
+CommitInfo{repo='GitHub', hash='818a94bac328f65a068aa87371a5fe60854c4991', version='v2.208.0'} 	https://github.com/aws/aws-sdk-js/commit/818a94bac328f65a068aa87371a5fe60854c4991
+CommitInfo{repo='GitHub', hash='545b481949f6df544cd38fa7e56750e8194a4df6', version='v2.209.0'} 	https://github.com/aws/aws-sdk-js/commit/545b481949f6df544cd38fa7e56750e8194a4df6
+CommitInfo{repo='GitHub', hash='d257e7e0497896dd89136f22dbc9e1faa29ab33c', version='v2.2.1'} 	https://github.com/aws/aws-sdk-js/commit/d257e7e0497896dd89136f22dbc9e1faa29ab33c
+CommitInfo{repo='GitHub', hash='fe184e5064c3daef261c9ff95ba9282f854c6ae3', version='v2.2.10'} 	https://github.com/aws/aws-sdk-js/commit/fe184e5064c3daef261c9ff95ba9282f854c6ae3
+CommitInfo{repo='GitHub', hash='bc5aab63f0d52bf95f53887d0cdd6ccb5ac52e4c', version='v2.21.0'} 	https://github.com/aws/aws-sdk-js/commit/bc5aab63f0d52bf95f53887d0cdd6ccb5ac52e4c
+CommitInfo{repo='GitHub', hash='b054b41e3de1e0e3e9362286a9b6ecf5dc3cd1a4', version='v2.210.0'} 	https://github.com/aws/aws-sdk-js/commit/b054b41e3de1e0e3e9362286a9b6ecf5dc3cd1a4
+CommitInfo{repo='GitHub', hash='de899ccde8facb8489c971990725b5c277e401f5', version='v2.2.11'} 	https://github.com/aws/aws-sdk-js/commit/de899ccde8facb8489c971990725b5c277e401f5
+CommitInfo{repo='GitHub', hash='a5a796c16b2024f92b5b9ad47389da55c725c054', version='v2.211.0'} 	https://github.com/aws/aws-sdk-js/commit/a5a796c16b2024f92b5b9ad47389da55c725c054
+CommitInfo{repo='GitHub', hash='32b0d924f31589e5d9cf4df21955a31d17d9969f', version='v2.211.1'} 	https://github.com/aws/aws-sdk-js/commit/32b0d924f31589e5d9cf4df21955a31d17d9969f
+CommitInfo{repo='GitHub', hash='4e8ae64d36e57447a88302f554299e7de57ca21e', version='v2.2.12'} 	https://github.com/aws/aws-sdk-js/commit/4e8ae64d36e57447a88302f554299e7de57ca21e
+CommitInfo{repo='GitHub', hash='d41f6b2e137fb75f959696604960145353ebd0dc', version='v2.212.1'} 	https://github.com/aws/aws-sdk-js/commit/d41f6b2e137fb75f959696604960145353ebd0dc
+CommitInfo{repo='GitHub', hash='38b983777b323b7e22421df20f9d59bdd0e43a38', version='v2.2.13'} 	https://github.com/aws/aws-sdk-js/commit/38b983777b323b7e22421df20f9d59bdd0e43a38
+CommitInfo{repo='GitHub', hash='3a14acee4b7d402c62bedec6b1087fe0b06001cf', version='v2.213.1'} 	https://github.com/aws/aws-sdk-js/commit/3a14acee4b7d402c62bedec6b1087fe0b06001cf
+CommitInfo{repo='GitHub', hash='6306fe825bff4f6218ea405c07f16d67dd5b9b9a', version='v2.2.14'} 	https://github.com/aws/aws-sdk-js/commit/6306fe825bff4f6218ea405c07f16d67dd5b9b9a
+CommitInfo{repo='GitHub', hash='9c27fd7e215330571a64aa8af43b9fad893b9ec8', version='v2.214.1'} 	https://github.com/aws/aws-sdk-js/commit/9c27fd7e215330571a64aa8af43b9fad893b9ec8
+CommitInfo{repo='GitHub', hash='76d17d33404db0b88bb1f971ffb4ecad76e7a9cd', version='v2.2.15'} 	https://github.com/aws/aws-sdk-js/commit/76d17d33404db0b88bb1f971ffb4ecad76e7a9cd
+CommitInfo{repo='GitHub', hash='be6f7073d6545dfd49296453e3d5e8583a16eb0a', version='v2.215.1'} 	https://github.com/aws/aws-sdk-js/commit/be6f7073d6545dfd49296453e3d5e8583a16eb0a
+CommitInfo{repo='GitHub', hash='3a258c98578494d7cbc1ea18e1590f0622df31f7', version='v2.2.16'} 	https://github.com/aws/aws-sdk-js/commit/3a258c98578494d7cbc1ea18e1590f0622df31f7
+CommitInfo{repo='GitHub', hash='5349bc82e51d93cd6f19253a126ec247d1e0b8b2', version='v2.216.1'} 	https://github.com/aws/aws-sdk-js/commit/5349bc82e51d93cd6f19253a126ec247d1e0b8b2
+CommitInfo{repo='GitHub', hash='47f6e3d77b58997d8e5af6c80a0709280c4c54dc', version='v2.2.17'} 	https://github.com/aws/aws-sdk-js/commit/47f6e3d77b58997d8e5af6c80a0709280c4c54dc
+CommitInfo{repo='GitHub', hash='915501ff717c6c9d2e05f6ea168a434fc1d00f37', version='v2.217.1'} 	https://github.com/aws/aws-sdk-js/commit/915501ff717c6c9d2e05f6ea168a434fc1d00f37
+CommitInfo{repo='GitHub', hash='ae68e4cc627889ae89559d88eda5b12b5c675c5a', version='v2.2.18'} 	https://github.com/aws/aws-sdk-js/commit/ae68e4cc627889ae89559d88eda5b12b5c675c5a
+CommitInfo{repo='GitHub', hash='d32e92643ea3baab6cfade078de2634929da1d21', version='v2.218.1'} 	https://github.com/aws/aws-sdk-js/commit/d32e92643ea3baab6cfade078de2634929da1d21
+CommitInfo{repo='GitHub', hash='93147f23804781efb537d2fce60e12b2bae708b0', version='v2.2.19'} 	https://github.com/aws/aws-sdk-js/commit/93147f23804781efb537d2fce60e12b2bae708b0
+CommitInfo{repo='GitHub', hash='70191b1a82d1a74fca0e706355e54dcb480a37ed', version='v2.219.1'} 	https://github.com/aws/aws-sdk-js/commit/70191b1a82d1a74fca0e706355e54dcb480a37ed
+CommitInfo{repo='GitHub', hash='120ea5afe58afca94632683469944d3e0cf47f2c', version='v2.2.2'} 	https://github.com/aws/aws-sdk-js/commit/120ea5afe58afca94632683469944d3e0cf47f2c
+CommitInfo{repo='GitHub', hash='4ffe5a57a249ac5ba038c1bcdefb78de0980e145', version='v2.2.20'} 	https://github.com/aws/aws-sdk-js/commit/4ffe5a57a249ac5ba038c1bcdefb78de0980e145
+CommitInfo{repo='GitHub', hash='975b315d9d6cd4dd4a3de727585bb3b81227b9f3', version='v2.22.0'} 	https://github.com/aws/aws-sdk-js/commit/975b315d9d6cd4dd4a3de727585bb3b81227b9f3
+CommitInfo{repo='GitHub', hash='5dacf0a2b35ec7b54f08e8af19e205bb2e996097', version='v2.220.1'} 	https://github.com/aws/aws-sdk-js/commit/5dacf0a2b35ec7b54f08e8af19e205bb2e996097
+CommitInfo{repo='GitHub', hash='0966bd25a70cfdc68edb1ca93d998f6506869f3c', version='v2.2.21'} 	https://github.com/aws/aws-sdk-js/commit/0966bd25a70cfdc68edb1ca93d998f6506869f3c
+CommitInfo{repo='GitHub', hash='d6518e0f73f62aae688acc4cd9ee74f1af2f3326', version='v2.221.1'} 	https://github.com/aws/aws-sdk-js/commit/d6518e0f73f62aae688acc4cd9ee74f1af2f3326
+CommitInfo{repo='GitHub', hash='d20ddadd7ac39b81f4262cacd1ad29813988bf84', version='v2.2.22'} 	https://github.com/aws/aws-sdk-js/commit/d20ddadd7ac39b81f4262cacd1ad29813988bf84
+CommitInfo{repo='GitHub', hash='7ada7a0ce97286d2adda5457f1013e33a1ec5b1c', version='v2.222.1'} 	https://github.com/aws/aws-sdk-js/commit/7ada7a0ce97286d2adda5457f1013e33a1ec5b1c
+CommitInfo{repo='GitHub', hash='f84679d85ba932c6ad1139ebcf8e9e577e0a11df', version='v2.2.23'} 	https://github.com/aws/aws-sdk-js/commit/f84679d85ba932c6ad1139ebcf8e9e577e0a11df
+CommitInfo{repo='GitHub', hash='f6dfa2814357ef48f9a2aa485c0d7e484e508ab6', version='v2.223.1'} 	https://github.com/aws/aws-sdk-js/commit/f6dfa2814357ef48f9a2aa485c0d7e484e508ab6
+CommitInfo{repo='GitHub', hash='b19e57f8efb4c3865c153b9b4b7e01e5d2eb41a4', version='v2.2.24'} 	https://github.com/aws/aws-sdk-js/commit/b19e57f8efb4c3865c153b9b4b7e01e5d2eb41a4
+CommitInfo{repo='GitHub', hash='214b42460882384ab1ac5edd6ec48a6076f31f8f', version='v2.224.1'} 	https://github.com/aws/aws-sdk-js/commit/214b42460882384ab1ac5edd6ec48a6076f31f8f
+CommitInfo{repo='GitHub', hash='f1f1fce6700bb0a934b1016f6b1a8cf786d6bb02', version='v2.2.25'} 	https://github.com/aws/aws-sdk-js/commit/f1f1fce6700bb0a934b1016f6b1a8cf786d6bb02
+CommitInfo{repo='GitHub', hash='af30c6c63ca0f6dc17d5f32e1b7ffff50bd4e79d', version='v2.225.1'} 	https://github.com/aws/aws-sdk-js/commit/af30c6c63ca0f6dc17d5f32e1b7ffff50bd4e79d
+CommitInfo{repo='GitHub', hash='c1fb488760cea28dd166b1c94ad20e8cda938b01', version='v2.2.26'} 	https://github.com/aws/aws-sdk-js/commit/c1fb488760cea28dd166b1c94ad20e8cda938b01
+CommitInfo{repo='GitHub', hash='6863343836dac1ee8eb3b135b5352600d23de1da', version='v2.226.1'} 	https://github.com/aws/aws-sdk-js/commit/6863343836dac1ee8eb3b135b5352600d23de1da
+CommitInfo{repo='GitHub', hash='c47fd1d2690acf0266084c091abe04753816df0a', version='v2.2.27'} 	https://github.com/aws/aws-sdk-js/commit/c47fd1d2690acf0266084c091abe04753816df0a
+CommitInfo{repo='GitHub', hash='1c9883996b22a7e67f64dab32e0e4ec9bf809959', version='v2.227.1'} 	https://github.com/aws/aws-sdk-js/commit/1c9883996b22a7e67f64dab32e0e4ec9bf809959
+CommitInfo{repo='GitHub', hash='581da55ed84c890417e42d392d7ee9ed9cf98206', version='v2.2.28'} 	https://github.com/aws/aws-sdk-js/commit/581da55ed84c890417e42d392d7ee9ed9cf98206
+CommitInfo{repo='GitHub', hash='d07fbad92769a5d3b9066d7aa78a89f0e152956f', version='v2.228.1'} 	https://github.com/aws/aws-sdk-js/commit/d07fbad92769a5d3b9066d7aa78a89f0e152956f
+CommitInfo{repo='GitHub', hash='179139a5acdce2d422d5b773341fe95bae5cc107', version='v2.2.29'} 	https://github.com/aws/aws-sdk-js/commit/179139a5acdce2d422d5b773341fe95bae5cc107
+CommitInfo{repo='GitHub', hash='47cabc88feab810994db03cf1cccdea9d9e3cd9b', version='v2.229.1'} 	https://github.com/aws/aws-sdk-js/commit/47cabc88feab810994db03cf1cccdea9d9e3cd9b
+CommitInfo{repo='GitHub', hash='67eca4cd6f82ed74771d933a71adf3a0530b48a9', version='v2.2.3'} 	https://github.com/aws/aws-sdk-js/commit/67eca4cd6f82ed74771d933a71adf3a0530b48a9
+CommitInfo{repo='GitHub', hash='02c28ba360ace48c62b23e06be61e26843ad9dca', version='v2.2.30'} 	https://github.com/aws/aws-sdk-js/commit/02c28ba360ace48c62b23e06be61e26843ad9dca
+CommitInfo{repo='GitHub', hash='cd6f7281d3453b8b70e8a6bd4f2192aa5d3a2524', version='v2.23.0'} 	https://github.com/aws/aws-sdk-js/commit/cd6f7281d3453b8b70e8a6bd4f2192aa5d3a2524
+CommitInfo{repo='GitHub', hash='4ea818e7e2edbc6f60ac274e0f06b29b450b0d66', version='v2.230.1'} 	https://github.com/aws/aws-sdk-js/commit/4ea818e7e2edbc6f60ac274e0f06b29b450b0d66
+CommitInfo{repo='GitHub', hash='421923a0d121824ceec50af2139212797adef5b6', version='v2.2.31'} 	https://github.com/aws/aws-sdk-js/commit/421923a0d121824ceec50af2139212797adef5b6
+CommitInfo{repo='GitHub', hash='ec96800159122f2028a7d2895db051254d4b8437', version='v2.231.1'} 	https://github.com/aws/aws-sdk-js/commit/ec96800159122f2028a7d2895db051254d4b8437
+CommitInfo{repo='GitHub', hash='7e291e8852910eb924acea3e445711ba4c0971f6', version='v2.2.32'} 	https://github.com/aws/aws-sdk-js/commit/7e291e8852910eb924acea3e445711ba4c0971f6
+CommitInfo{repo='GitHub', hash='d6fbc4e81a560c06b93a3341854480ef1002d48c', version='v2.232.1'} 	https://github.com/aws/aws-sdk-js/commit/d6fbc4e81a560c06b93a3341854480ef1002d48c
+CommitInfo{repo='GitHub', hash='991a05cf69591a3e227df381756ba85f017f1c58', version='v2.2.33'} 	https://github.com/aws/aws-sdk-js/commit/991a05cf69591a3e227df381756ba85f017f1c58
+CommitInfo{repo='GitHub', hash='707f7ee3f37a4ce896cc6c9281dcee4d2ae8cf22', version='v2.233.1'} 	https://github.com/aws/aws-sdk-js/commit/707f7ee3f37a4ce896cc6c9281dcee4d2ae8cf22
+CommitInfo{repo='GitHub', hash='375fe6b57a715bc2d68a85e243be2a5cb81eec78', version='v2.2.34'} 	https://github.com/aws/aws-sdk-js/commit/375fe6b57a715bc2d68a85e243be2a5cb81eec78
+CommitInfo{repo='GitHub', hash='9a095ccc7364d585bf1eebefb9d404070776f034', version='v2.234.1'} 	https://github.com/aws/aws-sdk-js/commit/9a095ccc7364d585bf1eebefb9d404070776f034
+CommitInfo{repo='GitHub', hash='7a2c63f3298d241dfb4bdc4e4426de202b9549a7', version='v2.2.35'} 	https://github.com/aws/aws-sdk-js/commit/7a2c63f3298d241dfb4bdc4e4426de202b9549a7
+CommitInfo{repo='GitHub', hash='2b84fb51bbbb54430cc6b44d7761f0f9c65cc8ac', version='v2.235.1'} 	https://github.com/aws/aws-sdk-js/commit/2b84fb51bbbb54430cc6b44d7761f0f9c65cc8ac
+CommitInfo{repo='GitHub', hash='b99a4d5e0a12e114027cbcd1402af68ec069d73b', version='v2.2.36'} 	https://github.com/aws/aws-sdk-js/commit/b99a4d5e0a12e114027cbcd1402af68ec069d73b
+CommitInfo{repo='GitHub', hash='864f19874dddb4df48a6d74064c54c922fb4d18b', version='v2.236.1'} 	https://github.com/aws/aws-sdk-js/commit/864f19874dddb4df48a6d74064c54c922fb4d18b
+CommitInfo{repo='GitHub', hash='ec3008f1866c16afde99a15faac4da6880999f2f', version='v2.2.37'} 	https://github.com/aws/aws-sdk-js/commit/ec3008f1866c16afde99a15faac4da6880999f2f
+CommitInfo{repo='GitHub', hash='c8fd3af3a5705d6b997499da9eadbc7505fdae46', version='v2.237.1'} 	https://github.com/aws/aws-sdk-js/commit/c8fd3af3a5705d6b997499da9eadbc7505fdae46
+CommitInfo{repo='GitHub', hash='dc459d6d874152707b20cc7e7e435004e1dd3640', version='v2.2.38'} 	https://github.com/aws/aws-sdk-js/commit/dc459d6d874152707b20cc7e7e435004e1dd3640
+CommitInfo{repo='GitHub', hash='eef6e5c864210fef3b31081200fabc314702da40', version='v2.238.1'} 	https://github.com/aws/aws-sdk-js/commit/eef6e5c864210fef3b31081200fabc314702da40
+CommitInfo{repo='GitHub', hash='158e4ec96b171738399afecc4bcdd50fcba26988', version='v2.2.39'} 	https://github.com/aws/aws-sdk-js/commit/158e4ec96b171738399afecc4bcdd50fcba26988
+CommitInfo{repo='GitHub', hash='c4c3286ce259d36d27130f90922121b4d8b00481', version='v2.239.1'} 	https://github.com/aws/aws-sdk-js/commit/c4c3286ce259d36d27130f90922121b4d8b00481
+CommitInfo{repo='GitHub', hash='17a6cc5f55e84b7b162956c1f48f3c8b62139764', version='v2.2.4'} 	https://github.com/aws/aws-sdk-js/commit/17a6cc5f55e84b7b162956c1f48f3c8b62139764
+CommitInfo{repo='GitHub', hash='b327a1dc5f470ad44cd79d4931f76eb7104cc8ea', version='v2.2.40'} 	https://github.com/aws/aws-sdk-js/commit/b327a1dc5f470ad44cd79d4931f76eb7104cc8ea
+CommitInfo{repo='GitHub', hash='b98cc2e447c75811a1829fe4cbe69b8ba5df6c35', version='v2.24.0'} 	https://github.com/aws/aws-sdk-js/commit/b98cc2e447c75811a1829fe4cbe69b8ba5df6c35
+CommitInfo{repo='GitHub', hash='120e2c21898f617113e0e0c451c92e2dea2e0526', version='v2.240.1'} 	https://github.com/aws/aws-sdk-js/commit/120e2c21898f617113e0e0c451c92e2dea2e0526
+CommitInfo{repo='GitHub', hash='fb1352155e26d5d529885246b11b6df3bcce6623', version='v2.2.41'} 	https://github.com/aws/aws-sdk-js/commit/fb1352155e26d5d529885246b11b6df3bcce6623
+CommitInfo{repo='GitHub', hash='e2723e112730c0df351322e00a544ceee823ee64', version='v2.241.1'} 	https://github.com/aws/aws-sdk-js/commit/e2723e112730c0df351322e00a544ceee823ee64
+CommitInfo{repo='GitHub', hash='bceca7277941c30c93367c5e9a5935df4fb2500f', version='v2.2.42'} 	https://github.com/aws/aws-sdk-js/commit/bceca7277941c30c93367c5e9a5935df4fb2500f
+CommitInfo{repo='GitHub', hash='9643591f4d54521c20e62fad6a5a8a63c4ddf50f', version='v2.242.1'} 	https://github.com/aws/aws-sdk-js/commit/9643591f4d54521c20e62fad6a5a8a63c4ddf50f
+CommitInfo{repo='GitHub', hash='23faf40932a4bed1fc63879b1a9ce692e961960e', version='v2.2.43'} 	https://github.com/aws/aws-sdk-js/commit/23faf40932a4bed1fc63879b1a9ce692e961960e
+CommitInfo{repo='GitHub', hash='44a92eeac697abd054f7d3e26cbaeb403b3bd4a2', version='v2.243.1'} 	https://github.com/aws/aws-sdk-js/commit/44a92eeac697abd054f7d3e26cbaeb403b3bd4a2
+CommitInfo{repo='GitHub', hash='a59069b2f7b863aa87556b4486f095e6ebab60db', version='v2.2.44'} 	https://github.com/aws/aws-sdk-js/commit/a59069b2f7b863aa87556b4486f095e6ebab60db
+CommitInfo{repo='GitHub', hash='97f3a85ed02148567f03112ab0b9bbc0036dbbe2', version='v2.244.1'} 	https://github.com/aws/aws-sdk-js/commit/97f3a85ed02148567f03112ab0b9bbc0036dbbe2
+CommitInfo{repo='GitHub', hash='7fa8798ebe6c1a0c8e8629e910ed098ec4f51185', version='v2.2.45'} 	https://github.com/aws/aws-sdk-js/commit/7fa8798ebe6c1a0c8e8629e910ed098ec4f51185
+CommitInfo{repo='GitHub', hash='43f996d9f5081d525b4e40a09dff095759cca062', version='v2.245.1'} 	https://github.com/aws/aws-sdk-js/commit/43f996d9f5081d525b4e40a09dff095759cca062
+CommitInfo{repo='GitHub', hash='cb5ff41d04a7237b32ec10bcb521a974e693f6bb', version='v2.2.46'} 	https://github.com/aws/aws-sdk-js/commit/cb5ff41d04a7237b32ec10bcb521a974e693f6bb
+CommitInfo{repo='GitHub', hash='61b95136d7b45412cea0790434b362be910ce419', version='v2.246.1'} 	https://github.com/aws/aws-sdk-js/commit/61b95136d7b45412cea0790434b362be910ce419
+CommitInfo{repo='GitHub', hash='a467169acf01e510d63cc3fce10e24a1aaa8452c', version='v2.2.47'} 	https://github.com/aws/aws-sdk-js/commit/a467169acf01e510d63cc3fce10e24a1aaa8452c
+CommitInfo{repo='GitHub', hash='897e343a140ada184e498ab9eb589d5e4b1c6955', version='v2.247.1'} 	https://github.com/aws/aws-sdk-js/commit/897e343a140ada184e498ab9eb589d5e4b1c6955
+CommitInfo{repo='GitHub', hash='f04eeedaf38b2cd06450fb909b68f3a4f784ce1e', version='v2.2.48'} 	https://github.com/aws/aws-sdk-js/commit/f04eeedaf38b2cd06450fb909b68f3a4f784ce1e
+CommitInfo{repo='GitHub', hash='9c3260495b092a55aee0fbea086c56a67f8f0b2c', version='v2.248.1'} 	https://github.com/aws/aws-sdk-js/commit/9c3260495b092a55aee0fbea086c56a67f8f0b2c
+CommitInfo{repo='GitHub', hash='83094bb21b7afb0bd314cc242b2549a07baa87aa', version='v2.249.1'} 	https://github.com/aws/aws-sdk-js/commit/83094bb21b7afb0bd314cc242b2549a07baa87aa
+CommitInfo{repo='GitHub', hash='21a5bf239c6462373be5d262a85b6963989040a6', version='v2.2.5'} 	https://github.com/aws/aws-sdk-js/commit/21a5bf239c6462373be5d262a85b6963989040a6
+CommitInfo{repo='GitHub', hash='971646efc9c56591f2d3a67df55e32ee1c02038f', version='v2.25.0'} 	https://github.com/aws/aws-sdk-js/commit/971646efc9c56591f2d3a67df55e32ee1c02038f
+CommitInfo{repo='GitHub', hash='eff411003edf9037e57fd298d68351e86dd1febe', version='v2.250.1'} 	https://github.com/aws/aws-sdk-js/commit/eff411003edf9037e57fd298d68351e86dd1febe
+CommitInfo{repo='GitHub', hash='a5e750cdbfba617c154d4e12928a99c9fbfc8c28', version='v2.251.1'} 	https://github.com/aws/aws-sdk-js/commit/a5e750cdbfba617c154d4e12928a99c9fbfc8c28
+CommitInfo{repo='GitHub', hash='8503bf70ece4e1b15f9d96cbb4aed701bfdaee44', version='v2.252.1'} 	https://github.com/aws/aws-sdk-js/commit/8503bf70ece4e1b15f9d96cbb4aed701bfdaee44
+CommitInfo{repo='GitHub', hash='681936f96a6613eab02af5d5f2ac621dcfff46ee', version='v2.253.1'} 	https://github.com/aws/aws-sdk-js/commit/681936f96a6613eab02af5d5f2ac621dcfff46ee
+CommitInfo{repo='GitHub', hash='0a7112befbfe3a546708e0fcb4f243d166cc2e85', version='v2.254.1'} 	https://github.com/aws/aws-sdk-js/commit/0a7112befbfe3a546708e0fcb4f243d166cc2e85
+CommitInfo{repo='GitHub', hash='0fba618f984350a8c0cd0fa3c3e861e0363cc729', version='v2.255.1'} 	https://github.com/aws/aws-sdk-js/commit/0fba618f984350a8c0cd0fa3c3e861e0363cc729
+CommitInfo{repo='GitHub', hash='3cedc60213ff5c56307adc3207778e831a3304e9', version='v2.256.1'} 	https://github.com/aws/aws-sdk-js/commit/3cedc60213ff5c56307adc3207778e831a3304e9
+CommitInfo{repo='GitHub', hash='8f8d1cc6429cdb1684858ba834aca87559bd37cf', version='v2.257.1'} 	https://github.com/aws/aws-sdk-js/commit/8f8d1cc6429cdb1684858ba834aca87559bd37cf
+CommitInfo{repo='GitHub', hash='8f8d1cc6429cdb1684858ba834aca87559bd37cf', version='v2.257.1'} 	https://github.com/aws/aws-sdk-js/commit/8f8d1cc6429cdb1684858ba834aca87559bd37cf
+CommitInfo{repo='GitHub', hash='baff9c74d251b6f683e695f08971c61c13bc64e0', version='v2.258.1'} 	https://github.com/aws/aws-sdk-js/commit/baff9c74d251b6f683e695f08971c61c13bc64e0
+CommitInfo{repo='GitHub', hash='81babe816c5741920d473caa3026ad77cedd19b6', version='v2.259.1'} 	https://github.com/aws/aws-sdk-js/commit/81babe816c5741920d473caa3026ad77cedd19b6
+CommitInfo{repo='GitHub', hash='70d2f084f432fcbff0b774476d76a4a8d0cee8cb', version='v2.2.6'} 	https://github.com/aws/aws-sdk-js/commit/70d2f084f432fcbff0b774476d76a4a8d0cee8cb
+CommitInfo{repo='GitHub', hash='5abfca7fdf0d62463b0da9d9ca5fcdf5e8cfb687', version='v2.26.0'} 	https://github.com/aws/aws-sdk-js/commit/5abfca7fdf0d62463b0da9d9ca5fcdf5e8cfb687
+CommitInfo{repo='GitHub', hash='001a9b69707b34917dbc7128b23c591208cd0f1f', version='v2.260.1'} 	https://github.com/aws/aws-sdk-js/commit/001a9b69707b34917dbc7128b23c591208cd0f1f
+CommitInfo{repo='GitHub', hash='8f886b71bc4c1c51552299221b241551c46a11b6', version='v2.261.1'} 	https://github.com/aws/aws-sdk-js/commit/8f886b71bc4c1c51552299221b241551c46a11b6
+CommitInfo{repo='GitHub', hash='0f277a10e4d6bb7d2162e4d5ab3ed95410933d35', version='v2.262.1'} 	https://github.com/aws/aws-sdk-js/commit/0f277a10e4d6bb7d2162e4d5ab3ed95410933d35
+CommitInfo{repo='GitHub', hash='cc29728c1c4178969ebabe3bbe6b6f3159436394', version='v2.263.1'} 	https://github.com/aws/aws-sdk-js/commit/cc29728c1c4178969ebabe3bbe6b6f3159436394
+CommitInfo{repo='GitHub', hash='046a1adcc0bac4067b795b90fcca211ab1fa2798', version='v2.264.1'} 	https://github.com/aws/aws-sdk-js/commit/046a1adcc0bac4067b795b90fcca211ab1fa2798
+CommitInfo{repo='GitHub', hash='e5e5b28f04a6ffe8988c7a511df2ebe502d1e9f2', version='v2.265.1'} 	https://github.com/aws/aws-sdk-js/commit/e5e5b28f04a6ffe8988c7a511df2ebe502d1e9f2
+CommitInfo{repo='GitHub', hash='5e3d129184b8ab8cc966b8822dd8bf245054d472', version='v2.266.1'} 	https://github.com/aws/aws-sdk-js/commit/5e3d129184b8ab8cc966b8822dd8bf245054d472
+CommitInfo{repo='GitHub', hash='b8a4ee71e784e31e258b0dec14b43ae39e79140f', version='v2.267.1'} 	https://github.com/aws/aws-sdk-js/commit/b8a4ee71e784e31e258b0dec14b43ae39e79140f
+CommitInfo{repo='GitHub', hash='f5a9d4295fb9495a110cfe9b3b200f773699fc52', version='v2.268.1'} 	https://github.com/aws/aws-sdk-js/commit/f5a9d4295fb9495a110cfe9b3b200f773699fc52
+CommitInfo{repo='GitHub', hash='a56b2c08ba4bb045725c6e5b40e2aa667507e84b', version='v2.269.1'} 	https://github.com/aws/aws-sdk-js/commit/a56b2c08ba4bb045725c6e5b40e2aa667507e84b
+CommitInfo{repo='GitHub', hash='2dcbc29ade5ace5c80662c70d440d98c26b41c8c', version='v2.2.7'} 	https://github.com/aws/aws-sdk-js/commit/2dcbc29ade5ace5c80662c70d440d98c26b41c8c
+CommitInfo{repo='GitHub', hash='719fd612bcfbe93b32702b44c68614188b61c0aa', version='v2.27.0'} 	https://github.com/aws/aws-sdk-js/commit/719fd612bcfbe93b32702b44c68614188b61c0aa
+CommitInfo{repo='GitHub', hash='5111e76fea13d153b62235e542c84c7b018cd952', version='v2.270.1'} 	https://github.com/aws/aws-sdk-js/commit/5111e76fea13d153b62235e542c84c7b018cd952
+CommitInfo{repo='GitHub', hash='bf40be4f679fe9aa33d9359d65aa10cd312edc30', version='v2.271.1'} 	https://github.com/aws/aws-sdk-js/commit/bf40be4f679fe9aa33d9359d65aa10cd312edc30
+CommitInfo{repo='GitHub', hash='a1eb75efd5d13c92a9e9b1cbed9795d8e128c530', version='v2.272.1'} 	https://github.com/aws/aws-sdk-js/commit/a1eb75efd5d13c92a9e9b1cbed9795d8e128c530
+CommitInfo{repo='GitHub', hash='33ba6432c192d65d4a3db2cf3902873e4c0255c8', version='v2.273.1'} 	https://github.com/aws/aws-sdk-js/commit/33ba6432c192d65d4a3db2cf3902873e4c0255c8
+CommitInfo{repo='GitHub', hash='279db76b4ecc0970cb2ab35059b04e1fdd5e161a', version='v2.274.1'} 	https://github.com/aws/aws-sdk-js/commit/279db76b4ecc0970cb2ab35059b04e1fdd5e161a
+CommitInfo{repo='GitHub', hash='d6573a8baf893b9106fb2b795469e60cf7dc2f14', version='v2.275.1'} 	https://github.com/aws/aws-sdk-js/commit/d6573a8baf893b9106fb2b795469e60cf7dc2f14
+CommitInfo{repo='GitHub', hash='31cc500d4d83e5f74e83853b8fdbc580efff08a8', version='v2.276.1'} 	https://github.com/aws/aws-sdk-js/commit/31cc500d4d83e5f74e83853b8fdbc580efff08a8
+CommitInfo{repo='GitHub', hash='75978fcfe4186d5a310e9b5c6d6328e90997edf0', version='v2.277.1'} 	https://github.com/aws/aws-sdk-js/commit/75978fcfe4186d5a310e9b5c6d6328e90997edf0
+CommitInfo{repo='GitHub', hash='1921d7e42e703a3460d7bc3f2938a850349cf9fb', version='v2.278.1'} 	https://github.com/aws/aws-sdk-js/commit/1921d7e42e703a3460d7bc3f2938a850349cf9fb
+CommitInfo{repo='GitHub', hash='f16d34054deb5dea47e64682272d369832f96553', version='v2.279.1'} 	https://github.com/aws/aws-sdk-js/commit/f16d34054deb5dea47e64682272d369832f96553
+CommitInfo{repo='GitHub', hash='7b2757e0cce1bb40e7377e6cb3d34fe192efed61', version='v2.2.8'} 	https://github.com/aws/aws-sdk-js/commit/7b2757e0cce1bb40e7377e6cb3d34fe192efed61
+CommitInfo{repo='GitHub', hash='3a190e05a7c88f858c73bb633b889dafa88b8d46', version='v2.28.0'} 	https://github.com/aws/aws-sdk-js/commit/3a190e05a7c88f858c73bb633b889dafa88b8d46
+CommitInfo{repo='GitHub', hash='ad7168ee76492dd293e1ccaaf252a25b8e125b51', version='v2.280.1'} 	https://github.com/aws/aws-sdk-js/commit/ad7168ee76492dd293e1ccaaf252a25b8e125b51
+CommitInfo{repo='GitHub', hash='06daf85d10cfcac948bcfa12b5b865b72dc99831', version='v2.281.1'} 	https://github.com/aws/aws-sdk-js/commit/06daf85d10cfcac948bcfa12b5b865b72dc99831
+CommitInfo{repo='GitHub', hash='bb421b7553b0e8a79299475a26e8c65350e642a1', version='v2.282.1'} 	https://github.com/aws/aws-sdk-js/commit/bb421b7553b0e8a79299475a26e8c65350e642a1
+CommitInfo{repo='GitHub', hash='5b8d5c3667ec96e58450667e6013b9830a6b4fef', version='v2.283.1'} 	https://github.com/aws/aws-sdk-js/commit/5b8d5c3667ec96e58450667e6013b9830a6b4fef
+CommitInfo{repo='GitHub', hash='ebf03c7404d02068baeb89ca102a82215440c8b4', version='v2.284.1'} 	https://github.com/aws/aws-sdk-js/commit/ebf03c7404d02068baeb89ca102a82215440c8b4
+CommitInfo{repo='GitHub', hash='bf70ef94c7d1618de1c86d01f3f98491a0f766d8', version='v2.285.1'} 	https://github.com/aws/aws-sdk-js/commit/bf70ef94c7d1618de1c86d01f3f98491a0f766d8
+CommitInfo{repo='GitHub', hash='d626206687fc249bc02a4d2c38d97753a023a7d0', version='v2.286.1'} 	https://github.com/aws/aws-sdk-js/commit/d626206687fc249bc02a4d2c38d97753a023a7d0
+CommitInfo{repo='GitHub', hash='5aa0d4de0a0473b4578703621f848dd6cb10a5ed', version='v2.286.2'} 	https://github.com/aws/aws-sdk-js/commit/5aa0d4de0a0473b4578703621f848dd6cb10a5ed
+CommitInfo{repo='GitHub', hash='67081dcf5c07bd26cd06e9262149b522430c5e12', version='v2.287.0'} 	https://github.com/aws/aws-sdk-js/commit/67081dcf5c07bd26cd06e9262149b522430c5e12
+CommitInfo{repo='GitHub', hash='c208c6518ca1081e86e708d8491090331d921928', version='v2.288.0'} 	https://github.com/aws/aws-sdk-js/commit/c208c6518ca1081e86e708d8491090331d921928
+CommitInfo{repo='GitHub', hash='240bf4de43a9f8df3f092b73ceb0684841cb148d', version='v2.289.0'} 	https://github.com/aws/aws-sdk-js/commit/240bf4de43a9f8df3f092b73ceb0684841cb148d
+CommitInfo{repo='GitHub', hash='857cbb6bb726c8b12122ecf54a9978da6e268863', version='v2.2.9'} 	https://github.com/aws/aws-sdk-js/commit/857cbb6bb726c8b12122ecf54a9978da6e268863
+CommitInfo{repo='GitHub', hash='18deee05a4e7113d61dd3fc1c54123312d7f7e6d', version='v2.29.0'} 	https://github.com/aws/aws-sdk-js/commit/18deee05a4e7113d61dd3fc1c54123312d7f7e6d
+CommitInfo{repo='GitHub', hash='0e4934ad91a346f1ea14e3e83ca27a4dab7ecba3', version='v2.290.0'} 	https://github.com/aws/aws-sdk-js/commit/0e4934ad91a346f1ea14e3e83ca27a4dab7ecba3
+CommitInfo{repo='GitHub', hash='c32342673da339ebfee717abb936d5f671912623', version='v2.291.0'} 	https://github.com/aws/aws-sdk-js/commit/c32342673da339ebfee717abb936d5f671912623
+CommitInfo{repo='GitHub', hash='11da4266bc07210c27d4d6e851c328730db2eba7', version='v2.292.0'} 	https://github.com/aws/aws-sdk-js/commit/11da4266bc07210c27d4d6e851c328730db2eba7
+CommitInfo{repo='GitHub', hash='f7728f45dd80c5d4919652720a773d343aaab8af', version='v2.293.0'} 	https://github.com/aws/aws-sdk-js/commit/f7728f45dd80c5d4919652720a773d343aaab8af
+CommitInfo{repo='GitHub', hash='462e8d5d3cf032a94e24e2a75e86be0dce77447b', version='v2.294.0'} 	https://github.com/aws/aws-sdk-js/commit/462e8d5d3cf032a94e24e2a75e86be0dce77447b
+CommitInfo{repo='GitHub', hash='79247287dc16a883a448725d97691e67dd8d806a', version='v2.295.0'} 	https://github.com/aws/aws-sdk-js/commit/79247287dc16a883a448725d97691e67dd8d806a
+CommitInfo{repo='GitHub', hash='b0739d8e55bcacd92749df0647b8c62251835c70', version='v2.296.0'} 	https://github.com/aws/aws-sdk-js/commit/b0739d8e55bcacd92749df0647b8c62251835c70
+CommitInfo{repo='GitHub', hash='bbbbf8ee58ecb7520b12065ffb66627639569c8a', version='v2.297.0'} 	https://github.com/aws/aws-sdk-js/commit/bbbbf8ee58ecb7520b12065ffb66627639569c8a
+CommitInfo{repo='GitHub', hash='4cf44bbc872897cdc24e20210bf2674e6811f895', version='v2.298.0'} 	https://github.com/aws/aws-sdk-js/commit/4cf44bbc872897cdc24e20210bf2674e6811f895
+CommitInfo{repo='GitHub', hash='8c3043b352bc7127934cba5a7487d3bc6f3a8b8c', version='v2.299.0'} 	https://github.com/aws/aws-sdk-js/commit/8c3043b352bc7127934cba5a7487d3bc6f3a8b8c
+CommitInfo{repo='GitHub', hash='266875c2e6a6ef5f9ff875e2cdaf36e10018d2da', version='v2.3.0'} 	https://github.com/aws/aws-sdk-js/commit/266875c2e6a6ef5f9ff875e2cdaf36e10018d2da
+CommitInfo{repo='GitHub', hash='40dcb0b38c26c26dcc86e4d7abe23e809d375282', version='v2.30.0'} 	https://github.com/aws/aws-sdk-js/commit/40dcb0b38c26c26dcc86e4d7abe23e809d375282
+CommitInfo{repo='GitHub', hash='53916e832f5ed3c48da7be552bc9ad09106148aa', version='v2.300.0'} 	https://github.com/aws/aws-sdk-js/commit/53916e832f5ed3c48da7be552bc9ad09106148aa
+CommitInfo{repo='GitHub', hash='f8d1a11ee8a0385f771c7576f5b540793c82937a', version='v2.301.0'} 	https://github.com/aws/aws-sdk-js/commit/f8d1a11ee8a0385f771c7576f5b540793c82937a
+CommitInfo{repo='GitHub', hash='677704588c3b52b3b82cec3146ec20d2f6803368', version='v2.302.0'} 	https://github.com/aws/aws-sdk-js/commit/677704588c3b52b3b82cec3146ec20d2f6803368
+CommitInfo{repo='GitHub', hash='7a4e1981688a9fa156db3e1197477a69460dfe5a', version='v2.303.0'} 	https://github.com/aws/aws-sdk-js/commit/7a4e1981688a9fa156db3e1197477a69460dfe5a
+CommitInfo{repo='GitHub', hash='19a944b5089901f7cb42fe1326f376fa83f4546f', version='v2.304.0'} 	https://github.com/aws/aws-sdk-js/commit/19a944b5089901f7cb42fe1326f376fa83f4546f
+CommitInfo{repo='GitHub', hash='3fc6181f33d349a98cef844949a5f3aa21b9ebcb', version='v2.305.0'} 	https://github.com/aws/aws-sdk-js/commit/3fc6181f33d349a98cef844949a5f3aa21b9ebcb
+CommitInfo{repo='GitHub', hash='770145227b90b08779805c6b3e4f36390ade8b12', version='v2.306.0'} 	https://github.com/aws/aws-sdk-js/commit/770145227b90b08779805c6b3e4f36390ade8b12
+CommitInfo{repo='GitHub', hash='85f776a761ed265217beb03ae19624814a537906', version='v2.307.0'} 	https://github.com/aws/aws-sdk-js/commit/85f776a761ed265217beb03ae19624814a537906
+CommitInfo{repo='GitHub', hash='33a0cd135c198fe46649da1dfbc580fb3d6af322', version='v2.308.0'} 	https://github.com/aws/aws-sdk-js/commit/33a0cd135c198fe46649da1dfbc580fb3d6af322
+CommitInfo{repo='GitHub', hash='e0ffda59181174e59041e1d9561fff2cbf947a6a', version='v2.309.0'} 	https://github.com/aws/aws-sdk-js/commit/e0ffda59181174e59041e1d9561fff2cbf947a6a
+CommitInfo{repo='GitHub', hash='1babda0c31df6f4dfe3618b686feb6a93fa8a322', version='v2.3.1'} 	https://github.com/aws/aws-sdk-js/commit/1babda0c31df6f4dfe3618b686feb6a93fa8a322
+CommitInfo{repo='GitHub', hash='898708262c83facebd86c93734eed4933d300a89', version='v2.3.10'} 	https://github.com/aws/aws-sdk-js/commit/898708262c83facebd86c93734eed4933d300a89
+CommitInfo{repo='GitHub', hash='1a46ee6537a0fdcb67b655ae11d434a123c65123', version='v2.31.0'} 	https://github.com/aws/aws-sdk-js/commit/1a46ee6537a0fdcb67b655ae11d434a123c65123
+CommitInfo{repo='GitHub', hash='0b5e95cc788866c135933e5b94feaeaf0b7e6152', version='v2.310.0'} 	https://github.com/aws/aws-sdk-js/commit/0b5e95cc788866c135933e5b94feaeaf0b7e6152
+CommitInfo{repo='GitHub', hash='ad17e01a77e5959f0f5fdbd4ab2bc13dc3ae3c28', version='v2.3.11'} 	https://github.com/aws/aws-sdk-js/commit/ad17e01a77e5959f0f5fdbd4ab2bc13dc3ae3c28
+CommitInfo{repo='GitHub', hash='cf6b9a02f7921bb3d984a47a6e1eeb974ee40743', version='v2.311.0'} 	https://github.com/aws/aws-sdk-js/commit/cf6b9a02f7921bb3d984a47a6e1eeb974ee40743
+CommitInfo{repo='GitHub', hash='2de8ea1c0335fed90977705f50f5974d45853377', version='v2.3.12'} 	https://github.com/aws/aws-sdk-js/commit/2de8ea1c0335fed90977705f50f5974d45853377
+CommitInfo{repo='GitHub', hash='4ed5104d4c3fa2728594854b70737009d815268c', version='v2.312.0'} 	https://github.com/aws/aws-sdk-js/commit/4ed5104d4c3fa2728594854b70737009d815268c
+CommitInfo{repo='GitHub', hash='997b09b9c32d1bf9192c93fbb3b366092324c8af', version='v2.3.13'} 	https://github.com/aws/aws-sdk-js/commit/997b09b9c32d1bf9192c93fbb3b366092324c8af
+CommitInfo{repo='GitHub', hash='9dd7095cfb52cebd90a31e4cd2e2950c69946a11', version='v2.313.0'} 	https://github.com/aws/aws-sdk-js/commit/9dd7095cfb52cebd90a31e4cd2e2950c69946a11
+CommitInfo{repo='GitHub', hash='78a5d09c3815e0563269bfdb8b99853e5dfc8cf2', version='v2.3.14'} 	https://github.com/aws/aws-sdk-js/commit/78a5d09c3815e0563269bfdb8b99853e5dfc8cf2
+CommitInfo{repo='GitHub', hash='9aa6cfbcf29ca74b4a017dc7f710caa12e5b2ec8', version='v2.314.0'} 	https://github.com/aws/aws-sdk-js/commit/9aa6cfbcf29ca74b4a017dc7f710caa12e5b2ec8
+CommitInfo{repo='GitHub', hash='58550d4643f25cac73cc7945be4dff62af17bfa4', version='v2.3.15'} 	https://github.com/aws/aws-sdk-js/commit/58550d4643f25cac73cc7945be4dff62af17bfa4
+CommitInfo{repo='GitHub', hash='4f022812007e44117a3ad171462542d13c89317a', version='v2.315.0'} 	https://github.com/aws/aws-sdk-js/commit/4f022812007e44117a3ad171462542d13c89317a
+CommitInfo{repo='GitHub', hash='a452b08ce1c0fd9f2c8c98ffe69c90b9ceb38eca', version='v2.3.16'} 	https://github.com/aws/aws-sdk-js/commit/a452b08ce1c0fd9f2c8c98ffe69c90b9ceb38eca
+CommitInfo{repo='GitHub', hash='b319e06e455d4ba3e66019bbd049c6cb996d2fc0', version='v2.316.0'} 	https://github.com/aws/aws-sdk-js/commit/b319e06e455d4ba3e66019bbd049c6cb996d2fc0
+CommitInfo{repo='GitHub', hash='e809d56f9204c0889c2f9726bf3b7d7e28d59c50', version='v2.3.17'} 	https://github.com/aws/aws-sdk-js/commit/e809d56f9204c0889c2f9726bf3b7d7e28d59c50
+CommitInfo{repo='GitHub', hash='dc705e0f4a7e62e7e2f1ef7ed0aee95dbe349805', version='v2.317.0'} 	https://github.com/aws/aws-sdk-js/commit/dc705e0f4a7e62e7e2f1ef7ed0aee95dbe349805
+CommitInfo{repo='GitHub', hash='51ade30e70b2dd49e17b098b8230cb6978a2e3a6', version='v2.3.18'} 	https://github.com/aws/aws-sdk-js/commit/51ade30e70b2dd49e17b098b8230cb6978a2e3a6
+CommitInfo{repo='GitHub', hash='01039b3e5b1299ede23776a9bb56db9aeded1c2d', version='v2.318.0'} 	https://github.com/aws/aws-sdk-js/commit/01039b3e5b1299ede23776a9bb56db9aeded1c2d
+CommitInfo{repo='GitHub', hash='c2c3a809919a85c0502f820974be71990827112e', version='v2.3.19'} 	https://github.com/aws/aws-sdk-js/commit/c2c3a809919a85c0502f820974be71990827112e
+CommitInfo{repo='GitHub', hash='8c66f351fd4df31e8e3f1bd9d2caa1c6273ac14e', version='v2.319.0'} 	https://github.com/aws/aws-sdk-js/commit/8c66f351fd4df31e8e3f1bd9d2caa1c6273ac14e
+CommitInfo{repo='GitHub', hash='5b49f61185f1b0f56569fd5cab858b5e74cbd9f4', version='v2.3.2'} 	https://github.com/aws/aws-sdk-js/commit/5b49f61185f1b0f56569fd5cab858b5e74cbd9f4
+CommitInfo{repo='GitHub', hash='78b8b18e4eea0e6c20d83cda323c2cd25043ab8f', version='v2.32.0'} 	https://github.com/aws/aws-sdk-js/commit/78b8b18e4eea0e6c20d83cda323c2cd25043ab8f
+CommitInfo{repo='GitHub', hash='ddc67e681cc74e10e013a6081e288d8731afe95f', version='v2.320.0'} 	https://github.com/aws/aws-sdk-js/commit/ddc67e681cc74e10e013a6081e288d8731afe95f
+CommitInfo{repo='GitHub', hash='3fe5f68a7db896671263a9f805f770ef78fcb386', version='v2.321.0'} 	https://github.com/aws/aws-sdk-js/commit/3fe5f68a7db896671263a9f805f770ef78fcb386
+CommitInfo{repo='GitHub', hash='3fe5f68a7db896671263a9f805f770ef78fcb386', version='v2.321.0'} 	https://github.com/aws/aws-sdk-js/commit/3fe5f68a7db896671263a9f805f770ef78fcb386
+CommitInfo{repo='GitHub', hash='cabf1fa2163dad9a07f2e081f7e30f52bef8c036', version='v2.322.0'} 	https://github.com/aws/aws-sdk-js/commit/cabf1fa2163dad9a07f2e081f7e30f52bef8c036
+CommitInfo{repo='GitHub', hash='6e7dfeb18286ba354c91736340019487a7fd7682', version='v2.323.0'} 	https://github.com/aws/aws-sdk-js/commit/6e7dfeb18286ba354c91736340019487a7fd7682
+CommitInfo{repo='GitHub', hash='1f0fa4fc35ba0f9aa2599bf31b4f510cd1ad2aa1', version='v2.324.0'} 	https://github.com/aws/aws-sdk-js/commit/1f0fa4fc35ba0f9aa2599bf31b4f510cd1ad2aa1
+CommitInfo{repo='GitHub', hash='00498827134d4ef4385387d668862215dde1b598', version='v2.325.0'} 	https://github.com/aws/aws-sdk-js/commit/00498827134d4ef4385387d668862215dde1b598
+CommitInfo{repo='GitHub', hash='56b7ccf116decac0679e74c6a4a6e108c590ceeb', version='v2.326.0'} 	https://github.com/aws/aws-sdk-js/commit/56b7ccf116decac0679e74c6a4a6e108c590ceeb
+CommitInfo{repo='GitHub', hash='aab0b99d72d0a90260bca5b4fd2a0fa2ff4de946', version='v2.327.0'} 	https://github.com/aws/aws-sdk-js/commit/aab0b99d72d0a90260bca5b4fd2a0fa2ff4de946
+CommitInfo{repo='GitHub', hash='e004bea910c20ea81dfd3162001e56a3fcb76089', version='v2.328.0'} 	https://github.com/aws/aws-sdk-js/commit/e004bea910c20ea81dfd3162001e56a3fcb76089
+CommitInfo{repo='GitHub', hash='25dcd9d1f484ea214363ad50212bf51f392f4a67', version='v2.329.0'} 	https://github.com/aws/aws-sdk-js/commit/25dcd9d1f484ea214363ad50212bf51f392f4a67
+CommitInfo{repo='GitHub', hash='d8724e679857dc6b19867db0145f5a216eec948b', version='v2.3.3'} 	https://github.com/aws/aws-sdk-js/commit/d8724e679857dc6b19867db0145f5a216eec948b
+CommitInfo{repo='GitHub', hash='1552e1bd4b914a36be94ec686b95f536ac30b566', version='v2.33.0'} 	https://github.com/aws/aws-sdk-js/commit/1552e1bd4b914a36be94ec686b95f536ac30b566
+CommitInfo{repo='GitHub', hash='d5ea34e9abc3d2e2bdddba5dccd72927d80f261d', version='v2.330.0'} 	https://github.com/aws/aws-sdk-js/commit/d5ea34e9abc3d2e2bdddba5dccd72927d80f261d
+CommitInfo{repo='GitHub', hash='18e6859dee453171ad3f371cb961ac69edd58bea', version='v2.331.0'} 	https://github.com/aws/aws-sdk-js/commit/18e6859dee453171ad3f371cb961ac69edd58bea
+CommitInfo{repo='GitHub', hash='849671562b5c336238df756ec054816deeee82bd', version='v2.332.0'} 	https://github.com/aws/aws-sdk-js/commit/849671562b5c336238df756ec054816deeee82bd
+CommitInfo{repo='GitHub', hash='15565095103e7f33da109e724375d85be7d5ae15', version='v2.333.0'} 	https://github.com/aws/aws-sdk-js/commit/15565095103e7f33da109e724375d85be7d5ae15
+CommitInfo{repo='GitHub', hash='8878346af3cbd2affa87febe8c26d30e9b526f26', version='v2.334.0'} 	https://github.com/aws/aws-sdk-js/commit/8878346af3cbd2affa87febe8c26d30e9b526f26
+CommitInfo{repo='GitHub', hash='9ef04224bb4b3da437be039c19d4b25a08dc7a6e', version='v2.335.0'} 	https://github.com/aws/aws-sdk-js/commit/9ef04224bb4b3da437be039c19d4b25a08dc7a6e
+CommitInfo{repo='GitHub', hash='907d609d08bdcc3b2eaaa875e2cd4ac05df3e4c2', version='v2.336.0'} 	https://github.com/aws/aws-sdk-js/commit/907d609d08bdcc3b2eaaa875e2cd4ac05df3e4c2
+CommitInfo{repo='GitHub', hash='5ce9d6e27f28495ffca53dcec64e006ad52c4cc6', version='v2.337.0'} 	https://github.com/aws/aws-sdk-js/commit/5ce9d6e27f28495ffca53dcec64e006ad52c4cc6
+CommitInfo{repo='GitHub', hash='264505734d811f9688a54864eaa6b5332cba1999', version='v2.338.0'} 	https://github.com/aws/aws-sdk-js/commit/264505734d811f9688a54864eaa6b5332cba1999
+CommitInfo{repo='GitHub', hash='077142068f78ed3baf01e8c2edfa453466800499', version='v2.339.0'} 	https://github.com/aws/aws-sdk-js/commit/077142068f78ed3baf01e8c2edfa453466800499
+CommitInfo{repo='GitHub', hash='de7622da941334252b300de73f2a50febd672b3c', version='v2.3.4'} 	https://github.com/aws/aws-sdk-js/commit/de7622da941334252b300de73f2a50febd672b3c
+CommitInfo{repo='GitHub', hash='1c6135ee3cc0cdf39d189950b795512267ab2994', version='v2.34.0'} 	https://github.com/aws/aws-sdk-js/commit/1c6135ee3cc0cdf39d189950b795512267ab2994
+CommitInfo{repo='GitHub', hash='083e7a6ed9fd7ae7fd01e18a57bf732ba83faa10', version='v2.340.0'} 	https://github.com/aws/aws-sdk-js/commit/083e7a6ed9fd7ae7fd01e18a57bf732ba83faa10
+CommitInfo{repo='GitHub', hash='29fc8d39b73a9c7c15b6bc8fb28cf5ef313691f4', version='v2.341.0'} 	https://github.com/aws/aws-sdk-js/commit/29fc8d39b73a9c7c15b6bc8fb28cf5ef313691f4
+CommitInfo{repo='GitHub', hash='93982ab41f9bf52bcbba105234c235040fcd0633', version='v2.342.0'} 	https://github.com/aws/aws-sdk-js/commit/93982ab41f9bf52bcbba105234c235040fcd0633
+CommitInfo{repo='GitHub', hash='074dd3b481cae15d44cb5dbeb6fc34821098bc06', version='v2.343.0'} 	https://github.com/aws/aws-sdk-js/commit/074dd3b481cae15d44cb5dbeb6fc34821098bc06
+CommitInfo{repo='GitHub', hash='10ece2793b04d4c0aeb8cd31ca91818c8205260e', version='v2.344.0'} 	https://github.com/aws/aws-sdk-js/commit/10ece2793b04d4c0aeb8cd31ca91818c8205260e
+CommitInfo{repo='GitHub', hash='ef650d472bd35c537c30c6539ecc897febb02197', version='v2.345.0'} 	https://github.com/aws/aws-sdk-js/commit/ef650d472bd35c537c30c6539ecc897febb02197
+CommitInfo{repo='GitHub', hash='06d940527fa4dfcdb009c4f248060fb4fb0d4d8f', version='v2.346.0'} 	https://github.com/aws/aws-sdk-js/commit/06d940527fa4dfcdb009c4f248060fb4fb0d4d8f
+CommitInfo{repo='GitHub', hash='03631db71e664d9c565a2e4f8e19f3f6fb8826b0', version='v2.347.0'} 	https://github.com/aws/aws-sdk-js/commit/03631db71e664d9c565a2e4f8e19f3f6fb8826b0
+CommitInfo{repo='GitHub', hash='67c4d1650e284907517ce3a4b2ec5b1c2925a8c9', version='v2.348.0'} 	https://github.com/aws/aws-sdk-js/commit/67c4d1650e284907517ce3a4b2ec5b1c2925a8c9
+CommitInfo{repo='GitHub', hash='55885a3ab705fccf003dc6de7394de9fe0d2a915', version='v2.349.0'} 	https://github.com/aws/aws-sdk-js/commit/55885a3ab705fccf003dc6de7394de9fe0d2a915
+CommitInfo{repo='GitHub', hash='a1027ec0e22a447426b66b5274b59346800ffa25', version='v2.3.5'} 	https://github.com/aws/aws-sdk-js/commit/a1027ec0e22a447426b66b5274b59346800ffa25
+CommitInfo{repo='GitHub', hash='c5c0a612c7964a256d90bae0dc5400d090fa7664', version='v2.35.0'} 	https://github.com/aws/aws-sdk-js/commit/c5c0a612c7964a256d90bae0dc5400d090fa7664
+CommitInfo{repo='GitHub', hash='66e7431a57d0a855ad6ed8b36f403fc82f411da0', version='v2.350.0'} 	https://github.com/aws/aws-sdk-js/commit/66e7431a57d0a855ad6ed8b36f403fc82f411da0
+CommitInfo{repo='GitHub', hash='70cbaa7d8859067028af4a59c95958eb95d6c9ae', version='v2.351.0'} 	https://github.com/aws/aws-sdk-js/commit/70cbaa7d8859067028af4a59c95958eb95d6c9ae
+CommitInfo{repo='GitHub', hash='72c0480cf04bf3046e52de78680673143b3ae66e', version='v2.352.0'} 	https://github.com/aws/aws-sdk-js/commit/72c0480cf04bf3046e52de78680673143b3ae66e
+CommitInfo{repo='GitHub', hash='53490b40b5498f9ad2136ac67652d5ff03f6baa1', version='v2.353.0'} 	https://github.com/aws/aws-sdk-js/commit/53490b40b5498f9ad2136ac67652d5ff03f6baa1
+CommitInfo{repo='GitHub', hash='2e580dc1767f438d28373159b385a4e4ffcecbf8', version='v2.354.0'} 	https://github.com/aws/aws-sdk-js/commit/2e580dc1767f438d28373159b385a4e4ffcecbf8
+CommitInfo{repo='GitHub', hash='887033c8ab4ce49f106a0a9a3daea6f88676cb1b', version='v2.355.0'} 	https://github.com/aws/aws-sdk-js/commit/887033c8ab4ce49f106a0a9a3daea6f88676cb1b
+CommitInfo{repo='GitHub', hash='5dbd6fb9050035c1aaa4d952893f3d7941575d16', version='v2.356.0'} 	https://github.com/aws/aws-sdk-js/commit/5dbd6fb9050035c1aaa4d952893f3d7941575d16
+CommitInfo{repo='GitHub', hash='7cc9ae5b0d7b2935fa69dee945d5f3e6e638c660', version='v2.357.0'} 	https://github.com/aws/aws-sdk-js/commit/7cc9ae5b0d7b2935fa69dee945d5f3e6e638c660
+CommitInfo{repo='GitHub', hash='3a8901f1c92e417562b27d5541b8bcd6ca37c31c', version='v2.358.0'} 	https://github.com/aws/aws-sdk-js/commit/3a8901f1c92e417562b27d5541b8bcd6ca37c31c
+CommitInfo{repo='GitHub', hash='99352ce022aecb94e02084376a5c770639b4ecb9', version='v2.359.0'} 	https://github.com/aws/aws-sdk-js/commit/99352ce022aecb94e02084376a5c770639b4ecb9
+CommitInfo{repo='GitHub', hash='f9e13c8273e8b01e11c0fd61d7bac5ecf2c66895', version='v2.3.6'} 	https://github.com/aws/aws-sdk-js/commit/f9e13c8273e8b01e11c0fd61d7bac5ecf2c66895
+CommitInfo{repo='GitHub', hash='42b7eead7802e662334bbfb08422833149983180', version='v2.36.0'} 	https://github.com/aws/aws-sdk-js/commit/42b7eead7802e662334bbfb08422833149983180
+CommitInfo{repo='GitHub', hash='a61fc5693064a620a6f46cab3d24443c2cf0d613', version='v2.360.0'} 	https://github.com/aws/aws-sdk-js/commit/a61fc5693064a620a6f46cab3d24443c2cf0d613
+CommitInfo{repo='GitHub', hash='9e2c58fcf06999137f0b7f22d446346f0ea6a265', version='v2.361.0'} 	https://github.com/aws/aws-sdk-js/commit/9e2c58fcf06999137f0b7f22d446346f0ea6a265
+CommitInfo{repo='GitHub', hash='64a02e04e2f7994bdf156984e04eb4f5be7ea2e4', version='v2.362.0'} 	https://github.com/aws/aws-sdk-js/commit/64a02e04e2f7994bdf156984e04eb4f5be7ea2e4
+CommitInfo{repo='GitHub', hash='e2a1385f5d1b0703c0c01815447eeb885da2bf3f', version='v2.363.0'} 	https://github.com/aws/aws-sdk-js/commit/e2a1385f5d1b0703c0c01815447eeb885da2bf3f
+CommitInfo{repo='GitHub', hash='7b4bea109087da7dd1696cde4c153bbd53a30da9', version='v2.364.0'} 	https://github.com/aws/aws-sdk-js/commit/7b4bea109087da7dd1696cde4c153bbd53a30da9
+CommitInfo{repo='GitHub', hash='364717b7e99caa2a5419949cc1c34469404283ed', version='v2.365.0'} 	https://github.com/aws/aws-sdk-js/commit/364717b7e99caa2a5419949cc1c34469404283ed
+CommitInfo{repo='GitHub', hash='5c05964fa9a4f19121072915936bd5ed9455591d', version='v2.366.0'} 	https://github.com/aws/aws-sdk-js/commit/5c05964fa9a4f19121072915936bd5ed9455591d
+CommitInfo{repo='GitHub', hash='d9f97285b39ebfcf60f5ea08644c8ab48c59a64a', version='v2.367.0'} 	https://github.com/aws/aws-sdk-js/commit/d9f97285b39ebfcf60f5ea08644c8ab48c59a64a
+CommitInfo{repo='GitHub', hash='61f89137708f199bec5dfe7bf8f4754719324501', version='v2.368.0'} 	https://github.com/aws/aws-sdk-js/commit/61f89137708f199bec5dfe7bf8f4754719324501
+CommitInfo{repo='GitHub', hash='a62c6f62db63d5be7ca6e9806ae711117a312d1e', version='v2.369.0'} 	https://github.com/aws/aws-sdk-js/commit/a62c6f62db63d5be7ca6e9806ae711117a312d1e
+CommitInfo{repo='GitHub', hash='0bfea057945229105f2c7024ff3a8bc8444120fa', version='v2.3.7'} 	https://github.com/aws/aws-sdk-js/commit/0bfea057945229105f2c7024ff3a8bc8444120fa
+CommitInfo{repo='GitHub', hash='1afa82480fe993e63fc0c1550d8bde4a222685bc', version='v2.37.0'} 	https://github.com/aws/aws-sdk-js/commit/1afa82480fe993e63fc0c1550d8bde4a222685bc
+CommitInfo{repo='GitHub', hash='1afa82480fe993e63fc0c1550d8bde4a222685bc', version='v2.37.0'} 	https://github.com/aws/aws-sdk-js/commit/1afa82480fe993e63fc0c1550d8bde4a222685bc
+CommitInfo{repo='GitHub', hash='83ebfbcc6ab30b9a486b15cdede26a1bd03c72e4', version='v2.370.0'} 	https://github.com/aws/aws-sdk-js/commit/83ebfbcc6ab30b9a486b15cdede26a1bd03c72e4
+CommitInfo{repo='GitHub', hash='db344812728a3fb7aa29d8a82990fcd8dd980d62', version='v2.371.0'} 	https://github.com/aws/aws-sdk-js/commit/db344812728a3fb7aa29d8a82990fcd8dd980d62
+CommitInfo{repo='GitHub', hash='42cb9d825e5d1ef44ee13612961111784af76149', version='v2.372.0'} 	https://github.com/aws/aws-sdk-js/commit/42cb9d825e5d1ef44ee13612961111784af76149
+CommitInfo{repo='GitHub', hash='ae00af1486d031c3841a2d506cc64e4cda451fff', version='v2.373.0'} 	https://github.com/aws/aws-sdk-js/commit/ae00af1486d031c3841a2d506cc64e4cda451fff
+CommitInfo{repo='GitHub', hash='4e074eb27deb5b88b0fe9b06d893f55a4a867dbb', version='v2.374.0'} 	https://github.com/aws/aws-sdk-js/commit/4e074eb27deb5b88b0fe9b06d893f55a4a867dbb
+CommitInfo{repo='GitHub', hash='68ad0d033341937aa4b26db4d6a4a2257d4d6bbe', version='v2.375.0'} 	https://github.com/aws/aws-sdk-js/commit/68ad0d033341937aa4b26db4d6a4a2257d4d6bbe
+CommitInfo{repo='GitHub', hash='d2f58a164c5bc5f7aff8f44f4cc595f2706c3071', version='v2.376.0'} 	https://github.com/aws/aws-sdk-js/commit/d2f58a164c5bc5f7aff8f44f4cc595f2706c3071
+CommitInfo{repo='GitHub', hash='11b75446c51b355f847a362668eb74fed0fe84e1', version='v2.377.0'} 	https://github.com/aws/aws-sdk-js/commit/11b75446c51b355f847a362668eb74fed0fe84e1
+CommitInfo{repo='GitHub', hash='1c5d58beb671887f7017bdd13599a3dbc9beae44', version='v2.378.0'} 	https://github.com/aws/aws-sdk-js/commit/1c5d58beb671887f7017bdd13599a3dbc9beae44
+CommitInfo{repo='GitHub', hash='9371a606629022a85793ecba634d702d4314b853', version='v2.379.0'} 	https://github.com/aws/aws-sdk-js/commit/9371a606629022a85793ecba634d702d4314b853
+CommitInfo{repo='GitHub', hash='3ecb3b4dccaeee3fc25250a172aa05c6156c5d49', version='v2.3.8'} 	https://github.com/aws/aws-sdk-js/commit/3ecb3b4dccaeee3fc25250a172aa05c6156c5d49
+CommitInfo{repo='GitHub', hash='2e6d8bc1e5cd1695e8bf8aa4f07df5623fe68def', version='v2.38.0'} 	https://github.com/aws/aws-sdk-js/commit/2e6d8bc1e5cd1695e8bf8aa4f07df5623fe68def
+CommitInfo{repo='GitHub', hash='1987862af6887ea24345fb0fd34af5a5a09f323e', version='v2.380.0'} 	https://github.com/aws/aws-sdk-js/commit/1987862af6887ea24345fb0fd34af5a5a09f323e
+CommitInfo{repo='GitHub', hash='abdfa436668511afa0f2f57b663099306df8285b', version='v2.381.0'} 	https://github.com/aws/aws-sdk-js/commit/abdfa436668511afa0f2f57b663099306df8285b
+CommitInfo{repo='GitHub', hash='8db24fbf7abcd61b12feab0bf8374477bd126d77', version='v2.382.0'} 	https://github.com/aws/aws-sdk-js/commit/8db24fbf7abcd61b12feab0bf8374477bd126d77
+CommitInfo{repo='GitHub', hash='9761eeae16f47e0a2c012d3be99254a21bf142b1', version='v2.3.9'} 	https://github.com/aws/aws-sdk-js/commit/9761eeae16f47e0a2c012d3be99254a21bf142b1
+CommitInfo{repo='GitHub', hash='6a4eed54e265acb1372e1137a49109e4c15c5ca0', version='v2.39.0'} 	https://github.com/aws/aws-sdk-js/commit/6a4eed54e265acb1372e1137a49109e4c15c5ca0
+CommitInfo{repo='GitHub', hash='4f7751382529ed22ce06edcf6cb119ba3ca8bc1e', version='v2.4.0'} 	https://github.com/aws/aws-sdk-js/commit/4f7751382529ed22ce06edcf6cb119ba3ca8bc1e
+CommitInfo{repo='GitHub', hash='d92fa2715f52e955bdfd32531fd84cc413f69a92', version='v2.40.0'} 	https://github.com/aws/aws-sdk-js/commit/d92fa2715f52e955bdfd32531fd84cc413f69a92
+CommitInfo{repo='GitHub', hash='88fba8c03654b620aa6158f2c851522d549d06ed', version='v2.4.1'} 	https://github.com/aws/aws-sdk-js/commit/88fba8c03654b620aa6158f2c851522d549d06ed
+CommitInfo{repo='GitHub', hash='155bf58d098d53646e445428a4b1d258fa33b5e0', version='v2.4.10'} 	https://github.com/aws/aws-sdk-js/commit/155bf58d098d53646e445428a4b1d258fa33b5e0
+CommitInfo{repo='GitHub', hash='de5abc00731bd30ef81f17b70b0d4ed7232f6038', version='v2.41.0'} 	https://github.com/aws/aws-sdk-js/commit/de5abc00731bd30ef81f17b70b0d4ed7232f6038
+CommitInfo{repo='GitHub', hash='11c8d805f1a66109c15fc9a4b275142026e2c8c7', version='v2.4.11'} 	https://github.com/aws/aws-sdk-js/commit/11c8d805f1a66109c15fc9a4b275142026e2c8c7
+CommitInfo{repo='GitHub', hash='902e0632de0492508b24cfe4a495d39f7f6ed3fb', version='v2.4.12'} 	https://github.com/aws/aws-sdk-js/commit/902e0632de0492508b24cfe4a495d39f7f6ed3fb
+CommitInfo{repo='GitHub', hash='692e005ace60b3b4725513499566f4d2ddf0ce5e', version='v2.4.13'} 	https://github.com/aws/aws-sdk-js/commit/692e005ace60b3b4725513499566f4d2ddf0ce5e
+CommitInfo{repo='GitHub', hash='f00ea8722c49d63dab514d7d3080eb167b389a9c', version='v2.4.14'} 	https://github.com/aws/aws-sdk-js/commit/f00ea8722c49d63dab514d7d3080eb167b389a9c
+CommitInfo{repo='GitHub', hash='ce8cbe6ba2d4a82cd830fb3fa9ff97df7600d4e4', version='v2.4.2'} 	https://github.com/aws/aws-sdk-js/commit/ce8cbe6ba2d4a82cd830fb3fa9ff97df7600d4e4
+CommitInfo{repo='GitHub', hash='55a8f68435522014fa8bd4ed1bd77f5459a79da8', version='v2.42.0'} 	https://github.com/aws/aws-sdk-js/commit/55a8f68435522014fa8bd4ed1bd77f5459a79da8
+CommitInfo{repo='GitHub', hash='078e478592d0d6a0a367731baf86eb850af00923', version='v2.4.3'} 	https://github.com/aws/aws-sdk-js/commit/078e478592d0d6a0a367731baf86eb850af00923
+CommitInfo{repo='GitHub', hash='57a3e044ee1fea4df3ddf74107b9dd9ba94ae4b5', version='v2.43.0'} 	https://github.com/aws/aws-sdk-js/commit/57a3e044ee1fea4df3ddf74107b9dd9ba94ae4b5
+CommitInfo{repo='GitHub', hash='4da4aaf1f2ca9c94c0a4fabeb1c54c5f87f82b2e', version='v2.4.4'} 	https://github.com/aws/aws-sdk-js/commit/4da4aaf1f2ca9c94c0a4fabeb1c54c5f87f82b2e
+CommitInfo{repo='GitHub', hash='40e66430177d06699863cdd28a3d4ce39fc6008b', version='v2.44.0'} 	https://github.com/aws/aws-sdk-js/commit/40e66430177d06699863cdd28a3d4ce39fc6008b
+CommitInfo{repo='GitHub', hash='0f20de29728072dc6024f25d6a4e0b978dc6c2f3', version='v2.4.5'} 	https://github.com/aws/aws-sdk-js/commit/0f20de29728072dc6024f25d6a4e0b978dc6c2f3
+CommitInfo{repo='GitHub', hash='8bc99767740a3142b8e2b4c519588260bb69d79f', version='v2.45.0'} 	https://github.com/aws/aws-sdk-js/commit/8bc99767740a3142b8e2b4c519588260bb69d79f
+CommitInfo{repo='GitHub', hash='9787eaa2357bbba9941b8ab64f89f0e632817577', version='v2.4.6'} 	https://github.com/aws/aws-sdk-js/commit/9787eaa2357bbba9941b8ab64f89f0e632817577
+CommitInfo{repo='GitHub', hash='dca3aeca0fa5c68ca7dee713964aada081469bab', version='v2.46.0'} 	https://github.com/aws/aws-sdk-js/commit/dca3aeca0fa5c68ca7dee713964aada081469bab
+CommitInfo{repo='GitHub', hash='d61f3254fbe87448306e179b783d206d0f3dd8a9', version='v2.4.7'} 	https://github.com/aws/aws-sdk-js/commit/d61f3254fbe87448306e179b783d206d0f3dd8a9
+CommitInfo{repo='GitHub', hash='207593d057cdc90d00aa27a220052923f7822114', version='v2.47.0'} 	https://github.com/aws/aws-sdk-js/commit/207593d057cdc90d00aa27a220052923f7822114
+CommitInfo{repo='GitHub', hash='466490f02c57dce312e8938aa076820a9699ac7d', version='v2.4.8'} 	https://github.com/aws/aws-sdk-js/commit/466490f02c57dce312e8938aa076820a9699ac7d
+CommitInfo{repo='GitHub', hash='33924ac5bd97b3a31b41d29222fb8db0139f8375', version='v2.48.0'} 	https://github.com/aws/aws-sdk-js/commit/33924ac5bd97b3a31b41d29222fb8db0139f8375
+CommitInfo{repo='GitHub', hash='a97c2baf784a49bd46e938f3228db9398cb999c4', version='v2.4.9'} 	https://github.com/aws/aws-sdk-js/commit/a97c2baf784a49bd46e938f3228db9398cb999c4
+CommitInfo{repo='GitHub', hash='6929f7dd6bdb76fb1ad67eaca5f0b763911a694e', version='v2.49.0'} 	https://github.com/aws/aws-sdk-js/commit/6929f7dd6bdb76fb1ad67eaca5f0b763911a694e
+CommitInfo{repo='GitHub', hash='0e4d7504537d8b646f019c92f135d4d8bc88aabd', version='v2.5.0'} 	https://github.com/aws/aws-sdk-js/commit/0e4d7504537d8b646f019c92f135d4d8bc88aabd
+CommitInfo{repo='GitHub', hash='065c7dfe717e806fe675091bc58bc26c96e4cd4a', version='v2.50.0'} 	https://github.com/aws/aws-sdk-js/commit/065c7dfe717e806fe675091bc58bc26c96e4cd4a
+CommitInfo{repo='GitHub', hash='5b3a8a69f876f8b4f52e422e0a076cb2e3855c48', version='v2.5.1'} 	https://github.com/aws/aws-sdk-js/commit/5b3a8a69f876f8b4f52e422e0a076cb2e3855c48
+CommitInfo{repo='GitHub', hash='575e3e76ca1010a974ee52baaa863cd237f42bb5', version='v2.51.0'} 	https://github.com/aws/aws-sdk-js/commit/575e3e76ca1010a974ee52baaa863cd237f42bb5
+CommitInfo{repo='GitHub', hash='4e5eb69ef808faa8f8013790f4d6ca956752f24e', version='v2.5.2'} 	https://github.com/aws/aws-sdk-js/commit/4e5eb69ef808faa8f8013790f4d6ca956752f24e
+CommitInfo{repo='GitHub', hash='f0085727d6de0ce6119e5cebb892b5844418ad9b', version='v2.52.0'} 	https://github.com/aws/aws-sdk-js/commit/f0085727d6de0ce6119e5cebb892b5844418ad9b
+CommitInfo{repo='GitHub', hash='7e3c279acb0fefecac6b2cf41bbabea2e0ce3a3a', version='v2.5.3'} 	https://github.com/aws/aws-sdk-js/commit/7e3c279acb0fefecac6b2cf41bbabea2e0ce3a3a
+CommitInfo{repo='GitHub', hash='0ab1bb28f916a1031b6efa5ebd1f04c553c21bb9', version='v2.53.0'} 	https://github.com/aws/aws-sdk-js/commit/0ab1bb28f916a1031b6efa5ebd1f04c553c21bb9
+CommitInfo{repo='GitHub', hash='3314cd9d1b9902aee3cd40ef32b8a8fd382615c2', version='v2.5.4'} 	https://github.com/aws/aws-sdk-js/commit/3314cd9d1b9902aee3cd40ef32b8a8fd382615c2
+CommitInfo{repo='GitHub', hash='4950fdbe7815f2493ecaf5f52f4483372b33ec39', version='v2.54.0'} 	https://github.com/aws/aws-sdk-js/commit/4950fdbe7815f2493ecaf5f52f4483372b33ec39
+CommitInfo{repo='GitHub', hash='b768e4705da33d1900bae781ea7a280d90c72382', version='v2.5.5'} 	https://github.com/aws/aws-sdk-js/commit/b768e4705da33d1900bae781ea7a280d90c72382
+CommitInfo{repo='GitHub', hash='7839084ef1a61448c598fb7c4809512c652c1f28', version='v2.55.0'} 	https://github.com/aws/aws-sdk-js/commit/7839084ef1a61448c598fb7c4809512c652c1f28
+CommitInfo{repo='GitHub', hash='02c54e1846ca4e9ebfd09982ce963dbc8bcc0969', version='v2.5.6'} 	https://github.com/aws/aws-sdk-js/commit/02c54e1846ca4e9ebfd09982ce963dbc8bcc0969
+CommitInfo{repo='GitHub', hash='93a50b90f3ef2150d337cc40e048d4cd4380db9a', version='v2.56.0'} 	https://github.com/aws/aws-sdk-js/commit/93a50b90f3ef2150d337cc40e048d4cd4380db9a
+CommitInfo{repo='GitHub', hash='5f19aba172815131d13f5cdd03f7be55a7f75145', version='v2.57.0'} 	https://github.com/aws/aws-sdk-js/commit/5f19aba172815131d13f5cdd03f7be55a7f75145
+CommitInfo{repo='GitHub', hash='5d317042297633c266489519cf55d6311809157c', version='v2.58.0'} 	https://github.com/aws/aws-sdk-js/commit/5d317042297633c266489519cf55d6311809157c
+CommitInfo{repo='GitHub', hash='da8f568a31d2c84e44891cd467f2735aa08888e0', version='v2.59.0'} 	https://github.com/aws/aws-sdk-js/commit/da8f568a31d2c84e44891cd467f2735aa08888e0
+CommitInfo{repo='GitHub', hash='8fd2060d63ff9e2116c99f6118dc451de6798520', version='v2.6.0'} 	https://github.com/aws/aws-sdk-js/commit/8fd2060d63ff9e2116c99f6118dc451de6798520
+CommitInfo{repo='GitHub', hash='fc2439d0d4ab3c68469209297a4b599aa3a47320', version='v2.60.0'} 	https://github.com/aws/aws-sdk-js/commit/fc2439d0d4ab3c68469209297a4b599aa3a47320
+CommitInfo{repo='GitHub', hash='62d1715f88837ea7b48ebb2c1bf0c4c9092d4901', version='v2.6.1'} 	https://github.com/aws/aws-sdk-js/commit/62d1715f88837ea7b48ebb2c1bf0c4c9092d4901
+CommitInfo{repo='GitHub', hash='a9a6032a8605e7af5f1162b961ba189082320b6b', version='v2.6.10'} 	https://github.com/aws/aws-sdk-js/commit/a9a6032a8605e7af5f1162b961ba189082320b6b
+CommitInfo{repo='GitHub', hash='5f8845227356438fd02636f71a640b5ccc2fc162', version='v2.61.0'} 	https://github.com/aws/aws-sdk-js/commit/5f8845227356438fd02636f71a640b5ccc2fc162
+CommitInfo{repo='GitHub', hash='9611fef26f31d226dce3aac77c7b9a66229b8ef3', version='v2.6.11'} 	https://github.com/aws/aws-sdk-js/commit/9611fef26f31d226dce3aac77c7b9a66229b8ef3
+CommitInfo{repo='GitHub', hash='151dac16b4cd375d2078b306ff08bc7374888715', version='v2.6.12'} 	https://github.com/aws/aws-sdk-js/commit/151dac16b4cd375d2078b306ff08bc7374888715
+CommitInfo{repo='GitHub', hash='9328c205edb859ff9d4f22ec943c9c56c69a1a6d', version='v2.6.13'} 	https://github.com/aws/aws-sdk-js/commit/9328c205edb859ff9d4f22ec943c9c56c69a1a6d
+CommitInfo{repo='GitHub', hash='13e1b3bd2bfcffbe48942c947da25690f27f6a53', version='v2.6.14'} 	https://github.com/aws/aws-sdk-js/commit/13e1b3bd2bfcffbe48942c947da25690f27f6a53
+CommitInfo{repo='GitHub', hash='d8e171ce6021f7a7fe437af7ccdd6765d1080d77', version='v2.6.15'} 	https://github.com/aws/aws-sdk-js/commit/d8e171ce6021f7a7fe437af7ccdd6765d1080d77
+CommitInfo{repo='GitHub', hash='d9c89f9161f63b8b3af06af069873e0e61fd4091', version='v2.6.2'} 	https://github.com/aws/aws-sdk-js/commit/d9c89f9161f63b8b3af06af069873e0e61fd4091
+CommitInfo{repo='GitHub', hash='5fcf374193e4922f30d1720de8fc84986d309a62', version='v2.62.0'} 	https://github.com/aws/aws-sdk-js/commit/5fcf374193e4922f30d1720de8fc84986d309a62
+CommitInfo{repo='GitHub', hash='5a26680dbf734f312015b4a6700e894e3781717a', version='v2.6.3'} 	https://github.com/aws/aws-sdk-js/commit/5a26680dbf734f312015b4a6700e894e3781717a
+CommitInfo{repo='GitHub', hash='f65c11df96871889156a3b7b2fa6311675a0d962', version='v2.63.0'} 	https://github.com/aws/aws-sdk-js/commit/f65c11df96871889156a3b7b2fa6311675a0d962
+CommitInfo{repo='GitHub', hash='513bdebb26739a298f522e58277e7d340afaa3f5', version='v2.6.4'} 	https://github.com/aws/aws-sdk-js/commit/513bdebb26739a298f522e58277e7d340afaa3f5
+CommitInfo{repo='GitHub', hash='9b118eff2e08fc7899877ea94ffe040e2de753dc', version='v2.64.0'} 	https://github.com/aws/aws-sdk-js/commit/9b118eff2e08fc7899877ea94ffe040e2de753dc
+CommitInfo{repo='GitHub', hash='530175fa17f24e7e02781fe87c6762c8fe16bb70', version='v2.6.5'} 	https://github.com/aws/aws-sdk-js/commit/530175fa17f24e7e02781fe87c6762c8fe16bb70
+CommitInfo{repo='GitHub', hash='bf07fdc2cd1a38efa6d152760b25cf8cccbc8ac5', version='v2.65.0'} 	https://github.com/aws/aws-sdk-js/commit/bf07fdc2cd1a38efa6d152760b25cf8cccbc8ac5
+CommitInfo{repo='GitHub', hash='ee4148330a38d51f7806b7e014b11c9c0be3a5c5', version='v2.6.6'} 	https://github.com/aws/aws-sdk-js/commit/ee4148330a38d51f7806b7e014b11c9c0be3a5c5
+CommitInfo{repo='GitHub', hash='5136a45526d386deddf900ea78703ff2320856e2', version='v2.66.0'} 	https://github.com/aws/aws-sdk-js/commit/5136a45526d386deddf900ea78703ff2320856e2
+CommitInfo{repo='GitHub', hash='54a18bbd3caaefddc2ccfb747ab8443930ae1e6e', version='v2.6.7'} 	https://github.com/aws/aws-sdk-js/commit/54a18bbd3caaefddc2ccfb747ab8443930ae1e6e
+CommitInfo{repo='GitHub', hash='20ecff72c378499a99da1c07501d7d72715dbd4a', version='v2.67.0'} 	https://github.com/aws/aws-sdk-js/commit/20ecff72c378499a99da1c07501d7d72715dbd4a
+CommitInfo{repo='GitHub', hash='471dd1a4d3bcdbda3436c0f6c64c00a5cd544682', version='v2.6.8'} 	https://github.com/aws/aws-sdk-js/commit/471dd1a4d3bcdbda3436c0f6c64c00a5cd544682
+CommitInfo{repo='GitHub', hash='37f8596926dc0736d4e3e5021872fa981a305067', version='v2.68.0'} 	https://github.com/aws/aws-sdk-js/commit/37f8596926dc0736d4e3e5021872fa981a305067
+CommitInfo{repo='GitHub', hash='8593f8dcc1830ea53d7f83ec3ef19ff46024e227', version='v2.6.9'} 	https://github.com/aws/aws-sdk-js/commit/8593f8dcc1830ea53d7f83ec3ef19ff46024e227
+CommitInfo{repo='GitHub', hash='2ef6f083db7d5b5fd3aa677ef1cff479803d6bbb', version='v2.69.0'} 	https://github.com/aws/aws-sdk-js/commit/2ef6f083db7d5b5fd3aa677ef1cff479803d6bbb
+CommitInfo{repo='GitHub', hash='17cd1cc529f34f74588227322f7d076c6de63b54', version='v2.7.0'} 	https://github.com/aws/aws-sdk-js/commit/17cd1cc529f34f74588227322f7d076c6de63b54
+CommitInfo{repo='GitHub', hash='9b6fcacce0f97ae31e20f0bbb0afb335ba15d8a0', version='v2.70.0'} 	https://github.com/aws/aws-sdk-js/commit/9b6fcacce0f97ae31e20f0bbb0afb335ba15d8a0
+CommitInfo{repo='GitHub', hash='c8ecca09d4f354eeff527ff5925ac7501f322a18', version='v2.7.1'} 	https://github.com/aws/aws-sdk-js/commit/c8ecca09d4f354eeff527ff5925ac7501f322a18
+CommitInfo{repo='GitHub', hash='5dba638fd7c58aeb776e7a5cc42c52c692314093', version='v2.7.10'} 	https://github.com/aws/aws-sdk-js/commit/5dba638fd7c58aeb776e7a5cc42c52c692314093
+CommitInfo{repo='GitHub', hash='8f0bf5e7837312ae0357b6154f7da9ac745a3db5', version='v2.71.0'} 	https://github.com/aws/aws-sdk-js/commit/8f0bf5e7837312ae0357b6154f7da9ac745a3db5
+CommitInfo{repo='GitHub', hash='2292f9e05e11baeb975a38f60269c696f3545d4b', version='v2.7.11'} 	https://github.com/aws/aws-sdk-js/commit/2292f9e05e11baeb975a38f60269c696f3545d4b
+CommitInfo{repo='GitHub', hash='8a449df5f69f07c169a4be5226f80711454d65dc', version='v2.7.12'} 	https://github.com/aws/aws-sdk-js/commit/8a449df5f69f07c169a4be5226f80711454d65dc
+CommitInfo{repo='GitHub', hash='685bffb77ba6bb3f1124f1785310661e1e061619', version='v2.7.13'} 	https://github.com/aws/aws-sdk-js/commit/685bffb77ba6bb3f1124f1785310661e1e061619
+CommitInfo{repo='GitHub', hash='d4ef1e89f1a6ba4960aafe7b8c27f7782685a313', version='v2.7.14'} 	https://github.com/aws/aws-sdk-js/commit/d4ef1e89f1a6ba4960aafe7b8c27f7782685a313
+CommitInfo{repo='GitHub', hash='50b95419b312c1d9d3dee82c87443c853d91e3ce', version='v2.7.15'} 	https://github.com/aws/aws-sdk-js/commit/50b95419b312c1d9d3dee82c87443c853d91e3ce
+CommitInfo{repo='GitHub', hash='33621885d545c05d968cbbb737cd9f06f338e907', version='v2.7.16'} 	https://github.com/aws/aws-sdk-js/commit/33621885d545c05d968cbbb737cd9f06f338e907
+CommitInfo{repo='GitHub', hash='84549a5eb5f4634f22718b756bcdd8e37157d1d2', version='v2.7.17'} 	https://github.com/aws/aws-sdk-js/commit/84549a5eb5f4634f22718b756bcdd8e37157d1d2
+CommitInfo{repo='GitHub', hash='b969bbccb7d5e8aef4977bbc50c3de530c14bbfa', version='v2.7.18'} 	https://github.com/aws/aws-sdk-js/commit/b969bbccb7d5e8aef4977bbc50c3de530c14bbfa
+CommitInfo{repo='GitHub', hash='421b8d83425f10aa0e226fa720c5ee544d2784ce', version='v2.7.19'} 	https://github.com/aws/aws-sdk-js/commit/421b8d83425f10aa0e226fa720c5ee544d2784ce
+CommitInfo{repo='GitHub', hash='c8cd950b9d4cb0514a898a4d3bf20b3d9dc577ce', version='v2.7.2'} 	https://github.com/aws/aws-sdk-js/commit/c8cd950b9d4cb0514a898a4d3bf20b3d9dc577ce
+CommitInfo{repo='GitHub', hash='3c76ce85ca5698e1ac7b072c30acafb761af618f', version='v2.7.20'} 	https://github.com/aws/aws-sdk-js/commit/3c76ce85ca5698e1ac7b072c30acafb761af618f
+CommitInfo{repo='GitHub', hash='dde5a6f8aa1ffbb4d20f8f50f43393a1f399f491', version='v2.72.0'} 	https://github.com/aws/aws-sdk-js/commit/dde5a6f8aa1ffbb4d20f8f50f43393a1f399f491
+CommitInfo{repo='GitHub', hash='4064bbe4006060100d0aeb91593d2d49eac858a9', version='v2.7.21'} 	https://github.com/aws/aws-sdk-js/commit/4064bbe4006060100d0aeb91593d2d49eac858a9
+CommitInfo{repo='GitHub', hash='be97613cb5c682180493007b2c266b73707b94df', version='v2.7.22'} 	https://github.com/aws/aws-sdk-js/commit/be97613cb5c682180493007b2c266b73707b94df
+CommitInfo{repo='GitHub', hash='7e2703e43596e7383e247bbee36d21fa63313ba5', version='v2.7.23'} 	https://github.com/aws/aws-sdk-js/commit/7e2703e43596e7383e247bbee36d21fa63313ba5
+CommitInfo{repo='GitHub', hash='556bc9d4f2a5bdd01666294bb36e8b164312ae98', version='v2.7.24'} 	https://github.com/aws/aws-sdk-js/commit/556bc9d4f2a5bdd01666294bb36e8b164312ae98
+CommitInfo{repo='GitHub', hash='51263f9ab6bb726ca9eb784712320b1eb25dd105', version='v2.7.25'} 	https://github.com/aws/aws-sdk-js/commit/51263f9ab6bb726ca9eb784712320b1eb25dd105
+CommitInfo{repo='GitHub', hash='3ea51a63042aeffedf47a9e8de1d28d484ecc551', version='v2.7.26'} 	https://github.com/aws/aws-sdk-js/commit/3ea51a63042aeffedf47a9e8de1d28d484ecc551
+CommitInfo{repo='GitHub', hash='c40f0d6d914852a68d35af181d7981a44413fb41', version='v2.7.27'} 	https://github.com/aws/aws-sdk-js/commit/c40f0d6d914852a68d35af181d7981a44413fb41
+CommitInfo{repo='GitHub', hash='4e20b4ff4a3a7f98769d483c37b456d63bf39c29', version='v2.7.28'} 	https://github.com/aws/aws-sdk-js/commit/4e20b4ff4a3a7f98769d483c37b456d63bf39c29
+CommitInfo{repo='GitHub', hash='bf0896b1f8339dbc105e9a90fd4864d863989930', version='v2.7.3'} 	https://github.com/aws/aws-sdk-js/commit/bf0896b1f8339dbc105e9a90fd4864d863989930
+CommitInfo{repo='GitHub', hash='17612f9a9a8f51a74b0f5edcdeff1efff4bf5ad2', version='v2.73.0'} 	https://github.com/aws/aws-sdk-js/commit/17612f9a9a8f51a74b0f5edcdeff1efff4bf5ad2
+CommitInfo{repo='GitHub', hash='ecf4809ee7ecba7a62953c5902274d109785ea45', version='v2.7.4'} 	https://github.com/aws/aws-sdk-js/commit/ecf4809ee7ecba7a62953c5902274d109785ea45
+CommitInfo{repo='GitHub', hash='bb2c2c9b228db0fa86a5897ab2eba0f7fc433db8', version='v2.74.0'} 	https://github.com/aws/aws-sdk-js/commit/bb2c2c9b228db0fa86a5897ab2eba0f7fc433db8
+CommitInfo{repo='GitHub', hash='e5b340b8fd11c6aaec35fc338e7fb8107927b84a', version='v2.7.5'} 	https://github.com/aws/aws-sdk-js/commit/e5b340b8fd11c6aaec35fc338e7fb8107927b84a
+CommitInfo{repo='GitHub', hash='af1e55994b0a2ab69ae72840c74dbfc8aaed6723', version='v2.75.0'} 	https://github.com/aws/aws-sdk-js/commit/af1e55994b0a2ab69ae72840c74dbfc8aaed6723
+CommitInfo{repo='GitHub', hash='f227a5f303808a1c37ebb325c5a584b9eb480550', version='v2.7.6'} 	https://github.com/aws/aws-sdk-js/commit/f227a5f303808a1c37ebb325c5a584b9eb480550
+CommitInfo{repo='GitHub', hash='460dbbd8ef8e98c01fee1ce6030a66dededd7b0c', version='v2.76.0'} 	https://github.com/aws/aws-sdk-js/commit/460dbbd8ef8e98c01fee1ce6030a66dededd7b0c
+CommitInfo{repo='GitHub', hash='e02103e5f82d4251062cf09e3a38f8e1c3ac5dcc', version='v2.7.7'} 	https://github.com/aws/aws-sdk-js/commit/e02103e5f82d4251062cf09e3a38f8e1c3ac5dcc
+CommitInfo{repo='GitHub', hash='9d3a4a72a6b6c79fe4cb44c5996f0a8cf10bffdb', version='v2.77.0'} 	https://github.com/aws/aws-sdk-js/commit/9d3a4a72a6b6c79fe4cb44c5996f0a8cf10bffdb
+CommitInfo{repo='GitHub', hash='39c3a4704ea4c0fb23ee585fd8b703ec65b96a9a', version='v2.7.8'} 	https://github.com/aws/aws-sdk-js/commit/39c3a4704ea4c0fb23ee585fd8b703ec65b96a9a
+CommitInfo{repo='GitHub', hash='7ec6f443bc530c99194083360bfb8a36fc5fbe25', version='v2.78.0'} 	https://github.com/aws/aws-sdk-js/commit/7ec6f443bc530c99194083360bfb8a36fc5fbe25
+CommitInfo{repo='GitHub', hash='62032870a757d0a187f8a93d38994a2d6ea428d7', version='v2.7.9'} 	https://github.com/aws/aws-sdk-js/commit/62032870a757d0a187f8a93d38994a2d6ea428d7
+CommitInfo{repo='GitHub', hash='1dd824ac9296a493fc9ef72d16b4e4f22a7d6b5f', version='v2.79.0'} 	https://github.com/aws/aws-sdk-js/commit/1dd824ac9296a493fc9ef72d16b4e4f22a7d6b5f
+CommitInfo{repo='GitHub', hash='c8d55cb28105180f47e5e16cc48b613364791444', version='v2.8.0'} 	https://github.com/aws/aws-sdk-js/commit/c8d55cb28105180f47e5e16cc48b613364791444
+CommitInfo{repo='GitHub', hash='c2cd0584515c9f7d6550264d164e34ebbb894caf', version='v2.80.0'} 	https://github.com/aws/aws-sdk-js/commit/c2cd0584515c9f7d6550264d164e34ebbb894caf
+CommitInfo{repo='GitHub', hash='17b15f475b7b17539381f22485233ef02dda796d', version='v2.81.0'} 	https://github.com/aws/aws-sdk-js/commit/17b15f475b7b17539381f22485233ef02dda796d
+CommitInfo{repo='GitHub', hash='4e246aaa7bfe8ce5349fa104c15425a826d46493', version='v2.82.0'} 	https://github.com/aws/aws-sdk-js/commit/4e246aaa7bfe8ce5349fa104c15425a826d46493
+CommitInfo{repo='GitHub', hash='543add6f75848b73b8d8f1e2049f36ba389bf4b2', version='v2.83.0'} 	https://github.com/aws/aws-sdk-js/commit/543add6f75848b73b8d8f1e2049f36ba389bf4b2
+CommitInfo{repo='GitHub', hash='4b6cd565ed7fa56cc4829255c7b9b164f947436f', version='v2.84.0'} 	https://github.com/aws/aws-sdk-js/commit/4b6cd565ed7fa56cc4829255c7b9b164f947436f
+CommitInfo{repo='GitHub', hash='b6bac7f23bd248802d4e82767e2e1ae4399b9a9e', version='v2.85.0'} 	https://github.com/aws/aws-sdk-js/commit/b6bac7f23bd248802d4e82767e2e1ae4399b9a9e
+CommitInfo{repo='GitHub', hash='8913f6962740386a3aa2039fa2fea3310d2d7689', version='v2.86.0'} 	https://github.com/aws/aws-sdk-js/commit/8913f6962740386a3aa2039fa2fea3310d2d7689
+CommitInfo{repo='GitHub', hash='69b244d58fb3ae80a8faeb41c776bddeb3f4a802', version='v2.87.0'} 	https://github.com/aws/aws-sdk-js/commit/69b244d58fb3ae80a8faeb41c776bddeb3f4a802
+CommitInfo{repo='GitHub', hash='bd91112dad079d6d78ede52772956c316a0cc956', version='v2.88.0'} 	https://github.com/aws/aws-sdk-js/commit/bd91112dad079d6d78ede52772956c316a0cc956
+CommitInfo{repo='GitHub', hash='efcd19b74fcf5e681797ee49e40c5623a8df65a6', version='v2.89.0'} 	https://github.com/aws/aws-sdk-js/commit/efcd19b74fcf5e681797ee49e40c5623a8df65a6
+CommitInfo{repo='GitHub', hash='c59e4b7cfb20d7f14844fab3b8d63a3494542f7a', version='v2.9.0'} 	https://github.com/aws/aws-sdk-js/commit/c59e4b7cfb20d7f14844fab3b8d63a3494542f7a
+CommitInfo{repo='GitHub', hash='225282af3240342620df06b837f3ff28dbfea45d', version='v2.90.0'} 	https://github.com/aws/aws-sdk-js/commit/225282af3240342620df06b837f3ff28dbfea45d
+CommitInfo{repo='GitHub', hash='28c8cc652f71cd6f928b812730265892331f10e6', version='v2.91.0'} 	https://github.com/aws/aws-sdk-js/commit/28c8cc652f71cd6f928b812730265892331f10e6
+CommitInfo{repo='GitHub', hash='9cdf912b552ee5a4b254dd9e2a33e52cc0ad3abe', version='v2.92.0'} 	https://github.com/aws/aws-sdk-js/commit/9cdf912b552ee5a4b254dd9e2a33e52cc0ad3abe
+CommitInfo{repo='GitHub', hash='cd3cc540fbc791d9eedbab5fb660c3a418bc5f41', version='v2.93.0'} 	https://github.com/aws/aws-sdk-js/commit/cd3cc540fbc791d9eedbab5fb660c3a418bc5f41
+CommitInfo{repo='GitHub', hash='b1f2815de738eda7cac3e24f3c6256048cb5eb6c', version='v2.94.0'} 	https://github.com/aws/aws-sdk-js/commit/b1f2815de738eda7cac3e24f3c6256048cb5eb6c
+CommitInfo{repo='GitHub', hash='ac2cee0988178cff52f37a20a1fe167470d12223', version='v2.95.0'} 	https://github.com/aws/aws-sdk-js/commit/ac2cee0988178cff52f37a20a1fe167470d12223
+CommitInfo{repo='GitHub', hash='2f2dec236fb6d52780726fb952e9256efc1b9984', version='v2.96.0'} 	https://github.com/aws/aws-sdk-js/commit/2f2dec236fb6d52780726fb952e9256efc1b9984
+CommitInfo{repo='GitHub', hash='4616765edab3e5ac821db9830fa00baf4ee4e569', version='v2.97.0'} 	https://github.com/aws/aws-sdk-js/commit/4616765edab3e5ac821db9830fa00baf4ee4e569
+CommitInfo{repo='GitHub', hash='c665ca8d4c82ba15ad53ac35d883435403e07dd0', version='v2.98.0'} 	https://github.com/aws/aws-sdk-js/commit/c665ca8d4c82ba15ad53ac35d883435403e07dd0
+CommitInfo{repo='GitHub', hash='b8207ee91ae9d833b714db872e2a8d3923f4ab92', version='v2.99.0'} 	https://github.com/aws/aws-sdk-js/commit/b8207ee91ae9d833b714db872e2a8d3923f4ab92
 
 Project A:
 ProjectVersionFixed(version=0.9.0-pre.1, dependency=null, time=2012-12-05 00:24:26 UTC)

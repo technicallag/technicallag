@@ -2,86 +2,91 @@
 Project information
 com.github.tminglei:slick-pg_2.10 (362673)	org.postgresql:postgresql (396525)	Package Manager: Maven
 RepoID: 165717
+Repo Owner/Name: tminglei/slick-pg
+Repository type: GitHub
+
+ https://github.com/tminglei/slick-pg/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='071d13dc97ff72456c1f9fb7f51586c3fbffa33e', version='0.15.0-RC'}
-CommitInfo{repo='GitHub', hash='bcf93adbc5f11eddd33828f0bb552a231fac1d0a', version='v0.1.0'}
-CommitInfo{repo='GitHub', hash='8d1f0b308a45b80b3fd396df5edb9a530593a4df', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='a8a407d0b59ddfe90f5ccb9a254b41d29413b16e', version='v0.10.0-M1'}
-CommitInfo{repo='GitHub', hash='f6dca3052a0c44f1e680dd5749e2a28757a47a83', version='v0.10.0-M2'}
-CommitInfo{repo='GitHub', hash='2764e835f359076e6976e414262e07ee0e28d9d3', version='v0.10.0-RC1'}
-CommitInfo{repo='GitHub', hash='ee4ba6a6e0c59e35fd97b2e7ea3ee55326dae239', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='b584a3e5ce159b771324790ad5169f5afaeb5c1e', version='v0.10.2'}
-CommitInfo{repo='GitHub', hash='0fc3a7817841bbc14fe98520ad14db08dc78cc90', version='v0.1.1'}
-CommitInfo{repo='GitHub', hash='9368e0b7164c6ac68a1a086d30d7de76e5592389', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='ab10076dd9802d92da95211209c9733d56a05d0e', version='v0.11.1'}
-CommitInfo{repo='GitHub', hash='a5fde30b22232a9252bcd783527fc9eb73f374cb', version='v0.11.2'}
-CommitInfo{repo='GitHub', hash='6607efa590ed8d2c9ef25eb980d834fff55c75b6', version='v0.11.3'}
-CommitInfo{repo='GitHub', hash='c6faf9f0698c25920a7fa4d9e352df33da734c3b', version='v0.1.2'}
-CommitInfo{repo='GitHub', hash='93a613b5372acd12865dd2c73ac7883a6073ab05', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='6600cd2aa0fff4744be81761ba062737547cf78b', version='v0.12.1'}
-CommitInfo{repo='GitHub', hash='e162b6f0e1d4b435b2328a1839b190a3158e01f7', version='v0.12.2'}
-CommitInfo{repo='GitHub', hash='aff2fc559088cdb79f9e1885861d398ecd0aedc3', version='v0.1.3'}
-CommitInfo{repo='GitHub', hash='42dd8563e6ab529b5e5dee068a1dc9fa089fe64f', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='32ba2422165dd7cfa271e4943d323eb3114b6d6d', version='v0.1.3.1'}
-CommitInfo{repo='GitHub', hash='fe4a0bac124266bb79e64d2b203bbbf009222067', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='abc157730a2f2288a7826f3d03f9bd861f0b58c6', version='v0.14.1'}
-CommitInfo{repo='GitHub', hash='e1fc60646bdf3f8b48c6d2849fe5a1e7df9bb7eb', version='v0.14.2'}
-CommitInfo{repo='GitHub', hash='7c694006398516b1e5391091b4b0e984eafce058', version='v0.14.3'}
-CommitInfo{repo='GitHub', hash='27652e9266e022dfb331dbe8a7a2269cd772456d', version='v0.14.4'}
-CommitInfo{repo='GitHub', hash='fad3c2b41ff0a2ac6ace49e34ff06abe028ba21e', version='v0.14.5'}
-CommitInfo{repo='GitHub', hash='6b8ac08db8df6eaf7b9ef0433ea2339ac39c9c9f', version='v0.14.6'}
-CommitInfo{repo='GitHub', hash='02eb07b2d534074ebe771c41c1bff55bfff3813e', version='v0.14.8'}
-CommitInfo{repo='GitHub', hash='c7fc193dd64cf133d967715309a24ff3b6128755', version='v0.14.9'}
-CommitInfo{repo='GitHub', hash='a3a65d878b8efc724a5d03b971d6c6d1e5b19958', version='v0.1.5'}
-CommitInfo{repo='GitHub', hash='d7da9d8184199731385416d28aeeba3f3e3fdff9', version='v0.15.0'}
-CommitInfo{repo='GitHub', hash='3b4123f1c0f8fe3484f20d0fe57ba9767f0865b0', version='v0.15.0-M1'}
-CommitInfo{repo='GitHub', hash='49044d422ffef16355674022fec57d7e822c46e4', version='v0.15.0-M2'}
-CommitInfo{repo='GitHub', hash='1d63866405be51fb7958d36a5e7b1d558e77704b', version='v0.15.0-M3'}
-CommitInfo{repo='GitHub', hash='4c8e79bdda5ce563086d522f4c39bcd65e8235f9', version='v0.15.0-M4'}
-CommitInfo{repo='GitHub', hash='16eacdc1077030133b8f8197c47aab14ad5667a1', version='v0.1.5.1'}
-CommitInfo{repo='GitHub', hash='fb5e1c0c9cf24d6fde150e3351b572c2791d24f2', version='v0.15.1'}
-CommitInfo{repo='GitHub', hash='848268ece9bcdd7e6d5cbc2d64d69340d3e9cd96', version='v0.15.2'}
-CommitInfo{repo='GitHub', hash='f604bc6ebe16e4a2e7894bf2eec1ee01a8775379', version='v0.15.3'}
-CommitInfo{repo='GitHub', hash='e1ff76ebf7362134c1ccff34b169bffb4fe80023', version='v0.15.4'}
-CommitInfo{repo='GitHub', hash='37d7059bce094640d9d2095d6a8ed09e166542b3', version='v0.15.5'}
-CommitInfo{repo='GitHub', hash='64f5b8cbda316d81d619e9090d624603965d5baa', version='v0.15.6'}
-CommitInfo{repo='GitHub', hash='adb97e69a51de0886dc54e081b8b14cbbe260aa1', version='v0.15.7'}
-CommitInfo{repo='GitHub', hash='d2fe77e32ff4e9f797cca29ad31264f36c3eabf8', version='v0.16.0'}
-CommitInfo{repo='GitHub', hash='6cab8da98a2ec32a1825e7b3a92843e3672e65a6', version='v0.16.1'}
-CommitInfo{repo='GitHub', hash='ba75c0e2f730970eac07b19344c18ee6d4b2d2dd', version='v0.16.2'}
-CommitInfo{repo='GitHub', hash='1eac99003cc39c98b3c1e1ded58e8327cbe381d9', version='v0.16.3'}
-CommitInfo{repo='GitHub', hash='50b7c0a4353b1e9d843eabca7487c5690b517f47', version='v0.2.0'}
-CommitInfo{repo='GitHub', hash='bbe80f2b249a39af6e145b64b24f7b223695b7b2', version='v0.2.2'}
-CommitInfo{repo='GitHub', hash='c42f4250488686d2db7fc84c8924b166920c15a7', version='v0.2.5'}
-CommitInfo{repo='GitHub', hash='5e0ad627657fe89a4852a0996cd974cbaf54c273', version='v0.2.6'}
-CommitInfo{repo='GitHub', hash='45b1c6b810f0ea5f176564ca8ae0e5b773194c1b', version='v0.2.7'}
-CommitInfo{repo='GitHub', hash='91d8f3600d519d2c77e926259b2dfae8f44fcb1d', version='v0.2.7.1'}
-CommitInfo{repo='GitHub', hash='97c2ef28b92d78e915d6225123ecc0420642a90e', version='v0.5.0'}
-CommitInfo{repo='GitHub', hash='ee3aeb25de605f96635aef03eccc43863733a501', version='v0.5.0-beta'}
-CommitInfo{repo='GitHub', hash='bb84e80c21618d76291652da14e82921a0012244', version='v0.5.1'}
-CommitInfo{repo='GitHub', hash='7050dfadb3ee49fb7aaec0a9b3ccd69533bf28fa', version='v0.5.1.3'}
-CommitInfo{repo='GitHub', hash='3d4ad5f6f3fa3a7029f9038bfb9c5f28acc3e7ab', version='v0.5.2'}
-CommitInfo{repo='GitHub', hash='bac1252df211f7a52fcb8306db2103699b698f99', version='v0.5.2.3'}
-CommitInfo{repo='GitHub', hash='902a80a0c43401b290180a62330c5a803d0840b3', version='v0.5.3'}
-CommitInfo{repo='GitHub', hash='5677bf3d56064251277c4e8cab41b60f7794e1f3', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='f97ef2b0044cb18754824e29ba349db8b36b24f3', version='v0.6.0-M1'}
-CommitInfo{repo='GitHub', hash='0d1f27b2819ece9edf2ee766e65737259126ec32', version='v0.6.0-M2'}
-CommitInfo{repo='GitHub', hash='7d44021d9ffa251aca7fa48f7a98f4fcca817625', version='v0.6.1'}
-CommitInfo{repo='GitHub', hash='b196d8ca7ff4db4cbf77e8c5bca03ea79148f0b5', version='v0.6.2'}
-CommitInfo{repo='GitHub', hash='a8c50f17e1c3736d3adb8dedf8dd555ddf4c143e', version='v0.6.3'}
-CommitInfo{repo='GitHub', hash='d17536729dabf3fc53b93cad6f0847039ff3106e', version='v0.6.5'}
-CommitInfo{repo='GitHub', hash='d6ac19baa97d3df50f28e2f483b6c0c642584079', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='9c7214db988fd22641f8a5ccf18714fd88b97bdf', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='6607a839ef197c49d53fef290dc9d521befecb63', version='v0.8.1'}
-CommitInfo{repo='GitHub', hash='678004ad4e1a867daca76e0583c59fdb47314268', version='v0.8.2'}
-CommitInfo{repo='GitHub', hash='b3d268a5efbfed299588b7fce1a72e0243298a90', version='v0.8.3'}
-CommitInfo{repo='GitHub', hash='6c129d0e2e5270afb1a7a1604a9139e9da45c66a', version='v0.8.4'}
-CommitInfo{repo='GitHub', hash='278a5778b6186fcc239b323da158dd78549787c6', version='v0.8.5'}
-CommitInfo{repo='GitHub', hash='25c3480a5e1362ac48818e945653502701af087b', version='v0.8.6'}
-CommitInfo{repo='GitHub', hash='aadfc8b5f79c22978286cfd1d467868b38a36545', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='4f83d6d456352203ff3d9cf9911d53cd97ea4e2a', version='v0.9.0-beta'}
-CommitInfo{repo='GitHub', hash='44f41bdca2bf094ee3f9108c06c041aa3f196d46', version='v0.9.1'}
-CommitInfo{repo='GitHub', hash='38a4fa99da3130b8a9e793b887a5f4ab7e9ecb80', version='v0.9.2'}
+CommitInfo{repo='GitHub', hash='071d13dc97ff72456c1f9fb7f51586c3fbffa33e', version='0.15.0-RC'} 	https://github.com/tminglei/slick-pg/commit/071d13dc97ff72456c1f9fb7f51586c3fbffa33e
+CommitInfo{repo='GitHub', hash='bcf93adbc5f11eddd33828f0bb552a231fac1d0a', version='v0.1.0'} 	https://github.com/tminglei/slick-pg/commit/bcf93adbc5f11eddd33828f0bb552a231fac1d0a
+CommitInfo{repo='GitHub', hash='8d1f0b308a45b80b3fd396df5edb9a530593a4df', version='v0.10.0'} 	https://github.com/tminglei/slick-pg/commit/8d1f0b308a45b80b3fd396df5edb9a530593a4df
+CommitInfo{repo='GitHub', hash='a8a407d0b59ddfe90f5ccb9a254b41d29413b16e', version='v0.10.0-M1'} 	https://github.com/tminglei/slick-pg/commit/a8a407d0b59ddfe90f5ccb9a254b41d29413b16e
+CommitInfo{repo='GitHub', hash='f6dca3052a0c44f1e680dd5749e2a28757a47a83', version='v0.10.0-M2'} 	https://github.com/tminglei/slick-pg/commit/f6dca3052a0c44f1e680dd5749e2a28757a47a83
+CommitInfo{repo='GitHub', hash='2764e835f359076e6976e414262e07ee0e28d9d3', version='v0.10.0-RC1'} 	https://github.com/tminglei/slick-pg/commit/2764e835f359076e6976e414262e07ee0e28d9d3
+CommitInfo{repo='GitHub', hash='ee4ba6a6e0c59e35fd97b2e7ea3ee55326dae239', version='v0.10.1'} 	https://github.com/tminglei/slick-pg/commit/ee4ba6a6e0c59e35fd97b2e7ea3ee55326dae239
+CommitInfo{repo='GitHub', hash='b584a3e5ce159b771324790ad5169f5afaeb5c1e', version='v0.10.2'} 	https://github.com/tminglei/slick-pg/commit/b584a3e5ce159b771324790ad5169f5afaeb5c1e
+CommitInfo{repo='GitHub', hash='0fc3a7817841bbc14fe98520ad14db08dc78cc90', version='v0.1.1'} 	https://github.com/tminglei/slick-pg/commit/0fc3a7817841bbc14fe98520ad14db08dc78cc90
+CommitInfo{repo='GitHub', hash='9368e0b7164c6ac68a1a086d30d7de76e5592389', version='v0.11.0'} 	https://github.com/tminglei/slick-pg/commit/9368e0b7164c6ac68a1a086d30d7de76e5592389
+CommitInfo{repo='GitHub', hash='ab10076dd9802d92da95211209c9733d56a05d0e', version='v0.11.1'} 	https://github.com/tminglei/slick-pg/commit/ab10076dd9802d92da95211209c9733d56a05d0e
+CommitInfo{repo='GitHub', hash='a5fde30b22232a9252bcd783527fc9eb73f374cb', version='v0.11.2'} 	https://github.com/tminglei/slick-pg/commit/a5fde30b22232a9252bcd783527fc9eb73f374cb
+CommitInfo{repo='GitHub', hash='6607efa590ed8d2c9ef25eb980d834fff55c75b6', version='v0.11.3'} 	https://github.com/tminglei/slick-pg/commit/6607efa590ed8d2c9ef25eb980d834fff55c75b6
+CommitInfo{repo='GitHub', hash='c6faf9f0698c25920a7fa4d9e352df33da734c3b', version='v0.1.2'} 	https://github.com/tminglei/slick-pg/commit/c6faf9f0698c25920a7fa4d9e352df33da734c3b
+CommitInfo{repo='GitHub', hash='93a613b5372acd12865dd2c73ac7883a6073ab05', version='v0.12.0'} 	https://github.com/tminglei/slick-pg/commit/93a613b5372acd12865dd2c73ac7883a6073ab05
+CommitInfo{repo='GitHub', hash='6600cd2aa0fff4744be81761ba062737547cf78b', version='v0.12.1'} 	https://github.com/tminglei/slick-pg/commit/6600cd2aa0fff4744be81761ba062737547cf78b
+CommitInfo{repo='GitHub', hash='e162b6f0e1d4b435b2328a1839b190a3158e01f7', version='v0.12.2'} 	https://github.com/tminglei/slick-pg/commit/e162b6f0e1d4b435b2328a1839b190a3158e01f7
+CommitInfo{repo='GitHub', hash='aff2fc559088cdb79f9e1885861d398ecd0aedc3', version='v0.1.3'} 	https://github.com/tminglei/slick-pg/commit/aff2fc559088cdb79f9e1885861d398ecd0aedc3
+CommitInfo{repo='GitHub', hash='42dd8563e6ab529b5e5dee068a1dc9fa089fe64f', version='v0.13.0'} 	https://github.com/tminglei/slick-pg/commit/42dd8563e6ab529b5e5dee068a1dc9fa089fe64f
+CommitInfo{repo='GitHub', hash='32ba2422165dd7cfa271e4943d323eb3114b6d6d', version='v0.1.3.1'} 	https://github.com/tminglei/slick-pg/commit/32ba2422165dd7cfa271e4943d323eb3114b6d6d
+CommitInfo{repo='GitHub', hash='fe4a0bac124266bb79e64d2b203bbbf009222067', version='v0.14.0'} 	https://github.com/tminglei/slick-pg/commit/fe4a0bac124266bb79e64d2b203bbbf009222067
+CommitInfo{repo='GitHub', hash='abc157730a2f2288a7826f3d03f9bd861f0b58c6', version='v0.14.1'} 	https://github.com/tminglei/slick-pg/commit/abc157730a2f2288a7826f3d03f9bd861f0b58c6
+CommitInfo{repo='GitHub', hash='e1fc60646bdf3f8b48c6d2849fe5a1e7df9bb7eb', version='v0.14.2'} 	https://github.com/tminglei/slick-pg/commit/e1fc60646bdf3f8b48c6d2849fe5a1e7df9bb7eb
+CommitInfo{repo='GitHub', hash='7c694006398516b1e5391091b4b0e984eafce058', version='v0.14.3'} 	https://github.com/tminglei/slick-pg/commit/7c694006398516b1e5391091b4b0e984eafce058
+CommitInfo{repo='GitHub', hash='27652e9266e022dfb331dbe8a7a2269cd772456d', version='v0.14.4'} 	https://github.com/tminglei/slick-pg/commit/27652e9266e022dfb331dbe8a7a2269cd772456d
+CommitInfo{repo='GitHub', hash='fad3c2b41ff0a2ac6ace49e34ff06abe028ba21e', version='v0.14.5'} 	https://github.com/tminglei/slick-pg/commit/fad3c2b41ff0a2ac6ace49e34ff06abe028ba21e
+CommitInfo{repo='GitHub', hash='6b8ac08db8df6eaf7b9ef0433ea2339ac39c9c9f', version='v0.14.6'} 	https://github.com/tminglei/slick-pg/commit/6b8ac08db8df6eaf7b9ef0433ea2339ac39c9c9f
+CommitInfo{repo='GitHub', hash='02eb07b2d534074ebe771c41c1bff55bfff3813e', version='v0.14.8'} 	https://github.com/tminglei/slick-pg/commit/02eb07b2d534074ebe771c41c1bff55bfff3813e
+CommitInfo{repo='GitHub', hash='c7fc193dd64cf133d967715309a24ff3b6128755', version='v0.14.9'} 	https://github.com/tminglei/slick-pg/commit/c7fc193dd64cf133d967715309a24ff3b6128755
+CommitInfo{repo='GitHub', hash='a3a65d878b8efc724a5d03b971d6c6d1e5b19958', version='v0.1.5'} 	https://github.com/tminglei/slick-pg/commit/a3a65d878b8efc724a5d03b971d6c6d1e5b19958
+CommitInfo{repo='GitHub', hash='d7da9d8184199731385416d28aeeba3f3e3fdff9', version='v0.15.0'} 	https://github.com/tminglei/slick-pg/commit/d7da9d8184199731385416d28aeeba3f3e3fdff9
+CommitInfo{repo='GitHub', hash='3b4123f1c0f8fe3484f20d0fe57ba9767f0865b0', version='v0.15.0-M1'} 	https://github.com/tminglei/slick-pg/commit/3b4123f1c0f8fe3484f20d0fe57ba9767f0865b0
+CommitInfo{repo='GitHub', hash='49044d422ffef16355674022fec57d7e822c46e4', version='v0.15.0-M2'} 	https://github.com/tminglei/slick-pg/commit/49044d422ffef16355674022fec57d7e822c46e4
+CommitInfo{repo='GitHub', hash='1d63866405be51fb7958d36a5e7b1d558e77704b', version='v0.15.0-M3'} 	https://github.com/tminglei/slick-pg/commit/1d63866405be51fb7958d36a5e7b1d558e77704b
+CommitInfo{repo='GitHub', hash='4c8e79bdda5ce563086d522f4c39bcd65e8235f9', version='v0.15.0-M4'} 	https://github.com/tminglei/slick-pg/commit/4c8e79bdda5ce563086d522f4c39bcd65e8235f9
+CommitInfo{repo='GitHub', hash='16eacdc1077030133b8f8197c47aab14ad5667a1', version='v0.1.5.1'} 	https://github.com/tminglei/slick-pg/commit/16eacdc1077030133b8f8197c47aab14ad5667a1
+CommitInfo{repo='GitHub', hash='fb5e1c0c9cf24d6fde150e3351b572c2791d24f2', version='v0.15.1'} 	https://github.com/tminglei/slick-pg/commit/fb5e1c0c9cf24d6fde150e3351b572c2791d24f2
+CommitInfo{repo='GitHub', hash='848268ece9bcdd7e6d5cbc2d64d69340d3e9cd96', version='v0.15.2'} 	https://github.com/tminglei/slick-pg/commit/848268ece9bcdd7e6d5cbc2d64d69340d3e9cd96
+CommitInfo{repo='GitHub', hash='f604bc6ebe16e4a2e7894bf2eec1ee01a8775379', version='v0.15.3'} 	https://github.com/tminglei/slick-pg/commit/f604bc6ebe16e4a2e7894bf2eec1ee01a8775379
+CommitInfo{repo='GitHub', hash='e1ff76ebf7362134c1ccff34b169bffb4fe80023', version='v0.15.4'} 	https://github.com/tminglei/slick-pg/commit/e1ff76ebf7362134c1ccff34b169bffb4fe80023
+CommitInfo{repo='GitHub', hash='37d7059bce094640d9d2095d6a8ed09e166542b3', version='v0.15.5'} 	https://github.com/tminglei/slick-pg/commit/37d7059bce094640d9d2095d6a8ed09e166542b3
+CommitInfo{repo='GitHub', hash='64f5b8cbda316d81d619e9090d624603965d5baa', version='v0.15.6'} 	https://github.com/tminglei/slick-pg/commit/64f5b8cbda316d81d619e9090d624603965d5baa
+CommitInfo{repo='GitHub', hash='adb97e69a51de0886dc54e081b8b14cbbe260aa1', version='v0.15.7'} 	https://github.com/tminglei/slick-pg/commit/adb97e69a51de0886dc54e081b8b14cbbe260aa1
+CommitInfo{repo='GitHub', hash='d2fe77e32ff4e9f797cca29ad31264f36c3eabf8', version='v0.16.0'} 	https://github.com/tminglei/slick-pg/commit/d2fe77e32ff4e9f797cca29ad31264f36c3eabf8
+CommitInfo{repo='GitHub', hash='6cab8da98a2ec32a1825e7b3a92843e3672e65a6', version='v0.16.1'} 	https://github.com/tminglei/slick-pg/commit/6cab8da98a2ec32a1825e7b3a92843e3672e65a6
+CommitInfo{repo='GitHub', hash='ba75c0e2f730970eac07b19344c18ee6d4b2d2dd', version='v0.16.2'} 	https://github.com/tminglei/slick-pg/commit/ba75c0e2f730970eac07b19344c18ee6d4b2d2dd
+CommitInfo{repo='GitHub', hash='1eac99003cc39c98b3c1e1ded58e8327cbe381d9', version='v0.16.3'} 	https://github.com/tminglei/slick-pg/commit/1eac99003cc39c98b3c1e1ded58e8327cbe381d9
+CommitInfo{repo='GitHub', hash='50b7c0a4353b1e9d843eabca7487c5690b517f47', version='v0.2.0'} 	https://github.com/tminglei/slick-pg/commit/50b7c0a4353b1e9d843eabca7487c5690b517f47
+CommitInfo{repo='GitHub', hash='bbe80f2b249a39af6e145b64b24f7b223695b7b2', version='v0.2.2'} 	https://github.com/tminglei/slick-pg/commit/bbe80f2b249a39af6e145b64b24f7b223695b7b2
+CommitInfo{repo='GitHub', hash='c42f4250488686d2db7fc84c8924b166920c15a7', version='v0.2.5'} 	https://github.com/tminglei/slick-pg/commit/c42f4250488686d2db7fc84c8924b166920c15a7
+CommitInfo{repo='GitHub', hash='5e0ad627657fe89a4852a0996cd974cbaf54c273', version='v0.2.6'} 	https://github.com/tminglei/slick-pg/commit/5e0ad627657fe89a4852a0996cd974cbaf54c273
+CommitInfo{repo='GitHub', hash='45b1c6b810f0ea5f176564ca8ae0e5b773194c1b', version='v0.2.7'} 	https://github.com/tminglei/slick-pg/commit/45b1c6b810f0ea5f176564ca8ae0e5b773194c1b
+CommitInfo{repo='GitHub', hash='91d8f3600d519d2c77e926259b2dfae8f44fcb1d', version='v0.2.7.1'} 	https://github.com/tminglei/slick-pg/commit/91d8f3600d519d2c77e926259b2dfae8f44fcb1d
+CommitInfo{repo='GitHub', hash='97c2ef28b92d78e915d6225123ecc0420642a90e', version='v0.5.0'} 	https://github.com/tminglei/slick-pg/commit/97c2ef28b92d78e915d6225123ecc0420642a90e
+CommitInfo{repo='GitHub', hash='ee3aeb25de605f96635aef03eccc43863733a501', version='v0.5.0-beta'} 	https://github.com/tminglei/slick-pg/commit/ee3aeb25de605f96635aef03eccc43863733a501
+CommitInfo{repo='GitHub', hash='bb84e80c21618d76291652da14e82921a0012244', version='v0.5.1'} 	https://github.com/tminglei/slick-pg/commit/bb84e80c21618d76291652da14e82921a0012244
+CommitInfo{repo='GitHub', hash='7050dfadb3ee49fb7aaec0a9b3ccd69533bf28fa', version='v0.5.1.3'} 	https://github.com/tminglei/slick-pg/commit/7050dfadb3ee49fb7aaec0a9b3ccd69533bf28fa
+CommitInfo{repo='GitHub', hash='3d4ad5f6f3fa3a7029f9038bfb9c5f28acc3e7ab', version='v0.5.2'} 	https://github.com/tminglei/slick-pg/commit/3d4ad5f6f3fa3a7029f9038bfb9c5f28acc3e7ab
+CommitInfo{repo='GitHub', hash='bac1252df211f7a52fcb8306db2103699b698f99', version='v0.5.2.3'} 	https://github.com/tminglei/slick-pg/commit/bac1252df211f7a52fcb8306db2103699b698f99
+CommitInfo{repo='GitHub', hash='902a80a0c43401b290180a62330c5a803d0840b3', version='v0.5.3'} 	https://github.com/tminglei/slick-pg/commit/902a80a0c43401b290180a62330c5a803d0840b3
+CommitInfo{repo='GitHub', hash='5677bf3d56064251277c4e8cab41b60f7794e1f3', version='v0.6.0'} 	https://github.com/tminglei/slick-pg/commit/5677bf3d56064251277c4e8cab41b60f7794e1f3
+CommitInfo{repo='GitHub', hash='f97ef2b0044cb18754824e29ba349db8b36b24f3', version='v0.6.0-M1'} 	https://github.com/tminglei/slick-pg/commit/f97ef2b0044cb18754824e29ba349db8b36b24f3
+CommitInfo{repo='GitHub', hash='0d1f27b2819ece9edf2ee766e65737259126ec32', version='v0.6.0-M2'} 	https://github.com/tminglei/slick-pg/commit/0d1f27b2819ece9edf2ee766e65737259126ec32
+CommitInfo{repo='GitHub', hash='7d44021d9ffa251aca7fa48f7a98f4fcca817625', version='v0.6.1'} 	https://github.com/tminglei/slick-pg/commit/7d44021d9ffa251aca7fa48f7a98f4fcca817625
+CommitInfo{repo='GitHub', hash='b196d8ca7ff4db4cbf77e8c5bca03ea79148f0b5', version='v0.6.2'} 	https://github.com/tminglei/slick-pg/commit/b196d8ca7ff4db4cbf77e8c5bca03ea79148f0b5
+CommitInfo{repo='GitHub', hash='a8c50f17e1c3736d3adb8dedf8dd555ddf4c143e', version='v0.6.3'} 	https://github.com/tminglei/slick-pg/commit/a8c50f17e1c3736d3adb8dedf8dd555ddf4c143e
+CommitInfo{repo='GitHub', hash='d17536729dabf3fc53b93cad6f0847039ff3106e', version='v0.6.5'} 	https://github.com/tminglei/slick-pg/commit/d17536729dabf3fc53b93cad6f0847039ff3106e
+CommitInfo{repo='GitHub', hash='d6ac19baa97d3df50f28e2f483b6c0c642584079', version='v0.7.0'} 	https://github.com/tminglei/slick-pg/commit/d6ac19baa97d3df50f28e2f483b6c0c642584079
+CommitInfo{repo='GitHub', hash='9c7214db988fd22641f8a5ccf18714fd88b97bdf', version='v0.8.0'} 	https://github.com/tminglei/slick-pg/commit/9c7214db988fd22641f8a5ccf18714fd88b97bdf
+CommitInfo{repo='GitHub', hash='6607a839ef197c49d53fef290dc9d521befecb63', version='v0.8.1'} 	https://github.com/tminglei/slick-pg/commit/6607a839ef197c49d53fef290dc9d521befecb63
+CommitInfo{repo='GitHub', hash='678004ad4e1a867daca76e0583c59fdb47314268', version='v0.8.2'} 	https://github.com/tminglei/slick-pg/commit/678004ad4e1a867daca76e0583c59fdb47314268
+CommitInfo{repo='GitHub', hash='b3d268a5efbfed299588b7fce1a72e0243298a90', version='v0.8.3'} 	https://github.com/tminglei/slick-pg/commit/b3d268a5efbfed299588b7fce1a72e0243298a90
+CommitInfo{repo='GitHub', hash='6c129d0e2e5270afb1a7a1604a9139e9da45c66a', version='v0.8.4'} 	https://github.com/tminglei/slick-pg/commit/6c129d0e2e5270afb1a7a1604a9139e9da45c66a
+CommitInfo{repo='GitHub', hash='278a5778b6186fcc239b323da158dd78549787c6', version='v0.8.5'} 	https://github.com/tminglei/slick-pg/commit/278a5778b6186fcc239b323da158dd78549787c6
+CommitInfo{repo='GitHub', hash='25c3480a5e1362ac48818e945653502701af087b', version='v0.8.6'} 	https://github.com/tminglei/slick-pg/commit/25c3480a5e1362ac48818e945653502701af087b
+CommitInfo{repo='GitHub', hash='aadfc8b5f79c22978286cfd1d467868b38a36545', version='v0.9.0'} 	https://github.com/tminglei/slick-pg/commit/aadfc8b5f79c22978286cfd1d467868b38a36545
+CommitInfo{repo='GitHub', hash='4f83d6d456352203ff3d9cf9911d53cd97ea4e2a', version='v0.9.0-beta'} 	https://github.com/tminglei/slick-pg/commit/4f83d6d456352203ff3d9cf9911d53cd97ea4e2a
+CommitInfo{repo='GitHub', hash='44f41bdca2bf094ee3f9108c06c041aa3f196d46', version='v0.9.1'} 	https://github.com/tminglei/slick-pg/commit/44f41bdca2bf094ee3f9108c06c041aa3f196d46
+CommitInfo{repo='GitHub', hash='38a4fa99da3130b8a9e793b887a5f4ab7e9ecb80', version='v0.9.2'} 	https://github.com/tminglei/slick-pg/commit/38a4fa99da3130b8a9e793b887a5f4ab7e9ecb80
 
 Project A:
 ProjectVersionFixed(version=0.2.7.1, dependency=9.3-1100-jdbc41, time=2014-03-05 13:56:34 UTC),	Latest, "DependencyVersion(version=9.3-1101-jdbc41, time=2014-02-19 18:45:45 UTC)"

@@ -2,200 +2,205 @@
 Project information
 jspm (162950)	zoe (334523)	Package Manager: NPM
 RepoID: 110301
+Repo Owner/Name: jspm/jspm-cli
+Repository type: GitHub
+
+ https://github.com/jspm/jspm-cli/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='ccea73d234e1166690f3cdb56b0464172c6b5b30', version='0.0.2'}
-CommitInfo{repo='GitHub', hash='b2333e2fd472a18f0f1796cf3369b44d1b989410', version='0.10.0'}
-CommitInfo{repo='GitHub', hash='1a11a1e6763a7be75bf89b0266355a782766c72c', version='0.10.1'}
-CommitInfo{repo='GitHub', hash='515fa777a794b497e3d744672136ab9c7277b130', version='0.10.2'}
-CommitInfo{repo='GitHub', hash='242677c814c89e8720238e977cc43040d5c6dc24', version='0.10.3'}
-CommitInfo{repo='GitHub', hash='b016e14fabe7a0376b33598d03029794864baa28', version='0.10.4'}
-CommitInfo{repo='GitHub', hash='0c3659b477ef3a939da82bb68760c1c39867ad76', version='0.10.5'}
-CommitInfo{repo='GitHub', hash='17742004c058e331f2c2dee88886c62820230f30', version='0.10.6'}
-CommitInfo{repo='GitHub', hash='ac071f28dda3f7b0d5111387bdcdc0a767ef4c92', version='0.11.0'}
-CommitInfo{repo='GitHub', hash='a9336140efa28a473c9bce97d1c5b88e4b5c2392', version='0.11.1'}
-CommitInfo{repo='GitHub', hash='7550f899eaaf21b1a7b261eababffd4c1f492fb3', version='0.11.2'}
-CommitInfo{repo='GitHub', hash='4642250e7fb52f07c6bf654109782f4b6070af88', version='0.11.3'}
-CommitInfo{repo='GitHub', hash='6dc5db4ccc3ef7d434445b708a853a578b53907a', version='0.11.4'}
-CommitInfo{repo='GitHub', hash='bfe90009f5a9f6a6bc156f961a1b21aac4debb6c', version='0.11.5'}
-CommitInfo{repo='GitHub', hash='e3922636381cbbb00b5a3562f203b98e17001ac5', version='0.11.6'}
-CommitInfo{repo='GitHub', hash='162164ba8970fd943ffb9a8a58c7de201aee6d65', version='0.12.0'}
-CommitInfo{repo='GitHub', hash='1075b8a0b42ceda55c3b89e2887e761758bbe142', version='0.13.0'}
-CommitInfo{repo='GitHub', hash='686350e7e8a9fd58997af2e353e523acd5e1d1d1', version='0.13.1'}
-CommitInfo{repo='GitHub', hash='cc0d236f2ff081fe591b1518da401ae25f66db97', version='0.13.2'}
-CommitInfo{repo='GitHub', hash='8ea966dc5a8d617195040bb4b4bf4d35119744cf', version='0.13.3'}
-CommitInfo{repo='GitHub', hash='251c612e411a7306ebc3c3dadcd6a48c8e6748e7', version='0.13.4'}
-CommitInfo{repo='GitHub', hash='5fddc3446e6cfbaa416040203e574bb946a23c3b', version='0.14.0'}
-CommitInfo{repo='GitHub', hash='7e839b14f5d5ef811fca4717ba1690211778190a', version='0.15.0'}
-CommitInfo{repo='GitHub', hash='b0d84d3d9fbdbb49454be0cdf2561d05f0a89e6d', version='0.15.0-beta'}
-CommitInfo{repo='GitHub', hash='df8658c6824961a3ba584dad8506150b297a118f', version='0.15.1'}
-CommitInfo{repo='GitHub', hash='253ab150e0afa5c10cb2c7f385b838ae1c5fdec3', version='0.15.2'}
-CommitInfo{repo='GitHub', hash='5075fd4ebe1387e651f13a48c8a9bd8753519f2f', version='0.15.3'}
-CommitInfo{repo='GitHub', hash='f816fe1182663bd02a3edae519ee8a40102c2753', version='0.15.4'}
-CommitInfo{repo='GitHub', hash='480303aa41af6c736f3b76ad39db64d71ea4229a', version='0.15.5'}
-CommitInfo{repo='GitHub', hash='311bf28a72d279a35fe910ebefee3369d70e992d', version='0.15.6'}
-CommitInfo{repo='GitHub', hash='311bf28a72d279a35fe910ebefee3369d70e992d', version='0.15.7'}
-CommitInfo{repo='GitHub', hash='9c26e2f5d2c91e5a755083308a38df40e120e3dd', version='0.16.0'}
-CommitInfo{repo='GitHub', hash='68a427e8bd0a9f2643789c85ae93de6be666728d', version='0.16.0-beta'}
-CommitInfo{repo='GitHub', hash='8fa4f9768c8e1b2930a6c9037d936ff561e402e2', version='0.16.0-beta.2'}
-CommitInfo{repo='GitHub', hash='b454d33c8a53bfd871f9c03c9a47122a0719016f', version='0.16.0-beta.3'}
-CommitInfo{repo='GitHub', hash='6dc438c4b567670462b721e67c0eb55b6788c3da', version='0.16.0-beta.4'}
-CommitInfo{repo='GitHub', hash='43aa1dac453b7163a152a1982dfbbd0d62b34278', version='0.16.0-beta.5'}
-CommitInfo{repo='GitHub', hash='d15ed8e313daef08fb3a8ea1c8081124542729ea', version='0.16.0-beta.6'}
-CommitInfo{repo='GitHub', hash='b2bed3fd1b1af19b9341a6c3f3bdc78543dbc2e9', version='0.16.0-beta.7'}
-CommitInfo{repo='GitHub', hash='8f8672170ed26fb82dc2f278b86cafaeaba129bc', version='0.16.1'}
-CommitInfo{repo='GitHub', hash='a924c1c16d10238328d20e6e158ffaf97114defb', version='0.16.10'}
-CommitInfo{repo='GitHub', hash='0a4f41da492f87492992adf2b3636b4b2aee8802', version='0.16.11'}
-CommitInfo{repo='GitHub', hash='489b6e00bc0a17aae5e8c6ec1eed6d757e4686c7', version='0.16.12'}
-CommitInfo{repo='GitHub', hash='c458ad362672cf53c93996051bd08e0d23ec7c87', version='0.16.13'}
-CommitInfo{repo='GitHub', hash='e5e9f2712171bbd7437f852b34cbd8f7d8c95705', version='0.16.14'}
-CommitInfo{repo='GitHub', hash='a1bd44e711846de0ac25e1ce4082b023750b8d34', version='0.16.15'}
-CommitInfo{repo='GitHub', hash='7435956eeb43f380518f1fce490ff0dafd250546', version='0.16.16'}
-CommitInfo{repo='GitHub', hash='f06c27d6df0a6837f09c150e62be411fd607aa24', version='0.16.17'}
-CommitInfo{repo='GitHub', hash='d5c36cdf607c1324130c0ed0a6cd530329e22a74', version='0.16.18'}
-CommitInfo{repo='GitHub', hash='d1632d805499623032f78ab688bc39b2c62b28e1', version='0.16.19'}
-CommitInfo{repo='GitHub', hash='2a01814c3660fd1bc91f3ccd3d6573273e00b640', version='0.16.2'}
-CommitInfo{repo='GitHub', hash='3cd866d1681e987706668753e8924517d57ef8f1', version='0.16.20'}
-CommitInfo{repo='GitHub', hash='698dbcae24983a59934e6906c6e56d87138f45f8', version='0.16.21'}
-CommitInfo{repo='GitHub', hash='7cd0d2b4e834ce7115a709882ae4c1b07b0c635a', version='0.16.22'}
-CommitInfo{repo='GitHub', hash='07cd319bd4ffb46d68af47c681cfd0826421c2a7', version='0.16.23'}
-CommitInfo{repo='GitHub', hash='0363242eb62f67bfe0c7db9bd551e90592557418', version='0.16.24'}
-CommitInfo{repo='GitHub', hash='7cc1b8e0d80c553abf62b3166bc593665dc8bf00', version='0.16.25'}
-CommitInfo{repo='GitHub', hash='40180d3ecbbb3c6732c82e5c549649588fe26214', version='0.16.26'}
-CommitInfo{repo='GitHub', hash='a66288e3c19e1e650a9e675d02fb9f20db6f4f22', version='0.16.27'}
-CommitInfo{repo='GitHub', hash='f82fbd7698b0fda7d0c1098385f6044785ec34e4', version='0.16.28'}
-CommitInfo{repo='GitHub', hash='bfefb2e45f7394e32b7a1468c95147adec24c5bd', version='0.16.29'}
-CommitInfo{repo='GitHub', hash='10c0b0fd0445b42d34e538580dd80064847e5c6d', version='0.16.3'}
-CommitInfo{repo='GitHub', hash='642b65bb4b08cf751aeb4ee173fcc5fcdbecdbcd', version='0.16.30'}
-CommitInfo{repo='GitHub', hash='1e75d3afff3ee8278ab364dc021848741bf347ce', version='0.16.31'}
-CommitInfo{repo='GitHub', hash='b2eec3cdbc573317aeb01703b730f6b4d32da38e', version='0.16.32'}
-CommitInfo{repo='GitHub', hash='94099a5baf4222a8753907f9581bcdbde69a2474', version='0.16.33'}
-CommitInfo{repo='GitHub', hash='0518473e6eb605f19ac2626653e16919954e6fac', version='0.16.34'}
-CommitInfo{repo='GitHub', hash='55bdd5cf12f3a8f741b483ab4ed1be44692bd2f1', version='0.16.35'}
-CommitInfo{repo='GitHub', hash='8b132bc4892cbff892a09954c236482cc0d9d59b', version='0.16.36'}
-CommitInfo{repo='GitHub', hash='43c650e50f6ce2b09cf4d1b52591fb29248b821a', version='0.16.37'}
-CommitInfo{repo='GitHub', hash='9784e8173a42409590e3fe6e37a88589ac548559', version='0.16.38'}
-CommitInfo{repo='GitHub', hash='30d5d4ba8e84086c97eb631794acedd9a91089f4', version='0.16.39'}
-CommitInfo{repo='GitHub', hash='52de28dc4333c0799911f69d92cd048c9ae9df73', version='0.16.4'}
-CommitInfo{repo='GitHub', hash='7fd70659b719ae57e53c4635280d7cd6a77954e6', version='0.16.40'}
-CommitInfo{repo='GitHub', hash='0355d6f3b206f7c4d0c47d88cb1bbc6f3f6a7443', version='0.16.41'}
-CommitInfo{repo='GitHub', hash='e3b9c6c94e2c686c170e11e2d5243c1fa8f4eb8c', version='0.16.42'}
-CommitInfo{repo='GitHub', hash='c98b4ea64c954dae939504376b15939e7d877e20', version='0.16.43'}
-CommitInfo{repo='GitHub', hash='8337a7fcbb0aa0da8ab78bd1db40b35d113eed34', version='0.16.44'}
-CommitInfo{repo='GitHub', hash='5963d0e7929d5d277f670af64f03ed75743ecc9d', version='0.16.45'}
-CommitInfo{repo='GitHub', hash='8dfc02d05a52364ffe78cabd085eb46452ec4edf', version='0.16.46'}
-CommitInfo{repo='GitHub', hash='84c59b33b6579a07df88d3080b32a0e646effdf4', version='0.16.47'}
-CommitInfo{repo='GitHub', hash='3a1f6066711dc572e6713caf12a1caa465216092', version='0.16.48'}
-CommitInfo{repo='GitHub', hash='909d4a28861ee306375c3c009e83b97e66d845f7', version='0.16.49'}
-CommitInfo{repo='GitHub', hash='4397432c3e2b9fa7e498901667cb5704039ef1f9', version='0.16.5'}
-CommitInfo{repo='GitHub', hash='a4b12a5f7714c8e79fea9faa2ecadbbd24cbf2cc', version='0.16.50'}
-CommitInfo{repo='GitHub', hash='c34868a1c5293eb803b2086bc1b15a73409ce415', version='0.16.51'}
-CommitInfo{repo='GitHub', hash='8ad08fbdb7b78106a747b29498b23c5bde174e32', version='0.16.52'}
-CommitInfo{repo='GitHub', hash='4e014a499e17eb812770911f27dbc561a7789e42', version='0.16.53'}
-CommitInfo{repo='GitHub', hash='3e7ec881b4bcfeb46388f9218e5612b0f2203832', version='0.16.6'}
-CommitInfo{repo='GitHub', hash='bdc774f96c737eccb3f85641438d51dbcc061bb5', version='0.16.7'}
-CommitInfo{repo='GitHub', hash='d378fa136d11929f9b2b0436e076a07f33dee959', version='0.16.8'}
-CommitInfo{repo='GitHub', hash='267064467da577e4655497f3ece10602fe82e356', version='0.16.9'}
-CommitInfo{repo='GitHub', hash='989bb41c30d128c784cc20df35f81df802b209b4', version='0.17.0-beta'}
-CommitInfo{repo='GitHub', hash='fae2df39472a0652899c6535ea106ab042a263fb', version='0.17.0-beta.10'}
-CommitInfo{repo='GitHub', hash='899465b50aec35bd66598b0e5a5226154ac2c6d1', version='0.17.0-beta.11'}
-CommitInfo{repo='GitHub', hash='836cbe29e9ce32dc6ae144ce3b66d015c2019d77', version='0.17.0-beta.12'}
-CommitInfo{repo='GitHub', hash='bbdc779921e3dda098b05b0e1c924b64997978c2', version='0.17.0-beta.13'}
-CommitInfo{repo='GitHub', hash='2b996988d860515b4c86512e13fa60b60fbb2881', version='0.17.0-beta.14'}
-CommitInfo{repo='GitHub', hash='cdcc61dc937899f82206d0a352eb58742dfaed5e', version='0.17.0-beta.15'}
-CommitInfo{repo='GitHub', hash='fc3df944680e0f43888107ef9f6d45ef9ea9a16c', version='0.17.0-beta.16'}
-CommitInfo{repo='GitHub', hash='2f2ac2648491f57b12930ffef38577ae92808480', version='0.17.0-beta.17'}
-CommitInfo{repo='GitHub', hash='8076f13cdf1c0dc966d618d99f7e10f59a52ab2e', version='0.17.0-beta.18'}
-CommitInfo{repo='GitHub', hash='c81972e672b62c839a88c17642a7027a1ab2668c', version='0.17.0-beta.19'}
-CommitInfo{repo='GitHub', hash='38ce6f714577eac99a14c58fd5d08727354edcc3', version='0.17.0-beta.20'}
-CommitInfo{repo='GitHub', hash='93d68a7ed833c75a61667d56ac43450b07bea266', version='0.17.0-beta.21'}
-CommitInfo{repo='GitHub', hash='b6203cad3c90b5efa7236662ff35648264e36bbb', version='0.17.0-beta.22'}
-CommitInfo{repo='GitHub', hash='ddd478fbbe42ca68c31fed6a2de09d640c0f1ea8', version='0.17.0-beta.23'}
-CommitInfo{repo='GitHub', hash='5739594572f9f6eb410eeba9207f22043b9c7474', version='0.17.0-beta.24'}
-CommitInfo{repo='GitHub', hash='01d7bcf7235a3aa7e43a84acfd06ef363c77fd31', version='0.17.0-beta.25'}
-CommitInfo{repo='GitHub', hash='41e03924a1c0bcd11120bdea383b36dca0e21ea0', version='0.17.0-beta.26'}
-CommitInfo{repo='GitHub', hash='a7d20326e0622cb36b10cbb5c61af377b52d5119', version='0.17.0-beta.27'}
-CommitInfo{repo='GitHub', hash='b4b61089c64e4ef797a8c5ce33e50df220ffbeb2', version='0.17.0-beta.28'}
-CommitInfo{repo='GitHub', hash='656b6846382c8d6d5c899a72c5aaf1d155313ac6', version='0.17.0-beta.29'}
-CommitInfo{repo='GitHub', hash='4df515f7a9f2be0f6f9531707ac9c7d0159c524d', version='0.17.0-beta.3'}
-CommitInfo{repo='GitHub', hash='6a6878be88d06a5b6ab7a92824b60c36b619ff89', version='0.17.0-beta.30'}
-CommitInfo{repo='GitHub', hash='db0834ce73e4f57719f5fc45be4be98741bfa9d2', version='0.17.0-beta.31'}
-CommitInfo{repo='GitHub', hash='077cefd42dbf70f07d05c274f890298eb650b365', version='0.17.0-beta.32'}
-CommitInfo{repo='GitHub', hash='adff9dd600a59d5cbab1d669509f4662f2b95289', version='0.17.0-beta.33'}
-CommitInfo{repo='GitHub', hash='6c531f94277bc56a643a98703813788ad3b08131', version='0.17.0-beta.34'}
-CommitInfo{repo='GitHub', hash='73634798dcb42c392422a63fd2a5f6297da99b91', version='0.17.0-beta.35'}
-CommitInfo{repo='GitHub', hash='dff9c25444ad909572e9bcebebb1cfd89715bdb7', version='0.17.0-beta.36'}
-CommitInfo{repo='GitHub', hash='0699b91db0754bddc0a07ad6b7640edf2f5109fd', version='0.17.0-beta.37'}
-CommitInfo{repo='GitHub', hash='197922ae08afcafad2cea959003ec63b4364f2ea', version='0.17.0-beta.38'}
-CommitInfo{repo='GitHub', hash='df9e43bedde514022c71601b60f022c56121107b', version='0.17.0-beta.39'}
-CommitInfo{repo='GitHub', hash='ba7b23753a20484e91ea12290a81785710e1538e', version='0.17.0-beta.4'}
-CommitInfo{repo='GitHub', hash='6a8fd63cb12e2e2de6ffc93b0cabb89ff5885c50', version='0.17.0-beta.40'}
-CommitInfo{repo='GitHub', hash='24f5d1e9662f454fe13c5b5a0dbe3908319ef176', version='0.17.0-beta.41'}
-CommitInfo{repo='GitHub', hash='033a41f5b1c8509d86a131bf403afb0cdf4904bd', version='0.17.0-beta.42'}
-CommitInfo{repo='GitHub', hash='d9f09542a672fc5395f3fed8de2b91cc19242157', version='0.17.0-beta.43'}
-CommitInfo{repo='GitHub', hash='b966e7dbaccc55cca2d8cf76ca8f0e73319431da', version='0.17.0-beta.44'}
-CommitInfo{repo='GitHub', hash='2e30ad135cdec9641418b064c118d551e197bb97', version='0.17.0-beta.45'}
-CommitInfo{repo='GitHub', hash='dfe9461da411c63c8ab180df5dcbf1f88d0a7f90', version='0.17.0-beta.46'}
-CommitInfo{repo='GitHub', hash='fff3895ca034b78a0ef8f491ceebfefcc13e83cd', version='0.17.0-beta.47'}
-CommitInfo{repo='GitHub', hash='35a51b4d70244fb513951a2fab1d35d39f19b2af', version='0.17.0-beta.48'}
-CommitInfo{repo='GitHub', hash='59f561815b4c5acdbdc4ac908bad4d861a14e365', version='0.17.0-beta.49'}
-CommitInfo{repo='GitHub', hash='8cc8e2acf1a516e73f438d240c4effb35e64a1d1', version='0.17.0-beta.5'}
-CommitInfo{repo='GitHub', hash='9fbddea2f88031d6f6f3ff35a4e4187c3b5e7708', version='0.17.0-beta.6'}
-CommitInfo{repo='GitHub', hash='8f1bb17bb3f723b42882c12f56f4f16920ae1b08', version='0.17.0-beta.7'}
-CommitInfo{repo='GitHub', hash='d1fce80ba79b35d19c92efa784209892bb209d31', version='0.17.0-beta.8'}
-CommitInfo{repo='GitHub', hash='41361e582836768267fab3433429256ff729da62', version='0.17.0-beta.9'}
-CommitInfo{repo='GitHub', hash='18af058f73530aaed8e5edccf4cd422624be3ec5', version='0.2.4'}
-CommitInfo{repo='GitHub', hash='8ae801e7f81fa3c39327293b90825b3c45286231', version='0.3.0'}
-CommitInfo{repo='GitHub', hash='efed7ea05bdd9620233cbbc50683285583a181f2', version='0.3.1'}
-CommitInfo{repo='GitHub', hash='ec7c108e27b16db06dfea1ca508f10fc285500fb', version='0.3.10'}
-CommitInfo{repo='GitHub', hash='d5deb54f94062926e2848f118ee15ce60636b8b1', version='0.3.2'}
-CommitInfo{repo='GitHub', hash='05123d805f88fdce32dc6c85558a0da27a218fb9', version='0.3.3'}
-CommitInfo{repo='GitHub', hash='5fa0c15f2d11df73bb8ead5d2379b5bfe82d82e2', version='0.3.4'}
-CommitInfo{repo='GitHub', hash='6ed8aa96aede3b6fd378933cfa6cad14ae53f38a', version='0.3.5'}
-CommitInfo{repo='GitHub', hash='2991d84dce697a01ecf7948963645926ee4c3006', version='0.3.6'}
-CommitInfo{repo='GitHub', hash='8e8469809868b9f856157ef588c4bd0cd3b180d2', version='0.3.7'}
-CommitInfo{repo='GitHub', hash='2ee763ae4388d8b5bda420d117a819259a005efe', version='0.3.8'}
-CommitInfo{repo='GitHub', hash='2c047994704ba4974f27f9c90c467907c4d80cb5', version='0.3.9'}
-CommitInfo{repo='GitHub', hash='8bf078a96ce8f432764ac862eb559a4782c322ea', version='0.4.0'}
-CommitInfo{repo='GitHub', hash='d437e49a8415c6ec9110fd12346d4c8f95666574', version='0.4.1'}
-CommitInfo{repo='GitHub', hash='a433a58b7312ff614615d78ae0e9954dceda5ebc', version='0.4.2'}
-CommitInfo{repo='GitHub', hash='0e65ed93d9efc9c4610781d19f0eb142670a7146', version='0.4.3'}
-CommitInfo{repo='GitHub', hash='4a3134ea516c42aa49fac305591fd2a517310eb8', version='0.47.0-beta.48'}
-CommitInfo{repo='GitHub', hash='ac61d6fa05f2d7de69963d7578d20cc23cec05e2', version='0.5.0'}
-CommitInfo{repo='GitHub', hash='c9be8fbcc8e6af606a75a8837937841468e55b94', version='0.5.1'}
-CommitInfo{repo='GitHub', hash='2347f916d44355009b525eb7dae29f421d0ebae5', version='0.5.10'}
-CommitInfo{repo='GitHub', hash='630492d8886eed479a4ca5ca8caf06fb00285da2', version='0.5.11'}
-CommitInfo{repo='GitHub', hash='9351f1a36a1314a49b6a4f2ccc08e2b9da162c5e', version='0.5.13'}
-CommitInfo{repo='GitHub', hash='199b7ec19625271d9798639870324bb48a893510', version='0.5.3'}
-CommitInfo{repo='GitHub', hash='0067dfce9e6fe6c777361275da03f4e3fc1b2c1f', version='0.5.4'}
-CommitInfo{repo='GitHub', hash='5de1ce7cfef4a85237fcfe24d6496d04e85f74d2', version='0.5.5'}
-CommitInfo{repo='GitHub', hash='cb73428fe6988c49c95925e7c740d68926ce643c', version='0.6.0'}
-CommitInfo{repo='GitHub', hash='8cd4ee4052ae01be80177e7954c6544e1d0439d5', version='0.6.1'}
-CommitInfo{repo='GitHub', hash='2f03ab77eaf00e4978d8314748bb10c2e6300f4a', version='0.6.10'}
-CommitInfo{repo='GitHub', hash='ba73e7fdc80723cc5d6ea974dea112b7eed41620', version='0.6.11'}
-CommitInfo{repo='GitHub', hash='ff96001b12b988727e3481dcabdcc493aae4acf3', version='0.6.12'}
-CommitInfo{repo='GitHub', hash='27b54bacb21fa4d1e1826c023b648fd38db0daea', version='0.6.6'}
-CommitInfo{repo='GitHub', hash='1305978e5d7ac6698eed4d3553ead8aff00c2bbc', version='0.6.7'}
-CommitInfo{repo='GitHub', hash='a4d5678d96aeb6c4c6e7963f733b12e3c90b03ce', version='0.6.8'}
-CommitInfo{repo='GitHub', hash='1fe9284b877ea64c3e27493ba1771259ef2f7dd6', version='0.6.9'}
-CommitInfo{repo='GitHub', hash='5e288a4949b437ba259311e1ca24a49ebb842dc7', version='0.7.0'}
-CommitInfo{repo='GitHub', hash='40fd8327a07025f3df4c2866b4d9f103940f30e5', version='0.7.0-beta.1'}
-CommitInfo{repo='GitHub', hash='8b346b51b8fce4680b92c38dbd484c0036e2457f', version='0.7.0-beta.2'}
-CommitInfo{repo='GitHub', hash='2ede8cc2ed5854e7e05ac39f1bac0df34d7fc0b4', version='0.7.0-beta.3'}
-CommitInfo{repo='GitHub', hash='12ef5aa4a553f78f7f5795ce9852e2652fd28e8a', version='0.7.0-beta.5'}
-CommitInfo{repo='GitHub', hash='4fc2e93eafe5221d87143039b7f8548d781e0bf4', version='0.7.1'}
-CommitInfo{repo='GitHub', hash='06d77b3ea477f953fce05449918dfe9876c8a296', version='0.8.0'}
-CommitInfo{repo='GitHub', hash='046dc1df767be38d1442cc543b610285581e86d2', version='0.8.0-beta.1'}
-CommitInfo{repo='GitHub', hash='f40d50cc957446efef4f1aa8068113d4ae8bb736', version='0.8.0-beta.2'}
-CommitInfo{repo='GitHub', hash='53a88b0e8868de77b3eb75f335ae45b0113aee74', version='0.8.0-beta.3'}
-CommitInfo{repo='GitHub', hash='9fef2d948b37e7ee7546fc008bf66ddd0965a7b3', version='0.8.0-beta.4'}
-CommitInfo{repo='GitHub', hash='d158df42ca82eb1df13644e0978f013b0077c46c', version='0.8.1'}
-CommitInfo{repo='GitHub', hash='97491328dd1f9aa385064c33ac626cace555f9fb', version='0.8.2'}
-CommitInfo{repo='GitHub', hash='d812f6f9bb82c580ead5133dcf488ad769203c0e', version='0.8.3'}
-CommitInfo{repo='GitHub', hash='adad259447d09ed67d6ca87331414b19bdff74c8', version='0.8.4'}
-CommitInfo{repo='GitHub', hash='f8b4fb0a9c05b1f5f26d5fa9e02091be8bb63416', version='0.8.5'}
-CommitInfo{repo='GitHub', hash='58d66c9d299aceb094b3e60e7a42dc88cdaee621', version='0.8.6'}
-CommitInfo{repo='GitHub', hash='5ce4298e134a5130aa08f5b8f3854cfdeb58711e', version='0.9.0'}
-CommitInfo{repo='GitHub', hash='3d54574c3fb673a7bf915699f24d1ae125d18f1f', version='0.9.0-beta.2'}
+CommitInfo{repo='GitHub', hash='ccea73d234e1166690f3cdb56b0464172c6b5b30', version='0.0.2'} 	https://github.com/jspm/jspm-cli/commit/ccea73d234e1166690f3cdb56b0464172c6b5b30
+CommitInfo{repo='GitHub', hash='b2333e2fd472a18f0f1796cf3369b44d1b989410', version='0.10.0'} 	https://github.com/jspm/jspm-cli/commit/b2333e2fd472a18f0f1796cf3369b44d1b989410
+CommitInfo{repo='GitHub', hash='1a11a1e6763a7be75bf89b0266355a782766c72c', version='0.10.1'} 	https://github.com/jspm/jspm-cli/commit/1a11a1e6763a7be75bf89b0266355a782766c72c
+CommitInfo{repo='GitHub', hash='515fa777a794b497e3d744672136ab9c7277b130', version='0.10.2'} 	https://github.com/jspm/jspm-cli/commit/515fa777a794b497e3d744672136ab9c7277b130
+CommitInfo{repo='GitHub', hash='242677c814c89e8720238e977cc43040d5c6dc24', version='0.10.3'} 	https://github.com/jspm/jspm-cli/commit/242677c814c89e8720238e977cc43040d5c6dc24
+CommitInfo{repo='GitHub', hash='b016e14fabe7a0376b33598d03029794864baa28', version='0.10.4'} 	https://github.com/jspm/jspm-cli/commit/b016e14fabe7a0376b33598d03029794864baa28
+CommitInfo{repo='GitHub', hash='0c3659b477ef3a939da82bb68760c1c39867ad76', version='0.10.5'} 	https://github.com/jspm/jspm-cli/commit/0c3659b477ef3a939da82bb68760c1c39867ad76
+CommitInfo{repo='GitHub', hash='17742004c058e331f2c2dee88886c62820230f30', version='0.10.6'} 	https://github.com/jspm/jspm-cli/commit/17742004c058e331f2c2dee88886c62820230f30
+CommitInfo{repo='GitHub', hash='ac071f28dda3f7b0d5111387bdcdc0a767ef4c92', version='0.11.0'} 	https://github.com/jspm/jspm-cli/commit/ac071f28dda3f7b0d5111387bdcdc0a767ef4c92
+CommitInfo{repo='GitHub', hash='a9336140efa28a473c9bce97d1c5b88e4b5c2392', version='0.11.1'} 	https://github.com/jspm/jspm-cli/commit/a9336140efa28a473c9bce97d1c5b88e4b5c2392
+CommitInfo{repo='GitHub', hash='7550f899eaaf21b1a7b261eababffd4c1f492fb3', version='0.11.2'} 	https://github.com/jspm/jspm-cli/commit/7550f899eaaf21b1a7b261eababffd4c1f492fb3
+CommitInfo{repo='GitHub', hash='4642250e7fb52f07c6bf654109782f4b6070af88', version='0.11.3'} 	https://github.com/jspm/jspm-cli/commit/4642250e7fb52f07c6bf654109782f4b6070af88
+CommitInfo{repo='GitHub', hash='6dc5db4ccc3ef7d434445b708a853a578b53907a', version='0.11.4'} 	https://github.com/jspm/jspm-cli/commit/6dc5db4ccc3ef7d434445b708a853a578b53907a
+CommitInfo{repo='GitHub', hash='bfe90009f5a9f6a6bc156f961a1b21aac4debb6c', version='0.11.5'} 	https://github.com/jspm/jspm-cli/commit/bfe90009f5a9f6a6bc156f961a1b21aac4debb6c
+CommitInfo{repo='GitHub', hash='e3922636381cbbb00b5a3562f203b98e17001ac5', version='0.11.6'} 	https://github.com/jspm/jspm-cli/commit/e3922636381cbbb00b5a3562f203b98e17001ac5
+CommitInfo{repo='GitHub', hash='162164ba8970fd943ffb9a8a58c7de201aee6d65', version='0.12.0'} 	https://github.com/jspm/jspm-cli/commit/162164ba8970fd943ffb9a8a58c7de201aee6d65
+CommitInfo{repo='GitHub', hash='1075b8a0b42ceda55c3b89e2887e761758bbe142', version='0.13.0'} 	https://github.com/jspm/jspm-cli/commit/1075b8a0b42ceda55c3b89e2887e761758bbe142
+CommitInfo{repo='GitHub', hash='686350e7e8a9fd58997af2e353e523acd5e1d1d1', version='0.13.1'} 	https://github.com/jspm/jspm-cli/commit/686350e7e8a9fd58997af2e353e523acd5e1d1d1
+CommitInfo{repo='GitHub', hash='cc0d236f2ff081fe591b1518da401ae25f66db97', version='0.13.2'} 	https://github.com/jspm/jspm-cli/commit/cc0d236f2ff081fe591b1518da401ae25f66db97
+CommitInfo{repo='GitHub', hash='8ea966dc5a8d617195040bb4b4bf4d35119744cf', version='0.13.3'} 	https://github.com/jspm/jspm-cli/commit/8ea966dc5a8d617195040bb4b4bf4d35119744cf
+CommitInfo{repo='GitHub', hash='251c612e411a7306ebc3c3dadcd6a48c8e6748e7', version='0.13.4'} 	https://github.com/jspm/jspm-cli/commit/251c612e411a7306ebc3c3dadcd6a48c8e6748e7
+CommitInfo{repo='GitHub', hash='5fddc3446e6cfbaa416040203e574bb946a23c3b', version='0.14.0'} 	https://github.com/jspm/jspm-cli/commit/5fddc3446e6cfbaa416040203e574bb946a23c3b
+CommitInfo{repo='GitHub', hash='7e839b14f5d5ef811fca4717ba1690211778190a', version='0.15.0'} 	https://github.com/jspm/jspm-cli/commit/7e839b14f5d5ef811fca4717ba1690211778190a
+CommitInfo{repo='GitHub', hash='b0d84d3d9fbdbb49454be0cdf2561d05f0a89e6d', version='0.15.0-beta'} 	https://github.com/jspm/jspm-cli/commit/b0d84d3d9fbdbb49454be0cdf2561d05f0a89e6d
+CommitInfo{repo='GitHub', hash='df8658c6824961a3ba584dad8506150b297a118f', version='0.15.1'} 	https://github.com/jspm/jspm-cli/commit/df8658c6824961a3ba584dad8506150b297a118f
+CommitInfo{repo='GitHub', hash='253ab150e0afa5c10cb2c7f385b838ae1c5fdec3', version='0.15.2'} 	https://github.com/jspm/jspm-cli/commit/253ab150e0afa5c10cb2c7f385b838ae1c5fdec3
+CommitInfo{repo='GitHub', hash='5075fd4ebe1387e651f13a48c8a9bd8753519f2f', version='0.15.3'} 	https://github.com/jspm/jspm-cli/commit/5075fd4ebe1387e651f13a48c8a9bd8753519f2f
+CommitInfo{repo='GitHub', hash='f816fe1182663bd02a3edae519ee8a40102c2753', version='0.15.4'} 	https://github.com/jspm/jspm-cli/commit/f816fe1182663bd02a3edae519ee8a40102c2753
+CommitInfo{repo='GitHub', hash='480303aa41af6c736f3b76ad39db64d71ea4229a', version='0.15.5'} 	https://github.com/jspm/jspm-cli/commit/480303aa41af6c736f3b76ad39db64d71ea4229a
+CommitInfo{repo='GitHub', hash='311bf28a72d279a35fe910ebefee3369d70e992d', version='0.15.6'} 	https://github.com/jspm/jspm-cli/commit/311bf28a72d279a35fe910ebefee3369d70e992d
+CommitInfo{repo='GitHub', hash='311bf28a72d279a35fe910ebefee3369d70e992d', version='0.15.7'} 	https://github.com/jspm/jspm-cli/commit/311bf28a72d279a35fe910ebefee3369d70e992d
+CommitInfo{repo='GitHub', hash='9c26e2f5d2c91e5a755083308a38df40e120e3dd', version='0.16.0'} 	https://github.com/jspm/jspm-cli/commit/9c26e2f5d2c91e5a755083308a38df40e120e3dd
+CommitInfo{repo='GitHub', hash='68a427e8bd0a9f2643789c85ae93de6be666728d', version='0.16.0-beta'} 	https://github.com/jspm/jspm-cli/commit/68a427e8bd0a9f2643789c85ae93de6be666728d
+CommitInfo{repo='GitHub', hash='8fa4f9768c8e1b2930a6c9037d936ff561e402e2', version='0.16.0-beta.2'} 	https://github.com/jspm/jspm-cli/commit/8fa4f9768c8e1b2930a6c9037d936ff561e402e2
+CommitInfo{repo='GitHub', hash='b454d33c8a53bfd871f9c03c9a47122a0719016f', version='0.16.0-beta.3'} 	https://github.com/jspm/jspm-cli/commit/b454d33c8a53bfd871f9c03c9a47122a0719016f
+CommitInfo{repo='GitHub', hash='6dc438c4b567670462b721e67c0eb55b6788c3da', version='0.16.0-beta.4'} 	https://github.com/jspm/jspm-cli/commit/6dc438c4b567670462b721e67c0eb55b6788c3da
+CommitInfo{repo='GitHub', hash='43aa1dac453b7163a152a1982dfbbd0d62b34278', version='0.16.0-beta.5'} 	https://github.com/jspm/jspm-cli/commit/43aa1dac453b7163a152a1982dfbbd0d62b34278
+CommitInfo{repo='GitHub', hash='d15ed8e313daef08fb3a8ea1c8081124542729ea', version='0.16.0-beta.6'} 	https://github.com/jspm/jspm-cli/commit/d15ed8e313daef08fb3a8ea1c8081124542729ea
+CommitInfo{repo='GitHub', hash='b2bed3fd1b1af19b9341a6c3f3bdc78543dbc2e9', version='0.16.0-beta.7'} 	https://github.com/jspm/jspm-cli/commit/b2bed3fd1b1af19b9341a6c3f3bdc78543dbc2e9
+CommitInfo{repo='GitHub', hash='8f8672170ed26fb82dc2f278b86cafaeaba129bc', version='0.16.1'} 	https://github.com/jspm/jspm-cli/commit/8f8672170ed26fb82dc2f278b86cafaeaba129bc
+CommitInfo{repo='GitHub', hash='a924c1c16d10238328d20e6e158ffaf97114defb', version='0.16.10'} 	https://github.com/jspm/jspm-cli/commit/a924c1c16d10238328d20e6e158ffaf97114defb
+CommitInfo{repo='GitHub', hash='0a4f41da492f87492992adf2b3636b4b2aee8802', version='0.16.11'} 	https://github.com/jspm/jspm-cli/commit/0a4f41da492f87492992adf2b3636b4b2aee8802
+CommitInfo{repo='GitHub', hash='489b6e00bc0a17aae5e8c6ec1eed6d757e4686c7', version='0.16.12'} 	https://github.com/jspm/jspm-cli/commit/489b6e00bc0a17aae5e8c6ec1eed6d757e4686c7
+CommitInfo{repo='GitHub', hash='c458ad362672cf53c93996051bd08e0d23ec7c87', version='0.16.13'} 	https://github.com/jspm/jspm-cli/commit/c458ad362672cf53c93996051bd08e0d23ec7c87
+CommitInfo{repo='GitHub', hash='e5e9f2712171bbd7437f852b34cbd8f7d8c95705', version='0.16.14'} 	https://github.com/jspm/jspm-cli/commit/e5e9f2712171bbd7437f852b34cbd8f7d8c95705
+CommitInfo{repo='GitHub', hash='a1bd44e711846de0ac25e1ce4082b023750b8d34', version='0.16.15'} 	https://github.com/jspm/jspm-cli/commit/a1bd44e711846de0ac25e1ce4082b023750b8d34
+CommitInfo{repo='GitHub', hash='7435956eeb43f380518f1fce490ff0dafd250546', version='0.16.16'} 	https://github.com/jspm/jspm-cli/commit/7435956eeb43f380518f1fce490ff0dafd250546
+CommitInfo{repo='GitHub', hash='f06c27d6df0a6837f09c150e62be411fd607aa24', version='0.16.17'} 	https://github.com/jspm/jspm-cli/commit/f06c27d6df0a6837f09c150e62be411fd607aa24
+CommitInfo{repo='GitHub', hash='d5c36cdf607c1324130c0ed0a6cd530329e22a74', version='0.16.18'} 	https://github.com/jspm/jspm-cli/commit/d5c36cdf607c1324130c0ed0a6cd530329e22a74
+CommitInfo{repo='GitHub', hash='d1632d805499623032f78ab688bc39b2c62b28e1', version='0.16.19'} 	https://github.com/jspm/jspm-cli/commit/d1632d805499623032f78ab688bc39b2c62b28e1
+CommitInfo{repo='GitHub', hash='2a01814c3660fd1bc91f3ccd3d6573273e00b640', version='0.16.2'} 	https://github.com/jspm/jspm-cli/commit/2a01814c3660fd1bc91f3ccd3d6573273e00b640
+CommitInfo{repo='GitHub', hash='3cd866d1681e987706668753e8924517d57ef8f1', version='0.16.20'} 	https://github.com/jspm/jspm-cli/commit/3cd866d1681e987706668753e8924517d57ef8f1
+CommitInfo{repo='GitHub', hash='698dbcae24983a59934e6906c6e56d87138f45f8', version='0.16.21'} 	https://github.com/jspm/jspm-cli/commit/698dbcae24983a59934e6906c6e56d87138f45f8
+CommitInfo{repo='GitHub', hash='7cd0d2b4e834ce7115a709882ae4c1b07b0c635a', version='0.16.22'} 	https://github.com/jspm/jspm-cli/commit/7cd0d2b4e834ce7115a709882ae4c1b07b0c635a
+CommitInfo{repo='GitHub', hash='07cd319bd4ffb46d68af47c681cfd0826421c2a7', version='0.16.23'} 	https://github.com/jspm/jspm-cli/commit/07cd319bd4ffb46d68af47c681cfd0826421c2a7
+CommitInfo{repo='GitHub', hash='0363242eb62f67bfe0c7db9bd551e90592557418', version='0.16.24'} 	https://github.com/jspm/jspm-cli/commit/0363242eb62f67bfe0c7db9bd551e90592557418
+CommitInfo{repo='GitHub', hash='7cc1b8e0d80c553abf62b3166bc593665dc8bf00', version='0.16.25'} 	https://github.com/jspm/jspm-cli/commit/7cc1b8e0d80c553abf62b3166bc593665dc8bf00
+CommitInfo{repo='GitHub', hash='40180d3ecbbb3c6732c82e5c549649588fe26214', version='0.16.26'} 	https://github.com/jspm/jspm-cli/commit/40180d3ecbbb3c6732c82e5c549649588fe26214
+CommitInfo{repo='GitHub', hash='a66288e3c19e1e650a9e675d02fb9f20db6f4f22', version='0.16.27'} 	https://github.com/jspm/jspm-cli/commit/a66288e3c19e1e650a9e675d02fb9f20db6f4f22
+CommitInfo{repo='GitHub', hash='f82fbd7698b0fda7d0c1098385f6044785ec34e4', version='0.16.28'} 	https://github.com/jspm/jspm-cli/commit/f82fbd7698b0fda7d0c1098385f6044785ec34e4
+CommitInfo{repo='GitHub', hash='bfefb2e45f7394e32b7a1468c95147adec24c5bd', version='0.16.29'} 	https://github.com/jspm/jspm-cli/commit/bfefb2e45f7394e32b7a1468c95147adec24c5bd
+CommitInfo{repo='GitHub', hash='10c0b0fd0445b42d34e538580dd80064847e5c6d', version='0.16.3'} 	https://github.com/jspm/jspm-cli/commit/10c0b0fd0445b42d34e538580dd80064847e5c6d
+CommitInfo{repo='GitHub', hash='642b65bb4b08cf751aeb4ee173fcc5fcdbecdbcd', version='0.16.30'} 	https://github.com/jspm/jspm-cli/commit/642b65bb4b08cf751aeb4ee173fcc5fcdbecdbcd
+CommitInfo{repo='GitHub', hash='1e75d3afff3ee8278ab364dc021848741bf347ce', version='0.16.31'} 	https://github.com/jspm/jspm-cli/commit/1e75d3afff3ee8278ab364dc021848741bf347ce
+CommitInfo{repo='GitHub', hash='b2eec3cdbc573317aeb01703b730f6b4d32da38e', version='0.16.32'} 	https://github.com/jspm/jspm-cli/commit/b2eec3cdbc573317aeb01703b730f6b4d32da38e
+CommitInfo{repo='GitHub', hash='94099a5baf4222a8753907f9581bcdbde69a2474', version='0.16.33'} 	https://github.com/jspm/jspm-cli/commit/94099a5baf4222a8753907f9581bcdbde69a2474
+CommitInfo{repo='GitHub', hash='0518473e6eb605f19ac2626653e16919954e6fac', version='0.16.34'} 	https://github.com/jspm/jspm-cli/commit/0518473e6eb605f19ac2626653e16919954e6fac
+CommitInfo{repo='GitHub', hash='55bdd5cf12f3a8f741b483ab4ed1be44692bd2f1', version='0.16.35'} 	https://github.com/jspm/jspm-cli/commit/55bdd5cf12f3a8f741b483ab4ed1be44692bd2f1
+CommitInfo{repo='GitHub', hash='8b132bc4892cbff892a09954c236482cc0d9d59b', version='0.16.36'} 	https://github.com/jspm/jspm-cli/commit/8b132bc4892cbff892a09954c236482cc0d9d59b
+CommitInfo{repo='GitHub', hash='43c650e50f6ce2b09cf4d1b52591fb29248b821a', version='0.16.37'} 	https://github.com/jspm/jspm-cli/commit/43c650e50f6ce2b09cf4d1b52591fb29248b821a
+CommitInfo{repo='GitHub', hash='9784e8173a42409590e3fe6e37a88589ac548559', version='0.16.38'} 	https://github.com/jspm/jspm-cli/commit/9784e8173a42409590e3fe6e37a88589ac548559
+CommitInfo{repo='GitHub', hash='30d5d4ba8e84086c97eb631794acedd9a91089f4', version='0.16.39'} 	https://github.com/jspm/jspm-cli/commit/30d5d4ba8e84086c97eb631794acedd9a91089f4
+CommitInfo{repo='GitHub', hash='52de28dc4333c0799911f69d92cd048c9ae9df73', version='0.16.4'} 	https://github.com/jspm/jspm-cli/commit/52de28dc4333c0799911f69d92cd048c9ae9df73
+CommitInfo{repo='GitHub', hash='7fd70659b719ae57e53c4635280d7cd6a77954e6', version='0.16.40'} 	https://github.com/jspm/jspm-cli/commit/7fd70659b719ae57e53c4635280d7cd6a77954e6
+CommitInfo{repo='GitHub', hash='0355d6f3b206f7c4d0c47d88cb1bbc6f3f6a7443', version='0.16.41'} 	https://github.com/jspm/jspm-cli/commit/0355d6f3b206f7c4d0c47d88cb1bbc6f3f6a7443
+CommitInfo{repo='GitHub', hash='e3b9c6c94e2c686c170e11e2d5243c1fa8f4eb8c', version='0.16.42'} 	https://github.com/jspm/jspm-cli/commit/e3b9c6c94e2c686c170e11e2d5243c1fa8f4eb8c
+CommitInfo{repo='GitHub', hash='c98b4ea64c954dae939504376b15939e7d877e20', version='0.16.43'} 	https://github.com/jspm/jspm-cli/commit/c98b4ea64c954dae939504376b15939e7d877e20
+CommitInfo{repo='GitHub', hash='8337a7fcbb0aa0da8ab78bd1db40b35d113eed34', version='0.16.44'} 	https://github.com/jspm/jspm-cli/commit/8337a7fcbb0aa0da8ab78bd1db40b35d113eed34
+CommitInfo{repo='GitHub', hash='5963d0e7929d5d277f670af64f03ed75743ecc9d', version='0.16.45'} 	https://github.com/jspm/jspm-cli/commit/5963d0e7929d5d277f670af64f03ed75743ecc9d
+CommitInfo{repo='GitHub', hash='8dfc02d05a52364ffe78cabd085eb46452ec4edf', version='0.16.46'} 	https://github.com/jspm/jspm-cli/commit/8dfc02d05a52364ffe78cabd085eb46452ec4edf
+CommitInfo{repo='GitHub', hash='84c59b33b6579a07df88d3080b32a0e646effdf4', version='0.16.47'} 	https://github.com/jspm/jspm-cli/commit/84c59b33b6579a07df88d3080b32a0e646effdf4
+CommitInfo{repo='GitHub', hash='3a1f6066711dc572e6713caf12a1caa465216092', version='0.16.48'} 	https://github.com/jspm/jspm-cli/commit/3a1f6066711dc572e6713caf12a1caa465216092
+CommitInfo{repo='GitHub', hash='909d4a28861ee306375c3c009e83b97e66d845f7', version='0.16.49'} 	https://github.com/jspm/jspm-cli/commit/909d4a28861ee306375c3c009e83b97e66d845f7
+CommitInfo{repo='GitHub', hash='4397432c3e2b9fa7e498901667cb5704039ef1f9', version='0.16.5'} 	https://github.com/jspm/jspm-cli/commit/4397432c3e2b9fa7e498901667cb5704039ef1f9
+CommitInfo{repo='GitHub', hash='a4b12a5f7714c8e79fea9faa2ecadbbd24cbf2cc', version='0.16.50'} 	https://github.com/jspm/jspm-cli/commit/a4b12a5f7714c8e79fea9faa2ecadbbd24cbf2cc
+CommitInfo{repo='GitHub', hash='c34868a1c5293eb803b2086bc1b15a73409ce415', version='0.16.51'} 	https://github.com/jspm/jspm-cli/commit/c34868a1c5293eb803b2086bc1b15a73409ce415
+CommitInfo{repo='GitHub', hash='8ad08fbdb7b78106a747b29498b23c5bde174e32', version='0.16.52'} 	https://github.com/jspm/jspm-cli/commit/8ad08fbdb7b78106a747b29498b23c5bde174e32
+CommitInfo{repo='GitHub', hash='4e014a499e17eb812770911f27dbc561a7789e42', version='0.16.53'} 	https://github.com/jspm/jspm-cli/commit/4e014a499e17eb812770911f27dbc561a7789e42
+CommitInfo{repo='GitHub', hash='3e7ec881b4bcfeb46388f9218e5612b0f2203832', version='0.16.6'} 	https://github.com/jspm/jspm-cli/commit/3e7ec881b4bcfeb46388f9218e5612b0f2203832
+CommitInfo{repo='GitHub', hash='bdc774f96c737eccb3f85641438d51dbcc061bb5', version='0.16.7'} 	https://github.com/jspm/jspm-cli/commit/bdc774f96c737eccb3f85641438d51dbcc061bb5
+CommitInfo{repo='GitHub', hash='d378fa136d11929f9b2b0436e076a07f33dee959', version='0.16.8'} 	https://github.com/jspm/jspm-cli/commit/d378fa136d11929f9b2b0436e076a07f33dee959
+CommitInfo{repo='GitHub', hash='267064467da577e4655497f3ece10602fe82e356', version='0.16.9'} 	https://github.com/jspm/jspm-cli/commit/267064467da577e4655497f3ece10602fe82e356
+CommitInfo{repo='GitHub', hash='989bb41c30d128c784cc20df35f81df802b209b4', version='0.17.0-beta'} 	https://github.com/jspm/jspm-cli/commit/989bb41c30d128c784cc20df35f81df802b209b4
+CommitInfo{repo='GitHub', hash='fae2df39472a0652899c6535ea106ab042a263fb', version='0.17.0-beta.10'} 	https://github.com/jspm/jspm-cli/commit/fae2df39472a0652899c6535ea106ab042a263fb
+CommitInfo{repo='GitHub', hash='899465b50aec35bd66598b0e5a5226154ac2c6d1', version='0.17.0-beta.11'} 	https://github.com/jspm/jspm-cli/commit/899465b50aec35bd66598b0e5a5226154ac2c6d1
+CommitInfo{repo='GitHub', hash='836cbe29e9ce32dc6ae144ce3b66d015c2019d77', version='0.17.0-beta.12'} 	https://github.com/jspm/jspm-cli/commit/836cbe29e9ce32dc6ae144ce3b66d015c2019d77
+CommitInfo{repo='GitHub', hash='bbdc779921e3dda098b05b0e1c924b64997978c2', version='0.17.0-beta.13'} 	https://github.com/jspm/jspm-cli/commit/bbdc779921e3dda098b05b0e1c924b64997978c2
+CommitInfo{repo='GitHub', hash='2b996988d860515b4c86512e13fa60b60fbb2881', version='0.17.0-beta.14'} 	https://github.com/jspm/jspm-cli/commit/2b996988d860515b4c86512e13fa60b60fbb2881
+CommitInfo{repo='GitHub', hash='cdcc61dc937899f82206d0a352eb58742dfaed5e', version='0.17.0-beta.15'} 	https://github.com/jspm/jspm-cli/commit/cdcc61dc937899f82206d0a352eb58742dfaed5e
+CommitInfo{repo='GitHub', hash='fc3df944680e0f43888107ef9f6d45ef9ea9a16c', version='0.17.0-beta.16'} 	https://github.com/jspm/jspm-cli/commit/fc3df944680e0f43888107ef9f6d45ef9ea9a16c
+CommitInfo{repo='GitHub', hash='2f2ac2648491f57b12930ffef38577ae92808480', version='0.17.0-beta.17'} 	https://github.com/jspm/jspm-cli/commit/2f2ac2648491f57b12930ffef38577ae92808480
+CommitInfo{repo='GitHub', hash='8076f13cdf1c0dc966d618d99f7e10f59a52ab2e', version='0.17.0-beta.18'} 	https://github.com/jspm/jspm-cli/commit/8076f13cdf1c0dc966d618d99f7e10f59a52ab2e
+CommitInfo{repo='GitHub', hash='c81972e672b62c839a88c17642a7027a1ab2668c', version='0.17.0-beta.19'} 	https://github.com/jspm/jspm-cli/commit/c81972e672b62c839a88c17642a7027a1ab2668c
+CommitInfo{repo='GitHub', hash='38ce6f714577eac99a14c58fd5d08727354edcc3', version='0.17.0-beta.20'} 	https://github.com/jspm/jspm-cli/commit/38ce6f714577eac99a14c58fd5d08727354edcc3
+CommitInfo{repo='GitHub', hash='93d68a7ed833c75a61667d56ac43450b07bea266', version='0.17.0-beta.21'} 	https://github.com/jspm/jspm-cli/commit/93d68a7ed833c75a61667d56ac43450b07bea266
+CommitInfo{repo='GitHub', hash='b6203cad3c90b5efa7236662ff35648264e36bbb', version='0.17.0-beta.22'} 	https://github.com/jspm/jspm-cli/commit/b6203cad3c90b5efa7236662ff35648264e36bbb
+CommitInfo{repo='GitHub', hash='ddd478fbbe42ca68c31fed6a2de09d640c0f1ea8', version='0.17.0-beta.23'} 	https://github.com/jspm/jspm-cli/commit/ddd478fbbe42ca68c31fed6a2de09d640c0f1ea8
+CommitInfo{repo='GitHub', hash='5739594572f9f6eb410eeba9207f22043b9c7474', version='0.17.0-beta.24'} 	https://github.com/jspm/jspm-cli/commit/5739594572f9f6eb410eeba9207f22043b9c7474
+CommitInfo{repo='GitHub', hash='01d7bcf7235a3aa7e43a84acfd06ef363c77fd31', version='0.17.0-beta.25'} 	https://github.com/jspm/jspm-cli/commit/01d7bcf7235a3aa7e43a84acfd06ef363c77fd31
+CommitInfo{repo='GitHub', hash='41e03924a1c0bcd11120bdea383b36dca0e21ea0', version='0.17.0-beta.26'} 	https://github.com/jspm/jspm-cli/commit/41e03924a1c0bcd11120bdea383b36dca0e21ea0
+CommitInfo{repo='GitHub', hash='a7d20326e0622cb36b10cbb5c61af377b52d5119', version='0.17.0-beta.27'} 	https://github.com/jspm/jspm-cli/commit/a7d20326e0622cb36b10cbb5c61af377b52d5119
+CommitInfo{repo='GitHub', hash='b4b61089c64e4ef797a8c5ce33e50df220ffbeb2', version='0.17.0-beta.28'} 	https://github.com/jspm/jspm-cli/commit/b4b61089c64e4ef797a8c5ce33e50df220ffbeb2
+CommitInfo{repo='GitHub', hash='656b6846382c8d6d5c899a72c5aaf1d155313ac6', version='0.17.0-beta.29'} 	https://github.com/jspm/jspm-cli/commit/656b6846382c8d6d5c899a72c5aaf1d155313ac6
+CommitInfo{repo='GitHub', hash='4df515f7a9f2be0f6f9531707ac9c7d0159c524d', version='0.17.0-beta.3'} 	https://github.com/jspm/jspm-cli/commit/4df515f7a9f2be0f6f9531707ac9c7d0159c524d
+CommitInfo{repo='GitHub', hash='6a6878be88d06a5b6ab7a92824b60c36b619ff89', version='0.17.0-beta.30'} 	https://github.com/jspm/jspm-cli/commit/6a6878be88d06a5b6ab7a92824b60c36b619ff89
+CommitInfo{repo='GitHub', hash='db0834ce73e4f57719f5fc45be4be98741bfa9d2', version='0.17.0-beta.31'} 	https://github.com/jspm/jspm-cli/commit/db0834ce73e4f57719f5fc45be4be98741bfa9d2
+CommitInfo{repo='GitHub', hash='077cefd42dbf70f07d05c274f890298eb650b365', version='0.17.0-beta.32'} 	https://github.com/jspm/jspm-cli/commit/077cefd42dbf70f07d05c274f890298eb650b365
+CommitInfo{repo='GitHub', hash='adff9dd600a59d5cbab1d669509f4662f2b95289', version='0.17.0-beta.33'} 	https://github.com/jspm/jspm-cli/commit/adff9dd600a59d5cbab1d669509f4662f2b95289
+CommitInfo{repo='GitHub', hash='6c531f94277bc56a643a98703813788ad3b08131', version='0.17.0-beta.34'} 	https://github.com/jspm/jspm-cli/commit/6c531f94277bc56a643a98703813788ad3b08131
+CommitInfo{repo='GitHub', hash='73634798dcb42c392422a63fd2a5f6297da99b91', version='0.17.0-beta.35'} 	https://github.com/jspm/jspm-cli/commit/73634798dcb42c392422a63fd2a5f6297da99b91
+CommitInfo{repo='GitHub', hash='dff9c25444ad909572e9bcebebb1cfd89715bdb7', version='0.17.0-beta.36'} 	https://github.com/jspm/jspm-cli/commit/dff9c25444ad909572e9bcebebb1cfd89715bdb7
+CommitInfo{repo='GitHub', hash='0699b91db0754bddc0a07ad6b7640edf2f5109fd', version='0.17.0-beta.37'} 	https://github.com/jspm/jspm-cli/commit/0699b91db0754bddc0a07ad6b7640edf2f5109fd
+CommitInfo{repo='GitHub', hash='197922ae08afcafad2cea959003ec63b4364f2ea', version='0.17.0-beta.38'} 	https://github.com/jspm/jspm-cli/commit/197922ae08afcafad2cea959003ec63b4364f2ea
+CommitInfo{repo='GitHub', hash='df9e43bedde514022c71601b60f022c56121107b', version='0.17.0-beta.39'} 	https://github.com/jspm/jspm-cli/commit/df9e43bedde514022c71601b60f022c56121107b
+CommitInfo{repo='GitHub', hash='ba7b23753a20484e91ea12290a81785710e1538e', version='0.17.0-beta.4'} 	https://github.com/jspm/jspm-cli/commit/ba7b23753a20484e91ea12290a81785710e1538e
+CommitInfo{repo='GitHub', hash='6a8fd63cb12e2e2de6ffc93b0cabb89ff5885c50', version='0.17.0-beta.40'} 	https://github.com/jspm/jspm-cli/commit/6a8fd63cb12e2e2de6ffc93b0cabb89ff5885c50
+CommitInfo{repo='GitHub', hash='24f5d1e9662f454fe13c5b5a0dbe3908319ef176', version='0.17.0-beta.41'} 	https://github.com/jspm/jspm-cli/commit/24f5d1e9662f454fe13c5b5a0dbe3908319ef176
+CommitInfo{repo='GitHub', hash='033a41f5b1c8509d86a131bf403afb0cdf4904bd', version='0.17.0-beta.42'} 	https://github.com/jspm/jspm-cli/commit/033a41f5b1c8509d86a131bf403afb0cdf4904bd
+CommitInfo{repo='GitHub', hash='d9f09542a672fc5395f3fed8de2b91cc19242157', version='0.17.0-beta.43'} 	https://github.com/jspm/jspm-cli/commit/d9f09542a672fc5395f3fed8de2b91cc19242157
+CommitInfo{repo='GitHub', hash='b966e7dbaccc55cca2d8cf76ca8f0e73319431da', version='0.17.0-beta.44'} 	https://github.com/jspm/jspm-cli/commit/b966e7dbaccc55cca2d8cf76ca8f0e73319431da
+CommitInfo{repo='GitHub', hash='2e30ad135cdec9641418b064c118d551e197bb97', version='0.17.0-beta.45'} 	https://github.com/jspm/jspm-cli/commit/2e30ad135cdec9641418b064c118d551e197bb97
+CommitInfo{repo='GitHub', hash='dfe9461da411c63c8ab180df5dcbf1f88d0a7f90', version='0.17.0-beta.46'} 	https://github.com/jspm/jspm-cli/commit/dfe9461da411c63c8ab180df5dcbf1f88d0a7f90
+CommitInfo{repo='GitHub', hash='fff3895ca034b78a0ef8f491ceebfefcc13e83cd', version='0.17.0-beta.47'} 	https://github.com/jspm/jspm-cli/commit/fff3895ca034b78a0ef8f491ceebfefcc13e83cd
+CommitInfo{repo='GitHub', hash='35a51b4d70244fb513951a2fab1d35d39f19b2af', version='0.17.0-beta.48'} 	https://github.com/jspm/jspm-cli/commit/35a51b4d70244fb513951a2fab1d35d39f19b2af
+CommitInfo{repo='GitHub', hash='59f561815b4c5acdbdc4ac908bad4d861a14e365', version='0.17.0-beta.49'} 	https://github.com/jspm/jspm-cli/commit/59f561815b4c5acdbdc4ac908bad4d861a14e365
+CommitInfo{repo='GitHub', hash='8cc8e2acf1a516e73f438d240c4effb35e64a1d1', version='0.17.0-beta.5'} 	https://github.com/jspm/jspm-cli/commit/8cc8e2acf1a516e73f438d240c4effb35e64a1d1
+CommitInfo{repo='GitHub', hash='9fbddea2f88031d6f6f3ff35a4e4187c3b5e7708', version='0.17.0-beta.6'} 	https://github.com/jspm/jspm-cli/commit/9fbddea2f88031d6f6f3ff35a4e4187c3b5e7708
+CommitInfo{repo='GitHub', hash='8f1bb17bb3f723b42882c12f56f4f16920ae1b08', version='0.17.0-beta.7'} 	https://github.com/jspm/jspm-cli/commit/8f1bb17bb3f723b42882c12f56f4f16920ae1b08
+CommitInfo{repo='GitHub', hash='d1fce80ba79b35d19c92efa784209892bb209d31', version='0.17.0-beta.8'} 	https://github.com/jspm/jspm-cli/commit/d1fce80ba79b35d19c92efa784209892bb209d31
+CommitInfo{repo='GitHub', hash='41361e582836768267fab3433429256ff729da62', version='0.17.0-beta.9'} 	https://github.com/jspm/jspm-cli/commit/41361e582836768267fab3433429256ff729da62
+CommitInfo{repo='GitHub', hash='18af058f73530aaed8e5edccf4cd422624be3ec5', version='0.2.4'} 	https://github.com/jspm/jspm-cli/commit/18af058f73530aaed8e5edccf4cd422624be3ec5
+CommitInfo{repo='GitHub', hash='8ae801e7f81fa3c39327293b90825b3c45286231', version='0.3.0'} 	https://github.com/jspm/jspm-cli/commit/8ae801e7f81fa3c39327293b90825b3c45286231
+CommitInfo{repo='GitHub', hash='efed7ea05bdd9620233cbbc50683285583a181f2', version='0.3.1'} 	https://github.com/jspm/jspm-cli/commit/efed7ea05bdd9620233cbbc50683285583a181f2
+CommitInfo{repo='GitHub', hash='ec7c108e27b16db06dfea1ca508f10fc285500fb', version='0.3.10'} 	https://github.com/jspm/jspm-cli/commit/ec7c108e27b16db06dfea1ca508f10fc285500fb
+CommitInfo{repo='GitHub', hash='d5deb54f94062926e2848f118ee15ce60636b8b1', version='0.3.2'} 	https://github.com/jspm/jspm-cli/commit/d5deb54f94062926e2848f118ee15ce60636b8b1
+CommitInfo{repo='GitHub', hash='05123d805f88fdce32dc6c85558a0da27a218fb9', version='0.3.3'} 	https://github.com/jspm/jspm-cli/commit/05123d805f88fdce32dc6c85558a0da27a218fb9
+CommitInfo{repo='GitHub', hash='5fa0c15f2d11df73bb8ead5d2379b5bfe82d82e2', version='0.3.4'} 	https://github.com/jspm/jspm-cli/commit/5fa0c15f2d11df73bb8ead5d2379b5bfe82d82e2
+CommitInfo{repo='GitHub', hash='6ed8aa96aede3b6fd378933cfa6cad14ae53f38a', version='0.3.5'} 	https://github.com/jspm/jspm-cli/commit/6ed8aa96aede3b6fd378933cfa6cad14ae53f38a
+CommitInfo{repo='GitHub', hash='2991d84dce697a01ecf7948963645926ee4c3006', version='0.3.6'} 	https://github.com/jspm/jspm-cli/commit/2991d84dce697a01ecf7948963645926ee4c3006
+CommitInfo{repo='GitHub', hash='8e8469809868b9f856157ef588c4bd0cd3b180d2', version='0.3.7'} 	https://github.com/jspm/jspm-cli/commit/8e8469809868b9f856157ef588c4bd0cd3b180d2
+CommitInfo{repo='GitHub', hash='2ee763ae4388d8b5bda420d117a819259a005efe', version='0.3.8'} 	https://github.com/jspm/jspm-cli/commit/2ee763ae4388d8b5bda420d117a819259a005efe
+CommitInfo{repo='GitHub', hash='2c047994704ba4974f27f9c90c467907c4d80cb5', version='0.3.9'} 	https://github.com/jspm/jspm-cli/commit/2c047994704ba4974f27f9c90c467907c4d80cb5
+CommitInfo{repo='GitHub', hash='8bf078a96ce8f432764ac862eb559a4782c322ea', version='0.4.0'} 	https://github.com/jspm/jspm-cli/commit/8bf078a96ce8f432764ac862eb559a4782c322ea
+CommitInfo{repo='GitHub', hash='d437e49a8415c6ec9110fd12346d4c8f95666574', version='0.4.1'} 	https://github.com/jspm/jspm-cli/commit/d437e49a8415c6ec9110fd12346d4c8f95666574
+CommitInfo{repo='GitHub', hash='a433a58b7312ff614615d78ae0e9954dceda5ebc', version='0.4.2'} 	https://github.com/jspm/jspm-cli/commit/a433a58b7312ff614615d78ae0e9954dceda5ebc
+CommitInfo{repo='GitHub', hash='0e65ed93d9efc9c4610781d19f0eb142670a7146', version='0.4.3'} 	https://github.com/jspm/jspm-cli/commit/0e65ed93d9efc9c4610781d19f0eb142670a7146
+CommitInfo{repo='GitHub', hash='4a3134ea516c42aa49fac305591fd2a517310eb8', version='0.47.0-beta.48'} 	https://github.com/jspm/jspm-cli/commit/4a3134ea516c42aa49fac305591fd2a517310eb8
+CommitInfo{repo='GitHub', hash='ac61d6fa05f2d7de69963d7578d20cc23cec05e2', version='0.5.0'} 	https://github.com/jspm/jspm-cli/commit/ac61d6fa05f2d7de69963d7578d20cc23cec05e2
+CommitInfo{repo='GitHub', hash='c9be8fbcc8e6af606a75a8837937841468e55b94', version='0.5.1'} 	https://github.com/jspm/jspm-cli/commit/c9be8fbcc8e6af606a75a8837937841468e55b94
+CommitInfo{repo='GitHub', hash='2347f916d44355009b525eb7dae29f421d0ebae5', version='0.5.10'} 	https://github.com/jspm/jspm-cli/commit/2347f916d44355009b525eb7dae29f421d0ebae5
+CommitInfo{repo='GitHub', hash='630492d8886eed479a4ca5ca8caf06fb00285da2', version='0.5.11'} 	https://github.com/jspm/jspm-cli/commit/630492d8886eed479a4ca5ca8caf06fb00285da2
+CommitInfo{repo='GitHub', hash='9351f1a36a1314a49b6a4f2ccc08e2b9da162c5e', version='0.5.13'} 	https://github.com/jspm/jspm-cli/commit/9351f1a36a1314a49b6a4f2ccc08e2b9da162c5e
+CommitInfo{repo='GitHub', hash='199b7ec19625271d9798639870324bb48a893510', version='0.5.3'} 	https://github.com/jspm/jspm-cli/commit/199b7ec19625271d9798639870324bb48a893510
+CommitInfo{repo='GitHub', hash='0067dfce9e6fe6c777361275da03f4e3fc1b2c1f', version='0.5.4'} 	https://github.com/jspm/jspm-cli/commit/0067dfce9e6fe6c777361275da03f4e3fc1b2c1f
+CommitInfo{repo='GitHub', hash='5de1ce7cfef4a85237fcfe24d6496d04e85f74d2', version='0.5.5'} 	https://github.com/jspm/jspm-cli/commit/5de1ce7cfef4a85237fcfe24d6496d04e85f74d2
+CommitInfo{repo='GitHub', hash='cb73428fe6988c49c95925e7c740d68926ce643c', version='0.6.0'} 	https://github.com/jspm/jspm-cli/commit/cb73428fe6988c49c95925e7c740d68926ce643c
+CommitInfo{repo='GitHub', hash='8cd4ee4052ae01be80177e7954c6544e1d0439d5', version='0.6.1'} 	https://github.com/jspm/jspm-cli/commit/8cd4ee4052ae01be80177e7954c6544e1d0439d5
+CommitInfo{repo='GitHub', hash='2f03ab77eaf00e4978d8314748bb10c2e6300f4a', version='0.6.10'} 	https://github.com/jspm/jspm-cli/commit/2f03ab77eaf00e4978d8314748bb10c2e6300f4a
+CommitInfo{repo='GitHub', hash='ba73e7fdc80723cc5d6ea974dea112b7eed41620', version='0.6.11'} 	https://github.com/jspm/jspm-cli/commit/ba73e7fdc80723cc5d6ea974dea112b7eed41620
+CommitInfo{repo='GitHub', hash='ff96001b12b988727e3481dcabdcc493aae4acf3', version='0.6.12'} 	https://github.com/jspm/jspm-cli/commit/ff96001b12b988727e3481dcabdcc493aae4acf3
+CommitInfo{repo='GitHub', hash='27b54bacb21fa4d1e1826c023b648fd38db0daea', version='0.6.6'} 	https://github.com/jspm/jspm-cli/commit/27b54bacb21fa4d1e1826c023b648fd38db0daea
+CommitInfo{repo='GitHub', hash='1305978e5d7ac6698eed4d3553ead8aff00c2bbc', version='0.6.7'} 	https://github.com/jspm/jspm-cli/commit/1305978e5d7ac6698eed4d3553ead8aff00c2bbc
+CommitInfo{repo='GitHub', hash='a4d5678d96aeb6c4c6e7963f733b12e3c90b03ce', version='0.6.8'} 	https://github.com/jspm/jspm-cli/commit/a4d5678d96aeb6c4c6e7963f733b12e3c90b03ce
+CommitInfo{repo='GitHub', hash='1fe9284b877ea64c3e27493ba1771259ef2f7dd6', version='0.6.9'} 	https://github.com/jspm/jspm-cli/commit/1fe9284b877ea64c3e27493ba1771259ef2f7dd6
+CommitInfo{repo='GitHub', hash='5e288a4949b437ba259311e1ca24a49ebb842dc7', version='0.7.0'} 	https://github.com/jspm/jspm-cli/commit/5e288a4949b437ba259311e1ca24a49ebb842dc7
+CommitInfo{repo='GitHub', hash='40fd8327a07025f3df4c2866b4d9f103940f30e5', version='0.7.0-beta.1'} 	https://github.com/jspm/jspm-cli/commit/40fd8327a07025f3df4c2866b4d9f103940f30e5
+CommitInfo{repo='GitHub', hash='8b346b51b8fce4680b92c38dbd484c0036e2457f', version='0.7.0-beta.2'} 	https://github.com/jspm/jspm-cli/commit/8b346b51b8fce4680b92c38dbd484c0036e2457f
+CommitInfo{repo='GitHub', hash='2ede8cc2ed5854e7e05ac39f1bac0df34d7fc0b4', version='0.7.0-beta.3'} 	https://github.com/jspm/jspm-cli/commit/2ede8cc2ed5854e7e05ac39f1bac0df34d7fc0b4
+CommitInfo{repo='GitHub', hash='12ef5aa4a553f78f7f5795ce9852e2652fd28e8a', version='0.7.0-beta.5'} 	https://github.com/jspm/jspm-cli/commit/12ef5aa4a553f78f7f5795ce9852e2652fd28e8a
+CommitInfo{repo='GitHub', hash='4fc2e93eafe5221d87143039b7f8548d781e0bf4', version='0.7.1'} 	https://github.com/jspm/jspm-cli/commit/4fc2e93eafe5221d87143039b7f8548d781e0bf4
+CommitInfo{repo='GitHub', hash='06d77b3ea477f953fce05449918dfe9876c8a296', version='0.8.0'} 	https://github.com/jspm/jspm-cli/commit/06d77b3ea477f953fce05449918dfe9876c8a296
+CommitInfo{repo='GitHub', hash='046dc1df767be38d1442cc543b610285581e86d2', version='0.8.0-beta.1'} 	https://github.com/jspm/jspm-cli/commit/046dc1df767be38d1442cc543b610285581e86d2
+CommitInfo{repo='GitHub', hash='f40d50cc957446efef4f1aa8068113d4ae8bb736', version='0.8.0-beta.2'} 	https://github.com/jspm/jspm-cli/commit/f40d50cc957446efef4f1aa8068113d4ae8bb736
+CommitInfo{repo='GitHub', hash='53a88b0e8868de77b3eb75f335ae45b0113aee74', version='0.8.0-beta.3'} 	https://github.com/jspm/jspm-cli/commit/53a88b0e8868de77b3eb75f335ae45b0113aee74
+CommitInfo{repo='GitHub', hash='9fef2d948b37e7ee7546fc008bf66ddd0965a7b3', version='0.8.0-beta.4'} 	https://github.com/jspm/jspm-cli/commit/9fef2d948b37e7ee7546fc008bf66ddd0965a7b3
+CommitInfo{repo='GitHub', hash='d158df42ca82eb1df13644e0978f013b0077c46c', version='0.8.1'} 	https://github.com/jspm/jspm-cli/commit/d158df42ca82eb1df13644e0978f013b0077c46c
+CommitInfo{repo='GitHub', hash='97491328dd1f9aa385064c33ac626cace555f9fb', version='0.8.2'} 	https://github.com/jspm/jspm-cli/commit/97491328dd1f9aa385064c33ac626cace555f9fb
+CommitInfo{repo='GitHub', hash='d812f6f9bb82c580ead5133dcf488ad769203c0e', version='0.8.3'} 	https://github.com/jspm/jspm-cli/commit/d812f6f9bb82c580ead5133dcf488ad769203c0e
+CommitInfo{repo='GitHub', hash='adad259447d09ed67d6ca87331414b19bdff74c8', version='0.8.4'} 	https://github.com/jspm/jspm-cli/commit/adad259447d09ed67d6ca87331414b19bdff74c8
+CommitInfo{repo='GitHub', hash='f8b4fb0a9c05b1f5f26d5fa9e02091be8bb63416', version='0.8.5'} 	https://github.com/jspm/jspm-cli/commit/f8b4fb0a9c05b1f5f26d5fa9e02091be8bb63416
+CommitInfo{repo='GitHub', hash='58d66c9d299aceb094b3e60e7a42dc88cdaee621', version='0.8.6'} 	https://github.com/jspm/jspm-cli/commit/58d66c9d299aceb094b3e60e7a42dc88cdaee621
+CommitInfo{repo='GitHub', hash='5ce4298e134a5130aa08f5b8f3854cfdeb58711e', version='0.9.0'} 	https://github.com/jspm/jspm-cli/commit/5ce4298e134a5130aa08f5b8f3854cfdeb58711e
+CommitInfo{repo='GitHub', hash='3d54574c3fb673a7bf915699f24d1ae125d18f1f', version='0.9.0-beta.2'} 	https://github.com/jspm/jspm-cli/commit/3d54574c3fb673a7bf915699f24d1ae125d18f1f
 
 Project A:
 ProjectVersionFixed(version=0.0.1, dependency=0.0.2, time=2013-04-21 01:56:35 UTC),	Latest, "null"

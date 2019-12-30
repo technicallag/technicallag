@@ -2,644 +2,649 @@
 Project information
 @dlghq/dialog-components (1550524)	inquirer (159991)	Package Manager: NPM
 RepoID: 11209970
+Repo Owner/Name: dialogs/dialog-web-components
+Repository type: GitHub
+
+ https://github.com/dialogs/dialog-web-components/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='3a17f4f209857d9b2a8d0d527eaab6e1cb894f6c', version='v0.1.0'}
-CommitInfo{repo='GitHub', hash='51a2169d790a874ec0c32a4e1669ab7d63cadd15', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='30031f8a8d4776080ff9142a54a9cd66a804ca6b', version='v0.100.0'}
-CommitInfo{repo='GitHub', hash='3209f2a4214291d23cad8896dcbf05ab30a5298d', version='v0.100.1'}
-CommitInfo{repo='GitHub', hash='573e580320542624387b2f624dc464a35d5ef501', version='v0.100.2'}
-CommitInfo{repo='GitHub', hash='3bc44032d0a87f141ff4d3f5782f6d7e6a56956e', version='v0.100.3'}
-CommitInfo{repo='GitHub', hash='fc1c8089b7a248441870c2a8a0c3e538f35c059f', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='71e014bd9702a518b0a3c45876232643bb108e27', version='v0.101.0'}
-CommitInfo{repo='GitHub', hash='1d51ba79f609baa50452d661742c274a366ab28c', version='v0.10.2'}
-CommitInfo{repo='GitHub', hash='c1af545c12bbe742ce3d722f96a02543240fc814', version='v0.102.0'}
-CommitInfo{repo='GitHub', hash='d8d1ac463b3eb002022f1bfd01c62866715912dd', version='v0.102.1'}
-CommitInfo{repo='GitHub', hash='5d89f143688a0ea1a89d313f69ddae4caa2664b1', version='v0.102.2'}
-CommitInfo{repo='GitHub', hash='40644aa2f9493f8f1cf6a43bdcfdbffbe1ac4530', version='v0.102.3'}
-CommitInfo{repo='GitHub', hash='cc60629dec097a26d20c9972f92d55b84c14c9fd', version='v0.102.4'}
-CommitInfo{repo='GitHub', hash='f180f0536b97ed07b49ab6fbe351d608272951f3', version='v0.103.0'}
-CommitInfo{repo='GitHub', hash='94c51de782742bb47375cae32948b720d5cee987', version='v0.104.0'}
-CommitInfo{repo='GitHub', hash='c67a6d5d783002cea3c1cd2c3a6d421e12b74460', version='v0.105.0'}
-CommitInfo{repo='GitHub', hash='8fbc3e75e5582223c5252fb956f31d3e8a04a248', version='v0.106.0'}
-CommitInfo{repo='GitHub', hash='4fb79d3f9711654f62a63e325396ec2721167210', version='v0.106.1'}
-CommitInfo{repo='GitHub', hash='2956c729faa6d63e56ad7561fc72f081e5c2c098', version='v0.106.2'}
-CommitInfo{repo='GitHub', hash='04d4063784ae34260bf8b9398e97d5adc343e81e', version='v0.106.3'}
-CommitInfo{repo='GitHub', hash='75ae4599eb49e6895236780b05f68bfd73a88bfd', version='v0.107.0'}
-CommitInfo{repo='GitHub', hash='4f50c9ec595162c286b438de9dd4e02c0ba4489e', version='v0.107.1'}
-CommitInfo{repo='GitHub', hash='44aa6cd03d7279ef2fb972792e03c795af44ec9f', version='v0.108.0'}
-CommitInfo{repo='GitHub', hash='b2e86718d4991fc113f6cd8760fc136ac142fa5a', version='v0.108.1'}
-CommitInfo{repo='GitHub', hash='67c7d55093d5e190c147c33eb3b210ba870eb55e', version='v0.108.2'}
-CommitInfo{repo='GitHub', hash='23ea0ff7b9586f4cdea0742f49919c4c40a2a511', version='v0.108.3'}
-CommitInfo{repo='GitHub', hash='2b7e0501744bf1eaf536d47df0f2fe05d4b83a14', version='v0.109.0'}
-CommitInfo{repo='GitHub', hash='201952a3d9a726affe27853fdbd6451fa5a40e1a', version='v0.109.1'}
-CommitInfo{repo='GitHub', hash='a1394a874d26bf299053ec21d11e18a90fc6a0ad', version='v0.109.2'}
-CommitInfo{repo='GitHub', hash='1a4297a48531708cb6e58d2bfecc47da2a0058e5', version='v0.109.3'}
-CommitInfo{repo='GitHub', hash='f0f6349b42d0f707ae14f60971abded0c63cf101', version='v0.1.1'}
-CommitInfo{repo='GitHub', hash='80f571f0934aceaa41c9b1c5e7caccd3a58a92bc', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='74c7c4f104a418bb34f9c8e08e8fc5732c9af3f0', version='v0.110.0'}
-CommitInfo{repo='GitHub', hash='5aed5149bc54f33f06743d881076e22b91e08987', version='v0.110.1'}
-CommitInfo{repo='GitHub', hash='65d34073bd11a16d608139425396fae4ecc311ec', version='v0.11.1'}
-CommitInfo{repo='GitHub', hash='a61f12378dc4bdac1f1826196086dd3c6380fccd', version='v0.111.0'}
-CommitInfo{repo='GitHub', hash='2544fb2f24a38e52e505431ea26117f61488f4b6', version='v0.111.1'}
-CommitInfo{repo='GitHub', hash='19eaecd0971684187695d9ac71cbe2af4d5dca6d', version='v0.111.2'}
-CommitInfo{repo='GitHub', hash='3394caac260a4f7fbd25a26db64c855d945d163a', version='v0.111.3'}
-CommitInfo{repo='GitHub', hash='a6395603d49df43475e8741033f85f679e4fa298', version='v0.11.2'}
-CommitInfo{repo='GitHub', hash='94d8fbea72ba130a858bbc95e948c9a834a0fd89', version='v0.112.0'}
-CommitInfo{repo='GitHub', hash='bff4be9ec0783681c91f6c317cdba5190d34a352', version='v0.112.1'}
-CommitInfo{repo='GitHub', hash='27342d472fc7a609b1f9df5f930d441dfaeaa50f', version='v0.112.2'}
-CommitInfo{repo='GitHub', hash='818533e2ed601ca53998a14b1bdd82027625a789', version='v0.112.3'}
-CommitInfo{repo='GitHub', hash='a5e36afa8eabed1487c6121e858295036a89ea2d', version='v0.112.4'}
-CommitInfo{repo='GitHub', hash='20e6a3b957c6b79100c4ec5a30160ea208bef1ef', version='v0.112.5'}
-CommitInfo{repo='GitHub', hash='7083a3bc05f8681e091bad8e9bd5a58136bc4fbb', version='v0.112.6'}
-CommitInfo{repo='GitHub', hash='5ee717d12e6305925c19a14244ace3853e93a5b1', version='v0.112.7'}
-CommitInfo{repo='GitHub', hash='308cc3f206fb4ade21fad624914f17b641bba170', version='v0.112.8'}
-CommitInfo{repo='GitHub', hash='79f9c816f61b5233193cd409edd9a8a2e621350b', version='v0.11.3'}
-CommitInfo{repo='GitHub', hash='b1ee3b833115be9442a374f4fd0e5136fd07f753', version='v0.113.0'}
-CommitInfo{repo='GitHub', hash='5fa388d407567ac18df49b9c14f0015ecc427e12', version='v0.113.1'}
-CommitInfo{repo='GitHub', hash='8c001285236016d9c2613360a5ab2198d27a4760', version='v0.113.2'}
-CommitInfo{repo='GitHub', hash='af175d1ea6edf6584fe9aad0285f72c6c0881518', version='v0.113.3'}
-CommitInfo{repo='GitHub', hash='9a86d8a6397ce37a7caeaa66bf15609184d41295', version='v0.113.4'}
-CommitInfo{repo='GitHub', hash='6fd3950c5593018a2e5e41d679883d36e83ab007', version='v0.113.5'}
-CommitInfo{repo='GitHub', hash='a38f2c5b8943c5d39a1128f11515ec27fdc077b1', version='v0.11.4'}
-CommitInfo{repo='GitHub', hash='ef532d5a595ffbd29f559703ed4aa9ab404ac2f0', version='v0.114.0'}
-CommitInfo{repo='GitHub', hash='d31e4ca05b27b518c4b39e089faab894bd77e88e', version='v0.114.1'}
-CommitInfo{repo='GitHub', hash='50f3f8131f794cd471e7048c8734a52d44618b61', version='v0.114.2'}
-CommitInfo{repo='GitHub', hash='7c8e3873d9da05f35beecd9135bdd8e35723b509', version='v0.114.3'}
-CommitInfo{repo='GitHub', hash='fdfaff8a5d84a690dbb24a0d76c9a876ab535f7a', version='v0.114.4'}
-CommitInfo{repo='GitHub', hash='bab4aad32663274896c21d3f5de2a4c051a6cdef', version='v0.114.5'}
-CommitInfo{repo='GitHub', hash='9856f7b64f5bd3e2f5724f2f9486062e0c691379', version='v0.11.5'}
-CommitInfo{repo='GitHub', hash='5ac28de1d61b5d7e27d2f301112e125735f12cdb', version='v0.115.0'}
-CommitInfo{repo='GitHub', hash='69bd3f07745b6c26ae4a12e48109d6c88e2b9f56', version='v0.115.1'}
-CommitInfo{repo='GitHub', hash='8b7bdb1462e26deebd5a0b63f0b854ab01a71753', version='v0.115.2'}
-CommitInfo{repo='GitHub', hash='2bf38ec05a6381cf060be67f07b5a234cda27b84', version='v0.115.3'}
-CommitInfo{repo='GitHub', hash='49f4552996bb8fafc9b254f65ca2d6fdbc5b02a3', version='v0.116.0'}
-CommitInfo{repo='GitHub', hash='29dfafe101e1e3efe610584762e513d37f1b3094', version='v0.116.1'}
-CommitInfo{repo='GitHub', hash='95d7200dc9b75d61036de265baba08dd0aba7b20', version='v0.116.2'}
-CommitInfo{repo='GitHub', hash='081ed3a7cf5657a384148270630c104611e2da7e', version='v0.116.3'}
-CommitInfo{repo='GitHub', hash='6374e3b252056e984018534847f7d08d0ab9222d', version='v0.116.4'}
-CommitInfo{repo='GitHub', hash='c4078e4557c346797682500795ba250b2db9c5a1', version='v0.117.0'}
-CommitInfo{repo='GitHub', hash='313ded019b5a8bf3894babf31fd8caa39d3580c2', version='v0.117.1'}
-CommitInfo{repo='GitHub', hash='8382099bf92b4f64b048bc92b08d90332baf9507', version='v0.117.2'}
-CommitInfo{repo='GitHub', hash='eca4cf3e099d0f9fa566807b8df3f403448c2549', version='v0.117.3'}
-CommitInfo{repo='GitHub', hash='e4856a9f941ebe2d75eef22e21e411ab00ca58eb', version='v0.118.0'}
-CommitInfo{repo='GitHub', hash='8b20f0de30c0d932d8a585a8fed7f6ac6b92729e', version='v0.118.1'}
-CommitInfo{repo='GitHub', hash='45e3dfbc2289c04c88e548e8d21ff6fc634db0c2', version='v0.118.2'}
-CommitInfo{repo='GitHub', hash='4da46cd379ce8e1c6be282f9a6ce17f8d83425d2', version='v0.118.3'}
-CommitInfo{repo='GitHub', hash='da4215e419e4c538445ed95e81d9515df242d98b', version='v0.119.0'}
-CommitInfo{repo='GitHub', hash='d6a3caacbfdd0c6c6db73f6cd773a833627bced0', version='v0.1.2'}
-CommitInfo{repo='GitHub', hash='c9940bdbe0969e51b1345f8d446299c9332dd657', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='f961c3bfa363d3cc29df9f0e73f0f44e414747c8', version='v0.120.0'}
-CommitInfo{repo='GitHub', hash='552b913aa80c3695d791b21c6b9c6cb26c215068', version='v0.121.0'}
-CommitInfo{repo='GitHub', hash='a4ca04acee817d77581a8c923851b7f61db55e72', version='v0.122.0'}
-CommitInfo{repo='GitHub', hash='c321c4fa3520c0140b51af1aa204748895021d76', version='v0.122.1'}
-CommitInfo{repo='GitHub', hash='62a12c250ffdb10f412c29844908d3f4efa4da63', version='v0.122.2'}
-CommitInfo{repo='GitHub', hash='becf6fb3432fc6a1c13591b3f3a62feea62218dc', version='v0.122.3'}
-CommitInfo{repo='GitHub', hash='4913ad4ec99ba984bf07bd5ea3e269abd32d6083', version='v0.123.0'}
-CommitInfo{repo='GitHub', hash='2ce3da3fcc8c528c54af2c5a19a9aedb09fe46e6', version='v0.123.1'}
-CommitInfo{repo='GitHub', hash='6766187833cfc37a37304ba47aa247d7e9816ef0', version='v0.124.0'}
-CommitInfo{repo='GitHub', hash='9c1e0447bf883784bc181a5f9da7fb62532e7369', version='v0.124.1'}
-CommitInfo{repo='GitHub', hash='d6f8894c2177ca2a72ca03780ee8423b4a1a00f3', version='v0.124.2'}
-CommitInfo{repo='GitHub', hash='8635cadb20fd188138fef2a94ce91b8123aa4dd0', version='v0.124.3'}
-CommitInfo{repo='GitHub', hash='e18adafd9e5bc17abc64255dac5ab7aefcac2cdb', version='v0.124.4'}
-CommitInfo{repo='GitHub', hash='b94dea245f45224607ce9789857c7d58ec9ce6d4', version='v0.124.5'}
-CommitInfo{repo='GitHub', hash='a59d3f8cb1a09187a8ce24b52c2016b33eadc022', version='v0.124.6'}
-CommitInfo{repo='GitHub', hash='c22e23dd4e2a2572fd578fb646e932568547a22a', version='v0.125.0'}
-CommitInfo{repo='GitHub', hash='8de4c62524edd7d9147ec3b0946c03fbb21851d9', version='v0.125.1'}
-CommitInfo{repo='GitHub', hash='7d5242b3b699c20b54bbd4eb62181e23c9298dc1', version='v0.125.2'}
-CommitInfo{repo='GitHub', hash='a67ce0f3787a44c7f2e5d39d15141095c5486671', version='v0.126.0'}
-CommitInfo{repo='GitHub', hash='128b453acb87b5cbb286291fcea7c2efdfc28580', version='v0.126.1'}
-CommitInfo{repo='GitHub', hash='b6a2a49f7a348cba95613953d8a5c237968623bb', version='v0.126.2'}
-CommitInfo{repo='GitHub', hash='d1d538bbaed8c15d1e67cd3fb0e6fbbf21e6e091', version='v0.126.3'}
-CommitInfo{repo='GitHub', hash='7cde60b5d23dc2342bf4acddaa02c8037c25b710', version='v0.127.0'}
-CommitInfo{repo='GitHub', hash='6e47d0b75fd571edfbe0cc3c5d0da3a14ddef9b2', version='v0.128.0'}
-CommitInfo{repo='GitHub', hash='8d350e036ae0feee9a00119da8ae11e46ef3ea9c', version='v0.128.1'}
-CommitInfo{repo='GitHub', hash='a318063dfb4435e785d949252e63e756a51b05f7', version='v0.128.2'}
-CommitInfo{repo='GitHub', hash='bea935c4d55513c97da01a492c1579db3a8cbebe', version='v0.128.3'}
-CommitInfo{repo='GitHub', hash='f1642f1afd6949973a9572686c0a8d85c4730d19', version='v0.128.4'}
-CommitInfo{repo='GitHub', hash='8d5ee6a92d016ca22e013908fab731909943e1cd', version='v0.129.0'}
-CommitInfo{repo='GitHub', hash='7be1063ac2c164bef355779063294a6acf4dedb2', version='v0.129.1'}
-CommitInfo{repo='GitHub', hash='423fc843a2937b6dbd85307ed8c4f930e30f6e4e', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='3c4890bc554bd54a25eeff4df006eb82214b37d6', version='v0.130.0'}
-CommitInfo{repo='GitHub', hash='6715d9a0ef3eb8ccb3accff8d21c6bdb895a29f8', version='v0.130.1'}
-CommitInfo{repo='GitHub', hash='024ee71df9ebd983435ccef5018b1893a8810027', version='v0.130.2'}
-CommitInfo{repo='GitHub', hash='0e1a9fae389462287328548e900adcb6fed614b6', version='v0.130.3'}
-CommitInfo{repo='GitHub', hash='5dab3bceefd67c7c0807a0a893e85534a77ffb51', version='v0.131.0'}
-CommitInfo{repo='GitHub', hash='4ca5885b6347f395293f02f40c5fcf140897f82e', version='v0.131.1'}
-CommitInfo{repo='GitHub', hash='f9ba0ae5c8c4dd83e2f68648671fd9263c65c398', version='v0.131.2'}
-CommitInfo{repo='GitHub', hash='68826ae6401e84b2f619f729fa22d9efa614190c', version='v0.131.3'}
-CommitInfo{repo='GitHub', hash='cf9fb972c897a9d7443f956dd07eeb3229b95479', version='v0.131.4'}
-CommitInfo{repo='GitHub', hash='52bbbc3ec64713bc469b0170b3079196fa90347d', version='v0.131.5'}
-CommitInfo{repo='GitHub', hash='76b850192166403a30dd196ae224bdb81b2c0441', version='v0.131.6'}
-CommitInfo{repo='GitHub', hash='4233eaab1704906175ae859ff3262bb2108a3281', version='v0.131.7'}
-CommitInfo{repo='GitHub', hash='f5daa8598199b713558ebe0c0f15a1751d3220f2', version='v0.131.8'}
-CommitInfo{repo='GitHub', hash='6e1648c7dc8e3ed541fb801f7f2a09f6236f97b0', version='v0.132.0'}
-CommitInfo{repo='GitHub', hash='8a6b863fd7e33dc9dc2df0a18c171b0bbce48041', version='v0.132.1'}
-CommitInfo{repo='GitHub', hash='f584904a3516c6a6cba64c2695cc5fc409ff5b48', version='v0.132.10'}
-CommitInfo{repo='GitHub', hash='401c17d1de38799bb0cc99bb98447ed1d734fd20', version='v0.132.11'}
-CommitInfo{repo='GitHub', hash='af971d4c782f4c7280c0baaa5cf05ab03707027d', version='v0.132.2'}
-CommitInfo{repo='GitHub', hash='64bca96e1a978b69435af729b2070ba2c3f78aa7', version='v0.132.3'}
-CommitInfo{repo='GitHub', hash='6ccf39b863fee1217f7f5e1c2cf4b09a54072b3b', version='v0.132.4'}
-CommitInfo{repo='GitHub', hash='e656c5ede7f14a93675e276a540e902bb8174ecf', version='v0.132.5'}
-CommitInfo{repo='GitHub', hash='7cdd1922e7849e83b210a7618706ff77cb62a9d5', version='v0.132.6'}
-CommitInfo{repo='GitHub', hash='8a2f6948be01413af4758687dc17807d9ec064b1', version='v0.132.7'}
-CommitInfo{repo='GitHub', hash='1f3cd73d7195caa71f8c76146f28013e883bab38', version='v0.132.8'}
-CommitInfo{repo='GitHub', hash='f6ededf4fc275dbd78faf59f74a221a1b35c39cd', version='v0.132.9'}
-CommitInfo{repo='GitHub', hash='64d502f9e8d54d56091a979aca4bef027080fe7f', version='v0.133.0'}
-CommitInfo{repo='GitHub', hash='d6f313f12a11f3fd2badda3186634658285c854e', version='v0.133.1'}
-CommitInfo{repo='GitHub', hash='8dfda0c2e24f9dc5d520fd23ef67e95fff51a741', version='v0.133.2'}
-CommitInfo{repo='GitHub', hash='6470b3d9098c9459876dcc58fc77f0c3321dc403', version='v0.133.3'}
-CommitInfo{repo='GitHub', hash='ae1f134ff532baa6971ec5bf8eecbdb6a5102e65', version='v0.134.0'}
-CommitInfo{repo='GitHub', hash='ed3354a0658cfa046da5d6fb06ecfe5f6255bc46', version='v0.134.1'}
-CommitInfo{repo='GitHub', hash='37559778ac9f1154e21ff539a333e8ce78e7839e', version='v0.134.2'}
-CommitInfo{repo='GitHub', hash='b01cd4efbcc03335e73c2ea743c94e3b32008b16', version='v0.135.0'}
-CommitInfo{repo='GitHub', hash='63427f1f73d70f22cf322306a0ddf6773d33b9c1', version='v0.135.1'}
-CommitInfo{repo='GitHub', hash='b61f9b226e83fa042fdd71e58cda16750c5404b4', version='v0.135.2'}
-CommitInfo{repo='GitHub', hash='3881cf98e06401160918299221ce5e09631136b9', version='v0.135.3'}
-CommitInfo{repo='GitHub', hash='be92143a58f09238e66835938f2c0be8e0bf7a10', version='v0.135.4'}
-CommitInfo{repo='GitHub', hash='55af4eb9b9033249ee4df5ed3a24ff65b554a309', version='v0.135.5'}
-CommitInfo{repo='GitHub', hash='fc25d05ac8f340b002a2870f1d1c13c7cae3f953', version='v0.135.6'}
-CommitInfo{repo='GitHub', hash='f3ded89ffb8c002ce58febcf43a747bdc07617fd', version='v0.135.7'}
-CommitInfo{repo='GitHub', hash='c7e20a0d0b993ebc27e4d5420bae860a4c7ce781', version='v0.135.8'}
-CommitInfo{repo='GitHub', hash='11de3d86753180e905730ea4e76629427a2e647b', version='v0.135.9'}
-CommitInfo{repo='GitHub', hash='a7898d1b51fe54cc7b74af3b4b852e121ca7e8e7', version='v0.136.0'}
-CommitInfo{repo='GitHub', hash='057d5fd7847240ea943b0520826157df27cbe67c', version='v0.136.1'}
-CommitInfo{repo='GitHub', hash='409412465aef9f005a3ed5532d5f75fc242f0a54', version='v0.137.0'}
-CommitInfo{repo='GitHub', hash='0f0898ff41cad9c841faf01fb4819b323f1e34fc', version='v0.137.1'}
-CommitInfo{repo='GitHub', hash='1811d2e08f6d012771d4bf48a9312f4d215cb262', version='v0.137.2'}
-CommitInfo{repo='GitHub', hash='201aea2c82e52457cb25205f8d249ed12cf67a5d', version='v0.137.3'}
-CommitInfo{repo='GitHub', hash='fdcabdc2dd8bb7a89b8333c15478a35fadc76301', version='v0.137.4'}
-CommitInfo{repo='GitHub', hash='6b44a19733c2f40c145999cfec19351b13c80fb6', version='v0.137.5'}
-CommitInfo{repo='GitHub', hash='8eed6250ffbe51574aff00cb9d1c4a0996778720', version='v0.137.6'}
-CommitInfo{repo='GitHub', hash='9c60ab5ccee73b06b6827043962888cb69e2ba48', version='v0.137.7'}
-CommitInfo{repo='GitHub', hash='b67704f162a9508c05c818ee6665314a212c7553', version='v0.138.0'}
-CommitInfo{repo='GitHub', hash='4cc9ed5273a58617533f71326287ce9dd0e60394', version='v0.138.1'}
-CommitInfo{repo='GitHub', hash='960e01c14f63d98b178243f2f9352d626b4329a7', version='v0.139.0'}
-CommitInfo{repo='GitHub', hash='5208df0d4a5d987071f82ab5188eefc424b252b0', version='v0.139.1'}
-CommitInfo{repo='GitHub', hash='ab96f9460e5055d2d87ab637beac9714f3120231', version='v0.139.2'}
-CommitInfo{repo='GitHub', hash='f251c9d44f1a1bbfb85e36bdb23c6c7df964e462', version='v0.139.3'}
-CommitInfo{repo='GitHub', hash='1995569c953610c7a549f3a0c2a50da507696c31', version='v0.139.4'}
-CommitInfo{repo='GitHub', hash='b883652fa53b4e7602f9b70156d111f094e7b638', version='v0.139.5'}
-CommitInfo{repo='GitHub', hash='33c3e671123409113b97c3dc53c5f2a759818fdb', version='v0.139.6'}
-CommitInfo{repo='GitHub', hash='6a9e5c8b1239597ca42d4d12ffd0572e857b6c7e', version='v0.139.7'}
-CommitInfo{repo='GitHub', hash='9282dfc5f17c0fddba7df5b8376c926d611a3fd8', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='3d5be2bae0c5796847e2a3bde8314ff5a81e22ed', version='v0.140.0'}
-CommitInfo{repo='GitHub', hash='e4e8e3ac0537c3b38cd94755bcee4a3e9e20bf93', version='v0.140.1'}
-CommitInfo{repo='GitHub', hash='0014e634ac1404456281c40210ecc7d5fe518b18', version='v0.140.2'}
-CommitInfo{repo='GitHub', hash='611fce44bb67d85e09dc3ac7ae9f546dbea52f1c', version='v0.140.3'}
-CommitInfo{repo='GitHub', hash='c0e3c5c8ed89aa598512404a5ca7fa7c8608ef1e', version='v0.140.4'}
-CommitInfo{repo='GitHub', hash='442a2c98ce555a16853100e053cd0476c4fcbf9f', version='v0.140.5'}
-CommitInfo{repo='GitHub', hash='8d15bc36007258098cd7c1a595f18731e7ff6c1b', version='v0.140.6'}
-CommitInfo{repo='GitHub', hash='0777e585edc5bf3252eb3cb59e5ba3d35faa2062', version='v0.14.1'}
-CommitInfo{repo='GitHub', hash='0fc060f05fa70d34ddd929b2f2aaf503266ee390', version='v0.141.0'}
-CommitInfo{repo='GitHub', hash='51d24d8f39f014ba7170f86d78f9192e2d12d417', version='v0.141.1'}
-CommitInfo{repo='GitHub', hash='8532af7a22aa7c7a16c6dbafa1d56adff5f2eca5', version='v0.142.0'}
-CommitInfo{repo='GitHub', hash='cce527a217b50ec5c1a78b41f2204552ea6969e9', version='v0.142.1'}
-CommitInfo{repo='GitHub', hash='8ba0ca2e733370a7817546129ca94e88db4f52ad', version='v0.143.0'}
-CommitInfo{repo='GitHub', hash='f7b2efe7b1c4156beaf1b5b4b3b29dc5c9e25f51', version='v0.143.1'}
-CommitInfo{repo='GitHub', hash='7e9f6ef31a2c276793369753f69970e66b90f0e3', version='v0.144.0'}
-CommitInfo{repo='GitHub', hash='6821fd273a2fec1d639c14f6806a06d94d83a963', version='v0.144.1'}
-CommitInfo{repo='GitHub', hash='a8aed948e03e5033fd800845a564cf4899249e93', version='v0.145.0'}
-CommitInfo{repo='GitHub', hash='9032900c90374938711c20fafebdc2bd730e609d', version='v0.145.1'}
-CommitInfo{repo='GitHub', hash='24fe23a6c95e94194a7276b0d874a25b7e5bf69d', version='v0.145.10'}
-CommitInfo{repo='GitHub', hash='24fe23a6c95e94194a7276b0d874a25b7e5bf69d', version='v0.145.10'}
-CommitInfo{repo='GitHub', hash='24fe23a6c95e94194a7276b0d874a25b7e5bf69d', version='v0.145.10'}
-CommitInfo{repo='GitHub', hash='24fe23a6c95e94194a7276b0d874a25b7e5bf69d', version='v0.145.10'}
-CommitInfo{repo='GitHub', hash='b055c20cb4a7c7d7838baa7d9a86d5edec00ab45', version='v0.145.11'}
-CommitInfo{repo='GitHub', hash='b055c20cb4a7c7d7838baa7d9a86d5edec00ab45', version='v0.145.11'}
-CommitInfo{repo='GitHub', hash='b055c20cb4a7c7d7838baa7d9a86d5edec00ab45', version='v0.145.11'}
-CommitInfo{repo='GitHub', hash='b055c20cb4a7c7d7838baa7d9a86d5edec00ab45', version='v0.145.11'}
-CommitInfo{repo='GitHub', hash='9de84c5b6ebeb0d1dd87f5b3d4e64a4bad4aeae8', version='v0.145.2'}
-CommitInfo{repo='GitHub', hash='c323ea30873ec240a565a25d1bc61bbbb84e2e30', version='v0.145.3'}
-CommitInfo{repo='GitHub', hash='c323ea30873ec240a565a25d1bc61bbbb84e2e30', version='v0.145.3'}
-CommitInfo{repo='GitHub', hash='c323ea30873ec240a565a25d1bc61bbbb84e2e30', version='v0.145.3'}
-CommitInfo{repo='GitHub', hash='c323ea30873ec240a565a25d1bc61bbbb84e2e30', version='v0.145.3'}
-CommitInfo{repo='GitHub', hash='ed17afc876aa8612dfd5ad55cadb2cb36444bf1e', version='v0.145.4'}
-CommitInfo{repo='GitHub', hash='ed17afc876aa8612dfd5ad55cadb2cb36444bf1e', version='v0.145.4'}
-CommitInfo{repo='GitHub', hash='ed17afc876aa8612dfd5ad55cadb2cb36444bf1e', version='v0.145.4'}
-CommitInfo{repo='GitHub', hash='ed17afc876aa8612dfd5ad55cadb2cb36444bf1e', version='v0.145.4'}
-CommitInfo{repo='GitHub', hash='1d245eb8c1a2f999cd4f6093dad82f5b6cb96280', version='v0.145.5'}
-CommitInfo{repo='GitHub', hash='1d245eb8c1a2f999cd4f6093dad82f5b6cb96280', version='v0.145.5'}
-CommitInfo{repo='GitHub', hash='1d245eb8c1a2f999cd4f6093dad82f5b6cb96280', version='v0.145.5'}
-CommitInfo{repo='GitHub', hash='1d245eb8c1a2f999cd4f6093dad82f5b6cb96280', version='v0.145.5'}
-CommitInfo{repo='GitHub', hash='969557234b526d4b02c510ffc03a89eedb29a452', version='v0.145.6'}
-CommitInfo{repo='GitHub', hash='969557234b526d4b02c510ffc03a89eedb29a452', version='v0.145.6'}
-CommitInfo{repo='GitHub', hash='969557234b526d4b02c510ffc03a89eedb29a452', version='v0.145.6'}
-CommitInfo{repo='GitHub', hash='969557234b526d4b02c510ffc03a89eedb29a452', version='v0.145.6'}
-CommitInfo{repo='GitHub', hash='94bc0a36aa6c09a9a502fe7b5c79b8f10947b383', version='v0.145.7'}
-CommitInfo{repo='GitHub', hash='94bc0a36aa6c09a9a502fe7b5c79b8f10947b383', version='v0.145.7'}
-CommitInfo{repo='GitHub', hash='94bc0a36aa6c09a9a502fe7b5c79b8f10947b383', version='v0.145.7'}
-CommitInfo{repo='GitHub', hash='94bc0a36aa6c09a9a502fe7b5c79b8f10947b383', version='v0.145.7'}
-CommitInfo{repo='GitHub', hash='8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf', version='v0.145.8'}
-CommitInfo{repo='GitHub', hash='8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf', version='v0.145.8'}
-CommitInfo{repo='GitHub', hash='8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf', version='v0.145.8'}
-CommitInfo{repo='GitHub', hash='8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf', version='v0.145.8'}
-CommitInfo{repo='GitHub', hash='b11e57bce56a32b874fcd5d7b7392942dd8a835f', version='v0.145.9'}
-CommitInfo{repo='GitHub', hash='b11e57bce56a32b874fcd5d7b7392942dd8a835f', version='v0.145.9'}
-CommitInfo{repo='GitHub', hash='b11e57bce56a32b874fcd5d7b7392942dd8a835f', version='v0.145.9'}
-CommitInfo{repo='GitHub', hash='88aab714161ac17cf466d45c69feeb879fc8d59f', version='v0.146.0'}
-CommitInfo{repo='GitHub', hash='5a21c50de9445e2747640b64a7b3e49b1be88e6c', version='v0.146.1'}
-CommitInfo{repo='GitHub', hash='eef63e119b818312a5d2a0ca4cc420e938f960cb', version='v0.147.0'}
-CommitInfo{repo='GitHub', hash='016cc90059151683ceff6f6816957dec72a1b44b', version='v0.148.0'}
-CommitInfo{repo='GitHub', hash='960207fc1a6c3eb6bd6e05abe6bb297f5b24a551', version='v0.148.1'}
-CommitInfo{repo='GitHub', hash='c27e4b7c9c9db8d43f5c651edf04ea4f0b148f72', version='v0.148.2'}
-CommitInfo{repo='GitHub', hash='fce1fe0a8557702e3df3e6cd7aba8230467ac02c', version='v0.148.3'}
-CommitInfo{repo='GitHub', hash='c2be741d0b6c3116e72a0a364b623b617130d4c7', version='v0.148.4'}
-CommitInfo{repo='GitHub', hash='a0a14685622cac4d799a38f0902761e3b3e3e51c', version='v0.149.0'}
-CommitInfo{repo='GitHub', hash='8c2022bf6486fe23fbef3fc06c2c2b6255274f3e', version='v0.149.1'}
-CommitInfo{repo='GitHub', hash='0adfee69b8ca57d55852f16296acfe26f457b531', version='v0.149.10'}
-CommitInfo{repo='GitHub', hash='1c15d15e260dcc5fb2174b55446b3bf76f2f9127', version='v0.149.11'}
-CommitInfo{repo='GitHub', hash='14414702377a1702699ad9c64e09afec503f4341', version='v0.149.12'}
-CommitInfo{repo='GitHub', hash='80078e665e773c1fc14e60571681f8675da8d0b2', version='v0.149.13'}
-CommitInfo{repo='GitHub', hash='4cf88b4a576d7bf98f6aac4edefb75642a414ee3', version='v0.149.2'}
-CommitInfo{repo='GitHub', hash='9aa4dac66bed71f3ac59f0c8baeca0a17d11617d', version='v0.149.3'}
-CommitInfo{repo='GitHub', hash='88cc5c9901c80bfb0a460a7b80031a1dbba9bdd0', version='v0.149.4'}
-CommitInfo{repo='GitHub', hash='f54404edeb624c3a9ad5bdb9dd2fc8ff0926e338', version='v0.149.5'}
-CommitInfo{repo='GitHub', hash='1b18a26900615b9b0ea945602810cae6bb161330', version='v0.149.6'}
-CommitInfo{repo='GitHub', hash='2c071a2d8c85eb042a757d10f5a674d10e854142', version='v0.149.7'}
-CommitInfo{repo='GitHub', hash='dd803e946d7c7b845f8e70c8001f2a93b5af100b', version='v0.149.8'}
-CommitInfo{repo='GitHub', hash='bdb89accf816e0eeb050519de3fe86fab8ec084a', version='v0.149.9'}
-CommitInfo{repo='GitHub', hash='312c9f6412fb82daed28f1b13abaa7ba762f6fe5', version='v0.15.0'}
-CommitInfo{repo='GitHub', hash='838ebc986f0c194a1a52b29068bf7c79056f24a3', version='v0.150.0'}
-CommitInfo{repo='GitHub', hash='95fd790361080abeb3d2ae80217eb00d65533f46', version='v0.150.1'}
-CommitInfo{repo='GitHub', hash='c668468ccb52bcbdbbe5dca7a63529c2528f1f78', version='v0.150.2'}
-CommitInfo{repo='GitHub', hash='c1f68d0058d3b37da4d4c141851334a8628ff53e', version='v0.150.3'}
-CommitInfo{repo='GitHub', hash='db23e65280e09a2d5e48be4755b60642edff3edb', version='v0.150.4'}
-CommitInfo{repo='GitHub', hash='2f51a1049d7eb6772fda72bdfab7953a0266ac36', version='v0.150.5'}
-CommitInfo{repo='GitHub', hash='28d4c5b2b64697abde5ca8ea826c126f3db6ee45', version='v0.150.6'}
-CommitInfo{repo='GitHub', hash='b352727f187b0de31ca44e4faacb815537afaa9f', version='v0.150.7'}
-CommitInfo{repo='GitHub', hash='9d7faa8f9bd66dbbc60fbd970b1a1120ae503175', version='v0.150.8'}
-CommitInfo{repo='GitHub', hash='374553d194048a6907ff1810a4a1f0a06cca17b7', version='v0.151.0'}
-CommitInfo{repo='GitHub', hash='1e36f468bbd8a4cb3752f69fe3b7c19f957e0e3c', version='v0.151.1'}
-CommitInfo{repo='GitHub', hash='f8b32e787e8b638f08234751df250b07860a346f', version='v0.151.2'}
-CommitInfo{repo='GitHub', hash='2985f66f0118026385dbe7ef82fd5048152c9817', version='v0.151.3'}
-CommitInfo{repo='GitHub', hash='471b467b8dfe2d73ca42fc91e3cceb6eca14c5e9', version='v0.151.4'}
-CommitInfo{repo='GitHub', hash='da0184aff93a5c72cb6506e0d97fd5fea327920c', version='v0.151.5'}
-CommitInfo{repo='GitHub', hash='a834c2d851e988785006c2f70eadf20e0fa2ff1f', version='v0.151.6'}
-CommitInfo{repo='GitHub', hash='6bf2c4de08e473d87ab3485a4a17831020c2be50', version='v0.152.0'}
-CommitInfo{repo='GitHub', hash='61cdbc3276c5d767e315f4b5986cec960648d716', version='v0.152.1'}
-CommitInfo{repo='GitHub', hash='5aaa41da6c441c2c04fdd2542ed31e859e1f370d', version='v0.152.2'}
-CommitInfo{repo='GitHub', hash='375990ef651f35846dd66f682abc11c948975800', version='v0.152.3'}
-CommitInfo{repo='GitHub', hash='60c4e8ebc30246ebfc67cabf46e0dfe02b9fb791', version='v0.152.4'}
-CommitInfo{repo='GitHub', hash='ad5daa7d9dcf5904e7b13df001e6a0263d029259', version='v0.152.5'}
-CommitInfo{repo='GitHub', hash='c7ef117c0eda798c9bb3f8aedf728c37394d0d27', version='v0.152.6'}
-CommitInfo{repo='GitHub', hash='c40d3362bc8fc9130ce7b87c06a1ac6ef4aa732c', version='v0.152.7'}
-CommitInfo{repo='GitHub', hash='c58c8b205df8e2921520fed451b0eb6ff42c6ece', version='v0.152.8'}
-CommitInfo{repo='GitHub', hash='fa5783e3f60644e151694b258c4624142664ce91', version='v0.152.9'}
-CommitInfo{repo='GitHub', hash='73ce506ce6b986170b57987f3b4cb72ef3ff2c7d', version='v0.153.0'}
-CommitInfo{repo='GitHub', hash='f7fa6b883ac4f16a15c1e215732854000cd7b509', version='v0.153.1'}
-CommitInfo{repo='GitHub', hash='6abdfe0384278fb28ac2f9c4c9dd0ccb011aff8d', version='v0.153.2'}
-CommitInfo{repo='GitHub', hash='2c59f79ea099ab1fc892a2caa9743e19c0583431', version='v0.153.3'}
-CommitInfo{repo='GitHub', hash='67ec87b849274387dc772ea0f75c77be1ea5b8f2', version='v0.153.4'}
-CommitInfo{repo='GitHub', hash='0a6804a487f652234de499a82f1d08ce0cdfe94c', version='v0.154.0'}
-CommitInfo{repo='GitHub', hash='3701572fae37ed0c236912c46fff80069a272580', version='v0.154.1'}
-CommitInfo{repo='GitHub', hash='cd5c25ec8390b2aedd603874fedcb9f8f7dc9e1c', version='v0.155.0'}
-CommitInfo{repo='GitHub', hash='0f0e73f55c51de212a23a9cff7f4bb24eda8f4fe', version='v0.155.1'}
-CommitInfo{repo='GitHub', hash='f6e80b0b7a1891ee73fdb2f03b556ce8264effe2', version='v0.155.2'}
-CommitInfo{repo='GitHub', hash='528475e0f9680ce754edb7b30946029d34cce2ea', version='v0.155.3'}
-CommitInfo{repo='GitHub', hash='64d999284d2f618bfb8c3c9963eb91dc48c0a9b5', version='v0.155.4'}
-CommitInfo{repo='GitHub', hash='368e58c2e5791594fe9eb261cc0432d556c6e3e2', version='v0.156.0'}
-CommitInfo{repo='GitHub', hash='bff5b181e6995a7a8cac1dd856c09fa550eb463a', version='v0.156.1'}
-CommitInfo{repo='GitHub', hash='e656345307fb4a4ade90d3124665c85060eac6e4', version='v0.156.2'}
-CommitInfo{repo='GitHub', hash='d3c9ccd06e10bd5512e416d2f29077684f40fae4', version='v0.156.3'}
-CommitInfo{repo='GitHub', hash='be924c63498b5d8977804f21bf71be9809048927', version='v0.156.4'}
-CommitInfo{repo='GitHub', hash='eac60fa41a90709dcc798a98d855fcda965fd9d5', version='v0.157.0'}
-CommitInfo{repo='GitHub', hash='014c8e0d872116cab6d817de8216da23c7ef95ab', version='v0.157.1'}
-CommitInfo{repo='GitHub', hash='e2488b7befd1b297bca4de90fc15ca059f96f78f', version='v0.157.2'}
-CommitInfo{repo='GitHub', hash='9e87237feca2feac8b7d5c269f80b396761cbd82', version='v0.157.3'}
-CommitInfo{repo='GitHub', hash='2fafe997d7e844b893d6e0af6440d392716043b4', version='v0.157.4'}
-CommitInfo{repo='GitHub', hash='8e0364233dcd19a4c957862282c201531ea97a8e', version='v0.157.5'}
-CommitInfo{repo='GitHub', hash='01eb474b4cf2ecaa52379e603dd529b916aa840a', version='v0.157.6'}
-CommitInfo{repo='GitHub', hash='35ee11911d489df3b04a53d2e90fe645e306c75b', version='v0.157.7'}
-CommitInfo{repo='GitHub', hash='58bb512d6fc1abd36ff73cd1883b5bda3cbae9f6', version='v0.157.8'}
-CommitInfo{repo='GitHub', hash='54f029a6f38faf47a8310d130727b0098698c6a5', version='v0.157.9'}
-CommitInfo{repo='GitHub', hash='21a635a4c1d905e2f037b9e3520e219451d7d7b3', version='v0.158.0'}
-CommitInfo{repo='GitHub', hash='cec830a615f58045fe6b806d7e87bbf2d7d98da3', version='v0.158.1'}
-CommitInfo{repo='GitHub', hash='9f51aa9ae69e49fcc7f6f275de894bf3cf8a8cb3', version='v0.159.0'}
-CommitInfo{repo='GitHub', hash='c537de58c30baf2573212c9dd3f73c250083e319', version='v0.159.1'}
-CommitInfo{repo='GitHub', hash='3556da5870efee41e9b0fe8b1d9c203ad835f766', version='v0.16.0'}
-CommitInfo{repo='GitHub', hash='d31456a07e591a6a00d3b284279a834060814014', version='v0.160.0'}
-CommitInfo{repo='GitHub', hash='ca34d0e1abd0849858c7d4934934981101413516', version='v0.160.1'}
-CommitInfo{repo='GitHub', hash='166b0faf5c80add3785ec8fcae372d2767e5e1a4', version='v0.160.2'}
-CommitInfo{repo='GitHub', hash='9786067ed5b09b91d0192da65d90d218df02d47e', version='v0.160.3'}
-CommitInfo{repo='GitHub', hash='1b262ee016fffd13b804d863dc581f85d1969e1b', version='v0.160.4'}
-CommitInfo{repo='GitHub', hash='af1ffa0efd63457bf1fceb28bdc247eed2f6ef5b', version='v0.160.5'}
-CommitInfo{repo='GitHub', hash='d82278daeeedeafba3155007e5eb40c9b76934f8', version='v0.160.6'}
-CommitInfo{repo='GitHub', hash='1b729852cd78fb1d1e8221e856ec5ed6432d606a', version='v0.160.7'}
-CommitInfo{repo='GitHub', hash='6ab8c4d69cfe0e801089edeb599d850a0b62ccce', version='v0.160.8'}
-CommitInfo{repo='GitHub', hash='e0527ccf6f4bd0ab1071367c4da4062752076098', version='v0.16.1'}
-CommitInfo{repo='GitHub', hash='264f8f43ed046ca73acbe2f5b2a382247e2aa755', version='v0.161.0'}
-CommitInfo{repo='GitHub', hash='3fe69beafb042ad58dfc400aabb326d2ad72796f', version='v0.161.1'}
-CommitInfo{repo='GitHub', hash='7d917f87b9f75f4873ef8c278de07a57662aa485', version='v0.161.10'}
-CommitInfo{repo='GitHub', hash='0cf549acb8906c2cbac025becb7f491fa34e4410', version='v0.161.11'}
-CommitInfo{repo='GitHub', hash='8b7db6fe27f3f3c8d62a1356f39a9b0e63ee71b8', version='v0.161.12'}
-CommitInfo{repo='GitHub', hash='8254ef08fef36f9376d65d9056831dbde3bc321a', version='v0.161.13'}
-CommitInfo{repo='GitHub', hash='63484f76c0172e83bd0803a8f9bcd06df5c04231', version='v0.161.14'}
-CommitInfo{repo='GitHub', hash='115978fb5b0d3ce264c0fee3fade3c479bc63305', version='v0.161.2'}
-CommitInfo{repo='GitHub', hash='bdc3e2b1547e128d06b9092858569fa3ebc4e6ad', version='v0.161.3'}
-CommitInfo{repo='GitHub', hash='958e7f91a940543c87609d87373d8418820f32e7', version='v0.161.4'}
-CommitInfo{repo='GitHub', hash='6002b8719fd3ff1019ca0e0cd71a0af1bb970e2a', version='v0.161.5'}
-CommitInfo{repo='GitHub', hash='df6c5bd6ac7f89390f53e62c211677218575d04b', version='v0.161.6'}
-CommitInfo{repo='GitHub', hash='6b52dd2c6cf967b6091d145e48c51ebf200c433a', version='v0.161.7'}
-CommitInfo{repo='GitHub', hash='bbb32ada1ef80bffe84d74f6ddf375a7c3672f0a', version='v0.161.8'}
-CommitInfo{repo='GitHub', hash='5d385e04cc5ffb75e24ea5518ba14c9cfdb5f00e', version='v0.161.9'}
-CommitInfo{repo='GitHub', hash='1dbfa5395f87243eac272b3af18947ebf803ac5d', version='v0.162.0'}
-CommitInfo{repo='GitHub', hash='436e7b240588b413227238bcffd26efe75009e0f', version='v0.163.0'}
-CommitInfo{repo='GitHub', hash='8b0f191207838e7af1b239b90c641234b1f7ffd8', version='v0.163.1'}
-CommitInfo{repo='GitHub', hash='86bd7c8ed7c78ce61e1b73f3594f23f0fd3e4a72', version='v0.163.2'}
-CommitInfo{repo='GitHub', hash='48184d87da45dc7a5b24ddeded35cc34e36aaa86', version='v0.163.3'}
-CommitInfo{repo='GitHub', hash='ae82e6cefdbdb0adf8a7622827508bb440ae678f', version='v0.163.4'}
-CommitInfo{repo='GitHub', hash='56126bf995171cf0e12586a60daa8aee9b468802', version='v0.163.5'}
-CommitInfo{repo='GitHub', hash='e6bd9e75dc87e001a19335e79104915545b32555', version='v0.163.6'}
-CommitInfo{repo='GitHub', hash='de1cb2a6fc6c964df0383844e60dd0fb13c0af43', version='v0.164.0'}
-CommitInfo{repo='GitHub', hash='cc8e16c1d5cac293f1090d3c6aa91f529824cbaa', version='v0.164.1'}
-CommitInfo{repo='GitHub', hash='2b31252549b05a93ae854e53a2f24d53ad1bc634', version='v0.164.2'}
-CommitInfo{repo='GitHub', hash='99862ffe9e805d3e4a87c033e79016e01de1a220', version='v0.164.4'}
-CommitInfo{repo='GitHub', hash='760b168b6e42665b004237db89e33e8cb657fdce', version='v0.164.5'}
-CommitInfo{repo='GitHub', hash='68a0ed3f240eaed97454584bb5f513f6ef3ca3b9', version='v0.165.0'}
-CommitInfo{repo='GitHub', hash='00e4400afe6d3fb8927630b1b7f3c9a7e8ff4ba6', version='v0.165.1'}
-CommitInfo{repo='GitHub', hash='dc531e908c624e312046f3133b5b61b9d9c95f99', version='v0.165.10'}
-CommitInfo{repo='GitHub', hash='12a6981f28fc138ebdba02ca8f1f35934ff2a128', version='v0.165.11-0.165.11-testCI.0.0'}
-CommitInfo{repo='GitHub', hash='25c605e0a0b12e250febb3bca0e833208b32b367', version='v0.165.11-0.166.0.0'}
-CommitInfo{repo='GitHub', hash='e1db7cc3142fa4491f3e98bd362e006f546860ca', version='v0.165.11-test.0'}
-CommitInfo{repo='GitHub', hash='2b31fed238219b69fdd0265882fe56051e0913ef', version='v0.165.11-test.1'}
-CommitInfo{repo='GitHub', hash='dcba43ad83a60138040aea0b138dcd2d7d138c76', version='v0.165.11-test.2'}
-CommitInfo{repo='GitHub', hash='c57a5f9f9193a6035de713b05450430041d0907e', version='v0.165.11-test.3'}
-CommitInfo{repo='GitHub', hash='27926ffa61a3da6e3bd5bb462504bb3013592127', version='v0.165.11-test.4'}
-CommitInfo{repo='GitHub', hash='ec88d4c992606b4a0e02c1d953931c2d72c44ca7', version='v0.165.11-test.5'}
-CommitInfo{repo='GitHub', hash='1b43b39f672c461b4f1973a0afa6312221dee1f2', version='v0.165.11-test.6'}
-CommitInfo{repo='GitHub', hash='d44750d87af105ded4eec051d2dafe515be60bc4', version='v0.165.11-test.7'}
-CommitInfo{repo='GitHub', hash='7192198fb6dd9f49937da4bea0a7278191df5dc2', version='v0.165.13-0'}
-CommitInfo{repo='GitHub', hash='082a1521cf61ef96e4a7cf76408420073ffe0810', version='v0.165.14-beta.0'}
-CommitInfo{repo='GitHub', hash='d75ec91c6efd52514fb69f6820de58187f66fcf9', version='v0.165.16-beta.0'}
-CommitInfo{repo='GitHub', hash='e2bcb08e3250bb59f457374100e84c4c463d2bbe', version='v0.165.2'}
-CommitInfo{repo='GitHub', hash='8516afc6f7f0421b2fba6285c47276338f5e1174', version='v0.165.2-feature-remote-search'}
-CommitInfo{repo='GitHub', hash='80f8c5351e446f2d8937ff6780001a582dc16986', version='v0.165.3'}
-CommitInfo{repo='GitHub', hash='90456c6825bf88e9865b62be30abb6f864a630ca', version='v0.165.4'}
-CommitInfo{repo='GitHub', hash='701fdb16a4d96d7e56e765f367c34c3c69c3ddce', version='v0.165.5'}
-CommitInfo{repo='GitHub', hash='7e01951e88654eddb2381d74551a4fcba7039597', version='v0.165.6'}
-CommitInfo{repo='GitHub', hash='f5055d7b0b19eefef134af19fb864cb893752d70', version='v0.165.7'}
-CommitInfo{repo='GitHub', hash='42972ebb153743e14b6dce5389aee437bcb9f494', version='v0.165.8'}
-CommitInfo{repo='GitHub', hash='a0b51c62fd2e4549ba16c21c2077765042fb9ce9', version='v0.165.9'}
-CommitInfo{repo='GitHub', hash='fb06707d4785d09de526c191154e4577fea921a9', version='v0.166.0-0'}
-CommitInfo{repo='GitHub', hash='9e85d362428eeaa1cf75e0a2f2a3a833f2e9719c', version='v0.166.0-1'}
-CommitInfo{repo='GitHub', hash='07be9559eb96dbd211c96ded41612bd62bde9e37', version='v0.167.0-1'}
-CommitInfo{repo='GitHub', hash='af4bb61ca2203ecc468633a27d52cd744738c84b', version='v0.168.0'}
-CommitInfo{repo='GitHub', hash='09fc71c1148d4abf173975ffc2f8379ae3aaa0c5', version='v0.169.0'}
-CommitInfo{repo='GitHub', hash='8e89c23da2e65aa67198f55c82a750b44f30eb35', version='v0.17.0'}
-CommitInfo{repo='GitHub', hash='69a987e3b5963d2602564b46aef390801358c731', version='v0.170.0'}
-CommitInfo{repo='GitHub', hash='422f80988bacde19d790a28f635e4a3bf181a7d3', version='v0.17.1'}
-CommitInfo{repo='GitHub', hash='b116ac0456d94e53736da4a4613caeb9ef06f709', version='v0.171.0'}
-CommitInfo{repo='GitHub', hash='18808c779eefeaaf7ea4a4edb33f80952ee5260f', version='v0.172.0'}
-CommitInfo{repo='GitHub', hash='3e495d04c41e4449b8fa6dfd20bddb616b758845', version='v.0.173.0'}
-CommitInfo{repo='GitHub', hash='ebc10cbc910cd8f57cc850dd6036623be2e9a9e2', version='v0.173.1-dialog-bot.2204.0'}
-CommitInfo{repo='GitHub', hash='a196b51a28a914ebccc76af2577cf74e079136e1', version='v0.173.1-dialog-bot.2207.0'}
-CommitInfo{repo='GitHub', hash='327a30dcaa7f2bda2c90d8322fc5fb2bb6ba3806', version='v0.173.1-dialog-bot.2211.0'}
-CommitInfo{repo='GitHub', hash='315ae26203c770b61e6ea329b46139b1f41dedf1', version='v0.173.1-dialog-bot.2215.0'}
-CommitInfo{repo='GitHub', hash='24ff7bfe9d2cb58a95adcc8a623b80c6d4c393d7', version='v0.173.1-dialog-bot.2218.0'}
-CommitInfo{repo='GitHub', hash='9588e2bac55779bc0bd84fe716a2f068d377c634', version='v0.173.1-dialog-bot.2219.0'}
-CommitInfo{repo='GitHub', hash='624ae894c9c95d5bdc1ba45dd880848d4f6e8b9d', version='v0.173.1-dialog-bot.2221.0'}
-CommitInfo{repo='GitHub', hash='ac8386a7f1be31152312dc2d899a57b0c549193b', version='v0.173.1-dialog-bot.2224.0'}
-CommitInfo{repo='GitHub', hash='b0fc157b5ea42d3e88495518ba9781b62f7f1bb0', version='v0.173.1-dialog-bot.2228.0'}
-CommitInfo{repo='GitHub', hash='d73ae1e04b135e0a6588918751c13f23aa924c54', version='v0.174.0'}
-CommitInfo{repo='GitHub', hash='19a37419baada144dbc15d3dbbad53b0fb669bad', version='v0.175.0'}
-CommitInfo{repo='GitHub', hash='d60df5de4c6dff34c6b6477f09ff48f88f3aa261', version='v0.176.0'}
-CommitInfo{repo='GitHub', hash='d9b10660f5fde68bacdf3e8be116c17a8fa25d2b', version='v0.177.0'}
-CommitInfo{repo='GitHub', hash='25a19e32672e55fdc4f76c0517a0d31f492acce7', version='v0.178.0'}
-CommitInfo{repo='GitHub', hash='31ebcabd9ecb8c458ab3a965a84f9172750d72d3', version='v0.179.0'}
-CommitInfo{repo='GitHub', hash='6c082b8ddd8951f17ea70224b542949e2bef0a4b', version='v0.18.0'}
-CommitInfo{repo='GitHub', hash='243c0138bfc76b09f901de88b9fbc2440cb9c860', version='v0.180.0'}
-CommitInfo{repo='GitHub', hash='c5d3cd7ef058b572de5aaae76bbb412421b888f3', version='v0.18.1'}
-CommitInfo{repo='GitHub', hash='9581765ddd463f82ea95f1f78df2a220857840e8', version='v0.181.0'}
-CommitInfo{repo='GitHub', hash='f5cbe2b2c2282e30a6d5fa82140c3781941787d6', version='v0.18.2'}
-CommitInfo{repo='GitHub', hash='2c8d3f42c69256f8584c215a87b5cd17c904a8ce', version='v0.182.0'}
-CommitInfo{repo='GitHub', hash='c57e154aa66bb19950ad098da9166d54ac967b6c', version='v0.183.0'}
-CommitInfo{repo='GitHub', hash='2f947cbd682a25396c5b0aab2c5771697721b5e8', version='v0.184.0'}
-CommitInfo{repo='GitHub', hash='5ae48c19e3073051f0b1a05fa6fefcc57c5edaf3', version='v0.184.0-0'}
-CommitInfo{repo='GitHub', hash='ad75799235945e568e006adfda29fb3164fe0a7e', version='v0.184.0-1'}
-CommitInfo{repo='GitHub', hash='72fe0f335556d57ebed3db71240dc6a93ace56f6', version='v0.184.0-2'}
-CommitInfo{repo='GitHub', hash='3b363f161e3a8af019193d6932c889a6a4a0967c', version='v0.185.0'}
-CommitInfo{repo='GitHub', hash='0bf3f1632e5c53fa30fdcbd1e2da2fc4f1169ff0', version='v0.186.0'}
-CommitInfo{repo='GitHub', hash='5b8ad0e43dd3825d426cfbff66d352f954feeb41', version='v0.187.0'}
-CommitInfo{repo='GitHub', hash='1868bcedee80840d552970d1145992263c3f18b0', version='v0.19.0'}
-CommitInfo{repo='GitHub', hash='5ab3ce97155656f51c2826c31fc171a21ab52aa9', version='v0.19.1'}
-CommitInfo{repo='GitHub', hash='257317c3bea436912ff45996c7df9ac1676709d1', version='v0.19.2'}
-CommitInfo{repo='GitHub', hash='84bf9cdd714a59a8ed1ccae937d12d5168bbc78d', version='v0.19.3'}
-CommitInfo{repo='GitHub', hash='3d45b3ea2a45dfe1b1052a4439fb0bcfa9ae456e', version='v0.19.4'}
-CommitInfo{repo='GitHub', hash='30df90cb26ccc50c040a0dabe78eebee882a902b', version='v0.19.5'}
-CommitInfo{repo='GitHub', hash='a4bb7639570ff58e1f82c72d13b9552d7ac42fd5', version='v0.2.0'}
-CommitInfo{repo='GitHub', hash='bc1b40315ffe7d218cb1b4682fc32a239b9f21fa', version='v0.20.0'}
-CommitInfo{repo='GitHub', hash='70eaaf121ee1513e31fad97534b55ab523be100c', version='v0.21.0'}
-CommitInfo{repo='GitHub', hash='3aae94743ff1457a87cceea5700341b8b27b34bb', version='v0.21.1'}
-CommitInfo{repo='GitHub', hash='b61161ac3d99a6b696add3ffe05a5bf35b7b8be4', version='v0.21.2'}
-CommitInfo{repo='GitHub', hash='b6808be9207f656b54967a8815e3e42defb52714', version='v0.21.3'}
-CommitInfo{repo='GitHub', hash='d5a274d19957fb2a2563eb614a73eff61a571f5e', version='v0.22.0'}
-CommitInfo{repo='GitHub', hash='93cfc3eaef4463c01dc008b8a3f4230a942e6f00', version='v0.22.1'}
-CommitInfo{repo='GitHub', hash='0fa293a29c144c4897323c59dcf7f95a1d8c7a95', version='v0.23.0'}
-CommitInfo{repo='GitHub', hash='ff6984567c4e9154c8fdb070e2e8c58fff50322f', version='v0.24.0'}
-CommitInfo{repo='GitHub', hash='2ea91368d5a798d11a7c2d1939017f257e81cde9', version='v0.25.0'}
-CommitInfo{repo='GitHub', hash='69be976570ab438739fd6274f1472930a91ceced', version='v0.25.1'}
-CommitInfo{repo='GitHub', hash='b3e16179dbcf513fdc12235a27ef86ff628a51c4', version='v0.25.2'}
-CommitInfo{repo='GitHub', hash='a20433bba43d4105d65d70ae407f5752f6dee8b2', version='v0.25.3'}
-CommitInfo{repo='GitHub', hash='f743172fb22b9425a9f351913139b3aa4503aaae', version='v0.25.4'}
-CommitInfo{repo='GitHub', hash='f97fb041b6735ee18a33b67668cfaa648de24cf7', version='v0.26.0'}
-CommitInfo{repo='GitHub', hash='a08abc9a1556d5978aab4b702209097da57c01f6', version='v0.26.1'}
-CommitInfo{repo='GitHub', hash='3880fa753c473468d13c0a15bbb4f4fbae50277e', version='v0.26.2'}
-CommitInfo{repo='GitHub', hash='8250f52e24737a227acd48cfdb236e66633b6f55', version='v0.26.3'}
-CommitInfo{repo='GitHub', hash='511d7fa3b4c5f9ae4c10ce3881712a84761c88ea', version='v0.26.4'}
-CommitInfo{repo='GitHub', hash='fbb5e4936607ec2b0b6b3b7150240b2cedd8f3ff', version='v0.27.0'}
-CommitInfo{repo='GitHub', hash='b6dbcdea8e230206dac752b4c02fb5414498a3da', version='v0.27.1'}
-CommitInfo{repo='GitHub', hash='cbbc623f47f160c87388889e85a4996ce70d35dc', version='v0.28.0'}
-CommitInfo{repo='GitHub', hash='4bce120f2cae7840b78a6fe891601225bd33c928', version='v0.29.0'}
-CommitInfo{repo='GitHub', hash='c179dd34b0224cc13337a21bfb697ec93d3b95de', version='v0.3.0'}
-CommitInfo{repo='GitHub', hash='16225f76d302d44bbe79141e8c2e30d04ab81219', version='v0.30.0'}
-CommitInfo{repo='GitHub', hash='a5efffdb01e6e7c207ac1eec42dba52733a749d0', version='v0.30.1'}
-CommitInfo{repo='GitHub', hash='ed5146748861a1e5fb0032b9039704551425ed90', version='v0.30.2'}
-CommitInfo{repo='GitHub', hash='570083477a11738afdfe36eb2f2ab6c84926d6c9', version='v0.31.0'}
-CommitInfo{repo='GitHub', hash='f40d1042d1c9997659d1f0390c186bde188c1b0e', version='v0.32.0'}
-CommitInfo{repo='GitHub', hash='1ee9fa4cc3cddaddb5288c7affc5dfe5db231644', version='v0.32.1'}
-CommitInfo{repo='GitHub', hash='b381aef65618c5d9543faa8d36b6e1808fe7b44f', version='v0.32.2'}
-CommitInfo{repo='GitHub', hash='5f06b0c4bcabc1964d431a135dc60a5c9fe8d06d', version='v0.32.3'}
-CommitInfo{repo='GitHub', hash='9f641b80aa38a83eeb682c254d642d822b7642ca', version='v0.32.4'}
-CommitInfo{repo='GitHub', hash='9f22a54056e055a32eebbf2e7f2cad76709b37ed', version='v0.33.0'}
-CommitInfo{repo='GitHub', hash='47f76826d54d9ff1501ad3c6b9ee6bb7a4ea2f7f', version='v0.33.1'}
-CommitInfo{repo='GitHub', hash='ba6c8f26374d7ff068a10e3b8c3b638cf4c5a909', version='v0.33.2'}
-CommitInfo{repo='GitHub', hash='9ee28db639b8c47508f813b7d1cb59a244fd837b', version='v0.34.0'}
-CommitInfo{repo='GitHub', hash='7aa805b28b21643bf36475650902127cbe4f7b9e', version='v0.34.1'}
-CommitInfo{repo='GitHub', hash='62148df2c1baa57e259118d7f88bc80e179f8e15', version='v0.35.0'}
-CommitInfo{repo='GitHub', hash='95775891575c57c0d1b3979591ca49c45d607421', version='v0.36.0'}
-CommitInfo{repo='GitHub', hash='1b400662726eb650be728d9710470f06a8bc3e3e', version='v0.37.0'}
-CommitInfo{repo='GitHub', hash='6d2fb86cc89ebca65c4796c5880c3967f63184ce', version='v0.38.0'}
-CommitInfo{repo='GitHub', hash='fe8a09ac7f9ca5d288fbbd91edefcc66b6ab3fc0', version='v0.39.0'}
-CommitInfo{repo='GitHub', hash='f340910fed79d2424b669639441c80c4512811ab', version='v0.39.1'}
-CommitInfo{repo='GitHub', hash='4f80f1c4f91e35fb935cdd0d3a1990ab5733e911', version='v0.39.2'}
-CommitInfo{repo='GitHub', hash='d1080b92e07728d376f6b6e57a66ff3d9b582b1f', version='v0.4.0'}
-CommitInfo{repo='GitHub', hash='24dced31b9b491a839c49afd8914b3a0e44bd36b', version='v0.40.0'}
-CommitInfo{repo='GitHub', hash='2807213672b1380a5a115395838806500c419d49', version='v0.40.1'}
-CommitInfo{repo='GitHub', hash='8adfc24de1c98b977bca8559ed81ff2b1ea1bbea', version='v0.41.0'}
-CommitInfo{repo='GitHub', hash='595d71a28822ef8f1121111f5808eb30c57ca48d', version='v0.42.0'}
-CommitInfo{repo='GitHub', hash='34a473140eccca68eb0fafe29fa6f78157eebca4', version='v0.43.0'}
-CommitInfo{repo='GitHub', hash='188ecec7e446ab4e3d077898639e961b5aa4426f', version='v0.43.1'}
-CommitInfo{repo='GitHub', hash='4789ab7892f726f2dfe777b5644ce8fdb06ea60f', version='v0.43.2'}
-CommitInfo{repo='GitHub', hash='42a1c200ec39d14fe1a337c72a4d1982eaeaae6e', version='v0.43.3'}
-CommitInfo{repo='GitHub', hash='9f1c2ac6242d72024108b9b57ef9f82bf83033c0', version='v0.44.0'}
-CommitInfo{repo='GitHub', hash='833d7c16bf070498d61db287da3e56ac39fe67c4', version='v0.45.0'}
-CommitInfo{repo='GitHub', hash='6360043f5a966e96003b2604982787bf87ed083b', version='v0.45.1'}
-CommitInfo{repo='GitHub', hash='e58408ed94e2177e4f8a36ee9a48f59c4e647850', version='v0.45.2'}
-CommitInfo{repo='GitHub', hash='55e33374ac00f9474b4632c127ba0762cdc5f9df', version='v0.46.0'}
-CommitInfo{repo='GitHub', hash='9b86db6710bd58730f05a4dbecf21675f5c76097', version='v0.47.0'}
-CommitInfo{repo='GitHub', hash='3d1ab4cdae881628c8fd21025b8592abd8038a30', version='v0.47.1'}
-CommitInfo{repo='GitHub', hash='cccde72876f9ff641cbb0c2fa78822a4601a90d6', version='v0.47.2'}
-CommitInfo{repo='GitHub', hash='cad7f76b1ab9d81cce59a8ff0ea83103ab959958', version='v0.48.0'}
-CommitInfo{repo='GitHub', hash='4339298d39358e7e604eed01acb5ea140a238d52', version='v0.49.0'}
-CommitInfo{repo='GitHub', hash='1ca2bdc1791ab4097ad01a71cab057dd7b6f22eb', version='v0.49.1'}
-CommitInfo{repo='GitHub', hash='f90ebc60ae7d26f95f7f22d6753cddf8d76b9f86', version='v0.49.2'}
-CommitInfo{repo='GitHub', hash='9280e568c9602fc8db0809a64588fcca4c348915', version='v0.49.3'}
-CommitInfo{repo='GitHub', hash='8f77d260a9a6fd2e2409e6c9437658524b9861cb', version='v0.5.0'}
-CommitInfo{repo='GitHub', hash='6cf87f019b53895f2973b94d29ffb0d961028ff1', version='v0.50.0'}
-CommitInfo{repo='GitHub', hash='d9a7d6d8c985dfe6e47c7e6dbcbc69ed5683aad5', version='v0.50.1'}
-CommitInfo{repo='GitHub', hash='56a93f1e67da309d6818a7c1d93fd2ed3839e996', version='v0.5.1'}
-CommitInfo{repo='GitHub', hash='ddfa28717c13aa26fcc441562b01fc60dbb6e532', version='v0.51.0'}
-CommitInfo{repo='GitHub', hash='d871fdc7403c660e3598ff10e819148c8882e523', version='v0.5.2'}
-CommitInfo{repo='GitHub', hash='639f50fbb2393d6a1171008c5defec3e87c3c3b8', version='v0.52.0'}
-CommitInfo{repo='GitHub', hash='a48355abe04063ec061689b69cb549944b863d19', version='v0.53.0'}
-CommitInfo{repo='GitHub', hash='2fa2db28e909bc3f2c5c181b3627222cf4d1b96f', version='v0.53.1'}
-CommitInfo{repo='GitHub', hash='3b7993565babfc9fe5dc40a34cb4b9b9e02bab87', version='v0.53.2'}
-CommitInfo{repo='GitHub', hash='f312082fbd0ff20f75de0e242ec6d67e8b19e34d', version='v0.54.0'}
-CommitInfo{repo='GitHub', hash='a71cf4522c69a8ce78793b7c5eb7b7cb644a77cc', version='v0.54.1'}
-CommitInfo{repo='GitHub', hash='4476ff73b0b8b82d33d1b37b089a1b2b6e527093', version='v0.54.2'}
-CommitInfo{repo='GitHub', hash='6cf69775a001d6da7bb848304f5cbd347c28fc0b', version='v0.54.3'}
-CommitInfo{repo='GitHub', hash='b45ca246daf193227edd4dc9a765efad5cce4bb2', version='v0.54.4'}
-CommitInfo{repo='GitHub', hash='cc07a16ca5bcb9a796775388b3dcc6d90cc83773', version='v0.54.5'}
-CommitInfo{repo='GitHub', hash='f3ece49970e754c24763bad559defb653a34a0df', version='v0.55.0'}
-CommitInfo{repo='GitHub', hash='39ca2867d120f52e20994184db394dde76534069', version='v0.55.1'}
-CommitInfo{repo='GitHub', hash='ce6ed06c50cd6e4390bd23c4aea6bd9e749d9f2c', version='v0.56.0'}
-CommitInfo{repo='GitHub', hash='6af46c5ecd8b7cf6732fa8ef5f1e8b82d58528ff', version='v0.57.0'}
-CommitInfo{repo='GitHub', hash='503644ce59ecb432e03f153b1089aa5c85061662', version='v0.58.0'}
-CommitInfo{repo='GitHub', hash='5d2d333d5705b54f15dc9a0570e3176a466467a8', version='v0.59.0'}
-CommitInfo{repo='GitHub', hash='1beacd5d9a0268ffa9567cc4928d03dd39338cbb', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='4b04eb17f08bd730fb474ed99f9ce00472fce044', version='v0.60.0'}
-CommitInfo{repo='GitHub', hash='4eaf43867774aecb3e2ad33f28926be92a9f9225', version='v0.6.1'}
-CommitInfo{repo='GitHub', hash='b83b97bb30293dc1a7a393e93b79be737c722177', version='v0.61.0'}
-CommitInfo{repo='GitHub', hash='3ad42ca791e96e03aebe2ba2fb3b94d5191a93c4', version='v0.6.2'}
-CommitInfo{repo='GitHub', hash='f6ac90e6a0b27451baec1802daa3befb7f3c25ea', version='v0.62.0'}
-CommitInfo{repo='GitHub', hash='fd9d733ccc3e3e9f76919ec0484e6c1e0eb165a1', version='v0.6.3'}
-CommitInfo{repo='GitHub', hash='961f3a7335b7a8ec59f29c8984b789a4c7a2283b', version='v0.63.0'}
-CommitInfo{repo='GitHub', hash='dec161fc591a1d2ce3e171c4a06bce4646643e54', version='v0.6.4'}
-CommitInfo{repo='GitHub', hash='7e1680de863ef45311e06180a1a58de525f7e4c2', version='v0.64.0'}
-CommitInfo{repo='GitHub', hash='62046f485d0fac1901f64d5da37bb3bde0f009ed', version='v0.65.0'}
-CommitInfo{repo='GitHub', hash='9d1a6f5093d603760fda5e23b9abd748a08f5282', version='v0.66.0'}
-CommitInfo{repo='GitHub', hash='531e0026f7e5d6e36b32b6d62e9406e59e903aa5', version='v0.67.0'}
-CommitInfo{repo='GitHub', hash='c280d60fe4e8725f5b4156532cc84a119e0d3f44', version='v0.67.1'}
-CommitInfo{repo='GitHub', hash='35b79ef8fbc5c8f1caa12d863bd01f4b03074054', version='v0.67.2'}
-CommitInfo{repo='GitHub', hash='95f2a9902ce75501d65ec2d90733266a04708862', version='v0.68.0'}
-CommitInfo{repo='GitHub', hash='4cdc01e96a3638f9f3cf9c30feed954df7eabb65', version='v0.68.1'}
-CommitInfo{repo='GitHub', hash='a1a84efa3b1743ee8b0ce831477e2f8174b96176', version='v0.69.0'}
-CommitInfo{repo='GitHub', hash='7b3e1e1d2ef166b41d68528c23d4ade98457d1bc', version='v0.69.1'}
-CommitInfo{repo='GitHub', hash='36d06b5f29fd301a90d5e16b1715e645b7228f3c', version='v0.69.2'}
-CommitInfo{repo='GitHub', hash='f68162a301314a41620f956d19fe72c36fb497e8', version='v0.69.3'}
-CommitInfo{repo='GitHub', hash='bea6f27c85e12aeb767b4152e4fcfa693da6d539', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='e8718a0627d6e98b2f812164bbfbe90b733f54c1', version='v0.70.0'}
-CommitInfo{repo='GitHub', hash='fab3bb72fa48c60b5bd0dcddf3ac75295506b5df', version='v0.70.1'}
-CommitInfo{repo='GitHub', hash='3c4e7aeb356ec648fc3c8a9ba3e9f32f53963240', version='v0.70.2'}
-CommitInfo{repo='GitHub', hash='dc0bfe26e1aabaee7f77e29663dbf69eae6ab4f5', version='v0.70.3'}
-CommitInfo{repo='GitHub', hash='59870b72bfbe489b6644dc7a114be9833e440f30', version='v0.70.4'}
-CommitInfo{repo='GitHub', hash='8a87a6f637b3451837746a201c50853fe5728b17', version='v0.70.5'}
-CommitInfo{repo='GitHub', hash='e4b29fffa65533701efe10c18713cdd8fcdd0f12', version='v0.70.6'}
-CommitInfo{repo='GitHub', hash='f8a7f2e294fba39f301d85ad2430aa29bd9f118f', version='v0.70.7'}
-CommitInfo{repo='GitHub', hash='dc75729318e7812dcf6c2e3aa50285c81cc84510', version='v0.70.8'}
-CommitInfo{repo='GitHub', hash='118581b7499721f40d2fe1a9427061d7f3659f45', version='v0.71.0'}
-CommitInfo{repo='GitHub', hash='3b59355c443f6b602d222b10d46762a10fbe62e9', version='v0.71.1'}
-CommitInfo{repo='GitHub', hash='1e40a5d8e7a9cf2d40bd7bed83d3ab1e9a6cde1b', version='v0.72.0'}
-CommitInfo{repo='GitHub', hash='f6413bf8080a784f58c7a92342da158c7196fcb5', version='v0.72.1'}
-CommitInfo{repo='GitHub', hash='13d42dceb2e327bdef1490b3d20cab9b8c61980f', version='v0.72.2'}
-CommitInfo{repo='GitHub', hash='8ea731abf6d07bc3323d50e3fe209b4dcf75e0fd', version='v0.72.3'}
-CommitInfo{repo='GitHub', hash='1a248756d00ed98079cf18f1052cc0087b98daa1', version='v0.72.4'}
-CommitInfo{repo='GitHub', hash='71972f5f8c63c18cd7729f70fa38b5b287dffef8', version='v0.72.5'}
-CommitInfo{repo='GitHub', hash='cf4fcb105abaa396361bbce1a4e7a387d785fbbf', version='v0.72.6'}
-CommitInfo{repo='GitHub', hash='4d4afa781fd3ec66d9323542ad2e43971eee1565', version='v0.73.0'}
-CommitInfo{repo='GitHub', hash='bbb97cc387f712d3041892e645101516a4524a47', version='v0.74.0'}
-CommitInfo{repo='GitHub', hash='505fb882ae1af9517ba5e083286a38e4f951eca2', version='v0.75.0'}
-CommitInfo{repo='GitHub', hash='1341254d847624cafc000bbc9e5a104e84dde2c8', version='v0.75.1'}
-CommitInfo{repo='GitHub', hash='9b16a6f04f5c422c47d3fda899e18baee390215c', version='v0.76.0'}
-CommitInfo{repo='GitHub', hash='2e867c6dd1cf35a951699cefaf3ef933de9fed6f', version='v0.76.1'}
-CommitInfo{repo='GitHub', hash='4ae6c70c575e2a62bdde3e5d731bd08b013a912c', version='v0.76.2'}
-CommitInfo{repo='GitHub', hash='aeeb069127c841d32cd171088a67305907e2a1c2', version='v0.76.3'}
-CommitInfo{repo='GitHub', hash='56d610c44714b823f52ddd6fcf8ca5bcd94a5a08', version='v0.77.0'}
-CommitInfo{repo='GitHub', hash='b6df6d122614a785bb2650b4469a996232c7b50a', version='v0.77.1'}
-CommitInfo{repo='GitHub', hash='ecc16bc6e880edc27a21a88615f43da6ca6b69b4', version='v0.77.10'}
-CommitInfo{repo='GitHub', hash='aa5691ca5d0154e5c41a2ea99beb33e0c9fc6a6b', version='v0.77.2'}
-CommitInfo{repo='GitHub', hash='208c2ff6ab9f29989e666d547cd040f51dd05ef4', version='v0.77.3'}
-CommitInfo{repo='GitHub', hash='d0bc79d31129ecf7c4eade87b3643dfae03ac717', version='v0.77.4'}
-CommitInfo{repo='GitHub', hash='15dc588c7f0d2c2ba75d2c194a45975500ed05f6', version='v0.77.5'}
-CommitInfo{repo='GitHub', hash='8777ad5515c457d51dd91dc92c89ab72b3587106', version='v0.77.6'}
-CommitInfo{repo='GitHub', hash='16914b290f4ab7c94e855c55e0c515ba232076f1', version='v0.77.7'}
-CommitInfo{repo='GitHub', hash='adb9d4a992abbd007659d0474775e6db4aa5fe05', version='v0.77.8'}
-CommitInfo{repo='GitHub', hash='c8d975835e4805ea6c56bae3d243fbe295d9dbe4', version='v0.77.9'}
-CommitInfo{repo='GitHub', hash='e67f6dd384f7b4d953b19091b5a51f6dea6e2b9e', version='v0.78.0'}
-CommitInfo{repo='GitHub', hash='574802baa7a6e4dffc91d3583170bbf96dd6af55', version='v0.78.1'}
-CommitInfo{repo='GitHub', hash='feafe3d8160237044162bf4937606fa065dda63e', version='v0.78.2'}
-CommitInfo{repo='GitHub', hash='7dfcd6336df8298902849f4f6f9f8caa738c1c4f', version='v0.78.3'}
-CommitInfo{repo='GitHub', hash='98429dc61a0559f24a104be071f1220324562545', version='v0.78.4'}
-CommitInfo{repo='GitHub', hash='5816f94d867dc8162d1467264505fd27338cc81d', version='v0.78.5'}
-CommitInfo{repo='GitHub', hash='c413e5f44e6f248b2673fe27c37cfc46fb73bfbd', version='v0.78.6'}
-CommitInfo{repo='GitHub', hash='5fa65d1cf32a3c98bff4cc6a792fc83c7e6e9d48', version='v0.78.7'}
-CommitInfo{repo='GitHub', hash='ec6a034704ad4d94a437287ded3ea4e437fdac54', version='v0.79.0'}
-CommitInfo{repo='GitHub', hash='4d1b2b91a1163b40699ce97e162d1fcc35b348ee', version='v0.79.1'}
-CommitInfo{repo='GitHub', hash='c2f4fff24847992d8a39cf11e1c7e0bbd3349ecb', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='302bf104d68986e08ba0de00d85ba29346ee7331', version='v0.80.0'}
-CommitInfo{repo='GitHub', hash='ef580a12aaa94cecf562b90500c90d6b8843760c', version='v0.81.0'}
-CommitInfo{repo='GitHub', hash='a9d43cf33d88a7c4f496fdf9949b462e3263d242', version='v0.82.0'}
-CommitInfo{repo='GitHub', hash='6b2fbbecce3c612105736c6a8398e2c1af30153f', version='v0.83.0'}
-CommitInfo{repo='GitHub', hash='656c01e3545b13d2b50a2cc4b1ad710d2fb3913d', version='v0.84.0'}
-CommitInfo{repo='GitHub', hash='159ab2badf2964a65ef5a9a46190b3263ba5c539', version='v0.84.1'}
-CommitInfo{repo='GitHub', hash='4559b53cbc6700b98aa7636b7f5bbddf2eef07d1', version='v0.85.0'}
-CommitInfo{repo='GitHub', hash='29e0f0ee724f46186b8dbc8f49cb4b0aa0598b72', version='v0.85.1'}
-CommitInfo{repo='GitHub', hash='ad5768c67390a4b37c18b8ff55f3562b65283363', version='v0.86.0'}
-CommitInfo{repo='GitHub', hash='d288f9ff5498ad3ac16ec9964d459f5c866329a4', version='v0.86.1'}
-CommitInfo{repo='GitHub', hash='a8f5e2db6ba526c99f7eabcd9cec3422413a3502', version='v0.87.0'}
-CommitInfo{repo='GitHub', hash='4d878a8c448cef533f3d543d09eecec8c08b8caf', version='v0.87.1'}
-CommitInfo{repo='GitHub', hash='b78fafe5f4a4a61fb80bb5f22dbe468489d6d8bd', version='v0.87.2'}
-CommitInfo{repo='GitHub', hash='bd18a8ed6b41067e9afe7d5479e9b19da6c7846b', version='v0.87.3'}
-CommitInfo{repo='GitHub', hash='ac6521a4a89eb0193847f2bd269e7311389800a6', version='v0.87.4'}
-CommitInfo{repo='GitHub', hash='5c52cb1589cce395d11bb0ce74a70046d5210a17', version='v0.88.0'}
-CommitInfo{repo='GitHub', hash='6d0f511379b5969a930a4f21e9543fe658bc7574', version='v0.88.1'}
-CommitInfo{repo='GitHub', hash='63b7ba91fc05d1c1389f3870dce825339ade322b', version='v0.88.2'}
-CommitInfo{repo='GitHub', hash='977771cde74d9a259a10e7e743ca518a2e1c8b68', version='v0.88.3'}
-CommitInfo{repo='GitHub', hash='c511a3e5e7a747ff033a9934dc4408ba2af518d1', version='v0.88.4'}
-CommitInfo{repo='GitHub', hash='e3e1327bb618369ef131a6e6ba74e2174ffb0188', version='v0.88.5'}
-CommitInfo{repo='GitHub', hash='1b74e989eb7e7d882b521d1247375c1babaaf4b8', version='v0.88.6'}
-CommitInfo{repo='GitHub', hash='337f68dae4822ca748a1d298617300dfccce1cf9', version='v0.88.7'}
-CommitInfo{repo='GitHub', hash='9d6414315054937a3216f741e6f49a01c4b13adb', version='v0.88.8'}
-CommitInfo{repo='GitHub', hash='d72a82b04b851d26237f93c03916e4438800a6b4', version='v0.89.0'}
-CommitInfo{repo='GitHub', hash='bbec3baba42be266ebb4eb0721a6a00f63121e97', version='v0.89.1'}
-CommitInfo{repo='GitHub', hash='8b3ce9306f0f5ead207a1b48448ee0f0e82a871d', version='v0.89.2'}
-CommitInfo{repo='GitHub', hash='172800600704f8d5e5256853a25f835322a1b2ca', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='b17993fdb53f2e19735b0c00b6b5079d617d3494', version='v0.90.0'}
-CommitInfo{repo='GitHub', hash='4773234489cb06314c5b943c3ada594b73f20558', version='v0.90.1'}
-CommitInfo{repo='GitHub', hash='de58c3375a1ba77c2fcbded2f57fac3054d09bc5', version='v0.91.0'}
-CommitInfo{repo='GitHub', hash='2bc3bf0b14f8cf4918b206448d902277567c8aa5', version='v0.92.0'}
-CommitInfo{repo='GitHub', hash='b51ac7bc21c2e4f0263fd7a35a60aa7c2b5350b7', version='v0.92.1'}
-CommitInfo{repo='GitHub', hash='5f8c8c4926186a909c7ea7a43a2f71e551c8372f', version='v0.92.2'}
-CommitInfo{repo='GitHub', hash='86e498e9b42e21bb67fd0703d2505c5547fd973e', version='v0.92.3'}
-CommitInfo{repo='GitHub', hash='653479351b440fd30f74979b72249f879fb19c81', version='v0.92.4'}
-CommitInfo{repo='GitHub', hash='b3ed02c54bea1b569fd1d5ba77fb61eaf5a4cd6c', version='v0.93.0'}
-CommitInfo{repo='GitHub', hash='e39636b5cdcec9cd779651d3713cf590f0b8415d', version='v0.93.1'}
-CommitInfo{repo='GitHub', hash='de73522d639e260c539cffe763369eb703c1702d', version='v0.93.2'}
-CommitInfo{repo='GitHub', hash='495751fb4a6e19bf9db536c628c1d3a4b1ad6ed3', version='v0.93.3'}
-CommitInfo{repo='GitHub', hash='b1297498434ab369e935f8ec6120eac07d5d9a96', version='v0.93.4'}
-CommitInfo{repo='GitHub', hash='ffee5a182c140b1c57708093dc72e3a7ad554b8a', version='v0.94.0'}
-CommitInfo{repo='GitHub', hash='db0da2eae6aab19b94ca2a5f4718c58d3ca2de45', version='v0.95.0'}
-CommitInfo{repo='GitHub', hash='2c5a24e2753e60c25beb19d5e19c1c0b7acc7c55', version='v0.96.0'}
-CommitInfo{repo='GitHub', hash='c8654bb9be85b7eab5a48b62cec2098c5eae526e', version='v0.96.1'}
-CommitInfo{repo='GitHub', hash='e813149e752869e55befc5bdad66cf8eb94a502d', version='v0.96.2'}
-CommitInfo{repo='GitHub', hash='22f1b510fb8760d3449f53de65a3a433aaa1eda2', version='v0.96.3'}
-CommitInfo{repo='GitHub', hash='119a7d280bb036adb7629c6046640107693d8f48', version='v0.97.0'}
-CommitInfo{repo='GitHub', hash='0b72dee9ac0529e6663e11b42895df2b94a22ef2', version='v0.97.1'}
-CommitInfo{repo='GitHub', hash='269792b6d0aa3cd259a3734ee2474a2b70455239', version='v0.97.2'}
-CommitInfo{repo='GitHub', hash='70c360b3fe52fa35be1701b29308938946ee2d3c', version='v0.97.3'}
-CommitInfo{repo='GitHub', hash='555ea97a82231013c3b22f8189e3eef819aed13a', version='v0.97.4'}
-CommitInfo{repo='GitHub', hash='9db00c3f19e9fafd2f56eb5b06aee144e3bb8c20', version='v0.98.0'}
-CommitInfo{repo='GitHub', hash='4939c177db1abe939579bc412e1baf79770cf691', version='v0.99.0'}
+CommitInfo{repo='GitHub', hash='3a17f4f209857d9b2a8d0d527eaab6e1cb894f6c', version='v0.1.0'} 	https://github.com/dialogs/dialog-web-components/commit/3a17f4f209857d9b2a8d0d527eaab6e1cb894f6c
+CommitInfo{repo='GitHub', hash='51a2169d790a874ec0c32a4e1669ab7d63cadd15', version='v0.10.0'} 	https://github.com/dialogs/dialog-web-components/commit/51a2169d790a874ec0c32a4e1669ab7d63cadd15
+CommitInfo{repo='GitHub', hash='30031f8a8d4776080ff9142a54a9cd66a804ca6b', version='v0.100.0'} 	https://github.com/dialogs/dialog-web-components/commit/30031f8a8d4776080ff9142a54a9cd66a804ca6b
+CommitInfo{repo='GitHub', hash='3209f2a4214291d23cad8896dcbf05ab30a5298d', version='v0.100.1'} 	https://github.com/dialogs/dialog-web-components/commit/3209f2a4214291d23cad8896dcbf05ab30a5298d
+CommitInfo{repo='GitHub', hash='573e580320542624387b2f624dc464a35d5ef501', version='v0.100.2'} 	https://github.com/dialogs/dialog-web-components/commit/573e580320542624387b2f624dc464a35d5ef501
+CommitInfo{repo='GitHub', hash='3bc44032d0a87f141ff4d3f5782f6d7e6a56956e', version='v0.100.3'} 	https://github.com/dialogs/dialog-web-components/commit/3bc44032d0a87f141ff4d3f5782f6d7e6a56956e
+CommitInfo{repo='GitHub', hash='fc1c8089b7a248441870c2a8a0c3e538f35c059f', version='v0.10.1'} 	https://github.com/dialogs/dialog-web-components/commit/fc1c8089b7a248441870c2a8a0c3e538f35c059f
+CommitInfo{repo='GitHub', hash='71e014bd9702a518b0a3c45876232643bb108e27', version='v0.101.0'} 	https://github.com/dialogs/dialog-web-components/commit/71e014bd9702a518b0a3c45876232643bb108e27
+CommitInfo{repo='GitHub', hash='1d51ba79f609baa50452d661742c274a366ab28c', version='v0.10.2'} 	https://github.com/dialogs/dialog-web-components/commit/1d51ba79f609baa50452d661742c274a366ab28c
+CommitInfo{repo='GitHub', hash='c1af545c12bbe742ce3d722f96a02543240fc814', version='v0.102.0'} 	https://github.com/dialogs/dialog-web-components/commit/c1af545c12bbe742ce3d722f96a02543240fc814
+CommitInfo{repo='GitHub', hash='d8d1ac463b3eb002022f1bfd01c62866715912dd', version='v0.102.1'} 	https://github.com/dialogs/dialog-web-components/commit/d8d1ac463b3eb002022f1bfd01c62866715912dd
+CommitInfo{repo='GitHub', hash='5d89f143688a0ea1a89d313f69ddae4caa2664b1', version='v0.102.2'} 	https://github.com/dialogs/dialog-web-components/commit/5d89f143688a0ea1a89d313f69ddae4caa2664b1
+CommitInfo{repo='GitHub', hash='40644aa2f9493f8f1cf6a43bdcfdbffbe1ac4530', version='v0.102.3'} 	https://github.com/dialogs/dialog-web-components/commit/40644aa2f9493f8f1cf6a43bdcfdbffbe1ac4530
+CommitInfo{repo='GitHub', hash='cc60629dec097a26d20c9972f92d55b84c14c9fd', version='v0.102.4'} 	https://github.com/dialogs/dialog-web-components/commit/cc60629dec097a26d20c9972f92d55b84c14c9fd
+CommitInfo{repo='GitHub', hash='f180f0536b97ed07b49ab6fbe351d608272951f3', version='v0.103.0'} 	https://github.com/dialogs/dialog-web-components/commit/f180f0536b97ed07b49ab6fbe351d608272951f3
+CommitInfo{repo='GitHub', hash='94c51de782742bb47375cae32948b720d5cee987', version='v0.104.0'} 	https://github.com/dialogs/dialog-web-components/commit/94c51de782742bb47375cae32948b720d5cee987
+CommitInfo{repo='GitHub', hash='c67a6d5d783002cea3c1cd2c3a6d421e12b74460', version='v0.105.0'} 	https://github.com/dialogs/dialog-web-components/commit/c67a6d5d783002cea3c1cd2c3a6d421e12b74460
+CommitInfo{repo='GitHub', hash='8fbc3e75e5582223c5252fb956f31d3e8a04a248', version='v0.106.0'} 	https://github.com/dialogs/dialog-web-components/commit/8fbc3e75e5582223c5252fb956f31d3e8a04a248
+CommitInfo{repo='GitHub', hash='4fb79d3f9711654f62a63e325396ec2721167210', version='v0.106.1'} 	https://github.com/dialogs/dialog-web-components/commit/4fb79d3f9711654f62a63e325396ec2721167210
+CommitInfo{repo='GitHub', hash='2956c729faa6d63e56ad7561fc72f081e5c2c098', version='v0.106.2'} 	https://github.com/dialogs/dialog-web-components/commit/2956c729faa6d63e56ad7561fc72f081e5c2c098
+CommitInfo{repo='GitHub', hash='04d4063784ae34260bf8b9398e97d5adc343e81e', version='v0.106.3'} 	https://github.com/dialogs/dialog-web-components/commit/04d4063784ae34260bf8b9398e97d5adc343e81e
+CommitInfo{repo='GitHub', hash='75ae4599eb49e6895236780b05f68bfd73a88bfd', version='v0.107.0'} 	https://github.com/dialogs/dialog-web-components/commit/75ae4599eb49e6895236780b05f68bfd73a88bfd
+CommitInfo{repo='GitHub', hash='4f50c9ec595162c286b438de9dd4e02c0ba4489e', version='v0.107.1'} 	https://github.com/dialogs/dialog-web-components/commit/4f50c9ec595162c286b438de9dd4e02c0ba4489e
+CommitInfo{repo='GitHub', hash='44aa6cd03d7279ef2fb972792e03c795af44ec9f', version='v0.108.0'} 	https://github.com/dialogs/dialog-web-components/commit/44aa6cd03d7279ef2fb972792e03c795af44ec9f
+CommitInfo{repo='GitHub', hash='b2e86718d4991fc113f6cd8760fc136ac142fa5a', version='v0.108.1'} 	https://github.com/dialogs/dialog-web-components/commit/b2e86718d4991fc113f6cd8760fc136ac142fa5a
+CommitInfo{repo='GitHub', hash='67c7d55093d5e190c147c33eb3b210ba870eb55e', version='v0.108.2'} 	https://github.com/dialogs/dialog-web-components/commit/67c7d55093d5e190c147c33eb3b210ba870eb55e
+CommitInfo{repo='GitHub', hash='23ea0ff7b9586f4cdea0742f49919c4c40a2a511', version='v0.108.3'} 	https://github.com/dialogs/dialog-web-components/commit/23ea0ff7b9586f4cdea0742f49919c4c40a2a511
+CommitInfo{repo='GitHub', hash='2b7e0501744bf1eaf536d47df0f2fe05d4b83a14', version='v0.109.0'} 	https://github.com/dialogs/dialog-web-components/commit/2b7e0501744bf1eaf536d47df0f2fe05d4b83a14
+CommitInfo{repo='GitHub', hash='201952a3d9a726affe27853fdbd6451fa5a40e1a', version='v0.109.1'} 	https://github.com/dialogs/dialog-web-components/commit/201952a3d9a726affe27853fdbd6451fa5a40e1a
+CommitInfo{repo='GitHub', hash='a1394a874d26bf299053ec21d11e18a90fc6a0ad', version='v0.109.2'} 	https://github.com/dialogs/dialog-web-components/commit/a1394a874d26bf299053ec21d11e18a90fc6a0ad
+CommitInfo{repo='GitHub', hash='1a4297a48531708cb6e58d2bfecc47da2a0058e5', version='v0.109.3'} 	https://github.com/dialogs/dialog-web-components/commit/1a4297a48531708cb6e58d2bfecc47da2a0058e5
+CommitInfo{repo='GitHub', hash='f0f6349b42d0f707ae14f60971abded0c63cf101', version='v0.1.1'} 	https://github.com/dialogs/dialog-web-components/commit/f0f6349b42d0f707ae14f60971abded0c63cf101
+CommitInfo{repo='GitHub', hash='80f571f0934aceaa41c9b1c5e7caccd3a58a92bc', version='v0.11.0'} 	https://github.com/dialogs/dialog-web-components/commit/80f571f0934aceaa41c9b1c5e7caccd3a58a92bc
+CommitInfo{repo='GitHub', hash='74c7c4f104a418bb34f9c8e08e8fc5732c9af3f0', version='v0.110.0'} 	https://github.com/dialogs/dialog-web-components/commit/74c7c4f104a418bb34f9c8e08e8fc5732c9af3f0
+CommitInfo{repo='GitHub', hash='5aed5149bc54f33f06743d881076e22b91e08987', version='v0.110.1'} 	https://github.com/dialogs/dialog-web-components/commit/5aed5149bc54f33f06743d881076e22b91e08987
+CommitInfo{repo='GitHub', hash='65d34073bd11a16d608139425396fae4ecc311ec', version='v0.11.1'} 	https://github.com/dialogs/dialog-web-components/commit/65d34073bd11a16d608139425396fae4ecc311ec
+CommitInfo{repo='GitHub', hash='a61f12378dc4bdac1f1826196086dd3c6380fccd', version='v0.111.0'} 	https://github.com/dialogs/dialog-web-components/commit/a61f12378dc4bdac1f1826196086dd3c6380fccd
+CommitInfo{repo='GitHub', hash='2544fb2f24a38e52e505431ea26117f61488f4b6', version='v0.111.1'} 	https://github.com/dialogs/dialog-web-components/commit/2544fb2f24a38e52e505431ea26117f61488f4b6
+CommitInfo{repo='GitHub', hash='19eaecd0971684187695d9ac71cbe2af4d5dca6d', version='v0.111.2'} 	https://github.com/dialogs/dialog-web-components/commit/19eaecd0971684187695d9ac71cbe2af4d5dca6d
+CommitInfo{repo='GitHub', hash='3394caac260a4f7fbd25a26db64c855d945d163a', version='v0.111.3'} 	https://github.com/dialogs/dialog-web-components/commit/3394caac260a4f7fbd25a26db64c855d945d163a
+CommitInfo{repo='GitHub', hash='a6395603d49df43475e8741033f85f679e4fa298', version='v0.11.2'} 	https://github.com/dialogs/dialog-web-components/commit/a6395603d49df43475e8741033f85f679e4fa298
+CommitInfo{repo='GitHub', hash='94d8fbea72ba130a858bbc95e948c9a834a0fd89', version='v0.112.0'} 	https://github.com/dialogs/dialog-web-components/commit/94d8fbea72ba130a858bbc95e948c9a834a0fd89
+CommitInfo{repo='GitHub', hash='bff4be9ec0783681c91f6c317cdba5190d34a352', version='v0.112.1'} 	https://github.com/dialogs/dialog-web-components/commit/bff4be9ec0783681c91f6c317cdba5190d34a352
+CommitInfo{repo='GitHub', hash='27342d472fc7a609b1f9df5f930d441dfaeaa50f', version='v0.112.2'} 	https://github.com/dialogs/dialog-web-components/commit/27342d472fc7a609b1f9df5f930d441dfaeaa50f
+CommitInfo{repo='GitHub', hash='818533e2ed601ca53998a14b1bdd82027625a789', version='v0.112.3'} 	https://github.com/dialogs/dialog-web-components/commit/818533e2ed601ca53998a14b1bdd82027625a789
+CommitInfo{repo='GitHub', hash='a5e36afa8eabed1487c6121e858295036a89ea2d', version='v0.112.4'} 	https://github.com/dialogs/dialog-web-components/commit/a5e36afa8eabed1487c6121e858295036a89ea2d
+CommitInfo{repo='GitHub', hash='20e6a3b957c6b79100c4ec5a30160ea208bef1ef', version='v0.112.5'} 	https://github.com/dialogs/dialog-web-components/commit/20e6a3b957c6b79100c4ec5a30160ea208bef1ef
+CommitInfo{repo='GitHub', hash='7083a3bc05f8681e091bad8e9bd5a58136bc4fbb', version='v0.112.6'} 	https://github.com/dialogs/dialog-web-components/commit/7083a3bc05f8681e091bad8e9bd5a58136bc4fbb
+CommitInfo{repo='GitHub', hash='5ee717d12e6305925c19a14244ace3853e93a5b1', version='v0.112.7'} 	https://github.com/dialogs/dialog-web-components/commit/5ee717d12e6305925c19a14244ace3853e93a5b1
+CommitInfo{repo='GitHub', hash='308cc3f206fb4ade21fad624914f17b641bba170', version='v0.112.8'} 	https://github.com/dialogs/dialog-web-components/commit/308cc3f206fb4ade21fad624914f17b641bba170
+CommitInfo{repo='GitHub', hash='79f9c816f61b5233193cd409edd9a8a2e621350b', version='v0.11.3'} 	https://github.com/dialogs/dialog-web-components/commit/79f9c816f61b5233193cd409edd9a8a2e621350b
+CommitInfo{repo='GitHub', hash='b1ee3b833115be9442a374f4fd0e5136fd07f753', version='v0.113.0'} 	https://github.com/dialogs/dialog-web-components/commit/b1ee3b833115be9442a374f4fd0e5136fd07f753
+CommitInfo{repo='GitHub', hash='5fa388d407567ac18df49b9c14f0015ecc427e12', version='v0.113.1'} 	https://github.com/dialogs/dialog-web-components/commit/5fa388d407567ac18df49b9c14f0015ecc427e12
+CommitInfo{repo='GitHub', hash='8c001285236016d9c2613360a5ab2198d27a4760', version='v0.113.2'} 	https://github.com/dialogs/dialog-web-components/commit/8c001285236016d9c2613360a5ab2198d27a4760
+CommitInfo{repo='GitHub', hash='af175d1ea6edf6584fe9aad0285f72c6c0881518', version='v0.113.3'} 	https://github.com/dialogs/dialog-web-components/commit/af175d1ea6edf6584fe9aad0285f72c6c0881518
+CommitInfo{repo='GitHub', hash='9a86d8a6397ce37a7caeaa66bf15609184d41295', version='v0.113.4'} 	https://github.com/dialogs/dialog-web-components/commit/9a86d8a6397ce37a7caeaa66bf15609184d41295
+CommitInfo{repo='GitHub', hash='6fd3950c5593018a2e5e41d679883d36e83ab007', version='v0.113.5'} 	https://github.com/dialogs/dialog-web-components/commit/6fd3950c5593018a2e5e41d679883d36e83ab007
+CommitInfo{repo='GitHub', hash='a38f2c5b8943c5d39a1128f11515ec27fdc077b1', version='v0.11.4'} 	https://github.com/dialogs/dialog-web-components/commit/a38f2c5b8943c5d39a1128f11515ec27fdc077b1
+CommitInfo{repo='GitHub', hash='ef532d5a595ffbd29f559703ed4aa9ab404ac2f0', version='v0.114.0'} 	https://github.com/dialogs/dialog-web-components/commit/ef532d5a595ffbd29f559703ed4aa9ab404ac2f0
+CommitInfo{repo='GitHub', hash='d31e4ca05b27b518c4b39e089faab894bd77e88e', version='v0.114.1'} 	https://github.com/dialogs/dialog-web-components/commit/d31e4ca05b27b518c4b39e089faab894bd77e88e
+CommitInfo{repo='GitHub', hash='50f3f8131f794cd471e7048c8734a52d44618b61', version='v0.114.2'} 	https://github.com/dialogs/dialog-web-components/commit/50f3f8131f794cd471e7048c8734a52d44618b61
+CommitInfo{repo='GitHub', hash='7c8e3873d9da05f35beecd9135bdd8e35723b509', version='v0.114.3'} 	https://github.com/dialogs/dialog-web-components/commit/7c8e3873d9da05f35beecd9135bdd8e35723b509
+CommitInfo{repo='GitHub', hash='fdfaff8a5d84a690dbb24a0d76c9a876ab535f7a', version='v0.114.4'} 	https://github.com/dialogs/dialog-web-components/commit/fdfaff8a5d84a690dbb24a0d76c9a876ab535f7a
+CommitInfo{repo='GitHub', hash='bab4aad32663274896c21d3f5de2a4c051a6cdef', version='v0.114.5'} 	https://github.com/dialogs/dialog-web-components/commit/bab4aad32663274896c21d3f5de2a4c051a6cdef
+CommitInfo{repo='GitHub', hash='9856f7b64f5bd3e2f5724f2f9486062e0c691379', version='v0.11.5'} 	https://github.com/dialogs/dialog-web-components/commit/9856f7b64f5bd3e2f5724f2f9486062e0c691379
+CommitInfo{repo='GitHub', hash='5ac28de1d61b5d7e27d2f301112e125735f12cdb', version='v0.115.0'} 	https://github.com/dialogs/dialog-web-components/commit/5ac28de1d61b5d7e27d2f301112e125735f12cdb
+CommitInfo{repo='GitHub', hash='69bd3f07745b6c26ae4a12e48109d6c88e2b9f56', version='v0.115.1'} 	https://github.com/dialogs/dialog-web-components/commit/69bd3f07745b6c26ae4a12e48109d6c88e2b9f56
+CommitInfo{repo='GitHub', hash='8b7bdb1462e26deebd5a0b63f0b854ab01a71753', version='v0.115.2'} 	https://github.com/dialogs/dialog-web-components/commit/8b7bdb1462e26deebd5a0b63f0b854ab01a71753
+CommitInfo{repo='GitHub', hash='2bf38ec05a6381cf060be67f07b5a234cda27b84', version='v0.115.3'} 	https://github.com/dialogs/dialog-web-components/commit/2bf38ec05a6381cf060be67f07b5a234cda27b84
+CommitInfo{repo='GitHub', hash='49f4552996bb8fafc9b254f65ca2d6fdbc5b02a3', version='v0.116.0'} 	https://github.com/dialogs/dialog-web-components/commit/49f4552996bb8fafc9b254f65ca2d6fdbc5b02a3
+CommitInfo{repo='GitHub', hash='29dfafe101e1e3efe610584762e513d37f1b3094', version='v0.116.1'} 	https://github.com/dialogs/dialog-web-components/commit/29dfafe101e1e3efe610584762e513d37f1b3094
+CommitInfo{repo='GitHub', hash='95d7200dc9b75d61036de265baba08dd0aba7b20', version='v0.116.2'} 	https://github.com/dialogs/dialog-web-components/commit/95d7200dc9b75d61036de265baba08dd0aba7b20
+CommitInfo{repo='GitHub', hash='081ed3a7cf5657a384148270630c104611e2da7e', version='v0.116.3'} 	https://github.com/dialogs/dialog-web-components/commit/081ed3a7cf5657a384148270630c104611e2da7e
+CommitInfo{repo='GitHub', hash='6374e3b252056e984018534847f7d08d0ab9222d', version='v0.116.4'} 	https://github.com/dialogs/dialog-web-components/commit/6374e3b252056e984018534847f7d08d0ab9222d
+CommitInfo{repo='GitHub', hash='c4078e4557c346797682500795ba250b2db9c5a1', version='v0.117.0'} 	https://github.com/dialogs/dialog-web-components/commit/c4078e4557c346797682500795ba250b2db9c5a1
+CommitInfo{repo='GitHub', hash='313ded019b5a8bf3894babf31fd8caa39d3580c2', version='v0.117.1'} 	https://github.com/dialogs/dialog-web-components/commit/313ded019b5a8bf3894babf31fd8caa39d3580c2
+CommitInfo{repo='GitHub', hash='8382099bf92b4f64b048bc92b08d90332baf9507', version='v0.117.2'} 	https://github.com/dialogs/dialog-web-components/commit/8382099bf92b4f64b048bc92b08d90332baf9507
+CommitInfo{repo='GitHub', hash='eca4cf3e099d0f9fa566807b8df3f403448c2549', version='v0.117.3'} 	https://github.com/dialogs/dialog-web-components/commit/eca4cf3e099d0f9fa566807b8df3f403448c2549
+CommitInfo{repo='GitHub', hash='e4856a9f941ebe2d75eef22e21e411ab00ca58eb', version='v0.118.0'} 	https://github.com/dialogs/dialog-web-components/commit/e4856a9f941ebe2d75eef22e21e411ab00ca58eb
+CommitInfo{repo='GitHub', hash='8b20f0de30c0d932d8a585a8fed7f6ac6b92729e', version='v0.118.1'} 	https://github.com/dialogs/dialog-web-components/commit/8b20f0de30c0d932d8a585a8fed7f6ac6b92729e
+CommitInfo{repo='GitHub', hash='45e3dfbc2289c04c88e548e8d21ff6fc634db0c2', version='v0.118.2'} 	https://github.com/dialogs/dialog-web-components/commit/45e3dfbc2289c04c88e548e8d21ff6fc634db0c2
+CommitInfo{repo='GitHub', hash='4da46cd379ce8e1c6be282f9a6ce17f8d83425d2', version='v0.118.3'} 	https://github.com/dialogs/dialog-web-components/commit/4da46cd379ce8e1c6be282f9a6ce17f8d83425d2
+CommitInfo{repo='GitHub', hash='da4215e419e4c538445ed95e81d9515df242d98b', version='v0.119.0'} 	https://github.com/dialogs/dialog-web-components/commit/da4215e419e4c538445ed95e81d9515df242d98b
+CommitInfo{repo='GitHub', hash='d6a3caacbfdd0c6c6db73f6cd773a833627bced0', version='v0.1.2'} 	https://github.com/dialogs/dialog-web-components/commit/d6a3caacbfdd0c6c6db73f6cd773a833627bced0
+CommitInfo{repo='GitHub', hash='c9940bdbe0969e51b1345f8d446299c9332dd657', version='v0.12.0'} 	https://github.com/dialogs/dialog-web-components/commit/c9940bdbe0969e51b1345f8d446299c9332dd657
+CommitInfo{repo='GitHub', hash='f961c3bfa363d3cc29df9f0e73f0f44e414747c8', version='v0.120.0'} 	https://github.com/dialogs/dialog-web-components/commit/f961c3bfa363d3cc29df9f0e73f0f44e414747c8
+CommitInfo{repo='GitHub', hash='552b913aa80c3695d791b21c6b9c6cb26c215068', version='v0.121.0'} 	https://github.com/dialogs/dialog-web-components/commit/552b913aa80c3695d791b21c6b9c6cb26c215068
+CommitInfo{repo='GitHub', hash='a4ca04acee817d77581a8c923851b7f61db55e72', version='v0.122.0'} 	https://github.com/dialogs/dialog-web-components/commit/a4ca04acee817d77581a8c923851b7f61db55e72
+CommitInfo{repo='GitHub', hash='c321c4fa3520c0140b51af1aa204748895021d76', version='v0.122.1'} 	https://github.com/dialogs/dialog-web-components/commit/c321c4fa3520c0140b51af1aa204748895021d76
+CommitInfo{repo='GitHub', hash='62a12c250ffdb10f412c29844908d3f4efa4da63', version='v0.122.2'} 	https://github.com/dialogs/dialog-web-components/commit/62a12c250ffdb10f412c29844908d3f4efa4da63
+CommitInfo{repo='GitHub', hash='becf6fb3432fc6a1c13591b3f3a62feea62218dc', version='v0.122.3'} 	https://github.com/dialogs/dialog-web-components/commit/becf6fb3432fc6a1c13591b3f3a62feea62218dc
+CommitInfo{repo='GitHub', hash='4913ad4ec99ba984bf07bd5ea3e269abd32d6083', version='v0.123.0'} 	https://github.com/dialogs/dialog-web-components/commit/4913ad4ec99ba984bf07bd5ea3e269abd32d6083
+CommitInfo{repo='GitHub', hash='2ce3da3fcc8c528c54af2c5a19a9aedb09fe46e6', version='v0.123.1'} 	https://github.com/dialogs/dialog-web-components/commit/2ce3da3fcc8c528c54af2c5a19a9aedb09fe46e6
+CommitInfo{repo='GitHub', hash='6766187833cfc37a37304ba47aa247d7e9816ef0', version='v0.124.0'} 	https://github.com/dialogs/dialog-web-components/commit/6766187833cfc37a37304ba47aa247d7e9816ef0
+CommitInfo{repo='GitHub', hash='9c1e0447bf883784bc181a5f9da7fb62532e7369', version='v0.124.1'} 	https://github.com/dialogs/dialog-web-components/commit/9c1e0447bf883784bc181a5f9da7fb62532e7369
+CommitInfo{repo='GitHub', hash='d6f8894c2177ca2a72ca03780ee8423b4a1a00f3', version='v0.124.2'} 	https://github.com/dialogs/dialog-web-components/commit/d6f8894c2177ca2a72ca03780ee8423b4a1a00f3
+CommitInfo{repo='GitHub', hash='8635cadb20fd188138fef2a94ce91b8123aa4dd0', version='v0.124.3'} 	https://github.com/dialogs/dialog-web-components/commit/8635cadb20fd188138fef2a94ce91b8123aa4dd0
+CommitInfo{repo='GitHub', hash='e18adafd9e5bc17abc64255dac5ab7aefcac2cdb', version='v0.124.4'} 	https://github.com/dialogs/dialog-web-components/commit/e18adafd9e5bc17abc64255dac5ab7aefcac2cdb
+CommitInfo{repo='GitHub', hash='b94dea245f45224607ce9789857c7d58ec9ce6d4', version='v0.124.5'} 	https://github.com/dialogs/dialog-web-components/commit/b94dea245f45224607ce9789857c7d58ec9ce6d4
+CommitInfo{repo='GitHub', hash='a59d3f8cb1a09187a8ce24b52c2016b33eadc022', version='v0.124.6'} 	https://github.com/dialogs/dialog-web-components/commit/a59d3f8cb1a09187a8ce24b52c2016b33eadc022
+CommitInfo{repo='GitHub', hash='c22e23dd4e2a2572fd578fb646e932568547a22a', version='v0.125.0'} 	https://github.com/dialogs/dialog-web-components/commit/c22e23dd4e2a2572fd578fb646e932568547a22a
+CommitInfo{repo='GitHub', hash='8de4c62524edd7d9147ec3b0946c03fbb21851d9', version='v0.125.1'} 	https://github.com/dialogs/dialog-web-components/commit/8de4c62524edd7d9147ec3b0946c03fbb21851d9
+CommitInfo{repo='GitHub', hash='7d5242b3b699c20b54bbd4eb62181e23c9298dc1', version='v0.125.2'} 	https://github.com/dialogs/dialog-web-components/commit/7d5242b3b699c20b54bbd4eb62181e23c9298dc1
+CommitInfo{repo='GitHub', hash='a67ce0f3787a44c7f2e5d39d15141095c5486671', version='v0.126.0'} 	https://github.com/dialogs/dialog-web-components/commit/a67ce0f3787a44c7f2e5d39d15141095c5486671
+CommitInfo{repo='GitHub', hash='128b453acb87b5cbb286291fcea7c2efdfc28580', version='v0.126.1'} 	https://github.com/dialogs/dialog-web-components/commit/128b453acb87b5cbb286291fcea7c2efdfc28580
+CommitInfo{repo='GitHub', hash='b6a2a49f7a348cba95613953d8a5c237968623bb', version='v0.126.2'} 	https://github.com/dialogs/dialog-web-components/commit/b6a2a49f7a348cba95613953d8a5c237968623bb
+CommitInfo{repo='GitHub', hash='d1d538bbaed8c15d1e67cd3fb0e6fbbf21e6e091', version='v0.126.3'} 	https://github.com/dialogs/dialog-web-components/commit/d1d538bbaed8c15d1e67cd3fb0e6fbbf21e6e091
+CommitInfo{repo='GitHub', hash='7cde60b5d23dc2342bf4acddaa02c8037c25b710', version='v0.127.0'} 	https://github.com/dialogs/dialog-web-components/commit/7cde60b5d23dc2342bf4acddaa02c8037c25b710
+CommitInfo{repo='GitHub', hash='6e47d0b75fd571edfbe0cc3c5d0da3a14ddef9b2', version='v0.128.0'} 	https://github.com/dialogs/dialog-web-components/commit/6e47d0b75fd571edfbe0cc3c5d0da3a14ddef9b2
+CommitInfo{repo='GitHub', hash='8d350e036ae0feee9a00119da8ae11e46ef3ea9c', version='v0.128.1'} 	https://github.com/dialogs/dialog-web-components/commit/8d350e036ae0feee9a00119da8ae11e46ef3ea9c
+CommitInfo{repo='GitHub', hash='a318063dfb4435e785d949252e63e756a51b05f7', version='v0.128.2'} 	https://github.com/dialogs/dialog-web-components/commit/a318063dfb4435e785d949252e63e756a51b05f7
+CommitInfo{repo='GitHub', hash='bea935c4d55513c97da01a492c1579db3a8cbebe', version='v0.128.3'} 	https://github.com/dialogs/dialog-web-components/commit/bea935c4d55513c97da01a492c1579db3a8cbebe
+CommitInfo{repo='GitHub', hash='f1642f1afd6949973a9572686c0a8d85c4730d19', version='v0.128.4'} 	https://github.com/dialogs/dialog-web-components/commit/f1642f1afd6949973a9572686c0a8d85c4730d19
+CommitInfo{repo='GitHub', hash='8d5ee6a92d016ca22e013908fab731909943e1cd', version='v0.129.0'} 	https://github.com/dialogs/dialog-web-components/commit/8d5ee6a92d016ca22e013908fab731909943e1cd
+CommitInfo{repo='GitHub', hash='7be1063ac2c164bef355779063294a6acf4dedb2', version='v0.129.1'} 	https://github.com/dialogs/dialog-web-components/commit/7be1063ac2c164bef355779063294a6acf4dedb2
+CommitInfo{repo='GitHub', hash='423fc843a2937b6dbd85307ed8c4f930e30f6e4e', version='v0.13.0'} 	https://github.com/dialogs/dialog-web-components/commit/423fc843a2937b6dbd85307ed8c4f930e30f6e4e
+CommitInfo{repo='GitHub', hash='3c4890bc554bd54a25eeff4df006eb82214b37d6', version='v0.130.0'} 	https://github.com/dialogs/dialog-web-components/commit/3c4890bc554bd54a25eeff4df006eb82214b37d6
+CommitInfo{repo='GitHub', hash='6715d9a0ef3eb8ccb3accff8d21c6bdb895a29f8', version='v0.130.1'} 	https://github.com/dialogs/dialog-web-components/commit/6715d9a0ef3eb8ccb3accff8d21c6bdb895a29f8
+CommitInfo{repo='GitHub', hash='024ee71df9ebd983435ccef5018b1893a8810027', version='v0.130.2'} 	https://github.com/dialogs/dialog-web-components/commit/024ee71df9ebd983435ccef5018b1893a8810027
+CommitInfo{repo='GitHub', hash='0e1a9fae389462287328548e900adcb6fed614b6', version='v0.130.3'} 	https://github.com/dialogs/dialog-web-components/commit/0e1a9fae389462287328548e900adcb6fed614b6
+CommitInfo{repo='GitHub', hash='5dab3bceefd67c7c0807a0a893e85534a77ffb51', version='v0.131.0'} 	https://github.com/dialogs/dialog-web-components/commit/5dab3bceefd67c7c0807a0a893e85534a77ffb51
+CommitInfo{repo='GitHub', hash='4ca5885b6347f395293f02f40c5fcf140897f82e', version='v0.131.1'} 	https://github.com/dialogs/dialog-web-components/commit/4ca5885b6347f395293f02f40c5fcf140897f82e
+CommitInfo{repo='GitHub', hash='f9ba0ae5c8c4dd83e2f68648671fd9263c65c398', version='v0.131.2'} 	https://github.com/dialogs/dialog-web-components/commit/f9ba0ae5c8c4dd83e2f68648671fd9263c65c398
+CommitInfo{repo='GitHub', hash='68826ae6401e84b2f619f729fa22d9efa614190c', version='v0.131.3'} 	https://github.com/dialogs/dialog-web-components/commit/68826ae6401e84b2f619f729fa22d9efa614190c
+CommitInfo{repo='GitHub', hash='cf9fb972c897a9d7443f956dd07eeb3229b95479', version='v0.131.4'} 	https://github.com/dialogs/dialog-web-components/commit/cf9fb972c897a9d7443f956dd07eeb3229b95479
+CommitInfo{repo='GitHub', hash='52bbbc3ec64713bc469b0170b3079196fa90347d', version='v0.131.5'} 	https://github.com/dialogs/dialog-web-components/commit/52bbbc3ec64713bc469b0170b3079196fa90347d
+CommitInfo{repo='GitHub', hash='76b850192166403a30dd196ae224bdb81b2c0441', version='v0.131.6'} 	https://github.com/dialogs/dialog-web-components/commit/76b850192166403a30dd196ae224bdb81b2c0441
+CommitInfo{repo='GitHub', hash='4233eaab1704906175ae859ff3262bb2108a3281', version='v0.131.7'} 	https://github.com/dialogs/dialog-web-components/commit/4233eaab1704906175ae859ff3262bb2108a3281
+CommitInfo{repo='GitHub', hash='f5daa8598199b713558ebe0c0f15a1751d3220f2', version='v0.131.8'} 	https://github.com/dialogs/dialog-web-components/commit/f5daa8598199b713558ebe0c0f15a1751d3220f2
+CommitInfo{repo='GitHub', hash='6e1648c7dc8e3ed541fb801f7f2a09f6236f97b0', version='v0.132.0'} 	https://github.com/dialogs/dialog-web-components/commit/6e1648c7dc8e3ed541fb801f7f2a09f6236f97b0
+CommitInfo{repo='GitHub', hash='8a6b863fd7e33dc9dc2df0a18c171b0bbce48041', version='v0.132.1'} 	https://github.com/dialogs/dialog-web-components/commit/8a6b863fd7e33dc9dc2df0a18c171b0bbce48041
+CommitInfo{repo='GitHub', hash='f584904a3516c6a6cba64c2695cc5fc409ff5b48', version='v0.132.10'} 	https://github.com/dialogs/dialog-web-components/commit/f584904a3516c6a6cba64c2695cc5fc409ff5b48
+CommitInfo{repo='GitHub', hash='401c17d1de38799bb0cc99bb98447ed1d734fd20', version='v0.132.11'} 	https://github.com/dialogs/dialog-web-components/commit/401c17d1de38799bb0cc99bb98447ed1d734fd20
+CommitInfo{repo='GitHub', hash='af971d4c782f4c7280c0baaa5cf05ab03707027d', version='v0.132.2'} 	https://github.com/dialogs/dialog-web-components/commit/af971d4c782f4c7280c0baaa5cf05ab03707027d
+CommitInfo{repo='GitHub', hash='64bca96e1a978b69435af729b2070ba2c3f78aa7', version='v0.132.3'} 	https://github.com/dialogs/dialog-web-components/commit/64bca96e1a978b69435af729b2070ba2c3f78aa7
+CommitInfo{repo='GitHub', hash='6ccf39b863fee1217f7f5e1c2cf4b09a54072b3b', version='v0.132.4'} 	https://github.com/dialogs/dialog-web-components/commit/6ccf39b863fee1217f7f5e1c2cf4b09a54072b3b
+CommitInfo{repo='GitHub', hash='e656c5ede7f14a93675e276a540e902bb8174ecf', version='v0.132.5'} 	https://github.com/dialogs/dialog-web-components/commit/e656c5ede7f14a93675e276a540e902bb8174ecf
+CommitInfo{repo='GitHub', hash='7cdd1922e7849e83b210a7618706ff77cb62a9d5', version='v0.132.6'} 	https://github.com/dialogs/dialog-web-components/commit/7cdd1922e7849e83b210a7618706ff77cb62a9d5
+CommitInfo{repo='GitHub', hash='8a2f6948be01413af4758687dc17807d9ec064b1', version='v0.132.7'} 	https://github.com/dialogs/dialog-web-components/commit/8a2f6948be01413af4758687dc17807d9ec064b1
+CommitInfo{repo='GitHub', hash='1f3cd73d7195caa71f8c76146f28013e883bab38', version='v0.132.8'} 	https://github.com/dialogs/dialog-web-components/commit/1f3cd73d7195caa71f8c76146f28013e883bab38
+CommitInfo{repo='GitHub', hash='f6ededf4fc275dbd78faf59f74a221a1b35c39cd', version='v0.132.9'} 	https://github.com/dialogs/dialog-web-components/commit/f6ededf4fc275dbd78faf59f74a221a1b35c39cd
+CommitInfo{repo='GitHub', hash='64d502f9e8d54d56091a979aca4bef027080fe7f', version='v0.133.0'} 	https://github.com/dialogs/dialog-web-components/commit/64d502f9e8d54d56091a979aca4bef027080fe7f
+CommitInfo{repo='GitHub', hash='d6f313f12a11f3fd2badda3186634658285c854e', version='v0.133.1'} 	https://github.com/dialogs/dialog-web-components/commit/d6f313f12a11f3fd2badda3186634658285c854e
+CommitInfo{repo='GitHub', hash='8dfda0c2e24f9dc5d520fd23ef67e95fff51a741', version='v0.133.2'} 	https://github.com/dialogs/dialog-web-components/commit/8dfda0c2e24f9dc5d520fd23ef67e95fff51a741
+CommitInfo{repo='GitHub', hash='6470b3d9098c9459876dcc58fc77f0c3321dc403', version='v0.133.3'} 	https://github.com/dialogs/dialog-web-components/commit/6470b3d9098c9459876dcc58fc77f0c3321dc403
+CommitInfo{repo='GitHub', hash='ae1f134ff532baa6971ec5bf8eecbdb6a5102e65', version='v0.134.0'} 	https://github.com/dialogs/dialog-web-components/commit/ae1f134ff532baa6971ec5bf8eecbdb6a5102e65
+CommitInfo{repo='GitHub', hash='ed3354a0658cfa046da5d6fb06ecfe5f6255bc46', version='v0.134.1'} 	https://github.com/dialogs/dialog-web-components/commit/ed3354a0658cfa046da5d6fb06ecfe5f6255bc46
+CommitInfo{repo='GitHub', hash='37559778ac9f1154e21ff539a333e8ce78e7839e', version='v0.134.2'} 	https://github.com/dialogs/dialog-web-components/commit/37559778ac9f1154e21ff539a333e8ce78e7839e
+CommitInfo{repo='GitHub', hash='b01cd4efbcc03335e73c2ea743c94e3b32008b16', version='v0.135.0'} 	https://github.com/dialogs/dialog-web-components/commit/b01cd4efbcc03335e73c2ea743c94e3b32008b16
+CommitInfo{repo='GitHub', hash='63427f1f73d70f22cf322306a0ddf6773d33b9c1', version='v0.135.1'} 	https://github.com/dialogs/dialog-web-components/commit/63427f1f73d70f22cf322306a0ddf6773d33b9c1
+CommitInfo{repo='GitHub', hash='b61f9b226e83fa042fdd71e58cda16750c5404b4', version='v0.135.2'} 	https://github.com/dialogs/dialog-web-components/commit/b61f9b226e83fa042fdd71e58cda16750c5404b4
+CommitInfo{repo='GitHub', hash='3881cf98e06401160918299221ce5e09631136b9', version='v0.135.3'} 	https://github.com/dialogs/dialog-web-components/commit/3881cf98e06401160918299221ce5e09631136b9
+CommitInfo{repo='GitHub', hash='be92143a58f09238e66835938f2c0be8e0bf7a10', version='v0.135.4'} 	https://github.com/dialogs/dialog-web-components/commit/be92143a58f09238e66835938f2c0be8e0bf7a10
+CommitInfo{repo='GitHub', hash='55af4eb9b9033249ee4df5ed3a24ff65b554a309', version='v0.135.5'} 	https://github.com/dialogs/dialog-web-components/commit/55af4eb9b9033249ee4df5ed3a24ff65b554a309
+CommitInfo{repo='GitHub', hash='fc25d05ac8f340b002a2870f1d1c13c7cae3f953', version='v0.135.6'} 	https://github.com/dialogs/dialog-web-components/commit/fc25d05ac8f340b002a2870f1d1c13c7cae3f953
+CommitInfo{repo='GitHub', hash='f3ded89ffb8c002ce58febcf43a747bdc07617fd', version='v0.135.7'} 	https://github.com/dialogs/dialog-web-components/commit/f3ded89ffb8c002ce58febcf43a747bdc07617fd
+CommitInfo{repo='GitHub', hash='c7e20a0d0b993ebc27e4d5420bae860a4c7ce781', version='v0.135.8'} 	https://github.com/dialogs/dialog-web-components/commit/c7e20a0d0b993ebc27e4d5420bae860a4c7ce781
+CommitInfo{repo='GitHub', hash='11de3d86753180e905730ea4e76629427a2e647b', version='v0.135.9'} 	https://github.com/dialogs/dialog-web-components/commit/11de3d86753180e905730ea4e76629427a2e647b
+CommitInfo{repo='GitHub', hash='a7898d1b51fe54cc7b74af3b4b852e121ca7e8e7', version='v0.136.0'} 	https://github.com/dialogs/dialog-web-components/commit/a7898d1b51fe54cc7b74af3b4b852e121ca7e8e7
+CommitInfo{repo='GitHub', hash='057d5fd7847240ea943b0520826157df27cbe67c', version='v0.136.1'} 	https://github.com/dialogs/dialog-web-components/commit/057d5fd7847240ea943b0520826157df27cbe67c
+CommitInfo{repo='GitHub', hash='409412465aef9f005a3ed5532d5f75fc242f0a54', version='v0.137.0'} 	https://github.com/dialogs/dialog-web-components/commit/409412465aef9f005a3ed5532d5f75fc242f0a54
+CommitInfo{repo='GitHub', hash='0f0898ff41cad9c841faf01fb4819b323f1e34fc', version='v0.137.1'} 	https://github.com/dialogs/dialog-web-components/commit/0f0898ff41cad9c841faf01fb4819b323f1e34fc
+CommitInfo{repo='GitHub', hash='1811d2e08f6d012771d4bf48a9312f4d215cb262', version='v0.137.2'} 	https://github.com/dialogs/dialog-web-components/commit/1811d2e08f6d012771d4bf48a9312f4d215cb262
+CommitInfo{repo='GitHub', hash='201aea2c82e52457cb25205f8d249ed12cf67a5d', version='v0.137.3'} 	https://github.com/dialogs/dialog-web-components/commit/201aea2c82e52457cb25205f8d249ed12cf67a5d
+CommitInfo{repo='GitHub', hash='fdcabdc2dd8bb7a89b8333c15478a35fadc76301', version='v0.137.4'} 	https://github.com/dialogs/dialog-web-components/commit/fdcabdc2dd8bb7a89b8333c15478a35fadc76301
+CommitInfo{repo='GitHub', hash='6b44a19733c2f40c145999cfec19351b13c80fb6', version='v0.137.5'} 	https://github.com/dialogs/dialog-web-components/commit/6b44a19733c2f40c145999cfec19351b13c80fb6
+CommitInfo{repo='GitHub', hash='8eed6250ffbe51574aff00cb9d1c4a0996778720', version='v0.137.6'} 	https://github.com/dialogs/dialog-web-components/commit/8eed6250ffbe51574aff00cb9d1c4a0996778720
+CommitInfo{repo='GitHub', hash='9c60ab5ccee73b06b6827043962888cb69e2ba48', version='v0.137.7'} 	https://github.com/dialogs/dialog-web-components/commit/9c60ab5ccee73b06b6827043962888cb69e2ba48
+CommitInfo{repo='GitHub', hash='b67704f162a9508c05c818ee6665314a212c7553', version='v0.138.0'} 	https://github.com/dialogs/dialog-web-components/commit/b67704f162a9508c05c818ee6665314a212c7553
+CommitInfo{repo='GitHub', hash='4cc9ed5273a58617533f71326287ce9dd0e60394', version='v0.138.1'} 	https://github.com/dialogs/dialog-web-components/commit/4cc9ed5273a58617533f71326287ce9dd0e60394
+CommitInfo{repo='GitHub', hash='960e01c14f63d98b178243f2f9352d626b4329a7', version='v0.139.0'} 	https://github.com/dialogs/dialog-web-components/commit/960e01c14f63d98b178243f2f9352d626b4329a7
+CommitInfo{repo='GitHub', hash='5208df0d4a5d987071f82ab5188eefc424b252b0', version='v0.139.1'} 	https://github.com/dialogs/dialog-web-components/commit/5208df0d4a5d987071f82ab5188eefc424b252b0
+CommitInfo{repo='GitHub', hash='ab96f9460e5055d2d87ab637beac9714f3120231', version='v0.139.2'} 	https://github.com/dialogs/dialog-web-components/commit/ab96f9460e5055d2d87ab637beac9714f3120231
+CommitInfo{repo='GitHub', hash='f251c9d44f1a1bbfb85e36bdb23c6c7df964e462', version='v0.139.3'} 	https://github.com/dialogs/dialog-web-components/commit/f251c9d44f1a1bbfb85e36bdb23c6c7df964e462
+CommitInfo{repo='GitHub', hash='1995569c953610c7a549f3a0c2a50da507696c31', version='v0.139.4'} 	https://github.com/dialogs/dialog-web-components/commit/1995569c953610c7a549f3a0c2a50da507696c31
+CommitInfo{repo='GitHub', hash='b883652fa53b4e7602f9b70156d111f094e7b638', version='v0.139.5'} 	https://github.com/dialogs/dialog-web-components/commit/b883652fa53b4e7602f9b70156d111f094e7b638
+CommitInfo{repo='GitHub', hash='33c3e671123409113b97c3dc53c5f2a759818fdb', version='v0.139.6'} 	https://github.com/dialogs/dialog-web-components/commit/33c3e671123409113b97c3dc53c5f2a759818fdb
+CommitInfo{repo='GitHub', hash='6a9e5c8b1239597ca42d4d12ffd0572e857b6c7e', version='v0.139.7'} 	https://github.com/dialogs/dialog-web-components/commit/6a9e5c8b1239597ca42d4d12ffd0572e857b6c7e
+CommitInfo{repo='GitHub', hash='9282dfc5f17c0fddba7df5b8376c926d611a3fd8', version='v0.14.0'} 	https://github.com/dialogs/dialog-web-components/commit/9282dfc5f17c0fddba7df5b8376c926d611a3fd8
+CommitInfo{repo='GitHub', hash='3d5be2bae0c5796847e2a3bde8314ff5a81e22ed', version='v0.140.0'} 	https://github.com/dialogs/dialog-web-components/commit/3d5be2bae0c5796847e2a3bde8314ff5a81e22ed
+CommitInfo{repo='GitHub', hash='e4e8e3ac0537c3b38cd94755bcee4a3e9e20bf93', version='v0.140.1'} 	https://github.com/dialogs/dialog-web-components/commit/e4e8e3ac0537c3b38cd94755bcee4a3e9e20bf93
+CommitInfo{repo='GitHub', hash='0014e634ac1404456281c40210ecc7d5fe518b18', version='v0.140.2'} 	https://github.com/dialogs/dialog-web-components/commit/0014e634ac1404456281c40210ecc7d5fe518b18
+CommitInfo{repo='GitHub', hash='611fce44bb67d85e09dc3ac7ae9f546dbea52f1c', version='v0.140.3'} 	https://github.com/dialogs/dialog-web-components/commit/611fce44bb67d85e09dc3ac7ae9f546dbea52f1c
+CommitInfo{repo='GitHub', hash='c0e3c5c8ed89aa598512404a5ca7fa7c8608ef1e', version='v0.140.4'} 	https://github.com/dialogs/dialog-web-components/commit/c0e3c5c8ed89aa598512404a5ca7fa7c8608ef1e
+CommitInfo{repo='GitHub', hash='442a2c98ce555a16853100e053cd0476c4fcbf9f', version='v0.140.5'} 	https://github.com/dialogs/dialog-web-components/commit/442a2c98ce555a16853100e053cd0476c4fcbf9f
+CommitInfo{repo='GitHub', hash='8d15bc36007258098cd7c1a595f18731e7ff6c1b', version='v0.140.6'} 	https://github.com/dialogs/dialog-web-components/commit/8d15bc36007258098cd7c1a595f18731e7ff6c1b
+CommitInfo{repo='GitHub', hash='0777e585edc5bf3252eb3cb59e5ba3d35faa2062', version='v0.14.1'} 	https://github.com/dialogs/dialog-web-components/commit/0777e585edc5bf3252eb3cb59e5ba3d35faa2062
+CommitInfo{repo='GitHub', hash='0fc060f05fa70d34ddd929b2f2aaf503266ee390', version='v0.141.0'} 	https://github.com/dialogs/dialog-web-components/commit/0fc060f05fa70d34ddd929b2f2aaf503266ee390
+CommitInfo{repo='GitHub', hash='51d24d8f39f014ba7170f86d78f9192e2d12d417', version='v0.141.1'} 	https://github.com/dialogs/dialog-web-components/commit/51d24d8f39f014ba7170f86d78f9192e2d12d417
+CommitInfo{repo='GitHub', hash='8532af7a22aa7c7a16c6dbafa1d56adff5f2eca5', version='v0.142.0'} 	https://github.com/dialogs/dialog-web-components/commit/8532af7a22aa7c7a16c6dbafa1d56adff5f2eca5
+CommitInfo{repo='GitHub', hash='cce527a217b50ec5c1a78b41f2204552ea6969e9', version='v0.142.1'} 	https://github.com/dialogs/dialog-web-components/commit/cce527a217b50ec5c1a78b41f2204552ea6969e9
+CommitInfo{repo='GitHub', hash='8ba0ca2e733370a7817546129ca94e88db4f52ad', version='v0.143.0'} 	https://github.com/dialogs/dialog-web-components/commit/8ba0ca2e733370a7817546129ca94e88db4f52ad
+CommitInfo{repo='GitHub', hash='f7b2efe7b1c4156beaf1b5b4b3b29dc5c9e25f51', version='v0.143.1'} 	https://github.com/dialogs/dialog-web-components/commit/f7b2efe7b1c4156beaf1b5b4b3b29dc5c9e25f51
+CommitInfo{repo='GitHub', hash='7e9f6ef31a2c276793369753f69970e66b90f0e3', version='v0.144.0'} 	https://github.com/dialogs/dialog-web-components/commit/7e9f6ef31a2c276793369753f69970e66b90f0e3
+CommitInfo{repo='GitHub', hash='6821fd273a2fec1d639c14f6806a06d94d83a963', version='v0.144.1'} 	https://github.com/dialogs/dialog-web-components/commit/6821fd273a2fec1d639c14f6806a06d94d83a963
+CommitInfo{repo='GitHub', hash='a8aed948e03e5033fd800845a564cf4899249e93', version='v0.145.0'} 	https://github.com/dialogs/dialog-web-components/commit/a8aed948e03e5033fd800845a564cf4899249e93
+CommitInfo{repo='GitHub', hash='9032900c90374938711c20fafebdc2bd730e609d', version='v0.145.1'} 	https://github.com/dialogs/dialog-web-components/commit/9032900c90374938711c20fafebdc2bd730e609d
+CommitInfo{repo='GitHub', hash='24fe23a6c95e94194a7276b0d874a25b7e5bf69d', version='v0.145.10'} 	https://github.com/dialogs/dialog-web-components/commit/24fe23a6c95e94194a7276b0d874a25b7e5bf69d
+CommitInfo{repo='GitHub', hash='24fe23a6c95e94194a7276b0d874a25b7e5bf69d', version='v0.145.10'} 	https://github.com/dialogs/dialog-web-components/commit/24fe23a6c95e94194a7276b0d874a25b7e5bf69d
+CommitInfo{repo='GitHub', hash='24fe23a6c95e94194a7276b0d874a25b7e5bf69d', version='v0.145.10'} 	https://github.com/dialogs/dialog-web-components/commit/24fe23a6c95e94194a7276b0d874a25b7e5bf69d
+CommitInfo{repo='GitHub', hash='24fe23a6c95e94194a7276b0d874a25b7e5bf69d', version='v0.145.10'} 	https://github.com/dialogs/dialog-web-components/commit/24fe23a6c95e94194a7276b0d874a25b7e5bf69d
+CommitInfo{repo='GitHub', hash='b055c20cb4a7c7d7838baa7d9a86d5edec00ab45', version='v0.145.11'} 	https://github.com/dialogs/dialog-web-components/commit/b055c20cb4a7c7d7838baa7d9a86d5edec00ab45
+CommitInfo{repo='GitHub', hash='b055c20cb4a7c7d7838baa7d9a86d5edec00ab45', version='v0.145.11'} 	https://github.com/dialogs/dialog-web-components/commit/b055c20cb4a7c7d7838baa7d9a86d5edec00ab45
+CommitInfo{repo='GitHub', hash='b055c20cb4a7c7d7838baa7d9a86d5edec00ab45', version='v0.145.11'} 	https://github.com/dialogs/dialog-web-components/commit/b055c20cb4a7c7d7838baa7d9a86d5edec00ab45
+CommitInfo{repo='GitHub', hash='b055c20cb4a7c7d7838baa7d9a86d5edec00ab45', version='v0.145.11'} 	https://github.com/dialogs/dialog-web-components/commit/b055c20cb4a7c7d7838baa7d9a86d5edec00ab45
+CommitInfo{repo='GitHub', hash='9de84c5b6ebeb0d1dd87f5b3d4e64a4bad4aeae8', version='v0.145.2'} 	https://github.com/dialogs/dialog-web-components/commit/9de84c5b6ebeb0d1dd87f5b3d4e64a4bad4aeae8
+CommitInfo{repo='GitHub', hash='c323ea30873ec240a565a25d1bc61bbbb84e2e30', version='v0.145.3'} 	https://github.com/dialogs/dialog-web-components/commit/c323ea30873ec240a565a25d1bc61bbbb84e2e30
+CommitInfo{repo='GitHub', hash='c323ea30873ec240a565a25d1bc61bbbb84e2e30', version='v0.145.3'} 	https://github.com/dialogs/dialog-web-components/commit/c323ea30873ec240a565a25d1bc61bbbb84e2e30
+CommitInfo{repo='GitHub', hash='c323ea30873ec240a565a25d1bc61bbbb84e2e30', version='v0.145.3'} 	https://github.com/dialogs/dialog-web-components/commit/c323ea30873ec240a565a25d1bc61bbbb84e2e30
+CommitInfo{repo='GitHub', hash='c323ea30873ec240a565a25d1bc61bbbb84e2e30', version='v0.145.3'} 	https://github.com/dialogs/dialog-web-components/commit/c323ea30873ec240a565a25d1bc61bbbb84e2e30
+CommitInfo{repo='GitHub', hash='ed17afc876aa8612dfd5ad55cadb2cb36444bf1e', version='v0.145.4'} 	https://github.com/dialogs/dialog-web-components/commit/ed17afc876aa8612dfd5ad55cadb2cb36444bf1e
+CommitInfo{repo='GitHub', hash='ed17afc876aa8612dfd5ad55cadb2cb36444bf1e', version='v0.145.4'} 	https://github.com/dialogs/dialog-web-components/commit/ed17afc876aa8612dfd5ad55cadb2cb36444bf1e
+CommitInfo{repo='GitHub', hash='ed17afc876aa8612dfd5ad55cadb2cb36444bf1e', version='v0.145.4'} 	https://github.com/dialogs/dialog-web-components/commit/ed17afc876aa8612dfd5ad55cadb2cb36444bf1e
+CommitInfo{repo='GitHub', hash='ed17afc876aa8612dfd5ad55cadb2cb36444bf1e', version='v0.145.4'} 	https://github.com/dialogs/dialog-web-components/commit/ed17afc876aa8612dfd5ad55cadb2cb36444bf1e
+CommitInfo{repo='GitHub', hash='1d245eb8c1a2f999cd4f6093dad82f5b6cb96280', version='v0.145.5'} 	https://github.com/dialogs/dialog-web-components/commit/1d245eb8c1a2f999cd4f6093dad82f5b6cb96280
+CommitInfo{repo='GitHub', hash='1d245eb8c1a2f999cd4f6093dad82f5b6cb96280', version='v0.145.5'} 	https://github.com/dialogs/dialog-web-components/commit/1d245eb8c1a2f999cd4f6093dad82f5b6cb96280
+CommitInfo{repo='GitHub', hash='1d245eb8c1a2f999cd4f6093dad82f5b6cb96280', version='v0.145.5'} 	https://github.com/dialogs/dialog-web-components/commit/1d245eb8c1a2f999cd4f6093dad82f5b6cb96280
+CommitInfo{repo='GitHub', hash='1d245eb8c1a2f999cd4f6093dad82f5b6cb96280', version='v0.145.5'} 	https://github.com/dialogs/dialog-web-components/commit/1d245eb8c1a2f999cd4f6093dad82f5b6cb96280
+CommitInfo{repo='GitHub', hash='969557234b526d4b02c510ffc03a89eedb29a452', version='v0.145.6'} 	https://github.com/dialogs/dialog-web-components/commit/969557234b526d4b02c510ffc03a89eedb29a452
+CommitInfo{repo='GitHub', hash='969557234b526d4b02c510ffc03a89eedb29a452', version='v0.145.6'} 	https://github.com/dialogs/dialog-web-components/commit/969557234b526d4b02c510ffc03a89eedb29a452
+CommitInfo{repo='GitHub', hash='969557234b526d4b02c510ffc03a89eedb29a452', version='v0.145.6'} 	https://github.com/dialogs/dialog-web-components/commit/969557234b526d4b02c510ffc03a89eedb29a452
+CommitInfo{repo='GitHub', hash='969557234b526d4b02c510ffc03a89eedb29a452', version='v0.145.6'} 	https://github.com/dialogs/dialog-web-components/commit/969557234b526d4b02c510ffc03a89eedb29a452
+CommitInfo{repo='GitHub', hash='94bc0a36aa6c09a9a502fe7b5c79b8f10947b383', version='v0.145.7'} 	https://github.com/dialogs/dialog-web-components/commit/94bc0a36aa6c09a9a502fe7b5c79b8f10947b383
+CommitInfo{repo='GitHub', hash='94bc0a36aa6c09a9a502fe7b5c79b8f10947b383', version='v0.145.7'} 	https://github.com/dialogs/dialog-web-components/commit/94bc0a36aa6c09a9a502fe7b5c79b8f10947b383
+CommitInfo{repo='GitHub', hash='94bc0a36aa6c09a9a502fe7b5c79b8f10947b383', version='v0.145.7'} 	https://github.com/dialogs/dialog-web-components/commit/94bc0a36aa6c09a9a502fe7b5c79b8f10947b383
+CommitInfo{repo='GitHub', hash='94bc0a36aa6c09a9a502fe7b5c79b8f10947b383', version='v0.145.7'} 	https://github.com/dialogs/dialog-web-components/commit/94bc0a36aa6c09a9a502fe7b5c79b8f10947b383
+CommitInfo{repo='GitHub', hash='8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf', version='v0.145.8'} 	https://github.com/dialogs/dialog-web-components/commit/8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf
+CommitInfo{repo='GitHub', hash='8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf', version='v0.145.8'} 	https://github.com/dialogs/dialog-web-components/commit/8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf
+CommitInfo{repo='GitHub', hash='8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf', version='v0.145.8'} 	https://github.com/dialogs/dialog-web-components/commit/8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf
+CommitInfo{repo='GitHub', hash='8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf', version='v0.145.8'} 	https://github.com/dialogs/dialog-web-components/commit/8eaf59aa2fbd2f89e5c1d8bec55722bd002a89cf
+CommitInfo{repo='GitHub', hash='b11e57bce56a32b874fcd5d7b7392942dd8a835f', version='v0.145.9'} 	https://github.com/dialogs/dialog-web-components/commit/b11e57bce56a32b874fcd5d7b7392942dd8a835f
+CommitInfo{repo='GitHub', hash='b11e57bce56a32b874fcd5d7b7392942dd8a835f', version='v0.145.9'} 	https://github.com/dialogs/dialog-web-components/commit/b11e57bce56a32b874fcd5d7b7392942dd8a835f
+CommitInfo{repo='GitHub', hash='b11e57bce56a32b874fcd5d7b7392942dd8a835f', version='v0.145.9'} 	https://github.com/dialogs/dialog-web-components/commit/b11e57bce56a32b874fcd5d7b7392942dd8a835f
+CommitInfo{repo='GitHub', hash='88aab714161ac17cf466d45c69feeb879fc8d59f', version='v0.146.0'} 	https://github.com/dialogs/dialog-web-components/commit/88aab714161ac17cf466d45c69feeb879fc8d59f
+CommitInfo{repo='GitHub', hash='5a21c50de9445e2747640b64a7b3e49b1be88e6c', version='v0.146.1'} 	https://github.com/dialogs/dialog-web-components/commit/5a21c50de9445e2747640b64a7b3e49b1be88e6c
+CommitInfo{repo='GitHub', hash='eef63e119b818312a5d2a0ca4cc420e938f960cb', version='v0.147.0'} 	https://github.com/dialogs/dialog-web-components/commit/eef63e119b818312a5d2a0ca4cc420e938f960cb
+CommitInfo{repo='GitHub', hash='016cc90059151683ceff6f6816957dec72a1b44b', version='v0.148.0'} 	https://github.com/dialogs/dialog-web-components/commit/016cc90059151683ceff6f6816957dec72a1b44b
+CommitInfo{repo='GitHub', hash='960207fc1a6c3eb6bd6e05abe6bb297f5b24a551', version='v0.148.1'} 	https://github.com/dialogs/dialog-web-components/commit/960207fc1a6c3eb6bd6e05abe6bb297f5b24a551
+CommitInfo{repo='GitHub', hash='c27e4b7c9c9db8d43f5c651edf04ea4f0b148f72', version='v0.148.2'} 	https://github.com/dialogs/dialog-web-components/commit/c27e4b7c9c9db8d43f5c651edf04ea4f0b148f72
+CommitInfo{repo='GitHub', hash='fce1fe0a8557702e3df3e6cd7aba8230467ac02c', version='v0.148.3'} 	https://github.com/dialogs/dialog-web-components/commit/fce1fe0a8557702e3df3e6cd7aba8230467ac02c
+CommitInfo{repo='GitHub', hash='c2be741d0b6c3116e72a0a364b623b617130d4c7', version='v0.148.4'} 	https://github.com/dialogs/dialog-web-components/commit/c2be741d0b6c3116e72a0a364b623b617130d4c7
+CommitInfo{repo='GitHub', hash='a0a14685622cac4d799a38f0902761e3b3e3e51c', version='v0.149.0'} 	https://github.com/dialogs/dialog-web-components/commit/a0a14685622cac4d799a38f0902761e3b3e3e51c
+CommitInfo{repo='GitHub', hash='8c2022bf6486fe23fbef3fc06c2c2b6255274f3e', version='v0.149.1'} 	https://github.com/dialogs/dialog-web-components/commit/8c2022bf6486fe23fbef3fc06c2c2b6255274f3e
+CommitInfo{repo='GitHub', hash='0adfee69b8ca57d55852f16296acfe26f457b531', version='v0.149.10'} 	https://github.com/dialogs/dialog-web-components/commit/0adfee69b8ca57d55852f16296acfe26f457b531
+CommitInfo{repo='GitHub', hash='1c15d15e260dcc5fb2174b55446b3bf76f2f9127', version='v0.149.11'} 	https://github.com/dialogs/dialog-web-components/commit/1c15d15e260dcc5fb2174b55446b3bf76f2f9127
+CommitInfo{repo='GitHub', hash='14414702377a1702699ad9c64e09afec503f4341', version='v0.149.12'} 	https://github.com/dialogs/dialog-web-components/commit/14414702377a1702699ad9c64e09afec503f4341
+CommitInfo{repo='GitHub', hash='80078e665e773c1fc14e60571681f8675da8d0b2', version='v0.149.13'} 	https://github.com/dialogs/dialog-web-components/commit/80078e665e773c1fc14e60571681f8675da8d0b2
+CommitInfo{repo='GitHub', hash='4cf88b4a576d7bf98f6aac4edefb75642a414ee3', version='v0.149.2'} 	https://github.com/dialogs/dialog-web-components/commit/4cf88b4a576d7bf98f6aac4edefb75642a414ee3
+CommitInfo{repo='GitHub', hash='9aa4dac66bed71f3ac59f0c8baeca0a17d11617d', version='v0.149.3'} 	https://github.com/dialogs/dialog-web-components/commit/9aa4dac66bed71f3ac59f0c8baeca0a17d11617d
+CommitInfo{repo='GitHub', hash='88cc5c9901c80bfb0a460a7b80031a1dbba9bdd0', version='v0.149.4'} 	https://github.com/dialogs/dialog-web-components/commit/88cc5c9901c80bfb0a460a7b80031a1dbba9bdd0
+CommitInfo{repo='GitHub', hash='f54404edeb624c3a9ad5bdb9dd2fc8ff0926e338', version='v0.149.5'} 	https://github.com/dialogs/dialog-web-components/commit/f54404edeb624c3a9ad5bdb9dd2fc8ff0926e338
+CommitInfo{repo='GitHub', hash='1b18a26900615b9b0ea945602810cae6bb161330', version='v0.149.6'} 	https://github.com/dialogs/dialog-web-components/commit/1b18a26900615b9b0ea945602810cae6bb161330
+CommitInfo{repo='GitHub', hash='2c071a2d8c85eb042a757d10f5a674d10e854142', version='v0.149.7'} 	https://github.com/dialogs/dialog-web-components/commit/2c071a2d8c85eb042a757d10f5a674d10e854142
+CommitInfo{repo='GitHub', hash='dd803e946d7c7b845f8e70c8001f2a93b5af100b', version='v0.149.8'} 	https://github.com/dialogs/dialog-web-components/commit/dd803e946d7c7b845f8e70c8001f2a93b5af100b
+CommitInfo{repo='GitHub', hash='bdb89accf816e0eeb050519de3fe86fab8ec084a', version='v0.149.9'} 	https://github.com/dialogs/dialog-web-components/commit/bdb89accf816e0eeb050519de3fe86fab8ec084a
+CommitInfo{repo='GitHub', hash='312c9f6412fb82daed28f1b13abaa7ba762f6fe5', version='v0.15.0'} 	https://github.com/dialogs/dialog-web-components/commit/312c9f6412fb82daed28f1b13abaa7ba762f6fe5
+CommitInfo{repo='GitHub', hash='838ebc986f0c194a1a52b29068bf7c79056f24a3', version='v0.150.0'} 	https://github.com/dialogs/dialog-web-components/commit/838ebc986f0c194a1a52b29068bf7c79056f24a3
+CommitInfo{repo='GitHub', hash='95fd790361080abeb3d2ae80217eb00d65533f46', version='v0.150.1'} 	https://github.com/dialogs/dialog-web-components/commit/95fd790361080abeb3d2ae80217eb00d65533f46
+CommitInfo{repo='GitHub', hash='c668468ccb52bcbdbbe5dca7a63529c2528f1f78', version='v0.150.2'} 	https://github.com/dialogs/dialog-web-components/commit/c668468ccb52bcbdbbe5dca7a63529c2528f1f78
+CommitInfo{repo='GitHub', hash='c1f68d0058d3b37da4d4c141851334a8628ff53e', version='v0.150.3'} 	https://github.com/dialogs/dialog-web-components/commit/c1f68d0058d3b37da4d4c141851334a8628ff53e
+CommitInfo{repo='GitHub', hash='db23e65280e09a2d5e48be4755b60642edff3edb', version='v0.150.4'} 	https://github.com/dialogs/dialog-web-components/commit/db23e65280e09a2d5e48be4755b60642edff3edb
+CommitInfo{repo='GitHub', hash='2f51a1049d7eb6772fda72bdfab7953a0266ac36', version='v0.150.5'} 	https://github.com/dialogs/dialog-web-components/commit/2f51a1049d7eb6772fda72bdfab7953a0266ac36
+CommitInfo{repo='GitHub', hash='28d4c5b2b64697abde5ca8ea826c126f3db6ee45', version='v0.150.6'} 	https://github.com/dialogs/dialog-web-components/commit/28d4c5b2b64697abde5ca8ea826c126f3db6ee45
+CommitInfo{repo='GitHub', hash='b352727f187b0de31ca44e4faacb815537afaa9f', version='v0.150.7'} 	https://github.com/dialogs/dialog-web-components/commit/b352727f187b0de31ca44e4faacb815537afaa9f
+CommitInfo{repo='GitHub', hash='9d7faa8f9bd66dbbc60fbd970b1a1120ae503175', version='v0.150.8'} 	https://github.com/dialogs/dialog-web-components/commit/9d7faa8f9bd66dbbc60fbd970b1a1120ae503175
+CommitInfo{repo='GitHub', hash='374553d194048a6907ff1810a4a1f0a06cca17b7', version='v0.151.0'} 	https://github.com/dialogs/dialog-web-components/commit/374553d194048a6907ff1810a4a1f0a06cca17b7
+CommitInfo{repo='GitHub', hash='1e36f468bbd8a4cb3752f69fe3b7c19f957e0e3c', version='v0.151.1'} 	https://github.com/dialogs/dialog-web-components/commit/1e36f468bbd8a4cb3752f69fe3b7c19f957e0e3c
+CommitInfo{repo='GitHub', hash='f8b32e787e8b638f08234751df250b07860a346f', version='v0.151.2'} 	https://github.com/dialogs/dialog-web-components/commit/f8b32e787e8b638f08234751df250b07860a346f
+CommitInfo{repo='GitHub', hash='2985f66f0118026385dbe7ef82fd5048152c9817', version='v0.151.3'} 	https://github.com/dialogs/dialog-web-components/commit/2985f66f0118026385dbe7ef82fd5048152c9817
+CommitInfo{repo='GitHub', hash='471b467b8dfe2d73ca42fc91e3cceb6eca14c5e9', version='v0.151.4'} 	https://github.com/dialogs/dialog-web-components/commit/471b467b8dfe2d73ca42fc91e3cceb6eca14c5e9
+CommitInfo{repo='GitHub', hash='da0184aff93a5c72cb6506e0d97fd5fea327920c', version='v0.151.5'} 	https://github.com/dialogs/dialog-web-components/commit/da0184aff93a5c72cb6506e0d97fd5fea327920c
+CommitInfo{repo='GitHub', hash='a834c2d851e988785006c2f70eadf20e0fa2ff1f', version='v0.151.6'} 	https://github.com/dialogs/dialog-web-components/commit/a834c2d851e988785006c2f70eadf20e0fa2ff1f
+CommitInfo{repo='GitHub', hash='6bf2c4de08e473d87ab3485a4a17831020c2be50', version='v0.152.0'} 	https://github.com/dialogs/dialog-web-components/commit/6bf2c4de08e473d87ab3485a4a17831020c2be50
+CommitInfo{repo='GitHub', hash='61cdbc3276c5d767e315f4b5986cec960648d716', version='v0.152.1'} 	https://github.com/dialogs/dialog-web-components/commit/61cdbc3276c5d767e315f4b5986cec960648d716
+CommitInfo{repo='GitHub', hash='5aaa41da6c441c2c04fdd2542ed31e859e1f370d', version='v0.152.2'} 	https://github.com/dialogs/dialog-web-components/commit/5aaa41da6c441c2c04fdd2542ed31e859e1f370d
+CommitInfo{repo='GitHub', hash='375990ef651f35846dd66f682abc11c948975800', version='v0.152.3'} 	https://github.com/dialogs/dialog-web-components/commit/375990ef651f35846dd66f682abc11c948975800
+CommitInfo{repo='GitHub', hash='60c4e8ebc30246ebfc67cabf46e0dfe02b9fb791', version='v0.152.4'} 	https://github.com/dialogs/dialog-web-components/commit/60c4e8ebc30246ebfc67cabf46e0dfe02b9fb791
+CommitInfo{repo='GitHub', hash='ad5daa7d9dcf5904e7b13df001e6a0263d029259', version='v0.152.5'} 	https://github.com/dialogs/dialog-web-components/commit/ad5daa7d9dcf5904e7b13df001e6a0263d029259
+CommitInfo{repo='GitHub', hash='c7ef117c0eda798c9bb3f8aedf728c37394d0d27', version='v0.152.6'} 	https://github.com/dialogs/dialog-web-components/commit/c7ef117c0eda798c9bb3f8aedf728c37394d0d27
+CommitInfo{repo='GitHub', hash='c40d3362bc8fc9130ce7b87c06a1ac6ef4aa732c', version='v0.152.7'} 	https://github.com/dialogs/dialog-web-components/commit/c40d3362bc8fc9130ce7b87c06a1ac6ef4aa732c
+CommitInfo{repo='GitHub', hash='c58c8b205df8e2921520fed451b0eb6ff42c6ece', version='v0.152.8'} 	https://github.com/dialogs/dialog-web-components/commit/c58c8b205df8e2921520fed451b0eb6ff42c6ece
+CommitInfo{repo='GitHub', hash='fa5783e3f60644e151694b258c4624142664ce91', version='v0.152.9'} 	https://github.com/dialogs/dialog-web-components/commit/fa5783e3f60644e151694b258c4624142664ce91
+CommitInfo{repo='GitHub', hash='73ce506ce6b986170b57987f3b4cb72ef3ff2c7d', version='v0.153.0'} 	https://github.com/dialogs/dialog-web-components/commit/73ce506ce6b986170b57987f3b4cb72ef3ff2c7d
+CommitInfo{repo='GitHub', hash='f7fa6b883ac4f16a15c1e215732854000cd7b509', version='v0.153.1'} 	https://github.com/dialogs/dialog-web-components/commit/f7fa6b883ac4f16a15c1e215732854000cd7b509
+CommitInfo{repo='GitHub', hash='6abdfe0384278fb28ac2f9c4c9dd0ccb011aff8d', version='v0.153.2'} 	https://github.com/dialogs/dialog-web-components/commit/6abdfe0384278fb28ac2f9c4c9dd0ccb011aff8d
+CommitInfo{repo='GitHub', hash='2c59f79ea099ab1fc892a2caa9743e19c0583431', version='v0.153.3'} 	https://github.com/dialogs/dialog-web-components/commit/2c59f79ea099ab1fc892a2caa9743e19c0583431
+CommitInfo{repo='GitHub', hash='67ec87b849274387dc772ea0f75c77be1ea5b8f2', version='v0.153.4'} 	https://github.com/dialogs/dialog-web-components/commit/67ec87b849274387dc772ea0f75c77be1ea5b8f2
+CommitInfo{repo='GitHub', hash='0a6804a487f652234de499a82f1d08ce0cdfe94c', version='v0.154.0'} 	https://github.com/dialogs/dialog-web-components/commit/0a6804a487f652234de499a82f1d08ce0cdfe94c
+CommitInfo{repo='GitHub', hash='3701572fae37ed0c236912c46fff80069a272580', version='v0.154.1'} 	https://github.com/dialogs/dialog-web-components/commit/3701572fae37ed0c236912c46fff80069a272580
+CommitInfo{repo='GitHub', hash='cd5c25ec8390b2aedd603874fedcb9f8f7dc9e1c', version='v0.155.0'} 	https://github.com/dialogs/dialog-web-components/commit/cd5c25ec8390b2aedd603874fedcb9f8f7dc9e1c
+CommitInfo{repo='GitHub', hash='0f0e73f55c51de212a23a9cff7f4bb24eda8f4fe', version='v0.155.1'} 	https://github.com/dialogs/dialog-web-components/commit/0f0e73f55c51de212a23a9cff7f4bb24eda8f4fe
+CommitInfo{repo='GitHub', hash='f6e80b0b7a1891ee73fdb2f03b556ce8264effe2', version='v0.155.2'} 	https://github.com/dialogs/dialog-web-components/commit/f6e80b0b7a1891ee73fdb2f03b556ce8264effe2
+CommitInfo{repo='GitHub', hash='528475e0f9680ce754edb7b30946029d34cce2ea', version='v0.155.3'} 	https://github.com/dialogs/dialog-web-components/commit/528475e0f9680ce754edb7b30946029d34cce2ea
+CommitInfo{repo='GitHub', hash='64d999284d2f618bfb8c3c9963eb91dc48c0a9b5', version='v0.155.4'} 	https://github.com/dialogs/dialog-web-components/commit/64d999284d2f618bfb8c3c9963eb91dc48c0a9b5
+CommitInfo{repo='GitHub', hash='368e58c2e5791594fe9eb261cc0432d556c6e3e2', version='v0.156.0'} 	https://github.com/dialogs/dialog-web-components/commit/368e58c2e5791594fe9eb261cc0432d556c6e3e2
+CommitInfo{repo='GitHub', hash='bff5b181e6995a7a8cac1dd856c09fa550eb463a', version='v0.156.1'} 	https://github.com/dialogs/dialog-web-components/commit/bff5b181e6995a7a8cac1dd856c09fa550eb463a
+CommitInfo{repo='GitHub', hash='e656345307fb4a4ade90d3124665c85060eac6e4', version='v0.156.2'} 	https://github.com/dialogs/dialog-web-components/commit/e656345307fb4a4ade90d3124665c85060eac6e4
+CommitInfo{repo='GitHub', hash='d3c9ccd06e10bd5512e416d2f29077684f40fae4', version='v0.156.3'} 	https://github.com/dialogs/dialog-web-components/commit/d3c9ccd06e10bd5512e416d2f29077684f40fae4
+CommitInfo{repo='GitHub', hash='be924c63498b5d8977804f21bf71be9809048927', version='v0.156.4'} 	https://github.com/dialogs/dialog-web-components/commit/be924c63498b5d8977804f21bf71be9809048927
+CommitInfo{repo='GitHub', hash='eac60fa41a90709dcc798a98d855fcda965fd9d5', version='v0.157.0'} 	https://github.com/dialogs/dialog-web-components/commit/eac60fa41a90709dcc798a98d855fcda965fd9d5
+CommitInfo{repo='GitHub', hash='014c8e0d872116cab6d817de8216da23c7ef95ab', version='v0.157.1'} 	https://github.com/dialogs/dialog-web-components/commit/014c8e0d872116cab6d817de8216da23c7ef95ab
+CommitInfo{repo='GitHub', hash='e2488b7befd1b297bca4de90fc15ca059f96f78f', version='v0.157.2'} 	https://github.com/dialogs/dialog-web-components/commit/e2488b7befd1b297bca4de90fc15ca059f96f78f
+CommitInfo{repo='GitHub', hash='9e87237feca2feac8b7d5c269f80b396761cbd82', version='v0.157.3'} 	https://github.com/dialogs/dialog-web-components/commit/9e87237feca2feac8b7d5c269f80b396761cbd82
+CommitInfo{repo='GitHub', hash='2fafe997d7e844b893d6e0af6440d392716043b4', version='v0.157.4'} 	https://github.com/dialogs/dialog-web-components/commit/2fafe997d7e844b893d6e0af6440d392716043b4
+CommitInfo{repo='GitHub', hash='8e0364233dcd19a4c957862282c201531ea97a8e', version='v0.157.5'} 	https://github.com/dialogs/dialog-web-components/commit/8e0364233dcd19a4c957862282c201531ea97a8e
+CommitInfo{repo='GitHub', hash='01eb474b4cf2ecaa52379e603dd529b916aa840a', version='v0.157.6'} 	https://github.com/dialogs/dialog-web-components/commit/01eb474b4cf2ecaa52379e603dd529b916aa840a
+CommitInfo{repo='GitHub', hash='35ee11911d489df3b04a53d2e90fe645e306c75b', version='v0.157.7'} 	https://github.com/dialogs/dialog-web-components/commit/35ee11911d489df3b04a53d2e90fe645e306c75b
+CommitInfo{repo='GitHub', hash='58bb512d6fc1abd36ff73cd1883b5bda3cbae9f6', version='v0.157.8'} 	https://github.com/dialogs/dialog-web-components/commit/58bb512d6fc1abd36ff73cd1883b5bda3cbae9f6
+CommitInfo{repo='GitHub', hash='54f029a6f38faf47a8310d130727b0098698c6a5', version='v0.157.9'} 	https://github.com/dialogs/dialog-web-components/commit/54f029a6f38faf47a8310d130727b0098698c6a5
+CommitInfo{repo='GitHub', hash='21a635a4c1d905e2f037b9e3520e219451d7d7b3', version='v0.158.0'} 	https://github.com/dialogs/dialog-web-components/commit/21a635a4c1d905e2f037b9e3520e219451d7d7b3
+CommitInfo{repo='GitHub', hash='cec830a615f58045fe6b806d7e87bbf2d7d98da3', version='v0.158.1'} 	https://github.com/dialogs/dialog-web-components/commit/cec830a615f58045fe6b806d7e87bbf2d7d98da3
+CommitInfo{repo='GitHub', hash='9f51aa9ae69e49fcc7f6f275de894bf3cf8a8cb3', version='v0.159.0'} 	https://github.com/dialogs/dialog-web-components/commit/9f51aa9ae69e49fcc7f6f275de894bf3cf8a8cb3
+CommitInfo{repo='GitHub', hash='c537de58c30baf2573212c9dd3f73c250083e319', version='v0.159.1'} 	https://github.com/dialogs/dialog-web-components/commit/c537de58c30baf2573212c9dd3f73c250083e319
+CommitInfo{repo='GitHub', hash='3556da5870efee41e9b0fe8b1d9c203ad835f766', version='v0.16.0'} 	https://github.com/dialogs/dialog-web-components/commit/3556da5870efee41e9b0fe8b1d9c203ad835f766
+CommitInfo{repo='GitHub', hash='d31456a07e591a6a00d3b284279a834060814014', version='v0.160.0'} 	https://github.com/dialogs/dialog-web-components/commit/d31456a07e591a6a00d3b284279a834060814014
+CommitInfo{repo='GitHub', hash='ca34d0e1abd0849858c7d4934934981101413516', version='v0.160.1'} 	https://github.com/dialogs/dialog-web-components/commit/ca34d0e1abd0849858c7d4934934981101413516
+CommitInfo{repo='GitHub', hash='166b0faf5c80add3785ec8fcae372d2767e5e1a4', version='v0.160.2'} 	https://github.com/dialogs/dialog-web-components/commit/166b0faf5c80add3785ec8fcae372d2767e5e1a4
+CommitInfo{repo='GitHub', hash='9786067ed5b09b91d0192da65d90d218df02d47e', version='v0.160.3'} 	https://github.com/dialogs/dialog-web-components/commit/9786067ed5b09b91d0192da65d90d218df02d47e
+CommitInfo{repo='GitHub', hash='1b262ee016fffd13b804d863dc581f85d1969e1b', version='v0.160.4'} 	https://github.com/dialogs/dialog-web-components/commit/1b262ee016fffd13b804d863dc581f85d1969e1b
+CommitInfo{repo='GitHub', hash='af1ffa0efd63457bf1fceb28bdc247eed2f6ef5b', version='v0.160.5'} 	https://github.com/dialogs/dialog-web-components/commit/af1ffa0efd63457bf1fceb28bdc247eed2f6ef5b
+CommitInfo{repo='GitHub', hash='d82278daeeedeafba3155007e5eb40c9b76934f8', version='v0.160.6'} 	https://github.com/dialogs/dialog-web-components/commit/d82278daeeedeafba3155007e5eb40c9b76934f8
+CommitInfo{repo='GitHub', hash='1b729852cd78fb1d1e8221e856ec5ed6432d606a', version='v0.160.7'} 	https://github.com/dialogs/dialog-web-components/commit/1b729852cd78fb1d1e8221e856ec5ed6432d606a
+CommitInfo{repo='GitHub', hash='6ab8c4d69cfe0e801089edeb599d850a0b62ccce', version='v0.160.8'} 	https://github.com/dialogs/dialog-web-components/commit/6ab8c4d69cfe0e801089edeb599d850a0b62ccce
+CommitInfo{repo='GitHub', hash='e0527ccf6f4bd0ab1071367c4da4062752076098', version='v0.16.1'} 	https://github.com/dialogs/dialog-web-components/commit/e0527ccf6f4bd0ab1071367c4da4062752076098
+CommitInfo{repo='GitHub', hash='264f8f43ed046ca73acbe2f5b2a382247e2aa755', version='v0.161.0'} 	https://github.com/dialogs/dialog-web-components/commit/264f8f43ed046ca73acbe2f5b2a382247e2aa755
+CommitInfo{repo='GitHub', hash='3fe69beafb042ad58dfc400aabb326d2ad72796f', version='v0.161.1'} 	https://github.com/dialogs/dialog-web-components/commit/3fe69beafb042ad58dfc400aabb326d2ad72796f
+CommitInfo{repo='GitHub', hash='7d917f87b9f75f4873ef8c278de07a57662aa485', version='v0.161.10'} 	https://github.com/dialogs/dialog-web-components/commit/7d917f87b9f75f4873ef8c278de07a57662aa485
+CommitInfo{repo='GitHub', hash='0cf549acb8906c2cbac025becb7f491fa34e4410', version='v0.161.11'} 	https://github.com/dialogs/dialog-web-components/commit/0cf549acb8906c2cbac025becb7f491fa34e4410
+CommitInfo{repo='GitHub', hash='8b7db6fe27f3f3c8d62a1356f39a9b0e63ee71b8', version='v0.161.12'} 	https://github.com/dialogs/dialog-web-components/commit/8b7db6fe27f3f3c8d62a1356f39a9b0e63ee71b8
+CommitInfo{repo='GitHub', hash='8254ef08fef36f9376d65d9056831dbde3bc321a', version='v0.161.13'} 	https://github.com/dialogs/dialog-web-components/commit/8254ef08fef36f9376d65d9056831dbde3bc321a
+CommitInfo{repo='GitHub', hash='63484f76c0172e83bd0803a8f9bcd06df5c04231', version='v0.161.14'} 	https://github.com/dialogs/dialog-web-components/commit/63484f76c0172e83bd0803a8f9bcd06df5c04231
+CommitInfo{repo='GitHub', hash='115978fb5b0d3ce264c0fee3fade3c479bc63305', version='v0.161.2'} 	https://github.com/dialogs/dialog-web-components/commit/115978fb5b0d3ce264c0fee3fade3c479bc63305
+CommitInfo{repo='GitHub', hash='bdc3e2b1547e128d06b9092858569fa3ebc4e6ad', version='v0.161.3'} 	https://github.com/dialogs/dialog-web-components/commit/bdc3e2b1547e128d06b9092858569fa3ebc4e6ad
+CommitInfo{repo='GitHub', hash='958e7f91a940543c87609d87373d8418820f32e7', version='v0.161.4'} 	https://github.com/dialogs/dialog-web-components/commit/958e7f91a940543c87609d87373d8418820f32e7
+CommitInfo{repo='GitHub', hash='6002b8719fd3ff1019ca0e0cd71a0af1bb970e2a', version='v0.161.5'} 	https://github.com/dialogs/dialog-web-components/commit/6002b8719fd3ff1019ca0e0cd71a0af1bb970e2a
+CommitInfo{repo='GitHub', hash='df6c5bd6ac7f89390f53e62c211677218575d04b', version='v0.161.6'} 	https://github.com/dialogs/dialog-web-components/commit/df6c5bd6ac7f89390f53e62c211677218575d04b
+CommitInfo{repo='GitHub', hash='6b52dd2c6cf967b6091d145e48c51ebf200c433a', version='v0.161.7'} 	https://github.com/dialogs/dialog-web-components/commit/6b52dd2c6cf967b6091d145e48c51ebf200c433a
+CommitInfo{repo='GitHub', hash='bbb32ada1ef80bffe84d74f6ddf375a7c3672f0a', version='v0.161.8'} 	https://github.com/dialogs/dialog-web-components/commit/bbb32ada1ef80bffe84d74f6ddf375a7c3672f0a
+CommitInfo{repo='GitHub', hash='5d385e04cc5ffb75e24ea5518ba14c9cfdb5f00e', version='v0.161.9'} 	https://github.com/dialogs/dialog-web-components/commit/5d385e04cc5ffb75e24ea5518ba14c9cfdb5f00e
+CommitInfo{repo='GitHub', hash='1dbfa5395f87243eac272b3af18947ebf803ac5d', version='v0.162.0'} 	https://github.com/dialogs/dialog-web-components/commit/1dbfa5395f87243eac272b3af18947ebf803ac5d
+CommitInfo{repo='GitHub', hash='436e7b240588b413227238bcffd26efe75009e0f', version='v0.163.0'} 	https://github.com/dialogs/dialog-web-components/commit/436e7b240588b413227238bcffd26efe75009e0f
+CommitInfo{repo='GitHub', hash='8b0f191207838e7af1b239b90c641234b1f7ffd8', version='v0.163.1'} 	https://github.com/dialogs/dialog-web-components/commit/8b0f191207838e7af1b239b90c641234b1f7ffd8
+CommitInfo{repo='GitHub', hash='86bd7c8ed7c78ce61e1b73f3594f23f0fd3e4a72', version='v0.163.2'} 	https://github.com/dialogs/dialog-web-components/commit/86bd7c8ed7c78ce61e1b73f3594f23f0fd3e4a72
+CommitInfo{repo='GitHub', hash='48184d87da45dc7a5b24ddeded35cc34e36aaa86', version='v0.163.3'} 	https://github.com/dialogs/dialog-web-components/commit/48184d87da45dc7a5b24ddeded35cc34e36aaa86
+CommitInfo{repo='GitHub', hash='ae82e6cefdbdb0adf8a7622827508bb440ae678f', version='v0.163.4'} 	https://github.com/dialogs/dialog-web-components/commit/ae82e6cefdbdb0adf8a7622827508bb440ae678f
+CommitInfo{repo='GitHub', hash='56126bf995171cf0e12586a60daa8aee9b468802', version='v0.163.5'} 	https://github.com/dialogs/dialog-web-components/commit/56126bf995171cf0e12586a60daa8aee9b468802
+CommitInfo{repo='GitHub', hash='e6bd9e75dc87e001a19335e79104915545b32555', version='v0.163.6'} 	https://github.com/dialogs/dialog-web-components/commit/e6bd9e75dc87e001a19335e79104915545b32555
+CommitInfo{repo='GitHub', hash='de1cb2a6fc6c964df0383844e60dd0fb13c0af43', version='v0.164.0'} 	https://github.com/dialogs/dialog-web-components/commit/de1cb2a6fc6c964df0383844e60dd0fb13c0af43
+CommitInfo{repo='GitHub', hash='cc8e16c1d5cac293f1090d3c6aa91f529824cbaa', version='v0.164.1'} 	https://github.com/dialogs/dialog-web-components/commit/cc8e16c1d5cac293f1090d3c6aa91f529824cbaa
+CommitInfo{repo='GitHub', hash='2b31252549b05a93ae854e53a2f24d53ad1bc634', version='v0.164.2'} 	https://github.com/dialogs/dialog-web-components/commit/2b31252549b05a93ae854e53a2f24d53ad1bc634
+CommitInfo{repo='GitHub', hash='99862ffe9e805d3e4a87c033e79016e01de1a220', version='v0.164.4'} 	https://github.com/dialogs/dialog-web-components/commit/99862ffe9e805d3e4a87c033e79016e01de1a220
+CommitInfo{repo='GitHub', hash='760b168b6e42665b004237db89e33e8cb657fdce', version='v0.164.5'} 	https://github.com/dialogs/dialog-web-components/commit/760b168b6e42665b004237db89e33e8cb657fdce
+CommitInfo{repo='GitHub', hash='68a0ed3f240eaed97454584bb5f513f6ef3ca3b9', version='v0.165.0'} 	https://github.com/dialogs/dialog-web-components/commit/68a0ed3f240eaed97454584bb5f513f6ef3ca3b9
+CommitInfo{repo='GitHub', hash='00e4400afe6d3fb8927630b1b7f3c9a7e8ff4ba6', version='v0.165.1'} 	https://github.com/dialogs/dialog-web-components/commit/00e4400afe6d3fb8927630b1b7f3c9a7e8ff4ba6
+CommitInfo{repo='GitHub', hash='dc531e908c624e312046f3133b5b61b9d9c95f99', version='v0.165.10'} 	https://github.com/dialogs/dialog-web-components/commit/dc531e908c624e312046f3133b5b61b9d9c95f99
+CommitInfo{repo='GitHub', hash='12a6981f28fc138ebdba02ca8f1f35934ff2a128', version='v0.165.11-0.165.11-testCI.0.0'} 	https://github.com/dialogs/dialog-web-components/commit/12a6981f28fc138ebdba02ca8f1f35934ff2a128
+CommitInfo{repo='GitHub', hash='25c605e0a0b12e250febb3bca0e833208b32b367', version='v0.165.11-0.166.0.0'} 	https://github.com/dialogs/dialog-web-components/commit/25c605e0a0b12e250febb3bca0e833208b32b367
+CommitInfo{repo='GitHub', hash='e1db7cc3142fa4491f3e98bd362e006f546860ca', version='v0.165.11-test.0'} 	https://github.com/dialogs/dialog-web-components/commit/e1db7cc3142fa4491f3e98bd362e006f546860ca
+CommitInfo{repo='GitHub', hash='2b31fed238219b69fdd0265882fe56051e0913ef', version='v0.165.11-test.1'} 	https://github.com/dialogs/dialog-web-components/commit/2b31fed238219b69fdd0265882fe56051e0913ef
+CommitInfo{repo='GitHub', hash='dcba43ad83a60138040aea0b138dcd2d7d138c76', version='v0.165.11-test.2'} 	https://github.com/dialogs/dialog-web-components/commit/dcba43ad83a60138040aea0b138dcd2d7d138c76
+CommitInfo{repo='GitHub', hash='c57a5f9f9193a6035de713b05450430041d0907e', version='v0.165.11-test.3'} 	https://github.com/dialogs/dialog-web-components/commit/c57a5f9f9193a6035de713b05450430041d0907e
+CommitInfo{repo='GitHub', hash='27926ffa61a3da6e3bd5bb462504bb3013592127', version='v0.165.11-test.4'} 	https://github.com/dialogs/dialog-web-components/commit/27926ffa61a3da6e3bd5bb462504bb3013592127
+CommitInfo{repo='GitHub', hash='ec88d4c992606b4a0e02c1d953931c2d72c44ca7', version='v0.165.11-test.5'} 	https://github.com/dialogs/dialog-web-components/commit/ec88d4c992606b4a0e02c1d953931c2d72c44ca7
+CommitInfo{repo='GitHub', hash='1b43b39f672c461b4f1973a0afa6312221dee1f2', version='v0.165.11-test.6'} 	https://github.com/dialogs/dialog-web-components/commit/1b43b39f672c461b4f1973a0afa6312221dee1f2
+CommitInfo{repo='GitHub', hash='d44750d87af105ded4eec051d2dafe515be60bc4', version='v0.165.11-test.7'} 	https://github.com/dialogs/dialog-web-components/commit/d44750d87af105ded4eec051d2dafe515be60bc4
+CommitInfo{repo='GitHub', hash='7192198fb6dd9f49937da4bea0a7278191df5dc2', version='v0.165.13-0'} 	https://github.com/dialogs/dialog-web-components/commit/7192198fb6dd9f49937da4bea0a7278191df5dc2
+CommitInfo{repo='GitHub', hash='082a1521cf61ef96e4a7cf76408420073ffe0810', version='v0.165.14-beta.0'} 	https://github.com/dialogs/dialog-web-components/commit/082a1521cf61ef96e4a7cf76408420073ffe0810
+CommitInfo{repo='GitHub', hash='d75ec91c6efd52514fb69f6820de58187f66fcf9', version='v0.165.16-beta.0'} 	https://github.com/dialogs/dialog-web-components/commit/d75ec91c6efd52514fb69f6820de58187f66fcf9
+CommitInfo{repo='GitHub', hash='e2bcb08e3250bb59f457374100e84c4c463d2bbe', version='v0.165.2'} 	https://github.com/dialogs/dialog-web-components/commit/e2bcb08e3250bb59f457374100e84c4c463d2bbe
+CommitInfo{repo='GitHub', hash='8516afc6f7f0421b2fba6285c47276338f5e1174', version='v0.165.2-feature-remote-search'} 	https://github.com/dialogs/dialog-web-components/commit/8516afc6f7f0421b2fba6285c47276338f5e1174
+CommitInfo{repo='GitHub', hash='80f8c5351e446f2d8937ff6780001a582dc16986', version='v0.165.3'} 	https://github.com/dialogs/dialog-web-components/commit/80f8c5351e446f2d8937ff6780001a582dc16986
+CommitInfo{repo='GitHub', hash='90456c6825bf88e9865b62be30abb6f864a630ca', version='v0.165.4'} 	https://github.com/dialogs/dialog-web-components/commit/90456c6825bf88e9865b62be30abb6f864a630ca
+CommitInfo{repo='GitHub', hash='701fdb16a4d96d7e56e765f367c34c3c69c3ddce', version='v0.165.5'} 	https://github.com/dialogs/dialog-web-components/commit/701fdb16a4d96d7e56e765f367c34c3c69c3ddce
+CommitInfo{repo='GitHub', hash='7e01951e88654eddb2381d74551a4fcba7039597', version='v0.165.6'} 	https://github.com/dialogs/dialog-web-components/commit/7e01951e88654eddb2381d74551a4fcba7039597
+CommitInfo{repo='GitHub', hash='f5055d7b0b19eefef134af19fb864cb893752d70', version='v0.165.7'} 	https://github.com/dialogs/dialog-web-components/commit/f5055d7b0b19eefef134af19fb864cb893752d70
+CommitInfo{repo='GitHub', hash='42972ebb153743e14b6dce5389aee437bcb9f494', version='v0.165.8'} 	https://github.com/dialogs/dialog-web-components/commit/42972ebb153743e14b6dce5389aee437bcb9f494
+CommitInfo{repo='GitHub', hash='a0b51c62fd2e4549ba16c21c2077765042fb9ce9', version='v0.165.9'} 	https://github.com/dialogs/dialog-web-components/commit/a0b51c62fd2e4549ba16c21c2077765042fb9ce9
+CommitInfo{repo='GitHub', hash='fb06707d4785d09de526c191154e4577fea921a9', version='v0.166.0-0'} 	https://github.com/dialogs/dialog-web-components/commit/fb06707d4785d09de526c191154e4577fea921a9
+CommitInfo{repo='GitHub', hash='9e85d362428eeaa1cf75e0a2f2a3a833f2e9719c', version='v0.166.0-1'} 	https://github.com/dialogs/dialog-web-components/commit/9e85d362428eeaa1cf75e0a2f2a3a833f2e9719c
+CommitInfo{repo='GitHub', hash='07be9559eb96dbd211c96ded41612bd62bde9e37', version='v0.167.0-1'} 	https://github.com/dialogs/dialog-web-components/commit/07be9559eb96dbd211c96ded41612bd62bde9e37
+CommitInfo{repo='GitHub', hash='af4bb61ca2203ecc468633a27d52cd744738c84b', version='v0.168.0'} 	https://github.com/dialogs/dialog-web-components/commit/af4bb61ca2203ecc468633a27d52cd744738c84b
+CommitInfo{repo='GitHub', hash='09fc71c1148d4abf173975ffc2f8379ae3aaa0c5', version='v0.169.0'} 	https://github.com/dialogs/dialog-web-components/commit/09fc71c1148d4abf173975ffc2f8379ae3aaa0c5
+CommitInfo{repo='GitHub', hash='8e89c23da2e65aa67198f55c82a750b44f30eb35', version='v0.17.0'} 	https://github.com/dialogs/dialog-web-components/commit/8e89c23da2e65aa67198f55c82a750b44f30eb35
+CommitInfo{repo='GitHub', hash='69a987e3b5963d2602564b46aef390801358c731', version='v0.170.0'} 	https://github.com/dialogs/dialog-web-components/commit/69a987e3b5963d2602564b46aef390801358c731
+CommitInfo{repo='GitHub', hash='422f80988bacde19d790a28f635e4a3bf181a7d3', version='v0.17.1'} 	https://github.com/dialogs/dialog-web-components/commit/422f80988bacde19d790a28f635e4a3bf181a7d3
+CommitInfo{repo='GitHub', hash='b116ac0456d94e53736da4a4613caeb9ef06f709', version='v0.171.0'} 	https://github.com/dialogs/dialog-web-components/commit/b116ac0456d94e53736da4a4613caeb9ef06f709
+CommitInfo{repo='GitHub', hash='18808c779eefeaaf7ea4a4edb33f80952ee5260f', version='v0.172.0'} 	https://github.com/dialogs/dialog-web-components/commit/18808c779eefeaaf7ea4a4edb33f80952ee5260f
+CommitInfo{repo='GitHub', hash='3e495d04c41e4449b8fa6dfd20bddb616b758845', version='v.0.173.0'} 	https://github.com/dialogs/dialog-web-components/commit/3e495d04c41e4449b8fa6dfd20bddb616b758845
+CommitInfo{repo='GitHub', hash='ebc10cbc910cd8f57cc850dd6036623be2e9a9e2', version='v0.173.1-dialog-bot.2204.0'} 	https://github.com/dialogs/dialog-web-components/commit/ebc10cbc910cd8f57cc850dd6036623be2e9a9e2
+CommitInfo{repo='GitHub', hash='a196b51a28a914ebccc76af2577cf74e079136e1', version='v0.173.1-dialog-bot.2207.0'} 	https://github.com/dialogs/dialog-web-components/commit/a196b51a28a914ebccc76af2577cf74e079136e1
+CommitInfo{repo='GitHub', hash='327a30dcaa7f2bda2c90d8322fc5fb2bb6ba3806', version='v0.173.1-dialog-bot.2211.0'} 	https://github.com/dialogs/dialog-web-components/commit/327a30dcaa7f2bda2c90d8322fc5fb2bb6ba3806
+CommitInfo{repo='GitHub', hash='315ae26203c770b61e6ea329b46139b1f41dedf1', version='v0.173.1-dialog-bot.2215.0'} 	https://github.com/dialogs/dialog-web-components/commit/315ae26203c770b61e6ea329b46139b1f41dedf1
+CommitInfo{repo='GitHub', hash='24ff7bfe9d2cb58a95adcc8a623b80c6d4c393d7', version='v0.173.1-dialog-bot.2218.0'} 	https://github.com/dialogs/dialog-web-components/commit/24ff7bfe9d2cb58a95adcc8a623b80c6d4c393d7
+CommitInfo{repo='GitHub', hash='9588e2bac55779bc0bd84fe716a2f068d377c634', version='v0.173.1-dialog-bot.2219.0'} 	https://github.com/dialogs/dialog-web-components/commit/9588e2bac55779bc0bd84fe716a2f068d377c634
+CommitInfo{repo='GitHub', hash='624ae894c9c95d5bdc1ba45dd880848d4f6e8b9d', version='v0.173.1-dialog-bot.2221.0'} 	https://github.com/dialogs/dialog-web-components/commit/624ae894c9c95d5bdc1ba45dd880848d4f6e8b9d
+CommitInfo{repo='GitHub', hash='ac8386a7f1be31152312dc2d899a57b0c549193b', version='v0.173.1-dialog-bot.2224.0'} 	https://github.com/dialogs/dialog-web-components/commit/ac8386a7f1be31152312dc2d899a57b0c549193b
+CommitInfo{repo='GitHub', hash='b0fc157b5ea42d3e88495518ba9781b62f7f1bb0', version='v0.173.1-dialog-bot.2228.0'} 	https://github.com/dialogs/dialog-web-components/commit/b0fc157b5ea42d3e88495518ba9781b62f7f1bb0
+CommitInfo{repo='GitHub', hash='d73ae1e04b135e0a6588918751c13f23aa924c54', version='v0.174.0'} 	https://github.com/dialogs/dialog-web-components/commit/d73ae1e04b135e0a6588918751c13f23aa924c54
+CommitInfo{repo='GitHub', hash='19a37419baada144dbc15d3dbbad53b0fb669bad', version='v0.175.0'} 	https://github.com/dialogs/dialog-web-components/commit/19a37419baada144dbc15d3dbbad53b0fb669bad
+CommitInfo{repo='GitHub', hash='d60df5de4c6dff34c6b6477f09ff48f88f3aa261', version='v0.176.0'} 	https://github.com/dialogs/dialog-web-components/commit/d60df5de4c6dff34c6b6477f09ff48f88f3aa261
+CommitInfo{repo='GitHub', hash='d9b10660f5fde68bacdf3e8be116c17a8fa25d2b', version='v0.177.0'} 	https://github.com/dialogs/dialog-web-components/commit/d9b10660f5fde68bacdf3e8be116c17a8fa25d2b
+CommitInfo{repo='GitHub', hash='25a19e32672e55fdc4f76c0517a0d31f492acce7', version='v0.178.0'} 	https://github.com/dialogs/dialog-web-components/commit/25a19e32672e55fdc4f76c0517a0d31f492acce7
+CommitInfo{repo='GitHub', hash='31ebcabd9ecb8c458ab3a965a84f9172750d72d3', version='v0.179.0'} 	https://github.com/dialogs/dialog-web-components/commit/31ebcabd9ecb8c458ab3a965a84f9172750d72d3
+CommitInfo{repo='GitHub', hash='6c082b8ddd8951f17ea70224b542949e2bef0a4b', version='v0.18.0'} 	https://github.com/dialogs/dialog-web-components/commit/6c082b8ddd8951f17ea70224b542949e2bef0a4b
+CommitInfo{repo='GitHub', hash='243c0138bfc76b09f901de88b9fbc2440cb9c860', version='v0.180.0'} 	https://github.com/dialogs/dialog-web-components/commit/243c0138bfc76b09f901de88b9fbc2440cb9c860
+CommitInfo{repo='GitHub', hash='c5d3cd7ef058b572de5aaae76bbb412421b888f3', version='v0.18.1'} 	https://github.com/dialogs/dialog-web-components/commit/c5d3cd7ef058b572de5aaae76bbb412421b888f3
+CommitInfo{repo='GitHub', hash='9581765ddd463f82ea95f1f78df2a220857840e8', version='v0.181.0'} 	https://github.com/dialogs/dialog-web-components/commit/9581765ddd463f82ea95f1f78df2a220857840e8
+CommitInfo{repo='GitHub', hash='f5cbe2b2c2282e30a6d5fa82140c3781941787d6', version='v0.18.2'} 	https://github.com/dialogs/dialog-web-components/commit/f5cbe2b2c2282e30a6d5fa82140c3781941787d6
+CommitInfo{repo='GitHub', hash='2c8d3f42c69256f8584c215a87b5cd17c904a8ce', version='v0.182.0'} 	https://github.com/dialogs/dialog-web-components/commit/2c8d3f42c69256f8584c215a87b5cd17c904a8ce
+CommitInfo{repo='GitHub', hash='c57e154aa66bb19950ad098da9166d54ac967b6c', version='v0.183.0'} 	https://github.com/dialogs/dialog-web-components/commit/c57e154aa66bb19950ad098da9166d54ac967b6c
+CommitInfo{repo='GitHub', hash='2f947cbd682a25396c5b0aab2c5771697721b5e8', version='v0.184.0'} 	https://github.com/dialogs/dialog-web-components/commit/2f947cbd682a25396c5b0aab2c5771697721b5e8
+CommitInfo{repo='GitHub', hash='5ae48c19e3073051f0b1a05fa6fefcc57c5edaf3', version='v0.184.0-0'} 	https://github.com/dialogs/dialog-web-components/commit/5ae48c19e3073051f0b1a05fa6fefcc57c5edaf3
+CommitInfo{repo='GitHub', hash='ad75799235945e568e006adfda29fb3164fe0a7e', version='v0.184.0-1'} 	https://github.com/dialogs/dialog-web-components/commit/ad75799235945e568e006adfda29fb3164fe0a7e
+CommitInfo{repo='GitHub', hash='72fe0f335556d57ebed3db71240dc6a93ace56f6', version='v0.184.0-2'} 	https://github.com/dialogs/dialog-web-components/commit/72fe0f335556d57ebed3db71240dc6a93ace56f6
+CommitInfo{repo='GitHub', hash='3b363f161e3a8af019193d6932c889a6a4a0967c', version='v0.185.0'} 	https://github.com/dialogs/dialog-web-components/commit/3b363f161e3a8af019193d6932c889a6a4a0967c
+CommitInfo{repo='GitHub', hash='0bf3f1632e5c53fa30fdcbd1e2da2fc4f1169ff0', version='v0.186.0'} 	https://github.com/dialogs/dialog-web-components/commit/0bf3f1632e5c53fa30fdcbd1e2da2fc4f1169ff0
+CommitInfo{repo='GitHub', hash='5b8ad0e43dd3825d426cfbff66d352f954feeb41', version='v0.187.0'} 	https://github.com/dialogs/dialog-web-components/commit/5b8ad0e43dd3825d426cfbff66d352f954feeb41
+CommitInfo{repo='GitHub', hash='1868bcedee80840d552970d1145992263c3f18b0', version='v0.19.0'} 	https://github.com/dialogs/dialog-web-components/commit/1868bcedee80840d552970d1145992263c3f18b0
+CommitInfo{repo='GitHub', hash='5ab3ce97155656f51c2826c31fc171a21ab52aa9', version='v0.19.1'} 	https://github.com/dialogs/dialog-web-components/commit/5ab3ce97155656f51c2826c31fc171a21ab52aa9
+CommitInfo{repo='GitHub', hash='257317c3bea436912ff45996c7df9ac1676709d1', version='v0.19.2'} 	https://github.com/dialogs/dialog-web-components/commit/257317c3bea436912ff45996c7df9ac1676709d1
+CommitInfo{repo='GitHub', hash='84bf9cdd714a59a8ed1ccae937d12d5168bbc78d', version='v0.19.3'} 	https://github.com/dialogs/dialog-web-components/commit/84bf9cdd714a59a8ed1ccae937d12d5168bbc78d
+CommitInfo{repo='GitHub', hash='3d45b3ea2a45dfe1b1052a4439fb0bcfa9ae456e', version='v0.19.4'} 	https://github.com/dialogs/dialog-web-components/commit/3d45b3ea2a45dfe1b1052a4439fb0bcfa9ae456e
+CommitInfo{repo='GitHub', hash='30df90cb26ccc50c040a0dabe78eebee882a902b', version='v0.19.5'} 	https://github.com/dialogs/dialog-web-components/commit/30df90cb26ccc50c040a0dabe78eebee882a902b
+CommitInfo{repo='GitHub', hash='a4bb7639570ff58e1f82c72d13b9552d7ac42fd5', version='v0.2.0'} 	https://github.com/dialogs/dialog-web-components/commit/a4bb7639570ff58e1f82c72d13b9552d7ac42fd5
+CommitInfo{repo='GitHub', hash='bc1b40315ffe7d218cb1b4682fc32a239b9f21fa', version='v0.20.0'} 	https://github.com/dialogs/dialog-web-components/commit/bc1b40315ffe7d218cb1b4682fc32a239b9f21fa
+CommitInfo{repo='GitHub', hash='70eaaf121ee1513e31fad97534b55ab523be100c', version='v0.21.0'} 	https://github.com/dialogs/dialog-web-components/commit/70eaaf121ee1513e31fad97534b55ab523be100c
+CommitInfo{repo='GitHub', hash='3aae94743ff1457a87cceea5700341b8b27b34bb', version='v0.21.1'} 	https://github.com/dialogs/dialog-web-components/commit/3aae94743ff1457a87cceea5700341b8b27b34bb
+CommitInfo{repo='GitHub', hash='b61161ac3d99a6b696add3ffe05a5bf35b7b8be4', version='v0.21.2'} 	https://github.com/dialogs/dialog-web-components/commit/b61161ac3d99a6b696add3ffe05a5bf35b7b8be4
+CommitInfo{repo='GitHub', hash='b6808be9207f656b54967a8815e3e42defb52714', version='v0.21.3'} 	https://github.com/dialogs/dialog-web-components/commit/b6808be9207f656b54967a8815e3e42defb52714
+CommitInfo{repo='GitHub', hash='d5a274d19957fb2a2563eb614a73eff61a571f5e', version='v0.22.0'} 	https://github.com/dialogs/dialog-web-components/commit/d5a274d19957fb2a2563eb614a73eff61a571f5e
+CommitInfo{repo='GitHub', hash='93cfc3eaef4463c01dc008b8a3f4230a942e6f00', version='v0.22.1'} 	https://github.com/dialogs/dialog-web-components/commit/93cfc3eaef4463c01dc008b8a3f4230a942e6f00
+CommitInfo{repo='GitHub', hash='0fa293a29c144c4897323c59dcf7f95a1d8c7a95', version='v0.23.0'} 	https://github.com/dialogs/dialog-web-components/commit/0fa293a29c144c4897323c59dcf7f95a1d8c7a95
+CommitInfo{repo='GitHub', hash='ff6984567c4e9154c8fdb070e2e8c58fff50322f', version='v0.24.0'} 	https://github.com/dialogs/dialog-web-components/commit/ff6984567c4e9154c8fdb070e2e8c58fff50322f
+CommitInfo{repo='GitHub', hash='2ea91368d5a798d11a7c2d1939017f257e81cde9', version='v0.25.0'} 	https://github.com/dialogs/dialog-web-components/commit/2ea91368d5a798d11a7c2d1939017f257e81cde9
+CommitInfo{repo='GitHub', hash='69be976570ab438739fd6274f1472930a91ceced', version='v0.25.1'} 	https://github.com/dialogs/dialog-web-components/commit/69be976570ab438739fd6274f1472930a91ceced
+CommitInfo{repo='GitHub', hash='b3e16179dbcf513fdc12235a27ef86ff628a51c4', version='v0.25.2'} 	https://github.com/dialogs/dialog-web-components/commit/b3e16179dbcf513fdc12235a27ef86ff628a51c4
+CommitInfo{repo='GitHub', hash='a20433bba43d4105d65d70ae407f5752f6dee8b2', version='v0.25.3'} 	https://github.com/dialogs/dialog-web-components/commit/a20433bba43d4105d65d70ae407f5752f6dee8b2
+CommitInfo{repo='GitHub', hash='f743172fb22b9425a9f351913139b3aa4503aaae', version='v0.25.4'} 	https://github.com/dialogs/dialog-web-components/commit/f743172fb22b9425a9f351913139b3aa4503aaae
+CommitInfo{repo='GitHub', hash='f97fb041b6735ee18a33b67668cfaa648de24cf7', version='v0.26.0'} 	https://github.com/dialogs/dialog-web-components/commit/f97fb041b6735ee18a33b67668cfaa648de24cf7
+CommitInfo{repo='GitHub', hash='a08abc9a1556d5978aab4b702209097da57c01f6', version='v0.26.1'} 	https://github.com/dialogs/dialog-web-components/commit/a08abc9a1556d5978aab4b702209097da57c01f6
+CommitInfo{repo='GitHub', hash='3880fa753c473468d13c0a15bbb4f4fbae50277e', version='v0.26.2'} 	https://github.com/dialogs/dialog-web-components/commit/3880fa753c473468d13c0a15bbb4f4fbae50277e
+CommitInfo{repo='GitHub', hash='8250f52e24737a227acd48cfdb236e66633b6f55', version='v0.26.3'} 	https://github.com/dialogs/dialog-web-components/commit/8250f52e24737a227acd48cfdb236e66633b6f55
+CommitInfo{repo='GitHub', hash='511d7fa3b4c5f9ae4c10ce3881712a84761c88ea', version='v0.26.4'} 	https://github.com/dialogs/dialog-web-components/commit/511d7fa3b4c5f9ae4c10ce3881712a84761c88ea
+CommitInfo{repo='GitHub', hash='fbb5e4936607ec2b0b6b3b7150240b2cedd8f3ff', version='v0.27.0'} 	https://github.com/dialogs/dialog-web-components/commit/fbb5e4936607ec2b0b6b3b7150240b2cedd8f3ff
+CommitInfo{repo='GitHub', hash='b6dbcdea8e230206dac752b4c02fb5414498a3da', version='v0.27.1'} 	https://github.com/dialogs/dialog-web-components/commit/b6dbcdea8e230206dac752b4c02fb5414498a3da
+CommitInfo{repo='GitHub', hash='cbbc623f47f160c87388889e85a4996ce70d35dc', version='v0.28.0'} 	https://github.com/dialogs/dialog-web-components/commit/cbbc623f47f160c87388889e85a4996ce70d35dc
+CommitInfo{repo='GitHub', hash='4bce120f2cae7840b78a6fe891601225bd33c928', version='v0.29.0'} 	https://github.com/dialogs/dialog-web-components/commit/4bce120f2cae7840b78a6fe891601225bd33c928
+CommitInfo{repo='GitHub', hash='c179dd34b0224cc13337a21bfb697ec93d3b95de', version='v0.3.0'} 	https://github.com/dialogs/dialog-web-components/commit/c179dd34b0224cc13337a21bfb697ec93d3b95de
+CommitInfo{repo='GitHub', hash='16225f76d302d44bbe79141e8c2e30d04ab81219', version='v0.30.0'} 	https://github.com/dialogs/dialog-web-components/commit/16225f76d302d44bbe79141e8c2e30d04ab81219
+CommitInfo{repo='GitHub', hash='a5efffdb01e6e7c207ac1eec42dba52733a749d0', version='v0.30.1'} 	https://github.com/dialogs/dialog-web-components/commit/a5efffdb01e6e7c207ac1eec42dba52733a749d0
+CommitInfo{repo='GitHub', hash='ed5146748861a1e5fb0032b9039704551425ed90', version='v0.30.2'} 	https://github.com/dialogs/dialog-web-components/commit/ed5146748861a1e5fb0032b9039704551425ed90
+CommitInfo{repo='GitHub', hash='570083477a11738afdfe36eb2f2ab6c84926d6c9', version='v0.31.0'} 	https://github.com/dialogs/dialog-web-components/commit/570083477a11738afdfe36eb2f2ab6c84926d6c9
+CommitInfo{repo='GitHub', hash='f40d1042d1c9997659d1f0390c186bde188c1b0e', version='v0.32.0'} 	https://github.com/dialogs/dialog-web-components/commit/f40d1042d1c9997659d1f0390c186bde188c1b0e
+CommitInfo{repo='GitHub', hash='1ee9fa4cc3cddaddb5288c7affc5dfe5db231644', version='v0.32.1'} 	https://github.com/dialogs/dialog-web-components/commit/1ee9fa4cc3cddaddb5288c7affc5dfe5db231644
+CommitInfo{repo='GitHub', hash='b381aef65618c5d9543faa8d36b6e1808fe7b44f', version='v0.32.2'} 	https://github.com/dialogs/dialog-web-components/commit/b381aef65618c5d9543faa8d36b6e1808fe7b44f
+CommitInfo{repo='GitHub', hash='5f06b0c4bcabc1964d431a135dc60a5c9fe8d06d', version='v0.32.3'} 	https://github.com/dialogs/dialog-web-components/commit/5f06b0c4bcabc1964d431a135dc60a5c9fe8d06d
+CommitInfo{repo='GitHub', hash='9f641b80aa38a83eeb682c254d642d822b7642ca', version='v0.32.4'} 	https://github.com/dialogs/dialog-web-components/commit/9f641b80aa38a83eeb682c254d642d822b7642ca
+CommitInfo{repo='GitHub', hash='9f22a54056e055a32eebbf2e7f2cad76709b37ed', version='v0.33.0'} 	https://github.com/dialogs/dialog-web-components/commit/9f22a54056e055a32eebbf2e7f2cad76709b37ed
+CommitInfo{repo='GitHub', hash='47f76826d54d9ff1501ad3c6b9ee6bb7a4ea2f7f', version='v0.33.1'} 	https://github.com/dialogs/dialog-web-components/commit/47f76826d54d9ff1501ad3c6b9ee6bb7a4ea2f7f
+CommitInfo{repo='GitHub', hash='ba6c8f26374d7ff068a10e3b8c3b638cf4c5a909', version='v0.33.2'} 	https://github.com/dialogs/dialog-web-components/commit/ba6c8f26374d7ff068a10e3b8c3b638cf4c5a909
+CommitInfo{repo='GitHub', hash='9ee28db639b8c47508f813b7d1cb59a244fd837b', version='v0.34.0'} 	https://github.com/dialogs/dialog-web-components/commit/9ee28db639b8c47508f813b7d1cb59a244fd837b
+CommitInfo{repo='GitHub', hash='7aa805b28b21643bf36475650902127cbe4f7b9e', version='v0.34.1'} 	https://github.com/dialogs/dialog-web-components/commit/7aa805b28b21643bf36475650902127cbe4f7b9e
+CommitInfo{repo='GitHub', hash='62148df2c1baa57e259118d7f88bc80e179f8e15', version='v0.35.0'} 	https://github.com/dialogs/dialog-web-components/commit/62148df2c1baa57e259118d7f88bc80e179f8e15
+CommitInfo{repo='GitHub', hash='95775891575c57c0d1b3979591ca49c45d607421', version='v0.36.0'} 	https://github.com/dialogs/dialog-web-components/commit/95775891575c57c0d1b3979591ca49c45d607421
+CommitInfo{repo='GitHub', hash='1b400662726eb650be728d9710470f06a8bc3e3e', version='v0.37.0'} 	https://github.com/dialogs/dialog-web-components/commit/1b400662726eb650be728d9710470f06a8bc3e3e
+CommitInfo{repo='GitHub', hash='6d2fb86cc89ebca65c4796c5880c3967f63184ce', version='v0.38.0'} 	https://github.com/dialogs/dialog-web-components/commit/6d2fb86cc89ebca65c4796c5880c3967f63184ce
+CommitInfo{repo='GitHub', hash='fe8a09ac7f9ca5d288fbbd91edefcc66b6ab3fc0', version='v0.39.0'} 	https://github.com/dialogs/dialog-web-components/commit/fe8a09ac7f9ca5d288fbbd91edefcc66b6ab3fc0
+CommitInfo{repo='GitHub', hash='f340910fed79d2424b669639441c80c4512811ab', version='v0.39.1'} 	https://github.com/dialogs/dialog-web-components/commit/f340910fed79d2424b669639441c80c4512811ab
+CommitInfo{repo='GitHub', hash='4f80f1c4f91e35fb935cdd0d3a1990ab5733e911', version='v0.39.2'} 	https://github.com/dialogs/dialog-web-components/commit/4f80f1c4f91e35fb935cdd0d3a1990ab5733e911
+CommitInfo{repo='GitHub', hash='d1080b92e07728d376f6b6e57a66ff3d9b582b1f', version='v0.4.0'} 	https://github.com/dialogs/dialog-web-components/commit/d1080b92e07728d376f6b6e57a66ff3d9b582b1f
+CommitInfo{repo='GitHub', hash='24dced31b9b491a839c49afd8914b3a0e44bd36b', version='v0.40.0'} 	https://github.com/dialogs/dialog-web-components/commit/24dced31b9b491a839c49afd8914b3a0e44bd36b
+CommitInfo{repo='GitHub', hash='2807213672b1380a5a115395838806500c419d49', version='v0.40.1'} 	https://github.com/dialogs/dialog-web-components/commit/2807213672b1380a5a115395838806500c419d49
+CommitInfo{repo='GitHub', hash='8adfc24de1c98b977bca8559ed81ff2b1ea1bbea', version='v0.41.0'} 	https://github.com/dialogs/dialog-web-components/commit/8adfc24de1c98b977bca8559ed81ff2b1ea1bbea
+CommitInfo{repo='GitHub', hash='595d71a28822ef8f1121111f5808eb30c57ca48d', version='v0.42.0'} 	https://github.com/dialogs/dialog-web-components/commit/595d71a28822ef8f1121111f5808eb30c57ca48d
+CommitInfo{repo='GitHub', hash='34a473140eccca68eb0fafe29fa6f78157eebca4', version='v0.43.0'} 	https://github.com/dialogs/dialog-web-components/commit/34a473140eccca68eb0fafe29fa6f78157eebca4
+CommitInfo{repo='GitHub', hash='188ecec7e446ab4e3d077898639e961b5aa4426f', version='v0.43.1'} 	https://github.com/dialogs/dialog-web-components/commit/188ecec7e446ab4e3d077898639e961b5aa4426f
+CommitInfo{repo='GitHub', hash='4789ab7892f726f2dfe777b5644ce8fdb06ea60f', version='v0.43.2'} 	https://github.com/dialogs/dialog-web-components/commit/4789ab7892f726f2dfe777b5644ce8fdb06ea60f
+CommitInfo{repo='GitHub', hash='42a1c200ec39d14fe1a337c72a4d1982eaeaae6e', version='v0.43.3'} 	https://github.com/dialogs/dialog-web-components/commit/42a1c200ec39d14fe1a337c72a4d1982eaeaae6e
+CommitInfo{repo='GitHub', hash='9f1c2ac6242d72024108b9b57ef9f82bf83033c0', version='v0.44.0'} 	https://github.com/dialogs/dialog-web-components/commit/9f1c2ac6242d72024108b9b57ef9f82bf83033c0
+CommitInfo{repo='GitHub', hash='833d7c16bf070498d61db287da3e56ac39fe67c4', version='v0.45.0'} 	https://github.com/dialogs/dialog-web-components/commit/833d7c16bf070498d61db287da3e56ac39fe67c4
+CommitInfo{repo='GitHub', hash='6360043f5a966e96003b2604982787bf87ed083b', version='v0.45.1'} 	https://github.com/dialogs/dialog-web-components/commit/6360043f5a966e96003b2604982787bf87ed083b
+CommitInfo{repo='GitHub', hash='e58408ed94e2177e4f8a36ee9a48f59c4e647850', version='v0.45.2'} 	https://github.com/dialogs/dialog-web-components/commit/e58408ed94e2177e4f8a36ee9a48f59c4e647850
+CommitInfo{repo='GitHub', hash='55e33374ac00f9474b4632c127ba0762cdc5f9df', version='v0.46.0'} 	https://github.com/dialogs/dialog-web-components/commit/55e33374ac00f9474b4632c127ba0762cdc5f9df
+CommitInfo{repo='GitHub', hash='9b86db6710bd58730f05a4dbecf21675f5c76097', version='v0.47.0'} 	https://github.com/dialogs/dialog-web-components/commit/9b86db6710bd58730f05a4dbecf21675f5c76097
+CommitInfo{repo='GitHub', hash='3d1ab4cdae881628c8fd21025b8592abd8038a30', version='v0.47.1'} 	https://github.com/dialogs/dialog-web-components/commit/3d1ab4cdae881628c8fd21025b8592abd8038a30
+CommitInfo{repo='GitHub', hash='cccde72876f9ff641cbb0c2fa78822a4601a90d6', version='v0.47.2'} 	https://github.com/dialogs/dialog-web-components/commit/cccde72876f9ff641cbb0c2fa78822a4601a90d6
+CommitInfo{repo='GitHub', hash='cad7f76b1ab9d81cce59a8ff0ea83103ab959958', version='v0.48.0'} 	https://github.com/dialogs/dialog-web-components/commit/cad7f76b1ab9d81cce59a8ff0ea83103ab959958
+CommitInfo{repo='GitHub', hash='4339298d39358e7e604eed01acb5ea140a238d52', version='v0.49.0'} 	https://github.com/dialogs/dialog-web-components/commit/4339298d39358e7e604eed01acb5ea140a238d52
+CommitInfo{repo='GitHub', hash='1ca2bdc1791ab4097ad01a71cab057dd7b6f22eb', version='v0.49.1'} 	https://github.com/dialogs/dialog-web-components/commit/1ca2bdc1791ab4097ad01a71cab057dd7b6f22eb
+CommitInfo{repo='GitHub', hash='f90ebc60ae7d26f95f7f22d6753cddf8d76b9f86', version='v0.49.2'} 	https://github.com/dialogs/dialog-web-components/commit/f90ebc60ae7d26f95f7f22d6753cddf8d76b9f86
+CommitInfo{repo='GitHub', hash='9280e568c9602fc8db0809a64588fcca4c348915', version='v0.49.3'} 	https://github.com/dialogs/dialog-web-components/commit/9280e568c9602fc8db0809a64588fcca4c348915
+CommitInfo{repo='GitHub', hash='8f77d260a9a6fd2e2409e6c9437658524b9861cb', version='v0.5.0'} 	https://github.com/dialogs/dialog-web-components/commit/8f77d260a9a6fd2e2409e6c9437658524b9861cb
+CommitInfo{repo='GitHub', hash='6cf87f019b53895f2973b94d29ffb0d961028ff1', version='v0.50.0'} 	https://github.com/dialogs/dialog-web-components/commit/6cf87f019b53895f2973b94d29ffb0d961028ff1
+CommitInfo{repo='GitHub', hash='d9a7d6d8c985dfe6e47c7e6dbcbc69ed5683aad5', version='v0.50.1'} 	https://github.com/dialogs/dialog-web-components/commit/d9a7d6d8c985dfe6e47c7e6dbcbc69ed5683aad5
+CommitInfo{repo='GitHub', hash='56a93f1e67da309d6818a7c1d93fd2ed3839e996', version='v0.5.1'} 	https://github.com/dialogs/dialog-web-components/commit/56a93f1e67da309d6818a7c1d93fd2ed3839e996
+CommitInfo{repo='GitHub', hash='ddfa28717c13aa26fcc441562b01fc60dbb6e532', version='v0.51.0'} 	https://github.com/dialogs/dialog-web-components/commit/ddfa28717c13aa26fcc441562b01fc60dbb6e532
+CommitInfo{repo='GitHub', hash='d871fdc7403c660e3598ff10e819148c8882e523', version='v0.5.2'} 	https://github.com/dialogs/dialog-web-components/commit/d871fdc7403c660e3598ff10e819148c8882e523
+CommitInfo{repo='GitHub', hash='639f50fbb2393d6a1171008c5defec3e87c3c3b8', version='v0.52.0'} 	https://github.com/dialogs/dialog-web-components/commit/639f50fbb2393d6a1171008c5defec3e87c3c3b8
+CommitInfo{repo='GitHub', hash='a48355abe04063ec061689b69cb549944b863d19', version='v0.53.0'} 	https://github.com/dialogs/dialog-web-components/commit/a48355abe04063ec061689b69cb549944b863d19
+CommitInfo{repo='GitHub', hash='2fa2db28e909bc3f2c5c181b3627222cf4d1b96f', version='v0.53.1'} 	https://github.com/dialogs/dialog-web-components/commit/2fa2db28e909bc3f2c5c181b3627222cf4d1b96f
+CommitInfo{repo='GitHub', hash='3b7993565babfc9fe5dc40a34cb4b9b9e02bab87', version='v0.53.2'} 	https://github.com/dialogs/dialog-web-components/commit/3b7993565babfc9fe5dc40a34cb4b9b9e02bab87
+CommitInfo{repo='GitHub', hash='f312082fbd0ff20f75de0e242ec6d67e8b19e34d', version='v0.54.0'} 	https://github.com/dialogs/dialog-web-components/commit/f312082fbd0ff20f75de0e242ec6d67e8b19e34d
+CommitInfo{repo='GitHub', hash='a71cf4522c69a8ce78793b7c5eb7b7cb644a77cc', version='v0.54.1'} 	https://github.com/dialogs/dialog-web-components/commit/a71cf4522c69a8ce78793b7c5eb7b7cb644a77cc
+CommitInfo{repo='GitHub', hash='4476ff73b0b8b82d33d1b37b089a1b2b6e527093', version='v0.54.2'} 	https://github.com/dialogs/dialog-web-components/commit/4476ff73b0b8b82d33d1b37b089a1b2b6e527093
+CommitInfo{repo='GitHub', hash='6cf69775a001d6da7bb848304f5cbd347c28fc0b', version='v0.54.3'} 	https://github.com/dialogs/dialog-web-components/commit/6cf69775a001d6da7bb848304f5cbd347c28fc0b
+CommitInfo{repo='GitHub', hash='b45ca246daf193227edd4dc9a765efad5cce4bb2', version='v0.54.4'} 	https://github.com/dialogs/dialog-web-components/commit/b45ca246daf193227edd4dc9a765efad5cce4bb2
+CommitInfo{repo='GitHub', hash='cc07a16ca5bcb9a796775388b3dcc6d90cc83773', version='v0.54.5'} 	https://github.com/dialogs/dialog-web-components/commit/cc07a16ca5bcb9a796775388b3dcc6d90cc83773
+CommitInfo{repo='GitHub', hash='f3ece49970e754c24763bad559defb653a34a0df', version='v0.55.0'} 	https://github.com/dialogs/dialog-web-components/commit/f3ece49970e754c24763bad559defb653a34a0df
+CommitInfo{repo='GitHub', hash='39ca2867d120f52e20994184db394dde76534069', version='v0.55.1'} 	https://github.com/dialogs/dialog-web-components/commit/39ca2867d120f52e20994184db394dde76534069
+CommitInfo{repo='GitHub', hash='ce6ed06c50cd6e4390bd23c4aea6bd9e749d9f2c', version='v0.56.0'} 	https://github.com/dialogs/dialog-web-components/commit/ce6ed06c50cd6e4390bd23c4aea6bd9e749d9f2c
+CommitInfo{repo='GitHub', hash='6af46c5ecd8b7cf6732fa8ef5f1e8b82d58528ff', version='v0.57.0'} 	https://github.com/dialogs/dialog-web-components/commit/6af46c5ecd8b7cf6732fa8ef5f1e8b82d58528ff
+CommitInfo{repo='GitHub', hash='503644ce59ecb432e03f153b1089aa5c85061662', version='v0.58.0'} 	https://github.com/dialogs/dialog-web-components/commit/503644ce59ecb432e03f153b1089aa5c85061662
+CommitInfo{repo='GitHub', hash='5d2d333d5705b54f15dc9a0570e3176a466467a8', version='v0.59.0'} 	https://github.com/dialogs/dialog-web-components/commit/5d2d333d5705b54f15dc9a0570e3176a466467a8
+CommitInfo{repo='GitHub', hash='1beacd5d9a0268ffa9567cc4928d03dd39338cbb', version='v0.6.0'} 	https://github.com/dialogs/dialog-web-components/commit/1beacd5d9a0268ffa9567cc4928d03dd39338cbb
+CommitInfo{repo='GitHub', hash='4b04eb17f08bd730fb474ed99f9ce00472fce044', version='v0.60.0'} 	https://github.com/dialogs/dialog-web-components/commit/4b04eb17f08bd730fb474ed99f9ce00472fce044
+CommitInfo{repo='GitHub', hash='4eaf43867774aecb3e2ad33f28926be92a9f9225', version='v0.6.1'} 	https://github.com/dialogs/dialog-web-components/commit/4eaf43867774aecb3e2ad33f28926be92a9f9225
+CommitInfo{repo='GitHub', hash='b83b97bb30293dc1a7a393e93b79be737c722177', version='v0.61.0'} 	https://github.com/dialogs/dialog-web-components/commit/b83b97bb30293dc1a7a393e93b79be737c722177
+CommitInfo{repo='GitHub', hash='3ad42ca791e96e03aebe2ba2fb3b94d5191a93c4', version='v0.6.2'} 	https://github.com/dialogs/dialog-web-components/commit/3ad42ca791e96e03aebe2ba2fb3b94d5191a93c4
+CommitInfo{repo='GitHub', hash='f6ac90e6a0b27451baec1802daa3befb7f3c25ea', version='v0.62.0'} 	https://github.com/dialogs/dialog-web-components/commit/f6ac90e6a0b27451baec1802daa3befb7f3c25ea
+CommitInfo{repo='GitHub', hash='fd9d733ccc3e3e9f76919ec0484e6c1e0eb165a1', version='v0.6.3'} 	https://github.com/dialogs/dialog-web-components/commit/fd9d733ccc3e3e9f76919ec0484e6c1e0eb165a1
+CommitInfo{repo='GitHub', hash='961f3a7335b7a8ec59f29c8984b789a4c7a2283b', version='v0.63.0'} 	https://github.com/dialogs/dialog-web-components/commit/961f3a7335b7a8ec59f29c8984b789a4c7a2283b
+CommitInfo{repo='GitHub', hash='dec161fc591a1d2ce3e171c4a06bce4646643e54', version='v0.6.4'} 	https://github.com/dialogs/dialog-web-components/commit/dec161fc591a1d2ce3e171c4a06bce4646643e54
+CommitInfo{repo='GitHub', hash='7e1680de863ef45311e06180a1a58de525f7e4c2', version='v0.64.0'} 	https://github.com/dialogs/dialog-web-components/commit/7e1680de863ef45311e06180a1a58de525f7e4c2
+CommitInfo{repo='GitHub', hash='62046f485d0fac1901f64d5da37bb3bde0f009ed', version='v0.65.0'} 	https://github.com/dialogs/dialog-web-components/commit/62046f485d0fac1901f64d5da37bb3bde0f009ed
+CommitInfo{repo='GitHub', hash='9d1a6f5093d603760fda5e23b9abd748a08f5282', version='v0.66.0'} 	https://github.com/dialogs/dialog-web-components/commit/9d1a6f5093d603760fda5e23b9abd748a08f5282
+CommitInfo{repo='GitHub', hash='531e0026f7e5d6e36b32b6d62e9406e59e903aa5', version='v0.67.0'} 	https://github.com/dialogs/dialog-web-components/commit/531e0026f7e5d6e36b32b6d62e9406e59e903aa5
+CommitInfo{repo='GitHub', hash='c280d60fe4e8725f5b4156532cc84a119e0d3f44', version='v0.67.1'} 	https://github.com/dialogs/dialog-web-components/commit/c280d60fe4e8725f5b4156532cc84a119e0d3f44
+CommitInfo{repo='GitHub', hash='35b79ef8fbc5c8f1caa12d863bd01f4b03074054', version='v0.67.2'} 	https://github.com/dialogs/dialog-web-components/commit/35b79ef8fbc5c8f1caa12d863bd01f4b03074054
+CommitInfo{repo='GitHub', hash='95f2a9902ce75501d65ec2d90733266a04708862', version='v0.68.0'} 	https://github.com/dialogs/dialog-web-components/commit/95f2a9902ce75501d65ec2d90733266a04708862
+CommitInfo{repo='GitHub', hash='4cdc01e96a3638f9f3cf9c30feed954df7eabb65', version='v0.68.1'} 	https://github.com/dialogs/dialog-web-components/commit/4cdc01e96a3638f9f3cf9c30feed954df7eabb65
+CommitInfo{repo='GitHub', hash='a1a84efa3b1743ee8b0ce831477e2f8174b96176', version='v0.69.0'} 	https://github.com/dialogs/dialog-web-components/commit/a1a84efa3b1743ee8b0ce831477e2f8174b96176
+CommitInfo{repo='GitHub', hash='7b3e1e1d2ef166b41d68528c23d4ade98457d1bc', version='v0.69.1'} 	https://github.com/dialogs/dialog-web-components/commit/7b3e1e1d2ef166b41d68528c23d4ade98457d1bc
+CommitInfo{repo='GitHub', hash='36d06b5f29fd301a90d5e16b1715e645b7228f3c', version='v0.69.2'} 	https://github.com/dialogs/dialog-web-components/commit/36d06b5f29fd301a90d5e16b1715e645b7228f3c
+CommitInfo{repo='GitHub', hash='f68162a301314a41620f956d19fe72c36fb497e8', version='v0.69.3'} 	https://github.com/dialogs/dialog-web-components/commit/f68162a301314a41620f956d19fe72c36fb497e8
+CommitInfo{repo='GitHub', hash='bea6f27c85e12aeb767b4152e4fcfa693da6d539', version='v0.7.0'} 	https://github.com/dialogs/dialog-web-components/commit/bea6f27c85e12aeb767b4152e4fcfa693da6d539
+CommitInfo{repo='GitHub', hash='e8718a0627d6e98b2f812164bbfbe90b733f54c1', version='v0.70.0'} 	https://github.com/dialogs/dialog-web-components/commit/e8718a0627d6e98b2f812164bbfbe90b733f54c1
+CommitInfo{repo='GitHub', hash='fab3bb72fa48c60b5bd0dcddf3ac75295506b5df', version='v0.70.1'} 	https://github.com/dialogs/dialog-web-components/commit/fab3bb72fa48c60b5bd0dcddf3ac75295506b5df
+CommitInfo{repo='GitHub', hash='3c4e7aeb356ec648fc3c8a9ba3e9f32f53963240', version='v0.70.2'} 	https://github.com/dialogs/dialog-web-components/commit/3c4e7aeb356ec648fc3c8a9ba3e9f32f53963240
+CommitInfo{repo='GitHub', hash='dc0bfe26e1aabaee7f77e29663dbf69eae6ab4f5', version='v0.70.3'} 	https://github.com/dialogs/dialog-web-components/commit/dc0bfe26e1aabaee7f77e29663dbf69eae6ab4f5
+CommitInfo{repo='GitHub', hash='59870b72bfbe489b6644dc7a114be9833e440f30', version='v0.70.4'} 	https://github.com/dialogs/dialog-web-components/commit/59870b72bfbe489b6644dc7a114be9833e440f30
+CommitInfo{repo='GitHub', hash='8a87a6f637b3451837746a201c50853fe5728b17', version='v0.70.5'} 	https://github.com/dialogs/dialog-web-components/commit/8a87a6f637b3451837746a201c50853fe5728b17
+CommitInfo{repo='GitHub', hash='e4b29fffa65533701efe10c18713cdd8fcdd0f12', version='v0.70.6'} 	https://github.com/dialogs/dialog-web-components/commit/e4b29fffa65533701efe10c18713cdd8fcdd0f12
+CommitInfo{repo='GitHub', hash='f8a7f2e294fba39f301d85ad2430aa29bd9f118f', version='v0.70.7'} 	https://github.com/dialogs/dialog-web-components/commit/f8a7f2e294fba39f301d85ad2430aa29bd9f118f
+CommitInfo{repo='GitHub', hash='dc75729318e7812dcf6c2e3aa50285c81cc84510', version='v0.70.8'} 	https://github.com/dialogs/dialog-web-components/commit/dc75729318e7812dcf6c2e3aa50285c81cc84510
+CommitInfo{repo='GitHub', hash='118581b7499721f40d2fe1a9427061d7f3659f45', version='v0.71.0'} 	https://github.com/dialogs/dialog-web-components/commit/118581b7499721f40d2fe1a9427061d7f3659f45
+CommitInfo{repo='GitHub', hash='3b59355c443f6b602d222b10d46762a10fbe62e9', version='v0.71.1'} 	https://github.com/dialogs/dialog-web-components/commit/3b59355c443f6b602d222b10d46762a10fbe62e9
+CommitInfo{repo='GitHub', hash='1e40a5d8e7a9cf2d40bd7bed83d3ab1e9a6cde1b', version='v0.72.0'} 	https://github.com/dialogs/dialog-web-components/commit/1e40a5d8e7a9cf2d40bd7bed83d3ab1e9a6cde1b
+CommitInfo{repo='GitHub', hash='f6413bf8080a784f58c7a92342da158c7196fcb5', version='v0.72.1'} 	https://github.com/dialogs/dialog-web-components/commit/f6413bf8080a784f58c7a92342da158c7196fcb5
+CommitInfo{repo='GitHub', hash='13d42dceb2e327bdef1490b3d20cab9b8c61980f', version='v0.72.2'} 	https://github.com/dialogs/dialog-web-components/commit/13d42dceb2e327bdef1490b3d20cab9b8c61980f
+CommitInfo{repo='GitHub', hash='8ea731abf6d07bc3323d50e3fe209b4dcf75e0fd', version='v0.72.3'} 	https://github.com/dialogs/dialog-web-components/commit/8ea731abf6d07bc3323d50e3fe209b4dcf75e0fd
+CommitInfo{repo='GitHub', hash='1a248756d00ed98079cf18f1052cc0087b98daa1', version='v0.72.4'} 	https://github.com/dialogs/dialog-web-components/commit/1a248756d00ed98079cf18f1052cc0087b98daa1
+CommitInfo{repo='GitHub', hash='71972f5f8c63c18cd7729f70fa38b5b287dffef8', version='v0.72.5'} 	https://github.com/dialogs/dialog-web-components/commit/71972f5f8c63c18cd7729f70fa38b5b287dffef8
+CommitInfo{repo='GitHub', hash='cf4fcb105abaa396361bbce1a4e7a387d785fbbf', version='v0.72.6'} 	https://github.com/dialogs/dialog-web-components/commit/cf4fcb105abaa396361bbce1a4e7a387d785fbbf
+CommitInfo{repo='GitHub', hash='4d4afa781fd3ec66d9323542ad2e43971eee1565', version='v0.73.0'} 	https://github.com/dialogs/dialog-web-components/commit/4d4afa781fd3ec66d9323542ad2e43971eee1565
+CommitInfo{repo='GitHub', hash='bbb97cc387f712d3041892e645101516a4524a47', version='v0.74.0'} 	https://github.com/dialogs/dialog-web-components/commit/bbb97cc387f712d3041892e645101516a4524a47
+CommitInfo{repo='GitHub', hash='505fb882ae1af9517ba5e083286a38e4f951eca2', version='v0.75.0'} 	https://github.com/dialogs/dialog-web-components/commit/505fb882ae1af9517ba5e083286a38e4f951eca2
+CommitInfo{repo='GitHub', hash='1341254d847624cafc000bbc9e5a104e84dde2c8', version='v0.75.1'} 	https://github.com/dialogs/dialog-web-components/commit/1341254d847624cafc000bbc9e5a104e84dde2c8
+CommitInfo{repo='GitHub', hash='9b16a6f04f5c422c47d3fda899e18baee390215c', version='v0.76.0'} 	https://github.com/dialogs/dialog-web-components/commit/9b16a6f04f5c422c47d3fda899e18baee390215c
+CommitInfo{repo='GitHub', hash='2e867c6dd1cf35a951699cefaf3ef933de9fed6f', version='v0.76.1'} 	https://github.com/dialogs/dialog-web-components/commit/2e867c6dd1cf35a951699cefaf3ef933de9fed6f
+CommitInfo{repo='GitHub', hash='4ae6c70c575e2a62bdde3e5d731bd08b013a912c', version='v0.76.2'} 	https://github.com/dialogs/dialog-web-components/commit/4ae6c70c575e2a62bdde3e5d731bd08b013a912c
+CommitInfo{repo='GitHub', hash='aeeb069127c841d32cd171088a67305907e2a1c2', version='v0.76.3'} 	https://github.com/dialogs/dialog-web-components/commit/aeeb069127c841d32cd171088a67305907e2a1c2
+CommitInfo{repo='GitHub', hash='56d610c44714b823f52ddd6fcf8ca5bcd94a5a08', version='v0.77.0'} 	https://github.com/dialogs/dialog-web-components/commit/56d610c44714b823f52ddd6fcf8ca5bcd94a5a08
+CommitInfo{repo='GitHub', hash='b6df6d122614a785bb2650b4469a996232c7b50a', version='v0.77.1'} 	https://github.com/dialogs/dialog-web-components/commit/b6df6d122614a785bb2650b4469a996232c7b50a
+CommitInfo{repo='GitHub', hash='ecc16bc6e880edc27a21a88615f43da6ca6b69b4', version='v0.77.10'} 	https://github.com/dialogs/dialog-web-components/commit/ecc16bc6e880edc27a21a88615f43da6ca6b69b4
+CommitInfo{repo='GitHub', hash='aa5691ca5d0154e5c41a2ea99beb33e0c9fc6a6b', version='v0.77.2'} 	https://github.com/dialogs/dialog-web-components/commit/aa5691ca5d0154e5c41a2ea99beb33e0c9fc6a6b
+CommitInfo{repo='GitHub', hash='208c2ff6ab9f29989e666d547cd040f51dd05ef4', version='v0.77.3'} 	https://github.com/dialogs/dialog-web-components/commit/208c2ff6ab9f29989e666d547cd040f51dd05ef4
+CommitInfo{repo='GitHub', hash='d0bc79d31129ecf7c4eade87b3643dfae03ac717', version='v0.77.4'} 	https://github.com/dialogs/dialog-web-components/commit/d0bc79d31129ecf7c4eade87b3643dfae03ac717
+CommitInfo{repo='GitHub', hash='15dc588c7f0d2c2ba75d2c194a45975500ed05f6', version='v0.77.5'} 	https://github.com/dialogs/dialog-web-components/commit/15dc588c7f0d2c2ba75d2c194a45975500ed05f6
+CommitInfo{repo='GitHub', hash='8777ad5515c457d51dd91dc92c89ab72b3587106', version='v0.77.6'} 	https://github.com/dialogs/dialog-web-components/commit/8777ad5515c457d51dd91dc92c89ab72b3587106
+CommitInfo{repo='GitHub', hash='16914b290f4ab7c94e855c55e0c515ba232076f1', version='v0.77.7'} 	https://github.com/dialogs/dialog-web-components/commit/16914b290f4ab7c94e855c55e0c515ba232076f1
+CommitInfo{repo='GitHub', hash='adb9d4a992abbd007659d0474775e6db4aa5fe05', version='v0.77.8'} 	https://github.com/dialogs/dialog-web-components/commit/adb9d4a992abbd007659d0474775e6db4aa5fe05
+CommitInfo{repo='GitHub', hash='c8d975835e4805ea6c56bae3d243fbe295d9dbe4', version='v0.77.9'} 	https://github.com/dialogs/dialog-web-components/commit/c8d975835e4805ea6c56bae3d243fbe295d9dbe4
+CommitInfo{repo='GitHub', hash='e67f6dd384f7b4d953b19091b5a51f6dea6e2b9e', version='v0.78.0'} 	https://github.com/dialogs/dialog-web-components/commit/e67f6dd384f7b4d953b19091b5a51f6dea6e2b9e
+CommitInfo{repo='GitHub', hash='574802baa7a6e4dffc91d3583170bbf96dd6af55', version='v0.78.1'} 	https://github.com/dialogs/dialog-web-components/commit/574802baa7a6e4dffc91d3583170bbf96dd6af55
+CommitInfo{repo='GitHub', hash='feafe3d8160237044162bf4937606fa065dda63e', version='v0.78.2'} 	https://github.com/dialogs/dialog-web-components/commit/feafe3d8160237044162bf4937606fa065dda63e
+CommitInfo{repo='GitHub', hash='7dfcd6336df8298902849f4f6f9f8caa738c1c4f', version='v0.78.3'} 	https://github.com/dialogs/dialog-web-components/commit/7dfcd6336df8298902849f4f6f9f8caa738c1c4f
+CommitInfo{repo='GitHub', hash='98429dc61a0559f24a104be071f1220324562545', version='v0.78.4'} 	https://github.com/dialogs/dialog-web-components/commit/98429dc61a0559f24a104be071f1220324562545
+CommitInfo{repo='GitHub', hash='5816f94d867dc8162d1467264505fd27338cc81d', version='v0.78.5'} 	https://github.com/dialogs/dialog-web-components/commit/5816f94d867dc8162d1467264505fd27338cc81d
+CommitInfo{repo='GitHub', hash='c413e5f44e6f248b2673fe27c37cfc46fb73bfbd', version='v0.78.6'} 	https://github.com/dialogs/dialog-web-components/commit/c413e5f44e6f248b2673fe27c37cfc46fb73bfbd
+CommitInfo{repo='GitHub', hash='5fa65d1cf32a3c98bff4cc6a792fc83c7e6e9d48', version='v0.78.7'} 	https://github.com/dialogs/dialog-web-components/commit/5fa65d1cf32a3c98bff4cc6a792fc83c7e6e9d48
+CommitInfo{repo='GitHub', hash='ec6a034704ad4d94a437287ded3ea4e437fdac54', version='v0.79.0'} 	https://github.com/dialogs/dialog-web-components/commit/ec6a034704ad4d94a437287ded3ea4e437fdac54
+CommitInfo{repo='GitHub', hash='4d1b2b91a1163b40699ce97e162d1fcc35b348ee', version='v0.79.1'} 	https://github.com/dialogs/dialog-web-components/commit/4d1b2b91a1163b40699ce97e162d1fcc35b348ee
+CommitInfo{repo='GitHub', hash='c2f4fff24847992d8a39cf11e1c7e0bbd3349ecb', version='v0.8.0'} 	https://github.com/dialogs/dialog-web-components/commit/c2f4fff24847992d8a39cf11e1c7e0bbd3349ecb
+CommitInfo{repo='GitHub', hash='302bf104d68986e08ba0de00d85ba29346ee7331', version='v0.80.0'} 	https://github.com/dialogs/dialog-web-components/commit/302bf104d68986e08ba0de00d85ba29346ee7331
+CommitInfo{repo='GitHub', hash='ef580a12aaa94cecf562b90500c90d6b8843760c', version='v0.81.0'} 	https://github.com/dialogs/dialog-web-components/commit/ef580a12aaa94cecf562b90500c90d6b8843760c
+CommitInfo{repo='GitHub', hash='a9d43cf33d88a7c4f496fdf9949b462e3263d242', version='v0.82.0'} 	https://github.com/dialogs/dialog-web-components/commit/a9d43cf33d88a7c4f496fdf9949b462e3263d242
+CommitInfo{repo='GitHub', hash='6b2fbbecce3c612105736c6a8398e2c1af30153f', version='v0.83.0'} 	https://github.com/dialogs/dialog-web-components/commit/6b2fbbecce3c612105736c6a8398e2c1af30153f
+CommitInfo{repo='GitHub', hash='656c01e3545b13d2b50a2cc4b1ad710d2fb3913d', version='v0.84.0'} 	https://github.com/dialogs/dialog-web-components/commit/656c01e3545b13d2b50a2cc4b1ad710d2fb3913d
+CommitInfo{repo='GitHub', hash='159ab2badf2964a65ef5a9a46190b3263ba5c539', version='v0.84.1'} 	https://github.com/dialogs/dialog-web-components/commit/159ab2badf2964a65ef5a9a46190b3263ba5c539
+CommitInfo{repo='GitHub', hash='4559b53cbc6700b98aa7636b7f5bbddf2eef07d1', version='v0.85.0'} 	https://github.com/dialogs/dialog-web-components/commit/4559b53cbc6700b98aa7636b7f5bbddf2eef07d1
+CommitInfo{repo='GitHub', hash='29e0f0ee724f46186b8dbc8f49cb4b0aa0598b72', version='v0.85.1'} 	https://github.com/dialogs/dialog-web-components/commit/29e0f0ee724f46186b8dbc8f49cb4b0aa0598b72
+CommitInfo{repo='GitHub', hash='ad5768c67390a4b37c18b8ff55f3562b65283363', version='v0.86.0'} 	https://github.com/dialogs/dialog-web-components/commit/ad5768c67390a4b37c18b8ff55f3562b65283363
+CommitInfo{repo='GitHub', hash='d288f9ff5498ad3ac16ec9964d459f5c866329a4', version='v0.86.1'} 	https://github.com/dialogs/dialog-web-components/commit/d288f9ff5498ad3ac16ec9964d459f5c866329a4
+CommitInfo{repo='GitHub', hash='a8f5e2db6ba526c99f7eabcd9cec3422413a3502', version='v0.87.0'} 	https://github.com/dialogs/dialog-web-components/commit/a8f5e2db6ba526c99f7eabcd9cec3422413a3502
+CommitInfo{repo='GitHub', hash='4d878a8c448cef533f3d543d09eecec8c08b8caf', version='v0.87.1'} 	https://github.com/dialogs/dialog-web-components/commit/4d878a8c448cef533f3d543d09eecec8c08b8caf
+CommitInfo{repo='GitHub', hash='b78fafe5f4a4a61fb80bb5f22dbe468489d6d8bd', version='v0.87.2'} 	https://github.com/dialogs/dialog-web-components/commit/b78fafe5f4a4a61fb80bb5f22dbe468489d6d8bd
+CommitInfo{repo='GitHub', hash='bd18a8ed6b41067e9afe7d5479e9b19da6c7846b', version='v0.87.3'} 	https://github.com/dialogs/dialog-web-components/commit/bd18a8ed6b41067e9afe7d5479e9b19da6c7846b
+CommitInfo{repo='GitHub', hash='ac6521a4a89eb0193847f2bd269e7311389800a6', version='v0.87.4'} 	https://github.com/dialogs/dialog-web-components/commit/ac6521a4a89eb0193847f2bd269e7311389800a6
+CommitInfo{repo='GitHub', hash='5c52cb1589cce395d11bb0ce74a70046d5210a17', version='v0.88.0'} 	https://github.com/dialogs/dialog-web-components/commit/5c52cb1589cce395d11bb0ce74a70046d5210a17
+CommitInfo{repo='GitHub', hash='6d0f511379b5969a930a4f21e9543fe658bc7574', version='v0.88.1'} 	https://github.com/dialogs/dialog-web-components/commit/6d0f511379b5969a930a4f21e9543fe658bc7574
+CommitInfo{repo='GitHub', hash='63b7ba91fc05d1c1389f3870dce825339ade322b', version='v0.88.2'} 	https://github.com/dialogs/dialog-web-components/commit/63b7ba91fc05d1c1389f3870dce825339ade322b
+CommitInfo{repo='GitHub', hash='977771cde74d9a259a10e7e743ca518a2e1c8b68', version='v0.88.3'} 	https://github.com/dialogs/dialog-web-components/commit/977771cde74d9a259a10e7e743ca518a2e1c8b68
+CommitInfo{repo='GitHub', hash='c511a3e5e7a747ff033a9934dc4408ba2af518d1', version='v0.88.4'} 	https://github.com/dialogs/dialog-web-components/commit/c511a3e5e7a747ff033a9934dc4408ba2af518d1
+CommitInfo{repo='GitHub', hash='e3e1327bb618369ef131a6e6ba74e2174ffb0188', version='v0.88.5'} 	https://github.com/dialogs/dialog-web-components/commit/e3e1327bb618369ef131a6e6ba74e2174ffb0188
+CommitInfo{repo='GitHub', hash='1b74e989eb7e7d882b521d1247375c1babaaf4b8', version='v0.88.6'} 	https://github.com/dialogs/dialog-web-components/commit/1b74e989eb7e7d882b521d1247375c1babaaf4b8
+CommitInfo{repo='GitHub', hash='337f68dae4822ca748a1d298617300dfccce1cf9', version='v0.88.7'} 	https://github.com/dialogs/dialog-web-components/commit/337f68dae4822ca748a1d298617300dfccce1cf9
+CommitInfo{repo='GitHub', hash='9d6414315054937a3216f741e6f49a01c4b13adb', version='v0.88.8'} 	https://github.com/dialogs/dialog-web-components/commit/9d6414315054937a3216f741e6f49a01c4b13adb
+CommitInfo{repo='GitHub', hash='d72a82b04b851d26237f93c03916e4438800a6b4', version='v0.89.0'} 	https://github.com/dialogs/dialog-web-components/commit/d72a82b04b851d26237f93c03916e4438800a6b4
+CommitInfo{repo='GitHub', hash='bbec3baba42be266ebb4eb0721a6a00f63121e97', version='v0.89.1'} 	https://github.com/dialogs/dialog-web-components/commit/bbec3baba42be266ebb4eb0721a6a00f63121e97
+CommitInfo{repo='GitHub', hash='8b3ce9306f0f5ead207a1b48448ee0f0e82a871d', version='v0.89.2'} 	https://github.com/dialogs/dialog-web-components/commit/8b3ce9306f0f5ead207a1b48448ee0f0e82a871d
+CommitInfo{repo='GitHub', hash='172800600704f8d5e5256853a25f835322a1b2ca', version='v0.9.0'} 	https://github.com/dialogs/dialog-web-components/commit/172800600704f8d5e5256853a25f835322a1b2ca
+CommitInfo{repo='GitHub', hash='b17993fdb53f2e19735b0c00b6b5079d617d3494', version='v0.90.0'} 	https://github.com/dialogs/dialog-web-components/commit/b17993fdb53f2e19735b0c00b6b5079d617d3494
+CommitInfo{repo='GitHub', hash='4773234489cb06314c5b943c3ada594b73f20558', version='v0.90.1'} 	https://github.com/dialogs/dialog-web-components/commit/4773234489cb06314c5b943c3ada594b73f20558
+CommitInfo{repo='GitHub', hash='de58c3375a1ba77c2fcbded2f57fac3054d09bc5', version='v0.91.0'} 	https://github.com/dialogs/dialog-web-components/commit/de58c3375a1ba77c2fcbded2f57fac3054d09bc5
+CommitInfo{repo='GitHub', hash='2bc3bf0b14f8cf4918b206448d902277567c8aa5', version='v0.92.0'} 	https://github.com/dialogs/dialog-web-components/commit/2bc3bf0b14f8cf4918b206448d902277567c8aa5
+CommitInfo{repo='GitHub', hash='b51ac7bc21c2e4f0263fd7a35a60aa7c2b5350b7', version='v0.92.1'} 	https://github.com/dialogs/dialog-web-components/commit/b51ac7bc21c2e4f0263fd7a35a60aa7c2b5350b7
+CommitInfo{repo='GitHub', hash='5f8c8c4926186a909c7ea7a43a2f71e551c8372f', version='v0.92.2'} 	https://github.com/dialogs/dialog-web-components/commit/5f8c8c4926186a909c7ea7a43a2f71e551c8372f
+CommitInfo{repo='GitHub', hash='86e498e9b42e21bb67fd0703d2505c5547fd973e', version='v0.92.3'} 	https://github.com/dialogs/dialog-web-components/commit/86e498e9b42e21bb67fd0703d2505c5547fd973e
+CommitInfo{repo='GitHub', hash='653479351b440fd30f74979b72249f879fb19c81', version='v0.92.4'} 	https://github.com/dialogs/dialog-web-components/commit/653479351b440fd30f74979b72249f879fb19c81
+CommitInfo{repo='GitHub', hash='b3ed02c54bea1b569fd1d5ba77fb61eaf5a4cd6c', version='v0.93.0'} 	https://github.com/dialogs/dialog-web-components/commit/b3ed02c54bea1b569fd1d5ba77fb61eaf5a4cd6c
+CommitInfo{repo='GitHub', hash='e39636b5cdcec9cd779651d3713cf590f0b8415d', version='v0.93.1'} 	https://github.com/dialogs/dialog-web-components/commit/e39636b5cdcec9cd779651d3713cf590f0b8415d
+CommitInfo{repo='GitHub', hash='de73522d639e260c539cffe763369eb703c1702d', version='v0.93.2'} 	https://github.com/dialogs/dialog-web-components/commit/de73522d639e260c539cffe763369eb703c1702d
+CommitInfo{repo='GitHub', hash='495751fb4a6e19bf9db536c628c1d3a4b1ad6ed3', version='v0.93.3'} 	https://github.com/dialogs/dialog-web-components/commit/495751fb4a6e19bf9db536c628c1d3a4b1ad6ed3
+CommitInfo{repo='GitHub', hash='b1297498434ab369e935f8ec6120eac07d5d9a96', version='v0.93.4'} 	https://github.com/dialogs/dialog-web-components/commit/b1297498434ab369e935f8ec6120eac07d5d9a96
+CommitInfo{repo='GitHub', hash='ffee5a182c140b1c57708093dc72e3a7ad554b8a', version='v0.94.0'} 	https://github.com/dialogs/dialog-web-components/commit/ffee5a182c140b1c57708093dc72e3a7ad554b8a
+CommitInfo{repo='GitHub', hash='db0da2eae6aab19b94ca2a5f4718c58d3ca2de45', version='v0.95.0'} 	https://github.com/dialogs/dialog-web-components/commit/db0da2eae6aab19b94ca2a5f4718c58d3ca2de45
+CommitInfo{repo='GitHub', hash='2c5a24e2753e60c25beb19d5e19c1c0b7acc7c55', version='v0.96.0'} 	https://github.com/dialogs/dialog-web-components/commit/2c5a24e2753e60c25beb19d5e19c1c0b7acc7c55
+CommitInfo{repo='GitHub', hash='c8654bb9be85b7eab5a48b62cec2098c5eae526e', version='v0.96.1'} 	https://github.com/dialogs/dialog-web-components/commit/c8654bb9be85b7eab5a48b62cec2098c5eae526e
+CommitInfo{repo='GitHub', hash='e813149e752869e55befc5bdad66cf8eb94a502d', version='v0.96.2'} 	https://github.com/dialogs/dialog-web-components/commit/e813149e752869e55befc5bdad66cf8eb94a502d
+CommitInfo{repo='GitHub', hash='22f1b510fb8760d3449f53de65a3a433aaa1eda2', version='v0.96.3'} 	https://github.com/dialogs/dialog-web-components/commit/22f1b510fb8760d3449f53de65a3a433aaa1eda2
+CommitInfo{repo='GitHub', hash='119a7d280bb036adb7629c6046640107693d8f48', version='v0.97.0'} 	https://github.com/dialogs/dialog-web-components/commit/119a7d280bb036adb7629c6046640107693d8f48
+CommitInfo{repo='GitHub', hash='0b72dee9ac0529e6663e11b42895df2b94a22ef2', version='v0.97.1'} 	https://github.com/dialogs/dialog-web-components/commit/0b72dee9ac0529e6663e11b42895df2b94a22ef2
+CommitInfo{repo='GitHub', hash='269792b6d0aa3cd259a3734ee2474a2b70455239', version='v0.97.2'} 	https://github.com/dialogs/dialog-web-components/commit/269792b6d0aa3cd259a3734ee2474a2b70455239
+CommitInfo{repo='GitHub', hash='70c360b3fe52fa35be1701b29308938946ee2d3c', version='v0.97.3'} 	https://github.com/dialogs/dialog-web-components/commit/70c360b3fe52fa35be1701b29308938946ee2d3c
+CommitInfo{repo='GitHub', hash='555ea97a82231013c3b22f8189e3eef819aed13a', version='v0.97.4'} 	https://github.com/dialogs/dialog-web-components/commit/555ea97a82231013c3b22f8189e3eef819aed13a
+CommitInfo{repo='GitHub', hash='9db00c3f19e9fafd2f56eb5b06aee144e3bb8c20', version='v0.98.0'} 	https://github.com/dialogs/dialog-web-components/commit/9db00c3f19e9fafd2f56eb5b06aee144e3bb8c20
+CommitInfo{repo='GitHub', hash='4939c177db1abe939579bc412e1baf79770cf691', version='v0.99.0'} 	https://github.com/dialogs/dialog-web-components/commit/4939c177db1abe939579bc412e1baf79770cf691
 
 Project A:
 ProjectVersionFixed(version=0.1.1, dependency=1.0.3, time=2016-06-23 13:37:25 UTC),	Latest, "null"

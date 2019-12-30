@@ -2,228 +2,233 @@
 Project information
 com.github.kristofa:brave-spancollector-kafka (1187695)	org.apache.kafka:kafka-clients (352579)	Package Manager: Maven
 RepoID: 165780
+Repo Owner/Name: openzipkin/brave
+Repository type: GitHub
+
+ https://github.com/openzipkin/brave/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='15f78b48a2c35bbd74edc526e0413f571e79273a', version='3.0.0'}
-CommitInfo{repo='GitHub', hash='4adff0f2428b663d0dd574009f666ee204460d29', version='3.10.0'}
-CommitInfo{repo='GitHub', hash='6e1ae444f692b6afc80ce4321d3d55b9f8430a24', version='3.11.0'}
-CommitInfo{repo='GitHub', hash='e211fe763a0dd943065b2b8c4188a1fe952fa701', version='3.11.1'}
-CommitInfo{repo='GitHub', hash='2e34cbb92ae56c0d597f86028006dbe7fe99969c', version='3.13.0'}
-CommitInfo{repo='GitHub', hash='2c5535c1d878e94695f0fa3c469febb504dfdfd8', version='3.14.0'}
-CommitInfo{repo='GitHub', hash='d0375e719152fdd996c44192661383b64f918dee', version='3.14.1'}
-CommitInfo{repo='GitHub', hash='485826292c446d0c8718f1744c3f6c8b25148b03', version='3.15.0'}
-CommitInfo{repo='GitHub', hash='8f28ddc5b51ee6d245b3322788c58caf4a302b45', version='3.15.1'}
-CommitInfo{repo='GitHub', hash='f9f1ea7db2625b2c197fbe3761728ea09109864f', version='3.15.3'}
-CommitInfo{repo='GitHub', hash='62e3570b3784c570d3d655669b26e6b8b8794fe2', version='3.15.4'}
-CommitInfo{repo='GitHub', hash='8a0915446ae74e2962cceed6ec780618e8c18120', version='3.16.0'}
-CommitInfo{repo='GitHub', hash='730c5b2a708c0a3b8952172492aa367d8e8a32e1', version='3.17.0'}
-CommitInfo{repo='GitHub', hash='fe246936f252b8711c6bcc640f1aaecbe284651b', version='3.17.1'}
-CommitInfo{repo='GitHub', hash='086ad121ae4d7098892001cd02b2277c632d0729', version='3.17.2'}
-CommitInfo{repo='GitHub', hash='365f70b93a0aba7666618ef00a160a624c45adfc', version='3.18.0'}
-CommitInfo{repo='GitHub', hash='f01a18fddc8dbef40507e7bf4fdc4decfc5f9ab1', version='3.6.0'}
-CommitInfo{repo='GitHub', hash='204fc7b333122c09cb343568746c825d8b540cbf', version='3.8.0'}
-CommitInfo{repo='GitHub', hash='9100d74f55cd8a921652ca1270c08ed3279e3cc8', version='3.9.0'}
-CommitInfo{repo='GitHub', hash='d6704a698c9938bd48b13633575a696a59b61aa8', version='3.9.1'}
-CommitInfo{repo='GitHub', hash='06bdb6a8e4c21f36f8bec8bc372b7951bbee6850', version='4.0.0'}
-CommitInfo{repo='GitHub', hash='62bfe2ccb7657ffb84f337ca39ba07697450d6d8', version='4.0.1'}
-CommitInfo{repo='GitHub', hash='f5d0cae8f094b2101bd512f4e3b2086ffcece657', version='4.0.2'}
-CommitInfo{repo='GitHub', hash='9d1a41d598da02a52d5350f1c3bc22fd4d262d88', version='4.0.3'}
-CommitInfo{repo='GitHub', hash='5653b9913768627f8dc456c58641bc9e3c51e4f2', version='4.0.4'}
-CommitInfo{repo='GitHub', hash='4eaf853b278b0e4811fe27621a15df97dc2801d6', version='4.0.5'}
-CommitInfo{repo='GitHub', hash='e397e4183c0a1d9ce7e7a32e2114260691dc10ec', version='4.0.6'}
-CommitInfo{repo='GitHub', hash='31f21b7cd182a9e6d1dd54dd03893ab46e4ae80b', version='4.1.0'}
-CommitInfo{repo='GitHub', hash='6b20d2c6f8d1aaa86bd374261c491a64b5c608dd', version='4.10.0'}
-CommitInfo{repo='GitHub', hash='fe46070351c438b5f84488f829379481e91f47e4', version='4.10.1'}
-CommitInfo{repo='GitHub', hash='22bd63e12f4186db4b9cdade87c4e383fa2c6a47', version='4.1.1'}
-CommitInfo{repo='GitHub', hash='6d38c3ec5d2d21d8943468b6ea43db8b30192df8', version='4.11.0'}
-CommitInfo{repo='GitHub', hash='5b01477161b5991c4d4414c2277ca6cfe80a2483', version='4.12.0'}
-CommitInfo{repo='GitHub', hash='935c2683de9a5b0efbe29443e0d1ca01d1ab6fba', version='4.13.0'}
-CommitInfo{repo='GitHub', hash='0f8253ae141a56abd37bce5419574ed47e1f6188', version='4.13.1'}
-CommitInfo{repo='GitHub', hash='729f10b6b361d27cb724f587df0c123641aaddbb', version='4.13.2'}
-CommitInfo{repo='GitHub', hash='a768102ea1c4a6c7109e4857a7e3479dde721cea', version='4.13.3'}
-CommitInfo{repo='GitHub', hash='f048b0173551b3356338c158b1e4d88ee5e2cee7', version='4.13.4'}
-CommitInfo{repo='GitHub', hash='b6d19bd7ff70d52c78a445a328f1fed786698865', version='4.13.5'}
-CommitInfo{repo='GitHub', hash='8c0ddcbb644b7b9706efbdde9aa75dfdc3d5f1cd', version='4.13.6'}
-CommitInfo{repo='GitHub', hash='b212152c98e73b8a1b8620232bb47f91d6b7aabe', version='4.14.0'}
-CommitInfo{repo='GitHub', hash='a8fd52312e0534eb495c138674560a3a6a1e9e53', version='4.14.1'}
-CommitInfo{repo='GitHub', hash='dd993babe329b54b49f30a968c510fe1f741c811', version='4.14.2'}
-CommitInfo{repo='GitHub', hash='7889f17fa6fb20d4405f713251967866e7f454e8', version='4.14.3'}
-CommitInfo{repo='GitHub', hash='2a9ca74539e0c6e168610542d6700178e61d7659', version='4.15.0'}
-CommitInfo{repo='GitHub', hash='6da3222bf63e7c29310a1f1a496d9a125b328df4', version='4.15.1'}
-CommitInfo{repo='GitHub', hash='054ddbe836616bb8d05123c708c6354c51177baf', version='4.16.0'}
-CommitInfo{repo='GitHub', hash='4df4f8ca1bdd8d0beef2e5d6d2e52d26769cab2a', version='4.16.1'}
-CommitInfo{repo='GitHub', hash='111eaef5c5c567b7e4850bc57cb6811ec4a3f3d3', version='4.16.2'}
-CommitInfo{repo='GitHub', hash='0a1c7a508ada9c429b7f6e5a37a47fcb6371bc70', version='4.17.0'}
-CommitInfo{repo='GitHub', hash='50aac6f1ceb966e715ef1d75ddd60b98e5b8c22f', version='4.17.1'}
-CommitInfo{repo='GitHub', hash='85a43f27105a9b6bee4a09f2210cd97a8ee007cd', version='4.17.2'}
-CommitInfo{repo='GitHub', hash='252808bae8b464d8e9921320f83736140a9d09f4', version='4.18.0'}
-CommitInfo{repo='GitHub', hash='40bf86a368c90d712d08bf0fdd9cc110d5028a0f', version='4.18.1'}
-CommitInfo{repo='GitHub', hash='5f9c5be633b030f28ab8cf78001ec927661619a0', version='4.18.2'}
-CommitInfo{repo='GitHub', hash='e0e240e626a78e88f89c19c3a681ba9242462188', version='4.19.0'}
-CommitInfo{repo='GitHub', hash='1edc7f3072a5d3e69fdb7bf86129eed746b47bb7', version='4.19.1'}
-CommitInfo{repo='GitHub', hash='a169a949ad805d192f0c6235308ee2b52573c9b5', version='4.19.2'}
-CommitInfo{repo='GitHub', hash='6296ea5e0db479c0261da1660151c92698f74803', version='4.19.3'}
-CommitInfo{repo='GitHub', hash='01b4615a3949b92ff110c048c2f2fec9b2dd0fe8', version='4.2.0'}
-CommitInfo{repo='GitHub', hash='af8f98906f56dfa002f964157c629bc27d36e4fd', version='4.3.0'}
-CommitInfo{repo='GitHub', hash='b44aa5f2aff44ba4eee6bcc1dc3961de1d9c3bc6', version='4.3.1'}
-CommitInfo{repo='GitHub', hash='ab7fa72d3e39ded8c45428a319d30ae9c472ac83', version='4.3.2'}
-CommitInfo{repo='GitHub', hash='b8d9cb289784dc2918d07672f41f5eb6af033ed7', version='4.3.3'}
-CommitInfo{repo='GitHub', hash='141aae171992fc26892baa1c6bd715df44248ba9', version='4.3.4'}
-CommitInfo{repo='GitHub', hash='651893f4d42299156a9147ff86ab377fc23c6999', version='4.4.0'}
-CommitInfo{repo='GitHub', hash='261661fc14ca5389dd4493353da03d4b8533a235', version='4.5.0'}
-CommitInfo{repo='GitHub', hash='b623af22be11b9f5211feb83d14f28a6014abf1a', version='4.5.1'}
-CommitInfo{repo='GitHub', hash='53b504678104e2c384bfc57fc8f89d1686b4d816', version='4.5.2'}
-CommitInfo{repo='GitHub', hash='a0d4df57f7aff098189c207a8388c4e25182b732', version='4.6.0'}
-CommitInfo{repo='GitHub', hash='f41db9c05eb3a0e70f8f964f868d30f692bcf1a1', version='4.7.0'}
-CommitInfo{repo='GitHub', hash='83a608957345346d792164ba4b47f6c093e4ae25', version='4.7.1'}
-CommitInfo{repo='GitHub', hash='ea5612131c531f46b4a4c1d7b53180f643b1a320', version='4.7.2'}
-CommitInfo{repo='GitHub', hash='14a03637d31b098fe2f6cc3e1fd4d720e5db6443', version='4.8.0'}
-CommitInfo{repo='GitHub', hash='dcf5e42565a19fda07e6ceb8c144f89b2898a4aa', version='4.8.1'}
-CommitInfo{repo='GitHub', hash='d575d10d736ead064f11485e3e302d01c59ca56b', version='4.9.0'}
-CommitInfo{repo='GitHub', hash='c447745f2d36b6d7715b788668cbd177dee7f2ea', version='4.9.1'}
-CommitInfo{repo='GitHub', hash='ba085294051f0247e3fa539b2186cabf521fa451', version='4.9.2'}
-CommitInfo{repo='GitHub', hash='cba9f63b6ff757ed4b0db79e70f6f54b5b7172bf', version='5.0.0'}
-CommitInfo{repo='GitHub', hash='c58bfd193c050ba3cc739cc39bff0a2ffa57a939', version='5.1.0'}
-CommitInfo{repo='GitHub', hash='07effd1434a5edd2ea478b849586ead7cf0fe3b9', version='5.1.1'}
-CommitInfo{repo='GitHub', hash='731b71d67fd1c23a73b6d8ed3dc573ec1db07fcb', version='5.1.2'}
-CommitInfo{repo='GitHub', hash='8167363688031b9deba2076f1535e61154a62d22', version='5.1.3'}
-CommitInfo{repo='GitHub', hash='6b83a02111b2cceae84e4916122d4651479e77b6', version='5.1.4'}
-CommitInfo{repo='GitHub', hash='6b83a02111b2cceae84e4916122d4651479e77b6', version='5.1.4'}
-CommitInfo{repo='GitHub', hash='6b83a02111b2cceae84e4916122d4651479e77b6', version='5.1.4'}
-CommitInfo{repo='GitHub', hash='22eb86173f397db920693abf0644491c1df8ee47', version='5.1.5'}
-CommitInfo{repo='GitHub', hash='20d4dae59ff480757a073e4e86b1cd5049e7d0e1', version='5.2.0'}
-CommitInfo{repo='GitHub', hash='7b30b642d28182c7d2b8bc51496b0fb379015fb7', version='5.3.0'}
-CommitInfo{repo='GitHub', hash='5d69ee8498902358e4b858f3f49ac0e77a53dcae', version='5.3.1'}
-CommitInfo{repo='GitHub', hash='5d69ee8498902358e4b858f3f49ac0e77a53dcae', version='5.3.1'}
-CommitInfo{repo='GitHub', hash='fa5fbdcd84155b14a125379f912206c696ce3692', version='5.3.2'}
-CommitInfo{repo='GitHub', hash='bdf6a647950449bcc9637368451e1ee960a4e43d', version='5.3.3'}
-CommitInfo{repo='GitHub', hash='06fd824ca2f7f62257efcabd58f5d8320ccfc95a', version='5.4.0'}
-CommitInfo{repo='GitHub', hash='06fd824ca2f7f62257efcabd58f5d8320ccfc95a', version='5.4.0'}
-CommitInfo{repo='GitHub', hash='f88e09f2388907ce15797488707732fe016aa36f', version='5.4.1'}
-CommitInfo{repo='GitHub', hash='f88e09f2388907ce15797488707732fe016aa36f', version='5.4.1'}
-CommitInfo{repo='GitHub', hash='766e0b10403331a2792a5331a78e9f26eb2c6f32', version='5.4.2'}
-CommitInfo{repo='GitHub', hash='077e753e4a160643d6e173152ea239c1d23f2e71', version='5.4.3'}
-CommitInfo{repo='GitHub', hash='bc71f34e9bec4b4f0118e01b9b3888fd924bd1af', version='5.4.4'}
-CommitInfo{repo='GitHub', hash='8e7b0316c55e293a75b2c3c5834ffa92648f5d61', version='5.5.0'}
-CommitInfo{repo='GitHub', hash='fadba40dd5b78e9d13a8e595408a072713d21b43', version='brave-1.0'}
-CommitInfo{repo='GitHub', hash='caf13a271272e230cbcd2222d925fbed542a20cf', version='brave-2.0'}
-CommitInfo{repo='GitHub', hash='308d23edcfcad1c044500dcbf4b8a1e77f85b741', version='brave-2.0.1'}
-CommitInfo{repo='GitHub', hash='7d0330ada700e98c6b2d5a9314fdefb923cea29e', version='brave-2.0.2'}
-CommitInfo{repo='GitHub', hash='72a1d757bd4e3e9fe328c3c68ea17486b5c5f8ed', version='brave-2.1.0'}
-CommitInfo{repo='GitHub', hash='fa33cbe04517e454bb3ddf45a7a8288d1cbe0057', version='brave-2.1.1'}
-CommitInfo{repo='GitHub', hash='04c5158ceae2c0b027a036a0503ca3366ad9146a', version='brave-2.2.0'}
-CommitInfo{repo='GitHub', hash='323afb08112a52fb0c45b8019566456ecf16d655', version='brave-2.2.1'}
-CommitInfo{repo='GitHub', hash='91009a6053cb9b1c633e8d3cd65e40a254b817b0', version='brave-2.3'}
-CommitInfo{repo='GitHub', hash='ff09fcddf413df402fb8d021a6645aa9aa374a00', version='brave-2.4'}
-CommitInfo{repo='GitHub', hash='7769c19837dc6f15d2a89fb3e17ac9c540a22930', version='brave-2.4.1'}
-CommitInfo{repo='GitHub', hash='a14982cf6a2b6d6819ab7e38a89508bd7b351672', version='brave-2.4.2'}
-CommitInfo{repo='GitHub', hash='091672ab8cf5748f4360ecf5c49fdab4a2ebb06e', version='brave-3.0.0-alpha-1'}
-CommitInfo{repo='GitHub', hash='2f6a753c256e46f5c51f2bfae2c26b69a21108e1', version='brave-3.0.0-rc-1'}
-CommitInfo{repo='GitHub', hash='d45feb04383eec4d25e9108e882781cc367db4ec', version='brave-3.1.0'}
-CommitInfo{repo='GitHub', hash='ed344e5b8fbac330948f617ed04238457d85e1f3', version='brave-3.2.0'}
-CommitInfo{repo='GitHub', hash='23708d4f0a92f9d6788715d63f574118d207c550', version='brave-3.3.0'}
-CommitInfo{repo='GitHub', hash='2416d717ac4cafbdda5cadb02a015aa482239155', version='brave-3.4.0'}
-CommitInfo{repo='GitHub', hash='1b0f7b94ac3cbd0923f7be130502ce4ff0050727', version='brave-3.5.0'}
-CommitInfo{repo='GitHub', hash='d656a660ed91c779f27b7c6b024a44e4eeda4b2e', version='brave-3.7.0'}
-CommitInfo{repo='GitHub', hash='8893865dc47779411d6e4a089cc7422feca03b2c', version='release-3.10.0'}
-CommitInfo{repo='GitHub', hash='18b7f2dbd4b8c26c0eab4107758732f93909f1f8', version='release-3.11.0'}
-CommitInfo{repo='GitHub', hash='888385ee5063f866df83da19a106873c8e6257c4', version='release-3.11.1'}
-CommitInfo{repo='GitHub', hash='06e477b0f3dcab9aee12f1c8868043a90916b479', version='release-3.12.0'}
-CommitInfo{repo='GitHub', hash='8884a32b6f97aec3696d6f6e5abea0e79c34aa8e', version='release-3.13.0'}
-CommitInfo{repo='GitHub', hash='741bec49782cb415800c2ad78fd166917b2ba128', version='release-3.14.0'}
-CommitInfo{repo='GitHub', hash='19071561573b5d3fa972713bd6aeb4ff83fcbb91', version='release-3.14.1'}
-CommitInfo{repo='GitHub', hash='bc2272599e1da23ebd86667f79ca1b0165c1ddfb', version='release-3.15.0'}
-CommitInfo{repo='GitHub', hash='2e186982052c4202bb9eff70b733679b181fdf1e', version='release-3.15.1'}
-CommitInfo{repo='GitHub', hash='a654d80df5ee744ccbb8c4fd8f7f6f03de1d5a12', version='release-3.15.2'}
-CommitInfo{repo='GitHub', hash='3bc4cbe5ff281b61b5f690178268eef300bf9c9f', version='release-3.15.3'}
-CommitInfo{repo='GitHub', hash='92d3dc4be0264955f80651d3359c87730ab31742', version='release-3.15.4'}
-CommitInfo{repo='GitHub', hash='cd67968adb96c6a74d785cc6b6a9fd45de89506f', version='release-3.16.0'}
-CommitInfo{repo='GitHub', hash='03c7d7bd4d3d310ecaf7c2cf31c10be0b47b8f48', version='release-3.17.0'}
-CommitInfo{repo='GitHub', hash='aa4b10039fc78b7d9765ba8b78d1c2ebe0cebd59', version='release-3.17.1'}
-CommitInfo{repo='GitHub', hash='38a58a2eb5237f0edcffd0bc883c570b9d6184c1', version='release-3.17.2'}
-CommitInfo{repo='GitHub', hash='217ef37b8adb571f46bbf8061cb6def0a86fb98c', version='release-3.18.0'}
-CommitInfo{repo='GitHub', hash='94cbd5e26d94211ca6646ee57d1b42ad024e22d4', version='release-3.8.0'}
-CommitInfo{repo='GitHub', hash='77f33f5ab24a2c29b93e37ab0b45e0df7ba5487e', version='release-3.9.0'}
-CommitInfo{repo='GitHub', hash='7e8ea33d6bbdef900b9d6ab1d7a967d263821398', version='release-3.9.1'}
-CommitInfo{repo='GitHub', hash='251b6c7816ccf84ac1696f3b432cb847c112f773', version='release-4.0.0'}
-CommitInfo{repo='GitHub', hash='847fdc2f88fa630cca38480a41754d9c993ff2e0', version='release-4.0.1'}
-CommitInfo{repo='GitHub', hash='f3c44f29b84d37667321177ec684baba5078b323', version='release-4.0.2'}
-CommitInfo{repo='GitHub', hash='10e281c85e79e61ba7ef846ad6f5c16f1fad83d7', version='release-4.0.3'}
-CommitInfo{repo='GitHub', hash='3b0e0ebe1cdefe8cd8477dc5690ce43dd34cf0dd', version='release-4.0.4'}
-CommitInfo{repo='GitHub', hash='849534934982b6056bd461a76770203392285c8c', version='release-4.0.5'}
-CommitInfo{repo='GitHub', hash='99d3d5b414d608c7a1316f8f93e0af6d13ab09b6', version='release-4.0.6'}
-CommitInfo{repo='GitHub', hash='c4a4bb9b1511ffb9b145f606e8c387c303bb18b9', version='release-4.1.0'}
-CommitInfo{repo='GitHub', hash='42d869dd71837fbad32fb6d8bcb3d0f2a59c653b', version='release-4.10.0'}
-CommitInfo{repo='GitHub', hash='2fea453e253a92bbc127390736dbc8545f16d1b6', version='release-4.10.1'}
-CommitInfo{repo='GitHub', hash='caea54a8d432ed812e1b14e545e78219259101be', version='release-4.1.1'}
-CommitInfo{repo='GitHub', hash='c5e164a06ba4f909ad0ce4700e97ef16f5b5ed15', version='release-4.11.0'}
-CommitInfo{repo='GitHub', hash='d0ba6cf50f5193b262a28ce2c40123bd6c4d13fb', version='release-4.12.0'}
-CommitInfo{repo='GitHub', hash='7c0b607d6230f5682ecdf5e03a29d9954f3a6fd5', version='release-4.12.1'}
-CommitInfo{repo='GitHub', hash='dd16bbd8ab6e8f44b74e807fe1bac73e6782a4a0', version='release-4.13.0'}
-CommitInfo{repo='GitHub', hash='7ac55929f6bb639d2cd926e199247eb7ab6db920', version='release-4.13.1'}
-CommitInfo{repo='GitHub', hash='9258132df1159154f8f9f31f77ff571763e35992', version='release-4.13.2'}
-CommitInfo{repo='GitHub', hash='c01d9bbb05cd9afc24f4a962027a6a22f0dd3efd', version='release-4.13.3'}
-CommitInfo{repo='GitHub', hash='eed1345cb3aa2be210cfa1cc1707036e86ca000d', version='release-4.13.4'}
-CommitInfo{repo='GitHub', hash='feacb19ca89c703f2ba6aa2cdd6848b652cb0e61', version='release-4.14.0'}
-CommitInfo{repo='GitHub', hash='2c9eed8a725c23a9f6ecceeeebde54a2ecd27109', version='release-4.14.1'}
-CommitInfo{repo='GitHub', hash='e501165369b655f55da7a965105902388b9e5f5f', version='release-4.14.2'}
-CommitInfo{repo='GitHub', hash='6ba9a1137f60babcec9733b03f2f90382aeae869', version='release-4.14.3'}
-CommitInfo{repo='GitHub', hash='2b03741798b25c1d266e6fe8339dbff9544e1a42', version='release-4.15.0'}
-CommitInfo{repo='GitHub', hash='ff447c0f2d18889b4d5b502cda16fae1e814d0d7', version='release-4.15.1'}
-CommitInfo{repo='GitHub', hash='2350a8d28faf8f8727ff6d7630f039bdad7eaeeb', version='release-4.16.0'}
-CommitInfo{repo='GitHub', hash='b3c33ff0146d4de96bea251cb3659358155566d8', version='release-4.16.1'}
-CommitInfo{repo='GitHub', hash='9947518fe29819f00e01e926cbaa83d03ab9d1ed', version='release-4.16.2'}
-CommitInfo{repo='GitHub', hash='afbb0e6c1e5dac8469e6a31f20197085ca33bac2', version='release-4.17.0'}
-CommitInfo{repo='GitHub', hash='c234d158565690f83458262d394c9d5dd4fc814c', version='release-4.17.1'}
-CommitInfo{repo='GitHub', hash='dcdfa1cc7b397f92c5423b3f99aa37e3d7333952', version='release-4.17.2'}
-CommitInfo{repo='GitHub', hash='698469dd3434eec0fddf7d4a383f88d86ca8d3e1', version='release-4.18.0'}
-CommitInfo{repo='GitHub', hash='5d7fccd8e40e68fd084144ce5793e92f34f9c52c', version='release-4.18.1'}
-CommitInfo{repo='GitHub', hash='bcc97a2f8b84072210094d7877bf421a5224e028', version='release-4.18.2'}
-CommitInfo{repo='GitHub', hash='173e483690193059ed05eb111825148151bd3559', version='release-4.19.0'}
-CommitInfo{repo='GitHub', hash='24c60435f4627dfbf9b3638370058d4661c2ed4a', version='release-4.19.1'}
-CommitInfo{repo='GitHub', hash='015530dfe8a2fc7b033ae7ec0b122ee1dea95545', version='release-4.19.2'}
-CommitInfo{repo='GitHub', hash='56b4700a2cba03242a2e2621f4725df6b6e75d7f', version='release-4.19.3'}
-CommitInfo{repo='GitHub', hash='bf379590f4cad57b8e0903b73f8c0b32de5aa833', version='release-4.2.0'}
-CommitInfo{repo='GitHub', hash='14fb86bce0052d27a7c2391774b9cd68f6bb86d9', version='release-4.3.0'}
-CommitInfo{repo='GitHub', hash='3575236aebd511e7fb886e153be61cb37f724153', version='release-4.3.1'}
-CommitInfo{repo='GitHub', hash='2bd52aab9018e0d83ddf13cde1c9cf8926caa7f6', version='release-4.3.2'}
-CommitInfo{repo='GitHub', hash='121bcd063447e8de3ca8ddf81087de4c7e3e96fb', version='release-4.3.3'}
-CommitInfo{repo='GitHub', hash='7272475dd2ed3f97040d49cc96deb3021ac3faaf', version='release-4.3.4'}
-CommitInfo{repo='GitHub', hash='0974a5e5699da3526a933885cfda628f7d378cf9', version='release-4.4.0'}
-CommitInfo{repo='GitHub', hash='a3f5f0aeb518b6d7fd024ae02826e09f09a9ccd0', version='release-4.5.0'}
-CommitInfo{repo='GitHub', hash='51a332109f43c4e18a40a76182c9f277ee99cc17', version='release-4.5.1'}
-CommitInfo{repo='GitHub', hash='00ad52c38775407ed24b66f3b6224de22a528d7b', version='release-4.5.2'}
-CommitInfo{repo='GitHub', hash='d6de2fd2d0d2e0573f28c960f1661ff24ac1d44a', version='release-4.6.0'}
-CommitInfo{repo='GitHub', hash='4245a88181b467d9324465d15adf720dafcde1ea', version='release-4.7.0'}
-CommitInfo{repo='GitHub', hash='4bb9b6d8476da88d9d632ece6848bb07f03f9e02', version='release-4.7.1'}
-CommitInfo{repo='GitHub', hash='f2e062f3631d60b74692260a0bf4a73bc6714f82', version='release-4.7.2'}
-CommitInfo{repo='GitHub', hash='a4f2248a2fb2e44afc4a3999d3087e3c7281728f', version='release-4.8.0'}
-CommitInfo{repo='GitHub', hash='937987e845162c557f5bdfaec4acae2b0cbee877', version='release-4.8.1'}
-CommitInfo{repo='GitHub', hash='10907d7c7fe63e5be2f3665a09a00371b7df3d36', version='release-4.9.0'}
-CommitInfo{repo='GitHub', hash='bff6d2bd6ec4a705590124788e1c24bbd729096c', version='release-4.9.1'}
-CommitInfo{repo='GitHub', hash='b94369dcd8a56bc6a8a5e75f82740cfb2be4808d', version='release-4.9.2'}
-CommitInfo{repo='GitHub', hash='9d98d569940c4e68c834a8ada4fe70d51912e2eb', version='release-5.0.0'}
-CommitInfo{repo='GitHub', hash='e5c65e9bd168ed9405b98fe44a51965bc332cf5f', version='release-5.1.0'}
-CommitInfo{repo='GitHub', hash='e5c65e9bd168ed9405b98fe44a51965bc332cf5f', version='release-5.1.0'}
-CommitInfo{repo='GitHub', hash='2b13c0adba808e35889173f0284e47315bbf1ca0', version='release-5.1.1'}
-CommitInfo{repo='GitHub', hash='49b91c05bf50c0837dfa26d6246e4d07cbdb8453', version='release-5.1.2'}
-CommitInfo{repo='GitHub', hash='49b91c05bf50c0837dfa26d6246e4d07cbdb8453', version='release-5.1.2'}
-CommitInfo{repo='GitHub', hash='93f644323c2c2f063ff4cc486c151ca3fe4c566d', version='release-5.1.3'}
-CommitInfo{repo='GitHub', hash='d970460035aed23bc291be87cbfe8439a3af88f6', version='release-5.1.4'}
-CommitInfo{repo='GitHub', hash='aac9a586fcbd8e1a9606f1735af3b782c469e34d', version='release-5.1.5'}
-CommitInfo{repo='GitHub', hash='f97bd6d0f9e01312a1a6c7a907cc05a658d0fa2e', version='release-5.2.0'}
-CommitInfo{repo='GitHub', hash='93599ab55c7aeb293d66efee484081642647d7d6', version='release-5.3.0'}
-CommitInfo{repo='GitHub', hash='ca2ec95af85e3701d30d292c4a9918c3aa0eb78e', version='release-5.3.1'}
-CommitInfo{repo='GitHub', hash='d7c7ec572781ae5ddfa00de261e774059ee6bfaf', version='release-5.3.2'}
-CommitInfo{repo='GitHub', hash='3880e91a946c798e1178bcb70366b4def1df9dae', version='release-5.3.3'}
-CommitInfo{repo='GitHub', hash='3880e91a946c798e1178bcb70366b4def1df9dae', version='release-5.3.3'}
-CommitInfo{repo='GitHub', hash='30440de855fb69ecae2f95a5f74f3cbe74285347', version='release-5.4.0'}
-CommitInfo{repo='GitHub', hash='30440de855fb69ecae2f95a5f74f3cbe74285347', version='release-5.4.0'}
-CommitInfo{repo='GitHub', hash='30440de855fb69ecae2f95a5f74f3cbe74285347', version='release-5.4.0'}
-CommitInfo{repo='GitHub', hash='8efa76f4bab6168fb8c2ba21092cbea42d027fa8', version='release-5.4.1'}
-CommitInfo{repo='GitHub', hash='42bf46aafe2b259d04b79c0814e77118fdf7c586', version='release-5.4.2'}
-CommitInfo{repo='GitHub', hash='8ab16a96104eb3d4f3df162f314a94e55ee5b712', version='release-5.4.3'}
-CommitInfo{repo='GitHub', hash='fab23655ef53fc2918f49159ee1fa9297908124c', version='release-5.4.4'}
-CommitInfo{repo='GitHub', hash='65e2909533eb504f8da6485f81aa823aa7b080ab', version='release-5.5.0'}
+CommitInfo{repo='GitHub', hash='15f78b48a2c35bbd74edc526e0413f571e79273a', version='3.0.0'} 	https://github.com/openzipkin/brave/commit/15f78b48a2c35bbd74edc526e0413f571e79273a
+CommitInfo{repo='GitHub', hash='4adff0f2428b663d0dd574009f666ee204460d29', version='3.10.0'} 	https://github.com/openzipkin/brave/commit/4adff0f2428b663d0dd574009f666ee204460d29
+CommitInfo{repo='GitHub', hash='6e1ae444f692b6afc80ce4321d3d55b9f8430a24', version='3.11.0'} 	https://github.com/openzipkin/brave/commit/6e1ae444f692b6afc80ce4321d3d55b9f8430a24
+CommitInfo{repo='GitHub', hash='e211fe763a0dd943065b2b8c4188a1fe952fa701', version='3.11.1'} 	https://github.com/openzipkin/brave/commit/e211fe763a0dd943065b2b8c4188a1fe952fa701
+CommitInfo{repo='GitHub', hash='2e34cbb92ae56c0d597f86028006dbe7fe99969c', version='3.13.0'} 	https://github.com/openzipkin/brave/commit/2e34cbb92ae56c0d597f86028006dbe7fe99969c
+CommitInfo{repo='GitHub', hash='2c5535c1d878e94695f0fa3c469febb504dfdfd8', version='3.14.0'} 	https://github.com/openzipkin/brave/commit/2c5535c1d878e94695f0fa3c469febb504dfdfd8
+CommitInfo{repo='GitHub', hash='d0375e719152fdd996c44192661383b64f918dee', version='3.14.1'} 	https://github.com/openzipkin/brave/commit/d0375e719152fdd996c44192661383b64f918dee
+CommitInfo{repo='GitHub', hash='485826292c446d0c8718f1744c3f6c8b25148b03', version='3.15.0'} 	https://github.com/openzipkin/brave/commit/485826292c446d0c8718f1744c3f6c8b25148b03
+CommitInfo{repo='GitHub', hash='8f28ddc5b51ee6d245b3322788c58caf4a302b45', version='3.15.1'} 	https://github.com/openzipkin/brave/commit/8f28ddc5b51ee6d245b3322788c58caf4a302b45
+CommitInfo{repo='GitHub', hash='f9f1ea7db2625b2c197fbe3761728ea09109864f', version='3.15.3'} 	https://github.com/openzipkin/brave/commit/f9f1ea7db2625b2c197fbe3761728ea09109864f
+CommitInfo{repo='GitHub', hash='62e3570b3784c570d3d655669b26e6b8b8794fe2', version='3.15.4'} 	https://github.com/openzipkin/brave/commit/62e3570b3784c570d3d655669b26e6b8b8794fe2
+CommitInfo{repo='GitHub', hash='8a0915446ae74e2962cceed6ec780618e8c18120', version='3.16.0'} 	https://github.com/openzipkin/brave/commit/8a0915446ae74e2962cceed6ec780618e8c18120
+CommitInfo{repo='GitHub', hash='730c5b2a708c0a3b8952172492aa367d8e8a32e1', version='3.17.0'} 	https://github.com/openzipkin/brave/commit/730c5b2a708c0a3b8952172492aa367d8e8a32e1
+CommitInfo{repo='GitHub', hash='fe246936f252b8711c6bcc640f1aaecbe284651b', version='3.17.1'} 	https://github.com/openzipkin/brave/commit/fe246936f252b8711c6bcc640f1aaecbe284651b
+CommitInfo{repo='GitHub', hash='086ad121ae4d7098892001cd02b2277c632d0729', version='3.17.2'} 	https://github.com/openzipkin/brave/commit/086ad121ae4d7098892001cd02b2277c632d0729
+CommitInfo{repo='GitHub', hash='365f70b93a0aba7666618ef00a160a624c45adfc', version='3.18.0'} 	https://github.com/openzipkin/brave/commit/365f70b93a0aba7666618ef00a160a624c45adfc
+CommitInfo{repo='GitHub', hash='f01a18fddc8dbef40507e7bf4fdc4decfc5f9ab1', version='3.6.0'} 	https://github.com/openzipkin/brave/commit/f01a18fddc8dbef40507e7bf4fdc4decfc5f9ab1
+CommitInfo{repo='GitHub', hash='204fc7b333122c09cb343568746c825d8b540cbf', version='3.8.0'} 	https://github.com/openzipkin/brave/commit/204fc7b333122c09cb343568746c825d8b540cbf
+CommitInfo{repo='GitHub', hash='9100d74f55cd8a921652ca1270c08ed3279e3cc8', version='3.9.0'} 	https://github.com/openzipkin/brave/commit/9100d74f55cd8a921652ca1270c08ed3279e3cc8
+CommitInfo{repo='GitHub', hash='d6704a698c9938bd48b13633575a696a59b61aa8', version='3.9.1'} 	https://github.com/openzipkin/brave/commit/d6704a698c9938bd48b13633575a696a59b61aa8
+CommitInfo{repo='GitHub', hash='06bdb6a8e4c21f36f8bec8bc372b7951bbee6850', version='4.0.0'} 	https://github.com/openzipkin/brave/commit/06bdb6a8e4c21f36f8bec8bc372b7951bbee6850
+CommitInfo{repo='GitHub', hash='62bfe2ccb7657ffb84f337ca39ba07697450d6d8', version='4.0.1'} 	https://github.com/openzipkin/brave/commit/62bfe2ccb7657ffb84f337ca39ba07697450d6d8
+CommitInfo{repo='GitHub', hash='f5d0cae8f094b2101bd512f4e3b2086ffcece657', version='4.0.2'} 	https://github.com/openzipkin/brave/commit/f5d0cae8f094b2101bd512f4e3b2086ffcece657
+CommitInfo{repo='GitHub', hash='9d1a41d598da02a52d5350f1c3bc22fd4d262d88', version='4.0.3'} 	https://github.com/openzipkin/brave/commit/9d1a41d598da02a52d5350f1c3bc22fd4d262d88
+CommitInfo{repo='GitHub', hash='5653b9913768627f8dc456c58641bc9e3c51e4f2', version='4.0.4'} 	https://github.com/openzipkin/brave/commit/5653b9913768627f8dc456c58641bc9e3c51e4f2
+CommitInfo{repo='GitHub', hash='4eaf853b278b0e4811fe27621a15df97dc2801d6', version='4.0.5'} 	https://github.com/openzipkin/brave/commit/4eaf853b278b0e4811fe27621a15df97dc2801d6
+CommitInfo{repo='GitHub', hash='e397e4183c0a1d9ce7e7a32e2114260691dc10ec', version='4.0.6'} 	https://github.com/openzipkin/brave/commit/e397e4183c0a1d9ce7e7a32e2114260691dc10ec
+CommitInfo{repo='GitHub', hash='31f21b7cd182a9e6d1dd54dd03893ab46e4ae80b', version='4.1.0'} 	https://github.com/openzipkin/brave/commit/31f21b7cd182a9e6d1dd54dd03893ab46e4ae80b
+CommitInfo{repo='GitHub', hash='6b20d2c6f8d1aaa86bd374261c491a64b5c608dd', version='4.10.0'} 	https://github.com/openzipkin/brave/commit/6b20d2c6f8d1aaa86bd374261c491a64b5c608dd
+CommitInfo{repo='GitHub', hash='fe46070351c438b5f84488f829379481e91f47e4', version='4.10.1'} 	https://github.com/openzipkin/brave/commit/fe46070351c438b5f84488f829379481e91f47e4
+CommitInfo{repo='GitHub', hash='22bd63e12f4186db4b9cdade87c4e383fa2c6a47', version='4.1.1'} 	https://github.com/openzipkin/brave/commit/22bd63e12f4186db4b9cdade87c4e383fa2c6a47
+CommitInfo{repo='GitHub', hash='6d38c3ec5d2d21d8943468b6ea43db8b30192df8', version='4.11.0'} 	https://github.com/openzipkin/brave/commit/6d38c3ec5d2d21d8943468b6ea43db8b30192df8
+CommitInfo{repo='GitHub', hash='5b01477161b5991c4d4414c2277ca6cfe80a2483', version='4.12.0'} 	https://github.com/openzipkin/brave/commit/5b01477161b5991c4d4414c2277ca6cfe80a2483
+CommitInfo{repo='GitHub', hash='935c2683de9a5b0efbe29443e0d1ca01d1ab6fba', version='4.13.0'} 	https://github.com/openzipkin/brave/commit/935c2683de9a5b0efbe29443e0d1ca01d1ab6fba
+CommitInfo{repo='GitHub', hash='0f8253ae141a56abd37bce5419574ed47e1f6188', version='4.13.1'} 	https://github.com/openzipkin/brave/commit/0f8253ae141a56abd37bce5419574ed47e1f6188
+CommitInfo{repo='GitHub', hash='729f10b6b361d27cb724f587df0c123641aaddbb', version='4.13.2'} 	https://github.com/openzipkin/brave/commit/729f10b6b361d27cb724f587df0c123641aaddbb
+CommitInfo{repo='GitHub', hash='a768102ea1c4a6c7109e4857a7e3479dde721cea', version='4.13.3'} 	https://github.com/openzipkin/brave/commit/a768102ea1c4a6c7109e4857a7e3479dde721cea
+CommitInfo{repo='GitHub', hash='f048b0173551b3356338c158b1e4d88ee5e2cee7', version='4.13.4'} 	https://github.com/openzipkin/brave/commit/f048b0173551b3356338c158b1e4d88ee5e2cee7
+CommitInfo{repo='GitHub', hash='b6d19bd7ff70d52c78a445a328f1fed786698865', version='4.13.5'} 	https://github.com/openzipkin/brave/commit/b6d19bd7ff70d52c78a445a328f1fed786698865
+CommitInfo{repo='GitHub', hash='8c0ddcbb644b7b9706efbdde9aa75dfdc3d5f1cd', version='4.13.6'} 	https://github.com/openzipkin/brave/commit/8c0ddcbb644b7b9706efbdde9aa75dfdc3d5f1cd
+CommitInfo{repo='GitHub', hash='b212152c98e73b8a1b8620232bb47f91d6b7aabe', version='4.14.0'} 	https://github.com/openzipkin/brave/commit/b212152c98e73b8a1b8620232bb47f91d6b7aabe
+CommitInfo{repo='GitHub', hash='a8fd52312e0534eb495c138674560a3a6a1e9e53', version='4.14.1'} 	https://github.com/openzipkin/brave/commit/a8fd52312e0534eb495c138674560a3a6a1e9e53
+CommitInfo{repo='GitHub', hash='dd993babe329b54b49f30a968c510fe1f741c811', version='4.14.2'} 	https://github.com/openzipkin/brave/commit/dd993babe329b54b49f30a968c510fe1f741c811
+CommitInfo{repo='GitHub', hash='7889f17fa6fb20d4405f713251967866e7f454e8', version='4.14.3'} 	https://github.com/openzipkin/brave/commit/7889f17fa6fb20d4405f713251967866e7f454e8
+CommitInfo{repo='GitHub', hash='2a9ca74539e0c6e168610542d6700178e61d7659', version='4.15.0'} 	https://github.com/openzipkin/brave/commit/2a9ca74539e0c6e168610542d6700178e61d7659
+CommitInfo{repo='GitHub', hash='6da3222bf63e7c29310a1f1a496d9a125b328df4', version='4.15.1'} 	https://github.com/openzipkin/brave/commit/6da3222bf63e7c29310a1f1a496d9a125b328df4
+CommitInfo{repo='GitHub', hash='054ddbe836616bb8d05123c708c6354c51177baf', version='4.16.0'} 	https://github.com/openzipkin/brave/commit/054ddbe836616bb8d05123c708c6354c51177baf
+CommitInfo{repo='GitHub', hash='4df4f8ca1bdd8d0beef2e5d6d2e52d26769cab2a', version='4.16.1'} 	https://github.com/openzipkin/brave/commit/4df4f8ca1bdd8d0beef2e5d6d2e52d26769cab2a
+CommitInfo{repo='GitHub', hash='111eaef5c5c567b7e4850bc57cb6811ec4a3f3d3', version='4.16.2'} 	https://github.com/openzipkin/brave/commit/111eaef5c5c567b7e4850bc57cb6811ec4a3f3d3
+CommitInfo{repo='GitHub', hash='0a1c7a508ada9c429b7f6e5a37a47fcb6371bc70', version='4.17.0'} 	https://github.com/openzipkin/brave/commit/0a1c7a508ada9c429b7f6e5a37a47fcb6371bc70
+CommitInfo{repo='GitHub', hash='50aac6f1ceb966e715ef1d75ddd60b98e5b8c22f', version='4.17.1'} 	https://github.com/openzipkin/brave/commit/50aac6f1ceb966e715ef1d75ddd60b98e5b8c22f
+CommitInfo{repo='GitHub', hash='85a43f27105a9b6bee4a09f2210cd97a8ee007cd', version='4.17.2'} 	https://github.com/openzipkin/brave/commit/85a43f27105a9b6bee4a09f2210cd97a8ee007cd
+CommitInfo{repo='GitHub', hash='252808bae8b464d8e9921320f83736140a9d09f4', version='4.18.0'} 	https://github.com/openzipkin/brave/commit/252808bae8b464d8e9921320f83736140a9d09f4
+CommitInfo{repo='GitHub', hash='40bf86a368c90d712d08bf0fdd9cc110d5028a0f', version='4.18.1'} 	https://github.com/openzipkin/brave/commit/40bf86a368c90d712d08bf0fdd9cc110d5028a0f
+CommitInfo{repo='GitHub', hash='5f9c5be633b030f28ab8cf78001ec927661619a0', version='4.18.2'} 	https://github.com/openzipkin/brave/commit/5f9c5be633b030f28ab8cf78001ec927661619a0
+CommitInfo{repo='GitHub', hash='e0e240e626a78e88f89c19c3a681ba9242462188', version='4.19.0'} 	https://github.com/openzipkin/brave/commit/e0e240e626a78e88f89c19c3a681ba9242462188
+CommitInfo{repo='GitHub', hash='1edc7f3072a5d3e69fdb7bf86129eed746b47bb7', version='4.19.1'} 	https://github.com/openzipkin/brave/commit/1edc7f3072a5d3e69fdb7bf86129eed746b47bb7
+CommitInfo{repo='GitHub', hash='a169a949ad805d192f0c6235308ee2b52573c9b5', version='4.19.2'} 	https://github.com/openzipkin/brave/commit/a169a949ad805d192f0c6235308ee2b52573c9b5
+CommitInfo{repo='GitHub', hash='6296ea5e0db479c0261da1660151c92698f74803', version='4.19.3'} 	https://github.com/openzipkin/brave/commit/6296ea5e0db479c0261da1660151c92698f74803
+CommitInfo{repo='GitHub', hash='01b4615a3949b92ff110c048c2f2fec9b2dd0fe8', version='4.2.0'} 	https://github.com/openzipkin/brave/commit/01b4615a3949b92ff110c048c2f2fec9b2dd0fe8
+CommitInfo{repo='GitHub', hash='af8f98906f56dfa002f964157c629bc27d36e4fd', version='4.3.0'} 	https://github.com/openzipkin/brave/commit/af8f98906f56dfa002f964157c629bc27d36e4fd
+CommitInfo{repo='GitHub', hash='b44aa5f2aff44ba4eee6bcc1dc3961de1d9c3bc6', version='4.3.1'} 	https://github.com/openzipkin/brave/commit/b44aa5f2aff44ba4eee6bcc1dc3961de1d9c3bc6
+CommitInfo{repo='GitHub', hash='ab7fa72d3e39ded8c45428a319d30ae9c472ac83', version='4.3.2'} 	https://github.com/openzipkin/brave/commit/ab7fa72d3e39ded8c45428a319d30ae9c472ac83
+CommitInfo{repo='GitHub', hash='b8d9cb289784dc2918d07672f41f5eb6af033ed7', version='4.3.3'} 	https://github.com/openzipkin/brave/commit/b8d9cb289784dc2918d07672f41f5eb6af033ed7
+CommitInfo{repo='GitHub', hash='141aae171992fc26892baa1c6bd715df44248ba9', version='4.3.4'} 	https://github.com/openzipkin/brave/commit/141aae171992fc26892baa1c6bd715df44248ba9
+CommitInfo{repo='GitHub', hash='651893f4d42299156a9147ff86ab377fc23c6999', version='4.4.0'} 	https://github.com/openzipkin/brave/commit/651893f4d42299156a9147ff86ab377fc23c6999
+CommitInfo{repo='GitHub', hash='261661fc14ca5389dd4493353da03d4b8533a235', version='4.5.0'} 	https://github.com/openzipkin/brave/commit/261661fc14ca5389dd4493353da03d4b8533a235
+CommitInfo{repo='GitHub', hash='b623af22be11b9f5211feb83d14f28a6014abf1a', version='4.5.1'} 	https://github.com/openzipkin/brave/commit/b623af22be11b9f5211feb83d14f28a6014abf1a
+CommitInfo{repo='GitHub', hash='53b504678104e2c384bfc57fc8f89d1686b4d816', version='4.5.2'} 	https://github.com/openzipkin/brave/commit/53b504678104e2c384bfc57fc8f89d1686b4d816
+CommitInfo{repo='GitHub', hash='a0d4df57f7aff098189c207a8388c4e25182b732', version='4.6.0'} 	https://github.com/openzipkin/brave/commit/a0d4df57f7aff098189c207a8388c4e25182b732
+CommitInfo{repo='GitHub', hash='f41db9c05eb3a0e70f8f964f868d30f692bcf1a1', version='4.7.0'} 	https://github.com/openzipkin/brave/commit/f41db9c05eb3a0e70f8f964f868d30f692bcf1a1
+CommitInfo{repo='GitHub', hash='83a608957345346d792164ba4b47f6c093e4ae25', version='4.7.1'} 	https://github.com/openzipkin/brave/commit/83a608957345346d792164ba4b47f6c093e4ae25
+CommitInfo{repo='GitHub', hash='ea5612131c531f46b4a4c1d7b53180f643b1a320', version='4.7.2'} 	https://github.com/openzipkin/brave/commit/ea5612131c531f46b4a4c1d7b53180f643b1a320
+CommitInfo{repo='GitHub', hash='14a03637d31b098fe2f6cc3e1fd4d720e5db6443', version='4.8.0'} 	https://github.com/openzipkin/brave/commit/14a03637d31b098fe2f6cc3e1fd4d720e5db6443
+CommitInfo{repo='GitHub', hash='dcf5e42565a19fda07e6ceb8c144f89b2898a4aa', version='4.8.1'} 	https://github.com/openzipkin/brave/commit/dcf5e42565a19fda07e6ceb8c144f89b2898a4aa
+CommitInfo{repo='GitHub', hash='d575d10d736ead064f11485e3e302d01c59ca56b', version='4.9.0'} 	https://github.com/openzipkin/brave/commit/d575d10d736ead064f11485e3e302d01c59ca56b
+CommitInfo{repo='GitHub', hash='c447745f2d36b6d7715b788668cbd177dee7f2ea', version='4.9.1'} 	https://github.com/openzipkin/brave/commit/c447745f2d36b6d7715b788668cbd177dee7f2ea
+CommitInfo{repo='GitHub', hash='ba085294051f0247e3fa539b2186cabf521fa451', version='4.9.2'} 	https://github.com/openzipkin/brave/commit/ba085294051f0247e3fa539b2186cabf521fa451
+CommitInfo{repo='GitHub', hash='cba9f63b6ff757ed4b0db79e70f6f54b5b7172bf', version='5.0.0'} 	https://github.com/openzipkin/brave/commit/cba9f63b6ff757ed4b0db79e70f6f54b5b7172bf
+CommitInfo{repo='GitHub', hash='c58bfd193c050ba3cc739cc39bff0a2ffa57a939', version='5.1.0'} 	https://github.com/openzipkin/brave/commit/c58bfd193c050ba3cc739cc39bff0a2ffa57a939
+CommitInfo{repo='GitHub', hash='07effd1434a5edd2ea478b849586ead7cf0fe3b9', version='5.1.1'} 	https://github.com/openzipkin/brave/commit/07effd1434a5edd2ea478b849586ead7cf0fe3b9
+CommitInfo{repo='GitHub', hash='731b71d67fd1c23a73b6d8ed3dc573ec1db07fcb', version='5.1.2'} 	https://github.com/openzipkin/brave/commit/731b71d67fd1c23a73b6d8ed3dc573ec1db07fcb
+CommitInfo{repo='GitHub', hash='8167363688031b9deba2076f1535e61154a62d22', version='5.1.3'} 	https://github.com/openzipkin/brave/commit/8167363688031b9deba2076f1535e61154a62d22
+CommitInfo{repo='GitHub', hash='6b83a02111b2cceae84e4916122d4651479e77b6', version='5.1.4'} 	https://github.com/openzipkin/brave/commit/6b83a02111b2cceae84e4916122d4651479e77b6
+CommitInfo{repo='GitHub', hash='6b83a02111b2cceae84e4916122d4651479e77b6', version='5.1.4'} 	https://github.com/openzipkin/brave/commit/6b83a02111b2cceae84e4916122d4651479e77b6
+CommitInfo{repo='GitHub', hash='6b83a02111b2cceae84e4916122d4651479e77b6', version='5.1.4'} 	https://github.com/openzipkin/brave/commit/6b83a02111b2cceae84e4916122d4651479e77b6
+CommitInfo{repo='GitHub', hash='22eb86173f397db920693abf0644491c1df8ee47', version='5.1.5'} 	https://github.com/openzipkin/brave/commit/22eb86173f397db920693abf0644491c1df8ee47
+CommitInfo{repo='GitHub', hash='20d4dae59ff480757a073e4e86b1cd5049e7d0e1', version='5.2.0'} 	https://github.com/openzipkin/brave/commit/20d4dae59ff480757a073e4e86b1cd5049e7d0e1
+CommitInfo{repo='GitHub', hash='7b30b642d28182c7d2b8bc51496b0fb379015fb7', version='5.3.0'} 	https://github.com/openzipkin/brave/commit/7b30b642d28182c7d2b8bc51496b0fb379015fb7
+CommitInfo{repo='GitHub', hash='5d69ee8498902358e4b858f3f49ac0e77a53dcae', version='5.3.1'} 	https://github.com/openzipkin/brave/commit/5d69ee8498902358e4b858f3f49ac0e77a53dcae
+CommitInfo{repo='GitHub', hash='5d69ee8498902358e4b858f3f49ac0e77a53dcae', version='5.3.1'} 	https://github.com/openzipkin/brave/commit/5d69ee8498902358e4b858f3f49ac0e77a53dcae
+CommitInfo{repo='GitHub', hash='fa5fbdcd84155b14a125379f912206c696ce3692', version='5.3.2'} 	https://github.com/openzipkin/brave/commit/fa5fbdcd84155b14a125379f912206c696ce3692
+CommitInfo{repo='GitHub', hash='bdf6a647950449bcc9637368451e1ee960a4e43d', version='5.3.3'} 	https://github.com/openzipkin/brave/commit/bdf6a647950449bcc9637368451e1ee960a4e43d
+CommitInfo{repo='GitHub', hash='06fd824ca2f7f62257efcabd58f5d8320ccfc95a', version='5.4.0'} 	https://github.com/openzipkin/brave/commit/06fd824ca2f7f62257efcabd58f5d8320ccfc95a
+CommitInfo{repo='GitHub', hash='06fd824ca2f7f62257efcabd58f5d8320ccfc95a', version='5.4.0'} 	https://github.com/openzipkin/brave/commit/06fd824ca2f7f62257efcabd58f5d8320ccfc95a
+CommitInfo{repo='GitHub', hash='f88e09f2388907ce15797488707732fe016aa36f', version='5.4.1'} 	https://github.com/openzipkin/brave/commit/f88e09f2388907ce15797488707732fe016aa36f
+CommitInfo{repo='GitHub', hash='f88e09f2388907ce15797488707732fe016aa36f', version='5.4.1'} 	https://github.com/openzipkin/brave/commit/f88e09f2388907ce15797488707732fe016aa36f
+CommitInfo{repo='GitHub', hash='766e0b10403331a2792a5331a78e9f26eb2c6f32', version='5.4.2'} 	https://github.com/openzipkin/brave/commit/766e0b10403331a2792a5331a78e9f26eb2c6f32
+CommitInfo{repo='GitHub', hash='077e753e4a160643d6e173152ea239c1d23f2e71', version='5.4.3'} 	https://github.com/openzipkin/brave/commit/077e753e4a160643d6e173152ea239c1d23f2e71
+CommitInfo{repo='GitHub', hash='bc71f34e9bec4b4f0118e01b9b3888fd924bd1af', version='5.4.4'} 	https://github.com/openzipkin/brave/commit/bc71f34e9bec4b4f0118e01b9b3888fd924bd1af
+CommitInfo{repo='GitHub', hash='8e7b0316c55e293a75b2c3c5834ffa92648f5d61', version='5.5.0'} 	https://github.com/openzipkin/brave/commit/8e7b0316c55e293a75b2c3c5834ffa92648f5d61
+CommitInfo{repo='GitHub', hash='fadba40dd5b78e9d13a8e595408a072713d21b43', version='brave-1.0'} 	https://github.com/openzipkin/brave/commit/fadba40dd5b78e9d13a8e595408a072713d21b43
+CommitInfo{repo='GitHub', hash='caf13a271272e230cbcd2222d925fbed542a20cf', version='brave-2.0'} 	https://github.com/openzipkin/brave/commit/caf13a271272e230cbcd2222d925fbed542a20cf
+CommitInfo{repo='GitHub', hash='308d23edcfcad1c044500dcbf4b8a1e77f85b741', version='brave-2.0.1'} 	https://github.com/openzipkin/brave/commit/308d23edcfcad1c044500dcbf4b8a1e77f85b741
+CommitInfo{repo='GitHub', hash='7d0330ada700e98c6b2d5a9314fdefb923cea29e', version='brave-2.0.2'} 	https://github.com/openzipkin/brave/commit/7d0330ada700e98c6b2d5a9314fdefb923cea29e
+CommitInfo{repo='GitHub', hash='72a1d757bd4e3e9fe328c3c68ea17486b5c5f8ed', version='brave-2.1.0'} 	https://github.com/openzipkin/brave/commit/72a1d757bd4e3e9fe328c3c68ea17486b5c5f8ed
+CommitInfo{repo='GitHub', hash='fa33cbe04517e454bb3ddf45a7a8288d1cbe0057', version='brave-2.1.1'} 	https://github.com/openzipkin/brave/commit/fa33cbe04517e454bb3ddf45a7a8288d1cbe0057
+CommitInfo{repo='GitHub', hash='04c5158ceae2c0b027a036a0503ca3366ad9146a', version='brave-2.2.0'} 	https://github.com/openzipkin/brave/commit/04c5158ceae2c0b027a036a0503ca3366ad9146a
+CommitInfo{repo='GitHub', hash='323afb08112a52fb0c45b8019566456ecf16d655', version='brave-2.2.1'} 	https://github.com/openzipkin/brave/commit/323afb08112a52fb0c45b8019566456ecf16d655
+CommitInfo{repo='GitHub', hash='91009a6053cb9b1c633e8d3cd65e40a254b817b0', version='brave-2.3'} 	https://github.com/openzipkin/brave/commit/91009a6053cb9b1c633e8d3cd65e40a254b817b0
+CommitInfo{repo='GitHub', hash='ff09fcddf413df402fb8d021a6645aa9aa374a00', version='brave-2.4'} 	https://github.com/openzipkin/brave/commit/ff09fcddf413df402fb8d021a6645aa9aa374a00
+CommitInfo{repo='GitHub', hash='7769c19837dc6f15d2a89fb3e17ac9c540a22930', version='brave-2.4.1'} 	https://github.com/openzipkin/brave/commit/7769c19837dc6f15d2a89fb3e17ac9c540a22930
+CommitInfo{repo='GitHub', hash='a14982cf6a2b6d6819ab7e38a89508bd7b351672', version='brave-2.4.2'} 	https://github.com/openzipkin/brave/commit/a14982cf6a2b6d6819ab7e38a89508bd7b351672
+CommitInfo{repo='GitHub', hash='091672ab8cf5748f4360ecf5c49fdab4a2ebb06e', version='brave-3.0.0-alpha-1'} 	https://github.com/openzipkin/brave/commit/091672ab8cf5748f4360ecf5c49fdab4a2ebb06e
+CommitInfo{repo='GitHub', hash='2f6a753c256e46f5c51f2bfae2c26b69a21108e1', version='brave-3.0.0-rc-1'} 	https://github.com/openzipkin/brave/commit/2f6a753c256e46f5c51f2bfae2c26b69a21108e1
+CommitInfo{repo='GitHub', hash='d45feb04383eec4d25e9108e882781cc367db4ec', version='brave-3.1.0'} 	https://github.com/openzipkin/brave/commit/d45feb04383eec4d25e9108e882781cc367db4ec
+CommitInfo{repo='GitHub', hash='ed344e5b8fbac330948f617ed04238457d85e1f3', version='brave-3.2.0'} 	https://github.com/openzipkin/brave/commit/ed344e5b8fbac330948f617ed04238457d85e1f3
+CommitInfo{repo='GitHub', hash='23708d4f0a92f9d6788715d63f574118d207c550', version='brave-3.3.0'} 	https://github.com/openzipkin/brave/commit/23708d4f0a92f9d6788715d63f574118d207c550
+CommitInfo{repo='GitHub', hash='2416d717ac4cafbdda5cadb02a015aa482239155', version='brave-3.4.0'} 	https://github.com/openzipkin/brave/commit/2416d717ac4cafbdda5cadb02a015aa482239155
+CommitInfo{repo='GitHub', hash='1b0f7b94ac3cbd0923f7be130502ce4ff0050727', version='brave-3.5.0'} 	https://github.com/openzipkin/brave/commit/1b0f7b94ac3cbd0923f7be130502ce4ff0050727
+CommitInfo{repo='GitHub', hash='d656a660ed91c779f27b7c6b024a44e4eeda4b2e', version='brave-3.7.0'} 	https://github.com/openzipkin/brave/commit/d656a660ed91c779f27b7c6b024a44e4eeda4b2e
+CommitInfo{repo='GitHub', hash='8893865dc47779411d6e4a089cc7422feca03b2c', version='release-3.10.0'} 	https://github.com/openzipkin/brave/commit/8893865dc47779411d6e4a089cc7422feca03b2c
+CommitInfo{repo='GitHub', hash='18b7f2dbd4b8c26c0eab4107758732f93909f1f8', version='release-3.11.0'} 	https://github.com/openzipkin/brave/commit/18b7f2dbd4b8c26c0eab4107758732f93909f1f8
+CommitInfo{repo='GitHub', hash='888385ee5063f866df83da19a106873c8e6257c4', version='release-3.11.1'} 	https://github.com/openzipkin/brave/commit/888385ee5063f866df83da19a106873c8e6257c4
+CommitInfo{repo='GitHub', hash='06e477b0f3dcab9aee12f1c8868043a90916b479', version='release-3.12.0'} 	https://github.com/openzipkin/brave/commit/06e477b0f3dcab9aee12f1c8868043a90916b479
+CommitInfo{repo='GitHub', hash='8884a32b6f97aec3696d6f6e5abea0e79c34aa8e', version='release-3.13.0'} 	https://github.com/openzipkin/brave/commit/8884a32b6f97aec3696d6f6e5abea0e79c34aa8e
+CommitInfo{repo='GitHub', hash='741bec49782cb415800c2ad78fd166917b2ba128', version='release-3.14.0'} 	https://github.com/openzipkin/brave/commit/741bec49782cb415800c2ad78fd166917b2ba128
+CommitInfo{repo='GitHub', hash='19071561573b5d3fa972713bd6aeb4ff83fcbb91', version='release-3.14.1'} 	https://github.com/openzipkin/brave/commit/19071561573b5d3fa972713bd6aeb4ff83fcbb91
+CommitInfo{repo='GitHub', hash='bc2272599e1da23ebd86667f79ca1b0165c1ddfb', version='release-3.15.0'} 	https://github.com/openzipkin/brave/commit/bc2272599e1da23ebd86667f79ca1b0165c1ddfb
+CommitInfo{repo='GitHub', hash='2e186982052c4202bb9eff70b733679b181fdf1e', version='release-3.15.1'} 	https://github.com/openzipkin/brave/commit/2e186982052c4202bb9eff70b733679b181fdf1e
+CommitInfo{repo='GitHub', hash='a654d80df5ee744ccbb8c4fd8f7f6f03de1d5a12', version='release-3.15.2'} 	https://github.com/openzipkin/brave/commit/a654d80df5ee744ccbb8c4fd8f7f6f03de1d5a12
+CommitInfo{repo='GitHub', hash='3bc4cbe5ff281b61b5f690178268eef300bf9c9f', version='release-3.15.3'} 	https://github.com/openzipkin/brave/commit/3bc4cbe5ff281b61b5f690178268eef300bf9c9f
+CommitInfo{repo='GitHub', hash='92d3dc4be0264955f80651d3359c87730ab31742', version='release-3.15.4'} 	https://github.com/openzipkin/brave/commit/92d3dc4be0264955f80651d3359c87730ab31742
+CommitInfo{repo='GitHub', hash='cd67968adb96c6a74d785cc6b6a9fd45de89506f', version='release-3.16.0'} 	https://github.com/openzipkin/brave/commit/cd67968adb96c6a74d785cc6b6a9fd45de89506f
+CommitInfo{repo='GitHub', hash='03c7d7bd4d3d310ecaf7c2cf31c10be0b47b8f48', version='release-3.17.0'} 	https://github.com/openzipkin/brave/commit/03c7d7bd4d3d310ecaf7c2cf31c10be0b47b8f48
+CommitInfo{repo='GitHub', hash='aa4b10039fc78b7d9765ba8b78d1c2ebe0cebd59', version='release-3.17.1'} 	https://github.com/openzipkin/brave/commit/aa4b10039fc78b7d9765ba8b78d1c2ebe0cebd59
+CommitInfo{repo='GitHub', hash='38a58a2eb5237f0edcffd0bc883c570b9d6184c1', version='release-3.17.2'} 	https://github.com/openzipkin/brave/commit/38a58a2eb5237f0edcffd0bc883c570b9d6184c1
+CommitInfo{repo='GitHub', hash='217ef37b8adb571f46bbf8061cb6def0a86fb98c', version='release-3.18.0'} 	https://github.com/openzipkin/brave/commit/217ef37b8adb571f46bbf8061cb6def0a86fb98c
+CommitInfo{repo='GitHub', hash='94cbd5e26d94211ca6646ee57d1b42ad024e22d4', version='release-3.8.0'} 	https://github.com/openzipkin/brave/commit/94cbd5e26d94211ca6646ee57d1b42ad024e22d4
+CommitInfo{repo='GitHub', hash='77f33f5ab24a2c29b93e37ab0b45e0df7ba5487e', version='release-3.9.0'} 	https://github.com/openzipkin/brave/commit/77f33f5ab24a2c29b93e37ab0b45e0df7ba5487e
+CommitInfo{repo='GitHub', hash='7e8ea33d6bbdef900b9d6ab1d7a967d263821398', version='release-3.9.1'} 	https://github.com/openzipkin/brave/commit/7e8ea33d6bbdef900b9d6ab1d7a967d263821398
+CommitInfo{repo='GitHub', hash='251b6c7816ccf84ac1696f3b432cb847c112f773', version='release-4.0.0'} 	https://github.com/openzipkin/brave/commit/251b6c7816ccf84ac1696f3b432cb847c112f773
+CommitInfo{repo='GitHub', hash='847fdc2f88fa630cca38480a41754d9c993ff2e0', version='release-4.0.1'} 	https://github.com/openzipkin/brave/commit/847fdc2f88fa630cca38480a41754d9c993ff2e0
+CommitInfo{repo='GitHub', hash='f3c44f29b84d37667321177ec684baba5078b323', version='release-4.0.2'} 	https://github.com/openzipkin/brave/commit/f3c44f29b84d37667321177ec684baba5078b323
+CommitInfo{repo='GitHub', hash='10e281c85e79e61ba7ef846ad6f5c16f1fad83d7', version='release-4.0.3'} 	https://github.com/openzipkin/brave/commit/10e281c85e79e61ba7ef846ad6f5c16f1fad83d7
+CommitInfo{repo='GitHub', hash='3b0e0ebe1cdefe8cd8477dc5690ce43dd34cf0dd', version='release-4.0.4'} 	https://github.com/openzipkin/brave/commit/3b0e0ebe1cdefe8cd8477dc5690ce43dd34cf0dd
+CommitInfo{repo='GitHub', hash='849534934982b6056bd461a76770203392285c8c', version='release-4.0.5'} 	https://github.com/openzipkin/brave/commit/849534934982b6056bd461a76770203392285c8c
+CommitInfo{repo='GitHub', hash='99d3d5b414d608c7a1316f8f93e0af6d13ab09b6', version='release-4.0.6'} 	https://github.com/openzipkin/brave/commit/99d3d5b414d608c7a1316f8f93e0af6d13ab09b6
+CommitInfo{repo='GitHub', hash='c4a4bb9b1511ffb9b145f606e8c387c303bb18b9', version='release-4.1.0'} 	https://github.com/openzipkin/brave/commit/c4a4bb9b1511ffb9b145f606e8c387c303bb18b9
+CommitInfo{repo='GitHub', hash='42d869dd71837fbad32fb6d8bcb3d0f2a59c653b', version='release-4.10.0'} 	https://github.com/openzipkin/brave/commit/42d869dd71837fbad32fb6d8bcb3d0f2a59c653b
+CommitInfo{repo='GitHub', hash='2fea453e253a92bbc127390736dbc8545f16d1b6', version='release-4.10.1'} 	https://github.com/openzipkin/brave/commit/2fea453e253a92bbc127390736dbc8545f16d1b6
+CommitInfo{repo='GitHub', hash='caea54a8d432ed812e1b14e545e78219259101be', version='release-4.1.1'} 	https://github.com/openzipkin/brave/commit/caea54a8d432ed812e1b14e545e78219259101be
+CommitInfo{repo='GitHub', hash='c5e164a06ba4f909ad0ce4700e97ef16f5b5ed15', version='release-4.11.0'} 	https://github.com/openzipkin/brave/commit/c5e164a06ba4f909ad0ce4700e97ef16f5b5ed15
+CommitInfo{repo='GitHub', hash='d0ba6cf50f5193b262a28ce2c40123bd6c4d13fb', version='release-4.12.0'} 	https://github.com/openzipkin/brave/commit/d0ba6cf50f5193b262a28ce2c40123bd6c4d13fb
+CommitInfo{repo='GitHub', hash='7c0b607d6230f5682ecdf5e03a29d9954f3a6fd5', version='release-4.12.1'} 	https://github.com/openzipkin/brave/commit/7c0b607d6230f5682ecdf5e03a29d9954f3a6fd5
+CommitInfo{repo='GitHub', hash='dd16bbd8ab6e8f44b74e807fe1bac73e6782a4a0', version='release-4.13.0'} 	https://github.com/openzipkin/brave/commit/dd16bbd8ab6e8f44b74e807fe1bac73e6782a4a0
+CommitInfo{repo='GitHub', hash='7ac55929f6bb639d2cd926e199247eb7ab6db920', version='release-4.13.1'} 	https://github.com/openzipkin/brave/commit/7ac55929f6bb639d2cd926e199247eb7ab6db920
+CommitInfo{repo='GitHub', hash='9258132df1159154f8f9f31f77ff571763e35992', version='release-4.13.2'} 	https://github.com/openzipkin/brave/commit/9258132df1159154f8f9f31f77ff571763e35992
+CommitInfo{repo='GitHub', hash='c01d9bbb05cd9afc24f4a962027a6a22f0dd3efd', version='release-4.13.3'} 	https://github.com/openzipkin/brave/commit/c01d9bbb05cd9afc24f4a962027a6a22f0dd3efd
+CommitInfo{repo='GitHub', hash='eed1345cb3aa2be210cfa1cc1707036e86ca000d', version='release-4.13.4'} 	https://github.com/openzipkin/brave/commit/eed1345cb3aa2be210cfa1cc1707036e86ca000d
+CommitInfo{repo='GitHub', hash='feacb19ca89c703f2ba6aa2cdd6848b652cb0e61', version='release-4.14.0'} 	https://github.com/openzipkin/brave/commit/feacb19ca89c703f2ba6aa2cdd6848b652cb0e61
+CommitInfo{repo='GitHub', hash='2c9eed8a725c23a9f6ecceeeebde54a2ecd27109', version='release-4.14.1'} 	https://github.com/openzipkin/brave/commit/2c9eed8a725c23a9f6ecceeeebde54a2ecd27109
+CommitInfo{repo='GitHub', hash='e501165369b655f55da7a965105902388b9e5f5f', version='release-4.14.2'} 	https://github.com/openzipkin/brave/commit/e501165369b655f55da7a965105902388b9e5f5f
+CommitInfo{repo='GitHub', hash='6ba9a1137f60babcec9733b03f2f90382aeae869', version='release-4.14.3'} 	https://github.com/openzipkin/brave/commit/6ba9a1137f60babcec9733b03f2f90382aeae869
+CommitInfo{repo='GitHub', hash='2b03741798b25c1d266e6fe8339dbff9544e1a42', version='release-4.15.0'} 	https://github.com/openzipkin/brave/commit/2b03741798b25c1d266e6fe8339dbff9544e1a42
+CommitInfo{repo='GitHub', hash='ff447c0f2d18889b4d5b502cda16fae1e814d0d7', version='release-4.15.1'} 	https://github.com/openzipkin/brave/commit/ff447c0f2d18889b4d5b502cda16fae1e814d0d7
+CommitInfo{repo='GitHub', hash='2350a8d28faf8f8727ff6d7630f039bdad7eaeeb', version='release-4.16.0'} 	https://github.com/openzipkin/brave/commit/2350a8d28faf8f8727ff6d7630f039bdad7eaeeb
+CommitInfo{repo='GitHub', hash='b3c33ff0146d4de96bea251cb3659358155566d8', version='release-4.16.1'} 	https://github.com/openzipkin/brave/commit/b3c33ff0146d4de96bea251cb3659358155566d8
+CommitInfo{repo='GitHub', hash='9947518fe29819f00e01e926cbaa83d03ab9d1ed', version='release-4.16.2'} 	https://github.com/openzipkin/brave/commit/9947518fe29819f00e01e926cbaa83d03ab9d1ed
+CommitInfo{repo='GitHub', hash='afbb0e6c1e5dac8469e6a31f20197085ca33bac2', version='release-4.17.0'} 	https://github.com/openzipkin/brave/commit/afbb0e6c1e5dac8469e6a31f20197085ca33bac2
+CommitInfo{repo='GitHub', hash='c234d158565690f83458262d394c9d5dd4fc814c', version='release-4.17.1'} 	https://github.com/openzipkin/brave/commit/c234d158565690f83458262d394c9d5dd4fc814c
+CommitInfo{repo='GitHub', hash='dcdfa1cc7b397f92c5423b3f99aa37e3d7333952', version='release-4.17.2'} 	https://github.com/openzipkin/brave/commit/dcdfa1cc7b397f92c5423b3f99aa37e3d7333952
+CommitInfo{repo='GitHub', hash='698469dd3434eec0fddf7d4a383f88d86ca8d3e1', version='release-4.18.0'} 	https://github.com/openzipkin/brave/commit/698469dd3434eec0fddf7d4a383f88d86ca8d3e1
+CommitInfo{repo='GitHub', hash='5d7fccd8e40e68fd084144ce5793e92f34f9c52c', version='release-4.18.1'} 	https://github.com/openzipkin/brave/commit/5d7fccd8e40e68fd084144ce5793e92f34f9c52c
+CommitInfo{repo='GitHub', hash='bcc97a2f8b84072210094d7877bf421a5224e028', version='release-4.18.2'} 	https://github.com/openzipkin/brave/commit/bcc97a2f8b84072210094d7877bf421a5224e028
+CommitInfo{repo='GitHub', hash='173e483690193059ed05eb111825148151bd3559', version='release-4.19.0'} 	https://github.com/openzipkin/brave/commit/173e483690193059ed05eb111825148151bd3559
+CommitInfo{repo='GitHub', hash='24c60435f4627dfbf9b3638370058d4661c2ed4a', version='release-4.19.1'} 	https://github.com/openzipkin/brave/commit/24c60435f4627dfbf9b3638370058d4661c2ed4a
+CommitInfo{repo='GitHub', hash='015530dfe8a2fc7b033ae7ec0b122ee1dea95545', version='release-4.19.2'} 	https://github.com/openzipkin/brave/commit/015530dfe8a2fc7b033ae7ec0b122ee1dea95545
+CommitInfo{repo='GitHub', hash='56b4700a2cba03242a2e2621f4725df6b6e75d7f', version='release-4.19.3'} 	https://github.com/openzipkin/brave/commit/56b4700a2cba03242a2e2621f4725df6b6e75d7f
+CommitInfo{repo='GitHub', hash='bf379590f4cad57b8e0903b73f8c0b32de5aa833', version='release-4.2.0'} 	https://github.com/openzipkin/brave/commit/bf379590f4cad57b8e0903b73f8c0b32de5aa833
+CommitInfo{repo='GitHub', hash='14fb86bce0052d27a7c2391774b9cd68f6bb86d9', version='release-4.3.0'} 	https://github.com/openzipkin/brave/commit/14fb86bce0052d27a7c2391774b9cd68f6bb86d9
+CommitInfo{repo='GitHub', hash='3575236aebd511e7fb886e153be61cb37f724153', version='release-4.3.1'} 	https://github.com/openzipkin/brave/commit/3575236aebd511e7fb886e153be61cb37f724153
+CommitInfo{repo='GitHub', hash='2bd52aab9018e0d83ddf13cde1c9cf8926caa7f6', version='release-4.3.2'} 	https://github.com/openzipkin/brave/commit/2bd52aab9018e0d83ddf13cde1c9cf8926caa7f6
+CommitInfo{repo='GitHub', hash='121bcd063447e8de3ca8ddf81087de4c7e3e96fb', version='release-4.3.3'} 	https://github.com/openzipkin/brave/commit/121bcd063447e8de3ca8ddf81087de4c7e3e96fb
+CommitInfo{repo='GitHub', hash='7272475dd2ed3f97040d49cc96deb3021ac3faaf', version='release-4.3.4'} 	https://github.com/openzipkin/brave/commit/7272475dd2ed3f97040d49cc96deb3021ac3faaf
+CommitInfo{repo='GitHub', hash='0974a5e5699da3526a933885cfda628f7d378cf9', version='release-4.4.0'} 	https://github.com/openzipkin/brave/commit/0974a5e5699da3526a933885cfda628f7d378cf9
+CommitInfo{repo='GitHub', hash='a3f5f0aeb518b6d7fd024ae02826e09f09a9ccd0', version='release-4.5.0'} 	https://github.com/openzipkin/brave/commit/a3f5f0aeb518b6d7fd024ae02826e09f09a9ccd0
+CommitInfo{repo='GitHub', hash='51a332109f43c4e18a40a76182c9f277ee99cc17', version='release-4.5.1'} 	https://github.com/openzipkin/brave/commit/51a332109f43c4e18a40a76182c9f277ee99cc17
+CommitInfo{repo='GitHub', hash='00ad52c38775407ed24b66f3b6224de22a528d7b', version='release-4.5.2'} 	https://github.com/openzipkin/brave/commit/00ad52c38775407ed24b66f3b6224de22a528d7b
+CommitInfo{repo='GitHub', hash='d6de2fd2d0d2e0573f28c960f1661ff24ac1d44a', version='release-4.6.0'} 	https://github.com/openzipkin/brave/commit/d6de2fd2d0d2e0573f28c960f1661ff24ac1d44a
+CommitInfo{repo='GitHub', hash='4245a88181b467d9324465d15adf720dafcde1ea', version='release-4.7.0'} 	https://github.com/openzipkin/brave/commit/4245a88181b467d9324465d15adf720dafcde1ea
+CommitInfo{repo='GitHub', hash='4bb9b6d8476da88d9d632ece6848bb07f03f9e02', version='release-4.7.1'} 	https://github.com/openzipkin/brave/commit/4bb9b6d8476da88d9d632ece6848bb07f03f9e02
+CommitInfo{repo='GitHub', hash='f2e062f3631d60b74692260a0bf4a73bc6714f82', version='release-4.7.2'} 	https://github.com/openzipkin/brave/commit/f2e062f3631d60b74692260a0bf4a73bc6714f82
+CommitInfo{repo='GitHub', hash='a4f2248a2fb2e44afc4a3999d3087e3c7281728f', version='release-4.8.0'} 	https://github.com/openzipkin/brave/commit/a4f2248a2fb2e44afc4a3999d3087e3c7281728f
+CommitInfo{repo='GitHub', hash='937987e845162c557f5bdfaec4acae2b0cbee877', version='release-4.8.1'} 	https://github.com/openzipkin/brave/commit/937987e845162c557f5bdfaec4acae2b0cbee877
+CommitInfo{repo='GitHub', hash='10907d7c7fe63e5be2f3665a09a00371b7df3d36', version='release-4.9.0'} 	https://github.com/openzipkin/brave/commit/10907d7c7fe63e5be2f3665a09a00371b7df3d36
+CommitInfo{repo='GitHub', hash='bff6d2bd6ec4a705590124788e1c24bbd729096c', version='release-4.9.1'} 	https://github.com/openzipkin/brave/commit/bff6d2bd6ec4a705590124788e1c24bbd729096c
+CommitInfo{repo='GitHub', hash='b94369dcd8a56bc6a8a5e75f82740cfb2be4808d', version='release-4.9.2'} 	https://github.com/openzipkin/brave/commit/b94369dcd8a56bc6a8a5e75f82740cfb2be4808d
+CommitInfo{repo='GitHub', hash='9d98d569940c4e68c834a8ada4fe70d51912e2eb', version='release-5.0.0'} 	https://github.com/openzipkin/brave/commit/9d98d569940c4e68c834a8ada4fe70d51912e2eb
+CommitInfo{repo='GitHub', hash='e5c65e9bd168ed9405b98fe44a51965bc332cf5f', version='release-5.1.0'} 	https://github.com/openzipkin/brave/commit/e5c65e9bd168ed9405b98fe44a51965bc332cf5f
+CommitInfo{repo='GitHub', hash='e5c65e9bd168ed9405b98fe44a51965bc332cf5f', version='release-5.1.0'} 	https://github.com/openzipkin/brave/commit/e5c65e9bd168ed9405b98fe44a51965bc332cf5f
+CommitInfo{repo='GitHub', hash='2b13c0adba808e35889173f0284e47315bbf1ca0', version='release-5.1.1'} 	https://github.com/openzipkin/brave/commit/2b13c0adba808e35889173f0284e47315bbf1ca0
+CommitInfo{repo='GitHub', hash='49b91c05bf50c0837dfa26d6246e4d07cbdb8453', version='release-5.1.2'} 	https://github.com/openzipkin/brave/commit/49b91c05bf50c0837dfa26d6246e4d07cbdb8453
+CommitInfo{repo='GitHub', hash='49b91c05bf50c0837dfa26d6246e4d07cbdb8453', version='release-5.1.2'} 	https://github.com/openzipkin/brave/commit/49b91c05bf50c0837dfa26d6246e4d07cbdb8453
+CommitInfo{repo='GitHub', hash='93f644323c2c2f063ff4cc486c151ca3fe4c566d', version='release-5.1.3'} 	https://github.com/openzipkin/brave/commit/93f644323c2c2f063ff4cc486c151ca3fe4c566d
+CommitInfo{repo='GitHub', hash='d970460035aed23bc291be87cbfe8439a3af88f6', version='release-5.1.4'} 	https://github.com/openzipkin/brave/commit/d970460035aed23bc291be87cbfe8439a3af88f6
+CommitInfo{repo='GitHub', hash='aac9a586fcbd8e1a9606f1735af3b782c469e34d', version='release-5.1.5'} 	https://github.com/openzipkin/brave/commit/aac9a586fcbd8e1a9606f1735af3b782c469e34d
+CommitInfo{repo='GitHub', hash='f97bd6d0f9e01312a1a6c7a907cc05a658d0fa2e', version='release-5.2.0'} 	https://github.com/openzipkin/brave/commit/f97bd6d0f9e01312a1a6c7a907cc05a658d0fa2e
+CommitInfo{repo='GitHub', hash='93599ab55c7aeb293d66efee484081642647d7d6', version='release-5.3.0'} 	https://github.com/openzipkin/brave/commit/93599ab55c7aeb293d66efee484081642647d7d6
+CommitInfo{repo='GitHub', hash='ca2ec95af85e3701d30d292c4a9918c3aa0eb78e', version='release-5.3.1'} 	https://github.com/openzipkin/brave/commit/ca2ec95af85e3701d30d292c4a9918c3aa0eb78e
+CommitInfo{repo='GitHub', hash='d7c7ec572781ae5ddfa00de261e774059ee6bfaf', version='release-5.3.2'} 	https://github.com/openzipkin/brave/commit/d7c7ec572781ae5ddfa00de261e774059ee6bfaf
+CommitInfo{repo='GitHub', hash='3880e91a946c798e1178bcb70366b4def1df9dae', version='release-5.3.3'} 	https://github.com/openzipkin/brave/commit/3880e91a946c798e1178bcb70366b4def1df9dae
+CommitInfo{repo='GitHub', hash='3880e91a946c798e1178bcb70366b4def1df9dae', version='release-5.3.3'} 	https://github.com/openzipkin/brave/commit/3880e91a946c798e1178bcb70366b4def1df9dae
+CommitInfo{repo='GitHub', hash='30440de855fb69ecae2f95a5f74f3cbe74285347', version='release-5.4.0'} 	https://github.com/openzipkin/brave/commit/30440de855fb69ecae2f95a5f74f3cbe74285347
+CommitInfo{repo='GitHub', hash='30440de855fb69ecae2f95a5f74f3cbe74285347', version='release-5.4.0'} 	https://github.com/openzipkin/brave/commit/30440de855fb69ecae2f95a5f74f3cbe74285347
+CommitInfo{repo='GitHub', hash='30440de855fb69ecae2f95a5f74f3cbe74285347', version='release-5.4.0'} 	https://github.com/openzipkin/brave/commit/30440de855fb69ecae2f95a5f74f3cbe74285347
+CommitInfo{repo='GitHub', hash='8efa76f4bab6168fb8c2ba21092cbea42d027fa8', version='release-5.4.1'} 	https://github.com/openzipkin/brave/commit/8efa76f4bab6168fb8c2ba21092cbea42d027fa8
+CommitInfo{repo='GitHub', hash='42bf46aafe2b259d04b79c0814e77118fdf7c586', version='release-5.4.2'} 	https://github.com/openzipkin/brave/commit/42bf46aafe2b259d04b79c0814e77118fdf7c586
+CommitInfo{repo='GitHub', hash='8ab16a96104eb3d4f3df162f314a94e55ee5b712', version='release-5.4.3'} 	https://github.com/openzipkin/brave/commit/8ab16a96104eb3d4f3df162f314a94e55ee5b712
+CommitInfo{repo='GitHub', hash='fab23655ef53fc2918f49159ee1fa9297908124c', version='release-5.4.4'} 	https://github.com/openzipkin/brave/commit/fab23655ef53fc2918f49159ee1fa9297908124c
+CommitInfo{repo='GitHub', hash='65e2909533eb504f8da6485f81aa823aa7b080ab', version='release-5.5.0'} 	https://github.com/openzipkin/brave/commit/65e2909533eb504f8da6485f81aa823aa7b080ab
 
 Project A:
 ProjectVersionFixed(version=3.3.0, dependency=0.9.0.0, time=2015-12-31 13:15:12 UTC),	Latest, "null"

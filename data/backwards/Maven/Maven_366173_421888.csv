@@ -2,92 +2,97 @@
 Project information
 org.springframework.data:spring-data-elasticsearch (366173)	org.projectlombok:lombok (421888)	Package Manager: Maven
 RepoID: 175040
+Repo Owner/Name: spring-projects/spring-data-elasticsearch
+Repository type: GitHub
+
+ https://github.com/spring-projects/spring-data-elasticsearch/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='ce0b047bd5e3067a442cd920281a7a3237a86129', version='1.0.0.M1'}
-CommitInfo{repo='GitHub', hash='95c87b4b9971014b51b53b83f3c59d72cb242178', version='1.0.0.M2'}
-CommitInfo{repo='GitHub', hash='c1bffb0324f71a583fe87f6a7f30e20f346f671e', version='1.0.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='d298bc727c6715f368c0c3a1a6fc9ad1c4b6ff21', version='1.0.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='6c79b5a6a37f7bdeac1eaf8a9442511fa811d801', version='1.0.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='0ffd90552d21520322de90e82433d6c545cc83bf', version='1.0.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='103e5b2889b1574ee06fa4b51bb66543e7cac957', version='1.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='960712f9e6abfd38ea920cf2cd8522f3fb8d4bd8', version='1.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='6b998d29745c98dab1e468b67011a44c1f3efaf9', version='1.1.0.M1'}
-CommitInfo{repo='GitHub', hash='594b4536a18487e5614ac30d574011dd9157302e', version='1.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='8ee7570a97b76ab2b35701acf7183c3615fb77ff', version='1.1.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='d4fed726fa667be11dce8e248aedaf468b2a3e81', version='1.1.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='64d03e82fdb687c783c77db0041ba69230ced05f', version='1.1.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='bde2ad110c1193b74df1986e8256a58c3cef3885', version='1.1.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='d5fb3f986d5364c8fc58391ed6ad253713946e0a', version='1.1.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='2ff155f4e561099ec73a3722471c986e7dc25812', version='1.2.0.M1'}
-CommitInfo{repo='GitHub', hash='6b68d947c8d723536a60b2cf047d3a89f6577804', version='1.2.0.RC1'}
-CommitInfo{repo='GitHub', hash='d6d4cced28fb5ac630bcbfc575d1f139c44495ad', version='1.2.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='031a74e6aec0f92f23c6f85fa4f7e0c0e1ffc0e9', version='1.2.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='872074a665a89bc5822a9ddd5e0a8515a0eda959', version='1.2.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='3e1099740b9150cb932ea2fdbfb9ca76c562c2e8', version='1.3.0.M1'}
-CommitInfo{repo='GitHub', hash='6b3a57f8506fd9b0e7eeb191b7efb91569013f07', version='1.3.0.RC1'}
-CommitInfo{repo='GitHub', hash='58393abe37f8a975612688622638bee44da185e6', version='1.3.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='115c309d2de5d69d89fd1b99580c5efb41fffb42', version='1.3.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='a2ebd68ed86f1d48560b2657bb5ab80ff98c2c39', version='1.3.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='436c40109eb608ec12a0a01e7ea086a4fbc36e74', version='1.3.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='dc4bb09b61b95b3d7738863bfa91b8fcd49950d4', version='1.3.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='2f413bf5283ad1e71e855d08b6d4bfe60e1ab4f0', version='1.3.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='58cb92f5c9d1611a08172e0c6f823a8181cfd436', version='1.4.0.M1'}
-CommitInfo{repo='GitHub', hash='d5f2764d1a998bb1a27f56dfd3f0d475fac56050', version='2.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='877faa63fe63f9be22b50e28259338ea2cc2905c', version='2.0.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='80f722e8ca7dfe82c5e6567a38fc8f224dec1629', version='2.0.10.RELEASE'}
-CommitInfo{repo='GitHub', hash='62c16b30548c5b1bbef2c8e71446dd3e6f523c98', version='2.0.11.RELEASE'}
-CommitInfo{repo='GitHub', hash='8f2bfcc6cef6f7b6070a0773a8844411f1b29463', version='2.0.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='3e80ce32dcee3c19df649cdf83affd1a247941d9', version='2.0.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='80849dc32bdd3302ff4fd72abbbe3b9e897ce147', version='2.0.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='f3034990547ba7a4dd423f416fcca23cca80c598', version='2.0.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='d4454d6140196f4f70149019c93648872bb8c93e', version='2.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='fe59d79b5f27b243abaca9643261dc687fc12ade', version='2.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='45509f4b56dc445d2dc211dc05cf90c3396dc549', version='2.0.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='2e16c4068fd85365f6ce3a80c1fe6f68298a53bc', version='2.0.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='29c91176657f41797795f31f1bcf4fabdcb6417b', version='2.0.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='b3ce577e8a8ea4980f213f560268fed3fa8a89f2', version='2.1.0.M1'}
-CommitInfo{repo='GitHub', hash='c49c5ceb7356ac81839e056a1313b3c7ce5ae81d', version='2.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='0d2b5259b145b5955493a430686eb6c44b3736aa', version='2.1.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='625157f7e6766df59456bf288c5722cef557a774', version='2.1.10.RELEASE'}
-CommitInfo{repo='GitHub', hash='a3dfbe232acd92650de9fd292a362a72065b2b0e', version='2.1.11.RELEASE'}
-CommitInfo{repo='GitHub', hash='058b1153feff454bd8c22084239525aa53179628', version='2.1.12.RELEASE'}
-CommitInfo{repo='GitHub', hash='dc2c6f5949600b9502f84a5b8a492ad47bb7ca9b', version='2.1.13.RELEASE'}
-CommitInfo{repo='GitHub', hash='dc2c6f5949600b9502f84a5b8a492ad47bb7ca9b', version='2.1.13.RELEASE'}
-CommitInfo{repo='GitHub', hash='ec3b3a58c765fee85baebdb93e397c30460a0e81', version='2.1.14.RELEASE'}
-CommitInfo{repo='GitHub', hash='f1c6ec3b1e3c99232f9e4ed9094537b8cf945b1c', version='2.1.15.RELEASE'}
-CommitInfo{repo='GitHub', hash='144fb7ee388c5d10a8978a1b091d878bcf69f898', version='2.1.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='a0a2f5b6b89d9e839d6d220450eb1bc001573ae3', version='2.1.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='2f37d4f5fc7a6f074c90c738fe248aa84878c7f7', version='2.1.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='c747b290ae7ebc0c4118babbec53243983708038', version='2.1.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='c29673a66f75355f271ffec286d859e5c4d91ddb', version='2.1.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='48c7bc6b3a7ef6ba35b26b1732c7d8a6fa9baf75', version='2.1.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='6b5b7ef14e06d049ae60f936d6229eae3d24b577', version='2.1.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='85c222141c4065e81a01045cb4384c958ce70632', version='2.1.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='e102efb42d79998e8306a95283333ae4b73e7f4f', version='2.1.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='9dd08ef31adb7d4556f13de7c798ee3b331e66e5', version='3.0.0.M1'}
-CommitInfo{repo='GitHub', hash='222432e0584975adf92a574599047eb139457670', version='3.0.0.M2'}
-CommitInfo{repo='GitHub', hash='8066ea5d5a9040a40386ba99a84eed00244e6d2d', version='3.0.0.M3'}
-CommitInfo{repo='GitHub', hash='6432df08c8f0789e33f230a1cc43985a330fa452', version='3.0.0.M4'}
-CommitInfo{repo='GitHub', hash='2f14ecb79c2f62b3242ed482c1fdb2d4dab1fe81', version='3.0.0.RC1'}
-CommitInfo{repo='GitHub', hash='d9b27e175a773e4fc14706a989e6fbde2433980e', version='3.0.0.RC2'}
-CommitInfo{repo='GitHub', hash='ef58d73ce2a68a4ebb9e0da9c33f97e2f3da8f6c', version='3.0.0.RC3'}
-CommitInfo{repo='GitHub', hash='8ea2671c20e368255faca752fa00d227e9848a5a', version='3.0.0.RELEASE'}
-CommitInfo{repo='GitHub', hash='845475f2539c23dca9eb6aadcd87239d2105c482', version='3.0.10.RELEASE'}
-CommitInfo{repo='GitHub', hash='a1b210f8adaaddf01b9beaa688dd0efc07c0cd15', version='3.0.1.RELEASE'}
-CommitInfo{repo='GitHub', hash='5686cf141463d58db3e1f5c74e6500d780dac31a', version='3.0.2.RELEASE'}
-CommitInfo{repo='GitHub', hash='3147b37f435cedad9eecf1a22a75e8ce5716c412', version='3.0.3.RELEASE'}
-CommitInfo{repo='GitHub', hash='b9a66dd4e538cd0cd49ca3201465f39caac7113f', version='3.0.4.RELEASE'}
-CommitInfo{repo='GitHub', hash='166b289c5aa460af28f58f9df354b7564534b81f', version='3.0.5.RELEASE'}
-CommitInfo{repo='GitHub', hash='287f0aefdea5edeb77fcb518cd4535353e21be17', version='3.0.6.RELEASE'}
-CommitInfo{repo='GitHub', hash='4792cdd3849b07ea1f2ec3193cc807c98a5bd401', version='3.0.7.RELEASE'}
-CommitInfo{repo='GitHub', hash='c3287a783710d6854ca6d40c88960619dd13842a', version='3.0.8.RELEASE'}
-CommitInfo{repo='GitHub', hash='7645c3b4d79c0b7d2e2da015a7b1344071c6e7c8', version='3.0.9.RELEASE'}
-CommitInfo{repo='GitHub', hash='befb9cd6578df70a38f79604090d12998f701a27', version='3.1.0.M1'}
-CommitInfo{repo='GitHub', hash='a251026ae981872540d8a30e28d14fdad9de5c6b', version='3.1.0.M2'}
-CommitInfo{repo='GitHub', hash='8ec8cb2a5f012e60217dc79808497f00196bb07e', version='3.1.0.M3'}
-CommitInfo{repo='GitHub', hash='34d58edb37785aa6426589266f9f2b6f9854ac61', version='3.1.0.RC1'}
-CommitInfo{repo='GitHub', hash='88e816c1605ca9f491089350b54bd4ed96885f52', version='3.1.0.RC2'}
-CommitInfo{repo='GitHub', hash='e4ca7aa70b83623d05c86bda2ddd602ee8c4038a', version='3.1.0.RELEASE'}
+CommitInfo{repo='GitHub', hash='ce0b047bd5e3067a442cd920281a7a3237a86129', version='1.0.0.M1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/ce0b047bd5e3067a442cd920281a7a3237a86129
+CommitInfo{repo='GitHub', hash='95c87b4b9971014b51b53b83f3c59d72cb242178', version='1.0.0.M2'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/95c87b4b9971014b51b53b83f3c59d72cb242178
+CommitInfo{repo='GitHub', hash='c1bffb0324f71a583fe87f6a7f30e20f346f671e', version='1.0.0.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/c1bffb0324f71a583fe87f6a7f30e20f346f671e
+CommitInfo{repo='GitHub', hash='d298bc727c6715f368c0c3a1a6fc9ad1c4b6ff21', version='1.0.1.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/d298bc727c6715f368c0c3a1a6fc9ad1c4b6ff21
+CommitInfo{repo='GitHub', hash='6c79b5a6a37f7bdeac1eaf8a9442511fa811d801', version='1.0.2.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/6c79b5a6a37f7bdeac1eaf8a9442511fa811d801
+CommitInfo{repo='GitHub', hash='0ffd90552d21520322de90e82433d6c545cc83bf', version='1.0.4.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/0ffd90552d21520322de90e82433d6c545cc83bf
+CommitInfo{repo='GitHub', hash='103e5b2889b1574ee06fa4b51bb66543e7cac957', version='1.0.5.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/103e5b2889b1574ee06fa4b51bb66543e7cac957
+CommitInfo{repo='GitHub', hash='960712f9e6abfd38ea920cf2cd8522f3fb8d4bd8', version='1.0.6.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/960712f9e6abfd38ea920cf2cd8522f3fb8d4bd8
+CommitInfo{repo='GitHub', hash='6b998d29745c98dab1e468b67011a44c1f3efaf9', version='1.1.0.M1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/6b998d29745c98dab1e468b67011a44c1f3efaf9
+CommitInfo{repo='GitHub', hash='594b4536a18487e5614ac30d574011dd9157302e', version='1.1.0.RC1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/594b4536a18487e5614ac30d574011dd9157302e
+CommitInfo{repo='GitHub', hash='8ee7570a97b76ab2b35701acf7183c3615fb77ff', version='1.1.0.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/8ee7570a97b76ab2b35701acf7183c3615fb77ff
+CommitInfo{repo='GitHub', hash='d4fed726fa667be11dce8e248aedaf468b2a3e81', version='1.1.1.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/d4fed726fa667be11dce8e248aedaf468b2a3e81
+CommitInfo{repo='GitHub', hash='64d03e82fdb687c783c77db0041ba69230ced05f', version='1.1.2.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/64d03e82fdb687c783c77db0041ba69230ced05f
+CommitInfo{repo='GitHub', hash='bde2ad110c1193b74df1986e8256a58c3cef3885', version='1.1.3.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/bde2ad110c1193b74df1986e8256a58c3cef3885
+CommitInfo{repo='GitHub', hash='d5fb3f986d5364c8fc58391ed6ad253713946e0a', version='1.1.4.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/d5fb3f986d5364c8fc58391ed6ad253713946e0a
+CommitInfo{repo='GitHub', hash='2ff155f4e561099ec73a3722471c986e7dc25812', version='1.2.0.M1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/2ff155f4e561099ec73a3722471c986e7dc25812
+CommitInfo{repo='GitHub', hash='6b68d947c8d723536a60b2cf047d3a89f6577804', version='1.2.0.RC1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/6b68d947c8d723536a60b2cf047d3a89f6577804
+CommitInfo{repo='GitHub', hash='d6d4cced28fb5ac630bcbfc575d1f139c44495ad', version='1.2.0.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/d6d4cced28fb5ac630bcbfc575d1f139c44495ad
+CommitInfo{repo='GitHub', hash='031a74e6aec0f92f23c6f85fa4f7e0c0e1ffc0e9', version='1.2.1.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/031a74e6aec0f92f23c6f85fa4f7e0c0e1ffc0e9
+CommitInfo{repo='GitHub', hash='872074a665a89bc5822a9ddd5e0a8515a0eda959', version='1.2.2.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/872074a665a89bc5822a9ddd5e0a8515a0eda959
+CommitInfo{repo='GitHub', hash='3e1099740b9150cb932ea2fdbfb9ca76c562c2e8', version='1.3.0.M1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/3e1099740b9150cb932ea2fdbfb9ca76c562c2e8
+CommitInfo{repo='GitHub', hash='6b3a57f8506fd9b0e7eeb191b7efb91569013f07', version='1.3.0.RC1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/6b3a57f8506fd9b0e7eeb191b7efb91569013f07
+CommitInfo{repo='GitHub', hash='58393abe37f8a975612688622638bee44da185e6', version='1.3.0.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/58393abe37f8a975612688622638bee44da185e6
+CommitInfo{repo='GitHub', hash='115c309d2de5d69d89fd1b99580c5efb41fffb42', version='1.3.1.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/115c309d2de5d69d89fd1b99580c5efb41fffb42
+CommitInfo{repo='GitHub', hash='a2ebd68ed86f1d48560b2657bb5ab80ff98c2c39', version='1.3.2.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/a2ebd68ed86f1d48560b2657bb5ab80ff98c2c39
+CommitInfo{repo='GitHub', hash='436c40109eb608ec12a0a01e7ea086a4fbc36e74', version='1.3.4.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/436c40109eb608ec12a0a01e7ea086a4fbc36e74
+CommitInfo{repo='GitHub', hash='dc4bb09b61b95b3d7738863bfa91b8fcd49950d4', version='1.3.5.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/dc4bb09b61b95b3d7738863bfa91b8fcd49950d4
+CommitInfo{repo='GitHub', hash='2f413bf5283ad1e71e855d08b6d4bfe60e1ab4f0', version='1.3.6.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/2f413bf5283ad1e71e855d08b6d4bfe60e1ab4f0
+CommitInfo{repo='GitHub', hash='58cb92f5c9d1611a08172e0c6f823a8181cfd436', version='1.4.0.M1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/58cb92f5c9d1611a08172e0c6f823a8181cfd436
+CommitInfo{repo='GitHub', hash='d5f2764d1a998bb1a27f56dfd3f0d475fac56050', version='2.0.0.RC1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/d5f2764d1a998bb1a27f56dfd3f0d475fac56050
+CommitInfo{repo='GitHub', hash='877faa63fe63f9be22b50e28259338ea2cc2905c', version='2.0.0.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/877faa63fe63f9be22b50e28259338ea2cc2905c
+CommitInfo{repo='GitHub', hash='80f722e8ca7dfe82c5e6567a38fc8f224dec1629', version='2.0.10.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/80f722e8ca7dfe82c5e6567a38fc8f224dec1629
+CommitInfo{repo='GitHub', hash='62c16b30548c5b1bbef2c8e71446dd3e6f523c98', version='2.0.11.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/62c16b30548c5b1bbef2c8e71446dd3e6f523c98
+CommitInfo{repo='GitHub', hash='8f2bfcc6cef6f7b6070a0773a8844411f1b29463', version='2.0.1.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/8f2bfcc6cef6f7b6070a0773a8844411f1b29463
+CommitInfo{repo='GitHub', hash='3e80ce32dcee3c19df649cdf83affd1a247941d9', version='2.0.2.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/3e80ce32dcee3c19df649cdf83affd1a247941d9
+CommitInfo{repo='GitHub', hash='80849dc32bdd3302ff4fd72abbbe3b9e897ce147', version='2.0.3.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/80849dc32bdd3302ff4fd72abbbe3b9e897ce147
+CommitInfo{repo='GitHub', hash='f3034990547ba7a4dd423f416fcca23cca80c598', version='2.0.4.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/f3034990547ba7a4dd423f416fcca23cca80c598
+CommitInfo{repo='GitHub', hash='d4454d6140196f4f70149019c93648872bb8c93e', version='2.0.5.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/d4454d6140196f4f70149019c93648872bb8c93e
+CommitInfo{repo='GitHub', hash='fe59d79b5f27b243abaca9643261dc687fc12ade', version='2.0.6.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/fe59d79b5f27b243abaca9643261dc687fc12ade
+CommitInfo{repo='GitHub', hash='45509f4b56dc445d2dc211dc05cf90c3396dc549', version='2.0.7.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/45509f4b56dc445d2dc211dc05cf90c3396dc549
+CommitInfo{repo='GitHub', hash='2e16c4068fd85365f6ce3a80c1fe6f68298a53bc', version='2.0.8.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/2e16c4068fd85365f6ce3a80c1fe6f68298a53bc
+CommitInfo{repo='GitHub', hash='29c91176657f41797795f31f1bcf4fabdcb6417b', version='2.0.9.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/29c91176657f41797795f31f1bcf4fabdcb6417b
+CommitInfo{repo='GitHub', hash='b3ce577e8a8ea4980f213f560268fed3fa8a89f2', version='2.1.0.M1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/b3ce577e8a8ea4980f213f560268fed3fa8a89f2
+CommitInfo{repo='GitHub', hash='c49c5ceb7356ac81839e056a1313b3c7ce5ae81d', version='2.1.0.RC1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/c49c5ceb7356ac81839e056a1313b3c7ce5ae81d
+CommitInfo{repo='GitHub', hash='0d2b5259b145b5955493a430686eb6c44b3736aa', version='2.1.0.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/0d2b5259b145b5955493a430686eb6c44b3736aa
+CommitInfo{repo='GitHub', hash='625157f7e6766df59456bf288c5722cef557a774', version='2.1.10.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/625157f7e6766df59456bf288c5722cef557a774
+CommitInfo{repo='GitHub', hash='a3dfbe232acd92650de9fd292a362a72065b2b0e', version='2.1.11.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/a3dfbe232acd92650de9fd292a362a72065b2b0e
+CommitInfo{repo='GitHub', hash='058b1153feff454bd8c22084239525aa53179628', version='2.1.12.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/058b1153feff454bd8c22084239525aa53179628
+CommitInfo{repo='GitHub', hash='dc2c6f5949600b9502f84a5b8a492ad47bb7ca9b', version='2.1.13.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/dc2c6f5949600b9502f84a5b8a492ad47bb7ca9b
+CommitInfo{repo='GitHub', hash='dc2c6f5949600b9502f84a5b8a492ad47bb7ca9b', version='2.1.13.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/dc2c6f5949600b9502f84a5b8a492ad47bb7ca9b
+CommitInfo{repo='GitHub', hash='ec3b3a58c765fee85baebdb93e397c30460a0e81', version='2.1.14.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/ec3b3a58c765fee85baebdb93e397c30460a0e81
+CommitInfo{repo='GitHub', hash='f1c6ec3b1e3c99232f9e4ed9094537b8cf945b1c', version='2.1.15.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/f1c6ec3b1e3c99232f9e4ed9094537b8cf945b1c
+CommitInfo{repo='GitHub', hash='144fb7ee388c5d10a8978a1b091d878bcf69f898', version='2.1.1.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/144fb7ee388c5d10a8978a1b091d878bcf69f898
+CommitInfo{repo='GitHub', hash='a0a2f5b6b89d9e839d6d220450eb1bc001573ae3', version='2.1.2.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/a0a2f5b6b89d9e839d6d220450eb1bc001573ae3
+CommitInfo{repo='GitHub', hash='2f37d4f5fc7a6f074c90c738fe248aa84878c7f7', version='2.1.3.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/2f37d4f5fc7a6f074c90c738fe248aa84878c7f7
+CommitInfo{repo='GitHub', hash='c747b290ae7ebc0c4118babbec53243983708038', version='2.1.4.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/c747b290ae7ebc0c4118babbec53243983708038
+CommitInfo{repo='GitHub', hash='c29673a66f75355f271ffec286d859e5c4d91ddb', version='2.1.5.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/c29673a66f75355f271ffec286d859e5c4d91ddb
+CommitInfo{repo='GitHub', hash='48c7bc6b3a7ef6ba35b26b1732c7d8a6fa9baf75', version='2.1.6.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/48c7bc6b3a7ef6ba35b26b1732c7d8a6fa9baf75
+CommitInfo{repo='GitHub', hash='6b5b7ef14e06d049ae60f936d6229eae3d24b577', version='2.1.7.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/6b5b7ef14e06d049ae60f936d6229eae3d24b577
+CommitInfo{repo='GitHub', hash='85c222141c4065e81a01045cb4384c958ce70632', version='2.1.8.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/85c222141c4065e81a01045cb4384c958ce70632
+CommitInfo{repo='GitHub', hash='e102efb42d79998e8306a95283333ae4b73e7f4f', version='2.1.9.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/e102efb42d79998e8306a95283333ae4b73e7f4f
+CommitInfo{repo='GitHub', hash='9dd08ef31adb7d4556f13de7c798ee3b331e66e5', version='3.0.0.M1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/9dd08ef31adb7d4556f13de7c798ee3b331e66e5
+CommitInfo{repo='GitHub', hash='222432e0584975adf92a574599047eb139457670', version='3.0.0.M2'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/222432e0584975adf92a574599047eb139457670
+CommitInfo{repo='GitHub', hash='8066ea5d5a9040a40386ba99a84eed00244e6d2d', version='3.0.0.M3'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/8066ea5d5a9040a40386ba99a84eed00244e6d2d
+CommitInfo{repo='GitHub', hash='6432df08c8f0789e33f230a1cc43985a330fa452', version='3.0.0.M4'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/6432df08c8f0789e33f230a1cc43985a330fa452
+CommitInfo{repo='GitHub', hash='2f14ecb79c2f62b3242ed482c1fdb2d4dab1fe81', version='3.0.0.RC1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/2f14ecb79c2f62b3242ed482c1fdb2d4dab1fe81
+CommitInfo{repo='GitHub', hash='d9b27e175a773e4fc14706a989e6fbde2433980e', version='3.0.0.RC2'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/d9b27e175a773e4fc14706a989e6fbde2433980e
+CommitInfo{repo='GitHub', hash='ef58d73ce2a68a4ebb9e0da9c33f97e2f3da8f6c', version='3.0.0.RC3'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/ef58d73ce2a68a4ebb9e0da9c33f97e2f3da8f6c
+CommitInfo{repo='GitHub', hash='8ea2671c20e368255faca752fa00d227e9848a5a', version='3.0.0.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/8ea2671c20e368255faca752fa00d227e9848a5a
+CommitInfo{repo='GitHub', hash='845475f2539c23dca9eb6aadcd87239d2105c482', version='3.0.10.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/845475f2539c23dca9eb6aadcd87239d2105c482
+CommitInfo{repo='GitHub', hash='a1b210f8adaaddf01b9beaa688dd0efc07c0cd15', version='3.0.1.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/a1b210f8adaaddf01b9beaa688dd0efc07c0cd15
+CommitInfo{repo='GitHub', hash='5686cf141463d58db3e1f5c74e6500d780dac31a', version='3.0.2.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/5686cf141463d58db3e1f5c74e6500d780dac31a
+CommitInfo{repo='GitHub', hash='3147b37f435cedad9eecf1a22a75e8ce5716c412', version='3.0.3.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/3147b37f435cedad9eecf1a22a75e8ce5716c412
+CommitInfo{repo='GitHub', hash='b9a66dd4e538cd0cd49ca3201465f39caac7113f', version='3.0.4.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/b9a66dd4e538cd0cd49ca3201465f39caac7113f
+CommitInfo{repo='GitHub', hash='166b289c5aa460af28f58f9df354b7564534b81f', version='3.0.5.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/166b289c5aa460af28f58f9df354b7564534b81f
+CommitInfo{repo='GitHub', hash='287f0aefdea5edeb77fcb518cd4535353e21be17', version='3.0.6.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/287f0aefdea5edeb77fcb518cd4535353e21be17
+CommitInfo{repo='GitHub', hash='4792cdd3849b07ea1f2ec3193cc807c98a5bd401', version='3.0.7.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/4792cdd3849b07ea1f2ec3193cc807c98a5bd401
+CommitInfo{repo='GitHub', hash='c3287a783710d6854ca6d40c88960619dd13842a', version='3.0.8.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/c3287a783710d6854ca6d40c88960619dd13842a
+CommitInfo{repo='GitHub', hash='7645c3b4d79c0b7d2e2da015a7b1344071c6e7c8', version='3.0.9.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/7645c3b4d79c0b7d2e2da015a7b1344071c6e7c8
+CommitInfo{repo='GitHub', hash='befb9cd6578df70a38f79604090d12998f701a27', version='3.1.0.M1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/befb9cd6578df70a38f79604090d12998f701a27
+CommitInfo{repo='GitHub', hash='a251026ae981872540d8a30e28d14fdad9de5c6b', version='3.1.0.M2'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/a251026ae981872540d8a30e28d14fdad9de5c6b
+CommitInfo{repo='GitHub', hash='8ec8cb2a5f012e60217dc79808497f00196bb07e', version='3.1.0.M3'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/8ec8cb2a5f012e60217dc79808497f00196bb07e
+CommitInfo{repo='GitHub', hash='34d58edb37785aa6426589266f9f2b6f9854ac61', version='3.1.0.RC1'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/34d58edb37785aa6426589266f9f2b6f9854ac61
+CommitInfo{repo='GitHub', hash='88e816c1605ca9f491089350b54bd4ed96885f52', version='3.1.0.RC2'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/88e816c1605ca9f491089350b54bd4ed96885f52
+CommitInfo{repo='GitHub', hash='e4ca7aa70b83623d05c86bda2ddd602ee8c4038a', version='3.1.0.RELEASE'} 	https://github.com/spring-projects/spring-data-elasticsearch/commit/e4ca7aa70b83623d05c86bda2ddd602ee8c4038a
 
 Project A:
 ProjectVersionFixed(version=1.0.0.M1, dependency=null, time=2014-02-07 15:44:36 UTC)

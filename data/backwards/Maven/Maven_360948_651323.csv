@@ -2,102 +2,107 @@
 Project information
 com.netflix.feign:feign-jackson (360948)	com.fasterxml.jackson.core:jackson-databind (651323)	Package Manager: Maven
 RepoID: 169299
+Repo Owner/Name: OpenFeign/feign
+Repository type: GitHub
+
+ https://github.com/OpenFeign/feign/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='e3496601b792abac467dadc48255ee52e7eb0380', version='1.0.0'}
-CommitInfo{repo='GitHub', hash='23a835bfa565014266c126a3e916411f8f0c3f73', version='1.1.0'}
-CommitInfo{repo='GitHub', hash='4cf423e186b1bac2837af0586926c0cbbdd7058e', version='1.1.1'}
-CommitInfo{repo='GitHub', hash='28ad52aef61e2f2a11453444ec46b8f938bec9e0', version='2.0.0'}
-CommitInfo{repo='GitHub', hash='d4832cfbbad5f6655c49ce8a3cd757a447d9747d', version='2.0.1'}
-CommitInfo{repo='GitHub', hash='1f1e27d89deda136808363d701d7d81388549e92', version='3.0.0'}
-CommitInfo{repo='GitHub', hash='16308123647ee232238a3adeaff3a80fe23acb30', version='3.1.0'}
-CommitInfo{repo='GitHub', hash='2f975fadc65fc332e0053268d6d491816248dacf', version='3.2.0'}
-CommitInfo{repo='GitHub', hash='513ec06f7913963620d27cfc709ad5f5b87a8d69', version='3.3.0'}
-CommitInfo{repo='GitHub', hash='0517edfcad2a262c52e092fa5e91f70f9e47f232', version='4.0.0'}
-CommitInfo{repo='GitHub', hash='4202bf618a96a8dd25594910fac1a40db69e6c72', version='4.1.0'}
-CommitInfo{repo='GitHub', hash='4a7faa89a48ef63279e6f1aa48d802cd08c4a7ba', version='4.2.0'}
-CommitInfo{repo='GitHub', hash='a38cff349c097609254fc00c63283afe9b32422f', version='4.3.0'}
-CommitInfo{repo='GitHub', hash='d5d5d30a4c0c222e7d43bdfd65d6ea59a21239d2', version='4.4.0'}
-CommitInfo{repo='GitHub', hash='2e8435ed601ead8070905c4a8db5c3a8d642477f', version='5.0.0'}
-CommitInfo{repo='GitHub', hash='1651becf60aa280cecd0b08e621f1abba2112cf6', version='5.0.1'}
-CommitInfo{repo='GitHub', hash='4fb9e0aa2c12be2bacc9e526f85aef013fcc0311', version='5.1.0'}
-CommitInfo{repo='GitHub', hash='a83a09540cfa00d64471ea76a407c1995e56559b', version='5.2.0'}
-CommitInfo{repo='GitHub', hash='0a8aaf4a174d553c04173cc5f7a8cc43d3b90122', version='5.3.0'}
-CommitInfo{repo='GitHub', hash='f359eb223341931cbd0a3a846a496c74a2934528', version='5.4.0'}
-CommitInfo{repo='GitHub', hash='de8ebbf3b3f00c54ac9475d463fea2fde0263114', version='5.4.1'}
-CommitInfo{repo='GitHub', hash='741e4d2c86926b0a8ba37bcbde44df9ed80ccab2', version='6.0.0'}
-CommitInfo{repo='GitHub', hash='ccfa8e95ed7b35d1d2902a990665d065fee28c1d', version='6.0.1'}
-CommitInfo{repo='GitHub', hash='ffe403e96cc15a7604b500482519df3e8f69914a', version='6.1.1'}
-CommitInfo{repo='GitHub', hash='9a832db63bfa4d41b8461d3a343b2400ab63d80c', version='6.1.2'}
-CommitInfo{repo='GitHub', hash='a30b2298ff48e62ccfc94ba72b2cabe47722fce2', version='6.1.3'}
-CommitInfo{repo='GitHub', hash='09d39d7d59f7ad2e4b4088f80ef303429f492cad', version='9.0.0'}
-CommitInfo{repo='GitHub', hash='759268303ab46701b5b7cae4279870d64a76d59e', version='9.1.0'}
-CommitInfo{repo='GitHub', hash='9cedf44092486b0256443310488c3ba0a38e6de7', version='9.2.0'}
-CommitInfo{repo='GitHub', hash='836589b237abd82bae1c0e77ff6e7071d387fc56', version='9.3.0'}
-CommitInfo{repo='GitHub', hash='f20f0133e36a502dd63db0eff2307a5bbf6e54e8', version='9.3.1'}
-CommitInfo{repo='GitHub', hash='287cfa416339e4d4ff3ac4e60791de832a03c406', version='9.4.0'}
-CommitInfo{repo='GitHub', hash='1a274b6189e58a16cb5928704c12881d8c4f94f4', version='9.5.0'}
-CommitInfo{repo='GitHub', hash='0e6ad750a286ab81f3686ba8bc3737015f8db4a8', version='9.5.1'}
-CommitInfo{repo='GitHub', hash='ab42493d84e47d897926437dd1b017eb3e521f50', version='9.6.0'}
-CommitInfo{repo='GitHub', hash='1ebbe7f6f5c3d44fea875d625e476226648d4127', version='9.7.0'}
-CommitInfo{repo='GitHub', hash='9552b9edd19b9b781a94a3ca1f97766deff80861', version='release-9.0.0'}
-CommitInfo{repo='GitHub', hash='f350c6564a73fcd2fb0197a23272317758f7d9de', version='release-9.1.0'}
-CommitInfo{repo='GitHub', hash='177ce5e0ec8395ac770fb44035ddca76a7044d7e', version='release-9.2.0'}
-CommitInfo{repo='GitHub', hash='8ecb6ade49668ff332316afdef049dbde1d608e8', version='release-9.3.0'}
-CommitInfo{repo='GitHub', hash='1e1bdb2e5dd6ad9724f5087cfda9c04eb1c6e1f5', version='release-9.3.1'}
-CommitInfo{repo='GitHub', hash='ea1ae436778d2fbafddfe48aa4fae63a97e5e1f9', version='release-9.4.0'}
-CommitInfo{repo='GitHub', hash='05c5f9264603a7a9ec3db6c4ea60f4e3312186f8', version='release-9.5.0'}
-CommitInfo{repo='GitHub', hash='d5f581686aac66a47fd666ba89fac9b05d3d034d', version='release-9.5.1'}
-CommitInfo{repo='GitHub', hash='ba3626aecadbe72443bcf95fa667d5bdaa6049c7', version='release-9.6.0'}
-CommitInfo{repo='GitHub', hash='85f2f504793283bb66ffde5b80fd2cc6ccfebd88', version='release-9.7.0'}
-CommitInfo{repo='GitHub', hash='190790364e26668717dae5685c3c0bd1c055e822', version='v6.0.0'}
-CommitInfo{repo='GitHub', hash='ca94c83ea20dd7209024554e1db24c4f3c155d5d', version='v6.1.3'}
-CommitInfo{repo='GitHub', hash='08ab926b5155abc0a53b0e3f5ddbe542ae15cae9', version='v7.0.0'}
-CommitInfo{repo='GitHub', hash='0c9beae02cdf4928d2107c294ec7dd4d0102a8e9', version='v7.1.0'}
-CommitInfo{repo='GitHub', hash='2e31faa35684a0893393023f641b5609efa4dcde', version='v7.2.0'}
-CommitInfo{repo='GitHub', hash='698668804a8729816e1bf14e71e898cf8edb0c05', version='v7.2.1'}
-CommitInfo{repo='GitHub', hash='010cff6107961c5ba64f21e0dbf84586832069b8', version='v7.3.0'}
-CommitInfo{repo='GitHub', hash='d5dee403bd504950b699f0f4b84f80ee2dad5a04', version='v7.4.0'}
-CommitInfo{repo='GitHub', hash='9de407da43650093697730c0e8f23b03891679aa', version='v7.5.0'}
-CommitInfo{repo='GitHub', hash='03706a078ea3a05417871186d4002ff7d3c89258', version='v7.6.0'}
-CommitInfo{repo='GitHub', hash='cf66dba6a4fd89cb2936d082572ddea177cad2e1', version='v8.0.0'}
-CommitInfo{repo='GitHub', hash='2e28ebd41de73ca233cbbf8dfaa5cef463b806a3', version='v8.0.0-rc.0'}
-CommitInfo{repo='GitHub', hash='8b23f19ac11a3f036ac4a52e4387b8792d1c6053', version='v8.0.0-rc.1'}
-CommitInfo{repo='GitHub', hash='9af04e3b2d8f53f331022177267916265fb642ca', version='v8.0.0-rc.2'}
-CommitInfo{repo='GitHub', hash='2429e830f9c4544992f48b4947de57e2afcc7a16', version='v8.1.0'}
-CommitInfo{repo='GitHub', hash='913bcb3450baaf87944889a20a13ce825a7ffe45', version='v8.10.0'}
-CommitInfo{repo='GitHub', hash='9ff2bf13429b9ad84f9f2a4d5c1451e58b2cc2d6', version='v8.10.1'}
-CommitInfo{repo='GitHub', hash='9fa8974701c1cb25b3b54374dc375151b77f6131', version='v8.1.1'}
-CommitInfo{repo='GitHub', hash='a4ee4264d5295221bff636ff182d80c783a5bad6', version='v8.11.0'}
-CommitInfo{repo='GitHub', hash='6c516c16dc706e7af702116fd1bc8ea069103d9f', version='v8.1.2'}
-CommitInfo{repo='GitHub', hash='79f32ce03541fcf93593f7f929d6e651580b75b4', version='v8.12.0'}
-CommitInfo{repo='GitHub', hash='2dbd1768520181618df436ba0cf0d3caed70f3ea', version='v8.12.1'}
-CommitInfo{repo='GitHub', hash='7cbddf1135388b9c94c997746d151df32c2768be', version='v8.13.0'}
-CommitInfo{repo='GitHub', hash='0a51c1e078de9d33b1b7ec4274531060d10bcb2a', version='v8.13.1'}
-CommitInfo{repo='GitHub', hash='57f2206f8ca7b44529605f2317a2e04a2d408cf7', version='v8.14.0'}
-CommitInfo{repo='GitHub', hash='9f3424e51a075a902770f998d61dbe7694a28f65', version='v8.14.1'}
-CommitInfo{repo='GitHub', hash='9caeff860fd83d0308d74af02e469a8e1252ff73', version='v8.14.2'}
-CommitInfo{repo='GitHub', hash='2d0d713cfc275bec3d6cc2c06fd84fd03b334b9c', version='v8.14.3'}
-CommitInfo{repo='GitHub', hash='cef962ed30456a47f8cbc86cd806b66f0b0c7011', version='v8.14.4'}
-CommitInfo{repo='GitHub', hash='4d4e296cecb53a1afc46942e853baf3f1557c27a', version='v8.15.0'}
-CommitInfo{repo='GitHub', hash='600736db3c459ad6b9782ae6c8ac5080c2687fff', version='v8.15.1'}
-CommitInfo{repo='GitHub', hash='70f0d97007eae2b12cc1a98c01575930a0d396ba', version='v8.16.0'}
-CommitInfo{repo='GitHub', hash='f774a42623c4b181775007db23dcd09e229ec2ee', version='v8.16.1'}
-CommitInfo{repo='GitHub', hash='e310aae1ff774dec26f4012dbd206d87ca69819f', version='v8.16.2'}
-CommitInfo{repo='GitHub', hash='1c1d2fa91ed0788cad7a5a9901feb22cbf3de8c3', version='v8.17.0'}
-CommitInfo{repo='GitHub', hash='7a79b9e2498bb29d2f9d680d70aad6d719d49850', version='v8.18.0'}
-CommitInfo{repo='GitHub', hash='767a9b604293710e0c01b6cbbc2259ee6a7f74d3', version='v8.2.0'}
-CommitInfo{repo='GitHub', hash='3d6a05be0d15eb27e00f0de15582b93c55f1658e', version='v8.3.0'}
-CommitInfo{repo='GitHub', hash='3e5d29bf1c9c3bafab18ee705c477bf53d24d6cf', version='v8.4.0'}
-CommitInfo{repo='GitHub', hash='84aaae8b69a8be9737ea703a133050bb50027b0c', version='v8.4.1'}
-CommitInfo{repo='GitHub', hash='3d27f1c142c404edea34aee911f83d692bfa20a2', version='v8.5.0'}
-CommitInfo{repo='GitHub', hash='b2b4085348de32f10903970dded99fdf0376a43c', version='v8.6.0'}
-CommitInfo{repo='GitHub', hash='9985d91a33069195de67597c281c4c5984fd3131', version='v8.6.1'}
-CommitInfo{repo='GitHub', hash='56990e86dc46ddb142fafdfffd3fb57624b06dd5', version='v8.7.0'}
-CommitInfo{repo='GitHub', hash='68e3fba0f10683db6a605f8fc782c35ad236690c', version='v8.7.1'}
-CommitInfo{repo='GitHub', hash='2699aba9fd774ee2eab8b69880f242492dbd14e5', version='v8.8.0'}
-CommitInfo{repo='GitHub', hash='da6055ebd1464af573433a86a0aa875049f41e24', version='v8.8.1'}
-CommitInfo{repo='GitHub', hash='682c8dab5b67035cf59cfe3d16970f27e90e60c9', version='v8.9.0'}
-CommitInfo{repo='GitHub', hash='02a1e8c402427cf896b32115b712143a383f9bef', version='v8.9.1'}
+CommitInfo{repo='GitHub', hash='e3496601b792abac467dadc48255ee52e7eb0380', version='1.0.0'} 	https://github.com/OpenFeign/feign/commit/e3496601b792abac467dadc48255ee52e7eb0380
+CommitInfo{repo='GitHub', hash='23a835bfa565014266c126a3e916411f8f0c3f73', version='1.1.0'} 	https://github.com/OpenFeign/feign/commit/23a835bfa565014266c126a3e916411f8f0c3f73
+CommitInfo{repo='GitHub', hash='4cf423e186b1bac2837af0586926c0cbbdd7058e', version='1.1.1'} 	https://github.com/OpenFeign/feign/commit/4cf423e186b1bac2837af0586926c0cbbdd7058e
+CommitInfo{repo='GitHub', hash='28ad52aef61e2f2a11453444ec46b8f938bec9e0', version='2.0.0'} 	https://github.com/OpenFeign/feign/commit/28ad52aef61e2f2a11453444ec46b8f938bec9e0
+CommitInfo{repo='GitHub', hash='d4832cfbbad5f6655c49ce8a3cd757a447d9747d', version='2.0.1'} 	https://github.com/OpenFeign/feign/commit/d4832cfbbad5f6655c49ce8a3cd757a447d9747d
+CommitInfo{repo='GitHub', hash='1f1e27d89deda136808363d701d7d81388549e92', version='3.0.0'} 	https://github.com/OpenFeign/feign/commit/1f1e27d89deda136808363d701d7d81388549e92
+CommitInfo{repo='GitHub', hash='16308123647ee232238a3adeaff3a80fe23acb30', version='3.1.0'} 	https://github.com/OpenFeign/feign/commit/16308123647ee232238a3adeaff3a80fe23acb30
+CommitInfo{repo='GitHub', hash='2f975fadc65fc332e0053268d6d491816248dacf', version='3.2.0'} 	https://github.com/OpenFeign/feign/commit/2f975fadc65fc332e0053268d6d491816248dacf
+CommitInfo{repo='GitHub', hash='513ec06f7913963620d27cfc709ad5f5b87a8d69', version='3.3.0'} 	https://github.com/OpenFeign/feign/commit/513ec06f7913963620d27cfc709ad5f5b87a8d69
+CommitInfo{repo='GitHub', hash='0517edfcad2a262c52e092fa5e91f70f9e47f232', version='4.0.0'} 	https://github.com/OpenFeign/feign/commit/0517edfcad2a262c52e092fa5e91f70f9e47f232
+CommitInfo{repo='GitHub', hash='4202bf618a96a8dd25594910fac1a40db69e6c72', version='4.1.0'} 	https://github.com/OpenFeign/feign/commit/4202bf618a96a8dd25594910fac1a40db69e6c72
+CommitInfo{repo='GitHub', hash='4a7faa89a48ef63279e6f1aa48d802cd08c4a7ba', version='4.2.0'} 	https://github.com/OpenFeign/feign/commit/4a7faa89a48ef63279e6f1aa48d802cd08c4a7ba
+CommitInfo{repo='GitHub', hash='a38cff349c097609254fc00c63283afe9b32422f', version='4.3.0'} 	https://github.com/OpenFeign/feign/commit/a38cff349c097609254fc00c63283afe9b32422f
+CommitInfo{repo='GitHub', hash='d5d5d30a4c0c222e7d43bdfd65d6ea59a21239d2', version='4.4.0'} 	https://github.com/OpenFeign/feign/commit/d5d5d30a4c0c222e7d43bdfd65d6ea59a21239d2
+CommitInfo{repo='GitHub', hash='2e8435ed601ead8070905c4a8db5c3a8d642477f', version='5.0.0'} 	https://github.com/OpenFeign/feign/commit/2e8435ed601ead8070905c4a8db5c3a8d642477f
+CommitInfo{repo='GitHub', hash='1651becf60aa280cecd0b08e621f1abba2112cf6', version='5.0.1'} 	https://github.com/OpenFeign/feign/commit/1651becf60aa280cecd0b08e621f1abba2112cf6
+CommitInfo{repo='GitHub', hash='4fb9e0aa2c12be2bacc9e526f85aef013fcc0311', version='5.1.0'} 	https://github.com/OpenFeign/feign/commit/4fb9e0aa2c12be2bacc9e526f85aef013fcc0311
+CommitInfo{repo='GitHub', hash='a83a09540cfa00d64471ea76a407c1995e56559b', version='5.2.0'} 	https://github.com/OpenFeign/feign/commit/a83a09540cfa00d64471ea76a407c1995e56559b
+CommitInfo{repo='GitHub', hash='0a8aaf4a174d553c04173cc5f7a8cc43d3b90122', version='5.3.0'} 	https://github.com/OpenFeign/feign/commit/0a8aaf4a174d553c04173cc5f7a8cc43d3b90122
+CommitInfo{repo='GitHub', hash='f359eb223341931cbd0a3a846a496c74a2934528', version='5.4.0'} 	https://github.com/OpenFeign/feign/commit/f359eb223341931cbd0a3a846a496c74a2934528
+CommitInfo{repo='GitHub', hash='de8ebbf3b3f00c54ac9475d463fea2fde0263114', version='5.4.1'} 	https://github.com/OpenFeign/feign/commit/de8ebbf3b3f00c54ac9475d463fea2fde0263114
+CommitInfo{repo='GitHub', hash='741e4d2c86926b0a8ba37bcbde44df9ed80ccab2', version='6.0.0'} 	https://github.com/OpenFeign/feign/commit/741e4d2c86926b0a8ba37bcbde44df9ed80ccab2
+CommitInfo{repo='GitHub', hash='ccfa8e95ed7b35d1d2902a990665d065fee28c1d', version='6.0.1'} 	https://github.com/OpenFeign/feign/commit/ccfa8e95ed7b35d1d2902a990665d065fee28c1d
+CommitInfo{repo='GitHub', hash='ffe403e96cc15a7604b500482519df3e8f69914a', version='6.1.1'} 	https://github.com/OpenFeign/feign/commit/ffe403e96cc15a7604b500482519df3e8f69914a
+CommitInfo{repo='GitHub', hash='9a832db63bfa4d41b8461d3a343b2400ab63d80c', version='6.1.2'} 	https://github.com/OpenFeign/feign/commit/9a832db63bfa4d41b8461d3a343b2400ab63d80c
+CommitInfo{repo='GitHub', hash='a30b2298ff48e62ccfc94ba72b2cabe47722fce2', version='6.1.3'} 	https://github.com/OpenFeign/feign/commit/a30b2298ff48e62ccfc94ba72b2cabe47722fce2
+CommitInfo{repo='GitHub', hash='09d39d7d59f7ad2e4b4088f80ef303429f492cad', version='9.0.0'} 	https://github.com/OpenFeign/feign/commit/09d39d7d59f7ad2e4b4088f80ef303429f492cad
+CommitInfo{repo='GitHub', hash='759268303ab46701b5b7cae4279870d64a76d59e', version='9.1.0'} 	https://github.com/OpenFeign/feign/commit/759268303ab46701b5b7cae4279870d64a76d59e
+CommitInfo{repo='GitHub', hash='9cedf44092486b0256443310488c3ba0a38e6de7', version='9.2.0'} 	https://github.com/OpenFeign/feign/commit/9cedf44092486b0256443310488c3ba0a38e6de7
+CommitInfo{repo='GitHub', hash='836589b237abd82bae1c0e77ff6e7071d387fc56', version='9.3.0'} 	https://github.com/OpenFeign/feign/commit/836589b237abd82bae1c0e77ff6e7071d387fc56
+CommitInfo{repo='GitHub', hash='f20f0133e36a502dd63db0eff2307a5bbf6e54e8', version='9.3.1'} 	https://github.com/OpenFeign/feign/commit/f20f0133e36a502dd63db0eff2307a5bbf6e54e8
+CommitInfo{repo='GitHub', hash='287cfa416339e4d4ff3ac4e60791de832a03c406', version='9.4.0'} 	https://github.com/OpenFeign/feign/commit/287cfa416339e4d4ff3ac4e60791de832a03c406
+CommitInfo{repo='GitHub', hash='1a274b6189e58a16cb5928704c12881d8c4f94f4', version='9.5.0'} 	https://github.com/OpenFeign/feign/commit/1a274b6189e58a16cb5928704c12881d8c4f94f4
+CommitInfo{repo='GitHub', hash='0e6ad750a286ab81f3686ba8bc3737015f8db4a8', version='9.5.1'} 	https://github.com/OpenFeign/feign/commit/0e6ad750a286ab81f3686ba8bc3737015f8db4a8
+CommitInfo{repo='GitHub', hash='ab42493d84e47d897926437dd1b017eb3e521f50', version='9.6.0'} 	https://github.com/OpenFeign/feign/commit/ab42493d84e47d897926437dd1b017eb3e521f50
+CommitInfo{repo='GitHub', hash='1ebbe7f6f5c3d44fea875d625e476226648d4127', version='9.7.0'} 	https://github.com/OpenFeign/feign/commit/1ebbe7f6f5c3d44fea875d625e476226648d4127
+CommitInfo{repo='GitHub', hash='9552b9edd19b9b781a94a3ca1f97766deff80861', version='release-9.0.0'} 	https://github.com/OpenFeign/feign/commit/9552b9edd19b9b781a94a3ca1f97766deff80861
+CommitInfo{repo='GitHub', hash='f350c6564a73fcd2fb0197a23272317758f7d9de', version='release-9.1.0'} 	https://github.com/OpenFeign/feign/commit/f350c6564a73fcd2fb0197a23272317758f7d9de
+CommitInfo{repo='GitHub', hash='177ce5e0ec8395ac770fb44035ddca76a7044d7e', version='release-9.2.0'} 	https://github.com/OpenFeign/feign/commit/177ce5e0ec8395ac770fb44035ddca76a7044d7e
+CommitInfo{repo='GitHub', hash='8ecb6ade49668ff332316afdef049dbde1d608e8', version='release-9.3.0'} 	https://github.com/OpenFeign/feign/commit/8ecb6ade49668ff332316afdef049dbde1d608e8
+CommitInfo{repo='GitHub', hash='1e1bdb2e5dd6ad9724f5087cfda9c04eb1c6e1f5', version='release-9.3.1'} 	https://github.com/OpenFeign/feign/commit/1e1bdb2e5dd6ad9724f5087cfda9c04eb1c6e1f5
+CommitInfo{repo='GitHub', hash='ea1ae436778d2fbafddfe48aa4fae63a97e5e1f9', version='release-9.4.0'} 	https://github.com/OpenFeign/feign/commit/ea1ae436778d2fbafddfe48aa4fae63a97e5e1f9
+CommitInfo{repo='GitHub', hash='05c5f9264603a7a9ec3db6c4ea60f4e3312186f8', version='release-9.5.0'} 	https://github.com/OpenFeign/feign/commit/05c5f9264603a7a9ec3db6c4ea60f4e3312186f8
+CommitInfo{repo='GitHub', hash='d5f581686aac66a47fd666ba89fac9b05d3d034d', version='release-9.5.1'} 	https://github.com/OpenFeign/feign/commit/d5f581686aac66a47fd666ba89fac9b05d3d034d
+CommitInfo{repo='GitHub', hash='ba3626aecadbe72443bcf95fa667d5bdaa6049c7', version='release-9.6.0'} 	https://github.com/OpenFeign/feign/commit/ba3626aecadbe72443bcf95fa667d5bdaa6049c7
+CommitInfo{repo='GitHub', hash='85f2f504793283bb66ffde5b80fd2cc6ccfebd88', version='release-9.7.0'} 	https://github.com/OpenFeign/feign/commit/85f2f504793283bb66ffde5b80fd2cc6ccfebd88
+CommitInfo{repo='GitHub', hash='190790364e26668717dae5685c3c0bd1c055e822', version='v6.0.0'} 	https://github.com/OpenFeign/feign/commit/190790364e26668717dae5685c3c0bd1c055e822
+CommitInfo{repo='GitHub', hash='ca94c83ea20dd7209024554e1db24c4f3c155d5d', version='v6.1.3'} 	https://github.com/OpenFeign/feign/commit/ca94c83ea20dd7209024554e1db24c4f3c155d5d
+CommitInfo{repo='GitHub', hash='08ab926b5155abc0a53b0e3f5ddbe542ae15cae9', version='v7.0.0'} 	https://github.com/OpenFeign/feign/commit/08ab926b5155abc0a53b0e3f5ddbe542ae15cae9
+CommitInfo{repo='GitHub', hash='0c9beae02cdf4928d2107c294ec7dd4d0102a8e9', version='v7.1.0'} 	https://github.com/OpenFeign/feign/commit/0c9beae02cdf4928d2107c294ec7dd4d0102a8e9
+CommitInfo{repo='GitHub', hash='2e31faa35684a0893393023f641b5609efa4dcde', version='v7.2.0'} 	https://github.com/OpenFeign/feign/commit/2e31faa35684a0893393023f641b5609efa4dcde
+CommitInfo{repo='GitHub', hash='698668804a8729816e1bf14e71e898cf8edb0c05', version='v7.2.1'} 	https://github.com/OpenFeign/feign/commit/698668804a8729816e1bf14e71e898cf8edb0c05
+CommitInfo{repo='GitHub', hash='010cff6107961c5ba64f21e0dbf84586832069b8', version='v7.3.0'} 	https://github.com/OpenFeign/feign/commit/010cff6107961c5ba64f21e0dbf84586832069b8
+CommitInfo{repo='GitHub', hash='d5dee403bd504950b699f0f4b84f80ee2dad5a04', version='v7.4.0'} 	https://github.com/OpenFeign/feign/commit/d5dee403bd504950b699f0f4b84f80ee2dad5a04
+CommitInfo{repo='GitHub', hash='9de407da43650093697730c0e8f23b03891679aa', version='v7.5.0'} 	https://github.com/OpenFeign/feign/commit/9de407da43650093697730c0e8f23b03891679aa
+CommitInfo{repo='GitHub', hash='03706a078ea3a05417871186d4002ff7d3c89258', version='v7.6.0'} 	https://github.com/OpenFeign/feign/commit/03706a078ea3a05417871186d4002ff7d3c89258
+CommitInfo{repo='GitHub', hash='cf66dba6a4fd89cb2936d082572ddea177cad2e1', version='v8.0.0'} 	https://github.com/OpenFeign/feign/commit/cf66dba6a4fd89cb2936d082572ddea177cad2e1
+CommitInfo{repo='GitHub', hash='2e28ebd41de73ca233cbbf8dfaa5cef463b806a3', version='v8.0.0-rc.0'} 	https://github.com/OpenFeign/feign/commit/2e28ebd41de73ca233cbbf8dfaa5cef463b806a3
+CommitInfo{repo='GitHub', hash='8b23f19ac11a3f036ac4a52e4387b8792d1c6053', version='v8.0.0-rc.1'} 	https://github.com/OpenFeign/feign/commit/8b23f19ac11a3f036ac4a52e4387b8792d1c6053
+CommitInfo{repo='GitHub', hash='9af04e3b2d8f53f331022177267916265fb642ca', version='v8.0.0-rc.2'} 	https://github.com/OpenFeign/feign/commit/9af04e3b2d8f53f331022177267916265fb642ca
+CommitInfo{repo='GitHub', hash='2429e830f9c4544992f48b4947de57e2afcc7a16', version='v8.1.0'} 	https://github.com/OpenFeign/feign/commit/2429e830f9c4544992f48b4947de57e2afcc7a16
+CommitInfo{repo='GitHub', hash='913bcb3450baaf87944889a20a13ce825a7ffe45', version='v8.10.0'} 	https://github.com/OpenFeign/feign/commit/913bcb3450baaf87944889a20a13ce825a7ffe45
+CommitInfo{repo='GitHub', hash='9ff2bf13429b9ad84f9f2a4d5c1451e58b2cc2d6', version='v8.10.1'} 	https://github.com/OpenFeign/feign/commit/9ff2bf13429b9ad84f9f2a4d5c1451e58b2cc2d6
+CommitInfo{repo='GitHub', hash='9fa8974701c1cb25b3b54374dc375151b77f6131', version='v8.1.1'} 	https://github.com/OpenFeign/feign/commit/9fa8974701c1cb25b3b54374dc375151b77f6131
+CommitInfo{repo='GitHub', hash='a4ee4264d5295221bff636ff182d80c783a5bad6', version='v8.11.0'} 	https://github.com/OpenFeign/feign/commit/a4ee4264d5295221bff636ff182d80c783a5bad6
+CommitInfo{repo='GitHub', hash='6c516c16dc706e7af702116fd1bc8ea069103d9f', version='v8.1.2'} 	https://github.com/OpenFeign/feign/commit/6c516c16dc706e7af702116fd1bc8ea069103d9f
+CommitInfo{repo='GitHub', hash='79f32ce03541fcf93593f7f929d6e651580b75b4', version='v8.12.0'} 	https://github.com/OpenFeign/feign/commit/79f32ce03541fcf93593f7f929d6e651580b75b4
+CommitInfo{repo='GitHub', hash='2dbd1768520181618df436ba0cf0d3caed70f3ea', version='v8.12.1'} 	https://github.com/OpenFeign/feign/commit/2dbd1768520181618df436ba0cf0d3caed70f3ea
+CommitInfo{repo='GitHub', hash='7cbddf1135388b9c94c997746d151df32c2768be', version='v8.13.0'} 	https://github.com/OpenFeign/feign/commit/7cbddf1135388b9c94c997746d151df32c2768be
+CommitInfo{repo='GitHub', hash='0a51c1e078de9d33b1b7ec4274531060d10bcb2a', version='v8.13.1'} 	https://github.com/OpenFeign/feign/commit/0a51c1e078de9d33b1b7ec4274531060d10bcb2a
+CommitInfo{repo='GitHub', hash='57f2206f8ca7b44529605f2317a2e04a2d408cf7', version='v8.14.0'} 	https://github.com/OpenFeign/feign/commit/57f2206f8ca7b44529605f2317a2e04a2d408cf7
+CommitInfo{repo='GitHub', hash='9f3424e51a075a902770f998d61dbe7694a28f65', version='v8.14.1'} 	https://github.com/OpenFeign/feign/commit/9f3424e51a075a902770f998d61dbe7694a28f65
+CommitInfo{repo='GitHub', hash='9caeff860fd83d0308d74af02e469a8e1252ff73', version='v8.14.2'} 	https://github.com/OpenFeign/feign/commit/9caeff860fd83d0308d74af02e469a8e1252ff73
+CommitInfo{repo='GitHub', hash='2d0d713cfc275bec3d6cc2c06fd84fd03b334b9c', version='v8.14.3'} 	https://github.com/OpenFeign/feign/commit/2d0d713cfc275bec3d6cc2c06fd84fd03b334b9c
+CommitInfo{repo='GitHub', hash='cef962ed30456a47f8cbc86cd806b66f0b0c7011', version='v8.14.4'} 	https://github.com/OpenFeign/feign/commit/cef962ed30456a47f8cbc86cd806b66f0b0c7011
+CommitInfo{repo='GitHub', hash='4d4e296cecb53a1afc46942e853baf3f1557c27a', version='v8.15.0'} 	https://github.com/OpenFeign/feign/commit/4d4e296cecb53a1afc46942e853baf3f1557c27a
+CommitInfo{repo='GitHub', hash='600736db3c459ad6b9782ae6c8ac5080c2687fff', version='v8.15.1'} 	https://github.com/OpenFeign/feign/commit/600736db3c459ad6b9782ae6c8ac5080c2687fff
+CommitInfo{repo='GitHub', hash='70f0d97007eae2b12cc1a98c01575930a0d396ba', version='v8.16.0'} 	https://github.com/OpenFeign/feign/commit/70f0d97007eae2b12cc1a98c01575930a0d396ba
+CommitInfo{repo='GitHub', hash='f774a42623c4b181775007db23dcd09e229ec2ee', version='v8.16.1'} 	https://github.com/OpenFeign/feign/commit/f774a42623c4b181775007db23dcd09e229ec2ee
+CommitInfo{repo='GitHub', hash='e310aae1ff774dec26f4012dbd206d87ca69819f', version='v8.16.2'} 	https://github.com/OpenFeign/feign/commit/e310aae1ff774dec26f4012dbd206d87ca69819f
+CommitInfo{repo='GitHub', hash='1c1d2fa91ed0788cad7a5a9901feb22cbf3de8c3', version='v8.17.0'} 	https://github.com/OpenFeign/feign/commit/1c1d2fa91ed0788cad7a5a9901feb22cbf3de8c3
+CommitInfo{repo='GitHub', hash='7a79b9e2498bb29d2f9d680d70aad6d719d49850', version='v8.18.0'} 	https://github.com/OpenFeign/feign/commit/7a79b9e2498bb29d2f9d680d70aad6d719d49850
+CommitInfo{repo='GitHub', hash='767a9b604293710e0c01b6cbbc2259ee6a7f74d3', version='v8.2.0'} 	https://github.com/OpenFeign/feign/commit/767a9b604293710e0c01b6cbbc2259ee6a7f74d3
+CommitInfo{repo='GitHub', hash='3d6a05be0d15eb27e00f0de15582b93c55f1658e', version='v8.3.0'} 	https://github.com/OpenFeign/feign/commit/3d6a05be0d15eb27e00f0de15582b93c55f1658e
+CommitInfo{repo='GitHub', hash='3e5d29bf1c9c3bafab18ee705c477bf53d24d6cf', version='v8.4.0'} 	https://github.com/OpenFeign/feign/commit/3e5d29bf1c9c3bafab18ee705c477bf53d24d6cf
+CommitInfo{repo='GitHub', hash='84aaae8b69a8be9737ea703a133050bb50027b0c', version='v8.4.1'} 	https://github.com/OpenFeign/feign/commit/84aaae8b69a8be9737ea703a133050bb50027b0c
+CommitInfo{repo='GitHub', hash='3d27f1c142c404edea34aee911f83d692bfa20a2', version='v8.5.0'} 	https://github.com/OpenFeign/feign/commit/3d27f1c142c404edea34aee911f83d692bfa20a2
+CommitInfo{repo='GitHub', hash='b2b4085348de32f10903970dded99fdf0376a43c', version='v8.6.0'} 	https://github.com/OpenFeign/feign/commit/b2b4085348de32f10903970dded99fdf0376a43c
+CommitInfo{repo='GitHub', hash='9985d91a33069195de67597c281c4c5984fd3131', version='v8.6.1'} 	https://github.com/OpenFeign/feign/commit/9985d91a33069195de67597c281c4c5984fd3131
+CommitInfo{repo='GitHub', hash='56990e86dc46ddb142fafdfffd3fb57624b06dd5', version='v8.7.0'} 	https://github.com/OpenFeign/feign/commit/56990e86dc46ddb142fafdfffd3fb57624b06dd5
+CommitInfo{repo='GitHub', hash='68e3fba0f10683db6a605f8fc782c35ad236690c', version='v8.7.1'} 	https://github.com/OpenFeign/feign/commit/68e3fba0f10683db6a605f8fc782c35ad236690c
+CommitInfo{repo='GitHub', hash='2699aba9fd774ee2eab8b69880f242492dbd14e5', version='v8.8.0'} 	https://github.com/OpenFeign/feign/commit/2699aba9fd774ee2eab8b69880f242492dbd14e5
+CommitInfo{repo='GitHub', hash='da6055ebd1464af573433a86a0aa875049f41e24', version='v8.8.1'} 	https://github.com/OpenFeign/feign/commit/da6055ebd1464af573433a86a0aa875049f41e24
+CommitInfo{repo='GitHub', hash='682c8dab5b67035cf59cfe3d16970f27e90e60c9', version='v8.9.0'} 	https://github.com/OpenFeign/feign/commit/682c8dab5b67035cf59cfe3d16970f27e90e60c9
+CommitInfo{repo='GitHub', hash='02a1e8c402427cf896b32115b712143a383f9bef', version='v8.9.1'} 	https://github.com/OpenFeign/feign/commit/02a1e8c402427cf896b32115b712143a383f9bef
 
 Project A:
 ProjectVersionFixed(version=5.4.0, dependency=2.2.2, time=2013-11-06 20:15:49 UTC),	Latest, "DependencyVersion(version=2.3.0-rc1, time=2013-10-26 03:04:11 UTC)"

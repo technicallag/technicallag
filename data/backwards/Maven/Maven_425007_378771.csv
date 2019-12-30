@@ -2,91 +2,96 @@
 Project information
 com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider (425007)	com.sun.jersey:jersey-server (378771)	Package Manager: Maven
 RepoID: 166500
+Repo Owner/Name: FasterXML/jackson-jaxrs-providers
+Repository type: GitHub
+
+ https://github.com/FasterXML/jackson-jaxrs-providers/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='7210c890d0505adbae3a8faf6fabdfb5045b9039', version='2.2.0b'}
-CommitInfo{repo='GitHub', hash='39ce70cbeb9676e82fe4ae3a416a377a040eb65c', version='2.2.0c'}
-CommitInfo{repo='GitHub', hash='6a5619aa4b7d1b81688328c8810829560111b908', version='2.2.0-rc1-c'}
-CommitInfo{repo='GitHub', hash='860dcb94678f866cb0473a8663ca4f5e679507f2', version='2.4.0c'}
-CommitInfo{repo='GitHub', hash='eafd4fa6a5d9a94bdff7e01b148e2de22ea93336', version='2.4.0-rc3b'}
-CommitInfo{repo='GitHub', hash='bcc179742d068f252b34133475f3ac10bc2af1f5', version='jackson-jaxrs-providers-2.2.0'}
-CommitInfo{repo='GitHub', hash='b27c5cc0420cb303f9d04da8f9759bb4a1c4ba07', version='jackson-jaxrs-providers-2.2.1'}
-CommitInfo{repo='GitHub', hash='a832b998368737983ca999161ff27da0ee314f58', version='jackson-jaxrs-providers-2.2.2'}
-CommitInfo{repo='GitHub', hash='52cdebe3141557a5f17eb57402d73a79e2f2a4db', version='jackson-jaxrs-providers-2.2.3'}
-CommitInfo{repo='GitHub', hash='ca09c63ffc247f8d3d316bedd63b241258bacb2b', version='jackson-jaxrs-providers-2.2.4'}
-CommitInfo{repo='GitHub', hash='6adf0f5bc9dcac0eb09f83f84068a4bd14efc94f', version='jackson-jaxrs-providers-2.3.0'}
-CommitInfo{repo='GitHub', hash='aaa124292f6fcc12b7fc5cc53beeb8ebdb2f90cf', version='jackson-jaxrs-providers-2.3.0-rc1'}
-CommitInfo{repo='GitHub', hash='3574edf0737099661ebc5740471931ab901c324a', version='jackson-jaxrs-providers-2.3.1'}
-CommitInfo{repo='GitHub', hash='8cc70e1f5e431b418cee76df2682d064432cedcb', version='jackson-jaxrs-providers-2.3.2'}
-CommitInfo{repo='GitHub', hash='05090c90e55bb8d6ab7ef942abe290acffe30580', version='jackson-jaxrs-providers-2.3.3'}
-CommitInfo{repo='GitHub', hash='64c2b69de41d0a051a2d8546a73d803145b0aa76', version='jackson-jaxrs-providers-2.3.4'}
-CommitInfo{repo='GitHub', hash='b8348af01a08ff4fa6999c0a6b910a6be257d612', version='jackson-jaxrs-providers-2.3.5'}
-CommitInfo{repo='GitHub', hash='0b433d5fc23897c8c801d4cf36bc7b3948034633', version='jackson-jaxrs-providers-2.4.0-rc2'}
-CommitInfo{repo='GitHub', hash='66fd6f9d6cfda6861afba5fb15f94012ec8fc82f', version='jackson-jaxrs-providers-2.4.0-rc3'}
-CommitInfo{repo='GitHub', hash='f0ccbd96ce582834041ded7949a348e10ffe89ca', version='jackson-jaxrs-providers-2.4.1'}
-CommitInfo{repo='GitHub', hash='a667d38f5ed7ac0982c0bad00d67090fbd1a7112', version='jackson-jaxrs-providers-2.4.2'}
-CommitInfo{repo='GitHub', hash='4dc513ec6795ffd3a2c62007d8b9cd1c0633f356', version='jackson-jaxrs-providers-2.4.3'}
-CommitInfo{repo='GitHub', hash='15f24138ffa3dcf28596f220e6ccbfcad90f33c1', version='jackson-jaxrs-providers-2.4.4'}
-CommitInfo{repo='GitHub', hash='6f257bac4047e588e88cfafcda4d1e541a207c8b', version='jackson-jaxrs-providers-2.4.5'}
-CommitInfo{repo='GitHub', hash='a7bba6346ad8556c3f070b456382bb9dd8440079', version='jackson-jaxrs-providers-2.4.6'}
-CommitInfo{repo='GitHub', hash='5fcc8ce6ddb2e17c7146d0bbf26042fc5f48b302', version='jackson-jaxrs-providers-2.5.0'}
-CommitInfo{repo='GitHub', hash='2f8d65249c47002f085ca3dc60d2dd54a1389d46', version='jackson-jaxrs-providers-2.5.0-rc1'}
-CommitInfo{repo='GitHub', hash='b26136c5b09a3ecefe6e2c2f876abe4971f00e5c', version='jackson-jaxrs-providers-2.5.1'}
-CommitInfo{repo='GitHub', hash='d20d8a9a06da54ce0acf239793d36dcdccfad864', version='jackson-jaxrs-providers-2.5.2'}
-CommitInfo{repo='GitHub', hash='c9b7333b217680eae423ad7303292c6c93302623', version='jackson-jaxrs-providers-2.5.3'}
-CommitInfo{repo='GitHub', hash='af31d23d2eb4617b591e780f6bc154c803700685', version='jackson-jaxrs-providers-2.5.4'}
-CommitInfo{repo='GitHub', hash='435041a400b791cf6f8d4402d9eb0c10a74b2b85', version='jackson-jaxrs-providers-2.5.5'}
-CommitInfo{repo='GitHub', hash='4fd14b6c01ee476ae8ee1ad22730e9a1317ad4a1', version='jackson-jaxrs-providers-2.6.0'}
-CommitInfo{repo='GitHub', hash='309e817d77370ca72ab2bf79927bd395d357f677', version='jackson-jaxrs-providers-2.6.0-rc1'}
-CommitInfo{repo='GitHub', hash='5086e5685423a54804f93274f606c1e8504375a1', version='jackson-jaxrs-providers-2.6.0-rc2'}
-CommitInfo{repo='GitHub', hash='800034035c5f830f09d35a94ca05ab2c99450fb9', version='jackson-jaxrs-providers-2.6.0-rc3'}
-CommitInfo{repo='GitHub', hash='9da95c61ae513bcc6e5ac41616d47237f51d27a3', version='jackson-jaxrs-providers-2.6.0-rc4'}
-CommitInfo{repo='GitHub', hash='426bcaeba29913c85899075e7ec6a155b104b32e', version='jackson-jaxrs-providers-2.6.1'}
-CommitInfo{repo='GitHub', hash='81377b4a379e27837203c047aafabe41c4741eee', version='jackson-jaxrs-providers-2.6.2'}
-CommitInfo{repo='GitHub', hash='083da336fe650bf825a37151dfeeb4d616458f2d', version='jackson-jaxrs-providers-2.6.3'}
-CommitInfo{repo='GitHub', hash='1b8fa1abd364ac399532c1329145e4e4085052b7', version='jackson-jaxrs-providers-2.6.4'}
-CommitInfo{repo='GitHub', hash='56463b22a60090a3eb90d0418235b3efb9798850', version='jackson-jaxrs-providers-2.6.5'}
-CommitInfo{repo='GitHub', hash='fa50a5efa1d59d3e52393adf1a20fe5c99f39c42', version='jackson-jaxrs-providers-2.6.6'}
-CommitInfo{repo='GitHub', hash='c346686d0984a1797603d58d1d17990bb8b753bf', version='jackson-jaxrs-providers-2.6.7'}
-CommitInfo{repo='GitHub', hash='a8dcde5044ce787a4ccda9337cf51dbf059c273a', version='jackson-jaxrs-providers-2.7.0'}
-CommitInfo{repo='GitHub', hash='3392fddf0481156dcc9257e69d1d1edfb7cec995', version='jackson-jaxrs-providers-2.7.0-rc1'}
-CommitInfo{repo='GitHub', hash='e69de80553f07a94df8d3288593c16e1bdfceb3d', version='jackson-jaxrs-providers-2.7.0-rc2'}
-CommitInfo{repo='GitHub', hash='4f7816f1a73e1f134914fa6bf0ed498995b7dd34', version='jackson-jaxrs-providers-2.7.0-rc3'}
-CommitInfo{repo='GitHub', hash='e995355d091d76c7638e24c8d4dae263da032828', version='jackson-jaxrs-providers-2.7.1'}
-CommitInfo{repo='GitHub', hash='8dd581537293dc4108bb65ba3146a87cdf5abc41', version='jackson-jaxrs-providers-2.7.2'}
-CommitInfo{repo='GitHub', hash='856fa7036477717cf99f6ff14fd3041005acfe1b', version='jackson-jaxrs-providers-2.7.3'}
-CommitInfo{repo='GitHub', hash='2bcfffa98f04a65f1ffffef86a4affa722ab7316', version='jackson-jaxrs-providers-2.7.4'}
-CommitInfo{repo='GitHub', hash='da173a285cf857d02858a35b021cf0590d1595b2', version='jackson-jaxrs-providers-2.7.5'}
-CommitInfo{repo='GitHub', hash='7d69194d0a14cc1e6e6cb71233c2a1577078639c', version='jackson-jaxrs-providers-2.7.6'}
-CommitInfo{repo='GitHub', hash='7c9e239cc5abeab268acb956ffe0f8b7eceb2e9c', version='jackson-jaxrs-providers-2.7.7'}
-CommitInfo{repo='GitHub', hash='41a784532dff77e533cf74ef9f1a2f629a28f8be', version='jackson-jaxrs-providers-2.7.8'}
-CommitInfo{repo='GitHub', hash='5e740e5466daff8ff94862b1f941dd83a3d14eb2', version='jackson-jaxrs-providers-2.7.9'}
-CommitInfo{repo='GitHub', hash='9309ced43967ba4aec6f47ba1d56946edd435e87', version='jackson-jaxrs-providers-2.8.0'}
-CommitInfo{repo='GitHub', hash='a889f81c1217ad37ad9a81c7000821add15c307a', version='jackson-jaxrs-providers-2.8.0.rc1'}
-CommitInfo{repo='GitHub', hash='67ddc365d52bbab39b9ac8049d42e95ad2c1152d', version='jackson-jaxrs-providers-2.8.0.rc2'}
-CommitInfo{repo='GitHub', hash='8b51b149a7637c268abce4e186addebfc8e9d4f5', version='jackson-jaxrs-providers-2.8.1'}
-CommitInfo{repo='GitHub', hash='32233a729d8d34894dad2a681e77f4a8cadaf429', version='jackson-jaxrs-providers-2.8.10'}
-CommitInfo{repo='GitHub', hash='5044901458a35906c56e9275642e7ce4d34bb2e1', version='jackson-jaxrs-providers-2.8.11'}
-CommitInfo{repo='GitHub', hash='8e411a6a256a2f5b2e730acce260e78069c54b2e', version='jackson-jaxrs-providers-2.8.2'}
-CommitInfo{repo='GitHub', hash='d7f176ccea54138161127f8caea5269e4b983f34', version='jackson-jaxrs-providers-2.8.3'}
-CommitInfo{repo='GitHub', hash='a40549e2196cea77190870613e4fa5045c8b7376', version='jackson-jaxrs-providers-2.8.4'}
-CommitInfo{repo='GitHub', hash='a1da457f38e34cc4599233a6545ae78e3f3120b1', version='jackson-jaxrs-providers-2.8.5'}
-CommitInfo{repo='GitHub', hash='8f0125adf61d6135a3151778c50547e5b9adb618', version='jackson-jaxrs-providers-2.8.6'}
-CommitInfo{repo='GitHub', hash='36dd5b35e9e6d19f06de236f034dd9bc98b3aeac', version='jackson-jaxrs-providers-2.8.7'}
-CommitInfo{repo='GitHub', hash='703d8af1118eb466b34738a37d6a7dea588236fe', version='jackson-jaxrs-providers-2.8.8'}
-CommitInfo{repo='GitHub', hash='ee46fe658ff574f1fdf4be16ef17baca81183f68', version='jackson-jaxrs-providers-2.8.9'}
-CommitInfo{repo='GitHub', hash='e86911cd79d72d7536d60d9d8f678f3ca3442f87', version='jackson-jaxrs-providers-2.9.0'}
-CommitInfo{repo='GitHub', hash='8aba176a3e819f73ba910d9fd36a99763c025542', version='jackson-jaxrs-providers-2.9.0.pr1'}
-CommitInfo{repo='GitHub', hash='fb4636a364d868e5ba66745de38359a9b8c0e72e', version='jackson-jaxrs-providers-2.9.0.pr2'}
-CommitInfo{repo='GitHub', hash='a7dcc69f64d373e5577f66ad0abfbb172b1a0fcf', version='jackson-jaxrs-providers-2.9.0.pr3'}
-CommitInfo{repo='GitHub', hash='30f0bea3ac61a4d21529291e7f884359f190c5e7', version='jackson-jaxrs-providers-2.9.0.pr4'}
-CommitInfo{repo='GitHub', hash='5a52ec13e053a4e1c9a644b1700c6296d4ade2a0', version='jackson-jaxrs-providers-2.9.1'}
-CommitInfo{repo='GitHub', hash='32a176dc22901d6c18868af93593c23710a96bd8', version='jackson-jaxrs-providers-2.9.2'}
-CommitInfo{repo='GitHub', hash='4dc848df9f4751be92ade1fe656102a4daac505f', version='jackson-jaxrs-providers-2.9.3'}
-CommitInfo{repo='GitHub', hash='ca534e3c33f837a85caea1e40b978e25e85b750c', version='jackson-jaxrs-providers-2.9.4'}
-CommitInfo{repo='GitHub', hash='b3b281dea4db6c2983794fe275d96e2865d30270', version='jackson-jaxrs-providers-2.9.5'}
-CommitInfo{repo='GitHub', hash='5aa239994a4b3447237b38361e90a751e167ed87', version='jackson-jaxrs-providers-2.9.6'}
-CommitInfo{repo='GitHub', hash='3e2d4de30efcb332449c1e7f3bb4a66b92c672c2', version='jackson-jaxrs-providers-2.9.7'}
-CommitInfo{repo='GitHub', hash='d7cdb2d72ec29386147eadadd07d7f8c4cdb49ad', version='jackson-jaxrs-providers-2.9.8'}
+CommitInfo{repo='GitHub', hash='7210c890d0505adbae3a8faf6fabdfb5045b9039', version='2.2.0b'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/7210c890d0505adbae3a8faf6fabdfb5045b9039
+CommitInfo{repo='GitHub', hash='39ce70cbeb9676e82fe4ae3a416a377a040eb65c', version='2.2.0c'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/39ce70cbeb9676e82fe4ae3a416a377a040eb65c
+CommitInfo{repo='GitHub', hash='6a5619aa4b7d1b81688328c8810829560111b908', version='2.2.0-rc1-c'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/6a5619aa4b7d1b81688328c8810829560111b908
+CommitInfo{repo='GitHub', hash='860dcb94678f866cb0473a8663ca4f5e679507f2', version='2.4.0c'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/860dcb94678f866cb0473a8663ca4f5e679507f2
+CommitInfo{repo='GitHub', hash='eafd4fa6a5d9a94bdff7e01b148e2de22ea93336', version='2.4.0-rc3b'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/eafd4fa6a5d9a94bdff7e01b148e2de22ea93336
+CommitInfo{repo='GitHub', hash='bcc179742d068f252b34133475f3ac10bc2af1f5', version='jackson-jaxrs-providers-2.2.0'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/bcc179742d068f252b34133475f3ac10bc2af1f5
+CommitInfo{repo='GitHub', hash='b27c5cc0420cb303f9d04da8f9759bb4a1c4ba07', version='jackson-jaxrs-providers-2.2.1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/b27c5cc0420cb303f9d04da8f9759bb4a1c4ba07
+CommitInfo{repo='GitHub', hash='a832b998368737983ca999161ff27da0ee314f58', version='jackson-jaxrs-providers-2.2.2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/a832b998368737983ca999161ff27da0ee314f58
+CommitInfo{repo='GitHub', hash='52cdebe3141557a5f17eb57402d73a79e2f2a4db', version='jackson-jaxrs-providers-2.2.3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/52cdebe3141557a5f17eb57402d73a79e2f2a4db
+CommitInfo{repo='GitHub', hash='ca09c63ffc247f8d3d316bedd63b241258bacb2b', version='jackson-jaxrs-providers-2.2.4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/ca09c63ffc247f8d3d316bedd63b241258bacb2b
+CommitInfo{repo='GitHub', hash='6adf0f5bc9dcac0eb09f83f84068a4bd14efc94f', version='jackson-jaxrs-providers-2.3.0'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/6adf0f5bc9dcac0eb09f83f84068a4bd14efc94f
+CommitInfo{repo='GitHub', hash='aaa124292f6fcc12b7fc5cc53beeb8ebdb2f90cf', version='jackson-jaxrs-providers-2.3.0-rc1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/aaa124292f6fcc12b7fc5cc53beeb8ebdb2f90cf
+CommitInfo{repo='GitHub', hash='3574edf0737099661ebc5740471931ab901c324a', version='jackson-jaxrs-providers-2.3.1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/3574edf0737099661ebc5740471931ab901c324a
+CommitInfo{repo='GitHub', hash='8cc70e1f5e431b418cee76df2682d064432cedcb', version='jackson-jaxrs-providers-2.3.2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/8cc70e1f5e431b418cee76df2682d064432cedcb
+CommitInfo{repo='GitHub', hash='05090c90e55bb8d6ab7ef942abe290acffe30580', version='jackson-jaxrs-providers-2.3.3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/05090c90e55bb8d6ab7ef942abe290acffe30580
+CommitInfo{repo='GitHub', hash='64c2b69de41d0a051a2d8546a73d803145b0aa76', version='jackson-jaxrs-providers-2.3.4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/64c2b69de41d0a051a2d8546a73d803145b0aa76
+CommitInfo{repo='GitHub', hash='b8348af01a08ff4fa6999c0a6b910a6be257d612', version='jackson-jaxrs-providers-2.3.5'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/b8348af01a08ff4fa6999c0a6b910a6be257d612
+CommitInfo{repo='GitHub', hash='0b433d5fc23897c8c801d4cf36bc7b3948034633', version='jackson-jaxrs-providers-2.4.0-rc2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/0b433d5fc23897c8c801d4cf36bc7b3948034633
+CommitInfo{repo='GitHub', hash='66fd6f9d6cfda6861afba5fb15f94012ec8fc82f', version='jackson-jaxrs-providers-2.4.0-rc3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/66fd6f9d6cfda6861afba5fb15f94012ec8fc82f
+CommitInfo{repo='GitHub', hash='f0ccbd96ce582834041ded7949a348e10ffe89ca', version='jackson-jaxrs-providers-2.4.1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/f0ccbd96ce582834041ded7949a348e10ffe89ca
+CommitInfo{repo='GitHub', hash='a667d38f5ed7ac0982c0bad00d67090fbd1a7112', version='jackson-jaxrs-providers-2.4.2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/a667d38f5ed7ac0982c0bad00d67090fbd1a7112
+CommitInfo{repo='GitHub', hash='4dc513ec6795ffd3a2c62007d8b9cd1c0633f356', version='jackson-jaxrs-providers-2.4.3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/4dc513ec6795ffd3a2c62007d8b9cd1c0633f356
+CommitInfo{repo='GitHub', hash='15f24138ffa3dcf28596f220e6ccbfcad90f33c1', version='jackson-jaxrs-providers-2.4.4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/15f24138ffa3dcf28596f220e6ccbfcad90f33c1
+CommitInfo{repo='GitHub', hash='6f257bac4047e588e88cfafcda4d1e541a207c8b', version='jackson-jaxrs-providers-2.4.5'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/6f257bac4047e588e88cfafcda4d1e541a207c8b
+CommitInfo{repo='GitHub', hash='a7bba6346ad8556c3f070b456382bb9dd8440079', version='jackson-jaxrs-providers-2.4.6'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/a7bba6346ad8556c3f070b456382bb9dd8440079
+CommitInfo{repo='GitHub', hash='5fcc8ce6ddb2e17c7146d0bbf26042fc5f48b302', version='jackson-jaxrs-providers-2.5.0'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/5fcc8ce6ddb2e17c7146d0bbf26042fc5f48b302
+CommitInfo{repo='GitHub', hash='2f8d65249c47002f085ca3dc60d2dd54a1389d46', version='jackson-jaxrs-providers-2.5.0-rc1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/2f8d65249c47002f085ca3dc60d2dd54a1389d46
+CommitInfo{repo='GitHub', hash='b26136c5b09a3ecefe6e2c2f876abe4971f00e5c', version='jackson-jaxrs-providers-2.5.1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/b26136c5b09a3ecefe6e2c2f876abe4971f00e5c
+CommitInfo{repo='GitHub', hash='d20d8a9a06da54ce0acf239793d36dcdccfad864', version='jackson-jaxrs-providers-2.5.2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/d20d8a9a06da54ce0acf239793d36dcdccfad864
+CommitInfo{repo='GitHub', hash='c9b7333b217680eae423ad7303292c6c93302623', version='jackson-jaxrs-providers-2.5.3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/c9b7333b217680eae423ad7303292c6c93302623
+CommitInfo{repo='GitHub', hash='af31d23d2eb4617b591e780f6bc154c803700685', version='jackson-jaxrs-providers-2.5.4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/af31d23d2eb4617b591e780f6bc154c803700685
+CommitInfo{repo='GitHub', hash='435041a400b791cf6f8d4402d9eb0c10a74b2b85', version='jackson-jaxrs-providers-2.5.5'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/435041a400b791cf6f8d4402d9eb0c10a74b2b85
+CommitInfo{repo='GitHub', hash='4fd14b6c01ee476ae8ee1ad22730e9a1317ad4a1', version='jackson-jaxrs-providers-2.6.0'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/4fd14b6c01ee476ae8ee1ad22730e9a1317ad4a1
+CommitInfo{repo='GitHub', hash='309e817d77370ca72ab2bf79927bd395d357f677', version='jackson-jaxrs-providers-2.6.0-rc1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/309e817d77370ca72ab2bf79927bd395d357f677
+CommitInfo{repo='GitHub', hash='5086e5685423a54804f93274f606c1e8504375a1', version='jackson-jaxrs-providers-2.6.0-rc2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/5086e5685423a54804f93274f606c1e8504375a1
+CommitInfo{repo='GitHub', hash='800034035c5f830f09d35a94ca05ab2c99450fb9', version='jackson-jaxrs-providers-2.6.0-rc3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/800034035c5f830f09d35a94ca05ab2c99450fb9
+CommitInfo{repo='GitHub', hash='9da95c61ae513bcc6e5ac41616d47237f51d27a3', version='jackson-jaxrs-providers-2.6.0-rc4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/9da95c61ae513bcc6e5ac41616d47237f51d27a3
+CommitInfo{repo='GitHub', hash='426bcaeba29913c85899075e7ec6a155b104b32e', version='jackson-jaxrs-providers-2.6.1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/426bcaeba29913c85899075e7ec6a155b104b32e
+CommitInfo{repo='GitHub', hash='81377b4a379e27837203c047aafabe41c4741eee', version='jackson-jaxrs-providers-2.6.2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/81377b4a379e27837203c047aafabe41c4741eee
+CommitInfo{repo='GitHub', hash='083da336fe650bf825a37151dfeeb4d616458f2d', version='jackson-jaxrs-providers-2.6.3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/083da336fe650bf825a37151dfeeb4d616458f2d
+CommitInfo{repo='GitHub', hash='1b8fa1abd364ac399532c1329145e4e4085052b7', version='jackson-jaxrs-providers-2.6.4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/1b8fa1abd364ac399532c1329145e4e4085052b7
+CommitInfo{repo='GitHub', hash='56463b22a60090a3eb90d0418235b3efb9798850', version='jackson-jaxrs-providers-2.6.5'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/56463b22a60090a3eb90d0418235b3efb9798850
+CommitInfo{repo='GitHub', hash='fa50a5efa1d59d3e52393adf1a20fe5c99f39c42', version='jackson-jaxrs-providers-2.6.6'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/fa50a5efa1d59d3e52393adf1a20fe5c99f39c42
+CommitInfo{repo='GitHub', hash='c346686d0984a1797603d58d1d17990bb8b753bf', version='jackson-jaxrs-providers-2.6.7'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/c346686d0984a1797603d58d1d17990bb8b753bf
+CommitInfo{repo='GitHub', hash='a8dcde5044ce787a4ccda9337cf51dbf059c273a', version='jackson-jaxrs-providers-2.7.0'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/a8dcde5044ce787a4ccda9337cf51dbf059c273a
+CommitInfo{repo='GitHub', hash='3392fddf0481156dcc9257e69d1d1edfb7cec995', version='jackson-jaxrs-providers-2.7.0-rc1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/3392fddf0481156dcc9257e69d1d1edfb7cec995
+CommitInfo{repo='GitHub', hash='e69de80553f07a94df8d3288593c16e1bdfceb3d', version='jackson-jaxrs-providers-2.7.0-rc2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/e69de80553f07a94df8d3288593c16e1bdfceb3d
+CommitInfo{repo='GitHub', hash='4f7816f1a73e1f134914fa6bf0ed498995b7dd34', version='jackson-jaxrs-providers-2.7.0-rc3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/4f7816f1a73e1f134914fa6bf0ed498995b7dd34
+CommitInfo{repo='GitHub', hash='e995355d091d76c7638e24c8d4dae263da032828', version='jackson-jaxrs-providers-2.7.1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/e995355d091d76c7638e24c8d4dae263da032828
+CommitInfo{repo='GitHub', hash='8dd581537293dc4108bb65ba3146a87cdf5abc41', version='jackson-jaxrs-providers-2.7.2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/8dd581537293dc4108bb65ba3146a87cdf5abc41
+CommitInfo{repo='GitHub', hash='856fa7036477717cf99f6ff14fd3041005acfe1b', version='jackson-jaxrs-providers-2.7.3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/856fa7036477717cf99f6ff14fd3041005acfe1b
+CommitInfo{repo='GitHub', hash='2bcfffa98f04a65f1ffffef86a4affa722ab7316', version='jackson-jaxrs-providers-2.7.4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/2bcfffa98f04a65f1ffffef86a4affa722ab7316
+CommitInfo{repo='GitHub', hash='da173a285cf857d02858a35b021cf0590d1595b2', version='jackson-jaxrs-providers-2.7.5'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/da173a285cf857d02858a35b021cf0590d1595b2
+CommitInfo{repo='GitHub', hash='7d69194d0a14cc1e6e6cb71233c2a1577078639c', version='jackson-jaxrs-providers-2.7.6'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/7d69194d0a14cc1e6e6cb71233c2a1577078639c
+CommitInfo{repo='GitHub', hash='7c9e239cc5abeab268acb956ffe0f8b7eceb2e9c', version='jackson-jaxrs-providers-2.7.7'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/7c9e239cc5abeab268acb956ffe0f8b7eceb2e9c
+CommitInfo{repo='GitHub', hash='41a784532dff77e533cf74ef9f1a2f629a28f8be', version='jackson-jaxrs-providers-2.7.8'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/41a784532dff77e533cf74ef9f1a2f629a28f8be
+CommitInfo{repo='GitHub', hash='5e740e5466daff8ff94862b1f941dd83a3d14eb2', version='jackson-jaxrs-providers-2.7.9'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/5e740e5466daff8ff94862b1f941dd83a3d14eb2
+CommitInfo{repo='GitHub', hash='9309ced43967ba4aec6f47ba1d56946edd435e87', version='jackson-jaxrs-providers-2.8.0'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/9309ced43967ba4aec6f47ba1d56946edd435e87
+CommitInfo{repo='GitHub', hash='a889f81c1217ad37ad9a81c7000821add15c307a', version='jackson-jaxrs-providers-2.8.0.rc1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/a889f81c1217ad37ad9a81c7000821add15c307a
+CommitInfo{repo='GitHub', hash='67ddc365d52bbab39b9ac8049d42e95ad2c1152d', version='jackson-jaxrs-providers-2.8.0.rc2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/67ddc365d52bbab39b9ac8049d42e95ad2c1152d
+CommitInfo{repo='GitHub', hash='8b51b149a7637c268abce4e186addebfc8e9d4f5', version='jackson-jaxrs-providers-2.8.1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/8b51b149a7637c268abce4e186addebfc8e9d4f5
+CommitInfo{repo='GitHub', hash='32233a729d8d34894dad2a681e77f4a8cadaf429', version='jackson-jaxrs-providers-2.8.10'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/32233a729d8d34894dad2a681e77f4a8cadaf429
+CommitInfo{repo='GitHub', hash='5044901458a35906c56e9275642e7ce4d34bb2e1', version='jackson-jaxrs-providers-2.8.11'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/5044901458a35906c56e9275642e7ce4d34bb2e1
+CommitInfo{repo='GitHub', hash='8e411a6a256a2f5b2e730acce260e78069c54b2e', version='jackson-jaxrs-providers-2.8.2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/8e411a6a256a2f5b2e730acce260e78069c54b2e
+CommitInfo{repo='GitHub', hash='d7f176ccea54138161127f8caea5269e4b983f34', version='jackson-jaxrs-providers-2.8.3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/d7f176ccea54138161127f8caea5269e4b983f34
+CommitInfo{repo='GitHub', hash='a40549e2196cea77190870613e4fa5045c8b7376', version='jackson-jaxrs-providers-2.8.4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/a40549e2196cea77190870613e4fa5045c8b7376
+CommitInfo{repo='GitHub', hash='a1da457f38e34cc4599233a6545ae78e3f3120b1', version='jackson-jaxrs-providers-2.8.5'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/a1da457f38e34cc4599233a6545ae78e3f3120b1
+CommitInfo{repo='GitHub', hash='8f0125adf61d6135a3151778c50547e5b9adb618', version='jackson-jaxrs-providers-2.8.6'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/8f0125adf61d6135a3151778c50547e5b9adb618
+CommitInfo{repo='GitHub', hash='36dd5b35e9e6d19f06de236f034dd9bc98b3aeac', version='jackson-jaxrs-providers-2.8.7'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/36dd5b35e9e6d19f06de236f034dd9bc98b3aeac
+CommitInfo{repo='GitHub', hash='703d8af1118eb466b34738a37d6a7dea588236fe', version='jackson-jaxrs-providers-2.8.8'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/703d8af1118eb466b34738a37d6a7dea588236fe
+CommitInfo{repo='GitHub', hash='ee46fe658ff574f1fdf4be16ef17baca81183f68', version='jackson-jaxrs-providers-2.8.9'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/ee46fe658ff574f1fdf4be16ef17baca81183f68
+CommitInfo{repo='GitHub', hash='e86911cd79d72d7536d60d9d8f678f3ca3442f87', version='jackson-jaxrs-providers-2.9.0'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/e86911cd79d72d7536d60d9d8f678f3ca3442f87
+CommitInfo{repo='GitHub', hash='8aba176a3e819f73ba910d9fd36a99763c025542', version='jackson-jaxrs-providers-2.9.0.pr1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/8aba176a3e819f73ba910d9fd36a99763c025542
+CommitInfo{repo='GitHub', hash='fb4636a364d868e5ba66745de38359a9b8c0e72e', version='jackson-jaxrs-providers-2.9.0.pr2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/fb4636a364d868e5ba66745de38359a9b8c0e72e
+CommitInfo{repo='GitHub', hash='a7dcc69f64d373e5577f66ad0abfbb172b1a0fcf', version='jackson-jaxrs-providers-2.9.0.pr3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/a7dcc69f64d373e5577f66ad0abfbb172b1a0fcf
+CommitInfo{repo='GitHub', hash='30f0bea3ac61a4d21529291e7f884359f190c5e7', version='jackson-jaxrs-providers-2.9.0.pr4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/30f0bea3ac61a4d21529291e7f884359f190c5e7
+CommitInfo{repo='GitHub', hash='5a52ec13e053a4e1c9a644b1700c6296d4ade2a0', version='jackson-jaxrs-providers-2.9.1'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/5a52ec13e053a4e1c9a644b1700c6296d4ade2a0
+CommitInfo{repo='GitHub', hash='32a176dc22901d6c18868af93593c23710a96bd8', version='jackson-jaxrs-providers-2.9.2'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/32a176dc22901d6c18868af93593c23710a96bd8
+CommitInfo{repo='GitHub', hash='4dc848df9f4751be92ade1fe656102a4daac505f', version='jackson-jaxrs-providers-2.9.3'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/4dc848df9f4751be92ade1fe656102a4daac505f
+CommitInfo{repo='GitHub', hash='ca534e3c33f837a85caea1e40b978e25e85b750c', version='jackson-jaxrs-providers-2.9.4'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/ca534e3c33f837a85caea1e40b978e25e85b750c
+CommitInfo{repo='GitHub', hash='b3b281dea4db6c2983794fe275d96e2865d30270', version='jackson-jaxrs-providers-2.9.5'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/b3b281dea4db6c2983794fe275d96e2865d30270
+CommitInfo{repo='GitHub', hash='5aa239994a4b3447237b38361e90a751e167ed87', version='jackson-jaxrs-providers-2.9.6'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/5aa239994a4b3447237b38361e90a751e167ed87
+CommitInfo{repo='GitHub', hash='3e2d4de30efcb332449c1e7f3bb4a66b92c672c2', version='jackson-jaxrs-providers-2.9.7'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/3e2d4de30efcb332449c1e7f3bb4a66b92c672c2
+CommitInfo{repo='GitHub', hash='d7cdb2d72ec29386147eadadd07d7f8c4cdb49ad', version='jackson-jaxrs-providers-2.9.8'} 	https://github.com/FasterXML/jackson-jaxrs-providers/commit/d7cdb2d72ec29386147eadadd07d7f8c4cdb49ad
 
 Project A:
 ProjectVersionFixed(version=2.0.0-RC3, dependency=1.8, time=2012-03-23 00:38:09 UTC),	Latest, "DependencyVersion(version=1.13-b01, time=2012-03-09 15:53:02 UTC)"

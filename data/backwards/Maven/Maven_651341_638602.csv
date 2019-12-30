@@ -2,88 +2,93 @@
 Project information
 org.apache.flink:flink-runtime (651341)	io.netty:netty-all (638602)	Package Manager: Maven
 RepoID: 194639
+Repo Owner/Name: apache/flink
+Repository type: GitHub
+
+ https://github.com/apache/flink/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='18f3c263de4ae984c894875c7e7c28220580f6b2', version='pre-apache-rename'}
-CommitInfo{repo='GitHub', hash='ab2cca4891f58e31bc3ec8d758d253a6cf84bc71', version='release-0.10.0'}
-CommitInfo{repo='GitHub', hash='2e9b2316407fed6b68ff1f1997b39e26bf2fb480', version='release-0.10.1'}
-CommitInfo{repo='GitHub', hash='3fcb91641118ba362b29a55e9102539e96852172', version='release-0.10.2'}
-CommitInfo{repo='GitHub', hash='8dc91d9ab90b2c260b843acef2b3f558c9ce04a6', version='release-0.4'}
-CommitInfo{repo='GitHub', hash='27f876b338099d912cf5e554093a32d351848ca0', version='release-0.5'}
-CommitInfo{repo='GitHub', hash='ddaab782381b6974afa292aa47198a495d90f76d', version='release-0.5-rc1'}
-CommitInfo{repo='GitHub', hash='b3655ec3aff05596d59e3c1026c417ffd6c02bab', version='release-0.5-rc2'}
-CommitInfo{repo='GitHub', hash='5c05a21370cc32682513f8c0daff4a5c2f829c4b', version='release-0.5-rc3'}
-CommitInfo{repo='GitHub', hash='5f376750b551453bca800831be4a2fc27fb50dc2', version='release-0.6'}
-CommitInfo{repo='GitHub', hash='401ad4773311e24f438bed9cc87ba3b9d6c74ddc', version='release-0.7.0'}
-CommitInfo{repo='GitHub', hash='8b3a671b2d1b541b252417d4e33843113c588fd1', version='release-0.8.0'}
-CommitInfo{repo='GitHub', hash='f9d6d3ce25ceb5e7264ab9323f54e9b431c490cc', version='release-0.8.1'}
-CommitInfo{repo='GitHub', hash='0a35271dba4675311eb3094d8669a876efd285a9', version='release-0.9.0'}
-CommitInfo{repo='GitHub', hash='be932cd52ba41cfc6f45846acfd4b8a3a473ced2', version='release-0.9.1'}
-CommitInfo{repo='GitHub', hash='94cd554aee39413588bd30890dc7aed886b1c91d', version='release-1.0.0'}
-CommitInfo{repo='GitHub', hash='4afa401ab3c2b53de115d17a3157e8b80431dd10', version='release-1.0.1'}
-CommitInfo{repo='GitHub', hash='d39af152a166ddafaa2466cdae82695880893f3e', version='release-1.0.2'}
-CommitInfo{repo='GitHub', hash='f3a6b5f1e8d85d10e1449e2f9629140ffff8b781', version='release-1.0.3'}
-CommitInfo{repo='GitHub', hash='45f7825111232f0dd225068a72d8a092f67d49d0', version='release-1.1.0'}
-CommitInfo{repo='GitHub', hash='61bfb36d6dba3654675b602269a70be505e02e68', version='release-1.1.1'}
-CommitInfo{repo='GitHub', hash='7294b82bf1efc7607ff808c53df1c2813ded2f7d', version='release-1.1.2'}
-CommitInfo{repo='GitHub', hash='8e8d4543a87f66dfa34be98c44bbb85c73f597b6', version='release-1.1.3'}
-CommitInfo{repo='GitHub', hash='8fb0fc85c13bed8f1357ae0fb9f8203c3c8cb1c7', version='release-1.1.4'}
-CommitInfo{repo='GitHub', hash='ed18e976cc41d4d7335374cee7749e93a2fe3f3e', version='release-1.1.5'}
-CommitInfo{repo='GitHub', hash='1c659cf4acca2cbc8c36494156d9ec28423e43c6', version='release-1.2.0'}
-CommitInfo{repo='GitHub', hash='76eba4e08b1c3f1c45ebf7914f30d3e871326c29', version='release-1.2.1'}
-CommitInfo{repo='GitHub', hash='760eea8a173c028f1434dc268a2ec719cdcc2951', version='release-1.3.0'}
-CommitInfo{repo='GitHub', hash='1ca6e5b63699cd9c72cfae2c978feb38e3f14782', version='release-1.3.1'}
-CommitInfo{repo='GitHub', hash='292d182b36108c30b4b381a4082b2a0672dc581e', version='release-1.3.2'}
-CommitInfo{repo='GitHub', hash='c1332f5caa677c4c170af6ee347f795c8cd5cca0', version='release-1.3.2-rc1'}
-CommitInfo{repo='GitHub', hash='e38825d0c8e7fe2191a4c657984d9939ed8dd0ad', version='release-1.3.2-rc2'}
-CommitInfo{repo='GitHub', hash='d0f7528a69a93045f4af686347753f8737ca0b2b', version='release-1.3.2-rc3'}
-CommitInfo{repo='GitHub', hash='3ba1ec70c63e39980781500aefe2e8b31f9bc9b7', version='release-1.3.3'}
-CommitInfo{repo='GitHub', hash='382f0abe68e7a40dcfd8290b539f058d9cac5811', version='release-1.4.0'}
-CommitInfo{repo='GitHub', hash='a0b322cf77851d3b8589812a0c8e443e9e320e67', version='release-1.4.0-rc1'}
-CommitInfo{repo='GitHub', hash='ea751b7b23b23446ed3fcdeed564bbe8bf4adf9c', version='release-1.4.0-rc2'}
-CommitInfo{repo='GitHub', hash='8fb9635dd2e64dbb20887c84f646f02034b57cb1', version='release-1.4.0-rc3'}
-CommitInfo{repo='GitHub', hash='66a4021aeb5996c8e0d2cb3bd3777ae472980dd0', version='release-1.4.1'}
-CommitInfo{repo='GitHub', hash='dbab73e5d097518838283a7a4f056cca0ac3f9a5', version='release-1.4.1-rc1'}
-CommitInfo{repo='GitHub', hash='72cc8599f40e987d03139aa76755d16de3d9bb49', version='release-1.4.2'}
-CommitInfo{repo='GitHub', hash='d5ef96aeb63ad3dd4d0676e0c32a35e888ecb409', version='release-1.4.2-rc1'}
-CommitInfo{repo='GitHub', hash='0f4978eb62d9e93efafc56d6524cf65d5e5a3a69', version='release-1.4.2-rc2'}
-CommitInfo{repo='GitHub', hash='c5969f2b50c209213b2839a854a7a3837ab904fa', version='release-1.5.0'}
-CommitInfo{repo='GitHub', hash='2af481a0fa88dd2f7964c9105cf4d735c3ac8303', version='release-1.5.0-rc1'}
-CommitInfo{repo='GitHub', hash='9dd06582481c7ae904d4f8312d4c2d085a5bef8d', version='release-1.5.0-rc2'}
-CommitInfo{repo='GitHub', hash='c2141d689f7a7e24fe305c6abdf249ff636e2ac1', version='release-1.5.0-rc3'}
-CommitInfo{repo='GitHub', hash='7542ae9d6241a157f5f4c55cc5247459f85ea25b', version='release-1.5.0-rc4'}
-CommitInfo{repo='GitHub', hash='008ae080300c55c48dacd0f1e416f89f599d3121', version='release-1.5.0-rc5'}
-CommitInfo{repo='GitHub', hash='4a1b9716992da9edc354e2189bd2a47c4b2a4fc6', version='release-1.5.0-rc6'}
-CommitInfo{repo='GitHub', hash='3333c2c8cd099b78ed796c5b1412ec20c5b3351a', version='release-1.5.1'}
-CommitInfo{repo='GitHub', hash='45b13b55475dffb7920cc3a889e0fa3a99a7fb09', version='release-1.5.1-rc1'}
-CommitInfo{repo='GitHub', hash='b232f3068a441f67c60ea42eecbff747cba2cc7e', version='release-1.5.1-rc2'}
-CommitInfo{repo='GitHub', hash='37bc35cdbe234088f73b6066c894f757ac0a7df8', version='release-1.5.1-rc3'}
-CommitInfo{repo='GitHub', hash='a6f0199fb4b8f74dc95ae4a8c4c1f7df44116945', version='release-1.5.2'}
-CommitInfo{repo='GitHub', hash='5d77c589fbe31809da820af862c2ca7f44315d66', version='release-1.5.2-rc1'}
-CommitInfo{repo='GitHub', hash='8607fd864e1f2c2fd031bb8ea7eac54514741170', version='release-1.5.2-rc2'}
-CommitInfo{repo='GitHub', hash='1c0dff64d5bbaed28a6885d80d072da2c578dcf0', version='release-1.5.3'}
-CommitInfo{repo='GitHub', hash='1c0dff64d5bbaed28a6885d80d072da2c578dcf0', version='release-1.5.3'}
-CommitInfo{repo='GitHub', hash='1c0dff64d5bbaed28a6885d80d072da2c578dcf0', version='release-1.5.3'}
-CommitInfo{repo='GitHub', hash='947a0cc4cbc1606b871dd797955adc9d39d6d4a3', version='release-1.5.3-rc1'}
-CommitInfo{repo='GitHub', hash='7fe26b9e5ff9cad8ff20149d391f34609da0d244', version='release-1.5.4'}
-CommitInfo{repo='GitHub', hash='853b1c42168b3e9b9b783c434f11485d118fb250', version='release-1.5.4-rc1'}
-CommitInfo{repo='GitHub', hash='a26008d9167a19f7392167174b932bc31604ffe1', version='release-1.5.5'}
-CommitInfo{repo='GitHub', hash='ddb20479ff02cd15b6ce4272fed4e788c5ac6d55', version='release-1.5.5-rc1'}
-CommitInfo{repo='GitHub', hash='38479348fdde80daaec58a1870c9e98fcf911f94', version='release-1.6.0'}
-CommitInfo{repo='GitHub', hash='5e837766324fd4a15003031fc7544cb860b1e42f', version='release-1.6.0-rc1'}
-CommitInfo{repo='GitHub', hash='3493263e65d63aed17d4e16435e1af586f714a49', version='release-1.6.0-rc2'}
-CommitInfo{repo='GitHub', hash='3493263e65d63aed17d4e16435e1af586f714a49', version='release-1.6.0-rc2'}
-CommitInfo{repo='GitHub', hash='de15a5df792268109e73c4391e43bf3d7fd83649', version='release-1.6.0-rc3'}
-CommitInfo{repo='GitHub', hash='de15a5df792268109e73c4391e43bf3d7fd83649', version='release-1.6.0-rc3'}
-CommitInfo{repo='GitHub', hash='2ad4d1296ad3370830edd1f636f856abdd6e0b2e', version='release-1.6.0-rc4'}
-CommitInfo{repo='GitHub', hash='a95eedbcfd35e4cc77ca74b11fc375c25144d38b', version='release-1.6.1'}
-CommitInfo{repo='GitHub', hash='bec5a4f9a898626a825072c1d51eb7f4f11f5be0', version='release-1.6.1-rc1'}
-CommitInfo{repo='GitHub', hash='9f5e4202d093a5b9c8e296d0d748fb500209e178', version='release-1.6.2'}
-CommitInfo{repo='GitHub', hash='ba5f976bf7c7ea077e3eb5a59fb4f00251516c8e', version='release-1.6.2-rc1'}
-CommitInfo{repo='GitHub', hash='6e2f8ef7b1f1e20ddef98577df6e4e08daaacac3', version='release-1.7.0'}
-CommitInfo{repo='GitHub', hash='9b2551e8a3dc8bd54ed9e7cb8f541cd7e2df6c05', version='release-1.7.0-rc1'}
-CommitInfo{repo='GitHub', hash='1f0423d7248fbc58a4282423c476ca1781ef9728', version='release-1.7.0-rc2'}
-CommitInfo{repo='GitHub', hash='cc7f2d81a2e75056e82bda54433cb80070bae1ee', version='release-1.7.0-rc3'}
-CommitInfo{repo='GitHub', hash='0cc4b613dc0ff5b6608cb01bcf8b46204578fe11', version='v0.4-rc1'}
+CommitInfo{repo='GitHub', hash='18f3c263de4ae984c894875c7e7c28220580f6b2', version='pre-apache-rename'} 	https://github.com/apache/flink/commit/18f3c263de4ae984c894875c7e7c28220580f6b2
+CommitInfo{repo='GitHub', hash='ab2cca4891f58e31bc3ec8d758d253a6cf84bc71', version='release-0.10.0'} 	https://github.com/apache/flink/commit/ab2cca4891f58e31bc3ec8d758d253a6cf84bc71
+CommitInfo{repo='GitHub', hash='2e9b2316407fed6b68ff1f1997b39e26bf2fb480', version='release-0.10.1'} 	https://github.com/apache/flink/commit/2e9b2316407fed6b68ff1f1997b39e26bf2fb480
+CommitInfo{repo='GitHub', hash='3fcb91641118ba362b29a55e9102539e96852172', version='release-0.10.2'} 	https://github.com/apache/flink/commit/3fcb91641118ba362b29a55e9102539e96852172
+CommitInfo{repo='GitHub', hash='8dc91d9ab90b2c260b843acef2b3f558c9ce04a6', version='release-0.4'} 	https://github.com/apache/flink/commit/8dc91d9ab90b2c260b843acef2b3f558c9ce04a6
+CommitInfo{repo='GitHub', hash='27f876b338099d912cf5e554093a32d351848ca0', version='release-0.5'} 	https://github.com/apache/flink/commit/27f876b338099d912cf5e554093a32d351848ca0
+CommitInfo{repo='GitHub', hash='ddaab782381b6974afa292aa47198a495d90f76d', version='release-0.5-rc1'} 	https://github.com/apache/flink/commit/ddaab782381b6974afa292aa47198a495d90f76d
+CommitInfo{repo='GitHub', hash='b3655ec3aff05596d59e3c1026c417ffd6c02bab', version='release-0.5-rc2'} 	https://github.com/apache/flink/commit/b3655ec3aff05596d59e3c1026c417ffd6c02bab
+CommitInfo{repo='GitHub', hash='5c05a21370cc32682513f8c0daff4a5c2f829c4b', version='release-0.5-rc3'} 	https://github.com/apache/flink/commit/5c05a21370cc32682513f8c0daff4a5c2f829c4b
+CommitInfo{repo='GitHub', hash='5f376750b551453bca800831be4a2fc27fb50dc2', version='release-0.6'} 	https://github.com/apache/flink/commit/5f376750b551453bca800831be4a2fc27fb50dc2
+CommitInfo{repo='GitHub', hash='401ad4773311e24f438bed9cc87ba3b9d6c74ddc', version='release-0.7.0'} 	https://github.com/apache/flink/commit/401ad4773311e24f438bed9cc87ba3b9d6c74ddc
+CommitInfo{repo='GitHub', hash='8b3a671b2d1b541b252417d4e33843113c588fd1', version='release-0.8.0'} 	https://github.com/apache/flink/commit/8b3a671b2d1b541b252417d4e33843113c588fd1
+CommitInfo{repo='GitHub', hash='f9d6d3ce25ceb5e7264ab9323f54e9b431c490cc', version='release-0.8.1'} 	https://github.com/apache/flink/commit/f9d6d3ce25ceb5e7264ab9323f54e9b431c490cc
+CommitInfo{repo='GitHub', hash='0a35271dba4675311eb3094d8669a876efd285a9', version='release-0.9.0'} 	https://github.com/apache/flink/commit/0a35271dba4675311eb3094d8669a876efd285a9
+CommitInfo{repo='GitHub', hash='be932cd52ba41cfc6f45846acfd4b8a3a473ced2', version='release-0.9.1'} 	https://github.com/apache/flink/commit/be932cd52ba41cfc6f45846acfd4b8a3a473ced2
+CommitInfo{repo='GitHub', hash='94cd554aee39413588bd30890dc7aed886b1c91d', version='release-1.0.0'} 	https://github.com/apache/flink/commit/94cd554aee39413588bd30890dc7aed886b1c91d
+CommitInfo{repo='GitHub', hash='4afa401ab3c2b53de115d17a3157e8b80431dd10', version='release-1.0.1'} 	https://github.com/apache/flink/commit/4afa401ab3c2b53de115d17a3157e8b80431dd10
+CommitInfo{repo='GitHub', hash='d39af152a166ddafaa2466cdae82695880893f3e', version='release-1.0.2'} 	https://github.com/apache/flink/commit/d39af152a166ddafaa2466cdae82695880893f3e
+CommitInfo{repo='GitHub', hash='f3a6b5f1e8d85d10e1449e2f9629140ffff8b781', version='release-1.0.3'} 	https://github.com/apache/flink/commit/f3a6b5f1e8d85d10e1449e2f9629140ffff8b781
+CommitInfo{repo='GitHub', hash='45f7825111232f0dd225068a72d8a092f67d49d0', version='release-1.1.0'} 	https://github.com/apache/flink/commit/45f7825111232f0dd225068a72d8a092f67d49d0
+CommitInfo{repo='GitHub', hash='61bfb36d6dba3654675b602269a70be505e02e68', version='release-1.1.1'} 	https://github.com/apache/flink/commit/61bfb36d6dba3654675b602269a70be505e02e68
+CommitInfo{repo='GitHub', hash='7294b82bf1efc7607ff808c53df1c2813ded2f7d', version='release-1.1.2'} 	https://github.com/apache/flink/commit/7294b82bf1efc7607ff808c53df1c2813ded2f7d
+CommitInfo{repo='GitHub', hash='8e8d4543a87f66dfa34be98c44bbb85c73f597b6', version='release-1.1.3'} 	https://github.com/apache/flink/commit/8e8d4543a87f66dfa34be98c44bbb85c73f597b6
+CommitInfo{repo='GitHub', hash='8fb0fc85c13bed8f1357ae0fb9f8203c3c8cb1c7', version='release-1.1.4'} 	https://github.com/apache/flink/commit/8fb0fc85c13bed8f1357ae0fb9f8203c3c8cb1c7
+CommitInfo{repo='GitHub', hash='ed18e976cc41d4d7335374cee7749e93a2fe3f3e', version='release-1.1.5'} 	https://github.com/apache/flink/commit/ed18e976cc41d4d7335374cee7749e93a2fe3f3e
+CommitInfo{repo='GitHub', hash='1c659cf4acca2cbc8c36494156d9ec28423e43c6', version='release-1.2.0'} 	https://github.com/apache/flink/commit/1c659cf4acca2cbc8c36494156d9ec28423e43c6
+CommitInfo{repo='GitHub', hash='76eba4e08b1c3f1c45ebf7914f30d3e871326c29', version='release-1.2.1'} 	https://github.com/apache/flink/commit/76eba4e08b1c3f1c45ebf7914f30d3e871326c29
+CommitInfo{repo='GitHub', hash='760eea8a173c028f1434dc268a2ec719cdcc2951', version='release-1.3.0'} 	https://github.com/apache/flink/commit/760eea8a173c028f1434dc268a2ec719cdcc2951
+CommitInfo{repo='GitHub', hash='1ca6e5b63699cd9c72cfae2c978feb38e3f14782', version='release-1.3.1'} 	https://github.com/apache/flink/commit/1ca6e5b63699cd9c72cfae2c978feb38e3f14782
+CommitInfo{repo='GitHub', hash='292d182b36108c30b4b381a4082b2a0672dc581e', version='release-1.3.2'} 	https://github.com/apache/flink/commit/292d182b36108c30b4b381a4082b2a0672dc581e
+CommitInfo{repo='GitHub', hash='c1332f5caa677c4c170af6ee347f795c8cd5cca0', version='release-1.3.2-rc1'} 	https://github.com/apache/flink/commit/c1332f5caa677c4c170af6ee347f795c8cd5cca0
+CommitInfo{repo='GitHub', hash='e38825d0c8e7fe2191a4c657984d9939ed8dd0ad', version='release-1.3.2-rc2'} 	https://github.com/apache/flink/commit/e38825d0c8e7fe2191a4c657984d9939ed8dd0ad
+CommitInfo{repo='GitHub', hash='d0f7528a69a93045f4af686347753f8737ca0b2b', version='release-1.3.2-rc3'} 	https://github.com/apache/flink/commit/d0f7528a69a93045f4af686347753f8737ca0b2b
+CommitInfo{repo='GitHub', hash='3ba1ec70c63e39980781500aefe2e8b31f9bc9b7', version='release-1.3.3'} 	https://github.com/apache/flink/commit/3ba1ec70c63e39980781500aefe2e8b31f9bc9b7
+CommitInfo{repo='GitHub', hash='382f0abe68e7a40dcfd8290b539f058d9cac5811', version='release-1.4.0'} 	https://github.com/apache/flink/commit/382f0abe68e7a40dcfd8290b539f058d9cac5811
+CommitInfo{repo='GitHub', hash='a0b322cf77851d3b8589812a0c8e443e9e320e67', version='release-1.4.0-rc1'} 	https://github.com/apache/flink/commit/a0b322cf77851d3b8589812a0c8e443e9e320e67
+CommitInfo{repo='GitHub', hash='ea751b7b23b23446ed3fcdeed564bbe8bf4adf9c', version='release-1.4.0-rc2'} 	https://github.com/apache/flink/commit/ea751b7b23b23446ed3fcdeed564bbe8bf4adf9c
+CommitInfo{repo='GitHub', hash='8fb9635dd2e64dbb20887c84f646f02034b57cb1', version='release-1.4.0-rc3'} 	https://github.com/apache/flink/commit/8fb9635dd2e64dbb20887c84f646f02034b57cb1
+CommitInfo{repo='GitHub', hash='66a4021aeb5996c8e0d2cb3bd3777ae472980dd0', version='release-1.4.1'} 	https://github.com/apache/flink/commit/66a4021aeb5996c8e0d2cb3bd3777ae472980dd0
+CommitInfo{repo='GitHub', hash='dbab73e5d097518838283a7a4f056cca0ac3f9a5', version='release-1.4.1-rc1'} 	https://github.com/apache/flink/commit/dbab73e5d097518838283a7a4f056cca0ac3f9a5
+CommitInfo{repo='GitHub', hash='72cc8599f40e987d03139aa76755d16de3d9bb49', version='release-1.4.2'} 	https://github.com/apache/flink/commit/72cc8599f40e987d03139aa76755d16de3d9bb49
+CommitInfo{repo='GitHub', hash='d5ef96aeb63ad3dd4d0676e0c32a35e888ecb409', version='release-1.4.2-rc1'} 	https://github.com/apache/flink/commit/d5ef96aeb63ad3dd4d0676e0c32a35e888ecb409
+CommitInfo{repo='GitHub', hash='0f4978eb62d9e93efafc56d6524cf65d5e5a3a69', version='release-1.4.2-rc2'} 	https://github.com/apache/flink/commit/0f4978eb62d9e93efafc56d6524cf65d5e5a3a69
+CommitInfo{repo='GitHub', hash='c5969f2b50c209213b2839a854a7a3837ab904fa', version='release-1.5.0'} 	https://github.com/apache/flink/commit/c5969f2b50c209213b2839a854a7a3837ab904fa
+CommitInfo{repo='GitHub', hash='2af481a0fa88dd2f7964c9105cf4d735c3ac8303', version='release-1.5.0-rc1'} 	https://github.com/apache/flink/commit/2af481a0fa88dd2f7964c9105cf4d735c3ac8303
+CommitInfo{repo='GitHub', hash='9dd06582481c7ae904d4f8312d4c2d085a5bef8d', version='release-1.5.0-rc2'} 	https://github.com/apache/flink/commit/9dd06582481c7ae904d4f8312d4c2d085a5bef8d
+CommitInfo{repo='GitHub', hash='c2141d689f7a7e24fe305c6abdf249ff636e2ac1', version='release-1.5.0-rc3'} 	https://github.com/apache/flink/commit/c2141d689f7a7e24fe305c6abdf249ff636e2ac1
+CommitInfo{repo='GitHub', hash='7542ae9d6241a157f5f4c55cc5247459f85ea25b', version='release-1.5.0-rc4'} 	https://github.com/apache/flink/commit/7542ae9d6241a157f5f4c55cc5247459f85ea25b
+CommitInfo{repo='GitHub', hash='008ae080300c55c48dacd0f1e416f89f599d3121', version='release-1.5.0-rc5'} 	https://github.com/apache/flink/commit/008ae080300c55c48dacd0f1e416f89f599d3121
+CommitInfo{repo='GitHub', hash='4a1b9716992da9edc354e2189bd2a47c4b2a4fc6', version='release-1.5.0-rc6'} 	https://github.com/apache/flink/commit/4a1b9716992da9edc354e2189bd2a47c4b2a4fc6
+CommitInfo{repo='GitHub', hash='3333c2c8cd099b78ed796c5b1412ec20c5b3351a', version='release-1.5.1'} 	https://github.com/apache/flink/commit/3333c2c8cd099b78ed796c5b1412ec20c5b3351a
+CommitInfo{repo='GitHub', hash='45b13b55475dffb7920cc3a889e0fa3a99a7fb09', version='release-1.5.1-rc1'} 	https://github.com/apache/flink/commit/45b13b55475dffb7920cc3a889e0fa3a99a7fb09
+CommitInfo{repo='GitHub', hash='b232f3068a441f67c60ea42eecbff747cba2cc7e', version='release-1.5.1-rc2'} 	https://github.com/apache/flink/commit/b232f3068a441f67c60ea42eecbff747cba2cc7e
+CommitInfo{repo='GitHub', hash='37bc35cdbe234088f73b6066c894f757ac0a7df8', version='release-1.5.1-rc3'} 	https://github.com/apache/flink/commit/37bc35cdbe234088f73b6066c894f757ac0a7df8
+CommitInfo{repo='GitHub', hash='a6f0199fb4b8f74dc95ae4a8c4c1f7df44116945', version='release-1.5.2'} 	https://github.com/apache/flink/commit/a6f0199fb4b8f74dc95ae4a8c4c1f7df44116945
+CommitInfo{repo='GitHub', hash='5d77c589fbe31809da820af862c2ca7f44315d66', version='release-1.5.2-rc1'} 	https://github.com/apache/flink/commit/5d77c589fbe31809da820af862c2ca7f44315d66
+CommitInfo{repo='GitHub', hash='8607fd864e1f2c2fd031bb8ea7eac54514741170', version='release-1.5.2-rc2'} 	https://github.com/apache/flink/commit/8607fd864e1f2c2fd031bb8ea7eac54514741170
+CommitInfo{repo='GitHub', hash='1c0dff64d5bbaed28a6885d80d072da2c578dcf0', version='release-1.5.3'} 	https://github.com/apache/flink/commit/1c0dff64d5bbaed28a6885d80d072da2c578dcf0
+CommitInfo{repo='GitHub', hash='1c0dff64d5bbaed28a6885d80d072da2c578dcf0', version='release-1.5.3'} 	https://github.com/apache/flink/commit/1c0dff64d5bbaed28a6885d80d072da2c578dcf0
+CommitInfo{repo='GitHub', hash='1c0dff64d5bbaed28a6885d80d072da2c578dcf0', version='release-1.5.3'} 	https://github.com/apache/flink/commit/1c0dff64d5bbaed28a6885d80d072da2c578dcf0
+CommitInfo{repo='GitHub', hash='947a0cc4cbc1606b871dd797955adc9d39d6d4a3', version='release-1.5.3-rc1'} 	https://github.com/apache/flink/commit/947a0cc4cbc1606b871dd797955adc9d39d6d4a3
+CommitInfo{repo='GitHub', hash='7fe26b9e5ff9cad8ff20149d391f34609da0d244', version='release-1.5.4'} 	https://github.com/apache/flink/commit/7fe26b9e5ff9cad8ff20149d391f34609da0d244
+CommitInfo{repo='GitHub', hash='853b1c42168b3e9b9b783c434f11485d118fb250', version='release-1.5.4-rc1'} 	https://github.com/apache/flink/commit/853b1c42168b3e9b9b783c434f11485d118fb250
+CommitInfo{repo='GitHub', hash='a26008d9167a19f7392167174b932bc31604ffe1', version='release-1.5.5'} 	https://github.com/apache/flink/commit/a26008d9167a19f7392167174b932bc31604ffe1
+CommitInfo{repo='GitHub', hash='ddb20479ff02cd15b6ce4272fed4e788c5ac6d55', version='release-1.5.5-rc1'} 	https://github.com/apache/flink/commit/ddb20479ff02cd15b6ce4272fed4e788c5ac6d55
+CommitInfo{repo='GitHub', hash='38479348fdde80daaec58a1870c9e98fcf911f94', version='release-1.6.0'} 	https://github.com/apache/flink/commit/38479348fdde80daaec58a1870c9e98fcf911f94
+CommitInfo{repo='GitHub', hash='5e837766324fd4a15003031fc7544cb860b1e42f', version='release-1.6.0-rc1'} 	https://github.com/apache/flink/commit/5e837766324fd4a15003031fc7544cb860b1e42f
+CommitInfo{repo='GitHub', hash='3493263e65d63aed17d4e16435e1af586f714a49', version='release-1.6.0-rc2'} 	https://github.com/apache/flink/commit/3493263e65d63aed17d4e16435e1af586f714a49
+CommitInfo{repo='GitHub', hash='3493263e65d63aed17d4e16435e1af586f714a49', version='release-1.6.0-rc2'} 	https://github.com/apache/flink/commit/3493263e65d63aed17d4e16435e1af586f714a49
+CommitInfo{repo='GitHub', hash='de15a5df792268109e73c4391e43bf3d7fd83649', version='release-1.6.0-rc3'} 	https://github.com/apache/flink/commit/de15a5df792268109e73c4391e43bf3d7fd83649
+CommitInfo{repo='GitHub', hash='de15a5df792268109e73c4391e43bf3d7fd83649', version='release-1.6.0-rc3'} 	https://github.com/apache/flink/commit/de15a5df792268109e73c4391e43bf3d7fd83649
+CommitInfo{repo='GitHub', hash='2ad4d1296ad3370830edd1f636f856abdd6e0b2e', version='release-1.6.0-rc4'} 	https://github.com/apache/flink/commit/2ad4d1296ad3370830edd1f636f856abdd6e0b2e
+CommitInfo{repo='GitHub', hash='a95eedbcfd35e4cc77ca74b11fc375c25144d38b', version='release-1.6.1'} 	https://github.com/apache/flink/commit/a95eedbcfd35e4cc77ca74b11fc375c25144d38b
+CommitInfo{repo='GitHub', hash='bec5a4f9a898626a825072c1d51eb7f4f11f5be0', version='release-1.6.1-rc1'} 	https://github.com/apache/flink/commit/bec5a4f9a898626a825072c1d51eb7f4f11f5be0
+CommitInfo{repo='GitHub', hash='9f5e4202d093a5b9c8e296d0d748fb500209e178', version='release-1.6.2'} 	https://github.com/apache/flink/commit/9f5e4202d093a5b9c8e296d0d748fb500209e178
+CommitInfo{repo='GitHub', hash='ba5f976bf7c7ea077e3eb5a59fb4f00251516c8e', version='release-1.6.2-rc1'} 	https://github.com/apache/flink/commit/ba5f976bf7c7ea077e3eb5a59fb4f00251516c8e
+CommitInfo{repo='GitHub', hash='6e2f8ef7b1f1e20ddef98577df6e4e08daaacac3', version='release-1.7.0'} 	https://github.com/apache/flink/commit/6e2f8ef7b1f1e20ddef98577df6e4e08daaacac3
+CommitInfo{repo='GitHub', hash='9b2551e8a3dc8bd54ed9e7cb8f541cd7e2df6c05', version='release-1.7.0-rc1'} 	https://github.com/apache/flink/commit/9b2551e8a3dc8bd54ed9e7cb8f541cd7e2df6c05
+CommitInfo{repo='GitHub', hash='1f0423d7248fbc58a4282423c476ca1781ef9728', version='release-1.7.0-rc2'} 	https://github.com/apache/flink/commit/1f0423d7248fbc58a4282423c476ca1781ef9728
+CommitInfo{repo='GitHub', hash='cc7f2d81a2e75056e82bda54433cb80070bae1ee', version='release-1.7.0-rc3'} 	https://github.com/apache/flink/commit/cc7f2d81a2e75056e82bda54433cb80070bae1ee
+CommitInfo{repo='GitHub', hash='0cc4b613dc0ff5b6608cb01bcf8b46204578fe11', version='v0.4-rc1'} 	https://github.com/apache/flink/commit/0cc4b613dc0ff5b6608cb01bcf8b46204578fe11
 
 Project A:
 ProjectVersionFixed(version=0.6-hadoop2-incubating, dependency=null, time=2014-08-15 12:18:51 UTC)

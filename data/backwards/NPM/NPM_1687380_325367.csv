@@ -2,383 +2,388 @@
 Project information
 react-vapor (1687380)	tslint (325367)	Package Manager: NPM
 RepoID: 13411805
+Repo Owner/Name: coveo/react-vapor
+Repository type: GitHub
+
+ https://github.com/coveo/react-vapor/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='7a090e3e5fe086c37840aa1b509a4f3c5c1e92b4', version='v0.1.0'}
-CommitInfo{repo='GitHub', hash='70161fef3e4d04dac694455df34f3b87bf100bff', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='c46bb1158e003466dc644e56ac68875423e07dea', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='ab9cbc44b51166ba56c86c8e80479aca401583a8', version='v0.1.1'}
-CommitInfo{repo='GitHub', hash='ea64cbf3035fd86d3140498f80df980d00e30a82', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='0c8907b9af14efd0e011fc341afa21a53ab246c8', version='v0.1.2'}
-CommitInfo{repo='GitHub', hash='4510b9350181d9345f53fcf5aed9a3bf41e3db6f', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='ee360647e8584ae0446ea65f2fd527875721e243', version='v0.1.3'}
-CommitInfo{repo='GitHub', hash='a55f9c77d19513a78c511ff9cc2a700ec9a39e52', version='v0.1.4'}
-CommitInfo{repo='GitHub', hash='2c36eaa8bfd7550e01b5589d590a8d3cb63adf9f', version='v0.1.5'}
-CommitInfo{repo='GitHub', hash='43daa4df1ce275359a5cebf282fb11889a6b7ae6', version='v0.1.6'}
-CommitInfo{repo='GitHub', hash='d565271bf029200a283cfcddd253a37d061bda31', version='v0.1.7'}
-CommitInfo{repo='GitHub', hash='807d37ab4e6d1f86fdf6ed6687b33d09d85a525d', version='v0.2.0'}
-CommitInfo{repo='GitHub', hash='ba2f57f8a02aabb74cb3f167a0cdf479553ce58b', version='v0.2.1'}
-CommitInfo{repo='GitHub', hash='d6e3f97ed15205c01141408c71f354cccec2dd2b', version='v0.3.0'}
-CommitInfo{repo='GitHub', hash='50e8d38c34d9809e29fb4744b70f8ec5235b60c6', version='v0.4.0'}
-CommitInfo{repo='GitHub', hash='1518deafbb9fd73f3522d5c9d51e9fe022b7df3f', version='v0.4.1'}
-CommitInfo{repo='GitHub', hash='39775482d4d74e224eed14ae7d5e42b9624cd865', version='v0.4.2'}
-CommitInfo{repo='GitHub', hash='1ad1fa61568e9c2493543ab2ed9db99a683c4520', version='v0.4.3'}
-CommitInfo{repo='GitHub', hash='7b34346e31550cf6005ba7041b1a3d59b0af64cb', version='v0.4.4'}
-CommitInfo{repo='GitHub', hash='dc43782879e46eec04dc1ea7dc308fce4230186b', version='v0.5.0'}
-CommitInfo{repo='GitHub', hash='b320708678400ad88a6b2126f4ab3d3d9ea24e3e', version='v0.5.1'}
-CommitInfo{repo='GitHub', hash='fc1a72fca3b48f30a9c1a28604ebae7094333a20', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='fb794d98c446fdbd7bea484de7cf2543ff446dbe', version='v0.6.1'}
-CommitInfo{repo='GitHub', hash='d2825eb1fd4ed3b4e0f62d62e2deb161d4906c59', version='v0.6.2'}
-CommitInfo{repo='GitHub', hash='3cd8fb626c64b79e682002989e0c746f5c65dd3c', version='v0.6.3'}
-CommitInfo{repo='GitHub', hash='7cbadae6c1be3d55b600a20613b1415f3b1fd170', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='b318bac5a86757d6a0d8811f2195904a2c18aa9c', version='v0.7.1'}
-CommitInfo{repo='GitHub', hash='38c0c6a34b8ca73062a4eb56203cb0dd300e0b6e', version='v0.7.10'}
-CommitInfo{repo='GitHub', hash='2af144c13e494060be43d716d09643b2237bb7ec', version='v0.7.11'}
-CommitInfo{repo='GitHub', hash='c3ec1a0dfadf3bfa9f44dd48dbb6088adf99e670', version='v0.7.12'}
-CommitInfo{repo='GitHub', hash='9726b00c0b6bc1d65ab8ba22b316c38755381d29', version='v0.7.13'}
-CommitInfo{repo='GitHub', hash='1a861a9c198d3ae8960354a5ecc8a9521e1d1f0a', version='v0.7.14'}
-CommitInfo{repo='GitHub', hash='b5c1013fcab07210ced91ff051b528e9f72e1362', version='v0.7.2'}
-CommitInfo{repo='GitHub', hash='0bce52f5ff6e13767239c3ba540c34a91c91d473', version='v0.7.3'}
-CommitInfo{repo='GitHub', hash='2879dd46a4493337c00de23b47038b3d3a7e9675', version='v0.7.4'}
-CommitInfo{repo='GitHub', hash='f312dd9e7162b1189bd83f1996c99f2f8d818c0c', version='v0.7.5'}
-CommitInfo{repo='GitHub', hash='121f8db7631b344f952978e50bb7396ec34cf4ac', version='v0.7.6'}
-CommitInfo{repo='GitHub', hash='e998df40c7a9ecda14cf655eff0532d1bd498932', version='v0.7.7'}
-CommitInfo{repo='GitHub', hash='37a49e4e130bec796c592bf2a5c51289bbc6931e', version='v0.7.8'}
-CommitInfo{repo='GitHub', hash='d0005db73cd5cd6ed86ed9ddfcdb55219af13eb1', version='v0.7.9'}
-CommitInfo{repo='GitHub', hash='aa9bdaaa170ac710b1842d4761be9b89d4c2b100', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='f1f43c5b6f2e2696b7636cb12ab8b3cb60a2d096', version='v0.8.1'}
-CommitInfo{repo='GitHub', hash='c330c20ebf82248ddce9985be2c1ab72436482cc', version='v0.8.2'}
-CommitInfo{repo='GitHub', hash='f553c0ca0d0b8e93cca2a5735dc26bb521e186ab', version='v0.8.3'}
-CommitInfo{repo='GitHub', hash='037917766ec9c31ea13e6b0df1a213aa9562b042', version='v0.8.4'}
-CommitInfo{repo='GitHub', hash='eec179fa78ab795173793e227ac259713abe1ab7', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='774fab99f570b51265cfdd2921cff10e3b0bfdcb', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='f28876b69ebdc28fc801d8e80cfcd4ff2a4b9786', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='d2e7c33474046236bc05e1c35c26171de67ad3aa', version='v1.0.2'}
-CommitInfo{repo='GitHub', hash='a79c87c4c1f3f9f53617ede38b9e9f928d3878f3', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='24913beddf0290e627060ec74cd5a9d8ae7572e6', version='v1.10.3'}
-CommitInfo{repo='GitHub', hash='b1b350026722b95258a529c1ead52d207fc458af', version='v1.10.4'}
-CommitInfo{repo='GitHub', hash='50074a53906f0989f363b60a80df3d462cbe15b1', version='v1.10.5'}
-CommitInfo{repo='GitHub', hash='6f137c8a1ae7afc2cbab619cf4fe2cd88c0681ca', version='v1.10.6'}
-CommitInfo{repo='GitHub', hash='efb2734e0b4fc339948698bc71b0d5d4530157cd', version='v1.10.7'}
-CommitInfo{repo='GitHub', hash='69374ca7def54392862a4223e676163a9337c59b', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='50bf91f36b5578c3d99783229c34c368ad003ed7', version='v1.11.0'}
-CommitInfo{repo='GitHub', hash='7a021c1add243eb28d36448c110243ae9228fe78', version='v1.11.1'}
-CommitInfo{repo='GitHub', hash='c7e9a0da313fd87fe96bd22dc4d1de34e71b286b', version='v1.11.10'}
-CommitInfo{repo='GitHub', hash='245ac5b883bba3ec839fbed56e76e2422e838489', version='v1.11.11'}
-CommitInfo{repo='GitHub', hash='b0b4310cd5dd035efe55b7309f457060de070936', version='v1.11.12'}
-CommitInfo{repo='GitHub', hash='2c80e0d2000a788d9f3fac4364ece64afa9248b2', version='v1.11.13'}
-CommitInfo{repo='GitHub', hash='4f2adc9a2deb3970a87c71c362043d33499c1c00', version='v1.11.14'}
-CommitInfo{repo='GitHub', hash='ad6d1f8f63286d16a4eaccb003a54f39ff487946', version='v1.11.15'}
-CommitInfo{repo='GitHub', hash='334dd88d3450abb127774a7c31bc5ca930decbfe', version='v1.11.16'}
-CommitInfo{repo='GitHub', hash='f8bb3d1185084f8a29b945cfe5b8f23fb8e14247', version='v1.11.17'}
-CommitInfo{repo='GitHub', hash='ccccdd0e648d5cd9467436bb75c90c9c0ea44756', version='v1.11.18'}
-CommitInfo{repo='GitHub', hash='9f15a7607b6b64e99912a9efb1fe4cc3e5f7c52c', version='v1.11.19'}
-CommitInfo{repo='GitHub', hash='bb2de7b350d0146f83f70bf66071f02b15679e60', version='v1.11.2'}
-CommitInfo{repo='GitHub', hash='17c3a85116d78e9eaaf2b33c79b4ccceef5da195', version='v1.11.3'}
-CommitInfo{repo='GitHub', hash='b477ca417711f481f0ffc7d57ed2d3e4f812e36d', version='v1.11.4'}
-CommitInfo{repo='GitHub', hash='a6b0eda4ee7ae4df1eae8b27c984453d09d8f780', version='v1.11.5'}
-CommitInfo{repo='GitHub', hash='815b2ea749b381cbbb666a9fe435b0db8080c11d', version='v1.11.6'}
-CommitInfo{repo='GitHub', hash='dc476fd6b089e82ad2624908d06734f52ecda90e', version='v1.11.7'}
-CommitInfo{repo='GitHub', hash='f4373046de002d2b2e7c2abcb2705fde79cb1156', version='v1.11.8'}
-CommitInfo{repo='GitHub', hash='d93395d5b638709e2bd58a316975222d97d09f53', version='v1.11.9'}
-CommitInfo{repo='GitHub', hash='e8a28c08084321a3a5c6d32b5371243f16f08011', version='v1.12.0'}
-CommitInfo{repo='GitHub', hash='cea28f0d23198d38c03798030769b0ccf6fbacd6', version='v1.12.1'}
-CommitInfo{repo='GitHub', hash='bd588dcf2153d1a6fdc1f646f5e4416355a6d7f3', version='v1.13.0'}
-CommitInfo{repo='GitHub', hash='fb0c8ae2099463e5cd8b1f1c6f468dd5534358ad', version='v1.13.1'}
-CommitInfo{repo='GitHub', hash='eb60df3faef5cabe7298f4926229fce2029993e1', version='v1.14.0'}
-CommitInfo{repo='GitHub', hash='561d07d841c55b47ec226c1451b8b80d20cae1e9', version='v1.14.2'}
-CommitInfo{repo='GitHub', hash='67c21ab734b10794d66893be0ad3e9982caf35d1', version='v1.14.4'}
-CommitInfo{repo='GitHub', hash='578b8be28973de3d97476d8e3e09f96cffac9b12', version='v1.15.0'}
-CommitInfo{repo='GitHub', hash='c897676e2cf4c102534f64a1dea31d633a9848bf', version='v1.15.1'}
-CommitInfo{repo='GitHub', hash='a51417e6165f66fde30fa2823b26b8a706e9ed3b', version='v1.15.2'}
-CommitInfo{repo='GitHub', hash='1091108bc8bedf90da0727508c8be2aa2421759e', version='v1.15.3'}
-CommitInfo{repo='GitHub', hash='e1bd6ba7436258a398ce066a7552ab629eb37b13', version='v1.15.4'}
-CommitInfo{repo='GitHub', hash='44d66967273a0fa5b93d001408907b16451bbcc6', version='v1.15.5'}
-CommitInfo{repo='GitHub', hash='fcb6433007c67eb2e14e26b0c31eb9d51607bee9', version='v1.15.6'}
-CommitInfo{repo='GitHub', hash='e7dca0e6d2f1a51e27172b147b76c46cbbfa1e8b', version='v1.15.7'}
-CommitInfo{repo='GitHub', hash='6c13853d48454d384fabf6b07887577ea7384a33', version='v1.16.0'}
-CommitInfo{repo='GitHub', hash='c3a37f3a3dbe9beda994d2640358a3d2752b7fe0', version='v1.16.1'}
-CommitInfo{repo='GitHub', hash='b36d55c0031e807360094e28790feb527988d64c', version='v1.16.2'}
-CommitInfo{repo='GitHub', hash='eef394cc76f0244bca1742754df1f97ad1ac667b', version='v1.16.3'}
-CommitInfo{repo='GitHub', hash='8918341454fc95a8ec0a68df319c71b6194bfb44', version='v1.16.4'}
-CommitInfo{repo='GitHub', hash='02aad4bc21873984f4f11a88a6efb87aa35411a0', version='v1.16.5'}
-CommitInfo{repo='GitHub', hash='92b4bcca7e21348714ab3f745121bc714be0f8cb', version='v1.16.6'}
-CommitInfo{repo='GitHub', hash='63a4d00bd814fadf830440e8abbbb5729caa351d', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='6753fffb99a5f8a9e0297bff3961319ff593433a', version='v1.3.0'}
-CommitInfo{repo='GitHub', hash='03a44a34a0cfac0b0606edf7a6e562e2d31ffdfb', version='v1.3.1'}
-CommitInfo{repo='GitHub', hash='d1fab94916f8dd3d04ed538d774d2a4f474d4050', version='v1.3.2'}
-CommitInfo{repo='GitHub', hash='83e98a204fd705208e6b2481ea2e5243b4577279', version='v1.3.3'}
-CommitInfo{repo='GitHub', hash='81da7471a38319099b506629f2aecd4d2293a83c', version='v1.3.4'}
-CommitInfo{repo='GitHub', hash='5c92a5550f755bc9b32a6a87ac4f2e38421abb9b', version='v1.3.5'}
-CommitInfo{repo='GitHub', hash='657d52dd06e59799e853860807d03a06ddce61fe', version='v1.3.6'}
-CommitInfo{repo='GitHub', hash='d3f4c287142aff6ed91f3ac6d102a287d743a50d', version='v1.3.7'}
-CommitInfo{repo='GitHub', hash='49cbc16afb70a8cc193305d750eaeb18c4a966ca', version='v1.3.8'}
-CommitInfo{repo='GitHub', hash='710f0446d7af72f1601422d2382dee531a329efd', version='v1.4.0'}
-CommitInfo{repo='GitHub', hash='58f448aa7d5b81528ed85fc7f8ac422dc7f60891', version='v1.4.1'}
-CommitInfo{repo='GitHub', hash='932623c75a941373c02a29c490834c374bb45d34', version='v1.4.10'}
-CommitInfo{repo='GitHub', hash='59a067fb6c1bb928c2e3b6699a6d2c6df17d2788', version='v1.4.2'}
-CommitInfo{repo='GitHub', hash='877eda293c302b82d69b0040ed0cfaf7b492dceb', version='v1.4.3'}
-CommitInfo{repo='GitHub', hash='c44a1724ce81742439721d8a67d67227ec0415a5', version='v1.4.4'}
-CommitInfo{repo='GitHub', hash='1d70b33350c0455e11e1ab5b8a8039c5d8c7a0a6', version='v1.4.5'}
-CommitInfo{repo='GitHub', hash='83078783e3d3e6197f046d588abf327cb67c1869', version='v1.4.6'}
-CommitInfo{repo='GitHub', hash='3c08706df966b781a158af242518d24ca452ac34', version='v1.4.7'}
-CommitInfo{repo='GitHub', hash='39a54a042982938687d053c7fc11786d785e9107', version='v1.4.8'}
-CommitInfo{repo='GitHub', hash='4dc8060c25c1f7ce8ceb3c6894570125e2ae7163', version='v1.4.9'}
-CommitInfo{repo='GitHub', hash='a2cd821c25c2d8e03c05bb204b3ce5e37da48934', version='v1.5.0'}
-CommitInfo{repo='GitHub', hash='3a87e5039cde2261c68ad8e81bd8c576f1d09e29', version='v1.5.1'}
-CommitInfo{repo='GitHub', hash='a09c82769a2f84154af45356b7823ac01441d3d8', version='v1.5.10'}
-CommitInfo{repo='GitHub', hash='3a2f25a4563c7c02b7c2562334c4f965e7796992', version='v1.5.2'}
-CommitInfo{repo='GitHub', hash='de80b0c211cc1f3bf9180b7a15c8cabf90a7d2f4', version='v1.5.3'}
-CommitInfo{repo='GitHub', hash='4b5b9aefe332d591c98e0106c5ea349468918778', version='v1.5.4'}
-CommitInfo{repo='GitHub', hash='a8227229800962c3f9ae14cd8c91bdf3762e6894', version='v1.5.5'}
-CommitInfo{repo='GitHub', hash='fa28b74ae4c8c1609819318eb34bb02da2e6aa62', version='v1.5.6'}
-CommitInfo{repo='GitHub', hash='ceb01ba388649b0120561c7d0037d0178bed8b41', version='v1.5.7'}
-CommitInfo{repo='GitHub', hash='8cc56e2cf2521baf861379e71356db520649e728', version='v1.5.8'}
-CommitInfo{repo='GitHub', hash='ca281ac029e357e1d108ad77a34372d95ae184ec', version='v1.5.9'}
-CommitInfo{repo='GitHub', hash='08af2bc2c1fd5aaeaf57e7b18e5bb4fd63e71b75', version='v1.6.0'}
-CommitInfo{repo='GitHub', hash='32132053c3c0629fc6e2f10a0149c34c87706b84', version='v1.7.0'}
-CommitInfo{repo='GitHub', hash='3187a9b274f03f9e3966d03e6e656d9d3cbb3528', version='v1.7.1'}
-CommitInfo{repo='GitHub', hash='7dcee795cfdd2e3ea017ccc30bec1f71bb0790d6', version='v1.7.10'}
-CommitInfo{repo='GitHub', hash='75b50bbcadf94ac026ecaf4929c7084d388ee19b', version='v1.7.18'}
-CommitInfo{repo='GitHub', hash='ce973675b9fa960045d95cebe9485b6f60242ced', version='v1.7.19'}
-CommitInfo{repo='GitHub', hash='f46a42ca93fc1fc823e8a8d88bbd7705afadf788', version='v1.7.2'}
-CommitInfo{repo='GitHub', hash='065b709a23c0399ab2e15a76ec592dcec71d6b77', version='v1.7.20'}
-CommitInfo{repo='GitHub', hash='b9284aedfb9c8c5002c4e2017b189c036875797d', version='v1.7.3'}
-CommitInfo{repo='GitHub', hash='06d32ea7a3fcf13e0844846315421e95172abc75', version='v1.7.4'}
-CommitInfo{repo='GitHub', hash='7987f1dbd0e963b3475a865a3d0a0a38d7bf2599', version='v1.7.5'}
-CommitInfo{repo='GitHub', hash='2607c48a6bf8b5f89638983bee083932e30c5c92', version='v1.7.6'}
-CommitInfo{repo='GitHub', hash='ffc522d1084083e2fa2bacbfcf4835b0a7d7e979', version='v1.7.7'}
-CommitInfo{repo='GitHub', hash='0f01cd4e575e99c7ddd745fe24a14d55d7e03b5a', version='v1.7.8'}
-CommitInfo{repo='GitHub', hash='3472fe9a19397bef6bffdaec88f53d1e8382e79b', version='v1.7.9'}
-CommitInfo{repo='GitHub', hash='88b8f6db4744b3ebae7ac001fad4332062fac7c5', version='v1.8.0'}
-CommitInfo{repo='GitHub', hash='297f903b1062097c9d26d0ba9e5c0d4e7912c708', version='v1.8.1'}
-CommitInfo{repo='GitHub', hash='e60022c665e82b85b92190d234d9dd8e4df9bab7', version='v1.8.2'}
-CommitInfo{repo='GitHub', hash='6f3bce11b2e42ab5c1dd0371ea9decc1a363154e', version='v1.8.3'}
-CommitInfo{repo='GitHub', hash='9baeb406c7f5ee0ae41938a09b3b755e7065bce1', version='v1.8.4'}
-CommitInfo{repo='GitHub', hash='9baeb406c7f5ee0ae41938a09b3b755e7065bce1', version='v1.8.4'}
-CommitInfo{repo='GitHub', hash='5fc853d70cb70afab9b30a651c4805622af92e61', version='v1.8.5'}
-CommitInfo{repo='GitHub', hash='7f3307bcdb8a2006ba2c60a3b5ad4acc6100b0ad', version='v1.8.6'}
-CommitInfo{repo='GitHub', hash='7f3307bcdb8a2006ba2c60a3b5ad4acc6100b0ad', version='v1.8.6'}
-CommitInfo{repo='GitHub', hash='2b5211174d8af409ad7b18d0390851ff0ff72ee4', version='v1.8.8'}
-CommitInfo{repo='GitHub', hash='2b5211174d8af409ad7b18d0390851ff0ff72ee4', version='v1.8.8'}
-CommitInfo{repo='GitHub', hash='f359c41ba3f9968489ada77c1a91931a52c731f6', version='v1.9.0'}
-CommitInfo{repo='GitHub', hash='f359c41ba3f9968489ada77c1a91931a52c731f6', version='v1.9.0'}
-CommitInfo{repo='GitHub', hash='34295c1e890eaf935525003c789e5ed1f45bfe03', version='v1.9.1'}
-CommitInfo{repo='GitHub', hash='34295c1e890eaf935525003c789e5ed1f45bfe03', version='v1.9.1'}
-CommitInfo{repo='GitHub', hash='99145c9c238e689e75d160d79d09638749216b71', version='v2.0.0'}
-CommitInfo{repo='GitHub', hash='1a71ca4249fa08f293aeae552515464066a6beaa', version='v2.1.0'}
-CommitInfo{repo='GitHub', hash='d7955656988e2e7c5a09c7bf4bd6ec866f138e19', version='v2.10.0'}
-CommitInfo{repo='GitHub', hash='6fb816fe5fa8bcdef5d03ac53005e9fc630658da', version='v2.1.1'}
-CommitInfo{repo='GitHub', hash='a100fc75f6dd179d9c295a8952b8e7a274a54c6a', version='v2.11.0'}
-CommitInfo{repo='GitHub', hash='888fa239b8e09d75c5936a4b9266032deaff251c', version='v2.1.2'}
-CommitInfo{repo='GitHub', hash='ac85ee4c391ee2000ca6802e0c30f55e04d88a0c', version='v2.12.0'}
-CommitInfo{repo='GitHub', hash='d42e3f2385da6a03f9b379d3fee3b9478a20b700', version='v2.12.1'}
-CommitInfo{repo='GitHub', hash='67e8c9e93c483670693a8089263e9f03f48a983d', version='v2.12.2'}
-CommitInfo{repo='GitHub', hash='925a7861afe90508a3ae2c0db6f789c315f52698', version='v2.12.3'}
-CommitInfo{repo='GitHub', hash='1eeb6a9d2ba14e723d53ecbb55fbd8a4f73b5d3f', version='v2.12.4'}
-CommitInfo{repo='GitHub', hash='7227d7fff70e336d7b28f3925290dce6c31c6a23', version='v2.12.5'}
-CommitInfo{repo='GitHub', hash='d26e37e1011206db99e6bb27e8c65024ff47a460', version='v2.12.6'}
-CommitInfo{repo='GitHub', hash='d5ccec7c83cfede23c93005cc83e8ff1579f8e11', version='v2.12.7'}
-CommitInfo{repo='GitHub', hash='1de2afa03fa6d1a3a0bbfc380397b1df261ee6ed', version='v2.1.3'}
-CommitInfo{repo='GitHub', hash='e7a310c1863c840661de64d101329b3c24e6d6dd', version='v2.13.0'}
-CommitInfo{repo='GitHub', hash='875cee8b13e210d64bd08deeaaafc17c32ee18c1', version='v2.13.1'}
-CommitInfo{repo='GitHub', hash='d1ac682c7d9537e4ecb85a327fb4ca1311207ea0', version='v2.13.2'}
-CommitInfo{repo='GitHub', hash='3e254258bfaeba0d226e985bf663256c30d425dd', version='v2.13.3'}
-CommitInfo{repo='GitHub', hash='cdeb4127e1473e18ce4e181ef611d93c3837f126', version='v2.13.4'}
-CommitInfo{repo='GitHub', hash='56bc01c24ac5a13a9d3845e631af455a94a13ee7', version='v2.13.5'}
-CommitInfo{repo='GitHub', hash='f5d2112e80091225e4057a334ffe9000256e956f', version='v2.13.6'}
-CommitInfo{repo='GitHub', hash='38f0db55450e7aeaa7b62ec4aeba088394b880a2', version='v2.13.7'}
-CommitInfo{repo='GitHub', hash='52885138d6e130797ed3a0b78dfef83d735f11ea', version='v2.13.8'}
-CommitInfo{repo='GitHub', hash='5ac3a2058697f1272fd25cfb08a7a0be337c3fdb', version='v2.13.9'}
-CommitInfo{repo='GitHub', hash='39fb1f2c143dfa599d98b06fd21e89ebae965f33', version='v2.14.0'}
-CommitInfo{repo='GitHub', hash='674c2d23a6b98d148f43ff3e7cc24ad7d3000015', version='v2.14.1'}
-CommitInfo{repo='GitHub', hash='bcd906fbf50a3ff2c171825fb0365854bcaf7a15', version='v2.14.10'}
-CommitInfo{repo='GitHub', hash='36c5e03a3f552c6689200322b52ae93bc11ce589', version='v2.14.11'}
-CommitInfo{repo='GitHub', hash='99f4cd3ccceaf0399bf0f7e4a0864ee3bdc0784c', version='v2.14.12'}
-CommitInfo{repo='GitHub', hash='55cac77f746f9a5d73eb464b9be45724b006b510', version='v2.14.13'}
-CommitInfo{repo='GitHub', hash='3f850f1a0c7a1dd7afd8c98e996f84d0aa790dee', version='v2.14.14'}
-CommitInfo{repo='GitHub', hash='2ed82e7fe6db323b4bfc69b2aba30874365394d9', version='v2.14.15'}
-CommitInfo{repo='GitHub', hash='e86b39afd3311cf7f45a5316fd63eac641916914', version='v2.14.16'}
-CommitInfo{repo='GitHub', hash='e0c6212c989cdebf49c07bc0d450de6bf6167e4e', version='v2.14.17'}
-CommitInfo{repo='GitHub', hash='b0ed02ae2893c718aca2067d79fd212882082166', version='v2.14.18'}
-CommitInfo{repo='GitHub', hash='9916656bd08081a0ed76bdee3b4614a5bd0c444c', version='v2.14.19'}
-CommitInfo{repo='GitHub', hash='ac57dae11a4df55efefd99eba281ba1307481970', version='v2.14.2'}
-CommitInfo{repo='GitHub', hash='9ac6651e615356cfd370edb09b1a10d42e2505a8', version='v2.14.20'}
-CommitInfo{repo='GitHub', hash='113a6641a7690da3bf82b08252b036a7c64c52cc', version='v2.14.21'}
-CommitInfo{repo='GitHub', hash='6776da24e7cd37e19690b114902e2c3a0a283a71', version='v2.14.3'}
-CommitInfo{repo='GitHub', hash='362effe3995218d26fa8aebb2dfc681873388884', version='v2.14.4'}
-CommitInfo{repo='GitHub', hash='263bf6d240547a5058d9553fb1c4c3fa141c95f9', version='v2.14.5'}
-CommitInfo{repo='GitHub', hash='33b3a827a75b2a73bf666262dbd87774eaa5f0c0', version='v2.14.6'}
-CommitInfo{repo='GitHub', hash='e1d54ceab0b6b15e8399f47564c242f4e1d6a73b', version='v2.14.7'}
-CommitInfo{repo='GitHub', hash='d920172c424b511a1061c6b6302c6c9668392808', version='v2.14.8'}
-CommitInfo{repo='GitHub', hash='aae6b3c7f14612dc59c9c311d162295edda95e6a', version='v2.14.9'}
-CommitInfo{repo='GitHub', hash='f3543bddb465d6471461006c3518f1a038ebc0d9', version='v2.15.0'}
-CommitInfo{repo='GitHub', hash='4b242752c614e54cbf6dac265a3f3c2fba7de69f', version='v2.15.1'}
-CommitInfo{repo='GitHub', hash='9287e9d6beeb5a0a37f9d591ca4bb0101ae2715e', version='v2.16.0'}
-CommitInfo{repo='GitHub', hash='30518010c1f1a009c41f2b99f1cd1f9f16718c2a', version='v2.16.1'}
-CommitInfo{repo='GitHub', hash='d0a486cb4c8e1f2fa99a38ae759ac8eb873ef926', version='v2.16.10'}
-CommitInfo{repo='GitHub', hash='60617409a0438ff859634610a265091bcde2bee1', version='v2.16.11'}
-CommitInfo{repo='GitHub', hash='bd3efa2e25bdc2576d9c0ee896ade476b407b5c7', version='v2.16.13'}
-CommitInfo{repo='GitHub', hash='c501980ece4c715ca8a4a5afdb69c9044be95f08', version='v2.16.14'}
-CommitInfo{repo='GitHub', hash='d7a0dc3dd4eaf62109e8a6484a7c38e6ffd6acd7', version='v2.16.2'}
-CommitInfo{repo='GitHub', hash='8e04aeab93f7b382de3a602b5a9d9c6b46213b62', version='v2.16.3'}
-CommitInfo{repo='GitHub', hash='6c8c8c6c01d3944ba965b867c83246b3e60d4f2b', version='v2.16.4'}
-CommitInfo{repo='GitHub', hash='1d7798c700beade99c68339424ffb0bb91f6d9bd', version='v2.16.5'}
-CommitInfo{repo='GitHub', hash='8820f21420f3639372067177530d32d7e77edf36', version='v2.16.6'}
-CommitInfo{repo='GitHub', hash='8820f21420f3639372067177530d32d7e77edf36', version='v2.16.6'}
-CommitInfo{repo='GitHub', hash='e659e62a4bf02d583498a4adacc59678266f3e33', version='v2.16.7'}
-CommitInfo{repo='GitHub', hash='7afdec84e8ee89e4e035da4afdcdc6234b25dc74', version='v2.16.8'}
-CommitInfo{repo='GitHub', hash='89d34c3a7254fcbac75810aca2c5238da37ba7a5', version='v2.16.9'}
-CommitInfo{repo='GitHub', hash='8b99f4830c54a50e19991848bd857e2a4ace2bf4', version='v2.17.0'}
-CommitInfo{repo='GitHub', hash='e5db64dd66a7aeff6d64b9d597621ac69d903007', version='v2.17.1'}
-CommitInfo{repo='GitHub', hash='26e65819cee09f8f077ec3dee2bfff21af4b8daf', version='v2.17.2'}
-CommitInfo{repo='GitHub', hash='4f540578628f9e8d59cfd4cff6db32cfe761d341', version='v2.18.0'}
-CommitInfo{repo='GitHub', hash='2988847fb49d38fbeaa4b9fbe87e42e54abd0a85', version='v2.18.1'}
-CommitInfo{repo='GitHub', hash='2de54d3df90b67c1efe6b485ccccb86ed0ae9b99', version='v2.18.2'}
-CommitInfo{repo='GitHub', hash='f9b0643ac5ef5e3d93db64f27d8063e4c696d6b9', version='v2.18.3'}
-CommitInfo{repo='GitHub', hash='7a6e05457ac14aa1b1a1f7f23a93c918d31d432b', version='v2.19.0'}
-CommitInfo{repo='GitHub', hash='62262740239c8c53a390b4494a216232d69c7383', version='v2.19.1'}
-CommitInfo{repo='GitHub', hash='ee242594775effe2abca98da94a26915930b4665', version='v2.19.10'}
-CommitInfo{repo='GitHub', hash='ceb8b9220be0b1ef8275f9b9aa3261005c330c76', version='v2.19.11'}
-CommitInfo{repo='GitHub', hash='f75ac94c11b7ea0f55c370ccdee8b8b06d68f592', version='v2.19.12'}
-CommitInfo{repo='GitHub', hash='1e907e8fe4f91b728255e6f951d397e5085f5f2b', version='v2.19.2'}
-CommitInfo{repo='GitHub', hash='214d84da73931473d1360e5d0c0556014ce6f00e', version='v2.19.3'}
-CommitInfo{repo='GitHub', hash='752520da049f4109a61a6d48c727ee780786c978', version='v2.19.4'}
-CommitInfo{repo='GitHub', hash='a008762966d692cb8837d731b75857c1d9f4e8bc', version='v2.19.5'}
-CommitInfo{repo='GitHub', hash='9fee1efadc420f5a51f2b86abfd83803229c9543', version='v2.19.6'}
-CommitInfo{repo='GitHub', hash='011bb815a592f2371d97b8fcb4faab59c0fc3020', version='v2.19.7'}
-CommitInfo{repo='GitHub', hash='e53cffaee2fe46026f211b268b1faa3c9d7ab482', version='v2.19.8'}
-CommitInfo{repo='GitHub', hash='bf40d317c8161688755d4d904e9627b9eaf4eb3a', version='v2.19.9'}
-CommitInfo{repo='GitHub', hash='74f0cb6de59ad6e2c4f1901fdbb9d32cb74084d4', version='v2.2.0'}
-CommitInfo{repo='GitHub', hash='ff049cdad1e91da221b971eeb21670d7c80404df', version='v2.20.0'}
-CommitInfo{repo='GitHub', hash='cd0c2841a61a883256b30d8071515723a38fa8f9', version='v2.21.0'}
-CommitInfo{repo='GitHub', hash='5a8880dc4283cf55ff93968d89b9ddb80db873df', version='v2.21.1'}
-CommitInfo{repo='GitHub', hash='a25971eeda176494d8c8ce48587c99f6f5decb59', version='v2.21.10'}
-CommitInfo{repo='GitHub', hash='8968d5c88fd40ae1964b96cc2971e0010ad96381', version='v2.21.11'}
-CommitInfo{repo='GitHub', hash='4479e134ec95e455ccad2c0c8620daa9a34a2133', version='v2.21.2'}
-CommitInfo{repo='GitHub', hash='66684ad50aa4839eb41252c3771d7130ec3fce02', version='v2.21.3'}
-CommitInfo{repo='GitHub', hash='a2420df6074ba1b948df2d567a90104b678621e4', version='v2.21.4'}
-CommitInfo{repo='GitHub', hash='e4fc04e6071bae0e9b57ed218a6b7e8898369501', version='v2.21.5'}
-CommitInfo{repo='GitHub', hash='b07a3171834e45991ad87388e82ceca1e5234c66', version='v2.21.6'}
-CommitInfo{repo='GitHub', hash='0376fde448201ce2996175ec10f22cc3ea3a828c', version='v2.21.7'}
-CommitInfo{repo='GitHub', hash='b22ca0dfe7ab47a6bf663640748a37097a6877a9', version='v2.21.8'}
-CommitInfo{repo='GitHub', hash='70e976e7547ed891f8c8ff3b83c3bf5247e64ace', version='v2.21.9'}
-CommitInfo{repo='GitHub', hash='4454ce16b5af8ca71d2b5083e5bd34fabea7398a', version='v2.22.0'}
-CommitInfo{repo='GitHub', hash='a4c2322ee93ad0f0b1f8c8d3bb383e5e88dc5d7b', version='v2.22.1'}
-CommitInfo{repo='GitHub', hash='b8a41fbc5f52ab2bc58f845f176d02ab76c24b03', version='v2.22.2'}
-CommitInfo{repo='GitHub', hash='412e7f5d9991c3e4d4caa5c20ccd33adda640356', version='v2.23.0'}
-CommitInfo{repo='GitHub', hash='7f03fcc28415d831fc4a48dcda9e59d9eeea2687', version='v2.23.1'}
-CommitInfo{repo='GitHub', hash='4f12041ebb8a94a63e24de0fcf6b55d18a8336bc', version='v2.23.3'}
-CommitInfo{repo='GitHub', hash='b862e8a71ffdc71744d3a98d68c9b7ef52021e39', version='v2.23.4'}
-CommitInfo{repo='GitHub', hash='a3eb2c01790bd657da33c90fc2f82b14fac26efb', version='v2.24.0'}
-CommitInfo{repo='GitHub', hash='383e04f76b62a23f8307d5797bf4b43d0696e514', version='v2.24.1'}
-CommitInfo{repo='GitHub', hash='7b8810ccceffd93f9fc0861b7eba48207fa5ee89', version='v2.24.2'}
-CommitInfo{repo='GitHub', hash='e2f9130a9b308cce4accc6608914bd8d6a97a0d5', version='v2.24.3'}
-CommitInfo{repo='GitHub', hash='0319c79c3f092f32da83b134585625321f1dac8c', version='v2.24.4'}
-CommitInfo{repo='GitHub', hash='01fa47f14e74e7cea1f4572c67d7d97e6b977f29', version='v2.24.5'}
-CommitInfo{repo='GitHub', hash='a37fd60a4820067ea7777794f5a70159e29c9530', version='v2.24.6'}
-CommitInfo{repo='GitHub', hash='976393273f7f948b6ce98457ed7534c72876b0a5', version='v2.24.7'}
-CommitInfo{repo='GitHub', hash='e1cb0ba94e426700170ecac0a5ebdd12cf6599e8', version='v2.24.8'}
-CommitInfo{repo='GitHub', hash='23a1206dce0837a54a4d16ffb89d2461a47e99c8', version='v2.25.0'}
-CommitInfo{repo='GitHub', hash='93d06d7f31b1b8e1baa9bccaf6d3511c6eefa0e7', version='v2.25.1'}
-CommitInfo{repo='GitHub', hash='649f6997753d7aa747203b86ee82b51f17898b21', version='v2.25.10'}
-CommitInfo{repo='GitHub', hash='5627f7cc5433924d6f93e835fc9f908d3b229d89', version='v2.25.12'}
-CommitInfo{repo='GitHub', hash='a5d15ff93560e9a768e9eceeae6e5f13009101a0', version='v2.25.2'}
-CommitInfo{repo='GitHub', hash='bcb35ee9555872ea3df4356fcdded8a2462a84b8', version='v2.25.3'}
-CommitInfo{repo='GitHub', hash='203032e43f9e978d35600e287f26da7d7208bf2a', version='v2.25.4'}
-CommitInfo{repo='GitHub', hash='203032e43f9e978d35600e287f26da7d7208bf2a', version='v2.25.4'}
-CommitInfo{repo='GitHub', hash='9f49497c21be3f85365e191c177279f16b568f70', version='v2.25.5'}
-CommitInfo{repo='GitHub', hash='5ec2e25eab23b171b10fc0736ff47198abddec4e', version='v2.25.6'}
-CommitInfo{repo='GitHub', hash='332c9fa0aec7a4b136de23275dfae56247c9c8c6', version='v2.25.7'}
-CommitInfo{repo='GitHub', hash='6ace702218614b34c1e9766883bb83bffac72078', version='v2.25.8'}
-CommitInfo{repo='GitHub', hash='fd92f3acf3fd1f3f6f3eed76961370b334e8fbff', version='v2.25.9'}
-CommitInfo{repo='GitHub', hash='2576579b65d162491211ad53d7a908b5b279f8d7', version='v2.26.0'}
-CommitInfo{repo='GitHub', hash='ac4fbc1eb5ab0831eba61f989036cbe57d0e8f82', version='v2.26.1'}
-CommitInfo{repo='GitHub', hash='ee9f76ec0a3f766760b5a41b8a6cbfaae42cbbc0', version='v2.26.2'}
-CommitInfo{repo='GitHub', hash='351badb552a5b3d9fc7bafc8791fa003f123ba36', version='v2.26.3'}
-CommitInfo{repo='GitHub', hash='b0918150c674a16e45176659f2719e934ea5ad8b', version='v2.26.4'}
-CommitInfo{repo='GitHub', hash='8e4a80fc3058bd4d18a820c67fc181362c7e2879', version='v2.26.5'}
-CommitInfo{repo='GitHub', hash='a17e37d58d8e4cb892b937b104240c619025b9fa', version='v2.26.6'}
-CommitInfo{repo='GitHub', hash='9307fdcd9b7b79f2d8c1ed0529cb40dd4e27bb88', version='v2.26.7'}
-CommitInfo{repo='GitHub', hash='ed526c53b706a98d8c542564338f3b7d234ab7f9', version='v2.27.0'}
-CommitInfo{repo='GitHub', hash='9b0663b831f14010b479cf5cd32dbe0693df9947', version='v2.27.1'}
-CommitInfo{repo='GitHub', hash='2d5226eda49762dc71106229db596e79c31d8149', version='v2.27.2'}
-CommitInfo{repo='GitHub', hash='8ba2760f7b9a77ca9cea21e263354a11e5106085', version='v2.27.3'}
-CommitInfo{repo='GitHub', hash='56edb25f2ccfd379033e5d819a64e9bbcab3d4ff', version='v2.27.4'}
-CommitInfo{repo='GitHub', hash='05b74d96e11086e0f71786002a2c4f0cb1ed56d1', version='v2.27.5'}
-CommitInfo{repo='GitHub', hash='e34f650017ce7bbdfd159ae6face0998918f8622', version='v2.27.6'}
-CommitInfo{repo='GitHub', hash='8a5a0fc4ff45b2282b098e433b34f49c7096ea97', version='v2.27.7'}
-CommitInfo{repo='GitHub', hash='8295324689a4e4b1eaea3641f4e57a63592042fa', version='v2.27.8'}
-CommitInfo{repo='GitHub', hash='6ab5b0d2f05dd7e897191c6eecf447293b12f90e', version='v2.28.0'}
-CommitInfo{repo='GitHub', hash='6513499c7eba09c8d2b9f4530527d0e62eda78e9', version='v2.3.0'}
-CommitInfo{repo='GitHub', hash='7df4094d1b7e6b51bf1ef752832ab31c8338c3b9', version='v2.4.0'}
-CommitInfo{repo='GitHub', hash='7fe5be52ad7373cf653e59f274e4dbd8a80cddb9', version='v2.4.1'}
-CommitInfo{repo='GitHub', hash='cc730aa441b30fbe3a11da18e60adae4cc6acf4c', version='v2.4.2'}
-CommitInfo{repo='GitHub', hash='6800a18e1e3e56752f2647b4c6fcb60e0e4fb41e', version='v2.4.3'}
-CommitInfo{repo='GitHub', hash='629a3a09702943e7ba2d8d9f93fecd4945db0fc5', version='v2.4.4'}
-CommitInfo{repo='GitHub', hash='407859630ef7c4ac86b4d0bd5376c9a534635e87', version='v2.4.5'}
-CommitInfo{repo='GitHub', hash='b2eb3f55b4306c24e2d6fdee45556f89fb84616b', version='v2.5.0'}
-CommitInfo{repo='GitHub', hash='8ed0b1a4bc1b679356a9d3faf7b8b0258355b187', version='v2.5.1'}
-CommitInfo{repo='GitHub', hash='55fa9dece8d062db19ae112a8ea2026bb69be61a', version='v2.6.0'}
-CommitInfo{repo='GitHub', hash='52f6392a44d10c3dfe4549d4c0b5e1ddf0371631', version='v2.6.1'}
-CommitInfo{repo='GitHub', hash='9fed62e5079725445c0da17368f46ce8941183df', version='v2.7.1'}
-CommitInfo{repo='GitHub', hash='01998a4a10ae60fa1f6f56438e196d3a529cce91', version='v2.8.0'}
-CommitInfo{repo='GitHub', hash='9f2c1f491c7ae0583a5ef21bda6dc231b3ffcc4f', version='v2.9.0'}
-CommitInfo{repo='GitHub', hash='0a048fa367a61c8e6f6fff97395589fd96b9eadb', version='v2.9.1'}
-CommitInfo{repo='GitHub', hash='0cd04c153c3b5d377f037fc55449e03c42c8493d', version='v2.9.2'}
-CommitInfo{repo='GitHub', hash='cbdf72a33fa75dc494c457fe09bf585f954e412f', version='v3.0.0'}
-CommitInfo{repo='GitHub', hash='dd9fe381f7ee1d4588a279097ee96b244a5a8c08', version='v3.0.1'}
-CommitInfo{repo='GitHub', hash='902e1255ed54a922dca53cdc54e2dbad018d388f', version='v3.0.10'}
-CommitInfo{repo='GitHub', hash='ceed30e3b29045823585327e7bb52c03d6d9435e', version='v3.0.11'}
-CommitInfo{repo='GitHub', hash='5ea286cfee5f6c9e4ae17742219de12ab934e9e4', version='v3.0.2'}
-CommitInfo{repo='GitHub', hash='1f25b6b75eb3c1976618d7a8271218cda6a6bdcb', version='v3.0.3'}
-CommitInfo{repo='GitHub', hash='6c44cfa7e9be1d5a156b5b9ab5585b815482ab5e', version='v3.0.4'}
-CommitInfo{repo='GitHub', hash='a014fdc25a6bbdd69a0beef824715a05d0e1eff9', version='v3.0.5'}
-CommitInfo{repo='GitHub', hash='673104db27c6b05666984201071f7264ea03e1d2', version='v3.0.6'}
-CommitInfo{repo='GitHub', hash='c2eb1513486f509a449d100d0fb88e446145900f', version='v3.0.7'}
-CommitInfo{repo='GitHub', hash='c2eb1513486f509a449d100d0fb88e446145900f', version='v3.0.7'}
-CommitInfo{repo='GitHub', hash='9b04545b74820483651bedead508370086965169', version='v3.0.8'}
-CommitInfo{repo='GitHub', hash='d47fd83fd856355cca8d5160d6ad2b602bcd3806', version='v3.0.9'}
-CommitInfo{repo='GitHub', hash='9b610fabdb0ffb9415adcfd33b4ce93ca7378501', version='v3.1.0'}
-CommitInfo{repo='GitHub', hash='d017a09476cd44d98f90616b00fa4ad4d0274a2a', version='v3.10.0'}
-CommitInfo{repo='GitHub', hash='5a8740d5cf032ab681a005d6e4aab5617e4e9de3', version='v3.10.1'}
-CommitInfo{repo='GitHub', hash='1096b37fbab8ec370d69b26ba500b8be20d53a9e', version='v3.10.2'}
-CommitInfo{repo='GitHub', hash='24ed8dc90e32b146fd3553168478ef498a9a0068', version='v3.10.3'}
-CommitInfo{repo='GitHub', hash='cfb10afe09bd479dae3f42658e6c3f849b7fe858', version='v3.10.4'}
-CommitInfo{repo='GitHub', hash='5009e933219efa25ca9eb8281b69b2b6b64bf6b5', version='v3.10.5'}
-CommitInfo{repo='GitHub', hash='5ad26d5b76ca3f49453905fc89370adecc8dc1ef', version='v3.11.0'}
-CommitInfo{repo='GitHub', hash='03c2734894873957243132827fe044e747eaf363', version='v3.12.0'}
-CommitInfo{repo='GitHub', hash='52d8ba64aa652fb6cedda9eea0f3a648839ca735', version='v3.2.0'}
-CommitInfo{repo='GitHub', hash='cafaac4f27752c078661e9352aac804ee6c60b5d', version='v3.3.0'}
-CommitInfo{repo='GitHub', hash='cd10c9fa275da80f6813bcddc0dd0da905cfc7fb', version='v3.3.1'}
-CommitInfo{repo='GitHub', hash='8b99dd46dfa0f5006dde1bbe03140555872925bc', version='v3.3.10'}
-CommitInfo{repo='GitHub', hash='b05476b865b7158e2c0806de21f38090b7b66d51', version='v3.3.2'}
-CommitInfo{repo='GitHub', hash='ac0df3c9a24ab6b3d6ab43182da68dc700ba09d0', version='v3.3.3'}
-CommitInfo{repo='GitHub', hash='f7e005125d0127bded089dab7137ad7dfa29f3a3', version='v3.3.4'}
-CommitInfo{repo='GitHub', hash='3ee22b6b12de0950c35513c315e624fdd55409c9', version='v3.3.5'}
-CommitInfo{repo='GitHub', hash='26f9a2550a522a608a35e85cd733267c3446744c', version='v3.3.6'}
-CommitInfo{repo='GitHub', hash='172b6c910e3a9b3de01631aadc90d7cebc25d0d4', version='v3.3.7'}
-CommitInfo{repo='GitHub', hash='85e370357ed118fd2c91d53296553a619843ad55', version='v3.3.8'}
-CommitInfo{repo='GitHub', hash='c48dfdce9ca9900294c68bacd54204babceb4c7f', version='v3.3.9'}
-CommitInfo{repo='GitHub', hash='321b51ac906df5a738ae537c2f5a10881a91d56d', version='v3.4.0'}
-CommitInfo{repo='GitHub', hash='193e464258c944e5da3be24968413e91917bbbc6', version='v3.5.0'}
-CommitInfo{repo='GitHub', hash='4487b6e8839d2b708b9d0c6748e2a710875543b2', version='v3.6.0'}
-CommitInfo{repo='GitHub', hash='6ef63696f64f357874758a78e9049013f54fc8be', version='v3.6.1'}
-CommitInfo{repo='GitHub', hash='d92445175a312ec0b9f9d2db2d4b836dbcd29189', version='v3.7.0'}
-CommitInfo{repo='GitHub', hash='c302f3b3167ea96d08a376d07866f99a995e33a4', version='v3.8.0'}
-CommitInfo{repo='GitHub', hash='de36bb14a9672dab77877d7d49a36a36f6c6e7d4', version='v3.8.1'}
-CommitInfo{repo='GitHub', hash='4be6e5bff3c9e431d31841845d0e1c128f37ff39', version='v3.8.2'}
-CommitInfo{repo='GitHub', hash='f52f6450d8d84441ba1cd33049aac45de90c1a1e', version='v3.8.3'}
-CommitInfo{repo='GitHub', hash='3a4ba8456e1f9442d2326bdd54c55675eb6b474a', version='v3.8.4'}
-CommitInfo{repo='GitHub', hash='4f6d64a2807754280ba31d4adba3907c481405f8', version='v3.8.5'}
-CommitInfo{repo='GitHub', hash='dc6144441f82fe7705206c6c571f00501642b718', version='v3.8.6'}
-CommitInfo{repo='GitHub', hash='d454f3347f88acf45dcf4e1b68bd75284877ae4f', version='v3.8.7'}
-CommitInfo{repo='GitHub', hash='a5f61d945ca0d145940041f4aac390f05b266b08', version='v3.8.8'}
-CommitInfo{repo='GitHub', hash='7a8a4ef88f5a44af9c7c36cef796fa21f097f30a', version='v3.9.0'}
-CommitInfo{repo='GitHub', hash='98acc32749a35d32525c88b860499954c7bcfbd3', version='v3.9.1'}
-CommitInfo{repo='GitHub', hash='635727acad2cfa565f083c4877923a5c0a922e13', version='v3.9.2'}
-CommitInfo{repo='GitHub', hash='2fda4f9df2572d5368b63b7c59fb71de31cc4258', version='v3.9.3'}
-CommitInfo{repo='GitHub', hash='a58e69588621fa856ce7e03dc6e6950d30c567cb', version='v3.9.4'}
-CommitInfo{repo='GitHub', hash='bf224df00882abd79b7e533eb6447750eea62893', version='v3.9.5'}
+CommitInfo{repo='GitHub', hash='7a090e3e5fe086c37840aa1b509a4f3c5c1e92b4', version='v0.1.0'} 	https://github.com/coveo/react-vapor/commit/7a090e3e5fe086c37840aa1b509a4f3c5c1e92b4
+CommitInfo{repo='GitHub', hash='70161fef3e4d04dac694455df34f3b87bf100bff', version='v0.10.0'} 	https://github.com/coveo/react-vapor/commit/70161fef3e4d04dac694455df34f3b87bf100bff
+CommitInfo{repo='GitHub', hash='c46bb1158e003466dc644e56ac68875423e07dea', version='v0.10.1'} 	https://github.com/coveo/react-vapor/commit/c46bb1158e003466dc644e56ac68875423e07dea
+CommitInfo{repo='GitHub', hash='ab9cbc44b51166ba56c86c8e80479aca401583a8', version='v0.1.1'} 	https://github.com/coveo/react-vapor/commit/ab9cbc44b51166ba56c86c8e80479aca401583a8
+CommitInfo{repo='GitHub', hash='ea64cbf3035fd86d3140498f80df980d00e30a82', version='v0.11.0'} 	https://github.com/coveo/react-vapor/commit/ea64cbf3035fd86d3140498f80df980d00e30a82
+CommitInfo{repo='GitHub', hash='0c8907b9af14efd0e011fc341afa21a53ab246c8', version='v0.1.2'} 	https://github.com/coveo/react-vapor/commit/0c8907b9af14efd0e011fc341afa21a53ab246c8
+CommitInfo{repo='GitHub', hash='4510b9350181d9345f53fcf5aed9a3bf41e3db6f', version='v0.12.0'} 	https://github.com/coveo/react-vapor/commit/4510b9350181d9345f53fcf5aed9a3bf41e3db6f
+CommitInfo{repo='GitHub', hash='ee360647e8584ae0446ea65f2fd527875721e243', version='v0.1.3'} 	https://github.com/coveo/react-vapor/commit/ee360647e8584ae0446ea65f2fd527875721e243
+CommitInfo{repo='GitHub', hash='a55f9c77d19513a78c511ff9cc2a700ec9a39e52', version='v0.1.4'} 	https://github.com/coveo/react-vapor/commit/a55f9c77d19513a78c511ff9cc2a700ec9a39e52
+CommitInfo{repo='GitHub', hash='2c36eaa8bfd7550e01b5589d590a8d3cb63adf9f', version='v0.1.5'} 	https://github.com/coveo/react-vapor/commit/2c36eaa8bfd7550e01b5589d590a8d3cb63adf9f
+CommitInfo{repo='GitHub', hash='43daa4df1ce275359a5cebf282fb11889a6b7ae6', version='v0.1.6'} 	https://github.com/coveo/react-vapor/commit/43daa4df1ce275359a5cebf282fb11889a6b7ae6
+CommitInfo{repo='GitHub', hash='d565271bf029200a283cfcddd253a37d061bda31', version='v0.1.7'} 	https://github.com/coveo/react-vapor/commit/d565271bf029200a283cfcddd253a37d061bda31
+CommitInfo{repo='GitHub', hash='807d37ab4e6d1f86fdf6ed6687b33d09d85a525d', version='v0.2.0'} 	https://github.com/coveo/react-vapor/commit/807d37ab4e6d1f86fdf6ed6687b33d09d85a525d
+CommitInfo{repo='GitHub', hash='ba2f57f8a02aabb74cb3f167a0cdf479553ce58b', version='v0.2.1'} 	https://github.com/coveo/react-vapor/commit/ba2f57f8a02aabb74cb3f167a0cdf479553ce58b
+CommitInfo{repo='GitHub', hash='d6e3f97ed15205c01141408c71f354cccec2dd2b', version='v0.3.0'} 	https://github.com/coveo/react-vapor/commit/d6e3f97ed15205c01141408c71f354cccec2dd2b
+CommitInfo{repo='GitHub', hash='50e8d38c34d9809e29fb4744b70f8ec5235b60c6', version='v0.4.0'} 	https://github.com/coveo/react-vapor/commit/50e8d38c34d9809e29fb4744b70f8ec5235b60c6
+CommitInfo{repo='GitHub', hash='1518deafbb9fd73f3522d5c9d51e9fe022b7df3f', version='v0.4.1'} 	https://github.com/coveo/react-vapor/commit/1518deafbb9fd73f3522d5c9d51e9fe022b7df3f
+CommitInfo{repo='GitHub', hash='39775482d4d74e224eed14ae7d5e42b9624cd865', version='v0.4.2'} 	https://github.com/coveo/react-vapor/commit/39775482d4d74e224eed14ae7d5e42b9624cd865
+CommitInfo{repo='GitHub', hash='1ad1fa61568e9c2493543ab2ed9db99a683c4520', version='v0.4.3'} 	https://github.com/coveo/react-vapor/commit/1ad1fa61568e9c2493543ab2ed9db99a683c4520
+CommitInfo{repo='GitHub', hash='7b34346e31550cf6005ba7041b1a3d59b0af64cb', version='v0.4.4'} 	https://github.com/coveo/react-vapor/commit/7b34346e31550cf6005ba7041b1a3d59b0af64cb
+CommitInfo{repo='GitHub', hash='dc43782879e46eec04dc1ea7dc308fce4230186b', version='v0.5.0'} 	https://github.com/coveo/react-vapor/commit/dc43782879e46eec04dc1ea7dc308fce4230186b
+CommitInfo{repo='GitHub', hash='b320708678400ad88a6b2126f4ab3d3d9ea24e3e', version='v0.5.1'} 	https://github.com/coveo/react-vapor/commit/b320708678400ad88a6b2126f4ab3d3d9ea24e3e
+CommitInfo{repo='GitHub', hash='fc1a72fca3b48f30a9c1a28604ebae7094333a20', version='v0.6.0'} 	https://github.com/coveo/react-vapor/commit/fc1a72fca3b48f30a9c1a28604ebae7094333a20
+CommitInfo{repo='GitHub', hash='fb794d98c446fdbd7bea484de7cf2543ff446dbe', version='v0.6.1'} 	https://github.com/coveo/react-vapor/commit/fb794d98c446fdbd7bea484de7cf2543ff446dbe
+CommitInfo{repo='GitHub', hash='d2825eb1fd4ed3b4e0f62d62e2deb161d4906c59', version='v0.6.2'} 	https://github.com/coveo/react-vapor/commit/d2825eb1fd4ed3b4e0f62d62e2deb161d4906c59
+CommitInfo{repo='GitHub', hash='3cd8fb626c64b79e682002989e0c746f5c65dd3c', version='v0.6.3'} 	https://github.com/coveo/react-vapor/commit/3cd8fb626c64b79e682002989e0c746f5c65dd3c
+CommitInfo{repo='GitHub', hash='7cbadae6c1be3d55b600a20613b1415f3b1fd170', version='v0.7.0'} 	https://github.com/coveo/react-vapor/commit/7cbadae6c1be3d55b600a20613b1415f3b1fd170
+CommitInfo{repo='GitHub', hash='b318bac5a86757d6a0d8811f2195904a2c18aa9c', version='v0.7.1'} 	https://github.com/coveo/react-vapor/commit/b318bac5a86757d6a0d8811f2195904a2c18aa9c
+CommitInfo{repo='GitHub', hash='38c0c6a34b8ca73062a4eb56203cb0dd300e0b6e', version='v0.7.10'} 	https://github.com/coveo/react-vapor/commit/38c0c6a34b8ca73062a4eb56203cb0dd300e0b6e
+CommitInfo{repo='GitHub', hash='2af144c13e494060be43d716d09643b2237bb7ec', version='v0.7.11'} 	https://github.com/coveo/react-vapor/commit/2af144c13e494060be43d716d09643b2237bb7ec
+CommitInfo{repo='GitHub', hash='c3ec1a0dfadf3bfa9f44dd48dbb6088adf99e670', version='v0.7.12'} 	https://github.com/coveo/react-vapor/commit/c3ec1a0dfadf3bfa9f44dd48dbb6088adf99e670
+CommitInfo{repo='GitHub', hash='9726b00c0b6bc1d65ab8ba22b316c38755381d29', version='v0.7.13'} 	https://github.com/coveo/react-vapor/commit/9726b00c0b6bc1d65ab8ba22b316c38755381d29
+CommitInfo{repo='GitHub', hash='1a861a9c198d3ae8960354a5ecc8a9521e1d1f0a', version='v0.7.14'} 	https://github.com/coveo/react-vapor/commit/1a861a9c198d3ae8960354a5ecc8a9521e1d1f0a
+CommitInfo{repo='GitHub', hash='b5c1013fcab07210ced91ff051b528e9f72e1362', version='v0.7.2'} 	https://github.com/coveo/react-vapor/commit/b5c1013fcab07210ced91ff051b528e9f72e1362
+CommitInfo{repo='GitHub', hash='0bce52f5ff6e13767239c3ba540c34a91c91d473', version='v0.7.3'} 	https://github.com/coveo/react-vapor/commit/0bce52f5ff6e13767239c3ba540c34a91c91d473
+CommitInfo{repo='GitHub', hash='2879dd46a4493337c00de23b47038b3d3a7e9675', version='v0.7.4'} 	https://github.com/coveo/react-vapor/commit/2879dd46a4493337c00de23b47038b3d3a7e9675
+CommitInfo{repo='GitHub', hash='f312dd9e7162b1189bd83f1996c99f2f8d818c0c', version='v0.7.5'} 	https://github.com/coveo/react-vapor/commit/f312dd9e7162b1189bd83f1996c99f2f8d818c0c
+CommitInfo{repo='GitHub', hash='121f8db7631b344f952978e50bb7396ec34cf4ac', version='v0.7.6'} 	https://github.com/coveo/react-vapor/commit/121f8db7631b344f952978e50bb7396ec34cf4ac
+CommitInfo{repo='GitHub', hash='e998df40c7a9ecda14cf655eff0532d1bd498932', version='v0.7.7'} 	https://github.com/coveo/react-vapor/commit/e998df40c7a9ecda14cf655eff0532d1bd498932
+CommitInfo{repo='GitHub', hash='37a49e4e130bec796c592bf2a5c51289bbc6931e', version='v0.7.8'} 	https://github.com/coveo/react-vapor/commit/37a49e4e130bec796c592bf2a5c51289bbc6931e
+CommitInfo{repo='GitHub', hash='d0005db73cd5cd6ed86ed9ddfcdb55219af13eb1', version='v0.7.9'} 	https://github.com/coveo/react-vapor/commit/d0005db73cd5cd6ed86ed9ddfcdb55219af13eb1
+CommitInfo{repo='GitHub', hash='aa9bdaaa170ac710b1842d4761be9b89d4c2b100', version='v0.8.0'} 	https://github.com/coveo/react-vapor/commit/aa9bdaaa170ac710b1842d4761be9b89d4c2b100
+CommitInfo{repo='GitHub', hash='f1f43c5b6f2e2696b7636cb12ab8b3cb60a2d096', version='v0.8.1'} 	https://github.com/coveo/react-vapor/commit/f1f43c5b6f2e2696b7636cb12ab8b3cb60a2d096
+CommitInfo{repo='GitHub', hash='c330c20ebf82248ddce9985be2c1ab72436482cc', version='v0.8.2'} 	https://github.com/coveo/react-vapor/commit/c330c20ebf82248ddce9985be2c1ab72436482cc
+CommitInfo{repo='GitHub', hash='f553c0ca0d0b8e93cca2a5735dc26bb521e186ab', version='v0.8.3'} 	https://github.com/coveo/react-vapor/commit/f553c0ca0d0b8e93cca2a5735dc26bb521e186ab
+CommitInfo{repo='GitHub', hash='037917766ec9c31ea13e6b0df1a213aa9562b042', version='v0.8.4'} 	https://github.com/coveo/react-vapor/commit/037917766ec9c31ea13e6b0df1a213aa9562b042
+CommitInfo{repo='GitHub', hash='eec179fa78ab795173793e227ac259713abe1ab7', version='v0.9.0'} 	https://github.com/coveo/react-vapor/commit/eec179fa78ab795173793e227ac259713abe1ab7
+CommitInfo{repo='GitHub', hash='774fab99f570b51265cfdd2921cff10e3b0bfdcb', version='v1.0.0'} 	https://github.com/coveo/react-vapor/commit/774fab99f570b51265cfdd2921cff10e3b0bfdcb
+CommitInfo{repo='GitHub', hash='f28876b69ebdc28fc801d8e80cfcd4ff2a4b9786', version='v1.0.1'} 	https://github.com/coveo/react-vapor/commit/f28876b69ebdc28fc801d8e80cfcd4ff2a4b9786
+CommitInfo{repo='GitHub', hash='d2e7c33474046236bc05e1c35c26171de67ad3aa', version='v1.0.2'} 	https://github.com/coveo/react-vapor/commit/d2e7c33474046236bc05e1c35c26171de67ad3aa
+CommitInfo{repo='GitHub', hash='a79c87c4c1f3f9f53617ede38b9e9f928d3878f3', version='v1.1.0'} 	https://github.com/coveo/react-vapor/commit/a79c87c4c1f3f9f53617ede38b9e9f928d3878f3
+CommitInfo{repo='GitHub', hash='24913beddf0290e627060ec74cd5a9d8ae7572e6', version='v1.10.3'} 	https://github.com/coveo/react-vapor/commit/24913beddf0290e627060ec74cd5a9d8ae7572e6
+CommitInfo{repo='GitHub', hash='b1b350026722b95258a529c1ead52d207fc458af', version='v1.10.4'} 	https://github.com/coveo/react-vapor/commit/b1b350026722b95258a529c1ead52d207fc458af
+CommitInfo{repo='GitHub', hash='50074a53906f0989f363b60a80df3d462cbe15b1', version='v1.10.5'} 	https://github.com/coveo/react-vapor/commit/50074a53906f0989f363b60a80df3d462cbe15b1
+CommitInfo{repo='GitHub', hash='6f137c8a1ae7afc2cbab619cf4fe2cd88c0681ca', version='v1.10.6'} 	https://github.com/coveo/react-vapor/commit/6f137c8a1ae7afc2cbab619cf4fe2cd88c0681ca
+CommitInfo{repo='GitHub', hash='efb2734e0b4fc339948698bc71b0d5d4530157cd', version='v1.10.7'} 	https://github.com/coveo/react-vapor/commit/efb2734e0b4fc339948698bc71b0d5d4530157cd
+CommitInfo{repo='GitHub', hash='69374ca7def54392862a4223e676163a9337c59b', version='v1.1.1'} 	https://github.com/coveo/react-vapor/commit/69374ca7def54392862a4223e676163a9337c59b
+CommitInfo{repo='GitHub', hash='50bf91f36b5578c3d99783229c34c368ad003ed7', version='v1.11.0'} 	https://github.com/coveo/react-vapor/commit/50bf91f36b5578c3d99783229c34c368ad003ed7
+CommitInfo{repo='GitHub', hash='7a021c1add243eb28d36448c110243ae9228fe78', version='v1.11.1'} 	https://github.com/coveo/react-vapor/commit/7a021c1add243eb28d36448c110243ae9228fe78
+CommitInfo{repo='GitHub', hash='c7e9a0da313fd87fe96bd22dc4d1de34e71b286b', version='v1.11.10'} 	https://github.com/coveo/react-vapor/commit/c7e9a0da313fd87fe96bd22dc4d1de34e71b286b
+CommitInfo{repo='GitHub', hash='245ac5b883bba3ec839fbed56e76e2422e838489', version='v1.11.11'} 	https://github.com/coveo/react-vapor/commit/245ac5b883bba3ec839fbed56e76e2422e838489
+CommitInfo{repo='GitHub', hash='b0b4310cd5dd035efe55b7309f457060de070936', version='v1.11.12'} 	https://github.com/coveo/react-vapor/commit/b0b4310cd5dd035efe55b7309f457060de070936
+CommitInfo{repo='GitHub', hash='2c80e0d2000a788d9f3fac4364ece64afa9248b2', version='v1.11.13'} 	https://github.com/coveo/react-vapor/commit/2c80e0d2000a788d9f3fac4364ece64afa9248b2
+CommitInfo{repo='GitHub', hash='4f2adc9a2deb3970a87c71c362043d33499c1c00', version='v1.11.14'} 	https://github.com/coveo/react-vapor/commit/4f2adc9a2deb3970a87c71c362043d33499c1c00
+CommitInfo{repo='GitHub', hash='ad6d1f8f63286d16a4eaccb003a54f39ff487946', version='v1.11.15'} 	https://github.com/coveo/react-vapor/commit/ad6d1f8f63286d16a4eaccb003a54f39ff487946
+CommitInfo{repo='GitHub', hash='334dd88d3450abb127774a7c31bc5ca930decbfe', version='v1.11.16'} 	https://github.com/coveo/react-vapor/commit/334dd88d3450abb127774a7c31bc5ca930decbfe
+CommitInfo{repo='GitHub', hash='f8bb3d1185084f8a29b945cfe5b8f23fb8e14247', version='v1.11.17'} 	https://github.com/coveo/react-vapor/commit/f8bb3d1185084f8a29b945cfe5b8f23fb8e14247
+CommitInfo{repo='GitHub', hash='ccccdd0e648d5cd9467436bb75c90c9c0ea44756', version='v1.11.18'} 	https://github.com/coveo/react-vapor/commit/ccccdd0e648d5cd9467436bb75c90c9c0ea44756
+CommitInfo{repo='GitHub', hash='9f15a7607b6b64e99912a9efb1fe4cc3e5f7c52c', version='v1.11.19'} 	https://github.com/coveo/react-vapor/commit/9f15a7607b6b64e99912a9efb1fe4cc3e5f7c52c
+CommitInfo{repo='GitHub', hash='bb2de7b350d0146f83f70bf66071f02b15679e60', version='v1.11.2'} 	https://github.com/coveo/react-vapor/commit/bb2de7b350d0146f83f70bf66071f02b15679e60
+CommitInfo{repo='GitHub', hash='17c3a85116d78e9eaaf2b33c79b4ccceef5da195', version='v1.11.3'} 	https://github.com/coveo/react-vapor/commit/17c3a85116d78e9eaaf2b33c79b4ccceef5da195
+CommitInfo{repo='GitHub', hash='b477ca417711f481f0ffc7d57ed2d3e4f812e36d', version='v1.11.4'} 	https://github.com/coveo/react-vapor/commit/b477ca417711f481f0ffc7d57ed2d3e4f812e36d
+CommitInfo{repo='GitHub', hash='a6b0eda4ee7ae4df1eae8b27c984453d09d8f780', version='v1.11.5'} 	https://github.com/coveo/react-vapor/commit/a6b0eda4ee7ae4df1eae8b27c984453d09d8f780
+CommitInfo{repo='GitHub', hash='815b2ea749b381cbbb666a9fe435b0db8080c11d', version='v1.11.6'} 	https://github.com/coveo/react-vapor/commit/815b2ea749b381cbbb666a9fe435b0db8080c11d
+CommitInfo{repo='GitHub', hash='dc476fd6b089e82ad2624908d06734f52ecda90e', version='v1.11.7'} 	https://github.com/coveo/react-vapor/commit/dc476fd6b089e82ad2624908d06734f52ecda90e
+CommitInfo{repo='GitHub', hash='f4373046de002d2b2e7c2abcb2705fde79cb1156', version='v1.11.8'} 	https://github.com/coveo/react-vapor/commit/f4373046de002d2b2e7c2abcb2705fde79cb1156
+CommitInfo{repo='GitHub', hash='d93395d5b638709e2bd58a316975222d97d09f53', version='v1.11.9'} 	https://github.com/coveo/react-vapor/commit/d93395d5b638709e2bd58a316975222d97d09f53
+CommitInfo{repo='GitHub', hash='e8a28c08084321a3a5c6d32b5371243f16f08011', version='v1.12.0'} 	https://github.com/coveo/react-vapor/commit/e8a28c08084321a3a5c6d32b5371243f16f08011
+CommitInfo{repo='GitHub', hash='cea28f0d23198d38c03798030769b0ccf6fbacd6', version='v1.12.1'} 	https://github.com/coveo/react-vapor/commit/cea28f0d23198d38c03798030769b0ccf6fbacd6
+CommitInfo{repo='GitHub', hash='bd588dcf2153d1a6fdc1f646f5e4416355a6d7f3', version='v1.13.0'} 	https://github.com/coveo/react-vapor/commit/bd588dcf2153d1a6fdc1f646f5e4416355a6d7f3
+CommitInfo{repo='GitHub', hash='fb0c8ae2099463e5cd8b1f1c6f468dd5534358ad', version='v1.13.1'} 	https://github.com/coveo/react-vapor/commit/fb0c8ae2099463e5cd8b1f1c6f468dd5534358ad
+CommitInfo{repo='GitHub', hash='eb60df3faef5cabe7298f4926229fce2029993e1', version='v1.14.0'} 	https://github.com/coveo/react-vapor/commit/eb60df3faef5cabe7298f4926229fce2029993e1
+CommitInfo{repo='GitHub', hash='561d07d841c55b47ec226c1451b8b80d20cae1e9', version='v1.14.2'} 	https://github.com/coveo/react-vapor/commit/561d07d841c55b47ec226c1451b8b80d20cae1e9
+CommitInfo{repo='GitHub', hash='67c21ab734b10794d66893be0ad3e9982caf35d1', version='v1.14.4'} 	https://github.com/coveo/react-vapor/commit/67c21ab734b10794d66893be0ad3e9982caf35d1
+CommitInfo{repo='GitHub', hash='578b8be28973de3d97476d8e3e09f96cffac9b12', version='v1.15.0'} 	https://github.com/coveo/react-vapor/commit/578b8be28973de3d97476d8e3e09f96cffac9b12
+CommitInfo{repo='GitHub', hash='c897676e2cf4c102534f64a1dea31d633a9848bf', version='v1.15.1'} 	https://github.com/coveo/react-vapor/commit/c897676e2cf4c102534f64a1dea31d633a9848bf
+CommitInfo{repo='GitHub', hash='a51417e6165f66fde30fa2823b26b8a706e9ed3b', version='v1.15.2'} 	https://github.com/coveo/react-vapor/commit/a51417e6165f66fde30fa2823b26b8a706e9ed3b
+CommitInfo{repo='GitHub', hash='1091108bc8bedf90da0727508c8be2aa2421759e', version='v1.15.3'} 	https://github.com/coveo/react-vapor/commit/1091108bc8bedf90da0727508c8be2aa2421759e
+CommitInfo{repo='GitHub', hash='e1bd6ba7436258a398ce066a7552ab629eb37b13', version='v1.15.4'} 	https://github.com/coveo/react-vapor/commit/e1bd6ba7436258a398ce066a7552ab629eb37b13
+CommitInfo{repo='GitHub', hash='44d66967273a0fa5b93d001408907b16451bbcc6', version='v1.15.5'} 	https://github.com/coveo/react-vapor/commit/44d66967273a0fa5b93d001408907b16451bbcc6
+CommitInfo{repo='GitHub', hash='fcb6433007c67eb2e14e26b0c31eb9d51607bee9', version='v1.15.6'} 	https://github.com/coveo/react-vapor/commit/fcb6433007c67eb2e14e26b0c31eb9d51607bee9
+CommitInfo{repo='GitHub', hash='e7dca0e6d2f1a51e27172b147b76c46cbbfa1e8b', version='v1.15.7'} 	https://github.com/coveo/react-vapor/commit/e7dca0e6d2f1a51e27172b147b76c46cbbfa1e8b
+CommitInfo{repo='GitHub', hash='6c13853d48454d384fabf6b07887577ea7384a33', version='v1.16.0'} 	https://github.com/coveo/react-vapor/commit/6c13853d48454d384fabf6b07887577ea7384a33
+CommitInfo{repo='GitHub', hash='c3a37f3a3dbe9beda994d2640358a3d2752b7fe0', version='v1.16.1'} 	https://github.com/coveo/react-vapor/commit/c3a37f3a3dbe9beda994d2640358a3d2752b7fe0
+CommitInfo{repo='GitHub', hash='b36d55c0031e807360094e28790feb527988d64c', version='v1.16.2'} 	https://github.com/coveo/react-vapor/commit/b36d55c0031e807360094e28790feb527988d64c
+CommitInfo{repo='GitHub', hash='eef394cc76f0244bca1742754df1f97ad1ac667b', version='v1.16.3'} 	https://github.com/coveo/react-vapor/commit/eef394cc76f0244bca1742754df1f97ad1ac667b
+CommitInfo{repo='GitHub', hash='8918341454fc95a8ec0a68df319c71b6194bfb44', version='v1.16.4'} 	https://github.com/coveo/react-vapor/commit/8918341454fc95a8ec0a68df319c71b6194bfb44
+CommitInfo{repo='GitHub', hash='02aad4bc21873984f4f11a88a6efb87aa35411a0', version='v1.16.5'} 	https://github.com/coveo/react-vapor/commit/02aad4bc21873984f4f11a88a6efb87aa35411a0
+CommitInfo{repo='GitHub', hash='92b4bcca7e21348714ab3f745121bc714be0f8cb', version='v1.16.6'} 	https://github.com/coveo/react-vapor/commit/92b4bcca7e21348714ab3f745121bc714be0f8cb
+CommitInfo{repo='GitHub', hash='63a4d00bd814fadf830440e8abbbb5729caa351d', version='v1.2.0'} 	https://github.com/coveo/react-vapor/commit/63a4d00bd814fadf830440e8abbbb5729caa351d
+CommitInfo{repo='GitHub', hash='6753fffb99a5f8a9e0297bff3961319ff593433a', version='v1.3.0'} 	https://github.com/coveo/react-vapor/commit/6753fffb99a5f8a9e0297bff3961319ff593433a
+CommitInfo{repo='GitHub', hash='03a44a34a0cfac0b0606edf7a6e562e2d31ffdfb', version='v1.3.1'} 	https://github.com/coveo/react-vapor/commit/03a44a34a0cfac0b0606edf7a6e562e2d31ffdfb
+CommitInfo{repo='GitHub', hash='d1fab94916f8dd3d04ed538d774d2a4f474d4050', version='v1.3.2'} 	https://github.com/coveo/react-vapor/commit/d1fab94916f8dd3d04ed538d774d2a4f474d4050
+CommitInfo{repo='GitHub', hash='83e98a204fd705208e6b2481ea2e5243b4577279', version='v1.3.3'} 	https://github.com/coveo/react-vapor/commit/83e98a204fd705208e6b2481ea2e5243b4577279
+CommitInfo{repo='GitHub', hash='81da7471a38319099b506629f2aecd4d2293a83c', version='v1.3.4'} 	https://github.com/coveo/react-vapor/commit/81da7471a38319099b506629f2aecd4d2293a83c
+CommitInfo{repo='GitHub', hash='5c92a5550f755bc9b32a6a87ac4f2e38421abb9b', version='v1.3.5'} 	https://github.com/coveo/react-vapor/commit/5c92a5550f755bc9b32a6a87ac4f2e38421abb9b
+CommitInfo{repo='GitHub', hash='657d52dd06e59799e853860807d03a06ddce61fe', version='v1.3.6'} 	https://github.com/coveo/react-vapor/commit/657d52dd06e59799e853860807d03a06ddce61fe
+CommitInfo{repo='GitHub', hash='d3f4c287142aff6ed91f3ac6d102a287d743a50d', version='v1.3.7'} 	https://github.com/coveo/react-vapor/commit/d3f4c287142aff6ed91f3ac6d102a287d743a50d
+CommitInfo{repo='GitHub', hash='49cbc16afb70a8cc193305d750eaeb18c4a966ca', version='v1.3.8'} 	https://github.com/coveo/react-vapor/commit/49cbc16afb70a8cc193305d750eaeb18c4a966ca
+CommitInfo{repo='GitHub', hash='710f0446d7af72f1601422d2382dee531a329efd', version='v1.4.0'} 	https://github.com/coveo/react-vapor/commit/710f0446d7af72f1601422d2382dee531a329efd
+CommitInfo{repo='GitHub', hash='58f448aa7d5b81528ed85fc7f8ac422dc7f60891', version='v1.4.1'} 	https://github.com/coveo/react-vapor/commit/58f448aa7d5b81528ed85fc7f8ac422dc7f60891
+CommitInfo{repo='GitHub', hash='932623c75a941373c02a29c490834c374bb45d34', version='v1.4.10'} 	https://github.com/coveo/react-vapor/commit/932623c75a941373c02a29c490834c374bb45d34
+CommitInfo{repo='GitHub', hash='59a067fb6c1bb928c2e3b6699a6d2c6df17d2788', version='v1.4.2'} 	https://github.com/coveo/react-vapor/commit/59a067fb6c1bb928c2e3b6699a6d2c6df17d2788
+CommitInfo{repo='GitHub', hash='877eda293c302b82d69b0040ed0cfaf7b492dceb', version='v1.4.3'} 	https://github.com/coveo/react-vapor/commit/877eda293c302b82d69b0040ed0cfaf7b492dceb
+CommitInfo{repo='GitHub', hash='c44a1724ce81742439721d8a67d67227ec0415a5', version='v1.4.4'} 	https://github.com/coveo/react-vapor/commit/c44a1724ce81742439721d8a67d67227ec0415a5
+CommitInfo{repo='GitHub', hash='1d70b33350c0455e11e1ab5b8a8039c5d8c7a0a6', version='v1.4.5'} 	https://github.com/coveo/react-vapor/commit/1d70b33350c0455e11e1ab5b8a8039c5d8c7a0a6
+CommitInfo{repo='GitHub', hash='83078783e3d3e6197f046d588abf327cb67c1869', version='v1.4.6'} 	https://github.com/coveo/react-vapor/commit/83078783e3d3e6197f046d588abf327cb67c1869
+CommitInfo{repo='GitHub', hash='3c08706df966b781a158af242518d24ca452ac34', version='v1.4.7'} 	https://github.com/coveo/react-vapor/commit/3c08706df966b781a158af242518d24ca452ac34
+CommitInfo{repo='GitHub', hash='39a54a042982938687d053c7fc11786d785e9107', version='v1.4.8'} 	https://github.com/coveo/react-vapor/commit/39a54a042982938687d053c7fc11786d785e9107
+CommitInfo{repo='GitHub', hash='4dc8060c25c1f7ce8ceb3c6894570125e2ae7163', version='v1.4.9'} 	https://github.com/coveo/react-vapor/commit/4dc8060c25c1f7ce8ceb3c6894570125e2ae7163
+CommitInfo{repo='GitHub', hash='a2cd821c25c2d8e03c05bb204b3ce5e37da48934', version='v1.5.0'} 	https://github.com/coveo/react-vapor/commit/a2cd821c25c2d8e03c05bb204b3ce5e37da48934
+CommitInfo{repo='GitHub', hash='3a87e5039cde2261c68ad8e81bd8c576f1d09e29', version='v1.5.1'} 	https://github.com/coveo/react-vapor/commit/3a87e5039cde2261c68ad8e81bd8c576f1d09e29
+CommitInfo{repo='GitHub', hash='a09c82769a2f84154af45356b7823ac01441d3d8', version='v1.5.10'} 	https://github.com/coveo/react-vapor/commit/a09c82769a2f84154af45356b7823ac01441d3d8
+CommitInfo{repo='GitHub', hash='3a2f25a4563c7c02b7c2562334c4f965e7796992', version='v1.5.2'} 	https://github.com/coveo/react-vapor/commit/3a2f25a4563c7c02b7c2562334c4f965e7796992
+CommitInfo{repo='GitHub', hash='de80b0c211cc1f3bf9180b7a15c8cabf90a7d2f4', version='v1.5.3'} 	https://github.com/coveo/react-vapor/commit/de80b0c211cc1f3bf9180b7a15c8cabf90a7d2f4
+CommitInfo{repo='GitHub', hash='4b5b9aefe332d591c98e0106c5ea349468918778', version='v1.5.4'} 	https://github.com/coveo/react-vapor/commit/4b5b9aefe332d591c98e0106c5ea349468918778
+CommitInfo{repo='GitHub', hash='a8227229800962c3f9ae14cd8c91bdf3762e6894', version='v1.5.5'} 	https://github.com/coveo/react-vapor/commit/a8227229800962c3f9ae14cd8c91bdf3762e6894
+CommitInfo{repo='GitHub', hash='fa28b74ae4c8c1609819318eb34bb02da2e6aa62', version='v1.5.6'} 	https://github.com/coveo/react-vapor/commit/fa28b74ae4c8c1609819318eb34bb02da2e6aa62
+CommitInfo{repo='GitHub', hash='ceb01ba388649b0120561c7d0037d0178bed8b41', version='v1.5.7'} 	https://github.com/coveo/react-vapor/commit/ceb01ba388649b0120561c7d0037d0178bed8b41
+CommitInfo{repo='GitHub', hash='8cc56e2cf2521baf861379e71356db520649e728', version='v1.5.8'} 	https://github.com/coveo/react-vapor/commit/8cc56e2cf2521baf861379e71356db520649e728
+CommitInfo{repo='GitHub', hash='ca281ac029e357e1d108ad77a34372d95ae184ec', version='v1.5.9'} 	https://github.com/coveo/react-vapor/commit/ca281ac029e357e1d108ad77a34372d95ae184ec
+CommitInfo{repo='GitHub', hash='08af2bc2c1fd5aaeaf57e7b18e5bb4fd63e71b75', version='v1.6.0'} 	https://github.com/coveo/react-vapor/commit/08af2bc2c1fd5aaeaf57e7b18e5bb4fd63e71b75
+CommitInfo{repo='GitHub', hash='32132053c3c0629fc6e2f10a0149c34c87706b84', version='v1.7.0'} 	https://github.com/coveo/react-vapor/commit/32132053c3c0629fc6e2f10a0149c34c87706b84
+CommitInfo{repo='GitHub', hash='3187a9b274f03f9e3966d03e6e656d9d3cbb3528', version='v1.7.1'} 	https://github.com/coveo/react-vapor/commit/3187a9b274f03f9e3966d03e6e656d9d3cbb3528
+CommitInfo{repo='GitHub', hash='7dcee795cfdd2e3ea017ccc30bec1f71bb0790d6', version='v1.7.10'} 	https://github.com/coveo/react-vapor/commit/7dcee795cfdd2e3ea017ccc30bec1f71bb0790d6
+CommitInfo{repo='GitHub', hash='75b50bbcadf94ac026ecaf4929c7084d388ee19b', version='v1.7.18'} 	https://github.com/coveo/react-vapor/commit/75b50bbcadf94ac026ecaf4929c7084d388ee19b
+CommitInfo{repo='GitHub', hash='ce973675b9fa960045d95cebe9485b6f60242ced', version='v1.7.19'} 	https://github.com/coveo/react-vapor/commit/ce973675b9fa960045d95cebe9485b6f60242ced
+CommitInfo{repo='GitHub', hash='f46a42ca93fc1fc823e8a8d88bbd7705afadf788', version='v1.7.2'} 	https://github.com/coveo/react-vapor/commit/f46a42ca93fc1fc823e8a8d88bbd7705afadf788
+CommitInfo{repo='GitHub', hash='065b709a23c0399ab2e15a76ec592dcec71d6b77', version='v1.7.20'} 	https://github.com/coveo/react-vapor/commit/065b709a23c0399ab2e15a76ec592dcec71d6b77
+CommitInfo{repo='GitHub', hash='b9284aedfb9c8c5002c4e2017b189c036875797d', version='v1.7.3'} 	https://github.com/coveo/react-vapor/commit/b9284aedfb9c8c5002c4e2017b189c036875797d
+CommitInfo{repo='GitHub', hash='06d32ea7a3fcf13e0844846315421e95172abc75', version='v1.7.4'} 	https://github.com/coveo/react-vapor/commit/06d32ea7a3fcf13e0844846315421e95172abc75
+CommitInfo{repo='GitHub', hash='7987f1dbd0e963b3475a865a3d0a0a38d7bf2599', version='v1.7.5'} 	https://github.com/coveo/react-vapor/commit/7987f1dbd0e963b3475a865a3d0a0a38d7bf2599
+CommitInfo{repo='GitHub', hash='2607c48a6bf8b5f89638983bee083932e30c5c92', version='v1.7.6'} 	https://github.com/coveo/react-vapor/commit/2607c48a6bf8b5f89638983bee083932e30c5c92
+CommitInfo{repo='GitHub', hash='ffc522d1084083e2fa2bacbfcf4835b0a7d7e979', version='v1.7.7'} 	https://github.com/coveo/react-vapor/commit/ffc522d1084083e2fa2bacbfcf4835b0a7d7e979
+CommitInfo{repo='GitHub', hash='0f01cd4e575e99c7ddd745fe24a14d55d7e03b5a', version='v1.7.8'} 	https://github.com/coveo/react-vapor/commit/0f01cd4e575e99c7ddd745fe24a14d55d7e03b5a
+CommitInfo{repo='GitHub', hash='3472fe9a19397bef6bffdaec88f53d1e8382e79b', version='v1.7.9'} 	https://github.com/coveo/react-vapor/commit/3472fe9a19397bef6bffdaec88f53d1e8382e79b
+CommitInfo{repo='GitHub', hash='88b8f6db4744b3ebae7ac001fad4332062fac7c5', version='v1.8.0'} 	https://github.com/coveo/react-vapor/commit/88b8f6db4744b3ebae7ac001fad4332062fac7c5
+CommitInfo{repo='GitHub', hash='297f903b1062097c9d26d0ba9e5c0d4e7912c708', version='v1.8.1'} 	https://github.com/coveo/react-vapor/commit/297f903b1062097c9d26d0ba9e5c0d4e7912c708
+CommitInfo{repo='GitHub', hash='e60022c665e82b85b92190d234d9dd8e4df9bab7', version='v1.8.2'} 	https://github.com/coveo/react-vapor/commit/e60022c665e82b85b92190d234d9dd8e4df9bab7
+CommitInfo{repo='GitHub', hash='6f3bce11b2e42ab5c1dd0371ea9decc1a363154e', version='v1.8.3'} 	https://github.com/coveo/react-vapor/commit/6f3bce11b2e42ab5c1dd0371ea9decc1a363154e
+CommitInfo{repo='GitHub', hash='9baeb406c7f5ee0ae41938a09b3b755e7065bce1', version='v1.8.4'} 	https://github.com/coveo/react-vapor/commit/9baeb406c7f5ee0ae41938a09b3b755e7065bce1
+CommitInfo{repo='GitHub', hash='9baeb406c7f5ee0ae41938a09b3b755e7065bce1', version='v1.8.4'} 	https://github.com/coveo/react-vapor/commit/9baeb406c7f5ee0ae41938a09b3b755e7065bce1
+CommitInfo{repo='GitHub', hash='5fc853d70cb70afab9b30a651c4805622af92e61', version='v1.8.5'} 	https://github.com/coveo/react-vapor/commit/5fc853d70cb70afab9b30a651c4805622af92e61
+CommitInfo{repo='GitHub', hash='7f3307bcdb8a2006ba2c60a3b5ad4acc6100b0ad', version='v1.8.6'} 	https://github.com/coveo/react-vapor/commit/7f3307bcdb8a2006ba2c60a3b5ad4acc6100b0ad
+CommitInfo{repo='GitHub', hash='7f3307bcdb8a2006ba2c60a3b5ad4acc6100b0ad', version='v1.8.6'} 	https://github.com/coveo/react-vapor/commit/7f3307bcdb8a2006ba2c60a3b5ad4acc6100b0ad
+CommitInfo{repo='GitHub', hash='2b5211174d8af409ad7b18d0390851ff0ff72ee4', version='v1.8.8'} 	https://github.com/coveo/react-vapor/commit/2b5211174d8af409ad7b18d0390851ff0ff72ee4
+CommitInfo{repo='GitHub', hash='2b5211174d8af409ad7b18d0390851ff0ff72ee4', version='v1.8.8'} 	https://github.com/coveo/react-vapor/commit/2b5211174d8af409ad7b18d0390851ff0ff72ee4
+CommitInfo{repo='GitHub', hash='f359c41ba3f9968489ada77c1a91931a52c731f6', version='v1.9.0'} 	https://github.com/coveo/react-vapor/commit/f359c41ba3f9968489ada77c1a91931a52c731f6
+CommitInfo{repo='GitHub', hash='f359c41ba3f9968489ada77c1a91931a52c731f6', version='v1.9.0'} 	https://github.com/coveo/react-vapor/commit/f359c41ba3f9968489ada77c1a91931a52c731f6
+CommitInfo{repo='GitHub', hash='34295c1e890eaf935525003c789e5ed1f45bfe03', version='v1.9.1'} 	https://github.com/coveo/react-vapor/commit/34295c1e890eaf935525003c789e5ed1f45bfe03
+CommitInfo{repo='GitHub', hash='34295c1e890eaf935525003c789e5ed1f45bfe03', version='v1.9.1'} 	https://github.com/coveo/react-vapor/commit/34295c1e890eaf935525003c789e5ed1f45bfe03
+CommitInfo{repo='GitHub', hash='99145c9c238e689e75d160d79d09638749216b71', version='v2.0.0'} 	https://github.com/coveo/react-vapor/commit/99145c9c238e689e75d160d79d09638749216b71
+CommitInfo{repo='GitHub', hash='1a71ca4249fa08f293aeae552515464066a6beaa', version='v2.1.0'} 	https://github.com/coveo/react-vapor/commit/1a71ca4249fa08f293aeae552515464066a6beaa
+CommitInfo{repo='GitHub', hash='d7955656988e2e7c5a09c7bf4bd6ec866f138e19', version='v2.10.0'} 	https://github.com/coveo/react-vapor/commit/d7955656988e2e7c5a09c7bf4bd6ec866f138e19
+CommitInfo{repo='GitHub', hash='6fb816fe5fa8bcdef5d03ac53005e9fc630658da', version='v2.1.1'} 	https://github.com/coveo/react-vapor/commit/6fb816fe5fa8bcdef5d03ac53005e9fc630658da
+CommitInfo{repo='GitHub', hash='a100fc75f6dd179d9c295a8952b8e7a274a54c6a', version='v2.11.0'} 	https://github.com/coveo/react-vapor/commit/a100fc75f6dd179d9c295a8952b8e7a274a54c6a
+CommitInfo{repo='GitHub', hash='888fa239b8e09d75c5936a4b9266032deaff251c', version='v2.1.2'} 	https://github.com/coveo/react-vapor/commit/888fa239b8e09d75c5936a4b9266032deaff251c
+CommitInfo{repo='GitHub', hash='ac85ee4c391ee2000ca6802e0c30f55e04d88a0c', version='v2.12.0'} 	https://github.com/coveo/react-vapor/commit/ac85ee4c391ee2000ca6802e0c30f55e04d88a0c
+CommitInfo{repo='GitHub', hash='d42e3f2385da6a03f9b379d3fee3b9478a20b700', version='v2.12.1'} 	https://github.com/coveo/react-vapor/commit/d42e3f2385da6a03f9b379d3fee3b9478a20b700
+CommitInfo{repo='GitHub', hash='67e8c9e93c483670693a8089263e9f03f48a983d', version='v2.12.2'} 	https://github.com/coveo/react-vapor/commit/67e8c9e93c483670693a8089263e9f03f48a983d
+CommitInfo{repo='GitHub', hash='925a7861afe90508a3ae2c0db6f789c315f52698', version='v2.12.3'} 	https://github.com/coveo/react-vapor/commit/925a7861afe90508a3ae2c0db6f789c315f52698
+CommitInfo{repo='GitHub', hash='1eeb6a9d2ba14e723d53ecbb55fbd8a4f73b5d3f', version='v2.12.4'} 	https://github.com/coveo/react-vapor/commit/1eeb6a9d2ba14e723d53ecbb55fbd8a4f73b5d3f
+CommitInfo{repo='GitHub', hash='7227d7fff70e336d7b28f3925290dce6c31c6a23', version='v2.12.5'} 	https://github.com/coveo/react-vapor/commit/7227d7fff70e336d7b28f3925290dce6c31c6a23
+CommitInfo{repo='GitHub', hash='d26e37e1011206db99e6bb27e8c65024ff47a460', version='v2.12.6'} 	https://github.com/coveo/react-vapor/commit/d26e37e1011206db99e6bb27e8c65024ff47a460
+CommitInfo{repo='GitHub', hash='d5ccec7c83cfede23c93005cc83e8ff1579f8e11', version='v2.12.7'} 	https://github.com/coveo/react-vapor/commit/d5ccec7c83cfede23c93005cc83e8ff1579f8e11
+CommitInfo{repo='GitHub', hash='1de2afa03fa6d1a3a0bbfc380397b1df261ee6ed', version='v2.1.3'} 	https://github.com/coveo/react-vapor/commit/1de2afa03fa6d1a3a0bbfc380397b1df261ee6ed
+CommitInfo{repo='GitHub', hash='e7a310c1863c840661de64d101329b3c24e6d6dd', version='v2.13.0'} 	https://github.com/coveo/react-vapor/commit/e7a310c1863c840661de64d101329b3c24e6d6dd
+CommitInfo{repo='GitHub', hash='875cee8b13e210d64bd08deeaaafc17c32ee18c1', version='v2.13.1'} 	https://github.com/coveo/react-vapor/commit/875cee8b13e210d64bd08deeaaafc17c32ee18c1
+CommitInfo{repo='GitHub', hash='d1ac682c7d9537e4ecb85a327fb4ca1311207ea0', version='v2.13.2'} 	https://github.com/coveo/react-vapor/commit/d1ac682c7d9537e4ecb85a327fb4ca1311207ea0
+CommitInfo{repo='GitHub', hash='3e254258bfaeba0d226e985bf663256c30d425dd', version='v2.13.3'} 	https://github.com/coveo/react-vapor/commit/3e254258bfaeba0d226e985bf663256c30d425dd
+CommitInfo{repo='GitHub', hash='cdeb4127e1473e18ce4e181ef611d93c3837f126', version='v2.13.4'} 	https://github.com/coveo/react-vapor/commit/cdeb4127e1473e18ce4e181ef611d93c3837f126
+CommitInfo{repo='GitHub', hash='56bc01c24ac5a13a9d3845e631af455a94a13ee7', version='v2.13.5'} 	https://github.com/coveo/react-vapor/commit/56bc01c24ac5a13a9d3845e631af455a94a13ee7
+CommitInfo{repo='GitHub', hash='f5d2112e80091225e4057a334ffe9000256e956f', version='v2.13.6'} 	https://github.com/coveo/react-vapor/commit/f5d2112e80091225e4057a334ffe9000256e956f
+CommitInfo{repo='GitHub', hash='38f0db55450e7aeaa7b62ec4aeba088394b880a2', version='v2.13.7'} 	https://github.com/coveo/react-vapor/commit/38f0db55450e7aeaa7b62ec4aeba088394b880a2
+CommitInfo{repo='GitHub', hash='52885138d6e130797ed3a0b78dfef83d735f11ea', version='v2.13.8'} 	https://github.com/coveo/react-vapor/commit/52885138d6e130797ed3a0b78dfef83d735f11ea
+CommitInfo{repo='GitHub', hash='5ac3a2058697f1272fd25cfb08a7a0be337c3fdb', version='v2.13.9'} 	https://github.com/coveo/react-vapor/commit/5ac3a2058697f1272fd25cfb08a7a0be337c3fdb
+CommitInfo{repo='GitHub', hash='39fb1f2c143dfa599d98b06fd21e89ebae965f33', version='v2.14.0'} 	https://github.com/coveo/react-vapor/commit/39fb1f2c143dfa599d98b06fd21e89ebae965f33
+CommitInfo{repo='GitHub', hash='674c2d23a6b98d148f43ff3e7cc24ad7d3000015', version='v2.14.1'} 	https://github.com/coveo/react-vapor/commit/674c2d23a6b98d148f43ff3e7cc24ad7d3000015
+CommitInfo{repo='GitHub', hash='bcd906fbf50a3ff2c171825fb0365854bcaf7a15', version='v2.14.10'} 	https://github.com/coveo/react-vapor/commit/bcd906fbf50a3ff2c171825fb0365854bcaf7a15
+CommitInfo{repo='GitHub', hash='36c5e03a3f552c6689200322b52ae93bc11ce589', version='v2.14.11'} 	https://github.com/coveo/react-vapor/commit/36c5e03a3f552c6689200322b52ae93bc11ce589
+CommitInfo{repo='GitHub', hash='99f4cd3ccceaf0399bf0f7e4a0864ee3bdc0784c', version='v2.14.12'} 	https://github.com/coveo/react-vapor/commit/99f4cd3ccceaf0399bf0f7e4a0864ee3bdc0784c
+CommitInfo{repo='GitHub', hash='55cac77f746f9a5d73eb464b9be45724b006b510', version='v2.14.13'} 	https://github.com/coveo/react-vapor/commit/55cac77f746f9a5d73eb464b9be45724b006b510
+CommitInfo{repo='GitHub', hash='3f850f1a0c7a1dd7afd8c98e996f84d0aa790dee', version='v2.14.14'} 	https://github.com/coveo/react-vapor/commit/3f850f1a0c7a1dd7afd8c98e996f84d0aa790dee
+CommitInfo{repo='GitHub', hash='2ed82e7fe6db323b4bfc69b2aba30874365394d9', version='v2.14.15'} 	https://github.com/coveo/react-vapor/commit/2ed82e7fe6db323b4bfc69b2aba30874365394d9
+CommitInfo{repo='GitHub', hash='e86b39afd3311cf7f45a5316fd63eac641916914', version='v2.14.16'} 	https://github.com/coveo/react-vapor/commit/e86b39afd3311cf7f45a5316fd63eac641916914
+CommitInfo{repo='GitHub', hash='e0c6212c989cdebf49c07bc0d450de6bf6167e4e', version='v2.14.17'} 	https://github.com/coveo/react-vapor/commit/e0c6212c989cdebf49c07bc0d450de6bf6167e4e
+CommitInfo{repo='GitHub', hash='b0ed02ae2893c718aca2067d79fd212882082166', version='v2.14.18'} 	https://github.com/coveo/react-vapor/commit/b0ed02ae2893c718aca2067d79fd212882082166
+CommitInfo{repo='GitHub', hash='9916656bd08081a0ed76bdee3b4614a5bd0c444c', version='v2.14.19'} 	https://github.com/coveo/react-vapor/commit/9916656bd08081a0ed76bdee3b4614a5bd0c444c
+CommitInfo{repo='GitHub', hash='ac57dae11a4df55efefd99eba281ba1307481970', version='v2.14.2'} 	https://github.com/coveo/react-vapor/commit/ac57dae11a4df55efefd99eba281ba1307481970
+CommitInfo{repo='GitHub', hash='9ac6651e615356cfd370edb09b1a10d42e2505a8', version='v2.14.20'} 	https://github.com/coveo/react-vapor/commit/9ac6651e615356cfd370edb09b1a10d42e2505a8
+CommitInfo{repo='GitHub', hash='113a6641a7690da3bf82b08252b036a7c64c52cc', version='v2.14.21'} 	https://github.com/coveo/react-vapor/commit/113a6641a7690da3bf82b08252b036a7c64c52cc
+CommitInfo{repo='GitHub', hash='6776da24e7cd37e19690b114902e2c3a0a283a71', version='v2.14.3'} 	https://github.com/coveo/react-vapor/commit/6776da24e7cd37e19690b114902e2c3a0a283a71
+CommitInfo{repo='GitHub', hash='362effe3995218d26fa8aebb2dfc681873388884', version='v2.14.4'} 	https://github.com/coveo/react-vapor/commit/362effe3995218d26fa8aebb2dfc681873388884
+CommitInfo{repo='GitHub', hash='263bf6d240547a5058d9553fb1c4c3fa141c95f9', version='v2.14.5'} 	https://github.com/coveo/react-vapor/commit/263bf6d240547a5058d9553fb1c4c3fa141c95f9
+CommitInfo{repo='GitHub', hash='33b3a827a75b2a73bf666262dbd87774eaa5f0c0', version='v2.14.6'} 	https://github.com/coveo/react-vapor/commit/33b3a827a75b2a73bf666262dbd87774eaa5f0c0
+CommitInfo{repo='GitHub', hash='e1d54ceab0b6b15e8399f47564c242f4e1d6a73b', version='v2.14.7'} 	https://github.com/coveo/react-vapor/commit/e1d54ceab0b6b15e8399f47564c242f4e1d6a73b
+CommitInfo{repo='GitHub', hash='d920172c424b511a1061c6b6302c6c9668392808', version='v2.14.8'} 	https://github.com/coveo/react-vapor/commit/d920172c424b511a1061c6b6302c6c9668392808
+CommitInfo{repo='GitHub', hash='aae6b3c7f14612dc59c9c311d162295edda95e6a', version='v2.14.9'} 	https://github.com/coveo/react-vapor/commit/aae6b3c7f14612dc59c9c311d162295edda95e6a
+CommitInfo{repo='GitHub', hash='f3543bddb465d6471461006c3518f1a038ebc0d9', version='v2.15.0'} 	https://github.com/coveo/react-vapor/commit/f3543bddb465d6471461006c3518f1a038ebc0d9
+CommitInfo{repo='GitHub', hash='4b242752c614e54cbf6dac265a3f3c2fba7de69f', version='v2.15.1'} 	https://github.com/coveo/react-vapor/commit/4b242752c614e54cbf6dac265a3f3c2fba7de69f
+CommitInfo{repo='GitHub', hash='9287e9d6beeb5a0a37f9d591ca4bb0101ae2715e', version='v2.16.0'} 	https://github.com/coveo/react-vapor/commit/9287e9d6beeb5a0a37f9d591ca4bb0101ae2715e
+CommitInfo{repo='GitHub', hash='30518010c1f1a009c41f2b99f1cd1f9f16718c2a', version='v2.16.1'} 	https://github.com/coveo/react-vapor/commit/30518010c1f1a009c41f2b99f1cd1f9f16718c2a
+CommitInfo{repo='GitHub', hash='d0a486cb4c8e1f2fa99a38ae759ac8eb873ef926', version='v2.16.10'} 	https://github.com/coveo/react-vapor/commit/d0a486cb4c8e1f2fa99a38ae759ac8eb873ef926
+CommitInfo{repo='GitHub', hash='60617409a0438ff859634610a265091bcde2bee1', version='v2.16.11'} 	https://github.com/coveo/react-vapor/commit/60617409a0438ff859634610a265091bcde2bee1
+CommitInfo{repo='GitHub', hash='bd3efa2e25bdc2576d9c0ee896ade476b407b5c7', version='v2.16.13'} 	https://github.com/coveo/react-vapor/commit/bd3efa2e25bdc2576d9c0ee896ade476b407b5c7
+CommitInfo{repo='GitHub', hash='c501980ece4c715ca8a4a5afdb69c9044be95f08', version='v2.16.14'} 	https://github.com/coveo/react-vapor/commit/c501980ece4c715ca8a4a5afdb69c9044be95f08
+CommitInfo{repo='GitHub', hash='d7a0dc3dd4eaf62109e8a6484a7c38e6ffd6acd7', version='v2.16.2'} 	https://github.com/coveo/react-vapor/commit/d7a0dc3dd4eaf62109e8a6484a7c38e6ffd6acd7
+CommitInfo{repo='GitHub', hash='8e04aeab93f7b382de3a602b5a9d9c6b46213b62', version='v2.16.3'} 	https://github.com/coveo/react-vapor/commit/8e04aeab93f7b382de3a602b5a9d9c6b46213b62
+CommitInfo{repo='GitHub', hash='6c8c8c6c01d3944ba965b867c83246b3e60d4f2b', version='v2.16.4'} 	https://github.com/coveo/react-vapor/commit/6c8c8c6c01d3944ba965b867c83246b3e60d4f2b
+CommitInfo{repo='GitHub', hash='1d7798c700beade99c68339424ffb0bb91f6d9bd', version='v2.16.5'} 	https://github.com/coveo/react-vapor/commit/1d7798c700beade99c68339424ffb0bb91f6d9bd
+CommitInfo{repo='GitHub', hash='8820f21420f3639372067177530d32d7e77edf36', version='v2.16.6'} 	https://github.com/coveo/react-vapor/commit/8820f21420f3639372067177530d32d7e77edf36
+CommitInfo{repo='GitHub', hash='8820f21420f3639372067177530d32d7e77edf36', version='v2.16.6'} 	https://github.com/coveo/react-vapor/commit/8820f21420f3639372067177530d32d7e77edf36
+CommitInfo{repo='GitHub', hash='e659e62a4bf02d583498a4adacc59678266f3e33', version='v2.16.7'} 	https://github.com/coveo/react-vapor/commit/e659e62a4bf02d583498a4adacc59678266f3e33
+CommitInfo{repo='GitHub', hash='7afdec84e8ee89e4e035da4afdcdc6234b25dc74', version='v2.16.8'} 	https://github.com/coveo/react-vapor/commit/7afdec84e8ee89e4e035da4afdcdc6234b25dc74
+CommitInfo{repo='GitHub', hash='89d34c3a7254fcbac75810aca2c5238da37ba7a5', version='v2.16.9'} 	https://github.com/coveo/react-vapor/commit/89d34c3a7254fcbac75810aca2c5238da37ba7a5
+CommitInfo{repo='GitHub', hash='8b99f4830c54a50e19991848bd857e2a4ace2bf4', version='v2.17.0'} 	https://github.com/coveo/react-vapor/commit/8b99f4830c54a50e19991848bd857e2a4ace2bf4
+CommitInfo{repo='GitHub', hash='e5db64dd66a7aeff6d64b9d597621ac69d903007', version='v2.17.1'} 	https://github.com/coveo/react-vapor/commit/e5db64dd66a7aeff6d64b9d597621ac69d903007
+CommitInfo{repo='GitHub', hash='26e65819cee09f8f077ec3dee2bfff21af4b8daf', version='v2.17.2'} 	https://github.com/coveo/react-vapor/commit/26e65819cee09f8f077ec3dee2bfff21af4b8daf
+CommitInfo{repo='GitHub', hash='4f540578628f9e8d59cfd4cff6db32cfe761d341', version='v2.18.0'} 	https://github.com/coveo/react-vapor/commit/4f540578628f9e8d59cfd4cff6db32cfe761d341
+CommitInfo{repo='GitHub', hash='2988847fb49d38fbeaa4b9fbe87e42e54abd0a85', version='v2.18.1'} 	https://github.com/coveo/react-vapor/commit/2988847fb49d38fbeaa4b9fbe87e42e54abd0a85
+CommitInfo{repo='GitHub', hash='2de54d3df90b67c1efe6b485ccccb86ed0ae9b99', version='v2.18.2'} 	https://github.com/coveo/react-vapor/commit/2de54d3df90b67c1efe6b485ccccb86ed0ae9b99
+CommitInfo{repo='GitHub', hash='f9b0643ac5ef5e3d93db64f27d8063e4c696d6b9', version='v2.18.3'} 	https://github.com/coveo/react-vapor/commit/f9b0643ac5ef5e3d93db64f27d8063e4c696d6b9
+CommitInfo{repo='GitHub', hash='7a6e05457ac14aa1b1a1f7f23a93c918d31d432b', version='v2.19.0'} 	https://github.com/coveo/react-vapor/commit/7a6e05457ac14aa1b1a1f7f23a93c918d31d432b
+CommitInfo{repo='GitHub', hash='62262740239c8c53a390b4494a216232d69c7383', version='v2.19.1'} 	https://github.com/coveo/react-vapor/commit/62262740239c8c53a390b4494a216232d69c7383
+CommitInfo{repo='GitHub', hash='ee242594775effe2abca98da94a26915930b4665', version='v2.19.10'} 	https://github.com/coveo/react-vapor/commit/ee242594775effe2abca98da94a26915930b4665
+CommitInfo{repo='GitHub', hash='ceb8b9220be0b1ef8275f9b9aa3261005c330c76', version='v2.19.11'} 	https://github.com/coveo/react-vapor/commit/ceb8b9220be0b1ef8275f9b9aa3261005c330c76
+CommitInfo{repo='GitHub', hash='f75ac94c11b7ea0f55c370ccdee8b8b06d68f592', version='v2.19.12'} 	https://github.com/coveo/react-vapor/commit/f75ac94c11b7ea0f55c370ccdee8b8b06d68f592
+CommitInfo{repo='GitHub', hash='1e907e8fe4f91b728255e6f951d397e5085f5f2b', version='v2.19.2'} 	https://github.com/coveo/react-vapor/commit/1e907e8fe4f91b728255e6f951d397e5085f5f2b
+CommitInfo{repo='GitHub', hash='214d84da73931473d1360e5d0c0556014ce6f00e', version='v2.19.3'} 	https://github.com/coveo/react-vapor/commit/214d84da73931473d1360e5d0c0556014ce6f00e
+CommitInfo{repo='GitHub', hash='752520da049f4109a61a6d48c727ee780786c978', version='v2.19.4'} 	https://github.com/coveo/react-vapor/commit/752520da049f4109a61a6d48c727ee780786c978
+CommitInfo{repo='GitHub', hash='a008762966d692cb8837d731b75857c1d9f4e8bc', version='v2.19.5'} 	https://github.com/coveo/react-vapor/commit/a008762966d692cb8837d731b75857c1d9f4e8bc
+CommitInfo{repo='GitHub', hash='9fee1efadc420f5a51f2b86abfd83803229c9543', version='v2.19.6'} 	https://github.com/coveo/react-vapor/commit/9fee1efadc420f5a51f2b86abfd83803229c9543
+CommitInfo{repo='GitHub', hash='011bb815a592f2371d97b8fcb4faab59c0fc3020', version='v2.19.7'} 	https://github.com/coveo/react-vapor/commit/011bb815a592f2371d97b8fcb4faab59c0fc3020
+CommitInfo{repo='GitHub', hash='e53cffaee2fe46026f211b268b1faa3c9d7ab482', version='v2.19.8'} 	https://github.com/coveo/react-vapor/commit/e53cffaee2fe46026f211b268b1faa3c9d7ab482
+CommitInfo{repo='GitHub', hash='bf40d317c8161688755d4d904e9627b9eaf4eb3a', version='v2.19.9'} 	https://github.com/coveo/react-vapor/commit/bf40d317c8161688755d4d904e9627b9eaf4eb3a
+CommitInfo{repo='GitHub', hash='74f0cb6de59ad6e2c4f1901fdbb9d32cb74084d4', version='v2.2.0'} 	https://github.com/coveo/react-vapor/commit/74f0cb6de59ad6e2c4f1901fdbb9d32cb74084d4
+CommitInfo{repo='GitHub', hash='ff049cdad1e91da221b971eeb21670d7c80404df', version='v2.20.0'} 	https://github.com/coveo/react-vapor/commit/ff049cdad1e91da221b971eeb21670d7c80404df
+CommitInfo{repo='GitHub', hash='cd0c2841a61a883256b30d8071515723a38fa8f9', version='v2.21.0'} 	https://github.com/coveo/react-vapor/commit/cd0c2841a61a883256b30d8071515723a38fa8f9
+CommitInfo{repo='GitHub', hash='5a8880dc4283cf55ff93968d89b9ddb80db873df', version='v2.21.1'} 	https://github.com/coveo/react-vapor/commit/5a8880dc4283cf55ff93968d89b9ddb80db873df
+CommitInfo{repo='GitHub', hash='a25971eeda176494d8c8ce48587c99f6f5decb59', version='v2.21.10'} 	https://github.com/coveo/react-vapor/commit/a25971eeda176494d8c8ce48587c99f6f5decb59
+CommitInfo{repo='GitHub', hash='8968d5c88fd40ae1964b96cc2971e0010ad96381', version='v2.21.11'} 	https://github.com/coveo/react-vapor/commit/8968d5c88fd40ae1964b96cc2971e0010ad96381
+CommitInfo{repo='GitHub', hash='4479e134ec95e455ccad2c0c8620daa9a34a2133', version='v2.21.2'} 	https://github.com/coveo/react-vapor/commit/4479e134ec95e455ccad2c0c8620daa9a34a2133
+CommitInfo{repo='GitHub', hash='66684ad50aa4839eb41252c3771d7130ec3fce02', version='v2.21.3'} 	https://github.com/coveo/react-vapor/commit/66684ad50aa4839eb41252c3771d7130ec3fce02
+CommitInfo{repo='GitHub', hash='a2420df6074ba1b948df2d567a90104b678621e4', version='v2.21.4'} 	https://github.com/coveo/react-vapor/commit/a2420df6074ba1b948df2d567a90104b678621e4
+CommitInfo{repo='GitHub', hash='e4fc04e6071bae0e9b57ed218a6b7e8898369501', version='v2.21.5'} 	https://github.com/coveo/react-vapor/commit/e4fc04e6071bae0e9b57ed218a6b7e8898369501
+CommitInfo{repo='GitHub', hash='b07a3171834e45991ad87388e82ceca1e5234c66', version='v2.21.6'} 	https://github.com/coveo/react-vapor/commit/b07a3171834e45991ad87388e82ceca1e5234c66
+CommitInfo{repo='GitHub', hash='0376fde448201ce2996175ec10f22cc3ea3a828c', version='v2.21.7'} 	https://github.com/coveo/react-vapor/commit/0376fde448201ce2996175ec10f22cc3ea3a828c
+CommitInfo{repo='GitHub', hash='b22ca0dfe7ab47a6bf663640748a37097a6877a9', version='v2.21.8'} 	https://github.com/coveo/react-vapor/commit/b22ca0dfe7ab47a6bf663640748a37097a6877a9
+CommitInfo{repo='GitHub', hash='70e976e7547ed891f8c8ff3b83c3bf5247e64ace', version='v2.21.9'} 	https://github.com/coveo/react-vapor/commit/70e976e7547ed891f8c8ff3b83c3bf5247e64ace
+CommitInfo{repo='GitHub', hash='4454ce16b5af8ca71d2b5083e5bd34fabea7398a', version='v2.22.0'} 	https://github.com/coveo/react-vapor/commit/4454ce16b5af8ca71d2b5083e5bd34fabea7398a
+CommitInfo{repo='GitHub', hash='a4c2322ee93ad0f0b1f8c8d3bb383e5e88dc5d7b', version='v2.22.1'} 	https://github.com/coveo/react-vapor/commit/a4c2322ee93ad0f0b1f8c8d3bb383e5e88dc5d7b
+CommitInfo{repo='GitHub', hash='b8a41fbc5f52ab2bc58f845f176d02ab76c24b03', version='v2.22.2'} 	https://github.com/coveo/react-vapor/commit/b8a41fbc5f52ab2bc58f845f176d02ab76c24b03
+CommitInfo{repo='GitHub', hash='412e7f5d9991c3e4d4caa5c20ccd33adda640356', version='v2.23.0'} 	https://github.com/coveo/react-vapor/commit/412e7f5d9991c3e4d4caa5c20ccd33adda640356
+CommitInfo{repo='GitHub', hash='7f03fcc28415d831fc4a48dcda9e59d9eeea2687', version='v2.23.1'} 	https://github.com/coveo/react-vapor/commit/7f03fcc28415d831fc4a48dcda9e59d9eeea2687
+CommitInfo{repo='GitHub', hash='4f12041ebb8a94a63e24de0fcf6b55d18a8336bc', version='v2.23.3'} 	https://github.com/coveo/react-vapor/commit/4f12041ebb8a94a63e24de0fcf6b55d18a8336bc
+CommitInfo{repo='GitHub', hash='b862e8a71ffdc71744d3a98d68c9b7ef52021e39', version='v2.23.4'} 	https://github.com/coveo/react-vapor/commit/b862e8a71ffdc71744d3a98d68c9b7ef52021e39
+CommitInfo{repo='GitHub', hash='a3eb2c01790bd657da33c90fc2f82b14fac26efb', version='v2.24.0'} 	https://github.com/coveo/react-vapor/commit/a3eb2c01790bd657da33c90fc2f82b14fac26efb
+CommitInfo{repo='GitHub', hash='383e04f76b62a23f8307d5797bf4b43d0696e514', version='v2.24.1'} 	https://github.com/coveo/react-vapor/commit/383e04f76b62a23f8307d5797bf4b43d0696e514
+CommitInfo{repo='GitHub', hash='7b8810ccceffd93f9fc0861b7eba48207fa5ee89', version='v2.24.2'} 	https://github.com/coveo/react-vapor/commit/7b8810ccceffd93f9fc0861b7eba48207fa5ee89
+CommitInfo{repo='GitHub', hash='e2f9130a9b308cce4accc6608914bd8d6a97a0d5', version='v2.24.3'} 	https://github.com/coveo/react-vapor/commit/e2f9130a9b308cce4accc6608914bd8d6a97a0d5
+CommitInfo{repo='GitHub', hash='0319c79c3f092f32da83b134585625321f1dac8c', version='v2.24.4'} 	https://github.com/coveo/react-vapor/commit/0319c79c3f092f32da83b134585625321f1dac8c
+CommitInfo{repo='GitHub', hash='01fa47f14e74e7cea1f4572c67d7d97e6b977f29', version='v2.24.5'} 	https://github.com/coveo/react-vapor/commit/01fa47f14e74e7cea1f4572c67d7d97e6b977f29
+CommitInfo{repo='GitHub', hash='a37fd60a4820067ea7777794f5a70159e29c9530', version='v2.24.6'} 	https://github.com/coveo/react-vapor/commit/a37fd60a4820067ea7777794f5a70159e29c9530
+CommitInfo{repo='GitHub', hash='976393273f7f948b6ce98457ed7534c72876b0a5', version='v2.24.7'} 	https://github.com/coveo/react-vapor/commit/976393273f7f948b6ce98457ed7534c72876b0a5
+CommitInfo{repo='GitHub', hash='e1cb0ba94e426700170ecac0a5ebdd12cf6599e8', version='v2.24.8'} 	https://github.com/coveo/react-vapor/commit/e1cb0ba94e426700170ecac0a5ebdd12cf6599e8
+CommitInfo{repo='GitHub', hash='23a1206dce0837a54a4d16ffb89d2461a47e99c8', version='v2.25.0'} 	https://github.com/coveo/react-vapor/commit/23a1206dce0837a54a4d16ffb89d2461a47e99c8
+CommitInfo{repo='GitHub', hash='93d06d7f31b1b8e1baa9bccaf6d3511c6eefa0e7', version='v2.25.1'} 	https://github.com/coveo/react-vapor/commit/93d06d7f31b1b8e1baa9bccaf6d3511c6eefa0e7
+CommitInfo{repo='GitHub', hash='649f6997753d7aa747203b86ee82b51f17898b21', version='v2.25.10'} 	https://github.com/coveo/react-vapor/commit/649f6997753d7aa747203b86ee82b51f17898b21
+CommitInfo{repo='GitHub', hash='5627f7cc5433924d6f93e835fc9f908d3b229d89', version='v2.25.12'} 	https://github.com/coveo/react-vapor/commit/5627f7cc5433924d6f93e835fc9f908d3b229d89
+CommitInfo{repo='GitHub', hash='a5d15ff93560e9a768e9eceeae6e5f13009101a0', version='v2.25.2'} 	https://github.com/coveo/react-vapor/commit/a5d15ff93560e9a768e9eceeae6e5f13009101a0
+CommitInfo{repo='GitHub', hash='bcb35ee9555872ea3df4356fcdded8a2462a84b8', version='v2.25.3'} 	https://github.com/coveo/react-vapor/commit/bcb35ee9555872ea3df4356fcdded8a2462a84b8
+CommitInfo{repo='GitHub', hash='203032e43f9e978d35600e287f26da7d7208bf2a', version='v2.25.4'} 	https://github.com/coveo/react-vapor/commit/203032e43f9e978d35600e287f26da7d7208bf2a
+CommitInfo{repo='GitHub', hash='203032e43f9e978d35600e287f26da7d7208bf2a', version='v2.25.4'} 	https://github.com/coveo/react-vapor/commit/203032e43f9e978d35600e287f26da7d7208bf2a
+CommitInfo{repo='GitHub', hash='9f49497c21be3f85365e191c177279f16b568f70', version='v2.25.5'} 	https://github.com/coveo/react-vapor/commit/9f49497c21be3f85365e191c177279f16b568f70
+CommitInfo{repo='GitHub', hash='5ec2e25eab23b171b10fc0736ff47198abddec4e', version='v2.25.6'} 	https://github.com/coveo/react-vapor/commit/5ec2e25eab23b171b10fc0736ff47198abddec4e
+CommitInfo{repo='GitHub', hash='332c9fa0aec7a4b136de23275dfae56247c9c8c6', version='v2.25.7'} 	https://github.com/coveo/react-vapor/commit/332c9fa0aec7a4b136de23275dfae56247c9c8c6
+CommitInfo{repo='GitHub', hash='6ace702218614b34c1e9766883bb83bffac72078', version='v2.25.8'} 	https://github.com/coveo/react-vapor/commit/6ace702218614b34c1e9766883bb83bffac72078
+CommitInfo{repo='GitHub', hash='fd92f3acf3fd1f3f6f3eed76961370b334e8fbff', version='v2.25.9'} 	https://github.com/coveo/react-vapor/commit/fd92f3acf3fd1f3f6f3eed76961370b334e8fbff
+CommitInfo{repo='GitHub', hash='2576579b65d162491211ad53d7a908b5b279f8d7', version='v2.26.0'} 	https://github.com/coveo/react-vapor/commit/2576579b65d162491211ad53d7a908b5b279f8d7
+CommitInfo{repo='GitHub', hash='ac4fbc1eb5ab0831eba61f989036cbe57d0e8f82', version='v2.26.1'} 	https://github.com/coveo/react-vapor/commit/ac4fbc1eb5ab0831eba61f989036cbe57d0e8f82
+CommitInfo{repo='GitHub', hash='ee9f76ec0a3f766760b5a41b8a6cbfaae42cbbc0', version='v2.26.2'} 	https://github.com/coveo/react-vapor/commit/ee9f76ec0a3f766760b5a41b8a6cbfaae42cbbc0
+CommitInfo{repo='GitHub', hash='351badb552a5b3d9fc7bafc8791fa003f123ba36', version='v2.26.3'} 	https://github.com/coveo/react-vapor/commit/351badb552a5b3d9fc7bafc8791fa003f123ba36
+CommitInfo{repo='GitHub', hash='b0918150c674a16e45176659f2719e934ea5ad8b', version='v2.26.4'} 	https://github.com/coveo/react-vapor/commit/b0918150c674a16e45176659f2719e934ea5ad8b
+CommitInfo{repo='GitHub', hash='8e4a80fc3058bd4d18a820c67fc181362c7e2879', version='v2.26.5'} 	https://github.com/coveo/react-vapor/commit/8e4a80fc3058bd4d18a820c67fc181362c7e2879
+CommitInfo{repo='GitHub', hash='a17e37d58d8e4cb892b937b104240c619025b9fa', version='v2.26.6'} 	https://github.com/coveo/react-vapor/commit/a17e37d58d8e4cb892b937b104240c619025b9fa
+CommitInfo{repo='GitHub', hash='9307fdcd9b7b79f2d8c1ed0529cb40dd4e27bb88', version='v2.26.7'} 	https://github.com/coveo/react-vapor/commit/9307fdcd9b7b79f2d8c1ed0529cb40dd4e27bb88
+CommitInfo{repo='GitHub', hash='ed526c53b706a98d8c542564338f3b7d234ab7f9', version='v2.27.0'} 	https://github.com/coveo/react-vapor/commit/ed526c53b706a98d8c542564338f3b7d234ab7f9
+CommitInfo{repo='GitHub', hash='9b0663b831f14010b479cf5cd32dbe0693df9947', version='v2.27.1'} 	https://github.com/coveo/react-vapor/commit/9b0663b831f14010b479cf5cd32dbe0693df9947
+CommitInfo{repo='GitHub', hash='2d5226eda49762dc71106229db596e79c31d8149', version='v2.27.2'} 	https://github.com/coveo/react-vapor/commit/2d5226eda49762dc71106229db596e79c31d8149
+CommitInfo{repo='GitHub', hash='8ba2760f7b9a77ca9cea21e263354a11e5106085', version='v2.27.3'} 	https://github.com/coveo/react-vapor/commit/8ba2760f7b9a77ca9cea21e263354a11e5106085
+CommitInfo{repo='GitHub', hash='56edb25f2ccfd379033e5d819a64e9bbcab3d4ff', version='v2.27.4'} 	https://github.com/coveo/react-vapor/commit/56edb25f2ccfd379033e5d819a64e9bbcab3d4ff
+CommitInfo{repo='GitHub', hash='05b74d96e11086e0f71786002a2c4f0cb1ed56d1', version='v2.27.5'} 	https://github.com/coveo/react-vapor/commit/05b74d96e11086e0f71786002a2c4f0cb1ed56d1
+CommitInfo{repo='GitHub', hash='e34f650017ce7bbdfd159ae6face0998918f8622', version='v2.27.6'} 	https://github.com/coveo/react-vapor/commit/e34f650017ce7bbdfd159ae6face0998918f8622
+CommitInfo{repo='GitHub', hash='8a5a0fc4ff45b2282b098e433b34f49c7096ea97', version='v2.27.7'} 	https://github.com/coveo/react-vapor/commit/8a5a0fc4ff45b2282b098e433b34f49c7096ea97
+CommitInfo{repo='GitHub', hash='8295324689a4e4b1eaea3641f4e57a63592042fa', version='v2.27.8'} 	https://github.com/coveo/react-vapor/commit/8295324689a4e4b1eaea3641f4e57a63592042fa
+CommitInfo{repo='GitHub', hash='6ab5b0d2f05dd7e897191c6eecf447293b12f90e', version='v2.28.0'} 	https://github.com/coveo/react-vapor/commit/6ab5b0d2f05dd7e897191c6eecf447293b12f90e
+CommitInfo{repo='GitHub', hash='6513499c7eba09c8d2b9f4530527d0e62eda78e9', version='v2.3.0'} 	https://github.com/coveo/react-vapor/commit/6513499c7eba09c8d2b9f4530527d0e62eda78e9
+CommitInfo{repo='GitHub', hash='7df4094d1b7e6b51bf1ef752832ab31c8338c3b9', version='v2.4.0'} 	https://github.com/coveo/react-vapor/commit/7df4094d1b7e6b51bf1ef752832ab31c8338c3b9
+CommitInfo{repo='GitHub', hash='7fe5be52ad7373cf653e59f274e4dbd8a80cddb9', version='v2.4.1'} 	https://github.com/coveo/react-vapor/commit/7fe5be52ad7373cf653e59f274e4dbd8a80cddb9
+CommitInfo{repo='GitHub', hash='cc730aa441b30fbe3a11da18e60adae4cc6acf4c', version='v2.4.2'} 	https://github.com/coveo/react-vapor/commit/cc730aa441b30fbe3a11da18e60adae4cc6acf4c
+CommitInfo{repo='GitHub', hash='6800a18e1e3e56752f2647b4c6fcb60e0e4fb41e', version='v2.4.3'} 	https://github.com/coveo/react-vapor/commit/6800a18e1e3e56752f2647b4c6fcb60e0e4fb41e
+CommitInfo{repo='GitHub', hash='629a3a09702943e7ba2d8d9f93fecd4945db0fc5', version='v2.4.4'} 	https://github.com/coveo/react-vapor/commit/629a3a09702943e7ba2d8d9f93fecd4945db0fc5
+CommitInfo{repo='GitHub', hash='407859630ef7c4ac86b4d0bd5376c9a534635e87', version='v2.4.5'} 	https://github.com/coveo/react-vapor/commit/407859630ef7c4ac86b4d0bd5376c9a534635e87
+CommitInfo{repo='GitHub', hash='b2eb3f55b4306c24e2d6fdee45556f89fb84616b', version='v2.5.0'} 	https://github.com/coveo/react-vapor/commit/b2eb3f55b4306c24e2d6fdee45556f89fb84616b
+CommitInfo{repo='GitHub', hash='8ed0b1a4bc1b679356a9d3faf7b8b0258355b187', version='v2.5.1'} 	https://github.com/coveo/react-vapor/commit/8ed0b1a4bc1b679356a9d3faf7b8b0258355b187
+CommitInfo{repo='GitHub', hash='55fa9dece8d062db19ae112a8ea2026bb69be61a', version='v2.6.0'} 	https://github.com/coveo/react-vapor/commit/55fa9dece8d062db19ae112a8ea2026bb69be61a
+CommitInfo{repo='GitHub', hash='52f6392a44d10c3dfe4549d4c0b5e1ddf0371631', version='v2.6.1'} 	https://github.com/coveo/react-vapor/commit/52f6392a44d10c3dfe4549d4c0b5e1ddf0371631
+CommitInfo{repo='GitHub', hash='9fed62e5079725445c0da17368f46ce8941183df', version='v2.7.1'} 	https://github.com/coveo/react-vapor/commit/9fed62e5079725445c0da17368f46ce8941183df
+CommitInfo{repo='GitHub', hash='01998a4a10ae60fa1f6f56438e196d3a529cce91', version='v2.8.0'} 	https://github.com/coveo/react-vapor/commit/01998a4a10ae60fa1f6f56438e196d3a529cce91
+CommitInfo{repo='GitHub', hash='9f2c1f491c7ae0583a5ef21bda6dc231b3ffcc4f', version='v2.9.0'} 	https://github.com/coveo/react-vapor/commit/9f2c1f491c7ae0583a5ef21bda6dc231b3ffcc4f
+CommitInfo{repo='GitHub', hash='0a048fa367a61c8e6f6fff97395589fd96b9eadb', version='v2.9.1'} 	https://github.com/coveo/react-vapor/commit/0a048fa367a61c8e6f6fff97395589fd96b9eadb
+CommitInfo{repo='GitHub', hash='0cd04c153c3b5d377f037fc55449e03c42c8493d', version='v2.9.2'} 	https://github.com/coveo/react-vapor/commit/0cd04c153c3b5d377f037fc55449e03c42c8493d
+CommitInfo{repo='GitHub', hash='cbdf72a33fa75dc494c457fe09bf585f954e412f', version='v3.0.0'} 	https://github.com/coveo/react-vapor/commit/cbdf72a33fa75dc494c457fe09bf585f954e412f
+CommitInfo{repo='GitHub', hash='dd9fe381f7ee1d4588a279097ee96b244a5a8c08', version='v3.0.1'} 	https://github.com/coveo/react-vapor/commit/dd9fe381f7ee1d4588a279097ee96b244a5a8c08
+CommitInfo{repo='GitHub', hash='902e1255ed54a922dca53cdc54e2dbad018d388f', version='v3.0.10'} 	https://github.com/coveo/react-vapor/commit/902e1255ed54a922dca53cdc54e2dbad018d388f
+CommitInfo{repo='GitHub', hash='ceed30e3b29045823585327e7bb52c03d6d9435e', version='v3.0.11'} 	https://github.com/coveo/react-vapor/commit/ceed30e3b29045823585327e7bb52c03d6d9435e
+CommitInfo{repo='GitHub', hash='5ea286cfee5f6c9e4ae17742219de12ab934e9e4', version='v3.0.2'} 	https://github.com/coveo/react-vapor/commit/5ea286cfee5f6c9e4ae17742219de12ab934e9e4
+CommitInfo{repo='GitHub', hash='1f25b6b75eb3c1976618d7a8271218cda6a6bdcb', version='v3.0.3'} 	https://github.com/coveo/react-vapor/commit/1f25b6b75eb3c1976618d7a8271218cda6a6bdcb
+CommitInfo{repo='GitHub', hash='6c44cfa7e9be1d5a156b5b9ab5585b815482ab5e', version='v3.0.4'} 	https://github.com/coveo/react-vapor/commit/6c44cfa7e9be1d5a156b5b9ab5585b815482ab5e
+CommitInfo{repo='GitHub', hash='a014fdc25a6bbdd69a0beef824715a05d0e1eff9', version='v3.0.5'} 	https://github.com/coveo/react-vapor/commit/a014fdc25a6bbdd69a0beef824715a05d0e1eff9
+CommitInfo{repo='GitHub', hash='673104db27c6b05666984201071f7264ea03e1d2', version='v3.0.6'} 	https://github.com/coveo/react-vapor/commit/673104db27c6b05666984201071f7264ea03e1d2
+CommitInfo{repo='GitHub', hash='c2eb1513486f509a449d100d0fb88e446145900f', version='v3.0.7'} 	https://github.com/coveo/react-vapor/commit/c2eb1513486f509a449d100d0fb88e446145900f
+CommitInfo{repo='GitHub', hash='c2eb1513486f509a449d100d0fb88e446145900f', version='v3.0.7'} 	https://github.com/coveo/react-vapor/commit/c2eb1513486f509a449d100d0fb88e446145900f
+CommitInfo{repo='GitHub', hash='9b04545b74820483651bedead508370086965169', version='v3.0.8'} 	https://github.com/coveo/react-vapor/commit/9b04545b74820483651bedead508370086965169
+CommitInfo{repo='GitHub', hash='d47fd83fd856355cca8d5160d6ad2b602bcd3806', version='v3.0.9'} 	https://github.com/coveo/react-vapor/commit/d47fd83fd856355cca8d5160d6ad2b602bcd3806
+CommitInfo{repo='GitHub', hash='9b610fabdb0ffb9415adcfd33b4ce93ca7378501', version='v3.1.0'} 	https://github.com/coveo/react-vapor/commit/9b610fabdb0ffb9415adcfd33b4ce93ca7378501
+CommitInfo{repo='GitHub', hash='d017a09476cd44d98f90616b00fa4ad4d0274a2a', version='v3.10.0'} 	https://github.com/coveo/react-vapor/commit/d017a09476cd44d98f90616b00fa4ad4d0274a2a
+CommitInfo{repo='GitHub', hash='5a8740d5cf032ab681a005d6e4aab5617e4e9de3', version='v3.10.1'} 	https://github.com/coveo/react-vapor/commit/5a8740d5cf032ab681a005d6e4aab5617e4e9de3
+CommitInfo{repo='GitHub', hash='1096b37fbab8ec370d69b26ba500b8be20d53a9e', version='v3.10.2'} 	https://github.com/coveo/react-vapor/commit/1096b37fbab8ec370d69b26ba500b8be20d53a9e
+CommitInfo{repo='GitHub', hash='24ed8dc90e32b146fd3553168478ef498a9a0068', version='v3.10.3'} 	https://github.com/coveo/react-vapor/commit/24ed8dc90e32b146fd3553168478ef498a9a0068
+CommitInfo{repo='GitHub', hash='cfb10afe09bd479dae3f42658e6c3f849b7fe858', version='v3.10.4'} 	https://github.com/coveo/react-vapor/commit/cfb10afe09bd479dae3f42658e6c3f849b7fe858
+CommitInfo{repo='GitHub', hash='5009e933219efa25ca9eb8281b69b2b6b64bf6b5', version='v3.10.5'} 	https://github.com/coveo/react-vapor/commit/5009e933219efa25ca9eb8281b69b2b6b64bf6b5
+CommitInfo{repo='GitHub', hash='5ad26d5b76ca3f49453905fc89370adecc8dc1ef', version='v3.11.0'} 	https://github.com/coveo/react-vapor/commit/5ad26d5b76ca3f49453905fc89370adecc8dc1ef
+CommitInfo{repo='GitHub', hash='03c2734894873957243132827fe044e747eaf363', version='v3.12.0'} 	https://github.com/coveo/react-vapor/commit/03c2734894873957243132827fe044e747eaf363
+CommitInfo{repo='GitHub', hash='52d8ba64aa652fb6cedda9eea0f3a648839ca735', version='v3.2.0'} 	https://github.com/coveo/react-vapor/commit/52d8ba64aa652fb6cedda9eea0f3a648839ca735
+CommitInfo{repo='GitHub', hash='cafaac4f27752c078661e9352aac804ee6c60b5d', version='v3.3.0'} 	https://github.com/coveo/react-vapor/commit/cafaac4f27752c078661e9352aac804ee6c60b5d
+CommitInfo{repo='GitHub', hash='cd10c9fa275da80f6813bcddc0dd0da905cfc7fb', version='v3.3.1'} 	https://github.com/coveo/react-vapor/commit/cd10c9fa275da80f6813bcddc0dd0da905cfc7fb
+CommitInfo{repo='GitHub', hash='8b99dd46dfa0f5006dde1bbe03140555872925bc', version='v3.3.10'} 	https://github.com/coveo/react-vapor/commit/8b99dd46dfa0f5006dde1bbe03140555872925bc
+CommitInfo{repo='GitHub', hash='b05476b865b7158e2c0806de21f38090b7b66d51', version='v3.3.2'} 	https://github.com/coveo/react-vapor/commit/b05476b865b7158e2c0806de21f38090b7b66d51
+CommitInfo{repo='GitHub', hash='ac0df3c9a24ab6b3d6ab43182da68dc700ba09d0', version='v3.3.3'} 	https://github.com/coveo/react-vapor/commit/ac0df3c9a24ab6b3d6ab43182da68dc700ba09d0
+CommitInfo{repo='GitHub', hash='f7e005125d0127bded089dab7137ad7dfa29f3a3', version='v3.3.4'} 	https://github.com/coveo/react-vapor/commit/f7e005125d0127bded089dab7137ad7dfa29f3a3
+CommitInfo{repo='GitHub', hash='3ee22b6b12de0950c35513c315e624fdd55409c9', version='v3.3.5'} 	https://github.com/coveo/react-vapor/commit/3ee22b6b12de0950c35513c315e624fdd55409c9
+CommitInfo{repo='GitHub', hash='26f9a2550a522a608a35e85cd733267c3446744c', version='v3.3.6'} 	https://github.com/coveo/react-vapor/commit/26f9a2550a522a608a35e85cd733267c3446744c
+CommitInfo{repo='GitHub', hash='172b6c910e3a9b3de01631aadc90d7cebc25d0d4', version='v3.3.7'} 	https://github.com/coveo/react-vapor/commit/172b6c910e3a9b3de01631aadc90d7cebc25d0d4
+CommitInfo{repo='GitHub', hash='85e370357ed118fd2c91d53296553a619843ad55', version='v3.3.8'} 	https://github.com/coveo/react-vapor/commit/85e370357ed118fd2c91d53296553a619843ad55
+CommitInfo{repo='GitHub', hash='c48dfdce9ca9900294c68bacd54204babceb4c7f', version='v3.3.9'} 	https://github.com/coveo/react-vapor/commit/c48dfdce9ca9900294c68bacd54204babceb4c7f
+CommitInfo{repo='GitHub', hash='321b51ac906df5a738ae537c2f5a10881a91d56d', version='v3.4.0'} 	https://github.com/coveo/react-vapor/commit/321b51ac906df5a738ae537c2f5a10881a91d56d
+CommitInfo{repo='GitHub', hash='193e464258c944e5da3be24968413e91917bbbc6', version='v3.5.0'} 	https://github.com/coveo/react-vapor/commit/193e464258c944e5da3be24968413e91917bbbc6
+CommitInfo{repo='GitHub', hash='4487b6e8839d2b708b9d0c6748e2a710875543b2', version='v3.6.0'} 	https://github.com/coveo/react-vapor/commit/4487b6e8839d2b708b9d0c6748e2a710875543b2
+CommitInfo{repo='GitHub', hash='6ef63696f64f357874758a78e9049013f54fc8be', version='v3.6.1'} 	https://github.com/coveo/react-vapor/commit/6ef63696f64f357874758a78e9049013f54fc8be
+CommitInfo{repo='GitHub', hash='d92445175a312ec0b9f9d2db2d4b836dbcd29189', version='v3.7.0'} 	https://github.com/coveo/react-vapor/commit/d92445175a312ec0b9f9d2db2d4b836dbcd29189
+CommitInfo{repo='GitHub', hash='c302f3b3167ea96d08a376d07866f99a995e33a4', version='v3.8.0'} 	https://github.com/coveo/react-vapor/commit/c302f3b3167ea96d08a376d07866f99a995e33a4
+CommitInfo{repo='GitHub', hash='de36bb14a9672dab77877d7d49a36a36f6c6e7d4', version='v3.8.1'} 	https://github.com/coveo/react-vapor/commit/de36bb14a9672dab77877d7d49a36a36f6c6e7d4
+CommitInfo{repo='GitHub', hash='4be6e5bff3c9e431d31841845d0e1c128f37ff39', version='v3.8.2'} 	https://github.com/coveo/react-vapor/commit/4be6e5bff3c9e431d31841845d0e1c128f37ff39
+CommitInfo{repo='GitHub', hash='f52f6450d8d84441ba1cd33049aac45de90c1a1e', version='v3.8.3'} 	https://github.com/coveo/react-vapor/commit/f52f6450d8d84441ba1cd33049aac45de90c1a1e
+CommitInfo{repo='GitHub', hash='3a4ba8456e1f9442d2326bdd54c55675eb6b474a', version='v3.8.4'} 	https://github.com/coveo/react-vapor/commit/3a4ba8456e1f9442d2326bdd54c55675eb6b474a
+CommitInfo{repo='GitHub', hash='4f6d64a2807754280ba31d4adba3907c481405f8', version='v3.8.5'} 	https://github.com/coveo/react-vapor/commit/4f6d64a2807754280ba31d4adba3907c481405f8
+CommitInfo{repo='GitHub', hash='dc6144441f82fe7705206c6c571f00501642b718', version='v3.8.6'} 	https://github.com/coveo/react-vapor/commit/dc6144441f82fe7705206c6c571f00501642b718
+CommitInfo{repo='GitHub', hash='d454f3347f88acf45dcf4e1b68bd75284877ae4f', version='v3.8.7'} 	https://github.com/coveo/react-vapor/commit/d454f3347f88acf45dcf4e1b68bd75284877ae4f
+CommitInfo{repo='GitHub', hash='a5f61d945ca0d145940041f4aac390f05b266b08', version='v3.8.8'} 	https://github.com/coveo/react-vapor/commit/a5f61d945ca0d145940041f4aac390f05b266b08
+CommitInfo{repo='GitHub', hash='7a8a4ef88f5a44af9c7c36cef796fa21f097f30a', version='v3.9.0'} 	https://github.com/coveo/react-vapor/commit/7a8a4ef88f5a44af9c7c36cef796fa21f097f30a
+CommitInfo{repo='GitHub', hash='98acc32749a35d32525c88b860499954c7bcfbd3', version='v3.9.1'} 	https://github.com/coveo/react-vapor/commit/98acc32749a35d32525c88b860499954c7bcfbd3
+CommitInfo{repo='GitHub', hash='635727acad2cfa565f083c4877923a5c0a922e13', version='v3.9.2'} 	https://github.com/coveo/react-vapor/commit/635727acad2cfa565f083c4877923a5c0a922e13
+CommitInfo{repo='GitHub', hash='2fda4f9df2572d5368b63b7c59fb71de31cc4258', version='v3.9.3'} 	https://github.com/coveo/react-vapor/commit/2fda4f9df2572d5368b63b7c59fb71de31cc4258
+CommitInfo{repo='GitHub', hash='a58e69588621fa856ce7e03dc6e6950d30c567cb', version='v3.9.4'} 	https://github.com/coveo/react-vapor/commit/a58e69588621fa856ce7e03dc6e6950d30c567cb
+CommitInfo{repo='GitHub', hash='bf224df00882abd79b7e533eb6447750eea62893', version='v3.9.5'} 	https://github.com/coveo/react-vapor/commit/bf224df00882abd79b7e533eb6447750eea62893
 
 Project A:
 ProjectVersionFixed(version=0.1.0, dependency=3.15.1, time=2016-09-20 19:51:35 UTC),	Latest, "null"

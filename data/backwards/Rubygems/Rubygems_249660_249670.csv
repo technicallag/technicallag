@@ -2,241 +2,246 @@
 Project information
 sensu (249660)	sensu-spawn (249670)	Package Manager: Rubygems
 RepoID: 328362
+Repo Owner/Name: sensu/sensu
+Repository type: GitHub
+
+ https://github.com/sensu/sensu/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='f107e360034daae84371e1dde016e46ae6300123', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='acde83aedd3beac4bcdf1c8d68eb84227a1f9a20', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='194190bb9569e76b82770a6a54e399a0e2fa469f', version='v0.10.2'}
-CommitInfo{repo='GitHub', hash='c86d50e5e8bd7dafb6a15a0b33005b92e5631323', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='f7a81819c3ceb8f018f0f6f13d66224d47dac981', version='v0.11.0.beta'}
-CommitInfo{repo='GitHub', hash='858f35a39dfb3cfcfad3d2be38816b1977e46f99', version='v0.11.0.beta.1'}
-CommitInfo{repo='GitHub', hash='f59de4ded417a6595e80c6bcc813343c8c0337c1', version='v0.11.0.beta.2'}
-CommitInfo{repo='GitHub', hash='1a837e75be8e1950dce0778dd83a314eee4ee707', version='v0.11.0.beta.3'}
-CommitInfo{repo='GitHub', hash='e0d7781122dfb555651a1f66c59a9bc8490474f0', version='v0.11.0.beta.4'}
-CommitInfo{repo='GitHub', hash='f3880c1a58f148f77e6b9c1d583ee04010a5ba06', version='v0.11.1'}
-CommitInfo{repo='GitHub', hash='9fc360f0beff1649711a1b7e9f3a4914453e7708', version='v0.11.2'}
-CommitInfo{repo='GitHub', hash='9e3df7045c43a8469c85e8d17d626fa545598712', version='v0.11.3'}
-CommitInfo{repo='GitHub', hash='13c6ecb0b900f6f79e1ddc17ae395e34e55e747d', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='5ad134146775beda359eef1d56b5f8719f2adbce', version='v0.12.1'}
-CommitInfo{repo='GitHub', hash='1d6d711267d9429d6f26ad3d302261669d9e35f6', version='v0.12.2'}
-CommitInfo{repo='GitHub', hash='3e980831ea9e6acbb87fc5775cf8171ba145ad88', version='v0.12.3'}
-CommitInfo{repo='GitHub', hash='bdf3b3d00fd4836a0eda429a2f718fd20b60a403', version='v0.12.4'}
-CommitInfo{repo='GitHub', hash='7b65d3a742aecfe37c4bfc459078fe5390f56f33', version='v0.12.5'}
-CommitInfo{repo='GitHub', hash='147f97d45cbd055fb22c7ac125cb1afaa9e8d785', version='v0.12.6'}
-CommitInfo{repo='GitHub', hash='c900932cd20af269c88ee700fb1eef051e30d50c', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='35ad4fff46c18b0477ecf8dbeaaf54a7466174c0', version='v0.13.0.alpha'}
-CommitInfo{repo='GitHub', hash='9e9fa230db249f34b3bc9fd871b643950cea4449', version='v0.13.0.alpha.1'}
-CommitInfo{repo='GitHub', hash='772c04ab45c9662458872d890e44c191b0d8f5ac', version='v0.13.0.alpha.2'}
-CommitInfo{repo='GitHub', hash='5ef9a4d7e4a29fdb1f4d45ee94eb5cbd68586886', version='v0.13.0.beta'}
-CommitInfo{repo='GitHub', hash='dede53ac5ce764348d61a70e09d263490d67ef0d', version='v0.13.0.beta.1'}
-CommitInfo{repo='GitHub', hash='56102eae0eb35b0a968d034b6a6c892070381849', version='v0.13.0.beta.2'}
-CommitInfo{repo='GitHub', hash='1b7503acafef3b6b26220fe94313658691e4d414', version='v0.13.1'}
-CommitInfo{repo='GitHub', hash='0f64a14df9d692108221c4972e23c64f309e555b', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='6af1fee744460e27430476985970f41f763edd98', version='v0.14.0.beta'}
-CommitInfo{repo='GitHub', hash='21b2a8fcee2f48a6eac5ddaa071af9b74b6e4697', version='v0.15.0'}
-CommitInfo{repo='GitHub', hash='b0938ac8d24d5c8b582ff24c281e847e208c3f4e', version='v0.15.0.beta'}
-CommitInfo{repo='GitHub', hash='73dead256f53d7ea5ec28a8c2d7e2b69cd2766d0', version='v0.15.0.beta.1'}
-CommitInfo{repo='GitHub', hash='1c5b7788a75effdf304c1af80036e106521f2412', version='v0.16.0'}
-CommitInfo{repo='GitHub', hash='43e106b7994b45f21f903c5a00cbf881b96bd535', version='v0.17.0'}
-CommitInfo{repo='GitHub', hash='0341a63aa5030f8e4e53edab33ad07dae8da15f5', version='v0.17.0.beta'}
-CommitInfo{repo='GitHub', hash='02682876a0de9e3c7764996a42816e474c5c6121', version='v0.17.0.beta.1'}
-CommitInfo{repo='GitHub', hash='fa2da383d18afad45f1d6c6088a767036dcc5eb0', version='v0.17.0.beta.2'}
-CommitInfo{repo='GitHub', hash='4c977a1b8e0c514f0d43ed357c98c22da6f7bf04', version='v0.17.0.beta.3'}
-CommitInfo{repo='GitHub', hash='30aac13b9801aa978bcec7cc8eb654f931b89005', version='v0.17.0.beta.4'}
-CommitInfo{repo='GitHub', hash='419c32f2c1baffbfbfe832a73b3bb9a1cad69cdb', version='v0.17.1'}
-CommitInfo{repo='GitHub', hash='59f51e97ddc699870ab2e9e29cd697170e6f3bf7', version='v0.17.2'}
-CommitInfo{repo='GitHub', hash='ba55e73512bc1f367505a809866a1722477a3323', version='v0.18.0'}
-CommitInfo{repo='GitHub', hash='8e807ce52cc9c82073d94f86d2f3712362200649', version='v0.18.0.beta'}
-CommitInfo{repo='GitHub', hash='9a662af083f71da4ad0561d716cb7c745c887420', version='v0.18.0.beta.1'}
-CommitInfo{repo='GitHub', hash='cfab14d9784fd2a21b23b13408d4afa42bf7f261', version='v0.18.1'}
-CommitInfo{repo='GitHub', hash='96ce9c7ef0d007e19fb94fb3f3ffe2f4f78cafb4', version='v0.19.0'}
-CommitInfo{repo='GitHub', hash='24a2447e4887c9468919101502dcc2b4459a267a', version='v0.19.0.beta'}
-CommitInfo{repo='GitHub', hash='aad9ae5a13d1b314be5a1130954dc28877fac2e5', version='v0.19.0.beta.1'}
-CommitInfo{repo='GitHub', hash='97e9108a11d1357c0ce39a8f90ecd09cce1d82fa', version='v0.19.0.beta.2'}
-CommitInfo{repo='GitHub', hash='fc6661f8cf09552b54e4ca148b368a5754ce5695', version='v0.19.1'}
-CommitInfo{repo='GitHub', hash='5cf1259dd0889790f8ed8151e846fb6ab3c7aaf7', version='v0.19.2'}
-CommitInfo{repo='GitHub', hash='670bc248321489404b3771c7a71dd7345f2ef14c', version='v0.20.0'}
-CommitInfo{repo='GitHub', hash='6042fdd89e4c430ed038323e379ef8b8c968ae5f', version='v0.20.1'}
-CommitInfo{repo='GitHub', hash='ee4f78d565fb25e835284ccdedba975b580cdd9f', version='v0.20.2'}
-CommitInfo{repo='GitHub', hash='151706932de6cc7663dc1789a5001df0f24ee41d', version='v0.20.3'}
-CommitInfo{repo='GitHub', hash='83783b2a685a9afd11f4f817e224686501a43588', version='v0.20.4'}
-CommitInfo{repo='GitHub', hash='9decdfa856caa058b5079391739407effbd9437f', version='v0.20.5'}
-CommitInfo{repo='GitHub', hash='87e9cbc78ac3a2ee490ee67712233f958958e9c4', version='v0.20.6'}
-CommitInfo{repo='GitHub', hash='d1f6fcf3f9f08b5b4c47b996ab7683b60ce66e83', version='v0.21.0'}
-CommitInfo{repo='GitHub', hash='639f345d12c3a3197be2928db56a3ed6889bfe09', version='v0.22.0'}
-CommitInfo{repo='GitHub', hash='96d45aeac1b1cd62510100f462389396171936ee', version='v0.22.1'}
-CommitInfo{repo='GitHub', hash='196c3b0436c705ff2d16dbfdeb1ca3b1bcb4ab24', version='v0.22.2'}
-CommitInfo{repo='GitHub', hash='3b611452d2ea856158321da791729ca82391d552', version='v0.23.0'}
-CommitInfo{repo='GitHub', hash='e872b44f8125a76be4bcc256903d984df669bc97', version='v0.23.0.beta'}
-CommitInfo{repo='GitHub', hash='b00ad56ba6079cd367940ef964870808619937d7', version='v0.23.1'}
-CommitInfo{repo='GitHub', hash='744867f7830bd25d0b3357163f1af467845c44a4', version='v0.23.2'}
-CommitInfo{repo='GitHub', hash='924cf79c81334abc8e60cf97127f88de93769d8a', version='v0.23.3'}
-CommitInfo{repo='GitHub', hash='ce311aec67b047422433b7d976151e631951fa9e', version='v0.24.0'}
-CommitInfo{repo='GitHub', hash='401e8de1ffad7c395b3af3619822b459e6e5132d', version='v0.24.0.beta'}
-CommitInfo{repo='GitHub', hash='7465d1d5bb8521c16e7d26984ef606f7b48c34df', version='v0.24.1'}
-CommitInfo{repo='GitHub', hash='98e7e07b2a2f2bcaea5eb8f1735560317971216b', version='v0.25.0'}
-CommitInfo{repo='GitHub', hash='f64f9ef2e4bf84c9adfc96b977fcb09f2e9da165', version='v0.25.0.beta'}
-CommitInfo{repo='GitHub', hash='f688fe438093e70da852246900b5280a599c2ed9', version='v0.25.0.rc1'}
-CommitInfo{repo='GitHub', hash='eeda45ffce7f718c9d2f997a66a0f9faa100268f', version='v0.25.1'}
-CommitInfo{repo='GitHub', hash='7c3d6f121756b14d01af4f925784e41d8bfd8aa5', version='v0.25.2'}
-CommitInfo{repo='GitHub', hash='de7bb3cd5aec10681fc05e223b346016594a5f83', version='v0.25.3'}
-CommitInfo{repo='GitHub', hash='8c30a17004b4944ebee709be0c88df46328d048d', version='v0.25.4'}
-CommitInfo{repo='GitHub', hash='027cda64aa7e01860ee83bf17982d5748b0934db', version='v0.25.5'}
-CommitInfo{repo='GitHub', hash='1f42bcef8931b33cb1f8cb10b983e30d2f3587b4', version='v0.25.6'}
-CommitInfo{repo='GitHub', hash='853792cb1e9f9b6dac1f35a0822f1ab6fdd9373e', version='v0.25.7'}
-CommitInfo{repo='GitHub', hash='84b69304e742e766ac0acc7710b7e5f76ecb96a0', version='v0.26.0'}
-CommitInfo{repo='GitHub', hash='5e6771c49fe421160c66efd54709a143de3480ce', version='v0.26.0.beta'}
-CommitInfo{repo='GitHub', hash='926d1d8347d03483ea12a23e022ca3b7441288fb', version='v0.26.1'}
-CommitInfo{repo='GitHub', hash='813cff5b4aabdbd91f17d9e95f5ce407a7354eae', version='v0.26.2'}
-CommitInfo{repo='GitHub', hash='b60356cceab4d78c898ccdacea0b428ea1230736', version='v0.26.3'}
-CommitInfo{repo='GitHub', hash='693dbe1ed4bb49b0f630e41b31011211f0883eb1', version='v0.26.4'}
-CommitInfo{repo='GitHub', hash='450a8967cf928468b8a2057cecdd2dc938caccc6', version='v0.26.5'}
-CommitInfo{repo='GitHub', hash='6b608306660958c46227d1764e3093b243ba2a37', version='v0.27.0'}
-CommitInfo{repo='GitHub', hash='51f0604111836306ca2afa7f9c50d1465190787c', version='v0.27.0.alpha'}
-CommitInfo{repo='GitHub', hash='53d70aa9f290538aefcabb3de75b486b5b0b6791', version='v0.27.0.alpha.2'}
-CommitInfo{repo='GitHub', hash='137fc163c2a66da402b64638bcacc4e0352b4b1c', version='v0.27.0.beta.1'}
-CommitInfo{repo='GitHub', hash='28a94573fd77afa82c8afbff5ceddb0327a34dcd', version='v0.27.0.beta.2'}
-CommitInfo{repo='GitHub', hash='778d90f9f7fc1f0e19133de3f4cbef990a0c7c20', version='v0.27.1'}
-CommitInfo{repo='GitHub', hash='d47cc85d71b39d4d96e506cf900e081693c56413', version='v0.28.0'}
-CommitInfo{repo='GitHub', hash='7be2d36fee6b171835bfbd9df4a5d210a34cc79a', version='v0.28.1'}
-CommitInfo{repo='GitHub', hash='1049c9430692e1352349f1e206a2f3a1a987f130', version='v0.28.2'}
-CommitInfo{repo='GitHub', hash='e73d527592fe31532f0c31cdf30747fbd2c5c42f', version='v0.28.3'}
-CommitInfo{repo='GitHub', hash='6046456b970e2fc1e587eeb2cad5f5c7971cba6c', version='v0.28.4'}
-CommitInfo{repo='GitHub', hash='5b1a32510179ab9b6921ee483d0bab63fb463c5c', version='v0.28.5'}
-CommitInfo{repo='GitHub', hash='2ae2a3c0714e5cce786c092f0742ca67a79abcd1', version='v0.28.6'}
-CommitInfo{repo='GitHub', hash='0d716761c9a5530342be01093890e8f927007611', version='v0.29.0'}
-CommitInfo{repo='GitHub', hash='e5174237ac907137c93ac2b56cabdb3b97f09c7a', version='v0.5.1'}
-CommitInfo{repo='GitHub', hash='c3f129ae3b2f49ee70d28be59de7f685d8e1c84f', version='v0.5.10'}
-CommitInfo{repo='GitHub', hash='c3a80e3fc98abb252ebff1030537c3f335839793', version='v0.5.11'}
-CommitInfo{repo='GitHub', hash='73b6847b8fbcec31e96e7989de45947710a95975', version='v0.5.12'}
-CommitInfo{repo='GitHub', hash='15b8254a7f9d3edd8d384cc940f34dcb53637222', version='v0.5.13'}
-CommitInfo{repo='GitHub', hash='96134fbc18de66787e25108752777b937e8bf675', version='v0.5.14'}
-CommitInfo{repo='GitHub', hash='6704fe73ad6aad1ab29968166f2abf87e075c348', version='v0.5.15'}
-CommitInfo{repo='GitHub', hash='c7bc02e69488bf3c85bdad99fd39604ac8dbb697', version='v0.5.16'}
-CommitInfo{repo='GitHub', hash='9aecc4c34223364a35514634a0f53b5ee1c841bc', version='v0.5.17'}
-CommitInfo{repo='GitHub', hash='c54edfb4920163b3dbfb32281094a864989e65c8', version='v0.5.2'}
-CommitInfo{repo='GitHub', hash='d1cd702464daa223d1c7a7a41a014e7986bc4f31', version='v0.5.3'}
-CommitInfo{repo='GitHub', hash='ab7300c7da9330f57a6e255ed714fda2d282e1a3', version='v0.5.4'}
-CommitInfo{repo='GitHub', hash='97358d1b376beac191333eb8eec1d3d1f09abc42', version='v0.5.5'}
-CommitInfo{repo='GitHub', hash='dad5077764ff24b063697f7eaa2374a4d23dc0b0', version='v0.5.6'}
-CommitInfo{repo='GitHub', hash='2c647af2e10c25f5999174ccf6397ae6adc7cca4', version='v0.5.7'}
-CommitInfo{repo='GitHub', hash='ca6ed147cdd989e58e75461d868fbc46f71a1398', version='v0.5.8'}
-CommitInfo{repo='GitHub', hash='a1295c811b812503eb94bf2e5b2981bb639f381c', version='v0.5.9'}
-CommitInfo{repo='GitHub', hash='bed9b46340700c5f29c7e8d52566e8a020dd779e', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='0179dca70c8ad16b3b20bcae707cd5cba79fd5a3', version='v0.6.3'}
-CommitInfo{repo='GitHub', hash='1d6cdaa17ca5c5c6d58daa63e3d9b2d22bc2d9a1', version='v0.6.4'}
-CommitInfo{repo='GitHub', hash='7f0b15d92d49b7c8101ee04c135993e2a990be3a', version='v0.6.5'}
-CommitInfo{repo='GitHub', hash='12ec40f2486b74922b861ea24a8391b4c8a3e270', version='v0.6.6'}
-CommitInfo{repo='GitHub', hash='25865125414eb6a872e759e74b68a7657bacab7b', version='v0.6.7'}
-CommitInfo{repo='GitHub', hash='a0bddd9a03063d64e6a3f6c92116e8d2552bf0d1', version='v0.6.8'}
-CommitInfo{repo='GitHub', hash='847a08d87bb295f7f3a570a83e4afaf96456a08b', version='v0.6.9'}
-CommitInfo{repo='GitHub', hash='3f63aab7397ebbd75b3e843dafec90f048531427', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='06c9ce77d412313f5a55e4b4a4da3af5e260d99b', version='v0.7.1'}
-CommitInfo{repo='GitHub', hash='ae1da4812918233e29b150e842dace68b8cf766f', version='v0.7.2'}
-CommitInfo{repo='GitHub', hash='006cbe97a644efc7503fcf2ad1e4f469878c0e15', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='6bba5b834b78323d0e9e7b03d2706be4b4da56d3', version='v0.8.1'}
-CommitInfo{repo='GitHub', hash='b4f03d3677da9e62159d44024e0f91a647bf355d', version='v0.8.10'}
-CommitInfo{repo='GitHub', hash='ddb2db60285e825159ec8f4e21b1b61fa2bd2acc', version='v0.8.11'}
-CommitInfo{repo='GitHub', hash='d4d4bd6064831682db08f2c03710a66b241ac4bc', version='v0.8.12'}
-CommitInfo{repo='GitHub', hash='5c2c841d8d16d263944828c4a2508a2830ca9b3f', version='v0.8.13'}
-CommitInfo{repo='GitHub', hash='5b9b5db58601ee594dc854eaa039ae604c36c2a5', version='v0.8.14'}
-CommitInfo{repo='GitHub', hash='bdd5f9090b5a1af20243e0c737c54f58db8fbce2', version='v0.8.15'}
-CommitInfo{repo='GitHub', hash='7b41ab9b6d4cfdeccff23880cf2f6642e73272c5', version='v0.8.16'}
-CommitInfo{repo='GitHub', hash='b0d3646782580411ef51eec5a652a055d4dcd641', version='v0.8.17'}
-CommitInfo{repo='GitHub', hash='cad3a9597ce2d228083bdefcae1ee0f62c3a9d29', version='v0.8.18'}
-CommitInfo{repo='GitHub', hash='68c2fd55a2a5fb5142dd2217470fc5b842976f0f', version='v0.8.19'}
-CommitInfo{repo='GitHub', hash='f6555f29a0bbbd3b7f70727b3e5408642419bcbf', version='v0.8.2'}
-CommitInfo{repo='GitHub', hash='af5c2588db1ccff54e518ea85d484711f4b84001', version='v0.8.3'}
-CommitInfo{repo='GitHub', hash='6d8b4c9fe506f2ecf218f152e7d5a7be61f73e1d', version='v0.8.4'}
-CommitInfo{repo='GitHub', hash='019cc8ac96bed09e8932a5db520313e25fe0fedb', version='v0.8.9'}
-CommitInfo{repo='GitHub', hash='37aa3c40e124f0c1138acd3c9b775200cf67dbac', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='28c34b47769800b9ffeceb44509f1f5761b5e6da', version='v0.9.0.beta'}
-CommitInfo{repo='GitHub', hash='5391a38049e9982cc832144f8bdc5853293b190f', version='v0.9.0.beta.1'}
-CommitInfo{repo='GitHub', hash='26275732d12ddd25f6c741e57a8009c3c2b241ab', version='v0.9.0.beta.2'}
-CommitInfo{repo='GitHub', hash='25dafa384e34009c60b2412e6c90302a3baf7228', version='v0.9.0.beta.3'}
-CommitInfo{repo='GitHub', hash='5569bb12bb646226033cca18e0ed57c9519643b6', version='v0.9.0.beta.4'}
-CommitInfo{repo='GitHub', hash='a6c544d4a7049f85f166a300bc292bde4ad66868', version='v0.9.1'}
-CommitInfo{repo='GitHub', hash='8bcbc8895a78da6304c9b9d5fd133873c19d0f42', version='v0.9.10'}
-CommitInfo{repo='GitHub', hash='7691dc7d02b8dd6f0f53795d7699b861e5c56a25', version='v0.9.11'}
-CommitInfo{repo='GitHub', hash='8b4b0091ca37ee72a37b826ca95330a5d883d066', version='v0.9.12'}
-CommitInfo{repo='GitHub', hash='dc8ce07fc985b148b4576fd05c9f9e11027fe668', version='v0.9.12.beta'}
-CommitInfo{repo='GitHub', hash='33e5a64741f05a44633cb1d1b6fab1ba114c8339', version='v0.9.12.beta.1'}
-CommitInfo{repo='GitHub', hash='e5fef62a97f674d08709ab4ef696da048b2c92aa', version='v0.9.12.beta.2'}
-CommitInfo{repo='GitHub', hash='5e4004b14215b20dfb6ba004e3fce49812d3af45', version='v0.9.12.beta.3'}
-CommitInfo{repo='GitHub', hash='0894a990f92f30ae6d680801aa7fdc73f31bcdd6', version='v0.9.12.beta.4'}
-CommitInfo{repo='GitHub', hash='3b4201cfe5fcc9e94514dc424a40f620e0378838', version='v0.9.12.beta.5'}
-CommitInfo{repo='GitHub', hash='718f1279e2bdee4e0ab7cf1d6f9a103f54585dc1', version='v0.9.12.beta.6'}
-CommitInfo{repo='GitHub', hash='cd6814a1b95ba7744751c4d175ac9538f7812949', version='v0.9.13'}
-CommitInfo{repo='GitHub', hash='7450b1bf1a14ce108cb70b3f769bc99c49601b69', version='v0.9.13.beta'}
-CommitInfo{repo='GitHub', hash='3810d0fc7ffe166e5d3e3848c24823160d5cb4d5', version='v0.9.13.beta.1'}
-CommitInfo{repo='GitHub', hash='80363bb00d2e80b747f88f690d6609989b6b89b5', version='v0.9.2'}
-CommitInfo{repo='GitHub', hash='48f26e27b2799f273813c7dcd431de8d8294c44a', version='v0.9.2.beta'}
-CommitInfo{repo='GitHub', hash='65e70bcfd6456679c70623299859b72f86e8171a', version='v0.9.3'}
-CommitInfo{repo='GitHub', hash='b77137bb9ce6291e8f1cc0cef199e034ff17a1f4', version='v0.9.3.beta'}
-CommitInfo{repo='GitHub', hash='f7541aa9b37b819ddc7ecfd661cd55be26154457', version='v0.9.3.beta.1'}
-CommitInfo{repo='GitHub', hash='0f170f94f6b9c5682ed0f1b0d5c7dcf12ee74494', version='v0.9.3.beta.2'}
-CommitInfo{repo='GitHub', hash='0b9e20f806cab6004dbf408f065cfc371b39a0e1', version='v0.9.3.beta.3'}
-CommitInfo{repo='GitHub', hash='6396cd70f0c3ffaea8d9fac284c7dbe38990e74a', version='v0.9.3.beta.4'}
-CommitInfo{repo='GitHub', hash='f0a432f6b234a638ac4e396d5ce172ed68488dc5', version='v0.9.4'}
-CommitInfo{repo='GitHub', hash='8df7e4a76461dbe70272c8746861821a88bfe2d3', version='v0.9.4.beta'}
-CommitInfo{repo='GitHub', hash='3b19b6a4fcc8f10edac95375a862ba51f61ab515', version='v0.9.4.beta.1'}
-CommitInfo{repo='GitHub', hash='d63352dac49a300bbdf02215d9f58d64b7bff60b', version='v0.9.4.beta.2'}
-CommitInfo{repo='GitHub', hash='0cdc4d1c85c9f4ef90175f2fba64ec70e704edeb', version='v0.9.5'}
-CommitInfo{repo='GitHub', hash='43dd6feba55f6ff35cc55fcf7f0c43c6c1875237', version='v0.9.5.beta'}
-CommitInfo{repo='GitHub', hash='cc05797c31ccba9922128f8d5a1fb32ffcbae895', version='v0.9.5.beta.1'}
-CommitInfo{repo='GitHub', hash='ddd23cc4d9a6f8b25e4d33be8450d3d8377d7940', version='v0.9.5.beta.2'}
-CommitInfo{repo='GitHub', hash='eac44c8b54151b92c9f92068ec3cb050d2b77680', version='v0.9.5.beta.3'}
-CommitInfo{repo='GitHub', hash='4b66492b977935e5714ac87408d9e96af48aae89', version='v0.9.5.beta.4'}
-CommitInfo{repo='GitHub', hash='5c98fe94618f12af8e56d19a0f93888eb5fc764d', version='v0.9.5.beta.5'}
-CommitInfo{repo='GitHub', hash='7b84de28b6d733d4c3472b736d35ce43bf838029', version='v0.9.6'}
-CommitInfo{repo='GitHub', hash='ab07a0b532fd8d76c256007cfa1ebd133e2fd257', version='v0.9.6.beta.1'}
-CommitInfo{repo='GitHub', hash='4860ecec86c13fb2027cfd8c829b03d926675854', version='v0.9.6.beta.2'}
-CommitInfo{repo='GitHub', hash='a7b6788bbe1f97c892cb408f6eb39b119a7c6b31', version='v0.9.6.beta.3'}
-CommitInfo{repo='GitHub', hash='96abbb5a2ac64dca18dcfe490e14b892f0a84271', version='v0.9.6.beta.4'}
-CommitInfo{repo='GitHub', hash='babfa87f251f8ded9d9427d869f934fc21778a27', version='v0.9.6.beta.5'}
-CommitInfo{repo='GitHub', hash='e8f7c393268833d70f07e1f27e7a23d05f2d6c94', version='v0.9.6.beta.6'}
-CommitInfo{repo='GitHub', hash='db700645dc409f2f0f430166f7ba38b2f984b6b8', version='v0.9.6.beta.7'}
-CommitInfo{repo='GitHub', hash='d7600937eeeec9c92c0465c71dcd8c1d8db4b5bf', version='v0.9.7'}
-CommitInfo{repo='GitHub', hash='8f0d2743139f4f643dfbf730a465fb1973001a37', version='v0.9.7.beta'}
-CommitInfo{repo='GitHub', hash='6ccfdf4929878806d12e52cd94a3852666c0f29c', version='v0.9.7.beta.1'}
-CommitInfo{repo='GitHub', hash='9ad4784ab6fc1c5e145e7c324c8fef76c4d12f39', version='v0.9.7.beta.2'}
-CommitInfo{repo='GitHub', hash='d38317e9c8627e8a25d14bacb9c26bb85d1fd6cc', version='v0.9.7.beta.3'}
-CommitInfo{repo='GitHub', hash='238bdad99c29f02b0c283d0496f8488d05091975', version='v0.9.7.beta.4'}
-CommitInfo{repo='GitHub', hash='06acad8384b45259525f1ea2b85382c6b390e55a', version='v0.9.8'}
-CommitInfo{repo='GitHub', hash='904257049dba3ae3861e92928013d58f7940e910', version='v0.9.8.beta'}
-CommitInfo{repo='GitHub', hash='bded2b770dec014df9437516067a7b3bad3c5b80', version='v0.9.8.beta.1'}
-CommitInfo{repo='GitHub', hash='77e1a2a5cbcfc043f8502920d1267dfb6b068ab1', version='v0.9.8.beta.2'}
-CommitInfo{repo='GitHub', hash='621b3593bc52049ff234c443dc6378274e2e7f7a', version='v0.9.8.beta.3'}
-CommitInfo{repo='GitHub', hash='db6371f8c5423f7cd069c91df1ccf0056c58f799', version='v0.9.8.beta.4'}
-CommitInfo{repo='GitHub', hash='91e3a869dc7c2be6fe7680492c6ca5fba7ce725f', version='v0.9.9'}
-CommitInfo{repo='GitHub', hash='4feb8cb3141c854b1105233e0291f6edf5631341', version='v0.9.9.beta'}
-CommitInfo{repo='GitHub', hash='78af99f95db04446a293ab5fcc3de84a704911f6', version='v0.9.9.beta.1'}
-CommitInfo{repo='GitHub', hash='6d6a5d79e1aab646a4abc5ea7b4382d8e8a5c923', version='v0.9.9.beta.2'}
-CommitInfo{repo='GitHub', hash='a581944046a7c2025431015a5d24314289abc9a2', version='v0.9.9.beta.3'}
-CommitInfo{repo='GitHub', hash='3299a3a9d1946306a88599538c35b2ebd19d0e54', version='v0.9.9.beta.4'}
-CommitInfo{repo='GitHub', hash='258def983f7a3d267a78efbd5f06e0a046dc69db', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='e32299c3a75dd298f05e96ddfda55a5610ac4f22', version='v1.0.0.alpha.1'}
-CommitInfo{repo='GitHub', hash='98a790b8befc24b1617084aa264b69b1f6aa89b8', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='42a5586db2448b060889a00dd59d44decc500ad3', version='v1.0.2'}
-CommitInfo{repo='GitHub', hash='80c28807cf1da0e66ebaba8ebb6a723f0073ce12', version='v1.0.3'}
-CommitInfo{repo='GitHub', hash='953526b19ce08eee5f85247a426d505a971096f0', version='v1.0.4'}
-CommitInfo{repo='GitHub', hash='cfb953f92a092c5fccb2d48703a6921709148a60', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='5d600954f7faa36f5f7c1bf54067437f18b20516', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='5c04df2bae5c4f44cb9a8dbd602a26dc1e9af79d', version='v1.1.2'}
-CommitInfo{repo='GitHub', hash='fba1eac87f044fffe9b50c518ac8681512797559', version='v1.1.3'}
-CommitInfo{repo='GitHub', hash='70bc39897bcff10b46ac4479a0ae4b3369f12e3d', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='e895d5958f1a3857601d3ef321f59dfc4d9e8f1f', version='v1.2.1'}
-CommitInfo{repo='GitHub', hash='811652ef26bcb7845ff64014a60f260e2b699146', version='v1.3.0'}
-CommitInfo{repo='GitHub', hash='c318e5d53170d1f38baf0c0fdd5d0436fe099caf', version='v1.3.1'}
-CommitInfo{repo='GitHub', hash='5f40bcbf49b7ed5fa0c397114bcbb545a47c0e11', version='v1.3.2'}
-CommitInfo{repo='GitHub', hash='548c2e119b95849db80d23bd005e921307f8cf70', version='v1.3.3'}
-CommitInfo{repo='GitHub', hash='1f36b2b8d823d261aeff2e54eabc6e40634d6ed4', version='v1.4.0'}
-CommitInfo{repo='GitHub', hash='f4585c00c22ff53db6aa12d264e5feeae4286f1a', version='v1.4.1'}
-CommitInfo{repo='GitHub', hash='1136ed989ba1acbf17cb95fa3f71691fbeafad01', version='v1.4.2'}
-CommitInfo{repo='GitHub', hash='66215bb11c4cdbf1fd7581f00d569f4880dbfe8c', version='v1.4.3'}
-CommitInfo{repo='GitHub', hash='aa33c503f92bbe996cc79b7f5a292c17d0c14b9b', version='v1.5.0'}
-CommitInfo{repo='GitHub', hash='c8b90368d1b28438e5a023f0328ba05a5fe7c4a5', version='v1.6.0'}
-CommitInfo{repo='GitHub', hash='9610716d46f933e9d4a59fea111bdff30ce789cf', version='v1.6.1'}
-CommitInfo{repo='GitHub', hash='0aa1d66c40dbe3122870c7b9132a2c4d9d468e1a', version='v1.6.2'}
+CommitInfo{repo='GitHub', hash='f107e360034daae84371e1dde016e46ae6300123', version='v0.10.0'} 	https://github.com/sensu/sensu/commit/f107e360034daae84371e1dde016e46ae6300123
+CommitInfo{repo='GitHub', hash='acde83aedd3beac4bcdf1c8d68eb84227a1f9a20', version='v0.10.1'} 	https://github.com/sensu/sensu/commit/acde83aedd3beac4bcdf1c8d68eb84227a1f9a20
+CommitInfo{repo='GitHub', hash='194190bb9569e76b82770a6a54e399a0e2fa469f', version='v0.10.2'} 	https://github.com/sensu/sensu/commit/194190bb9569e76b82770a6a54e399a0e2fa469f
+CommitInfo{repo='GitHub', hash='c86d50e5e8bd7dafb6a15a0b33005b92e5631323', version='v0.11.0'} 	https://github.com/sensu/sensu/commit/c86d50e5e8bd7dafb6a15a0b33005b92e5631323
+CommitInfo{repo='GitHub', hash='f7a81819c3ceb8f018f0f6f13d66224d47dac981', version='v0.11.0.beta'} 	https://github.com/sensu/sensu/commit/f7a81819c3ceb8f018f0f6f13d66224d47dac981
+CommitInfo{repo='GitHub', hash='858f35a39dfb3cfcfad3d2be38816b1977e46f99', version='v0.11.0.beta.1'} 	https://github.com/sensu/sensu/commit/858f35a39dfb3cfcfad3d2be38816b1977e46f99
+CommitInfo{repo='GitHub', hash='f59de4ded417a6595e80c6bcc813343c8c0337c1', version='v0.11.0.beta.2'} 	https://github.com/sensu/sensu/commit/f59de4ded417a6595e80c6bcc813343c8c0337c1
+CommitInfo{repo='GitHub', hash='1a837e75be8e1950dce0778dd83a314eee4ee707', version='v0.11.0.beta.3'} 	https://github.com/sensu/sensu/commit/1a837e75be8e1950dce0778dd83a314eee4ee707
+CommitInfo{repo='GitHub', hash='e0d7781122dfb555651a1f66c59a9bc8490474f0', version='v0.11.0.beta.4'} 	https://github.com/sensu/sensu/commit/e0d7781122dfb555651a1f66c59a9bc8490474f0
+CommitInfo{repo='GitHub', hash='f3880c1a58f148f77e6b9c1d583ee04010a5ba06', version='v0.11.1'} 	https://github.com/sensu/sensu/commit/f3880c1a58f148f77e6b9c1d583ee04010a5ba06
+CommitInfo{repo='GitHub', hash='9fc360f0beff1649711a1b7e9f3a4914453e7708', version='v0.11.2'} 	https://github.com/sensu/sensu/commit/9fc360f0beff1649711a1b7e9f3a4914453e7708
+CommitInfo{repo='GitHub', hash='9e3df7045c43a8469c85e8d17d626fa545598712', version='v0.11.3'} 	https://github.com/sensu/sensu/commit/9e3df7045c43a8469c85e8d17d626fa545598712
+CommitInfo{repo='GitHub', hash='13c6ecb0b900f6f79e1ddc17ae395e34e55e747d', version='v0.12.0'} 	https://github.com/sensu/sensu/commit/13c6ecb0b900f6f79e1ddc17ae395e34e55e747d
+CommitInfo{repo='GitHub', hash='5ad134146775beda359eef1d56b5f8719f2adbce', version='v0.12.1'} 	https://github.com/sensu/sensu/commit/5ad134146775beda359eef1d56b5f8719f2adbce
+CommitInfo{repo='GitHub', hash='1d6d711267d9429d6f26ad3d302261669d9e35f6', version='v0.12.2'} 	https://github.com/sensu/sensu/commit/1d6d711267d9429d6f26ad3d302261669d9e35f6
+CommitInfo{repo='GitHub', hash='3e980831ea9e6acbb87fc5775cf8171ba145ad88', version='v0.12.3'} 	https://github.com/sensu/sensu/commit/3e980831ea9e6acbb87fc5775cf8171ba145ad88
+CommitInfo{repo='GitHub', hash='bdf3b3d00fd4836a0eda429a2f718fd20b60a403', version='v0.12.4'} 	https://github.com/sensu/sensu/commit/bdf3b3d00fd4836a0eda429a2f718fd20b60a403
+CommitInfo{repo='GitHub', hash='7b65d3a742aecfe37c4bfc459078fe5390f56f33', version='v0.12.5'} 	https://github.com/sensu/sensu/commit/7b65d3a742aecfe37c4bfc459078fe5390f56f33
+CommitInfo{repo='GitHub', hash='147f97d45cbd055fb22c7ac125cb1afaa9e8d785', version='v0.12.6'} 	https://github.com/sensu/sensu/commit/147f97d45cbd055fb22c7ac125cb1afaa9e8d785
+CommitInfo{repo='GitHub', hash='c900932cd20af269c88ee700fb1eef051e30d50c', version='v0.13.0'} 	https://github.com/sensu/sensu/commit/c900932cd20af269c88ee700fb1eef051e30d50c
+CommitInfo{repo='GitHub', hash='35ad4fff46c18b0477ecf8dbeaaf54a7466174c0', version='v0.13.0.alpha'} 	https://github.com/sensu/sensu/commit/35ad4fff46c18b0477ecf8dbeaaf54a7466174c0
+CommitInfo{repo='GitHub', hash='9e9fa230db249f34b3bc9fd871b643950cea4449', version='v0.13.0.alpha.1'} 	https://github.com/sensu/sensu/commit/9e9fa230db249f34b3bc9fd871b643950cea4449
+CommitInfo{repo='GitHub', hash='772c04ab45c9662458872d890e44c191b0d8f5ac', version='v0.13.0.alpha.2'} 	https://github.com/sensu/sensu/commit/772c04ab45c9662458872d890e44c191b0d8f5ac
+CommitInfo{repo='GitHub', hash='5ef9a4d7e4a29fdb1f4d45ee94eb5cbd68586886', version='v0.13.0.beta'} 	https://github.com/sensu/sensu/commit/5ef9a4d7e4a29fdb1f4d45ee94eb5cbd68586886
+CommitInfo{repo='GitHub', hash='dede53ac5ce764348d61a70e09d263490d67ef0d', version='v0.13.0.beta.1'} 	https://github.com/sensu/sensu/commit/dede53ac5ce764348d61a70e09d263490d67ef0d
+CommitInfo{repo='GitHub', hash='56102eae0eb35b0a968d034b6a6c892070381849', version='v0.13.0.beta.2'} 	https://github.com/sensu/sensu/commit/56102eae0eb35b0a968d034b6a6c892070381849
+CommitInfo{repo='GitHub', hash='1b7503acafef3b6b26220fe94313658691e4d414', version='v0.13.1'} 	https://github.com/sensu/sensu/commit/1b7503acafef3b6b26220fe94313658691e4d414
+CommitInfo{repo='GitHub', hash='0f64a14df9d692108221c4972e23c64f309e555b', version='v0.14.0'} 	https://github.com/sensu/sensu/commit/0f64a14df9d692108221c4972e23c64f309e555b
+CommitInfo{repo='GitHub', hash='6af1fee744460e27430476985970f41f763edd98', version='v0.14.0.beta'} 	https://github.com/sensu/sensu/commit/6af1fee744460e27430476985970f41f763edd98
+CommitInfo{repo='GitHub', hash='21b2a8fcee2f48a6eac5ddaa071af9b74b6e4697', version='v0.15.0'} 	https://github.com/sensu/sensu/commit/21b2a8fcee2f48a6eac5ddaa071af9b74b6e4697
+CommitInfo{repo='GitHub', hash='b0938ac8d24d5c8b582ff24c281e847e208c3f4e', version='v0.15.0.beta'} 	https://github.com/sensu/sensu/commit/b0938ac8d24d5c8b582ff24c281e847e208c3f4e
+CommitInfo{repo='GitHub', hash='73dead256f53d7ea5ec28a8c2d7e2b69cd2766d0', version='v0.15.0.beta.1'} 	https://github.com/sensu/sensu/commit/73dead256f53d7ea5ec28a8c2d7e2b69cd2766d0
+CommitInfo{repo='GitHub', hash='1c5b7788a75effdf304c1af80036e106521f2412', version='v0.16.0'} 	https://github.com/sensu/sensu/commit/1c5b7788a75effdf304c1af80036e106521f2412
+CommitInfo{repo='GitHub', hash='43e106b7994b45f21f903c5a00cbf881b96bd535', version='v0.17.0'} 	https://github.com/sensu/sensu/commit/43e106b7994b45f21f903c5a00cbf881b96bd535
+CommitInfo{repo='GitHub', hash='0341a63aa5030f8e4e53edab33ad07dae8da15f5', version='v0.17.0.beta'} 	https://github.com/sensu/sensu/commit/0341a63aa5030f8e4e53edab33ad07dae8da15f5
+CommitInfo{repo='GitHub', hash='02682876a0de9e3c7764996a42816e474c5c6121', version='v0.17.0.beta.1'} 	https://github.com/sensu/sensu/commit/02682876a0de9e3c7764996a42816e474c5c6121
+CommitInfo{repo='GitHub', hash='fa2da383d18afad45f1d6c6088a767036dcc5eb0', version='v0.17.0.beta.2'} 	https://github.com/sensu/sensu/commit/fa2da383d18afad45f1d6c6088a767036dcc5eb0
+CommitInfo{repo='GitHub', hash='4c977a1b8e0c514f0d43ed357c98c22da6f7bf04', version='v0.17.0.beta.3'} 	https://github.com/sensu/sensu/commit/4c977a1b8e0c514f0d43ed357c98c22da6f7bf04
+CommitInfo{repo='GitHub', hash='30aac13b9801aa978bcec7cc8eb654f931b89005', version='v0.17.0.beta.4'} 	https://github.com/sensu/sensu/commit/30aac13b9801aa978bcec7cc8eb654f931b89005
+CommitInfo{repo='GitHub', hash='419c32f2c1baffbfbfe832a73b3bb9a1cad69cdb', version='v0.17.1'} 	https://github.com/sensu/sensu/commit/419c32f2c1baffbfbfe832a73b3bb9a1cad69cdb
+CommitInfo{repo='GitHub', hash='59f51e97ddc699870ab2e9e29cd697170e6f3bf7', version='v0.17.2'} 	https://github.com/sensu/sensu/commit/59f51e97ddc699870ab2e9e29cd697170e6f3bf7
+CommitInfo{repo='GitHub', hash='ba55e73512bc1f367505a809866a1722477a3323', version='v0.18.0'} 	https://github.com/sensu/sensu/commit/ba55e73512bc1f367505a809866a1722477a3323
+CommitInfo{repo='GitHub', hash='8e807ce52cc9c82073d94f86d2f3712362200649', version='v0.18.0.beta'} 	https://github.com/sensu/sensu/commit/8e807ce52cc9c82073d94f86d2f3712362200649
+CommitInfo{repo='GitHub', hash='9a662af083f71da4ad0561d716cb7c745c887420', version='v0.18.0.beta.1'} 	https://github.com/sensu/sensu/commit/9a662af083f71da4ad0561d716cb7c745c887420
+CommitInfo{repo='GitHub', hash='cfab14d9784fd2a21b23b13408d4afa42bf7f261', version='v0.18.1'} 	https://github.com/sensu/sensu/commit/cfab14d9784fd2a21b23b13408d4afa42bf7f261
+CommitInfo{repo='GitHub', hash='96ce9c7ef0d007e19fb94fb3f3ffe2f4f78cafb4', version='v0.19.0'} 	https://github.com/sensu/sensu/commit/96ce9c7ef0d007e19fb94fb3f3ffe2f4f78cafb4
+CommitInfo{repo='GitHub', hash='24a2447e4887c9468919101502dcc2b4459a267a', version='v0.19.0.beta'} 	https://github.com/sensu/sensu/commit/24a2447e4887c9468919101502dcc2b4459a267a
+CommitInfo{repo='GitHub', hash='aad9ae5a13d1b314be5a1130954dc28877fac2e5', version='v0.19.0.beta.1'} 	https://github.com/sensu/sensu/commit/aad9ae5a13d1b314be5a1130954dc28877fac2e5
+CommitInfo{repo='GitHub', hash='97e9108a11d1357c0ce39a8f90ecd09cce1d82fa', version='v0.19.0.beta.2'} 	https://github.com/sensu/sensu/commit/97e9108a11d1357c0ce39a8f90ecd09cce1d82fa
+CommitInfo{repo='GitHub', hash='fc6661f8cf09552b54e4ca148b368a5754ce5695', version='v0.19.1'} 	https://github.com/sensu/sensu/commit/fc6661f8cf09552b54e4ca148b368a5754ce5695
+CommitInfo{repo='GitHub', hash='5cf1259dd0889790f8ed8151e846fb6ab3c7aaf7', version='v0.19.2'} 	https://github.com/sensu/sensu/commit/5cf1259dd0889790f8ed8151e846fb6ab3c7aaf7
+CommitInfo{repo='GitHub', hash='670bc248321489404b3771c7a71dd7345f2ef14c', version='v0.20.0'} 	https://github.com/sensu/sensu/commit/670bc248321489404b3771c7a71dd7345f2ef14c
+CommitInfo{repo='GitHub', hash='6042fdd89e4c430ed038323e379ef8b8c968ae5f', version='v0.20.1'} 	https://github.com/sensu/sensu/commit/6042fdd89e4c430ed038323e379ef8b8c968ae5f
+CommitInfo{repo='GitHub', hash='ee4f78d565fb25e835284ccdedba975b580cdd9f', version='v0.20.2'} 	https://github.com/sensu/sensu/commit/ee4f78d565fb25e835284ccdedba975b580cdd9f
+CommitInfo{repo='GitHub', hash='151706932de6cc7663dc1789a5001df0f24ee41d', version='v0.20.3'} 	https://github.com/sensu/sensu/commit/151706932de6cc7663dc1789a5001df0f24ee41d
+CommitInfo{repo='GitHub', hash='83783b2a685a9afd11f4f817e224686501a43588', version='v0.20.4'} 	https://github.com/sensu/sensu/commit/83783b2a685a9afd11f4f817e224686501a43588
+CommitInfo{repo='GitHub', hash='9decdfa856caa058b5079391739407effbd9437f', version='v0.20.5'} 	https://github.com/sensu/sensu/commit/9decdfa856caa058b5079391739407effbd9437f
+CommitInfo{repo='GitHub', hash='87e9cbc78ac3a2ee490ee67712233f958958e9c4', version='v0.20.6'} 	https://github.com/sensu/sensu/commit/87e9cbc78ac3a2ee490ee67712233f958958e9c4
+CommitInfo{repo='GitHub', hash='d1f6fcf3f9f08b5b4c47b996ab7683b60ce66e83', version='v0.21.0'} 	https://github.com/sensu/sensu/commit/d1f6fcf3f9f08b5b4c47b996ab7683b60ce66e83
+CommitInfo{repo='GitHub', hash='639f345d12c3a3197be2928db56a3ed6889bfe09', version='v0.22.0'} 	https://github.com/sensu/sensu/commit/639f345d12c3a3197be2928db56a3ed6889bfe09
+CommitInfo{repo='GitHub', hash='96d45aeac1b1cd62510100f462389396171936ee', version='v0.22.1'} 	https://github.com/sensu/sensu/commit/96d45aeac1b1cd62510100f462389396171936ee
+CommitInfo{repo='GitHub', hash='196c3b0436c705ff2d16dbfdeb1ca3b1bcb4ab24', version='v0.22.2'} 	https://github.com/sensu/sensu/commit/196c3b0436c705ff2d16dbfdeb1ca3b1bcb4ab24
+CommitInfo{repo='GitHub', hash='3b611452d2ea856158321da791729ca82391d552', version='v0.23.0'} 	https://github.com/sensu/sensu/commit/3b611452d2ea856158321da791729ca82391d552
+CommitInfo{repo='GitHub', hash='e872b44f8125a76be4bcc256903d984df669bc97', version='v0.23.0.beta'} 	https://github.com/sensu/sensu/commit/e872b44f8125a76be4bcc256903d984df669bc97
+CommitInfo{repo='GitHub', hash='b00ad56ba6079cd367940ef964870808619937d7', version='v0.23.1'} 	https://github.com/sensu/sensu/commit/b00ad56ba6079cd367940ef964870808619937d7
+CommitInfo{repo='GitHub', hash='744867f7830bd25d0b3357163f1af467845c44a4', version='v0.23.2'} 	https://github.com/sensu/sensu/commit/744867f7830bd25d0b3357163f1af467845c44a4
+CommitInfo{repo='GitHub', hash='924cf79c81334abc8e60cf97127f88de93769d8a', version='v0.23.3'} 	https://github.com/sensu/sensu/commit/924cf79c81334abc8e60cf97127f88de93769d8a
+CommitInfo{repo='GitHub', hash='ce311aec67b047422433b7d976151e631951fa9e', version='v0.24.0'} 	https://github.com/sensu/sensu/commit/ce311aec67b047422433b7d976151e631951fa9e
+CommitInfo{repo='GitHub', hash='401e8de1ffad7c395b3af3619822b459e6e5132d', version='v0.24.0.beta'} 	https://github.com/sensu/sensu/commit/401e8de1ffad7c395b3af3619822b459e6e5132d
+CommitInfo{repo='GitHub', hash='7465d1d5bb8521c16e7d26984ef606f7b48c34df', version='v0.24.1'} 	https://github.com/sensu/sensu/commit/7465d1d5bb8521c16e7d26984ef606f7b48c34df
+CommitInfo{repo='GitHub', hash='98e7e07b2a2f2bcaea5eb8f1735560317971216b', version='v0.25.0'} 	https://github.com/sensu/sensu/commit/98e7e07b2a2f2bcaea5eb8f1735560317971216b
+CommitInfo{repo='GitHub', hash='f64f9ef2e4bf84c9adfc96b977fcb09f2e9da165', version='v0.25.0.beta'} 	https://github.com/sensu/sensu/commit/f64f9ef2e4bf84c9adfc96b977fcb09f2e9da165
+CommitInfo{repo='GitHub', hash='f688fe438093e70da852246900b5280a599c2ed9', version='v0.25.0.rc1'} 	https://github.com/sensu/sensu/commit/f688fe438093e70da852246900b5280a599c2ed9
+CommitInfo{repo='GitHub', hash='eeda45ffce7f718c9d2f997a66a0f9faa100268f', version='v0.25.1'} 	https://github.com/sensu/sensu/commit/eeda45ffce7f718c9d2f997a66a0f9faa100268f
+CommitInfo{repo='GitHub', hash='7c3d6f121756b14d01af4f925784e41d8bfd8aa5', version='v0.25.2'} 	https://github.com/sensu/sensu/commit/7c3d6f121756b14d01af4f925784e41d8bfd8aa5
+CommitInfo{repo='GitHub', hash='de7bb3cd5aec10681fc05e223b346016594a5f83', version='v0.25.3'} 	https://github.com/sensu/sensu/commit/de7bb3cd5aec10681fc05e223b346016594a5f83
+CommitInfo{repo='GitHub', hash='8c30a17004b4944ebee709be0c88df46328d048d', version='v0.25.4'} 	https://github.com/sensu/sensu/commit/8c30a17004b4944ebee709be0c88df46328d048d
+CommitInfo{repo='GitHub', hash='027cda64aa7e01860ee83bf17982d5748b0934db', version='v0.25.5'} 	https://github.com/sensu/sensu/commit/027cda64aa7e01860ee83bf17982d5748b0934db
+CommitInfo{repo='GitHub', hash='1f42bcef8931b33cb1f8cb10b983e30d2f3587b4', version='v0.25.6'} 	https://github.com/sensu/sensu/commit/1f42bcef8931b33cb1f8cb10b983e30d2f3587b4
+CommitInfo{repo='GitHub', hash='853792cb1e9f9b6dac1f35a0822f1ab6fdd9373e', version='v0.25.7'} 	https://github.com/sensu/sensu/commit/853792cb1e9f9b6dac1f35a0822f1ab6fdd9373e
+CommitInfo{repo='GitHub', hash='84b69304e742e766ac0acc7710b7e5f76ecb96a0', version='v0.26.0'} 	https://github.com/sensu/sensu/commit/84b69304e742e766ac0acc7710b7e5f76ecb96a0
+CommitInfo{repo='GitHub', hash='5e6771c49fe421160c66efd54709a143de3480ce', version='v0.26.0.beta'} 	https://github.com/sensu/sensu/commit/5e6771c49fe421160c66efd54709a143de3480ce
+CommitInfo{repo='GitHub', hash='926d1d8347d03483ea12a23e022ca3b7441288fb', version='v0.26.1'} 	https://github.com/sensu/sensu/commit/926d1d8347d03483ea12a23e022ca3b7441288fb
+CommitInfo{repo='GitHub', hash='813cff5b4aabdbd91f17d9e95f5ce407a7354eae', version='v0.26.2'} 	https://github.com/sensu/sensu/commit/813cff5b4aabdbd91f17d9e95f5ce407a7354eae
+CommitInfo{repo='GitHub', hash='b60356cceab4d78c898ccdacea0b428ea1230736', version='v0.26.3'} 	https://github.com/sensu/sensu/commit/b60356cceab4d78c898ccdacea0b428ea1230736
+CommitInfo{repo='GitHub', hash='693dbe1ed4bb49b0f630e41b31011211f0883eb1', version='v0.26.4'} 	https://github.com/sensu/sensu/commit/693dbe1ed4bb49b0f630e41b31011211f0883eb1
+CommitInfo{repo='GitHub', hash='450a8967cf928468b8a2057cecdd2dc938caccc6', version='v0.26.5'} 	https://github.com/sensu/sensu/commit/450a8967cf928468b8a2057cecdd2dc938caccc6
+CommitInfo{repo='GitHub', hash='6b608306660958c46227d1764e3093b243ba2a37', version='v0.27.0'} 	https://github.com/sensu/sensu/commit/6b608306660958c46227d1764e3093b243ba2a37
+CommitInfo{repo='GitHub', hash='51f0604111836306ca2afa7f9c50d1465190787c', version='v0.27.0.alpha'} 	https://github.com/sensu/sensu/commit/51f0604111836306ca2afa7f9c50d1465190787c
+CommitInfo{repo='GitHub', hash='53d70aa9f290538aefcabb3de75b486b5b0b6791', version='v0.27.0.alpha.2'} 	https://github.com/sensu/sensu/commit/53d70aa9f290538aefcabb3de75b486b5b0b6791
+CommitInfo{repo='GitHub', hash='137fc163c2a66da402b64638bcacc4e0352b4b1c', version='v0.27.0.beta.1'} 	https://github.com/sensu/sensu/commit/137fc163c2a66da402b64638bcacc4e0352b4b1c
+CommitInfo{repo='GitHub', hash='28a94573fd77afa82c8afbff5ceddb0327a34dcd', version='v0.27.0.beta.2'} 	https://github.com/sensu/sensu/commit/28a94573fd77afa82c8afbff5ceddb0327a34dcd
+CommitInfo{repo='GitHub', hash='778d90f9f7fc1f0e19133de3f4cbef990a0c7c20', version='v0.27.1'} 	https://github.com/sensu/sensu/commit/778d90f9f7fc1f0e19133de3f4cbef990a0c7c20
+CommitInfo{repo='GitHub', hash='d47cc85d71b39d4d96e506cf900e081693c56413', version='v0.28.0'} 	https://github.com/sensu/sensu/commit/d47cc85d71b39d4d96e506cf900e081693c56413
+CommitInfo{repo='GitHub', hash='7be2d36fee6b171835bfbd9df4a5d210a34cc79a', version='v0.28.1'} 	https://github.com/sensu/sensu/commit/7be2d36fee6b171835bfbd9df4a5d210a34cc79a
+CommitInfo{repo='GitHub', hash='1049c9430692e1352349f1e206a2f3a1a987f130', version='v0.28.2'} 	https://github.com/sensu/sensu/commit/1049c9430692e1352349f1e206a2f3a1a987f130
+CommitInfo{repo='GitHub', hash='e73d527592fe31532f0c31cdf30747fbd2c5c42f', version='v0.28.3'} 	https://github.com/sensu/sensu/commit/e73d527592fe31532f0c31cdf30747fbd2c5c42f
+CommitInfo{repo='GitHub', hash='6046456b970e2fc1e587eeb2cad5f5c7971cba6c', version='v0.28.4'} 	https://github.com/sensu/sensu/commit/6046456b970e2fc1e587eeb2cad5f5c7971cba6c
+CommitInfo{repo='GitHub', hash='5b1a32510179ab9b6921ee483d0bab63fb463c5c', version='v0.28.5'} 	https://github.com/sensu/sensu/commit/5b1a32510179ab9b6921ee483d0bab63fb463c5c
+CommitInfo{repo='GitHub', hash='2ae2a3c0714e5cce786c092f0742ca67a79abcd1', version='v0.28.6'} 	https://github.com/sensu/sensu/commit/2ae2a3c0714e5cce786c092f0742ca67a79abcd1
+CommitInfo{repo='GitHub', hash='0d716761c9a5530342be01093890e8f927007611', version='v0.29.0'} 	https://github.com/sensu/sensu/commit/0d716761c9a5530342be01093890e8f927007611
+CommitInfo{repo='GitHub', hash='e5174237ac907137c93ac2b56cabdb3b97f09c7a', version='v0.5.1'} 	https://github.com/sensu/sensu/commit/e5174237ac907137c93ac2b56cabdb3b97f09c7a
+CommitInfo{repo='GitHub', hash='c3f129ae3b2f49ee70d28be59de7f685d8e1c84f', version='v0.5.10'} 	https://github.com/sensu/sensu/commit/c3f129ae3b2f49ee70d28be59de7f685d8e1c84f
+CommitInfo{repo='GitHub', hash='c3a80e3fc98abb252ebff1030537c3f335839793', version='v0.5.11'} 	https://github.com/sensu/sensu/commit/c3a80e3fc98abb252ebff1030537c3f335839793
+CommitInfo{repo='GitHub', hash='73b6847b8fbcec31e96e7989de45947710a95975', version='v0.5.12'} 	https://github.com/sensu/sensu/commit/73b6847b8fbcec31e96e7989de45947710a95975
+CommitInfo{repo='GitHub', hash='15b8254a7f9d3edd8d384cc940f34dcb53637222', version='v0.5.13'} 	https://github.com/sensu/sensu/commit/15b8254a7f9d3edd8d384cc940f34dcb53637222
+CommitInfo{repo='GitHub', hash='96134fbc18de66787e25108752777b937e8bf675', version='v0.5.14'} 	https://github.com/sensu/sensu/commit/96134fbc18de66787e25108752777b937e8bf675
+CommitInfo{repo='GitHub', hash='6704fe73ad6aad1ab29968166f2abf87e075c348', version='v0.5.15'} 	https://github.com/sensu/sensu/commit/6704fe73ad6aad1ab29968166f2abf87e075c348
+CommitInfo{repo='GitHub', hash='c7bc02e69488bf3c85bdad99fd39604ac8dbb697', version='v0.5.16'} 	https://github.com/sensu/sensu/commit/c7bc02e69488bf3c85bdad99fd39604ac8dbb697
+CommitInfo{repo='GitHub', hash='9aecc4c34223364a35514634a0f53b5ee1c841bc', version='v0.5.17'} 	https://github.com/sensu/sensu/commit/9aecc4c34223364a35514634a0f53b5ee1c841bc
+CommitInfo{repo='GitHub', hash='c54edfb4920163b3dbfb32281094a864989e65c8', version='v0.5.2'} 	https://github.com/sensu/sensu/commit/c54edfb4920163b3dbfb32281094a864989e65c8
+CommitInfo{repo='GitHub', hash='d1cd702464daa223d1c7a7a41a014e7986bc4f31', version='v0.5.3'} 	https://github.com/sensu/sensu/commit/d1cd702464daa223d1c7a7a41a014e7986bc4f31
+CommitInfo{repo='GitHub', hash='ab7300c7da9330f57a6e255ed714fda2d282e1a3', version='v0.5.4'} 	https://github.com/sensu/sensu/commit/ab7300c7da9330f57a6e255ed714fda2d282e1a3
+CommitInfo{repo='GitHub', hash='97358d1b376beac191333eb8eec1d3d1f09abc42', version='v0.5.5'} 	https://github.com/sensu/sensu/commit/97358d1b376beac191333eb8eec1d3d1f09abc42
+CommitInfo{repo='GitHub', hash='dad5077764ff24b063697f7eaa2374a4d23dc0b0', version='v0.5.6'} 	https://github.com/sensu/sensu/commit/dad5077764ff24b063697f7eaa2374a4d23dc0b0
+CommitInfo{repo='GitHub', hash='2c647af2e10c25f5999174ccf6397ae6adc7cca4', version='v0.5.7'} 	https://github.com/sensu/sensu/commit/2c647af2e10c25f5999174ccf6397ae6adc7cca4
+CommitInfo{repo='GitHub', hash='ca6ed147cdd989e58e75461d868fbc46f71a1398', version='v0.5.8'} 	https://github.com/sensu/sensu/commit/ca6ed147cdd989e58e75461d868fbc46f71a1398
+CommitInfo{repo='GitHub', hash='a1295c811b812503eb94bf2e5b2981bb639f381c', version='v0.5.9'} 	https://github.com/sensu/sensu/commit/a1295c811b812503eb94bf2e5b2981bb639f381c
+CommitInfo{repo='GitHub', hash='bed9b46340700c5f29c7e8d52566e8a020dd779e', version='v0.6.0'} 	https://github.com/sensu/sensu/commit/bed9b46340700c5f29c7e8d52566e8a020dd779e
+CommitInfo{repo='GitHub', hash='0179dca70c8ad16b3b20bcae707cd5cba79fd5a3', version='v0.6.3'} 	https://github.com/sensu/sensu/commit/0179dca70c8ad16b3b20bcae707cd5cba79fd5a3
+CommitInfo{repo='GitHub', hash='1d6cdaa17ca5c5c6d58daa63e3d9b2d22bc2d9a1', version='v0.6.4'} 	https://github.com/sensu/sensu/commit/1d6cdaa17ca5c5c6d58daa63e3d9b2d22bc2d9a1
+CommitInfo{repo='GitHub', hash='7f0b15d92d49b7c8101ee04c135993e2a990be3a', version='v0.6.5'} 	https://github.com/sensu/sensu/commit/7f0b15d92d49b7c8101ee04c135993e2a990be3a
+CommitInfo{repo='GitHub', hash='12ec40f2486b74922b861ea24a8391b4c8a3e270', version='v0.6.6'} 	https://github.com/sensu/sensu/commit/12ec40f2486b74922b861ea24a8391b4c8a3e270
+CommitInfo{repo='GitHub', hash='25865125414eb6a872e759e74b68a7657bacab7b', version='v0.6.7'} 	https://github.com/sensu/sensu/commit/25865125414eb6a872e759e74b68a7657bacab7b
+CommitInfo{repo='GitHub', hash='a0bddd9a03063d64e6a3f6c92116e8d2552bf0d1', version='v0.6.8'} 	https://github.com/sensu/sensu/commit/a0bddd9a03063d64e6a3f6c92116e8d2552bf0d1
+CommitInfo{repo='GitHub', hash='847a08d87bb295f7f3a570a83e4afaf96456a08b', version='v0.6.9'} 	https://github.com/sensu/sensu/commit/847a08d87bb295f7f3a570a83e4afaf96456a08b
+CommitInfo{repo='GitHub', hash='3f63aab7397ebbd75b3e843dafec90f048531427', version='v0.7.0'} 	https://github.com/sensu/sensu/commit/3f63aab7397ebbd75b3e843dafec90f048531427
+CommitInfo{repo='GitHub', hash='06c9ce77d412313f5a55e4b4a4da3af5e260d99b', version='v0.7.1'} 	https://github.com/sensu/sensu/commit/06c9ce77d412313f5a55e4b4a4da3af5e260d99b
+CommitInfo{repo='GitHub', hash='ae1da4812918233e29b150e842dace68b8cf766f', version='v0.7.2'} 	https://github.com/sensu/sensu/commit/ae1da4812918233e29b150e842dace68b8cf766f
+CommitInfo{repo='GitHub', hash='006cbe97a644efc7503fcf2ad1e4f469878c0e15', version='v0.8.0'} 	https://github.com/sensu/sensu/commit/006cbe97a644efc7503fcf2ad1e4f469878c0e15
+CommitInfo{repo='GitHub', hash='6bba5b834b78323d0e9e7b03d2706be4b4da56d3', version='v0.8.1'} 	https://github.com/sensu/sensu/commit/6bba5b834b78323d0e9e7b03d2706be4b4da56d3
+CommitInfo{repo='GitHub', hash='b4f03d3677da9e62159d44024e0f91a647bf355d', version='v0.8.10'} 	https://github.com/sensu/sensu/commit/b4f03d3677da9e62159d44024e0f91a647bf355d
+CommitInfo{repo='GitHub', hash='ddb2db60285e825159ec8f4e21b1b61fa2bd2acc', version='v0.8.11'} 	https://github.com/sensu/sensu/commit/ddb2db60285e825159ec8f4e21b1b61fa2bd2acc
+CommitInfo{repo='GitHub', hash='d4d4bd6064831682db08f2c03710a66b241ac4bc', version='v0.8.12'} 	https://github.com/sensu/sensu/commit/d4d4bd6064831682db08f2c03710a66b241ac4bc
+CommitInfo{repo='GitHub', hash='5c2c841d8d16d263944828c4a2508a2830ca9b3f', version='v0.8.13'} 	https://github.com/sensu/sensu/commit/5c2c841d8d16d263944828c4a2508a2830ca9b3f
+CommitInfo{repo='GitHub', hash='5b9b5db58601ee594dc854eaa039ae604c36c2a5', version='v0.8.14'} 	https://github.com/sensu/sensu/commit/5b9b5db58601ee594dc854eaa039ae604c36c2a5
+CommitInfo{repo='GitHub', hash='bdd5f9090b5a1af20243e0c737c54f58db8fbce2', version='v0.8.15'} 	https://github.com/sensu/sensu/commit/bdd5f9090b5a1af20243e0c737c54f58db8fbce2
+CommitInfo{repo='GitHub', hash='7b41ab9b6d4cfdeccff23880cf2f6642e73272c5', version='v0.8.16'} 	https://github.com/sensu/sensu/commit/7b41ab9b6d4cfdeccff23880cf2f6642e73272c5
+CommitInfo{repo='GitHub', hash='b0d3646782580411ef51eec5a652a055d4dcd641', version='v0.8.17'} 	https://github.com/sensu/sensu/commit/b0d3646782580411ef51eec5a652a055d4dcd641
+CommitInfo{repo='GitHub', hash='cad3a9597ce2d228083bdefcae1ee0f62c3a9d29', version='v0.8.18'} 	https://github.com/sensu/sensu/commit/cad3a9597ce2d228083bdefcae1ee0f62c3a9d29
+CommitInfo{repo='GitHub', hash='68c2fd55a2a5fb5142dd2217470fc5b842976f0f', version='v0.8.19'} 	https://github.com/sensu/sensu/commit/68c2fd55a2a5fb5142dd2217470fc5b842976f0f
+CommitInfo{repo='GitHub', hash='f6555f29a0bbbd3b7f70727b3e5408642419bcbf', version='v0.8.2'} 	https://github.com/sensu/sensu/commit/f6555f29a0bbbd3b7f70727b3e5408642419bcbf
+CommitInfo{repo='GitHub', hash='af5c2588db1ccff54e518ea85d484711f4b84001', version='v0.8.3'} 	https://github.com/sensu/sensu/commit/af5c2588db1ccff54e518ea85d484711f4b84001
+CommitInfo{repo='GitHub', hash='6d8b4c9fe506f2ecf218f152e7d5a7be61f73e1d', version='v0.8.4'} 	https://github.com/sensu/sensu/commit/6d8b4c9fe506f2ecf218f152e7d5a7be61f73e1d
+CommitInfo{repo='GitHub', hash='019cc8ac96bed09e8932a5db520313e25fe0fedb', version='v0.8.9'} 	https://github.com/sensu/sensu/commit/019cc8ac96bed09e8932a5db520313e25fe0fedb
+CommitInfo{repo='GitHub', hash='37aa3c40e124f0c1138acd3c9b775200cf67dbac', version='v0.9.0'} 	https://github.com/sensu/sensu/commit/37aa3c40e124f0c1138acd3c9b775200cf67dbac
+CommitInfo{repo='GitHub', hash='28c34b47769800b9ffeceb44509f1f5761b5e6da', version='v0.9.0.beta'} 	https://github.com/sensu/sensu/commit/28c34b47769800b9ffeceb44509f1f5761b5e6da
+CommitInfo{repo='GitHub', hash='5391a38049e9982cc832144f8bdc5853293b190f', version='v0.9.0.beta.1'} 	https://github.com/sensu/sensu/commit/5391a38049e9982cc832144f8bdc5853293b190f
+CommitInfo{repo='GitHub', hash='26275732d12ddd25f6c741e57a8009c3c2b241ab', version='v0.9.0.beta.2'} 	https://github.com/sensu/sensu/commit/26275732d12ddd25f6c741e57a8009c3c2b241ab
+CommitInfo{repo='GitHub', hash='25dafa384e34009c60b2412e6c90302a3baf7228', version='v0.9.0.beta.3'} 	https://github.com/sensu/sensu/commit/25dafa384e34009c60b2412e6c90302a3baf7228
+CommitInfo{repo='GitHub', hash='5569bb12bb646226033cca18e0ed57c9519643b6', version='v0.9.0.beta.4'} 	https://github.com/sensu/sensu/commit/5569bb12bb646226033cca18e0ed57c9519643b6
+CommitInfo{repo='GitHub', hash='a6c544d4a7049f85f166a300bc292bde4ad66868', version='v0.9.1'} 	https://github.com/sensu/sensu/commit/a6c544d4a7049f85f166a300bc292bde4ad66868
+CommitInfo{repo='GitHub', hash='8bcbc8895a78da6304c9b9d5fd133873c19d0f42', version='v0.9.10'} 	https://github.com/sensu/sensu/commit/8bcbc8895a78da6304c9b9d5fd133873c19d0f42
+CommitInfo{repo='GitHub', hash='7691dc7d02b8dd6f0f53795d7699b861e5c56a25', version='v0.9.11'} 	https://github.com/sensu/sensu/commit/7691dc7d02b8dd6f0f53795d7699b861e5c56a25
+CommitInfo{repo='GitHub', hash='8b4b0091ca37ee72a37b826ca95330a5d883d066', version='v0.9.12'} 	https://github.com/sensu/sensu/commit/8b4b0091ca37ee72a37b826ca95330a5d883d066
+CommitInfo{repo='GitHub', hash='dc8ce07fc985b148b4576fd05c9f9e11027fe668', version='v0.9.12.beta'} 	https://github.com/sensu/sensu/commit/dc8ce07fc985b148b4576fd05c9f9e11027fe668
+CommitInfo{repo='GitHub', hash='33e5a64741f05a44633cb1d1b6fab1ba114c8339', version='v0.9.12.beta.1'} 	https://github.com/sensu/sensu/commit/33e5a64741f05a44633cb1d1b6fab1ba114c8339
+CommitInfo{repo='GitHub', hash='e5fef62a97f674d08709ab4ef696da048b2c92aa', version='v0.9.12.beta.2'} 	https://github.com/sensu/sensu/commit/e5fef62a97f674d08709ab4ef696da048b2c92aa
+CommitInfo{repo='GitHub', hash='5e4004b14215b20dfb6ba004e3fce49812d3af45', version='v0.9.12.beta.3'} 	https://github.com/sensu/sensu/commit/5e4004b14215b20dfb6ba004e3fce49812d3af45
+CommitInfo{repo='GitHub', hash='0894a990f92f30ae6d680801aa7fdc73f31bcdd6', version='v0.9.12.beta.4'} 	https://github.com/sensu/sensu/commit/0894a990f92f30ae6d680801aa7fdc73f31bcdd6
+CommitInfo{repo='GitHub', hash='3b4201cfe5fcc9e94514dc424a40f620e0378838', version='v0.9.12.beta.5'} 	https://github.com/sensu/sensu/commit/3b4201cfe5fcc9e94514dc424a40f620e0378838
+CommitInfo{repo='GitHub', hash='718f1279e2bdee4e0ab7cf1d6f9a103f54585dc1', version='v0.9.12.beta.6'} 	https://github.com/sensu/sensu/commit/718f1279e2bdee4e0ab7cf1d6f9a103f54585dc1
+CommitInfo{repo='GitHub', hash='cd6814a1b95ba7744751c4d175ac9538f7812949', version='v0.9.13'} 	https://github.com/sensu/sensu/commit/cd6814a1b95ba7744751c4d175ac9538f7812949
+CommitInfo{repo='GitHub', hash='7450b1bf1a14ce108cb70b3f769bc99c49601b69', version='v0.9.13.beta'} 	https://github.com/sensu/sensu/commit/7450b1bf1a14ce108cb70b3f769bc99c49601b69
+CommitInfo{repo='GitHub', hash='3810d0fc7ffe166e5d3e3848c24823160d5cb4d5', version='v0.9.13.beta.1'} 	https://github.com/sensu/sensu/commit/3810d0fc7ffe166e5d3e3848c24823160d5cb4d5
+CommitInfo{repo='GitHub', hash='80363bb00d2e80b747f88f690d6609989b6b89b5', version='v0.9.2'} 	https://github.com/sensu/sensu/commit/80363bb00d2e80b747f88f690d6609989b6b89b5
+CommitInfo{repo='GitHub', hash='48f26e27b2799f273813c7dcd431de8d8294c44a', version='v0.9.2.beta'} 	https://github.com/sensu/sensu/commit/48f26e27b2799f273813c7dcd431de8d8294c44a
+CommitInfo{repo='GitHub', hash='65e70bcfd6456679c70623299859b72f86e8171a', version='v0.9.3'} 	https://github.com/sensu/sensu/commit/65e70bcfd6456679c70623299859b72f86e8171a
+CommitInfo{repo='GitHub', hash='b77137bb9ce6291e8f1cc0cef199e034ff17a1f4', version='v0.9.3.beta'} 	https://github.com/sensu/sensu/commit/b77137bb9ce6291e8f1cc0cef199e034ff17a1f4
+CommitInfo{repo='GitHub', hash='f7541aa9b37b819ddc7ecfd661cd55be26154457', version='v0.9.3.beta.1'} 	https://github.com/sensu/sensu/commit/f7541aa9b37b819ddc7ecfd661cd55be26154457
+CommitInfo{repo='GitHub', hash='0f170f94f6b9c5682ed0f1b0d5c7dcf12ee74494', version='v0.9.3.beta.2'} 	https://github.com/sensu/sensu/commit/0f170f94f6b9c5682ed0f1b0d5c7dcf12ee74494
+CommitInfo{repo='GitHub', hash='0b9e20f806cab6004dbf408f065cfc371b39a0e1', version='v0.9.3.beta.3'} 	https://github.com/sensu/sensu/commit/0b9e20f806cab6004dbf408f065cfc371b39a0e1
+CommitInfo{repo='GitHub', hash='6396cd70f0c3ffaea8d9fac284c7dbe38990e74a', version='v0.9.3.beta.4'} 	https://github.com/sensu/sensu/commit/6396cd70f0c3ffaea8d9fac284c7dbe38990e74a
+CommitInfo{repo='GitHub', hash='f0a432f6b234a638ac4e396d5ce172ed68488dc5', version='v0.9.4'} 	https://github.com/sensu/sensu/commit/f0a432f6b234a638ac4e396d5ce172ed68488dc5
+CommitInfo{repo='GitHub', hash='8df7e4a76461dbe70272c8746861821a88bfe2d3', version='v0.9.4.beta'} 	https://github.com/sensu/sensu/commit/8df7e4a76461dbe70272c8746861821a88bfe2d3
+CommitInfo{repo='GitHub', hash='3b19b6a4fcc8f10edac95375a862ba51f61ab515', version='v0.9.4.beta.1'} 	https://github.com/sensu/sensu/commit/3b19b6a4fcc8f10edac95375a862ba51f61ab515
+CommitInfo{repo='GitHub', hash='d63352dac49a300bbdf02215d9f58d64b7bff60b', version='v0.9.4.beta.2'} 	https://github.com/sensu/sensu/commit/d63352dac49a300bbdf02215d9f58d64b7bff60b
+CommitInfo{repo='GitHub', hash='0cdc4d1c85c9f4ef90175f2fba64ec70e704edeb', version='v0.9.5'} 	https://github.com/sensu/sensu/commit/0cdc4d1c85c9f4ef90175f2fba64ec70e704edeb
+CommitInfo{repo='GitHub', hash='43dd6feba55f6ff35cc55fcf7f0c43c6c1875237', version='v0.9.5.beta'} 	https://github.com/sensu/sensu/commit/43dd6feba55f6ff35cc55fcf7f0c43c6c1875237
+CommitInfo{repo='GitHub', hash='cc05797c31ccba9922128f8d5a1fb32ffcbae895', version='v0.9.5.beta.1'} 	https://github.com/sensu/sensu/commit/cc05797c31ccba9922128f8d5a1fb32ffcbae895
+CommitInfo{repo='GitHub', hash='ddd23cc4d9a6f8b25e4d33be8450d3d8377d7940', version='v0.9.5.beta.2'} 	https://github.com/sensu/sensu/commit/ddd23cc4d9a6f8b25e4d33be8450d3d8377d7940
+CommitInfo{repo='GitHub', hash='eac44c8b54151b92c9f92068ec3cb050d2b77680', version='v0.9.5.beta.3'} 	https://github.com/sensu/sensu/commit/eac44c8b54151b92c9f92068ec3cb050d2b77680
+CommitInfo{repo='GitHub', hash='4b66492b977935e5714ac87408d9e96af48aae89', version='v0.9.5.beta.4'} 	https://github.com/sensu/sensu/commit/4b66492b977935e5714ac87408d9e96af48aae89
+CommitInfo{repo='GitHub', hash='5c98fe94618f12af8e56d19a0f93888eb5fc764d', version='v0.9.5.beta.5'} 	https://github.com/sensu/sensu/commit/5c98fe94618f12af8e56d19a0f93888eb5fc764d
+CommitInfo{repo='GitHub', hash='7b84de28b6d733d4c3472b736d35ce43bf838029', version='v0.9.6'} 	https://github.com/sensu/sensu/commit/7b84de28b6d733d4c3472b736d35ce43bf838029
+CommitInfo{repo='GitHub', hash='ab07a0b532fd8d76c256007cfa1ebd133e2fd257', version='v0.9.6.beta.1'} 	https://github.com/sensu/sensu/commit/ab07a0b532fd8d76c256007cfa1ebd133e2fd257
+CommitInfo{repo='GitHub', hash='4860ecec86c13fb2027cfd8c829b03d926675854', version='v0.9.6.beta.2'} 	https://github.com/sensu/sensu/commit/4860ecec86c13fb2027cfd8c829b03d926675854
+CommitInfo{repo='GitHub', hash='a7b6788bbe1f97c892cb408f6eb39b119a7c6b31', version='v0.9.6.beta.3'} 	https://github.com/sensu/sensu/commit/a7b6788bbe1f97c892cb408f6eb39b119a7c6b31
+CommitInfo{repo='GitHub', hash='96abbb5a2ac64dca18dcfe490e14b892f0a84271', version='v0.9.6.beta.4'} 	https://github.com/sensu/sensu/commit/96abbb5a2ac64dca18dcfe490e14b892f0a84271
+CommitInfo{repo='GitHub', hash='babfa87f251f8ded9d9427d869f934fc21778a27', version='v0.9.6.beta.5'} 	https://github.com/sensu/sensu/commit/babfa87f251f8ded9d9427d869f934fc21778a27
+CommitInfo{repo='GitHub', hash='e8f7c393268833d70f07e1f27e7a23d05f2d6c94', version='v0.9.6.beta.6'} 	https://github.com/sensu/sensu/commit/e8f7c393268833d70f07e1f27e7a23d05f2d6c94
+CommitInfo{repo='GitHub', hash='db700645dc409f2f0f430166f7ba38b2f984b6b8', version='v0.9.6.beta.7'} 	https://github.com/sensu/sensu/commit/db700645dc409f2f0f430166f7ba38b2f984b6b8
+CommitInfo{repo='GitHub', hash='d7600937eeeec9c92c0465c71dcd8c1d8db4b5bf', version='v0.9.7'} 	https://github.com/sensu/sensu/commit/d7600937eeeec9c92c0465c71dcd8c1d8db4b5bf
+CommitInfo{repo='GitHub', hash='8f0d2743139f4f643dfbf730a465fb1973001a37', version='v0.9.7.beta'} 	https://github.com/sensu/sensu/commit/8f0d2743139f4f643dfbf730a465fb1973001a37
+CommitInfo{repo='GitHub', hash='6ccfdf4929878806d12e52cd94a3852666c0f29c', version='v0.9.7.beta.1'} 	https://github.com/sensu/sensu/commit/6ccfdf4929878806d12e52cd94a3852666c0f29c
+CommitInfo{repo='GitHub', hash='9ad4784ab6fc1c5e145e7c324c8fef76c4d12f39', version='v0.9.7.beta.2'} 	https://github.com/sensu/sensu/commit/9ad4784ab6fc1c5e145e7c324c8fef76c4d12f39
+CommitInfo{repo='GitHub', hash='d38317e9c8627e8a25d14bacb9c26bb85d1fd6cc', version='v0.9.7.beta.3'} 	https://github.com/sensu/sensu/commit/d38317e9c8627e8a25d14bacb9c26bb85d1fd6cc
+CommitInfo{repo='GitHub', hash='238bdad99c29f02b0c283d0496f8488d05091975', version='v0.9.7.beta.4'} 	https://github.com/sensu/sensu/commit/238bdad99c29f02b0c283d0496f8488d05091975
+CommitInfo{repo='GitHub', hash='06acad8384b45259525f1ea2b85382c6b390e55a', version='v0.9.8'} 	https://github.com/sensu/sensu/commit/06acad8384b45259525f1ea2b85382c6b390e55a
+CommitInfo{repo='GitHub', hash='904257049dba3ae3861e92928013d58f7940e910', version='v0.9.8.beta'} 	https://github.com/sensu/sensu/commit/904257049dba3ae3861e92928013d58f7940e910
+CommitInfo{repo='GitHub', hash='bded2b770dec014df9437516067a7b3bad3c5b80', version='v0.9.8.beta.1'} 	https://github.com/sensu/sensu/commit/bded2b770dec014df9437516067a7b3bad3c5b80
+CommitInfo{repo='GitHub', hash='77e1a2a5cbcfc043f8502920d1267dfb6b068ab1', version='v0.9.8.beta.2'} 	https://github.com/sensu/sensu/commit/77e1a2a5cbcfc043f8502920d1267dfb6b068ab1
+CommitInfo{repo='GitHub', hash='621b3593bc52049ff234c443dc6378274e2e7f7a', version='v0.9.8.beta.3'} 	https://github.com/sensu/sensu/commit/621b3593bc52049ff234c443dc6378274e2e7f7a
+CommitInfo{repo='GitHub', hash='db6371f8c5423f7cd069c91df1ccf0056c58f799', version='v0.9.8.beta.4'} 	https://github.com/sensu/sensu/commit/db6371f8c5423f7cd069c91df1ccf0056c58f799
+CommitInfo{repo='GitHub', hash='91e3a869dc7c2be6fe7680492c6ca5fba7ce725f', version='v0.9.9'} 	https://github.com/sensu/sensu/commit/91e3a869dc7c2be6fe7680492c6ca5fba7ce725f
+CommitInfo{repo='GitHub', hash='4feb8cb3141c854b1105233e0291f6edf5631341', version='v0.9.9.beta'} 	https://github.com/sensu/sensu/commit/4feb8cb3141c854b1105233e0291f6edf5631341
+CommitInfo{repo='GitHub', hash='78af99f95db04446a293ab5fcc3de84a704911f6', version='v0.9.9.beta.1'} 	https://github.com/sensu/sensu/commit/78af99f95db04446a293ab5fcc3de84a704911f6
+CommitInfo{repo='GitHub', hash='6d6a5d79e1aab646a4abc5ea7b4382d8e8a5c923', version='v0.9.9.beta.2'} 	https://github.com/sensu/sensu/commit/6d6a5d79e1aab646a4abc5ea7b4382d8e8a5c923
+CommitInfo{repo='GitHub', hash='a581944046a7c2025431015a5d24314289abc9a2', version='v0.9.9.beta.3'} 	https://github.com/sensu/sensu/commit/a581944046a7c2025431015a5d24314289abc9a2
+CommitInfo{repo='GitHub', hash='3299a3a9d1946306a88599538c35b2ebd19d0e54', version='v0.9.9.beta.4'} 	https://github.com/sensu/sensu/commit/3299a3a9d1946306a88599538c35b2ebd19d0e54
+CommitInfo{repo='GitHub', hash='258def983f7a3d267a78efbd5f06e0a046dc69db', version='v1.0.0'} 	https://github.com/sensu/sensu/commit/258def983f7a3d267a78efbd5f06e0a046dc69db
+CommitInfo{repo='GitHub', hash='e32299c3a75dd298f05e96ddfda55a5610ac4f22', version='v1.0.0.alpha.1'} 	https://github.com/sensu/sensu/commit/e32299c3a75dd298f05e96ddfda55a5610ac4f22
+CommitInfo{repo='GitHub', hash='98a790b8befc24b1617084aa264b69b1f6aa89b8', version='v1.0.1'} 	https://github.com/sensu/sensu/commit/98a790b8befc24b1617084aa264b69b1f6aa89b8
+CommitInfo{repo='GitHub', hash='42a5586db2448b060889a00dd59d44decc500ad3', version='v1.0.2'} 	https://github.com/sensu/sensu/commit/42a5586db2448b060889a00dd59d44decc500ad3
+CommitInfo{repo='GitHub', hash='80c28807cf1da0e66ebaba8ebb6a723f0073ce12', version='v1.0.3'} 	https://github.com/sensu/sensu/commit/80c28807cf1da0e66ebaba8ebb6a723f0073ce12
+CommitInfo{repo='GitHub', hash='953526b19ce08eee5f85247a426d505a971096f0', version='v1.0.4'} 	https://github.com/sensu/sensu/commit/953526b19ce08eee5f85247a426d505a971096f0
+CommitInfo{repo='GitHub', hash='cfb953f92a092c5fccb2d48703a6921709148a60', version='v1.1.0'} 	https://github.com/sensu/sensu/commit/cfb953f92a092c5fccb2d48703a6921709148a60
+CommitInfo{repo='GitHub', hash='5d600954f7faa36f5f7c1bf54067437f18b20516', version='v1.1.1'} 	https://github.com/sensu/sensu/commit/5d600954f7faa36f5f7c1bf54067437f18b20516
+CommitInfo{repo='GitHub', hash='5c04df2bae5c4f44cb9a8dbd602a26dc1e9af79d', version='v1.1.2'} 	https://github.com/sensu/sensu/commit/5c04df2bae5c4f44cb9a8dbd602a26dc1e9af79d
+CommitInfo{repo='GitHub', hash='fba1eac87f044fffe9b50c518ac8681512797559', version='v1.1.3'} 	https://github.com/sensu/sensu/commit/fba1eac87f044fffe9b50c518ac8681512797559
+CommitInfo{repo='GitHub', hash='70bc39897bcff10b46ac4479a0ae4b3369f12e3d', version='v1.2.0'} 	https://github.com/sensu/sensu/commit/70bc39897bcff10b46ac4479a0ae4b3369f12e3d
+CommitInfo{repo='GitHub', hash='e895d5958f1a3857601d3ef321f59dfc4d9e8f1f', version='v1.2.1'} 	https://github.com/sensu/sensu/commit/e895d5958f1a3857601d3ef321f59dfc4d9e8f1f
+CommitInfo{repo='GitHub', hash='811652ef26bcb7845ff64014a60f260e2b699146', version='v1.3.0'} 	https://github.com/sensu/sensu/commit/811652ef26bcb7845ff64014a60f260e2b699146
+CommitInfo{repo='GitHub', hash='c318e5d53170d1f38baf0c0fdd5d0436fe099caf', version='v1.3.1'} 	https://github.com/sensu/sensu/commit/c318e5d53170d1f38baf0c0fdd5d0436fe099caf
+CommitInfo{repo='GitHub', hash='5f40bcbf49b7ed5fa0c397114bcbb545a47c0e11', version='v1.3.2'} 	https://github.com/sensu/sensu/commit/5f40bcbf49b7ed5fa0c397114bcbb545a47c0e11
+CommitInfo{repo='GitHub', hash='548c2e119b95849db80d23bd005e921307f8cf70', version='v1.3.3'} 	https://github.com/sensu/sensu/commit/548c2e119b95849db80d23bd005e921307f8cf70
+CommitInfo{repo='GitHub', hash='1f36b2b8d823d261aeff2e54eabc6e40634d6ed4', version='v1.4.0'} 	https://github.com/sensu/sensu/commit/1f36b2b8d823d261aeff2e54eabc6e40634d6ed4
+CommitInfo{repo='GitHub', hash='f4585c00c22ff53db6aa12d264e5feeae4286f1a', version='v1.4.1'} 	https://github.com/sensu/sensu/commit/f4585c00c22ff53db6aa12d264e5feeae4286f1a
+CommitInfo{repo='GitHub', hash='1136ed989ba1acbf17cb95fa3f71691fbeafad01', version='v1.4.2'} 	https://github.com/sensu/sensu/commit/1136ed989ba1acbf17cb95fa3f71691fbeafad01
+CommitInfo{repo='GitHub', hash='66215bb11c4cdbf1fd7581f00d569f4880dbfe8c', version='v1.4.3'} 	https://github.com/sensu/sensu/commit/66215bb11c4cdbf1fd7581f00d569f4880dbfe8c
+CommitInfo{repo='GitHub', hash='aa33c503f92bbe996cc79b7f5a292c17d0c14b9b', version='v1.5.0'} 	https://github.com/sensu/sensu/commit/aa33c503f92bbe996cc79b7f5a292c17d0c14b9b
+CommitInfo{repo='GitHub', hash='c8b90368d1b28438e5a023f0328ba05a5fe7c4a5', version='v1.6.0'} 	https://github.com/sensu/sensu/commit/c8b90368d1b28438e5a023f0328ba05a5fe7c4a5
+CommitInfo{repo='GitHub', hash='9610716d46f933e9d4a59fea111bdff30ce789cf', version='v1.6.1'} 	https://github.com/sensu/sensu/commit/9610716d46f933e9d4a59fea111bdff30ce789cf
+CommitInfo{repo='GitHub', hash='0aa1d66c40dbe3122870c7b9132a2c4d9d468e1a', version='v1.6.2'} 	https://github.com/sensu/sensu/commit/0aa1d66c40dbe3122870c7b9132a2c4d9d468e1a
 
 Project A:
 ProjectVersionFixed(version=0.5.1, dependency=null, time=2011-09-09 17:03:03 UTC)

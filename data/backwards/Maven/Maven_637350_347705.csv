@@ -2,65 +2,70 @@
 Project information
 org.tachyonproject:tachyon-client (637350)	org.apache.hadoop:hadoop-client (347705)	Package Manager: Maven
 RepoID: 168500
+Repo Owner/Name: Alluxio/alluxio
+Repository type: GitHub
+
+ https://github.com/Alluxio/alluxio/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='0f9eab83e2285b5266e5e3da09cc96e3d5c89018', version='v1.1.0-RC1'}
-CommitInfo{repo='GitHub', hash='d96fc99c3a26e9b32a7bae106a050a54d0bb697a', version='tachyon-parent-0.6.4'}
-CommitInfo{repo='GitHub', hash='d90a4593d197a582d273c248e85896a23ad5b8d1', version='v0.1.0'}
-CommitInfo{repo='GitHub', hash='93ca37db8160e5806a65a7dfc7d55646996411c4', version='v0.2.0'}
-CommitInfo{repo='GitHub', hash='3bdda4fc13c7572360b0dcbd10011dd6afcfadac', version='v0.2.1'}
-CommitInfo{repo='GitHub', hash='9e06d47fc6df6328549bcb0cfd9143c60d5863f9', version='v0.3.0'}
-CommitInfo{repo='GitHub', hash='4b235eccb61bc9159650689c115bc5a3206cb23f', version='v0.4.0'}
-CommitInfo{repo='GitHub', hash='4494445f409db12476d2714204b7edb35a242e78', version='v0.4.1'}
-CommitInfo{repo='GitHub', hash='46f9618c66ef956c9807de156e272dba442fc8e1', version='v0.4.1-thrift'}
-CommitInfo{repo='GitHub', hash='e3a8bd5d4a3cb20ea0cfb9774b683822f13fd2c0', version='v0.5.0'}
-CommitInfo{repo='GitHub', hash='1d400def7a2cfece058ef01db2f548c68b9fc0b9', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='cffa00aaabee3ed02ac350df8814a42908d28abb', version='v0.6.1'}
-CommitInfo{repo='GitHub', hash='d43ba7529a722c8868acfb24f200803a76a6b692', version='v0.6.2'}
-CommitInfo{repo='GitHub', hash='6ee81892efcc2e4c32a371e1f0eb585c0bdfc085', version='v0.6.3'}
-CommitInfo{repo='GitHub', hash='03e28f47ce3908a84fd85f2babc63abf7110e0d1', version='v0.6.4'}
-CommitInfo{repo='GitHub', hash='0417a5e96ef43124ff3a8daae2e4402318df6625', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='0a72436cfb1e014bc0214b4833fc6af1ae9c560f', version='v0.7.0-rc1'}
-CommitInfo{repo='GitHub', hash='fff3d032014d65c52e906687f75d2555208c2a0c', version='v0.7.1'}
-CommitInfo{repo='GitHub', hash='bd272bc34b6f9ee5b7692aa9e9771591e4a4bf96', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='52226144b667e4488a7654f61d0ba1d665f2cc7f', version='v0.8.0-rc1'}
-CommitInfo{repo='GitHub', hash='4d3e5433749031b7bc6fbe708beb285038567ad1', version='v0.8.1'}
-CommitInfo{repo='GitHub', hash='f402ab11ad1a53629babd885a63022ccc09c3e2c', version='v0.8.2'}
-CommitInfo{repo='GitHub', hash='23fdb827b3f829197bbaba57b3c83b43f637380c', version='v0.8.2-rc1'}
-CommitInfo{repo='GitHub', hash='ebf6e49e7afc7ae9cd934d1fe2facf59f4fd5f14', version='v0.9.0-RC1'}
-CommitInfo{repo='GitHub', hash='7a350adad59596aef9895738a3443251759af34f', version='v0.9.0-RC2'}
-CommitInfo{repo='GitHub', hash='d6b30ee9b0626c83c2667dcbc9c49109b86cb23f', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='2ddf834401c5dea8c33ae58b446ddc3801445fc7', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='b2a795fcf09a96468225b4820256c3d802e011ee', version='v1.0.1-rc1'}
-CommitInfo{repo='GitHub', hash='5e35da83a6c5bc275dc6b6df5b6c0fd278f11885', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='fa97977fb14bb98194631b405241946ebf29b096', version='v1.1.0-RC2'}
-CommitInfo{repo='GitHub', hash='b4a2b5caedb006191fd637a003ed8904708b282d', version='v1.1.0-RC3'}
-CommitInfo{repo='GitHub', hash='13fbe3ad96cb714895ae995f8523afdcaab56d3d', version='v1.1.0-RC4'}
-CommitInfo{repo='GitHub', hash='fb50c9589cb420b7fb438d44b21d284e4a72abda', version='v1.1.0-RC5'}
-CommitInfo{repo='GitHub', hash='a3a4705740773f1ee467ec72906cbcbfec6b5abc', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='7608f8c617ad406b00f076afb23dd4562dce420c', version='v1.1.1-RC1'}
-CommitInfo{repo='GitHub', hash='966039532c41d652d8852d26cdc1a09ffdbc9fac', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='67f7053af614e5f3d0d4011c383eaf9f27beb840', version='v1.2.0-RC1'}
-CommitInfo{repo='GitHub', hash='559a23ce7dabbf5e8eb3e5869fb146a72c55762f', version='v1.2.0-RC2'}
-CommitInfo{repo='GitHub', hash='08fe25e2ec65276d9db5488680926fa3c1bde7f0', version='v1.3.0'}
-CommitInfo{repo='GitHub', hash='87ae76e546346041ccbbba6887f9868f3e3874f0', version='v1.3.0-RC1'}
-CommitInfo{repo='GitHub', hash='64ba0c2e6decd9d94373010cf148759f4c373c3d', version='v1.4.0'}
-CommitInfo{repo='GitHub', hash='8482fe7d9a24fada0e6f89a241f309589cd8be82', version='v1.4.0-RC1'}
-CommitInfo{repo='GitHub', hash='116d5c6f46322c769f6706cc267e14711bb40848', version='v1.4.0-RC2'}
-CommitInfo{repo='GitHub', hash='230952dc2bd32d9bcf261aaad86cb2bb3ae62524', version='v1.4.0-RC3'}
-CommitInfo{repo='GitHub', hash='361d1b3fc0fa4a37eb840c3f16e42f1007858ed8', version='v1.5.0'}
-CommitInfo{repo='GitHub', hash='0eda6d46c383c34370b01d96050d0127155e42a3', version='v1.5.0-RC1'}
-CommitInfo{repo='GitHub', hash='b3de65ffff14ac4ad5efbec3b38e7081f2c6e615', version='v1.5.0-RC2'}
-CommitInfo{repo='GitHub', hash='28048abd9a5a85c0b447c4fdc5fd3976bc74fd24', version='v1.6.0'}
-CommitInfo{repo='GitHub', hash='073d965a51ccce1c48751147cdf2054651d4d31a', version='v1.6.0-RC1'}
-CommitInfo{repo='GitHub', hash='db90ec2d21a37922441b0988dab0df96393c2cb1', version='v1.6.0-RC2'}
-CommitInfo{repo='GitHub', hash='0b9505350871ba0be95f6e78ba05489c2cc7f104', version='v1.6.1'}
-CommitInfo{repo='GitHub', hash='3046dfefd55cf916f295d749477f8c80c82d07de', version='v1.7.0'}
-CommitInfo{repo='GitHub', hash='ecb4cde9db7d488a887f86896b38b62a3d1f2d70', version='v1.7.0-RC0'}
-CommitInfo{repo='GitHub', hash='b789461730225df0bf9aad6ba4981a8a741fe4b3', version='v1.7.0-RC1'}
-CommitInfo{repo='GitHub', hash='c333c6ceda689f99715b5b3784b8d133f4d084e6', version='v1.7.1'}
-CommitInfo{repo='GitHub', hash='bf11d19a1f74613de9fb7a77c956cad9e561e91b', version='v1.7.1-RC1'}
-CommitInfo{repo='GitHub', hash='6bd4d5a96aaadf1d6dc642ee244956f1106a4ccb', version='v1.7.1-RC2'}
-CommitInfo{repo='GitHub', hash='5f8c88c86d8071941930d47d3aaeabce831d7a4b', version='v1.7.1-RC3'}
+CommitInfo{repo='GitHub', hash='0f9eab83e2285b5266e5e3da09cc96e3d5c89018', version='v1.1.0-RC1'} 	https://github.com/Alluxio/alluxio/commit/0f9eab83e2285b5266e5e3da09cc96e3d5c89018
+CommitInfo{repo='GitHub', hash='d96fc99c3a26e9b32a7bae106a050a54d0bb697a', version='tachyon-parent-0.6.4'} 	https://github.com/Alluxio/alluxio/commit/d96fc99c3a26e9b32a7bae106a050a54d0bb697a
+CommitInfo{repo='GitHub', hash='d90a4593d197a582d273c248e85896a23ad5b8d1', version='v0.1.0'} 	https://github.com/Alluxio/alluxio/commit/d90a4593d197a582d273c248e85896a23ad5b8d1
+CommitInfo{repo='GitHub', hash='93ca37db8160e5806a65a7dfc7d55646996411c4', version='v0.2.0'} 	https://github.com/Alluxio/alluxio/commit/93ca37db8160e5806a65a7dfc7d55646996411c4
+CommitInfo{repo='GitHub', hash='3bdda4fc13c7572360b0dcbd10011dd6afcfadac', version='v0.2.1'} 	https://github.com/Alluxio/alluxio/commit/3bdda4fc13c7572360b0dcbd10011dd6afcfadac
+CommitInfo{repo='GitHub', hash='9e06d47fc6df6328549bcb0cfd9143c60d5863f9', version='v0.3.0'} 	https://github.com/Alluxio/alluxio/commit/9e06d47fc6df6328549bcb0cfd9143c60d5863f9
+CommitInfo{repo='GitHub', hash='4b235eccb61bc9159650689c115bc5a3206cb23f', version='v0.4.0'} 	https://github.com/Alluxio/alluxio/commit/4b235eccb61bc9159650689c115bc5a3206cb23f
+CommitInfo{repo='GitHub', hash='4494445f409db12476d2714204b7edb35a242e78', version='v0.4.1'} 	https://github.com/Alluxio/alluxio/commit/4494445f409db12476d2714204b7edb35a242e78
+CommitInfo{repo='GitHub', hash='46f9618c66ef956c9807de156e272dba442fc8e1', version='v0.4.1-thrift'} 	https://github.com/Alluxio/alluxio/commit/46f9618c66ef956c9807de156e272dba442fc8e1
+CommitInfo{repo='GitHub', hash='e3a8bd5d4a3cb20ea0cfb9774b683822f13fd2c0', version='v0.5.0'} 	https://github.com/Alluxio/alluxio/commit/e3a8bd5d4a3cb20ea0cfb9774b683822f13fd2c0
+CommitInfo{repo='GitHub', hash='1d400def7a2cfece058ef01db2f548c68b9fc0b9', version='v0.6.0'} 	https://github.com/Alluxio/alluxio/commit/1d400def7a2cfece058ef01db2f548c68b9fc0b9
+CommitInfo{repo='GitHub', hash='cffa00aaabee3ed02ac350df8814a42908d28abb', version='v0.6.1'} 	https://github.com/Alluxio/alluxio/commit/cffa00aaabee3ed02ac350df8814a42908d28abb
+CommitInfo{repo='GitHub', hash='d43ba7529a722c8868acfb24f200803a76a6b692', version='v0.6.2'} 	https://github.com/Alluxio/alluxio/commit/d43ba7529a722c8868acfb24f200803a76a6b692
+CommitInfo{repo='GitHub', hash='6ee81892efcc2e4c32a371e1f0eb585c0bdfc085', version='v0.6.3'} 	https://github.com/Alluxio/alluxio/commit/6ee81892efcc2e4c32a371e1f0eb585c0bdfc085
+CommitInfo{repo='GitHub', hash='03e28f47ce3908a84fd85f2babc63abf7110e0d1', version='v0.6.4'} 	https://github.com/Alluxio/alluxio/commit/03e28f47ce3908a84fd85f2babc63abf7110e0d1
+CommitInfo{repo='GitHub', hash='0417a5e96ef43124ff3a8daae2e4402318df6625', version='v0.7.0'} 	https://github.com/Alluxio/alluxio/commit/0417a5e96ef43124ff3a8daae2e4402318df6625
+CommitInfo{repo='GitHub', hash='0a72436cfb1e014bc0214b4833fc6af1ae9c560f', version='v0.7.0-rc1'} 	https://github.com/Alluxio/alluxio/commit/0a72436cfb1e014bc0214b4833fc6af1ae9c560f
+CommitInfo{repo='GitHub', hash='fff3d032014d65c52e906687f75d2555208c2a0c', version='v0.7.1'} 	https://github.com/Alluxio/alluxio/commit/fff3d032014d65c52e906687f75d2555208c2a0c
+CommitInfo{repo='GitHub', hash='bd272bc34b6f9ee5b7692aa9e9771591e4a4bf96', version='v0.8.0'} 	https://github.com/Alluxio/alluxio/commit/bd272bc34b6f9ee5b7692aa9e9771591e4a4bf96
+CommitInfo{repo='GitHub', hash='52226144b667e4488a7654f61d0ba1d665f2cc7f', version='v0.8.0-rc1'} 	https://github.com/Alluxio/alluxio/commit/52226144b667e4488a7654f61d0ba1d665f2cc7f
+CommitInfo{repo='GitHub', hash='4d3e5433749031b7bc6fbe708beb285038567ad1', version='v0.8.1'} 	https://github.com/Alluxio/alluxio/commit/4d3e5433749031b7bc6fbe708beb285038567ad1
+CommitInfo{repo='GitHub', hash='f402ab11ad1a53629babd885a63022ccc09c3e2c', version='v0.8.2'} 	https://github.com/Alluxio/alluxio/commit/f402ab11ad1a53629babd885a63022ccc09c3e2c
+CommitInfo{repo='GitHub', hash='23fdb827b3f829197bbaba57b3c83b43f637380c', version='v0.8.2-rc1'} 	https://github.com/Alluxio/alluxio/commit/23fdb827b3f829197bbaba57b3c83b43f637380c
+CommitInfo{repo='GitHub', hash='ebf6e49e7afc7ae9cd934d1fe2facf59f4fd5f14', version='v0.9.0-RC1'} 	https://github.com/Alluxio/alluxio/commit/ebf6e49e7afc7ae9cd934d1fe2facf59f4fd5f14
+CommitInfo{repo='GitHub', hash='7a350adad59596aef9895738a3443251759af34f', version='v0.9.0-RC2'} 	https://github.com/Alluxio/alluxio/commit/7a350adad59596aef9895738a3443251759af34f
+CommitInfo{repo='GitHub', hash='d6b30ee9b0626c83c2667dcbc9c49109b86cb23f', version='v1.0.0'} 	https://github.com/Alluxio/alluxio/commit/d6b30ee9b0626c83c2667dcbc9c49109b86cb23f
+CommitInfo{repo='GitHub', hash='2ddf834401c5dea8c33ae58b446ddc3801445fc7', version='v1.0.1'} 	https://github.com/Alluxio/alluxio/commit/2ddf834401c5dea8c33ae58b446ddc3801445fc7
+CommitInfo{repo='GitHub', hash='b2a795fcf09a96468225b4820256c3d802e011ee', version='v1.0.1-rc1'} 	https://github.com/Alluxio/alluxio/commit/b2a795fcf09a96468225b4820256c3d802e011ee
+CommitInfo{repo='GitHub', hash='5e35da83a6c5bc275dc6b6df5b6c0fd278f11885', version='v1.1.0'} 	https://github.com/Alluxio/alluxio/commit/5e35da83a6c5bc275dc6b6df5b6c0fd278f11885
+CommitInfo{repo='GitHub', hash='fa97977fb14bb98194631b405241946ebf29b096', version='v1.1.0-RC2'} 	https://github.com/Alluxio/alluxio/commit/fa97977fb14bb98194631b405241946ebf29b096
+CommitInfo{repo='GitHub', hash='b4a2b5caedb006191fd637a003ed8904708b282d', version='v1.1.0-RC3'} 	https://github.com/Alluxio/alluxio/commit/b4a2b5caedb006191fd637a003ed8904708b282d
+CommitInfo{repo='GitHub', hash='13fbe3ad96cb714895ae995f8523afdcaab56d3d', version='v1.1.0-RC4'} 	https://github.com/Alluxio/alluxio/commit/13fbe3ad96cb714895ae995f8523afdcaab56d3d
+CommitInfo{repo='GitHub', hash='fb50c9589cb420b7fb438d44b21d284e4a72abda', version='v1.1.0-RC5'} 	https://github.com/Alluxio/alluxio/commit/fb50c9589cb420b7fb438d44b21d284e4a72abda
+CommitInfo{repo='GitHub', hash='a3a4705740773f1ee467ec72906cbcbfec6b5abc', version='v1.1.1'} 	https://github.com/Alluxio/alluxio/commit/a3a4705740773f1ee467ec72906cbcbfec6b5abc
+CommitInfo{repo='GitHub', hash='7608f8c617ad406b00f076afb23dd4562dce420c', version='v1.1.1-RC1'} 	https://github.com/Alluxio/alluxio/commit/7608f8c617ad406b00f076afb23dd4562dce420c
+CommitInfo{repo='GitHub', hash='966039532c41d652d8852d26cdc1a09ffdbc9fac', version='v1.2.0'} 	https://github.com/Alluxio/alluxio/commit/966039532c41d652d8852d26cdc1a09ffdbc9fac
+CommitInfo{repo='GitHub', hash='67f7053af614e5f3d0d4011c383eaf9f27beb840', version='v1.2.0-RC1'} 	https://github.com/Alluxio/alluxio/commit/67f7053af614e5f3d0d4011c383eaf9f27beb840
+CommitInfo{repo='GitHub', hash='559a23ce7dabbf5e8eb3e5869fb146a72c55762f', version='v1.2.0-RC2'} 	https://github.com/Alluxio/alluxio/commit/559a23ce7dabbf5e8eb3e5869fb146a72c55762f
+CommitInfo{repo='GitHub', hash='08fe25e2ec65276d9db5488680926fa3c1bde7f0', version='v1.3.0'} 	https://github.com/Alluxio/alluxio/commit/08fe25e2ec65276d9db5488680926fa3c1bde7f0
+CommitInfo{repo='GitHub', hash='87ae76e546346041ccbbba6887f9868f3e3874f0', version='v1.3.0-RC1'} 	https://github.com/Alluxio/alluxio/commit/87ae76e546346041ccbbba6887f9868f3e3874f0
+CommitInfo{repo='GitHub', hash='64ba0c2e6decd9d94373010cf148759f4c373c3d', version='v1.4.0'} 	https://github.com/Alluxio/alluxio/commit/64ba0c2e6decd9d94373010cf148759f4c373c3d
+CommitInfo{repo='GitHub', hash='8482fe7d9a24fada0e6f89a241f309589cd8be82', version='v1.4.0-RC1'} 	https://github.com/Alluxio/alluxio/commit/8482fe7d9a24fada0e6f89a241f309589cd8be82
+CommitInfo{repo='GitHub', hash='116d5c6f46322c769f6706cc267e14711bb40848', version='v1.4.0-RC2'} 	https://github.com/Alluxio/alluxio/commit/116d5c6f46322c769f6706cc267e14711bb40848
+CommitInfo{repo='GitHub', hash='230952dc2bd32d9bcf261aaad86cb2bb3ae62524', version='v1.4.0-RC3'} 	https://github.com/Alluxio/alluxio/commit/230952dc2bd32d9bcf261aaad86cb2bb3ae62524
+CommitInfo{repo='GitHub', hash='361d1b3fc0fa4a37eb840c3f16e42f1007858ed8', version='v1.5.0'} 	https://github.com/Alluxio/alluxio/commit/361d1b3fc0fa4a37eb840c3f16e42f1007858ed8
+CommitInfo{repo='GitHub', hash='0eda6d46c383c34370b01d96050d0127155e42a3', version='v1.5.0-RC1'} 	https://github.com/Alluxio/alluxio/commit/0eda6d46c383c34370b01d96050d0127155e42a3
+CommitInfo{repo='GitHub', hash='b3de65ffff14ac4ad5efbec3b38e7081f2c6e615', version='v1.5.0-RC2'} 	https://github.com/Alluxio/alluxio/commit/b3de65ffff14ac4ad5efbec3b38e7081f2c6e615
+CommitInfo{repo='GitHub', hash='28048abd9a5a85c0b447c4fdc5fd3976bc74fd24', version='v1.6.0'} 	https://github.com/Alluxio/alluxio/commit/28048abd9a5a85c0b447c4fdc5fd3976bc74fd24
+CommitInfo{repo='GitHub', hash='073d965a51ccce1c48751147cdf2054651d4d31a', version='v1.6.0-RC1'} 	https://github.com/Alluxio/alluxio/commit/073d965a51ccce1c48751147cdf2054651d4d31a
+CommitInfo{repo='GitHub', hash='db90ec2d21a37922441b0988dab0df96393c2cb1', version='v1.6.0-RC2'} 	https://github.com/Alluxio/alluxio/commit/db90ec2d21a37922441b0988dab0df96393c2cb1
+CommitInfo{repo='GitHub', hash='0b9505350871ba0be95f6e78ba05489c2cc7f104', version='v1.6.1'} 	https://github.com/Alluxio/alluxio/commit/0b9505350871ba0be95f6e78ba05489c2cc7f104
+CommitInfo{repo='GitHub', hash='3046dfefd55cf916f295d749477f8c80c82d07de', version='v1.7.0'} 	https://github.com/Alluxio/alluxio/commit/3046dfefd55cf916f295d749477f8c80c82d07de
+CommitInfo{repo='GitHub', hash='ecb4cde9db7d488a887f86896b38b62a3d1f2d70', version='v1.7.0-RC0'} 	https://github.com/Alluxio/alluxio/commit/ecb4cde9db7d488a887f86896b38b62a3d1f2d70
+CommitInfo{repo='GitHub', hash='b789461730225df0bf9aad6ba4981a8a741fe4b3', version='v1.7.0-RC1'} 	https://github.com/Alluxio/alluxio/commit/b789461730225df0bf9aad6ba4981a8a741fe4b3
+CommitInfo{repo='GitHub', hash='c333c6ceda689f99715b5b3784b8d133f4d084e6', version='v1.7.1'} 	https://github.com/Alluxio/alluxio/commit/c333c6ceda689f99715b5b3784b8d133f4d084e6
+CommitInfo{repo='GitHub', hash='bf11d19a1f74613de9fb7a77c956cad9e561e91b', version='v1.7.1-RC1'} 	https://github.com/Alluxio/alluxio/commit/bf11d19a1f74613de9fb7a77c956cad9e561e91b
+CommitInfo{repo='GitHub', hash='6bd4d5a96aaadf1d6dc642ee244956f1106a4ccb', version='v1.7.1-RC2'} 	https://github.com/Alluxio/alluxio/commit/6bd4d5a96aaadf1d6dc642ee244956f1106a4ccb
+CommitInfo{repo='GitHub', hash='5f8c88c86d8071941930d47d3aaeabce831d7a4b', version='v1.7.1-RC3'} 	https://github.com/Alluxio/alluxio/commit/5f8c88c86d8071941930d47d3aaeabce831d7a4b
 
 Project A:
 ProjectVersionFixed(version=0.5.0, dependency=null, time=2014-07-20 02:46:37 UTC)

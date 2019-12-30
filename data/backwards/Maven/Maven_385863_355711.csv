@@ -2,105 +2,110 @@
 Project information
 com.datastax.spark:spark-cassandra-connector-embedded_2.10 (385863)	net.sf.jopt-simple:jopt-simple (355711)	Package Manager: Maven
 RepoID: 165171
+Repo Owner/Name: datastax/spark-cassandra-connector
+Repository type: GitHub
+
+ https://github.com/datastax/spark-cassandra-connector/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='82f25dd3ce468e9f13df978d5d0fa4fd5048ba86', version='1.2.0-alpha2'}
-CommitInfo{repo='GitHub', hash='193b930bcc4fd2c2743c532e6165ed754cddaf5f', version='1.5.2'}
-CommitInfo{repo='GitHub', hash='42b80ebebc65900ac7c9e02450f27079a5cb7177', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='6d9e271da0631fe69f7d67dd68900b90b9a3ea30', version='v1.0.0-beta1'}
-CommitInfo{repo='GitHub', hash='197d74024426a5492373c1eb1c6730aa892feb0b', version='v1.0.0-beta2'}
-CommitInfo{repo='GitHub', hash='aaeeaeb250ba8fee387beb63c286f780b54ea18a', version='v1.0.0-rc1'}
-CommitInfo{repo='GitHub', hash='efb0976e0da3408a0cc600e4bd8c98e94a2f7c0b', version='v1.0.0-rc2'}
-CommitInfo{repo='GitHub', hash='4137202fe3224401cb15b7b3d7feb7ffe977eedf', version='v1.0.0-rc3'}
-CommitInfo{repo='GitHub', hash='36ed5d3833ca9e9afcdf128c1ad9e14d3de33bfb', version='v1.0.0-rc4'}
-CommitInfo{repo='GitHub', hash='42c36eeaa8aed6e6967e28f856e5b639472485bf', version='v1.0.0-rc5'}
-CommitInfo{repo='GitHub', hash='ba984eef86a6ab4de43d01b814ade0f03e3db140', version='v1.0.0-rc6'}
-CommitInfo{repo='GitHub', hash='b87015ef09452437810a717c4eeb3f6685b8c7c8', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='e43537d2d9ffbc567d95faedf73e7e5196c41f29', version='v1.0.2'}
-CommitInfo{repo='GitHub', hash='e6e79e572cdb16e92f3339e37b7e70e6990bc6d3', version='v1.0.3'}
-CommitInfo{repo='GitHub', hash='e8cc808fd25ea28e33586e86f39038752ac352dd', version='v1.0.4'}
-CommitInfo{repo='GitHub', hash='9115e5895d5e8aa961d757672bcdc2f2979038c7', version='v1.0.5'}
-CommitInfo{repo='GitHub', hash='c2dbd71212ce80c9b3dc21f61f632f0b37356cdb', version='v1.0.6'}
-CommitInfo{repo='GitHub', hash='fee3cfd341a2fb8e71d8ca697fcffc84453e0ddd', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='1b02c76b4940db29454f4176671dbbd13729217c', version='v1.1.0-alpha1'}
-CommitInfo{repo='GitHub', hash='d1aa33c7cbdcba7e9c096a403a01d9c96d97ece8', version='v1.1.0-alpha2'}
-CommitInfo{repo='GitHub', hash='fcca16bf83f63b9465c306289eb8917fcc0c661f', version='v1.1.0-alpha3'}
-CommitInfo{repo='GitHub', hash='ae77a5126fbf9907c3ab58ce349f4fad9649b277', version='v1.1.0-alpha4'}
-CommitInfo{repo='GitHub', hash='219f98d5645b401f933bc475f8df0b9fedc7fb35', version='v1.1.0-beta1'}
-CommitInfo{repo='GitHub', hash='abc50c6704074285d6be6aed8991319998546799', version='v1.1.0-beta2'}
-CommitInfo{repo='GitHub', hash='84fd72b875c31da0953ca2956d17993b80bb3d2a', version='v1.1.0-rc1'}
-CommitInfo{repo='GitHub', hash='159578663ac7ff67216205f8223d77f53c126161', version='v1.1.0-rc2'}
-CommitInfo{repo='GitHub', hash='5b0ad29a1a9281975fda2d6b8f1508ea8a41155a', version='v1.1.0-rc3'}
-CommitInfo{repo='GitHub', hash='c5746319f71e3c6226cbf93ef0d663020bbfc648', version='v1.1.1'}
-CommitInfo{repo='GitHub', hash='139788bcf078f9a96005f9728dbd582434160a87', version='v1.1.2'}
-CommitInfo{repo='GitHub', hash='86542858b08405f0a9364a2da1ad63a063bf56cd', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='047fafeb79fc8ee275a56ca86520f0987cafb99c', version='v1.2.0-alpha1'}
-CommitInfo{repo='GitHub', hash='98da00a46bb9898e3ede671632b0681e42819f8d', version='v1.2.0-alpha2'}
-CommitInfo{repo='GitHub', hash='b6f9a636a7dbf761301117fa0839644fd2dd9759', version='v1.2.0-alpha3'}
-CommitInfo{repo='GitHub', hash='4c073e41837a6787de6860b621e429cf05f7f445', version='v1.2.0-rc1'}
-CommitInfo{repo='GitHub', hash='9d29e032b3fcef8469a93ca37ce8ea6850e5a287', version='v1.2.0-rc2'}
-CommitInfo{repo='GitHub', hash='9a287c89325b2401f57c6f1a3f694ee3f5ed37ef', version='v1.2.0-rc3'}
-CommitInfo{repo='GitHub', hash='bce8192c62cfde254cf64b84bc5bbb62f2d613ca', version='v1.2.1'}
-CommitInfo{repo='GitHub', hash='6cffebad6b98967396b4dbc2920b4416b4241d05', version='v1.2.2'}
-CommitInfo{repo='GitHub', hash='29e4228d9a1d06fbf335650c397206b38e04653e', version='v1.2.3'}
-CommitInfo{repo='GitHub', hash='21c0b986ab5f82cfd79a6187bc2b9fce31514529', version='v1.2.4'}
-CommitInfo{repo='GitHub', hash='9cf836a8aec4687ef86dc2d471f75d3e97ab45bc', version='v1.2.5'}
-CommitInfo{repo='GitHub', hash='43c2e2007bae44f8f71ce0d2fe55e5720e0c8734', version='v1.2.6'}
-CommitInfo{repo='GitHub', hash='3f8f2a6f3ff5cc3324613f4d037a0e79e05603fa', version='v1.3.0'}
-CommitInfo{repo='GitHub', hash='7c2799bbfa64cb3da2f838e71c7513493b723ce7', version='v1.3.0-M1'}
-CommitInfo{repo='GitHub', hash='9b3275c5f854f5f9a1acc53c4a0d058c9385f773', version='v1.3.0-M2'}
-CommitInfo{repo='GitHub', hash='e6362092da014ef33428e64cd31bd9a26dcb1c65', version='v1.3.0-RC1'}
-CommitInfo{repo='GitHub', hash='d9777624e5a1861b42bef9c041bb1ad2b42114b6', version='v1.3.1'}
-CommitInfo{repo='GitHub', hash='3614507f40a4590cfa6f8c9d41747ae5fb1e2d54', version='v1.4.0'}
-CommitInfo{repo='GitHub', hash='9682c0a092bebe4cf529c64a512d2a963bba4bc2', version='v1.4.0-M1'}
-CommitInfo{repo='GitHub', hash='eb15e1bd9be8c7bffaa85d5d4d8ef919e7f3fb9e', version='v1.4.0-M2'}
-CommitInfo{repo='GitHub', hash='44288c8a70339f98c4fe1a5815e21f69fb565622', version='v1.4.0-M3'}
-CommitInfo{repo='GitHub', hash='98018785a73434cda5184718de3dd69227a15749', version='v1.4.0-RC1'}
-CommitInfo{repo='GitHub', hash='edb59751ed9f1e1e3005a6ddee04bdfc1f431e85', version='v1.4.1'}
-CommitInfo{repo='GitHub', hash='e26dfef926d4393847ab4d69c047dfa64375a865', version='v1.4.2'}
-CommitInfo{repo='GitHub', hash='854bf60ee06c7097fb87863b59d3b2e613837b4c', version='v1.4.3'}
-CommitInfo{repo='GitHub', hash='51e9d988a68757c1a811f066007f728c5d2fce2e', version='v1.4.4'}
-CommitInfo{repo='GitHub', hash='dc9b353dac4745d6db79b1d026249e76a12f533c', version='v1.4.5'}
-CommitInfo{repo='GitHub', hash='f871fea9c3fa90055cdd6feec828809eb3b71706', version='v1.5.0'}
-CommitInfo{repo='GitHub', hash='293e68a6fc481b4755b7c9003035cec540e935e3', version='v1.5.0-M1'}
-CommitInfo{repo='GitHub', hash='61e568968a9566b3f3a307a5305490aff874108a', version='v1.5.0-M2'}
-CommitInfo{repo='GitHub', hash='39dcadbe40e833b610357ce84811201f03d8f350', version='v1.5.0-M3'}
-CommitInfo{repo='GitHub', hash='526e7b68f7a44da93e021b86a7658fa61c9cca10', version='v1.5.0-RC1'}
-CommitInfo{repo='GitHub', hash='50614cafc0625c79172b4562d0cf555cd2cbd0f7', version='v1.5.1'}
-CommitInfo{repo='GitHub', hash='193b930bcc4fd2c2743c532e6165ed754cddaf5f', version='v1.5.2'}
-CommitInfo{repo='GitHub', hash='9a5e6ee9312ec0d7bccfea3be161db600a689587', version='v1.6.0'}
-CommitInfo{repo='GitHub', hash='084df4aa1d0ae6c570483443d834a7b8666be292', version='v1.6.0-M1'}
-CommitInfo{repo='GitHub', hash='0728bcded2c8b1540f98a5ddb8399d86165efdb5', version='v1.6.0-M2'}
-CommitInfo{repo='GitHub', hash='331038e30b22b1800a75f6156ffb21a850d142e3', version='v1.6.1'}
-CommitInfo{repo='GitHub', hash='5efd0c3018599073c81f8611f681b524771576cf', version='v1.6.10'}
-CommitInfo{repo='GitHub', hash='b04a223ac9ac53db67c0a993a716012f99af620a', version='v1.6.11'}
-CommitInfo{repo='GitHub', hash='b7f2ebc1db479aeba66f4b44a4f9df5f019f71e3', version='v1.6.12'}
-CommitInfo{repo='GitHub', hash='0107c02bf11f833ebe07188bd689e0046ffa1b3a', version='v1.6.13'}
-CommitInfo{repo='GitHub', hash='d09986f6b54c5e9b27c616e69a68e1c42cb748fd', version='v1.6.2'}
-CommitInfo{repo='GitHub', hash='07f734d7eaffa68ca8bdf17ecb64f6e4435160a8', version='v1.6.3'}
-CommitInfo{repo='GitHub', hash='b2db1046187011f051e3f5350258423e59e46483', version='v1.6.4'}
-CommitInfo{repo='GitHub', hash='f46b40e634c853bda12a3eb7b2f979293399e680', version='v1.6.5'}
-CommitInfo{repo='GitHub', hash='337d0d87b5c453cde0e2e3712e4ea4b80fc5aa5b', version='v1.6.6'}
-CommitInfo{repo='GitHub', hash='ad72844459c9f6c395732f6b4063723f46dac57f', version='v1.6.7'}
-CommitInfo{repo='GitHub', hash='84496977e0fb81c77a5f3b4c2611912c861917fa', version='v1.6.8'}
-CommitInfo{repo='GitHub', hash='b042a6a470b6280b66a6bb801538f2eed5b45100', version='v1.6.9'}
-CommitInfo{repo='GitHub', hash='82ea4c6a1e123bdae55a1eadfb5e844531023cf3', version='v2.0.0'}
-CommitInfo{repo='GitHub', hash='3e5f09d80c00f05b444baa93d932b03b63c09f5f', version='v2.0.0-M1'}
-CommitInfo{repo='GitHub', hash='25da2efbd19492e8e3d7b742e9dc48480b4c2c3c', version='v2.0.0-M2'}
-CommitInfo{repo='GitHub', hash='4da73e9c7c09aa635e79e0e1541109b9609af15a', version='v2.0.0-M3'}
-CommitInfo{repo='GitHub', hash='5ba099bae38a95c6e69d106d983b57c38a3c2c32', version='v2.0.0-RC1'}
-CommitInfo{repo='GitHub', hash='98b55f9372bb3588b557565308e934053d43e7d6', version='v2.0.1'}
-CommitInfo{repo='GitHub', hash='11570ab65fa44a0bb4d0f43c06b6cc69487df78d', version='v2.0.10'}
-CommitInfo{repo='GitHub', hash='e63b771b2a00cdd771e0fa15eb0ce9056fc5f25d', version='v2.0.2'}
-CommitInfo{repo='GitHub', hash='a145ff4de2c067e7ca39e20e0dd4d4fd16343ee6', version='v2.0.3'}
-CommitInfo{repo='GitHub', hash='b3177a0d869bd5edd9f8dca990814349a22f552d', version='v2.0.4'}
-CommitInfo{repo='GitHub', hash='13417e1598b4f7fd57aca99585e2f91e11ec939c', version='v2.0.5'}
-CommitInfo{repo='GitHub', hash='d05c635d0ef9117ca1d4145721bd960a2ef63b16', version='v2.0.6'}
-CommitInfo{repo='GitHub', hash='933c1468f614237f8383d5ab79aeabc6e30c3bef', version='v2.0.7'}
-CommitInfo{repo='GitHub', hash='49659beb52c3ea28961b8a74438a899fcd02cc7f', version='v2.0.8'}
-CommitInfo{repo='GitHub', hash='3a8c19849f065a95dc6769a8673e67964f25c061', version='v2.0.9'}
-CommitInfo{repo='GitHub', hash='a76cd9d4a29959965b2973397590c81bb91868c6', version='v2.3.0'}
-CommitInfo{repo='GitHub', hash='0721d8d9e5f2ac0e426bf35a8a8535f9d5b29ed1', version='v2.3.1'}
-CommitInfo{repo='GitHub', hash='a2011e1b898f1f505cada760057a16995b86ade1', version='v2.3.2'}
+CommitInfo{repo='GitHub', hash='82f25dd3ce468e9f13df978d5d0fa4fd5048ba86', version='1.2.0-alpha2'} 	https://github.com/datastax/spark-cassandra-connector/commit/82f25dd3ce468e9f13df978d5d0fa4fd5048ba86
+CommitInfo{repo='GitHub', hash='193b930bcc4fd2c2743c532e6165ed754cddaf5f', version='1.5.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/193b930bcc4fd2c2743c532e6165ed754cddaf5f
+CommitInfo{repo='GitHub', hash='42b80ebebc65900ac7c9e02450f27079a5cb7177', version='v1.0.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/42b80ebebc65900ac7c9e02450f27079a5cb7177
+CommitInfo{repo='GitHub', hash='6d9e271da0631fe69f7d67dd68900b90b9a3ea30', version='v1.0.0-beta1'} 	https://github.com/datastax/spark-cassandra-connector/commit/6d9e271da0631fe69f7d67dd68900b90b9a3ea30
+CommitInfo{repo='GitHub', hash='197d74024426a5492373c1eb1c6730aa892feb0b', version='v1.0.0-beta2'} 	https://github.com/datastax/spark-cassandra-connector/commit/197d74024426a5492373c1eb1c6730aa892feb0b
+CommitInfo{repo='GitHub', hash='aaeeaeb250ba8fee387beb63c286f780b54ea18a', version='v1.0.0-rc1'} 	https://github.com/datastax/spark-cassandra-connector/commit/aaeeaeb250ba8fee387beb63c286f780b54ea18a
+CommitInfo{repo='GitHub', hash='efb0976e0da3408a0cc600e4bd8c98e94a2f7c0b', version='v1.0.0-rc2'} 	https://github.com/datastax/spark-cassandra-connector/commit/efb0976e0da3408a0cc600e4bd8c98e94a2f7c0b
+CommitInfo{repo='GitHub', hash='4137202fe3224401cb15b7b3d7feb7ffe977eedf', version='v1.0.0-rc3'} 	https://github.com/datastax/spark-cassandra-connector/commit/4137202fe3224401cb15b7b3d7feb7ffe977eedf
+CommitInfo{repo='GitHub', hash='36ed5d3833ca9e9afcdf128c1ad9e14d3de33bfb', version='v1.0.0-rc4'} 	https://github.com/datastax/spark-cassandra-connector/commit/36ed5d3833ca9e9afcdf128c1ad9e14d3de33bfb
+CommitInfo{repo='GitHub', hash='42c36eeaa8aed6e6967e28f856e5b639472485bf', version='v1.0.0-rc5'} 	https://github.com/datastax/spark-cassandra-connector/commit/42c36eeaa8aed6e6967e28f856e5b639472485bf
+CommitInfo{repo='GitHub', hash='ba984eef86a6ab4de43d01b814ade0f03e3db140', version='v1.0.0-rc6'} 	https://github.com/datastax/spark-cassandra-connector/commit/ba984eef86a6ab4de43d01b814ade0f03e3db140
+CommitInfo{repo='GitHub', hash='b87015ef09452437810a717c4eeb3f6685b8c7c8', version='v1.0.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/b87015ef09452437810a717c4eeb3f6685b8c7c8
+CommitInfo{repo='GitHub', hash='e43537d2d9ffbc567d95faedf73e7e5196c41f29', version='v1.0.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/e43537d2d9ffbc567d95faedf73e7e5196c41f29
+CommitInfo{repo='GitHub', hash='e6e79e572cdb16e92f3339e37b7e70e6990bc6d3', version='v1.0.3'} 	https://github.com/datastax/spark-cassandra-connector/commit/e6e79e572cdb16e92f3339e37b7e70e6990bc6d3
+CommitInfo{repo='GitHub', hash='e8cc808fd25ea28e33586e86f39038752ac352dd', version='v1.0.4'} 	https://github.com/datastax/spark-cassandra-connector/commit/e8cc808fd25ea28e33586e86f39038752ac352dd
+CommitInfo{repo='GitHub', hash='9115e5895d5e8aa961d757672bcdc2f2979038c7', version='v1.0.5'} 	https://github.com/datastax/spark-cassandra-connector/commit/9115e5895d5e8aa961d757672bcdc2f2979038c7
+CommitInfo{repo='GitHub', hash='c2dbd71212ce80c9b3dc21f61f632f0b37356cdb', version='v1.0.6'} 	https://github.com/datastax/spark-cassandra-connector/commit/c2dbd71212ce80c9b3dc21f61f632f0b37356cdb
+CommitInfo{repo='GitHub', hash='fee3cfd341a2fb8e71d8ca697fcffc84453e0ddd', version='v1.1.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/fee3cfd341a2fb8e71d8ca697fcffc84453e0ddd
+CommitInfo{repo='GitHub', hash='1b02c76b4940db29454f4176671dbbd13729217c', version='v1.1.0-alpha1'} 	https://github.com/datastax/spark-cassandra-connector/commit/1b02c76b4940db29454f4176671dbbd13729217c
+CommitInfo{repo='GitHub', hash='d1aa33c7cbdcba7e9c096a403a01d9c96d97ece8', version='v1.1.0-alpha2'} 	https://github.com/datastax/spark-cassandra-connector/commit/d1aa33c7cbdcba7e9c096a403a01d9c96d97ece8
+CommitInfo{repo='GitHub', hash='fcca16bf83f63b9465c306289eb8917fcc0c661f', version='v1.1.0-alpha3'} 	https://github.com/datastax/spark-cassandra-connector/commit/fcca16bf83f63b9465c306289eb8917fcc0c661f
+CommitInfo{repo='GitHub', hash='ae77a5126fbf9907c3ab58ce349f4fad9649b277', version='v1.1.0-alpha4'} 	https://github.com/datastax/spark-cassandra-connector/commit/ae77a5126fbf9907c3ab58ce349f4fad9649b277
+CommitInfo{repo='GitHub', hash='219f98d5645b401f933bc475f8df0b9fedc7fb35', version='v1.1.0-beta1'} 	https://github.com/datastax/spark-cassandra-connector/commit/219f98d5645b401f933bc475f8df0b9fedc7fb35
+CommitInfo{repo='GitHub', hash='abc50c6704074285d6be6aed8991319998546799', version='v1.1.0-beta2'} 	https://github.com/datastax/spark-cassandra-connector/commit/abc50c6704074285d6be6aed8991319998546799
+CommitInfo{repo='GitHub', hash='84fd72b875c31da0953ca2956d17993b80bb3d2a', version='v1.1.0-rc1'} 	https://github.com/datastax/spark-cassandra-connector/commit/84fd72b875c31da0953ca2956d17993b80bb3d2a
+CommitInfo{repo='GitHub', hash='159578663ac7ff67216205f8223d77f53c126161', version='v1.1.0-rc2'} 	https://github.com/datastax/spark-cassandra-connector/commit/159578663ac7ff67216205f8223d77f53c126161
+CommitInfo{repo='GitHub', hash='5b0ad29a1a9281975fda2d6b8f1508ea8a41155a', version='v1.1.0-rc3'} 	https://github.com/datastax/spark-cassandra-connector/commit/5b0ad29a1a9281975fda2d6b8f1508ea8a41155a
+CommitInfo{repo='GitHub', hash='c5746319f71e3c6226cbf93ef0d663020bbfc648', version='v1.1.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/c5746319f71e3c6226cbf93ef0d663020bbfc648
+CommitInfo{repo='GitHub', hash='139788bcf078f9a96005f9728dbd582434160a87', version='v1.1.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/139788bcf078f9a96005f9728dbd582434160a87
+CommitInfo{repo='GitHub', hash='86542858b08405f0a9364a2da1ad63a063bf56cd', version='v1.2.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/86542858b08405f0a9364a2da1ad63a063bf56cd
+CommitInfo{repo='GitHub', hash='047fafeb79fc8ee275a56ca86520f0987cafb99c', version='v1.2.0-alpha1'} 	https://github.com/datastax/spark-cassandra-connector/commit/047fafeb79fc8ee275a56ca86520f0987cafb99c
+CommitInfo{repo='GitHub', hash='98da00a46bb9898e3ede671632b0681e42819f8d', version='v1.2.0-alpha2'} 	https://github.com/datastax/spark-cassandra-connector/commit/98da00a46bb9898e3ede671632b0681e42819f8d
+CommitInfo{repo='GitHub', hash='b6f9a636a7dbf761301117fa0839644fd2dd9759', version='v1.2.0-alpha3'} 	https://github.com/datastax/spark-cassandra-connector/commit/b6f9a636a7dbf761301117fa0839644fd2dd9759
+CommitInfo{repo='GitHub', hash='4c073e41837a6787de6860b621e429cf05f7f445', version='v1.2.0-rc1'} 	https://github.com/datastax/spark-cassandra-connector/commit/4c073e41837a6787de6860b621e429cf05f7f445
+CommitInfo{repo='GitHub', hash='9d29e032b3fcef8469a93ca37ce8ea6850e5a287', version='v1.2.0-rc2'} 	https://github.com/datastax/spark-cassandra-connector/commit/9d29e032b3fcef8469a93ca37ce8ea6850e5a287
+CommitInfo{repo='GitHub', hash='9a287c89325b2401f57c6f1a3f694ee3f5ed37ef', version='v1.2.0-rc3'} 	https://github.com/datastax/spark-cassandra-connector/commit/9a287c89325b2401f57c6f1a3f694ee3f5ed37ef
+CommitInfo{repo='GitHub', hash='bce8192c62cfde254cf64b84bc5bbb62f2d613ca', version='v1.2.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/bce8192c62cfde254cf64b84bc5bbb62f2d613ca
+CommitInfo{repo='GitHub', hash='6cffebad6b98967396b4dbc2920b4416b4241d05', version='v1.2.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/6cffebad6b98967396b4dbc2920b4416b4241d05
+CommitInfo{repo='GitHub', hash='29e4228d9a1d06fbf335650c397206b38e04653e', version='v1.2.3'} 	https://github.com/datastax/spark-cassandra-connector/commit/29e4228d9a1d06fbf335650c397206b38e04653e
+CommitInfo{repo='GitHub', hash='21c0b986ab5f82cfd79a6187bc2b9fce31514529', version='v1.2.4'} 	https://github.com/datastax/spark-cassandra-connector/commit/21c0b986ab5f82cfd79a6187bc2b9fce31514529
+CommitInfo{repo='GitHub', hash='9cf836a8aec4687ef86dc2d471f75d3e97ab45bc', version='v1.2.5'} 	https://github.com/datastax/spark-cassandra-connector/commit/9cf836a8aec4687ef86dc2d471f75d3e97ab45bc
+CommitInfo{repo='GitHub', hash='43c2e2007bae44f8f71ce0d2fe55e5720e0c8734', version='v1.2.6'} 	https://github.com/datastax/spark-cassandra-connector/commit/43c2e2007bae44f8f71ce0d2fe55e5720e0c8734
+CommitInfo{repo='GitHub', hash='3f8f2a6f3ff5cc3324613f4d037a0e79e05603fa', version='v1.3.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/3f8f2a6f3ff5cc3324613f4d037a0e79e05603fa
+CommitInfo{repo='GitHub', hash='7c2799bbfa64cb3da2f838e71c7513493b723ce7', version='v1.3.0-M1'} 	https://github.com/datastax/spark-cassandra-connector/commit/7c2799bbfa64cb3da2f838e71c7513493b723ce7
+CommitInfo{repo='GitHub', hash='9b3275c5f854f5f9a1acc53c4a0d058c9385f773', version='v1.3.0-M2'} 	https://github.com/datastax/spark-cassandra-connector/commit/9b3275c5f854f5f9a1acc53c4a0d058c9385f773
+CommitInfo{repo='GitHub', hash='e6362092da014ef33428e64cd31bd9a26dcb1c65', version='v1.3.0-RC1'} 	https://github.com/datastax/spark-cassandra-connector/commit/e6362092da014ef33428e64cd31bd9a26dcb1c65
+CommitInfo{repo='GitHub', hash='d9777624e5a1861b42bef9c041bb1ad2b42114b6', version='v1.3.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/d9777624e5a1861b42bef9c041bb1ad2b42114b6
+CommitInfo{repo='GitHub', hash='3614507f40a4590cfa6f8c9d41747ae5fb1e2d54', version='v1.4.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/3614507f40a4590cfa6f8c9d41747ae5fb1e2d54
+CommitInfo{repo='GitHub', hash='9682c0a092bebe4cf529c64a512d2a963bba4bc2', version='v1.4.0-M1'} 	https://github.com/datastax/spark-cassandra-connector/commit/9682c0a092bebe4cf529c64a512d2a963bba4bc2
+CommitInfo{repo='GitHub', hash='eb15e1bd9be8c7bffaa85d5d4d8ef919e7f3fb9e', version='v1.4.0-M2'} 	https://github.com/datastax/spark-cassandra-connector/commit/eb15e1bd9be8c7bffaa85d5d4d8ef919e7f3fb9e
+CommitInfo{repo='GitHub', hash='44288c8a70339f98c4fe1a5815e21f69fb565622', version='v1.4.0-M3'} 	https://github.com/datastax/spark-cassandra-connector/commit/44288c8a70339f98c4fe1a5815e21f69fb565622
+CommitInfo{repo='GitHub', hash='98018785a73434cda5184718de3dd69227a15749', version='v1.4.0-RC1'} 	https://github.com/datastax/spark-cassandra-connector/commit/98018785a73434cda5184718de3dd69227a15749
+CommitInfo{repo='GitHub', hash='edb59751ed9f1e1e3005a6ddee04bdfc1f431e85', version='v1.4.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/edb59751ed9f1e1e3005a6ddee04bdfc1f431e85
+CommitInfo{repo='GitHub', hash='e26dfef926d4393847ab4d69c047dfa64375a865', version='v1.4.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/e26dfef926d4393847ab4d69c047dfa64375a865
+CommitInfo{repo='GitHub', hash='854bf60ee06c7097fb87863b59d3b2e613837b4c', version='v1.4.3'} 	https://github.com/datastax/spark-cassandra-connector/commit/854bf60ee06c7097fb87863b59d3b2e613837b4c
+CommitInfo{repo='GitHub', hash='51e9d988a68757c1a811f066007f728c5d2fce2e', version='v1.4.4'} 	https://github.com/datastax/spark-cassandra-connector/commit/51e9d988a68757c1a811f066007f728c5d2fce2e
+CommitInfo{repo='GitHub', hash='dc9b353dac4745d6db79b1d026249e76a12f533c', version='v1.4.5'} 	https://github.com/datastax/spark-cassandra-connector/commit/dc9b353dac4745d6db79b1d026249e76a12f533c
+CommitInfo{repo='GitHub', hash='f871fea9c3fa90055cdd6feec828809eb3b71706', version='v1.5.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/f871fea9c3fa90055cdd6feec828809eb3b71706
+CommitInfo{repo='GitHub', hash='293e68a6fc481b4755b7c9003035cec540e935e3', version='v1.5.0-M1'} 	https://github.com/datastax/spark-cassandra-connector/commit/293e68a6fc481b4755b7c9003035cec540e935e3
+CommitInfo{repo='GitHub', hash='61e568968a9566b3f3a307a5305490aff874108a', version='v1.5.0-M2'} 	https://github.com/datastax/spark-cassandra-connector/commit/61e568968a9566b3f3a307a5305490aff874108a
+CommitInfo{repo='GitHub', hash='39dcadbe40e833b610357ce84811201f03d8f350', version='v1.5.0-M3'} 	https://github.com/datastax/spark-cassandra-connector/commit/39dcadbe40e833b610357ce84811201f03d8f350
+CommitInfo{repo='GitHub', hash='526e7b68f7a44da93e021b86a7658fa61c9cca10', version='v1.5.0-RC1'} 	https://github.com/datastax/spark-cassandra-connector/commit/526e7b68f7a44da93e021b86a7658fa61c9cca10
+CommitInfo{repo='GitHub', hash='50614cafc0625c79172b4562d0cf555cd2cbd0f7', version='v1.5.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/50614cafc0625c79172b4562d0cf555cd2cbd0f7
+CommitInfo{repo='GitHub', hash='193b930bcc4fd2c2743c532e6165ed754cddaf5f', version='v1.5.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/193b930bcc4fd2c2743c532e6165ed754cddaf5f
+CommitInfo{repo='GitHub', hash='9a5e6ee9312ec0d7bccfea3be161db600a689587', version='v1.6.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/9a5e6ee9312ec0d7bccfea3be161db600a689587
+CommitInfo{repo='GitHub', hash='084df4aa1d0ae6c570483443d834a7b8666be292', version='v1.6.0-M1'} 	https://github.com/datastax/spark-cassandra-connector/commit/084df4aa1d0ae6c570483443d834a7b8666be292
+CommitInfo{repo='GitHub', hash='0728bcded2c8b1540f98a5ddb8399d86165efdb5', version='v1.6.0-M2'} 	https://github.com/datastax/spark-cassandra-connector/commit/0728bcded2c8b1540f98a5ddb8399d86165efdb5
+CommitInfo{repo='GitHub', hash='331038e30b22b1800a75f6156ffb21a850d142e3', version='v1.6.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/331038e30b22b1800a75f6156ffb21a850d142e3
+CommitInfo{repo='GitHub', hash='5efd0c3018599073c81f8611f681b524771576cf', version='v1.6.10'} 	https://github.com/datastax/spark-cassandra-connector/commit/5efd0c3018599073c81f8611f681b524771576cf
+CommitInfo{repo='GitHub', hash='b04a223ac9ac53db67c0a993a716012f99af620a', version='v1.6.11'} 	https://github.com/datastax/spark-cassandra-connector/commit/b04a223ac9ac53db67c0a993a716012f99af620a
+CommitInfo{repo='GitHub', hash='b7f2ebc1db479aeba66f4b44a4f9df5f019f71e3', version='v1.6.12'} 	https://github.com/datastax/spark-cassandra-connector/commit/b7f2ebc1db479aeba66f4b44a4f9df5f019f71e3
+CommitInfo{repo='GitHub', hash='0107c02bf11f833ebe07188bd689e0046ffa1b3a', version='v1.6.13'} 	https://github.com/datastax/spark-cassandra-connector/commit/0107c02bf11f833ebe07188bd689e0046ffa1b3a
+CommitInfo{repo='GitHub', hash='d09986f6b54c5e9b27c616e69a68e1c42cb748fd', version='v1.6.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/d09986f6b54c5e9b27c616e69a68e1c42cb748fd
+CommitInfo{repo='GitHub', hash='07f734d7eaffa68ca8bdf17ecb64f6e4435160a8', version='v1.6.3'} 	https://github.com/datastax/spark-cassandra-connector/commit/07f734d7eaffa68ca8bdf17ecb64f6e4435160a8
+CommitInfo{repo='GitHub', hash='b2db1046187011f051e3f5350258423e59e46483', version='v1.6.4'} 	https://github.com/datastax/spark-cassandra-connector/commit/b2db1046187011f051e3f5350258423e59e46483
+CommitInfo{repo='GitHub', hash='f46b40e634c853bda12a3eb7b2f979293399e680', version='v1.6.5'} 	https://github.com/datastax/spark-cassandra-connector/commit/f46b40e634c853bda12a3eb7b2f979293399e680
+CommitInfo{repo='GitHub', hash='337d0d87b5c453cde0e2e3712e4ea4b80fc5aa5b', version='v1.6.6'} 	https://github.com/datastax/spark-cassandra-connector/commit/337d0d87b5c453cde0e2e3712e4ea4b80fc5aa5b
+CommitInfo{repo='GitHub', hash='ad72844459c9f6c395732f6b4063723f46dac57f', version='v1.6.7'} 	https://github.com/datastax/spark-cassandra-connector/commit/ad72844459c9f6c395732f6b4063723f46dac57f
+CommitInfo{repo='GitHub', hash='84496977e0fb81c77a5f3b4c2611912c861917fa', version='v1.6.8'} 	https://github.com/datastax/spark-cassandra-connector/commit/84496977e0fb81c77a5f3b4c2611912c861917fa
+CommitInfo{repo='GitHub', hash='b042a6a470b6280b66a6bb801538f2eed5b45100', version='v1.6.9'} 	https://github.com/datastax/spark-cassandra-connector/commit/b042a6a470b6280b66a6bb801538f2eed5b45100
+CommitInfo{repo='GitHub', hash='82ea4c6a1e123bdae55a1eadfb5e844531023cf3', version='v2.0.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/82ea4c6a1e123bdae55a1eadfb5e844531023cf3
+CommitInfo{repo='GitHub', hash='3e5f09d80c00f05b444baa93d932b03b63c09f5f', version='v2.0.0-M1'} 	https://github.com/datastax/spark-cassandra-connector/commit/3e5f09d80c00f05b444baa93d932b03b63c09f5f
+CommitInfo{repo='GitHub', hash='25da2efbd19492e8e3d7b742e9dc48480b4c2c3c', version='v2.0.0-M2'} 	https://github.com/datastax/spark-cassandra-connector/commit/25da2efbd19492e8e3d7b742e9dc48480b4c2c3c
+CommitInfo{repo='GitHub', hash='4da73e9c7c09aa635e79e0e1541109b9609af15a', version='v2.0.0-M3'} 	https://github.com/datastax/spark-cassandra-connector/commit/4da73e9c7c09aa635e79e0e1541109b9609af15a
+CommitInfo{repo='GitHub', hash='5ba099bae38a95c6e69d106d983b57c38a3c2c32', version='v2.0.0-RC1'} 	https://github.com/datastax/spark-cassandra-connector/commit/5ba099bae38a95c6e69d106d983b57c38a3c2c32
+CommitInfo{repo='GitHub', hash='98b55f9372bb3588b557565308e934053d43e7d6', version='v2.0.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/98b55f9372bb3588b557565308e934053d43e7d6
+CommitInfo{repo='GitHub', hash='11570ab65fa44a0bb4d0f43c06b6cc69487df78d', version='v2.0.10'} 	https://github.com/datastax/spark-cassandra-connector/commit/11570ab65fa44a0bb4d0f43c06b6cc69487df78d
+CommitInfo{repo='GitHub', hash='e63b771b2a00cdd771e0fa15eb0ce9056fc5f25d', version='v2.0.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/e63b771b2a00cdd771e0fa15eb0ce9056fc5f25d
+CommitInfo{repo='GitHub', hash='a145ff4de2c067e7ca39e20e0dd4d4fd16343ee6', version='v2.0.3'} 	https://github.com/datastax/spark-cassandra-connector/commit/a145ff4de2c067e7ca39e20e0dd4d4fd16343ee6
+CommitInfo{repo='GitHub', hash='b3177a0d869bd5edd9f8dca990814349a22f552d', version='v2.0.4'} 	https://github.com/datastax/spark-cassandra-connector/commit/b3177a0d869bd5edd9f8dca990814349a22f552d
+CommitInfo{repo='GitHub', hash='13417e1598b4f7fd57aca99585e2f91e11ec939c', version='v2.0.5'} 	https://github.com/datastax/spark-cassandra-connector/commit/13417e1598b4f7fd57aca99585e2f91e11ec939c
+CommitInfo{repo='GitHub', hash='d05c635d0ef9117ca1d4145721bd960a2ef63b16', version='v2.0.6'} 	https://github.com/datastax/spark-cassandra-connector/commit/d05c635d0ef9117ca1d4145721bd960a2ef63b16
+CommitInfo{repo='GitHub', hash='933c1468f614237f8383d5ab79aeabc6e30c3bef', version='v2.0.7'} 	https://github.com/datastax/spark-cassandra-connector/commit/933c1468f614237f8383d5ab79aeabc6e30c3bef
+CommitInfo{repo='GitHub', hash='49659beb52c3ea28961b8a74438a899fcd02cc7f', version='v2.0.8'} 	https://github.com/datastax/spark-cassandra-connector/commit/49659beb52c3ea28961b8a74438a899fcd02cc7f
+CommitInfo{repo='GitHub', hash='3a8c19849f065a95dc6769a8673e67964f25c061', version='v2.0.9'} 	https://github.com/datastax/spark-cassandra-connector/commit/3a8c19849f065a95dc6769a8673e67964f25c061
+CommitInfo{repo='GitHub', hash='a76cd9d4a29959965b2973397590c81bb91868c6', version='v2.3.0'} 	https://github.com/datastax/spark-cassandra-connector/commit/a76cd9d4a29959965b2973397590c81bb91868c6
+CommitInfo{repo='GitHub', hash='0721d8d9e5f2ac0e426bf35a8a8535f9d5b29ed1', version='v2.3.1'} 	https://github.com/datastax/spark-cassandra-connector/commit/0721d8d9e5f2ac0e426bf35a8a8535f9d5b29ed1
+CommitInfo{repo='GitHub', hash='a2011e1b898f1f505cada760057a16995b86ade1', version='v2.3.2'} 	https://github.com/datastax/spark-cassandra-connector/commit/a2011e1b898f1f505cada760057a16995b86ade1
 
 Project A:
 ProjectVersionFixed(version=1.1.0-alpha1, dependency=4.7, time=2014-09-22 15:55:04 UTC),	Latest, "DependencyVersion(version=4.7-beta-1, time=2014-07-31 22:47:46 UTC)"

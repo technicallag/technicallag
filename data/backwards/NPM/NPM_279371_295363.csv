@@ -2,62 +2,67 @@
 Project information
 enb-bem-tmpl-specs (279371)	mocha (295363)	Package Manager: NPM
 RepoID: 129497
+Repo Owner/Name: enb/enb-bem-tmpl-specs
+Repository type: GitHub
+
+ https://github.com/enb/enb-bem-tmpl-specs/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='76199a5876c5d948d66458f5f442151a5fcc1d81', version='v0.1.0'}
-CommitInfo{repo='GitHub', hash='8af73560e6302875e684867ba2cd0e2af2f3723a', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='b232bad9773bfea882d7c54296aad031e946c805', version='v0.1.1'}
-CommitInfo{repo='GitHub', hash='dbcaf6626c5e14f5ca39b6a41758c1aead9a3ac8', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='781a451b4cf11ffa31270f8eeed991ed856cf41c', version='v0.11.1'}
-CommitInfo{repo='GitHub', hash='90b883fdf7f3c23844146d59f10804ac9ba9bd3d', version='v0.11.2'}
-CommitInfo{repo='GitHub', hash='beca9f57b08e8bb6bf5309b163b33d08a9e908c6', version='v0.1.2'}
-CommitInfo{repo='GitHub', hash='cbdd617ad7d3b5e3151c4405c00926337a1cb718', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='48ffce75653721834972f830d8cba96a063c48f1', version='v0.12.1'}
-CommitInfo{repo='GitHub', hash='96f16dee2cce584379919d3911bac59bdd3ba9d6', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='5642b320b2bb705d74b2a333a7311f9dcaf76acc', version='v0.13.1'}
-CommitInfo{repo='GitHub', hash='999a4800191ca6be868e6a90f857d9a198b1b284', version='v0.13.2'}
-CommitInfo{repo='GitHub', hash='2ee6bfd563bddbd7240a0dcdf445468d8a5deea4', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='702ba7c9abfff10347ca519390924e3a7a0ceb42', version='v0.15.0'}
-CommitInfo{repo='GitHub', hash='2b90290d3d21d859c3992dda7410fc9c592ec07b', version='v0.15.1'}
-CommitInfo{repo='GitHub', hash='e0147222f26a954696100b6996597f0d4c3389c7', version='v0.16.0'}
-CommitInfo{repo='GitHub', hash='c1b82762c091cb18e2c8e175a57f8882db211e3c', version='v0.16.1'}
-CommitInfo{repo='GitHub', hash='774db31bcd6256b2a20f6a664020208d67e3e7ee', version='v0.2.0'}
-CommitInfo{repo='GitHub', hash='d938be53ac2c79118a8a803e5776b8205cd4a9fc', version='v0.2.1'}
-CommitInfo{repo='GitHub', hash='d4fedc2ba15c8d5f166689e8bd2e78bb092cbbb1', version='v0.2.10'}
-CommitInfo{repo='GitHub', hash='81b88319f0a27714161e31149ba869ff04f84c07', version='v0.2.11'}
-CommitInfo{repo='GitHub', hash='3ee292f32cf38d7336bd190d6b96835a0e942306', version='v0.2.12'}
-CommitInfo{repo='GitHub', hash='8b15cbc5c8ba1fdb8f7d08b1aa00d046ee85b860', version='v0.2.2'}
-CommitInfo{repo='GitHub', hash='476ec240a79140357650d522f0c7961b744d125e', version='v0.2.3'}
-CommitInfo{repo='GitHub', hash='ca906413636d9268be10f87cfebb8d98d3fb8dc9', version='v0.2.4'}
-CommitInfo{repo='GitHub', hash='30b2c61376e6dbc49cb9c2f4041b6af707c58d18', version='v0.2.5'}
-CommitInfo{repo='GitHub', hash='f60f1a879d55af92e72341a94f4ff1d7dd0f384d', version='v0.2.6'}
-CommitInfo{repo='GitHub', hash='a54950f5ca3f29e51251ad6532aa65bbc097e8fe', version='v0.2.7'}
-CommitInfo{repo='GitHub', hash='fcc44dc47608b4a805759c7949689641e9c2db15', version='v0.2.8'}
-CommitInfo{repo='GitHub', hash='17e89e01327063557b4c1f6d9680f230bbbf2a5e', version='v0.2.9'}
-CommitInfo{repo='GitHub', hash='6ecbf1b990572eba45b0bf0b4bf5b28126ea95c1', version='v0.3.0'}
-CommitInfo{repo='GitHub', hash='efc704fa4e8ed2a39f86114b021f985a7ae2bbc0', version='v0.3.1'}
-CommitInfo{repo='GitHub', hash='ae6035bedde805cb36e8fae90c66be3eb03f733b', version='v0.4.0'}
-CommitInfo{repo='GitHub', hash='9d7a9527eaf081622b045e37eea2395f39080317', version='v0.4.1'}
-CommitInfo{repo='GitHub', hash='5a085647d37e15d1c86d0d1ffaebe05f5e2c5f9c', version='v0.5.0'}
-CommitInfo{repo='GitHub', hash='a057220f8219ceaad4e67d50d1cf40094ff000e9', version='v0.5.1'}
-CommitInfo{repo='GitHub', hash='40d6da17439e568a63c0eac9c85c492e18728a35', version='v0.5.2'}
-CommitInfo{repo='GitHub', hash='c3a29a66378668603b7f0e3a4778e661c876be77', version='v0.6.0'}
-CommitInfo{repo='GitHub', hash='10d691a239e37b35fe7495298cb3c232c56ddd32', version='v0.6.1'}
-CommitInfo{repo='GitHub', hash='5f4518d0580e8bc36e16481056383e49f7e95b3f', version='v0.6.2'}
-CommitInfo{repo='GitHub', hash='1efbf8462bd50ba5eb6b3442b26758000ee51219', version='v0.6.3'}
-CommitInfo{repo='GitHub', hash='d23bdb4d8db91a8d84c028fb544f930294545851', version='v0.6.4'}
-CommitInfo{repo='GitHub', hash='dd7fff4fdc3e11c29bcde78df9cc02ec9120a8c8', version='v0.7.0'}
-CommitInfo{repo='GitHub', hash='c0ed362a8e22a63a21238acd09dc055064b39794', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='d4898ae9fa8684062ce908de3ad3425495b080ec', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='cf19d5ff39e98dcfed90f1be137cef0d35f98012', version='v1.0.0'}
-CommitInfo{repo='GitHub', hash='9af1016b67c4ccb03157214bf884542634c82f83', version='v1.0.1'}
-CommitInfo{repo='GitHub', hash='59db69b79f7690b21e06c8d20173afb172f18008', version='v1.0.2'}
-CommitInfo{repo='GitHub', hash='9ac084e3357fef50bd1a5a5d1458bd78812f5cb7', version='v1.0.3'}
-CommitInfo{repo='GitHub', hash='039e9240cd6bec0380c663ebb3ab79c197b9e069', version='v1.1.0'}
-CommitInfo{repo='GitHub', hash='363a7935435ba07b113cdd4a31589395ce8bb1fe', version='v1.2.0'}
-CommitInfo{repo='GitHub', hash='0240756a15867ab45a7f3e2d1d6f9fd97883e33f', version='v1.3.0'}
-CommitInfo{repo='GitHub', hash='e754f79c3a0d735939f02915425077b079b62bc0', version='v1.3.1'}
-CommitInfo{repo='GitHub', hash='5286bda66217e8e987a9f3aacdc5c362ba97b6aa', version='v1.3.2'}
-CommitInfo{repo='GitHub', hash='73cb0b0d823fc996b3aef6eeaa4c221fd3598b9b', version='v1.3.3'}
+CommitInfo{repo='GitHub', hash='76199a5876c5d948d66458f5f442151a5fcc1d81', version='v0.1.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/76199a5876c5d948d66458f5f442151a5fcc1d81
+CommitInfo{repo='GitHub', hash='8af73560e6302875e684867ba2cd0e2af2f3723a', version='v0.10.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/8af73560e6302875e684867ba2cd0e2af2f3723a
+CommitInfo{repo='GitHub', hash='b232bad9773bfea882d7c54296aad031e946c805', version='v0.1.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/b232bad9773bfea882d7c54296aad031e946c805
+CommitInfo{repo='GitHub', hash='dbcaf6626c5e14f5ca39b6a41758c1aead9a3ac8', version='v0.11.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/dbcaf6626c5e14f5ca39b6a41758c1aead9a3ac8
+CommitInfo{repo='GitHub', hash='781a451b4cf11ffa31270f8eeed991ed856cf41c', version='v0.11.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/781a451b4cf11ffa31270f8eeed991ed856cf41c
+CommitInfo{repo='GitHub', hash='90b883fdf7f3c23844146d59f10804ac9ba9bd3d', version='v0.11.2'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/90b883fdf7f3c23844146d59f10804ac9ba9bd3d
+CommitInfo{repo='GitHub', hash='beca9f57b08e8bb6bf5309b163b33d08a9e908c6', version='v0.1.2'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/beca9f57b08e8bb6bf5309b163b33d08a9e908c6
+CommitInfo{repo='GitHub', hash='cbdd617ad7d3b5e3151c4405c00926337a1cb718', version='v0.12.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/cbdd617ad7d3b5e3151c4405c00926337a1cb718
+CommitInfo{repo='GitHub', hash='48ffce75653721834972f830d8cba96a063c48f1', version='v0.12.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/48ffce75653721834972f830d8cba96a063c48f1
+CommitInfo{repo='GitHub', hash='96f16dee2cce584379919d3911bac59bdd3ba9d6', version='v0.13.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/96f16dee2cce584379919d3911bac59bdd3ba9d6
+CommitInfo{repo='GitHub', hash='5642b320b2bb705d74b2a333a7311f9dcaf76acc', version='v0.13.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/5642b320b2bb705d74b2a333a7311f9dcaf76acc
+CommitInfo{repo='GitHub', hash='999a4800191ca6be868e6a90f857d9a198b1b284', version='v0.13.2'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/999a4800191ca6be868e6a90f857d9a198b1b284
+CommitInfo{repo='GitHub', hash='2ee6bfd563bddbd7240a0dcdf445468d8a5deea4', version='v0.14.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/2ee6bfd563bddbd7240a0dcdf445468d8a5deea4
+CommitInfo{repo='GitHub', hash='702ba7c9abfff10347ca519390924e3a7a0ceb42', version='v0.15.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/702ba7c9abfff10347ca519390924e3a7a0ceb42
+CommitInfo{repo='GitHub', hash='2b90290d3d21d859c3992dda7410fc9c592ec07b', version='v0.15.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/2b90290d3d21d859c3992dda7410fc9c592ec07b
+CommitInfo{repo='GitHub', hash='e0147222f26a954696100b6996597f0d4c3389c7', version='v0.16.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/e0147222f26a954696100b6996597f0d4c3389c7
+CommitInfo{repo='GitHub', hash='c1b82762c091cb18e2c8e175a57f8882db211e3c', version='v0.16.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/c1b82762c091cb18e2c8e175a57f8882db211e3c
+CommitInfo{repo='GitHub', hash='774db31bcd6256b2a20f6a664020208d67e3e7ee', version='v0.2.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/774db31bcd6256b2a20f6a664020208d67e3e7ee
+CommitInfo{repo='GitHub', hash='d938be53ac2c79118a8a803e5776b8205cd4a9fc', version='v0.2.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/d938be53ac2c79118a8a803e5776b8205cd4a9fc
+CommitInfo{repo='GitHub', hash='d4fedc2ba15c8d5f166689e8bd2e78bb092cbbb1', version='v0.2.10'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/d4fedc2ba15c8d5f166689e8bd2e78bb092cbbb1
+CommitInfo{repo='GitHub', hash='81b88319f0a27714161e31149ba869ff04f84c07', version='v0.2.11'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/81b88319f0a27714161e31149ba869ff04f84c07
+CommitInfo{repo='GitHub', hash='3ee292f32cf38d7336bd190d6b96835a0e942306', version='v0.2.12'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/3ee292f32cf38d7336bd190d6b96835a0e942306
+CommitInfo{repo='GitHub', hash='8b15cbc5c8ba1fdb8f7d08b1aa00d046ee85b860', version='v0.2.2'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/8b15cbc5c8ba1fdb8f7d08b1aa00d046ee85b860
+CommitInfo{repo='GitHub', hash='476ec240a79140357650d522f0c7961b744d125e', version='v0.2.3'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/476ec240a79140357650d522f0c7961b744d125e
+CommitInfo{repo='GitHub', hash='ca906413636d9268be10f87cfebb8d98d3fb8dc9', version='v0.2.4'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/ca906413636d9268be10f87cfebb8d98d3fb8dc9
+CommitInfo{repo='GitHub', hash='30b2c61376e6dbc49cb9c2f4041b6af707c58d18', version='v0.2.5'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/30b2c61376e6dbc49cb9c2f4041b6af707c58d18
+CommitInfo{repo='GitHub', hash='f60f1a879d55af92e72341a94f4ff1d7dd0f384d', version='v0.2.6'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/f60f1a879d55af92e72341a94f4ff1d7dd0f384d
+CommitInfo{repo='GitHub', hash='a54950f5ca3f29e51251ad6532aa65bbc097e8fe', version='v0.2.7'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/a54950f5ca3f29e51251ad6532aa65bbc097e8fe
+CommitInfo{repo='GitHub', hash='fcc44dc47608b4a805759c7949689641e9c2db15', version='v0.2.8'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/fcc44dc47608b4a805759c7949689641e9c2db15
+CommitInfo{repo='GitHub', hash='17e89e01327063557b4c1f6d9680f230bbbf2a5e', version='v0.2.9'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/17e89e01327063557b4c1f6d9680f230bbbf2a5e
+CommitInfo{repo='GitHub', hash='6ecbf1b990572eba45b0bf0b4bf5b28126ea95c1', version='v0.3.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/6ecbf1b990572eba45b0bf0b4bf5b28126ea95c1
+CommitInfo{repo='GitHub', hash='efc704fa4e8ed2a39f86114b021f985a7ae2bbc0', version='v0.3.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/efc704fa4e8ed2a39f86114b021f985a7ae2bbc0
+CommitInfo{repo='GitHub', hash='ae6035bedde805cb36e8fae90c66be3eb03f733b', version='v0.4.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/ae6035bedde805cb36e8fae90c66be3eb03f733b
+CommitInfo{repo='GitHub', hash='9d7a9527eaf081622b045e37eea2395f39080317', version='v0.4.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/9d7a9527eaf081622b045e37eea2395f39080317
+CommitInfo{repo='GitHub', hash='5a085647d37e15d1c86d0d1ffaebe05f5e2c5f9c', version='v0.5.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/5a085647d37e15d1c86d0d1ffaebe05f5e2c5f9c
+CommitInfo{repo='GitHub', hash='a057220f8219ceaad4e67d50d1cf40094ff000e9', version='v0.5.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/a057220f8219ceaad4e67d50d1cf40094ff000e9
+CommitInfo{repo='GitHub', hash='40d6da17439e568a63c0eac9c85c492e18728a35', version='v0.5.2'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/40d6da17439e568a63c0eac9c85c492e18728a35
+CommitInfo{repo='GitHub', hash='c3a29a66378668603b7f0e3a4778e661c876be77', version='v0.6.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/c3a29a66378668603b7f0e3a4778e661c876be77
+CommitInfo{repo='GitHub', hash='10d691a239e37b35fe7495298cb3c232c56ddd32', version='v0.6.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/10d691a239e37b35fe7495298cb3c232c56ddd32
+CommitInfo{repo='GitHub', hash='5f4518d0580e8bc36e16481056383e49f7e95b3f', version='v0.6.2'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/5f4518d0580e8bc36e16481056383e49f7e95b3f
+CommitInfo{repo='GitHub', hash='1efbf8462bd50ba5eb6b3442b26758000ee51219', version='v0.6.3'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/1efbf8462bd50ba5eb6b3442b26758000ee51219
+CommitInfo{repo='GitHub', hash='d23bdb4d8db91a8d84c028fb544f930294545851', version='v0.6.4'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/d23bdb4d8db91a8d84c028fb544f930294545851
+CommitInfo{repo='GitHub', hash='dd7fff4fdc3e11c29bcde78df9cc02ec9120a8c8', version='v0.7.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/dd7fff4fdc3e11c29bcde78df9cc02ec9120a8c8
+CommitInfo{repo='GitHub', hash='c0ed362a8e22a63a21238acd09dc055064b39794', version='v0.8.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/c0ed362a8e22a63a21238acd09dc055064b39794
+CommitInfo{repo='GitHub', hash='d4898ae9fa8684062ce908de3ad3425495b080ec', version='v0.9.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/d4898ae9fa8684062ce908de3ad3425495b080ec
+CommitInfo{repo='GitHub', hash='cf19d5ff39e98dcfed90f1be137cef0d35f98012', version='v1.0.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/cf19d5ff39e98dcfed90f1be137cef0d35f98012
+CommitInfo{repo='GitHub', hash='9af1016b67c4ccb03157214bf884542634c82f83', version='v1.0.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/9af1016b67c4ccb03157214bf884542634c82f83
+CommitInfo{repo='GitHub', hash='59db69b79f7690b21e06c8d20173afb172f18008', version='v1.0.2'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/59db69b79f7690b21e06c8d20173afb172f18008
+CommitInfo{repo='GitHub', hash='9ac084e3357fef50bd1a5a5d1458bd78812f5cb7', version='v1.0.3'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/9ac084e3357fef50bd1a5a5d1458bd78812f5cb7
+CommitInfo{repo='GitHub', hash='039e9240cd6bec0380c663ebb3ab79c197b9e069', version='v1.1.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/039e9240cd6bec0380c663ebb3ab79c197b9e069
+CommitInfo{repo='GitHub', hash='363a7935435ba07b113cdd4a31589395ce8bb1fe', version='v1.2.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/363a7935435ba07b113cdd4a31589395ce8bb1fe
+CommitInfo{repo='GitHub', hash='0240756a15867ab45a7f3e2d1d6f9fd97883e33f', version='v1.3.0'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/0240756a15867ab45a7f3e2d1d6f9fd97883e33f
+CommitInfo{repo='GitHub', hash='e754f79c3a0d735939f02915425077b079b62bc0', version='v1.3.1'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/e754f79c3a0d735939f02915425077b079b62bc0
+CommitInfo{repo='GitHub', hash='5286bda66217e8e987a9f3aacdc5c362ba97b6aa', version='v1.3.2'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/5286bda66217e8e987a9f3aacdc5c362ba97b6aa
+CommitInfo{repo='GitHub', hash='73cb0b0d823fc996b3aef6eeaa4c221fd3598b9b', version='v1.3.3'} 	https://github.com/enb/enb-bem-tmpl-specs/commit/73cb0b0d823fc996b3aef6eeaa4c221fd3598b9b
 
 Project A:
 ProjectVersionFixed(version=0.1.0, dependency=1.21.4, time=2014-08-14 14:17:01 UTC),	Latest, "null"

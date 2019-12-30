@@ -2,81 +2,86 @@
 Project information
 codegen-templates-scripts (3148612)	raw-loader (304709)	Package Manager: NPM
 RepoID: 17013652
+Repo Owner/Name: dotansimha/graphql-code-generator
+Repository type: GitHub
+
+ https://github.com/dotansimha/graphql-code-generator/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='e8cedf2e95fb815a448e52484b808a5082071a19', version='0.1.8'}
-CommitInfo{repo='GitHub', hash='bd7c5036674cbbc10f1a95f86c6ed33b21f2836a', version='0.2.0'}
-CommitInfo{repo='GitHub', hash='46a9f0a9fa4c9f24b0781eb4c143697305359975', version='0.2.1'}
-CommitInfo{repo='GitHub', hash='863163560698b9ae36a4bd52271b2288871c3df2', version='0.2.2'}
-CommitInfo{repo='GitHub', hash='31da84f467d73aa4e96853eb55dd7d2b3798b630', version='0.2.3'}
-CommitInfo{repo='GitHub', hash='865d2a31028db9cdce13c4d86bb475b15e71fb0d', version='0.2.4'}
-CommitInfo{repo='GitHub', hash='4fd49664d898f70849a103b4b512a10053c702f7', version='0.2.5'}
-CommitInfo{repo='GitHub', hash='21ab7008e7f1684e1646af1cf783a87789d01ebe', version='0.3.0'}
-CommitInfo{repo='GitHub', hash='82b565e8e8b4502b554598e6cbc319ae0e79ceb5', version='0.4.0'}
-CommitInfo{repo='GitHub', hash='10d98df9a8952ce5013bdad1199917c98ba9d921', version='0.5.0'}
-CommitInfo{repo='GitHub', hash='76548a1148497164da4926db3d5d35420f3fcb80', version='0.5.1'}
-CommitInfo{repo='GitHub', hash='5a328add43b06f7345baa6f1a7a6b0c7284e0a4d', version='0.5.2'}
-CommitInfo{repo='GitHub', hash='6e09509f3c5bd3524a9f260a1bd1eda999a8dbb4', version='0.5.4'}
-CommitInfo{repo='GitHub', hash='821f212d7973302d9dbe0b848f4655e363f0252b', version='0.5.5'}
-CommitInfo{repo='GitHub', hash='143f3dd0395c7ef9b2feb3c376bdea6971dd26f4', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='143f3dd0395c7ef9b2feb3c376bdea6971dd26f4', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='143f3dd0395c7ef9b2feb3c376bdea6971dd26f4', version='v0.10.0'}
-CommitInfo{repo='GitHub', hash='64c0e45d377f69c8ce3cbd9dc192800e0968a52b', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='64c0e45d377f69c8ce3cbd9dc192800e0968a52b', version='v0.10.1'}
-CommitInfo{repo='GitHub', hash='dd76f5bc81499792c273c6dc547e0777eb3f1111', version='v0.10.2'}
-CommitInfo{repo='GitHub', hash='82e7d4d549134864094ab5ea83b1bff03b3061e2', version='v0.10.3'}
-CommitInfo{repo='GitHub', hash='82e7d4d549134864094ab5ea83b1bff03b3061e2', version='v0.10.3'}
-CommitInfo{repo='GitHub', hash='24fd26a19b998131798974c140f8804993f849ad', version='v0.10.4'}
-CommitInfo{repo='GitHub', hash='7385b720af222965d227831b9e6afb891f326717', version='v0.10.5'}
-CommitInfo{repo='GitHub', hash='79e4df57628ec9cd4ad751712f94507aed6042bb', version='v0.10.6'}
-CommitInfo{repo='GitHub', hash='e742835ae537bc161ea06aee17402b672e639e97', version='v0.10.7'}
-CommitInfo{repo='GitHub', hash='356960c92723f40b81ae5978b3ba23ab474c5e4f', version='v0.11.0'}
-CommitInfo{repo='GitHub', hash='c81e0f822c491f74ad7919434c3f5ecb73b1b23d', version='v0.12.0'}
-CommitInfo{repo='GitHub', hash='81630beebbc2289dbf3d6ddcfd1480abf033be2a', version='v0.12.1'}
-CommitInfo{repo='GitHub', hash='81c076ad6aa875ac3b5a57ef4e356ded2afbe364', version='v0.12.2'}
-CommitInfo{repo='GitHub', hash='264c223bc42bd0534fffd60735f0fbd9158e9310', version='v0.12.3'}
-CommitInfo{repo='GitHub', hash='b05a05b90671410f292e7975e069d8ee09656cac', version='v0.12.4'}
-CommitInfo{repo='GitHub', hash='253a649bdde0cf85dc4ad8ed54f472e468ef5eb5', version='v0.12.5'}
-CommitInfo{repo='GitHub', hash='56a62433d0220b25ee1186b260204fc546ab5b8e', version='v0.12.6'}
-CommitInfo{repo='GitHub', hash='64f0d05f800524d6e0cc8d68b6ad57c19ac59e9f', version='v0.13.0'}
-CommitInfo{repo='GitHub', hash='5fff2647c1b84b4e1f8138113ecda4a6c25d139b', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='5fff2647c1b84b4e1f8138113ecda4a6c25d139b', version='v0.14.0'}
-CommitInfo{repo='GitHub', hash='638f65cd8a6ef5d991b57e618a8f660165240ef9', version='v0.14.1'}
-CommitInfo{repo='GitHub', hash='15aefa090d7182c701f20305f181b95142b52abe', version='v0.14.2'}
-CommitInfo{repo='GitHub', hash='2dd65362cf9a142b0489457512b25fd4cd922d56', version='v0.14.3'}
-CommitInfo{repo='GitHub', hash='2e9c1d266866e9a98d615fc0d9df7c164e4d2035', version='v0.14.4'}
-CommitInfo{repo='GitHub', hash='2e9c1d266866e9a98d615fc0d9df7c164e4d2035', version='v0.14.4'}
-CommitInfo{repo='GitHub', hash='4fe51f41529e709caa6f6dac07a3665d096f3817', version='v0.14.5'}
-CommitInfo{repo='GitHub', hash='506f2f8a74788471baac3a5c9d224d479d7c37dc', version='v0.15.0'}
-CommitInfo{repo='GitHub', hash='506f2f8a74788471baac3a5c9d224d479d7c37dc', version='v0.15.0'}
-CommitInfo{repo='GitHub', hash='3cb6f7f28245c7af33a92c03bda2241edd955a25', version='v0.15.1'}
-CommitInfo{repo='GitHub', hash='bd18171ce1ad0dd1fb8b5d6b2e8f2cdc09ea4cab', version='v0.8.0'}
-CommitInfo{repo='GitHub', hash='014cffcf7aaeb742b568098f08e6140f89b0ce6a', version='v0.8.1'}
-CommitInfo{repo='GitHub', hash='9620ef906930c1c1d652c6371c9c7eb084801420', version='v0.8.10'}
-CommitInfo{repo='GitHub', hash='f4447d65071d2a4d413312a13837e5fbd9777542', version='v0.8.11'}
-CommitInfo{repo='GitHub', hash='5d8517bcbd9fd44559aa41e6580c0b5a2b08275e', version='v0.8.12'}
-CommitInfo{repo='GitHub', hash='5d8517bcbd9fd44559aa41e6580c0b5a2b08275e', version='v0.8.12'}
-CommitInfo{repo='GitHub', hash='485cad5b6b49f66bf11e97cee24eeb97c7ba6a90', version='v0.8.13'}
-CommitInfo{repo='GitHub', hash='d127407b832ebe8df25c8cee87ffa7b11fe1c008', version='v0.8.14'}
-CommitInfo{repo='GitHub', hash='d127407b832ebe8df25c8cee87ffa7b11fe1c008', version='v0.8.14'}
-CommitInfo{repo='GitHub', hash='025bac3eb6aa123023abd1114999cce8cea23c21', version='v0.8.15'}
-CommitInfo{repo='GitHub', hash='c2ae9dc64447b36cfddac86622091acbc8d6d37b', version='v0.8.16'}
-CommitInfo{repo='GitHub', hash='f43e49922062e7901a55a8ebbfcad81a4a83c752', version='v0.8.18'}
-CommitInfo{repo='GitHub', hash='508cd26b5854898addde2474389c5a1b2c28c9f1', version='v0.8.19'}
-CommitInfo{repo='GitHub', hash='5ada452f7216ea521b29a1445605e994782d8841', version='v0.8.2'}
-CommitInfo{repo='GitHub', hash='3e3cd885ded191d19a43df1e1829421e5c0bb41e', version='v0.8.20'}
-CommitInfo{repo='GitHub', hash='05e219f6db752d786a206ba92967564fd28b7b89', version='v0.8.21'}
-CommitInfo{repo='GitHub', hash='e40e180126b718e2bd2b704c542b41be9c25fd1f', version='v0.8.3'}
-CommitInfo{repo='GitHub', hash='444bf3f3a398ebe67900a5fe018cbc6714c04643', version='v0.8.4'}
-CommitInfo{repo='GitHub', hash='9d1b46e9ce2ba423c27df2761376c95b1575af6b', version='v0.8.5'}
-CommitInfo{repo='GitHub', hash='4c80a9ce187c6b6f2bb9bd545ef7e7a58f687a14', version='v0.8.6'}
-CommitInfo{repo='GitHub', hash='41907e5c5372d1e81cb8416b596b5da7acadc710', version='v0.8.7'}
-CommitInfo{repo='GitHub', hash='151485f979a80565de1a53789ca13cc7abc133c2', version='v0.8.8'}
-CommitInfo{repo='GitHub', hash='8010b7882b10b7b2301701d1d10764a962ca3399', version='v0.8.9'}
-CommitInfo{repo='GitHub', hash='8a6f339172d5ba1788ba11ba2d4ccb174fa7e978', version='v0.9.0'}
-CommitInfo{repo='GitHub', hash='108bb8bc6ac438c09416149f6f6624e91da88f23', version='v0.9.1'}
-CommitInfo{repo='GitHub', hash='6f69e12c65fec1da7c296c8a5ed0668523202952', version='v0.9.2'}
-CommitInfo{repo='GitHub', hash='5800c66623b4130acc13574d72d0fa034cf9d90b', version='v0.9.3'}
-CommitInfo{repo='GitHub', hash='d5f995203d8f50390e9bb9524133aaa1dfbb4133', version='v0.9.4'}
+CommitInfo{repo='GitHub', hash='e8cedf2e95fb815a448e52484b808a5082071a19', version='0.1.8'} 	https://github.com/dotansimha/graphql-code-generator/commit/e8cedf2e95fb815a448e52484b808a5082071a19
+CommitInfo{repo='GitHub', hash='bd7c5036674cbbc10f1a95f86c6ed33b21f2836a', version='0.2.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/bd7c5036674cbbc10f1a95f86c6ed33b21f2836a
+CommitInfo{repo='GitHub', hash='46a9f0a9fa4c9f24b0781eb4c143697305359975', version='0.2.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/46a9f0a9fa4c9f24b0781eb4c143697305359975
+CommitInfo{repo='GitHub', hash='863163560698b9ae36a4bd52271b2288871c3df2', version='0.2.2'} 	https://github.com/dotansimha/graphql-code-generator/commit/863163560698b9ae36a4bd52271b2288871c3df2
+CommitInfo{repo='GitHub', hash='31da84f467d73aa4e96853eb55dd7d2b3798b630', version='0.2.3'} 	https://github.com/dotansimha/graphql-code-generator/commit/31da84f467d73aa4e96853eb55dd7d2b3798b630
+CommitInfo{repo='GitHub', hash='865d2a31028db9cdce13c4d86bb475b15e71fb0d', version='0.2.4'} 	https://github.com/dotansimha/graphql-code-generator/commit/865d2a31028db9cdce13c4d86bb475b15e71fb0d
+CommitInfo{repo='GitHub', hash='4fd49664d898f70849a103b4b512a10053c702f7', version='0.2.5'} 	https://github.com/dotansimha/graphql-code-generator/commit/4fd49664d898f70849a103b4b512a10053c702f7
+CommitInfo{repo='GitHub', hash='21ab7008e7f1684e1646af1cf783a87789d01ebe', version='0.3.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/21ab7008e7f1684e1646af1cf783a87789d01ebe
+CommitInfo{repo='GitHub', hash='82b565e8e8b4502b554598e6cbc319ae0e79ceb5', version='0.4.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/82b565e8e8b4502b554598e6cbc319ae0e79ceb5
+CommitInfo{repo='GitHub', hash='10d98df9a8952ce5013bdad1199917c98ba9d921', version='0.5.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/10d98df9a8952ce5013bdad1199917c98ba9d921
+CommitInfo{repo='GitHub', hash='76548a1148497164da4926db3d5d35420f3fcb80', version='0.5.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/76548a1148497164da4926db3d5d35420f3fcb80
+CommitInfo{repo='GitHub', hash='5a328add43b06f7345baa6f1a7a6b0c7284e0a4d', version='0.5.2'} 	https://github.com/dotansimha/graphql-code-generator/commit/5a328add43b06f7345baa6f1a7a6b0c7284e0a4d
+CommitInfo{repo='GitHub', hash='6e09509f3c5bd3524a9f260a1bd1eda999a8dbb4', version='0.5.4'} 	https://github.com/dotansimha/graphql-code-generator/commit/6e09509f3c5bd3524a9f260a1bd1eda999a8dbb4
+CommitInfo{repo='GitHub', hash='821f212d7973302d9dbe0b848f4655e363f0252b', version='0.5.5'} 	https://github.com/dotansimha/graphql-code-generator/commit/821f212d7973302d9dbe0b848f4655e363f0252b
+CommitInfo{repo='GitHub', hash='143f3dd0395c7ef9b2feb3c376bdea6971dd26f4', version='v0.10.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/143f3dd0395c7ef9b2feb3c376bdea6971dd26f4
+CommitInfo{repo='GitHub', hash='143f3dd0395c7ef9b2feb3c376bdea6971dd26f4', version='v0.10.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/143f3dd0395c7ef9b2feb3c376bdea6971dd26f4
+CommitInfo{repo='GitHub', hash='143f3dd0395c7ef9b2feb3c376bdea6971dd26f4', version='v0.10.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/143f3dd0395c7ef9b2feb3c376bdea6971dd26f4
+CommitInfo{repo='GitHub', hash='64c0e45d377f69c8ce3cbd9dc192800e0968a52b', version='v0.10.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/64c0e45d377f69c8ce3cbd9dc192800e0968a52b
+CommitInfo{repo='GitHub', hash='64c0e45d377f69c8ce3cbd9dc192800e0968a52b', version='v0.10.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/64c0e45d377f69c8ce3cbd9dc192800e0968a52b
+CommitInfo{repo='GitHub', hash='dd76f5bc81499792c273c6dc547e0777eb3f1111', version='v0.10.2'} 	https://github.com/dotansimha/graphql-code-generator/commit/dd76f5bc81499792c273c6dc547e0777eb3f1111
+CommitInfo{repo='GitHub', hash='82e7d4d549134864094ab5ea83b1bff03b3061e2', version='v0.10.3'} 	https://github.com/dotansimha/graphql-code-generator/commit/82e7d4d549134864094ab5ea83b1bff03b3061e2
+CommitInfo{repo='GitHub', hash='82e7d4d549134864094ab5ea83b1bff03b3061e2', version='v0.10.3'} 	https://github.com/dotansimha/graphql-code-generator/commit/82e7d4d549134864094ab5ea83b1bff03b3061e2
+CommitInfo{repo='GitHub', hash='24fd26a19b998131798974c140f8804993f849ad', version='v0.10.4'} 	https://github.com/dotansimha/graphql-code-generator/commit/24fd26a19b998131798974c140f8804993f849ad
+CommitInfo{repo='GitHub', hash='7385b720af222965d227831b9e6afb891f326717', version='v0.10.5'} 	https://github.com/dotansimha/graphql-code-generator/commit/7385b720af222965d227831b9e6afb891f326717
+CommitInfo{repo='GitHub', hash='79e4df57628ec9cd4ad751712f94507aed6042bb', version='v0.10.6'} 	https://github.com/dotansimha/graphql-code-generator/commit/79e4df57628ec9cd4ad751712f94507aed6042bb
+CommitInfo{repo='GitHub', hash='e742835ae537bc161ea06aee17402b672e639e97', version='v0.10.7'} 	https://github.com/dotansimha/graphql-code-generator/commit/e742835ae537bc161ea06aee17402b672e639e97
+CommitInfo{repo='GitHub', hash='356960c92723f40b81ae5978b3ba23ab474c5e4f', version='v0.11.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/356960c92723f40b81ae5978b3ba23ab474c5e4f
+CommitInfo{repo='GitHub', hash='c81e0f822c491f74ad7919434c3f5ecb73b1b23d', version='v0.12.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/c81e0f822c491f74ad7919434c3f5ecb73b1b23d
+CommitInfo{repo='GitHub', hash='81630beebbc2289dbf3d6ddcfd1480abf033be2a', version='v0.12.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/81630beebbc2289dbf3d6ddcfd1480abf033be2a
+CommitInfo{repo='GitHub', hash='81c076ad6aa875ac3b5a57ef4e356ded2afbe364', version='v0.12.2'} 	https://github.com/dotansimha/graphql-code-generator/commit/81c076ad6aa875ac3b5a57ef4e356ded2afbe364
+CommitInfo{repo='GitHub', hash='264c223bc42bd0534fffd60735f0fbd9158e9310', version='v0.12.3'} 	https://github.com/dotansimha/graphql-code-generator/commit/264c223bc42bd0534fffd60735f0fbd9158e9310
+CommitInfo{repo='GitHub', hash='b05a05b90671410f292e7975e069d8ee09656cac', version='v0.12.4'} 	https://github.com/dotansimha/graphql-code-generator/commit/b05a05b90671410f292e7975e069d8ee09656cac
+CommitInfo{repo='GitHub', hash='253a649bdde0cf85dc4ad8ed54f472e468ef5eb5', version='v0.12.5'} 	https://github.com/dotansimha/graphql-code-generator/commit/253a649bdde0cf85dc4ad8ed54f472e468ef5eb5
+CommitInfo{repo='GitHub', hash='56a62433d0220b25ee1186b260204fc546ab5b8e', version='v0.12.6'} 	https://github.com/dotansimha/graphql-code-generator/commit/56a62433d0220b25ee1186b260204fc546ab5b8e
+CommitInfo{repo='GitHub', hash='64f0d05f800524d6e0cc8d68b6ad57c19ac59e9f', version='v0.13.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/64f0d05f800524d6e0cc8d68b6ad57c19ac59e9f
+CommitInfo{repo='GitHub', hash='5fff2647c1b84b4e1f8138113ecda4a6c25d139b', version='v0.14.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/5fff2647c1b84b4e1f8138113ecda4a6c25d139b
+CommitInfo{repo='GitHub', hash='5fff2647c1b84b4e1f8138113ecda4a6c25d139b', version='v0.14.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/5fff2647c1b84b4e1f8138113ecda4a6c25d139b
+CommitInfo{repo='GitHub', hash='638f65cd8a6ef5d991b57e618a8f660165240ef9', version='v0.14.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/638f65cd8a6ef5d991b57e618a8f660165240ef9
+CommitInfo{repo='GitHub', hash='15aefa090d7182c701f20305f181b95142b52abe', version='v0.14.2'} 	https://github.com/dotansimha/graphql-code-generator/commit/15aefa090d7182c701f20305f181b95142b52abe
+CommitInfo{repo='GitHub', hash='2dd65362cf9a142b0489457512b25fd4cd922d56', version='v0.14.3'} 	https://github.com/dotansimha/graphql-code-generator/commit/2dd65362cf9a142b0489457512b25fd4cd922d56
+CommitInfo{repo='GitHub', hash='2e9c1d266866e9a98d615fc0d9df7c164e4d2035', version='v0.14.4'} 	https://github.com/dotansimha/graphql-code-generator/commit/2e9c1d266866e9a98d615fc0d9df7c164e4d2035
+CommitInfo{repo='GitHub', hash='2e9c1d266866e9a98d615fc0d9df7c164e4d2035', version='v0.14.4'} 	https://github.com/dotansimha/graphql-code-generator/commit/2e9c1d266866e9a98d615fc0d9df7c164e4d2035
+CommitInfo{repo='GitHub', hash='4fe51f41529e709caa6f6dac07a3665d096f3817', version='v0.14.5'} 	https://github.com/dotansimha/graphql-code-generator/commit/4fe51f41529e709caa6f6dac07a3665d096f3817
+CommitInfo{repo='GitHub', hash='506f2f8a74788471baac3a5c9d224d479d7c37dc', version='v0.15.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/506f2f8a74788471baac3a5c9d224d479d7c37dc
+CommitInfo{repo='GitHub', hash='506f2f8a74788471baac3a5c9d224d479d7c37dc', version='v0.15.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/506f2f8a74788471baac3a5c9d224d479d7c37dc
+CommitInfo{repo='GitHub', hash='3cb6f7f28245c7af33a92c03bda2241edd955a25', version='v0.15.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/3cb6f7f28245c7af33a92c03bda2241edd955a25
+CommitInfo{repo='GitHub', hash='bd18171ce1ad0dd1fb8b5d6b2e8f2cdc09ea4cab', version='v0.8.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/bd18171ce1ad0dd1fb8b5d6b2e8f2cdc09ea4cab
+CommitInfo{repo='GitHub', hash='014cffcf7aaeb742b568098f08e6140f89b0ce6a', version='v0.8.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/014cffcf7aaeb742b568098f08e6140f89b0ce6a
+CommitInfo{repo='GitHub', hash='9620ef906930c1c1d652c6371c9c7eb084801420', version='v0.8.10'} 	https://github.com/dotansimha/graphql-code-generator/commit/9620ef906930c1c1d652c6371c9c7eb084801420
+CommitInfo{repo='GitHub', hash='f4447d65071d2a4d413312a13837e5fbd9777542', version='v0.8.11'} 	https://github.com/dotansimha/graphql-code-generator/commit/f4447d65071d2a4d413312a13837e5fbd9777542
+CommitInfo{repo='GitHub', hash='5d8517bcbd9fd44559aa41e6580c0b5a2b08275e', version='v0.8.12'} 	https://github.com/dotansimha/graphql-code-generator/commit/5d8517bcbd9fd44559aa41e6580c0b5a2b08275e
+CommitInfo{repo='GitHub', hash='5d8517bcbd9fd44559aa41e6580c0b5a2b08275e', version='v0.8.12'} 	https://github.com/dotansimha/graphql-code-generator/commit/5d8517bcbd9fd44559aa41e6580c0b5a2b08275e
+CommitInfo{repo='GitHub', hash='485cad5b6b49f66bf11e97cee24eeb97c7ba6a90', version='v0.8.13'} 	https://github.com/dotansimha/graphql-code-generator/commit/485cad5b6b49f66bf11e97cee24eeb97c7ba6a90
+CommitInfo{repo='GitHub', hash='d127407b832ebe8df25c8cee87ffa7b11fe1c008', version='v0.8.14'} 	https://github.com/dotansimha/graphql-code-generator/commit/d127407b832ebe8df25c8cee87ffa7b11fe1c008
+CommitInfo{repo='GitHub', hash='d127407b832ebe8df25c8cee87ffa7b11fe1c008', version='v0.8.14'} 	https://github.com/dotansimha/graphql-code-generator/commit/d127407b832ebe8df25c8cee87ffa7b11fe1c008
+CommitInfo{repo='GitHub', hash='025bac3eb6aa123023abd1114999cce8cea23c21', version='v0.8.15'} 	https://github.com/dotansimha/graphql-code-generator/commit/025bac3eb6aa123023abd1114999cce8cea23c21
+CommitInfo{repo='GitHub', hash='c2ae9dc64447b36cfddac86622091acbc8d6d37b', version='v0.8.16'} 	https://github.com/dotansimha/graphql-code-generator/commit/c2ae9dc64447b36cfddac86622091acbc8d6d37b
+CommitInfo{repo='GitHub', hash='f43e49922062e7901a55a8ebbfcad81a4a83c752', version='v0.8.18'} 	https://github.com/dotansimha/graphql-code-generator/commit/f43e49922062e7901a55a8ebbfcad81a4a83c752
+CommitInfo{repo='GitHub', hash='508cd26b5854898addde2474389c5a1b2c28c9f1', version='v0.8.19'} 	https://github.com/dotansimha/graphql-code-generator/commit/508cd26b5854898addde2474389c5a1b2c28c9f1
+CommitInfo{repo='GitHub', hash='5ada452f7216ea521b29a1445605e994782d8841', version='v0.8.2'} 	https://github.com/dotansimha/graphql-code-generator/commit/5ada452f7216ea521b29a1445605e994782d8841
+CommitInfo{repo='GitHub', hash='3e3cd885ded191d19a43df1e1829421e5c0bb41e', version='v0.8.20'} 	https://github.com/dotansimha/graphql-code-generator/commit/3e3cd885ded191d19a43df1e1829421e5c0bb41e
+CommitInfo{repo='GitHub', hash='05e219f6db752d786a206ba92967564fd28b7b89', version='v0.8.21'} 	https://github.com/dotansimha/graphql-code-generator/commit/05e219f6db752d786a206ba92967564fd28b7b89
+CommitInfo{repo='GitHub', hash='e40e180126b718e2bd2b704c542b41be9c25fd1f', version='v0.8.3'} 	https://github.com/dotansimha/graphql-code-generator/commit/e40e180126b718e2bd2b704c542b41be9c25fd1f
+CommitInfo{repo='GitHub', hash='444bf3f3a398ebe67900a5fe018cbc6714c04643', version='v0.8.4'} 	https://github.com/dotansimha/graphql-code-generator/commit/444bf3f3a398ebe67900a5fe018cbc6714c04643
+CommitInfo{repo='GitHub', hash='9d1b46e9ce2ba423c27df2761376c95b1575af6b', version='v0.8.5'} 	https://github.com/dotansimha/graphql-code-generator/commit/9d1b46e9ce2ba423c27df2761376c95b1575af6b
+CommitInfo{repo='GitHub', hash='4c80a9ce187c6b6f2bb9bd545ef7e7a58f687a14', version='v0.8.6'} 	https://github.com/dotansimha/graphql-code-generator/commit/4c80a9ce187c6b6f2bb9bd545ef7e7a58f687a14
+CommitInfo{repo='GitHub', hash='41907e5c5372d1e81cb8416b596b5da7acadc710', version='v0.8.7'} 	https://github.com/dotansimha/graphql-code-generator/commit/41907e5c5372d1e81cb8416b596b5da7acadc710
+CommitInfo{repo='GitHub', hash='151485f979a80565de1a53789ca13cc7abc133c2', version='v0.8.8'} 	https://github.com/dotansimha/graphql-code-generator/commit/151485f979a80565de1a53789ca13cc7abc133c2
+CommitInfo{repo='GitHub', hash='8010b7882b10b7b2301701d1d10764a962ca3399', version='v0.8.9'} 	https://github.com/dotansimha/graphql-code-generator/commit/8010b7882b10b7b2301701d1d10764a962ca3399
+CommitInfo{repo='GitHub', hash='8a6f339172d5ba1788ba11ba2d4ccb174fa7e978', version='v0.9.0'} 	https://github.com/dotansimha/graphql-code-generator/commit/8a6f339172d5ba1788ba11ba2d4ccb174fa7e978
+CommitInfo{repo='GitHub', hash='108bb8bc6ac438c09416149f6f6624e91da88f23', version='v0.9.1'} 	https://github.com/dotansimha/graphql-code-generator/commit/108bb8bc6ac438c09416149f6f6624e91da88f23
+CommitInfo{repo='GitHub', hash='6f69e12c65fec1da7c296c8a5ed0668523202952', version='v0.9.2'} 	https://github.com/dotansimha/graphql-code-generator/commit/6f69e12c65fec1da7c296c8a5ed0668523202952
+CommitInfo{repo='GitHub', hash='5800c66623b4130acc13574d72d0fa034cf9d90b', version='v0.9.3'} 	https://github.com/dotansimha/graphql-code-generator/commit/5800c66623b4130acc13574d72d0fa034cf9d90b
+CommitInfo{repo='GitHub', hash='d5f995203d8f50390e9bb9524133aaa1dfbb4133', version='v0.9.4'} 	https://github.com/dotansimha/graphql-code-generator/commit/d5f995203d8f50390e9bb9524133aaa1dfbb4133
 
 Project A:
 ProjectVersionFixed(version=0.10.0, dependency=0.5.1, time=2018-07-03 09:53:52 UTC),	Latest, "DependencyVersion(version=1.0.0-beta.0, time=2017-10-02 06:28:03 UTC)"

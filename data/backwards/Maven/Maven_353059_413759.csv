@@ -2,60 +2,65 @@
 Project information
 org.deeplearning4j:deeplearning4j-core (353059)	io.netty:netty-buffer (413759)	Package Manager: Maven
 RepoID: 165170
+Repo Owner/Name: deeplearning4j/deeplearning4j
+Repository type: GitHub
+
+ https://github.com/deeplearning4j/deeplearning4j/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='033d57e51a59b887eabf2c204fd0e9537dce0351', version='0.0.3.3.1.alpha1'}
-CommitInfo{repo='GitHub', hash='7ac07574b7378f7d55c1d1d6487e0bff72dae9a7', version='0.0.3.3.4.alpha2'}
-CommitInfo{repo='GitHub', hash='45e70410afe7cb292c090f660ad97e7e9123c886', version='0.4-rc1.2'}
-CommitInfo{repo='GitHub', hash='372e1754576d123306e5c77862e8336bd90014b2', version='0.4-rc3.3'}
-CommitInfo{repo='GitHub', hash='1815d859072518423cd703ebffe1760066bc3a8b', version='0.4-rc3.4'}
-CommitInfo{repo='GitHub', hash='cfcc01e1b5bf8f661744ce8feba411859532a0f0', version='0.4-rc3.6'}
-CommitInfo{repo='GitHub', hash='fe3915fc307823014667e37c0eebc8c5a7954b4c', version='deeplearning4j-0.6.0'}
-CommitInfo{repo='GitHub', hash='be0a3e1553d626a5bd79424c9c5a7447962988f9', version='deeplearning4j-0.7.0'}
-CommitInfo{repo='GitHub', hash='8ead61643f6b8ff4f24e1baa898932ead027719a', version='deeplearning4j-0.7.1'}
-CommitInfo{repo='GitHub', hash='5b9be8b8e393d7b2e6a84dc4fbb5d77e766ae9ad', version='deeplearning4j-0.7.2'}
-CommitInfo{repo='GitHub', hash='5987177eef4304ed5d4fb35fe75dd342339433b5', version='deeplearning4j-0.8.0'}
-CommitInfo{repo='GitHub', hash='6bea2774f8100c25d32139296277548c90f10531', version='deeplearning4j-0.9.0'}
-CommitInfo{repo='GitHub', hash='2a38bf77ced5d3818fb7261c9800baddef437fe7', version='deeplearning4j-0.9.1'}
-CommitInfo{repo='GitHub', hash='e34887e58730a79b6f4a1ce568777dd8219deecc', version='deeplearning4j-0.9.2_skil-1.0.0'}
-CommitInfo{repo='GitHub', hash='fc275b9d454100073c6b20616f501ff89da648f4', version='deeplearning4j-1.0.0-alpha'}
-CommitInfo{repo='GitHub', hash='07ca415d63c3ce3058b5c12d9b466eb8afadbdca', version='deeplearning4j-1.0.0-beta'}
-CommitInfo{repo='GitHub', hash='c0f2b34b7a5c0fe80f6639a47e65ce2ddfad2071', version='deeplearning4j-1.0.0-beta2'}
-CommitInfo{repo='GitHub', hash='e71cf18ee84687ce2152fd3f5650b6cf16fa3637', version='deeplearning4j-1.0.0-beta3'}
-CommitInfo{repo='GitHub', hash='2cd20a69b8dd50a68f60670ee7a1ea0e3f7d6d94', version='deeplearning4j-2.2.2'}
-CommitInfo{repo='GitHub', hash='4562e31ffd1512e4dd76d601fecfe1cf774aa076', version='deeplearning4j-parent-0.0.0.1'}
-CommitInfo{repo='GitHub', hash='2e25f527454e243be87f0693da75df0442909ba3', version='deeplearning4j-parent-0.0.0.2'}
-CommitInfo{repo='GitHub', hash='77ae6a18b6b5c5fb7fe4ff8e1845c8a18065ea57', version='deeplearning4j-parent-0.0.0.3'}
-CommitInfo{repo='GitHub', hash='37ef953c96b8b24c4fec50de95dbd4615c3131b4', version='deeplearning4j-parent-0.0.1'}
-CommitInfo{repo='GitHub', hash='de3fcc511ab979e6b7e1f09f6f58c9e4d4fc9823', version='deeplearning4j-parent-0.0.2'}
-CommitInfo{repo='GitHub', hash='59334462041ce7d02d202d9ece76af23e2f2bea0', version='deeplearning4j-parent-0.0.3'}
-CommitInfo{repo='GitHub', hash='b43e3202f8ba23a1b2cf1cc12d024f2edd2fd5b4', version='deeplearning4j-parent-0.0.3.1'}
-CommitInfo{repo='GitHub', hash='4870f2b135470d2d32cf00b95d7a78f024ed98b3', version='deeplearning4j-parent-0.0.3.2'}
-CommitInfo{repo='GitHub', hash='7a9810d54c373b1e622209cc02e0cee0b62a6b16', version='deeplearning4j-parent-0.0.3.2.1'}
-CommitInfo{repo='GitHub', hash='c3bfbfb98621f4b7f5c68348a9cfcc6698d7cb58', version='deeplearning4j-parent-0.0.3.2.2'}
-CommitInfo{repo='GitHub', hash='513ebe9153b94c47ca1ac13425661f969a777757', version='deeplearning4j-parent-0.0.3.2.3'}
-CommitInfo{repo='GitHub', hash='488f46798210e869074ff6c8c7b27aa57aebe0e8', version='deeplearning4j-parent-0.0.3.2.4'}
-CommitInfo{repo='GitHub', hash='9340e194fc0d16d46f84e283e680c65ebb530076', version='deeplearning4j-parent-0.0.3.2.5'}
-CommitInfo{repo='GitHub', hash='1feb9e83427c4c0707f4be7645eeea96ec7c0870', version='deeplearning4j-parent-0.0.3.2.6'}
-CommitInfo{repo='GitHub', hash='9e7ea7639f5fbcb0bd07bda367301171cea600c7', version='deeplearning4j-parent-0.0.3.2.7'}
-CommitInfo{repo='GitHub', hash='f08c2c409647dcb5cc854fd1fef15a7c2c77d185', version='deeplearning4j-parent-0.0.3.2-SNAPSHOT'}
-CommitInfo{repo='GitHub', hash='900c347c9b54751cf81d9f7d1998330cb52a435a', version='deeplearning4j-parent-0.0.3.3'}
-CommitInfo{repo='GitHub', hash='892725aa21da754d5fdf702b977c338ce368da5b', version='deeplearning4j-parent-0.0.3.3.2.alpha1'}
-CommitInfo{repo='GitHub', hash='6ca4260ce10cadd45442c4f3ad5cc0adc282dd25', version='deeplearning4j-parent-0.0.3.3.3.alpha1'}
-CommitInfo{repo='GitHub', hash='caa896b16c025930693e3374dc6c178f6c3fcad9', version='deeplearning4j-parent-0.0.3.3.4.alpha1'}
-CommitInfo{repo='GitHub', hash='9317afaf7b73467cb9c76b9843cb4fb3e901020e', version='deeplearning4j-parent-0.4.0'}
-CommitInfo{repo='GitHub', hash='0e9797393d5c37242abac823b3a49c41c7f0e9c9', version='deeplearning4j-parent-0.4-rc0'}
-CommitInfo{repo='GitHub', hash='a81ec4e6ab39688c25a14c5d129f625a2096d3a6', version='deeplearning4j-parent-0.4-rc1'}
-CommitInfo{repo='GitHub', hash='430caa8d84f19826896caa75e54762cfaabcd282', version='deeplearning4j-parent-0.4-rc2.2'}
-CommitInfo{repo='GitHub', hash='ce710b4f2fd73888b5116758e00dee725ddb9d36', version='deeplearning4j-parent-0.4-rc3'}
-CommitInfo{repo='GitHub', hash='0502501e65df8422c052b03cf658e5b31f580c5f', version='deeplearning4j-parent-0.4-rc3.1'}
-CommitInfo{repo='GitHub', hash='fc49125fa380389a3ce1b5b93f3d714e2955eeaa', version='deeplearning4j-parent-0.4-rc3.10'}
-CommitInfo{repo='GitHub', hash='6ba6aa73645abce8eee6de9f897dedd21e4f46e8', version='deeplearning4j-parent-0.4-rc3.2'}
-CommitInfo{repo='GitHub', hash='a8d26e74775ac614f1fdac6d560bd53733ec69f0', version='deeplearning4j-parent-0.4-rc3.4'}
-CommitInfo{repo='GitHub', hash='92a0c9b1ca555528c8a1e35c37a7345757ab18c4', version='deeplearning4j-parent-0.4-rc3.7'}
-CommitInfo{repo='GitHub', hash='fc0c13bb4964057c3c3b5f7fa6a53d997b19c480', version='deeplearning4j-parent-0.4-rc3.8'}
-CommitInfo{repo='GitHub', hash='2e6dc8c3d09afbc643ad1a8814703d2450cf4b6b', version='deeplearning4j-parent-0.4-rc3.9'}
-CommitInfo{repo='GitHub', hash='2178f86e6f148679d242e030e99ff2f2aa0db9f9', version='deeplearning4j-parent-0.5.0'}
-CommitInfo{repo='GitHub', hash='59aea790195612bc6965ec270c80e810a8682ed2', version='latest_release'}
+CommitInfo{repo='GitHub', hash='033d57e51a59b887eabf2c204fd0e9537dce0351', version='0.0.3.3.1.alpha1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/033d57e51a59b887eabf2c204fd0e9537dce0351
+CommitInfo{repo='GitHub', hash='7ac07574b7378f7d55c1d1d6487e0bff72dae9a7', version='0.0.3.3.4.alpha2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/7ac07574b7378f7d55c1d1d6487e0bff72dae9a7
+CommitInfo{repo='GitHub', hash='45e70410afe7cb292c090f660ad97e7e9123c886', version='0.4-rc1.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/45e70410afe7cb292c090f660ad97e7e9123c886
+CommitInfo{repo='GitHub', hash='372e1754576d123306e5c77862e8336bd90014b2', version='0.4-rc3.3'} 	https://github.com/deeplearning4j/deeplearning4j/commit/372e1754576d123306e5c77862e8336bd90014b2
+CommitInfo{repo='GitHub', hash='1815d859072518423cd703ebffe1760066bc3a8b', version='0.4-rc3.4'} 	https://github.com/deeplearning4j/deeplearning4j/commit/1815d859072518423cd703ebffe1760066bc3a8b
+CommitInfo{repo='GitHub', hash='cfcc01e1b5bf8f661744ce8feba411859532a0f0', version='0.4-rc3.6'} 	https://github.com/deeplearning4j/deeplearning4j/commit/cfcc01e1b5bf8f661744ce8feba411859532a0f0
+CommitInfo{repo='GitHub', hash='fe3915fc307823014667e37c0eebc8c5a7954b4c', version='deeplearning4j-0.6.0'} 	https://github.com/deeplearning4j/deeplearning4j/commit/fe3915fc307823014667e37c0eebc8c5a7954b4c
+CommitInfo{repo='GitHub', hash='be0a3e1553d626a5bd79424c9c5a7447962988f9', version='deeplearning4j-0.7.0'} 	https://github.com/deeplearning4j/deeplearning4j/commit/be0a3e1553d626a5bd79424c9c5a7447962988f9
+CommitInfo{repo='GitHub', hash='8ead61643f6b8ff4f24e1baa898932ead027719a', version='deeplearning4j-0.7.1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/8ead61643f6b8ff4f24e1baa898932ead027719a
+CommitInfo{repo='GitHub', hash='5b9be8b8e393d7b2e6a84dc4fbb5d77e766ae9ad', version='deeplearning4j-0.7.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/5b9be8b8e393d7b2e6a84dc4fbb5d77e766ae9ad
+CommitInfo{repo='GitHub', hash='5987177eef4304ed5d4fb35fe75dd342339433b5', version='deeplearning4j-0.8.0'} 	https://github.com/deeplearning4j/deeplearning4j/commit/5987177eef4304ed5d4fb35fe75dd342339433b5
+CommitInfo{repo='GitHub', hash='6bea2774f8100c25d32139296277548c90f10531', version='deeplearning4j-0.9.0'} 	https://github.com/deeplearning4j/deeplearning4j/commit/6bea2774f8100c25d32139296277548c90f10531
+CommitInfo{repo='GitHub', hash='2a38bf77ced5d3818fb7261c9800baddef437fe7', version='deeplearning4j-0.9.1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/2a38bf77ced5d3818fb7261c9800baddef437fe7
+CommitInfo{repo='GitHub', hash='e34887e58730a79b6f4a1ce568777dd8219deecc', version='deeplearning4j-0.9.2_skil-1.0.0'} 	https://github.com/deeplearning4j/deeplearning4j/commit/e34887e58730a79b6f4a1ce568777dd8219deecc
+CommitInfo{repo='GitHub', hash='fc275b9d454100073c6b20616f501ff89da648f4', version='deeplearning4j-1.0.0-alpha'} 	https://github.com/deeplearning4j/deeplearning4j/commit/fc275b9d454100073c6b20616f501ff89da648f4
+CommitInfo{repo='GitHub', hash='07ca415d63c3ce3058b5c12d9b466eb8afadbdca', version='deeplearning4j-1.0.0-beta'} 	https://github.com/deeplearning4j/deeplearning4j/commit/07ca415d63c3ce3058b5c12d9b466eb8afadbdca
+CommitInfo{repo='GitHub', hash='c0f2b34b7a5c0fe80f6639a47e65ce2ddfad2071', version='deeplearning4j-1.0.0-beta2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/c0f2b34b7a5c0fe80f6639a47e65ce2ddfad2071
+CommitInfo{repo='GitHub', hash='e71cf18ee84687ce2152fd3f5650b6cf16fa3637', version='deeplearning4j-1.0.0-beta3'} 	https://github.com/deeplearning4j/deeplearning4j/commit/e71cf18ee84687ce2152fd3f5650b6cf16fa3637
+CommitInfo{repo='GitHub', hash='2cd20a69b8dd50a68f60670ee7a1ea0e3f7d6d94', version='deeplearning4j-2.2.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/2cd20a69b8dd50a68f60670ee7a1ea0e3f7d6d94
+CommitInfo{repo='GitHub', hash='4562e31ffd1512e4dd76d601fecfe1cf774aa076', version='deeplearning4j-parent-0.0.0.1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/4562e31ffd1512e4dd76d601fecfe1cf774aa076
+CommitInfo{repo='GitHub', hash='2e25f527454e243be87f0693da75df0442909ba3', version='deeplearning4j-parent-0.0.0.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/2e25f527454e243be87f0693da75df0442909ba3
+CommitInfo{repo='GitHub', hash='77ae6a18b6b5c5fb7fe4ff8e1845c8a18065ea57', version='deeplearning4j-parent-0.0.0.3'} 	https://github.com/deeplearning4j/deeplearning4j/commit/77ae6a18b6b5c5fb7fe4ff8e1845c8a18065ea57
+CommitInfo{repo='GitHub', hash='37ef953c96b8b24c4fec50de95dbd4615c3131b4', version='deeplearning4j-parent-0.0.1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/37ef953c96b8b24c4fec50de95dbd4615c3131b4
+CommitInfo{repo='GitHub', hash='de3fcc511ab979e6b7e1f09f6f58c9e4d4fc9823', version='deeplearning4j-parent-0.0.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/de3fcc511ab979e6b7e1f09f6f58c9e4d4fc9823
+CommitInfo{repo='GitHub', hash='59334462041ce7d02d202d9ece76af23e2f2bea0', version='deeplearning4j-parent-0.0.3'} 	https://github.com/deeplearning4j/deeplearning4j/commit/59334462041ce7d02d202d9ece76af23e2f2bea0
+CommitInfo{repo='GitHub', hash='b43e3202f8ba23a1b2cf1cc12d024f2edd2fd5b4', version='deeplearning4j-parent-0.0.3.1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/b43e3202f8ba23a1b2cf1cc12d024f2edd2fd5b4
+CommitInfo{repo='GitHub', hash='4870f2b135470d2d32cf00b95d7a78f024ed98b3', version='deeplearning4j-parent-0.0.3.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/4870f2b135470d2d32cf00b95d7a78f024ed98b3
+CommitInfo{repo='GitHub', hash='7a9810d54c373b1e622209cc02e0cee0b62a6b16', version='deeplearning4j-parent-0.0.3.2.1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/7a9810d54c373b1e622209cc02e0cee0b62a6b16
+CommitInfo{repo='GitHub', hash='c3bfbfb98621f4b7f5c68348a9cfcc6698d7cb58', version='deeplearning4j-parent-0.0.3.2.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/c3bfbfb98621f4b7f5c68348a9cfcc6698d7cb58
+CommitInfo{repo='GitHub', hash='513ebe9153b94c47ca1ac13425661f969a777757', version='deeplearning4j-parent-0.0.3.2.3'} 	https://github.com/deeplearning4j/deeplearning4j/commit/513ebe9153b94c47ca1ac13425661f969a777757
+CommitInfo{repo='GitHub', hash='488f46798210e869074ff6c8c7b27aa57aebe0e8', version='deeplearning4j-parent-0.0.3.2.4'} 	https://github.com/deeplearning4j/deeplearning4j/commit/488f46798210e869074ff6c8c7b27aa57aebe0e8
+CommitInfo{repo='GitHub', hash='9340e194fc0d16d46f84e283e680c65ebb530076', version='deeplearning4j-parent-0.0.3.2.5'} 	https://github.com/deeplearning4j/deeplearning4j/commit/9340e194fc0d16d46f84e283e680c65ebb530076
+CommitInfo{repo='GitHub', hash='1feb9e83427c4c0707f4be7645eeea96ec7c0870', version='deeplearning4j-parent-0.0.3.2.6'} 	https://github.com/deeplearning4j/deeplearning4j/commit/1feb9e83427c4c0707f4be7645eeea96ec7c0870
+CommitInfo{repo='GitHub', hash='9e7ea7639f5fbcb0bd07bda367301171cea600c7', version='deeplearning4j-parent-0.0.3.2.7'} 	https://github.com/deeplearning4j/deeplearning4j/commit/9e7ea7639f5fbcb0bd07bda367301171cea600c7
+CommitInfo{repo='GitHub', hash='f08c2c409647dcb5cc854fd1fef15a7c2c77d185', version='deeplearning4j-parent-0.0.3.2-SNAPSHOT'} 	https://github.com/deeplearning4j/deeplearning4j/commit/f08c2c409647dcb5cc854fd1fef15a7c2c77d185
+CommitInfo{repo='GitHub', hash='900c347c9b54751cf81d9f7d1998330cb52a435a', version='deeplearning4j-parent-0.0.3.3'} 	https://github.com/deeplearning4j/deeplearning4j/commit/900c347c9b54751cf81d9f7d1998330cb52a435a
+CommitInfo{repo='GitHub', hash='892725aa21da754d5fdf702b977c338ce368da5b', version='deeplearning4j-parent-0.0.3.3.2.alpha1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/892725aa21da754d5fdf702b977c338ce368da5b
+CommitInfo{repo='GitHub', hash='6ca4260ce10cadd45442c4f3ad5cc0adc282dd25', version='deeplearning4j-parent-0.0.3.3.3.alpha1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/6ca4260ce10cadd45442c4f3ad5cc0adc282dd25
+CommitInfo{repo='GitHub', hash='caa896b16c025930693e3374dc6c178f6c3fcad9', version='deeplearning4j-parent-0.0.3.3.4.alpha1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/caa896b16c025930693e3374dc6c178f6c3fcad9
+CommitInfo{repo='GitHub', hash='9317afaf7b73467cb9c76b9843cb4fb3e901020e', version='deeplearning4j-parent-0.4.0'} 	https://github.com/deeplearning4j/deeplearning4j/commit/9317afaf7b73467cb9c76b9843cb4fb3e901020e
+CommitInfo{repo='GitHub', hash='0e9797393d5c37242abac823b3a49c41c7f0e9c9', version='deeplearning4j-parent-0.4-rc0'} 	https://github.com/deeplearning4j/deeplearning4j/commit/0e9797393d5c37242abac823b3a49c41c7f0e9c9
+CommitInfo{repo='GitHub', hash='a81ec4e6ab39688c25a14c5d129f625a2096d3a6', version='deeplearning4j-parent-0.4-rc1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/a81ec4e6ab39688c25a14c5d129f625a2096d3a6
+CommitInfo{repo='GitHub', hash='430caa8d84f19826896caa75e54762cfaabcd282', version='deeplearning4j-parent-0.4-rc2.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/430caa8d84f19826896caa75e54762cfaabcd282
+CommitInfo{repo='GitHub', hash='ce710b4f2fd73888b5116758e00dee725ddb9d36', version='deeplearning4j-parent-0.4-rc3'} 	https://github.com/deeplearning4j/deeplearning4j/commit/ce710b4f2fd73888b5116758e00dee725ddb9d36
+CommitInfo{repo='GitHub', hash='0502501e65df8422c052b03cf658e5b31f580c5f', version='deeplearning4j-parent-0.4-rc3.1'} 	https://github.com/deeplearning4j/deeplearning4j/commit/0502501e65df8422c052b03cf658e5b31f580c5f
+CommitInfo{repo='GitHub', hash='fc49125fa380389a3ce1b5b93f3d714e2955eeaa', version='deeplearning4j-parent-0.4-rc3.10'} 	https://github.com/deeplearning4j/deeplearning4j/commit/fc49125fa380389a3ce1b5b93f3d714e2955eeaa
+CommitInfo{repo='GitHub', hash='6ba6aa73645abce8eee6de9f897dedd21e4f46e8', version='deeplearning4j-parent-0.4-rc3.2'} 	https://github.com/deeplearning4j/deeplearning4j/commit/6ba6aa73645abce8eee6de9f897dedd21e4f46e8
+CommitInfo{repo='GitHub', hash='a8d26e74775ac614f1fdac6d560bd53733ec69f0', version='deeplearning4j-parent-0.4-rc3.4'} 	https://github.com/deeplearning4j/deeplearning4j/commit/a8d26e74775ac614f1fdac6d560bd53733ec69f0
+CommitInfo{repo='GitHub', hash='92a0c9b1ca555528c8a1e35c37a7345757ab18c4', version='deeplearning4j-parent-0.4-rc3.7'} 	https://github.com/deeplearning4j/deeplearning4j/commit/92a0c9b1ca555528c8a1e35c37a7345757ab18c4
+CommitInfo{repo='GitHub', hash='fc0c13bb4964057c3c3b5f7fa6a53d997b19c480', version='deeplearning4j-parent-0.4-rc3.8'} 	https://github.com/deeplearning4j/deeplearning4j/commit/fc0c13bb4964057c3c3b5f7fa6a53d997b19c480
+CommitInfo{repo='GitHub', hash='2e6dc8c3d09afbc643ad1a8814703d2450cf4b6b', version='deeplearning4j-parent-0.4-rc3.9'} 	https://github.com/deeplearning4j/deeplearning4j/commit/2e6dc8c3d09afbc643ad1a8814703d2450cf4b6b
+CommitInfo{repo='GitHub', hash='2178f86e6f148679d242e030e99ff2f2aa0db9f9', version='deeplearning4j-parent-0.5.0'} 	https://github.com/deeplearning4j/deeplearning4j/commit/2178f86e6f148679d242e030e99ff2f2aa0db9f9
+CommitInfo{repo='GitHub', hash='59aea790195612bc6965ec270c80e810a8682ed2', version='latest_release'} 	https://github.com/deeplearning4j/deeplearning4j/commit/59aea790195612bc6965ec270c80e810a8682ed2
 
 Project A:
 ProjectVersionFixed(version=0.0.0.2, dependency=null, time=2014-02-22 18:54:22 UTC)
