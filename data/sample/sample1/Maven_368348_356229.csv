@@ -2,270 +2,275 @@
 Project information
 cz.habarta.typescript-generator:typescript-generator-maven-plugin (368348)	org.apache.maven.plugin-tools:maven-plugin-annotations (356229)	Package Manager: Maven
 RepoID: 165403
+Repo Owner/Name: vojtechhabarta/typescript-generator
+Repository type: GitHub
+
+ https://github.com/vojtechhabarta/typescript-generator/commit/
+
 Tag information:
-CommitInfo{repo='GitHub', hash='61642398aa5f31f00774d8f3fb7e6dca83d76c14', version='v1.0.22'}
-CommitInfo{repo='GitHub', hash='3583c04516501771ede592d57b0cc689400aae70', version='v1.0.23'}
-CommitInfo{repo='GitHub', hash='3583c04516501771ede592d57b0cc689400aae70', version='v1.0.25'}
-CommitInfo{repo='GitHub', hash='3583c04516501771ede592d57b0cc689400aae70', version='v1.0.26'}
-CommitInfo{repo='GitHub', hash='fcc907c5cea1a2cffa52f9dca9ad2f9b2bad6e53', version='v1.0.36'}
-CommitInfo{repo='GitHub', hash='fcc907c5cea1a2cffa52f9dca9ad2f9b2bad6e53', version='v1.0.37'}
-CommitInfo{repo='GitHub', hash='c33f4350f33e8da3432d8542856ade895edd7d04', version='v1.0.38'}
-CommitInfo{repo='GitHub', hash='c33f4350f33e8da3432d8542856ade895edd7d04', version='v1.0.41'}
-CommitInfo{repo='GitHub', hash='4daa4ff53a04fc6665d73c75f9472cb830ddb999', version='v1.0.43'}
-CommitInfo{repo='GitHub', hash='57a734c84b5b68376f369361c20ceb5abc22884a', version='v1.10.212'}
-CommitInfo{repo='GitHub', hash='b7786b2e2d84e91bb0253b3ee9ffdbea43e61db7', version='v1.10.213'}
-CommitInfo{repo='GitHub', hash='8f93b3ed5a7c05e30d1e440f21e2769bc5be2605', version='v1.10.219'}
-CommitInfo{repo='GitHub', hash='3e7065ecc6eeef11e1b9912ec7eadcf34c521a1c', version='v1.10.220'}
-CommitInfo{repo='GitHub', hash='a564ef7d794b175355d440b5d5d7c72049967a7e', version='v1.10.223'}
-CommitInfo{repo='GitHub', hash='c270962b8aea2506f7e61c248c21bba4db719e01', version='v1.10.225'}
-CommitInfo{repo='GitHub', hash='84da48ff91ea83e3a5229f7f00d2430db146db1f', version='v1.10.227'}
-CommitInfo{repo='GitHub', hash='aefacac1ce13d45708cc9566c1684b40b599ba11', version='v1.10.229'}
-CommitInfo{repo='GitHub', hash='d3c8a939f38d31ecb9e1d39bc8315df2cff0c1e1', version='v1.10.230'}
-CommitInfo{repo='GitHub', hash='d02f89dc83b5be454716d8262064d9c0b7f20eaf', version='v1.10.231'}
-CommitInfo{repo='GitHub', hash='71f673a2fd563ba957fc3f28586474fb0811fe92', version='v1.11.232'}
-CommitInfo{repo='GitHub', hash='f71a04416b8ed36ce147507c445c43644367f7ca', version='v1.11.233'}
-CommitInfo{repo='GitHub', hash='3a012e8fccb83c89a6c641f591d37456c10a2608', version='v1.12.236'}
-CommitInfo{repo='GitHub', hash='9def062aae2374c35b9243143fc9d7d81d5548eb', version='v1.12.237'}
-CommitInfo{repo='GitHub', hash='68733cf6f225dbccbb005aea3045c817143fed33', version='v1.12.238'}
-CommitInfo{repo='GitHub', hash='a8e21dffcc83717da7e12361c832147441bc425b', version='v1.12.240'}
-CommitInfo{repo='GitHub', hash='c5436cc7138d70cca452607a609d3ce5fcaecc38', version='v1.13.241'}
-CommitInfo{repo='GitHub', hash='2bffcf296316b1833feca201a6980518f120d639', version='v1.13.242'}
-CommitInfo{repo='GitHub', hash='7a6317bc9884c2372da9bb0d8e2288868450ffa7', version='v1.13.243'}
-CommitInfo{repo='GitHub', hash='c8616380a28097f0e9931ac21869f2a816fe5892', version='v1.13.245'}
-CommitInfo{repo='GitHub', hash='19518f4b104034d14a0e63b238473e41facedb17', version='v1.13.246'}
-CommitInfo{repo='GitHub', hash='20684acecfedf358c5f5187a397d0bc6587e9323', version='v1.13.249'}
-CommitInfo{repo='GitHub', hash='79a91113350ceb1d677298f082d6477c670d1378', version='v1.14.251'}
-CommitInfo{repo='GitHub', hash='e23aaa08a4f792c14389678072c4aac621e5986f', version='v1.14.252'}
-CommitInfo{repo='GitHub', hash='c08bbaae91b9e4b7903b5435796a4956d2ebcff5', version='v1.14.254'}
-CommitInfo{repo='GitHub', hash='8b71d6eb351b292eb27460955cba6aca5939e3cc', version='v1.14.255'}
-CommitInfo{repo='GitHub', hash='f20f6c75b7c0a58b7621e7a0f6e45a9e65a7d26a', version='v1.14.256'}
-CommitInfo{repo='GitHub', hash='05aea6d7c1a40a747271a747a950b9d780eb8eb6', version='v1.14.257'}
-CommitInfo{repo='GitHub', hash='8516016fa6dc6f4b73761acfb785957a7ba6c2e0', version='v1.14.258'}
-CommitInfo{repo='GitHub', hash='431acd0fde80a9b0c9b433a391cb9739d524464c', version='v1.14.259'}
-CommitInfo{repo='GitHub', hash='6f07548fd9aecf7e62b214b4d9dad608033ac18e', version='v1.14.260'}
-CommitInfo{repo='GitHub', hash='b979d17629f1ae7c1f9da52fecff19e85fb3f9bc', version='v1.14.261'}
-CommitInfo{repo='GitHub', hash='5c56f7bbf8a4af38067cb89317c0a362c625d6ad', version='v1.14.262'}
-CommitInfo{repo='GitHub', hash='1579daa785f4e65f43deb2a9598dc837ff2029b6', version='v1.14.264'}
-CommitInfo{repo='GitHub', hash='5675845dac976654d04aa52d5812085890de498b', version='v1.1.44'}
-CommitInfo{repo='GitHub', hash='5675845dac976654d04aa52d5812085890de498b', version='v1.1.45'}
-CommitInfo{repo='GitHub', hash='89aaa685b3f7cb7f45fb100f782b546ea98f8e5b', version='v1.15.265'}
-CommitInfo{repo='GitHub', hash='5b88edc34b226b3a20ed7bf9152fa570bf7a5e94', version='v1.15.266'}
-CommitInfo{repo='GitHub', hash='8905bb5bfad253853d06ef72dbf30076e6b1dd76', version='v1.15.268'}
-CommitInfo{repo='GitHub', hash='a448c0e04a5c093cdbefdc8a9de472b6fee76a6d', version='v1.15.269'}
-CommitInfo{repo='GitHub', hash='7ccf98426641dbc860f929c6ce78cdb666dca520', version='v1.15.273'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.61'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.62'}
-CommitInfo{repo='GitHub', hash='f31f2d3aa29fbc6224df6e521eedcd74ee8c12ca', version='v1.16.274'}
-CommitInfo{repo='GitHub', hash='7df5a3f8bbfb7997146d3a349c2364030e4f04f3', version='v1.16.277'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.63'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.64'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.65'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.66'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.67'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.68'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.69'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.70'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.71'}
-CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.72'}
-CommitInfo{repo='GitHub', hash='ba024b84b52051c26469cc2392deaa455b244688', version='v1.17.282'}
-CommitInfo{repo='GitHub', hash='fdd88fc44778871d22e3035343ca05f25be3be9e', version='v1.17.284'}
-CommitInfo{repo='GitHub', hash='aedbeac22eb6544dfb44eed0384bed1a6f703797', version='v1.17.285'}
-CommitInfo{repo='GitHub', hash='aabf59e5ee9cca211118732b82299b29fdc21201', version='v1.17.286'}
-CommitInfo{repo='GitHub', hash='246bc8740e8def3073e75c1d96c96165a2433133', version='v1.17.287'}
-CommitInfo{repo='GitHub', hash='7267c31239d970ec3f62f80fa1cb44f3030b03a1', version='v1.1.73'}
-CommitInfo{repo='GitHub', hash='7c9ba64891195d5dd908c82dee5dfd0b407ac852', version='v1.1.77'}
-CommitInfo{repo='GitHub', hash='7c9ba64891195d5dd908c82dee5dfd0b407ac852', version='v1.1.78'}
-CommitInfo{repo='GitHub', hash='2801ee784e966464f1cd6c874ea002e5b51e335b', version='v1.18.288'}
-CommitInfo{repo='GitHub', hash='49e1e0611dadc3eb9fa1411e7b4e2c968a3c2a74', version='v1.18.289'}
-CommitInfo{repo='GitHub', hash='0077a052d7c57448b5da4060d9a08faab372283f', version='v1.18.290'}
-CommitInfo{repo='GitHub', hash='3a986226b808a77a1262c89c16850f7041d51554', version='v1.1.84'}
-CommitInfo{repo='GitHub', hash='9025e52cc128dbf7d705927148a48c898223324b', version='v1.1.85'}
-CommitInfo{repo='GitHub', hash='ff8ad287679b5a042e2f1d8107ba1a974a2503ae', version='v1.1.86'}
-CommitInfo{repo='GitHub', hash='ff8ad287679b5a042e2f1d8107ba1a974a2503ae', version='v1.1.91'}
-CommitInfo{repo='GitHub', hash='ff8ad287679b5a042e2f1d8107ba1a974a2503ae', version='v1.1.92'}
-CommitInfo{repo='GitHub', hash='be96d7d7b87521ef2b65e5620038f6e329f29ba4', version='v1.19.294'}
-CommitInfo{repo='GitHub', hash='5beeb24c448765911a77e4560e8ac14f6c565bf5', version='v1.19.295'}
-CommitInfo{repo='GitHub', hash='e8ad284bbf0b150b712d11a43383946d444b5c5c', version='v1.19.296'}
-CommitInfo{repo='GitHub', hash='09562def86a10e0aeec3f5153c22fc1b6303c095', version='v1.19.299'}
-CommitInfo{repo='GitHub', hash='3084d05727cc9dc626d0e056abfbf0a098062884', version='v1.1.93'}
-CommitInfo{repo='GitHub', hash='7e79bd56e9fc55644272dabde713f4801a7a9c53', version='v1.1.94'}
-CommitInfo{repo='GitHub', hash='7e79bd56e9fc55644272dabde713f4801a7a9c53', version='v1.1.95'}
-CommitInfo{repo='GitHub', hash='ca3bdf8a3afcda6ade53990fdbafbff43953f192', version='v1.1.96'}
-CommitInfo{repo='GitHub', hash='ca3bdf8a3afcda6ade53990fdbafbff43953f192', version='v1.1.97'}
-CommitInfo{repo='GitHub', hash='78f482b65b04732ba73081f89972432ca00e722f', version='v1.1.98'}
-CommitInfo{repo='GitHub', hash='11ed233cd3267ab67a0c70d1b72fe6008efb53b2', version='v1.20.300'}
-CommitInfo{repo='GitHub', hash='78f482b65b04732ba73081f89972432ca00e722f', version='v1.2.100'}
-CommitInfo{repo='GitHub', hash='39f7ecefe3e977f724b66e94b2ae97b4b43511c4', version='v1.2.101'}
-CommitInfo{repo='GitHub', hash='c7695cecdadfe80655600a6a4403200c8b417c2b', version='v1.2.102'}
-CommitInfo{repo='GitHub', hash='5f4fd00a07b4f4fc4e5b99ac29573b06b07f46ec', version='v1.2.103'}
-CommitInfo{repo='GitHub', hash='384a94dec0c46910d2546ef5ebd1feb1236b3f2d', version='v1.2.104'}
-CommitInfo{repo='GitHub', hash='d7b99e24d825290f86d0131751b4273dbc7362e8', version='v1.2.105'}
-CommitInfo{repo='GitHub', hash='8ad4d61dfd68a96310bb6cbd8bac330194da831f', version='v1.2.108'}
-CommitInfo{repo='GitHub', hash='cdd448da0d3470f13f500518fbc22634d7ef9be3', version='v1.2.109'}
-CommitInfo{repo='GitHub', hash='cdd448da0d3470f13f500518fbc22634d7ef9be3', version='v1.2.110'}
-CommitInfo{repo='GitHub', hash='cdd448da0d3470f13f500518fbc22634d7ef9be3', version='v1.2.111'}
-CommitInfo{repo='GitHub', hash='88c3ce3bbbf33d798c77b20b4c501660e2ab2246', version='v1.2.112'}
-CommitInfo{repo='GitHub', hash='88c3ce3bbbf33d798c77b20b4c501660e2ab2246', version='v1.2.113'}
-CommitInfo{repo='GitHub', hash='88c3ce3bbbf33d798c77b20b4c501660e2ab2246', version='v1.2.114'}
-CommitInfo{repo='GitHub', hash='c80c73fa447d2bfcd62d9d05cdcf431612ae1703', version='v1.2.115'}
-CommitInfo{repo='GitHub', hash='c80c73fa447d2bfcd62d9d05cdcf431612ae1703', version='v1.2.116'}
-CommitInfo{repo='GitHub', hash='30ba79056f55ae86f57d8eea898f5a458dac38da', version='v1.2.117'}
-CommitInfo{repo='GitHub', hash='30ba79056f55ae86f57d8eea898f5a458dac38da', version='v1.2.118'}
-CommitInfo{repo='GitHub', hash='4cba82252adb1f079d8d1b1802ef2467211a97a8', version='v1.2.119'}
-CommitInfo{repo='GitHub', hash='4cba82252adb1f079d8d1b1802ef2467211a97a8', version='v1.2.120'}
-CommitInfo{repo='GitHub', hash='dfe099f7a78e91d61399ae1309baa2d6e67ff91b', version='v1.2.121'}
-CommitInfo{repo='GitHub', hash='9da64734827fd5bdcd3c91b07966986fcd213d08', version='v1.2.122'}
-CommitInfo{repo='GitHub', hash='9246b13059d61ede772692bd9865fed715076f4d', version='v1.21.303'}
-CommitInfo{repo='GitHub', hash='b0607956febff82e04971facd884a1adff359b69', version='v1.21.304'}
-CommitInfo{repo='GitHub', hash='fe6ce96be399163c195e4731725cdbceb555c87d', version='v1.21.305'}
-CommitInfo{repo='GitHub', hash='a6d2c60edc90ac783d83506fbb72df6a21e6e45f', version='v1.21.306'}
-CommitInfo{repo='GitHub', hash='1cd795e23340aa82370d93225173c5d3b7ee7143', version='v1.22.307'}
-CommitInfo{repo='GitHub', hash='0be57df6badfca2c845f2ae206f7bdd7cec37169', version='v1.22.308'}
-CommitInfo{repo='GitHub', hash='83107aae1ea98418d159337153d9908815eb1001', version='v1.23.310'}
-CommitInfo{repo='GitHub', hash='5d4adf595d900c81de5af4258e88610992507218', version='v1.23.311'}
-CommitInfo{repo='GitHub', hash='6a8aee40240808d2cd7f8ac95bb6d4891064e02e', version='v1.24.314'}
-CommitInfo{repo='GitHub', hash='80424eb46e4408c350fbe3fcc957808d849a9ff0', version='v1.24.315'}
-CommitInfo{repo='GitHub', hash='4a21cec600c267da5e55628d90f02f57960536f0', version='v1.24.316'}
-CommitInfo{repo='GitHub', hash='e820ec780dbd52b164857055b5a2a1cc79602bcd', version='v1.24.317'}
-CommitInfo{repo='GitHub', hash='68de0400da1f03431030651bd9781b351a1b7511', version='v1.24.318'}
-CommitInfo{repo='GitHub', hash='9ea922c2ec51e8174a714730bb7ef2553c6165a8', version='v1.24.319'}
-CommitInfo{repo='GitHub', hash='eed856e7413f96ca62aed069276be27121fc3efa', version='v1.24.320'}
-CommitInfo{repo='GitHub', hash='cdb989c59e1df4fe3a70e22602acfcc20e1fa5ef', version='v1.25.322'}
-CommitInfo{repo='GitHub', hash='2275f3727bededd9203cd39b5333a5332ea917c0', version='v1.25.323'}
-CommitInfo{repo='GitHub', hash='dff4f9c730f4fe7629ce02e581cd13e297a5d620', version='v1.25.325'}
-CommitInfo{repo='GitHub', hash='921d591454e7e0b08bcd9a501b6ad6f605925ecf', version='v1.26.333'}
-CommitInfo{repo='GitHub', hash='dcc804df3e7182eef849bbf7f0f42e2a7eb3aabe', version='v1.26.334'}
-CommitInfo{repo='GitHub', hash='404abf38acd5b50b358011660de8da6b0280dc09', version='v1.26.336'}
-CommitInfo{repo='GitHub', hash='22b28594442ae4228113d8a867df5451e9240947', version='v1.26.337'}
-CommitInfo{repo='GitHub', hash='d35af8140a6870436d9ff2b8f2e47164d405af58', version='v1.26.338'}
-CommitInfo{repo='GitHub', hash='9477664126b634edc8754f0ccb1ae7f38f447152', version='v1.27.339'}
-CommitInfo{repo='GitHub', hash='59cfd02d01abdc41b989e8e7e3c296ab574a0c06', version='v1.27.340'}
-CommitInfo{repo='GitHub', hash='6e525cead88626259e5ad376534e95c3080498a9', version='v1.27.341'}
-CommitInfo{repo='GitHub', hash='6ffbddd068af7bd3ba5b075073eba2d582c53bf1', version='v1.27.342'}
-CommitInfo{repo='GitHub', hash='3f5fbd4805e77dc23d7a3881083be8ac72a7b170', version='v1.28.343'}
-CommitInfo{repo='GitHub', hash='ad9fe25d368b15d7b985b8375bb79eac01654c47', version='v1.28.345'}
-CommitInfo{repo='GitHub', hash='08347b7dd2f36ba75e73a9e5251f186ce18fa328', version='v1.28.347'}
-CommitInfo{repo='GitHub', hash='230f7491f4a438d86f4ffb3a5007a0708cd260ef', version='v1.28.348'}
-CommitInfo{repo='GitHub', hash='c013644223f5c769879d29120985bad5e929925e', version='v1.29.355'}
-CommitInfo{repo='GitHub', hash='351eca7c12ad87af3936771f2e44fb6330d08b45', version='v1.29.356'}
-CommitInfo{repo='GitHub', hash='8e003becc56656e9f29dedf4d8a78ca614ffc54e', version='v1.29.357'}
-CommitInfo{repo='GitHub', hash='59ac68a3959bc66bd7016d1f49ca9df8529be019', version='v1.29.358'}
-CommitInfo{repo='GitHub', hash='88431cb4b8a520fb107f80b2502cab666c053cf2', version='v1.29.359'}
-CommitInfo{repo='GitHub', hash='457f743307102e7179c95c44d2b598fff401473f', version='v1.29.361'}
-CommitInfo{repo='GitHub', hash='40e1caa0610416912ea4ed848b5fa2ab468bc8e9', version='v1.29.365'}
-CommitInfo{repo='GitHub', hash='ccd2bbef276c1e3984e4f17a05e43f0b2ebbe04a', version='v1.29.366'}
-CommitInfo{repo='GitHub', hash='ccd2bbef276c1e3984e4f17a05e43f0b2ebbe04a', version='v1.29.366'}
-CommitInfo{repo='GitHub', hash='530e7dcb3f5f5a0515b5e35dd3d80fb4a6e7a019', version='v1.29.367'}
-CommitInfo{repo='GitHub', hash='b909629f88eb164566bd52818da80df7ca9ac9e7', version='v1.29.368'}
-CommitInfo{repo='GitHub', hash='2d2076b39afc734b467cd04f0d75a101bd7fe627', version='v1.29.369'}
-CommitInfo{repo='GitHub', hash='7facc49f70056a2333af8cd8a2d65c87710341fc', version='v1.29.370'}
-CommitInfo{repo='GitHub', hash='3c8befcd6628d486d90317dfda81399715307347', version='v1.29.371'}
-CommitInfo{repo='GitHub', hash='e839c0d62d5c2cb502d75474d92535b1586cfc70', version='v1.29.372'}
-CommitInfo{repo='GitHub', hash='2d23071344abf43e3f7c8ebef126c40487ea35f0', version='v1.29.373'}
-CommitInfo{repo='GitHub', hash='be4d4a0af1f8e1d2e0430534a1fe73db3dd90795', version='v1.29.374'}
-CommitInfo{repo='GitHub', hash='5d3d0bc3bcc482fda28d8cf12437733beb35af22', version='v1.29.375'}
-CommitInfo{repo='GitHub', hash='126e499ec1d984c9c38d27fe8013277ff6b88681', version='v1.29.376'}
-CommitInfo{repo='GitHub', hash='3ec92641c6539e7d84860ee60d885ddfcfa9865e', version='v1.29.377'}
-CommitInfo{repo='GitHub', hash='597446625e1ee9ac77a1c3a0b012a8771febf5de', version='v1.29.378'}
-CommitInfo{repo='GitHub', hash='d44a704cd00045c731f3d66de3d6a2079567af88', version='v1.29.379'}
-CommitInfo{repo='GitHub', hash='78f482b65b04732ba73081f89972432ca00e722f', version='v1.2.99'}
-CommitInfo{repo='GitHub', hash='4373f16c648da1940663c3319f36a8d7608b2bb9', version='v1.30.381'}
-CommitInfo{repo='GitHub', hash='57c9d9f54e65f265f19ab86ff5a771b1e0a1d850', version='v1.30.383'}
-CommitInfo{repo='GitHub', hash='d25f0680d12ea67bd8adb92f62cf25170f909943', version='v1.30.385'}
-CommitInfo{repo='GitHub', hash='f98aec9326989a211a65d5ae1ed334f4b41f944c', version='v1.3.123'}
-CommitInfo{repo='GitHub', hash='c14db62eb38230e27b0123cc5b6faf86b17de900', version='v1.3.124'}
-CommitInfo{repo='GitHub', hash='e4c84da325123d710c88d7e3c2ab02288f45c05d', version='v1.3.127'}
-CommitInfo{repo='GitHub', hash='ff62f15f140974826e4b89e02aa34987b771794d', version='v1.3.128'}
-CommitInfo{repo='GitHub', hash='2c9cadccd868bf32c8ddb94aa9297d3a962b7d69', version='v1.3.129'}
-CommitInfo{repo='GitHub', hash='f8bd8f1a74f8beacff8e1192eb818ac343be1ee9', version='v1.3.130'}
-CommitInfo{repo='GitHub', hash='2fb9b80f337faa821ac988663e13a2e80cb6bc65', version='v1.3.131'}
-CommitInfo{repo='GitHub', hash='3af1aa32214c9cbac27b9b07d4b5d691d2c64a38', version='v1.3.132'}
-CommitInfo{repo='GitHub', hash='445f1cd446a5146eb762dc0cf18aee886285e7a5', version='v1.3.134'}
-CommitInfo{repo='GitHub', hash='445f1cd446a5146eb762dc0cf18aee886285e7a5', version='v1.3.135'}
-CommitInfo{repo='GitHub', hash='445f1cd446a5146eb762dc0cf18aee886285e7a5', version='v1.3.136'}
-CommitInfo{repo='GitHub', hash='141276c3a3cabb4da4fc628f65ff2f0c340aeb0c', version='v1.3.140'}
-CommitInfo{repo='GitHub', hash='18f7c6b109f5e9668f1f932ad3e49e8054fca354', version='v1.3.141'}
-CommitInfo{repo='GitHub', hash='0c99bb49fda317ffc7f41c00813b8587fa93e263', version='v1.3.142'}
-CommitInfo{repo='GitHub', hash='d9d9f3f449068ad80c02d0b65ea032e80b000d8d', version='v1.4.143'}
-CommitInfo{repo='GitHub', hash='e9d80a944734b5a180b21fd64aafc98a75352b4c', version='v1.4.144'}
-CommitInfo{repo='GitHub', hash='4a76dbf98ff25a2d78a306f2862b37e65c2ffcb5', version='v1.4.147'}
-CommitInfo{repo='GitHub', hash='2dba196eff856c4f39a57921dedf40ef27bfbf57', version='v1.4.149'}
-CommitInfo{repo='GitHub', hash='0446cfbe1add3bdbe33854bcd3275b8a904d643f', version='v1.4.150'}
-CommitInfo{repo='GitHub', hash='6662bce74bfc0619932af1cca75601fb7be6764e', version='v1.4.152'}
-CommitInfo{repo='GitHub', hash='6c95cc6bd7355dcc60427a3c8b323e5daaa0fcf9', version='v1.4.153'}
-CommitInfo{repo='GitHub', hash='a3a8ead33d1b22e75c5aff6d19b5bd05087cd0de', version='v1.4.154'}
-CommitInfo{repo='GitHub', hash='28b1ef22b5a2e9d3ec0354dd8becfa2de6f3af07', version='v1.4.155'}
-CommitInfo{repo='GitHub', hash='ff669d89912b3afdede8343f17337dd5515f9055', version='v1.4.156'}
-CommitInfo{repo='GitHub', hash='ff669d89912b3afdede8343f17337dd5515f9055', version='v1.4.157'}
-CommitInfo{repo='GitHub', hash='1ed365ce396b2a0665d81b157665ab4525f5abec', version='v1.5.158'}
-CommitInfo{repo='GitHub', hash='00fb2ede3eb040dc24acc16d6f8b83b4ff8ba357', version='v1.5.159'}
-CommitInfo{repo='GitHub', hash='a990c1fd82467001475e9dc5b0a150cf21cd1bad', version='v1.5.160'}
-CommitInfo{repo='GitHub', hash='0396ba09896d3a5b53eb7159076bf5883ca886ac', version='v1.5.161'}
-CommitInfo{repo='GitHub', hash='a90ea4ac4271a08ad0cd638b65583dd44e1c53d4', version='v1.5.162'}
-CommitInfo{repo='GitHub', hash='dfb347762eaa775bc1941173c84073cc884c5eb3', version='v1.5.163'}
-CommitInfo{repo='GitHub', hash='28c6646ffa1503f567e6363be127e5636093b9bc', version='v1.6.164'}
-CommitInfo{repo='GitHub', hash='5a6e3af86bf688459fb8e7dfcce600bf1e29e8b0', version='v1.6.165'}
-CommitInfo{repo='GitHub', hash='de0541f85934b9ddda5c93e8c76e9943cc866397', version='v1.6.166'}
-CommitInfo{repo='GitHub', hash='3d1fbf633add8b383021fafa05c32f9548517f66', version='v1.6.167'}
-CommitInfo{repo='GitHub', hash='e1b276e9bcb8a86b1f3afcf0d0f5afc03fba4a36', version='v1.6.168'}
-CommitInfo{repo='GitHub', hash='6e05719346ac20e249b8f3d43cba2c902d18a9e8', version='v1.6.169'}
-CommitInfo{repo='GitHub', hash='05d896fce46d3008543cf6ffb630fda58e717e00', version='v1.6.170'}
-CommitInfo{repo='GitHub', hash='b641fd2a787a15c54227599305565a92fae7a1ad', version='v1.6.171'}
-CommitInfo{repo='GitHub', hash='5363c9f247e64f1a853607800faa3142f4d08a38', version='v1.6.172'}
-CommitInfo{repo='GitHub', hash='b4263709263ff5222596cdd1586c0caaa9a2d300', version='v1.6.173'}
-CommitInfo{repo='GitHub', hash='a3826791519c1fa69bfe125ae661903074a3e650', version='v1.6.174'}
-CommitInfo{repo='GitHub', hash='a692baeb967e12b3a435535f4f7e214ac2b2da79', version='v1.6.175'}
-CommitInfo{repo='GitHub', hash='9ef5608b9e60f172a450a3348f11e8921c72c8c5', version='v1.6.176'}
-CommitInfo{repo='GitHub', hash='af929dda8e7390e5596b72fa13cb5874e790a5fd', version='v1.6.180'}
-CommitInfo{repo='GitHub', hash='2f35c9560177c2b59d10700b47331898a2919e69', version='v1.6.181'}
-CommitInfo{repo='GitHub', hash='a650320457c65e3bdf83e44dc4d19b95af89e6e4', version='v1.6.184'}
-CommitInfo{repo='GitHub', hash='68a0253604ab09dc5b3cd45cad8ee5296eadac07', version='v1.6.185'}
-CommitInfo{repo='GitHub', hash='09f91e4b8cb848e7c4f9cba3e5154c2431f69c36', version='v1.6.186'}
-CommitInfo{repo='GitHub', hash='07dea75328de05a502264a06cef5f5026d1fb4fb', version='v1.6.187'}
-CommitInfo{repo='GitHub', hash='5070fea37cf19f0a56ec63e0fb707d640968e9bc', version='v1.6.188'}
-CommitInfo{repo='GitHub', hash='29dd591793aacbf032a5479f6be1068b4b1a3aa1', version='v1.6.189'}
-CommitInfo{repo='GitHub', hash='345e61b2a51696c005220a9f5ac6781792361cdc', version='v1.7.190'}
-CommitInfo{repo='GitHub', hash='0252e92c71e07c0d2c9cf33881b81212617ad01b', version='v1.7.191'}
-CommitInfo{repo='GitHub', hash='621ecd102bf27b1ff6d403323668a6ba8ddc32b3', version='v1.7.192'}
-CommitInfo{repo='GitHub', hash='c6af1faab30a71d58ffc9791bd458c56eaf7c3db', version='v1.7.193'}
-CommitInfo{repo='GitHub', hash='05a70d4cd0c790899c47a559e33dc7dfc3f11024', version='v1.7.194'}
-CommitInfo{repo='GitHub', hash='4c7a67ae2fceafc4475993fd01d16bdb808fc8cb', version='v1.7.200'}
-CommitInfo{repo='GitHub', hash='43b02e7c1ea1d656b6b2fc79fbed9adbc4d8d39c', version='v1.7.201'}
-CommitInfo{repo='GitHub', hash='bee5ec13c30e7d721568b721a19abc473179cef2', version='v1.8.202'}
-CommitInfo{repo='GitHub', hash='1daa88cbc56c507990fc1275a45bec5f3cc39ef7', version='v1.8.203'}
-CommitInfo{repo='GitHub', hash='79c68027683ca03a46be33f89ad8ad577aa0a602', version='v1.8.204'}
-CommitInfo{repo='GitHub', hash='da9834f1dc8de550cd8497961f91df347be883eb', version='v1.9.205'}
-CommitInfo{repo='GitHub', hash='29a59007ba78a8a6691fba3d3d65c470284979a5', version='v1.9.207'}
-CommitInfo{repo='GitHub', hash='10a64d92361005f7be5f22decf3418c566ed86c7', version='v1.9.208'}
-CommitInfo{repo='GitHub', hash='e517297f0b9391987b27a32da58d306bdc015951', version='v1.9.209'}
-CommitInfo{repo='GitHub', hash='4849dd77fc65ccaa6c33fe43c202168202bdb23c', version='v1.9.211'}
-CommitInfo{repo='GitHub', hash='0ab1a0365391232d5fb1d7d57d749653c999a94c', version='v2.0.392'}
-CommitInfo{repo='GitHub', hash='6b74fc6e6ebf0588c456387dedf9a38e8b55a309', version='v2.0.393'}
-CommitInfo{repo='GitHub', hash='63699f2a65ddb1ab9209f0e5fd59ea177a2639ed', version='v2.0.394'}
-CommitInfo{repo='GitHub', hash='77a0910895d8c76ccd0e00f360fdc91ec3126e82', version='v2.0.395'}
-CommitInfo{repo='GitHub', hash='4f39a2569bcd38bc0d3f9b83cc34a9c329d343b1', version='v2.0.396'}
-CommitInfo{repo='GitHub', hash='cf2d1d9adb0bca5505a5ce3aa528730ddc2947a8', version='v2.0.397'}
-CommitInfo{repo='GitHub', hash='39f4b73a5bdbeedbbff2439d13dd59e186e5c946', version='v2.0.400'}
-CommitInfo{repo='GitHub', hash='370bb97d9db87a24a07405db739068d7486d4259', version='v2.0.401'}
-CommitInfo{repo='GitHub', hash='9e8add6238bbf788ae822d3c68ffb23245b6b2fc', version='v2.0.402'}
-CommitInfo{repo='GitHub', hash='e7d0bb96516a99a5185a2ccce2c3ed48c51fc719', version='v2.0.403'}
-CommitInfo{repo='GitHub', hash='982ab7644c3303c56c960d2736f71af9c9643e38', version='v2.1.406'}
-CommitInfo{repo='GitHub', hash='8bb8fd68ca10d88d6c35f265d8eda61aa6fe75fe', version='v2.1.408'}
-CommitInfo{repo='GitHub', hash='7bf68dd41299f5a1ced0d42f0634d81c32e7675a', version='v2.1.410'}
-CommitInfo{repo='GitHub', hash='db09ae18ea4bee302fff923017da9ef438e9f2aa', version='v2.2.413'}
-CommitInfo{repo='GitHub', hash='54706b8be86f94cd7b4495f126b8ab3d23a6dfdd', version='v2.2.414'}
-CommitInfo{repo='GitHub', hash='6f75ecd7c0d5aa6dd4922b4e9857d5199b90d45c', version='v2.3.415'}
-CommitInfo{repo='GitHub', hash='60e8650d2f0e1cac2571395fc72b14d9779dc11c', version='v2.4.418'}
-CommitInfo{repo='GitHub', hash='e4cdcd2f2c23308b357bee669a49fc6eb3a36532', version='v2.5.423'}
-CommitInfo{repo='GitHub', hash='e4cdcd2f2c23308b357bee669a49fc6eb3a36532', version='v2.5.423'}
-CommitInfo{repo='GitHub', hash='c6228f88c49ed4ef4e820927982346199c0f9d6f', version='v2.5.424'}
-CommitInfo{repo='GitHub', hash='d86c1a9494b22504685521059bb3e7de327657ca', version='v2.6.433'}
-CommitInfo{repo='GitHub', hash='614aad263c21d97ce4ab1f9e3d42c52099c9700c', version='v2.7.447'}
-CommitInfo{repo='GitHub', hash='34a37225aeab1b4fa4981bff7000ba2ce48e6bfe', version='v2.8.449'}
-CommitInfo{repo='GitHub', hash='3abf609ff7b0c4b6ed0211ed0d0b41f9016ed898', version='v2.9.456'}
-CommitInfo{repo='GitHub', hash='24eb123eb964167f460f9f3449b9b80ed0923761', version='v2.9.458'}
-CommitInfo{repo='GitHub', hash='6723aa331390754e0df1f39b7c91cb183b4ec5fc', version='v2.9.459'}
-CommitInfo{repo='GitHub', hash='76f587e2757927793f314350600330b157b87613', version='v2.9.460'}
+CommitInfo{repo='GitHub', hash='61642398aa5f31f00774d8f3fb7e6dca83d76c14', version='v1.0.22'} 	https://github.com/vojtechhabarta/typescript-generator/commit/61642398aa5f31f00774d8f3fb7e6dca83d76c14
+CommitInfo{repo='GitHub', hash='3583c04516501771ede592d57b0cc689400aae70', version='v1.0.23'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3583c04516501771ede592d57b0cc689400aae70
+CommitInfo{repo='GitHub', hash='3583c04516501771ede592d57b0cc689400aae70', version='v1.0.25'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3583c04516501771ede592d57b0cc689400aae70
+CommitInfo{repo='GitHub', hash='3583c04516501771ede592d57b0cc689400aae70', version='v1.0.26'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3583c04516501771ede592d57b0cc689400aae70
+CommitInfo{repo='GitHub', hash='fcc907c5cea1a2cffa52f9dca9ad2f9b2bad6e53', version='v1.0.36'} 	https://github.com/vojtechhabarta/typescript-generator/commit/fcc907c5cea1a2cffa52f9dca9ad2f9b2bad6e53
+CommitInfo{repo='GitHub', hash='fcc907c5cea1a2cffa52f9dca9ad2f9b2bad6e53', version='v1.0.37'} 	https://github.com/vojtechhabarta/typescript-generator/commit/fcc907c5cea1a2cffa52f9dca9ad2f9b2bad6e53
+CommitInfo{repo='GitHub', hash='c33f4350f33e8da3432d8542856ade895edd7d04', version='v1.0.38'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c33f4350f33e8da3432d8542856ade895edd7d04
+CommitInfo{repo='GitHub', hash='c33f4350f33e8da3432d8542856ade895edd7d04', version='v1.0.41'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c33f4350f33e8da3432d8542856ade895edd7d04
+CommitInfo{repo='GitHub', hash='4daa4ff53a04fc6665d73c75f9472cb830ddb999', version='v1.0.43'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4daa4ff53a04fc6665d73c75f9472cb830ddb999
+CommitInfo{repo='GitHub', hash='57a734c84b5b68376f369361c20ceb5abc22884a', version='v1.10.212'} 	https://github.com/vojtechhabarta/typescript-generator/commit/57a734c84b5b68376f369361c20ceb5abc22884a
+CommitInfo{repo='GitHub', hash='b7786b2e2d84e91bb0253b3ee9ffdbea43e61db7', version='v1.10.213'} 	https://github.com/vojtechhabarta/typescript-generator/commit/b7786b2e2d84e91bb0253b3ee9ffdbea43e61db7
+CommitInfo{repo='GitHub', hash='8f93b3ed5a7c05e30d1e440f21e2769bc5be2605', version='v1.10.219'} 	https://github.com/vojtechhabarta/typescript-generator/commit/8f93b3ed5a7c05e30d1e440f21e2769bc5be2605
+CommitInfo{repo='GitHub', hash='3e7065ecc6eeef11e1b9912ec7eadcf34c521a1c', version='v1.10.220'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3e7065ecc6eeef11e1b9912ec7eadcf34c521a1c
+CommitInfo{repo='GitHub', hash='a564ef7d794b175355d440b5d5d7c72049967a7e', version='v1.10.223'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a564ef7d794b175355d440b5d5d7c72049967a7e
+CommitInfo{repo='GitHub', hash='c270962b8aea2506f7e61c248c21bba4db719e01', version='v1.10.225'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c270962b8aea2506f7e61c248c21bba4db719e01
+CommitInfo{repo='GitHub', hash='84da48ff91ea83e3a5229f7f00d2430db146db1f', version='v1.10.227'} 	https://github.com/vojtechhabarta/typescript-generator/commit/84da48ff91ea83e3a5229f7f00d2430db146db1f
+CommitInfo{repo='GitHub', hash='aefacac1ce13d45708cc9566c1684b40b599ba11', version='v1.10.229'} 	https://github.com/vojtechhabarta/typescript-generator/commit/aefacac1ce13d45708cc9566c1684b40b599ba11
+CommitInfo{repo='GitHub', hash='d3c8a939f38d31ecb9e1d39bc8315df2cff0c1e1', version='v1.10.230'} 	https://github.com/vojtechhabarta/typescript-generator/commit/d3c8a939f38d31ecb9e1d39bc8315df2cff0c1e1
+CommitInfo{repo='GitHub', hash='d02f89dc83b5be454716d8262064d9c0b7f20eaf', version='v1.10.231'} 	https://github.com/vojtechhabarta/typescript-generator/commit/d02f89dc83b5be454716d8262064d9c0b7f20eaf
+CommitInfo{repo='GitHub', hash='71f673a2fd563ba957fc3f28586474fb0811fe92', version='v1.11.232'} 	https://github.com/vojtechhabarta/typescript-generator/commit/71f673a2fd563ba957fc3f28586474fb0811fe92
+CommitInfo{repo='GitHub', hash='f71a04416b8ed36ce147507c445c43644367f7ca', version='v1.11.233'} 	https://github.com/vojtechhabarta/typescript-generator/commit/f71a04416b8ed36ce147507c445c43644367f7ca
+CommitInfo{repo='GitHub', hash='3a012e8fccb83c89a6c641f591d37456c10a2608', version='v1.12.236'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3a012e8fccb83c89a6c641f591d37456c10a2608
+CommitInfo{repo='GitHub', hash='9def062aae2374c35b9243143fc9d7d81d5548eb', version='v1.12.237'} 	https://github.com/vojtechhabarta/typescript-generator/commit/9def062aae2374c35b9243143fc9d7d81d5548eb
+CommitInfo{repo='GitHub', hash='68733cf6f225dbccbb005aea3045c817143fed33', version='v1.12.238'} 	https://github.com/vojtechhabarta/typescript-generator/commit/68733cf6f225dbccbb005aea3045c817143fed33
+CommitInfo{repo='GitHub', hash='a8e21dffcc83717da7e12361c832147441bc425b', version='v1.12.240'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a8e21dffcc83717da7e12361c832147441bc425b
+CommitInfo{repo='GitHub', hash='c5436cc7138d70cca452607a609d3ce5fcaecc38', version='v1.13.241'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c5436cc7138d70cca452607a609d3ce5fcaecc38
+CommitInfo{repo='GitHub', hash='2bffcf296316b1833feca201a6980518f120d639', version='v1.13.242'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2bffcf296316b1833feca201a6980518f120d639
+CommitInfo{repo='GitHub', hash='7a6317bc9884c2372da9bb0d8e2288868450ffa7', version='v1.13.243'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7a6317bc9884c2372da9bb0d8e2288868450ffa7
+CommitInfo{repo='GitHub', hash='c8616380a28097f0e9931ac21869f2a816fe5892', version='v1.13.245'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c8616380a28097f0e9931ac21869f2a816fe5892
+CommitInfo{repo='GitHub', hash='19518f4b104034d14a0e63b238473e41facedb17', version='v1.13.246'} 	https://github.com/vojtechhabarta/typescript-generator/commit/19518f4b104034d14a0e63b238473e41facedb17
+CommitInfo{repo='GitHub', hash='20684acecfedf358c5f5187a397d0bc6587e9323', version='v1.13.249'} 	https://github.com/vojtechhabarta/typescript-generator/commit/20684acecfedf358c5f5187a397d0bc6587e9323
+CommitInfo{repo='GitHub', hash='79a91113350ceb1d677298f082d6477c670d1378', version='v1.14.251'} 	https://github.com/vojtechhabarta/typescript-generator/commit/79a91113350ceb1d677298f082d6477c670d1378
+CommitInfo{repo='GitHub', hash='e23aaa08a4f792c14389678072c4aac621e5986f', version='v1.14.252'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e23aaa08a4f792c14389678072c4aac621e5986f
+CommitInfo{repo='GitHub', hash='c08bbaae91b9e4b7903b5435796a4956d2ebcff5', version='v1.14.254'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c08bbaae91b9e4b7903b5435796a4956d2ebcff5
+CommitInfo{repo='GitHub', hash='8b71d6eb351b292eb27460955cba6aca5939e3cc', version='v1.14.255'} 	https://github.com/vojtechhabarta/typescript-generator/commit/8b71d6eb351b292eb27460955cba6aca5939e3cc
+CommitInfo{repo='GitHub', hash='f20f6c75b7c0a58b7621e7a0f6e45a9e65a7d26a', version='v1.14.256'} 	https://github.com/vojtechhabarta/typescript-generator/commit/f20f6c75b7c0a58b7621e7a0f6e45a9e65a7d26a
+CommitInfo{repo='GitHub', hash='05aea6d7c1a40a747271a747a950b9d780eb8eb6', version='v1.14.257'} 	https://github.com/vojtechhabarta/typescript-generator/commit/05aea6d7c1a40a747271a747a950b9d780eb8eb6
+CommitInfo{repo='GitHub', hash='8516016fa6dc6f4b73761acfb785957a7ba6c2e0', version='v1.14.258'} 	https://github.com/vojtechhabarta/typescript-generator/commit/8516016fa6dc6f4b73761acfb785957a7ba6c2e0
+CommitInfo{repo='GitHub', hash='431acd0fde80a9b0c9b433a391cb9739d524464c', version='v1.14.259'} 	https://github.com/vojtechhabarta/typescript-generator/commit/431acd0fde80a9b0c9b433a391cb9739d524464c
+CommitInfo{repo='GitHub', hash='6f07548fd9aecf7e62b214b4d9dad608033ac18e', version='v1.14.260'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6f07548fd9aecf7e62b214b4d9dad608033ac18e
+CommitInfo{repo='GitHub', hash='b979d17629f1ae7c1f9da52fecff19e85fb3f9bc', version='v1.14.261'} 	https://github.com/vojtechhabarta/typescript-generator/commit/b979d17629f1ae7c1f9da52fecff19e85fb3f9bc
+CommitInfo{repo='GitHub', hash='5c56f7bbf8a4af38067cb89317c0a362c625d6ad', version='v1.14.262'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5c56f7bbf8a4af38067cb89317c0a362c625d6ad
+CommitInfo{repo='GitHub', hash='1579daa785f4e65f43deb2a9598dc837ff2029b6', version='v1.14.264'} 	https://github.com/vojtechhabarta/typescript-generator/commit/1579daa785f4e65f43deb2a9598dc837ff2029b6
+CommitInfo{repo='GitHub', hash='5675845dac976654d04aa52d5812085890de498b', version='v1.1.44'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5675845dac976654d04aa52d5812085890de498b
+CommitInfo{repo='GitHub', hash='5675845dac976654d04aa52d5812085890de498b', version='v1.1.45'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5675845dac976654d04aa52d5812085890de498b
+CommitInfo{repo='GitHub', hash='89aaa685b3f7cb7f45fb100f782b546ea98f8e5b', version='v1.15.265'} 	https://github.com/vojtechhabarta/typescript-generator/commit/89aaa685b3f7cb7f45fb100f782b546ea98f8e5b
+CommitInfo{repo='GitHub', hash='5b88edc34b226b3a20ed7bf9152fa570bf7a5e94', version='v1.15.266'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5b88edc34b226b3a20ed7bf9152fa570bf7a5e94
+CommitInfo{repo='GitHub', hash='8905bb5bfad253853d06ef72dbf30076e6b1dd76', version='v1.15.268'} 	https://github.com/vojtechhabarta/typescript-generator/commit/8905bb5bfad253853d06ef72dbf30076e6b1dd76
+CommitInfo{repo='GitHub', hash='a448c0e04a5c093cdbefdc8a9de472b6fee76a6d', version='v1.15.269'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a448c0e04a5c093cdbefdc8a9de472b6fee76a6d
+CommitInfo{repo='GitHub', hash='7ccf98426641dbc860f929c6ce78cdb666dca520', version='v1.15.273'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7ccf98426641dbc860f929c6ce78cdb666dca520
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.61'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.62'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='f31f2d3aa29fbc6224df6e521eedcd74ee8c12ca', version='v1.16.274'} 	https://github.com/vojtechhabarta/typescript-generator/commit/f31f2d3aa29fbc6224df6e521eedcd74ee8c12ca
+CommitInfo{repo='GitHub', hash='7df5a3f8bbfb7997146d3a349c2364030e4f04f3', version='v1.16.277'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7df5a3f8bbfb7997146d3a349c2364030e4f04f3
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.63'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.64'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.65'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.66'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.67'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.68'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.69'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.70'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.71'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='7714bf931c12f49e55a5ac1e1c5b6080788b2557', version='v1.1.72'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7714bf931c12f49e55a5ac1e1c5b6080788b2557
+CommitInfo{repo='GitHub', hash='ba024b84b52051c26469cc2392deaa455b244688', version='v1.17.282'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ba024b84b52051c26469cc2392deaa455b244688
+CommitInfo{repo='GitHub', hash='fdd88fc44778871d22e3035343ca05f25be3be9e', version='v1.17.284'} 	https://github.com/vojtechhabarta/typescript-generator/commit/fdd88fc44778871d22e3035343ca05f25be3be9e
+CommitInfo{repo='GitHub', hash='aedbeac22eb6544dfb44eed0384bed1a6f703797', version='v1.17.285'} 	https://github.com/vojtechhabarta/typescript-generator/commit/aedbeac22eb6544dfb44eed0384bed1a6f703797
+CommitInfo{repo='GitHub', hash='aabf59e5ee9cca211118732b82299b29fdc21201', version='v1.17.286'} 	https://github.com/vojtechhabarta/typescript-generator/commit/aabf59e5ee9cca211118732b82299b29fdc21201
+CommitInfo{repo='GitHub', hash='246bc8740e8def3073e75c1d96c96165a2433133', version='v1.17.287'} 	https://github.com/vojtechhabarta/typescript-generator/commit/246bc8740e8def3073e75c1d96c96165a2433133
+CommitInfo{repo='GitHub', hash='7267c31239d970ec3f62f80fa1cb44f3030b03a1', version='v1.1.73'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7267c31239d970ec3f62f80fa1cb44f3030b03a1
+CommitInfo{repo='GitHub', hash='7c9ba64891195d5dd908c82dee5dfd0b407ac852', version='v1.1.77'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7c9ba64891195d5dd908c82dee5dfd0b407ac852
+CommitInfo{repo='GitHub', hash='7c9ba64891195d5dd908c82dee5dfd0b407ac852', version='v1.1.78'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7c9ba64891195d5dd908c82dee5dfd0b407ac852
+CommitInfo{repo='GitHub', hash='2801ee784e966464f1cd6c874ea002e5b51e335b', version='v1.18.288'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2801ee784e966464f1cd6c874ea002e5b51e335b
+CommitInfo{repo='GitHub', hash='49e1e0611dadc3eb9fa1411e7b4e2c968a3c2a74', version='v1.18.289'} 	https://github.com/vojtechhabarta/typescript-generator/commit/49e1e0611dadc3eb9fa1411e7b4e2c968a3c2a74
+CommitInfo{repo='GitHub', hash='0077a052d7c57448b5da4060d9a08faab372283f', version='v1.18.290'} 	https://github.com/vojtechhabarta/typescript-generator/commit/0077a052d7c57448b5da4060d9a08faab372283f
+CommitInfo{repo='GitHub', hash='3a986226b808a77a1262c89c16850f7041d51554', version='v1.1.84'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3a986226b808a77a1262c89c16850f7041d51554
+CommitInfo{repo='GitHub', hash='9025e52cc128dbf7d705927148a48c898223324b', version='v1.1.85'} 	https://github.com/vojtechhabarta/typescript-generator/commit/9025e52cc128dbf7d705927148a48c898223324b
+CommitInfo{repo='GitHub', hash='ff8ad287679b5a042e2f1d8107ba1a974a2503ae', version='v1.1.86'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ff8ad287679b5a042e2f1d8107ba1a974a2503ae
+CommitInfo{repo='GitHub', hash='ff8ad287679b5a042e2f1d8107ba1a974a2503ae', version='v1.1.91'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ff8ad287679b5a042e2f1d8107ba1a974a2503ae
+CommitInfo{repo='GitHub', hash='ff8ad287679b5a042e2f1d8107ba1a974a2503ae', version='v1.1.92'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ff8ad287679b5a042e2f1d8107ba1a974a2503ae
+CommitInfo{repo='GitHub', hash='be96d7d7b87521ef2b65e5620038f6e329f29ba4', version='v1.19.294'} 	https://github.com/vojtechhabarta/typescript-generator/commit/be96d7d7b87521ef2b65e5620038f6e329f29ba4
+CommitInfo{repo='GitHub', hash='5beeb24c448765911a77e4560e8ac14f6c565bf5', version='v1.19.295'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5beeb24c448765911a77e4560e8ac14f6c565bf5
+CommitInfo{repo='GitHub', hash='e8ad284bbf0b150b712d11a43383946d444b5c5c', version='v1.19.296'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e8ad284bbf0b150b712d11a43383946d444b5c5c
+CommitInfo{repo='GitHub', hash='09562def86a10e0aeec3f5153c22fc1b6303c095', version='v1.19.299'} 	https://github.com/vojtechhabarta/typescript-generator/commit/09562def86a10e0aeec3f5153c22fc1b6303c095
+CommitInfo{repo='GitHub', hash='3084d05727cc9dc626d0e056abfbf0a098062884', version='v1.1.93'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3084d05727cc9dc626d0e056abfbf0a098062884
+CommitInfo{repo='GitHub', hash='7e79bd56e9fc55644272dabde713f4801a7a9c53', version='v1.1.94'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7e79bd56e9fc55644272dabde713f4801a7a9c53
+CommitInfo{repo='GitHub', hash='7e79bd56e9fc55644272dabde713f4801a7a9c53', version='v1.1.95'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7e79bd56e9fc55644272dabde713f4801a7a9c53
+CommitInfo{repo='GitHub', hash='ca3bdf8a3afcda6ade53990fdbafbff43953f192', version='v1.1.96'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ca3bdf8a3afcda6ade53990fdbafbff43953f192
+CommitInfo{repo='GitHub', hash='ca3bdf8a3afcda6ade53990fdbafbff43953f192', version='v1.1.97'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ca3bdf8a3afcda6ade53990fdbafbff43953f192
+CommitInfo{repo='GitHub', hash='78f482b65b04732ba73081f89972432ca00e722f', version='v1.1.98'} 	https://github.com/vojtechhabarta/typescript-generator/commit/78f482b65b04732ba73081f89972432ca00e722f
+CommitInfo{repo='GitHub', hash='11ed233cd3267ab67a0c70d1b72fe6008efb53b2', version='v1.20.300'} 	https://github.com/vojtechhabarta/typescript-generator/commit/11ed233cd3267ab67a0c70d1b72fe6008efb53b2
+CommitInfo{repo='GitHub', hash='78f482b65b04732ba73081f89972432ca00e722f', version='v1.2.100'} 	https://github.com/vojtechhabarta/typescript-generator/commit/78f482b65b04732ba73081f89972432ca00e722f
+CommitInfo{repo='GitHub', hash='39f7ecefe3e977f724b66e94b2ae97b4b43511c4', version='v1.2.101'} 	https://github.com/vojtechhabarta/typescript-generator/commit/39f7ecefe3e977f724b66e94b2ae97b4b43511c4
+CommitInfo{repo='GitHub', hash='c7695cecdadfe80655600a6a4403200c8b417c2b', version='v1.2.102'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c7695cecdadfe80655600a6a4403200c8b417c2b
+CommitInfo{repo='GitHub', hash='5f4fd00a07b4f4fc4e5b99ac29573b06b07f46ec', version='v1.2.103'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5f4fd00a07b4f4fc4e5b99ac29573b06b07f46ec
+CommitInfo{repo='GitHub', hash='384a94dec0c46910d2546ef5ebd1feb1236b3f2d', version='v1.2.104'} 	https://github.com/vojtechhabarta/typescript-generator/commit/384a94dec0c46910d2546ef5ebd1feb1236b3f2d
+CommitInfo{repo='GitHub', hash='d7b99e24d825290f86d0131751b4273dbc7362e8', version='v1.2.105'} 	https://github.com/vojtechhabarta/typescript-generator/commit/d7b99e24d825290f86d0131751b4273dbc7362e8
+CommitInfo{repo='GitHub', hash='8ad4d61dfd68a96310bb6cbd8bac330194da831f', version='v1.2.108'} 	https://github.com/vojtechhabarta/typescript-generator/commit/8ad4d61dfd68a96310bb6cbd8bac330194da831f
+CommitInfo{repo='GitHub', hash='cdd448da0d3470f13f500518fbc22634d7ef9be3', version='v1.2.109'} 	https://github.com/vojtechhabarta/typescript-generator/commit/cdd448da0d3470f13f500518fbc22634d7ef9be3
+CommitInfo{repo='GitHub', hash='cdd448da0d3470f13f500518fbc22634d7ef9be3', version='v1.2.110'} 	https://github.com/vojtechhabarta/typescript-generator/commit/cdd448da0d3470f13f500518fbc22634d7ef9be3
+CommitInfo{repo='GitHub', hash='cdd448da0d3470f13f500518fbc22634d7ef9be3', version='v1.2.111'} 	https://github.com/vojtechhabarta/typescript-generator/commit/cdd448da0d3470f13f500518fbc22634d7ef9be3
+CommitInfo{repo='GitHub', hash='88c3ce3bbbf33d798c77b20b4c501660e2ab2246', version='v1.2.112'} 	https://github.com/vojtechhabarta/typescript-generator/commit/88c3ce3bbbf33d798c77b20b4c501660e2ab2246
+CommitInfo{repo='GitHub', hash='88c3ce3bbbf33d798c77b20b4c501660e2ab2246', version='v1.2.113'} 	https://github.com/vojtechhabarta/typescript-generator/commit/88c3ce3bbbf33d798c77b20b4c501660e2ab2246
+CommitInfo{repo='GitHub', hash='88c3ce3bbbf33d798c77b20b4c501660e2ab2246', version='v1.2.114'} 	https://github.com/vojtechhabarta/typescript-generator/commit/88c3ce3bbbf33d798c77b20b4c501660e2ab2246
+CommitInfo{repo='GitHub', hash='c80c73fa447d2bfcd62d9d05cdcf431612ae1703', version='v1.2.115'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c80c73fa447d2bfcd62d9d05cdcf431612ae1703
+CommitInfo{repo='GitHub', hash='c80c73fa447d2bfcd62d9d05cdcf431612ae1703', version='v1.2.116'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c80c73fa447d2bfcd62d9d05cdcf431612ae1703
+CommitInfo{repo='GitHub', hash='30ba79056f55ae86f57d8eea898f5a458dac38da', version='v1.2.117'} 	https://github.com/vojtechhabarta/typescript-generator/commit/30ba79056f55ae86f57d8eea898f5a458dac38da
+CommitInfo{repo='GitHub', hash='30ba79056f55ae86f57d8eea898f5a458dac38da', version='v1.2.118'} 	https://github.com/vojtechhabarta/typescript-generator/commit/30ba79056f55ae86f57d8eea898f5a458dac38da
+CommitInfo{repo='GitHub', hash='4cba82252adb1f079d8d1b1802ef2467211a97a8', version='v1.2.119'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4cba82252adb1f079d8d1b1802ef2467211a97a8
+CommitInfo{repo='GitHub', hash='4cba82252adb1f079d8d1b1802ef2467211a97a8', version='v1.2.120'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4cba82252adb1f079d8d1b1802ef2467211a97a8
+CommitInfo{repo='GitHub', hash='dfe099f7a78e91d61399ae1309baa2d6e67ff91b', version='v1.2.121'} 	https://github.com/vojtechhabarta/typescript-generator/commit/dfe099f7a78e91d61399ae1309baa2d6e67ff91b
+CommitInfo{repo='GitHub', hash='9da64734827fd5bdcd3c91b07966986fcd213d08', version='v1.2.122'} 	https://github.com/vojtechhabarta/typescript-generator/commit/9da64734827fd5bdcd3c91b07966986fcd213d08
+CommitInfo{repo='GitHub', hash='9246b13059d61ede772692bd9865fed715076f4d', version='v1.21.303'} 	https://github.com/vojtechhabarta/typescript-generator/commit/9246b13059d61ede772692bd9865fed715076f4d
+CommitInfo{repo='GitHub', hash='b0607956febff82e04971facd884a1adff359b69', version='v1.21.304'} 	https://github.com/vojtechhabarta/typescript-generator/commit/b0607956febff82e04971facd884a1adff359b69
+CommitInfo{repo='GitHub', hash='fe6ce96be399163c195e4731725cdbceb555c87d', version='v1.21.305'} 	https://github.com/vojtechhabarta/typescript-generator/commit/fe6ce96be399163c195e4731725cdbceb555c87d
+CommitInfo{repo='GitHub', hash='a6d2c60edc90ac783d83506fbb72df6a21e6e45f', version='v1.21.306'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a6d2c60edc90ac783d83506fbb72df6a21e6e45f
+CommitInfo{repo='GitHub', hash='1cd795e23340aa82370d93225173c5d3b7ee7143', version='v1.22.307'} 	https://github.com/vojtechhabarta/typescript-generator/commit/1cd795e23340aa82370d93225173c5d3b7ee7143
+CommitInfo{repo='GitHub', hash='0be57df6badfca2c845f2ae206f7bdd7cec37169', version='v1.22.308'} 	https://github.com/vojtechhabarta/typescript-generator/commit/0be57df6badfca2c845f2ae206f7bdd7cec37169
+CommitInfo{repo='GitHub', hash='83107aae1ea98418d159337153d9908815eb1001', version='v1.23.310'} 	https://github.com/vojtechhabarta/typescript-generator/commit/83107aae1ea98418d159337153d9908815eb1001
+CommitInfo{repo='GitHub', hash='5d4adf595d900c81de5af4258e88610992507218', version='v1.23.311'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5d4adf595d900c81de5af4258e88610992507218
+CommitInfo{repo='GitHub', hash='6a8aee40240808d2cd7f8ac95bb6d4891064e02e', version='v1.24.314'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6a8aee40240808d2cd7f8ac95bb6d4891064e02e
+CommitInfo{repo='GitHub', hash='80424eb46e4408c350fbe3fcc957808d849a9ff0', version='v1.24.315'} 	https://github.com/vojtechhabarta/typescript-generator/commit/80424eb46e4408c350fbe3fcc957808d849a9ff0
+CommitInfo{repo='GitHub', hash='4a21cec600c267da5e55628d90f02f57960536f0', version='v1.24.316'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4a21cec600c267da5e55628d90f02f57960536f0
+CommitInfo{repo='GitHub', hash='e820ec780dbd52b164857055b5a2a1cc79602bcd', version='v1.24.317'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e820ec780dbd52b164857055b5a2a1cc79602bcd
+CommitInfo{repo='GitHub', hash='68de0400da1f03431030651bd9781b351a1b7511', version='v1.24.318'} 	https://github.com/vojtechhabarta/typescript-generator/commit/68de0400da1f03431030651bd9781b351a1b7511
+CommitInfo{repo='GitHub', hash='9ea922c2ec51e8174a714730bb7ef2553c6165a8', version='v1.24.319'} 	https://github.com/vojtechhabarta/typescript-generator/commit/9ea922c2ec51e8174a714730bb7ef2553c6165a8
+CommitInfo{repo='GitHub', hash='eed856e7413f96ca62aed069276be27121fc3efa', version='v1.24.320'} 	https://github.com/vojtechhabarta/typescript-generator/commit/eed856e7413f96ca62aed069276be27121fc3efa
+CommitInfo{repo='GitHub', hash='cdb989c59e1df4fe3a70e22602acfcc20e1fa5ef', version='v1.25.322'} 	https://github.com/vojtechhabarta/typescript-generator/commit/cdb989c59e1df4fe3a70e22602acfcc20e1fa5ef
+CommitInfo{repo='GitHub', hash='2275f3727bededd9203cd39b5333a5332ea917c0', version='v1.25.323'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2275f3727bededd9203cd39b5333a5332ea917c0
+CommitInfo{repo='GitHub', hash='dff4f9c730f4fe7629ce02e581cd13e297a5d620', version='v1.25.325'} 	https://github.com/vojtechhabarta/typescript-generator/commit/dff4f9c730f4fe7629ce02e581cd13e297a5d620
+CommitInfo{repo='GitHub', hash='921d591454e7e0b08bcd9a501b6ad6f605925ecf', version='v1.26.333'} 	https://github.com/vojtechhabarta/typescript-generator/commit/921d591454e7e0b08bcd9a501b6ad6f605925ecf
+CommitInfo{repo='GitHub', hash='dcc804df3e7182eef849bbf7f0f42e2a7eb3aabe', version='v1.26.334'} 	https://github.com/vojtechhabarta/typescript-generator/commit/dcc804df3e7182eef849bbf7f0f42e2a7eb3aabe
+CommitInfo{repo='GitHub', hash='404abf38acd5b50b358011660de8da6b0280dc09', version='v1.26.336'} 	https://github.com/vojtechhabarta/typescript-generator/commit/404abf38acd5b50b358011660de8da6b0280dc09
+CommitInfo{repo='GitHub', hash='22b28594442ae4228113d8a867df5451e9240947', version='v1.26.337'} 	https://github.com/vojtechhabarta/typescript-generator/commit/22b28594442ae4228113d8a867df5451e9240947
+CommitInfo{repo='GitHub', hash='d35af8140a6870436d9ff2b8f2e47164d405af58', version='v1.26.338'} 	https://github.com/vojtechhabarta/typescript-generator/commit/d35af8140a6870436d9ff2b8f2e47164d405af58
+CommitInfo{repo='GitHub', hash='9477664126b634edc8754f0ccb1ae7f38f447152', version='v1.27.339'} 	https://github.com/vojtechhabarta/typescript-generator/commit/9477664126b634edc8754f0ccb1ae7f38f447152
+CommitInfo{repo='GitHub', hash='59cfd02d01abdc41b989e8e7e3c296ab574a0c06', version='v1.27.340'} 	https://github.com/vojtechhabarta/typescript-generator/commit/59cfd02d01abdc41b989e8e7e3c296ab574a0c06
+CommitInfo{repo='GitHub', hash='6e525cead88626259e5ad376534e95c3080498a9', version='v1.27.341'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6e525cead88626259e5ad376534e95c3080498a9
+CommitInfo{repo='GitHub', hash='6ffbddd068af7bd3ba5b075073eba2d582c53bf1', version='v1.27.342'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6ffbddd068af7bd3ba5b075073eba2d582c53bf1
+CommitInfo{repo='GitHub', hash='3f5fbd4805e77dc23d7a3881083be8ac72a7b170', version='v1.28.343'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3f5fbd4805e77dc23d7a3881083be8ac72a7b170
+CommitInfo{repo='GitHub', hash='ad9fe25d368b15d7b985b8375bb79eac01654c47', version='v1.28.345'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ad9fe25d368b15d7b985b8375bb79eac01654c47
+CommitInfo{repo='GitHub', hash='08347b7dd2f36ba75e73a9e5251f186ce18fa328', version='v1.28.347'} 	https://github.com/vojtechhabarta/typescript-generator/commit/08347b7dd2f36ba75e73a9e5251f186ce18fa328
+CommitInfo{repo='GitHub', hash='230f7491f4a438d86f4ffb3a5007a0708cd260ef', version='v1.28.348'} 	https://github.com/vojtechhabarta/typescript-generator/commit/230f7491f4a438d86f4ffb3a5007a0708cd260ef
+CommitInfo{repo='GitHub', hash='c013644223f5c769879d29120985bad5e929925e', version='v1.29.355'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c013644223f5c769879d29120985bad5e929925e
+CommitInfo{repo='GitHub', hash='351eca7c12ad87af3936771f2e44fb6330d08b45', version='v1.29.356'} 	https://github.com/vojtechhabarta/typescript-generator/commit/351eca7c12ad87af3936771f2e44fb6330d08b45
+CommitInfo{repo='GitHub', hash='8e003becc56656e9f29dedf4d8a78ca614ffc54e', version='v1.29.357'} 	https://github.com/vojtechhabarta/typescript-generator/commit/8e003becc56656e9f29dedf4d8a78ca614ffc54e
+CommitInfo{repo='GitHub', hash='59ac68a3959bc66bd7016d1f49ca9df8529be019', version='v1.29.358'} 	https://github.com/vojtechhabarta/typescript-generator/commit/59ac68a3959bc66bd7016d1f49ca9df8529be019
+CommitInfo{repo='GitHub', hash='88431cb4b8a520fb107f80b2502cab666c053cf2', version='v1.29.359'} 	https://github.com/vojtechhabarta/typescript-generator/commit/88431cb4b8a520fb107f80b2502cab666c053cf2
+CommitInfo{repo='GitHub', hash='457f743307102e7179c95c44d2b598fff401473f', version='v1.29.361'} 	https://github.com/vojtechhabarta/typescript-generator/commit/457f743307102e7179c95c44d2b598fff401473f
+CommitInfo{repo='GitHub', hash='40e1caa0610416912ea4ed848b5fa2ab468bc8e9', version='v1.29.365'} 	https://github.com/vojtechhabarta/typescript-generator/commit/40e1caa0610416912ea4ed848b5fa2ab468bc8e9
+CommitInfo{repo='GitHub', hash='ccd2bbef276c1e3984e4f17a05e43f0b2ebbe04a', version='v1.29.366'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ccd2bbef276c1e3984e4f17a05e43f0b2ebbe04a
+CommitInfo{repo='GitHub', hash='ccd2bbef276c1e3984e4f17a05e43f0b2ebbe04a', version='v1.29.366'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ccd2bbef276c1e3984e4f17a05e43f0b2ebbe04a
+CommitInfo{repo='GitHub', hash='530e7dcb3f5f5a0515b5e35dd3d80fb4a6e7a019', version='v1.29.367'} 	https://github.com/vojtechhabarta/typescript-generator/commit/530e7dcb3f5f5a0515b5e35dd3d80fb4a6e7a019
+CommitInfo{repo='GitHub', hash='b909629f88eb164566bd52818da80df7ca9ac9e7', version='v1.29.368'} 	https://github.com/vojtechhabarta/typescript-generator/commit/b909629f88eb164566bd52818da80df7ca9ac9e7
+CommitInfo{repo='GitHub', hash='2d2076b39afc734b467cd04f0d75a101bd7fe627', version='v1.29.369'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2d2076b39afc734b467cd04f0d75a101bd7fe627
+CommitInfo{repo='GitHub', hash='7facc49f70056a2333af8cd8a2d65c87710341fc', version='v1.29.370'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7facc49f70056a2333af8cd8a2d65c87710341fc
+CommitInfo{repo='GitHub', hash='3c8befcd6628d486d90317dfda81399715307347', version='v1.29.371'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3c8befcd6628d486d90317dfda81399715307347
+CommitInfo{repo='GitHub', hash='e839c0d62d5c2cb502d75474d92535b1586cfc70', version='v1.29.372'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e839c0d62d5c2cb502d75474d92535b1586cfc70
+CommitInfo{repo='GitHub', hash='2d23071344abf43e3f7c8ebef126c40487ea35f0', version='v1.29.373'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2d23071344abf43e3f7c8ebef126c40487ea35f0
+CommitInfo{repo='GitHub', hash='be4d4a0af1f8e1d2e0430534a1fe73db3dd90795', version='v1.29.374'} 	https://github.com/vojtechhabarta/typescript-generator/commit/be4d4a0af1f8e1d2e0430534a1fe73db3dd90795
+CommitInfo{repo='GitHub', hash='5d3d0bc3bcc482fda28d8cf12437733beb35af22', version='v1.29.375'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5d3d0bc3bcc482fda28d8cf12437733beb35af22
+CommitInfo{repo='GitHub', hash='126e499ec1d984c9c38d27fe8013277ff6b88681', version='v1.29.376'} 	https://github.com/vojtechhabarta/typescript-generator/commit/126e499ec1d984c9c38d27fe8013277ff6b88681
+CommitInfo{repo='GitHub', hash='3ec92641c6539e7d84860ee60d885ddfcfa9865e', version='v1.29.377'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3ec92641c6539e7d84860ee60d885ddfcfa9865e
+CommitInfo{repo='GitHub', hash='597446625e1ee9ac77a1c3a0b012a8771febf5de', version='v1.29.378'} 	https://github.com/vojtechhabarta/typescript-generator/commit/597446625e1ee9ac77a1c3a0b012a8771febf5de
+CommitInfo{repo='GitHub', hash='d44a704cd00045c731f3d66de3d6a2079567af88', version='v1.29.379'} 	https://github.com/vojtechhabarta/typescript-generator/commit/d44a704cd00045c731f3d66de3d6a2079567af88
+CommitInfo{repo='GitHub', hash='78f482b65b04732ba73081f89972432ca00e722f', version='v1.2.99'} 	https://github.com/vojtechhabarta/typescript-generator/commit/78f482b65b04732ba73081f89972432ca00e722f
+CommitInfo{repo='GitHub', hash='4373f16c648da1940663c3319f36a8d7608b2bb9', version='v1.30.381'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4373f16c648da1940663c3319f36a8d7608b2bb9
+CommitInfo{repo='GitHub', hash='57c9d9f54e65f265f19ab86ff5a771b1e0a1d850', version='v1.30.383'} 	https://github.com/vojtechhabarta/typescript-generator/commit/57c9d9f54e65f265f19ab86ff5a771b1e0a1d850
+CommitInfo{repo='GitHub', hash='d25f0680d12ea67bd8adb92f62cf25170f909943', version='v1.30.385'} 	https://github.com/vojtechhabarta/typescript-generator/commit/d25f0680d12ea67bd8adb92f62cf25170f909943
+CommitInfo{repo='GitHub', hash='f98aec9326989a211a65d5ae1ed334f4b41f944c', version='v1.3.123'} 	https://github.com/vojtechhabarta/typescript-generator/commit/f98aec9326989a211a65d5ae1ed334f4b41f944c
+CommitInfo{repo='GitHub', hash='c14db62eb38230e27b0123cc5b6faf86b17de900', version='v1.3.124'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c14db62eb38230e27b0123cc5b6faf86b17de900
+CommitInfo{repo='GitHub', hash='e4c84da325123d710c88d7e3c2ab02288f45c05d', version='v1.3.127'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e4c84da325123d710c88d7e3c2ab02288f45c05d
+CommitInfo{repo='GitHub', hash='ff62f15f140974826e4b89e02aa34987b771794d', version='v1.3.128'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ff62f15f140974826e4b89e02aa34987b771794d
+CommitInfo{repo='GitHub', hash='2c9cadccd868bf32c8ddb94aa9297d3a962b7d69', version='v1.3.129'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2c9cadccd868bf32c8ddb94aa9297d3a962b7d69
+CommitInfo{repo='GitHub', hash='f8bd8f1a74f8beacff8e1192eb818ac343be1ee9', version='v1.3.130'} 	https://github.com/vojtechhabarta/typescript-generator/commit/f8bd8f1a74f8beacff8e1192eb818ac343be1ee9
+CommitInfo{repo='GitHub', hash='2fb9b80f337faa821ac988663e13a2e80cb6bc65', version='v1.3.131'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2fb9b80f337faa821ac988663e13a2e80cb6bc65
+CommitInfo{repo='GitHub', hash='3af1aa32214c9cbac27b9b07d4b5d691d2c64a38', version='v1.3.132'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3af1aa32214c9cbac27b9b07d4b5d691d2c64a38
+CommitInfo{repo='GitHub', hash='445f1cd446a5146eb762dc0cf18aee886285e7a5', version='v1.3.134'} 	https://github.com/vojtechhabarta/typescript-generator/commit/445f1cd446a5146eb762dc0cf18aee886285e7a5
+CommitInfo{repo='GitHub', hash='445f1cd446a5146eb762dc0cf18aee886285e7a5', version='v1.3.135'} 	https://github.com/vojtechhabarta/typescript-generator/commit/445f1cd446a5146eb762dc0cf18aee886285e7a5
+CommitInfo{repo='GitHub', hash='445f1cd446a5146eb762dc0cf18aee886285e7a5', version='v1.3.136'} 	https://github.com/vojtechhabarta/typescript-generator/commit/445f1cd446a5146eb762dc0cf18aee886285e7a5
+CommitInfo{repo='GitHub', hash='141276c3a3cabb4da4fc628f65ff2f0c340aeb0c', version='v1.3.140'} 	https://github.com/vojtechhabarta/typescript-generator/commit/141276c3a3cabb4da4fc628f65ff2f0c340aeb0c
+CommitInfo{repo='GitHub', hash='18f7c6b109f5e9668f1f932ad3e49e8054fca354', version='v1.3.141'} 	https://github.com/vojtechhabarta/typescript-generator/commit/18f7c6b109f5e9668f1f932ad3e49e8054fca354
+CommitInfo{repo='GitHub', hash='0c99bb49fda317ffc7f41c00813b8587fa93e263', version='v1.3.142'} 	https://github.com/vojtechhabarta/typescript-generator/commit/0c99bb49fda317ffc7f41c00813b8587fa93e263
+CommitInfo{repo='GitHub', hash='d9d9f3f449068ad80c02d0b65ea032e80b000d8d', version='v1.4.143'} 	https://github.com/vojtechhabarta/typescript-generator/commit/d9d9f3f449068ad80c02d0b65ea032e80b000d8d
+CommitInfo{repo='GitHub', hash='e9d80a944734b5a180b21fd64aafc98a75352b4c', version='v1.4.144'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e9d80a944734b5a180b21fd64aafc98a75352b4c
+CommitInfo{repo='GitHub', hash='4a76dbf98ff25a2d78a306f2862b37e65c2ffcb5', version='v1.4.147'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4a76dbf98ff25a2d78a306f2862b37e65c2ffcb5
+CommitInfo{repo='GitHub', hash='2dba196eff856c4f39a57921dedf40ef27bfbf57', version='v1.4.149'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2dba196eff856c4f39a57921dedf40ef27bfbf57
+CommitInfo{repo='GitHub', hash='0446cfbe1add3bdbe33854bcd3275b8a904d643f', version='v1.4.150'} 	https://github.com/vojtechhabarta/typescript-generator/commit/0446cfbe1add3bdbe33854bcd3275b8a904d643f
+CommitInfo{repo='GitHub', hash='6662bce74bfc0619932af1cca75601fb7be6764e', version='v1.4.152'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6662bce74bfc0619932af1cca75601fb7be6764e
+CommitInfo{repo='GitHub', hash='6c95cc6bd7355dcc60427a3c8b323e5daaa0fcf9', version='v1.4.153'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6c95cc6bd7355dcc60427a3c8b323e5daaa0fcf9
+CommitInfo{repo='GitHub', hash='a3a8ead33d1b22e75c5aff6d19b5bd05087cd0de', version='v1.4.154'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a3a8ead33d1b22e75c5aff6d19b5bd05087cd0de
+CommitInfo{repo='GitHub', hash='28b1ef22b5a2e9d3ec0354dd8becfa2de6f3af07', version='v1.4.155'} 	https://github.com/vojtechhabarta/typescript-generator/commit/28b1ef22b5a2e9d3ec0354dd8becfa2de6f3af07
+CommitInfo{repo='GitHub', hash='ff669d89912b3afdede8343f17337dd5515f9055', version='v1.4.156'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ff669d89912b3afdede8343f17337dd5515f9055
+CommitInfo{repo='GitHub', hash='ff669d89912b3afdede8343f17337dd5515f9055', version='v1.4.157'} 	https://github.com/vojtechhabarta/typescript-generator/commit/ff669d89912b3afdede8343f17337dd5515f9055
+CommitInfo{repo='GitHub', hash='1ed365ce396b2a0665d81b157665ab4525f5abec', version='v1.5.158'} 	https://github.com/vojtechhabarta/typescript-generator/commit/1ed365ce396b2a0665d81b157665ab4525f5abec
+CommitInfo{repo='GitHub', hash='00fb2ede3eb040dc24acc16d6f8b83b4ff8ba357', version='v1.5.159'} 	https://github.com/vojtechhabarta/typescript-generator/commit/00fb2ede3eb040dc24acc16d6f8b83b4ff8ba357
+CommitInfo{repo='GitHub', hash='a990c1fd82467001475e9dc5b0a150cf21cd1bad', version='v1.5.160'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a990c1fd82467001475e9dc5b0a150cf21cd1bad
+CommitInfo{repo='GitHub', hash='0396ba09896d3a5b53eb7159076bf5883ca886ac', version='v1.5.161'} 	https://github.com/vojtechhabarta/typescript-generator/commit/0396ba09896d3a5b53eb7159076bf5883ca886ac
+CommitInfo{repo='GitHub', hash='a90ea4ac4271a08ad0cd638b65583dd44e1c53d4', version='v1.5.162'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a90ea4ac4271a08ad0cd638b65583dd44e1c53d4
+CommitInfo{repo='GitHub', hash='dfb347762eaa775bc1941173c84073cc884c5eb3', version='v1.5.163'} 	https://github.com/vojtechhabarta/typescript-generator/commit/dfb347762eaa775bc1941173c84073cc884c5eb3
+CommitInfo{repo='GitHub', hash='28c6646ffa1503f567e6363be127e5636093b9bc', version='v1.6.164'} 	https://github.com/vojtechhabarta/typescript-generator/commit/28c6646ffa1503f567e6363be127e5636093b9bc
+CommitInfo{repo='GitHub', hash='5a6e3af86bf688459fb8e7dfcce600bf1e29e8b0', version='v1.6.165'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5a6e3af86bf688459fb8e7dfcce600bf1e29e8b0
+CommitInfo{repo='GitHub', hash='de0541f85934b9ddda5c93e8c76e9943cc866397', version='v1.6.166'} 	https://github.com/vojtechhabarta/typescript-generator/commit/de0541f85934b9ddda5c93e8c76e9943cc866397
+CommitInfo{repo='GitHub', hash='3d1fbf633add8b383021fafa05c32f9548517f66', version='v1.6.167'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3d1fbf633add8b383021fafa05c32f9548517f66
+CommitInfo{repo='GitHub', hash='e1b276e9bcb8a86b1f3afcf0d0f5afc03fba4a36', version='v1.6.168'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e1b276e9bcb8a86b1f3afcf0d0f5afc03fba4a36
+CommitInfo{repo='GitHub', hash='6e05719346ac20e249b8f3d43cba2c902d18a9e8', version='v1.6.169'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6e05719346ac20e249b8f3d43cba2c902d18a9e8
+CommitInfo{repo='GitHub', hash='05d896fce46d3008543cf6ffb630fda58e717e00', version='v1.6.170'} 	https://github.com/vojtechhabarta/typescript-generator/commit/05d896fce46d3008543cf6ffb630fda58e717e00
+CommitInfo{repo='GitHub', hash='b641fd2a787a15c54227599305565a92fae7a1ad', version='v1.6.171'} 	https://github.com/vojtechhabarta/typescript-generator/commit/b641fd2a787a15c54227599305565a92fae7a1ad
+CommitInfo{repo='GitHub', hash='5363c9f247e64f1a853607800faa3142f4d08a38', version='v1.6.172'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5363c9f247e64f1a853607800faa3142f4d08a38
+CommitInfo{repo='GitHub', hash='b4263709263ff5222596cdd1586c0caaa9a2d300', version='v1.6.173'} 	https://github.com/vojtechhabarta/typescript-generator/commit/b4263709263ff5222596cdd1586c0caaa9a2d300
+CommitInfo{repo='GitHub', hash='a3826791519c1fa69bfe125ae661903074a3e650', version='v1.6.174'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a3826791519c1fa69bfe125ae661903074a3e650
+CommitInfo{repo='GitHub', hash='a692baeb967e12b3a435535f4f7e214ac2b2da79', version='v1.6.175'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a692baeb967e12b3a435535f4f7e214ac2b2da79
+CommitInfo{repo='GitHub', hash='9ef5608b9e60f172a450a3348f11e8921c72c8c5', version='v1.6.176'} 	https://github.com/vojtechhabarta/typescript-generator/commit/9ef5608b9e60f172a450a3348f11e8921c72c8c5
+CommitInfo{repo='GitHub', hash='af929dda8e7390e5596b72fa13cb5874e790a5fd', version='v1.6.180'} 	https://github.com/vojtechhabarta/typescript-generator/commit/af929dda8e7390e5596b72fa13cb5874e790a5fd
+CommitInfo{repo='GitHub', hash='2f35c9560177c2b59d10700b47331898a2919e69', version='v1.6.181'} 	https://github.com/vojtechhabarta/typescript-generator/commit/2f35c9560177c2b59d10700b47331898a2919e69
+CommitInfo{repo='GitHub', hash='a650320457c65e3bdf83e44dc4d19b95af89e6e4', version='v1.6.184'} 	https://github.com/vojtechhabarta/typescript-generator/commit/a650320457c65e3bdf83e44dc4d19b95af89e6e4
+CommitInfo{repo='GitHub', hash='68a0253604ab09dc5b3cd45cad8ee5296eadac07', version='v1.6.185'} 	https://github.com/vojtechhabarta/typescript-generator/commit/68a0253604ab09dc5b3cd45cad8ee5296eadac07
+CommitInfo{repo='GitHub', hash='09f91e4b8cb848e7c4f9cba3e5154c2431f69c36', version='v1.6.186'} 	https://github.com/vojtechhabarta/typescript-generator/commit/09f91e4b8cb848e7c4f9cba3e5154c2431f69c36
+CommitInfo{repo='GitHub', hash='07dea75328de05a502264a06cef5f5026d1fb4fb', version='v1.6.187'} 	https://github.com/vojtechhabarta/typescript-generator/commit/07dea75328de05a502264a06cef5f5026d1fb4fb
+CommitInfo{repo='GitHub', hash='5070fea37cf19f0a56ec63e0fb707d640968e9bc', version='v1.6.188'} 	https://github.com/vojtechhabarta/typescript-generator/commit/5070fea37cf19f0a56ec63e0fb707d640968e9bc
+CommitInfo{repo='GitHub', hash='29dd591793aacbf032a5479f6be1068b4b1a3aa1', version='v1.6.189'} 	https://github.com/vojtechhabarta/typescript-generator/commit/29dd591793aacbf032a5479f6be1068b4b1a3aa1
+CommitInfo{repo='GitHub', hash='345e61b2a51696c005220a9f5ac6781792361cdc', version='v1.7.190'} 	https://github.com/vojtechhabarta/typescript-generator/commit/345e61b2a51696c005220a9f5ac6781792361cdc
+CommitInfo{repo='GitHub', hash='0252e92c71e07c0d2c9cf33881b81212617ad01b', version='v1.7.191'} 	https://github.com/vojtechhabarta/typescript-generator/commit/0252e92c71e07c0d2c9cf33881b81212617ad01b
+CommitInfo{repo='GitHub', hash='621ecd102bf27b1ff6d403323668a6ba8ddc32b3', version='v1.7.192'} 	https://github.com/vojtechhabarta/typescript-generator/commit/621ecd102bf27b1ff6d403323668a6ba8ddc32b3
+CommitInfo{repo='GitHub', hash='c6af1faab30a71d58ffc9791bd458c56eaf7c3db', version='v1.7.193'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c6af1faab30a71d58ffc9791bd458c56eaf7c3db
+CommitInfo{repo='GitHub', hash='05a70d4cd0c790899c47a559e33dc7dfc3f11024', version='v1.7.194'} 	https://github.com/vojtechhabarta/typescript-generator/commit/05a70d4cd0c790899c47a559e33dc7dfc3f11024
+CommitInfo{repo='GitHub', hash='4c7a67ae2fceafc4475993fd01d16bdb808fc8cb', version='v1.7.200'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4c7a67ae2fceafc4475993fd01d16bdb808fc8cb
+CommitInfo{repo='GitHub', hash='43b02e7c1ea1d656b6b2fc79fbed9adbc4d8d39c', version='v1.7.201'} 	https://github.com/vojtechhabarta/typescript-generator/commit/43b02e7c1ea1d656b6b2fc79fbed9adbc4d8d39c
+CommitInfo{repo='GitHub', hash='bee5ec13c30e7d721568b721a19abc473179cef2', version='v1.8.202'} 	https://github.com/vojtechhabarta/typescript-generator/commit/bee5ec13c30e7d721568b721a19abc473179cef2
+CommitInfo{repo='GitHub', hash='1daa88cbc56c507990fc1275a45bec5f3cc39ef7', version='v1.8.203'} 	https://github.com/vojtechhabarta/typescript-generator/commit/1daa88cbc56c507990fc1275a45bec5f3cc39ef7
+CommitInfo{repo='GitHub', hash='79c68027683ca03a46be33f89ad8ad577aa0a602', version='v1.8.204'} 	https://github.com/vojtechhabarta/typescript-generator/commit/79c68027683ca03a46be33f89ad8ad577aa0a602
+CommitInfo{repo='GitHub', hash='da9834f1dc8de550cd8497961f91df347be883eb', version='v1.9.205'} 	https://github.com/vojtechhabarta/typescript-generator/commit/da9834f1dc8de550cd8497961f91df347be883eb
+CommitInfo{repo='GitHub', hash='29a59007ba78a8a6691fba3d3d65c470284979a5', version='v1.9.207'} 	https://github.com/vojtechhabarta/typescript-generator/commit/29a59007ba78a8a6691fba3d3d65c470284979a5
+CommitInfo{repo='GitHub', hash='10a64d92361005f7be5f22decf3418c566ed86c7', version='v1.9.208'} 	https://github.com/vojtechhabarta/typescript-generator/commit/10a64d92361005f7be5f22decf3418c566ed86c7
+CommitInfo{repo='GitHub', hash='e517297f0b9391987b27a32da58d306bdc015951', version='v1.9.209'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e517297f0b9391987b27a32da58d306bdc015951
+CommitInfo{repo='GitHub', hash='4849dd77fc65ccaa6c33fe43c202168202bdb23c', version='v1.9.211'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4849dd77fc65ccaa6c33fe43c202168202bdb23c
+CommitInfo{repo='GitHub', hash='0ab1a0365391232d5fb1d7d57d749653c999a94c', version='v2.0.392'} 	https://github.com/vojtechhabarta/typescript-generator/commit/0ab1a0365391232d5fb1d7d57d749653c999a94c
+CommitInfo{repo='GitHub', hash='6b74fc6e6ebf0588c456387dedf9a38e8b55a309', version='v2.0.393'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6b74fc6e6ebf0588c456387dedf9a38e8b55a309
+CommitInfo{repo='GitHub', hash='63699f2a65ddb1ab9209f0e5fd59ea177a2639ed', version='v2.0.394'} 	https://github.com/vojtechhabarta/typescript-generator/commit/63699f2a65ddb1ab9209f0e5fd59ea177a2639ed
+CommitInfo{repo='GitHub', hash='77a0910895d8c76ccd0e00f360fdc91ec3126e82', version='v2.0.395'} 	https://github.com/vojtechhabarta/typescript-generator/commit/77a0910895d8c76ccd0e00f360fdc91ec3126e82
+CommitInfo{repo='GitHub', hash='4f39a2569bcd38bc0d3f9b83cc34a9c329d343b1', version='v2.0.396'} 	https://github.com/vojtechhabarta/typescript-generator/commit/4f39a2569bcd38bc0d3f9b83cc34a9c329d343b1
+CommitInfo{repo='GitHub', hash='cf2d1d9adb0bca5505a5ce3aa528730ddc2947a8', version='v2.0.397'} 	https://github.com/vojtechhabarta/typescript-generator/commit/cf2d1d9adb0bca5505a5ce3aa528730ddc2947a8
+CommitInfo{repo='GitHub', hash='39f4b73a5bdbeedbbff2439d13dd59e186e5c946', version='v2.0.400'} 	https://github.com/vojtechhabarta/typescript-generator/commit/39f4b73a5bdbeedbbff2439d13dd59e186e5c946
+CommitInfo{repo='GitHub', hash='370bb97d9db87a24a07405db739068d7486d4259', version='v2.0.401'} 	https://github.com/vojtechhabarta/typescript-generator/commit/370bb97d9db87a24a07405db739068d7486d4259
+CommitInfo{repo='GitHub', hash='9e8add6238bbf788ae822d3c68ffb23245b6b2fc', version='v2.0.402'} 	https://github.com/vojtechhabarta/typescript-generator/commit/9e8add6238bbf788ae822d3c68ffb23245b6b2fc
+CommitInfo{repo='GitHub', hash='e7d0bb96516a99a5185a2ccce2c3ed48c51fc719', version='v2.0.403'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e7d0bb96516a99a5185a2ccce2c3ed48c51fc719
+CommitInfo{repo='GitHub', hash='982ab7644c3303c56c960d2736f71af9c9643e38', version='v2.1.406'} 	https://github.com/vojtechhabarta/typescript-generator/commit/982ab7644c3303c56c960d2736f71af9c9643e38
+CommitInfo{repo='GitHub', hash='8bb8fd68ca10d88d6c35f265d8eda61aa6fe75fe', version='v2.1.408'} 	https://github.com/vojtechhabarta/typescript-generator/commit/8bb8fd68ca10d88d6c35f265d8eda61aa6fe75fe
+CommitInfo{repo='GitHub', hash='7bf68dd41299f5a1ced0d42f0634d81c32e7675a', version='v2.1.410'} 	https://github.com/vojtechhabarta/typescript-generator/commit/7bf68dd41299f5a1ced0d42f0634d81c32e7675a
+CommitInfo{repo='GitHub', hash='db09ae18ea4bee302fff923017da9ef438e9f2aa', version='v2.2.413'} 	https://github.com/vojtechhabarta/typescript-generator/commit/db09ae18ea4bee302fff923017da9ef438e9f2aa
+CommitInfo{repo='GitHub', hash='54706b8be86f94cd7b4495f126b8ab3d23a6dfdd', version='v2.2.414'} 	https://github.com/vojtechhabarta/typescript-generator/commit/54706b8be86f94cd7b4495f126b8ab3d23a6dfdd
+CommitInfo{repo='GitHub', hash='6f75ecd7c0d5aa6dd4922b4e9857d5199b90d45c', version='v2.3.415'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6f75ecd7c0d5aa6dd4922b4e9857d5199b90d45c
+CommitInfo{repo='GitHub', hash='60e8650d2f0e1cac2571395fc72b14d9779dc11c', version='v2.4.418'} 	https://github.com/vojtechhabarta/typescript-generator/commit/60e8650d2f0e1cac2571395fc72b14d9779dc11c
+CommitInfo{repo='GitHub', hash='e4cdcd2f2c23308b357bee669a49fc6eb3a36532', version='v2.5.423'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e4cdcd2f2c23308b357bee669a49fc6eb3a36532
+CommitInfo{repo='GitHub', hash='e4cdcd2f2c23308b357bee669a49fc6eb3a36532', version='v2.5.423'} 	https://github.com/vojtechhabarta/typescript-generator/commit/e4cdcd2f2c23308b357bee669a49fc6eb3a36532
+CommitInfo{repo='GitHub', hash='c6228f88c49ed4ef4e820927982346199c0f9d6f', version='v2.5.424'} 	https://github.com/vojtechhabarta/typescript-generator/commit/c6228f88c49ed4ef4e820927982346199c0f9d6f
+CommitInfo{repo='GitHub', hash='d86c1a9494b22504685521059bb3e7de327657ca', version='v2.6.433'} 	https://github.com/vojtechhabarta/typescript-generator/commit/d86c1a9494b22504685521059bb3e7de327657ca
+CommitInfo{repo='GitHub', hash='614aad263c21d97ce4ab1f9e3d42c52099c9700c', version='v2.7.447'} 	https://github.com/vojtechhabarta/typescript-generator/commit/614aad263c21d97ce4ab1f9e3d42c52099c9700c
+CommitInfo{repo='GitHub', hash='34a37225aeab1b4fa4981bff7000ba2ce48e6bfe', version='v2.8.449'} 	https://github.com/vojtechhabarta/typescript-generator/commit/34a37225aeab1b4fa4981bff7000ba2ce48e6bfe
+CommitInfo{repo='GitHub', hash='3abf609ff7b0c4b6ed0211ed0d0b41f9016ed898', version='v2.9.456'} 	https://github.com/vojtechhabarta/typescript-generator/commit/3abf609ff7b0c4b6ed0211ed0d0b41f9016ed898
+CommitInfo{repo='GitHub', hash='24eb123eb964167f460f9f3449b9b80ed0923761', version='v2.9.458'} 	https://github.com/vojtechhabarta/typescript-generator/commit/24eb123eb964167f460f9f3449b9b80ed0923761
+CommitInfo{repo='GitHub', hash='6723aa331390754e0df1f39b7c91cb183b4ec5fc', version='v2.9.459'} 	https://github.com/vojtechhabarta/typescript-generator/commit/6723aa331390754e0df1f39b7c91cb183b4ec5fc
+CommitInfo{repo='GitHub', hash='76f587e2757927793f314350600330b157b87613', version='v2.9.460'} 	https://github.com/vojtechhabarta/typescript-generator/commit/76f587e2757927793f314350600330b157b87613
 
 Project A:
 ProjectVersionFixed(version=1.0.37, dependency=3.3, time=2014-11-30 22:07:42 UTC),	Latest, "null"

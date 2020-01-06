@@ -2,204 +2,209 @@
 Project information
 net.java.dev.activeobjects:activeobjects (359490)	org.slf4j:slf4j-api (341980)	Package Manager: Maven
 RepoID: 20255776
+Repo Owner/Name: activeobjects/ao
+Repository type: Bitbucket
+
+ https://bitbucket.org/activeobjects/ao/commit/
+
 Tag information:
-CommitInfo{repo='Bitbucket', hash='de42b17604bd3ed955b58c6f3e15db2e0b3b3a41', version='activeobjects-parent-2.0.0-75ba9ce'}
-CommitInfo{repo='Bitbucket', hash='40b1fbdfa391f51b132825d24823e96ca37da337', version='activeobjects-parent-2.0.0-75ba9cef'}
-CommitInfo{repo='Bitbucket', hash='d1a165c5d99114639ca09b50a252fa8da481a7ef', version='v0.20'}
-CommitInfo{repo='Bitbucket', hash='a66979cbad5b7e60ae54b66596ee7931a9851dce', version='v0.21-m1'}
-CommitInfo{repo='Bitbucket', hash='2748dd70aeda61761b57cbc4bba5825dfd7e94df', version='v0.22.0'}
-CommitInfo{repo='Bitbucket', hash='34492363b2b093ffdfe63e80fc08790d84e59c8f', version='v0.22.1'}
-CommitInfo{repo='Bitbucket', hash='30f6e68ce88854df2b454dd98d3ca31534348f17', version='v0.22.2'}
-CommitInfo{repo='Bitbucket', hash='0f2a68ba721b67eb15d16d5fbf5c7a712cbb3c39', version='v0.23.0'}
-CommitInfo{repo='Bitbucket', hash='56ca50abdab50938dd78772d571f473abc309cd0', version='v0.23.0.1'}
-CommitInfo{repo='Bitbucket', hash='103fcd800120dd707371ed264e7cc2340b921221', version='v0.23.0.2'}
-CommitInfo{repo='Bitbucket', hash='06b4374d79773b8ff510d68cde3c1bd42a1b1118', version='v0.23.2'}
-CommitInfo{repo='Bitbucket', hash='811c740fbb0f2c84ef8cdbc74423b99a7177126c', version='v0.23.2.1'}
-CommitInfo{repo='Bitbucket', hash='4fd46c1b59226839ca482708b7966b6faaa5415f', version='v0.23.2.2'}
-CommitInfo{repo='Bitbucket', hash='036a19269c799b0d50c1bdb25070041f926cdf4b', version='v0.23.3'}
-CommitInfo{repo='Bitbucket', hash='231da5024d9c7bb9ac873799e843c4dfd9f116a4', version='v0.23.4'}
-CommitInfo{repo='Bitbucket', hash='9fc8d0498ababb0d38a7914c8a94159d99140caa', version='v0.23.4-m01-AO-521'}
-CommitInfo{repo='Bitbucket', hash='db4a41dfdf0c55381441e65f5df5099ca6567a37', version='v0.23.9'}
-CommitInfo{repo='Bitbucket', hash='1523176237212fa4580145c9cb73b2e9d8182aa3', version='v0.24.0'}
-CommitInfo{repo='Bitbucket', hash='07f7a1a10f61c20ca71c04d9619073692fd8d194', version='v0.24.1'}
-CommitInfo{repo='Bitbucket', hash='4f4b812c529306feb268f97ca21283592fb0404f', version='v0.24.2'}
-CommitInfo{repo='Bitbucket', hash='77ef2620dd27db5b1a2e19a90956b8e561f776f8', version='v0.24.4-m01-AO-521'}
-CommitInfo{repo='Bitbucket', hash='b89385037554cb12179ac4a51763e438b864a358', version='v0.25.0'}
-CommitInfo{repo='Bitbucket', hash='edd6ab9ac99d45617ea95311b51220deeccd785c', version='v0.25.1'}
-CommitInfo{repo='Bitbucket', hash='a4ad82a6943c96bd793cade74d4486878b4a68a6', version='v0.25.10'}
-CommitInfo{repo='Bitbucket', hash='f2f9b646690856b719ee276220b9803dc33aef79', version='v0.25.11'}
-CommitInfo{repo='Bitbucket', hash='acbdb6fd4b44bb6e90a01284a44741a4f37dcc9c', version='v0.25.11-m001'}
-CommitInfo{repo='Bitbucket', hash='f2a0a27e74dfa9b207197c810e0cfdde734f6e62', version='v0.25.12'}
-CommitInfo{repo='Bitbucket', hash='2b015a55eadfdf93a58281c61988bc0199c1e24e', version='v0.25.2'}
-CommitInfo{repo='Bitbucket', hash='aec195262d19d1891aec38c9b6555a4b8ad06a3f', version='v0.25.3'}
-CommitInfo{repo='Bitbucket', hash='6fb93c6b0b16d4e7572c578abe9518f4affb3582', version='v0.25.4'}
-CommitInfo{repo='Bitbucket', hash='e68d2d97ccd4517a2c6cda97ddc68b6a1a0820bf', version='v0.25.5'}
-CommitInfo{repo='Bitbucket', hash='ecddc936b214cd3ccca141f0660984bc55fb8b73', version='v0.25.6'}
-CommitInfo{repo='Bitbucket', hash='09f8f49e6b521bd072aa2cb76501c7f17f384b10', version='v0.25.7'}
-CommitInfo{repo='Bitbucket', hash='6e3416e417d49b53aba7a7d60fe6b730dab94dfb', version='v0.25.8'}
-CommitInfo{repo='Bitbucket', hash='914b19c0f3a59c18d925185e299927225cbafa57', version='v0.25.9'}
-CommitInfo{repo='Bitbucket', hash='207d5f87d54854719eae13f45d94b7b44aad6148', version='v0.25.9-rc001'}
-CommitInfo{repo='Bitbucket', hash='c22a98ef36218e92b18026922b8bcbafda5d1a0b', version='v0.26.0'}
-CommitInfo{repo='Bitbucket', hash='a7384981813b27276c7783028e5975f5d2d5f966', version='v0.26.1'}
-CommitInfo{repo='Bitbucket', hash='786e146d9ded470b33b453c550326ce93b8f5310', version='v0.27.0'}
-CommitInfo{repo='Bitbucket', hash='76994aa777677777d7297f828b1c30dbb3ad022b', version='v0.27.1'}
-CommitInfo{repo='Bitbucket', hash='c61273260888d4111ca04491d509ff295fe9df3c', version='v0.28.0'}
-CommitInfo{repo='Bitbucket', hash='a0dd0995eddbe9445a7a97cdc3634cc8c315ba20', version='v0.28.10'}
-CommitInfo{repo='Bitbucket', hash='58d0e5235acbadbbffbc9a59a9455c4f58394b09', version='v0.28.11'}
-CommitInfo{repo='Bitbucket', hash='8eb386af88d6bc04c9bb21b62512c27cab6c3918', version='v0.28.12'}
-CommitInfo{repo='Bitbucket', hash='ae9d710ac48d62c2164b1803058b5ab54f7955a8', version='v0.28.13'}
-CommitInfo{repo='Bitbucket', hash='f8c272b56d3787936b8f2dfaf3552efd0a8dffaa', version='v0.28.14'}
-CommitInfo{repo='Bitbucket', hash='d0dc52f629002d3584fed8a3ca7baf7138988136', version='v0.28.15'}
-CommitInfo{repo='Bitbucket', hash='d0dc52f629002d3584fed8a3ca7baf7138988136', version='v0.28.15'}
-CommitInfo{repo='Bitbucket', hash='3de5c71dd8814270259ddc5eab9ba1a4b2602449', version='v0.28.2'}
-CommitInfo{repo='Bitbucket', hash='9a5052c61478e2438866bcf35eb6d3c310bcde64', version='v0.28.3'}
-CommitInfo{repo='Bitbucket', hash='d68dc437e2abdf7fcc178cba5b3d446897335777', version='v0.28.4'}
-CommitInfo{repo='Bitbucket', hash='d92f43b0c10de1c555ed8c1a6d470ed807b7bb0a', version='v0.28.5'}
-CommitInfo{repo='Bitbucket', hash='ae4a44d7bd5e26f8c588d23d983275fc558b0911', version='v0.28.6'}
-CommitInfo{repo='Bitbucket', hash='4287ff0fab7e23cc701670bfebb1d61c8ee6af0b', version='v0.28.6-rc001'}
-CommitInfo{repo='Bitbucket', hash='1cb3f7cb900aff97bf8646df389c90bf7e09f266', version='v0.28.7'}
-CommitInfo{repo='Bitbucket', hash='2ebed2c54404d701cd065d8ff15b56ed5f2829df', version='v0.28.8'}
-CommitInfo{repo='Bitbucket', hash='67972a4cd7d253f1052ecdd6280d655ce272ac22', version='v0.28.9'}
-CommitInfo{repo='Bitbucket', hash='be2f99ebf823e7fd7f5682ca8db2dca61f09adbc', version='v0.29.0'}
-CommitInfo{repo='Bitbucket', hash='c54c34ca911beda905e51a8ee98878469a6250d6', version='v0.29.0-m001'}
-CommitInfo{repo='Bitbucket', hash='20750b3dbb5d75497c174f4b65ee663a2f5cd876', version='v0.29.0-m002'}
-CommitInfo{repo='Bitbucket', hash='df24da024805d5b9dc83fd608c7598bb7b621a4e', version='v0.29.1'}
-CommitInfo{repo='Bitbucket', hash='527584dea786caceae8d836f0f4ba9bb3738de9f', version='v0.29.2'}
-CommitInfo{repo='Bitbucket', hash='18c9e824e972535a40aa81bee63e1d876929f124', version='v0.29.3'}
-CommitInfo{repo='Bitbucket', hash='9eefd1f76652b74dad7a0efa8f646f4392adeb46', version='v0.29.4'}
-CommitInfo{repo='Bitbucket', hash='75337c57c71f4db2ca9820e2e1c072e07746c79b', version='v0.3'}
-CommitInfo{repo='Bitbucket', hash='00c589662247a1a3c7815cfdf43ab220a4c670e4', version='v0.30.0'}
-CommitInfo{repo='Bitbucket', hash='46a10dd34ae9cd18f3e3e7350368cf3c95ddec50', version='v0.30.0-m001'}
-CommitInfo{repo='Bitbucket', hash='a86a50cec377ebb202a43695e7c8bb578fdf8a68', version='v0.4'}
-CommitInfo{repo='Bitbucket', hash='335e9cf77fbb5d6ea961c3324049573fffbbf331', version='v0.5'}
-CommitInfo{repo='Bitbucket', hash='fa22af84afab6c9c652165ee700a4d97b61814e4', version='v0.5.1'}
-CommitInfo{repo='Bitbucket', hash='151c3457f04757f80fa70475962693d68a961dec', version='v0.6'}
-CommitInfo{repo='Bitbucket', hash='caaabca3a04c7af4b1015fedb24fed18b1a8febd', version='v0.6.1'}
-CommitInfo{repo='Bitbucket', hash='6ac62d526ae6db5dafcf2ff6be0a9cbf2a73ffe0', version='v0.6.2'}
-CommitInfo{repo='Bitbucket', hash='b2dc18eabd00196af8de8bbc83c88d5642442e71', version='v0.6.3'}
-CommitInfo{repo='Bitbucket', hash='1c754d19b7f311d7957ef7a94153f48afb699cef', version='v0.7'}
-CommitInfo{repo='Bitbucket', hash='9a8b4e9b44dd46bab2a7e6b03bd3c668950b2f5c', version='v0.7.1'}
-CommitInfo{repo='Bitbucket', hash='5a0231d26131d87f44d826d3f4a772be91a2cc63', version='v0.7.2'}
-CommitInfo{repo='Bitbucket', hash='4608adfeaca8f191cf7d4f47dc3a5698fdfe000e', version='v0.8'}
-CommitInfo{repo='Bitbucket', hash='c4622b1e16527ab3628eb48360afe25030089031', version='v0.8.1'}
-CommitInfo{repo='Bitbucket', hash='8d5ec578de11d555f985bd2bcbd8ba71b97328b0', version='v0.8.2'}
-CommitInfo{repo='Bitbucket', hash='6c2be132639fd56aa553b504e7b06e3b127b347e', version='v0.9'}
-CommitInfo{repo='Bitbucket', hash='42de161c874508e3b640b0d6c1cbde92f92c4f1e', version='v0.9.1'}
-CommitInfo{repo='Bitbucket', hash='7fecd81d207481baf5fcd0f299ebd6351c50c8a1', version='v0.9.10'}
-CommitInfo{repo='Bitbucket', hash='96a86b1f410e2a0b85121141f05ce04c7ac751a2', version='v0.9.11'}
-CommitInfo{repo='Bitbucket', hash='6c508c368e37ef95b967e44d0311e2c6342f01f8', version='v0.9.12'}
-CommitInfo{repo='Bitbucket', hash='02194553ccba2338313afb9eba0a801d6bb9c43c', version='v0.9.13'}
-CommitInfo{repo='Bitbucket', hash='d0a92668cdc7aaf484f4ab7da2610d4dfb7986d6', version='v0.9.14'}
-CommitInfo{repo='Bitbucket', hash='22e082e66120400b04c81f7eb96ff051b4cea450', version='v0.9.15'}
-CommitInfo{repo='Bitbucket', hash='fd2e99c8eb65364479a5770a16e3a6a9d1d0afba', version='v0.9.16'}
-CommitInfo{repo='Bitbucket', hash='260b08e31b846790aa1d8a6d4b03d28d590c8d16', version='v0.9.17'}
-CommitInfo{repo='Bitbucket', hash='354800f700995cb67aabf98267e5941b15299bc6', version='v0.9.18'}
-CommitInfo{repo='Bitbucket', hash='e2acd32f95e59b47fc5cfb9b2dc21e82616b35d4', version='v0.9.19'}
-CommitInfo{repo='Bitbucket', hash='96748ed872051ad1bf8801347e80fa36eb6f06c1', version='v0.9.2'}
-CommitInfo{repo='Bitbucket', hash='3444ac544c1bfb67b9198de2c4ba4eb3330e54a7', version='v0.9.20'}
-CommitInfo{repo='Bitbucket', hash='267be452b892e578a7a390e3d3c70fc5196d7dff', version='v0.9.21'}
-CommitInfo{repo='Bitbucket', hash='8e5a69e8fd504f9e78d5cc988748dbff06a81db9', version='v0.9.22'}
-CommitInfo{repo='Bitbucket', hash='8e5a69e8fd504f9e78d5cc988748dbff06a81db9', version='v0.9.22'}
-CommitInfo{repo='Bitbucket', hash='326c122acda97abb8e064747b41426f715851cc9', version='v0.9.23'}
-CommitInfo{repo='Bitbucket', hash='851fdf51d739b73fc9253a1951e7e211714dee8e', version='v0.9.24'}
-CommitInfo{repo='Bitbucket', hash='d5471a447e1c18f0c84fff1390ccb89fdba4dc3d', version='v0.9.25'}
-CommitInfo{repo='Bitbucket', hash='8a079f32f72148261b16e5960d8ae721933ee4de', version='v0.9.26'}
-CommitInfo{repo='Bitbucket', hash='8a079f32f72148261b16e5960d8ae721933ee4de', version='v0.9.26'}
-CommitInfo{repo='Bitbucket', hash='69fcb910a1a4d3ee639bebdc5db6175d87f4f251', version='v0.9.27'}
-CommitInfo{repo='Bitbucket', hash='75cadcffa67f86c84c656639cc95e10763b83aa5', version='v0.9.28'}
-CommitInfo{repo='Bitbucket', hash='701734ffc840338c733396aefce036db257381a7', version='v0.9.3'}
-CommitInfo{repo='Bitbucket', hash='34f5d3190a38ffdc3ebf3b1de8db186821f721f1', version='v0.9.4'}
-CommitInfo{repo='Bitbucket', hash='62ac5af62b2da0e4444c7690830e11f86ff22857', version='v0.9.5'}
-CommitInfo{repo='Bitbucket', hash='c9a04f09d89d1c093ed996ab18fef3c69805423c', version='v0.9.6'}
-CommitInfo{repo='Bitbucket', hash='1fdec1b79afb318f6dc11cefea9d075ab0a613bb', version='v0.9.7'}
-CommitInfo{repo='Bitbucket', hash='4416ae74fb85fe0a5166befad02b043a9372662c', version='v0.9.8'}
-CommitInfo{repo='Bitbucket', hash='db8a303f1d7a2a8afd866834d391d3172bb55439', version='v0.9.9'}
-CommitInfo{repo='Bitbucket', hash='fcaecc1763935b7585ba06ff97e3a17d6e1b670d', version='v0.9.9.1'}
-CommitInfo{repo='Bitbucket', hash='8a01abcf3d0e018f6741e4db2e260d197f4daa78', version='v0.9-m1'}
-CommitInfo{repo='Bitbucket', hash='b12cf8620712c71f0d68d3124dbde8efeb964e88', version='v0.9-m10'}
-CommitInfo{repo='Bitbucket', hash='595574f9add804f28c68495f0c16844289bd5098', version='v0.9-m11'}
-CommitInfo{repo='Bitbucket', hash='1b0bc7ac9c745776b20703d5214e3c25cab715f9', version='v0.9-m12'}
-CommitInfo{repo='Bitbucket', hash='7c34e57e539b53f958867bee085e04cdf8b8c1d7', version='v0.9-m13'}
-CommitInfo{repo='Bitbucket', hash='7cefc422e18927cef4172c5ac975b02837e0c0b6', version='v0.9-m14'}
-CommitInfo{repo='Bitbucket', hash='7086382c99322295a7b8cb85bb946bd5acdb001d', version='v0.9-m15'}
-CommitInfo{repo='Bitbucket', hash='776bebfa70b7937a6358d6d85299f4fdc8729651', version='v0.9-m16'}
-CommitInfo{repo='Bitbucket', hash='b86eee1310d2c1e0475a22e4cb5e1406a09418e5', version='v0.9-m17'}
-CommitInfo{repo='Bitbucket', hash='4a21ee5d2f702628b8a22e6fc8b398f9ba798cc9', version='v0.9-m18'}
-CommitInfo{repo='Bitbucket', hash='3f2c73c31249e605d8ab861401cc136d1ea0ccce', version='v0.9-m19'}
-CommitInfo{repo='Bitbucket', hash='f575c49960da161d645ed143e74e62c76ff17814', version='v0.9-m2'}
-CommitInfo{repo='Bitbucket', hash='72a1059c1090da899872c03c893408e44c97a89e', version='v0.9-m20'}
-CommitInfo{repo='Bitbucket', hash='2edaecad37c99ac1f15ddeb226a2f756cea83d32', version='v0.9-m21'}
-CommitInfo{repo='Bitbucket', hash='b68f4510eeed346dda304dd3fd5e221d476f65b4', version='v0.9-m22'}
-CommitInfo{repo='Bitbucket', hash='11b5891b782ee95b78fed81b9c1188c128b91491', version='v0.9-m23'}
-CommitInfo{repo='Bitbucket', hash='4bc893af3f61b34be0e0c2113e75efba53de6ced', version='v0.9-m24'}
-CommitInfo{repo='Bitbucket', hash='c57efdbbfcff41e6a40a3e60dd36fc6b224e97ed', version='v0.9-m25'}
-CommitInfo{repo='Bitbucket', hash='e531d8c6ef7d288621161d8e3fa9c962dce5ddf1', version='v0.9-m26'}
-CommitInfo{repo='Bitbucket', hash='486895ad32aeba98842980c4f3cad7464f739a40', version='v0.9-m27'}
-CommitInfo{repo='Bitbucket', hash='72648fa309b18295eb841b9be82dee2637da0141', version='v0.9-m28'}
-CommitInfo{repo='Bitbucket', hash='4c07b21ebc3bf43fccb59326a2c241e5d74479dd', version='v0.9-m29'}
-CommitInfo{repo='Bitbucket', hash='20aabe98a55cfeae51d7149a930843ff33cf0044', version='v0.9-m3'}
-CommitInfo{repo='Bitbucket', hash='f16bbe216c2cdd33268b703c0eee5d6b7bba2aec', version='v0.9-m30'}
-CommitInfo{repo='Bitbucket', hash='2f5510daa3839ef0071b65af87bd02e6094546cb', version='v0.9-m31'}
-CommitInfo{repo='Bitbucket', hash='f5bc06bc8dadb328be1d43fa028b47b4864f3b49', version='v0.9-m32'}
-CommitInfo{repo='Bitbucket', hash='6da7c9a99e3f6661240a2aa4df45db0103f21d37', version='v0.9-m33'}
-CommitInfo{repo='Bitbucket', hash='cd7738497d7dbd76fa69367e486b5438681ca322', version='v0.9-m34'}
-CommitInfo{repo='Bitbucket', hash='ffdea057643c23df85b6566ec4b0377a4eaa385a', version='v0.9-m35'}
-CommitInfo{repo='Bitbucket', hash='777abe59f8147d703ffb128cd2cd9b9dc2de3376', version='v0.9-m36'}
-CommitInfo{repo='Bitbucket', hash='07ed2b7233f95edb67ee7e51ff0bdbd3e0c2dbbc', version='v0.9-m37'}
-CommitInfo{repo='Bitbucket', hash='29bdd27b4ae2040d1355baf8685012e6855c3786', version='v0.9-m38'}
-CommitInfo{repo='Bitbucket', hash='5d4122f7855318192f343bafcc08eef9cbc0c6bf', version='v0.9-m39'}
-CommitInfo{repo='Bitbucket', hash='25c07bafb6be7d5c5d5ac6fac73810c41153fcef', version='v0.9-m4'}
-CommitInfo{repo='Bitbucket', hash='6502559efdb8b7a0a8bddf39110f5ee91ec0649d', version='v0.9-m40'}
-CommitInfo{repo='Bitbucket', hash='282119fd6b0288dcbbb7815bb755ee8e6dfa0011', version='v0.9-m41'}
-CommitInfo{repo='Bitbucket', hash='878f67a30440f853b5daf220dab5a76024a83ade', version='v0.9-m41.1'}
-CommitInfo{repo='Bitbucket', hash='9742351fb6f2ad9a07a8a66a279c9863cddf7a77', version='v0.9-m41.2'}
-CommitInfo{repo='Bitbucket', hash='230ce9ea315ca150818206497fad1af0aa90cdaa', version='v0.9-m41.4'}
-CommitInfo{repo='Bitbucket', hash='fc4f89fec3a578923dba8dce6f2cfd790b0b4c9b', version='v0.9-m42'}
-CommitInfo{repo='Bitbucket', hash='3e840fa80593c1063e08509fe09e19471291366b', version='v0.9-m42.3'}
-CommitInfo{repo='Bitbucket', hash='d502efb57bc85646efee7e1f65225dbeea3fb4f0', version='v0.9-m43'}
-CommitInfo{repo='Bitbucket', hash='e9f529d8ac78ac25c0fa045d2fbbf34170fe7ac4', version='v0.9-m44'}
-CommitInfo{repo='Bitbucket', hash='641d14d819ffb0b074b24b3595592cb2196ed363', version='v0.9-m45'}
-CommitInfo{repo='Bitbucket', hash='abb52b7b3f56941ce687f6560a1e790fc0d21ee9', version='v0.9-m46'}
-CommitInfo{repo='Bitbucket', hash='25d3d5f1052946ba0a89c54286c31123f98f351b', version='v0.9-m47'}
-CommitInfo{repo='Bitbucket', hash='950e14ae9a60b817b1e0f6cf9f811f2b2c03cd85', version='v0.9-m48'}
-CommitInfo{repo='Bitbucket', hash='53e43cfd4d8dde27a84dad4ff5519b77f9543ca0', version='v0.9-m49'}
-CommitInfo{repo='Bitbucket', hash='0c52d220d766a1081b4d4669e86282e3f4dd785b', version='v0.9-m5'}
-CommitInfo{repo='Bitbucket', hash='6ab0aba31b1ea6c51f06a10b10461f8b7a50805b', version='v0.9-m50'}
-CommitInfo{repo='Bitbucket', hash='daa8c62b0d8673272a4fca6974d49f5aa3d3b9b0', version='v0.9-m51'}
-CommitInfo{repo='Bitbucket', hash='11e2ea6fa075cc59bb567d5e4c0071d47c24f10b', version='v0.9-m52'}
-CommitInfo{repo='Bitbucket', hash='788aa79793b16b3a9de68e5da7408d077d9b1c5f', version='v0.9-m53'}
-CommitInfo{repo='Bitbucket', hash='ca3590c25ac330d037497220184570f333ed07fb', version='v0.9-m53.1'}
-CommitInfo{repo='Bitbucket', hash='7839693bc15e7a54cecf258d304abfe8693c9c71', version='v0.9-m53.2'}
-CommitInfo{repo='Bitbucket', hash='ad916a25d31cb2ca3d5e92ca361fcc48d8cb06df', version='v0.9-m53.3'}
-CommitInfo{repo='Bitbucket', hash='741efa11e2cd4871710cc98980561de94f55edcd', version='v0.9-m53.4'}
-CommitInfo{repo='Bitbucket', hash='af77da802386b54b1fa450ec677d90af56c29dd4', version='v0.9-m54'}
-CommitInfo{repo='Bitbucket', hash='6055ec011a95e7397f2a41b683546ea86a65fbc7', version='v0.9-m6'}
-CommitInfo{repo='Bitbucket', hash='e2aeff61e1684467eecfc4eebd8674069c575eb9', version='v0.9-m7'}
-CommitInfo{repo='Bitbucket', hash='f3d21709bf34355d1df500ad16f2d63fae486982', version='v0.9-m8'}
-CommitInfo{repo='Bitbucket', hash='8a690ed2e364a4646b0140ba1a36564b77288dfb', version='v0.9-m9'}
-CommitInfo{repo='Bitbucket', hash='f8bf23f0a719641ec9bbf840935385a7e3fb5c92', version='v1.0.0'}
-CommitInfo{repo='Bitbucket', hash='584800f011acd824a48e77fc3481237c18b96e7f', version='v1.0.1'}
-CommitInfo{repo='Bitbucket', hash='6a2e2a9a7c9ed6cebb4b635f19f7eb49f44a255b', version='v1.1.0'}
-CommitInfo{repo='Bitbucket', hash='aa3643a8411db3d64ecbdb4f7e461ca870f61750', version='v1.1.2'}
-CommitInfo{repo='Bitbucket', hash='253d94a5870d2abb14c3be0322e123d27a65e057', version='v1.1.3'}
-CommitInfo{repo='Bitbucket', hash='820aac9e49e1ec0e135385cff587bcf05eaad6c7', version='v1.1.4'}
-CommitInfo{repo='Bitbucket', hash='4b31f2dde003b7dcfcd4e5b0ba1e5f4f8bd34d67', version='v1.1.5'}
-CommitInfo{repo='Bitbucket', hash='4698052ec78e7ea4677d628d0b5ef6277c868d38', version='v1.1.6'}
-CommitInfo{repo='Bitbucket', hash='5ce44c57629d357533c308665458f1cd82387c66', version='v1.2.0'}
-CommitInfo{repo='Bitbucket', hash='f657e3d34f0b1c5e4576110379744b34b353a719', version='v1.2.0-720f0f7'}
-CommitInfo{repo='Bitbucket', hash='bac211529fd78030de4d8cbc229931a7c70ecb41', version='v1.2.1'}
-CommitInfo{repo='Bitbucket', hash='f138de8c6a0ce58ac90565bea837989fbb98dafa', version='v1.2.2'}
-CommitInfo{repo='Bitbucket', hash='02d3e327d023a77d88986fba68ee7bcd8acc98cf', version='v1.2.3'}
-CommitInfo{repo='Bitbucket', hash='a6246268c214af82bf2dd06ddc17bdcf46716edd', version='v1.3.0'}
-CommitInfo{repo='Bitbucket', hash='e93a982bf63744ce0cade425896a46256a1a3873', version='v1.4.0'}
-CommitInfo{repo='Bitbucket', hash='cf614e535d066456d2b5979149ba61bb2bb1895b', version='v1.5.0'}
-CommitInfo{repo='Bitbucket', hash='5d67aefed8ef2829659447a415e44e3cf2c69eac', version='v1.5.1'}
-CommitInfo{repo='Bitbucket', hash='0c55dff9332ba5abe39d736e0d33bed2d8de6214', version='v1.5.2'}
-CommitInfo{repo='Bitbucket', hash='8a0312e9cfe84481fba73c5cb231ad8f902e9bbb', version='v2.0.0'}
-CommitInfo{repo='Bitbucket', hash='c2f0de9e261c66b194d51d888b70d973a2407182', version='v2.0.0-bd68601'}
-CommitInfo{repo='Bitbucket', hash='23f221ebbb42fcdc6f09c673ee7a965396e1ec2f', version='v2.0.0-m01'}
-CommitInfo{repo='Bitbucket', hash='cb43317be2b1e0f01d0409191212a185dcda2ec4', version='v2.1.0-47d1f4ea'}
-CommitInfo{repo='Bitbucket', hash='be37b156107659bffee0608a0715ac773e8f112a', version='v3.0.0-m01'}
+CommitInfo{repo='Bitbucket', hash='de42b17604bd3ed955b58c6f3e15db2e0b3b3a41', version='activeobjects-parent-2.0.0-75ba9ce'} 	https://bitbucket.org/activeobjects/ao/commit/de42b17604bd3ed955b58c6f3e15db2e0b3b3a41
+CommitInfo{repo='Bitbucket', hash='40b1fbdfa391f51b132825d24823e96ca37da337', version='activeobjects-parent-2.0.0-75ba9cef'} 	https://bitbucket.org/activeobjects/ao/commit/40b1fbdfa391f51b132825d24823e96ca37da337
+CommitInfo{repo='Bitbucket', hash='d1a165c5d99114639ca09b50a252fa8da481a7ef', version='v0.20'} 	https://bitbucket.org/activeobjects/ao/commit/d1a165c5d99114639ca09b50a252fa8da481a7ef
+CommitInfo{repo='Bitbucket', hash='a66979cbad5b7e60ae54b66596ee7931a9851dce', version='v0.21-m1'} 	https://bitbucket.org/activeobjects/ao/commit/a66979cbad5b7e60ae54b66596ee7931a9851dce
+CommitInfo{repo='Bitbucket', hash='2748dd70aeda61761b57cbc4bba5825dfd7e94df', version='v0.22.0'} 	https://bitbucket.org/activeobjects/ao/commit/2748dd70aeda61761b57cbc4bba5825dfd7e94df
+CommitInfo{repo='Bitbucket', hash='34492363b2b093ffdfe63e80fc08790d84e59c8f', version='v0.22.1'} 	https://bitbucket.org/activeobjects/ao/commit/34492363b2b093ffdfe63e80fc08790d84e59c8f
+CommitInfo{repo='Bitbucket', hash='30f6e68ce88854df2b454dd98d3ca31534348f17', version='v0.22.2'} 	https://bitbucket.org/activeobjects/ao/commit/30f6e68ce88854df2b454dd98d3ca31534348f17
+CommitInfo{repo='Bitbucket', hash='0f2a68ba721b67eb15d16d5fbf5c7a712cbb3c39', version='v0.23.0'} 	https://bitbucket.org/activeobjects/ao/commit/0f2a68ba721b67eb15d16d5fbf5c7a712cbb3c39
+CommitInfo{repo='Bitbucket', hash='56ca50abdab50938dd78772d571f473abc309cd0', version='v0.23.0.1'} 	https://bitbucket.org/activeobjects/ao/commit/56ca50abdab50938dd78772d571f473abc309cd0
+CommitInfo{repo='Bitbucket', hash='103fcd800120dd707371ed264e7cc2340b921221', version='v0.23.0.2'} 	https://bitbucket.org/activeobjects/ao/commit/103fcd800120dd707371ed264e7cc2340b921221
+CommitInfo{repo='Bitbucket', hash='06b4374d79773b8ff510d68cde3c1bd42a1b1118', version='v0.23.2'} 	https://bitbucket.org/activeobjects/ao/commit/06b4374d79773b8ff510d68cde3c1bd42a1b1118
+CommitInfo{repo='Bitbucket', hash='811c740fbb0f2c84ef8cdbc74423b99a7177126c', version='v0.23.2.1'} 	https://bitbucket.org/activeobjects/ao/commit/811c740fbb0f2c84ef8cdbc74423b99a7177126c
+CommitInfo{repo='Bitbucket', hash='4fd46c1b59226839ca482708b7966b6faaa5415f', version='v0.23.2.2'} 	https://bitbucket.org/activeobjects/ao/commit/4fd46c1b59226839ca482708b7966b6faaa5415f
+CommitInfo{repo='Bitbucket', hash='036a19269c799b0d50c1bdb25070041f926cdf4b', version='v0.23.3'} 	https://bitbucket.org/activeobjects/ao/commit/036a19269c799b0d50c1bdb25070041f926cdf4b
+CommitInfo{repo='Bitbucket', hash='231da5024d9c7bb9ac873799e843c4dfd9f116a4', version='v0.23.4'} 	https://bitbucket.org/activeobjects/ao/commit/231da5024d9c7bb9ac873799e843c4dfd9f116a4
+CommitInfo{repo='Bitbucket', hash='9fc8d0498ababb0d38a7914c8a94159d99140caa', version='v0.23.4-m01-AO-521'} 	https://bitbucket.org/activeobjects/ao/commit/9fc8d0498ababb0d38a7914c8a94159d99140caa
+CommitInfo{repo='Bitbucket', hash='db4a41dfdf0c55381441e65f5df5099ca6567a37', version='v0.23.9'} 	https://bitbucket.org/activeobjects/ao/commit/db4a41dfdf0c55381441e65f5df5099ca6567a37
+CommitInfo{repo='Bitbucket', hash='1523176237212fa4580145c9cb73b2e9d8182aa3', version='v0.24.0'} 	https://bitbucket.org/activeobjects/ao/commit/1523176237212fa4580145c9cb73b2e9d8182aa3
+CommitInfo{repo='Bitbucket', hash='07f7a1a10f61c20ca71c04d9619073692fd8d194', version='v0.24.1'} 	https://bitbucket.org/activeobjects/ao/commit/07f7a1a10f61c20ca71c04d9619073692fd8d194
+CommitInfo{repo='Bitbucket', hash='4f4b812c529306feb268f97ca21283592fb0404f', version='v0.24.2'} 	https://bitbucket.org/activeobjects/ao/commit/4f4b812c529306feb268f97ca21283592fb0404f
+CommitInfo{repo='Bitbucket', hash='77ef2620dd27db5b1a2e19a90956b8e561f776f8', version='v0.24.4-m01-AO-521'} 	https://bitbucket.org/activeobjects/ao/commit/77ef2620dd27db5b1a2e19a90956b8e561f776f8
+CommitInfo{repo='Bitbucket', hash='b89385037554cb12179ac4a51763e438b864a358', version='v0.25.0'} 	https://bitbucket.org/activeobjects/ao/commit/b89385037554cb12179ac4a51763e438b864a358
+CommitInfo{repo='Bitbucket', hash='edd6ab9ac99d45617ea95311b51220deeccd785c', version='v0.25.1'} 	https://bitbucket.org/activeobjects/ao/commit/edd6ab9ac99d45617ea95311b51220deeccd785c
+CommitInfo{repo='Bitbucket', hash='a4ad82a6943c96bd793cade74d4486878b4a68a6', version='v0.25.10'} 	https://bitbucket.org/activeobjects/ao/commit/a4ad82a6943c96bd793cade74d4486878b4a68a6
+CommitInfo{repo='Bitbucket', hash='f2f9b646690856b719ee276220b9803dc33aef79', version='v0.25.11'} 	https://bitbucket.org/activeobjects/ao/commit/f2f9b646690856b719ee276220b9803dc33aef79
+CommitInfo{repo='Bitbucket', hash='acbdb6fd4b44bb6e90a01284a44741a4f37dcc9c', version='v0.25.11-m001'} 	https://bitbucket.org/activeobjects/ao/commit/acbdb6fd4b44bb6e90a01284a44741a4f37dcc9c
+CommitInfo{repo='Bitbucket', hash='f2a0a27e74dfa9b207197c810e0cfdde734f6e62', version='v0.25.12'} 	https://bitbucket.org/activeobjects/ao/commit/f2a0a27e74dfa9b207197c810e0cfdde734f6e62
+CommitInfo{repo='Bitbucket', hash='2b015a55eadfdf93a58281c61988bc0199c1e24e', version='v0.25.2'} 	https://bitbucket.org/activeobjects/ao/commit/2b015a55eadfdf93a58281c61988bc0199c1e24e
+CommitInfo{repo='Bitbucket', hash='aec195262d19d1891aec38c9b6555a4b8ad06a3f', version='v0.25.3'} 	https://bitbucket.org/activeobjects/ao/commit/aec195262d19d1891aec38c9b6555a4b8ad06a3f
+CommitInfo{repo='Bitbucket', hash='6fb93c6b0b16d4e7572c578abe9518f4affb3582', version='v0.25.4'} 	https://bitbucket.org/activeobjects/ao/commit/6fb93c6b0b16d4e7572c578abe9518f4affb3582
+CommitInfo{repo='Bitbucket', hash='e68d2d97ccd4517a2c6cda97ddc68b6a1a0820bf', version='v0.25.5'} 	https://bitbucket.org/activeobjects/ao/commit/e68d2d97ccd4517a2c6cda97ddc68b6a1a0820bf
+CommitInfo{repo='Bitbucket', hash='ecddc936b214cd3ccca141f0660984bc55fb8b73', version='v0.25.6'} 	https://bitbucket.org/activeobjects/ao/commit/ecddc936b214cd3ccca141f0660984bc55fb8b73
+CommitInfo{repo='Bitbucket', hash='09f8f49e6b521bd072aa2cb76501c7f17f384b10', version='v0.25.7'} 	https://bitbucket.org/activeobjects/ao/commit/09f8f49e6b521bd072aa2cb76501c7f17f384b10
+CommitInfo{repo='Bitbucket', hash='6e3416e417d49b53aba7a7d60fe6b730dab94dfb', version='v0.25.8'} 	https://bitbucket.org/activeobjects/ao/commit/6e3416e417d49b53aba7a7d60fe6b730dab94dfb
+CommitInfo{repo='Bitbucket', hash='914b19c0f3a59c18d925185e299927225cbafa57', version='v0.25.9'} 	https://bitbucket.org/activeobjects/ao/commit/914b19c0f3a59c18d925185e299927225cbafa57
+CommitInfo{repo='Bitbucket', hash='207d5f87d54854719eae13f45d94b7b44aad6148', version='v0.25.9-rc001'} 	https://bitbucket.org/activeobjects/ao/commit/207d5f87d54854719eae13f45d94b7b44aad6148
+CommitInfo{repo='Bitbucket', hash='c22a98ef36218e92b18026922b8bcbafda5d1a0b', version='v0.26.0'} 	https://bitbucket.org/activeobjects/ao/commit/c22a98ef36218e92b18026922b8bcbafda5d1a0b
+CommitInfo{repo='Bitbucket', hash='a7384981813b27276c7783028e5975f5d2d5f966', version='v0.26.1'} 	https://bitbucket.org/activeobjects/ao/commit/a7384981813b27276c7783028e5975f5d2d5f966
+CommitInfo{repo='Bitbucket', hash='786e146d9ded470b33b453c550326ce93b8f5310', version='v0.27.0'} 	https://bitbucket.org/activeobjects/ao/commit/786e146d9ded470b33b453c550326ce93b8f5310
+CommitInfo{repo='Bitbucket', hash='76994aa777677777d7297f828b1c30dbb3ad022b', version='v0.27.1'} 	https://bitbucket.org/activeobjects/ao/commit/76994aa777677777d7297f828b1c30dbb3ad022b
+CommitInfo{repo='Bitbucket', hash='c61273260888d4111ca04491d509ff295fe9df3c', version='v0.28.0'} 	https://bitbucket.org/activeobjects/ao/commit/c61273260888d4111ca04491d509ff295fe9df3c
+CommitInfo{repo='Bitbucket', hash='a0dd0995eddbe9445a7a97cdc3634cc8c315ba20', version='v0.28.10'} 	https://bitbucket.org/activeobjects/ao/commit/a0dd0995eddbe9445a7a97cdc3634cc8c315ba20
+CommitInfo{repo='Bitbucket', hash='58d0e5235acbadbbffbc9a59a9455c4f58394b09', version='v0.28.11'} 	https://bitbucket.org/activeobjects/ao/commit/58d0e5235acbadbbffbc9a59a9455c4f58394b09
+CommitInfo{repo='Bitbucket', hash='8eb386af88d6bc04c9bb21b62512c27cab6c3918', version='v0.28.12'} 	https://bitbucket.org/activeobjects/ao/commit/8eb386af88d6bc04c9bb21b62512c27cab6c3918
+CommitInfo{repo='Bitbucket', hash='ae9d710ac48d62c2164b1803058b5ab54f7955a8', version='v0.28.13'} 	https://bitbucket.org/activeobjects/ao/commit/ae9d710ac48d62c2164b1803058b5ab54f7955a8
+CommitInfo{repo='Bitbucket', hash='f8c272b56d3787936b8f2dfaf3552efd0a8dffaa', version='v0.28.14'} 	https://bitbucket.org/activeobjects/ao/commit/f8c272b56d3787936b8f2dfaf3552efd0a8dffaa
+CommitInfo{repo='Bitbucket', hash='d0dc52f629002d3584fed8a3ca7baf7138988136', version='v0.28.15'} 	https://bitbucket.org/activeobjects/ao/commit/d0dc52f629002d3584fed8a3ca7baf7138988136
+CommitInfo{repo='Bitbucket', hash='d0dc52f629002d3584fed8a3ca7baf7138988136', version='v0.28.15'} 	https://bitbucket.org/activeobjects/ao/commit/d0dc52f629002d3584fed8a3ca7baf7138988136
+CommitInfo{repo='Bitbucket', hash='3de5c71dd8814270259ddc5eab9ba1a4b2602449', version='v0.28.2'} 	https://bitbucket.org/activeobjects/ao/commit/3de5c71dd8814270259ddc5eab9ba1a4b2602449
+CommitInfo{repo='Bitbucket', hash='9a5052c61478e2438866bcf35eb6d3c310bcde64', version='v0.28.3'} 	https://bitbucket.org/activeobjects/ao/commit/9a5052c61478e2438866bcf35eb6d3c310bcde64
+CommitInfo{repo='Bitbucket', hash='d68dc437e2abdf7fcc178cba5b3d446897335777', version='v0.28.4'} 	https://bitbucket.org/activeobjects/ao/commit/d68dc437e2abdf7fcc178cba5b3d446897335777
+CommitInfo{repo='Bitbucket', hash='d92f43b0c10de1c555ed8c1a6d470ed807b7bb0a', version='v0.28.5'} 	https://bitbucket.org/activeobjects/ao/commit/d92f43b0c10de1c555ed8c1a6d470ed807b7bb0a
+CommitInfo{repo='Bitbucket', hash='ae4a44d7bd5e26f8c588d23d983275fc558b0911', version='v0.28.6'} 	https://bitbucket.org/activeobjects/ao/commit/ae4a44d7bd5e26f8c588d23d983275fc558b0911
+CommitInfo{repo='Bitbucket', hash='4287ff0fab7e23cc701670bfebb1d61c8ee6af0b', version='v0.28.6-rc001'} 	https://bitbucket.org/activeobjects/ao/commit/4287ff0fab7e23cc701670bfebb1d61c8ee6af0b
+CommitInfo{repo='Bitbucket', hash='1cb3f7cb900aff97bf8646df389c90bf7e09f266', version='v0.28.7'} 	https://bitbucket.org/activeobjects/ao/commit/1cb3f7cb900aff97bf8646df389c90bf7e09f266
+CommitInfo{repo='Bitbucket', hash='2ebed2c54404d701cd065d8ff15b56ed5f2829df', version='v0.28.8'} 	https://bitbucket.org/activeobjects/ao/commit/2ebed2c54404d701cd065d8ff15b56ed5f2829df
+CommitInfo{repo='Bitbucket', hash='67972a4cd7d253f1052ecdd6280d655ce272ac22', version='v0.28.9'} 	https://bitbucket.org/activeobjects/ao/commit/67972a4cd7d253f1052ecdd6280d655ce272ac22
+CommitInfo{repo='Bitbucket', hash='be2f99ebf823e7fd7f5682ca8db2dca61f09adbc', version='v0.29.0'} 	https://bitbucket.org/activeobjects/ao/commit/be2f99ebf823e7fd7f5682ca8db2dca61f09adbc
+CommitInfo{repo='Bitbucket', hash='c54c34ca911beda905e51a8ee98878469a6250d6', version='v0.29.0-m001'} 	https://bitbucket.org/activeobjects/ao/commit/c54c34ca911beda905e51a8ee98878469a6250d6
+CommitInfo{repo='Bitbucket', hash='20750b3dbb5d75497c174f4b65ee663a2f5cd876', version='v0.29.0-m002'} 	https://bitbucket.org/activeobjects/ao/commit/20750b3dbb5d75497c174f4b65ee663a2f5cd876
+CommitInfo{repo='Bitbucket', hash='df24da024805d5b9dc83fd608c7598bb7b621a4e', version='v0.29.1'} 	https://bitbucket.org/activeobjects/ao/commit/df24da024805d5b9dc83fd608c7598bb7b621a4e
+CommitInfo{repo='Bitbucket', hash='527584dea786caceae8d836f0f4ba9bb3738de9f', version='v0.29.2'} 	https://bitbucket.org/activeobjects/ao/commit/527584dea786caceae8d836f0f4ba9bb3738de9f
+CommitInfo{repo='Bitbucket', hash='18c9e824e972535a40aa81bee63e1d876929f124', version='v0.29.3'} 	https://bitbucket.org/activeobjects/ao/commit/18c9e824e972535a40aa81bee63e1d876929f124
+CommitInfo{repo='Bitbucket', hash='9eefd1f76652b74dad7a0efa8f646f4392adeb46', version='v0.29.4'} 	https://bitbucket.org/activeobjects/ao/commit/9eefd1f76652b74dad7a0efa8f646f4392adeb46
+CommitInfo{repo='Bitbucket', hash='75337c57c71f4db2ca9820e2e1c072e07746c79b', version='v0.3'} 	https://bitbucket.org/activeobjects/ao/commit/75337c57c71f4db2ca9820e2e1c072e07746c79b
+CommitInfo{repo='Bitbucket', hash='00c589662247a1a3c7815cfdf43ab220a4c670e4', version='v0.30.0'} 	https://bitbucket.org/activeobjects/ao/commit/00c589662247a1a3c7815cfdf43ab220a4c670e4
+CommitInfo{repo='Bitbucket', hash='46a10dd34ae9cd18f3e3e7350368cf3c95ddec50', version='v0.30.0-m001'} 	https://bitbucket.org/activeobjects/ao/commit/46a10dd34ae9cd18f3e3e7350368cf3c95ddec50
+CommitInfo{repo='Bitbucket', hash='a86a50cec377ebb202a43695e7c8bb578fdf8a68', version='v0.4'} 	https://bitbucket.org/activeobjects/ao/commit/a86a50cec377ebb202a43695e7c8bb578fdf8a68
+CommitInfo{repo='Bitbucket', hash='335e9cf77fbb5d6ea961c3324049573fffbbf331', version='v0.5'} 	https://bitbucket.org/activeobjects/ao/commit/335e9cf77fbb5d6ea961c3324049573fffbbf331
+CommitInfo{repo='Bitbucket', hash='fa22af84afab6c9c652165ee700a4d97b61814e4', version='v0.5.1'} 	https://bitbucket.org/activeobjects/ao/commit/fa22af84afab6c9c652165ee700a4d97b61814e4
+CommitInfo{repo='Bitbucket', hash='151c3457f04757f80fa70475962693d68a961dec', version='v0.6'} 	https://bitbucket.org/activeobjects/ao/commit/151c3457f04757f80fa70475962693d68a961dec
+CommitInfo{repo='Bitbucket', hash='caaabca3a04c7af4b1015fedb24fed18b1a8febd', version='v0.6.1'} 	https://bitbucket.org/activeobjects/ao/commit/caaabca3a04c7af4b1015fedb24fed18b1a8febd
+CommitInfo{repo='Bitbucket', hash='6ac62d526ae6db5dafcf2ff6be0a9cbf2a73ffe0', version='v0.6.2'} 	https://bitbucket.org/activeobjects/ao/commit/6ac62d526ae6db5dafcf2ff6be0a9cbf2a73ffe0
+CommitInfo{repo='Bitbucket', hash='b2dc18eabd00196af8de8bbc83c88d5642442e71', version='v0.6.3'} 	https://bitbucket.org/activeobjects/ao/commit/b2dc18eabd00196af8de8bbc83c88d5642442e71
+CommitInfo{repo='Bitbucket', hash='1c754d19b7f311d7957ef7a94153f48afb699cef', version='v0.7'} 	https://bitbucket.org/activeobjects/ao/commit/1c754d19b7f311d7957ef7a94153f48afb699cef
+CommitInfo{repo='Bitbucket', hash='9a8b4e9b44dd46bab2a7e6b03bd3c668950b2f5c', version='v0.7.1'} 	https://bitbucket.org/activeobjects/ao/commit/9a8b4e9b44dd46bab2a7e6b03bd3c668950b2f5c
+CommitInfo{repo='Bitbucket', hash='5a0231d26131d87f44d826d3f4a772be91a2cc63', version='v0.7.2'} 	https://bitbucket.org/activeobjects/ao/commit/5a0231d26131d87f44d826d3f4a772be91a2cc63
+CommitInfo{repo='Bitbucket', hash='4608adfeaca8f191cf7d4f47dc3a5698fdfe000e', version='v0.8'} 	https://bitbucket.org/activeobjects/ao/commit/4608adfeaca8f191cf7d4f47dc3a5698fdfe000e
+CommitInfo{repo='Bitbucket', hash='c4622b1e16527ab3628eb48360afe25030089031', version='v0.8.1'} 	https://bitbucket.org/activeobjects/ao/commit/c4622b1e16527ab3628eb48360afe25030089031
+CommitInfo{repo='Bitbucket', hash='8d5ec578de11d555f985bd2bcbd8ba71b97328b0', version='v0.8.2'} 	https://bitbucket.org/activeobjects/ao/commit/8d5ec578de11d555f985bd2bcbd8ba71b97328b0
+CommitInfo{repo='Bitbucket', hash='6c2be132639fd56aa553b504e7b06e3b127b347e', version='v0.9'} 	https://bitbucket.org/activeobjects/ao/commit/6c2be132639fd56aa553b504e7b06e3b127b347e
+CommitInfo{repo='Bitbucket', hash='42de161c874508e3b640b0d6c1cbde92f92c4f1e', version='v0.9.1'} 	https://bitbucket.org/activeobjects/ao/commit/42de161c874508e3b640b0d6c1cbde92f92c4f1e
+CommitInfo{repo='Bitbucket', hash='7fecd81d207481baf5fcd0f299ebd6351c50c8a1', version='v0.9.10'} 	https://bitbucket.org/activeobjects/ao/commit/7fecd81d207481baf5fcd0f299ebd6351c50c8a1
+CommitInfo{repo='Bitbucket', hash='96a86b1f410e2a0b85121141f05ce04c7ac751a2', version='v0.9.11'} 	https://bitbucket.org/activeobjects/ao/commit/96a86b1f410e2a0b85121141f05ce04c7ac751a2
+CommitInfo{repo='Bitbucket', hash='6c508c368e37ef95b967e44d0311e2c6342f01f8', version='v0.9.12'} 	https://bitbucket.org/activeobjects/ao/commit/6c508c368e37ef95b967e44d0311e2c6342f01f8
+CommitInfo{repo='Bitbucket', hash='02194553ccba2338313afb9eba0a801d6bb9c43c', version='v0.9.13'} 	https://bitbucket.org/activeobjects/ao/commit/02194553ccba2338313afb9eba0a801d6bb9c43c
+CommitInfo{repo='Bitbucket', hash='d0a92668cdc7aaf484f4ab7da2610d4dfb7986d6', version='v0.9.14'} 	https://bitbucket.org/activeobjects/ao/commit/d0a92668cdc7aaf484f4ab7da2610d4dfb7986d6
+CommitInfo{repo='Bitbucket', hash='22e082e66120400b04c81f7eb96ff051b4cea450', version='v0.9.15'} 	https://bitbucket.org/activeobjects/ao/commit/22e082e66120400b04c81f7eb96ff051b4cea450
+CommitInfo{repo='Bitbucket', hash='fd2e99c8eb65364479a5770a16e3a6a9d1d0afba', version='v0.9.16'} 	https://bitbucket.org/activeobjects/ao/commit/fd2e99c8eb65364479a5770a16e3a6a9d1d0afba
+CommitInfo{repo='Bitbucket', hash='260b08e31b846790aa1d8a6d4b03d28d590c8d16', version='v0.9.17'} 	https://bitbucket.org/activeobjects/ao/commit/260b08e31b846790aa1d8a6d4b03d28d590c8d16
+CommitInfo{repo='Bitbucket', hash='354800f700995cb67aabf98267e5941b15299bc6', version='v0.9.18'} 	https://bitbucket.org/activeobjects/ao/commit/354800f700995cb67aabf98267e5941b15299bc6
+CommitInfo{repo='Bitbucket', hash='e2acd32f95e59b47fc5cfb9b2dc21e82616b35d4', version='v0.9.19'} 	https://bitbucket.org/activeobjects/ao/commit/e2acd32f95e59b47fc5cfb9b2dc21e82616b35d4
+CommitInfo{repo='Bitbucket', hash='96748ed872051ad1bf8801347e80fa36eb6f06c1', version='v0.9.2'} 	https://bitbucket.org/activeobjects/ao/commit/96748ed872051ad1bf8801347e80fa36eb6f06c1
+CommitInfo{repo='Bitbucket', hash='3444ac544c1bfb67b9198de2c4ba4eb3330e54a7', version='v0.9.20'} 	https://bitbucket.org/activeobjects/ao/commit/3444ac544c1bfb67b9198de2c4ba4eb3330e54a7
+CommitInfo{repo='Bitbucket', hash='267be452b892e578a7a390e3d3c70fc5196d7dff', version='v0.9.21'} 	https://bitbucket.org/activeobjects/ao/commit/267be452b892e578a7a390e3d3c70fc5196d7dff
+CommitInfo{repo='Bitbucket', hash='8e5a69e8fd504f9e78d5cc988748dbff06a81db9', version='v0.9.22'} 	https://bitbucket.org/activeobjects/ao/commit/8e5a69e8fd504f9e78d5cc988748dbff06a81db9
+CommitInfo{repo='Bitbucket', hash='8e5a69e8fd504f9e78d5cc988748dbff06a81db9', version='v0.9.22'} 	https://bitbucket.org/activeobjects/ao/commit/8e5a69e8fd504f9e78d5cc988748dbff06a81db9
+CommitInfo{repo='Bitbucket', hash='326c122acda97abb8e064747b41426f715851cc9', version='v0.9.23'} 	https://bitbucket.org/activeobjects/ao/commit/326c122acda97abb8e064747b41426f715851cc9
+CommitInfo{repo='Bitbucket', hash='851fdf51d739b73fc9253a1951e7e211714dee8e', version='v0.9.24'} 	https://bitbucket.org/activeobjects/ao/commit/851fdf51d739b73fc9253a1951e7e211714dee8e
+CommitInfo{repo='Bitbucket', hash='d5471a447e1c18f0c84fff1390ccb89fdba4dc3d', version='v0.9.25'} 	https://bitbucket.org/activeobjects/ao/commit/d5471a447e1c18f0c84fff1390ccb89fdba4dc3d
+CommitInfo{repo='Bitbucket', hash='8a079f32f72148261b16e5960d8ae721933ee4de', version='v0.9.26'} 	https://bitbucket.org/activeobjects/ao/commit/8a079f32f72148261b16e5960d8ae721933ee4de
+CommitInfo{repo='Bitbucket', hash='8a079f32f72148261b16e5960d8ae721933ee4de', version='v0.9.26'} 	https://bitbucket.org/activeobjects/ao/commit/8a079f32f72148261b16e5960d8ae721933ee4de
+CommitInfo{repo='Bitbucket', hash='69fcb910a1a4d3ee639bebdc5db6175d87f4f251', version='v0.9.27'} 	https://bitbucket.org/activeobjects/ao/commit/69fcb910a1a4d3ee639bebdc5db6175d87f4f251
+CommitInfo{repo='Bitbucket', hash='75cadcffa67f86c84c656639cc95e10763b83aa5', version='v0.9.28'} 	https://bitbucket.org/activeobjects/ao/commit/75cadcffa67f86c84c656639cc95e10763b83aa5
+CommitInfo{repo='Bitbucket', hash='701734ffc840338c733396aefce036db257381a7', version='v0.9.3'} 	https://bitbucket.org/activeobjects/ao/commit/701734ffc840338c733396aefce036db257381a7
+CommitInfo{repo='Bitbucket', hash='34f5d3190a38ffdc3ebf3b1de8db186821f721f1', version='v0.9.4'} 	https://bitbucket.org/activeobjects/ao/commit/34f5d3190a38ffdc3ebf3b1de8db186821f721f1
+CommitInfo{repo='Bitbucket', hash='62ac5af62b2da0e4444c7690830e11f86ff22857', version='v0.9.5'} 	https://bitbucket.org/activeobjects/ao/commit/62ac5af62b2da0e4444c7690830e11f86ff22857
+CommitInfo{repo='Bitbucket', hash='c9a04f09d89d1c093ed996ab18fef3c69805423c', version='v0.9.6'} 	https://bitbucket.org/activeobjects/ao/commit/c9a04f09d89d1c093ed996ab18fef3c69805423c
+CommitInfo{repo='Bitbucket', hash='1fdec1b79afb318f6dc11cefea9d075ab0a613bb', version='v0.9.7'} 	https://bitbucket.org/activeobjects/ao/commit/1fdec1b79afb318f6dc11cefea9d075ab0a613bb
+CommitInfo{repo='Bitbucket', hash='4416ae74fb85fe0a5166befad02b043a9372662c', version='v0.9.8'} 	https://bitbucket.org/activeobjects/ao/commit/4416ae74fb85fe0a5166befad02b043a9372662c
+CommitInfo{repo='Bitbucket', hash='db8a303f1d7a2a8afd866834d391d3172bb55439', version='v0.9.9'} 	https://bitbucket.org/activeobjects/ao/commit/db8a303f1d7a2a8afd866834d391d3172bb55439
+CommitInfo{repo='Bitbucket', hash='fcaecc1763935b7585ba06ff97e3a17d6e1b670d', version='v0.9.9.1'} 	https://bitbucket.org/activeobjects/ao/commit/fcaecc1763935b7585ba06ff97e3a17d6e1b670d
+CommitInfo{repo='Bitbucket', hash='8a01abcf3d0e018f6741e4db2e260d197f4daa78', version='v0.9-m1'} 	https://bitbucket.org/activeobjects/ao/commit/8a01abcf3d0e018f6741e4db2e260d197f4daa78
+CommitInfo{repo='Bitbucket', hash='b12cf8620712c71f0d68d3124dbde8efeb964e88', version='v0.9-m10'} 	https://bitbucket.org/activeobjects/ao/commit/b12cf8620712c71f0d68d3124dbde8efeb964e88
+CommitInfo{repo='Bitbucket', hash='595574f9add804f28c68495f0c16844289bd5098', version='v0.9-m11'} 	https://bitbucket.org/activeobjects/ao/commit/595574f9add804f28c68495f0c16844289bd5098
+CommitInfo{repo='Bitbucket', hash='1b0bc7ac9c745776b20703d5214e3c25cab715f9', version='v0.9-m12'} 	https://bitbucket.org/activeobjects/ao/commit/1b0bc7ac9c745776b20703d5214e3c25cab715f9
+CommitInfo{repo='Bitbucket', hash='7c34e57e539b53f958867bee085e04cdf8b8c1d7', version='v0.9-m13'} 	https://bitbucket.org/activeobjects/ao/commit/7c34e57e539b53f958867bee085e04cdf8b8c1d7
+CommitInfo{repo='Bitbucket', hash='7cefc422e18927cef4172c5ac975b02837e0c0b6', version='v0.9-m14'} 	https://bitbucket.org/activeobjects/ao/commit/7cefc422e18927cef4172c5ac975b02837e0c0b6
+CommitInfo{repo='Bitbucket', hash='7086382c99322295a7b8cb85bb946bd5acdb001d', version='v0.9-m15'} 	https://bitbucket.org/activeobjects/ao/commit/7086382c99322295a7b8cb85bb946bd5acdb001d
+CommitInfo{repo='Bitbucket', hash='776bebfa70b7937a6358d6d85299f4fdc8729651', version='v0.9-m16'} 	https://bitbucket.org/activeobjects/ao/commit/776bebfa70b7937a6358d6d85299f4fdc8729651
+CommitInfo{repo='Bitbucket', hash='b86eee1310d2c1e0475a22e4cb5e1406a09418e5', version='v0.9-m17'} 	https://bitbucket.org/activeobjects/ao/commit/b86eee1310d2c1e0475a22e4cb5e1406a09418e5
+CommitInfo{repo='Bitbucket', hash='4a21ee5d2f702628b8a22e6fc8b398f9ba798cc9', version='v0.9-m18'} 	https://bitbucket.org/activeobjects/ao/commit/4a21ee5d2f702628b8a22e6fc8b398f9ba798cc9
+CommitInfo{repo='Bitbucket', hash='3f2c73c31249e605d8ab861401cc136d1ea0ccce', version='v0.9-m19'} 	https://bitbucket.org/activeobjects/ao/commit/3f2c73c31249e605d8ab861401cc136d1ea0ccce
+CommitInfo{repo='Bitbucket', hash='f575c49960da161d645ed143e74e62c76ff17814', version='v0.9-m2'} 	https://bitbucket.org/activeobjects/ao/commit/f575c49960da161d645ed143e74e62c76ff17814
+CommitInfo{repo='Bitbucket', hash='72a1059c1090da899872c03c893408e44c97a89e', version='v0.9-m20'} 	https://bitbucket.org/activeobjects/ao/commit/72a1059c1090da899872c03c893408e44c97a89e
+CommitInfo{repo='Bitbucket', hash='2edaecad37c99ac1f15ddeb226a2f756cea83d32', version='v0.9-m21'} 	https://bitbucket.org/activeobjects/ao/commit/2edaecad37c99ac1f15ddeb226a2f756cea83d32
+CommitInfo{repo='Bitbucket', hash='b68f4510eeed346dda304dd3fd5e221d476f65b4', version='v0.9-m22'} 	https://bitbucket.org/activeobjects/ao/commit/b68f4510eeed346dda304dd3fd5e221d476f65b4
+CommitInfo{repo='Bitbucket', hash='11b5891b782ee95b78fed81b9c1188c128b91491', version='v0.9-m23'} 	https://bitbucket.org/activeobjects/ao/commit/11b5891b782ee95b78fed81b9c1188c128b91491
+CommitInfo{repo='Bitbucket', hash='4bc893af3f61b34be0e0c2113e75efba53de6ced', version='v0.9-m24'} 	https://bitbucket.org/activeobjects/ao/commit/4bc893af3f61b34be0e0c2113e75efba53de6ced
+CommitInfo{repo='Bitbucket', hash='c57efdbbfcff41e6a40a3e60dd36fc6b224e97ed', version='v0.9-m25'} 	https://bitbucket.org/activeobjects/ao/commit/c57efdbbfcff41e6a40a3e60dd36fc6b224e97ed
+CommitInfo{repo='Bitbucket', hash='e531d8c6ef7d288621161d8e3fa9c962dce5ddf1', version='v0.9-m26'} 	https://bitbucket.org/activeobjects/ao/commit/e531d8c6ef7d288621161d8e3fa9c962dce5ddf1
+CommitInfo{repo='Bitbucket', hash='486895ad32aeba98842980c4f3cad7464f739a40', version='v0.9-m27'} 	https://bitbucket.org/activeobjects/ao/commit/486895ad32aeba98842980c4f3cad7464f739a40
+CommitInfo{repo='Bitbucket', hash='72648fa309b18295eb841b9be82dee2637da0141', version='v0.9-m28'} 	https://bitbucket.org/activeobjects/ao/commit/72648fa309b18295eb841b9be82dee2637da0141
+CommitInfo{repo='Bitbucket', hash='4c07b21ebc3bf43fccb59326a2c241e5d74479dd', version='v0.9-m29'} 	https://bitbucket.org/activeobjects/ao/commit/4c07b21ebc3bf43fccb59326a2c241e5d74479dd
+CommitInfo{repo='Bitbucket', hash='20aabe98a55cfeae51d7149a930843ff33cf0044', version='v0.9-m3'} 	https://bitbucket.org/activeobjects/ao/commit/20aabe98a55cfeae51d7149a930843ff33cf0044
+CommitInfo{repo='Bitbucket', hash='f16bbe216c2cdd33268b703c0eee5d6b7bba2aec', version='v0.9-m30'} 	https://bitbucket.org/activeobjects/ao/commit/f16bbe216c2cdd33268b703c0eee5d6b7bba2aec
+CommitInfo{repo='Bitbucket', hash='2f5510daa3839ef0071b65af87bd02e6094546cb', version='v0.9-m31'} 	https://bitbucket.org/activeobjects/ao/commit/2f5510daa3839ef0071b65af87bd02e6094546cb
+CommitInfo{repo='Bitbucket', hash='f5bc06bc8dadb328be1d43fa028b47b4864f3b49', version='v0.9-m32'} 	https://bitbucket.org/activeobjects/ao/commit/f5bc06bc8dadb328be1d43fa028b47b4864f3b49
+CommitInfo{repo='Bitbucket', hash='6da7c9a99e3f6661240a2aa4df45db0103f21d37', version='v0.9-m33'} 	https://bitbucket.org/activeobjects/ao/commit/6da7c9a99e3f6661240a2aa4df45db0103f21d37
+CommitInfo{repo='Bitbucket', hash='cd7738497d7dbd76fa69367e486b5438681ca322', version='v0.9-m34'} 	https://bitbucket.org/activeobjects/ao/commit/cd7738497d7dbd76fa69367e486b5438681ca322
+CommitInfo{repo='Bitbucket', hash='ffdea057643c23df85b6566ec4b0377a4eaa385a', version='v0.9-m35'} 	https://bitbucket.org/activeobjects/ao/commit/ffdea057643c23df85b6566ec4b0377a4eaa385a
+CommitInfo{repo='Bitbucket', hash='777abe59f8147d703ffb128cd2cd9b9dc2de3376', version='v0.9-m36'} 	https://bitbucket.org/activeobjects/ao/commit/777abe59f8147d703ffb128cd2cd9b9dc2de3376
+CommitInfo{repo='Bitbucket', hash='07ed2b7233f95edb67ee7e51ff0bdbd3e0c2dbbc', version='v0.9-m37'} 	https://bitbucket.org/activeobjects/ao/commit/07ed2b7233f95edb67ee7e51ff0bdbd3e0c2dbbc
+CommitInfo{repo='Bitbucket', hash='29bdd27b4ae2040d1355baf8685012e6855c3786', version='v0.9-m38'} 	https://bitbucket.org/activeobjects/ao/commit/29bdd27b4ae2040d1355baf8685012e6855c3786
+CommitInfo{repo='Bitbucket', hash='5d4122f7855318192f343bafcc08eef9cbc0c6bf', version='v0.9-m39'} 	https://bitbucket.org/activeobjects/ao/commit/5d4122f7855318192f343bafcc08eef9cbc0c6bf
+CommitInfo{repo='Bitbucket', hash='25c07bafb6be7d5c5d5ac6fac73810c41153fcef', version='v0.9-m4'} 	https://bitbucket.org/activeobjects/ao/commit/25c07bafb6be7d5c5d5ac6fac73810c41153fcef
+CommitInfo{repo='Bitbucket', hash='6502559efdb8b7a0a8bddf39110f5ee91ec0649d', version='v0.9-m40'} 	https://bitbucket.org/activeobjects/ao/commit/6502559efdb8b7a0a8bddf39110f5ee91ec0649d
+CommitInfo{repo='Bitbucket', hash='282119fd6b0288dcbbb7815bb755ee8e6dfa0011', version='v0.9-m41'} 	https://bitbucket.org/activeobjects/ao/commit/282119fd6b0288dcbbb7815bb755ee8e6dfa0011
+CommitInfo{repo='Bitbucket', hash='878f67a30440f853b5daf220dab5a76024a83ade', version='v0.9-m41.1'} 	https://bitbucket.org/activeobjects/ao/commit/878f67a30440f853b5daf220dab5a76024a83ade
+CommitInfo{repo='Bitbucket', hash='9742351fb6f2ad9a07a8a66a279c9863cddf7a77', version='v0.9-m41.2'} 	https://bitbucket.org/activeobjects/ao/commit/9742351fb6f2ad9a07a8a66a279c9863cddf7a77
+CommitInfo{repo='Bitbucket', hash='230ce9ea315ca150818206497fad1af0aa90cdaa', version='v0.9-m41.4'} 	https://bitbucket.org/activeobjects/ao/commit/230ce9ea315ca150818206497fad1af0aa90cdaa
+CommitInfo{repo='Bitbucket', hash='fc4f89fec3a578923dba8dce6f2cfd790b0b4c9b', version='v0.9-m42'} 	https://bitbucket.org/activeobjects/ao/commit/fc4f89fec3a578923dba8dce6f2cfd790b0b4c9b
+CommitInfo{repo='Bitbucket', hash='3e840fa80593c1063e08509fe09e19471291366b', version='v0.9-m42.3'} 	https://bitbucket.org/activeobjects/ao/commit/3e840fa80593c1063e08509fe09e19471291366b
+CommitInfo{repo='Bitbucket', hash='d502efb57bc85646efee7e1f65225dbeea3fb4f0', version='v0.9-m43'} 	https://bitbucket.org/activeobjects/ao/commit/d502efb57bc85646efee7e1f65225dbeea3fb4f0
+CommitInfo{repo='Bitbucket', hash='e9f529d8ac78ac25c0fa045d2fbbf34170fe7ac4', version='v0.9-m44'} 	https://bitbucket.org/activeobjects/ao/commit/e9f529d8ac78ac25c0fa045d2fbbf34170fe7ac4
+CommitInfo{repo='Bitbucket', hash='641d14d819ffb0b074b24b3595592cb2196ed363', version='v0.9-m45'} 	https://bitbucket.org/activeobjects/ao/commit/641d14d819ffb0b074b24b3595592cb2196ed363
+CommitInfo{repo='Bitbucket', hash='abb52b7b3f56941ce687f6560a1e790fc0d21ee9', version='v0.9-m46'} 	https://bitbucket.org/activeobjects/ao/commit/abb52b7b3f56941ce687f6560a1e790fc0d21ee9
+CommitInfo{repo='Bitbucket', hash='25d3d5f1052946ba0a89c54286c31123f98f351b', version='v0.9-m47'} 	https://bitbucket.org/activeobjects/ao/commit/25d3d5f1052946ba0a89c54286c31123f98f351b
+CommitInfo{repo='Bitbucket', hash='950e14ae9a60b817b1e0f6cf9f811f2b2c03cd85', version='v0.9-m48'} 	https://bitbucket.org/activeobjects/ao/commit/950e14ae9a60b817b1e0f6cf9f811f2b2c03cd85
+CommitInfo{repo='Bitbucket', hash='53e43cfd4d8dde27a84dad4ff5519b77f9543ca0', version='v0.9-m49'} 	https://bitbucket.org/activeobjects/ao/commit/53e43cfd4d8dde27a84dad4ff5519b77f9543ca0
+CommitInfo{repo='Bitbucket', hash='0c52d220d766a1081b4d4669e86282e3f4dd785b', version='v0.9-m5'} 	https://bitbucket.org/activeobjects/ao/commit/0c52d220d766a1081b4d4669e86282e3f4dd785b
+CommitInfo{repo='Bitbucket', hash='6ab0aba31b1ea6c51f06a10b10461f8b7a50805b', version='v0.9-m50'} 	https://bitbucket.org/activeobjects/ao/commit/6ab0aba31b1ea6c51f06a10b10461f8b7a50805b
+CommitInfo{repo='Bitbucket', hash='daa8c62b0d8673272a4fca6974d49f5aa3d3b9b0', version='v0.9-m51'} 	https://bitbucket.org/activeobjects/ao/commit/daa8c62b0d8673272a4fca6974d49f5aa3d3b9b0
+CommitInfo{repo='Bitbucket', hash='11e2ea6fa075cc59bb567d5e4c0071d47c24f10b', version='v0.9-m52'} 	https://bitbucket.org/activeobjects/ao/commit/11e2ea6fa075cc59bb567d5e4c0071d47c24f10b
+CommitInfo{repo='Bitbucket', hash='788aa79793b16b3a9de68e5da7408d077d9b1c5f', version='v0.9-m53'} 	https://bitbucket.org/activeobjects/ao/commit/788aa79793b16b3a9de68e5da7408d077d9b1c5f
+CommitInfo{repo='Bitbucket', hash='ca3590c25ac330d037497220184570f333ed07fb', version='v0.9-m53.1'} 	https://bitbucket.org/activeobjects/ao/commit/ca3590c25ac330d037497220184570f333ed07fb
+CommitInfo{repo='Bitbucket', hash='7839693bc15e7a54cecf258d304abfe8693c9c71', version='v0.9-m53.2'} 	https://bitbucket.org/activeobjects/ao/commit/7839693bc15e7a54cecf258d304abfe8693c9c71
+CommitInfo{repo='Bitbucket', hash='ad916a25d31cb2ca3d5e92ca361fcc48d8cb06df', version='v0.9-m53.3'} 	https://bitbucket.org/activeobjects/ao/commit/ad916a25d31cb2ca3d5e92ca361fcc48d8cb06df
+CommitInfo{repo='Bitbucket', hash='741efa11e2cd4871710cc98980561de94f55edcd', version='v0.9-m53.4'} 	https://bitbucket.org/activeobjects/ao/commit/741efa11e2cd4871710cc98980561de94f55edcd
+CommitInfo{repo='Bitbucket', hash='af77da802386b54b1fa450ec677d90af56c29dd4', version='v0.9-m54'} 	https://bitbucket.org/activeobjects/ao/commit/af77da802386b54b1fa450ec677d90af56c29dd4
+CommitInfo{repo='Bitbucket', hash='6055ec011a95e7397f2a41b683546ea86a65fbc7', version='v0.9-m6'} 	https://bitbucket.org/activeobjects/ao/commit/6055ec011a95e7397f2a41b683546ea86a65fbc7
+CommitInfo{repo='Bitbucket', hash='e2aeff61e1684467eecfc4eebd8674069c575eb9', version='v0.9-m7'} 	https://bitbucket.org/activeobjects/ao/commit/e2aeff61e1684467eecfc4eebd8674069c575eb9
+CommitInfo{repo='Bitbucket', hash='f3d21709bf34355d1df500ad16f2d63fae486982', version='v0.9-m8'} 	https://bitbucket.org/activeobjects/ao/commit/f3d21709bf34355d1df500ad16f2d63fae486982
+CommitInfo{repo='Bitbucket', hash='8a690ed2e364a4646b0140ba1a36564b77288dfb', version='v0.9-m9'} 	https://bitbucket.org/activeobjects/ao/commit/8a690ed2e364a4646b0140ba1a36564b77288dfb
+CommitInfo{repo='Bitbucket', hash='f8bf23f0a719641ec9bbf840935385a7e3fb5c92', version='v1.0.0'} 	https://bitbucket.org/activeobjects/ao/commit/f8bf23f0a719641ec9bbf840935385a7e3fb5c92
+CommitInfo{repo='Bitbucket', hash='584800f011acd824a48e77fc3481237c18b96e7f', version='v1.0.1'} 	https://bitbucket.org/activeobjects/ao/commit/584800f011acd824a48e77fc3481237c18b96e7f
+CommitInfo{repo='Bitbucket', hash='6a2e2a9a7c9ed6cebb4b635f19f7eb49f44a255b', version='v1.1.0'} 	https://bitbucket.org/activeobjects/ao/commit/6a2e2a9a7c9ed6cebb4b635f19f7eb49f44a255b
+CommitInfo{repo='Bitbucket', hash='aa3643a8411db3d64ecbdb4f7e461ca870f61750', version='v1.1.2'} 	https://bitbucket.org/activeobjects/ao/commit/aa3643a8411db3d64ecbdb4f7e461ca870f61750
+CommitInfo{repo='Bitbucket', hash='253d94a5870d2abb14c3be0322e123d27a65e057', version='v1.1.3'} 	https://bitbucket.org/activeobjects/ao/commit/253d94a5870d2abb14c3be0322e123d27a65e057
+CommitInfo{repo='Bitbucket', hash='820aac9e49e1ec0e135385cff587bcf05eaad6c7', version='v1.1.4'} 	https://bitbucket.org/activeobjects/ao/commit/820aac9e49e1ec0e135385cff587bcf05eaad6c7
+CommitInfo{repo='Bitbucket', hash='4b31f2dde003b7dcfcd4e5b0ba1e5f4f8bd34d67', version='v1.1.5'} 	https://bitbucket.org/activeobjects/ao/commit/4b31f2dde003b7dcfcd4e5b0ba1e5f4f8bd34d67
+CommitInfo{repo='Bitbucket', hash='4698052ec78e7ea4677d628d0b5ef6277c868d38', version='v1.1.6'} 	https://bitbucket.org/activeobjects/ao/commit/4698052ec78e7ea4677d628d0b5ef6277c868d38
+CommitInfo{repo='Bitbucket', hash='5ce44c57629d357533c308665458f1cd82387c66', version='v1.2.0'} 	https://bitbucket.org/activeobjects/ao/commit/5ce44c57629d357533c308665458f1cd82387c66
+CommitInfo{repo='Bitbucket', hash='f657e3d34f0b1c5e4576110379744b34b353a719', version='v1.2.0-720f0f7'} 	https://bitbucket.org/activeobjects/ao/commit/f657e3d34f0b1c5e4576110379744b34b353a719
+CommitInfo{repo='Bitbucket', hash='bac211529fd78030de4d8cbc229931a7c70ecb41', version='v1.2.1'} 	https://bitbucket.org/activeobjects/ao/commit/bac211529fd78030de4d8cbc229931a7c70ecb41
+CommitInfo{repo='Bitbucket', hash='f138de8c6a0ce58ac90565bea837989fbb98dafa', version='v1.2.2'} 	https://bitbucket.org/activeobjects/ao/commit/f138de8c6a0ce58ac90565bea837989fbb98dafa
+CommitInfo{repo='Bitbucket', hash='02d3e327d023a77d88986fba68ee7bcd8acc98cf', version='v1.2.3'} 	https://bitbucket.org/activeobjects/ao/commit/02d3e327d023a77d88986fba68ee7bcd8acc98cf
+CommitInfo{repo='Bitbucket', hash='a6246268c214af82bf2dd06ddc17bdcf46716edd', version='v1.3.0'} 	https://bitbucket.org/activeobjects/ao/commit/a6246268c214af82bf2dd06ddc17bdcf46716edd
+CommitInfo{repo='Bitbucket', hash='e93a982bf63744ce0cade425896a46256a1a3873', version='v1.4.0'} 	https://bitbucket.org/activeobjects/ao/commit/e93a982bf63744ce0cade425896a46256a1a3873
+CommitInfo{repo='Bitbucket', hash='cf614e535d066456d2b5979149ba61bb2bb1895b', version='v1.5.0'} 	https://bitbucket.org/activeobjects/ao/commit/cf614e535d066456d2b5979149ba61bb2bb1895b
+CommitInfo{repo='Bitbucket', hash='5d67aefed8ef2829659447a415e44e3cf2c69eac', version='v1.5.1'} 	https://bitbucket.org/activeobjects/ao/commit/5d67aefed8ef2829659447a415e44e3cf2c69eac
+CommitInfo{repo='Bitbucket', hash='0c55dff9332ba5abe39d736e0d33bed2d8de6214', version='v1.5.2'} 	https://bitbucket.org/activeobjects/ao/commit/0c55dff9332ba5abe39d736e0d33bed2d8de6214
+CommitInfo{repo='Bitbucket', hash='8a0312e9cfe84481fba73c5cb231ad8f902e9bbb', version='v2.0.0'} 	https://bitbucket.org/activeobjects/ao/commit/8a0312e9cfe84481fba73c5cb231ad8f902e9bbb
+CommitInfo{repo='Bitbucket', hash='c2f0de9e261c66b194d51d888b70d973a2407182', version='v2.0.0-bd68601'} 	https://bitbucket.org/activeobjects/ao/commit/c2f0de9e261c66b194d51d888b70d973a2407182
+CommitInfo{repo='Bitbucket', hash='23f221ebbb42fcdc6f09c673ee7a965396e1ec2f', version='v2.0.0-m01'} 	https://bitbucket.org/activeobjects/ao/commit/23f221ebbb42fcdc6f09c673ee7a965396e1ec2f
+CommitInfo{repo='Bitbucket', hash='cb43317be2b1e0f01d0409191212a185dcda2ec4', version='v2.1.0-47d1f4ea'} 	https://bitbucket.org/activeobjects/ao/commit/cb43317be2b1e0f01d0409191212a185dcda2ec4
+CommitInfo{repo='Bitbucket', hash='be37b156107659bffee0608a0715ac773e8f112a', version='v3.0.0-m01'} 	https://bitbucket.org/activeobjects/ao/commit/be37b156107659bffee0608a0715ac773e8f112a
 
 Project A:
 ProjectVersionFixed(version=0.8, dependency=null, time=2010-05-20 08:42:55 UTC)
