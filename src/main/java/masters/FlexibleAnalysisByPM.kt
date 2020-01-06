@@ -63,22 +63,43 @@ class FlexibleAnalysisByPM(val pm: PackageManager) {
     }
 
     fun npmLogic(pairs: List<PairIDs>) {
-        // Dump classifications/versions/constraints into file, then run node file, then read results back from results file
-        val file = File("../flexible_study/${pm.toString().toLowerCase()}.txt")
+        dumpPairsToFile(pairs, "../flexible_study/${pm.toString().toLowerCase()}.txt")
+        runNode("../flexible_study/${pm.toString().toLowerCase()}_results.txt")
+        analyseOfflineFileResults("../flexible_study/${pm.toString().toLowerCase()}_results.txt")
+    }
+
+    fun dumpPairsToFile(pairs: List<PairIDs>, filename: String) {
+        val file = File(filename)
         if (!file.exists()) {
             file.bufferedWriter().use { out ->
                 for (pair in pairs)
                     out.write(collectPairInfoAsString(pair))
             }
         }
-
         log.info("Pair information written to file")
-        val process = Runtime.getRuntime().exec("node \"src/main/java/masters/npm/offline${pm.toString().toLowerCase()}checker.js\"")
-        log.info("Semver.satisfies() checks completed in node")
+    }
 
+    fun runNode(resultsfile: String) {
+        if (File(resultsfile).exists())
+            return
+
+        try {
+            val process = Runtime.getRuntime().exec("node \"src/main/java/masters/npm/offline${pm.toString().toLowerCase()}checker.js\"")
+            val exitCode = process.waitFor()
+            if (exitCode != 0) {
+                log.error("Node process has an exception with exit code $exitCode")
+            } else {
+                log.info("Semver.satisfies() checks completed in node")
+            }
+        } catch (e: InterruptedException) {
+            log.error(e)
+        }
+    }
+
+    fun analyseOfflineFileResults(filename: String) {
         var counter = 0
-        File("data/flexible_study/${pm.toString().toLowerCase()}_results.txt").bufferedReader().use { input ->
-            input.lines().map {
+        File(filename).bufferedReader().use { input ->
+            input.lines().forEach {
                 try {
                     counter++
                     if(counter % 100_000 == 0)
@@ -94,23 +115,6 @@ class FlexibleAnalysisByPM(val pm: PackageManager) {
                     log.error(e)
                 }
             }
-
-
-//            val results = input.readLines()
-//            log.debug("Number of lines in $pm file: ${results.size}")
-//
-//            for (i in 1 until results.size step 2) {
-//                val result = results[i].toBoolean()
-//                if (results[i-1].trim().isEmpty())
-//                    continue
-//
-//                try {
-//                    stats[Classifications.ALL.indexOf(results[i-1])][if (result) MatcherResult.MATCH.ordinal else MatcherResult.NO_MATCH.ordinal]++
-//                } catch (e: ArrayIndexOutOfBoundsException) {
-//                    log.error("Classification: ${results[i-1]}, Result: ${results[i]}", e)
-//                }
-//
-//            }
         }
     }
 
