@@ -19,5 +19,5 @@ public interface LagChecker {
      */
     MatcherResult matches(Version version, String classification, String declaration);
 
-    Declaration disambiguate(String classification, String declaration);
+    Declaration getDeclaration(String classification, String declaration);
 }

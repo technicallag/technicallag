@@ -32,9 +32,27 @@ at-least,>=4.12,4.13.0,match
 at-least,>4.12,4.12.0,no_match
 at-least,>4.12,0.0.1,no_match
 at-least,>4.12,4.13.0,match
-range,">=1.0,<4.3.0",4.0.0,not_supported
 var-minor,1.*,1.5.2,match
 var-minor,1.*,2.2.2,no_match
 var-micro,1.2.*,1.2.2,match
 var-micro,1.2.*,1.3.2,no_match
 any,*,1.2.1,match
+range,">=1.0,<4.3.0",1.0.0,match
+range,">=1.0,<4.3.0",4.2.9,match
+range,">=1.0,<4.3.0",2.3.4,match
+range,">=1.0,<4.3.0",4.3.0,no_match
+range,">=1.0,<4.3.0",0.0.1,no_match
+range,">=1.0,<4.3.0",0.9.9,no_match
+range,"> 4.12 , < 5.1.2",4.12.1,match
+range,"> 4.12 , < 5.1.2",5.1.1,match
+range,"> 4.12 , < 5.1.2",4.12.0,no_match
+range,"> 4.12 , < 5.1.2",3.12.0,no_match
+range,"> 4.12 , < 5.1.2",5.1.2,no_match
+range,"< 0.6.0, >= 0.4.2",0.5.2,match
+range,"< 0.6.0, >= 0.4.2",0.6.2,no_match
+range,"< 0.6.0, >= 0.4.2",0.4.2,match
+range,"< 0.6.0, >= 0.4.2",0.2.2,no_match
+range,"^0.2, < 0.2.34",0.2.0,match
+range,"^0.2, < 0.2.34",0.2.33,match
+range,"^0.2, < 0.2.34",0.1.89,no_match
+range,"^0.2, < 0.2.34",0.2.34,no_match

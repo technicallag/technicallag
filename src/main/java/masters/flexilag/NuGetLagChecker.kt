@@ -6,7 +6,7 @@ import masters.libiostudy.Version
  * @author ______
  */
 class NuGetLagChecker : LagChecker {
-    override fun disambiguate(classification: String, declaration: String): Declaration {
+    override fun getDeclaration(classification: String, declaration: String): Declaration {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 

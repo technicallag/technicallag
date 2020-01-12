@@ -31,6 +31,15 @@ public class Version implements Comparable<Version> {
     private String string;
     public String time;
 
+    public Version clone() {
+        Version v = new Version();
+        v.additionalInfo = this.additionalInfo;
+        v.string = this.string;
+        v.time = this.time;
+        v.versionTokens.addAll(this.versionTokens);
+        return v;
+    }
+
     public int getMicro() { return (versionTokens.size() > 2) ? versionTokens.get(2).intValue() : 0; }
     public int getMinor() { return (versionTokens.size() > 1) ? versionTokens.get(1).intValue() : 0; }
     public int getMajor() { return (versionTokens.size() > 0) ? versionTokens.get(0).intValue() : 0; }

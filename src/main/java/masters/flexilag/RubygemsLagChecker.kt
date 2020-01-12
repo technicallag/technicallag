@@ -7,36 +7,50 @@ import masters.libiostudy.Version
  * 17/12/2019
  */
 class RubygemsLagChecker : LagChecker {
-    override fun disambiguate(classification: String, declaration: String): Declaration {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun getDeclaration(classification: String, declaration: String): Declaration {
+        val decPieces = splitter(declaration)
+
+        val declaration = Declaration(Version.create("0"), Version.create("0"))
+        var cur = declaration
+        for (dec in decPieces) {
+            dec ?: throw UnsupportedOperationException()
+            dec.version ?: throw UnsupportedOperationException()
+
+            // If there are ranges on pre-release tags, it is only within that pre-release range
+            if (dec.version.additionalInfo != "" || dec.prefix == "=")
+                cur.joinAnd(Declaration(dec.version, dec.version, prereleasesOnly = true))
+            else
+                cur.joinAnd(when (dec.prefix) {
+                    "~>" -> when {
+                        dec.version.versionTokens.size < 3 -> Declaration(dec.version, Declaration.minorEndRange(dec.version))
+                        else -> Declaration(dec.version, Declaration.microEndRange(dec.version))
+                    }
+                    ">=" -> Declaration(dec.version, Declaration.maximumVersion)
+                    ">" -> Declaration(Declaration.normaliseExclusiveStart(dec.version), Declaration.maximumVersion)
+                    "<" -> Declaration(Declaration.minimumVersion, Declaration.normaliseExclusiveEnd(dec.version))
+                    "<=" -> Declaration(Declaration.minimumVersion, dec.version)
+                    "!=" -> Declaration(dec.version, dec.version, not = true)
+                    else -> throw UnsupportedOperationException()
+                })
+
+            cur = cur.nextAnd!!
+        }
+
+        return declaration.nextAnd ?: throw UnsupportedOperationException()
     }
 
     override fun matches(version: Version, classification: String, declaration: String) : MatcherResult {
-        val decPieces = splitter(declaration)
-
-        for (dec in decPieces) {
-            dec ?: MatcherResult.NOT_SUPPORTED
-            dec?.version ?: MatcherResult.NOT_SUPPORTED
-
-            when (dec?.prefix) {
-                "=" -> return if (version == dec.version) MatcherResult.MATCH else MatcherResult.NO_MATCH
-                "~>" -> if (!version.sameMinor(dec.version) || version < dec.version) return MatcherResult.NO_MATCH
-                ">=" -> if (version < dec.version) return MatcherResult.NO_MATCH
-                ">" -> if (version <= dec.version) return MatcherResult.NO_MATCH
-                "<" -> if (version >= dec.version) return MatcherResult.NO_MATCH
-                "<=" -> if (version > dec.version) return MatcherResult.NO_MATCH
-                "!=" -> if (version == dec.version) return MatcherResult.NO_MATCH
-                else -> return MatcherResult.NOT_SUPPORTED
+        return try {
+            when(getDeclaration(classification, declaration).matches(version)) {
+                true -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
             }
-
-            // If there are ranges on pre-release tags, it is only within that pre-release range
-            if (dec.version.additionalInfo != "" && !dec.version.sameMicro(version)) return MatcherResult.NO_MATCH
+        } catch (e: UnsupportedOperationException) {
+            MatcherResult.NOT_SUPPORTED
         }
-
-        return MatcherResult.MATCH;
     }
 
-    data class PartialDeclaration(val prefix: String, val version: Version)
+    data class PartialDeclaration(val prefix: String, val version: Version?)
 
     fun splitter(declaration: String) : List<PartialDeclaration?> {
         return declaration.split(",")

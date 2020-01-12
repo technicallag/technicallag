@@ -7,7 +7,7 @@ import java.util.regex.Pattern
  * Created by Jacob Stringer on 12/12/2019.
  */
 class MavenLagChecker: LagChecker {
-    override fun disambiguate(classification: String, declaration: String): Declaration {
+    override fun getDeclaration(classification: String, declaration: String): Declaration {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 

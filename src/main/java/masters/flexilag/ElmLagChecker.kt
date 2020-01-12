@@ -1,6 +1,5 @@
 package masters.flexilag
 
-import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match
 import masters.libiostudy.Version
 
 /**
@@ -8,7 +7,7 @@ import masters.libiostudy.Version
  * @date 09/01/2020
  */
 class ElmLagChecker : LagChecker {
-    override fun disambiguate(classification: String, declaration: String): Declaration {
+    override fun getDeclaration(classification: String, declaration: String): Declaration {
         val tokens = declaration.split(" ")
 
         var first = Version.create(tokens[0])
@@ -21,7 +20,7 @@ class ElmLagChecker : LagChecker {
     }
 
     override fun matches(version: Version, classification: String, declaration: String): MatcherResult {
-        return when (disambiguate(classification, declaration).matches(version)) {
+        return when (getDeclaration(classification, declaration).matches(version)) {
             false -> MatcherResult.NO_MATCH
             else -> MatcherResult.MATCH
         }

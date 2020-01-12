@@ -1,26 +1,45 @@
 package masters.flexilag
 
 import masters.libiostudy.Version
+import masters.libiostudy.VersionCategoryWrapper
 
 /**
  * @author Jacob Stringer
  * @date 07/01/2020
  */
 class CargoLagChecker : LagChecker {
-    override fun disambiguate(classification: String, declaration: String): Declaration {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun getDeclaration(classification: String, declaration: String): Declaration {
+        val parts = declaration.split(",")
+                .map { it.trim() }
+
+        val accumulator = Declaration(Version.create("0"), Version.create("0"))
+        var current = accumulator
+        for (part in parts) {
+            current.joinAnd(when (VersionCategoryWrapper.getClassification("Cargo", part)) {
+                "fixed" -> fixed(part)
+                "var-micro" -> micro(part)
+                "var-minor" -> minor(part)
+                "at-most" -> atmost(part)
+                "at-least" -> atleast(part)
+                "any" -> Declaration.any
+                else -> throw UnsupportedOperationException()
+            })
+
+            current = current.nextAnd ?: throw UnsupportedOperationException()
+        }
+
+        return accumulator.nextAnd ?: throw UnsupportedOperationException()
     }
 
     override fun matches(version: Version, classification: String, declaration: String): MatcherResult {
         val declaration = declaration.trim()
-        return when (classification) {
-            "fixed" -> fixed(version, declaration)
-            "var-micro" -> micro(version, declaration)
-            "var-minor" -> minor(version, declaration)
-            "at-most" -> atmost(version, declaration)
-            "at-least" -> atleast(version, declaration)
-            "any" -> MatcherResult.MATCH
-            else -> MatcherResult.NOT_SUPPORTED
+        return try {
+            when(getDeclaration(classification, declaration).matches(version)) {
+                true -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
+            }
+        } catch (e: UnsupportedOperationException) {
+            MatcherResult.NOT_SUPPORTED
         }
     }
 
@@ -31,60 +50,48 @@ class CargoLagChecker : LagChecker {
         return pointer
     }
 
-    fun fixed(version: Version, declaration: String) : MatcherResult {
-        return when (Version.create(declaration).sameMicro(version)) {
-            true -> MatcherResult.MATCH
-            else -> MatcherResult.NO_MATCH
-        }
+    fun fixed(declaration: String) : Declaration {
+        val version = Version.create(declaration)
+        return Declaration(version, version)
     }
 
-    fun atleast(version: Version, declaration: String) : MatcherResult {
-        val pointer = firstDigit(declaration) ?: return MatcherResult.NOT_SUPPORTED
+    fun atleast(declaration: String) : Declaration {
+        val pointer = firstDigit(declaration) ?: throw UnsupportedOperationException()
 
         val prefix = declaration.substring(0, pointer)
         val rest = Version.create(declaration.substring(pointer))
 
-        if (prefix.contains("=") && rest.sameMicro(version)) return MatcherResult.MATCH
-        return when (version > rest) {
-            true -> MatcherResult.MATCH
-            else -> MatcherResult.NO_MATCH
+        return when {
+            prefix.contains("=") -> Declaration(rest, Declaration.maximumVersion)
+            else -> Declaration(Declaration.normaliseExclusiveStart(rest), Declaration.maximumVersion)
         }
     }
 
-    fun atmost(version: Version, declaration: String) : MatcherResult {
-        val pointer = firstDigit(declaration) ?: return MatcherResult.NOT_SUPPORTED
+    fun atmost(declaration: String) : Declaration {
+        val pointer = firstDigit(declaration) ?: throw UnsupportedOperationException()
 
         val prefix = declaration.substring(0, pointer)
         val rest = Version.create(declaration.substring(pointer))
 
-        if (prefix.contains("=") && rest.sameMicro(version)) return MatcherResult.MATCH
-        return when (version < rest && !version.sameMicro(rest)) {
-            true -> MatcherResult.MATCH
-            else -> MatcherResult.NO_MATCH
+        return when {
+            prefix.contains("=") -> Declaration(Declaration.minimumVersion, rest)
+            else -> Declaration(Declaration.minimumVersion, Declaration.normaliseExclusiveEnd(rest))
         }
     }
 
-    fun micro(version: Version, declaration: String) : MatcherResult {
-        val pointer = firstDigit(declaration) ?: return MatcherResult.NOT_SUPPORTED
+    fun micro(declaration: String) : Declaration {
+        val pointer = firstDigit(declaration) ?: throw UnsupportedOperationException()
         var wildcard = declaration.indexOf("*")
         while (wildcard > -1 && !declaration[wildcard].isDigit()) wildcard--
         val rest = Version.create(declaration.substring(pointer, if (wildcard > -1) wildcard + 1 else declaration.length))
-
-        return when (rest.sameMinor(version) && version >= rest) {
-            true -> MatcherResult.MATCH
-            else -> MatcherResult.NO_MATCH
-        }
+        return Declaration(rest, Declaration.microEndRange(rest))
     }
 
-    fun minor(version: Version, declaration: String) : MatcherResult {
-        val pointer = firstDigit(declaration) ?: return MatcherResult.NOT_SUPPORTED
+    fun minor(declaration: String) : Declaration {
+        val pointer = firstDigit(declaration) ?: throw UnsupportedOperationException()
         var wildcard = declaration.indexOf("*")
         while (wildcard > -1 && !declaration[wildcard].isDigit()) wildcard--
         val rest = Version.create(declaration.substring(pointer, if (wildcard > -1) wildcard + 1 else declaration.length))
-
-        return when (rest.sameMajor(version) && version >= rest) {
-            true -> MatcherResult.MATCH
-            else -> MatcherResult.NO_MATCH
-        }
+        return Declaration(rest, Declaration.minorEndRange(rest))
     }
 }

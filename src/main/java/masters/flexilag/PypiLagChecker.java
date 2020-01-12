@@ -12,4 +12,9 @@ public class PypiLagChecker implements LagChecker {
         return MatcherResult.NOT_SUPPORTED;
     }
 
+    @Override
+    public Declaration getDeclaration(String classification, String declaration) {
+        return null;
+    }
+
 }
