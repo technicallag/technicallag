@@ -29,9 +29,15 @@ class FlexibleTests {
         assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new PackagistLagChecker().matches(Version.create(test), classification, declaration));
     }
 
-//    @ParameterizedTest
-//    @CsvFileSource(resources = "/flexilag-tests/NPM.csv", numLinesToSkip = 1)
-//    public void testFlexibleLagNPM(String classification, String declaration, String test, String expected) {
-//        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new NPMLagChecker().matches(Version.create(test), classification, declaration));
-//    }
+    @ParameterizedTest
+    @CsvFileSource(resources = "/flexilag-tests/Cargo.csv", numLinesToSkip = 1)
+    public void testFlexibleLagCargo(String classification, String declaration, String test, String expected) {
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new CargoLagChecker().matches(Version.create(test), classification, declaration));
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/flexilag-tests/Elm.csv", numLinesToSkip = 1)
+    public void testFlexibleLagElm(String classification, String declaration, String test, String expected) {
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new ElmLagChecker().matches(Version.create(test), classification, declaration));
+    }
 }

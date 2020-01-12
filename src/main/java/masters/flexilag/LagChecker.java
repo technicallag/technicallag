@@ -18,4 +18,6 @@ public interface LagChecker {
      * 3. We cannot say (MatcherResult.NOT_SUPPORTED) due to syntax we don't cover or misformed declaration strings.
      */
     MatcherResult matches(Version version, String classification, String declaration);
+
+    Declaration disambiguate(String classification, String declaration);
 }

@@ -23,26 +23,21 @@ public class LagCheckingService {
             PackageManager.PACKAGIST,
             PackageManager.RUBYGEMS,
             PackageManager.NPM,
-            PackageManager.ATOM
+            PackageManager.ATOM,
+            PackageManager.CARGO,
+            PackageManager.ELM
     ).collect(Collectors.toSet());
 
     static {
         mapper = new HashMap<>();
         mapper.put(PackageManager.ATOM, new NPMLagChecker());
         mapper.put(PackageManager.CARGO, new CargoLagChecker());
-        mapper.put(PackageManager.CPAN, new CPANLagChecker());
-        mapper.put(PackageManager.CRAN, new CRANLagChecker());
-        mapper.put(PackageManager.DUB, new DubLagChecker());
         mapper.put(PackageManager.ELM, new ElmLagChecker());
-        mapper.put(PackageManager.HAXELIB, new HaxelibLagChecker());
         mapper.put(PackageManager.HEX, new HexLagChecker());
-        mapper.put(PackageManager.HOMEBREW, new HomebrewLagChecker());
         mapper.put(PackageManager.MAVEN, new MavenLagChecker());
         mapper.put(PackageManager.NPM, new NPMLagChecker());
         mapper.put(PackageManager.NUGET, new NuGetLagChecker());
         mapper.put(PackageManager.PACKAGIST, new PackagistLagChecker());
-        mapper.put(PackageManager.PUB, new PubLagChecker());
-        mapper.put(PackageManager.PUPPET, new PuppetLagChecker());
         mapper.put(PackageManager.PYPI, new PypiLagChecker());
         mapper.put(PackageManager.RUBYGEMS, new RubygemsLagChecker());
     }

@@ -1,1 +1,11 @@
 classification,declaration,test,result
+range,3.0.0 <= v < 4.0.0,3.0.0,match
+range,3.0.0 <= v < 4.0.0,2.9.0,no_match
+range,3.0.0 <= v < 4.0.0,3.9.0,match
+range,3.0.0 <= v < 4.0.0,4.0.0,no_match
+range,5.1.1 <= v < 6.0.0,5.1.1,match
+range,5.1.1 <= v < 6.0.0,5.1.0,no_match
+range,5.1.1 <= v < 6.0.0,5.3.0,match
+range,5.1.1 <= v <= 6.0.0,6.0.0,match
+range,5.1.1 <= v <= 6.0.0,6.0.1,no_match
+range,5.1.1 < v <= 6.0.0,5.1.1,no_match

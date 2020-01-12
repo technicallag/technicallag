@@ -7,6 +7,9 @@ import java.util.regex.Pattern
  * Created by Jacob Stringer on 12/12/2019.
  */
 class MavenLagChecker: LagChecker {
+    override fun disambiguate(classification: String, declaration: String): Declaration {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
     companion object {
         val versionNumber = Pattern.compile("\\d+(\\.\\d+){0,2}")

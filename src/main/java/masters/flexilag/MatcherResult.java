@@ -4,9 +4,9 @@ package masters.flexilag;
  * Created by Jacob Stringer on 12/12/2019.
  */
 public enum MatcherResult {
-    NOT_SUPPORTED,
     MATCH,
-    NO_MATCH;
+    NO_MATCH,
+    NOT_SUPPORTED;
 
     // precedence = NOT_SUPPORTED > NO_MATCH > MATCH
     public MatcherResult and(MatcherResult other) {

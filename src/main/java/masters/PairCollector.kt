@@ -42,17 +42,21 @@ class PairCollector {
     }
 
     enum class PackageManager(val nameInDB: String) : Serializable {
+        // Flexible and any/atleast
         CPAN("CPAN"),
         CRAN("CRAN"),
+
+        // Small, deemed out of scope
         DUB("Dub"),
-        ELM("Elm"),
         HAXELIB("Haxelib"),
         HOMEBREW("Homebrew"),
         PUB("Pub"),
         PUPPET("Puppet"),
 
+        // Included
         ATOM("Atom"),
         CARGO("Cargo"),
+        ELM("Elm"),
         HEX("Hex"),
         MAVEN("Maven"),
         NPM("NPM"),
