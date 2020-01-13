@@ -21,7 +21,7 @@ class CargoLagChecker : LagChecker {
                 "var-minor" -> minor(part)
                 "at-most" -> atmost(part)
                 "at-least" -> atleast(part)
-                "any" -> Declaration.any
+                "any" -> Declaration.getAny()
                 else -> throw UnsupportedOperationException()
             })
 

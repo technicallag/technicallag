@@ -46,17 +46,16 @@ public class LagCheckingService {
         return supported.contains(pm);
     }
 
+    public static Declaration getDeclaration(PackageManager pm, String classification, String declaration) throws UnsupportedOperationException {
+        if (!supported(pm))
+            throw new UnsupportedOperationException();
+
+        return mapper.get(pm).getDeclaration(classification, declaration);
+    }
+
     public static MatcherResult matcher(PackageManager pm, Version version, String classification, String declaration) {
         try {
-            if (pm == PackageManager.NPM || pm == PackageManager.ATOM) {
-                if (SemVer.satisfies(version.toString(), declaration)) {
-                    return MatcherResult.MATCH;
-                } else {
-                    return MatcherResult.NO_MATCH;
-                }
-            }
-
-            else if (mapper.containsKey(pm)) {
+            if (mapper.containsKey(pm)) {
                 return mapper.get(pm).matches(version, classification, declaration);
             }
         } catch (Exception e) {

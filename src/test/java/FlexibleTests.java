@@ -40,4 +40,16 @@ class FlexibleTests {
     public void testFlexibleLagElm(String classification, String declaration, String test, String expected) {
         assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new ElmLagChecker().matches(Version.create(test), classification, declaration));
     }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/flexilag-tests/NPM.csv", numLinesToSkip = 1)
+    public void testFlexibleLagNPM(String classification, String declaration, String test, String expected) {
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new NPMLagChecker().matches(Version.create(test), classification, declaration));
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/flexilag-tests/Hex.csv", numLinesToSkip = 1)
+    public void testFlexibleLagHex(String classification, String declaration, String test, String expected) {
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new HexLagChecker().matches(Version.create(test), classification, declaration));
+    }
 }

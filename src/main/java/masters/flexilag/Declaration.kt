@@ -11,7 +11,10 @@ data class Declaration(val start: Version, val last: Version, var not: Boolean =
     companion object {
         val minimumVersion = Version.create("0.0.0")
         val maximumVersion = Version.create("999999999999.99999.99999")
-        val any = Declaration(minimumVersion, maximumVersion)
+
+        fun getAny() : Declaration {
+            return Declaration(minimumVersion, maximumVersion)
+        }
 
         fun normaliseExclusiveEnd(version: Version) : Version {
             val newVersion = version.clone()

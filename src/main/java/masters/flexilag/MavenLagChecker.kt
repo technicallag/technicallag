@@ -8,124 +8,76 @@ import java.util.regex.Pattern
  */
 class MavenLagChecker: LagChecker {
     override fun getDeclaration(classification: String, declaration: String): Declaration {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    companion object {
-        val versionNumber = Pattern.compile("\\d+(\\.\\d+){0,2}")
-    }
-
-    override fun matches(version: Version?, classification: String?, declaration: String?): MatcherResult {
-        version ?: return MatcherResult.NOT_SUPPORTED
-        classification ?: return MatcherResult.NOT_SUPPORTED
-        declaration ?: return MatcherResult.NOT_SUPPORTED
-
         return when (classification) {
-            "fixed", "soft" -> fixed(version, declaration)
-            "latest" -> MatcherResult.MATCH
-            "at-most" -> atMost(version, declaration)
-            "at-least" -> atLeast(version, declaration)
-            "var-minor" -> minor(version, declaration)
-            "var-micro" -> micro(version, declaration)
-            else -> MatcherResult.NOT_SUPPORTED
+            "unresolved" -> throw UnsupportedOperationException()
+            "fixed", "soft" -> fixed(declaration)
+            "latest" -> Declaration.getAny()
+            else -> {
+                val parts = declaration.split(",").map { it.trim() }
+                if (parts.size > 2) // It's a pain to deal with multi ranges and there are so few of them
+                    throw UnsupportedOperationException()
+
+                val accumulator = Declaration(Version.create("0"), Version.create("0"))
+                var current = accumulator
+
+                for (part in parts) {
+                    current.joinAnd(when {
+                        part.contains("+") -> wildcard(part)
+                        else -> brackets(part)
+                    })
+                    println(current)
+                    current = current.nextAnd ?: throw UnsupportedOperationException()
+                }
+
+                accumulator.nextAnd ?: throw UnsupportedOperationException()
+            }
         }
     }
 
-    fun fixed(curVersion: Version, declaration: String): MatcherResult {
+    override fun matches(version: Version, classification: String, declaration: String): MatcherResult {
+        return try {
+            when (getDeclaration(classification, declaration).matches(version)) {
+                true -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
+            }
+        } catch (e: UnsupportedOperationException) {
+            MatcherResult.NOT_SUPPORTED
+        }
+    }
+
+    private fun wildcard(part: String) : Declaration {
+        val or = part.indexOf('+')
+        if (or == 0)
+            return Declaration.getAny()
+
+        var newString = part.substring(0, or)
+        if (!newString.last().isDigit()) newString += "0"
+
+        return semverRange(newString)
+    }
+
+    private fun semverRange(declaration: String) : Declaration {
+        val dec = Version.create(declaration)
+        return when (dec.versionTokens.size) {
+            1 -> Declaration(dec, Declaration.maximumVersion)
+            2 -> Declaration(dec, Declaration.minorEndRange(dec))
+            else -> Declaration(dec, Declaration.microEndRange(dec))
+        }
+    }
+
+    fun fixed(declaration: String): Declaration {
         val decVersion = Version.create(declaration)
+        return Declaration(decVersion, decVersion)
+    }
 
+    fun brackets(declaration: String): Declaration {
         return when {
-            decVersion.equals(curVersion) -> MatcherResult.MATCH
-            else -> MatcherResult.NO_MATCH
+            declaration.length == 1 -> Declaration.getAny()
+            declaration.startsWith("]") || declaration.startsWith("(") ->
+                Declaration(Declaration.normaliseExclusiveStart(Version.create(declaration.substring(1))), Declaration.maximumVersion)
+            declaration.startsWith("[") -> Declaration(Version.create(declaration.substring(1)), Declaration.maximumVersion)
+            declaration.endsWith("]") -> Declaration(Declaration.minimumVersion, Version.create(declaration.substring(0, declaration.length - 1)))
+            else -> Declaration(Declaration.minimumVersion, Declaration.normaliseExclusiveEnd(Version.create(declaration.substring(0, declaration.length - 1))))
         }
     }
-
-    // (,version] style
-    fun atMost(curVersion: Version, declaration: String): MatcherResult {
-        val matcher = versionNumber.matcher(declaration)
-        if (matcher.find()) {
-            val maxVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-
-            val compared = curVersion.compareTo(maxVersion)
-            return when {
-                compared < 0 -> MatcherResult.MATCH
-                compared > 0 -> MatcherResult.NO_MATCH
-                declaration.trim().endsWith(']') -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        }
-
-        return MatcherResult.NOT_SUPPORTED
-    }
-
-    // Main logic for [version,] style. 1+ style goes to major()
-    fun atLeast(curVersion: Version, declaration: String): MatcherResult {
-        if (declaration.contains("+")) return major(curVersion, declaration)
-
-        val matcher = versionNumber.matcher(declaration)
-        if (matcher.find()) {
-            val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-
-            val compared = curVersion.compareTo(minVersion)
-            return when {
-                compared > 0 -> MatcherResult.MATCH
-                compared < 0 -> MatcherResult.NO_MATCH
-                declaration.trim().startsWith('[') -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        }
-
-        return MatcherResult.NOT_SUPPORTED
-    }
-
-    // 1+ style
-    fun major(curVersion: Version, declaration: String): MatcherResult {
-        val matcher = versionNumber.matcher(declaration)
-        if (matcher.find()) {
-            val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-
-            val compared = curVersion.compareTo(minVersion)
-            return when {
-                compared >= 0 -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        }
-
-        return MatcherResult.NOT_SUPPORTED
-    }
-
-    // 1.+ or 1.2+ style
-    fun minor(curVersion: Version, declaration: String): MatcherResult {
-        val matcher = versionNumber.matcher(declaration)
-        if (matcher.find()) {
-            val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-
-            val compared = curVersion.compareTo(minVersion)
-            val sameMajor = curVersion.sameMajor(minVersion)
-            return when {
-                compared >= 0 && sameMajor -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        }
-
-        return MatcherResult.NOT_SUPPORTED
-    }
-
-    // 1.1.+ or 1.2.1+ style
-    fun micro(curVersion: Version, declaration: String): MatcherResult {
-        val matcher = versionNumber.matcher(declaration)
-        if (matcher.find()) {
-            val minVersion = Version.create(declaration.substring(matcher.start(), matcher.end()))
-
-            val compared = curVersion.compareTo(minVersion)
-            val sameMinor = curVersion.sameMinor(minVersion)
-            return when {
-                compared >= 0 && sameMinor -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        }
-
-        return MatcherResult.NOT_SUPPORTED
-    }
-
 }

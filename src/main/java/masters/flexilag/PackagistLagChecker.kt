@@ -79,7 +79,7 @@ class PackagistLagChecker : LagChecker {
     private fun wildcard(part: String) : Declaration {
         val or = part.indexOf('*')
         if (or == 0)
-            return Declaration.any
+            return Declaration.getAny()
 
         var newString = part.substring(0, or)
         if (!newString.last().isDigit()) newString += "0"
@@ -117,7 +117,7 @@ class PackagistLagChecker : LagChecker {
     private fun semverRange(declaration: String) : Declaration {
         val dec = Version.create(declaration)
         return when (dec.versionTokens.size) {
-            1 -> Declaration.any
+            1 -> Declaration(dec, Declaration.maximumVersion)
             2 -> Declaration(dec, Declaration.minorEndRange(dec))
             else -> Declaration(dec, Declaration.microEndRange(dec))
         }
