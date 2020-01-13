@@ -31,20 +31,16 @@ val mapClassifications = mapOf(
         "unclassified" to 3
 )
 
+val rerun = setOf(
+        PairCollector.PackageManager.MAVEN,
+        PairCollector.PackageManager.CARGO
+        )
+
 // results[pm.ordinal][classification.indexOf][match.ordinal]
 var results: Array<Vector<Array<Int>>> = Array(PairCollector.PackageManager.values().size) { Vector<Array<Int>>() }
 
 fun analyseAll() {
     loadResults()
-
-//    PairCollector.PackageManager.values().forEach { pm ->
-//        Classifications.ALL.forEach { classification ->
-//            val temp = results[pm.ordinal][Classifications.ALL.indexOf(classification)][0]
-//            results[pm.ordinal][Classifications.ALL.indexOf(classification)][0] = results[pm.ordinal][Classifications.ALL.indexOf(classification)][1]
-//            results[pm.ordinal][Classifications.ALL.indexOf(classification)][1] = results[pm.ordinal][Classifications.ALL.indexOf(classification)][2]
-//            results[pm.ordinal][Classifications.ALL.indexOf(classification)][2] = temp
-//        }
-//    }
 
     for (pm in PairCollector.PackageManager.values()) {
         if (!LagCheckingService.supported(pm)) {
@@ -53,7 +49,7 @@ fun analyseAll() {
             continue
         }
 
-        if (resultsCount(pm) > 0) {
+        if (resultsCount(pm) > 0 && !rerun.contains(pm)) {
             // Avoid recomputing values
             log.info("${resultsCount(pm)} in $pm")
             continue

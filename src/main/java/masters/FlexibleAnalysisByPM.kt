@@ -143,14 +143,18 @@ class FlexibleAnalysisByPM(val pm: PackageManager) {
 
         val localStats = Array(Classifications.ALL.size) { Array(MatcherResult.values().size) { 0 } }
 
-        projectHistory.forEach { version ->
-            version.dependency ?: return@forEach
+        try {
+            projectHistory.forEach { version ->
+                version.dependency ?: return@forEach
 
-            val newestDependency = dependencyHistory.filter { it.time < version.time }.maxBy { it.time } ?: return@forEach
-            val classification = VersionCategoryWrapper.getClassification(pm.toString(), version.dependency)
-            val matchResult = LagCheckingService.matcher(pm, newestDependency.version, classification, version.dependency)
+                val newestDependency = dependencyHistory.filter { it.time < version.time }.maxBy { it.time } ?: return@forEach
+                val classification = VersionCategoryWrapper.getClassification(pm.toString(), version.dependency)
+                val matchResult = LagCheckingService.matcher(pm, newestDependency.version, classification, version.dependency)
 
-            localStats[Classifications.ALL.indexOf(classification)][matchResult.ordinal]++
+                localStats[Classifications.ALL.indexOf(classification)][matchResult.ordinal]++
+            }
+        } catch (e: Exception) {
+            log.error(e)
         }
 
         // Combine local results with main results

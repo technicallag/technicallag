@@ -16,13 +16,13 @@ class PypiLagChecker : LagChecker {
 
     private fun resolve(part: String) : Declaration {
         return when {
+            part.isEmpty() || part == "*" -> Declaration.getAny()
             part.startsWith(">=") -> Declaration(Version.create(part.substring(2)), Declaration.maximumVersion)
             part.startsWith(">") -> Declaration(Declaration.normaliseExclusiveStart(Version.create(part.substring(1))), Declaration.maximumVersion)
             part.startsWith("<=") -> Declaration(Declaration.minimumVersion, Version.create(part.substring(2)))
             part.startsWith("<") -> Declaration(Declaration.minimumVersion, Declaration.normaliseExclusiveEnd(Version.create(part.substring(1))))
             part.startsWith("==") || part[0].isDigit() -> Declaration(Version.create(part), Version.create(part))
             part.startsWith("~=") -> semverRange(part.substring(2))
-            part == "*" -> Declaration.getAny()
             else -> throw UnsupportedOperationException()
         }
     }
