@@ -83,4 +83,10 @@ class FlexibleTests {
     public void testFlexibleLagHaxelib(String classification, String declaration, String test, String expected) {
         assertEquals(MatcherResult.valueOf(expected.toUpperCase()), LagCheckingService.matcher(PairCollector.PackageManager.HAXELIB, Version.create(test), classification, declaration));
     }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/flexilag-tests/Dub.csv", numLinesToSkip = 1)
+    public void testFlexibleLagDub(String classification, String declaration, String test, String expected) {
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), LagCheckingService.matcher(PairCollector.PackageManager.DUB, Version.create(test), classification, declaration));
+    }
 }

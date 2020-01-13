@@ -18,6 +18,7 @@ public class LagCheckingService {
         mapper = new HashMap<>();
         mapper.put(PackageManager.ATOM, new NPMLagChecker());
         mapper.put(PackageManager.CARGO, new CargoLagChecker());
+        mapper.put(PackageManager.DUB, new DubLagChecker());
         mapper.put(PackageManager.ELM, new ElmLagChecker());
         mapper.put(PackageManager.HAXELIB, new HaxelibLagChecker());
         mapper.put(PackageManager.HEX, new HexLagChecker());
