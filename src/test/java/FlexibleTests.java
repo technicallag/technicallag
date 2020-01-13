@@ -77,4 +77,10 @@ class FlexibleTests {
     public void testFlexibleLagPuppet(String classification, String declaration, String test, String expected) {
         assertEquals(MatcherResult.valueOf(expected.toUpperCase()), LagCheckingService.matcher(PairCollector.PackageManager.PUPPET, Version.create(test), classification, declaration));
     }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/flexilag-tests/Haxelib.csv", numLinesToSkip = 1)
+    public void testFlexibleLagHaxelib(String classification, String declaration, String test, String expected) {
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), LagCheckingService.matcher(PairCollector.PackageManager.HAXELIB, Version.create(test), classification, declaration));
+    }
 }
