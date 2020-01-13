@@ -27,8 +27,8 @@ at-least,>= 1.10.2,10.12.1,match
 at-least,>= 1.10.2,0.99.2,no_match
 at-least,> 1.10.2,1.10.2,no_match
 at-least,> 1.10.2,1.10.3.1,match
-at-most,<= 2.0.0.beta.20,2.0.0,match
-at-most,<= 2.0.0.beta.20,2.0.1,no_match
+at-most,<= 2.0.0.beta.20,2.0.0.beta.19,match
+at-most,<= 2.0.0.beta.20,2.0.0,no_match
 at-most,<= 2.0.0.beta.20,1.0.0,no_match
 not,"!= 0.5.0, != 0.5.1, != 0.5.2, != 0.5.3, < 0.6.0, >= 0.4.4",0.5.0,no_match
 not,"!= 0.5.0, != 0.5.1, != 0.5.2, != 0.5.3, < 0.6.0, >= 0.4.4",0.5.2,no_match

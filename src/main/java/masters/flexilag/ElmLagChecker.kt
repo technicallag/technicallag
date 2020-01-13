@@ -18,11 +18,4 @@ class ElmLagChecker : LagChecker {
 
         return Declaration(first, second)
     }
-
-    override fun matches(version: Version, classification: String, declaration: String): MatcherResult {
-        return when (getDeclaration(classification, declaration).matches(version)) {
-            false -> MatcherResult.NO_MATCH
-            else -> MatcherResult.MATCH
-        }
-    }
 }

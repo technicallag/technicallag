@@ -6,16 +6,6 @@ import masters.libiostudy.Version
  * @author ______
  */
 class PypiLagChecker : LagChecker {
-    override fun matches(version: Version, classification: String, declaration: String): MatcherResult {
-        return try {
-            when (getDeclaration(classification, declaration).matches(version)) {
-                true -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        } catch (e: UnsupportedOperationException) {
-            MatcherResult.NOT_SUPPORTED
-        }
-    }
 
     override fun getDeclaration(classification: String, declaration: String): Declaration {
         val parts = declaration.split(",").map { it.trim() }

@@ -31,18 +31,6 @@ class CargoLagChecker : LagChecker {
         return accumulator.nextAnd ?: throw UnsupportedOperationException()
     }
 
-    override fun matches(version: Version, classification: String, declaration: String): MatcherResult {
-        val declaration = declaration.trim()
-        return try {
-            when(getDeclaration(classification, declaration).matches(version)) {
-                true -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        } catch (e: UnsupportedOperationException) {
-            MatcherResult.NOT_SUPPORTED
-        }
-    }
-
     fun firstDigit(declaration: String) : Int? {
         var pointer = 0
         while (pointer < declaration.length && !declaration[pointer].isDigit()) pointer++

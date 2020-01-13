@@ -10,17 +10,18 @@ class RubygemsLagChecker : LagChecker {
     override fun getDeclaration(classification: String, declaration: String): Declaration {
         val decPieces = splitter(declaration)
 
-        val declaration = Declaration(Version.create("0"), Version.create("0"))
-        var cur = declaration
+        val acc = Declaration(Version.create("0"), Version.create("0"))
+        var cur = acc
         for (dec in decPieces) {
             dec ?: throw UnsupportedOperationException()
             dec.version ?: throw UnsupportedOperationException()
 
             // If there are ranges on pre-release tags, it is only within that pre-release range
-            if (dec.version.additionalInfo != "" || dec.prefix == "=")
+            if (dec.version.additionalInfo.isNotBlank())
                 cur.joinAnd(Declaration(dec.version, dec.version, prereleasesOnly = true))
             else
                 cur.joinAnd(when (dec.prefix) {
+                    "=" -> Declaration(dec.version, dec.version)
                     "~>" -> when {
                         dec.version.versionTokens.size < 3 -> Declaration(dec.version, Declaration.minorEndRange(dec.version))
                         else -> Declaration(dec.version, Declaration.microEndRange(dec.version))
@@ -36,18 +37,7 @@ class RubygemsLagChecker : LagChecker {
             cur = cur.nextAnd!!
         }
 
-        return declaration.nextAnd ?: throw UnsupportedOperationException()
-    }
-
-    override fun matches(version: Version, classification: String, declaration: String) : MatcherResult {
-        return try {
-            when(getDeclaration(classification, declaration).matches(version)) {
-                true -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        } catch (e: UnsupportedOperationException) {
-            MatcherResult.NOT_SUPPORTED
-        }
+        return acc.nextAnd ?: throw UnsupportedOperationException()
     }
 
     data class PartialDeclaration(val prefix: String, val version: Version?)

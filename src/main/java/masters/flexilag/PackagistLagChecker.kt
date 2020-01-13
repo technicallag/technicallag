@@ -14,17 +14,6 @@ class PackagistLagChecker : LagChecker {
         return resolveRecursive(parts)
     }
 
-    override fun matches(version: Version, classification: String, declaration: String) : MatcherResult {
-        return try {
-            when (getDeclaration(classification, declaration).matches(version)) {
-                true -> MatcherResult.MATCH
-                else -> MatcherResult.NO_MATCH
-            }
-        } catch (e: UnsupportedOperationException) {
-            MatcherResult.NOT_SUPPORTED
-        }
-    }
-
     private fun resolveRecursive(parts: List<String>) : Declaration {
         // pipes() and hyphen() are mutually recursive functions with resolveRecursive() that break the tokens up into smaller logical segments
         if (parts.contains("||")) return pipes(parts)
