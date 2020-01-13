@@ -6,48 +6,84 @@ import masters.libiostudy.Version
  * @author ______
  */
 class NuGetLagChecker : LagChecker {
+
     override fun getDeclaration(classification: String, declaration: String): Declaration {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val parts = declaration.split(" ").map { it.trim() }
+        val parts2 = mutableListOf<String>()
+
+        val accumulator = Declaration.getAny()
+        var current = accumulator
+
+        // Secondary parsing rules because symbols can be split from versions with whitespace, as can separate phrases
+        // e.g. >= 3.2.0.11 < 3.3.0
+        for (i in 0..parts.lastIndex) {
+            if (hasDigits(parts[i])) {
+                if (i > 0 && !hasDigits(parts[i - 1]) && !(parts[i-1] == "[" || parts[i-1] == "(")) {
+                    parts2.add(parts[i - 1] + parts[i])
+                } else {
+                    parts2.add(parts[i])
+                }
+            }
+            else if(parts[i] == "*" || parts[i] == "=") {
+                current.joinAnd(Declaration.getAny())
+                current = current.nextAnd ?: current
+            }
+        }
+
+        for (part in parts2.flatMap { it.split(",") }.filter { hasDigits(it) }) {
+            current.joinAnd(rules(part))
+            current = current.nextAnd ?: throw UnsupportedOperationException()
+        }
+
+        return accumulator.nextAnd ?: throw UnsupportedOperationException()
     }
 
     override fun matches(version: Version, classification: String, declaration: String): MatcherResult {
-        return when (classification) {
-            "at-least" -> atleast(version, declaration)
-            "fixed" -> fixed(version, declaration)
-            "range" -> range(version, declaration)
-            "at-most" -> atmost(version, declaration)
-            "any" -> MatcherResult.MATCH
-            else -> MatcherResult.NOT_SUPPORTED
+        return try {
+            when (getDeclaration(classification, declaration).matches(version)) {
+                true -> MatcherResult.MATCH
+                else -> MatcherResult.NO_MATCH
+            }
+        } catch (e: UnsupportedOperationException) {
+            MatcherResult.NOT_SUPPORTED
         }
     }
 
-    fun fixed(version: Version, declaration: String): MatcherResult {
-        var string = declaration
-        if (declaration[0] == '[')
-            string = string.substring(1, string.length-1)
-        else if (declaration.contains("="))
-            string = string.substring(string.indexOf("=") + 1).trim()
-        val dec = Version.create(string)
-
-        return when(dec.sameMicro(version)) {
-            true -> MatcherResult.MATCH
-            else -> MatcherResult.NO_MATCH
+    private fun rules(part: String) : Declaration {
+        return when {
+            part == "=" -> Declaration.getAny()
+            part.startsWith("^") -> semverRange(part.substring(1))
+            part.startsWith("[") && part.endsWith("]") -> {
+                if (part.contains("*")) {
+                    var versString = part.substring(1, part.indexOf("*"))
+                    if (!versString.last().isDigit()) versString += "0"
+                    semverRange(versString)
+                } else {
+                    val vers = Version.create(part.substring(1, part.lastIndex))
+                    Declaration(vers, vers)
+                }
+            }
+            part.startsWith("=") -> Declaration(Version.create(part.substring(1)), Version.create(part.substring(1)))
+            part.startsWith("[") || part.startsWith(">=") -> Declaration(Version.create(part.substring(1)), Declaration.maximumVersion)
+            part.startsWith("(") || part.startsWith(">") -> Declaration(Declaration.normaliseExclusiveStart(Version.create(part.substring(1))), Declaration.maximumVersion)
+            part.endsWith("]") -> Declaration(Declaration.minimumVersion, Version.create(part))
+            part.startsWith("<=") -> Declaration(Declaration.minimumVersion, Version.create(part.substring(2)))
+            part.endsWith(")") -> Declaration(Declaration.minimumVersion, Declaration.normaliseExclusiveEnd(Version.create(part)))
+            part.startsWith("<") -> Declaration(Declaration.minimumVersion, Declaration.normaliseExclusiveEnd(Version.create(part.substring(1))))
+            else -> throw UnsupportedOperationException()
         }
     }
 
-    fun range(version: Version, declaration: String): MatcherResult {
-
-
-        return MatcherResult.NOT_SUPPORTED
+    private fun semverRange(declaration: String) : Declaration {
+        val dec = Version.create(declaration)
+        return when (dec.versionTokens.size) {
+            1 -> Declaration.getAny()
+            2 -> Declaration(dec, Declaration.minorEndRange(dec))
+            else -> Declaration(dec, Declaration.microEndRange(dec))
+        }
     }
 
-    fun atleast(version: Version, declaration: String): MatcherResult {
-
-        return MatcherResult.NOT_SUPPORTED
-    }
-
-    fun atmost(version: Version, declaration: String): MatcherResult {
-
-        return MatcherResult.NOT_SUPPORTED
+    private fun hasDigits(string: String) : Boolean {
+        return string.any { it.isDigit() }
     }
 }
