@@ -1,1 +1,37 @@
 classification,declaration,test,result
+range,"<0.13.0,>=0.12.0",0.12.1,match
+range,"<0.13.0,>=0.12.0",0.12.0,match
+range,"<0.13.0,>=0.12.0",0.13.0,no_match
+range,"<0.13.0,>=0.12.0",0.0.1,no_match
+range,"<=0.13.0,>0.12.0",0.12.1,match
+range,"<=0.13.0,>0.12.0",0.12.0,no_match
+range,"<=0.13.0,>0.12.0",0.13.0,match
+range,"<=0.13.0,>0.12.0",0.0.1,no_match
+fixed,==0.6.2,0.6.2,match
+fixed,==0.6.2,0.6.1,no_match
+fixed,==0.6.2,0.6.3,no_match
+fixed,0.6.2,0.6.2,match
+fixed,0.6.2,0.6.1,no_match
+fixed,0.6.2,0.6.3,no_match
+at-least,>= 1.1.3,1.1.3,match
+at-least,>= 1.1.3,2.4.2-release,match
+at-least,>= 1.1.3,1.1.2,no_match
+at-least,>1.1.3,1.1.3,no_match
+at-least,>1.1.3,2.4.2-release,match
+at-least,>1.1.3,1.1.2,no_match
+at-most,<=2.3.0,2.3.0,match
+at-most,<=2.3.0,2.2.9,match
+at-most,<=2.3.0,2.3.1,no_match
+at-most,<2.3.0,2.3.0,no_match
+at-most,<2.3.0,2.2.9,match
+at-most,<2.3.0,2.3.1,no_match
+var-micro,~=2.1.2,2.1.2,match
+var-micro,~=2.1.2,2.1.87-release,match
+var-micro,~=2.1.2,2.2.0,no_match
+var-micro,~=2.1.2,2.1.1,no_match
+var-minor,~=2.1,2.1.0,match
+var-minor,~=2.1,2.1.87-release,match
+var-minor,~=2.1,2.2.0,match
+var-minor,~=2.1,2.0.6,no_match
+var-minor,~=2.1,3.0.6,no_match
+any,*,0.0.1,match

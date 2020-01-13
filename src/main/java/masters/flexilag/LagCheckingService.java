@@ -19,13 +19,16 @@ public class LagCheckingService {
 
     // Allows PMs not to call the service if the PM rules have not been implemented
     private static Set<PairCollector.PackageManager> supported = Stream.of(
-            PackageManager.MAVEN,
-            PackageManager.PACKAGIST,
-            PackageManager.RUBYGEMS,
-            PackageManager.NPM,
             PackageManager.ATOM,
             PackageManager.CARGO,
-            PackageManager.ELM
+            PackageManager.ELM,
+            PackageManager.HEX,
+            PackageManager.MAVEN,
+            PackageManager.NPM,
+            PackageManager.NUGET,
+            PackageManager.PACKAGIST,
+            PackageManager.PYPI,
+            PackageManager.RUBYGEMS
     ).collect(Collectors.toSet());
 
     static {

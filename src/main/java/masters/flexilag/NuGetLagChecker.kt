@@ -3,7 +3,8 @@ package masters.flexilag
 import masters.libiostudy.Version
 
 /**
- * @author ______
+ * @author Jacob Stringer
+ * @date 13/01/2020
  */
 class NuGetLagChecker : LagChecker {
 

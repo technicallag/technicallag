@@ -58,4 +58,10 @@ class FlexibleTests {
     public void testFlexibleLagNuGet(String classification, String declaration, String test, String expected) {
         assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new NuGetLagChecker().matches(Version.create(test), classification, declaration));
     }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/flexilag-tests/Pypi.csv", numLinesToSkip = 1)
+    public void testFlexibleLagPypi(String classification, String declaration, String test, String expected) {
+        assertEquals(MatcherResult.valueOf(expected.toUpperCase()), new PypiLagChecker().matches(Version.create(test), classification, declaration));
+    }
 }
