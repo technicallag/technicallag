@@ -20,6 +20,8 @@ data class ProjectVersionFixed(val version: Version, val dependency: Version?, o
 
 data class DependencyVersion(val version: Version, override val time: String) : ContainsTime
 
+
+
 data class PairFullDataFixed(val pairIDs: PairIDs, var aVersions: List<ProjectVersionFixed>, var bVersions: List<DependencyVersion>)
 
 data class PairFullDataFlexible(val pairIDs: PairIDs, var aVersions: List<ProjectVersionFlexible>, var bVersions: List<DependencyVersion>)

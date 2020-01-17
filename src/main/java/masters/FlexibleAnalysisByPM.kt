@@ -6,11 +6,15 @@ import masters.PairCollector.Status
 import masters.flexilag.LagCheckingService
 import masters.flexilag.MatcherResult
 import masters.libiostudy.Classifications
+import masters.libiostudy.Version
 import masters.libiostudy.VersionCategoryWrapper
 import masters.utils.Database
 import masters.utils.Logging
+import masters.utils.getDaysLag
 import java.io.File
+import java.io.Serializable
 import java.lang.StringBuilder
+import java.lang.UnsupportedOperationException
 import java.util.*
 import java.util.concurrent.atomic.LongAdder
 
@@ -18,14 +22,30 @@ import java.util.concurrent.atomic.LongAdder
  * Created by Jacob Stringer on 12/12/2019.
  */
 
-class FlexibleAnalysisByPM(val pm: PackageManager) {
+class FlexibleAnalysisByPM(val pm: PackageManager) : Serializable {
     // stats[classification][matcherresult] = number_of_instances
-    val stats: Vector<Array<Int>> = Vector()
-    var counter = LongAdder()
-    val log = Logging.getLogger("")
-    val delimiter = "```"
+    @Transient var stats: Vector<Array<Int>> = Vector()
+    @Transient var counter = LongAdder()
+    @Transient var log = Logging.getLogger("")
+    @Transient var delimiter = "```"
 
-    fun getLag() : Vector<Array<Int>> {
+    val lagValueBuckets = mapOf("major" to mutableMapOf<Long, Int>(),
+            "majorTime" to mutableMapOf<Long, Int>(),
+            "minor" to mutableMapOf<Long, Int>(),
+            "minorTime" to mutableMapOf<Long, Int>(),
+            "micro" to mutableMapOf<Long, Int>(),
+            "microTime" to mutableMapOf<Long, Int>())
+
+    val lagtypes = Array(Lag.Type.values().size) { 0 }
+
+    fun getLag(extraLag: Boolean = false) : Vector<Array<Int>> {
+        if (stats.isNullOrEmpty()) {
+            stats = Vector()
+            counter = LongAdder()
+            log = Logging.getLogger("")
+            delimiter = "```"
+        }
+
         val startTime = System.currentTimeMillis()
         Logging.getLogger("").info("Entered LagService.getLag for package manager $pm")
         val pc = PairCollector()
@@ -47,15 +67,33 @@ class FlexibleAnalysisByPM(val pm: PackageManager) {
             }
         }
 
-        if (pm == PackageManager.PACKAGIST)
-            packagistLogic(pairs)
-        else if (pm == PackageManager.ATOM || pm == PackageManager.NPM)
-            npmLogic(pairs)
-        else
-            pairs.forEach {
+        val avoid = setOf(
+                PairIDs(2335219, 49683),
+                PairIDs(3310908, 1515029),
+                PairIDs(3056579, 56408),
+                PairIDs(2150186, 77807)
+        )
+
+        pairs.forEach {
+            if (avoid.contains(it))
+                return@forEach
+
+            if (extraLag)
+                processPairQuantifyLag(it)
+            else
                 processPair(it)
-                counter.increment()
-            }
+            counter.increment()
+        }
+
+//        if (pm == PackageManager.PACKAGIST)
+//            packagistLogic(pairs)
+//        else if (pm == PackageManager.ATOM || pm == PackageManager.NPM)
+//            npmLogic(pairs)
+//        else
+//            pairs.forEach {
+//                processPair(it)
+//                counter.increment()
+//            }
 
         daemon.cancel()
         Logging.getLogger("").info("Finished lag service for $pm after ${(System.currentTimeMillis() - startTime)/1000} seconds")
@@ -147,7 +185,8 @@ class FlexibleAnalysisByPM(val pm: PackageManager) {
             projectHistory.forEach { version ->
                 version.dependency ?: return@forEach
 
-                val newestDependency = dependencyHistory.filter { it.time < version.time }.maxBy { it.time } ?: return@forEach
+                val dependenciesPublished = dependencyHistory.filter { it.time < version.time }
+                val newestDependency = dependenciesPublished.maxBy { it.time } ?: return@forEach
                 val classification = VersionCategoryWrapper.getClassification(pm.toString(), version.dependency)
                 val matchResult = LagCheckingService.matcher(pm, newestDependency.version, classification, version.dependency)
 
@@ -163,6 +202,89 @@ class FlexibleAnalysisByPM(val pm: PackageManager) {
                 stats[i][j] += localStats[i][j]
             }
         }
+    }
+
+    fun processPairQuantifyLag(pair: PairIDs) {
+        val projectHistory = Database.getProjectHistoryFlexible(pair)
+        val dependencyHistory = Database.getDepHistory(pair)
+
+        val lags = mutableListOf<Lag>()
+
+        try {
+            projectHistory.forEach { version ->
+                version.dependency ?: return@forEach
+
+                try {
+                    val dependenciesPublished = dependencyHistory.filter { it.time < version.time }
+                    val classification = VersionCategoryWrapper.getClassification(pm.toString(), version.dependency)
+
+                    val declaration = LagCheckingService.getDeclaration(pm, classification, version.dependency)
+
+                    val orderedDependencies = dependenciesPublished.sortedByDescending { it.version }
+                    val cannotBeUsed = mutableListOf<DependencyVersion>() // Dependencies newer in terms of version at time t
+                    for (dep in orderedDependencies) {
+                        if (declaration.matches(dep.version)) {
+                            lags.add(getLag(version, dep.version, cannotBeUsed))
+                            break
+                        }
+                        cannotBeUsed.add(dep)
+                    }
+                } catch (e2: UnsupportedOperationException) {
+                    // We expect this. We just skip the version that can't have its declaration parsed
+                }
+            }
+        } catch (e: Exception) {
+            log.error(e)
+        }
+
+        for (lag in lags) {
+            lagtypes[lag.getLagType().ordinal]++
+
+            lagValueBuckets["major"]!!.putIfAbsent(lag.major, 0)
+            lagValueBuckets["major"]!![lag.major] = lagValueBuckets["major"]!![lag.major]!! + 1
+
+            lagValueBuckets["majorTime"]!!.putIfAbsent(lag.majorTime, 0)
+            lagValueBuckets["majorTime"]!![lag.majorTime] = lagValueBuckets["majorTime"]!![lag.majorTime]!! + 1
+
+            lagValueBuckets["minor"]!!.putIfAbsent(lag.minor, 0)
+            lagValueBuckets["minor"]!![lag.minor] = lagValueBuckets["minor"]!![lag.minor]!! + 1
+
+            lagValueBuckets["minorTime"]!!.putIfAbsent(lag.minorTime, 0)
+            lagValueBuckets["minorTime"]!![lag.minorTime] = lagValueBuckets["minorTime"]!![lag.minorTime]!! + 1
+
+            lagValueBuckets["micro"]!!.putIfAbsent(lag.micro, 0)
+            lagValueBuckets["micro"]!![lag.micro] = lagValueBuckets["micro"]!![lag.micro]!! + 1
+
+            lagValueBuckets["microTime"]!!.putIfAbsent(lag.microTime, 0)
+            lagValueBuckets["microTime"]!![lag.microTime] = lagValueBuckets["microTime"]!![lag.microTime]!! + 1
+        }
+    }
+
+    fun getLag(version: ContainsTime, leastLaggingVersion: Version, cannotBeUsed: List<DependencyVersion>) : Lag {
+        return Lag(cannotBeUsed
+                        .map { it.version.major }
+                        .filter { it > leastLaggingVersion.major }
+                        .toSet().size.toLong(),
+                cannotBeUsed
+                        .filter { it.version.sameMajor(leastLaggingVersion) }
+                        .map { it.version.minor }
+                        .filter { it > leastLaggingVersion.minor }
+                        .toSet().size.toLong(),
+                cannotBeUsed
+                        .filter { it.version.sameMinor(leastLaggingVersion) }
+                        .map { it.version.micro }
+                        .filter { it > leastLaggingVersion.micro }
+                        .toSet().size.toLong(),
+                getDaysLag(version, cannotBeUsed
+                        .filter { it.version.major > leastLaggingVersion.major }
+                        .minBy { it.version }),
+                getDaysLag(version, cannotBeUsed
+                        .filter { it.version.sameMajor(leastLaggingVersion) && it.version.minor > leastLaggingVersion.minor }
+                        .minBy { it.version }),
+                getDaysLag(version, cannotBeUsed
+                        .filter { it.version.sameMinor(leastLaggingVersion) && it.version.micro > leastLaggingVersion.micro }
+                        .minBy { it.version })
+        )
     }
 
     fun collectPairInfoAsString(pair: PairIDs) : String {

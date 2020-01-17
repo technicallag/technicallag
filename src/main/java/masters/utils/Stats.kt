@@ -27,6 +27,29 @@ fun descriptiveStats(numbers: MutableList<Long>?) : String {
             "${numbers[0]},${numbers[tenth]},${numbers[twentyfifth]},${numbers[median]},${numbers[seventyfifth]},${numbers[ninetieth]},${numbers[ninetyfifth]},${numbers[ninetyninth]},${numbers.last()}"
 }
 
+fun meanAndStddevFromBuckets(numbers: Map<Long,Int>) : Pair<Double, Double> {
+    val count = numbers.map { (_, v) -> v }.sum()
+    val mean = numbers.map { (k, v) -> k * v }.sum().toDouble() / count
+
+    return Pair(mean, sqrt(numbers.map { (k, v) -> (k - mean) * (k - mean) * v}.sum() / count))
+}
+
+fun meanAndStddevFromBucketsExcludeZeros(numbers: Map<Long,Int>) : Pair<Double, Double> {
+    val withoutZeros = numbers.filter { it.key != 0L }
+    val count = withoutZeros.map { (_, v) -> v }.sum()
+    val mean = withoutZeros.map { (k, v) -> k * v }.sum().toDouble() / count
+
+    return Pair(mean, sqrt(withoutZeros.map { (k, v) -> (k - mean) * (k - mean) * v}.sum() / count))
+}
+
+fun meanAndStddevFromBucketsExcludeZerosAndTwentyYears(numbers: Map<Long,Int>) : Pair<Double, Double> {
+    val withoutZeros = numbers.filter { it.key > 0L && it.key < (365*20) }
+    val count = withoutZeros.map { (_, v) -> v }.sum()
+    val mean = withoutZeros.map { (k, v) -> k * v }.sum().toDouble() / count
+
+    return Pair(mean, sqrt(withoutZeros.map { (k, v) -> (k - mean) * (k - mean) * v}.sum() / count))
+}
+
 fun stddev(numbers: MutableList<Long>) : Double {
     var sumsquare = 0.0
 
